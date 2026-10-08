@@ -1,26 +1,20 @@
-# Lecture 23: original PDFs needed
+# Lecture 23: verified original articles
 
-**Magnetoreception: sea turtle and migratory bird magnetic compasses**
+All requested PDFs are available. No missing paper or substituted visual remains. Fourteen primary articles support the deck; original published figures or supplementary figures appear on all 44 content slides. PDF and crop provenance is in sources/provenance.json.
 
-**Monday, October 19, 2026**
+1. Wiltschko W, Wiltschko R (1972). Magnetic Compass of European Robins. Science 176(4030):62-64. https://doi.org/10.1126/science.176.4030.62
+2. Pakhomov A, Anashina A, Heyers D, Kobylkov D, Mouritsen H, Chernetsov N (2018). Magnetic map navigation in a migratory songbird requires trigeminal input. Scientific Reports 8(1):11975. https://doi.org/10.1038/s41598-018-30477-8
+3. Mouritsen H, Feenders G, Liedvogel M, Wada K, Jarvis ED (2005). Night-vision brain area in migratory songbirds. Proceedings of the National Academy of Sciences 102(23):8339-8344. https://doi.org/10.1073/pnas.0409575102
+4. Zapka M, Heyers D, Hein CM, Engels S, Schneider NL, Hans J, Weiler S, Dreyer D, Kishkinev D, Wild JM, Mouritsen H (2009). Visual but not trigeminal mediation of magnetic compass information in a migratory bird. Nature 461(7268):1274-1277. https://doi.org/10.1038/nature08528
+5. Xu J, Jarocha LE, Zollitsch T, Konowalczyk M, Henbest KB, Richert S, Golesworthy MJ, Schmidt J, Déjean V, Sowood DJC, Bassetto M, Luo J, Walton JR, Fleming J, Wei Y, Pitcher TL, Moise G, Herrmann M, Yin H, Wu H, Bartölke R, Käsehagen SJ, Horst S, Dautaj G, Murton PDF, Gehrckens AS, Chelliah Y, Takahashi JS, Koch KW, Weber S, Solov’yov IA, Xie C, Mackenzie SR, Timmel CR, Mouritsen H, Hore PJ (2021). Magnetic sensitivity of cryptochrome 4 from a migratory songbird. Nature 594(7864):535-540. https://doi.org/10.1038/s41586-021-03618-9
+6. Treiber CD, Salzer MC, Riegler J, Edelman N, Sugar C, Breuss M, Pichler P, Cadiou H, Saunders M, Lythgoe M, Shaw J, Keays DA (2012). Clusters of iron-rich cells in the upper beak of pigeons are macrophages not magnetosensitive neurons. Nature 484(7394):367-370. https://doi.org/10.1038/nature11046
+7. Günther A, Einwich A, Sjulstok E, Feederle R, Bolte P, Koch KW, Solov’yov IA, Mouritsen H (2018). Double-Cone Localization and Seasonal Expression Pattern Suggest a Role in Magnetoreception for European Robin Cryptochrome 4. Current Biology 28(2):211-223.e4. https://doi.org/10.1016/j.cub.2017.12.003
+8. Engels S, Schneider NL, Lefeldt N, Hein CM, Zapka M, Michalik A, Elbers D, Kittel A, Hore PJ, Mouritsen H (2014). Anthropogenic electromagnetic noise disrupts magnetic compass orientation in a migratory bird. Nature 509(7500):353-356. https://doi.org/10.1038/nature13290
+9. Lohmann KJ, Cain SD, Dodge SA, Lohmann CMF (2001). Regional Magnetic Fields as Navigational Markers for Sea Turtles. Science 294(5541):364-366. https://doi.org/10.1126/science.1064557
+10. Goforth KM, Lohmann CMF, Gavin A, Henning R, Harvey A, Hinton TL, Lim DS, Lohmann KJ (2025). Learned magnetic map cues and two mechanisms of magnetoreception in turtles. Nature 638(8052):1015-1022. https://doi.org/10.1038/s41586-024-08554-y
+11. Lohmann KJ (1991). Magnetic Orientation By Hatchling Loggerhead Sea Turtles (Caretta Caretta). Journal of Experimental Biology 155(1):37-49. https://doi.org/10.1242/jeb.155.1.37
+12. Lohmann KJ, Lohmann CMF (1994). Detection of Magnetic Inclination Angle by Sea Turtles: A Possible Mechanism for Determining Latitude. Journal of Experimental Biology 194(1):23-32. https://doi.org/10.1242/jeb.194.1.23
+13. Mackiewicz AG, Glazener AM, Goforth KM, Lim DS, Lohmann CMF, Lohmann KJ (2025). Disruption of the sea turtle magnetic map sense by a magnetic pulse. Journal of Experimental Biology 228(22):jeb251243. https://doi.org/10.1242/jeb.251243
+14. McNally KL, Oakley C, Davila M, Farinelli S (2026). Disorientation patterns of loggerhead sea turtle (Caretta caretta) hatchlings in Pinellas County, Florida, USA. PLOS One 21(4):e0347104. https://doi.org/10.1371/journal.pone.0347104
 
-Authority: fresh clone of the connected repository’s default branch, `claude/neuroethology-fa2026-schedule-2lgmmr`, refreshed and merged through commit `4dfc791`. No ZIP or older checkout was used.
-
-Seven of the eight requested original PDFs have now been supplied, opened and extracted. Only the following requested paper remains unavailable:
-
-1. Günther A, Einwich A, Sjulstok E, Feederle R, Bolte P, Koch K, Solov’yov IA, Mouritsen H (2018). Double-Cone Localization and Seasonal Expression Pattern Suggest a Role in Magnetoreception for European Robin Cryptochrome 4. Current Biology 28:211-223.e4. https://doi.org/10.1016/j.cub.2017.12.003
-
-The additional upload `journal.pone.0347104.pdf` is McNally et al. (2026), **Disorientation patterns of loggerhead sea turtle (Caretta caretta) hatchlings in Pinellas County, Florida, USA**, PLOS One 21(4):e0347104, DOI https://doi.org/10.1371/journal.pone.0347104. It is a different study and does not contain the required original retinal cryptochrome localization figures. It is preserved as a potential supplementary source, not treated as the missing article.
-
-The instructor’s strict figure rule requires pausing before delivery while this original PDF is missing. No figure has been invented or substituted. Available PDF hashes and page counts are recorded in sources/available-pdfs.json.
-
-## Preparation retained
-
-- Reviewed current AGENTS.md, lecture skill, exact schedule, templates, theme registry, build tools and reusable prompt. The strict no-created-image rule is already persisted in the repository and prompt.
-- Reviewed supplied Lectures 19, 20, 21 and 22 and all repository reference presentations, including text, image counts and speaker notes.
-- Searched primary literature on turtle orientation, inclination sensing, regional magnetic fields, learned map cues, magnetic pulses, avian compass behavior, visual pathways, trigeminal map input, retinal cryptochromes, radiofrequency disruption and receptor-identity controls.
-- Verified full bibliographic metadata and DOIs through Crossref and Europe PMC.
-- Downloaded and extracted five original article PDFs: Mouritsen et al. (2005), Engels et al. (2014), Pakhomov et al. (2018), Xu et al. (2021), and Mackiewicz et al. (2025). Figures in author-accepted manuscripts must be matched to original article figure identities before cropping.
-- Original PDFs are retained outside the checkout in `/workspace/lecture23-research/papers/`; their hashes and page counts are recorded in sources/.
-- Confirmed existing Python, PowerPoint, PDF, poppler and LibreOffice dependencies. No setup configuration change was required.
-- No theme is marked used, no deck is exported and no image is created. After uploads, continue with 44 content slides, original published crops via tools/crop_figure.py, complete teaching notes, the exact title/date, final build/visual QA, and fresh Presenton download and preview URLs.
+The author-accepted Xu et al. manuscript supplies original supplementary figures S2, S3, S13 and S15. The Engels et al. author manuscript supplies original main figures 1–3. Published model/anatomical drawings are unchanged article crops; no scientific visual was created or reconstructed.

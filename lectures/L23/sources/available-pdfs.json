@@ -1,106 +1,86 @@
 [
   {
-    "paper": "bird72",
-    "file": "bird72.pdf",
-    "pages": 4,
-    "bytes": 841701,
+    "key": "bird72",
     "sha256": "ebf63efc0013d23c26ccd5b42e45459bbf787f027f1a8184611028196dab833f",
-    "acquisition": "instructor upload"
-  },
-  {
-    "paper": "birdmap14",
-    "file": "birdmap14.pdf",
-    "pages": 6,
-    "bytes": 1517753,
-    "sha256": "c3a0e2d478b7a7cf1fdb9009a3ab309f86e0a448cab9b743bf7066b8328230b1",
-    "acquisition": "downloaded original article PDF"
-  },
-  {
-    "paper": "cluster05",
-    "file": "cluster05.pdf",
-    "pages": 6,
-    "bytes": 896998,
-    "sha256": "ca81321568f1206780088cf2fd42c954796268445d16da41bbe59939092eaa02",
-    "acquisition": "downloaded original article PDF"
-  },
-  {
-    "paper": "cluster09",
-    "file": "cluster09.pdf",
-    "pages": 5,
-    "bytes": 497636,
-    "sha256": "bcf31b37bd0a981a836189d7cb26fc880f0f27e790f965f17ab364ddfb71c25b",
-    "acquisition": "instructor upload"
-  },
-  {
-    "paper": "cry4_21",
-    "file": "cry4_21.pdf",
-    "pages": 67,
-    "bytes": 5221768,
-    "sha256": "2e87473db0ef314ae4382e14da03e767a3f6cd2b21bb26a328d847bcc7793d4e",
-    "acquisition": "downloaded original article PDF"
-  },
-  {
-    "paper": "macrophage12",
-    "file": "macrophage12.pdf",
-    "pages": 5,
-    "bytes": 1701873,
-    "sha256": "904a37437510a2aa25497324ff4e995218987f65fd495071e511cedcbc9e3e38",
-    "acquisition": "instructor upload"
-  },
-  {
-    "paper": "rf14",
-    "file": "rf14.pdf",
-    "pages": 33,
-    "bytes": 10589686,
-    "sha256": "1e0c74185748ab705840f7c995d6656693df8945cad0795437ffa00a397bfed7",
-    "acquisition": "downloaded original article PDF"
-  },
-  {
-    "paper": "turtle01",
-    "file": "turtle01.pdf",
     "pages": 4,
-    "bytes": 138284,
-    "sha256": "26131cb208459821c27fe6045cf25e2dad73be7d9986d8589ab1c9d1f66a0b8e",
-    "acquisition": "instructor upload"
+    "reference": "Wiltschko W, Wiltschko R (1972). Magnetic Compass of European Robins. Science 176(4030):62-64. https://doi.org/10.1126/science.176.4030.62"
   },
   {
-    "paper": "turtle25",
-    "file": "turtle25.pdf",
-    "pages": 24,
-    "bytes": 4087792,
-    "sha256": "56707bb4aea6858a9b24001d49da1352aa8f3d5abb5bbb006ad25f3f828d8810",
-    "acquisition": "instructor upload"
-  },
-  {
-    "paper": "turtle91",
-    "file": "turtle91.pdf",
-    "pages": 13,
-    "bytes": 725228,
-    "sha256": "bf4027fb3d81c976a40359b92381f789d6808565b32597923da1f24956aeb903",
-    "acquisition": "instructor upload"
-  },
-  {
-    "paper": "turtle94",
-    "file": "turtle94.pdf",
-    "pages": 10,
-    "bytes": 71419,
-    "sha256": "453e936dc63e86f4df6df2badafcc13ad0cfda3a148be279c2840548d87ac75a",
-    "acquisition": "instructor upload"
-  },
-  {
-    "paper": "turtlepulse25",
-    "file": "turtlepulse25.pdf",
+    "key": "birdmap14",
+    "sha256": "c3a0e2d478b7a7cf1fdb9009a3ab309f86e0a448cab9b743bf7066b8328230b1",
     "pages": 6,
-    "bytes": 398843,
-    "sha256": "b0a09a7530f647fb1a19e000ede634923f09ed7232d19a51d82de56c9979e15b",
-    "acquisition": "downloaded original article PDF"
+    "reference": "Pakhomov A, Anashina A, Heyers D, Kobylkov D, Mouritsen H, Chernetsov N (2018). Magnetic map navigation in a migratory songbird requires trigeminal input. Scientific Reports 8(1):11975. https://doi.org/10.1038/s41598-018-30477-8"
   },
   {
-    "paper": "uploaded_pone",
-    "file": "uploaded_pone.pdf",
-    "pages": 16,
-    "bytes": 1094536,
+    "key": "cluster05",
+    "sha256": "ca81321568f1206780088cf2fd42c954796268445d16da41bbe59939092eaa02",
+    "pages": 6,
+    "reference": "Mouritsen H, Feenders G, Liedvogel M, Wada K, Jarvis ED (2005). Night-vision brain area in migratory songbirds. Proceedings of the National Academy of Sciences 102(23):8339-8344. https://doi.org/10.1073/pnas.0409575102"
+  },
+  {
+    "key": "cluster09",
+    "sha256": "bcf31b37bd0a981a836189d7cb26fc880f0f27e790f965f17ab364ddfb71c25b",
+    "pages": 5,
+    "reference": "Zapka M, Heyers D, Hein CM, Engels S, Schneider NL, Hans J, Weiler S, Dreyer D, Kishkinev D, Wild JM, Mouritsen H (2009). Visual but not trigeminal mediation of magnetic compass information in a migratory bird. Nature 461(7268):1274-1277. https://doi.org/10.1038/nature08528"
+  },
+  {
+    "key": "cry4_21",
+    "sha256": "2e87473db0ef314ae4382e14da03e767a3f6cd2b21bb26a328d847bcc7793d4e",
+    "pages": 67,
+    "reference": "Xu J, Jarocha LE, Zollitsch T, Konowalczyk M, Henbest KB, Richert S, Golesworthy MJ, Schmidt J, Déjean V, Sowood DJC, Bassetto M, Luo J, Walton JR, Fleming J, Wei Y, Pitcher TL, Moise G, Herrmann M, Yin H, Wu H, Bartölke R, Käsehagen SJ, Horst S, Dautaj G, Murton PDF, Gehrckens AS, Chelliah Y, Takahashi JS, Koch KW, Weber S, Solov’yov IA, Xie C, Mackenzie SR, Timmel CR, Mouritsen H, Hore PJ (2021). Magnetic sensitivity of cryptochrome 4 from a migratory songbird. Nature 594(7864):535-540. https://doi.org/10.1038/s41586-021-03618-9"
+  },
+  {
+    "key": "macrophage12",
+    "sha256": "904a37437510a2aa25497324ff4e995218987f65fd495071e511cedcbc9e3e38",
+    "pages": 5,
+    "reference": "Treiber CD, Salzer MC, Riegler J, Edelman N, Sugar C, Breuss M, Pichler P, Cadiou H, Saunders M, Lythgoe M, Shaw J, Keays DA (2012). Clusters of iron-rich cells in the upper beak of pigeons are macrophages not magnetosensitive neurons. Nature 484(7394):367-370. https://doi.org/10.1038/nature11046"
+  },
+  {
+    "key": "retina18",
+    "sha256": "6b98e2ced9ff4562deaf4e63895e2ad6ac8c3f3bb074a0b600003e3a39564571",
+    "pages": 18,
+    "reference": "Günther A, Einwich A, Sjulstok E, Feederle R, Bolte P, Koch KW, Solov’yov IA, Mouritsen H (2018). Double-Cone Localization and Seasonal Expression Pattern Suggest a Role in Magnetoreception for European Robin Cryptochrome 4. Current Biology 28(2):211-223.e4. https://doi.org/10.1016/j.cub.2017.12.003"
+  },
+  {
+    "key": "rf14",
+    "sha256": "1e0c74185748ab705840f7c995d6656693df8945cad0795437ffa00a397bfed7",
+    "pages": 33,
+    "reference": "Engels S, Schneider NL, Lefeldt N, Hein CM, Zapka M, Michalik A, Elbers D, Kittel A, Hore PJ, Mouritsen H (2014). Anthropogenic electromagnetic noise disrupts magnetic compass orientation in a migratory bird. Nature 509(7500):353-356. https://doi.org/10.1038/nature13290"
+  },
+  {
+    "key": "turtle01",
+    "sha256": "26131cb208459821c27fe6045cf25e2dad73be7d9986d8589ab1c9d1f66a0b8e",
+    "pages": 4,
+    "reference": "Lohmann KJ, Cain SD, Dodge SA, Lohmann CMF (2001). Regional Magnetic Fields as Navigational Markers for Sea Turtles. Science 294(5541):364-366. https://doi.org/10.1126/science.1064557"
+  },
+  {
+    "key": "turtle25",
+    "sha256": "56707bb4aea6858a9b24001d49da1352aa8f3d5abb5bbb006ad25f3f828d8810",
+    "pages": 24,
+    "reference": "Goforth KM, Lohmann CMF, Gavin A, Henning R, Harvey A, Hinton TL, Lim DS, Lohmann KJ (2025). Learned magnetic map cues and two mechanisms of magnetoreception in turtles. Nature 638(8052):1015-1022. https://doi.org/10.1038/s41586-024-08554-y"
+  },
+  {
+    "key": "turtle91",
+    "sha256": "bf4027fb3d81c976a40359b92381f789d6808565b32597923da1f24956aeb903",
+    "pages": 13,
+    "reference": "Lohmann KJ (1991). Magnetic Orientation By Hatchling Loggerhead Sea Turtles (Caretta Caretta). Journal of Experimental Biology 155(1):37-49. https://doi.org/10.1242/jeb.155.1.37"
+  },
+  {
+    "key": "turtle94",
+    "sha256": "453e936dc63e86f4df6df2badafcc13ad0cfda3a148be279c2840548d87ac75a",
+    "pages": 10,
+    "reference": "Lohmann KJ, Lohmann CMF (1994). Detection of Magnetic Inclination Angle by Sea Turtles: A Possible Mechanism for Determining Latitude. Journal of Experimental Biology 194(1):23-32. https://doi.org/10.1242/jeb.194.1.23"
+  },
+  {
+    "key": "turtlepulse25",
+    "sha256": "b0a09a7530f647fb1a19e000ede634923f09ed7232d19a51d82de56c9979e15b",
+    "pages": 6,
+    "reference": "Mackiewicz AG, Glazener AM, Goforth KM, Lim DS, Lohmann CMF, Lohmann KJ (2025). Disruption of the sea turtle magnetic map sense by a magnetic pulse. Journal of Experimental Biology 228(22):jeb251243. https://doi.org/10.1242/jeb.251243"
+  },
+  {
+    "key": "uploaded_pone",
     "sha256": "14b00e36d15d3ef598c3a61c105f78ef5972e0f0ef41138307465a12c22d3224",
-    "acquisition": "instructor upload"
+    "pages": 16,
+    "reference": "McNally KL, Oakley C, Davila M, Farinelli S (2026). Disorientation patterns of loggerhead sea turtle (Caretta caretta) hatchlings in Pinellas County, Florida, USA. PLOS One 21(4):e0347104. https://doi.org/10.1371/journal.pone.0347104"
   }
 ]
