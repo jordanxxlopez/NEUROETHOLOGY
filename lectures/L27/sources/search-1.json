@@ -1,0 +1,944 @@
+{
+  "version": "6.9",
+  "hitCount": 4,
+  "request": {
+    "queryString": "archerfish shooting jet hydrodynamic",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 50,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "38669514",
+        "source": "MED",
+        "pmid": "38669514",
+        "pmcid": "PMC11269045",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11269045"
+          ]
+        },
+        "doi": "10.1146/annurev-chembioeng-100722-113148",
+        "title": "Fluid Ejections in Nature.",
+        "authorString": "Challita EJ, Rohilla P, Bhamla MS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Challita EJ",
+              "lastName": "Challita",
+              "firstName": "Elio J",
+              "initials": "EJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, Atlanta, Georgia, USA."
+                  },
+                  {
+                    "affiliation": "School of Chemical and Biomolecular Engineering, Georgia Institute of Technology, Atlanta, Georgia, USA; email: saadb@chbe.gatech.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rohilla P",
+              "lastName": "Rohilla",
+              "firstName": "Pankaj",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemical and Biomolecular Engineering, Georgia Institute of Technology, Atlanta, Georgia, USA; email: saadb@chbe.gatech.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bhamla MS",
+              "lastName": "Bhamla",
+              "firstName": "M Saad",
+              "initials": "MS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemical and Biomolecular Engineering, Georgia Institute of Technology, Atlanta, Georgia, USA; email: saadb@chbe.gatech.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "15",
+          "journalIssueId": 3804095,
+          "dateOfPublication": "2024 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Annu Rev Chem Biomol Eng",
+            "title": "Annual review of chemical and biomolecular engineering",
+            "essn": "1947-5446",
+            "issn": "1947-5438",
+            "isoabbreviation": "Annu Rev Chem Biomol Eng",
+            "nlmid": "101574034"
+          },
+          "printPublicationDate": "2024-07-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "187-217",
+        "abstractText": "From microscopic fungi to colossal whales, fluid ejections are universal and intricate phenomena in biology, serving vital functions such as animal excretion, venom spraying, prey hunting, spore dispersal, and plant guttation. This review delves into the complex fluid physics of ejections across various scales, exploring both muscle-powered active systems and passive mechanisms driven by gravity or osmosis. It introduces a framework using dimensionless numbers to delineate transitions from dripping to jetting and elucidate the governing forces. Highlighting the understudied area of complex fluid ejections, this review not only rationalizes the biophysics involved but also uncovers potential engineering applications in soft robotics, additive manufacturing, and drug delivery. By bridging biomechanics, the physics of living systems, and fluid dynamics, this review offers valuable insights into the diverse world of fluid ejections and paves the way for future bioinspired research across the spectrum of life.",
+        "affiliation": "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, Atlanta, Georgia, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Review",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R35 GM142588",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Delivery Systems"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osmosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Robotics"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hydrodynamics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomechanical Phenomena"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Nozzle",
+            "Biofluid Dynamics",
+            "Droplet",
+            "Bioinspired Design",
+            "Jets",
+            "Fluid Interfaces",
+            "Physics Of Living Systems",
+            "Organismal Biophysics"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1146/annurev-chembioeng-100722-113148"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1146/annurev-chembioeng-100722-113148"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11269045"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11269045?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1146/annurev-chembioeng-100722-113148"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "38495571",
+              "reference": "ArXiv. 2024 Mar 4:arXiv:2403.02359v1.",
+              "type": "Update of",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1994635",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2024-07-25",
+        "dateOfCreation": "2024-04-26",
+        "dateOfRevision": "2025-09-30",
+        "electronicPublicationDate": "2024-07-03",
+        "firstPublicationDate": "2024-07-03",
+        "firstIndexDate": "2024-04-27",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37481772",
+        "source": "MED",
+        "pmid": "37481772",
+        "pmcid": "PMC10465633",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10465633"
+          ]
+        },
+        "doi": "10.1007/s00359-023-01658-2",
+        "title": "The archerfish predictive C-start.",
+        "authorString": "Schuster S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Schuster S",
+              "lastName": "Schuster",
+              "firstName": "Stefan",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0873-8996"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lehrstuhl f\u00fcr Tierphysiologie , University of Bayreuth , 95440, Bayreuth, Germany. stefan.schuster@uni-bayreuth.de."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0873-8996"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "209",
+          "journalIssueId": 3623143,
+          "dateOfPublication": "2023 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "J Comp Physiol A Neuroethol Sens Neural Behav Physiol",
+            "title": "Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology",
+            "essn": "1432-1351",
+            "issn": "0340-7594",
+            "isoabbreviation": "J Comp Physiol A Neuroethol Sens Neural Behav Physiol",
+            "nlmid": "101141792"
+          },
+          "printPublicationDate": "2023-09-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "827-837",
+        "abstractText": "A very quick decision enables hunting archerfish to secure downed prey even when they are heavily outnumbered by competing other surface-feeding fish. Based exclusively on information that is taken briefly after the onset of prey motion, the fish select a rapid C-start that turns them right towards the later point of catch. Moreover, the C-start, and not later fin strokes, already lends the fish the speed needed to arrive at just the right time. The archerfish predictive C-starts are kinematically not distinguishable from escape C-starts made by the same individual and are among the fastest C-starts known in teleost fish. The start decisions allow the fish-for ballistically falling prey-to respond accurately to any combination of the initial variables of prey movement and for any position and orientation of the responding fish. The start decisions do not show a speed-accuracy tradeoff and their accuracy is buffered against substantial changes of environmental parameters. Here, I introduce key aspects of this high-speed decision that combines speed, complexity, and precision in an unusual way.",
+        "affiliation": "Lehrstuhl f\u00fcr Tierphysiologie , University of Bayreuth , 95440, Bayreuth, Germany. stefan.schuster@uni-bayreuth.de.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Deutsche Forschungemeinschaft",
+              "orderIn": 0
+            },
+            {
+              "agency": "Universit\u00e4t Bayreuth",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fishes"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Perciformes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Predatory Behavior",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Motion Perception"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Movement"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Predator",
+            "decision-making",
+            "Neuroethology",
+            "C-start",
+            "Speed\u2013accuracy"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00359-023-01658-2"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10465633"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10465633?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-08-31",
+        "dateOfCreation": "2023-07-23",
+        "dateOfRevision": "2023-09-18",
+        "electronicPublicationDate": "2023-07-23",
+        "firstPublicationDate": "2023-07-23",
+        "firstIndexDate": "2023-07-23",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37430557",
+        "source": "MED",
+        "pmid": "37430557",
+        "pmcid": "PMC10221010",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10221010"
+          ]
+        },
+        "doi": "10.3390/s23104643",
+        "title": "Survey on the Developments of Unmanned Marine Vehicles: Intelligence and Cooperation.",
+        "authorString": "Bae I, Hong J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bae I",
+              "lastName": "Bae",
+              "firstName": "Inyeong",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Information and Communication Engineering, Changwon National University, Changwon 51140, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hong J",
+              "lastName": "Hong",
+              "firstName": "Jungpyo",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Information and Communication Engineering, Changwon National University, Changwon 51140, Republic of Korea."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "23",
+          "journalIssueId": 3577622,
+          "dateOfPublication": "2023 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Sensors (Basel)",
+            "title": "Sensors (Basel, Switzerland)",
+            "essn": "1424-8220",
+            "issn": "1424-8220",
+            "isoabbreviation": "Sensors (Basel)",
+            "nlmid": "101204366"
+          },
+          "printPublicationDate": "2023-05-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "4643",
+        "abstractText": "With the recent development of artificial intelligence (AI) and information and communication technology, manned vehicles operated by humans used on the ground, air, and sea are evolving into unmanned vehicles (UVs) that operate without human intervention. In particular, unmanned marine vehicles (UMVs), including unmanned underwater vehicles (UUVs) and unmanned surface vehicles (USVs), have the potential to complete maritime tasks that are unachievable for manned vehicles, lower the risk of man power, raise the power required to carry out military missions, and reap huge economic benefits. The aim of this review is to identify past and current trends in UMV development and present insights into future UMV development. The review discusses the potential benefits of UMVs, including completing maritime tasks that are unachievable for manned vehicles, lowering the risk of human intervention, and increasing power for military missions and economic benefits. However, the development of UMVs has been relatively tardy compared to that of UVs used on the ground and in the air due to adverse environments for UMV operation. This review highlights the challenges in developing UMVs, particularly in adverse environments, and the need for continued advancements in communication and networking technologies, navigation and sound exploration technologies, and multivehicle mission planning technologies to improve UMV cooperation and intelligence. Furthermore, the review identifies the importance of incorporating AI and machine learning technologies in UMVs to enhance their autonomy and ability to perform complex tasks. Overall, this review provides insights into the current state and future directions for UMV development.",
+        "affiliation": "Department of Information and Communication Engineering, Changwon National University, Changwon 51140, Republic of Korea.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Korea Research Institute for Defense Technology Planning and Advancement",
+              "grantId": "DCL2020L",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Artificial intelligence",
+            "Cooperation",
+            "Swarm",
+            "Unmanned Marine Vehicle"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/1424-8220/23/10/4643/pdf?version=1683778243"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/s23104643"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10221010"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10221010?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2023-07-11",
+        "dateOfCreation": "2023-07-11",
+        "dateOfRevision": "2023-07-18",
+        "electronicPublicationDate": "2023-05-10",
+        "firstPublicationDate": "2023-05-10",
+        "firstIndexDate": "2023-07-11",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30836892",
+        "source": "MED",
+        "pmid": "30836892",
+        "pmcid": "PMC6451394",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6451394"
+          ]
+        },
+        "doi": "10.1098/rsif.2019.0014",
+        "title": "Jumping dynamics of aquatic animals.",
+        "authorString": "Chang B, Myeong J, Virot E, Clanet C, Kim HY, Jung S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chang B",
+              "lastName": "Chang",
+              "firstName": "Brian",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4548-1800"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "1 Department of Biomedical Engineering and Mechanics, Virginia Tech , Blacksburg, VA 24061 , USA."
+                  },
+                  {
+                    "affiliation": "2 Department of Biology, Temple University , Philadelphia, PA 19122 , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Myeong J",
+              "lastName": "Myeong",
+              "firstName": "Jihye",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "3 Department of Mechanical and Aerospace Engineering, Seoul National University , Seoul 08826 , Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Virot E",
+              "lastName": "Virot",
+              "firstName": "Emmanuel",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1687-4450"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "4 \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne , CH 1015 Lausanne , Switzerland."
+                  },
+                  {
+                    "affiliation": "5 John A. Paulson School of Engineering and Applied Sciences, Harvard University , Cambridge, MA 02138 , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Clanet C",
+              "lastName": "Clanet",
+              "firstName": "Christophe",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2448-0443"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "6 LadHyX, CNRS UMR 7646, \u00c9cole Polytechnique , 91128 Palaiseau , France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim HY",
+              "lastName": "Kim",
+              "firstName": "Ho-Young",
+              "initials": "HY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "3 Department of Mechanical and Aerospace Engineering, Seoul National University , Seoul 08826 , Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jung S",
+              "lastName": "Jung",
+              "firstName": "Sunghwan",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1420-7921"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "7 Department of Biological and Environmental Engineering, Cornell University , Ithaca, NY 14853 , USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1420-7921"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4548-1800"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1687-4450"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2448-0443"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "152",
+          "volume": "16",
+          "journalIssueId": 2790633,
+          "dateOfPublication": "2019 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "J R Soc Interface",
+            "title": "Journal of the Royal Society, Interface",
+            "essn": "1742-5662",
+            "issn": "1742-5689",
+            "isoabbreviation": "J R Soc Interface",
+            "nlmid": "101217269"
+          },
+          "printPublicationDate": "2019-03-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "20190014",
+        "abstractText": "Jumping out of water is a phenomenon exhibited by a variety of aquatic and semi-aquatic animals. Yet, there is no common groundwork that clarifies the physical constraints required to jump out of water. In this study, we elucidate the physical conditions required for an animal to jump out of water. More than 100 jumps are analysed over five taxonomic groups. By balancing the power produced by animals with drag-induced dissipation, we expect that maximum jumping height, H, scales with body length, L, as H/ L \u223c L<sup>-1/3</sup> \u223c Fr<sup>2</sup>, where the Froude number, Fr, is a ratio of inertia to gravity. To identify jumping regimes, simplified experiments are conducted by shooting axisymmetric bodies through the water surface. Here, we see a transition in which partial exits scale as H/ L \u223c Fr and complete exits scale as H/ L \u223c Fr<sup>2</sup>. A bioinspired robotic flapping mechanism was designed to mimic the fast motion of impulsive jumping animals. When exiting water, the robot carries a large volume of fluid referred to as an entrained mass. A theoretical model is developed to predict the jumping height of various water-exiting bodies, which shows that the mass of the entrained fluid relative to the mass of the body limits the maximum jumping height. We conclude that the lack of entrained fluid allows animals to reach extraordinary heights compared to our water-exiting robots.",
+        "affiliation": "1 Department of Biomedical Engineering and Mechanics, Virginia Tech , Blacksburg, VA 24061 , USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Research Foundation of Korea",
+              "grantId": "2018R1A3B1052541",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Science Foundation",
+              "grantId": "EAPSI-1613138",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Water"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Swimming",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Models, Biological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aquatic Organisms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomechanical Phenomena"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Aquatic animals",
+            "Fluid Mechanics",
+            "Jumping",
+            "Water Exit"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Water",
+              "registryNumber": "059QF0KO0R"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rsif.2019.0014"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6451394"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6451394?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rsif.2019.0014"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2020-05-20",
+        "dateOfCreation": "2019-03-07",
+        "dateOfRevision": "2023-10-06",
+        "firstPublicationDate": "2019-03-01",
+        "firstIndexDate": "2019-03-07",
+        "fullTextReceivedDate": "2025-02-04",
+        "embargoDate": "2020-03-01",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

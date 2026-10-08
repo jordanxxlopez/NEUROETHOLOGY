@@ -1,0 +1,691 @@
+{
+  "version": "6.9",
+  "hitCount": 3,
+  "request": {
+    "queryString": "archerfish ballistic interception learning",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 50,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40557923",
+        "source": "MED",
+        "pmid": "40557923",
+        "pmcid": "PMC12194133",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12194133"
+          ]
+        },
+        "doi": "10.7554/elife.99634",
+        "title": "Learning and cognition in highspeed decision making.",
+        "authorString": "Krause M, Schulze W, Schuster S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Krause M",
+              "lastName": "Krause",
+              "firstName": "Martin",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-8884-9522"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Animal Physiology, University of Bayreuth, Bayreuth, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schulze W",
+              "lastName": "Schulze",
+              "firstName": "Wolfram",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Animal Physiology, University of Bayreuth, Bayreuth, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schuster S",
+              "lastName": "Schuster",
+              "firstName": "Stefan",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0873-8996"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Animal Physiology, University of Bayreuth, Bayreuth, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0873-8996"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-8884-9522"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "13",
+          "journalIssueId": 3954133,
+          "dateOfPublication": "2025 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Elife",
+            "title": "eLife",
+            "essn": "2050-084X",
+            "issn": "2050-084X",
+            "nlmid": "101579614",
+            "isoabbreviation": "Elife"
+          },
+          "printPublicationDate": "2025-06-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "RP99634",
+        "abstractText": "It is widely accepted that more time and information yield better decisions. However, some decisions manage to be extremely fast and yet accurate. The trick of such highspeed decisions appears to be the use of simplifying heuristics that works well for the most common condition but lacks flexibility otherwise. Here, we describe an unexpected level of flexibility in a complex highspeed decision that is made faster than an Olympic sprinter can respond to the start gun. In this decision, archerfish observe the initial speed, direction, and height of falling prey and then use these initial values to turn right towards where ballistically falling prey would later land. To analyze the limits in flexibility of this highspeed decision, we developed and critically tested a system that allowed us to replace the usual ballistic relation between initial prey motion and the expected landing point with another deterministic rule. We discovered that, surprisingly, adult fish could reprogram their highspeed decision to the new rule. Moreover, after reprogramming their decision fish were immediately able to generalize their decision to novel untrained settings, showing a remarkable degree of abstraction in how the decision circuit represented the novel rule. The decision circuit is even capable of simultaneously using two distinct sets of rules, one for each of two visually distinct objects. The flexibility and level of cognition are unexpected for a decision that lacks a speed-accuracy tradeoff and is made in less than 100 ms. Our findings demonstrate the enormous potential highspeed decision making can have and strongly suggest that we presently underappreciate this form of decision making.",
+        "affiliation": "Department of Animal Physiology, University of Bayreuth, Bayreuth, Germany.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Deutsche Forschungsgemeinschaft",
+              "grantId": "Schu1470/11-1",
+              "orderIn": 0
+            },
+            {
+              "agency": "Deutsche Forschungsgemeinschaft",
+              "grantId": "Schu1470/8-1",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fishes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Predatory Behavior"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cognition"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Learning"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Decision Making"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Reflex",
+            "Neuroscience",
+            "Animal Cognition",
+            "Speed-accuracy Tradeoff",
+            "Heuristics",
+            "Blink Decision",
+            "Rule-based Decision Making",
+            "Urgent Decision Making"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.7554/eLife.99634"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12194133"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12194133?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "PPR",
+              "id": "PPR872372",
+              "type": "Preprint in",
+              "note": "Link created based on a title-first author match",
+              "orderIn": 10002
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-06-25",
+        "dateOfCreation": "2025-06-25",
+        "dateOfRevision": "2025-06-27",
+        "electronicPublicationDate": "2025-06-25",
+        "firstPublicationDate": "2025-06-25",
+        "firstIndexDate": "2025-06-26",
+        "fullTextReceivedDate": "2025-11-28",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "42051242",
+        "source": "MED",
+        "pmid": "42051242",
+        "pmcid": "PMC13111196",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13111196"
+          ]
+        },
+        "doi": "10.3389/fnbot.2026.1761767",
+        "title": "Trainable movement control using spikes and muscle-twitch dynamics.",
+        "authorString": "Timmermans J, Schomaker L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Timmermans J",
+              "lastName": "Timmermans",
+              "firstName": "Jordi",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8833-5064"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Artificial Intelligence, Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence, University of Groningen, Groningen, Netherlands."
+                  },
+                  {
+                    "affiliation": "Groningen Cognitive Systems and Materials Center (CogniGron), University of Groningen, Groningen, Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schomaker L",
+              "lastName": "Schomaker",
+              "firstName": "Lambert",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2351-930X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Artificial Intelligence, Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence, University of Groningen, Groningen, Netherlands."
+                  },
+                  {
+                    "affiliation": "Groningen Cognitive Systems and Materials Center (CogniGron), University of Groningen, Groningen, Netherlands."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8833-5064"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2351-930X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "20",
+          "journalIssueId": 4123247,
+          "dateOfPublication": "2026 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Front Neurorobot",
+            "title": "Frontiers in neurorobotics",
+            "essn": "1662-5218",
+            "issn": "1662-5218",
+            "nlmid": "101477958",
+            "isoabbreviation": "Front Neurorobot"
+          },
+          "printPublicationDate": "2026-01-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "1761767",
+        "abstractText": "The biological sensorimotor system is a source of inspiration for the design of neuromorphic ballistic control systems. A large portion of sensorimotor-inspired research focuses on the sensory encoding and information processing stages of the system. However, research on broader task-performance systems, involving actuator control on the output side remains scarce. In this work, we develop and train a neuromuscular-inspired model to perform ballistic control. In the model, a spiking neural network's output spikes are used to generate twitch-like signals. These twitches are the basis for generating a continuous fluctuating output signal that is used to operate an actuator. We refer to the the used model as the Twitch Neural Network (TwNN). As a test case, the model is trained to control the paddle of an adapted version of the game of Pong. An adapted version of the Direct Feedback Alignment learning rule, specifically for integrate-and-fire neurons, is introduced. The new rule avoids the update-locking problem of backpropagation, allowing network weight updates in parallel. The model output consists of one group of agonist-innervating motor neurons, and one group of antagonist-innervating motor neurons. We find that it is possible to teach a neuromuscular-inspired system to control the paddle in the game of Pong with the adapted Direct Feedback Alignment learning rule. The best-performing baseline model achieved a hit rate of 96%. By applying logarithmic scaling to the output activity, a hit rate of 98% could be achieved. Finally, by replacing the neuromorphically unrealistic exact summation steps with leaky integrators in training, the range of good learning parameters became more narrow and clear. The best-performing model reaches a hit rate of 99%. Threshold analysis during training has shown that learning is robust to a variety of neuron thresholds. Noise analysis has shown that the system is robust to membrane potential noise during inference for uniform noise up to values in the order of around 0.1-1% of the neuron threshold value per time step.",
+        "affiliation": "Department of Artificial Intelligence, Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence, University of Groningen, Groningen, Netherlands.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Spiking Neural Networks",
+            "Neuromorphic",
+            "Twitch",
+            "Pong",
+            "Direct Feedback Alignment",
+            "Ballistic Control",
+            "Global Error",
+            "Neuromuscular Inspiration"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fnbot.2026.1761767"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13111196"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13111196?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-04-29",
+        "dateOfCreation": "2026-04-29",
+        "dateOfRevision": "2026-08-13",
+        "electronicPublicationDate": "2026-04-13",
+        "firstPublicationDate": "2026-04-13",
+        "firstIndexDate": "2026-04-30",
+        "fullTextReceivedDate": "2026-05-18",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39317312",
+        "source": "MED",
+        "pmid": "39317312",
+        "pmcid": "PMC11421899",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11421899"
+          ]
+        },
+        "doi": "10.1098/rspb.2024.1463",
+        "title": "Fish couple forecasting with feedback control to chase and capture moving prey.",
+        "authorString": "Martin BT, Sparks D, Hein AM, Liao JC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Martin BT",
+              "lastName": "Martin",
+              "firstName": "Benjamin T",
+              "initials": "BT",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3927-0449"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Theoretical and Computational Ecology, University of Amsterdam, Science Park 904 , Amsterdam 1098 XH, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sparks D",
+              "lastName": "Sparks",
+              "firstName": "David",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, The Whitney Laboratory for Marine Bioscience, University of Florida , Saint Augustine, FL 32080, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hein AM",
+              "lastName": "Hein",
+              "firstName": "Andrew M",
+              "initials": "AM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Computational Biology, Cornell University, Weill Hall, 102, Tower Rd , Ithaca, NY 14850, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liao JC",
+              "lastName": "Liao",
+              "firstName": "James C",
+              "initials": "JC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, The Whitney Laboratory for Marine Bioscience, University of Florida , Saint Augustine, FL 32080, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3927-0449"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2031",
+          "volume": "291",
+          "journalIssueId": 3829837,
+          "dateOfPublication": "2024 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Proc Biol Sci",
+            "title": "Proceedings. Biological sciences",
+            "essn": "1471-2954",
+            "issn": "0962-8452",
+            "nlmid": "101245157",
+            "isoabbreviation": "Proc Biol Sci"
+          },
+          "printPublicationDate": "2024-09-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "20241463",
+        "abstractText": "Predator<b>-</b>prey interactions are fundamental to ecological and evolutionary dynamics. Yet, predicting the outcome of such interactions-whether predators intercept prey or fail to do so-remains a challenge. An emerging hypothesis holds that interception trajectories of diverse predator species can be described by simple feedback control laws that map sensory inputs to motor outputs. This form of feedback control is widely used in engineered systems but suffers from degraded performance in the presence of processing delays such as those found in biological brains. We tested whether delay-uncompensated feedback control could explain predator pursuit manoeuvres using a novel experimental system to present hunting fish with virtual targets that manoeuvred in ways that push the limits of this type of control. We found that predator behaviour cannot be explained by delay-uncompensated feedback control, but is instead consistent with a pursuit algorithm that combines short-term forecasting of self-motion and prey motion with feedback control. This model predicts both predator interception trajectories and whether predators capture or fail to capture prey on a trial-by-trial basis. Our results demonstrate how animals can combine short-term forecasting with feedback control to generate robust flexible behaviours in the face of significant processing delays.",
+        "affiliation": "Department of Theoretical and Computational Ecology, University of Amsterdam, Science Park 904 , Amsterdam 1098 XH, The Netherlands.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Science Foundation Emerging Frontiers",
+              "orderIn": 0
+            },
+            {
+              "agency": "Dutch Research Council (NWO)",
+              "grantId": "VI.Vidi.203.085",
+              "orderIn": 0
+            },
+            {
+              "agency": "Division of Integrative Organismal Systems",
+              "orderIn": 0
+            },
+            {
+              "agency": "Division of Physics",
+              "orderIn": 0
+            },
+            {
+              "agency": "Dutch Research Council (NWO)",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Science Foundation Emerging Frontiers",
+              "grantId": "IOS-1855956",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fishes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Predatory Behavior"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Food Chain"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Biological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Feedback"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Forecasting",
+            "Feedback control",
+            "pursuit",
+            "Predator\u2013prey",
+            "Sensory-motor Delay"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rspb.2024.1463"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11421899"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11421899?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2024-09-24",
+        "dateOfCreation": "2024-09-24",
+        "dateOfRevision": "2026-07-21",
+        "electronicPublicationDate": "2024-09-25",
+        "firstPublicationDate": "2024-09-25",
+        "firstIndexDate": "2024-09-26",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}
