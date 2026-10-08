@@ -5,7 +5,7 @@
   "slides": [
     {
       "title": "CF-FM calls combine a sustained tone and a short sweep",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Echolocation** is active sensing with emitted sounds and returning echoes. A **constant-frequency component**, or CF, maintains nearly one frequency; a **frequency-modulated component**, or FM, changes frequency during the signal. CF-FM bats combine a prolonged tone with a brief downward sweep.",
         "In _Hipposideros armiger_, recordings during flight contain several **harmonics**, frequency components at integer multiples of the lowest component. The second harmonic carries the greatest amplitude. Its CF frequency is around 65–66 kHz in the animals studied by Schoeppler and colleagues.",
@@ -16,22 +16,32 @@
         "A harmonic belongs to a series of frequencies related by whole-number multiples. The second harmonic was the strongest component in these Hipposideros armiger recordings. Its frequency was near 65 to 66 kilohertz, which is above the human audible range.",
         "The recordings include stationary calling and flight toward a landing grid. The sustained component remained present during the final approach, although the calls became shorter and the higher harmonics weakened. The CF and FM labels describe acoustic components, not two separate calls."
       ],
-      "cite": "Schoeppler et al. (2018); Suga et al. (1975)",
+      "cite": "Schoeppler et al. (2018); Suga et al. (1975); Babl et al. (2025)",
       "refs": [
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161",
+        "Babl SS, Kiai A, García-Rosales F, Hechavarría JC (2025). Neuronal activity underlying vocal production in bats. Annals of the New York Academy of Sciences 1550(1):37–54. https://doi.org/10.1111/nyas.15410"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schoeppler18_fig1.png",
-        "caption": "Schoeppler et al. (2018), Fig. 1(a–d). Flight call sequence and CF-FM structure, in kHz and ms.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schoeppler18_fig1.png",
+          "caption": "Schoeppler et al. (2018), Fig. 1(a–d). Flight call sequence and CF-FM structure, in kHz and ms.",
+          "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        },
+        {
+          "kind": "article",
+          "path": "figures/babl25_fig1a.png",
+          "caption": "Babl et al. (2025), Fig. 1A. Pteronotus parnellii echolocation call: oscillogram and spectrogram with CF and FM parts.",
+          "source_url": "https://doi.org/10.1111/nyas.15410"
+        }
+      ],
+      "primary_figure_height": 1.54
     },
     {
       "title": "Flutter changes the echoes carried by the CF component",
-      "layout": "text",
+      "layout": "figures-right",
       "body": [
         "**Flutter** is the periodic motion of an insect’s wings. Flutter-detecting bats receive echoes whose amplitude and frequency vary as the reflecting wings move. The long CF component supplies a sustained carrier on which those changes can occur.",
         "The **auditory fovea** is an expanded, sharply tuned representation of a narrow frequency range in the hearing system. In CF-FM bats, that range corresponds closely to the returning CF component rather than to all ultrasonic frequencies equally.",
@@ -42,15 +52,33 @@
         "The term auditory fovea refers to unequal representation: a narrow range of frequencies receives unusually fine tuning and extensive representation. It does not mean that the ear is equally sensitive to every part of an ultrasonic call.",
         "Self-motion also changes echo frequency, even when the reflecting object is stationary. Compensation reduces that large shift of the carrier. It does not require the bat to remove every smaller fluctuation produced by a moving wing. Suga’s peripheral recordings and the flight observations address different parts of this combined sensory strategy."
       ],
-      "cite": "Schoeppler et al. (2018); Suga et al. (1975)",
+      "cite": "Schoeppler et al. (2018); Suga et al. (1975); Yoshida et al. (2026); Schoeppler et al. (2023)",
       "refs": [
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
-      ]
+        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161",
+        "Yoshida S, Matsumoto H, Kobayasi KI, Hiryu S (2026). Horseshoe bats (Rhinolophus nippon) suppress clutter noise through echolocation frequency control to detect prey. Communications Biology 9:663. https://doi.org/10.1038/s42003-026-10217-9",
+        "Schoeppler D, Kost K, Schnitzler H-U, Denzinger A (2023). Transmitter and receiver of the low frequency horseshoe bat Rhinolophus paradoxolophus are functionally matched for fluttering target detection. Journal of Comparative Physiology A 209(1):191–202. https://doi.org/10.1007/s00359-022-01571-0"
+      ],
+      "figure_width": 5.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/y26_fig3b.png",
+          "caption": "Yoshida et al. (2026), Fig. 3B. On-board recording near a tethered moth; wingbeat glints appear above the call band.",
+          "source_url": "https://doi.org/10.1038/s42003-026-10217-9"
+        },
+        {
+          "kind": "article",
+          "path": "figures/s23_fig1a.png",
+          "caption": "Schoeppler et al. (2023), Fig. 1a. Rhinolophus paradoxolophus call sequence from take-off to landing.",
+          "source_url": "https://doi.org/10.1007/s00359-022-01571-0"
+        }
+      ],
+      "primary_figure_height": 2.49
     },
     {
       "title": "Approaching a reflector raises returning echo frequency",
-      "layout": "text",
+      "layout": "figures-right",
       "body": [
         "A **Doppler shift** is a frequency change caused by relative motion between a sound source, a reflector, and a receiver. When a bat approaches a stationary object, the returning echo has a higher frequency than the emitted sound.",
         "**Doppler-shift compensation** lowers the frequency of subsequent calls as approaching motion raises echo frequency. The regulated quantity is the returning CF frequency. The emitted CF frequency must therefore change rather than remain fixed throughout flight.",
@@ -61,15 +89,33 @@
         "Compensation is an adjustment of the outgoing signal based on the returning signal. The bat can maintain a relatively stable echo frequency while producing a sequence of calls whose frequencies differ substantially.",
         "Free-flight recordings connect the adjustment to natural movement, but movement also changes distance, echo intensity, and other conditions. Artificial-echo playback provides a separate causal test. A stationary animal changes its call frequency when only the frequency of its acoustic feedback is altered, establishing that physical acceleration is not required to evoke the response."
       ],
-      "cite": "Schuller et al. (1974); Schoeppler et al. (2018)",
+      "cite": "Schuller et al. (1974); Schoeppler et al. (2018); Schoeppler et al. (2023); Luo et al. (2022)",
       "refs": [
         "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191",
-        "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
-      ]
+        "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
+        "Schoeppler D, Kost K, Schnitzler H-U, Denzinger A (2023). Transmitter and receiver of the low frequency horseshoe bat Rhinolophus paradoxolophus are functionally matched for fluttering target detection. Journal of Comparative Physiology A 209(1):191–202. https://doi.org/10.1007/s00359-022-01571-0",
+        "Luo J, Lu M, Wang X, Wang H, Moss CF (2022). Doppler shift compensation performance in Hipposideros pratti across experimental paradigms. Frontiers in Systems Neuroscience 16:920703. https://doi.org/10.3389/fnsys.2022.920703"
+      ],
+      "figure_width": 5.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/s23_fig2a.png",
+          "caption": "Schoeppler et al. (2023), Fig. 2a. Rhinolophus paradoxolophus: CF2 falls after take-off and recovers at landing.",
+          "source_url": "https://doi.org/10.1007/s00359-022-01571-0"
+        },
+        {
+          "kind": "article",
+          "path": "figures/luo22_fig5a.png",
+          "caption": "Luo et al. (2022), Fig. 5A. Hipposideros pratti in flight: emitted (blue) and echo (green) frequency.",
+          "source_url": "https://doi.org/10.3389/fnsys.2022.920703"
+        }
+      ],
+      "primary_figure_height": 2.0
     },
     {
       "title": "Resting frequency is an individual calling baseline",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "The **resting frequency** is the mean CF frequency of consecutive calls emitted by a stationary bat. In Schuller and colleagues’ greater horseshoe bats, _Rhinolophus ferrumequinum_, individual resting frequencies ranged from about 81 to 84.2 kHz.",
         "The investigators measured the central CF portion, excluding the first and last 5 ms to avoid the adjoining FM sweeps. Repeated calls clustered closely around an individual’s baseline. Playing back unshifted calls did not systematically change that baseline.",
@@ -80,21 +126,31 @@
         "These horseshoe bats called near 81 to 84.2 kilohertz. The measurements excluded the beginning and end of each call because those portions include frequency sweeps. The central sustained portion supplied the estimate of constant frequency.",
         "Unshifted playback controlled for the presence of an additional acoustic signal. It did not cause a systematic change in resting frequency. Frequency-shifted playback could therefore be compared against a baseline that was not simply altered by any echo presentation. The eventual frequency of a compensated echo must still be distinguished from this emission baseline."
       ],
-      "cite": "Schuller et al. (1974)",
+      "cite": "Schuller et al. (1974); Matsumoto et al. (2026)",
       "refs": [
-        "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191"
+        "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191",
+        "Matsumoto H, Yoshida S, Hiryu S (2026). Greater Japanese horseshoe bats (Rhinolophus nippon) gradually converge their echolocation call frequency to colony members. Journal of Comparative Physiology A 212(5):835–844. https://doi.org/10.1007/s00359-026-01821-5"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schuller74_fig1.png",
-        "caption": "Schuller et al. (1974), Fig. 1. Distribution of CF frequencies in a stationary horseshoe bat.",
-        "source_url": "https://doi.org/10.1007/BF00696191"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schuller74_fig1.png",
+          "caption": "Schuller et al. (1974), Fig. 1. Distribution of CF frequencies in a stationary horseshoe bat.",
+          "source_url": "https://doi.org/10.1007/BF00696191"
+        },
+        {
+          "kind": "article",
+          "path": "figures/matsu26_fig1a.png",
+          "caption": "Matsumoto et al. (2026), Fig. 1a. CF2 calls of a stationary greater Japanese horseshoe bat.",
+          "source_url": "https://doi.org/10.1007/s00359-026-01821-5"
+        }
+      ],
+      "primary_figure_height": 2.98
     },
     {
       "title": "Shifted playback causes subsequent calls to fall in pitch",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Schuller and colleagues returned each horseshoe bat’s own call through an electronic frequency shifter. The stationary animal could move its head, but it did not fly. The microphone and loudspeaker were positioned 34 cm in front of it.",
         "When the artificial echo was shifted upward, later emitted calls decreased in CF frequency. After several calls, the animal reached a new emission level. Increasing the imposed positive shift required progressively greater lowering of the outgoing frequency.",
@@ -105,21 +161,31 @@
         "The horseshoe bat remained stationary. An upward change in playback frequency nevertheless caused it to lower subsequent emissions. The response settled after a short sequence of calls, rather than being a fixed change caused by a single prerecorded tone.",
         "The intervention establishes an auditory contribution to frequency control. It does not identify the neurons that compare feedback with a preferred frequency, and it does not recreate every property of a naturally moving target. Natural Doppler shifts and an electronic shift can differ in how they affect the frequency-modulated parts of a call."
       ],
-      "cite": "Schuller et al. (1974)",
+      "cite": "Schuller et al. (1974); Wang et al. (2022)",
       "refs": [
-        "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191"
+        "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191",
+        "Wang H, Zhou Y, Li H, Moss CF, Li X, Luo J (2022). Sensory error drives fine motor adjustment. Proceedings of the National Academy of Sciences USA 119(27):e2201275119. https://doi.org/10.1073/pnas.2201275119"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schuller74_fig2.png",
-        "caption": "Schuller et al. (1974), Fig. 2. Emission-frequency compensation under increasing positive echo shifts, in Hz.",
-        "source_url": "https://doi.org/10.1007/BF00696191"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schuller74_fig2.png",
+          "caption": "Schuller et al. (1974), Fig. 2. Emission-frequency compensation under increasing positive echo shifts, in Hz.",
+          "source_url": "https://doi.org/10.1007/BF00696191"
+        },
+        {
+          "kind": "article",
+          "path": "figures/wang22_fig2ac.png",
+          "caption": "Wang et al. (2022), Fig. 2A–C. Hipposideros armiger calls under 0, −50 and +50 cent feedback shifts.",
+          "source_url": "https://doi.org/10.1073/pnas.2201275119"
+        }
+      ],
+      "primary_figure_height": 3.0
     },
     {
       "title": "Compensated echoes sit slightly above resting frequency",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "The **reference frequency** is the returning CF frequency maintained during compensation. In Schuller and colleagues’ experiments, the downward change in emission was slightly smaller than the upward shift imposed on the artificial echo.",
         "The resulting echo therefore remained above resting frequency. This **compensation offset**, the difference between reference and resting frequencies, was approximately 50–300 Hz across the bats studied and stayed relatively constant across an individual’s compensation range.",
@@ -130,21 +196,31 @@
         "The authors called the stabilized returning frequency the reference frequency. The offset between this reference and resting frequency was about 50 to 300 hertz, depending on the animal. Within an animal, that offset remained similar as the imposed shift increased.",
         "An emission change and an echo-frequency error are different measurements. A bat can make a large downward change in emitted frequency and still retain a small positive offset in feedback. The regulated echo band is therefore not identical to the average call frequency measured at rest."
       ],
-      "cite": "Schuller et al. (1974)",
+      "cite": "Schuller et al. (1974); Schoeppler et al. (2023)",
       "refs": [
-        "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191"
+        "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191",
+        "Schoeppler D, Kost K, Schnitzler H-U, Denzinger A (2023). Transmitter and receiver of the low frequency horseshoe bat Rhinolophus paradoxolophus are functionally matched for fluttering target detection. Journal of Comparative Physiology A 209(1):191–202. https://doi.org/10.1007/s00359-022-01571-0"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schuller74_fig3.png",
-        "caption": "Schuller et al. (1974), Fig. 3. Echo-frequency offset and emission compensation across imposed shifts, in kHz.",
-        "source_url": "https://doi.org/10.1007/BF00696191"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schuller74_fig3.png",
+          "caption": "Schuller et al. (1974), Fig. 3. Echo-frequency offset and emission compensation across imposed shifts, in kHz.",
+          "source_url": "https://doi.org/10.1007/BF00696191"
+        },
+        {
+          "kind": "article",
+          "path": "figures/s23_fig2bc.png",
+          "caption": "Schoeppler et al. (2023), Fig. 2b–d. Resting CF2 before take-off; emitted and echo frequency and flight speed in flight.",
+          "source_url": "https://doi.org/10.1007/s00359-022-01571-0"
+        }
+      ],
+      "primary_figure_height": 2.89
     },
     {
       "title": "Frequency compensation has a finite operating range",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Positive artificial shifts up to about 4.4 kHz were compensated across the horseshoe bats tested by Schuller and colleagues. Some animals responded over a range extending to about 6 kHz. The operating range was not unlimited.",
         "Above an individual’s compensation limit, responses differed. Some bats lowered emission by an insufficient amount, some changed frequency irregularly, and some continued near resting frequency. A large imposed shift did not always produce a proportionately larger correction.",
@@ -155,21 +231,31 @@
         "About 4.4 kilohertz could be compensated across the animals, and some animals compensated shifts approaching 6 kilohertz. At larger shifts, the behavioral response could saturate, become irregular, or disappear.",
         "A compensation limit does not by itself establish that the bat cannot hear the shifted sound. The response also depends on the comparison process and the vocal apparatus. These recordings establish the range of the whole auditory-vocal behavior under the playback conditions, rather than a separate limit for each component of the system."
       ],
-      "cite": "Schuller et al. (1974)",
+      "cite": "Schuller et al. (1974); Luo et al. (2022)",
       "refs": [
-        "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191"
+        "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191",
+        "Luo J, Lu M, Wang X, Wang H, Moss CF (2022). Doppler shift compensation performance in Hipposideros pratti across experimental paradigms. Frontiers in Systems Neuroscience 16:920703. https://doi.org/10.3389/fnsys.2022.920703"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schuller74_fig4.png",
-        "caption": "Schuller et al. (1974), Fig. 4. An individual compensation function and its reference-frequency offset.",
-        "source_url": "https://doi.org/10.1007/BF00696191"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schuller74_fig4.png",
+          "caption": "Schuller et al. (1974), Fig. 4. An individual compensation function and its reference-frequency offset.",
+          "source_url": "https://doi.org/10.1007/BF00696191"
+        },
+        {
+          "kind": "article",
+          "path": "figures/luo22_fig6a.png",
+          "caption": "Luo et al. (2022), Fig. 6A. Maximum Doppler compensation per bat in free flight and on a pendulum; 100% is full.",
+          "source_url": "https://doi.org/10.3389/fnsys.2022.920703"
+        }
+      ],
+      "primary_figure_height": 3.0
     },
     {
       "title": "Early playback tests found little response to lower echoes",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "In the 1974 experiments, downward shifts of artificial echoes did not evoke a systematic increase in emitted frequency. The bats continued calling near resting frequency, although their calls became somewhat less regular in frequency.",
         "This finding supported an initially asymmetric account: echoes above the reference band lowered emission, whereas echoes below it appeared ineffective. However, the intensity dependence of the response was not systematically measured in that study.",
@@ -180,15 +266,23 @@
         "Frequency and audibility are coupled in a sharply tuned hearing system. A sound below the most sensitive band may have to be much louder to be equally audible. Comparing feedback at the same physical sound level is therefore not necessarily comparing equal auditory stimulation.",
         "The later study controlled playback level relative to hearing threshold. Under those conditions, lower-frequency echoes did raise emitted frequency. The historical difference is a change in experimental conditions and interpretation, rather than evidence that the bat’s nervous system acquired a new ability between studies."
       ],
-      "cite": "Schuller et al. (1974); Metzner et al. (2002)",
+      "cite": "Schuller et al. (1974); Metzner et al. (2002); Wang et al. (2022)",
       "refs": [
         "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191",
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
-      ]
+        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
+        "Wang H, Zhou Y, Li H, Moss CF, Li X, Luo J (2022). Sensory error drives fine motor adjustment. Proceedings of the National Academy of Sciences USA 119(27):e2201275119. https://doi.org/10.1073/pnas.2201275119"
+      ],
+      "figure_width": 5.2,
+      "figure": {
+        "kind": "article",
+        "path": "figures/wang22_fig3fl.png",
+        "caption": "Wang et al. (2022), Fig. 3F–L. Call-frequency change across shift sizes from −150 to +150 cents.",
+        "source_url": "https://doi.org/10.1073/pnas.2201275119"
+      }
     },
     {
       "title": "Equal sound levels need not produce equal audibility",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "An **audiogram** relates sound frequency to the minimum level required for detection. The horseshoe bat’s auditory fovea has a low threshold near its preferred echo band, with substantially poorer sensitivity at some lower frequencies.",
         "**Sound pressure level**, or dB SPL, describes physical sound amplitude. **Sensation level** describes how far a sound lies above the hearing threshold at its frequency. Equal dB SPL values can correspond to different sensation levels.",
@@ -199,22 +293,32 @@
         "Sound pressure level measures the sound itself. Sensation level expresses that sound relative to the threshold at the tested frequency. A playback below the sensitive band can require a higher sound pressure level to achieve comparable auditory stimulation.",
         "The experiment therefore adjusted intensity as well as frequency. Comparing sufficiently audible feedback on both sides of resting frequency tested whether lower-frequency information could participate in call control. The audiogram reproduced in the article supplies the threshold context; the compensation measurements are the study’s behavioral intervention."
       ],
-      "cite": "Metzner et al. (2002); Long & Schnitzler (1975)",
+      "cite": "Metzner et al. (2002); Long & Schnitzler (1975); Schoeppler et al. (2023)",
       "refs": [
         "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
-        "Long GR, Schnitzler H-U (1975). Behavioural audiograms from the bat, Rhinolophus ferrumequinum. Journal of Comparative Physiology 100:211–219. https://doi.org/10.1007/BF00614531"
+        "Long GR, Schnitzler H-U (1975). Behavioural audiograms from the bat, Rhinolophus ferrumequinum. Journal of Comparative Physiology 100:211–219. https://doi.org/10.1007/BF00614531",
+        "Schoeppler D, Kost K, Schnitzler H-U, Denzinger A (2023). Transmitter and receiver of the low frequency horseshoe bat Rhinolophus paradoxolophus are functionally matched for fluttering target detection. Journal of Comparative Physiology A 209(1):191–202. https://doi.org/10.1007/s00359-022-01571-0"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/metzner02_fig1.png",
-        "caption": "Metzner et al. (2002), Fig. 1. Auditory thresholds and playback ranges; audiogram credited in the paper to Long and Schnitzler (1975).",
-        "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/metzner02_fig1.png",
+          "caption": "Metzner et al. (2002), Fig. 1. Auditory thresholds and playback ranges; audiogram credited in the paper to Long and Schnitzler (1975).",
+          "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
+        },
+        {
+          "kind": "article",
+          "path": "figures/s23_fig5.png",
+          "caption": "Schoeppler et al. (2023), Fig. 5. Behavioural audiogram of R. paradoxolophus; the arrow marks the threshold minimum.",
+          "source_url": "https://doi.org/10.1007/s00359-022-01571-0"
+        }
+      ],
+      "primary_figure_height": 2.14
     },
     {
       "title": "Audible lower-frequency echoes raise emitted frequency",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Metzner and colleagues sinusoidally varied the frequency of feedback made from each bat’s own call. A **sinusoidal modulation** is a repeated smooth rise and fall. Feedback shifts extended above or below the animal’s resting frequency.",
         "Positive shifts caused emitted frequency to decrease. At sufficient playback levels, negative shifts caused emitted frequency to increase above resting frequency. The opposite changes followed the changing frequency of the artificial echo.",
@@ -225,21 +329,31 @@
         "When the echo mimic was shifted upward, the bat lowered emission. When it was shifted downward and presented loudly enough, the bat raised emission above its resting frequency. The change occurred systematically over repeated cycles of the imposed modulation.",
         "The presence of an upward vocal correction establishes that feedback below resting frequency can influence the control system. The amount of correction remained smaller in that direction. Sensory participation and compensation completeness are separate claims, and only the former is required to reject a strictly one-sided auditory-feedback account."
       ],
-      "cite": "Metzner et al. (2002)",
+      "cite": "Metzner et al. (2002); Luo et al. (2022)",
       "refs": [
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
+        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
+        "Luo J, Lu M, Wang X, Wang H, Moss CF (2022). Doppler shift compensation performance in Hipposideros pratti across experimental paradigms. Frontiers in Systems Neuroscience 16:920703. https://doi.org/10.3389/fnsys.2022.920703"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/metzner02_fig2.png",
-        "caption": "Metzner et al. (2002), Fig. 2(A–D). Call and playback changes for positive and negative frequency shifts.",
-        "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/metzner02_fig2.png",
+          "caption": "Metzner et al. (2002), Fig. 2(A–D). Call and playback changes for positive and negative frequency shifts.",
+          "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
+        },
+        {
+          "kind": "article",
+          "path": "figures/luo22_fig4.png",
+          "caption": "Luo et al. (2022), Fig. 4. Hanging H. pratti under 0, +700 and −700 Hz feedback: rate, level, duration, frequency.",
+          "source_url": "https://doi.org/10.3389/fnsys.2022.920703"
+        }
+      ],
+      "primary_figure_height": 2.08
     },
     {
       "title": "Upward vocal corrections are smaller than downward ones",
-      "layout": "text",
+      "layout": "figures-right",
       "body": [
         "In Metzner and colleagues’ playback experiments, bats compensated for roughly 95% of positive shifts but only up to about 22% of the range of negative shifts. Increasing emission above resting frequency was possible but comparatively limited.",
         "A negative shift as large as 4.5 kHz produced a maximum observed emission increase of 1.51 kHz. Detecting feedback and generating a full motor correction therefore cannot be treated as the same capacity.",
@@ -250,14 +364,31 @@
         "The reported comparison was approximately 95 percent versus up to 22 percent. In one negative-shift condition, a shift of 4.5 kilohertz produced a maximum emission increase of 1.51 kilohertz. The animal responded to the feedback without fully cancelling it.",
         "The vocal apparatus must convert an auditory correction into a change in the call. The authors proposed that laryngeal constraints contribute to the smaller upward range. The experiment itself measured vocal output during playback; it did not directly measure the mechanical limit of an isolated laryngeal muscle."
       ],
-      "cite": "Metzner et al. (2002)",
+      "cite": "Metzner et al. (2002); Wang et al. (2022)",
       "refs": [
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
-      ]
+        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
+        "Wang H, Zhou Y, Li H, Moss CF, Li X, Luo J (2022). Sensory error drives fine motor adjustment. Proceedings of the National Academy of Sciences USA 119(27):e2201275119. https://doi.org/10.1073/pnas.2201275119"
+      ],
+      "figure_width": 5.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/wang22_fig2gi.png",
+          "caption": "Wang et al. (2022), Fig. 2G–I. Relative call-frequency change for 0, −50 and +50 cent shifts.",
+          "source_url": "https://doi.org/10.1073/pnas.2201275119"
+        },
+        {
+          "kind": "article",
+          "path": "figures/wang22_fig3ae.png",
+          "caption": "Wang et al. (2022), Fig. 3A–E. Frequency adjustment of two bats across small upward and downward shifts.",
+          "source_url": "https://doi.org/10.1073/pnas.2201275119"
+        }
+      ],
+      "primary_figure_height": 1.47
     },
     {
       "title": "Removing an imposed shift reverses the vocal correction",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "A **step perturbation** changes the imposed feedback shift abruptly. Metzner and colleagues first added a positive shift, which lowered call frequency. They then returned the apparatus to zero shift while the animal was still emitting below its resting frequency.",
         "At that instant, the playback also fell below resting frequency. The animal increased emission toward its previous baseline. Its correction depended on the current frequency of feedback, not simply on whether the apparatus had previously imposed a positive shift.",
@@ -268,21 +399,31 @@
         "When the electronic shift is removed, emission is still low for the first calls. Because the playback is made from those calls, the returning signal is now below resting frequency. The bat consequently raises its emission again.",
         "The same physical setting of the playback apparatus can therefore produce different feedback frequencies at different times. The current vocal output is part of the loop. The recovery phase establishes an active upward adjustment, rather than requiring that the bat passively return to its baseline after an upward shift ends."
       ],
-      "cite": "Metzner et al. (2002)",
+      "cite": "Metzner et al. (2002); Wang et al. (2022)",
       "refs": [
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
+        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
+        "Wang H, Zhou Y, Li H, Moss CF, Li X, Luo J (2022). Sensory error drives fine motor adjustment. Proceedings of the National Academy of Sciences USA 119(27):e2201275119. https://doi.org/10.1073/pnas.2201275119"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/metzner02_fig3a.png",
-        "caption": "Metzner et al. (2002), Fig. 3(A). A positive playback step lowers calls; removal of the step evokes recovery.",
-        "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/metzner02_fig3a.png",
+          "caption": "Metzner et al. (2002), Fig. 3(A). A positive playback step lowers calls; removal of the step evokes recovery.",
+          "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
+        },
+        {
+          "kind": "article",
+          "path": "figures/wang22_fig2df.png",
+          "caption": "Wang et al. (2022), Fig. 2D–F. CF of 10 calls before, 20 during and 10 after perturbation; feedback in blue.",
+          "source_url": "https://doi.org/10.1073/pnas.2201275119"
+        }
+      ],
+      "primary_figure_height": 1.35
     },
     {
       "title": "Louder feedback accelerates correction in both directions",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Metzner and colleagues varied echo-mimic attenuation while maintaining stepwise frequency perturbations. **Attenuation** is a reduction in signal level. Stronger feedback produced faster vocal adjustment for both upward and downward corrections.",
         "For recovery after a negative step, reported response time constants shortened from about 2.28 s at 30 dB attenuation to 0.89 s at zero attenuation. For positive steps, corresponding values shortened from about 1.64 s to 0.75 s.",
@@ -293,21 +434,31 @@
         "Stronger feedback accelerated call-frequency recovery and accelerated the lowering response to a positive shift. The reported time constants were on the order of a second for the stronger conditions and longer for weaker feedback.",
         "The time constant was measured from the vocal trajectory, using the progress toward the final correction. It is not a directly measured conduction delay in a single neuron. The experiment constrains the behavior of the entire feedback loop and requires an account that includes the strength of the returning acoustic signal."
       ],
-      "cite": "Metzner et al. (2002)",
+      "cite": "Metzner et al. (2002); Yoshida et al. (2026)",
       "refs": [
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
+        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
+        "Yoshida S, Matsumoto H, Kobayasi KI, Hiryu S (2026). Horseshoe bats (Rhinolophus nippon) suppress clutter noise through echolocation frequency control to detect prey. Communications Biology 9:663. https://doi.org/10.1038/s42003-026-10217-9"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/metzner02_fig3b.png",
-        "caption": "Metzner et al. (2002), Fig. 3(B). Call-frequency recovery under strong and attenuated feedback, in seconds.",
-        "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/metzner02_fig3b.png",
+          "caption": "Metzner et al. (2002), Fig. 3(B). Call-frequency recovery under strong and attenuated feedback, in seconds.",
+          "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
+        },
+        {
+          "kind": "article",
+          "path": "figures/y26_fig1b.png",
+          "caption": "Yoshida et al. (2026), Fig. 1B. Phantom echoes (red) and calls (blue) under constant, periodic and multiple shifts.",
+          "source_url": "https://doi.org/10.1038/s42003-026-10217-9"
+        }
+      ],
+      "primary_figure_height": 1.55
     },
     {
       "title": "The larynx converts auditory correction into call frequency",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "The **larynx** is the vocal sound-producing organ. Metzner and colleagues described call-frequency control through motor activity reaching the laryngeal apparatus, including the superior laryngeal nerve and the cricothyroid muscle.",
         "The **cricothyroid muscle** changes the mechanical state of the vocal apparatus. Its activity must be coordinated with opening and closure of the **glottis**, the airway opening at the vocal folds. The authors proposed that this coordination limits large increases in call frequency.",
@@ -318,14 +469,22 @@
         "The cricothyroid muscle participates in changing the mechanical conditions of sound production. Its action is coordinated with activity at the glottis. That coordination can make raising a call above its normal resting frequency different from lowering it below the baseline.",
         "Metzner and colleagues used previous stimulation and vocal-production studies to discuss this asymmetry. Their own experiments measured calls during auditory feedback perturbations. Those measurements specify what a successful sensory-to-motor mechanism must accomplish, but they do not provide a muscle recording or a direct biomechanical test of the proposed restriction."
       ],
-      "cite": "Metzner et al. (2002)",
+      "cite": "Metzner et al. (2002); Babl et al. (2025)",
       "refs": [
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
-      ]
+        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
+        "Babl SS, Kiai A, García-Rosales F, Hechavarría JC (2025). Neuronal activity underlying vocal production in bats. Annals of the New York Academy of Sciences 1550(1):37–54. https://doi.org/10.1111/nyas.15410"
+      ],
+      "figure_width": 5.2,
+      "figure": {
+        "kind": "article",
+        "path": "figures/babl25_fig4ad.png",
+        "caption": "Babl et al. (2025), Fig. 4A–D. Rousettus frontal cortex: recording site, Nissl section and vocalization-locked firing.",
+        "source_url": "https://doi.org/10.1111/nyas.15410"
+      }
     },
     {
       "title": "Opposed feedback actions can stabilize a vocal set point",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "A **set point** is the preferred state maintained by a feedback system. Positive and negative echo-frequency deviations evoke opposing vocal changes around the resting band. Louder feedback accelerates both directions of adjustment.",
         "Metzner and colleagues argued that an **antagonistic feedback mechanism**, combining opposing effects on vocal motor activity, is consistent with these results. They reported preliminary pharmacological evidence implicating the inhibitory transmitter GABA acting through GABA_A receptors and the excitatory transmitter glutamate acting through AMPA receptors.",
@@ -336,14 +495,22 @@
         "The authors proposed opposed inhibitory and excitatory actions. GABA is a neurotransmitter associated here with an inhibitory pathway through GABA_A receptors. Glutamate is the neurotransmitter associated with an excitatory pathway through AMPA receptors. A neurotransmitter is a chemical signal acting at a synapse, and a receptor is the molecular target through which it affects the receiving cell.",
         "The receptor account in this paper was linked to preliminary pharmacological work, not demonstrated by the call recordings themselves. It supports a mechanistic hypothesis without supplying a complete map of cell types, receptor distributions, or the connections that implement the comparison."
       ],
-      "cite": "Metzner et al. (2002)",
+      "cite": "Metzner et al. (2002); Hase et al. (2022)",
       "refs": [
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
-      ]
+        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
+        "Hase K, Kadoya Y, Takeuchi Y, Kobayasi KI, Hiryu S (2022). Echo reception in group flight by Japanese horseshoe bats, Rhinolophus ferrumequinum nippon. Royal Society Open Science 9(2):211597. https://doi.org/10.1098/rsos.211597"
+      ],
+      "figure_width": 5.2,
+      "figure": {
+        "kind": "article",
+        "path": "figures/hase22_fig4.png",
+        "caption": "Hase et al. (2022), Fig. 4. Group flight: a bat’s own echo CF2 stays near its reference while others’ calls vary.",
+        "source_url": "https://doi.org/10.1098/rsos.211597"
+      }
     },
     {
       "title": "Cochlear recordings separate receptor and neural signals",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "The **cochlea** is the inner-ear structure that converts sound into receptor activity. Suga and colleagues recorded **cochlear microphonics**, or CM, electrical responses related to acoustic stimulation of the cochlea, using an electrode at the round window.",
         "They also recorded the **N1 response**, summed activity of primary auditory neurons. CM and N1 therefore sampled different stages of peripheral processing: receptor-related activity and neural discharge. Tone bursts allowed the researchers to compare responses during sound and at its onset and cessation.",
@@ -354,17 +521,27 @@
         "The N1 signal represents the summed activity of primary auditory neurons. Recording both signals allows a receptor-related transient to be compared with a transient in neural discharge. Their similarity can support a peripheral origin for a neural response, although the two measurements are not interchangeable.",
         "Suga and colleagues presented controlled tone bursts and calibrated their amplitude at the ear. Short bursts exposed onset and offset effects while reducing interference from the middle-ear muscle reflex. The frequency dependence of these effects supplied evidence about the sharply tuned mechanical properties of the inner ear."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Suga et al. (1975); Wang et al. (2025)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161",
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear cell atlas of two laryngeal echolocating bats—new evidence for the adaptive nervous physiology in constant frequency bat. Molecular Ecology Resources 25(6):e14101. https://doi.org/10.1111/1755-0998.14101"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig1.png",
-        "caption": "Suga et al. (1975), Fig. 1(A–B). Round-window cochlear and neural responses to calibrated tone bursts.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga75_fig1.png",
+          "caption": "Suga et al. (1975), Fig. 1(A–B). Round-window cochlear and neural responses to calibrated tone bursts.",
+          "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        },
+        {
+          "kind": "article",
+          "path": "figures/wangx25_fig1e.png",
+          "caption": "Wang et al. (2025), Fig. 1E. H&E sections of the cochlea of R. ferrumequinum (top) and Myotis pilosus.",
+          "source_url": "https://doi.org/10.1111/1755-0998.14101"
+        }
+      ],
+      "primary_figure_height": 2.56
     },
     {
       "title": "The cochlear response is sharply tuned near CF2",
@@ -518,7 +695,7 @@
     },
     {
       "title": "Terminal FM suppresses cochlear offset transients",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Suga and colleagues compared a CF tone ending abruptly with the same tone followed by a downward FM component. The added sweep changed the cochlear response after the sustained tone rather than merely adding a second independent response.",
         "A terminal FM sweep reduced residual CM activity and the summed neural offset response under the tested conditions. The effect depended on the sweep’s extent and duration. CF and FM therefore interact in the peripheral time course of excitation.",
@@ -529,21 +706,31 @@
         "The cochlear residual response and the summed neural offset response were reduced. Changing the duration and extent of the terminal sweep changed the outcome, so the components cannot be treated as independent sounds whose responses simply add together.",
         "This interaction was measured in controlled peripheral recordings. It establishes that a brief FM ending can alter how the resonant system stops responding to CF stimulation. It does not directly measure prey capture or prove that the same degree of suppression occurs for every natural call and echo."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Suga et al. (1975); Schoeppler et al. (2023)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161",
+        "Schoeppler D, Kost K, Schnitzler H-U, Denzinger A (2023). Transmitter and receiver of the low frequency horseshoe bat Rhinolophus paradoxolophus are functionally matched for fluttering target detection. Journal of Comparative Physiology A 209(1):191–202. https://doi.org/10.1007/s00359-022-01571-0"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig8.png",
-        "caption": "Suga et al. (1975), Fig. 8(A–D). Terminal FM changes cochlear ringing and the summed neural offset response.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga75_fig8.png",
+          "caption": "Suga et al. (1975), Fig. 8(A–D). Terminal FM changes cochlear ringing and the summed neural offset response.",
+          "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        },
+        {
+          "kind": "article",
+          "path": "figures/s23_fig1b.png",
+          "caption": "Schoeppler et al. (2023), Fig. 1b. R. paradoxolophus call with initial FM, CF and terminal FM, with power spectrum.",
+          "source_url": "https://doi.org/10.1007/s00359-022-01571-0"
+        }
+      ],
+      "primary_figure_height": 2.1
     },
     {
       "title": "Peripheral neurons can discharge when a tone ends",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Suga and colleagues recorded individual peripheral auditory neurons, sampling the auditory nerve and nearby cochlear nucleus. A **post-stimulus-time histogram** aligns impulses from repeated trials to the onset of the same stimulus.",
         "Individual neurons could produce sustained activity during a tone and concentrated discharges after its cessation. For some tested frequencies and levels, the offset discharge remained prominent even when sustained activity was weak.",
@@ -554,17 +741,27 @@
         "The sampled neurons included auditory-nerve and nearby cochlear-nucleus recordings. Some neurons produced a distinct cluster of impulses after the tone ended. At lower levels or particular frequencies, this offset cluster could remain conspicuous while the sustained response was much weaker.",
         "The observation supplies a cellular counterpart to the summed neural offset potential. These were not necessarily neurons with an exclusive offset-only function. The data relate individual activity to peripheral transients and cannot be used to assign the same response to a specific cortical cell type."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Suga et al. (1975); Wang et al. (2025)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161",
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear cell atlas of two laryngeal echolocating bats—new evidence for the adaptive nervous physiology in constant frequency bat. Molecular Ecology Resources 25(6):e14101. https://doi.org/10.1111/1755-0998.14101"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig9.png",
-        "caption": "Suga et al. (1975), Fig. 9(A–D). Single-neuron responses across tone frequency and level, with offset discharges.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga75_fig9.png",
+          "caption": "Suga et al. (1975), Fig. 9(A–D). Single-neuron responses across tone frequency and level, with offset discharges.",
+          "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        },
+        {
+          "kind": "article",
+          "path": "figures/wangx25_fig1b.png",
+          "caption": "Wang et al. (2025), Fig. 1B. Cochlear cell types of R. ferrumequinum from single-nucleus RNA-seq, incl. SGN1 and SGN2.",
+          "source_url": "https://doi.org/10.1111/1755-0998.14101"
+        }
+      ],
+      "primary_figure_height": 2.43
     },
     {
       "title": "Neural tuning narrows near the preferred echo band",
@@ -768,7 +965,7 @@
     },
     {
       "title": "The cortex devotes extensive space to the CF echo band",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "The **primary auditory cortex** is a cortical region receiving organized auditory input. In Suga’s mustached-bat study, the Doppler-shifted-CF processing area occupied about 2.3 mm², approximately 30% of primary auditory cortex.",
         "Its neurons were concentrated near the 61–63 kHz band associated with CF components of emitted signals and echoes. This large representation mirrors the peripheral specialization but adds cortical response properties beyond a neuron’s best frequency.",
@@ -779,10 +976,18 @@
         "Tonotopy means that frequency preference changes systematically with location. Within the enlarged CF region, many neurons could share similar best frequencies. The experiment therefore measured their response to sound amplitude as well as frequency.",
         "The cortical representation adds another dimension to the peripheral frequency code. The measured area and tuning describe auditory representation, not proof that this entire cortical region is necessary for every compensation response. Suga also cautioned that the region’s specialization does not exclude responses to signals other than orientation calls and their echoes."
       ],
-      "cite": "Suga (1977)",
+      "cite": "Suga (1977); Washington et al. (2018)",
       "refs": [
-        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681"
-      ]
+        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681",
+        "Washington SD, Hamaide J, Jeurissen B, van Steenkiste G, Huysmans T, Sijbers J, Deleye S, Kanwal JS, De Groof G, Liang S, Van Audekerke J, Wenstrup JJ, Van der Linden A, Radtke-Schuller S, Verhoye M (2018). A three-dimensional digital neurological atlas of the mustached bat (Pteronotus parnellii). NeuroImage 183:300–313. https://doi.org/10.1016/j.neuroimage.2018.08.013"
+      ],
+      "figure_width": 5.2,
+      "figure": {
+        "kind": "article",
+        "path": "figures/wash18_fig9b.png",
+        "caption": "Washington et al. (2018), Fig. 9B. Mustached-bat auditory cortex map; DSCF area (black) with iso-frequency contours in kHz.",
+        "source_url": "https://doi.org/10.1016/j.neuroimage.2018.08.013"
+      }
     },
     {
       "title": "Some cortical neurons prefer an intermediate sound level",
@@ -811,7 +1016,7 @@
     },
     {
       "title": "Columns share frequency and amplitude preferences",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Suga inserted electrodes approximately perpendicular to the cortical surface. Neurons encountered along an individual penetration had similar best frequencies, response thresholds, and preferred amplitudes, supporting a **columnar organization** of those properties.",
         "A **cortical column** here means a depth-oriented grouping with related response preferences. Across the cortical surface, best frequency and best amplitude changed systematically. Suga mapped these two properties using single-neuron and multi-unit responses.",
@@ -822,21 +1027,31 @@
         "This relation supports a columnar organization: nearby neurons aligned through cortical depth have related preferences. The preference changes when the surface location of the electrode changes, so the cortex contains an ordered map rather than the same response everywhere.",
         "Multi-unit recording pools the activity of neighboring cells. Because their preferences were similar at a location, the pooled response could supply an estimate of its best frequency and amplitude. That estimate is useful for mapping but does not identify every cell’s connectivity or replace all single-neuron measurements."
       ],
-      "cite": "Suga (1977)",
+      "cite": "Suga (1977); Washington et al. (2018)",
       "refs": [
-        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681"
+        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681",
+        "Washington SD, Hamaide J, Jeurissen B, van Steenkiste G, Huysmans T, Sijbers J, Deleye S, Kanwal JS, De Groof G, Liang S, Van Audekerke J, Wenstrup JJ, Van der Linden A, Radtke-Schuller S, Verhoye M (2018). A three-dimensional digital neurological atlas of the mustached bat (Pteronotus parnellii). NeuroImage 183:300–313. https://doi.org/10.1016/j.neuroimage.2018.08.013"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga77_fig2bc.png",
-        "caption": "Suga (1977), Fig. 2(B–C). Frequency and best-amplitude contours in the mapped CF processing region.",
-        "source_url": "https://doi.org/10.1126/science.190681"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga77_fig2bc.png",
+          "caption": "Suga (1977), Fig. 2(B–C). Frequency and best-amplitude contours in the mapped CF processing region.",
+          "source_url": "https://doi.org/10.1126/science.190681"
+        },
+        {
+          "kind": "article",
+          "path": "figures/wash18_fig8a.png",
+          "caption": "Washington et al. (2018), Fig. 8A. Nissl and myelin-stained coronal sections of the mustached-bat brain.",
+          "source_url": "https://doi.org/10.1016/j.neuroimage.2018.08.013"
+        }
+      ],
+      "primary_figure_height": 2.41
     },
     {
       "title": "Amplitude and frequency occupy cortical coordinates",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Amplitopic representation** is an orderly spatial organization of preferred sound amplitude. In Suga’s mapped CF processing area, best-frequency contours and best-amplitude contours followed different directions across the cortical surface.",
         "The best-amplitude organization varied among animals. The posterior region consistently placed larger preferred amplitudes dorsally, whereas the anterior region could follow either of two arrangements. The data support structured amplitude representation without a single identical map in every bat.",
@@ -847,21 +1062,31 @@
         "Suga found a systematic relation between location and best amplitude, but the arrangement was not identical across all animals. Two patterns were described in the anterior part of the CF processing area, while the posterior pattern was more consistent.",
         "The maps gave more space to intermediate preferred sound levels than to very high preferred levels. The author proposed a relation to the amplitudes of echoes commonly used in echolocation. The mapping experiment measured neural preference and location; it did not independently sample the complete distribution of echoes encountered by a bat in nature."
       ],
-      "cite": "Suga (1977)",
+      "cite": "Suga (1977); Washington et al. (2018)",
       "refs": [
-        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681"
+        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681",
+        "Washington SD, Hamaide J, Jeurissen B, van Steenkiste G, Huysmans T, Sijbers J, Deleye S, Kanwal JS, De Groof G, Liang S, Van Audekerke J, Wenstrup JJ, Van der Linden A, Radtke-Schuller S, Verhoye M (2018). A three-dimensional digital neurological atlas of the mustached bat (Pteronotus parnellii). NeuroImage 183:300–313. https://doi.org/10.1016/j.neuroimage.2018.08.013"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga77_fig2de.png",
-        "caption": "Suga (1977), Fig. 2(D–E). Measured best amplitude varies with cortical position, in dB SPL and degrees.",
-        "source_url": "https://doi.org/10.1126/science.190681"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga77_fig2de.png",
+          "caption": "Suga (1977), Fig. 2(D–E). Measured best amplitude varies with cortical position, in dB SPL and degrees.",
+          "source_url": "https://doi.org/10.1126/science.190681"
+        },
+        {
+          "kind": "article",
+          "path": "figures/wash18_fig9c.png",
+          "caption": "Washington et al. (2018), Fig. 9C. Auditory cortical fields of Pteronotus on the 3D MRI brain, dorsal view.",
+          "source_url": "https://doi.org/10.1016/j.neuroimage.2018.08.013"
+        }
+      ],
+      "primary_figure_height": 2.13
     },
     {
       "title": "Cortical activity represents a spectrum across populations",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "An **amplitude spectrum** specifies signal amplitude across frequencies. Suga’s cortical data supported a representation in which both frequency preference and preferred amplitude vary with the location of responding neurons.",
         "This organization differs from describing amplitude only through the discharge rate of an individual peripheral neuron. Cortical population activity can change spatially when either frequency or amplitude changes, and upper-threshold responses can sharpen that organization.",
@@ -872,14 +1097,22 @@
         "At the periphery, increasing amplitude often changes discharge rate within a frequency-selective population. In the cortex, a stronger signal can also change which populations are most strongly activated because different locations prefer different amplitudes.",
         "The preferences are not infinitely sharp. A particular acoustic signal can activate several columns, and a column can respond to a range of signals. Consequently, the activity at one cortical site cannot uniquely specify a target’s velocity or size. The interpretation depends on the distributed response and the acoustic conditions producing the echo."
       ],
-      "cite": "Suga (1977)",
+      "cite": "Suga (1977); Washington et al. (2018)",
       "refs": [
-        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681"
-      ]
+        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681",
+        "Washington SD, Hamaide J, Jeurissen B, van Steenkiste G, Huysmans T, Sijbers J, Deleye S, Kanwal JS, De Groof G, Liang S, Van Audekerke J, Wenstrup JJ, Van der Linden A, Radtke-Schuller S, Verhoye M (2018). A three-dimensional digital neurological atlas of the mustached bat (Pteronotus parnellii). NeuroImage 183:300–313. https://doi.org/10.1016/j.neuroimage.2018.08.013"
+      ],
+      "figure_width": 5.2,
+      "figure": {
+        "kind": "article",
+        "path": "figures/wash18_fig9de.png",
+        "caption": "Washington et al. (2018), Fig. 9D–E. DSCF, FM-FM and CF/CF fields on the 3D brain, left and right lateral views.",
+        "source_url": "https://doi.org/10.1016/j.neuroimage.2018.08.013"
+      }
     },
     {
       "title": "Free flight lowers emission while preserving echo frequency",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Schoeppler and colleagues studied _Hipposideros armiger_ flying toward a landing grid. They recorded echolocation signals, reconstructed the flight trajectory, and calculated the frequency of echoes from targets ahead using the measured flight speed.",
         "During acceleration, emitted CF2 frequency decreased. In a representative flight, the minimum emission frequency coincided with a maximum speed of 4.7 m/s. The calculated returning frequency remained close to the animal’s reference band.",
@@ -890,21 +1123,31 @@
         "The emitted second-harmonic CF frequency fell as the bat accelerated. In the example flight, the lowest emission coincided with a speed of 4.7 metres per second. The calculated echo frequency changed far less than the emitted frequency.",
         "The result supplies a natural-flight counterpart to playback experiments. Its echo measure remains an estimate based on recorded calls and reconstructed movement. The method does not directly measure cochlear stimulation, and the distinction between recorded emission and calculated echo frequency is necessary when assessing the evidence for compensation precision."
       ],
-      "cite": "Schoeppler et al. (2018)",
+      "cite": "Schoeppler et al. (2018); Yoshida et al. (2026)",
       "refs": [
-        "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
+        "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
+        "Yoshida S, Matsumoto H, Kobayasi KI, Hiryu S (2026). Horseshoe bats (Rhinolophus nippon) suppress clutter noise through echolocation frequency control to detect prey. Communications Biology 9:663. https://doi.org/10.1038/s42003-026-10217-9"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schoeppler18_fig2ef.png",
-        "caption": "Schoeppler et al. (2018), Fig. 2(e–f). Measured emission and flight speed, with calculated echo frequency.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schoeppler18_fig2ef.png",
+          "caption": "Schoeppler et al. (2018), Fig. 2(e–f). Measured emission and flight speed, with calculated echo frequency.",
+          "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        },
+        {
+          "kind": "article",
+          "path": "figures/y26_fig2b.png",
+          "caption": "Yoshida et al. (2026), Fig. 2B. On-board microphone: calls lowered in frequency, echoes held near a fixed band.",
+          "source_url": "https://doi.org/10.1038/s42003-026-10217-9"
+        }
+      ],
+      "primary_figure_height": 3.0
     },
     {
       "title": "Approach changes call timing while CF is retained",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Pulse interval** is the time between consecutive calls; **duty cycle** is the proportion of time occupied by sound emission. Both describe how frequently a bat samples its surroundings, independently of CF frequency.",
         "In _H. armiger_, pulse intervals and call durations decreased toward landing. During the final approach, mean call duration reached about 3–4 ms and pulse interval about 11–12 ms. Duty cycle increased, while the CF component remained present.",
@@ -915,21 +1158,31 @@
         "The Hipposideros armiger calls became shorter and more closely spaced near the landing grid. The final approach included calls of roughly 3 to 4 milliseconds and intervals of roughly 11 to 12 milliseconds. The sustained CF component was retained.",
         "The bat was therefore changing the timing of sampling at the same time that it controlled frequency. These measurements describe flight toward a landing target, not prey capture. The frequency, duration, interval, and harmonic changes belong to the observed approach behavior and should not be treated as identical results for every hunting situation."
       ],
-      "cite": "Schoeppler et al. (2018)",
+      "cite": "Schoeppler et al. (2018); Luo et al. (2022)",
       "refs": [
-        "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
+        "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
+        "Luo J, Lu M, Wang X, Wang H, Moss CF (2022). Doppler shift compensation performance in Hipposideros pratti across experimental paradigms. Frontiers in Systems Neuroscience 16:920703. https://doi.org/10.3389/fnsys.2022.920703"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schoeppler18_fig2.png",
-        "caption": "Schoeppler et al. (2018), Fig. 2(a–f). Call timing, FM properties, duty cycle, and compensation during approach.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schoeppler18_fig2.png",
+          "caption": "Schoeppler et al. (2018), Fig. 2(a–f). Call timing, FM properties, duty cycle, and compensation during approach.",
+          "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        },
+        {
+          "kind": "article",
+          "path": "figures/luo22_fig2.png",
+          "caption": "Luo et al. (2022), Fig. 2. H. pratti flight to a platform: position, speed, call rate, level, duration, frequency.",
+          "source_url": "https://doi.org/10.3389/fnsys.2022.920703"
+        }
+      ],
+      "primary_figure_height": 2.37
     },
     {
       "title": "Resting and reference frequencies shift together",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Schoeppler and colleagues measured resting frequency immediately before each flight and reference frequency from the corresponding calculated echoes. The absolute values changed between flights and across recording days, rather than remaining permanently fixed.",
         "The two frequencies remained closely coupled. Their mean offset was about 80 Hz, with the reference usually above the resting frequency. In one bat, reference frequency declined by about 1 kHz over nine days.",
@@ -945,16 +1198,25 @@
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schoeppler18_fig3.png",
-        "caption": "Schoeppler et al. (2018), Fig. 3(a–b). Paired resting and reference frequencies and their offsets across flights.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schoeppler18_fig3.png",
+          "caption": "Schoeppler et al. (2018), Fig. 3(a–b). Paired resting and reference frequencies and their offsets across flights.",
+          "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        },
+        {
+          "kind": "article",
+          "path": "figures/h18_fig5.png",
+          "caption": "Schoeppler et al. (2018), Fig. 5. Resting versus reference frequency for 20 flights per bat.",
+          "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        }
+      ],
+      "primary_figure_height": 2.11
     },
     {
       "title": "Precision within a flight differs from stability across days",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Control precision** describes how closely echo frequency remains near the reference within a flight. **Longer-term stability** describes how little that reference changes across flights or days. These are different properties of the feedback system.",
         "In Schoeppler and colleagues’ recordings, emission changed with speed while calculated echoes stayed near the reference. Deviations from the reference were only weakly related to speed across the tested trajectories, with greater variation at low speeds.",
@@ -965,21 +1227,31 @@
         "The calculated echo frequency remained near the reference over a range of flight speeds. The deviations were only weakly predicted by speed, although they were more variable near low speeds. The outgoing calls changed much more substantially with movement.",
         "These data separate a shifting preferred frequency from inaccurate regulation. They support precise compensation in the studied Hipposideros armiger preparation and revise an interpretation based on measurements taken at different times. The result is not a measurement of every hipposiderid, and the echo estimates depend on the reconstructed flight and the target geometry used in the study."
       ],
-      "cite": "Schoeppler et al. (2018)",
+      "cite": "Schoeppler et al. (2018); Schoeppler et al. (2023)",
       "refs": [
-        "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
+        "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
+        "Schoeppler D, Kost K, Schnitzler H-U, Denzinger A (2023). Transmitter and receiver of the low frequency horseshoe bat Rhinolophus paradoxolophus are functionally matched for fluttering target detection. Journal of Comparative Physiology A 209(1):191–202. https://doi.org/10.1007/s00359-022-01571-0"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schoeppler18_fig4.png",
-        "caption": "Schoeppler et al. (2018), Fig. 4(a–b). Calculated echo frequency and deviation from the flight-specific reference versus speed.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schoeppler18_fig4.png",
+          "caption": "Schoeppler et al. (2018), Fig. 4(a–b). Calculated echo frequency and deviation from the flight-specific reference versus speed.",
+          "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        },
+        {
+          "kind": "article",
+          "path": "figures/s23_fig3.png",
+          "caption": "Schoeppler et al. (2023), Fig. 3. R. paradoxolophus: resting and reference frequencies over 3 weeks.",
+          "source_url": "https://doi.org/10.1007/s00359-022-01571-0"
+        }
+      ],
+      "primary_figure_height": 1.7
     },
     {
       "title": "Resting call frequency rises as torpid bats warm",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Torpor** is a state of reduced physiological activity associated here with lower temperature. Schoeppler and colleagues attached a miniature logger between the shoulder blades of _H. armiger_ and recorded skin temperature together with echolocation calls.",
         "After the experimenter entered the room, resting bats became more active, warmed, and increased their CF2 resting frequency. The largest frequency rise during activation reached about 1.44 kHz. The change occurred without a flight-induced Doppler shift.",
@@ -995,16 +1267,25 @@
         "Schoeppler D, Denzinger A, Schnitzler H-U (2022). The resting frequency of echolocation signals changes with body temperature in the hipposiderid bat Hipposideros armiger. Journal of Experimental Biology 225(3):jeb243569. https://doi.org/10.1242/jeb.243569"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schoeppler22_fig2cde.png",
-        "caption": "Schoeppler et al. (2022), Fig. 2(C–E). Skin temperature, calling activity, and resting CF2 frequency during activation.",
-        "source_url": "https://doi.org/10.1242/jeb.243569"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schoeppler22_fig2cde.png",
+          "caption": "Schoeppler et al. (2022), Fig. 2(C–E). Skin temperature, calling activity, and resting CF2 frequency during activation.",
+          "source_url": "https://doi.org/10.1242/jeb.243569"
+        },
+        {
+          "kind": "article",
+          "path": "figures/h22_fig1.png",
+          "caption": "Schoeppler et al. (2022), Fig. 1. Relative skin temperature of two bats over 34 h; lines mark experimenter entry.",
+          "source_url": "https://doi.org/10.1242/jeb.243569"
+        }
+      ],
+      "primary_figure_height": 1.79
     },
     {
       "title": "Frequency can peak before measured skin temperature",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Schoeppler and colleagues compared the time of maximum resting frequency with the time of maximum skin temperature during activation. The frequency maximum generally occurred earlier, while skin temperature continued increasing.",
         "After the skin-temperature maximum, both temperature and resting frequency tended to decline. The timing difference prevents a simple conversion of every skin-temperature change into a fixed frequency change throughout warming and cooling.",
@@ -1020,16 +1301,25 @@
         "Schoeppler D, Denzinger A, Schnitzler H-U (2022). The resting frequency of echolocation signals changes with body temperature in the hipposiderid bat Hipposideros armiger. Journal of Experimental Biology 225(3):jeb243569. https://doi.org/10.1242/jeb.243569"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schoeppler22_fig3a.png",
-        "caption": "Schoeppler et al. (2022), Fig. 3(A). Resting-frequency and skin-temperature peaks differ in time during activation.",
-        "source_url": "https://doi.org/10.1242/jeb.243569"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schoeppler22_fig3a.png",
+          "caption": "Schoeppler et al. (2022), Fig. 3(A). Resting-frequency and skin-temperature peaks differ in time during activation.",
+          "source_url": "https://doi.org/10.1242/jeb.243569"
+        },
+        {
+          "kind": "article",
+          "path": "figures/h22_fig4.png",
+          "caption": "Schoeppler et al. (2022), Fig. 4. Skin-temperature rise against prior calling activity and resting-frequency rise.",
+          "source_url": "https://doi.org/10.1242/jeb.243569"
+        }
+      ],
+      "primary_figure_height": 2.59
     },
     {
       "title": "A changing sensory band can coexist with precise feedback",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "State-dependent resting-frequency changes and the coupling of resting and reference frequencies support an **adaptive operating band**: the feedback system can regulate around a preferred frequency that changes with the animal’s physiological state.",
         "Schoeppler and colleagues proposed that the controlled variable is activation of the cochlear foveal resonance system. **Afferent pathways** carry sensory activity toward control centers; **efferent pathways** carry motor commands toward the vocal apparatus, changing the next emitted call.",
@@ -1040,19 +1330,29 @@
         "The authors proposed regulation of activity in the cochlear resonance system. Afferent input carries sensory information into the nervous system. Efferent output changes the vocal apparatus, and the new call changes the acoustic feedback returning to the ear.",
         "That account connects the measured observations, but the warming experiment did not directly record the cochlear activity being proposed as the controlled variable. The strongest established claims remain the change in resting frequency, the relation to skin temperature, and the coupling of resting and reference frequencies measured in the separate flight study. Precise regulation and a changing preferred band are compatible."
       ],
-      "cite": "Schoeppler et al. (2022); Schoeppler et al. (2018); Metzner et al. (2002)",
+      "cite": "Schoeppler et al. (2022); Schoeppler et al. (2018); Metzner et al. (2002); Matsumoto et al. (2026)",
       "refs": [
         "Schoeppler D, Denzinger A, Schnitzler H-U (2022). The resting frequency of echolocation signals changes with body temperature in the hipposiderid bat Hipposideros armiger. Journal of Experimental Biology 225(3):jeb243569. https://doi.org/10.1242/jeb.243569",
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
+        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
+        "Matsumoto H, Yoshida S, Hiryu S (2026). Greater Japanese horseshoe bats (Rhinolophus nippon) gradually converge their echolocation call frequency to colony members. Journal of Comparative Physiology A 212(5):835–844. https://doi.org/10.1007/s00359-026-01821-5"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schoeppler22_fig5.png",
-        "caption": "Schoeppler et al. (2022), Fig. 5. Resting frequency covaries with skin temperature across activation and recovery.",
-        "source_url": "https://doi.org/10.1242/jeb.243569"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/schoeppler22_fig5.png",
+          "caption": "Schoeppler et al. (2022), Fig. 5. Resting frequency covaries with skin temperature across activation and recovery.",
+          "source_url": "https://doi.org/10.1242/jeb.243569"
+        },
+        {
+          "kind": "article",
+          "path": "figures/matsu26_fig2ab.png",
+          "caption": "Matsumoto et al. (2026), Fig. 2a–b. CF2 of captured (red) and resident (black) bats over 30 days.",
+          "source_url": "https://doi.org/10.1007/s00359-026-01821-5"
+        }
+      ],
+      "primary_figure_height": 3.0
     }
   ],
   "takeaways": {
@@ -1092,5 +1392,13 @@
         "text": "Resting and reference frequencies can shift together, and resting calls change during warming without a flight-induced Doppler shift."
       }
     ]
+  },
+  "title_image": {
+    "kind": "web",
+    "path": "figures/title_rhinolophus.png",
+    "caption": "Photo: greater horseshoe bats (Rhinolophus ferrumequinum) roosting in a cave in winter; Raffaele Maiorano, CC0 1.0 (Wikimedia Commons).",
+    "credit": "Raffaele Maiorano (iNaturalist)",
+    "license": "CC0 1.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rhinolophus_ferrumequinum_110412929.jpg"
   }
 }

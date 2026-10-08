@@ -474,3 +474,7 @@ spec={'lecture':16,'theme':'espresso-stone','content_slides':44,'slides':slides,
 assert len(slides)==44, len(slides)
 (ROOT/'lecture.json').write_text(json.dumps(spec,indent=2,ensure_ascii=False)+'\n')
 print(f'Wrote {len(slides)} content slides; {sum("figure" in s for s in slides)} article-figure slides')
+
+# Article figures added after the original build (text unchanged).
+import add_images  # noqa: E402
+add_images.apply()

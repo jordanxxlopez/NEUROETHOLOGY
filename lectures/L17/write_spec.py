@@ -296,3 +296,7 @@ assert len(slides)==44,len(slides)
 assert sum('figure' in s for s in slides)>=40
 (ROOT/'lecture.json').write_text(json.dumps(spec,indent=2,ensure_ascii=False)+'\n')
 print('Wrote',len(slides),'content slides;',sum('figure' in s for s in slides),'article-figure slides')
+
+# Article figures added after the original build (text unchanged).
+import add_images  # noqa: E402
+add_images.apply()
