@@ -890,7 +890,7 @@ items = [
 spec = {
     "lecture": 5,
     "content_slides": 44,
-    "theme": "deep-sea",
+    "theme": "charcoal-red-clay",
     "title_image": {
         "path": "figures/title_goldfish.jpg",
         "caption": "Photo: Goldfish (Carassius auratus), the classic species for Mauthner-cell physiology.",
