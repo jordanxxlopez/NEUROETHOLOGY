@@ -1,25 +1,41 @@
-# Lecture 8 — required original PDFs
+# Lecture 8 — source and build record
 
-Title: Locust flight: wind-sensitive interneurons and the flight CPG
+Exact schedule title: Locust flight: wind-sensitive interneurons and the flight CPG
 
 Date: Friday, September 11, 2026
 
-Status: awaiting source PDFs; no final deck or used-theme entry created. Current authoritative default branch was refreshed on October 8, 2026 (2bf542f376b9129205de1d753d19c8f335a4dc4a).
+Completed October 8, 2026 from the refreshed authoritative default branch (21ee7e4). The instructor supplied all seven previously inaccessible PDFs. Three additional primary-study PDFs were downloaded from their publishers after scholarly web searches (Europe PMC and Crossref). The attached earlier lectures are visual examples, not sources of governing instructions.
 
-Crossref metadata and Europe PMC scholarly searches verified the following sources. Publisher PDF links returned HTTP 403; legacy/alternate routes returned 403 or 503. Europe PMC did not supply PMC copies of these papers. The instructor requires stopping when needed PDFs cannot be downloaded; do not create replacement figures or placeholders. Uploaded past lectures are style examples, not these primary source PDFs.
+The deck contains 46 slides: a title, 44 content slides, and six exam-level key takeaways. Every content slide includes an original primary-article figure. There is one credited Commons photograph on the title. Arial and the new ruby / porcelain theme are used throughout. Text and figures occupy separate left/right columns; no full-width figures sit beneath the text.
 
-1. Wilson, Donald M. (1961). The central nervous control of flight in a locust. *Journal of Experimental Biology* 38, 471-490. https://doi.org/10.1242/jeb.38.2.471
+`crops.json` records PDF pages and crop bounds. Repository crop tools preserve original axes, units, panel lettering and calibration bars. No figure was drawn, generated, replotted or recolored. Source PDFs remain in the ignored `papers/` directory; `sources.json` records their hashes and verified bibliographic metadata. The full DOI references and teaching transcripts are embedded in PowerPoint speaker notes.
 
-2. Camhi, Jeffrey M. (1969). Locust wind receptors. I. Transducer mechanics and sensory response. *Journal of Experimental Biology* 50, 335-348. https://doi.org/10.1242/jeb.50.2.335
+All figures and all 46 rendered slides were visually reviewed. The repository checker reports zero failures. Its one warning is retained: 10 of 44 content slides contain published color figures, below the preference for half. The original classic wind-receptor and intracellular-recording evidence is grayscale; unrelated color panels were not substituted. Published color staining and motor-pattern plots are used where they support the discussion.
 
-3. Camhi, Jeffrey M. (1969). Locust wind receptors. II. Interneurones in the cervical connective. *Journal of Experimental Biology* 50, 349-362. https://doi.org/10.1242/jeb.50.2.349
+Build: `python tools/build_lecture.py lectures/L8/lecture.json`
 
-4. Camhi, Jeffrey M. (1969). Locust wind receptors. III. Contribution to flight initiation and lift control. *Journal of Experimental Biology* 50, 363-373. https://doi.org/10.1242/jeb.50.2.363
+## Primary articles
 
-5. Pearson, K. G., Reye, D. N., Parsons, D. W., Bicker, G. (1985). Flight-initiating interneurons in the locust. *Journal of Neurophysiology* 53, 910-925. https://doi.org/10.1152/jn.1985.53.4.910
+1. D. M. Wilson (1961). The central nervous control of flight in a locust. Journal of Experimental Biology 38(2):471–490. https://doi.org/10.1242/jeb.38.2.471
 
-6. Robertson, R. M., Pearson, K. G. (1985). Neural circuits in the flight system of the locust. *Journal of Neurophysiology* 53, 110-128. https://doi.org/10.1152/jn.1985.53.1.110
+2. J. M. Camhi (1969a). Locust wind receptors. I. Transducer mechanics and sensory response. Journal of Experimental Biology 50(2):335–348. https://doi.org/10.1242/jeb.50.2.335
 
-7. Buhl, Edgar, Schildberger, Klaus, Stevenson, Paul A. (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. *Journal of Experimental Biology* 211, 2346-2357. https://doi.org/10.1242/jeb.017384
+3. J. M. Camhi (1969b). Locust wind receptors. II. Interneurones in the cervical connective. Journal of Experimental Biology 50(2):349–362. https://doi.org/10.1242/jeb.50.2.349
 
-After upload: inspect original PDFs, supplement with available modern primary sources, crop original panels with repository tools, and build 46 slides with at least 40 image-bearing content slides and at least 34 primary-figure slides. Preserve two-column layout, exact schedule metadata, Arial, full DOI references and teaching transcripts. Prefer source color without recoloring. Use a new permitted theme only after the deck passes checks and visual review.
+4. J. M. Camhi (1969c). Locust wind receptors. III. Contribution to flight initiation and lift control. Journal of Experimental Biology 50(2):363–373. https://doi.org/10.1242/jeb.50.2.363
+
+5. K. G. Pearson; D. N. Reye; D. W. Parsons; G. Bicker (1985). Flight-initiating interneurons in the locust. Journal of Neurophysiology 53(4):910–925. https://doi.org/10.1152/jn.1985.53.4.910
+
+6. R. M. Robertson; K. G. Pearson (1985). Neural circuits in the flight system of the locust. Journal of Neurophysiology 53(1):110–128. https://doi.org/10.1152/jn.1985.53.1.110
+
+7. E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384
+
+8. J. Ausborn; W. Stein; H. Wolf (2007). Frequency control of motor patterning by negative sensory feedback. Journal of Neuroscience 27(35):9319–9328. https://doi.org/10.1523/JNEUROSCI.0907-07.2007
+
+9. J. Rillich; P. A. Stevenson; H.-J. Pflueger (2013). Flight and walking in locusts–cholinergic co-activation, temporal coupling and its modulation by biogenic amines. PLOS ONE 8(5):e62899. https://doi.org/10.1371/journal.pone.0062899
+
+10. T. Mentel; C. Duch; H. Stypa; G. Wegener; U. Müller; H.-J. Pflüger (2003). Central modulatory neurons control fuel selection in flight muscle of migratory locust. Journal of Neuroscience 23(4):1109–1113. https://doi.org/10.1523/JNEUROSCI.23-04-01109.2003
+
+## Title photograph
+
+Michael Linnenbach, *Schistocerca gregaria*, freshly moulted; CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Schistocerca_gregaria-gehaeutet.jpg

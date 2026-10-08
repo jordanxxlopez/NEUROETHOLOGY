@@ -2,13 +2,13 @@
   "_rules": [
     "Every lecture gets its own palette. Never reuse a palette that appears in 'used'.",
     "Never use yellow, orange, gold, mustard or other loud/ugly colors.",
-    "Purple and green have already been used \u2014 do not use them again.",
+    "Purple and green have already been used — do not use them again.",
     "Font is always Arial.",
     "After building a lecture, move its theme key into 'used' with the lecture number."
   ],
   "used": {
     "7": "wine / burgundy",
-    "8": "graphite / silver",
+    "8": "ruby / porcelain",
     "9": "rose / white",
     "10": "ice blue / charcoal",
     "11": "crimson / blush white",
@@ -23,7 +23,8 @@
     "4": "deep sea blue / cyan",
     "5": "charcoal / brick red",
     "3": "crimson / slate",
-    "6": "cerulean / pearl"
+    "6": "cerulean / pearl",
+    "8_previous": "graphite / silver"
   },
   "palettes": {
     "midnight-silver": {
@@ -168,6 +169,19 @@
       "tint": "EDF5F8",
       "accent": "0086B3",
       "rule": "C8DCE5"
+    },
+    "ruby-porcelain": {
+      "label": "ruby / porcelain",
+      "title_bg": "3C1825",
+      "title_text": "FFFFFF",
+      "title_muted": "D7B6C2",
+      "bg": "FFFFFF",
+      "heading": "842D4A",
+      "text": "292329",
+      "muted": "6B5B64",
+      "tint": "F7F0F3",
+      "accent": "A03B5D",
+      "rule": "DECBD3"
     }
   }
 }
