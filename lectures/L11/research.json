@@ -1,7 +1,7 @@
 {
   "lecture": 11,
   "checked_on": "2026-10-08",
-  "repository_head": "0a577cce389dc39677b5413131ba360ed62b4dca",
+  "repository_head": "c767721008d38d41e2093910beced6e12365e32b",
   "sources": {
     "H16": {
       "authors": "Haag J, Arenz A, Serbe E, Gabbiani F, Borst A.",
@@ -23,7 +23,7 @@
     "H17": {
       "authors": "Haag J, Mishra A, Borst A.",
       "year": 2017,
-      "title": "A common directional tuning mechanism of <i>Drosophila</i> motion-sensing neurons in the ON and in the OFF pathway.",
+      "title": "A common directional tuning mechanism of Drosophila motion-sensing neurons in the ON and in the OFF pathway.",
       "journal": "eLife",
       "volume": "6",
       "issue": null,
@@ -40,7 +40,7 @@
     "T17": {
       "authors": "Takemura SY, Nern A, Chklovskii DB, Scheffer LK, Rubin GM, Meinertzhagen IA.",
       "year": 2017,
-      "title": "The comprehensive connectome of a neural substrate for 'ON' motion detection in <i>Drosophila</i>.",
+      "title": "The comprehensive connectome of a neural substrate for 'ON' motion detection in Drosophila.",
       "journal": "eLife",
       "volume": "6",
       "issue": null,
@@ -57,7 +57,7 @@
     "S19": {
       "authors": "Shinomiya K, Huang G, Lu Z, Parag T, Xu CS, Aniceto R, Ansari N, Cheatham N, Lauchie S, Neace E, Ogundeyi O, Ordish C, Peel D, Shinomiya A, Smith C, Takemura S, Talebi I, Rivlin PK, Nern A, Scheffer LK, Plaza SM, Meinertzhagen IA.",
       "year": 2019,
-      "title": "Comparisons between the ON- and OFF-edge motion pathways in the <i>Drosophila</i> brain.",
+      "title": "Comparisons between the ON- and OFF-edge motion pathways in the Drosophila brain.",
       "journal": "eLife",
       "volume": "8",
       "issue": null,
@@ -108,7 +108,7 @@
     "V23": {
       "authors": "Mishra A, Serbe-Kamp E, Borst A, Haag J.",
       "year": 2023,
-      "title": "Voltage to Calcium Transformation Enhances Direction Selectivity in <i>Drosophila</i> T4 Neurons.",
+      "title": "Voltage to Calcium Transformation Enhances Direction Selectivity in Drosophila T4 Neurons.",
       "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
       "volume": "43",
       "issue": "14",
@@ -125,7 +125,7 @@
     "B23": {
       "authors": "Mano O, Choi M, Tanaka R, Creamer MS, Matos NCB, Shomar JW, Badwan BA, Clandinin TR, Clark DA.",
       "year": 2023,
-      "title": "Long-timescale anti-directional rotation in &lt;i&gt;Drosophila&lt;/i&gt; optomotor behavior.",
+      "title": "Long-timescale anti-directional rotation in <i>Drosophila</i> optomotor behavior.",
       "journal": "eLife",
       "volume": "12",
       "issue": null,
@@ -184,7 +184,7 @@
       "doi": "10.1016/j.neuron.2011.05.023",
       "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=DOI:10.1016/j.neuron.2011.05.023",
       "pdf_path": "papers/C11.pdf",
-      "pdf_available": false,
+      "pdf_available": true,
       "download_url": "https://www.cell.com/neuron/pdf/S0896-6273(11)00441-7.pdf",
       "download_attempts": [
         {
@@ -199,7 +199,15 @@
           "url": "https://clarklab.yale.edu/publications",
           "result": "Author publication page links to PubMed but provides no downloadable PDF."
         }
-      ]
+      ],
+      "pdf_bytes": 1139821,
+      "sha256": "6ce263be34ba2b3a60e74dc68ef7ea7251db5f3c497913cb0ed28e2f4020f07a",
+      "pdf_pages": 13,
+      "uploaded_file": {
+        "name": "PIIS0896627311004417.pdf",
+        "sediment_file_id": "file_00000000f21881fd9cbd3885744367b9",
+        "received_on": "2026-10-08"
+      }
     },
     "D07": {
       "authors": "Duistermars BJ, Chow DM, Condro M, Frye MA.",
@@ -212,14 +220,22 @@
       "doi": "10.1242/jeb.007807",
       "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=DOI:10.1242/jeb.007807",
       "pdf_path": "papers/D07.pdf",
-      "pdf_available": false,
+      "pdf_available": true,
       "download_url": "https://journals.biologists.com/jeb/article-pdf/210/18/3218/1258715/3218.pdf",
       "download_attempts": [
         {
           "url": "https://journals.biologists.com/jeb/article-pdf/210/18/3218/1258715/3218.pdf",
           "result": "Publisher PDF returned HTTP 403; no PDF."
         }
-      ]
+      ],
+      "pdf_bytes": 1004481,
+      "sha256": "eee81d2206958f28cc84a557ceb7715450b5dacfd4c5f8900e0161a0c22fa53e",
+      "pdf_pages": 10,
+      "uploaded_file": {
+        "name": "3218.pdf",
+        "sediment_file_id": "file_00000000f74881fdbd67f4b9e019ded4",
+        "received_on": "2026-10-08"
+      }
     },
     "H56": {
       "authors": "Hassenstein B, Reichardt W.",
@@ -257,5 +273,14 @@
       "content_slides_with_images": 44,
       "image_occurrences": 51
     }
-  ]
+  ],
+  "status": "Complete: all 13 original published PDFs available; source figures inspected and cropped.",
+  "title_photo": {
+    "path": "figures/title_fly.jpg",
+    "kind": "web",
+    "caption": "Photo: Drosophila melanogaster, the fruit fly used in the motion-vision experiments.",
+    "credit": "André Karwath",
+    "license": "CC BY-SA 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_-_side_(aka).jpg"
+  }
 }
