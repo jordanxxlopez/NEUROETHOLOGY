@@ -4,7 +4,7 @@ Title: Amphibian prey capture I: toad visual prey-catching and tectal feature de
 
 Date: Monday, September 14, 2026
 
-Status: awaiting source PDFs; no deck or used-theme entry created yet (October 8, 2026).
+Status: deck built October 8, 2026 from the five uploaded PDFs (Ewert 1978, 1979, 1997, 2001; Schürg-Pfeiffer & Ewert 1981) plus the open-access sources below. Uploading items still missing (1, 2, 7, 9–14) would let their original figures replace or join current ones.
 
 Europe PMC, OpenAlex and Crossref were checked for every paper below: all are closed access
 (Springer, Karger, Cambridge, Elsevier, IEEE), and publisher PDF routes return paywall pages
