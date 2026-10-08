@@ -1,21 +1,25 @@
-# Lecture 24: original PDFs needed
+# Lecture 24: primary-paper access resolved
 
 **Chemoreception I: silkmoth pheromone plume-tracking (Kramer & Cardé)**
 
 **Wednesday, October 21, 2026**
 
-Authority: fresh clone of the connected default branch `claude/neuroethology-fa2026-schedule-2lgmmr` at `4900215`. No ZIP or older checkout was used.
+Authority: connected repository default branch `claude/neuroethology-fa2026-schedule-2lgmmr`, refreshed to `6fa018c` without discarding the Lecture 24 preparation. No ZIP was used.
 
-Seven primary PDFs were obtained and opened. The following five original PDFs are needed for the classic timing/plume experiments, ligand-gated receptor physiology, persistent descending signals and serotonin modulation. Publisher endpoints returned HTML access pages or HTTP 403. OpenAlex found no alternate author-repository PDFs.
+The instructor supplied the four previously requested PDFs for Murlis, Willis & Cardé (2000), Kanzaki, Ikeda & Shibuya (1994), Sato et al. (2008), and Gatellier, Nagao & Kanzaki (2004). These files open successfully as published papers.
 
-1. Kramer (1992). **Attractivity of pheromone surpassed by time-patterned application of two nonpheromone compounds**. Journal of Insect Behavior 5:83-97. https://doi.org/10.1007/bf01049160
+The instructor explicitly authorized skipping the inaccessible Kramer (1992) paper. It will not be cited as if read, and none of its findings or figures will be inferred from secondary descriptions. The exact scheduled lecture title remains unchanged.
 
-2. Murlis, Willis, Cardé (2000). **Spatial and temporal structures of pheromone plumes in fields and forests**. Physiological Entomology 25:211-222. https://doi.org/10.1046/j.1365-3032.2000.00176.x
+## Accessible classic replacement
 
-3. Kanzaki, Ikeda, Shibuya (1994). **Morphological and physiological properties of pheromone-triggered flipflopping descending interneurons of the male silkworm moth, Bombyx mori**. Journal of Comparative Physiology A 175:1-14. https://doi.org/10.1007/bf00217431
+Vickers NJ, Baker TC (1994). **Reiterative responses to single strands of odor promote sustained upwind flight and odor source location by moths.** Proceedings of the National Academy of Sciences of the United States of America 91(13):5756–5760. https://doi.org/10.1073/pnas.91.13.5756
 
-4. Sato, Pellegrino, Nakagawa, Nakagawa, Vosshall, Touhara (2008). **Insect olfactory receptors are heteromeric ligand-gated ion channels**. Nature 452:1002-1006. https://doi.org/10.1038/nature06850
+- Published PDF: https://europepmc.org/articles/PMC44075?pdf=render
+- Full-text record: https://pmc.ncbi.nlm.nih.gov/articles/PMC44075/
+- Bibliographic details checked against the original five-page PDF, Crossref and Europe PMC.
+- This is an experimental study of flying male **Heliothis virescens**, not walking **Bombyx mori**. The preparation and species difference must remain explicit in the lecture.
+- The study addresses odor-strand timing and surge/casting behavior. It is not a replication of Kramer's experiment with two nonpheromone compounds, and its conclusions must not be presented as such.
 
-5. Gatellier, Nagao, Kanzaki (2004). **Serotonin modifies the sensitivity of the male silkmoth to pheromone**. Journal of Experimental Biology 207:2487-2496. https://doi.org/10.1242/jeb.01035
+All twelve selected primary PDFs are now locally available. No additional PDF upload is required for the selected sources. Access records and verified metadata are retained under `sources/`; original PDFs remain in the ignored `papers/` directory.
 
-The strict original-PDF rule requires pausing before delivery. No substitute or generated scientific visual is used. The repository already persists that rule in AGENTS.md, .claude/skills/neuroethology-lecture/SKILL.md and prompts/make_lecture.md. Available sources: Shiota et al. (2021), Fujiwara et al. (2014), Tabuchi et al. (2013), Yamada et al. (2021), Namiki et al. (2018), Sakurai et al. (2011), Nakagawa et al. (2012). Research and bibliographic records are retained in sources/. Theme crimson-slate remains unused; it will be recorded only after the finished deck passes all checks.
+This access resolution is not a claim that the final PowerPoint has passed its slide, citation, figure or formatting checks.
