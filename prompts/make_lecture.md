@@ -69,22 +69,19 @@ WRITING (slides and notes)
 - VISIBLE CONTENT ONLY: no equations, formulas or calculations unless they appear in the
   cited article or figure; no worked examples or math of your own.
 
-IMAGES — STRICT
-- Never create images: no schematics, diagrams, flowcharts, re-plotted or redrawn graphs,
-  charts from reported numbers, model/template curves, illustrations, icons, AI-generated
-  images or clip art — not even labeled as such.
-- Priority: original figures from primary articles — panels cropped from the papers' PDFs
-  (tools/crop_figure.py) with axes, units, scale bars and panel letters intact; caption
-  "Author (year), Fig. N(panel). What it shows." and the DOI as source_url.
-- Nearly every slide has an image: at least 40 of the 44 content slides carry an image and at
-  least 34 carry a primary-article figure. Text-only slides are the rare exception.
-- Web photos only where needed (e.g. the animal on the title/first slide, habitat,
-  specimen): real photographs from a credited source such as Wikimedia Commons; caption
-  "Photo: …" with credit, license and source_url; at most 6 per deck; never just decoration.
-  Never substitute any created visual for a missing PDF.
-- If a paper's PDF cannot be downloaded, do not substitute anything. Stop and give me a
-  numbered list of the papers you need with DOI links so I can upload the PDFs. Slides
-  without an article figure are text slides (a table of reported values is fine).
+FIGURES — STRICT
+- Figures must come ONLY from published academic articles: original panels cropped from
+  their PDFs with tools/crop_figure.py, preserving axes, units, scale bars and panel letters.
+- Caption every figure "Author (year), Fig. N(panel). What it shows." and supply the DOI
+  as source_url.
+- Do NOT create any figure: no schematics, diagrams, flowcharts, re-plotted or redrawn
+  graphs, charts from reported numbers, model/template curves, illustrations, icons,
+  stock photos, web photos, AI-generated images or clip art — not even labeled as such.
+- At least 40 of the 44 content slides carry original article figures, meeting the repo's
+  image minimum and the instructor's minimum of 18 article-figure slides.
+- If a needed PDF cannot be downloaded, stop and give me a numbered list of the papers
+  with DOI links so I can upload them. Never substitute a created visual. Slides without
+  an article figure are text slides (a text table of reported values is fine).
 
 FINISH
 - Run the builder and checker until there are 0 failures, reread every slide and transcript
