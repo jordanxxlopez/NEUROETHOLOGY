@@ -27,7 +27,7 @@ IMAGES — STRICT
 - Never create images: no schematics, diagrams, flowcharts, re-plotted or redrawn graphs, charts from reported numbers, model curves, illustrations, icons, AI-generated images or clip art, not even labeled as such.
 - Priority: panels cropped from the primary articles' PDFs (tools/crop_figure.py), axes, units, scale bars and panel letters intact. Caption "Author (year), Fig. N(panel). What it shows." with the DOI as source_url. Nearly every slide has an image: 40+ of 44 content slides, 34+ with article figures.
 - The title slide shows the study animal (a paper figure or credited web photo). A slide about a specific brain region, neuron or sense organ carries an anatomy image of it.
-- Credited web images (e.g. Wikimedia Commons; neuroscience-related is fine) only where needed: caption "Photo: …" with credit, license and source_url; max 6 per deck.
+- Credited web images (e.g. Wikimedia Commons; neuroscience-related is fine) only where needed: caption "Photo: …" with credit, license and source_url; max 10 per deck.
 - Your Python tool has no internet. If you cannot obtain a paper's PDF, do not substitute anything: give a numbered list of the papers needed with DOI links and ask the instructor to upload the PDFs. Slides without an article figure are text slides.
 
 WORKFLOW

@@ -69,4 +69,4 @@ MADE_IMAGE_WORDS = re.compile(
 # Nearly every content slide carries an image; primary-article figures dominate.
 MIN_IMAGE_SLIDES = 40           # of 44 content slides: article figure or credited photo
 MIN_ARTICLE_FIGURE_SLIDES = 34  # content slides with at least one article figure
-MAX_WEB_IMAGES = 6              # credited web photos (animal, habitat, specimen), only where needed
+MAX_WEB_IMAGES = 10              # credited web photos (animal, habitat, specimen), only where needed

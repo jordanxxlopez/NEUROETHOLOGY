@@ -84,7 +84,7 @@ IMAGES — ON NEARLY EVERY SLIDE
   include an anatomy image of it (an article figure first, otherwise a credited web image).
 - Credited web images (Wikimedia Commons, museum, lab or atlas pages; caption "Photo: …"
   with credit, license and source_url) are fine where they help, including
-  neuroscience-related ones; at most 6 per deck; never generic decoration.
+  neuroscience-related ones; at most 10 per deck; never generic decoration.
 - If a paper's PDF cannot be downloaded, do not substitute anything. Stop and give me a
   numbered list of the papers you need with DOI links so I can upload the PDFs.
 

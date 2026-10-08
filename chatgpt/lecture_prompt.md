@@ -11,7 +11,7 @@ Make Lecture [N] for NEUR 411 as a downloadable .pptx, following the project ins
    numbered list of the papers you will use with DOI links, and mark which ones I need to upload as
    PDFs (your Python tool cannot download them). Wait for my uploads.
 3. Crop figures only from the uploaded articles (tools/crop_figure.py) — never create schematics,
-   diagrams, charts or any other image. Nearly every slide gets a figure (40+ of 44, 34+ from articles); the study animal on the title slide; an anatomy image wherever a slide discusses a specific structure; at most 6 credited web images, only where needed.
+   diagrams, charts or any other image. Nearly every slide gets a figure (40+ of 44, 34+ from articles); the study animal on the title slide; an anatomy image wherever a slide discusses a specific structure; at most 10 credited web images, only where needed.
 4. Write lectures/L[N]/lecture.json with slide paragraphs, a teaching transcript for the speaker notes,
    citations and figures, then run: python tools/build_lecture.py lectures/L[N]/lecture.json
    and fix everything until it reports 0 failures.

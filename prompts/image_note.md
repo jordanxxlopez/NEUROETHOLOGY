@@ -8,6 +8,6 @@ figures cropped from the primary papers. The title slide shows the animal the le
 so students know what it looks like; this can be a figure from a primary paper or a credited web
 photo. When a slide discusses a specific brain region, neuron, sense organ or other structure,
 include an image of it, from an article if possible, otherwise a credited web image. A few
-credited web images, including neuroscience-related ones, are fine where they help, at most 6
+credited web images, including neuroscience-related ones, are fine where they help, at most 10
 per deck. Never create, draw or generate any image.
 ```
