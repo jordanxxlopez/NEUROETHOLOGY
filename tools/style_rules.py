@@ -74,11 +74,16 @@ MAX_WEB_IMAGES = 10              # credited web photos (animal, habitat, specime
 
 
 def is_color_image(blob):
-    """True if a picture has real color (not grayscale): >= 3% clearly saturated pixels."""
+    """True if a picture has real color: saturated pixels make up >= 3% of its non-white 'ink'.
+
+    Measured against the ink rather than the whole image so that colored traces and labels
+    on a white background count, while grayscale figures (0% saturated ink) do not.
+    """
     import io
     from PIL import Image
     im = Image.open(io.BytesIO(blob)).convert("RGB")
-    im.thumbnail((200, 200))
-    px = im.convert("HSV").tobytes()
-    sat = sum(1 for i in range(0, len(px), 3) if px[i + 1] > 60 and px[i + 2] > 50)
-    return sat / (len(px) / 3) > 0.03
+    im.thumbnail((300, 300))
+    hsv, rgb = im.convert("HSV").tobytes(), im.tobytes()
+    colored = sum(1 for i in range(0, len(hsv), 3) if hsv[i + 1] > 80 and hsv[i + 2] > 35)
+    ink = sum(1 for i in range(0, len(rgb), 3) if min(rgb[i:i + 3]) < 235)
+    return colored >= 0.002 * (len(hsv) / 3) and colored >= 0.03 * max(ink, 1)

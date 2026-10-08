@@ -119,6 +119,29 @@ def plain(text):
     return "".join(c for c, _, _ in inline_runs(text))
 
 
+_TITLE_FONT = None
+
+
+def title_width_in(text, pt):
+    """Width of a bold Arial title in inches, measured with Arial or the metric-compatible
+    Liberation Sans Bold when either is installed; None if neither is available."""
+    global _TITLE_FONT
+    if _TITLE_FONT is None:
+        from PIL import ImageFont
+        _TITLE_FONT = False
+        for name in ("Arial Bold.ttf", "arialbd.ttf", "Arial_Bold.ttf", "LiberationSans-Bold.ttf"):
+            for base in ("/usr/share/fonts", "/Library/Fonts", "/System/Library/Fonts", "C:/Windows/Fonts"):
+                hits = list(Path(base).rglob(name)) if Path(base).exists() else []
+                if hits:
+                    _TITLE_FONT = ImageFont.truetype(str(hits[0]), 300)
+                    break
+            if _TITLE_FONT:
+                break
+    if not _TITLE_FONT:
+        return None
+    return _TITLE_FONT.getlength(plain(text)) / 300 * pt / 72
+
+
 def lines_needed(paras, width_in, pt):
     """Rough Arial line count: average glyph ≈ 0.5 em."""
     chars_per_line = max(1, int(width_in * 72 / (pt * 0.5)))
@@ -256,6 +279,9 @@ class Deck:
             r.font.bold = True
         if len(text) > 62:
             raise SpecError(f"slide {self.num}: title over 62 characters will wrap: {text!r}")
+        width = title_width_in(text, 30)
+        if width is not None and width > W - 2 * M - 0.05:
+            raise SpecError(f"slide {self.num}: title is {width:.1f} in wide at 30 pt bold and will wrap onto the body; shorten it: {text!r}")
 
     def footer(self, s, cite):
         rect(s, M, FOOT_Y, W - 2 * M, 0.01, self.t["rule"])  # hairline above the footer
