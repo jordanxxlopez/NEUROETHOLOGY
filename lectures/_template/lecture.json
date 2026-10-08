@@ -1,16 +1,8 @@
 {
-  "_how_to": "Copy this folder to lectures/L<N>/, fill 44 slides, then run: python tools/build_lecture.py lectures/L<N>/lecture.json. Title and date come from course/schedule.json automatically. Layouts: text | figure-right | figure-left | figure-below | two-figures | table. Every slide needs body (slide paragraphs) and transcript (speaker-note teaching transcript: strings, or [text, [sub-bullets]]). Images are never created: article figures (kind 'article', caption 'Author (year), Fig. N…', source_url DOI) get priority; web photos (kind 'web', caption 'Photo: …', credit, license, source_url) only where needed, max 4. Replace figures/example_panel.png before building. No framing phrases, no statistics clutter (see tools/style_rules.py).",
+  "_how_to": "Copy this folder to lectures/L<N>/, fill 44 slides, then run: python tools/build_lecture.py lectures/L<N>/lecture.json. Title and date come from course/schedule.json automatically. Layouts: text | figure-right | figure-left | figure-below | two-figures | table. Every slide needs body (slide paragraphs) and transcript (speaker-note teaching transcript: strings, or [text, [sub-bullets]]). Images are never created: article figures only (kind 'article', caption 'Author (year), Fig. N(panel). What it shows.', source_url DOI). No web photos, stock photos, icons or created visuals. The title slide is text-only unless a relevant original article figure is available. Replace figures/example_panel.png before building. No framing phrases, no statistics clutter (see tools/style_rules.py).",
   "lecture": 11,
   "theme": "deep-sea",
   "content_slides": 44,
-  "title_image": {
-    "kind": "web",
-    "path": "figures/example_panel.png",
-    "caption": "Photo: the study animal (replace with a real credited photograph).",
-    "credit": "Photographer name",
-    "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:..."
-  },
   "slides": [
     {
       "layout": "text",

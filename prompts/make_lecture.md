@@ -5,6 +5,9 @@ Copy everything in the box below into Claude Code or Codex, opened on this repos
 ```text
 Make Lecture [N] for NEUR 411 Neuroethology (Fall 2026) as a downloadable .pptx.
 
+Use the connected jordanxxlopez/NEUROETHOLOGY repository, current default branch, as
+the authority. Do not use a ZIP or an outdated checkout.
+
 Use the exact title and date for Lecture [N] from course/schedule.json, character for
 character. Follow the neuroethology-lecture rules in this repo (AGENTS.md /
 .claude/skills/neuroethology-lecture/SKILL.md) and build with tools/build_lecture.py.
@@ -70,13 +73,12 @@ IMAGES — STRICT
 - Never create images: no schematics, diagrams, flowcharts, re-plotted or redrawn graphs,
   charts from reported numbers, model/template curves, illustrations, icons, AI-generated
   images or clip art — not even labeled as such.
-- Priority: figures from primary articles — panels cropped from the papers' PDFs
-  (tools/crop_figure.py) with axes, units, scale bars and panel letters intact; caption
-  "Author (year), Fig. N(panel). What it shows." and the DOI as source_url. At least 18
-  content slides carry an article figure.
-- Web photos only where needed (e.g. the animal on the title/first slide, habitat,
-  specimen): real photographs from a credited source such as Wikimedia Commons; caption
-  "Photo: …" with credit, license and source_url; at most 4 per deck; never just decoration.
+- Every image must be an original figure from a published academic article: a panel cropped
+  from the paper PDF (tools/crop_figure.py), with axes, units, scale bars and panel letters
+  intact. Caption "Author (year), Fig. N(panel). What it shows." and supply the DOI as
+  source_url. At least 18 content slides must carry an article figure.
+- No web photos, stock photos, clip art, icons, generated visuals, or recreated graphs.
+  A title slide may contain text only. Never substitute any created visual for a missing PDF.
 - If a paper's PDF cannot be downloaded, do not substitute anything. Stop and give me a
   numbered list of the papers you need with DOI links so I can upload the PDFs. Slides
   without an article figure are text slides (a table of reported values is fine).
