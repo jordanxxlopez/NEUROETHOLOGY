@@ -3,7 +3,7 @@
 Lecture 14: "Insect hearing I: cricket phonotaxis and song recognition (Hoy)" — Friday, September 25, 2026.
 
 Figures can only be cropped from article PDFs. Download what is open access; upload the rest.
-Items 1–12 give the 18+ figure slides the rules require.
+Nearly every slide needs an article figure (34+ of 44), so upload all of these; more papers may be requested.
 
 | # | Paper | Link | Figures planned |
 |---|-------|------|-----------------|

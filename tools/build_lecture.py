@@ -41,7 +41,8 @@ class SpecError(Exception):
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from style_rules import (ARTICLE_CAPTION, MADE_IMAGE_WORDS, MAX_WEB_IMAGES, WEB_CAPTION,  # noqa: E402
+from style_rules import (ARTICLE_CAPTION, MADE_IMAGE_WORDS, MAX_WEB_IMAGES, MIN_ARTICLE_FIGURE_SLIDES,  # noqa: E402
+                         MIN_IMAGE_SLIDES, WEB_CAPTION,
                          framing_problems, stats_problems)
 
 
@@ -232,6 +233,8 @@ class Deck:
         self.blank = self.prs.slide_layouts[6]
         self.num = 0
         self.web_images = 0
+        self.image_slides = 0
+        self.article_slides = 0
 
     def path(self, p):
         q = (self.dir / p).resolve()
@@ -337,10 +340,15 @@ class Deck:
             raise SpecError(f"{where}: missing 'transcript' (speaker notes written as a natural teaching transcript)")
         _, ttexts = flatten_transcript(sd["transcript"])
         check_writing(sd["body"] + ttexts + [sd["title"]], where)
-        for f in ([sd["figure"]] if "figure" in sd else sd.get("figures", [])):
+        imgs = [sd["figure"]] if "figure" in sd else sd.get("figures", [])
+        for f in imgs:
             check_image(f, where)
             if f.get("kind", "article") == "web":
                 self.web_images += 1
+        if imgs:
+            self.image_slides += 1
+        if any(f.get("kind", "article") == "article" for f in imgs):
+            self.article_slides += 1
         self.title(s, sd["title"])
         lay = sd.get("layout", "text")
         avail = BODY_BOTTOM - BODY_Y
@@ -430,6 +438,15 @@ class Deck:
         tk = self.spec["takeaways"]
         check_writing([f"{i['lead']} {i['text']}" for i in tk["items"]], "key takeaways")
         self.takeaways_slide(tk)
+        n = len(self.spec["slides"])
+        need_img = round(MIN_IMAGE_SLIDES * n / DEFAULT_CONTENT_SLIDES)
+        need_art = round(MIN_ARTICLE_FIGURE_SLIDES * n / DEFAULT_CONTENT_SLIDES)
+        if self.image_slides < need_img:
+            raise SpecError(f"only {self.image_slides} of {n} content slides have an image; nearly all must (>= {need_img}). "
+                            "Add article figures, or request the PDFs you need.")
+        if self.article_slides < need_art:
+            raise SpecError(f"only {self.article_slides} content slides have an article figure; need >= {need_art}. "
+                            "Primary-article figures come first; request the PDFs you need.")
         if self.web_images > MAX_WEB_IMAGES:
             raise SpecError(f"{self.web_images} web photos; at most {MAX_WEB_IMAGES}. Decorative/general images only where needed — "
                             "give priority to primary-article figures.")

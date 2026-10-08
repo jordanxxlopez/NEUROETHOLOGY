@@ -66,4 +66,7 @@ MADE_IMAGE_WORDS = re.compile(
     r"schematic|re-?plotted|redrawn|drawn from|diagram drawn|illustrat|our own|created for|generated|"
     r"\bAI\b|midjourney|dall-?e|stable diffusion|summary table|summary diagram|not original|template curves|"
     r"simulated|mock-?up|clip ?art|icon", re.I)
-MAX_WEB_IMAGES = 4  # decorative/general photos are the exception, not the rule
+# Nearly every content slide carries an image; primary-article figures dominate.
+MIN_IMAGE_SLIDES = 40           # of 44 content slides: article figure or credited photo
+MIN_ARTICLE_FIGURE_SLIDES = 34  # content slides with at least one article figure
+MAX_WEB_IMAGES = 6              # credited web photos (animal, habitat, specimen), only where needed

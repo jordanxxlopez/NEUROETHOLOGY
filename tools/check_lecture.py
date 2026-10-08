@@ -17,7 +17,8 @@ from pptx import Presentation
 ROOT = Path(__file__).resolve().parent.parent
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from style_rules import MADE_IMAGE_WORDS, framing_problems, stats_problems  # noqa: E402
+from style_rules import (MADE_IMAGE_WORDS, MIN_ARTICLE_FIGURE_SLIDES, MIN_IMAGE_SLIDES,  # noqa: E402
+                         framing_problems, stats_problems)
 
 STRUCTURE = [
     (r"^\s*(lecture )?(outline|agenda|overview|roadmap)\s*$", "no outline/agenda slide"),
@@ -26,7 +27,6 @@ STRUCTURE = [
 ]
 MIN_TRANSCRIPT_WORDS = 60  # speaker-note teaching transcript per content slide
 MIN_WORDS = 70         # per content slide, text only
-MIN_FIGURE_SLIDES = 18 # content slides carrying an article figure
 
 
 def slide_text(slide, teaching_only=False):
@@ -74,6 +74,7 @@ def main():
         errs.append("last slide must be 'Key takeaways'")
 
     fig_slides = 0
+    img_slides = 0
     for i, s in enumerate(slides, 1):
         txt = slide_text(s)
         teach = slide_text(s, teaching_only=True)
@@ -103,6 +104,8 @@ def main():
         pics = [sh for sh in s.shapes if sh.shape_type == 13 and sh.height > 914400 * 0.6]
         has_article = "Figure:" in notes
         has_credit_lines = has_article or "Image:" in notes
+        if pics:
+            img_slides += 1
         if pics and (has_article or not has_credit_lines):
             fig_slides += 1
         if not re.search(r"\((19|20)\d{2}[a-z]?\)|\b(19|20)\d{2}[a-z]?\b", notes):
@@ -110,14 +113,18 @@ def main():
         if "doi" not in notes.lower() and "http" not in notes.lower():
             warns.append(f"slide {i}: no DOI/URL in notes")
 
-    if fig_slides < MIN_FIGURE_SLIDES:
-        errs.append(f"only {fig_slides} content slides have article figures; need >= {MIN_FIGURE_SLIDES}")
+    n = a.content_slides
+    need_img, need_art = round(MIN_IMAGE_SLIDES * n / 44), round(MIN_ARTICLE_FIGURE_SLIDES * n / 44)
+    if img_slides < need_img:
+        errs.append(f"only {img_slides} of {n} content slides have an image; nearly all must (>= {need_img})")
+    if fig_slides < need_art:
+        errs.append(f"only {fig_slides} content slides have article figures; need >= {need_art}")
 
     for w in warns:
         print("WARN ", w)
     for e in errs:
         print("FAIL ", e)
-    print(f"{len(slides)} slides, {fig_slides} figure slides, {len(errs)} failures, {len(warns)} warnings")
+    print(f"{len(slides)} slides, {img_slides} image slides ({fig_slides} article-figure slides), {len(errs)} failures, {len(warns)} warnings")
     sys.exit(1 if errs else 0)
 
 
