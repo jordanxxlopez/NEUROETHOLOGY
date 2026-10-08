@@ -70,23 +70,20 @@ add("Predatory behavior follows a structured sequence", [
     "The sequence is not a fixed chain. Distance to the prey determines which pattern is expressed: a nearby target may be captured after a brief stalk, whereas a distant one requires extended pursuit.",
     "Before jumping, many salticids attach a silk **dragline** to the substrate. The line acts as a safety tether if the jump misses and can be used to brake during approach.",
     "Each element provides a measurable behavioral output, such as turn angle or jump distance, that later experiments relate to specific eyes and neural pathways."],
-    "Forster (1977)", ["forster77"], layout="figure-right", figure_width=5.4,
-    figure=fig("f01_hunt_sequence.png", "Hunting sequence of salticids: response patterns and their motor elements. Diagram drawn from the classification in Forster (1977)."))
+    "Forster (1977)", ["forster77"])
 
 add("Two eye systems divide the visual field", [
     "The **secondary eyes** together cover almost the entire horizon around the spider. The ALEs face forward with a field of roughly ±50° and overlap the field of the principal eyes; the PLEs extend coverage to the sides and rear.",
     "The **principal eyes** see a far smaller region. Each retina is a narrow vertical strip, about 20° tall but only about 1° wide at its center, so at any instant it samples a thin slice of the scene. Because the retina can be moved, the principal eyes can survey a forward region of roughly 60°.",
     "This arrangement separates **detection** from **inspection**. Wide-field secondary eyes detect that something has moved; the principal eyes then examine what it is. The division predicts that disabling one eye type should impair one stage of behavior while sparing the other, a prediction tested on later slides."],
-    "Land (1985); Zurek & Nelson (2012a)", ["land85", "zn12a", "land69a"], layout="figure-right", figure_width=4.6,
-    figure=fig("f02_fields_of_view.png", "Schematic top view of the visual fields. ALE field (±50°) from Zurek & Nelson (2012a); secondary-eye coverage and principal-eye scanning from Land (1985) and Land (1969b)."))
+    "Land (1985); Zurek & Nelson (2012a)", ["land85", "zn12a", "land69a"])
 
 add("Secondary eyes sample space coarsely but widely", [
     "Land measured the angular spacing between neighboring receptors (the **interreceptor angle**) in the secondary eyes of _Portia_. The spacing sets the finest pattern an eye can resolve: two points closer than about one interreceptor angle fall on the same receptor.",
     "Values were about 0.55–0.97° for the ALEs, almost exactly 1.0° for the PMEs, and about 1.49° for the PLEs. These are coarse compared with the principal eyes, whose best resolution is about 0.04–0.1°.",
     "Coarse sampling is compatible with the main secondary-eye task. Detecting that an object has moved, and where, does not require resolving its shape. The principal eyes trade field of view for acuity; the secondary eyes make the opposite trade.",
     "Salticid secondary eyes have **inverted** retinas and, unlike those of many other spiders, lack a reflective **tapetum**, a layer that returns unabsorbed light through the receptors."],
-    "Land (1985)", ["land85"], layout="figure-right", figure_width=5.4,
-    figure=fig("f03_receptor_spacing.png", "Angular sampling of salticid eyes. Values re-plotted from Land (1985), Land (1969a; minimum spacing 11 arcmin) and Cerveira et al. (2021; 12.4 arcmin)."))
+    "Land (1985)", ["land85"])
 
 # ------------------------------------------------------------------ optics
 add("The principal eye is a movable telescope tube", [
@@ -125,49 +122,42 @@ add("Intracellular recordings found UV and green receptors", [
     "Three response classes appeared. **UV cells** peaked at about 370 nm. **Green cells** were well fit by visual-pigment templates peaking at 532 nm. A third class showed two peaks, near 370 and 525 nm.",
     "A visual pigment absorbs light over a broad band, so one receptor class cannot distinguish wavelength from intensity. Discriminating color requires comparing at least two classes with different spectral sensitivities.",
     "The data established ultraviolet and green channels in the principal eyes. They did not show which tier each cell belonged to, because the recording electrode does not reveal the cell’s depth in the retina without separate marking."],
-    "DeVoe (1975)", ["devoe75", "govardovskii00"], layout="figure-right", figure_width=5.6,
-    figure=fig("f08_devoe_spectral.png", "Spectral classes reported by DeVoe (1975). Curves are standard visual-pigment templates (Govardovskii et al. 2000) drawn at the reported peak wavelengths, not recorded traces."))
+    "DeVoe (1975)", ["devoe75", "govardovskii00"])
 
 add("Identified receptors link tiers to spectral classes", [
     "Blest and colleagues combined intracellular recording with dye marking to identify the tier of each recorded receptor. Green cells peaked at about 520 nm and UV cells at about 360 nm, close to DeVoe’s values.",
     "Molecular work in _Hasarius adansoni_ later localized green-sensitive opsin to layers 1 and 2 and ultraviolet-sensitive opsin to the more distal layers 3 and 4. Layer 1 therefore does not contain the red-sensitive pigment Land predicted.",
     "Land’s geometric reasoning about focal planes remained useful, but the pigment assignment changed. The layered design reflects both wavelength sensitivity and focus, without the specific red channel his model proposed.",
     "The result shows how an optical model generates testable predictions, and how direct measurement of identified cells is required to confirm them."],
-    "Blest et al. (1981); Koyanagi et al. (2008); Nagata et al. (2012)", ["blest81", "koyanagi08", "nagata12", "land69a"],
-    layout="figure-right", figure_width=5.6,
-    figure=fig("f06_retina_tiers.png", "Pigment predicted for each tier by Land (1969a) compared with later spectral and opsin evidence in Hasarius adansoni (Koyanagi et al. 2008; Nagata et al. 2012). Summary table, not original data."))
+    "Blest et al. (1981); Koyanagi et al. (2008); Nagata et al. (2012)", ["blest81", "koyanagi08", "nagata12", "land69a"])
 
 add("Opsin genes define the spectral channels", [
     "An **opsin** is the protein part of a visual pigment. It binds a chromophore (a retinal derivative) whose photoisomerization activates the receptor. The amino-acid sequence of the opsin tunes the wavelength of peak absorption.",
     "Koyanagi and colleagues cloned opsin genes from _Hasarius adansoni_. Later work assigned a green-sensitive opsin (**Rh1**), a blue-sensitive opsin (**Rh2**), and ultraviolet-sensitive opsins (**Rh3**, **Rh4**). Rh1 is expressed in most eyes; most eyes use two opsins, in combinations that differ by eye type.",
     "Reports differ on where Rh2 is expressed. Immunolabeling studies have placed it in few or no principal-eye receptors, so its contribution to principal-eye color vision remains uncertain.",
     "Like insect photoreceptors, spider photoreceptors are **rhabdomeric**: the pigment sits in stacks of microvilli, and light depolarizes the receptor. The intracellular steps of the spider cascade have been studied far less than those of _Drosophila_."],
-    "Koyanagi et al. (2008); Nagata et al. (2012)", ["koyanagi08", "nagata12"], layout="figure-right", figure_width=5.6,
-    figure=fig("f26_opsins.png", "Salticid opsins and their reported locations, summarized from Koyanagi et al. (2008) and Nagata et al. (2012). Summary table, not original data."))
+    "Koyanagi et al. (2008); Nagata et al. (2012)", ["koyanagi08", "nagata12"])
 
 add("Layer 2 receives a deliberately defocused image", [
     "Nagata and colleagues found that receptors in both layer 1 and layer 2 of _Hasarius adansoni_ contain the same green-sensitive pigment. Because of chromatic aberration, green light is focused sharply only on layer 1.",
     "Layer 2 therefore always receives a blurred version of the green image. The amount of blur depends on the distance to the object: the object’s image plane shifts as it approaches, changing the blur on layer 2 relative to layer 1.",
     "Comparing a sharp image with a defocused image of the same scene provides **depth from defocus**, a monocular cue to **absolute distance**. It requires neither two eyes nor movement of the head.",
     "The anatomy alone does not prove the brain performs this comparison. The authors tested it behaviorally by manipulating the wavelength of light and measuring the accuracy of the jumps."],
-    "Nagata et al. (2012)", ["nagata12"], layout="figure-right", figure_width=5.4,
-    figure=fig("f09_defocus.png", "Schematic of the defocus mechanism: green light focused on layer 1 and blurred on layer 2. Drawn from the model described in Nagata et al. (2012); not to scale."))
+    "Nagata et al. (2012)", ["nagata12"])
 
 add("Changing the color of light shortens the jump", [
     "Nagata and colleagues covered all but one principal eye and filmed spiders jumping at prey under **monochromatic** green or red illumination. With only one principal eye uncovered, **binocular disparity**, the difference between the two eyes’ views, was unavailable.",
     "Under green light the spiders jumped accurately. Under red light they consistently undershot, landing short of the prey.",
     "Red light has a longer focal length in the same lens. A target viewed in red produces the layer-2 blur that a closer target would produce in green. If the spider computes distance from a green-calibrated blur relation, it will underestimate distance in red, exactly as observed.",
     "A mathematical model of the eye’s optics predicted the direction of the error. The experiment supports defocus as a distance cue; it does not exclude other cues, such as motion parallax, being used under natural conditions."],
-    "Nagata et al. (2012)", ["nagata12"], layout="figure-right", figure_width=5.4,
-    figure=fig("f10_red_green.png", "Logic of the green–red test: identical targets, different predicted blur, accurate versus short jumps. Schematic summarizing results in Nagata et al. (2012); arc lengths illustrative."))
+    "Nagata et al. (2012)", ["nagata12"])
 
 add("A retinal filter adds a red channel in Habronattus", [
     "Most salticid principal eyes have ultraviolet and green receptors and therefore cannot distinguish red from green. Males of _Habronattus pyrrithrix_, however, display red and orange ornaments during courtship.",
     "Zurek and colleagues found a ruby-red **filter pigment** in a restricted region of tier 1. Light passing through the filter reaches green-pigment receptors only at long wavelengths, shifting their effective peak from about 530 nm to a reported 626 nm.",
     "The filtered receptors form a third spectral class, making color vision **trichromatic** without a new opsin. The mechanism changes the light reaching a receptor rather than the receptor’s pigment.",
     "Because the filter covers only part of the retina, red information is available only where the filtered region points. The authors proposed that the spider must scan a scene to accumulate color information, an idea that links color vision to the retinal movements described next."],
-    "Zurek et al. (2015)", ["zurek15", "govardovskii00"], layout="figure-right", figure_width=5.4,
-    figure=fig("f11_red_filter.png", "Spectral shift produced by the tier-1 filter in Habronattus pyrrithrix. Peak values from Zurek et al. (2015); curves are pigment templates (Govardovskii et al. 2000), not measured spectra."))
+    "Zurek et al. (2015)", ["zurek15", "govardovskii00"])
 
 add("Courtship signals combine vision and vibration", [
     "Color vision matters most in salticid social behavior. Males court females with leg waving, body postures, and colored ornaments presented within the female’s principal-eye field.",
@@ -243,8 +233,7 @@ add("Lateral eyes detect displacements finer than their mosaic", [
     "Such performance is **hyperacuity**: detecting a change in position more finely than the receptor spacing. A displacement smaller than one receptor still alters how light is shared between neighboring receptors, and comparing their responses can reveal that change.",
     "Hyperacuity therefore depends on the overlap of receptor acceptance angles and on neural comparison between neighbors. It does not mean the ALEs can resolve fine spatial patterns; resolving two separate points remains limited by receptor spacing.",
     "Females again responded to lower contrast than males, consistent with the sex difference in the earlier orienting study."],
-    "Zurek & Nelson (2012a); Land (1985)", ["zn12a", "land85"], layout="figure-right", figure_width=5.4,
-    figure=fig("f24_hyperacuity.png", "Receptor spacing compared with the displacement the ALEs can detect. Ratio from Zurek & Nelson (2012a); spacing from Land (1985); schematic."))
+    "Zurek & Nelson (2012a); Land (1985)", ["zn12a", "land85"])
 
 add("ALEs steer the body with saccade-like turns", [
     "In a related study, Zurek and Nelson recorded spiders on a freely rotating ball while targets moved through the ALE field. Stimuli elicited a series of whole-body **saccades**, rapid discrete turns whose magnitude matched the target’s position.",
@@ -258,8 +247,7 @@ add("Turns are planned from the first sighting", [
     "Because the eyes never moved, the stimulus stayed in the same retinal position throughout the turn. Any accuracy in the turn had to come from information available at the first sighting.",
     "Ring rotation closely matched the turn required to face the target. Land concluded that the initial position of the image on a lateral eye sets the size of the turn, an **open-loop** command executed without visual feedback.",
     "Turn control therefore resembles a **ballistic** movement: a motor program is selected from the sensory input and then carried out, rather than continuously corrected while the spider turns."],
-    "Land (1971)", ["land71"], layout="figure-right", figure_width=5.2,
-    figure=fig("f23_ring.png", "Ring paradigm: the carapace is fixed and the legs rotate a light ring. Schematic drawn from the method described in Land (1971) and Land (1972, chapter)."))
+    "Land (1971)", ["land71"])
 
 add("Posterolateral eyes respond to objects, not wide-field motion", [
     "Duelli tested the PLEs of _Evarcha arcuata_. A single moving object in the PLE field evoked an accurate turn of the prosoma, the front body section that carries the eyes, which brought the object into the principal-eye field.",
@@ -285,8 +273,7 @@ add("Primary targets reduce distraction", [
     "Spiders shifted their gaze to the distractor significantly less often when the primary stimulus was a cricket than when it was a different stimulus.",
     "Gaze shifts therefore depend on the properties of both stimuli. The authors interpreted this as evidence for higher-order control of principal-eye attention, a process that weighs the current target against a new one.",
     "**Attention** here is defined operationally as selective allocation of the principal eyes. The experiment measures behavior; it does not identify the neural basis of the selection."],
-    "Bruce et al. (2021)", ["bruce21"], layout="figure-right", figure_width=5.4,
-    figure=fig("f16_bruce.png", "Distractor paradigm. Schematic of the design and main result in Bruce et al. (2021)."))
+    "Bruce et al. (2021)", ["bruce21"])
 
 add("ALEs alone mediate responses to looming", [
     "In a second experiment, Bruce and colleagues presented a black circle that rapidly expanded (**looming**) or contracted (**receding**). Looming mimics an approaching object; receding provides a control with the same edges moving inward.",
@@ -304,16 +291,14 @@ add("Attention is allocated separately in each eye system", [
     "One experiment tested whether a cue presented to the secondary eyes enhanced principal-eye responses on the cued side. A second tested whether the direction of principal-eye focus enhanced secondary-eye detection on that side.",
     "In both experiments spiders detected targets faster and more accurately on the side opposite the cue. The hypothesis that both eye systems attend jointly to one location was not supported.",
     "The authors proposed that attention is segregated across the eye systems, with each covering locations the other is not attending. This is an interpretation of behavioral performance; the underlying neural mechanism is unknown."],
-    "Loconsole et al. (2024)", ["loconsole24"], layout="figure-right", figure_width=5.4,
-    figure=fig("f17_loconsole.png", "Cue–target design and main result. Schematic summarizing Loconsole et al. (2024)."))
+    "Loconsole et al. (2024)", ["loconsole24"])
 
 # ------------------------------------------------------------------ neural
 add("Two visual pathways reach separate brain centers", [
     "In _Cupiennius salei_, Strausfeld and Barth traced secondary-eye photoreceptors to three laminae, then to separate medullae, converging on a **mushroom body**. Principal-eye axons pass through successive neuropils to a midline structure now termed the **arcuate body**. A **neuropil** is a dense region of axons, dendrites and synapses.",
     "Steinhoff and colleagues found the same principal-eye connectivity in the jumping spider _Marpissa muscosa_. Each secondary eye has its own first-order neuropil; the AL and PL first-order neuropils connect to their own second-order neuropils and to a shared one, **L2**, which they proposed as an early integration centre for movement decisions. PME axons project directly to the arcuate body.",
     "Land had already seen that receptor fibres from each AM layer end in separate regions of the first optic glomerulus. Shared names with insect brain structures do not imply homology."],
-    "Strausfeld & Barth (1993); Steinhoff et al. (2020); Land (1969a)", ["sb93", "swb93", "steinhoff20", "land69a"], layout="figure-right", figure_width=5.4,
-    figure=fig("f18_brain_pathways.png", "Simplified wiring of the principal- and secondary-eye pathways in Marpissa muscosa. Diagram drawn from Steinhoff et al. (2020) and Strausfeld & Barth (1993)."))
+    "Strausfeld & Barth (1993); Steinhoff et al. (2020); Land (1969a)", ["sb93", "swb93", "steinhoff20", "land69a"])
 
 add("Recording from a pressurized brain", [
     "Spider legs are extended partly by **hydraulic pressure** in the haemolymph, so a large opening in the cuticle causes fatal fluid loss. Earlier neural work on salticids was limited to recordings from the eyes.",
@@ -349,8 +334,7 @@ add("Spiders discriminate biological motion with secondary eyes", [
     "Spiders stood on a sphere and chose between displays on either side. The comparisons were biological motion versus random dot motion, and biological motion versus scrambled displays that preserve local dot trajectories but not their arrangement.",
     "Spiders discriminated biological from random motion but turned preferentially toward the random display. They showed no preference between biological and scrambled displays.",
     "Discrimination shows that the secondary-eye pathway extracts more than the presence of motion. The direction of the preference is unexplained; the authors did not propose a confirmed functional reason for it."],
-    "De Agrò et al. (2021)", ["deagro21"], layout="figure-right", figure_width=5.4,
-    figure=fig("f20_biomotion.png", "Comparisons and outcomes in the point-light experiment. Summary of De Agrò et al. (2021); not original data."))
+    "De Agrò et al. (2021)", ["deagro21"])
 
 add("Innate recognition of prey uses local features", [
     "_Evarcha culicivora_ preferentially captures blood-fed _Anopheles_ mosquitoes, the vectors of human malaria. The spiders recognize this prey by its distinctive resting posture and engorged abdomen.",
@@ -379,16 +363,14 @@ add("The jump: hydraulics or muscle", [
     "Nabawy and colleagues filmed trained _Phidippus regius_ with high-speed cameras. Take-off velocity ranged from 0.52 to 0.97 m/s, and time to take-off from 18.1 to 31.6 ms.",
     "From these measurements they calculated that leg muscle could supply the required power, so hydraulic augmentation may be present but is not energetically essential. Short jumps used low trajectories that minimized flight time; long jumps used steeper angles near the energetic optimum.",
     "The two studies differ in species, method, and inference, so they illustrate competing explanations rather than a settled answer."],
-    "Parry & Brown (1959); Nabawy et al. (2018)", ["pb59", "nabawy18"], layout="figure-right", figure_width=4.9,
-    figure=fig("f21_jump.png", "Joint pressures (Parry & Brown 1959) and take-off kinematics (Nabawy et al. 2018). Ranges re-plotted from the values reported in each paper."))
+    "Parry & Brown (1959); Nabawy et al. (2018)", ["pb59", "nabawy18"])
 
 add("Small eyes trade sensitivity for acuity", [
     "Small eyes collect little light. Cerveira and colleagues tested whether _Cyrba algerina_ and _C. ocellata_, which hunt under stones, can identify prey and rivals in dim light.",
     "Both species performed proficiently at 234 and 1.35 cd/m². At 0.54 cd/m² only a minority succeeded, and at 0.24 cd/m² none did. Performance therefore failed over a narrow range of luminance.",
     "The principal eyes of _C. algerina_ have a short focal length and wide paired receptors that pool light, raising sensitivity at the cost of acuity (12.4 arcmin).",
     "**Luminance** measures the light reaching the eye from a surface, in candelas per square meter."],
-    "Cerveira et al. (2019, 2021)", ["cerveira19", "cerveira21"], layout="figure-right", figure_width=5.4,
-    figure=fig("f22_dim_light.png", "Prey and rival identification at four luminances. Values from Cerveira et al. (2019), re-plotted on a log scale."))
+    "Cerveira et al. (2019, 2021)", ["cerveira19", "cerveira21"])
 
 add("Juveniles keep adult acuity with small eyes", [
     "Goté and colleagues measured the ALEs of _Phidippus audax_ from early juveniles to adults using morphology, histology, ophthalmoscopy, and optical measurements.",

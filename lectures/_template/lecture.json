@@ -1,5 +1,5 @@
 {
-  "_how_to": "Copy this folder to lectures/L<N>/, fill 44 slides, then run: python tools/build_lecture.py lectures/L<N>/lecture.json. Title and date come from course/schedule.json automatically. Layouts: text | figure-right | figure-left | figure-below | two-figures | table. Inline **bold** for key terms and _italic_ for species names.",
+  "_how_to": "Copy this folder to lectures/L<N>/, fill 44 slides, then run: python tools/build_lecture.py lectures/L<N>/lecture.json. Title and date come from course/schedule.json automatically. Layouts: text | figure-right | figure-left | figure-below | two-figures | table. Inline **bold** for key terms and _italic_ for species names. Every figure must be a panel cropped from a published article: caption \"Author (year), Fig. N…\" plus \"source_url\" (DOI). Never create figures. Replace figures/example_panel.png before building.",
   "lecture": 11,
   "theme": "deep-sea",
   "content_slides": 44,

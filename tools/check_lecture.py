@@ -26,6 +26,7 @@ BANNED = [
     (r"\b(continued|cont\.)\s*$", "no 'continued' slide splits"),
     (r"lorem|ipsum|\bTODO\b|\bTBD\b|\[insert", "placeholder text left in"),
 ]
+MADE_FIGURE = re.compile(r"schematic|re-?plotted|drawn from|diagram drawn|illustrat|template curves|summary diagram|not original|simulated", re.I)
 MIN_WORDS = 70         # per content slide, text only
 MIN_FIGURE_SLIDES = 15 # content slides carrying at least one research figure
 
@@ -87,6 +88,10 @@ def main():
         notes = s.notes_slide.notes_text_frame.text if s.has_notes_slide else ""
         if not re.search(r"\((19|20)\d{2}[a-z]?\)|\b(19|20)\d{2}[a-z]?\b", notes):
             errs.append(f"slide {i}: speaker notes need the full reference(s) with year")
+        for line in notes.splitlines():
+            if line.startswith("Figure:") and MADE_FIGURE.search(line):
+                errs.append(f"slide {i}: figure is not from a published article ({line[8:70]!r}); "
+                            "only article figures are allowed")
         if "doi" not in notes.lower() and "http" not in notes.lower():
             warns.append(f"slide {i}: no DOI/URL in notes")
         if not re.search(r"(19|20)\d{2}", txt.splitlines()[-2] if len(txt.splitlines()) > 1 else ""):

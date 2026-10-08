@@ -40,6 +40,28 @@ class SpecError(Exception):
     pass
 
 
+# Figures must be reproduced from published articles only: never schematics, re-plots,
+# generated charts or diagrams. A caption must name the source figure, and the spec must
+# give the article's DOI/URL so the panel can be traced.
+SOURCE_CAPTION = re.compile(
+    r"^[^()]{2,120}?\((?:19|20)\d{2}[a-z]?\),\s*(?:Fig\.|Figs\.?|Figure|Text-figs?\.?|Plate|Table|Extended Data Fig\.|Supplementary Fig\.)",
+    re.I)
+MADE_FIGURE_WORDS = re.compile(
+    r"schematic|re-?plotted|redrawn by|drawn from|diagram drawn|illustrat|our own|created for|generated|"
+    r"summary table|summary diagram|not original|template curves|simulated|mock-?up", re.I)
+
+
+def check_article_figure(fig, where):
+    cap = fig.get("caption", "")
+    if not SOURCE_CAPTION.search(cap):
+        raise SpecError(f"{where}: figure caption must start 'Author (year), Fig. N…' naming the article figure: {cap[:70]!r}")
+    if MADE_FIGURE_WORDS.search(cap):
+        raise SpecError(f"{where}: figure looks self-made ({MADE_FIGURE_WORDS.search(cap).group(0)!r}). "
+                        "Only figures reproduced from published articles are allowed; use a text or table slide instead.")
+    if not fig.get("source_url"):
+        raise SpecError(f"{where}: figure needs 'source_url' (DOI or article URL) of the paper it was cropped from")
+
+
 # ---------------------------------------------------------------- helpers
 def rgb(hex_):
     return RGBColor.from_string(hex_)
@@ -234,6 +256,8 @@ class Deck:
         s = self.new_slide()
         t = self.t
         img = self.spec.get("title_image")
+        if img:
+            check_article_figure(img, "title slide")
         panel_w = W / 2 if img else W
         rect(s, 0, 0, panel_w, H, t["title_bg"])
         x, w = 0.75, panel_w - 1.5
@@ -268,6 +292,8 @@ class Deck:
         for k in ("title", "body", "cite", "refs"):
             if not sd.get(k):
                 raise SpecError(f"{where}: missing '{k}'")
+        for f in ([sd["figure"]] if "figure" in sd else sd.get("figures", [])):
+            check_article_figure(f, where)
         self.title(s, sd["title"])
         lay = sd.get("layout", "text")
         avail = BODY_BOTTOM - BODY_Y

@@ -17,3 +17,7 @@ python tools/check_lecture.py lectures/L13/Neuroethology_Lecture13_FA2026.pptx -
 ```
 
 Also install poppler (`pdftoppm`) and LibreOffice (`soffice`) for figure cropping and slide previews.
+
+## Prompt
+
+`prompts/make_lecture.md` has a copy-paste request for Claude Code or Codex. Figures must come only from published articles; the builder rejects anything else.
