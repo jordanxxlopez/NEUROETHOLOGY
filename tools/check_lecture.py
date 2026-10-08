@@ -28,7 +28,7 @@ BANNED = [
 ]
 MADE_FIGURE = re.compile(r"schematic|re-?plotted|drawn from|diagram drawn|illustrat|template curves|summary diagram|not original|simulated", re.I)
 MIN_WORDS = 70         # per content slide, text only
-MIN_FIGURE_SLIDES = 15 # content slides carrying at least one research figure
+MIN_FIGURE_SLIDES = 18 # content slides carrying an article figure
 
 
 def slide_text(slide):

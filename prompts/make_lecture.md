@@ -40,7 +40,7 @@ Figures — strict
 - If a paper's PDF cannot be downloaded, do not substitute anything. Stop and give me a
   numbered list of the papers you need with DOI links so I can upload the PDFs. Slides
   without an article figure are text slides (a table of reported values is fine).
-- At least 15 content slides must carry an article figure.
+- At least 18 content slides must carry an article figure.
 
 Finish
 - Run the builder and checker until there are 0 failures, render every slide and fix any
