@@ -291,6 +291,7 @@ spec={'lecture':17,'theme':'midnight-silver','content_slides':44,'slides':slides
 {'lead':'Call assignment is part of ranging.','text':'Overlapping echo epochs create pulse–echo ambiguity; lowest FM1 frequencies anchor the tested delay percept.'},
 {'lead':'Active sensing changes the scene.','text':'Bats adjust flight paths, call groups, and terminal-buzz duration near vegetation; proposed neural benefits remain distinct from measured behavior.'}
 ]}}
+spec['title_image']={'path':'figures/M06_1.png','caption':'Moss et al. (2006), Fig. 1. Big brown bat in the published flight-room experiment.','source_url':'https://doi.org/10.1371/journal.pbio.0040079'}
 assert len(slides)==44,len(slides)
 assert sum('figure' in s for s in slides)>=40
 (ROOT/'lecture.json').write_text(json.dumps(spec,indent=2,ensure_ascii=False)+'\n')

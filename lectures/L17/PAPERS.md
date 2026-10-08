@@ -14,9 +14,9 @@ The scientific sources cover comparative range discrimination, echo harmonic str
 
 ## Figure provenance
 
-`crops.json` records the six source PDFs, one-based PDF pages, and normalized crop boxes. All lecture images are unchanged original article panels rendered and cropped with the repository tools. Figures include the original axes, units, scale bars where present, and panel letters. No diagram, graph, illustration, icon, or photograph was created for the lecture. Source PDFs are kept in the ignored `papers/` directory.
+`crops.json` records the six source PDFs, one-based PDF pages, and normalized crop boxes. All 40 distinct lecture images are unchanged original article panels rendered and cropped with the repository tools. Figures include the original axes, units, scale bars where present, and panel letters. No diagram, graph, illustration, icon, or photograph was created for the lecture. Source PDFs are kept in the ignored `papers/` directory.
 
-The spec contains 44 content slides, of which 42 include article figures. All 42 meet the repository checker's article-image requirements. Some panels recur where different source-supported concepts use the same experiment. All content slides have full teaching paragraphs and transcripts with DOI references.
+The spec contains 44 content slides, of which 42 include article figures. All 42 meet the repository checker's article-image requirements. Some panels recur where different source-supported concepts use the same experiment. The title image is the unchanged bat-and-flight-room figure in Moss et al. (2006), Fig. 1. All content slides have full teaching paragraphs and transcripts with DOI references.
 
 ## Verified bibliography
 
