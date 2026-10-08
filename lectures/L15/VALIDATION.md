@@ -7,3 +7,5 @@
 - PPTX ZIP integrity verified. Theme iron / cloud blue recorded as used only after final validation.
 
 Source PDFs stay in the ignored `papers/` directory. `research.json` records sources, searches, PDF origins and checksums.
+
+Public immutable GitHub downloads tested without authentication: PPTX and PDF return HTTP 200 and exactly match the validated local files. Downloaded PPTX opens as a valid 46-slide ZIP, downloaded PDF has 46 pages, and the GitHub PDF preview returns HTTP 200. Links and checksums are recorded in `export.json`.
