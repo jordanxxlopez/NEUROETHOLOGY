@@ -35,7 +35,7 @@ Public searches used Europe PMC, Crossref and OpenAlex, followed by publisher pa
 
 `crops.json` records PDF file, one-based PDF page and normalized crop coordinates for every retained asset. Crops were made with the repository tools at 250 dpi. Shared axes and legends are retained by including complete related panels where necessary. Original colors, labels, scale bars and scientific marks are preserved. No image, scientific graph or model was created, redrawn, recolored or generated. Published model panels remain explicitly theoretical in the teaching text.
 
-The deck uses 39 distinct source crops, reused when the same anatomy or evidence is relevant. All 44 content slides have article images; 37 carry source color. The title animal and repeated anatomy are the published second-instar panels of Booth et al., identified as juvenile anatomy rather than adult recordings.
+The deck uses 39 distinct source crops, reused when the same anatomy or evidence is relevant. All 44 content slides have article images; 38 carry source color. The title animal and repeated anatomy are the published second-instar panels of Booth et al., identified as juvenile anatomy rather than adult recordings.
 
 ## Evidence limits
 

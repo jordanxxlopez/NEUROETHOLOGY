@@ -26,7 +26,7 @@ The builder accepts optional `title_refs` so the title animal has a complete sou
 - Exact title: Cockroach escape: the cercal system and giant interneurons (Camhi).
 - Exact date: Friday, August 28, 2026.
 - Three explanatory paragraphs and a teaching transcript on every content slide.
-- Article images on all 44 content slides; original source color on 37.
+- Article images on all 44 content slides; original source color on 38.
 - 39 distinct article crops and 83 image placements across the content slides.
 - Eight verified primary papers, with complete DOI references in speaker notes.
 - Arial throughout editable slide text; body type is 15–16 pt.
