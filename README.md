@@ -4,6 +4,8 @@ Builds lecture PowerPoints in the approved Lecture 8–10 format: title slide + 
 
 ## Use with an AI coding agent
 
+- **ChatGPT:** see `chatgpt/SETUP.md` (Project instructions in `chatgpt/INSTRUCTIONS.md`, per-lecture message in `chatgpt/lecture_prompt.md`).
+
 - **Codex:** open this folder and ask, e.g., "make lecture 13". Codex reads `AGENTS.md`.
 - **Claude Code:** same request. Claude reads `CLAUDE.md` and the skill in `.claude/skills/neuroethology-lecture/`.
 

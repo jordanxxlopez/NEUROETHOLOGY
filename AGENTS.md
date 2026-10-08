@@ -81,4 +81,5 @@ pip install -r requirements.txt      # python-pptx, Pillow
 - `lectures/L14/PAPERS.md` — papers to upload for Lecture 14.
 - `reference/` — approved Lectures 8–11 decks.
 - `prompts/make_lecture.md` — the request prompt to paste into Claude or Codex.
+- `chatgpt/` — setup guide, Project instructions and per-lecture message for ChatGPT.
 

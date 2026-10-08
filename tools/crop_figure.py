@@ -7,9 +7,10 @@
     python tools/crop_figure.py paper.pdf 4 --box 0.08 0.12 0.52 0.48 -o lectures/L11/figures/fig2a.png
 
 Keep axes, units, scale bars and panel letters inside the crop.
-Needs pdftoppm (poppler) and Pillow.
+Needs Pillow plus pdftoppm (poppler) or PyMuPDF.
 """
 import argparse
+import shutil
 import subprocess
 import tempfile
 from pathlib import Path
@@ -18,10 +19,15 @@ from PIL import Image
 
 
 def render(pdf, page, dpi):
-    tmp = Path(tempfile.mkdtemp())
-    subprocess.run(["pdftoppm", "-png", "-r", str(dpi), "-f", str(page), "-l", str(page),
-                    "-singlefile", str(pdf), str(tmp / "page")], check=True)
-    return Image.open(tmp / "page.png")
+    """Render one page. Uses pdftoppm (poppler) if installed, else PyMuPDF (available in ChatGPT's Python tool)."""
+    if shutil.which("pdftoppm"):
+        tmp = Path(tempfile.mkdtemp())
+        subprocess.run(["pdftoppm", "-png", "-r", str(dpi), "-f", str(page), "-l", str(page),
+                        "-singlefile", str(pdf), str(tmp / "page")], check=True)
+        return Image.open(tmp / "page.png")
+    import fitz  # PyMuPDF
+    pix = fitz.open(str(pdf))[page - 1].get_pixmap(dpi=dpi)
+    return Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
 
 
 def main():
