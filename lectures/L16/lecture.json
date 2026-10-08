@@ -1,6 +1,6 @@
 {
   "lecture": 16,
-  "theme": "espresso-stone",
+  "theme": "graphite-ice",
   "content_slides": 44,
   "slides": [
     {
@@ -21,17 +21,18 @@
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
         "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schoeppler18_fig1.png",
         "caption": "Schoeppler et al. (2018), Fig. 1(a–d). Flight call sequence and CF-FM structure, in kHz and ms.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        "source_url": "https://doi.org/10.1038/s41598-018-22880-y",
+        "color": true
       }
     },
     {
       "title": "Flutter changes the echoes carried by the CF component",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "**Flutter** is the periodic motion of an insect’s wings. Flutter-detecting bats receive echoes whose amplitude and frequency vary as the reflecting wings move. The long CF component supplies a sustained carrier on which those changes can occur.",
         "The **auditory fovea** is an expanded, sharply tuned representation of a narrow frequency range in the hearing system. In CF-FM bats, that range corresponds closely to the returning CF component rather than to all ultrasonic frequencies equally.",
@@ -46,11 +47,19 @@
       "refs": [
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
         "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
-      ]
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/schoeppler18_fig1.png",
+        "caption": "Schoeppler et al. (2018), Fig. 1(a–d). Flight call sequence and CF-FM structure, in kHz and ms.",
+        "source_url": "https://doi.org/10.1038/s41598-018-22880-y",
+        "color": true
+      },
+      "figure_width": 5.6
     },
     {
       "title": "Approaching a reflector raises returning echo frequency",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "A **Doppler shift** is a frequency change caused by relative motion between a sound source, a reflector, and a receiver. When a bat approaches a stationary object, the returning echo has a higher frequency than the emitted sound.",
         "**Doppler-shift compensation** lowers the frequency of subsequent calls as approaching motion raises echo frequency. The regulated quantity is the returning CF frequency. The emitted CF frequency must therefore change rather than remain fixed throughout flight.",
@@ -65,7 +74,15 @@
       "refs": [
         "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191",
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
-      ]
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/schoeppler18_fig2ef.png",
+        "caption": "Schoeppler et al. (2018), Fig. 2(e–f). Measured emission and flight speed, with calculated echo frequency.",
+        "source_url": "https://doi.org/10.1038/s41598-018-22880-y",
+        "color": true
+      },
+      "figure_width": 5.6
     },
     {
       "title": "Resting frequency is an individual calling baseline",
@@ -84,7 +101,7 @@
       "refs": [
         "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schuller74_fig1.png",
@@ -109,7 +126,7 @@
       "refs": [
         "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schuller74_fig2.png",
@@ -134,7 +151,7 @@
       "refs": [
         "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schuller74_fig3.png",
@@ -143,33 +160,8 @@
       }
     },
     {
-      "title": "Frequency compensation has a finite operating range",
-      "layout": "figure-right",
-      "body": [
-        "Positive artificial shifts up to about 4.4 kHz were compensated across the horseshoe bats tested by Schuller and colleagues. Some animals responded over a range extending to about 6 kHz. The operating range was not unlimited.",
-        "Above an individual’s compensation limit, responses differed. Some bats lowered emission by an insufficient amount, some changed frequency irregularly, and some continued near resting frequency. A large imposed shift did not always produce a proportionately larger correction.",
-        "These results distinguish the **operating range**, where feedback correction remains effective, from a fixed hearing threshold. Failure at a large shift could reflect sensory, control, or vocal limitations; the behavioral measurements alone do not isolate the limiting mechanism."
-      ],
-      "transcript": [
-        "The electronic shift was increased while the bat’s emission was monitored. Compensation was reliable over a substantial positive range, but the same relation did not extend indefinitely.",
-        "About 4.4 kilohertz could be compensated across the animals, and some animals compensated shifts approaching 6 kilohertz. At larger shifts, the behavioral response could saturate, become irregular, or disappear.",
-        "A compensation limit does not by itself establish that the bat cannot hear the shifted sound. The response also depends on the comparison process and the vocal apparatus. These recordings establish the range of the whole auditory-vocal behavior under the playback conditions, rather than a separate limit for each component of the system."
-      ],
-      "cite": "Schuller et al. (1974)",
-      "refs": [
-        "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191"
-      ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schuller74_fig4.png",
-        "caption": "Schuller et al. (1974), Fig. 4. An individual compensation function and its reference-frequency offset.",
-        "source_url": "https://doi.org/10.1007/BF00696191"
-      }
-    },
-    {
       "title": "Early playback tests found little response to lower echoes",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "In the 1974 experiments, downward shifts of artificial echoes did not evoke a systematic increase in emitted frequency. The bats continued calling near resting frequency, although their calls became somewhat less regular in frequency.",
         "This finding supported an initially asymmetric account: echoes above the reference band lowered emission, whereas echoes below it appeared ineffective. However, the intensity dependence of the response was not systematically measured in that study.",
@@ -184,7 +176,14 @@
       "refs": [
         "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191",
         "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
-      ]
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/schuller74_fig2.png",
+        "caption": "Schuller et al. (1974), Fig. 2. Emission-frequency compensation under increasing positive echo shifts, in Hz.",
+        "source_url": "https://doi.org/10.1007/BF00696191"
+      },
+      "figure_width": 5.6
     },
     {
       "title": "Equal sound levels need not produce equal audibility",
@@ -204,7 +203,7 @@
         "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
         "Long GR, Schnitzler H-U (1975). Behavioural audiograms from the bat, Rhinolophus ferrumequinum. Journal of Comparative Physiology 100:211–219. https://doi.org/10.1007/BF00614531"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/metzner02_fig1.png",
@@ -229,7 +228,7 @@
       "refs": [
         "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/metzner02_fig2.png",
@@ -239,7 +238,7 @@
     },
     {
       "title": "Upward vocal corrections are smaller than downward ones",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "In Metzner and colleagues’ playback experiments, bats compensated for roughly 95% of positive shifts but only up to about 22% of the range of negative shifts. Increasing emission above resting frequency was possible but comparatively limited.",
         "A negative shift as large as 4.5 kHz produced a maximum observed emission increase of 1.51 kHz. Detecting feedback and generating a full motor correction therefore cannot be treated as the same capacity.",
@@ -253,32 +252,14 @@
       "cite": "Metzner et al. (2002)",
       "refs": [
         "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
-      ]
-    },
-    {
-      "title": "Removing an imposed shift reverses the vocal correction",
-      "layout": "figure-right",
-      "body": [
-        "A **step perturbation** changes the imposed feedback shift abruptly. Metzner and colleagues first added a positive shift, which lowered call frequency. They then returned the apparatus to zero shift while the animal was still emitting below its resting frequency.",
-        "At that instant, the playback also fell below resting frequency. The animal increased emission toward its previous baseline. Its correction depended on the current frequency of feedback, not simply on whether the apparatus had previously imposed a positive shift.",
-        "This sequence tests both directions of control within one closed loop. The returning trajectory reflects the existing state of the animal’s emission as well as the external shift. Zero imposed shift is not immediately equivalent to feedback at resting frequency."
       ],
-      "transcript": [
-        "The first positive step makes feedback too high. The animal lowers its emitted frequency until the returning signal is closer to its preferred band.",
-        "When the electronic shift is removed, emission is still low for the first calls. Because the playback is made from those calls, the returning signal is now below resting frequency. The bat consequently raises its emission again.",
-        "The same physical setting of the playback apparatus can therefore produce different feedback frequencies at different times. The current vocal output is part of the loop. The recovery phase establishes an active upward adjustment, rather than requiring that the bat passively return to its baseline after an upward shift ends."
-      ],
-      "cite": "Metzner et al. (2002)",
-      "refs": [
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
-      ],
-      "figure_width": 5.2,
       "figure": {
         "kind": "article",
-        "path": "figures/metzner02_fig3a.png",
-        "caption": "Metzner et al. (2002), Fig. 3(A). A positive playback step lowers calls; removal of the step evokes recovery.",
+        "path": "figures/metzner02_fig2.png",
+        "caption": "Metzner et al. (2002), Fig. 2(A–D). Call and playback changes for positive and negative frequency shifts.",
         "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
-      }
+      },
+      "figure_width": 5.6
     },
     {
       "title": "Louder feedback accelerates correction in both directions",
@@ -297,7 +278,7 @@
       "refs": [
         "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/metzner02_fig3b.png",
@@ -306,44 +287,33 @@
       }
     },
     {
-      "title": "The larynx converts auditory correction into call frequency",
-      "layout": "text",
+      "title": "Vocal correction is measured at the acoustic output",
+      "layout": "figure-right",
       "body": [
-        "The **larynx** is the vocal sound-producing organ. Metzner and colleagues described call-frequency control through motor activity reaching the laryngeal apparatus, including the superior laryngeal nerve and the cricothyroid muscle.",
-        "The **cricothyroid muscle** changes the mechanical state of the vocal apparatus. Its activity must be coordinated with opening and closure of the **glottis**, the airway opening at the vocal folds. The authors proposed that this coordination limits large increases in call frequency.",
-        "Auditory feedback above and below resting frequency must ultimately produce opposite changes in vocal output. The playback data establish the required output relation, while the proposed biomechanical restriction remains an interpretation informed by earlier motor studies rather than a direct measurement in these experiments."
+        "An auditory–vocal feedback experiment measures a sensory intervention and a change in emitted sound. Metzner and colleagues shifted echo frequency and varied playback intensity in stationary horseshoe bats. The acoustic output changed even without flight, establishing a feedback contribution to call-frequency control.",
+        "At comparable levels above hearing threshold, higher-frequency feedback lowered subsequent emissions and lower-frequency feedback raised them. Correction became faster as echoes became more audible. These measurements link an auditory discrepancy to a vocal adjustment but leave the intervening neural and muscular steps unresolved.",
+        "The experiment did not image the vocal apparatus, record its motor neurons or isolate a muscle-specific mechanism. Its established endpoint is a change in CF emission, measured in frequency and over time. A precise acoustic correction should therefore not be mistaken for a complete anatomical account of the feedback circuit."
       ],
       "transcript": [
-        "The bat changes its sound by changing motor commands to its vocal apparatus. The superior laryngeal nerve supplies a route through which neural activity can influence the structures controlling call frequency.",
-        "The cricothyroid muscle participates in changing the mechanical conditions of sound production. Its action is coordinated with activity at the glottis. That coordination can make raising a call above its normal resting frequency different from lowering it below the baseline.",
-        "Metzner and colleagues used previous stimulation and vocal-production studies to discuss this asymmetry. Their own experiments measured calls during auditory feedback perturbations. Those measurements specify what a successful sensory-to-motor mechanism must accomplish, but they do not provide a muscle recording or a direct biomechanical test of the proposed restriction."
+        "An auditory–vocal feedback experiment measures a sensory intervention and a change in emitted sound. Metzner and colleagues shifted echo frequency and varied playback intensity in stationary horseshoe bats. The acoustic output changed even without flight, establishing a feedback contribution to call-frequency control.",
+        "At comparable levels above hearing threshold, higher-frequency feedback lowered subsequent emissions and lower-frequency feedback raised them. Correction became faster as echoes became more audible. These measurements link an auditory discrepancy to a vocal adjustment but leave the intervening neural and muscular steps unresolved.",
+        "The experiment did not image the vocal apparatus, record its motor neurons or isolate a muscle-specific mechanism. Its established endpoint is a change in CF emission, measured in frequency and over time. A precise acoustic correction should therefore not be mistaken for a complete anatomical account of the feedback circuit."
       ],
       "cite": "Metzner et al. (2002)",
       "refs": [
         "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
-      ]
-    },
-    {
-      "title": "Opposed feedback actions can stabilize a vocal set point",
-      "layout": "text",
-      "body": [
-        "A **set point** is the preferred state maintained by a feedback system. Positive and negative echo-frequency deviations evoke opposing vocal changes around the resting band. Louder feedback accelerates both directions of adjustment.",
-        "Metzner and colleagues argued that an **antagonistic feedback mechanism**, combining opposing effects on vocal motor activity, is consistent with these results. They reported preliminary pharmacological evidence implicating the inhibitory transmitter GABA acting through GABA_A receptors and the excitatory transmitter glutamate acting through AMPA receptors.",
-        "These receptor names identify proposed synaptic routes for decreasing or increasing activity; they do not identify an anatomically complete circuit. The behavioral study tests frequency correction, whereas its discussion of receptor mechanisms refers to earlier preliminary work. Exact cellular connectivity was not established by the playback data."
       ],
-      "transcript": [
-        "A feedback loop must change output in opposite directions when its returning signal lies above or below the desired band. The dependence on echo strength also constrains how sensory activity is converted into a correction.",
-        "The authors proposed opposed inhibitory and excitatory actions. GABA is a neurotransmitter associated here with an inhibitory pathway through GABA_A receptors. Glutamate is the neurotransmitter associated with an excitatory pathway through AMPA receptors. A neurotransmitter is a chemical signal acting at a synapse, and a receptor is the molecular target through which it affects the receiving cell.",
-        "The receptor account in this paper was linked to preliminary pharmacological work, not demonstrated by the call recordings themselves. It supports a mechanistic hypothesis without supplying a complete map of cell types, receptor distributions, or the connections that implement the comparison."
-      ],
-      "cite": "Metzner et al. (2002)",
-      "refs": [
-        "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
-      ]
+      "figure": {
+        "kind": "article",
+        "path": "figures/metzner02_fig3b.png",
+        "caption": "Metzner et al. (2002), Fig. 3(B). Call-frequency recovery under strong and attenuated feedback, in seconds.",
+        "source_url": "https://doi.org/10.1242/jeb.205.11.1607"
+      },
+      "figure_width": 5.6
     },
     {
       "title": "Cochlear recordings separate receptor and neural signals",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "The **cochlea** is the inner-ear structure that converts sound into receptor activity. Suga and colleagues recorded **cochlear microphonics**, or CM, electrical responses related to acoustic stimulation of the cochlea, using an electrode at the round window.",
         "They also recorded the **N1 response**, summed activity of primary auditory neurons. CM and N1 therefore sampled different stages of peripheral processing: receptor-related activity and neural discharge. Tone bursts allowed the researchers to compare responses during sound and at its onset and cessation.",
@@ -354,21 +324,294 @@
         "The N1 signal represents the summed activity of primary auditory neurons. Recording both signals allows a receptor-related transient to be compared with a transient in neural discharge. Their similarity can support a peripheral origin for a neural response, although the two measurements are not interchangeable.",
         "Suga and colleagues presented controlled tone bursts and calibrated their amplitude at the ear. Short bursts exposed onset and offset effects while reducing interference from the middle-ear muscle reflex. The frequency dependence of these effects supplied evidence about the sharply tuned mechanical properties of the inner ear."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Suga et al. (1975); Wang et al. (2025)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161",
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.8,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga75_fig1.png",
+          "caption": "Suga et al. (1975), Fig. 1(A–B). Round-window cochlear and neural responses to calibrated tone bursts.",
+          "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        },
+        {
+          "kind": "article",
+          "path": "figures/a1de.png",
+          "caption": "Wang et al. (2025), Fig. 1(D–E). Published cochlear anatomy and stained tissue sections.",
+          "source_url": "https://doi.org/10.1111/1755-0998.14101",
+          "color": true
+        }
+      ],
+      "primary_figure_height": 2.4,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
+    },
+    {
+      "title": "Cochlear anatomy links vibration to neural output",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "The **cochlea** is the coiled inner-ear structure that converts acoustic vibration into sensory activity. Wang and colleagues combined single-nucleus sequencing with hematoxylin-and-eosin tissue staining in the CF bat _Rhinolophus ferrumequinum_ and the FM bat _Myotis pilosus_. Their published sections locate sensory tissue, neural tissue and the cochlear lateral wall.",
+        "The **neurosensory epithelium** contains hair cells and supporting cells. Hair cells provide the sensory interface; spiral ganglion neurons carry cochlear information toward the brainstem. The atlas resolved 14 cell types in the horseshoe bat and 13 in the FM bat, distinguishing several cooperating tissue compartments rather than treating the cochlea as one uniform population.",
+        "Anatomical localization and molecular classification describe where candidate mechanisms reside. Neither tissue staining nor RNA sequencing measured Doppler compensation during flight. Their contribution is a cellular framework for interpreting the peripheral specialization established by acoustic and electrophysiological experiments."
+      ],
+      "transcript": [
+        "The cochlea is the coiled inner-ear structure that converts acoustic vibration into sensory activity. Wang and colleagues combined single-nucleus sequencing with hematoxylin-and-eosin tissue staining in the CF bat Rhinolophus ferrumequinum and the FM bat Myotis pilosus. Their published sections locate sensory tissue, neural tissue and the cochlear lateral wall.",
+        "The neurosensory epithelium contains hair cells and supporting cells. Hair cells provide the sensory interface; spiral ganglion neurons carry cochlear information toward the brainstem. The atlas resolved 14 cell types in the horseshoe bat and 13 in the FM bat, distinguishing several cooperating tissue compartments rather than treating the cochlea as one uniform population.",
+        "Anatomical localization and molecular classification describe where candidate mechanisms reside. Neither tissue staining nor RNA sequencing measured Doppler compensation during flight. Their contribution is a cellular framework for interpreting the peripheral specialization established by acoustic and electrophysiological experiments."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
       "figure": {
         "kind": "article",
-        "path": "figures/suga75_fig1.png",
-        "caption": "Suga et al. (1975), Fig. 1(A–B). Round-window cochlear and neural responses to calibrated tone bursts.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        "path": "figures/a1de.png",
+        "caption": "Wang et al. (2025), Fig. 1(D–E). Published cochlear anatomy and stained tissue sections.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
+      }
+    },
+    {
+      "title": "Nuclear RNA identifies distinct cochlear cell populations",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Single-nucleus RNA sequencing** measures RNA associated with individual cell nuclei. A **marker gene** helps identify a cell population by its expression pattern. Wang and colleagues grouped cochlear nuclei using expression profiles and used more than 200 marker genes to support the identification of neural, sensory, immune and structural populations.",
+        "Their species-specific analyses resolved 14 cell types in _Rhinolophus ferrumequinum_ and 13 in _Myotis pilosus_. Neural populations included two spiral-ganglion categories and glial cells. Hair cells and supporting cells occupied the sensory compartment, while marginal and basal cells contributed to lateral-wall categories.",
+        "The plotted expression clusters are molecular groupings, not a physical map of cochlear position or a measured frequency-tuning map. A cell’s RNA profile can identify candidate functions, but does not establish its firing threshold, preferred echo frequency or causal contribution to vocal feedback."
+      ],
+      "transcript": [
+        "Single-nucleus RNA sequencing measures RNA associated with individual cell nuclei. A marker gene helps identify a cell population by its expression pattern. Wang and colleagues grouped cochlear nuclei using expression profiles and used more than 200 marker genes to support the identification of neural, sensory, immune and structural populations.",
+        "Their species-specific analyses resolved 14 cell types in Rhinolophus ferrumequinum and 13 in Myotis pilosus. Neural populations included two spiral-ganglion categories and glial cells. Hair cells and supporting cells occupied the sensory compartment, while marginal and basal cells contributed to lateral-wall categories.",
+        "The plotted expression clusters are molecular groupings, not a physical map of cochlear position or a measured frequency-tuning map. A cell’s RNA profile can identify candidate functions, but does not establish its firing threshold, preferred echo frequency or causal contribution to vocal feedback."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/a1bc.png",
+        "caption": "Wang et al. (2025), Fig. 1(B–C). Cell clusters and original marker-expression matrix.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
+      }
+    },
+    {
+      "title": "Spiral ganglion neurons carry peripheral auditory signals",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Spiral ganglion neurons**, or SGNs, are cochlear sensory neurons that convey auditory information toward the brainstem. Wang and colleagues distinguished SGN1 and SGN2 expression categories in both bats. These labels refer to molecular populations in this analysis rather than the onset and offset response categories measured by Suga.",
+        "The neural grouping was supported by expression of genes including CELF4 and GABBR2. Glial cells were identified using markers including MBP and PLP1. The same analysis separated hair cells and supporting cells from neural populations, allowing species differences to be assigned to particular tissue compartments.",
+        "The atlas found two principal SGN categories, but did not record individual SGN tuning curves. A proposed association between a molecular category and narrowly tuned CF processing therefore remains an interpretation. RNA identity must be linked to recordings before a specific cell population can be assigned an established echo-frequency computation."
+      ],
+      "transcript": [
+        "Spiral ganglion neurons, or SGNs, are cochlear sensory neurons that convey auditory information toward the brainstem. Wang and colleagues distinguished SGN1 and SGN2 expression categories in both bats. These labels refer to molecular populations in this analysis rather than the onset and offset response categories measured by Suga.",
+        "The neural grouping was supported by expression of genes including CELF4 and GABBR2. Glial cells were identified using markers including MBP and PLP1. The same analysis separated hair cells and supporting cells from neural populations, allowing species differences to be assigned to particular tissue compartments.",
+        "The atlas found two principal SGN categories, but did not record individual SGN tuning curves. A proposed association between a molecular category and narrowly tuned CF processing therefore remains an interpretation. RNA identity must be linked to recordings before a specific cell population can be assigned an established echo-frequency computation."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/a2ab.png",
+        "caption": "Wang et al. (2025), Fig. 2(A–B). Classified neural and sensory populations.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
+      }
+    },
+    {
+      "title": "Hair-cell markers locate candidate channel mechanisms",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A **hair cell** is a sensory epithelial cell whose mechanically sensitive structures respond to displacement. In the atlas, expression of CDC14A, XIRP2, Kcnq4 and LBH helped identify hair-cell populations. **KCNQ4** names a potassium-channel gene; detecting its RNA identifies a candidate cellular mechanism rather than measuring a potassium current.",
+        "Wang and colleagues separated sensory epithelial populations from spiral ganglion neurons and cochlear lateral-wall cells. Their 14-category horseshoe-bat atlas therefore places a channel-associated marker in a tissue context. Supporting-cell markers included SLC1A3, SPARCL1 and ETV4, emphasizing that sensory transduction depends on a multicellular environment.",
+        "The study did not selectively block KCNQ4, measure channel gating or test compensation after a channel intervention. It cannot establish that KCNQ4 alone creates the auditory fovea. The molecular evidence complements peripheral recordings while preserving the distinction between expressed genes, functional membrane currents and behavior."
+      ],
+      "transcript": [
+        "A hair cell is a sensory epithelial cell whose mechanically sensitive structures respond to displacement. In the atlas, expression of CDC14A, XIRP2, Kcnq4 and LBH helped identify hair-cell populations. KCNQ4 names a potassium-channel gene; detecting its RNA identifies a candidate cellular mechanism rather than measuring a potassium current.",
+        "Wang and colleagues separated sensory epithelial populations from spiral ganglion neurons and cochlear lateral-wall cells. Their 14-category horseshoe-bat atlas therefore places a channel-associated marker in a tissue context. Supporting-cell markers included SLC1A3, SPARCL1 and ETV4, emphasizing that sensory transduction depends on a multicellular environment.",
+        "The study did not selectively block KCNQ4, measure channel gating or test compensation after a channel intervention. It cannot establish that KCNQ4 alone creates the auditory fovea. The molecular evidence complements peripheral recordings while preserving the distinction between expressed genes, functional membrane currents and behavior."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/a2ab.png",
+        "caption": "Wang et al. (2025), Fig. 2(A–B). Sensory and supporting-cell populations.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
+      }
+    },
+    {
+      "title": "CF-associated expression is concentrated in neural cells",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Differential expression** describes a difference in measured gene abundance between comparison groups. Wang and colleagues mapped previously identified CF-associated gene sets onto their cochlear cell atlas. The mapped nervous-system-related genes were concentrated in neural cells, particularly the two spiral-ganglion categories.",
+        "The analysis localized a broader set of 1365 upregulated genes across neural cells, sensory epithelium and lateral-wall cells. It combined whole-tissue expression comparisons with single-nucleus localization, separating a cochlear-wide molecular signal into candidate cellular sources. These are expression measurements rather than recordings of acoustic responses.",
+        "Enrichment in SGN1 and SGN2 supports focused hypotheses about peripheral neural specialization. It does not establish that every mapped gene is necessary for CF hearing, or that its expression changes during compensation. Species differences, tissue preparation and cell classification remain relevant when connecting molecular patterns to behavior."
+      ],
+      "transcript": [
+        "Differential expression describes a difference in measured gene abundance between comparison groups. Wang and colleagues mapped previously identified CF-associated gene sets onto their cochlear cell atlas. The mapped nervous-system-related genes were concentrated in neural cells, particularly the two spiral-ganglion categories.",
+        "The analysis localized a broader set of 1365 upregulated genes across neural cells, sensory epithelium and lateral-wall cells. It combined whole-tissue expression comparisons with single-nucleus localization, separating a cochlear-wide molecular signal into candidate cellular sources. These are expression measurements rather than recordings of acoustic responses.",
+        "Enrichment in SGN1 and SGN2 supports focused hypotheses about peripheral neural specialization. It does not establish that every mapped gene is necessary for CF hearing, or that its expression changes during compensation. Species differences, tissue preparation and cell classification remain relevant when connecting molecular patterns to behavior."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/a3cd.png",
+        "caption": "Wang et al. (2025), Fig. 3(B–D). CF-associated genes across cell classes.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
+      }
+    },
+    {
+      "title": "Calcium pathways are candidate components of CF tuning",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Pathway enrichment** asks whether a measured gene set contains many genes assigned to a biological process. In Wang and colleagues’ spiral-ganglion analysis, calcium signaling occupied a central position in the horseshoe-bat pathway network. The FM-bat comparison instead emphasized a glutamatergic-synapse pathway among its identified neural categories.",
+        "**Calcium signaling** refers to cellular processes regulated by calcium availability and calcium-sensitive proteins. A **glutamatergic synapse** uses glutamate-associated signaling between cells. The networks were constructed from gene-expression categories; their connections indicate relationships among annotated pathways, not demonstrated synaptic wiring.",
+        "The difference provides a molecular candidate for investigating CF-associated auditory specialization. No calcium concentration, channel current or transmitter-release rate was measured in this experiment. A pathway assignment therefore cannot be converted into an established sequence in which one channel changes SGN firing and thereby produces Doppler-shift compensation."
+      ],
+      "transcript": [
+        "Pathway enrichment asks whether a measured gene set contains many genes assigned to a biological process. In Wang and colleagues’ spiral-ganglion analysis, calcium signaling occupied a central position in the horseshoe-bat pathway network. The FM-bat comparison instead emphasized a glutamatergic-synapse pathway among its identified neural categories.",
+        "Calcium signaling refers to cellular processes regulated by calcium availability and calcium-sensitive proteins. A glutamatergic synapse uses glutamate-associated signaling between cells. The networks were constructed from gene-expression categories; their connections indicate relationships among annotated pathways, not demonstrated synaptic wiring.",
+        "The difference provides a molecular candidate for investigating CF-associated auditory specialization. No calcium concentration, channel current or transmitter-release rate was measured in this experiment. A pathway assignment therefore cannot be converted into an established sequence in which one channel changes SGN firing and thereby produces Doppler-shift compensation."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/a3ef.png",
+        "caption": "Wang et al. (2025), Fig. 3(E–F). Published pathway networks from cochlear neural cells.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
+      }
+    },
+    {
+      "title": "Orthologous genes permit a controlled species comparison",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Orthologous genes** are corresponding genes in different species inherited from a common ancestral gene. Wang and colleagues used 8607 orthologous genes to construct a joint cochlear atlas for _Rhinolophus ferrumequinum_ and _Myotis pilosus_. This provides a common comparison space rather than comparing unrelated species-specific marker lists.",
+        "The joint analysis resolved 26 expression clusters and assigned familiar cochlear identities, including SGNs, glial cells, supporting cells and hair cells. Some clusters were dominated by one species, while others contained contributions from both. The separation preserves both shared cellular organization and species-associated expression differences.",
+        "A shared gene framework improves comparability but does not isolate echolocation mode from every other species difference. These two species also differ in ancestry and physiology. A CF-associated expression pattern is therefore a candidate adaptation, requiring wider comparative sampling or direct manipulation before its contribution to hearing can be established."
+      ],
+      "transcript": [
+        "Orthologous genes are corresponding genes in different species inherited from a common ancestral gene. Wang and colleagues used 8607 orthologous genes to construct a joint cochlear atlas for Rhinolophus ferrumequinum and Myotis pilosus. This provides a common comparison space rather than comparing unrelated species-specific marker lists.",
+        "The joint analysis resolved 26 expression clusters and assigned familiar cochlear identities, including SGNs, glial cells, supporting cells and hair cells. Some clusters were dominated by one species, while others contained contributions from both. The separation preserves both shared cellular organization and species-associated expression differences.",
+        "A shared gene framework improves comparability but does not isolate echolocation mode from every other species difference. These two species also differ in ancestry and physiology. A CF-associated expression pattern is therefore a candidate adaptation, requiring wider comparative sampling or direct manipulation before its contribution to hearing can be established."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/a4ab.png",
+        "caption": "Wang et al. (2025), Fig. 4(A–B). Joint cell atlas and species distribution.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
+      }
+    },
+    {
+      "title": "Neural expression categories differ between CF and FM bats",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "Wang and colleagues compared corresponding cochlear cell types using their joint 26-cluster atlas. Spiral-ganglion populations shared neuronal expression features, while species-associated differences appeared within those broader identities. The distinction concerns the molecular organization of peripheral auditory cells rather than the existence of an entirely separate sensory organ.",
+        "**Gene-expression distributions** describe how RNA abundance varies across a cellular population. The published comparisons preserved cell-type identity while evaluating expression across the CF and FM species. This makes it possible to ask whether a neural category is conserved and whether its molecular profile differs between echolocation strategies.",
+        "Molecular heterogeneity does not directly measure acoustic bandwidth. A relatively uniform RNA population could still contain physiologically diverse neurons, and similar RNA profiles need not guarantee identical tuning. The study supports targeted electrophysiological tests rather than assigning a measured kilohertz range to an expression cluster."
+      ],
+      "transcript": [
+        "Wang and colleagues compared corresponding cochlear cell types using their joint 26-cluster atlas. Spiral-ganglion populations shared neuronal expression features, while species-associated differences appeared within those broader identities. The distinction concerns the molecular organization of peripheral auditory cells rather than the existence of an entirely separate sensory organ.",
+        "Gene-expression distributions describe how RNA abundance varies across a cellular population. The published comparisons preserved cell-type identity while evaluating expression across the CF and FM species. This makes it possible to ask whether a neural category is conserved and whether its molecular profile differs between echolocation strategies.",
+        "Molecular heterogeneity does not directly measure acoustic bandwidth. A relatively uniform RNA population could still contain physiologically diverse neurons, and similar RNA profiles need not guarantee identical tuning. The study supports targeted electrophysiological tests rather than assigning a measured kilohertz range to an expression cluster."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/a4c.png",
+        "caption": "Wang et al. (2025), Fig. 4(C). Cross-species expression distributions in identified cell types.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
+      }
+    },
+    {
+      "title": "GABA receptor pathways suggest testable inhibitory roles",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**GABA** is an inhibitory transmitter in many neural systems. Wang and colleagues identified GABAergic-synapse pathway enrichment in a horseshoe-bat SGN1 category, alongside glutamatergic, dopaminergic pathways associated with the transmitter dopamine, and calcium-signaling pathways. Their analysis associated 233 highly expressed genes with this species-specific neuronal category.",
+        "The pathway included GABA A and GABA B receptor annotations. These name distinct receptor classes through which GABA can influence cellular signaling. The atlas measured RNA, not receptor binding, synaptic inhibition or a response to a pharmacological blocker. Its two receptor annotations therefore identify candidates rather than a demonstrated inhibitory circuit.",
+        "The authors proposed a connection to specialized CF processing and vocal compensation. That proposal does not establish that cochlear GABA receptors perform the auditory comparison controlling call frequency. A causal account requires receptor-specific interventions, neuronal measurements and a behavioral compensation assay in the same mechanistic chain."
+      ],
+      "transcript": [
+        "GABA is an inhibitory transmitter in many neural systems. Wang and colleagues identified GABAergic-synapse pathway enrichment in a horseshoe-bat SGN1 category, alongside glutamatergic, dopaminergic pathways associated with the transmitter dopamine, and calcium-signaling pathways. Their analysis associated 233 highly expressed genes with this species-specific neuronal category.",
+        "The pathway included GABA A and GABA B receptor annotations. These name distinct receptor classes through which GABA can influence cellular signaling. The atlas measured RNA, not receptor binding, synaptic inhibition or a response to a pharmacological blocker. Its two receptor annotations therefore identify candidates rather than a demonstrated inhibitory circuit.",
+        "The authors proposed a connection to specialized CF processing and vocal compensation. That proposal does not establish that cochlear GABA receptors perform the auditory comparison controlling call frequency. A causal account requires receptor-specific interventions, neuronal measurements and a behavioral compensation assay in the same mechanistic chain."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/a5cd.png",
+        "caption": "Wang et al. (2025), Fig. 5(C–D). Original neuronal expression and pathway-enrichment panels.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
+      }
+    },
+    {
+      "title": "Glial signaling is inferred from expression relationships",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Glial cells** support and interact with neurons without being classified as the principal signal-carrying sensory neurons. Wang and colleagues localized PLP1 expression in their cochlear atlas and examined highly expressed genes within the glial category. The analysis associated this category with cell communication and several neural-support processes.",
+        "The horseshoe-bat atlas distinguishes glia from SGN1 and SGN2, allowing support-cell expression to be studied separately from neuronal expression. **Ligand–receptor inference** predicts possible communication when one cell class expresses a signaling molecule and another expresses a corresponding receptor. Such inference is based on molecular compatibility, not direct observation of transmission.",
+        "The study proposed interactions involving neural adhesion and growth-associated signaling. It did not stimulate glia, measure a resulting SGN membrane response or test an alteration of echo compensation. Glial molecular specialization remains a candidate contributor to the sensory environment rather than an established moment-to-moment Doppler controller."
+      ],
+      "transcript": [
+        "Glial cells support and interact with neurons without being classified as the principal signal-carrying sensory neurons. Wang and colleagues localized PLP1 expression in their cochlear atlas and examined highly expressed genes within the glial category. The analysis associated this category with cell communication and several neural-support processes.",
+        "The horseshoe-bat atlas distinguishes glia from SGN1 and SGN2, allowing support-cell expression to be studied separately from neuronal expression. Ligand–receptor inference predicts possible communication when one cell class expresses a signaling molecule and another expresses a corresponding receptor. Such inference is based on molecular compatibility, not direct observation of transmission.",
+        "The study proposed interactions involving neural adhesion and growth-associated signaling. It did not stimulate glia, measure a resulting SGN membrane response or test an alteration of echo compensation. Glial molecular specialization remains a candidate contributor to the sensory environment rather than an established moment-to-moment Doppler controller."
+      ],
+      "cite": "Wang et al. (2025)",
+      "refs": [
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/a6ab.png",
+        "caption": "Wang et al. (2025), Fig. 6(A–B). Glial marker localization and functional gene categories.",
+        "source_url": "https://doi.org/10.1111/1755-0998.14101",
+        "color": true
       }
     },
     {
       "title": "The cochlear response is sharply tuned near CF2",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**CF2** is the constant-frequency component of the second harmonic. In Suga and colleagues’ mustached bats, _Pteronotus parnellii_, CF2 lay near 61–62 kHz. The CM threshold curve contained a pronounced sensitivity notch in approximately this band.",
         "The best frequencies depended on the recorded response: CM onset was most sensitive near 61–62 kHz, summed neural onset near 63–64 kHz, and summed neural offset near 60–61 kHz. **Onset** and **offset** refer to the beginning and cessation of the stimulus.",
@@ -379,21 +622,34 @@
         "The minimum threshold of a response identifies the sound level required to evoke it. The recorded CM onset, neural onset, and neural offset signals did not have identical best frequencies. An onset response measures a different event from discharge at the cessation of the same sound.",
         "The narrow CM sensitivity supports a peripheral specialization. Suga and colleagues related the displaced neural onset minimum to the time course of cochlear excitation. A population onset measure is therefore not a complete substitute for sustained hearing sensitivity or for the tuning of individual neurons."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Suga et al. (1975); Wang et al. (2025)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161",
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
       ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig2.png",
-        "caption": "Suga et al. (1975), Fig. 2(A–C). Threshold notches of CM onset, neural onset, and neural offset, in kHz.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
+      "figure_width": 5.8,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga75_fig2.png",
+          "caption": "Suga et al. (1975), Fig. 2(A–C). Threshold notches of CM onset, neural onset, and neural offset, in kHz.",
+          "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        },
+        {
+          "kind": "article",
+          "path": "figures/a1de.png",
+          "caption": "Wang et al. (2025), Fig. 1(D–E). Published cochlear anatomy and stained tissue sections.",
+          "source_url": "https://doi.org/10.1111/1755-0998.14101",
+          "color": true
+        }
+      ],
+      "primary_figure_height": 2.4,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
     },
     {
       "title": "A cochlear resonator prolongs excitation after sound ends",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "A **resonator** responds especially strongly near a particular frequency and can continue oscillating after stimulation stops. Near the CF2 band, Suga and colleagues found that CM activity built up and decayed slowly compared with responses farther from the tuned range.",
         "The residual CM activity after stimulus cessation was called **CM-after**. Its transient behavior was consistent with mechanical ringing in the inner ear. A neural offset response accompanied these peripheral events rather than requiring a new acoustic pulse.",
@@ -404,21 +660,34 @@
         "The recorded cochlear microphonic had a slow build-up and residual activity near the tuned CF band. Suga and colleagues called the residual activity CM-after. The measurements connected the neural activity at stimulus offset to events already present in the cochlear signal.",
         "The external acoustic envelope specifies when sound is delivered, whereas the cochlear envelope specifies how the peripheral response develops. Those envelopes differed near resonance. A neural response after the stimulus cannot consequently be assumed to originate from a central rebound mechanism solely because the loudspeaker has become silent."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Suga et al. (1975); Wang et al. (2025)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161",
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
       ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig3.png",
-        "caption": "Suga et al. (1975), Fig. 3(A–B). Different best frequencies of cochlear and neural onset and offset responses.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
+      "figure_width": 5.8,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga75_fig3.png",
+          "caption": "Suga et al. (1975), Fig. 3(A–B). Different best frequencies of cochlear and neural onset and offset responses.",
+          "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        },
+        {
+          "kind": "article",
+          "path": "figures/a1de.png",
+          "caption": "Wang et al. (2025), Fig. 1(D–E). Published cochlear anatomy and stained tissue sections.",
+          "source_url": "https://doi.org/10.1111/1755-0998.14101",
+          "color": true
+        }
+      ],
+      "primary_figure_height": 2.4,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
     },
     {
       "title": "Onset synchrony depends on the sound envelope",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "The **envelope** is the changing amplitude of a sound or response over time. Slow cochlear build-up near resonance can spread the onset times of individual neural impulses. A summed neural onset response becomes smaller when those impulses are less synchronized.",
         "Suga and colleagues varied the rise time of tones away from the resonant band. Lengthening rise time raised the threshold of the summed onset response. A 1 ms rise produced an approximately 8 dB threshold increase relative to an abrupt rise; a 3 ms rise produced a much larger increase.",
@@ -429,92 +698,30 @@
         "A summed onset potential depends on those impulses overlapping in time. If they are spread out, the recorded population peak can be smaller without requiring every neuron to become less responsive. The experiment lengthened the stimulus rise time at frequencies away from resonance to test this timing effect independently.",
         "The onset threshold rose when the sound rose more slowly. That result supports the interpretation that resonance can alter the apparent neural onset sensitivity by changing synchronization. It does not require the entire auditory system to prefer the frequency at which the largest summed onset response happens to be measured."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Suga et al. (1975); Wang et al. (2025)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161",
+        "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101"
       ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig4.png",
-        "caption": "Suga et al. (1975), Fig. 4(A–B). Cochlear transients and the dependence of neural onset threshold on rise time.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
-    },
-    {
-      "title": "Cochlear responses are nonlinear near resonance",
-      "layout": "figure-right",
-      "body": [
-        "A **response-amplitude function** relates stimulus level to the size of the recorded response. Suga and colleagues compared CM during sound and at offset across frequencies and sound pressure levels.",
-        "Near 60 kHz, sustained CM amplitude reached a plateau around 70–80 dB SPL before increasing again at higher levels. CM offset had a different growth pattern and could exceed the sustained response over part of the tested intensity range.",
-        "This **nonlinearity** means that doubling an acoustic input does not imply a proportionate response at every level. Frequency and intensity jointly determine the cochlear response. The offset signal cannot be explained as a fixed, scaled copy of the sustained CM activity."
+      "figure_width": 5.8,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga75_fig4.png",
+          "caption": "Suga et al. (1975), Fig. 4(A–B). Cochlear transients and the dependence of neural onset threshold on rise time.",
+          "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        },
+        {
+          "kind": "article",
+          "path": "figures/a1de.png",
+          "caption": "Wang et al. (2025), Fig. 1(D–E). Published cochlear anatomy and stained tissue sections.",
+          "source_url": "https://doi.org/10.1111/1755-0998.14101",
+          "color": true
+        }
       ],
-      "transcript": [
-        "The stimulus amplitude was varied while the investigators measured the cochlear microphonic. A response-amplitude function specifies how the peripheral electrical response changes with the level of sound delivered at the ear.",
-        "Near the offset-sensitive band, the sustained response grew, reached a plateau, and then increased again at higher levels. The offset response followed a different relation. At some stimulus levels it was larger than the sustained response, despite occurring after the external tone had ended.",
-        "The difference establishes that the cochlea’s temporal response is not simply proportional to stimulus strength. It also explains why onset, sustained, and offset activity need separate measurements. The plotted microvolts describe recorded electrical amplitude, while the horizontal sound-pressure axis describes the acoustic stimulus."
-      ],
-      "cite": "Suga et al. (1975)",
-      "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
-      ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig5.png",
-        "caption": "Suga et al. (1975), Fig. 5. Sustained and offset CM amplitude as a function of sound pressure level.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
-    },
-    {
-      "title": "Middle-ear contraction preserves the tuning notch",
-      "layout": "figure-right",
-      "body": [
-        "The **ossicular chain** is the set of middle-ear bones transmitting sound toward the cochlea. The **stapedius muscle** can alter this transmission by changing the mechanical conditions of the chain.",
-        "Suga and colleagues electrically stimulated the stapedius and measured cochlear thresholds. Contraction reduced sensitivity over the tested range, but its effect was comparatively small near the sharply tuned CM band. The narrow cochlear specialization remained identifiable.",
-        "The control tested whether middle-ear mechanics could account for the resonance-like tuning. Changing sound transmission affected response level without eliminating the distinctive cochlear notch. The results argue against treating the ossicular chain as the sole source of the narrow frequency specialization."
-      ],
-      "transcript": [
-        "Sound reaches the inner ear through mechanical transmission involving the middle-ear bones. Contraction of a middle-ear muscle can change that transmission, so the researchers tested its effect instead of assuming that all sharp tuning arose inside the cochlea.",
-        "They stimulated the stapedius muscle electrically and compared threshold curves before and during contraction. Sensitivity changed across frequencies, but the sharp feature near the tuned CF band was not removed.",
-        "This intervention distinguishes an effect on transmission from an explanation of the frequency notch itself. The middle ear can influence how much sound reaches the cochlea, while the narrow tuning remains associated with the inner-ear system. The result does not make middle-ear control irrelevant to hearing; it limits its explanatory role for this particular specialization."
-      ],
-      "cite": "Suga et al. (1975)",
-      "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
-      ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig6.png",
-        "caption": "Suga et al. (1975), Fig. 6(A–B). Threshold changes during stapedius contraction and their frequency dependence.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
-    },
-    {
-      "title": "Sharp tuning survives loss of the ossicular chain",
-      "layout": "figure-right",
-      "body": [
-        "Suga and colleagues also disrupted middle-ear transmission more directly by eliminating the ossicular chain in a preparation. Overall hearing sensitivity was greatly reduced, as expected when the usual mechanical route to the cochlea was interrupted.",
-        "The sharp tuning associated with the offset CM response nevertheless remained near its original frequency. A receptor-related frequency specialization survived despite the large change in how sound was delivered to the inner ear.",
-        "The persistence of this notch supports an **inner-ear origin** for the resonance. Reduced sensitivity and loss of selectivity are different outcomes. The preparation was an invasive control of peripheral mechanics, not a demonstration of normal echo detection after middle-ear removal."
-      ],
-      "transcript": [
-        "Eliminating the ossicular chain removes the normal chain of middle-ear bones that transmits sound toward the cochlea. The investigators expected a substantial decrease in sensitivity, and that decrease occurred.",
-        "The critical comparison was whether the narrow tuned feature disappeared along with sensitivity. It did not. The offset-related cochlear microphonic retained a sharp frequency preference near the original band.",
-        "The experiment therefore supports a mechanical specialization within the inner ear rather than one generated exclusively by the middle-ear bones. It cannot establish that the manipulated animal would perform normal echolocation. The invasive preparation was used to locate the source of tuning, and its poor overall sensitivity must be kept separate from the persistence of the frequency notch."
-      ],
-      "cite": "Suga et al. (1975)",
-      "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
-      ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig7.png",
-        "caption": "Suga et al. (1975), Fig. 7(A–B). Cochlear offset tuning before and after disruption of ossicular transmission.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
+      "primary_figure_height": 2.4,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
     },
     {
       "title": "Terminal FM suppresses cochlear offset transients",
@@ -533,7 +740,7 @@
       "refs": [
         "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/suga75_fig8.png",
@@ -558,7 +765,7 @@
       "refs": [
         "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/suga75_fig9.png",
@@ -567,178 +774,133 @@
       }
     },
     {
-      "title": "Neural tuning narrows near the preferred echo band",
+      "title": "Resonance frequency differs from the resting call baseline",
       "layout": "figure-right",
+      "figure_width": 5.6,
       "body": [
-        "A **tuning curve** gives the sound levels and frequencies that excite a neuron. Its **best frequency** is the frequency of greatest sensitivity. Suga and colleagues measured tuning curves from individual peripheral auditory neurons using calibrated tone bursts.",
-        "Neurons near the mustached bat’s CF2 band had much narrower excitatory areas than many neurons at other frequencies. Their narrow tips allowed small changes near 61 kHz to activate different subsets of neurons.",
-        "The frequency code is therefore supported by selective peripheral inputs. A narrow tip does not imply absolute selectivity at every level: as stimulus intensity rises, the excitatory region of an auditory-nerve tuning curve can widen. Frequency preference must be evaluated together with stimulus level."
+        "**Resonance frequency** is the frequency at which the peripheral resonant system responds especially strongly. Macías and colleagues distinguished it from the resting second-harmonic call frequency in mustached bats. Resting emissions ranged from 60 to 61.2 kHz in their animals, while the resonance estimate generally lay above the emitted baseline.",
+        "They combined acoustic recordings with auditory-midbrain recordings and examined sharply tuned neurons near the specialized band. A reference defined from vocal emission therefore need not coincide exactly with a reference defined from the sensory response. This distinction parallels the resting-versus-reference frequency difference in behavioral compensation experiments.",
+        "The measurement distinguishes two biologically related frequency values rather than assigning one universal CF frequency to the species. Neural tuning was evaluated relative to the individual bat’s acoustic and peripheral specialization. It does not follow that every midbrain cell near this band contributes directly to the vocal feedback pathway."
       ],
       "transcript": [
-        "A tuning curve is obtained by varying frequency and finding the level needed to evoke a response. Its lowest threshold identifies the neuron’s best frequency. The full curve also specifies the range of frequencies that can excite the neuron at higher levels.",
-        "The peripheral neurons near the CF2 band had particularly narrow tuning tips. Such tuning makes a small change in echo frequency alter which neurons are strongly driven. That is a population code supported by frequency-selective inputs.",
-        "The same neuron may respond to a wider frequency range when a sound is louder. A sharp threshold tip must therefore not be interpreted as an unchanging narrow band for all intensities. Suga and colleagues compared both frequency and level rather than assigning selectivity from the best frequency alone."
+        "Resonance frequency is the frequency at which the peripheral resonant system responds especially strongly. Macías and colleagues distinguished it from the resting second-harmonic call frequency in mustached bats. Resting emissions ranged from 60 to 61.2 kHz in their animals, while the resonance estimate generally lay above the emitted baseline.",
+        "They combined acoustic recordings with auditory-midbrain recordings and examined sharply tuned neurons near the specialized band. A reference defined from vocal emission therefore need not coincide exactly with a reference defined from the sensory response. This distinction parallels the resting-versus-reference frequency difference in behavioral compensation experiments.",
+        "The measurement distinguishes two biologically related frequency values rather than assigning one universal CF frequency to the species. Neural tuning was evaluated relative to the individual bat’s acoustic and peripheral specialization. It does not follow that every midbrain cell near this band contributes directly to the vocal feedback pathway."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Macías et al. (2016)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Macías S, Hechavarría JC, Kössl M (2016). Sharp temporal tuning in the bat auditory midbrain overcomes spectral-temporal trade-off imposed by cochlear mechanics. Scientific Reports 6:29129. https://doi.org/10.1038/srep29129"
       ],
-      "figure_width": 5.2,
       "figure": {
         "kind": "article",
-        "path": "figures/suga75_fig11.png",
-        "caption": "Suga et al. (1975), Fig. 11. Individual peripheral tuning curves across the hearing range.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        "path": "figures/t1.png",
+        "caption": "Macías et al. (2016), Fig. 1(A–C). Resting emissions and cochlear resonance estimates.",
+        "source_url": "https://doi.org/10.1038/srep29129",
+        "color": true
       }
     },
     {
-      "title": "Q values quantify the narrowness of a tuning curve",
+      "title": "Midbrain neurons can prefer a narrow sound duration",
       "layout": "figure-right",
+      "figure_width": 5.6,
       "body": [
-        "**Bandwidth** is the range of frequencies encompassed by a tuning criterion. Suga and colleagues used **Q at 10 dB above threshold**, a measure that compares a neuron’s best frequency with the width of its excitatory band at that level.",
-        "A larger Q indicates a narrower relative band. Mustached-bat neurons near the CF2 region reached much higher Q values than most neurons elsewhere in their hearing range. The paper also compared this pattern with previously recorded neurons from an FM-using bat.",
-        "The comparison describes different distributions of peripheral selectivity. It does not imply that every mustached-bat neuron is sharper than every neuron in the other species. The strongest specialization is concentrated within a particular, behaviorally relevant frequency region."
+        "A **duration-tuned neuron** responds most strongly to a restricted range of sound durations. Macías and colleagues recorded single-neuron activity in the mustached bat’s **inferior colliculus**, an auditory midbrain structure. Pure-tone stimuli varied in frequency, sound level and duration, separating several dimensions of response selectivity.",
+        "One resonance-band neuron preferred 60.9 kHz, with a frequency bandwidth of 0.75 kHz. It preferred a 15-ms stimulus, with a duration bandwidth of 7 ms. A comparison neuron tuned to 81 kHz had a broader 9-kHz frequency bandwidth and preferred a 3-ms stimulus.",
+        "These examples establish joint spectral and temporal selectivity in central auditory neurons. They do not measure the neuron’s synaptic inputs or identify its transmitter. Sharp duration tuning can coexist with sharply tuned peripheral input, so long cochlear ringing does not force every central response to be temporally broad."
       ],
       "transcript": [
-        "Bandwidth describes how much frequency space lies within a specified response criterion. Q expresses narrowness relative to best frequency, so a larger Q corresponds to a relatively narrower tuned band.",
-        "The criterion here was 10 decibels above the neuron’s minimum threshold. That fixed level makes the tuning widths comparable without assuming that curves have the same width at every intensity. The mustached-bat distribution contained especially high values near the CF region.",
-        "The comparison with Myotis lucifugus used earlier neuronal data included in Suga’s article. It supports a specialization concentrated near the mustached bat’s preferred echo band. The overlap and spread of the measurements remain part of the result; species labels do not substitute for the tuning of a particular neuron."
+        "A duration-tuned neuron responds most strongly to a restricted range of sound durations. Macías and colleagues recorded single-neuron activity in the mustached bat’s inferior colliculus, an auditory midbrain structure. Pure-tone stimuli varied in frequency, sound level and duration, separating several dimensions of response selectivity.",
+        "One resonance-band neuron preferred 60.9 kHz, with a frequency bandwidth of 0.75 kHz. It preferred a 15-ms stimulus, with a duration bandwidth of 7 ms. A comparison neuron tuned to 81 kHz had a broader 9-kHz frequency bandwidth and preferred a 3-ms stimulus.",
+        "These examples establish joint spectral and temporal selectivity in central auditory neurons. They do not measure the neuron’s synaptic inputs or identify its transmitter. Sharp duration tuning can coexist with sharply tuned peripheral input, so long cochlear ringing does not force every central response to be temporally broad."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Macías et al. (2016)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Macías S, Hechavarría JC, Kössl M (2016). Sharp temporal tuning in the bat auditory midbrain overcomes spectral-temporal trade-off imposed by cochlear mechanics. Scientific Reports 6:29129. https://doi.org/10.1038/srep29129"
       ],
-      "figure_width": 5.2,
       "figure": {
         "kind": "article",
-        "path": "figures/suga75_fig12.png",
-        "caption": "Suga et al. (1975), Fig. 12(A–B). Q values versus best frequency in mustached and little brown bats.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        "path": "figures/t2.png",
+        "caption": "Macías et al. (2016), Fig. 2(A–F). Frequency response areas and measured duration tuning.",
+        "source_url": "https://doi.org/10.1038/srep29129",
+        "color": true
       }
     },
     {
-      "title": "The highest peripheral selectivity clusters near 61 kHz",
+      "title": "Sharp spectral tuning need not sacrifice duration tuning",
       "layout": "figure-right",
+      "figure_width": 5.6,
       "body": [
-        "Within the 50–70 kHz range studied closely by Suga and colleagues, the largest Q values were concentrated near 61 kHz. Values were generally lower for best frequencies below or above that narrow region.",
-        "This local peak corresponds to the range of CF2 signals and compensated echoes in the studied mustached bats. Peripheral frequency selectivity is organized around a particular acoustic operating band rather than distributed uniformly across ultrasound.",
-        "The relation is an alignment between vocal behavior and sensory tuning. It supports fine analysis near the carrier used for echolocation. The recordings do not show that the peripheral neurons themselves perform the motor correction that maintains echo frequency in this band."
+        "A **spectral–temporal trade-off** occurs when finer frequency resolution accompanies poorer temporal resolution. Cochlear resonance can sustain activity after sound offset, extending the peripheral response. Macías and colleagues asked whether this peripheral property constrains duration-selective neurons in the auditory midbrain.",
+        "They measured frequency bandwidth at 10 dB above threshold and duration bandwidth across stimulus durations. Resonance-band neurons did not follow the expected relation between narrow frequency tuning and broad duration tuning. Neurons outside that specialized band displayed the more conventional relationship between the two response dimensions.",
+        "The result concerns central response selectivity under controlled pure-tone stimulation. It does not mean cochlear ringing disappeared or that every auditory neuron overcomes the trade-off. Instead, central processing can produce sharp temporal filtering despite a peripheral input specialized for narrowband frequency analysis."
       ],
       "transcript": [
-        "The researchers examined tuning especially closely around the constant-frequency second harmonic. The distribution of Q values had its largest values near 61 kilohertz, rather than showing the same selectivity throughout the measured region.",
-        "This frequency range overlaps the CF2 band used by the mustached bats and the preferred returning band during compensation. That alignment supports a sensory role for the peripheral specialization.",
-        "A neuron’s sharp tuning and a bat’s ability to change its call are connected but distinct observations. The recordings establish selective input capable of distinguishing small frequency differences. They do not demonstrate that an auditory-nerve neuron directly issues a laryngeal motor command. Frequency correction requires a sensory-to-motor pathway beyond these peripheral measurements."
+        "A spectral–temporal trade-off occurs when finer frequency resolution accompanies poorer temporal resolution. Cochlear resonance can sustain activity after sound offset, extending the peripheral response. Macías and colleagues asked whether this peripheral property constrains duration-selective neurons in the auditory midbrain.",
+        "They measured frequency bandwidth at 10 dB above threshold and duration bandwidth across stimulus durations. Resonance-band neurons did not follow the expected relation between narrow frequency tuning and broad duration tuning. Neurons outside that specialized band displayed the more conventional relationship between the two response dimensions.",
+        "The result concerns central response selectivity under controlled pure-tone stimulation. It does not mean cochlear ringing disappeared or that every auditory neuron overcomes the trade-off. Instead, central processing can produce sharp temporal filtering despite a peripheral input specialized for narrowband frequency analysis."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Macías et al. (2016)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Macías S, Hechavarría JC, Kössl M (2016). Sharp temporal tuning in the bat auditory midbrain overcomes spectral-temporal trade-off imposed by cochlear mechanics. Scientific Reports 6:29129. https://doi.org/10.1038/srep29129"
       ],
-      "figure_width": 5.2,
       "figure": {
         "kind": "article",
-        "path": "figures/suga75_fig13.png",
-        "caption": "Suga et al. (1975), Fig. 13. A local peak of peripheral Q values near the CF2 band.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        "path": "figures/t4.png",
+        "caption": "Macías et al. (2016), Fig. 4(A–D). Relations between frequency and duration bandwidths.",
+        "source_url": "https://doi.org/10.1038/srep29129",
+        "color": true
       }
     },
     {
-      "title": "Low threshold and narrow tuning are different properties",
+      "title": "A small frequency change can reorganize duration tuning",
       "layout": "figure-right",
+      "figure_width": 5.6,
       "body": [
-        "**Minimum threshold** is the weakest sound level that evokes an excitatory response. **Selectivity** describes how restricted that response is across frequencies. A neuron can be sensitive without having an exceptionally narrow tuning curve.",
-        "Suga and colleagues plotted minimum thresholds against best frequency and separately measured Q values. The lowest peripheral thresholds clustered near the CF2 band, but the threshold distribution and the sharpness distribution measured different aspects of hearing.",
-        "The **auditory fovea** combines strong sensitivity with detailed frequency representation. Neither a low threshold alone nor a narrow curve alone specifies the full specialization. Comparing both measurements prevents a population onset potential from being mistaken for a complete description of the tuned hearing system."
+        "Macías and colleagues tested the same resonance-band neurons with tones at the individual resting-call frequency and at the resonance frequency. This within-neuron comparison controlled cell identity while changing the acoustic frequency. The resting frequency lay just below the specialized resonant band.",
+        "Duration selectivity was clear at resonance but often absent at the resting frequency. Preferred durations at resonance clustered near 4 ms and 17 ms. The response to resting-frequency stimulation could instead remain broad across durations, despite the small spectral separation between the two stimulus conditions.",
+        "**Frequency-dependent temporal filtering** means that a neuron’s response to duration depends on the carrier frequency. It cannot be described adequately by one duration preference measured at any arbitrary tone frequency. The experiment supports interaction between spectral input and central temporal processing without directly identifying the synapses responsible."
       ],
       "transcript": [
-        "Threshold asks how weak a sound can be and still excite the neuron. Frequency selectivity asks which neighboring frequencies also excite it. Those questions require different measurements.",
-        "The threshold plot places each neuron according to its best frequency and its minimum effective sound level. The Q plots instead describe the relative width of its tuned band. Suga and colleagues found an important concentration of sensitivity and selectivity near the CF region, but did not equate these quantities.",
-        "The distinction also matters when considering the summed neural onset signal. A population peak can depend on synchronized impulse timing, whereas a single-neuron threshold depends on whether that neuron responds. The foveal specialization has to be described using these measurements together rather than inferred from one peak or one minimum."
+        "Macías and colleagues tested the same resonance-band neurons with tones at the individual resting-call frequency and at the resonance frequency. This within-neuron comparison controlled cell identity while changing the acoustic frequency. The resting frequency lay just below the specialized resonant band.",
+        "Duration selectivity was clear at resonance but often absent at the resting frequency. Preferred durations at resonance clustered near 4 ms and 17 ms. The response to resting-frequency stimulation could instead remain broad across durations, despite the small spectral separation between the two stimulus conditions.",
+        "Frequency-dependent temporal filtering means that a neuron’s response to duration depends on the carrier frequency. It cannot be described adequately by one duration preference measured at any arbitrary tone frequency. The experiment supports interaction between spectral input and central temporal processing without directly identifying the synapses responsible."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Macías et al. (2016)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Macías S, Hechavarría JC, Kössl M (2016). Sharp temporal tuning in the bat auditory midbrain overcomes spectral-temporal trade-off imposed by cochlear mechanics. Scientific Reports 6:29129. https://doi.org/10.1038/srep29129"
       ],
-      "figure_width": 5.2,
       "figure": {
         "kind": "article",
-        "path": "figures/suga75_fig14.png",
-        "caption": "Suga et al. (1975), Fig. 14. Minimum excitatory thresholds versus neuronal best frequency.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        "path": "figures/t5.png",
+        "caption": "Macías et al. (2016), Fig. 5(A–F). Responses at resting and resonance frequencies.",
+        "source_url": "https://doi.org/10.1038/srep29129",
+        "color": true
       }
     },
     {
-      "title": "Offset tuning can differ from the same neuron’s onset tuning",
+      "title": "Resonance-band inhibition is still a hypothesis",
       "layout": "figure-right",
+      "figure_width": 5.6,
       "body": [
-        "Suga and colleagues mapped the frequencies and levels evoking excitation during sound and discharge after sound cessation in the same peripheral neurons. These two response regions were not always centered at the same frequency.",
-        "Offset best frequencies clustered around 59.5–61.5 kHz, even when the neuron’s onset or sustained best frequency differed. The offset band corresponded closely to the cochlear offset-sensitive region.",
-        "The response of one neuron can therefore reflect more than one temporal feature of cochlear excitation. An onset best frequency does not fully predict its offset behavior. The relation supports the contribution of a common mechanical transient to offset firing across neurons with different excitatory best frequencies."
+        "**Inhibition** reduces neuronal output through synaptic or membrane mechanisms. Macías and colleagues proposed frequency-specific inhibition to explain why resonance-band neurons could be selective for duration despite cochlear ringing. Their recordings measured output spikes under different stimulus frequencies and sound levels.",
+        "The published response patterns and latency changes differed between resting and resonance stimulation. Duration tuning could be present at resonance but absent just below it. The authors considered temporally offset excitation and inhibition, including coincidence and anti-coincidence accounts, as explanations for this frequency-dependent selectivity.",
+        "No inhibitory transmitter was blocked in this study, and no inhibitory synaptic current was directly recorded. The evidence therefore supports a central filtering hypothesis rather than proving a particular GABA receptor or channel mechanism. Behavioral compensation and central duration tuning also remain separate measured phenomena, even though both depend on the specialized CF band."
       ],
       "transcript": [
-        "The investigators compared two response regions for the same neuron: excitation associated with the tone and discharge occurring after it ended. The frequencies giving the greatest response need not be identical for those events.",
-        "The offset-sensitive frequencies clustered near 59.5 to 61.5 kilohertz. That clustering persisted across neurons whose ordinary excitatory best frequencies varied more widely. The mechanical offset response of the cochlea had a corresponding frequency preference.",
-        "This relation makes a common peripheral transient a plausible source of the offset discharge. Assigning a neuron one best frequency is useful but incomplete when its activity depends on when the measurement is made. Onset, sustained activity, and offset each carry information about how the cochlea and peripheral neurons respond to the same stimulus."
+        "Inhibition reduces neuronal output through synaptic or membrane mechanisms. Macías and colleagues proposed frequency-specific inhibition to explain why resonance-band neurons could be selective for duration despite cochlear ringing. Their recordings measured output spikes under different stimulus frequencies and sound levels.",
+        "The published response patterns and latency changes differed between resting and resonance stimulation. Duration tuning could be present at resonance but absent just below it. The authors considered temporally offset excitation and inhibition, including coincidence and anti-coincidence accounts, as explanations for this frequency-dependent selectivity.",
+        "No inhibitory transmitter was blocked in this study, and no inhibitory synaptic current was directly recorded. The evidence therefore supports a central filtering hypothesis rather than proving a particular GABA receptor or channel mechanism. Behavioral compensation and central duration tuning also remain separate measured phenomena, even though both depend on the specialized CF band."
       ],
-      "cite": "Suga et al. (1975)",
+      "cite": "Macías et al. (2016)",
       "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
+        "Macías S, Hechavarría JC, Kössl M (2016). Sharp temporal tuning in the bat auditory midbrain overcomes spectral-temporal trade-off imposed by cochlear mechanics. Scientific Reports 6:29129. https://doi.org/10.1038/srep29129"
       ],
-      "figure_width": 5.2,
       "figure": {
         "kind": "article",
-        "path": "figures/suga75_fig15.png",
-        "caption": "Suga et al. (1975), Fig. 15(A–H). Excitatory and offset-sensitive areas recorded from the same neurons.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
-    },
-    {
-      "title": "An offset discharge need not be rebound from inhibition",
-      "layout": "figure-right",
-      "body": [
-        "**Inhibition** reduces neural activity. A **rebound response** would occur after inhibitory activity ends. Suga and colleagues tested whether peripheral offset firing required suppression of a neuron’s spontaneous discharge during the preceding tone.",
-        "Offset responses occurred without the necessary preceding inhibition. The researchers also identified separate inhibitory response regions and tested interactions between two tones. Inhibition was measurable in some neurons, but it did not explain all offset firing.",
-        "**Two-tone suppression** is reduced excitation during simultaneous presentation of another sound. Its presence is distinct from proving an inhibitory rebound mechanism. The paired-tone and offset measurements require mechanical transients and neural suppression to be evaluated separately."
-      ],
-      "transcript": [
-        "A rebound account predicts an association between preceding inhibition and discharge after that inhibition ends. The peripheral recordings did not meet that requirement for all offset responses: some appeared without suppression of spontaneous activity during the tone.",
-        "Suga and colleagues also obtained evidence of inhibition in other stimulus regions and measured suppression when two sounds were delivered together. Those effects demonstrate interactions in the peripheral response without turning every later discharge into an inhibitory rebound.",
-        "Two-tone suppression describes the response to simultaneous acoustic inputs, whereas an offset discharge describes activity after a stimulus ends. The two observations need different causal tests. The authors linked the offset response to cochlear transients and distinguished it from the inhibitory effects that were also present in the sampled auditory neurons."
-      ],
-      "cite": "Suga et al. (1975)",
-      "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
-      ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig16.png",
-        "caption": "Suga et al. (1975), Fig. 16(A–B). Inhibitory response regions and two-tone suppression measured separately.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
-      }
-    },
-    {
-      "title": "Terminal FM also reduces single-neuron offset discharge",
-      "layout": "figure-right",
-      "body": [
-        "Suga and colleagues compared a CF tone with a CF tone followed by a brief downward FM sweep while recording single peripheral neurons. The added FM component reduced the discharge concentrated after the CF component ended.",
-        "The test used the same neuron and varied sound level, allowing CF-only and CF-FM responses to be compared directly. The decrease in offset discharge paralleled the reduction of cochlear after-activity and the summed neural offset response.",
-        "The result connects peripheral mechanics to the firing pattern of individual neurons. It does not establish that terminal FM universally inhibits every auditory neuron. The observed interaction concerns a particular transient response evoked by a tuned CF stimulus."
-      ],
-      "transcript": [
-        "The comparison preserved the constant-frequency portion and changed how it ended. A terminal downward sweep reduced the later discharge in the recorded neuron, rather than producing the same response as the CF tone alone.",
-        "Testing the same neuron under CF-only and CF-FM conditions controls for differences between neurons. Repeating the comparison at different sound levels also separates a stimulus-structure effect from a result observed at just one intensity.",
-        "The reduction corresponds to the earlier cochlear and summed-neural findings. It links the terminal acoustic sweep to a change in peripheral impulse timing. The experiment does not imply that all FM stimulation is inhibitory or that all neurons respond in this way; it concerns the offset transient accompanying the particular CF response."
-      ],
-      "cite": "Suga et al. (1975)",
-      "refs": [
-        "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
-      ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga75_fig17.png",
-        "caption": "Suga et al. (1975), Fig. 17(A1–A3, B1–B3). CF-only and CF-FM stimuli produce different offset spike patterns.",
-        "source_url": "https://doi.org/10.1242/jeb.63.1.161"
+        "path": "figures/t6.png",
+        "caption": "Macías et al. (2016), Fig. 6(A–J). Frequency-dependent response timing and latency shifts.",
+        "source_url": "https://doi.org/10.1038/srep29129",
+        "color": true
       }
     },
     {
@@ -758,7 +920,7 @@
       "refs": [
         "Suga N, Simmons JA, Jen PH-S (1975). Peripheral specialization for fine analysis of Doppler-shifted echoes in the auditory system of the “CF-FM” bat Pteronotus parnellii. Journal of Experimental Biology 63(1):161–192. https://doi.org/10.1242/jeb.63.1.161"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/suga75_fig18.png",
@@ -768,7 +930,7 @@
     },
     {
       "title": "The cortex devotes extensive space to the CF echo band",
-      "layout": "text",
+      "layout": "figures-right",
       "body": [
         "The **primary auditory cortex** is a cortical region receiving organized auditory input. In Suga’s mustached-bat study, the Doppler-shifted-CF processing area occupied about 2.3 mm², approximately 30% of primary auditory cortex.",
         "Its neurons were concentrated near the 61–63 kHz band associated with CF components of emitted signals and echoes. This large representation mirrors the peripheral specialization but adds cortical response properties beyond a neuron’s best frequency.",
@@ -782,7 +944,24 @@
       "cite": "Suga (1977)",
       "refs": [
         "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681"
-      ]
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga77_fig2de.png",
+          "caption": "Suga (1977), Fig. 2(D–E). Measured best amplitude varies with cortical position, in dB SPL and degrees.",
+          "source_url": "https://doi.org/10.1126/science.190681"
+        },
+        {
+          "kind": "article",
+          "path": "figures/suga77_fig2bc.png",
+          "caption": "Suga (1977), Fig. 2(B–C). Original cortical maps, 0.5 mm.",
+          "source_url": "https://doi.org/10.1126/science.190681"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.3
     },
     {
       "title": "Some cortical neurons prefer an intermediate sound level",
@@ -801,7 +980,7 @@
       "refs": [
         "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/suga77_fig1a.png",
@@ -810,33 +989,34 @@
       }
     },
     {
-      "title": "Columns share frequency and amplitude preferences",
+      "title": "Communication calls need not share echolocation feedback",
       "layout": "figure-right",
+      "figure_width": 5.6,
       "body": [
-        "Suga inserted electrodes approximately perpendicular to the cortical surface. Neurons encountered along an individual penetration had similar best frequencies, response thresholds, and preferred amplitudes, supporting a **columnar organization** of those properties.",
-        "A **cortical column** here means a depth-oriented grouping with related response preferences. Across the cortical surface, best frequency and best amplitude changed systematically. Suga mapped these two properties using single-neuron and multi-unit responses.",
-        "**Multi-unit activity** combines responses from several nearby neurons. The similarity of neurons within a penetration made it useful for mapping local preferences. It does not resolve the synaptic connections among those neurons or prove that every cell in a column has identical selectivity."
+        "Liu and colleagues compared resting echolocation calls with **short constant-frequency communication calls** in greater horseshoe bats. These social calls resembled shortened CF signals but occurred during interactions between bats. Recording both call types across days tested whether similar acoustic signals shared the same frequency stability.",
+        "Resting echolocation frequency varied across days, whereas the communication-call frequency remained much more stable. Typical call durations also differed: resting echolocation calls were approximately 47 ms, while the short social calls were approximately 14 ms. Frequency regulation therefore depended on vocal context rather than acoustic similarity alone.",
+        "The authors proposed different feedback control for echolocation and communication, possibly including reduced or absent auditory feedback for the social calls. Their comparison did not directly interrupt feedback during social calling. Stable communication frequency supports that interpretation but does not prove that these calls are produced without auditory input."
       ],
       "transcript": [
-        "An electrode penetration samples neurons at different depths beneath a surface location. Suga found that neurons along a penetration tended to share their best frequency and best amplitude, along with related response characteristics.",
-        "This relation supports a columnar organization: nearby neurons aligned through cortical depth have related preferences. The preference changes when the surface location of the electrode changes, so the cortex contains an ordered map rather than the same response everywhere.",
-        "Multi-unit recording pools the activity of neighboring cells. Because their preferences were similar at a location, the pooled response could supply an estimate of its best frequency and amplitude. That estimate is useful for mapping but does not identify every cell’s connectivity or replace all single-neuron measurements."
+        "Liu and colleagues compared resting echolocation calls with short constant-frequency communication calls in greater horseshoe bats. These social calls resembled shortened CF signals but occurred during interactions between bats. Recording both call types across days tested whether similar acoustic signals shared the same frequency stability.",
+        "Resting echolocation frequency varied across days, whereas the communication-call frequency remained much more stable. Typical call durations also differed: resting echolocation calls were approximately 47 ms, while the short social calls were approximately 14 ms. Frequency regulation therefore depended on vocal context rather than acoustic similarity alone.",
+        "The authors proposed different feedback control for echolocation and communication, possibly including reduced or absent auditory feedback for the social calls. Their comparison did not directly interrupt feedback during social calling. Stable communication frequency supports that interpretation but does not prove that these calls are produced without auditory input."
       ],
-      "cite": "Suga (1977)",
+      "cite": "Liu et al. (2013)",
       "refs": [
-        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681"
+        "Liu Y, Feng J, Metzner W (2013). Different auditory feedback control for echolocation and communication in horseshoe bats. PLoS ONE 8(4):e62710. https://doi.org/10.1371/journal.pone.0062710"
       ],
-      "figure_width": 5.2,
       "figure": {
         "kind": "article",
-        "path": "figures/suga77_fig2bc.png",
-        "caption": "Suga (1977), Fig. 2(B–C). Frequency and best-amplitude contours in the mapped CF processing region.",
-        "source_url": "https://doi.org/10.1126/science.190681"
+        "path": "figures/f2.png",
+        "caption": "Liu et al. (2013), Fig. 2(A–B). Daily frequency comparisons for echolocation and social calls.",
+        "source_url": "https://doi.org/10.1371/journal.pone.0062710",
+        "color": true
       }
     },
     {
       "title": "Amplitude and frequency occupy cortical coordinates",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Amplitopic representation** is an orderly spatial organization of preferred sound amplitude. In Suga’s mapped CF processing area, best-frequency contours and best-amplitude contours followed different directions across the cortical surface.",
         "The best-amplitude organization varied among animals. The posterior region consistently placed larger preferred amplitudes dorsally, whereas the anterior region could follow either of two arrangements. The data support structured amplitude representation without a single identical map in every bat.",
@@ -851,31 +1031,23 @@
       "refs": [
         "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681"
       ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/suga77_fig2de.png",
-        "caption": "Suga (1977), Fig. 2(D–E). Measured best amplitude varies with cortical position, in dB SPL and degrees.",
-        "source_url": "https://doi.org/10.1126/science.190681"
-      }
-    },
-    {
-      "title": "Cortical activity represents a spectrum across populations",
-      "layout": "text",
-      "body": [
-        "An **amplitude spectrum** specifies signal amplitude across frequencies. Suga’s cortical data supported a representation in which both frequency preference and preferred amplitude vary with the location of responding neurons.",
-        "This organization differs from describing amplitude only through the discharge rate of an individual peripheral neuron. Cortical population activity can change spatially when either frequency or amplitude changes, and upper-threshold responses can sharpen that organization.",
-        "One cortical column does not uniquely identify target velocity or target size. Tuning curves and amplitude-response functions have finite widths, so multiple locations can respond to a signal. The representation concerns a pattern of population activity rather than a single neuron that unambiguously labels an object."
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/suga77_fig2de.png",
+          "caption": "Suga (1977), Fig. 2(D–E). Measured best amplitude varies with cortical position, in dB SPL and degrees.",
+          "source_url": "https://doi.org/10.1126/science.190681"
+        },
+        {
+          "kind": "article",
+          "path": "figures/suga77_fig2bc.png",
+          "caption": "Suga (1977), Fig. 2(B–C). Original cortical maps, 0.5 mm.",
+          "source_url": "https://doi.org/10.1126/science.190681"
+        }
       ],
-      "transcript": [
-        "A signal’s amplitude spectrum describes how amplitude is distributed across its frequency components. Suga proposed that the CF-region population represents that distribution through the locations of neurons with appropriate frequency and level preferences.",
-        "At the periphery, increasing amplitude often changes discharge rate within a frequency-selective population. In the cortex, a stronger signal can also change which populations are most strongly activated because different locations prefer different amplitudes.",
-        "The preferences are not infinitely sharp. A particular acoustic signal can activate several columns, and a column can respond to a range of signals. Consequently, the activity at one cortical site cannot uniquely specify a target’s velocity or size. The interpretation depends on the distributed response and the acoustic conditions producing the echo."
-      ],
-      "cite": "Suga (1977)",
-      "refs": [
-        "Suga N (1977). Amplitude Spectrum Representation in the Doppler-Shifted-CF Processing Area of the Auditory Cortex of the Mustache Bat. Science 196(4285):64–67. https://doi.org/10.1126/science.190681"
-      ]
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.3
     },
     {
       "title": "Free flight lowers emission while preserving echo frequency",
@@ -894,12 +1066,13 @@
       "refs": [
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schoeppler18_fig2ef.png",
         "caption": "Schoeppler et al. (2018), Fig. 2(e–f). Measured emission and flight speed, with calculated echo frequency.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        "source_url": "https://doi.org/10.1038/s41598-018-22880-y",
+        "color": true
       }
     },
     {
@@ -919,12 +1092,13 @@
       "refs": [
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schoeppler18_fig2.png",
         "caption": "Schoeppler et al. (2018), Fig. 2(a–f). Call timing, FM properties, duty cycle, and compensation during approach.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        "source_url": "https://doi.org/10.1038/s41598-018-22880-y",
+        "color": true
       }
     },
     {
@@ -944,37 +1118,13 @@
       "refs": [
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schoeppler18_fig3.png",
         "caption": "Schoeppler et al. (2018), Fig. 3(a–b). Paired resting and reference frequencies and their offsets across flights.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
-      }
-    },
-    {
-      "title": "Precision within a flight differs from stability across days",
-      "layout": "figure-right",
-      "body": [
-        "**Control precision** describes how closely echo frequency remains near the reference within a flight. **Longer-term stability** describes how little that reference changes across flights or days. These are different properties of the feedback system.",
-        "In Schoeppler and colleagues’ recordings, emission changed with speed while calculated echoes stayed near the reference. Deviations from the reference were only weakly related to speed across the tested trajectories, with greater variation at low speeds.",
-        "The natural-flight results challenged the assumption that hipposiderid compensation is inherently imprecise. A varying baseline can coexist with tight regulation around that baseline. The evidence concerns the studied animals and flight conditions, rather than proving identical performance in every hipposiderid species."
-      ],
-      "transcript": [
-        "Within-flight precision is measured relative to the reference appropriate for that flight. Longer-term stability concerns whether that reference stays at the same absolute frequency across sessions.",
-        "The calculated echo frequency remained near the reference over a range of flight speeds. The deviations were only weakly predicted by speed, although they were more variable near low speeds. The outgoing calls changed much more substantially with movement.",
-        "These data separate a shifting preferred frequency from inaccurate regulation. They support precise compensation in the studied Hipposideros armiger preparation and revise an interpretation based on measurements taken at different times. The result is not a measurement of every hipposiderid, and the echo estimates depend on the reconstructed flight and the target geometry used in the study."
-      ],
-      "cite": "Schoeppler et al. (2018)",
-      "refs": [
-        "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y"
-      ],
-      "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/schoeppler18_fig4.png",
-        "caption": "Schoeppler et al. (2018), Fig. 4(a–b). Calculated echo frequency and deviation from the flight-specific reference versus speed.",
-        "source_url": "https://doi.org/10.1038/s41598-018-22880-y"
+        "source_url": "https://doi.org/10.1038/s41598-018-22880-y",
+        "color": true
       }
     },
     {
@@ -994,12 +1144,13 @@
       "refs": [
         "Schoeppler D, Denzinger A, Schnitzler H-U (2022). The resting frequency of echolocation signals changes with body temperature in the hipposiderid bat Hipposideros armiger. Journal of Experimental Biology 225(3):jeb243569. https://doi.org/10.1242/jeb.243569"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schoeppler22_fig2cde.png",
         "caption": "Schoeppler et al. (2022), Fig. 2(C–E). Skin temperature, calling activity, and resting CF2 frequency during activation.",
-        "source_url": "https://doi.org/10.1242/jeb.243569"
+        "source_url": "https://doi.org/10.1242/jeb.243569",
+        "color": true
       }
     },
     {
@@ -1019,12 +1170,13 @@
       "refs": [
         "Schoeppler D, Denzinger A, Schnitzler H-U (2022). The resting frequency of echolocation signals changes with body temperature in the hipposiderid bat Hipposideros armiger. Journal of Experimental Biology 225(3):jeb243569. https://doi.org/10.1242/jeb.243569"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schoeppler22_fig3a.png",
         "caption": "Schoeppler et al. (2022), Fig. 3(A). Resting-frequency and skin-temperature peaks differ in time during activation.",
-        "source_url": "https://doi.org/10.1242/jeb.243569"
+        "source_url": "https://doi.org/10.1242/jeb.243569",
+        "color": true
       }
     },
     {
@@ -1046,12 +1198,13 @@
         "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
         "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607"
       ],
-      "figure_width": 5.2,
+      "figure_width": 5.6,
       "figure": {
         "kind": "article",
         "path": "figures/schoeppler22_fig5.png",
         "caption": "Schoeppler et al. (2022), Fig. 5. Resting frequency covaries with skin temperature across activation and recovery.",
-        "source_url": "https://doi.org/10.1242/jeb.243569"
+        "source_url": "https://doi.org/10.1242/jeb.243569",
+        "color": true
       }
     }
   ],
@@ -1064,7 +1217,10 @@
       "Schuller G, Beuter K, Schnitzler H-U (1974). Response to frequency shifted artificial echoes in the bat Rhinolophus ferrumequinum. Journal of Comparative Physiology 89(3):275–286. https://doi.org/10.1007/BF00696191",
       "Metzner W, Zhang S, Smotherman M (2002). Doppler-shift compensation behavior in horseshoe bats revisited: auditory feedback controls both a decrease and an increase in call frequency. Journal of Experimental Biology 205(11):1607–1616. https://doi.org/10.1242/jeb.205.11.1607",
       "Schoeppler D, Schnitzler H-U, Denzinger A (2018). Precise Doppler shift compensation in the hipposiderid bat, Hipposideros armiger. Scientific Reports 8:4598. https://doi.org/10.1038/s41598-018-22880-y",
-      "Schoeppler D, Denzinger A, Schnitzler H-U (2022). The resting frequency of echolocation signals changes with body temperature in the hipposiderid bat Hipposideros armiger. Journal of Experimental Biology 225(3):jeb243569. https://doi.org/10.1242/jeb.243569"
+      "Schoeppler D, Denzinger A, Schnitzler H-U (2022). The resting frequency of echolocation signals changes with body temperature in the hipposiderid bat Hipposideros armiger. Journal of Experimental Biology 225(3):jeb243569. https://doi.org/10.1242/jeb.243569",
+      "Wang X, Bao M, Wang H, Sun R, Dai W, Sun K, Zhu Y, Pu Y, Chu Y, Li X, Wang T, Zhang M, Lin A, Li J, Feng J (2025). Cochlear Cell Atlas of Two Laryngeal Echolocating Bats—New Evidence for the Adaptive Nervous Physiology in Constant Frequency Bat. Molecular Ecology Resources 25:e14101. https://doi.org/10.1111/1755-0998.14101",
+      "Macías S, Hechavarría JC, Kössl M (2016). Sharp temporal tuning in the bat auditory midbrain overcomes spectral-temporal trade-off imposed by cochlear mechanics. Scientific Reports 6:29129. https://doi.org/10.1038/srep29129",
+      "Liu Y, Feng J, Metzner W (2013). Different auditory feedback control for echolocation and communication in horseshoe bats. PLoS ONE 8(4):e62710. https://doi.org/10.1371/journal.pone.0062710"
     ],
     "items": [
       {
@@ -1085,12 +1241,27 @@
       },
       {
         "lead": "Neural codes include timing and population location.",
-        "text": "Peripheral impulses can follow beats; cortical populations organize both frequency and preferred amplitude."
+        "text": "Midbrain neurons can retain narrow duration tuning near resonance; cortical populations organize frequency and preferred amplitude."
       },
       {
         "lead": "Precision can track a changing operating band.",
         "text": "Resting and reference frequencies can shift together, and resting calls change during warming without a flight-induced Doppler shift."
       }
+    ],
+    "transcript": [
+      "Echo frequency is the controlled signal. CF-FM bats lower emitted CF frequency as approach raises echo frequency, maintaining echoes near an individual reference band.",
+      "Resting and reference frequencies differ. The resting emission baseline usually lies slightly below the compensated echo reference; their offset must be measured at the same time.",
+      "Audible feedback acts in both directions. Horseshoe bats lower calls for higher echoes and can raise calls for sufficiently audible lower echoes, with unequal correction ranges.",
+      "The auditory fovea begins peripherally. Cochlear resonance and sharply tuned peripheral neurons concentrate sensitivity and selectivity near the CF2 echo band.",
+      "Neural codes include timing and population location. Midbrain neurons can retain narrow duration tuning near resonance; cortical populations organize frequency and preferred amplitude.",
+      "Precision can track a changing operating band. Resting and reference frequencies can shift together, and resting calls change during warming without a flight-induced Doppler shift."
     ]
+  },
+  "title_image": {
+    "kind": "article",
+    "path": "figures/animal.png",
+    "caption": "Wang et al. (2025), Fig. 1(A). CF and FM study bats.",
+    "source_url": "https://doi.org/10.1111/1755-0998.14101",
+    "color": true
   }
 }

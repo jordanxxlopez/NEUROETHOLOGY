@@ -5,7 +5,7 @@
   "slides": [
     {
       "title": "FM calls distribute acoustic energy across frequencies",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Echolocation** is active sensing with emitted sounds and returning echoes. A **frequency-modulated sweep**, or FM sweep, changes frequency during a call. Big brown bats, _Eptesicus fuscus_, emit downward sweeps with two prominent **harmonics**, components related by a twofold frequency ratio.",
         "Ming and colleagues describe FM1 sweeping approximately from 55 to 25 kHz and FM2 from 110 to 50 kHz. These wide frequency ranges differ from a sustained constant-frequency carrier. An echo preserves information about when different frequencies were transmitted and returned.",
@@ -17,22 +17,32 @@
         "Behavioral filtering experiments distinguish the contributions of these harmonics. FM1 can support echo-delay perception without FM2; FM2 cannot simply replace missing corresponding FM1 frequencies. The two acoustic components therefore contribute asymmetrically to the tested range judgments.",
         "A harmonic is defined by its frequency relationship to another component. FM1 and FM2 are not successive calls. They occur together within the broadcast, while each sweeps downward through its own frequency range."
       ],
-      "cite": "Bates et al. (2011); Ming et al. (2020)",
+      "cite": "Bates et al. (2011); Ming et al. (2020); Beetz & Hechavarría (2022)",
       "refs": [
         "Bates ME, Simmons JA, Zorikov TV (2011). Bats use echo harmonic structure to distinguish their targets from background clutter. Science 333(6042):627–630. https://doi.org/10.1126/science.1202065",
-        "Ming C, Bates ME, Simmons JA (2020). How frequency hopping suppresses pulse-echo ambiguity in bat biosonar. Proceedings of the National Academy of Sciences 117(29):17288–17295. https://doi.org/10.1073/pnas.2001105117"
+        "Ming C, Bates ME, Simmons JA (2020). How frequency hopping suppresses pulse-echo ambiguity in bat biosonar. Proceedings of the National Academy of Sciences 117(29):17288–17295. https://doi.org/10.1073/pnas.2001105117",
+        "Beetz MJ, Hechavarría JC (2022). Neural processing of naturalistic echolocation signals in bats. Frontiers in Neural Circuits 16:899370. https://doi.org/10.3389/fncir.2022.899370"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/B11_1A.png",
-        "caption": "Bates et al. (2011), Fig. 1(A). Two downward FM harmonics in a big brown bat broadcast.",
-        "source_url": "https://doi.org/10.1126/science.1202065"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/B11_1A.png",
+          "caption": "Bates et al. (2011), Fig. 1(A). Two downward FM harmonics in a big brown bat broadcast.",
+          "source_url": "https://doi.org/10.1126/science.1202065"
+        },
+        {
+          "kind": "article",
+          "path": "figures/bz22_fig1.png",
+          "caption": "Beetz & Hechavarría (2022), Fig. 1. Spectrograms of an FM call (Carollia perspicillata) and a CF-FM call (Pteronotus parnellii).",
+          "source_url": "https://doi.org/10.3389/fncir.2022.899370"
+        }
+      ],
+      "primary_figure_height": 2.29
     },
     {
       "title": "Echo delay specifies the round trip to a target",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Echo delay** is the interval between an outgoing call and its returning reflection. A more distant target produces a later echo because sound travels outward to the target and back to the bat. **Target range** is the distance from the bat to that reflector.",
         "Simmons recorded outgoing sounds and echoes while bats discriminated target distance. A target at 30 cm returned an echo after about 1.7 ms in the experimental conditions. Electronic delay channels could change this interval while keeping the loudspeakers at fixed physical positions.",
@@ -44,21 +54,31 @@
         "The resulting separation of acoustic delay from physical location permitted a direct behavioral test of the ranging cue. The bat could judge relative simulated distance from echo arrival time without receiving a corresponding change in the loudspeaker’s actual distance.",
         "The recorded echo followed the emitted call rather than arriving at the same time. Sound from apparatus supports also appeared in the recording, so the investigator distinguished target reflections from other returning sound."
       ],
-      "cite": "Simmons (1973)",
+      "cite": "Simmons (1973); Beetz et al. (2026)",
       "refs": [
-        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559"
+        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559",
+        "Beetz MJ, Kössl M, Hechavarría JC (2026). First come, first served: neuronal processing of multi-echo streams in the auditory cortex of echolocating bats. Journal of Experimental Biology 229(10):jeb252069. https://doi.org/10.1242/jeb.252069"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S73_11.png",
-        "caption": "Simmons (1973), Fig. 11. Recorded outgoing sound and target echo at a range of 30 cm.",
-        "source_url": "https://doi.org/10.1121/1.1913559"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S73_11.png",
+          "caption": "Simmons (1973), Fig. 11. Recorded outgoing sound and target echo at a range of 30 cm.",
+          "source_url": "https://doi.org/10.1121/1.1913559"
+        },
+        {
+          "kind": "article",
+          "path": "figures/bz26_fig1b.png",
+          "caption": "Beetz et al. (2026), Fig. 1B. Pulse followed by echoes from objects at different distances; oscillograms and spectrograms.",
+          "source_url": "https://doi.org/10.1242/jeb.252069"
+        }
+      ],
+      "primary_figure_height": 2.52
     },
     {
       "title": "Bats can choose the nearer of two reflecting targets",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Simmons trained bats to discriminate between two targets that differed in distance from a starting platform. The animal received food for moving to the landing platform associated with the nearer target. **Discrimination** here means choosing between simultaneously available alternatives.",
         "One target remained at a fixed range, such as 30 or 60 cm, while the other was brought progressively closer to that range. Vision was excluded so that visual distance cues could not explain the choices. The triangular targets had the same form.",
@@ -70,17 +90,27 @@
         "Performance deteriorated as the distance difference approached zero, reaching chance when both targets were equally distant. This procedure measured resolution of relative range differences. It did not measure the accuracy of an isolated absolute-distance estimate without a comparison target.",
         "The food contingency linked the correct choice to the nearer reflector. Equal target shape removed a simple object-form cue, and excluding vision isolated the use of acoustic information during the distance choice."
       ],
-      "cite": "Simmons (1973)",
+      "cite": "Simmons (1973); Teshima et al. (2024)",
       "refs": [
-        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559"
+        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559",
+        "Teshima Y, Mogi M, Nishida H, Tsuchiya T, Kobayasi KI, Hiryu S (2024). Discrimination of object information by bat echolocation deciphered from acoustic simulations. Royal Society Open Science 11(1):231415. https://doi.org/10.1098/rsos.231415"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S73_1.png",
-        "caption": "Simmons (1973), Fig. 1. Original two-target range-discrimination apparatus.",
-        "source_url": "https://doi.org/10.1121/1.1913559"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S73_1.png",
+          "caption": "Simmons (1973), Fig. 1. Original two-target range-discrimination apparatus.",
+          "source_url": "https://doi.org/10.1121/1.1913559"
+        },
+        {
+          "kind": "article",
+          "path": "figures/t24_fig3ab.png",
+          "caption": "Teshima et al. (2024), Fig. 3a–b. Flight trajectories of bats approaching two targets in a two-choice test.",
+          "source_url": "https://doi.org/10.1098/rsos.231415"
+        }
+      ],
+      "primary_figure_height": 1.92
     },
     {
       "title": "Near-range acuity remains similar at 30 and 60 cm",
@@ -136,7 +166,7 @@
     },
     {
       "title": "Range discrimination occurs across sonar signal types",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Simmons compared range discrimination in bats using different sonar signals. _Eptesicus fuscus_ and _Phyllostomus hastatus_ used FM sounds, whereas the other tested species used combinations of constant-frequency and FM components. The species were tested with the same general nearer-target contingency.",
         "The first three species resolved differences near 1–2 cm; _Rhinolophus ferrumequinum_ had a threshold nearer 3 cm. In _Phyllostomus_, discrimination at 60 and 120 cm had similar resolution. Signal form did not divide the animals into ranging and non-ranging groups.",
@@ -148,21 +178,31 @@
         "The paper inferred different contributions of signal components across species. These comparisons establish behavioral capabilities under the tested conditions, rather than an identical neural algorithm in all bats. Species-specific auditory processing must be distinguished from their shared ability to compare target ranges.",
         "The Phyllostomus data provide a second FM species comparison. Similar relative-range performance is evidence of a shared sensory capability, but it does not imply that the two species have identical call structure or auditory circuits."
       ],
-      "cite": "Simmons (1973)",
+      "cite": "Simmons (1973); Grinnell (2026)",
       "refs": [
-        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559"
+        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559",
+        "Grinnell AD (2026). Reflections on the neural processing of echoes for distance information in echolocating bats. Journal of Comparative Physiology A 212(5):913–926. https://doi.org/10.1007/s00359-026-01804-6"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S73_5.png",
-        "caption": "Simmons (1973), Fig. 5. Range discrimination by Phyllostomus hastatus at 60 cm.",
-        "source_url": "https://doi.org/10.1121/1.1913559"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S73_5.png",
+          "caption": "Simmons (1973), Fig. 5. Range discrimination by Phyllostomus hastatus at 60 cm.",
+          "source_url": "https://doi.org/10.1121/1.1913559"
+        },
+        {
+          "kind": "article",
+          "path": "figures/g26_fig9.png",
+          "caption": "Grinnell (2026), Fig. 9. Approach responses of big brown bats to artificial echoes built from pure-tone steps.",
+          "source_url": "https://doi.org/10.1007/s00359-026-01804-6"
+        }
+      ],
+      "primary_figure_height": 2.09
     },
     {
       "title": "Electronic echoes isolate arrival time from other cues",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "An **electronic target simulator** captures a bat’s emitted sound, delays it, and returns it through a loudspeaker. Simmons used two independent microphone–delay–speaker channels to present echoes with different arrival times. The hardware could preserve other range-related acoustic properties while changing delay.",
         "The loudspeakers remained fixed, and overall level and spectrum were controlled. A first arrangement with one microphone feeding both speakers disrupted the animal’s ability to inspect targets separately. Using one microphone for each channel restored stable discrimination.",
@@ -174,21 +214,31 @@
         "This control revealed that directional sampling is part of the task. A bat aims its call toward an object, changing the information returned by that object. Artificial feedback must preserve that active relationship if the experiment is to approximate separate acoustic inspection of two targets.",
         "The one-microphone arrangement returned strong echoes from both sides irrespective of the bat’s pointing direction. The two-microphone arrangement let the animal change relative echo strength by directing its broadcast toward one side."
       ],
-      "cite": "Simmons (1973)",
+      "cite": "Simmons (1973); Greiter & Firzlaff (2017)",
       "refs": [
-        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559"
+        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559",
+        "Greiter W, Firzlaff U (2017). Representation of three-dimensional space in the auditory cortex of the echolocating bat P. discolor. PLoS ONE 12(8):e0182461. https://doi.org/10.1371/journal.pone.0182461"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S73_11.png",
-        "caption": "Simmons (1973), Fig. 11. Call and delayed echo recorded in the target-simulator experiment.",
-        "source_url": "https://doi.org/10.1121/1.1913559"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S73_11.png",
+          "caption": "Simmons (1973), Fig. 11. Call and delayed echo recorded in the target-simulator experiment.",
+          "source_url": "https://doi.org/10.1121/1.1913559"
+        },
+        {
+          "kind": "article",
+          "path": "figures/gf17_fig2ab.png",
+          "caption": "Greiter & Firzlaff (2017), Fig. 2A–B. Delay-response fields of two cortical units in Phyllostomus discolor; spike count in color.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0182461"
+        }
+      ],
+      "primary_figure_height": 2.33
     },
     {
       "title": "Echo arrival time can support the range judgment",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Simmons compared physical-target discrimination with discrimination of electronically delayed echoes. In the simulator, the alternatives differed in arrival time rather than in the loudspeakers’ actual positions. The animal was still rewarded for selecting the echo corresponding to the nearer target.",
         "At a simulated range of 30 cm, the electronic-delay and physical-distance performance curves were closely similar. Arrival-time differences corresponding to about 1 cm of range could be discriminated in the controlled feedback task. The figure retains both distance and delay scales.",
@@ -200,21 +250,31 @@
         "Echo timing is therefore sufficient to mediate this relative-range judgment in big brown bats. The experiment does not imply that bats ignore spectral, directional, or intensity information in natural scenes; those variables were controlled here to isolate a particular ranging cue.",
         "The comparison uses the same species and general task while changing how range is conveyed. Similar performance after this change is the evidence that arrival time can carry the required distance information."
       ],
-      "cite": "Simmons (1973)",
+      "cite": "Simmons (1973); Beetz et al. (2026)",
       "refs": [
-        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559"
+        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559",
+        "Beetz MJ, Kössl M, Hechavarría JC (2026). First come, first served: neuronal processing of multi-echo streams in the auditory cortex of echolocating bats. Journal of Experimental Biology 229(10):jeb252069. https://doi.org/10.1242/jeb.252069"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S73_13.png",
-        "caption": "Simmons (1973), Fig. 13. Physical-range and electronic-delay discrimination at a 30-cm reference range.",
-        "source_url": "https://doi.org/10.1121/1.1913559"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S73_13.png",
+          "caption": "Simmons (1973), Fig. 13. Physical-range and electronic-delay discrimination at a 30-cm reference range.",
+          "source_url": "https://doi.org/10.1121/1.1913559"
+        },
+        {
+          "kind": "article",
+          "path": "figures/bz26_fig2ab.png",
+          "caption": "Beetz et al. (2026), Fig. 2A–B. Echo delay over an approach sequence and color-coded cortical multi-unit rasters.",
+          "source_url": "https://doi.org/10.1242/jeb.252069"
+        }
+      ],
+      "primary_figure_height": 1.66
     },
     {
       "title": "A matched receiver is a functional hypothesis",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "A **matched receiver** processes an incoming echo in relation to the structure of the transmitted signal. **Cross-correlation** measures similarity between two signals as their relative timing is varied. Simmons proposed a neural equivalent of this operation from the relationship between acoustic structure and behavioral resolution.",
         "The measured range-discrimination curves resembled predictions based on the envelopes of recorded calls’ autocorrelation functions. The hypothesis concerns extraction of echo arrival time from a broadband signal rather than measurement of a single acoustic frequency.",
@@ -226,21 +286,31 @@
         "The paper explicitly allowed neural representations distributed across frequency and time instead of literal waveform comparison. Behavioral agreement with a prediction supports a computational relationship, but it does not establish a permanent call template, a specific synaptic circuit, or direct neural copying of the acoustic waveform.",
         "Cross-correlation in the paper is a proposed functional description of the receiver. The distinction between a successful mathematical description and its biological implementation is essential when interpreting the behavioral curves."
       ],
-      "cite": "Simmons (1973)",
+      "cite": "Simmons (1973); Ming et al. (2020)",
       "refs": [
-        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559"
+        "Simmons JA (1973). The resolution of target range by echolocating bats. Journal of the Acoustical Society of America 54(1):157–173. https://doi.org/10.1121/1.1913559",
+        "Ming C, Bates ME, Simmons JA (2020). How frequency hopping suppresses pulse-echo ambiguity in bat biosonar. Proceedings of the National Academy of Sciences 117(29):17288–17295. https://doi.org/10.1073/pnas.2001105117"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S73_3.png",
-        "caption": "Simmons (1973), Fig. 3. Behavioral range resolution compared with the published receiver prediction.",
-        "source_url": "https://doi.org/10.1121/1.1913559"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S73_3.png",
+          "caption": "Simmons (1973), Fig. 3. Behavioral range resolution compared with the published receiver prediction.",
+          "source_url": "https://doi.org/10.1121/1.1913559"
+        },
+        {
+          "kind": "article",
+          "path": "figures/m20_fig4.png",
+          "caption": "Ming et al. (2020), Fig. 4. Spectrograms, cross-correlations and SCAT neural spectrograms for successive echoes.",
+          "source_url": "https://doi.org/10.1073/pnas.2001105117"
+        }
+      ],
+      "primary_figure_height": 2.16
     },
     {
       "title": "Timing is registered early in the auditory pathway",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "The **cochlear nucleus** is the first central relay receiving auditory-nerve input from the ear. The **inferior colliculus** is an auditory midbrain center receiving ascending inputs from brainstem nuclei. Simmons and colleagues compared population timing in these two structures in big brown bats.",
         "Electrodes recorded in the ventral cochlear nucleus and inferior colliculus during anesthesia. Histological lesions identified cochlear-nucleus sites near the entry of the eighth cranial nerve and near the trapezoid body. The recovered positions restricted the anatomical interpretation of the recordings.",
@@ -252,21 +322,31 @@
         "The comparison tested whether precise timing emerged only at the midbrain or was already present in an early relay. It sampled particular regions rather than every subdivision of the cochlear nucleus, so the findings cannot be assigned uniformly to all neurons or pathways in that structure.",
         "The stained tissue establishes where the electrode had been placed. Recording location matters because the cochlear nucleus contains subdivisions with different cells and projection patterns, rather than one homogeneous population."
       ],
-      "cite": "Simmons et al. (2024)",
+      "cite": "Simmons et al. (2024); Beetz & Hechavarría (2022)",
       "refs": [
-        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024"
+        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024",
+        "Beetz MJ, Hechavarría JC (2022). Neural processing of naturalistic echolocation signals in bats. Frontiers in Neural Circuits 16:899370. https://doi.org/10.3389/fncir.2022.899370"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S24_2.png",
-        "caption": "Simmons et al. (2024), Fig. 2(A–B). Histological sections locating ventral cochlear-nucleus recordings.",
-        "source_url": "https://doi.org/10.1152/jn.00305.2024"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S24_2.png",
+          "caption": "Simmons et al. (2024), Fig. 2(A–B). Histological sections locating ventral cochlear-nucleus recordings.",
+          "source_url": "https://doi.org/10.1152/jn.00305.2024"
+        },
+        {
+          "kind": "article",
+          "path": "figures/bz22_fig5a.png",
+          "caption": "Beetz & Hechavarría (2022), Fig. 5A. Inferior colliculus and cortex responses to call–echo pairs, color-coded by echo delay.",
+          "source_url": "https://doi.org/10.3389/fncir.2022.899370"
+        }
+      ],
+      "primary_figure_height": 1.72
     },
     {
       "title": "Echo cascades approximate a scene with several objects",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "An **echo cascade** is a sequence of reflections arriving after one broadcast. Simmons and colleagues constructed stimuli containing a 2.5-ms downward FM broadcast followed by four echoes with the same spectral content and different amplitudes. The stimulus approximated multiple reflectors near a flying bat.",
         "The first echo arrived at delays from 20.4 to 14.4 ms in 1-ms steps. Subsequent echo intervals were 2.1, 3.5, and 6.8 ms. FM1 swept from 50 to 20 kHz and FM2 from 100 to 40 kHz.",
@@ -278,21 +358,31 @@
         "Changing the first-echo delay altered the simulated scene while preserving its general cascade structure. This design tested timing during a sequence of echoes rather than an isolated tone. The anesthetized preparation did not measure ongoing vocal choice or obstacle-avoidance behavior.",
         "Each plotted waveform begins with a broadcast and then contains four echoes. The series is a controlled acoustic approximation of approaching a set of reflectors, not a recording of a bat actually flying past those objects."
       ],
-      "cite": "Simmons et al. (2024)",
+      "cite": "Simmons et al. (2024); Beetz et al. (2026)",
       "refs": [
-        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024"
+        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024",
+        "Beetz MJ, Kössl M, Hechavarría JC (2026). First come, first served: neuronal processing of multi-echo streams in the auditory cortex of echolocating bats. Journal of Experimental Biology 229(10):jeb252069. https://doi.org/10.1242/jeb.252069"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S24_1.png",
-        "caption": "Simmons et al. (2024), Fig. 1. Published broadcast–echo waveforms with first-echo delays from 20.4 to 14.4 ms.",
-        "source_url": "https://doi.org/10.1152/jn.00305.2024"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S24_1.png",
+          "caption": "Simmons et al. (2024), Fig. 1. Published broadcast–echo waveforms with first-echo delays from 20.4 to 14.4 ms.",
+          "source_url": "https://doi.org/10.1152/jn.00305.2024"
+        },
+        {
+          "kind": "article",
+          "path": "figures/bz26_fig3.png",
+          "caption": "Beetz et al. (2026), Fig. 3. Cortical responses to echo cascades from three objects and object preference indices.",
+          "source_url": "https://doi.org/10.1242/jeb.252069"
+        }
+      ],
+      "primary_figure_height": 2.53
     },
     {
       "title": "Population potentials register calls and echoes",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "A **local field potential**, or LFP, is an extracellular voltage signal reflecting coordinated activity in a neuronal population. Simmons and colleagues filtered recordings to examine low-frequency population waveforms rather than treating every deflection as a single neuron’s action potential.",
         "In the cochlear nucleus, each broadcast and the first echo produced a prominent negative peak followed by a positive peak. Repeated presentations of the same echo-flow stimulus produced closely overlapping early responses. Later parts of the cascade had more variable waveforms.",
@@ -304,17 +394,27 @@
         "The consistency of a population response provides a candidate timing signal for registering acoustic events. LFP timing does not identify the exact contributing cells, nor does it establish which downstream decoder reads the response. The measured signal combines neuronal activity within the electrode’s recording field.",
         "The early peaks can be measured repeatedly from the same population signal. A field-potential peak is not equivalent to a spike from one identified cell, so population timing and single-cell timing must remain distinct."
       ],
-      "cite": "Simmons et al. (2024)",
+      "cite": "Simmons et al. (2024); Beetz & Hechavarría (2022)",
       "refs": [
-        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024"
+        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024",
+        "Beetz MJ, Hechavarría JC (2022). Neural processing of naturalistic echolocation signals in bats. Frontiers in Neural Circuits 16:899370. https://doi.org/10.3389/fncir.2022.899370"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S24_3top.png",
-        "caption": "Simmons et al. (2024), Fig. 3, left column. Repeated cochlear-nucleus responses at −30 dB attenuation.",
-        "source_url": "https://doi.org/10.1152/jn.00305.2024"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S24_3top.png",
+          "caption": "Simmons et al. (2024), Fig. 3, left column. Repeated cochlear-nucleus responses at −30 dB attenuation.",
+          "source_url": "https://doi.org/10.1152/jn.00305.2024"
+        },
+        {
+          "kind": "article",
+          "path": "figures/bz22_fig3.png",
+          "caption": "Beetz & Hechavarría (2022), Fig. 3. Carollia auditory cortex activity across an approach sequence, caudal to rostral.",
+          "source_url": "https://doi.org/10.3389/fncir.2022.899370"
+        }
+      ],
+      "primary_figure_height": 3.0
     },
     {
       "title": "Broadcast latency changes with acoustic level",
@@ -370,7 +470,7 @@
     },
     {
       "title": "First-echo responses follow the changing delay",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "The first returning echo in the cascade moved earlier as the simulated target approached. Cochlear-nucleus response peaks consequently occurred earlier relative to the broadcast onset. The neural signal preserved the ordering of the seven experimentally imposed echo delays.",
         "Simmons and colleagues also quantified **amplitude–latency trading**, the shift in response timing associated with a change in sound level. The first echo’s cochlear-nucleus response changed by about 18 μs per dB, while the corresponding broadcast measure was about 20 μs per dB.",
@@ -382,17 +482,27 @@
         "Echo timing and echo strength thus influence the measured latency together. These are separable experimental relationships, but they coexist in the auditory signal. The result supports accurate registration of relative timing while showing that response latency is not an uncorrected acoustic timestamp independent of level.",
         "A weaker sound can evoke a later neural response even if its physical arrival time is unchanged. This level effect is distinct from moving the echo itself earlier in the controlled stimulus sequence."
       ],
-      "cite": "Simmons et al. (2024)",
+      "cite": "Simmons et al. (2024); Beetz et al. (2026)",
       "refs": [
-        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024"
+        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024",
+        "Beetz MJ, Kössl M, Hechavarría JC (2026). First come, first served: neuronal processing of multi-echo streams in the auditory cortex of echolocating bats. Journal of Experimental Biology 229(10):jeb252069. https://doi.org/10.1242/jeb.252069"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S24_4C.png",
-        "caption": "Simmons et al. (2024), Fig. 4(C). First-echo latency tracks experimentally shortened echo delay.",
-        "source_url": "https://doi.org/10.1152/jn.00305.2024"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S24_4C.png",
+          "caption": "Simmons et al. (2024), Fig. 4(C). First-echo latency tracks experimentally shortened echo delay.",
+          "source_url": "https://doi.org/10.1152/jn.00305.2024"
+        },
+        {
+          "kind": "article",
+          "path": "figures/bz26_fig6ag.png",
+          "caption": "Beetz et al. (2026), Fig. 6A–G. Cortical units respond mainly to the first echo of a cascade at differing echo levels.",
+          "source_url": "https://doi.org/10.1242/jeb.252069"
+        }
+      ],
+      "primary_figure_height": 2.35
     },
     {
       "title": "First-echo jitter is stable across the tested delays",
@@ -474,7 +584,7 @@
     },
     {
       "title": "Later echoes have more variable population responses",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "A broadcast followed by several reflections recruits an evolving auditory response rather than four independent copies of one onset event. Simmons and colleagues measured prominent positive LFP peaks throughout the four-echo cascade as well as the early negative peak.",
         "Cochlear-nucleus timing variability for the later positive peaks was around 124 μs across the cascade, and the comparable inferior-colliculus value was about 111 μs. These values were larger than the tens-of-microseconds jitter of the earliest negative peaks, while remaining below a millisecond.",
@@ -486,21 +596,31 @@
         "The authors linked the increased variability to recruitment of additional neurons during the extended sequence. That account is an interpretation of population waveforms, rather than direct identification of every recruited cell. Precision depends on which event and which portion of a response are measured.",
         "The earliest negative response and the later positive peaks are distinct events in the same field potential. Their different variability prevents one number from describing every part of the auditory response."
       ],
-      "cite": "Simmons et al. (2024)",
+      "cite": "Simmons et al. (2024); Beetz et al. (2026)",
       "refs": [
-        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024"
+        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024",
+        "Beetz MJ, Kössl M, Hechavarría JC (2026). First come, first served: neuronal processing of multi-echo streams in the auditory cortex of echolocating bats. Journal of Experimental Biology 229(10):jeb252069. https://doi.org/10.1242/jeb.252069"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/S24_3.png",
-        "caption": "Simmons et al. (2024), Fig. 3. Cochlear-nucleus responses throughout the seven echo-flow sequences.",
-        "source_url": "https://doi.org/10.1152/jn.00305.2024"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/S24_3.png",
+          "caption": "Simmons et al. (2024), Fig. 3. Cochlear-nucleus responses throughout the seven echo-flow sequences.",
+          "source_url": "https://doi.org/10.1152/jn.00305.2024"
+        },
+        {
+          "kind": "article",
+          "path": "figures/bz26_fig5.png",
+          "caption": "Beetz et al. (2026), Fig. 5. Response to the leading echo against suppression of the lagging echo.",
+          "source_url": "https://doi.org/10.1242/jeb.252069"
+        }
+      ],
+      "primary_figure_height": 1.47
     },
     {
       "title": "Measured brainstem precision leaves a perceptual gap",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "The 2024 study discusses behavioral echo-delay acuity reaching approximately 1 μs or less in specialized psychophysical tasks. Its population-response jitter values were usually tens of microseconds. Neural repeatability approached this behavioral scale without reaching it.",
         "The authors proposed that precisely timed population signals contribute to the eventual range computation. Combining information across frequencies and responses could improve a readout, but the experiment did not directly identify such a decoder or measure its achieved precision.",
@@ -512,10 +632,18 @@
         "The temporal sampling and restricted recording sites also limit interpretation. A 20-kHz digitization rate places important constraints on very small timing estimates. The established finding is precise early and midbrain population activity; the complete mechanism of perceptual hyperacuity remains unresolved.",
         "The behavioral threshold and neural measurement came from different tasks and preparations. The brainstem data cannot be described as a complete explanation of one-microsecond perception, because the observed variability remained larger and the decoder was not tested."
       ],
-      "cite": "Simmons et al. (2024)",
+      "cite": "Simmons et al. (2024); Macías et al. (2022)",
       "refs": [
-        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024"
-      ]
+        "Simmons AM, Warnecke M, Simmons JA (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012–2022. https://doi.org/10.1152/jn.00305.2024",
+        "Macías S, Bakshi K, Smotherman M (2022). Faster repetition rate sharpens the cortical representation of echo streams in echolocating bats. eNeuro 9(1):ENEURO.0410-21.2021. https://doi.org/10.1523/ENEURO.0410-21.2021"
+      ],
+      "figure_width": 5.2,
+      "figure": {
+        "kind": "article",
+        "path": "figures/mc22_fig3ab.png",
+        "caption": "Macías et al. (2022), Fig. 3A–B. Tadarida cortical neuron: tuning and spike rasters to pulse–echo trains at 10–15 Hz.",
+        "source_url": "https://doi.org/10.1523/ENEURO.0410-21.2021"
+      }
     },
     {
       "title": "Pallid-bat midbrain neurons select downward sweeps",
@@ -831,7 +959,7 @@
     },
     {
       "title": "Local and inherited selectivity can coexist",
-      "layout": "text",
+      "layout": "figure-right",
       "body": [
         "The inferior colliculus receives inhibitory and excitatory inputs from several ascending pathways as well as local and commissural connections. The paper identifies GABAergic sources including the dorsal nucleus of the lateral lemniscus; lower brainstem regions can supply both GABAergic and glycinergic inputs.",
         "Receptor blockade near a recorded neuron tests the contribution of inhibition acting at that site. A direction preference that disappears was created or refined locally. A rate preference that persists may already be present in incoming activity, although resistant local mechanisms cannot be excluded completely.",
@@ -843,14 +971,22 @@
         "Williams and Fuzessery inferred substantial local construction of direction selectivity and greater inheritance of sideband-based rate selectivity. They did not directly map the full presynaptic circuit. The same response property can be inherited, transformed, or reconstructed at successive auditory levels.",
         "Ascending inputs need not begin as neutral carriers of frequency. They can already be selective for sound patterns. Local integration may preserve their preference or modify it when selective and nonselective signals converge."
       ],
-      "cite": "Williams & Fuzessery (2011)",
+      "cite": "Williams & Fuzessery (2011); Simmons & Simmons (2026)",
       "refs": [
-        "Williams AJ, Fuzessery ZM (2011). Differential roles of GABAergic and glycinergic input on FM selectivity in the inferior colliculus of the pallid bat. Journal of Neurophysiology 106(5):2523–2535. https://doi.org/10.1152/jn.00569.2011"
-      ]
+        "Williams AJ, Fuzessery ZM (2011). Differential roles of GABAergic and glycinergic input on FM selectivity in the inferior colliculus of the pallid bat. Journal of Neurophysiology 106(5):2523–2535. https://doi.org/10.1152/jn.00569.2011",
+        "Simmons JA, Simmons AM (2026). Beamforming as a mechanism for azimuthal localization of targets by FM-echolocating big brown bats. Journal of Comparative Physiology A 212(5):901–911. https://doi.org/10.1007/s00359-026-01834-0"
+      ],
+      "figure_width": 5.2,
+      "figure": {
+        "kind": "article",
+        "path": "figures/ss26_fig4.png",
+        "caption": "Simmons & Simmons (2026), Fig. 4. Interaural-level inflection points of 56 big brown bat IC neurons by best frequency.",
+        "source_url": "https://doi.org/10.1007/s00359-026-01834-0"
+      }
     },
     {
       "title": "The two harmonics have different beam widths",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "The **sonar beam** is the directional distribution of a bat’s emitted sound. Its width depends on frequency. Bates and colleagues describe a horizontal beam spanning about 70° to each side at 25 kHz, compared with about 30° at 80 kHz.",
         "A target near the beam axis receives both FM1 and FM2 strongly. Objects off to the side receive proportionally less high-frequency FM2 because its beam is narrower. The returning echo’s harmonic balance therefore contains information related to where the reflecting object was ensonified.",
@@ -862,21 +998,31 @@
         "This acoustic relationship can help distinguish a forward target from lateral clutter, reflections from objects irrelevant to the current target. Beam width alone does not establish successful neural segregation; the behavioral experiments tested whether bats use the resulting harmonic differences to reduce interference.",
         "High frequencies are not simply absent from every lateral echo. Their relative strength declines with direction, and the experiment tested the perceptual consequence of this difference by manipulating harmonics electronically."
       ],
-      "cite": "Bates et al. (2011)",
+      "cite": "Bates et al. (2011); Simmons & Simmons (2026)",
       "refs": [
-        "Bates ME, Simmons JA, Zorikov TV (2011). Bats use echo harmonic structure to distinguish their targets from background clutter. Science 333(6042):627–630. https://doi.org/10.1126/science.1202065"
+        "Bates ME, Simmons JA, Zorikov TV (2011). Bats use echo harmonic structure to distinguish their targets from background clutter. Science 333(6042):627–630. https://doi.org/10.1126/science.1202065",
+        "Simmons JA, Simmons AM (2026). Beamforming as a mechanism for azimuthal localization of targets by FM-echolocating big brown bats. Journal of Comparative Physiology A 212(5):901–911. https://doi.org/10.1007/s00359-026-01834-0"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/B11_1C.png",
-        "caption": "Bates et al. (2011), Fig. 1(C). Published frequency-dependent horizontal beam patterns.",
-        "source_url": "https://doi.org/10.1126/science.1202065"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/B11_1C.png",
+          "caption": "Bates et al. (2011), Fig. 1(C). Published frequency-dependent horizontal beam patterns.",
+          "source_url": "https://doi.org/10.1126/science.1202065"
+        },
+        {
+          "kind": "article",
+          "path": "figures/ss26_fig1.png",
+          "caption": "Simmons & Simmons (2026), Fig. 1. Big brown bat head, FM1/FM2 call, flight corridor, and transmit and receive beams.",
+          "source_url": "https://doi.org/10.1007/s00359-026-01834-0"
+        }
+      ],
+      "primary_figure_height": 2.41
     },
     {
       "title": "A two-glint echo provides a structured target",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "An **acoustic glint** is a reflection from one part of a target. Bates and colleagues used a rewarded virtual target containing two glints at delays of 3,160 and 3,460 μs. The 300-μs separation created a structured echo rather than one isolated reflection.",
         "A bat on a Y-shaped platform emitted calls that microphones captured and returned through electronic delay channels. The unrewarded probe contained one glint and was presented from the opposite loudspeaker. Its delay was varied around the two rewarded glint delays.",
@@ -888,21 +1034,31 @@
         "The design measured how another echo interfered with perception of the target’s structure and timing. The electronic target provided controlled harmonic content and delay; it was not a natural insect recording. Its value was the ability to change one echo property while retaining the rest of the task.",
         "The bat was rewarded for choosing the two-glint target. Moving the probe in delay tested when a separate reflection interfered with that choice, while electronic filters permitted independent manipulation of the two harmonics."
       ],
-      "cite": "Bates et al. (2011)",
+      "cite": "Bates et al. (2011); Teshima et al. (2024)",
       "refs": [
-        "Bates ME, Simmons JA, Zorikov TV (2011). Bats use echo harmonic structure to distinguish their targets from background clutter. Science 333(6042):627–630. https://doi.org/10.1126/science.1202065"
+        "Bates ME, Simmons JA, Zorikov TV (2011). Bats use echo harmonic structure to distinguish their targets from background clutter. Science 333(6042):627–630. https://doi.org/10.1126/science.1202065",
+        "Teshima Y, Mogi M, Nishida H, Tsuchiya T, Kobayasi KI, Hiryu S (2024). Discrimination of object information by bat echolocation deciphered from acoustic simulations. Royal Society Open Science 11(1):231415. https://doi.org/10.1098/rsos.231415"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/B11_2.png",
-        "caption": "Bates et al. (2011), Fig. 2(A–F). Two-choice apparatus and controlled target and probe echoes.",
-        "source_url": "https://doi.org/10.1126/science.1202065"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/B11_2.png",
+          "caption": "Bates et al. (2011), Fig. 2(A–F). Two-choice apparatus and controlled target and probe echoes.",
+          "source_url": "https://doi.org/10.1126/science.1202065"
+        },
+        {
+          "kind": "article",
+          "path": "figures/t24_fig2b.png",
+          "caption": "Teshima et al. (2024), Fig. 2b. Echo impulse responses and FM echoes from five targets; surface (S) and occlusion (O) parts.",
+          "source_url": "https://doi.org/10.1098/rsos.231415"
+        }
+      ],
+      "primary_figure_height": 2.64
     },
     {
       "title": "Similar echo delays can create masking blind spots",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Masking** is interference by one sound with perception of another. In the Bates experiment, a flat-spectrum probe echo produced a sharp increase in errors when its delay approached either glint of the rewarded target. **Flat-spectrum** here means relatively balanced FM1 and FM2 content.",
         "The masking regions extended roughly 50 μs to either side of each target glint. A separate error peak occurred near 3,160 μs and near 3,460 μs. Baseline errors were low when the probe’s delay lay outside these regions.",
@@ -914,17 +1070,27 @@
         "Temporal proximity can therefore disrupt a target judgment even when echoes come from different directions. The operational “blind spot” is a delay region with impaired discrimination, not anatomical damage or complete inability to hear sound. The experiment measured the chosen target’s perceptual interference under controlled feedback conditions.",
         "Masking was measured through incorrect choices, not disappearance of an auditory-nerve response. The bat could still receive acoustic input while being less able to distinguish the rewarded target from the probe."
       ],
-      "cite": "Bates et al. (2011)",
+      "cite": "Bates et al. (2011); Grinnell (2026)",
       "refs": [
-        "Bates ME, Simmons JA, Zorikov TV (2011). Bats use echo harmonic structure to distinguish their targets from background clutter. Science 333(6042):627–630. https://doi.org/10.1126/science.1202065"
+        "Bates ME, Simmons JA, Zorikov TV (2011). Bats use echo harmonic structure to distinguish their targets from background clutter. Science 333(6042):627–630. https://doi.org/10.1126/science.1202065",
+        "Grinnell AD (2026). Reflections on the neural processing of echoes for distance information in echolocating bats. Journal of Comparative Physiology A 212(5):913–926. https://doi.org/10.1007/s00359-026-01804-6"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/B11_3AB.png",
-        "caption": "Bates et al. (2011), Fig. 3(A–B). Discrimination errors peak near the two target-glint delays.",
-        "source_url": "https://doi.org/10.1126/science.1202065"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/B11_3AB.png",
+          "caption": "Bates et al. (2011), Fig. 3(A–B). Discrimination errors peak near the two target-glint delays.",
+          "source_url": "https://doi.org/10.1126/science.1202065"
+        },
+        {
+          "kind": "article",
+          "path": "figures/g26_fig5.png",
+          "caption": "Grinnell (2026), Fig. 5. Interference by artificial CF-FM echoes as a function of CF–FM onset interval.",
+          "source_url": "https://doi.org/10.1007/s00359-026-01804-6"
+        }
+      ],
+      "primary_figure_height": 2.63
     },
     {
       "title": "Weakening FM2 can prevent a probe from masking",
@@ -954,7 +1120,7 @@
     },
     {
       "title": "Harmonic timing links acuity and clutter rejection",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Bates and colleagues proposed that weaker FM2 evokes later neural responses through amplitude–latency trading. Responses to the two harmonics then become misaligned. They interpreted this mismatch as **defocusing**, loss of a sharply specified echo-delay percept.",
         "For the roughly 1.5-dB FM2 reduction, the proposed relative latency shift was about 24 μs. Advancing FM2 electronically by approximately 25–45 μs restored masking of the first target glint, consistent with compensation for that level-dependent timing shift.",
@@ -966,17 +1132,27 @@
         "The manipulation links harmonic timing to the trade-off between precise delay perception and resistance to clutter. Neural responses were inferred from prior timing measurements rather than recorded in this behavioral experiment. Recovery differed between the two target glints, so the result is not a uniform restoration of every part of the target image.",
         "The experiment altered acoustic timing to test a proposed neural-timing consequence of harmonic attenuation. Agreement with that prediction supports the mechanism while preserving the distinction between measured choices and inferred response alignment."
       ],
-      "cite": "Bates et al. (2011)",
+      "cite": "Bates et al. (2011); Ming et al. (2020)",
       "refs": [
-        "Bates ME, Simmons JA, Zorikov TV (2011). Bats use echo harmonic structure to distinguish their targets from background clutter. Science 333(6042):627–630. https://doi.org/10.1126/science.1202065"
+        "Bates ME, Simmons JA, Zorikov TV (2011). Bats use echo harmonic structure to distinguish their targets from background clutter. Science 333(6042):627–630. https://doi.org/10.1126/science.1202065",
+        "Ming C, Bates ME, Simmons JA (2020). How frequency hopping suppresses pulse-echo ambiguity in bat biosonar. Proceedings of the National Academy of Sciences 117(29):17288–17295. https://doi.org/10.1073/pnas.2001105117"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/B11_3C.png",
-        "caption": "Bates et al. (2011), Fig. 3(C). Harmonic timing differences relate delay defocusing to masking recovery.",
-        "source_url": "https://doi.org/10.1126/science.1202065"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/B11_3C.png",
+          "caption": "Bates et al. (2011), Fig. 3(C). Harmonic timing differences relate delay defocusing to masking recovery.",
+          "source_url": "https://doi.org/10.1126/science.1202065"
+        },
+        {
+          "kind": "article",
+          "path": "figures/m20_fig1c.png",
+          "caption": "Ming et al. (2020), Fig. 1C. Delay jitter acuity after high-pass or low-pass removal of FM1 or FM2 frequencies.",
+          "source_url": "https://doi.org/10.1073/pnas.2001105117"
+        }
+      ],
+      "primary_figure_height": 2.2
     },
     {
       "title": "Rapid calling can mix echoes from different broadcasts",
@@ -1032,7 +1208,7 @@
     },
     {
       "title": "Nearby vegetation reduces prey-capture success",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Moss and colleagues studied freely flying big brown bats capturing tethered insects near a plant. Synchronized ultrasound recordings and high-speed video linked emitted sounds to reconstructed three-dimensional flight paths. The open-room condition provided a comparison without the plant’s nearby echo clutter.",
         "With the insect 10 cm from vegetation, bats hit or captured it in about 40% of trials and made no attempt in nearly half. Hits or captures increased to almost 80% at 20 cm and about 90% at 40 cm. Open-room performance was nearly complete.",
@@ -1044,21 +1220,31 @@
         "Clutter therefore affected both willingness to attempt interception and success after approach. The combined hit/capture measure is broader than successful consumption. The experiment reveals difficulty under controlled vegetation spacing rather than a universal minimum separation for catching prey in natural habitats.",
         "The behavioral categories distinguish failure to attempt from an attempted approach that missed or was aborted. A decline in the combined success measure cannot automatically be assigned to failure of target detection alone."
       ],
-      "cite": "Moss et al. (2006)",
+      "cite": "Moss et al. (2006); Ma et al. (2025)",
       "refs": [
-        "Moss CF, Bohn K, Gilkenson H, Surlykke A (2006). Active listening for spatial orientation in a complex auditory scene. PLoS Biology 4(4):e79. https://doi.org/10.1371/journal.pbio.0040079"
+        "Moss CF, Bohn K, Gilkenson H, Surlykke A (2006). Active listening for spatial orientation in a complex auditory scene. PLoS Biology 4(4):e79. https://doi.org/10.1371/journal.pbio.0040079",
+        "Ma N, Xia H, Zheng H, Luo J (2025). Prey evasiveness and masking noise jointly promote the ultrahigh call rate in echolocating bats. BMC Biology 23:323. https://doi.org/10.1186/s12915-025-02435-0"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/M06_2.png",
-        "caption": "Moss et al. (2006), Fig. 2. Interception outcomes at three plant–target separations and in an open room.",
-        "source_url": "https://doi.org/10.1371/journal.pbio.0040079"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/M06_2.png",
+          "caption": "Moss et al. (2006), Fig. 2. Interception outcomes at three plant–target separations and in an open room.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.0040079"
+        },
+        {
+          "kind": "article",
+          "path": "figures/ma25_fig1af.png",
+          "caption": "Ma et al. (2025), Fig. 1A–F. Hipposideros pratti foraging: call rate and terminal buzz for different prey states.",
+          "source_url": "https://doi.org/10.1186/s12915-025-02435-0"
+        }
+      ],
+      "primary_figure_height": 2.33
     },
     {
       "title": "Flight paths change target–clutter separation",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "Bats in the Moss experiment often flew alongside the vegetation and insect before turning toward the target. The approach was not simply a straight line through the plant’s strongest echo direction. Flight geometry altered the angular relationship between prey and background.",
         "As the target was placed closer to vegetation, the final direct approach became shorter and the late turn more abrupt. Three-dimensional trajectories and emitted pulse intervals were measured together. Strong changes in turning occurred mainly during the final 50–100 ms before contact.",
@@ -1070,21 +1256,31 @@
         "The authors interpreted these trajectories as reducing interference by ensonifying prey off axis from vegetation during part of the approach. The paths are measured behavior, whereas that masking-reduction function is an interpretation supported by geometry. It was not tested by recording the bat’s full internal spatial representation.",
         "Moving changes which objects lie in the emitted beam and the relative timing of their echoes. The animal can therefore alter the acoustic scene through its trajectory as well as through the structure of individual calls."
       ],
-      "cite": "Moss et al. (2006)",
+      "cite": "Moss et al. (2006); Simmons & Simmons (2026)",
       "refs": [
-        "Moss CF, Bohn K, Gilkenson H, Surlykke A (2006). Active listening for spatial orientation in a complex auditory scene. PLoS Biology 4(4):e79. https://doi.org/10.1371/journal.pbio.0040079"
+        "Moss CF, Bohn K, Gilkenson H, Surlykke A (2006). Active listening for spatial orientation in a complex auditory scene. PLoS Biology 4(4):e79. https://doi.org/10.1371/journal.pbio.0040079",
+        "Simmons JA, Simmons AM (2026). Beamforming as a mechanism for azimuthal localization of targets by FM-echolocating big brown bats. Journal of Comparative Physiology A 212(5):901–911. https://doi.org/10.1007/s00359-026-01834-0"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/M06_4.png",
-        "caption": "Moss et al. (2006), Fig. 4. Measured flight paths and pulse intervals for clutter and open-room trials.",
-        "source_url": "https://doi.org/10.1371/journal.pbio.0040079"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/M06_4.png",
+          "caption": "Moss et al. (2006), Fig. 4. Measured flight paths and pulse intervals for clutter and open-room trials.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.0040079"
+        },
+        {
+          "kind": "article",
+          "path": "figures/ss26_fig2a.png",
+          "caption": "Simmons & Simmons (2026), Fig. 2a. Acoustic-camera view of echoes from a corridor of hanging chains.",
+          "source_url": "https://doi.org/10.1007/s00359-026-01834-0"
+        }
+      ],
+      "primary_figure_height": 2.57
     },
     {
       "title": "Sonar strobe groups control repeated scene sampling",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "**Sonar strobe groups** are clusters of calls separated from neighboring calls or groups by longer intervals. Moss and colleagues identified groups with stable internal intervals when they contained three or more sounds. This temporal organization occurred during approach before the terminal capture phase.",
         "Within groups, pulse intervals shortened as the bat approached its target. Calls in the clutter conditions tended to be grouped at shorter intervals than calls in the open room. The group pattern added structure beyond an overall increase in call rate.",
@@ -1096,21 +1292,31 @@
         "The authors proposed that repeated sampling at stable intervals could sharpen the spatial representation of the scene. The study measured vocal timing and behavior, not the proposed improvement in a neuronal population code. Grouping is therefore an established motor pattern with a hypothesized perceptual function.",
         "A group is defined by its relationship to the neighboring intervals, rather than simply by a high average call rate. Stable timing within groups can coexist with changes in group spacing as the bat approaches the insect."
       ],
-      "cite": "Moss et al. (2006)",
+      "cite": "Moss et al. (2006); Cadigan et al. (2026)",
       "refs": [
-        "Moss CF, Bohn K, Gilkenson H, Surlykke A (2006). Active listening for spatial orientation in a complex auditory scene. PLoS Biology 4(4):e79. https://doi.org/10.1371/journal.pbio.0040079"
+        "Moss CF, Bohn K, Gilkenson H, Surlykke A (2006). Active listening for spatial orientation in a complex auditory scene. PLoS Biology 4(4):e79. https://doi.org/10.1371/journal.pbio.0040079",
+        "Cadigan SC, Smith NA, Jones TK, Wohlgemuth MJ (2026). Unpredictable prey motion shapes behavior across time scales. Journal of Experimental Biology 229(15):jeb250896. https://doi.org/10.1242/jeb.250896"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/M06_10AC.png",
-        "caption": "Moss et al. (2006), Fig. 10(A,C). Strobing occurrence and within-group pulse intervals during approach.",
-        "source_url": "https://doi.org/10.1371/journal.pbio.0040079"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/M06_10AC.png",
+          "caption": "Moss et al. (2006), Fig. 10(A,C). Strobing occurrence and within-group pulse intervals during approach.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.0040079"
+        },
+        {
+          "kind": "article",
+          "path": "figures/c26_fig3.png",
+          "caption": "Cadigan et al. (2026), Fig. 3. Call intervals and sonar sound groups for predictable and unpredictable target motion.",
+          "source_url": "https://doi.org/10.1242/jeb.250896"
+        }
+      ],
+      "primary_figure_height": 3.0
     },
     {
       "title": "The terminal buzz shortens near vegetation",
-      "layout": "figure-right",
+      "layout": "figures-right",
       "body": [
         "The **terminal buzz** is the rapid-call sequence immediately before prey interception. Moss and colleagues defined buzz-II calls by pulse intervals of 10 ms or less and compared its duration across plant–target separations and the open-room condition.",
         "Mean buzz-II duration declined from over 300 ms in the open room to about 200 ms at 40 cm from vegetation and about 100 ms at 10 cm. Prey capture was still sometimes successful with the shorter buzz, including at the closest tested separation.",
@@ -1122,17 +1328,27 @@
         "The authors proposed that extended clutter echoes reduce the usefulness of prolonged rapid calling. The observed adjustment connects vocal timing to scene structure, but it does not directly establish the neural masking mechanism. Successful interception can involve coordinated changes in call groups, final approach geometry, and buzz duration.",
         "A shorter terminal buzz is not simply proof that the bat has stopped sampling. The animal continues vocalizing and has already adjusted its approach and earlier call-group pattern, so several measured behaviors contribute to the final interception."
       ],
-      "cite": "Moss et al. (2006)",
+      "cite": "Moss et al. (2006); Ma et al. (2025)",
       "refs": [
-        "Moss CF, Bohn K, Gilkenson H, Surlykke A (2006). Active listening for spatial orientation in a complex auditory scene. PLoS Biology 4(4):e79. https://doi.org/10.1371/journal.pbio.0040079"
+        "Moss CF, Bohn K, Gilkenson H, Surlykke A (2006). Active listening for spatial orientation in a complex auditory scene. PLoS Biology 4(4):e79. https://doi.org/10.1371/journal.pbio.0040079",
+        "Ma N, Xia H, Zheng H, Luo J (2025). Prey evasiveness and masking noise jointly promote the ultrahigh call rate in echolocating bats. BMC Biology 23:323. https://doi.org/10.1186/s12915-025-02435-0"
       ],
       "figure_width": 5.2,
-      "figure": {
-        "kind": "article",
-        "path": "figures/M06_8.png",
-        "caption": "Moss et al. (2006), Fig. 8. Buzz-II duration varies with target–vegetation separation.",
-        "source_url": "https://doi.org/10.1371/journal.pbio.0040079"
-      }
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/M06_8.png",
+          "caption": "Moss et al. (2006), Fig. 8. Buzz-II duration varies with target–vegetation separation.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.0040079"
+        },
+        {
+          "kind": "article",
+          "path": "figures/ma25_fig2bc.png",
+          "caption": "Ma et al. (2025), Fig. 2B–C. Pulse intervals and spectrograms in silence and noise; buzz percentage by noise level.",
+          "source_url": "https://doi.org/10.1186/s12915-025-02435-0"
+        }
+      ],
+      "primary_figure_height": 3.0
     }
   ],
   "takeaways": {
