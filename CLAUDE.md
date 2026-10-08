@@ -7,4 +7,5 @@ This repo builds the course's lecture PowerPoints.
 - Lecture titles and dates live in `course/schedule.json`. Never change a title.
 - Color themes: `course/themes.json` — never reuse one, no yellow/orange, no purple/green.
 - Tools: `tools/build_lecture.py` (spec → .pptx, then checks), `tools/check_lecture.py` (rule checker for any deck), `tools/crop_figure.py` (cut figure panels from paper PDFs).
-- Python deps: `pip install -r requirements.txt` (python-pptx, Pillow) and poppler (`pdftoppm`).
+- Python deps: `pip install -r requirements.txt` (python-pptx, Pillow, matplotlib) and poppler (`pdftoppm`).
+- `AGENTS.md` holds the same rules for Codex; keep it in sync with the skill.
