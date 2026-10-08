@@ -1,13 +1,30 @@
-# Lecture 29 preparation
+# Lecture 29
 
-Authoritative connected repository default branch refreshed to e89c319 on this task’s start. New branch: codex/lecture29-primary-sources. No ZIP or stale checkout was used. Read current AGENTS.md, .claude/skills/neuroethology-lecture/SKILL.md, schedule, template, themes, and previous Lecture 28 research. All seven supplied example PPTXs were inspected: each has 46 slides, images on 45 slides, and notes on all 46; Arial is the stated run font throughout. Their content and notes were extracted to scratch for review.
+**Navigation II: honeybee waggle dance and sun-compass navigation (von Frisch)**  
+**Monday, November 2, 2026**
 
-Exact title: Navigation II: honeybee waggle dance and sun-compass navigation (von Frisch). Date: Monday, November 2, 2026.
+Authoritative connected default branch was refreshed at task start and merged again at `02dd657`, including completed Lecture 28. Work is on `codex/lecture29-primary-sources`. No ZIP or older checkout was used. Current AGENTS.md, lecture skill, schedule, template, themes and the preceding lecture were reviewed. All seven supplied example decks were inspected for slide content, images, notes and typography; their review is recorded in `example-review.json`.
 
-Academic web research searched Europe PMC across dance communication, optic-flow odometry, sun-compass timing, Johnston-organ vibration, polarized-light processing, and von Frisch’s work. Twelve primary article PDFs were downloaded and opened. Verified metadata, source figure captions, access attempts, and PDF hashes are preserved. Local ignored papers/ retains the PDFs; no paper PDF is committed.
+The completed deck has 46 slides: a title, 44 content slides and six exam-level key takeaways. All 44 content slides carry authentic primary-paper figure crops, with three explanatory paragraphs each (115–140 words), natural teaching transcripts and full references with linked DOIs. The repository checker detects color on 29 content slides, above the half-deck target. No generated, redrawn, recolored or re-plotted scientific visuals, stock decoration, or web photos were used. Specific anatomical structures are accompanied by published anatomy. All editable text and notes are Arial. The new palette is oyster gray / muted carmine.
 
-Five core PDFs remain inaccessible; see PAPERS.md and needed-papers.json. No incomplete deck has been built, no figure substituted, and no new theme marked used. Continue after these uploads by inspecting their original figures, extracting article panels with repository cropping tools, drafting 44 substantive content slides with complete teaching transcripts, building with tools/build_lecture.py, and checking every source crop and all 46 rendered slides. Choose an unused allowed theme and record it only after completion. Export fresh downloadable PPTX and preview links through Presenton.
+Academic web searches covered dance communication, visual odometry, sun-compass learning and timing, polarization, compass anatomy, antennal mechanoreception and social learning. Seventeen primary articles were verified and analyzed. Twelve PDFs were downloaded; five were uploaded by the instructor. `references.json` contains verified full citations; `PAPERS.md` lists them; `available-papers.json` records original PDF hashes. `needed-papers.json` is empty. Source metadata, access records and searches are in `sources/`. Rejected unverified or unrelated DOI candidates were excluded.
 
-The instructor’s strict original-image policy already persists in repository guidelines and the generic prompt. A Lecture 29 prompt is saved at prompts/make_lecture_29.md. The configured Python environment at /workspace/.neuroethology-venv supports python-pptx, Pillow and PyMuPDF; LibreOffice and pdftoppm are available. No onboarding configuration changes are needed.
+`figure-sources.json` records each source paper, figure/panel, DOI, PDF page and crop box. `crops.json` is the complete repository crop manifest; `make_crops.py` reproduces it. Scientific content remains unchanged, including axes, labels, units, scale bars and panel letters. The title uses the complete original panel containing the photographed animal.
 
-Bibliographic checks rejected an unverified von Frisch candidate DOI and an unrelated initial circadian-paper DOI. Only the corrected verified sources in references.json may be cited. The 2014 polarization paper is original experimental research, despite its critical-review wording. Honeybee anatomy/immunostaining studies identify candidate circuitry and anatomical proximity, not a complete causal implementation of dance decoding or circadian correction.
+## Rebuild
+
+```bash
+python lectures/L29/make_crops.py
+python lectures/L29/write_spec.py
+python tools/build_lecture.py lectures/L29/lecture.json
+python lectures/L29/finalize.py
+python tools/check_lecture.py lectures/L29/Neuroethology_Lecture29_FA2026.pptx --lecture 29
+```
+
+`finalize.py` preserves the exact schedule title in one editable run and applies Arial and DOI links to notes. `validate.py` additionally checks exact title/date, counts, paragraphs, references, editable fonts, original-crop byte hashes and all rendered PDF titles. PDF rendering and all 46 slides were visually reviewed; used crops were checked against their source pages. `validation.json` records results.
+
+The build initially misidentified the legitimate author surname Ai as an AI-image label. `tools/style_rules.py` now excludes only that exact capitalization from the abbreviation match; generated/redrawn/simulated image rejection remains active. Two focused tests verify both authentic-author acceptance and generated-image rejection.
+
+Fresh Presenton PPTX/PDF download links and a browser preview are generated from the final native slide geometry, editable text, unchanged source images and full teaching notes. URLs expire after 24 hours. The native repository PPTX remains available for later rebuilding/export. The strict figure policy already persists in the current guidelines and `prompts/make_lecture_29.md`.
+
+The configured Python environment, LibreOffice and Poppler support the full build and rendering workflow. No onboarding configuration changes were required.

@@ -1,8 +1,6 @@
-# Lecture 29 — original PDFs needed
+# Lecture 29 primary sources
 
-Exact title: **Navigation II: honeybee waggle dance and sun-compass navigation (von Frisch)**. Date: **Monday, November 2, 2026**.
-
-Twelve original primary PDFs were downloaded and inspected. These five core papers remain unavailable as original PDFs after publisher and applicable author/repository checks. Crossref metadata is preserved in sources/. Under the instructor’s strict-figure rule and AGENTS.md rule 6, pause before building or delivering a deck until these PDFs are supplied.
+All 17 article PDFs are available and analyzed. The five previously inaccessible core articles were supplied by the instructor; no missing papers remain. Original PDFs are retained in ignored `papers/`, and exact hashes and provenance are in `available-papers.json`. Figures were cropped from these PDFs with the repository tools.
 
 1. von Frisch K, Lindauer M (1954). Himmel und Erde in Konkurrenz bei der Orientierung der Bienen. Die Naturwissenschaften 41(11): 245-253. https://doi.org/10.1007/bf00634944
 
@@ -14,4 +12,26 @@ Twelve original primary PDFs were downloaded and inspected. These five core pape
 
 5. Dong S, Lin T, Nieh JC, Tan K (2023). Social signal learning of the waggle dance in honey bees. Science 379(6636): 1015-1018. https://doi.org/10.1126/science.ade1702
 
-Publisher Nature/Springer PDF URLs returned HTML rather than PDFs; Science returned HTTP 403. The 2023 paper’s listed eScholarship copy and public author-share link also failed. Access records are in sources/. No substitute scientific visual has been generated.
+6. Cheeseman JF, Winnebeck EC, Millar CD, Kirkland LS, Sleigh J, Goodwin M, Pawley MDM, Bloch G, Lehmann K, Menzel R, Warman GR (2012). General anesthesia alters time perception by phase shifting the circadian clock. Proceedings of the National Academy of Sciences 109(18): 7061-7066. https://doi.org/10.1073/pnas.1201734109
+
+7. Wang Z, Chen X, Becker F, Greggers U, Walter S, Werner M, Gallistel CR, Menzel R (2023). Honey bees infer source location from the dances of returning foragers. Proceedings of the National Academy of Sciences 120(12): e2213068120. https://doi.org/10.1073/pnas.2213068120
+
+8. Greggers U, Koch G, Schmidt V, Dürr A, Floriou-Servou A, Piepenbrock D, Göpfert MC, Menzel R (2013). Reception and learning of electric fields in bees. Proceedings of the Royal Society B: Biological Sciences 280(1759): 20130528. https://doi.org/10.1098/rspb.2013.0528
+
+9. Kumaraswamy A, Ai H, Kai K, Ikeno H, Wachtler T (2019). Adaptations during Maturation in an Identified Honeybee Interneuron Responsive to Waggle Dance Vibration Signals. eNeuro 6(5): ENEURO.0454-18.2019. https://doi.org/10.1523/eneuro.0454-18.2019
+
+10. Held M, Berz A, Hensgen R, Muenz TS, Scholl C, Rössler W, Homberg U, Pfeiffer K (2016). Microglomerular Synaptic Complexes in the Sky-Compass Network of the Honeybee Connect Parallel Pathways from the Anterior Optic Tubercle to the Central Complex. Frontiers in Behavioral Neuroscience 10: 186. https://doi.org/10.3389/fnbeh.2016.00186
+
+11. Sakura M, Okada R, Aonuma H (2012). Evidence for instantaneous e-vector detection in the honeybee using an associative learning paradigm. Proceedings of the Royal Society B: Biological Sciences 279(1728): 535-542. https://doi.org/10.1098/rspb.2011.0929
+
+12. Evangelista C, Kraft P, Dacke M, Labhart T, Srinivasan MV (2014). Honeybee navigation: critically examining the role of the polarization compass. Philosophical Transactions of the Royal Society B: Biological Sciences 369(1636): 20130037. https://doi.org/10.1098/rstb.2013.0037
+
+13. Kraft P, Evangelista C, Dacke M, Labhart T, Srinivasan MV (2011). Honeybee navigation: following routes using polarized-light cues. Philosophical Transactions of the Royal Society B: Biological Sciences 366(1565): 703-708. https://doi.org/10.1098/rstb.2010.0203
+
+14. Dyer FC, Dickinson JA (1994). Development of sun compensation by honeybees: how partially experienced bees estimate the sun's course. Proceedings of the National Academy of Sciences 91(10): 4471-4474. https://doi.org/10.1073/pnas.91.10.4471
+
+15. Tautz J, Zhang S, Spaethe J, Brockmann A, Si A, Srinivasan M (2004). Honeybee Odometry: Performance in Varying Natural Terrain. PLoS Biology 2(7): e211. https://doi.org/10.1371/journal.pbio.0020211
+
+16. Zeller M, Held M, Bender J, Berz A, Heinloth T, Hellfritz T, Pfeiffer K (2015). Transmedulla Neurons in the Sky Compass Network of the Honeybee (Apis mellifera) Are a Possible Site of Circadian Input. PLOS ONE 10(12): e0143244. https://doi.org/10.1371/journal.pone.0143244
+
+17. Ai H, Kai K, Kumaraswamy A, Ikeno H, Wachtler T (2017). Interneurons in the Honeybee Primary Auditory Center Responding to Waggle Dance-Like Vibration Pulses. The Journal of Neuroscience 37(44): 10624-10635. https://doi.org/10.1523/jneurosci.0044-17.2017
