@@ -44,6 +44,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from style_rules import (ARTICLE_CAPTION, MADE_IMAGE_WORDS, MAX_WEB_IMAGES, MIN_ARTICLE_FIGURE_SLIDES,  # noqa: E402
                          MIN_IMAGE_SLIDES, WEB_CAPTION,
                          framing_problems, stats_problems)
+from theme_colors import aligned_palette  # noqa: E402
 
 
 def check_image(fig, where):
@@ -250,7 +251,8 @@ class Deck:
         used_labels = {str(v) for k, v in themes["used"].items() if k != str(n)}
         if themes["palettes"][key]["label"] in used_labels and not spec.get("allow_reused_theme"):
             raise SpecError(f"theme '{key}' was already used by another lecture; pick a new one")
-        self.t = themes["palettes"][key]
+        # titles/bold = darker shade of the title-slide color; all other text black
+        self.t = aligned_palette(themes["palettes"][key])
         self.prs = Presentation()
         self.prs.slide_width, self.prs.slide_height = Inches(W), Inches(H)
         self.blank = self.prs.slide_layouts[6]
