@@ -1,11 +1,15 @@
 {
-  "_how_to": "Copy this folder to lectures/L<N>/, fill 44 slides, then run: python tools/build_lecture.py lectures/L<N>/lecture.json. Title and date come from course/schedule.json automatically. Layouts: text | figure-right | figure-left | figure-below | two-figures | table. Inline **bold** for key terms and _italic_ for species names. Every figure must be a panel cropped from a published article: caption \"Author (year), Fig. N…\" plus \"source_url\" (DOI). Never create figures. Replace figures/example_panel.png before building.",
+  "_how_to": "Copy this folder to lectures/L<N>/, fill 44 slides, then run: python tools/build_lecture.py lectures/L<N>/lecture.json. Title and date come from course/schedule.json automatically. Layouts: text | figure-right | figure-left | figure-below | two-figures | table. Every slide needs body (slide paragraphs) and transcript (speaker-note teaching transcript: strings, or [text, [sub-bullets]]). Images are never created: article figures (kind 'article', caption 'Author (year), Fig. N…', source_url DOI) get priority; web photos (kind 'web', caption 'Photo: …', credit, license, source_url) only where needed, max 4. Replace figures/example_panel.png before building. No framing phrases, no statistics clutter (see tools/style_rules.py).",
   "lecture": 11,
   "theme": "deep-sea",
   "content_slides": 44,
   "title_image": {
+    "kind": "web",
     "path": "figures/example_panel.png",
-    "caption": "Author (year), Fig. N. What the panel shows."
+    "caption": "Photo: the study animal (replace with a real credited photograph).",
+    "credit": "Photographer name",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:..."
   },
   "slides": [
     {
@@ -19,6 +23,16 @@
       "cite": "Götz (1964)",
       "refs": [
         "Götz KG (1964). Optomotorische Untersuchung des visuellen Systems einiger Augenmutanten der Fruchtfliege Drosophila. Kybernetik 2: 77–92. https://doi.org/10.1007/BF00288561"
+      ],
+      "transcript": [
+        [
+          "A tethered fly flying inside a striped drum turns its body in the same direction that the drum rotates.",
+          [
+            "The turn is measured as torque, the twisting force the fly produces, or as the difference in wingbeat amplitude between the left and right wings.",
+            "Because the fly cannot actually rotate, the experimenter controls exactly what the eyes see while the motor output is recorded continuously."
+          ]
+        ],
+        "The response stabilizes the fly's course: when the world appears to rotate, the fly turns with it, which in free flight cancels the unintended rotation."
       ]
     },
     {
@@ -32,11 +46,22 @@
       "figure": {
         "path": "figures/example_panel.png",
         "caption": "Author (year), Fig. N. Describe what is plotted, the axes, and the units.",
-        "source_url": "https://doi.org/..."
+        "source_url": "https://doi.org/...",
+        "kind": "article"
       },
       "cite": "Hassenstein & Reichardt (1956)",
       "refs": [
         "Hassenstein B, Reichardt W (1956). Systemtheoretische Analyse der Zeit-, Reihenfolgen- und Vorzeichenauswertung bei der Bewegungsperzeption des Rüsselkäfers Chlorophanus. Zeitschrift für Naturforschung B 11: 513–524. https://doi.org/10.1515/znb-1956-9-1004"
+      ],
+      "transcript": [
+        [
+          "A tethered fly flying inside a striped drum turns its body in the same direction that the drum rotates.",
+          [
+            "The turn is measured as torque, the twisting force the fly produces, or as the difference in wingbeat amplitude between the left and right wings.",
+            "Because the fly cannot actually rotate, the experimenter controls exactly what the eyes see while the motor output is recorded continuously."
+          ]
+        ],
+        "The response stabilizes the fly's course: when the world appears to rotate, the fly turns with it, which in free flight cancels the unintended rotation."
       ]
     },
     {
@@ -46,12 +71,30 @@
         "Maisak and colleagues imaged calcium in **T4** and **T5** cells while presenting moving ON edges (bright) and OFF edges (dark). T4 responded to ON edges and T5 to OFF edges, and each cell type contained four subtypes tuned to the four cardinal directions."
       ],
       "figures": [
-        {"path": "figures/example_panel.png", "caption": "Maisak et al. (2013), Fig. Xa. Panel description."},
-        {"path": "figures/example_panel.png", "caption": "Maisak et al. (2013), Fig. Xb. Panel description."}
+        {
+          "path": "figures/example_panel.png",
+          "caption": "Maisak et al. (2013), Fig. Xa. Panel description.",
+          "kind": "article"
+        },
+        {
+          "path": "figures/example_panel.png",
+          "caption": "Maisak et al. (2013), Fig. Xb. Panel description.",
+          "kind": "article"
+        }
       ],
       "cite": "Maisak et al. (2013)",
       "refs": [
         "Maisak MS, Haag J, Ammer G, Serbe E, Meier M, Leonhardt A, Schilling T, Bahl A, Rubin GM, Nern A, Dickson BJ, Reiff DF, Hopp E, Borst A (2013). A directional tuning map of Drosophila elementary motion detectors. Nature 500: 212–216. https://doi.org/10.1038/nature12320"
+      ],
+      "transcript": [
+        [
+          "A tethered fly flying inside a striped drum turns its body in the same direction that the drum rotates.",
+          [
+            "The turn is measured as torque, the twisting force the fly produces, or as the difference in wingbeat amplitude between the left and right wings.",
+            "Because the fly cannot actually rotate, the experimenter controls exactly what the eyes see while the motor output is recorded continuously."
+          ]
+        ],
+        "The response stabilizes the fly's course: when the world appears to rotate, the fly turns with it, which in free flight cancels the unintended rotation."
       ]
     },
     {
@@ -62,16 +105,42 @@
         "Silencing experiments close that gap by asking whether removing a cell type removes the behavior."
       ],
       "table": {
-        "header": ["Approach", "What it measures", "What it can establish"],
+        "header": [
+          "Approach",
+          "What it measures",
+          "What it can establish"
+        ],
         "rows": [
-          ["Tethered flight", "Turning torque to controlled motion", "The behavioral input–output relation"],
-          ["Correlation model", "Predicted responses to stimuli", "A sufficient computation"],
-          ["Calcium imaging", "Direction tuning of identified cells", "Where selectivity first appears"]
+          [
+            "Tethered flight",
+            "Turning torque to controlled motion",
+            "The behavioral input–output relation"
+          ],
+          [
+            "Correlation model",
+            "Predicted responses to stimuli",
+            "A sufficient computation"
+          ],
+          [
+            "Calcium imaging",
+            "Direction tuning of identified cells",
+            "Where selectivity first appears"
+          ]
         ]
       },
       "cite": "Borst et al. (2020)",
       "refs": [
         "Borst A, Haag J, Mauss AS (2020). How fly neurons compute the direction of visual motion. Journal of Comparative Physiology A 206: 109–124. https://doi.org/10.1007/s00359-019-01375-9"
+      ],
+      "transcript": [
+        [
+          "A tethered fly flying inside a striped drum turns its body in the same direction that the drum rotates.",
+          [
+            "The turn is measured as torque, the twisting force the fly produces, or as the difference in wingbeat amplitude between the left and right wings.",
+            "Because the fly cannot actually rotate, the experimenter controls exactly what the eyes see while the motor output is recorded continuously."
+          ]
+        ],
+        "The response stabilizes the fly's course: when the world appears to rotate, the fly turns with it, which in free flight cancels the unintended rotation."
       ]
     },
     {
@@ -81,21 +150,57 @@
       "body": [
         "Use this layout for a wide multi-panel figure such as a time course or a set of recordings. Explain the method, the control, and the measured result in the text above; the caption names the exact panel."
       ],
-      "figure": {"path": "figures/example_panel.png", "caption": "Author (year), Fig. N. Panel description."},
+      "figure": {
+        "path": "figures/example_panel.png",
+        "caption": "Author (year), Fig. N. Panel description.",
+        "kind": "article"
+      },
       "cite": "Author (year)",
-      "refs": ["Full reference with DOI."]
+      "refs": [
+        "Full reference with DOI."
+      ],
+      "transcript": [
+        [
+          "A tethered fly flying inside a striped drum turns its body in the same direction that the drum rotates.",
+          [
+            "The turn is measured as torque, the twisting force the fly produces, or as the difference in wingbeat amplitude between the left and right wings.",
+            "Because the fly cannot actually rotate, the experimenter controls exactly what the eyes see while the motor output is recorded continuously."
+          ]
+        ],
+        "The response stabilizes the fly's course: when the world appears to rotate, the fly turns with it, which in free flight cancels the unintended rotation."
+      ]
     }
   ],
   "takeaways": {
     "cite": "Hassenstein & Reichardt (1956); Maisak et al. (2013); Borst et al. (2020)",
-    "refs": ["Full references for every study named in the takeaways."],
+    "refs": [
+      "Full references for every study named in the takeaways."
+    ],
     "items": [
-      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
-      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
-      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
-      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
-      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
-      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."}
+      {
+        "lead": "Lead phrase in bold.",
+        "text": "One or two sentences a student needs for the exam."
+      },
+      {
+        "lead": "Lead phrase in bold.",
+        "text": "One or two sentences a student needs for the exam."
+      },
+      {
+        "lead": "Lead phrase in bold.",
+        "text": "One or two sentences a student needs for the exam."
+      },
+      {
+        "lead": "Lead phrase in bold.",
+        "text": "One or two sentences a student needs for the exam."
+      },
+      {
+        "lead": "Lead phrase in bold.",
+        "text": "One or two sentences a student needs for the exam."
+      },
+      {
+        "lead": "Lead phrase in bold.",
+        "text": "One or two sentences a student needs for the exam."
+      }
     ]
   }
 }

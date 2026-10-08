@@ -16,24 +16,25 @@ from pptx import Presentation
 
 ROOT = Path(__file__).resolve().parent.parent
 
-BANNED = [
-    (r"\bup next\b|\bnext (time|lecture|class)\b|\bcoming up\b|\bpreview of\b", "no 'up next' / next-lecture slides or lines"),
-    (r"\bpart \d+ of \d+\b|\(\d+\s*/\s*\d+\)|\bpart [ivx]+\b", "no 'Part 1 of 4' style splitting"),
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from style_rules import MADE_IMAGE_WORDS, framing_problems, stats_problems  # noqa: E402
+
+STRUCTURE = [
     (r"^\s*(lecture )?(outline|agenda|overview|roadmap)\s*$", "no outline/agenda slide"),
     (r"\blearning (objectives|goals|outcomes)\b|^\s*objectives\s*$", "no objectives slide"),
-    (r"\bin this lecture\b|\btoday we will\b|\bwe will (now )?(discuss|cover|explore)\b|\blet'?s (look|turn|explore)\b",
-     "no lecture metacommentary"),
     (r"\b(continued|cont\.)\s*$", "no 'continued' slide splits"),
-    (r"lorem|ipsum|\bTODO\b|\bTBD\b|\[insert", "placeholder text left in"),
 ]
-MADE_FIGURE = re.compile(r"schematic|re-?plotted|drawn from|diagram drawn|illustrat|template curves|summary diagram|not original|simulated", re.I)
+MIN_TRANSCRIPT_WORDS = 60  # speaker-note teaching transcript per content slide
 MIN_WORDS = 70         # per content slide, text only
 MIN_FIGURE_SLIDES = 18 # content slides carrying an article figure
 
 
-def slide_text(slide):
+def slide_text(slide, teaching_only=False):
+    """All slide text; teaching_only skips figure captions and the citation footer."""
     out = []
     for sh in slide.shapes:
+        if teaching_only and sh.name in ("Figure caption", "Citation", "Slide number"):
+            continue
         if sh.has_text_frame:
             out.append(sh.text_frame.text)
         if sh.has_table:
@@ -48,6 +49,8 @@ def main():
     ap.add_argument("deck")
     ap.add_argument("--lecture", type=int, required=True)
     ap.add_argument("--content-slides", type=int, default=44)
+    ap.add_argument("--no-transcript", action="store_true",
+                    help="skip the speaker-note transcript requirement (decks made before the rule)")
     a = ap.parse_args()
 
     sched = json.loads((ROOT / "course/schedule.json").read_text())
@@ -73,33 +76,42 @@ def main():
     fig_slides = 0
     for i, s in enumerate(slides, 1):
         txt = slide_text(s)
+        teach = slide_text(s, teaching_only=True)
+        notes = s.notes_slide.notes_text_frame.text if s.has_notes_slide else ""
+        transcript = notes.split("References:")[0] if "References:" in notes else ""
         for line in txt.splitlines():
-            for pat, why in BANNED:
+            for pat, why in STRUCTURE:
                 if re.search(pat, line, re.I):
                     errs.append(f"slide {i}: {why}: {line.strip()[:80]!r}")
-        if i in (1, len(slides)):
+        for where, text in (("slide", teach), ("notes", transcript)):
+            for why, hit in framing_problems(text):
+                errs.append(f"slide {i} {where}: {why}: {hit!r}")
+            for hit in stats_problems(text):
+                errs.append(f"slide {i} {where}: statistics clutter {hit!r}; teach the finding, not test statistics")
+        if i == 1:
             continue
-        words = len(txt.split())
+        for line in notes.splitlines():
+            if line.startswith(("Figure:", "Image:")) and MADE_IMAGE_WORDS.search(line):
+                errs.append(f"slide {i}: image is self-made ({line[:70]!r}); only article figures or credited photos")
+        if i == len(slides):
+            continue
+        words = len(teach.split())
         if words < MIN_WORDS:
             errs.append(f"slide {i}: only {words} words; content slides need >= {MIN_WORDS}")
+        if not a.no_transcript and len(transcript.split()) < MIN_TRANSCRIPT_WORDS:
+            errs.append(f"slide {i}: speaker notes need a teaching transcript (>= {MIN_TRANSCRIPT_WORDS} words) before 'References:'")
         pics = [sh for sh in s.shapes if sh.shape_type == 13 and sh.height > 914400 * 0.6]
-        if pics:
+        has_article = "Figure:" in notes
+        has_credit_lines = has_article or "Image:" in notes
+        if pics and (has_article or not has_credit_lines):
             fig_slides += 1
-        notes = s.notes_slide.notes_text_frame.text if s.has_notes_slide else ""
         if not re.search(r"\((19|20)\d{2}[a-z]?\)|\b(19|20)\d{2}[a-z]?\b", notes):
             errs.append(f"slide {i}: speaker notes need the full reference(s) with year")
-        for line in notes.splitlines():
-            if line.startswith("Figure:") and MADE_FIGURE.search(line):
-                errs.append(f"slide {i}: figure is not from a published article ({line[8:70]!r}); "
-                            "only article figures are allowed")
         if "doi" not in notes.lower() and "http" not in notes.lower():
             warns.append(f"slide {i}: no DOI/URL in notes")
-        if not re.search(r"(19|20)\d{2}", txt.splitlines()[-2] if len(txt.splitlines()) > 1 else ""):
-            if not re.search(r"\((19|20)\d{2}[a-z]?\)", txt):
-                warns.append(f"slide {i}: no short citation visible on slide")
 
     if fig_slides < MIN_FIGURE_SLIDES:
-        errs.append(f"only {fig_slides} content slides have research figures; need >= {MIN_FIGURE_SLIDES}")
+        errs.append(f"only {fig_slides} content slides have article figures; need >= {MIN_FIGURE_SLIDES}")
 
     for w in warns:
         print("WARN ", w)

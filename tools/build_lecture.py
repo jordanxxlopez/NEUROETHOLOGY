@@ -40,26 +40,58 @@ class SpecError(Exception):
     pass
 
 
-# Figures must be reproduced from published articles only: never schematics, re-plots,
-# generated charts or diagrams. A caption must name the source figure, and the spec must
-# give the article's DOI/URL so the panel can be traced.
-SOURCE_CAPTION = re.compile(
-    r"^[^()]{2,120}?\((?:19|20)\d{2}[a-z]?\),\s*(?:Fig\.|Figs\.?|Figure|Text-figs?\.?|Plate|Table|Extended Data Fig\.|Supplementary Fig\.)",
-    re.I)
-MADE_FIGURE_WORDS = re.compile(
-    r"schematic|re-?plotted|redrawn by|drawn from|diagram drawn|illustrat|our own|created for|generated|"
-    r"summary table|summary diagram|not original|template curves|simulated|mock-?up", re.I)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from style_rules import (ARTICLE_CAPTION, MADE_IMAGE_WORDS, MAX_WEB_IMAGES, WEB_CAPTION,  # noqa: E402
+                         framing_problems, stats_problems)
 
 
-def check_article_figure(fig, where):
+def check_image(fig, where):
+    """Images are never created. kind 'article' (default): a panel cropped from a published article,
+    captioned 'Author (year), Fig. N…'. kind 'web': a real photograph from a credited web source
+    (e.g. the animal on the title slide), captioned 'Photo: …' with a license. Both need source_url."""
     cap = fig.get("caption", "")
-    if not SOURCE_CAPTION.search(cap):
-        raise SpecError(f"{where}: figure caption must start 'Author (year), Fig. N…' naming the article figure: {cap[:70]!r}")
-    if MADE_FIGURE_WORDS.search(cap):
-        raise SpecError(f"{where}: figure looks self-made ({MADE_FIGURE_WORDS.search(cap).group(0)!r}). "
-                        "Only figures reproduced from published articles are allowed; use a text or table slide instead.")
+    kind = fig.get("kind", "article")
+    if MADE_IMAGE_WORDS.search(cap):
+        raise SpecError(f"{where}: image looks self-made ({MADE_IMAGE_WORDS.search(cap).group(0)!r}). Never create figures, "
+                        "schematics, charts or illustrations; use an article figure, a credited web photo, or a text slide.")
     if not fig.get("source_url"):
-        raise SpecError(f"{where}: figure needs 'source_url' (DOI or article URL) of the paper it was cropped from")
+        raise SpecError(f"{where}: image needs 'source_url' (article DOI, or the web page the photo came from)")
+    if kind == "article":
+        if not ARTICLE_CAPTION.search(cap):
+            raise SpecError(f"{where}: article figure caption must start 'Author (year), Fig. N…': {cap[:70]!r}")
+    elif kind == "web":
+        if not WEB_CAPTION.search(cap):
+            raise SpecError(f"{where}: web image caption must start 'Photo: …' (or Image:/Specimen:/Micrograph:): {cap[:70]!r}")
+        if not fig.get("credit") or not fig.get("license"):
+            raise SpecError(f"{where}: web image needs 'credit' (photographer/owner) and 'license' (e.g. CC BY-SA 4.0)")
+    else:
+        raise SpecError(f"{where}: image kind must be 'article' or 'web', not {kind!r}")
+
+
+def check_writing(texts, where):
+    for t in texts:
+        for why, hit in framing_problems(t):
+            raise SpecError(f"{where}: {why}: {hit!r} in {t[:60]!r}")
+        for hit in stats_problems(t):
+            raise SpecError(f"{where}: statistics clutter ({hit!r}). Teach the finding; keep numbers only when they "
+                            "carry the concept (latencies in ms, frequencies, rates), not test statistics or error terms.")
+
+
+def flatten_transcript(items, depth=0):
+    """transcript = list of strings or [text, [sub-bullets]] pairs → (lines, plain texts)."""
+    lines, texts = [], []
+    for it in items:
+        if isinstance(it, (list, tuple)):
+            head, subs = it[0], it[1]
+            lines.append("  " * depth + "• " + head)
+            texts.append(head)
+            sl, st = flatten_transcript(subs, depth + 1)
+            lines += sl
+            texts += st
+        else:
+            lines.append("  " * depth + ("• " if depth == 0 else "– ") + it)
+            texts.append(it)
+    return lines, texts
 
 
 # ---------------------------------------------------------------- helpers
@@ -199,6 +231,7 @@ class Deck:
         self.prs.slide_width, self.prs.slide_height = Inches(W), Inches(H)
         self.blank = self.prs.slide_layouts[6]
         self.num = 0
+        self.web_images = 0
 
     def path(self, p):
         q = (self.dir / p).resolve()
@@ -230,14 +263,18 @@ class Deck:
 
     def notes(self, s, sd):
         parts = []
-        parts += sd.get("refs", [])
+        if sd.get("transcript"):
+            lines, _ = flatten_transcript(sd["transcript"])
+            parts.append("\n".join(lines))
+        refs = sd.get("refs", [])
+        if refs:
+            parts.append("References:\n" + "\n".join(refs))
         figs = [sd["figure"]] if "figure" in sd else sd.get("figures", [])
         for f in figs:
-            parts.append("Figure: " + f["caption"])
-            if f.get("source_url"):
-                parts.append("Figure source: " + f["source_url"])
-        if sd.get("notes"):
-            parts.append(sd["notes"])
+            if f.get("kind", "article") == "web":
+                parts.append(f"Image: {f['caption']} Credit: {f['credit']}. License: {f['license']}. Source: {f['source_url']}")
+            else:
+                parts.append("Figure: " + f["caption"] + "\nFigure source: " + f["source_url"])
         s.notes_slide.notes_text_frame.text = "\n\n".join(parts)
 
     def caption(self, s, x, y, w, text):
@@ -257,7 +294,9 @@ class Deck:
         t = self.t
         img = self.spec.get("title_image")
         if img:
-            check_article_figure(img, "title slide")
+            check_image(img, "title slide")
+            if img.get("kind", "article") == "web":
+                self.web_images += 1
         panel_w = W / 2 if img else W
         rect(s, 0, 0, panel_w, H, t["title_bg"])
         x, w = 0.75, panel_w - 1.5
@@ -283,7 +322,9 @@ class Deck:
             self.caption(s, W / 2 + 0.5, 6.5, W / 2 - 1.0, img["caption"])
         s.notes_slide.notes_text_frame.text = (
             f"{title}\nLecture {self.meta['n']}. {self.course['course']}. {self.meta['date']}."
-            + (f"\n\nFigure: {img['caption']}" if img else "")
+            + (f"\n\nImage: {img['caption']} Credit: {img.get('credit', '')}. License: {img.get('license', '')}. "
+               f"Source: {img['source_url']}" if img and img.get("kind") == "web" else
+               f"\n\nFigure: {img['caption']}\nFigure source: {img['source_url']}" if img else "")
         )
 
     def content_slide(self, sd):
@@ -292,8 +333,14 @@ class Deck:
         for k in ("title", "body", "cite", "refs"):
             if not sd.get(k):
                 raise SpecError(f"{where}: missing '{k}'")
+        if not sd.get("transcript"):
+            raise SpecError(f"{where}: missing 'transcript' (speaker notes written as a natural teaching transcript)")
+        _, ttexts = flatten_transcript(sd["transcript"])
+        check_writing(sd["body"] + ttexts + [sd["title"]], where)
         for f in ([sd["figure"]] if "figure" in sd else sd.get("figures", [])):
-            check_article_figure(f, where)
+            check_image(f, where)
+            if f.get("kind", "article") == "web":
+                self.web_images += 1
         self.title(s, sd["title"])
         lay = sd.get("layout", "text")
         avail = BODY_BOTTOM - BODY_Y
@@ -380,7 +427,12 @@ class Deck:
         self.title_slide()
         for sd in self.spec["slides"]:
             self.content_slide(sd)
-        self.takeaways_slide(self.spec["takeaways"])
+        tk = self.spec["takeaways"]
+        check_writing([f"{i['lead']} {i['text']}" for i in tk["items"]], "key takeaways")
+        self.takeaways_slide(tk)
+        if self.web_images > MAX_WEB_IMAGES:
+            raise SpecError(f"{self.web_images} web photos; at most {MAX_WEB_IMAGES}. Decorative/general images only where needed — "
+                            "give priority to primary-article figures.")
         self.prs.core_properties.title = self.meta["title"]
         self.prs.core_properties.author = self.course["instructor"]
         self.prs.save(out)

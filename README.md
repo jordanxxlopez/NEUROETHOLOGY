@@ -18,6 +18,13 @@ python tools/check_lecture.py lectures/L13/Neuroethology_Lecture13_FA2026.pptx -
 
 Also install poppler (`pdftoppm`) and LibreOffice (`soffice`) for figure cropping and slide previews.
 
+## Rules in short
+
+- Images are never created: figures come from published articles (priority); a few credited web photos only where needed.
+- Every sentence teaches source content: no roadmap, transition, figure-reading or takeaway framing; concepts over statistics.
+- Speaker notes are a teaching transcript you can read aloud.
+- Full rules: `AGENTS.md` (Codex) / `.claude/skills/neuroethology-lecture/SKILL.md` (Claude). Enforced by `tools/style_rules.py`.
+
 ## Prompt
 
-`prompts/make_lecture.md` has a copy-paste request for Claude Code or Codex. Figures must come only from published articles; the builder rejects anything else.
+`prompts/make_lecture.md` has the copy-paste request for Claude Code or Codex.
