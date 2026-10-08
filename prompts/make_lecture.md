@@ -82,6 +82,11 @@ IMAGES — ON NEARLY EVERY SLIDE
   figure of the animal from a primary paper or a credited web photo.
 - When a slide discusses a specific brain region, neuron, sense organ or other structure,
   include an anatomy image of it (an article figure first, otherwise a credited web image).
+- Prefer color figures: grayscale-only decks tire students. Among a paper's panels, or
+  between papers showing the same finding, pick colorful ones (fluorescence and stained
+  micrographs, color-coded maps, heat maps, color traces and plots, color photos of the
+  animal); aim for color on at least half of the image slides. The color must come from the
+  source: never recolor, tint or edit a figure, and never make one. Backgrounds stay as they are.
 - Credited web images (Wikimedia Commons, museum, lab or atlas pages; caption "Photo: …"
   with credit, license and source_url) are fine where they help, including
   neuroscience-related ones; at most 10 per deck; never generic decoration.

@@ -17,8 +17,8 @@ from pptx import Presentation
 ROOT = Path(__file__).resolve().parent.parent
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from style_rules import (MADE_IMAGE_WORDS, MIN_ARTICLE_FIGURE_SLIDES, MIN_IMAGE_SLIDES,  # noqa: E402
-                         framing_problems, stats_problems)
+from style_rules import (MADE_IMAGE_WORDS, MIN_ARTICLE_FIGURE_SLIDES, MIN_COLOR_SHARE, MIN_IMAGE_SLIDES,  # noqa: E402
+                         framing_problems, is_color_image, stats_problems)
 
 STRUCTURE = [
     (r"^\s*(lecture )?(outline|agenda|overview|roadmap)\s*$", "no outline/agenda slide"),
@@ -75,6 +75,7 @@ def main():
 
     fig_slides = 0
     img_slides = 0
+    color_slides = 0
     for i, s in enumerate(slides, 1):
         txt = slide_text(s)
         teach = slide_text(s, teaching_only=True)
@@ -106,6 +107,8 @@ def main():
         has_credit_lines = has_article or "Image:" in notes
         if pics:
             img_slides += 1
+            if any(is_color_image(sh.image.blob) for sh in pics):
+                color_slides += 1
         if pics and (has_article or not has_credit_lines):
             fig_slides += 1
         if not re.search(r"\((19|20)\d{2}[a-z]?\)|\b(19|20)\d{2}[a-z]?\b", notes):
@@ -120,11 +123,15 @@ def main():
     if fig_slides < need_art:
         errs.append(f"only {fig_slides} content slides have article figures; need >= {need_art}")
 
+    if img_slides and color_slides < MIN_COLOR_SHARE * img_slides:
+        warns.append(f"only {color_slides} of {img_slides} image slides have color figures; prefer colorful article figures "
+                     "(micrographs, color maps, heat maps, color plots) — color only as published, never recolored")
+
     for w in warns:
         print("WARN ", w)
     for e in errs:
         print("FAIL ", e)
-    print(f"{len(slides)} slides, {img_slides} image slides ({fig_slides} article-figure slides), {len(errs)} failures, {len(warns)} warnings")
+    print(f"{len(slides)} slides, {img_slides} image slides ({fig_slides} article-figure, {color_slides} in color), {len(errs)} failures, {len(warns)} warnings")
     sys.exit(1 if errs else 0)
 
 

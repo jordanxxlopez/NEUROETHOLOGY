@@ -69,4 +69,16 @@ MADE_IMAGE_WORDS = re.compile(
 # Nearly every content slide carries an image; primary-article figures dominate.
 MIN_IMAGE_SLIDES = 40           # of 44 content slides: article figure or credited photo
 MIN_ARTICLE_FIGURE_SLIDES = 34  # content slides with at least one article figure
+MIN_COLOR_SHARE = 0.5           # prefer colorful article figures: >= half of image slides in color (warning)
 MAX_WEB_IMAGES = 10              # credited web photos (animal, habitat, specimen), only where needed
+
+
+def is_color_image(blob):
+    """True if a picture has real color (not grayscale): >= 3% clearly saturated pixels."""
+    import io
+    from PIL import Image
+    im = Image.open(io.BytesIO(blob)).convert("RGB")
+    im.thumbnail((200, 200))
+    px = im.convert("HSV").tobytes()
+    sat = sum(1 for i in range(0, len(px), 3) if px[i + 1] > 60 and px[i + 2] > 50)
+    return sat / (len(px) / 3) > 0.03
