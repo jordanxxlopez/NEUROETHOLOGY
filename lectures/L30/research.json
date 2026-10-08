@@ -1,7 +1,7 @@
 {
   "lecture": 30,
-  "status": "blocked_pending_original_PDF_uploads",
-  "authoritative_commit": "02dd6576b5cd9fefa5f04493dc8218a72a74ba08",
+  "status": "built_and_visually_validated",
+  "authoritative_commit": "172f99bfef4b7b88422dff7cf6d316ecd0b670cf",
   "searched_on": "2026-10-08",
   "papers": [
     {
@@ -15,7 +15,7 @@
       ],
       "europe_pmc_id": "12107283",
       "pmcid": "PMC126641",
-      "status": "PDF downloaded",
+      "status": "PDF available",
       "download_attempts": [
         {
           "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.152137299",
@@ -39,7 +39,7 @@
       ],
       "europe_pmc_id": "12764200",
       "pmcid": null,
-      "status": "PDF required",
+      "status": "PDF available",
       "download_attempts": [
         {
           "url": "https://www.science.org/doi/pdf/10.1126/science.1084874",
@@ -64,7 +64,11 @@
             }
           }
         }
-      ]
+      ],
+      "pages": 4,
+      "pdf_path": "papers/froy03.pdf",
+      "sha256": "a9d22ef976f31bfd2516d7ffe78a28ea7ab04ca13626eabc39d5327a0befdfd8",
+      "provided_by": "Instructor upload"
     },
     {
       "id": "sauman05",
@@ -77,7 +81,7 @@
       ],
       "europe_pmc_id": "15882645",
       "pmcid": null,
-      "status": "PDF required",
+      "status": "PDF available",
       "download_attempts": [
         {
           "url": "https://doi.org/10.1016/j.neuron.2005.03.014",
@@ -95,7 +99,11 @@
           "url": "https://escholarship.umassmed.edu/gsbs_sp/1732",
           "error": "HTTP Error 503: Service Unavailable"
         }
-      ]
+      ],
+      "pages": 11,
+      "pdf_path": "papers/sauman05.pdf",
+      "sha256": "d0241a9fddffc6e793339c32c5caf5f1e8b80f120d1614aa4bf481df3c22add7",
+      "provided_by": "Instructor upload"
     },
     {
       "id": "zhu08",
@@ -108,7 +116,7 @@
       ],
       "europe_pmc_id": "18184036",
       "pmcid": "PMC2174970",
-      "status": "PDF downloaded",
+      "status": "PDF available",
       "download_attempts": [],
       "pdf_path": "papers/zhu08.pdf",
       "pages": 18,
@@ -127,7 +135,7 @@
       ],
       "europe_pmc_id": "19779201",
       "pmcid": "PMC2754321",
-      "status": "PDF required",
+      "status": "PDF available",
       "download_attempts": [
         {
           "url": "https://www.science.org/doi/pdf/10.1126/science.1176221",
@@ -150,7 +158,11 @@
           "url": "https://escholarship.umassmed.edu/neurobiology_pp/26",
           "error": "HTTP Error 503: Service Unavailable"
         }
-      ]
+      ],
+      "pages": 6,
+      "pdf_path": "papers/merlin09.pdf",
+      "sha256": "8c281749aeb3720db5bb1e0d0c5f9614b245273e7ec454077d61c5fcf2392cd9",
+      "provided_by": "Instructor upload"
     },
     {
       "id": "heinze11",
@@ -163,7 +175,7 @@
       ],
       "europe_pmc_id": "21262471",
       "pmcid": null,
-      "status": "PDF required",
+      "status": "PDF available",
       "download_attempts": [
         {
           "url": "https://doi.org/10.1016/j.neuron.2010.12.025",
@@ -192,7 +204,11 @@
             }
           }
         }
-      ]
+      ],
+      "pages": 14,
+      "pdf_path": "papers/heinze11.pdf",
+      "sha256": "f9049008e6ff9b50b03745e3589b072ea8f5bf651531d0049fc885fb17a3447b",
+      "provided_by": "Instructor upload"
     },
     {
       "id": "guerra12",
@@ -205,7 +221,7 @@
       ],
       "europe_pmc_id": "22805565",
       "pmcid": "PMC3962218",
-      "status": "PDF downloaded",
+      "status": "PDF available",
       "download_attempts": [],
       "pdf_path": "papers/guerra12.pdf",
       "pages": 7,
@@ -224,7 +240,7 @@
       ],
       "europe_pmc_id": "23434279",
       "pmcid": null,
-      "status": "PDF required",
+      "status": "PDF available",
       "download_attempts": [
         {
           "url": "https://www.cell.com/article/S0960982213000870/pdf",
@@ -253,7 +269,11 @@
             }
           }
         }
-      ]
+      ],
+      "pages": 5,
+      "pdf_path": "papers/guerra13.pdf",
+      "sha256": "0e693b17a63cd1de31a62d9e4a43e53a6c9e4f476e8666ae6b5da0e99477f8b1",
+      "provided_by": "Instructor upload"
     },
     {
       "id": "nguyen21",
@@ -266,7 +286,7 @@
       ],
       "europe_pmc_id": "33622121",
       "pmcid": "PMC7935079",
-      "status": "PDF downloaded",
+      "status": "PDF available",
       "download_attempts": [
         {
           "url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2020.2988",
@@ -290,7 +310,7 @@
       ],
       "europe_pmc_id": "37730704",
       "pmcid": "PMC10511513",
-      "status": "PDF downloaded",
+      "status": "PDF available",
       "download_attempts": [],
       "pdf_path": "papers/beetz23goal.pdf",
       "pages": 13,
@@ -309,7 +329,7 @@
       ],
       "europe_pmc_id": "38333697",
       "pmcid": "PMC10850777",
-      "status": "PDF downloaded",
+      "status": "PDF available",
       "download_attempts": [],
       "pdf_path": "papers/iiams24.pdf",
       "pages": 14,
@@ -328,7 +348,7 @@
       ],
       "europe_pmc_id": "15939779",
       "pmcid": null,
-      "status": "PDF required",
+      "status": "PDF available",
       "download_attempts": [
         {
           "url": "https://journals.biologists.com/jeb/article-pdf/208/12/2399/1545175/2399.pdf",
@@ -353,7 +373,11 @@
             }
           }
         }
-      ]
+      ],
+      "pages": 10,
+      "pdf_path": "papers/stalleicken05.pdf",
+      "sha256": "09109eba568ce7f9c5860b78a1f80391c8570cdf141513fd58055ffd4eb2e0b2",
+      "provided_by": "Instructor upload"
     }
   ],
   "reference_decks": [
@@ -394,8 +418,8 @@
     "create_images": false,
     "recolor_images": false,
     "build_tool": "tools/build_lecture.py",
-    "theme_recorded": false,
-    "pptx_created": false
+    "theme_recorded": true,
+    "pptx_created": true
   },
   "web_search": {
     "engine": "Bing",
@@ -417,5 +441,47 @@
       "https://www.patrickguerra.com/publications/",
       "https://www.zora.uzh.ch/id/eprint/671/8/wehner20059V.pdf"
     ]
+  },
+  "figure_policy": {
+    "article_panels_only": true,
+    "generated_scientific_images": 0,
+    "recolored_images": 0,
+    "content_image_slides": 44,
+    "primary_article_image_slides": 44,
+    "native_color_article_slides": 26,
+    "all_color_image_slides": 30,
+    "web_image_occurrences": 10,
+    "web_photo_unique_assets": 1,
+    "title_animal_image": true,
+    "crop_spec": "crops.json",
+    "crop_backend": "PyMuPDF via tools/crop_panels.py; PDF CropBox fractions"
+  },
+  "photo": {
+    "path": "figures/monarch_fws.jpg",
+    "kind": "web",
+    "caption": "Photo: Monarch butterfly with compound eye and antenna visible.",
+    "credit": "U.S. Fish and Wildlife Service",
+    "license": "Public Domain",
+    "source_url": "https://www.fws.gov/media/monarch-butterfly-danaus-plexippus",
+    "sha256": "d02d4136155147b95672f56782f7730f7d23e25efadee81a0297053919dade6b",
+    "license_verified": "Original USFWS media page explicitly states Public Domain."
+  },
+  "validation": {
+    "slides": 46,
+    "content_paragraphs": 3,
+    "content_word_range": [
+      115,
+      127
+    ],
+    "content_reference_blocks": 44,
+    "Arial_font_exceptions": 0,
+    "checker_failures": 0,
+    "checker_warnings": 0,
+    "rendered_pdf_pages": 46,
+    "body_overflow_count": 0,
+    "maximum_body_bottom_pdf_points": 489.57,
+    "body_box_bottom_pdf_points": 489.6,
+    "all_slides_visually_reviewed": true,
+    "Arial_note_font_exceptions": 0
   }
 }
