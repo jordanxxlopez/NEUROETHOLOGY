@@ -8,7 +8,7 @@
     "date": "Monday, September 21, 2026",
     "title": "Insect vision II: jumping spider eyes and predatory tracking (Land)"
   },
-  "status": "Ten core source PDFs available. Only Steinhoff et al. (2020) remains blocked: uploaded PDF exceeds the 32 MiB transfer limit. Need compressed file or split PDF parts before figure selection and final deck build.",
+  "status": "Complete: all eleven published PDFs verified; 46-slide revision built from original article crops and checked.",
   "sources": {
     "land69a": {
       "id": "land69a",
@@ -1436,7 +1436,7 @@
       "pdf_bytes": 586293,
       "pdf_pages": 4,
       "sha256": "e58df9fc700e243c5215d5894a1479a614825234113b5f67106a440b2c0873dc",
-      "download_url": "https://nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com/contents/ir_soken_ac_jp/90/d8/1413-7dd1-4ab2-ae95-d5fcd0b41afe/data?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B%20filename%3D469.full.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=2933d73c5ea35b566afd770d1a6af5c853196a77%2F20261008%2Fap-tokyo-1%2Fs3%2Faws4_request&X-Amz-Date=20261008T171005Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=dd4ad3b296186bdc37ac6938ccfdfa84c50bc225d86d2d6dc0d963e039e8a8f0",
+      "download_url": "https://ir.soken.ac.jp/record/4203/files/469.full.pdf",
       "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "zurek15": {
@@ -2286,7 +2286,7 @@
     },
     "zn12b": {
       "id": "zn12b",
-      "original_reference": "Zurek DB, Nelson XJ (2012b). Saccadic tracking of targets mediated by the anterior-lateral eyes of jumping spiders. Journal of Comparative Physiology A 198: 411–417. https://doi.org/10.1007/s00359-012-0719-0",
+      "original_reference": "Zurek DB, Nelson XJ (2012). Saccadic tracking of targets mediated by the anterior-lateral eyes of jumping spiders. Journal of Comparative Physiology A 198: 411–417. https://doi.org/10.1007/s00359-012-0719-0",
       "doi": "10.1007/s00359-012-0719-0",
       "title": [
         "Saccadic tracking of targets mediated by the anterior-lateral eyes of jumping spiders"
@@ -3452,12 +3452,16 @@
         }
       ],
       "openalex_error": "HTTP Error 429: Too Many Requests",
-      "pdf_available": false,
+      "pdf_available": true,
       "uploaded_file": {
-        "filename": "J of Comparative Neurology - 2020 - Steinhoff - Visual pathways in the brain of the jumping spider Marpissa muscosa.pdf",
-        "sediment_file_id": "file_00000000e8b081fdb13db5bb2ad5e80f",
-        "transfer_status": "Blocked: file exceeds executor transfer limit of 32 MiB. Need compressed PDF or split parts each below 32 MiB."
-      }
+        "filename": "Steinhoff_2020_Marpissa_visual_pathways_compressed.pdf",
+        "sediment_file_id": "file_000000007fb48230b772ea6ec85f97fb"
+      },
+      "pdf_path": "papers/steinhoff20.pdf",
+      "pdf_bytes": 7760630,
+      "pdf_pages": 20,
+      "sha256": "24827f3b41e312ca942e3dc688d47654abd7ece0856bf0d06219ca031b14f500",
+      "identity_verification": "Article title, authors, journal pages and DOI verified in compressed original PDF."
     },
     "menda14": {
       "id": "menda14",
@@ -3885,5 +3889,6 @@
       "image_occurrences": 51
     }
   ],
-  "current_environment_validation": "Native Git fetch and fast-forward succeeded; python-pptx, Pillow and PyMuPDF import successfully; repository-required LibreOffice and Poppler are installed. No configuration changes are required."
+  "current_environment_validation": "Native Git fetch and fast-forward succeeded; python-pptx, Pillow and PyMuPDF import successfully; repository-required LibreOffice and Poppler are installed. No configuration changes are required.",
+  "figure_review": "Each source page and final crop inspected. Only direct article crops; intact axes, units, scale bars and panel letters. No created, recolored or redrawn scientific images."
 }
