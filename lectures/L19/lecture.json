@@ -1,0 +1,1416 @@
+{
+  "lecture": 19,
+  "theme": "petrol-mist",
+  "content_slides": 44,
+  "title_image": {
+    "path": "figures/barn-owl.jpg",
+    "kind": "web",
+    "caption": "Photo: Barn owl (Tyto alba). Michael Gäbler, CC BY 3.0.",
+    "credit": "Michael Gäbler / Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tyto_alba_(Scopoli,_1769).jpg"
+  },
+  "slides": [
+    {
+      "title": "Visual experience recalibrates auditory space",
+      "body": [
+        "A **neural map** is an ordered representation in which neighboring locations in tissue represent neighboring stimulus locations. In the barn owl, _Tyto alba_, the optic tectum contains auditory and visual maps that normally assign the same location to a sound and a visible object.",
+        "Brainard and Knudsen raised juvenile owls with prisms that displaced vision by 23° horizontally. Neurons acquired auditory timing preferences appropriate for the displaced visual field. Their visual receptive fields were measured without the prisms to establish the normal anatomical reference.",
+        "The adaptation changed the correspondence between auditory cues and represented space. It did not require sound sources to move or auditory signals to pass through the prisms. The measured change is sensory calibration rather than a direct optical effect on sound."
+      ],
+      "cite": "Brainard & Knudsen (1993)",
+      "refs": [
+        "MS Brainard; EI Knudsen (1993). Experience-dependent plasticity in the inferior colliculus: a site for visual calibration of the neural representation of auditory space in the barn owl. The Journal of Neuroscience 13(11):4589-4608. https://doi.org/10.1523/jneurosci.13-11-04589.1993",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A neural map is an ordered representation in which neighboring locations in tissue represent neighboring stimulus locations. In the barn owl, Tyto alba, the optic tectum contains auditory and visual maps that normally assign the same location to a sound and a visible object.",
+        "Brainard and Knudsen raised juvenile owls with prisms that displaced vision by 23° horizontally. Neurons acquired auditory timing preferences appropriate for the displaced visual field. Their visual receptive fields were measured without the prisms to establish the normal anatomical reference.",
+        "The adaptation changed the correspondence between auditory cues and represented space. It did not require sound sources to move or auditory signals to pass through the prisms. The measured change is sensory calibration rather than a direct optical effect on sound.",
+        "A receptive field is the stimulus region that drives a neuron. The prismatic displacement changes the visual reference used to associate an auditory cue with a location."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B93_5.png",
+          "caption": "Brainard & Knudsen (1993), Fig. 5. Prism rearing shifts tectal ITD tuning.",
+          "source_url": "https://doi.org/10.1523/jneurosci.13-11-04589.1993"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Prisms change the visual reference for sound",
+      "body": [
+        "A prism refracts light, displacing the apparent direction of an object while leaving its sound unchanged. A **visual receptive field**, or VRF, identifies the position in visual space that activates a neuron. Comparing auditory tuning with that field separates altered sensory registration from the location of the recording site.",
+        "Hyde and Knudsen used 23° prisms and then altered vision separately in central and peripheral regions. The resulting auditory adjustments depended on which part of visual space remained available. A single direction of displacement did not force every portion of the auditory map to change equally.",
+        "These manipulations test the information that guides calibration. They do not measure a visual teaching synapse directly, and they do not establish that visual and auditory inputs are compared by one particular neuron."
+      ],
+      "cite": "Hyde & Knudsen (2001)",
+      "refs": [
+        "Peter S. Hyde; Eric I. Knudsen (2001). A Topographic Instructive Signal Guides the Adjustment of the Auditory Space Map in the Optic Tectum. The Journal of Neuroscience 21(21):8586-8593. https://doi.org/10.1523/jneurosci.21-21-08586.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A prism refracts light, displacing the apparent direction of an object while leaving its sound unchanged. A visual receptive field, or VRF, identifies the position in visual space that activates a neuron. Comparing auditory tuning with that field separates altered sensory registration from the location of the recording site.",
+        "Hyde and Knudsen used 23° prisms and then altered vision separately in central and peripheral regions. The resulting auditory adjustments depended on which part of visual space remained available. A single direction of displacement did not force every portion of the auditory map to change equally.",
+        "These manipulations test the information that guides calibration. They do not measure a visual teaching synapse directly, and they do not establish that visual and auditory inputs are compared by one particular neuron.",
+        "Occlusion removes regional visual information; it differs from an optical displacement that preserves visible objects while moving their apparent positions."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/H01_1.png",
+          "caption": "Hyde & Knudsen (2001), Fig. 1(A–F). Regional visual manipulations and auditory tuning.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-21-08586.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Microsecond timing is assigned to a spatial location",
+      "body": [
+        "**Interaural time difference**, or ITD, is the difference in arrival time of a sound at the two ears. Ear-leading labels indicate which ear receives the waveform first. In these experiments, timing differences are measured in microseconds, whereas the perceived horizontal direction, or azimuth, is measured in degrees.",
+        "Brainard and Knudsen measured best ITDs and visual receptive-field positions at tectal sites. In normal owls, preferred timing changed systematically with visual azimuth. **Best ITD** means the timing difference producing the strongest response in a tuning curve, rather than the only timing value that can activate the neuron.",
+        "The relationship supplies a reference for assessing prism-induced shifts. Optical displacement changes which timing value is appropriate for a mapped location; it does not change the meaning of the physical ITD delivered to the ears."
+      ],
+      "cite": "Brainard & Knudsen (1993)",
+      "refs": [
+        "MS Brainard; EI Knudsen (1993). Experience-dependent plasticity in the inferior colliculus: a site for visual calibration of the neural representation of auditory space in the barn owl. The Journal of Neuroscience 13(11):4589-4608. https://doi.org/10.1523/jneurosci.13-11-04589.1993",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Interaural time difference, or ITD, is the difference in arrival time of a sound at the two ears. Ear-leading labels indicate which ear receives the waveform first. In these experiments, timing differences are measured in microseconds, whereas the perceived horizontal direction, or azimuth, is measured in degrees.",
+        "Brainard and Knudsen measured best ITDs and visual receptive-field positions at tectal sites. In normal owls, preferred timing changed systematically with visual azimuth. Best ITD means the timing difference producing the strongest response in a tuning curve, rather than the only timing value that can activate the neuron.",
+        "The relationship supplies a reference for assessing prism-induced shifts. Optical displacement changes which timing value is appropriate for a mapped location; it does not change the meaning of the physical ITD delivered to the ears.",
+        "A tuning curve records neuronal response across stimulus values. Its preferred value and its width describe different properties of the response."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B93_3.png",
+          "caption": "Brainard & Knudsen (1993), Fig. 3. Normal relationships among visual position and ITD.",
+          "source_url": "https://doi.org/10.1523/jneurosci.13-11-04589.1993"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "The external colliculus constructs a space map",
+      "body": [
+        "The **inferior colliculus** is a midbrain auditory structure. Its central nucleus, ICC, contains frequency-organized auditory representations. The external nucleus, ICX, combines information across frequency channels and supplies a spatially ordered auditory representation to the optic tectum.",
+        "Brainard and Knudsen distinguished recording locations using anatomical reconstructions and response properties. The lateral shell of the central nucleus and the external nucleus occupy different parts of the same midbrain complex. That distinction is necessary because prism adaptation could alter their auditory responses differently.",
+        "A 23° visual displacement shifted timing preferences downstream in ICX while upstream timing representations remained normal. Anatomical proximity therefore did not imply identical plasticity. The physiological comparison localized a major adaptive change to the transformation between the central and external collicular representations."
+      ],
+      "cite": "Brainard & Knudsen (1993)",
+      "refs": [
+        "MS Brainard; EI Knudsen (1993). Experience-dependent plasticity in the inferior colliculus: a site for visual calibration of the neural representation of auditory space in the barn owl. The Journal of Neuroscience 13(11):4589-4608. https://doi.org/10.1523/jneurosci.13-11-04589.1993"
+      ],
+      "transcript": [
+        "The inferior colliculus is a midbrain auditory structure. Its central nucleus, ICC, contains frequency-organized auditory representations. The external nucleus, ICX, combines information across frequency channels and supplies a spatially ordered auditory representation to the optic tectum.",
+        "Brainard and Knudsen distinguished recording locations using anatomical reconstructions and response properties. The lateral shell of the central nucleus and the external nucleus occupy different parts of the same midbrain complex. That distinction is necessary because prism adaptation could alter their auditory responses differently.",
+        "A 23° visual displacement shifted timing preferences downstream in ICX while upstream timing representations remained normal. Anatomical proximity therefore did not imply identical plasticity. The physiological comparison localized a major adaptive change to the transformation between the central and external collicular representations.",
+        "Topographic projections preserve an ordered relationship between source and target locations. Such projections connect the ICX spatial representation with the tectal map."
+      ],
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/B93_1B.png",
+        "caption": "Brainard & Knudsen (1993), Fig. 1(B). Anatomical locations of the auditory midbrain nuclei.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-11-04589.1993"
+      }
+    },
+    {
+      "title": "Adaptive timing shifts are already present in ICX",
+      "body": [
+        "Brainard and Knudsen marked recording sites in histological sections and compared best ITD with position within ICX. **Histology** identifies tissue structures in thin stained sections. Electrode-site lesions linked each measured response to an anatomical location rather than relying only on the shape of its tuning curve.",
+        "Owls reared with leftward and rightward 23° displacements acquired timing preferences shifted in opposite adaptive directions. The shifts were present in ICX, before its output reached the optic tectum. Normal animals supplied the comparison between location and expected best ITD.",
+        "The experiment identifies ICX as a site expressing adaptive plasticity. It does not exclude additional plasticity elsewhere, and it does not by itself identify which excitatory synapses or inhibitory connections changed. Functional localization and cellular mechanism require different evidence."
+      ],
+      "cite": "Brainard & Knudsen (1993)",
+      "refs": [
+        "MS Brainard; EI Knudsen (1993). Experience-dependent plasticity in the inferior colliculus: a site for visual calibration of the neural representation of auditory space in the barn owl. The Journal of Neuroscience 13(11):4589-4608. https://doi.org/10.1523/jneurosci.13-11-04589.1993"
+      ],
+      "transcript": [
+        "Brainard and Knudsen marked recording sites in histological sections and compared best ITD with position within ICX. Histology identifies tissue structures in thin stained sections. Electrode-site lesions linked each measured response to an anatomical location rather than relying only on the shape of its tuning curve.",
+        "Owls reared with leftward and rightward 23° displacements acquired timing preferences shifted in opposite adaptive directions. The shifts were present in ICX, before its output reached the optic tectum. Normal animals supplied the comparison between location and expected best ITD.",
+        "The experiment identifies ICX as a site expressing adaptive plasticity. It does not exclude additional plasticity elsewhere, and it does not by itself identify which excitatory synapses or inhibitory connections changed. Functional localization and cellular mechanism require different evidence.",
+        "The one-millimeter scale bar belongs to the original histological figure. Anatomical coordinates constrain the interpretation of the physiological shift."
+      ],
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/B93_13.png",
+        "caption": "Brainard & Knudsen (1993), Fig. 13(A–E). Histological recording sites and ICX ITD preferences.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-11-04589.1993"
+      }
+    },
+    {
+      "title": "Learned and normal responses can coexist",
+      "body": [
+        "During adaptation, ICX neurons can respond to both their original timing range and newly acquired timing values. Feldman and Knudsen called this **transition-state tuning**. A broad or double-peaked curve can therefore represent coexistence of normal and learned responses rather than an intermediate response to one timing value.",
+        "The authors compared recordings along anatomical transects that normally represented the same ITD. After 20–60 days of prism experience, units often retained a normal component while expressing an additional adaptive component. Longer prism experience produced more strongly shifted tuning at many sites.",
+        "The coexistence allowed pharmacological comparisons within a single recording. A drug could be tested against normal and learned responses in the same tissue, reducing the ambiguity associated with comparing unrelated neurons or regions."
+      ],
+      "cite": "Feldman & Knudsen (1998)",
+      "refs": [
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "During adaptation, ICX neurons can respond to both their original timing range and newly acquired timing values. Feldman and Knudsen called this transition-state tuning. A broad or double-peaked curve can therefore represent coexistence of normal and learned responses rather than an intermediate response to one timing value.",
+        "The authors compared recordings along anatomical transects that normally represented the same ITD. After 20–60 days of prism experience, units often retained a normal component while expressing an additional adaptive component. Longer prism experience produced more strongly shifted tuning at many sites.",
+        "The coexistence allowed pharmacological comparisons within a single recording. A drug could be tested against normal and learned responses in the same tissue, reducing the ambiguity associated with comparing unrelated neurons or regions.",
+        "An iso-ITD transect is a recording trajectory joining locations that normally share the same preferred interaural timing difference."
+      ],
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/F98_2.png",
+        "caption": "Feldman & Knudsen (1998), Fig. 2(A–D). Anatomical transects and transition-state tuning.",
+        "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      }
+    },
+    {
+      "title": "The same visual displacement has age-dependent effects",
+      "body": [
+        "A **sensitive period** is an age range during which a particular experience can alter a circuit especially strongly. Brainard and Knudsen compared the response to 23° prisms in juvenile and adult barn owls, measuring preferred ITDs against visual receptive-field locations.",
+        "An owl fitted at 88 days of age showed a substantial adaptive shift after 28 days of prism experience. An adult fitted after one year of age exhibited much less change even after 183 days. The difference concerned the same kind of sensory mismatch and the same neural response measure.",
+        "Longer exposure therefore did not automatically compensate for older age. The comparison supports developmental regulation of auditory-map plasticity, while leaving open how prior experience and the environment influence that regulation."
+      ],
+      "cite": "Brainard & Knudsen (1998)",
+      "refs": [
+        "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A sensitive period is an age range during which a particular experience can alter a circuit especially strongly. Brainard and Knudsen compared the response to 23° prisms in juvenile and adult barn owls, measuring preferred ITDs against visual receptive-field locations.",
+        "An owl fitted at 88 days of age showed a substantial adaptive shift after 28 days of prism experience. An adult fitted after one year of age exhibited much less change even after 183 days. The difference concerned the same kind of sensory mismatch and the same neural response measure.",
+        "Longer exposure therefore did not automatically compensate for older age. The comparison supports developmental regulation of auditory-map plasticity, while leaving open how prior experience and the environment influence that regulation.",
+        "The relevant outcome is the displacement of auditory preference relative to the normal visual reference, rather than the total number of days wearing spectacles."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B98_1.png",
+          "caption": "Brainard & Knudsen (1998), Fig. 1(A–F). Juvenile and adult tuning before and after prisms.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-10-03929.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Map adjustment develops over repeated experience",
+      "body": [
+        "Repeated recordings distinguish a stable preexisting map from a map that changes during experience. Brainard and Knudsen followed tectal timing preferences with chronic electrodes or by sampling multiple sites across successive sessions after prisms were attached.",
+        "With 23° prisms, the expected full adaptive change was approximately 57 µs. Younger owls progressed toward that value over days and weeks, whereas older owls often remained near the normal reference. The time courses differed across ages and individuals rather than following one universal rate.",
+        "**Chronic recording** means returning to a recording preparation over time. These measurements establish the temporal course of functional adaptation, but repeated population sampling does not track the same synapse. A changing best ITD can result from altered weighting of several inputs."
+      ],
+      "cite": "Brainard & Knudsen (1998)",
+      "refs": [
+        "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Repeated recordings distinguish a stable preexisting map from a map that changes during experience. Brainard and Knudsen followed tectal timing preferences with chronic electrodes or by sampling multiple sites across successive sessions after prisms were attached.",
+        "With 23° prisms, the expected full adaptive change was approximately 57 µs. Younger owls progressed toward that value over days and weeks, whereas older owls often remained near the normal reference. The time courses differed across ages and individuals rather than following one universal rate.",
+        "Chronic recording means returning to a recording preparation over time. These measurements establish the temporal course of functional adaptation, but repeated population sampling does not track the same synapse. A changing best ITD can result from altered weighting of several inputs.",
+        "A complete adaptive shift is a reference predicted from the visual displacement. It is not an assumption that every animal must reach the same endpoint."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B98_2.png",
+          "caption": "Brainard & Knudsen (1998), Fig. 2. Time courses of preferred-ITD adjustment.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-10-03929.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Novel map acquisition declines near 200 days",
+      "body": [
+        "Brainard and Knudsen assessed the amount of tectal adjustment after at least two months of prism experience. The comparison asked how much a new visual displacement could change auditory timing preferences when introduced at different developmental ages.",
+        "In the communal-aviary conditions, the capacity to acquire a large shift declined around 200 days of age. Older owls generally produced small shifts despite sustained 23° optical displacement. The paper also identified animals with elevated auditory thresholds, because impaired sound sensitivity can affect the measured response.",
+        "The approximately 200-day boundary describes a particular manipulation and environment. It is not a claim that all auditory learning ends at that age. Recovery of a previously established map and acquisition of a new map are different experimental demands."
+      ],
+      "cite": "Brainard & Knudsen (1998)",
+      "refs": [
+        "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Brainard and Knudsen assessed the amount of tectal adjustment after at least two months of prism experience. The comparison asked how much a new visual displacement could change auditory timing preferences when introduced at different developmental ages.",
+        "In the communal-aviary conditions, the capacity to acquire a large shift declined around 200 days of age. Older owls generally produced small shifts despite sustained 23° optical displacement. The paper also identified animals with elevated auditory thresholds, because impaired sound sensitivity can affect the measured response.",
+        "The approximately 200-day boundary describes a particular manipulation and environment. It is not a claim that all auditory learning ends at that age. Recovery of a previously established map and acquisition of a new map are different experimental demands.",
+        "An auditory threshold is the minimum sound level that reliably evokes a response. Threshold changes must be distinguished from changes in the preferred timing cue."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B98_3.png",
+          "caption": "Brainard & Knudsen (1998), Fig. 3. Adaptive shift versus age at prism attachment.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-10-03929.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "A juvenile map can learn opposite displacements",
+      "body": [
+        "A developmental sensitive period permits more than a single irreversible adjustment. Brainard and Knudsen changed the direction of the visual displacement in a juvenile owl and measured how tectal timing preferences responded to the new sensory relationship.",
+        "An owl fitted with rightward 23° prisms at 88 days shifted its auditory map after 28 days. After the prisms were changed to leftward 23°, a subsequent 56-day period produced adjustment in the opposite direction. The same animal therefore acquired different cue-to-location relationships within development.",
+        "This reversal argues against a fixed anatomical offset being the entire explanation for prism adaptation. It supports experience-dependent selection of timing inputs, while not deciding whether reversal uses new connections, altered synaptic strengths, or changes in inhibition."
+      ],
+      "cite": "Brainard & Knudsen (1998)",
+      "refs": [
+        "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A developmental sensitive period permits more than a single irreversible adjustment. Brainard and Knudsen changed the direction of the visual displacement in a juvenile owl and measured how tectal timing preferences responded to the new sensory relationship.",
+        "An owl fitted with rightward 23° prisms at 88 days shifted its auditory map after 28 days. After the prisms were changed to leftward 23°, a subsequent 56-day period produced adjustment in the opposite direction. The same animal therefore acquired different cue-to-location relationships within development.",
+        "This reversal argues against a fixed anatomical offset being the entire explanation for prism adaptation. It supports experience-dependent selection of timing inputs, while not deciding whether reversal uses new connections, altered synaptic strengths, or changes in inhibition.",
+        "Reversal of the imposed displacement changes which ITDs are adaptive. The measured response must be evaluated relative to the new optical condition."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B98_5.png",
+          "caption": "Brainard & Knudsen (1998), Fig. 5(A–B). Tuning distributions after opposite prism directions.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-10-03929.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Normal vision can restore a previously calibrated map",
+      "body": [
+        "Restoring normal vision asks the system to return to a previously established cue-to-location relationship. Brainard and Knudsen removed prisms and followed preferred ITDs using chronic tectal recordings, providing a direct comparison with the shifted map immediately before removal.",
+        "Owls whose prisms were removed at 108, 238, and 1,208 days of age recovered normal tuning over the subsequent period of normal vision. Recovery occurred even in the oldest animal when it lived in the rich communal environment.",
+        "The result separates recovery from the acquisition of a novel displacement. An adult circuit can retain access to a normal calibration that it does not express under prism conditions. Recovery alone does not reveal whether that access reflects persistent anatomical connections or relearning from scratch."
+      ],
+      "cite": "Brainard & Knudsen (1998)",
+      "refs": [
+        "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Restoring normal vision asks the system to return to a previously established cue-to-location relationship. Brainard and Knudsen removed prisms and followed preferred ITDs using chronic tectal recordings, providing a direct comparison with the shifted map immediately before removal.",
+        "Owls whose prisms were removed at 108, 238, and 1,208 days of age recovered normal tuning over the subsequent period of normal vision. Recovery occurred even in the oldest animal when it lived in the rich communal environment.",
+        "The result separates recovery from the acquisition of a novel displacement. An adult circuit can retain access to a normal calibration that it does not express under prism conditions. Recovery alone does not reveal whether that access reflects persistent anatomical connections or relearning from scratch.",
+        "Prism removal restores the visual reference without reversing the direction of the auditory waveform. The experimental outcome is the reappearance of normal auditory preferences."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B98_6.png",
+          "caption": "Brainard & Knudsen (1998), Fig. 6. Recovery after prism removal at different ages.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-10-03929.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Recovery and new learning have different age limits",
+      "body": [
+        "A circuit’s capacity for plasticity depends on the adjustment required. Brainard and Knudsen compared auditory tuning immediately before prism removal with tuning after at least one month of normal visual experience in owls of different ages.",
+        "Recovery toward the normal auditory map occurred across the tested age range in communal aviaries, including animals older than two years. By contrast, acquisition of a large novel shift was strongly reduced when a 23° displacement was first introduced late in life.",
+        "These outcomes do not support a single age at which all auditory-map change becomes impossible. They support distinct constraints on establishing an unfamiliar mapping and returning to a familiar one. The distinction is behavioral and physiological; its anatomical explanation requires direct tracing evidence."
+      ],
+      "cite": "Brainard & Knudsen (1998)",
+      "refs": [
+        "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A circuit’s capacity for plasticity depends on the adjustment required. Brainard and Knudsen compared auditory tuning immediately before prism removal with tuning after at least one month of normal visual experience in owls of different ages.",
+        "Recovery toward the normal auditory map occurred across the tested age range in communal aviaries, including animals older than two years. By contrast, acquisition of a large novel shift was strongly reduced when a 23° displacement was first introduced late in life.",
+        "These outcomes do not support a single age at which all auditory-map change becomes impossible. They support distinct constraints on establishing an unfamiliar mapping and returning to a familiar one. The distinction is behavioral and physiological; its anatomical explanation requires direct tracing evidence.",
+        "Prior calibration provides a different starting circuit state from the state of an adult encountering an unfamiliar optical displacement."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B98_7.png",
+          "caption": "Brainard & Knudsen (1998), Fig. 7. Preferred timing before and after prism removal.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-10-03929.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "An impoverished environment restricts recovery",
+      "body": [
+        "Brainard and Knudsen tested whether housing conditions contributed to apparently different sensitive periods. Owls in small individual cages could see and hear other owls but could not fly or interact directly with them as they could in a communal aviary.",
+        "After normal vision was restored, younger animals recovered accurate localization and normal tectal timing. Animals older than approximately 200 days often failed to recover while they remained in the small cages. Both neural tuning and auditory orienting were assessed, linking environmental conditions with the expressed adjustment.",
+        "The cage manipulation changed several aspects of experience together. It therefore identifies environmental dependence without isolating flight, social interaction, attention, or sensory richness as the sole cause. The age limit applies to these restricted conditions."
+      ],
+      "cite": "Brainard & Knudsen (1998)",
+      "refs": [
+        "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Brainard and Knudsen tested whether housing conditions contributed to apparently different sensitive periods. Owls in small individual cages could see and hear other owls but could not fly or interact directly with them as they could in a communal aviary.",
+        "After normal vision was restored, younger animals recovered accurate localization and normal tectal timing. Animals older than approximately 200 days often failed to recover while they remained in the small cages. Both neural tuning and auditory orienting were assessed, linking environmental conditions with the expressed adjustment.",
+        "The cage manipulation changed several aspects of experience together. It therefore identifies environmental dependence without isolating flight, social interaction, attention, or sensory richness as the sole cause. The age limit applies to these restricted conditions.",
+        "Auditory orienting error measures the difference between sound-source direction and the owl’s head orientation. It is a behavioral quantity distinct from neuronal best ITD."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B98_8.png",
+          "caption": "Brainard & Knudsen (1998), Fig. 8(A–B). Recovery while owls lived in individual cages.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-10-03929.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "A richer environment can reopen expressed recovery",
+      "body": [
+        "Environmental conditions can change the expression of adult auditory plasticity after an initial failure to adapt. Brainard and Knudsen transferred prism-reared owls from individual cages to a large aviary after normal vision had been restored.",
+        "One owl had prisms removed at 219 days and showed little behavioral correction during 76 days in a cage. After transfer at 295 days, its localization accuracy improved. Adult owls that had failed to restore normal tectal timing in cages also recovered after transfer to the aviary.",
+        "These comparisons constrain explanations based only on irreversible loss of developmental capacity. Some capacity remained available but depended on the animal’s environment. The transfer was not a selective manipulation of one neurotransmitter or one circuit, so the immediate biological trigger remains unresolved."
+      ],
+      "cite": "Brainard & Knudsen (1998)",
+      "refs": [
+        "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Environmental conditions can change the expression of adult auditory plasticity after an initial failure to adapt. Brainard and Knudsen transferred prism-reared owls from individual cages to a large aviary after normal vision had been restored.",
+        "One owl had prisms removed at 219 days and showed little behavioral correction during 76 days in a cage. After transfer at 295 days, its localization accuracy improved. Adult owls that had failed to restore normal tectal timing in cages also recovered after transfer to the aviary.",
+        "These comparisons constrain explanations based only on irreversible loss of developmental capacity. Some capacity remained available but depended on the animal’s environment. The transfer was not a selective manipulation of one neurotransmitter or one circuit, so the immediate biological trigger remains unresolved.",
+        "The change in housing occurred after the visual manipulation was reversed. This sequence separates availability of normal visual information from the conditions needed to use it."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B98_8.png",
+          "caption": "Brainard & Knudsen (1998), Fig. 8(C–D). Recovery after transfer from cages to an aviary.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-10-03929.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Housing conditions shift the apparent sensitive period",
+      "body": [
+        "Sensitive-period measurements depend on the experience provided to the animal. Brainard and Knudsen compared auditory orienting after at least 60 days of 23° prism exposure in owls housed individually and in owls housed in a large aviary.",
+        "In the earlier cage conditions, substantial behavioral adjustment was restricted to much younger animals, around 70 days at prism attachment. In the richer environment, later juvenile experience could still support adjustment. This difference helped reconcile behavioral age limits with the longer period measured in neural recordings.",
+        "The result does not eliminate developmental constraints. It indicates that age and environment jointly influence the amount of adaptation that is expressed. Comparing studies without accounting for housing can mistakenly turn a condition-dependent sensitive period into a universal biological deadline."
+      ],
+      "cite": "Brainard & Knudsen (1998)",
+      "refs": [
+        "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Sensitive-period measurements depend on the experience provided to the animal. Brainard and Knudsen compared auditory orienting after at least 60 days of 23° prism exposure in owls housed individually and in owls housed in a large aviary.",
+        "In the earlier cage conditions, substantial behavioral adjustment was restricted to much younger animals, around 70 days at prism attachment. In the richer environment, later juvenile experience could still support adjustment. This difference helped reconcile behavioral age limits with the longer period measured in neural recordings.",
+        "The result does not eliminate developmental constraints. It indicates that age and environment jointly influence the amount of adaptation that is expressed. Comparing studies without accounting for housing can mistakenly turn a condition-dependent sensitive period into a universal biological deadline.",
+        "The comparison concerns the strength of adaptation to a novel displacement. It differs from the ability to recover a normal mapping after prism removal."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/B98_9.png",
+          "caption": "Brainard & Knudsen (1998), Fig. 9(A–B). Age-dependent behavioral adjustment in two environments.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-10-03929.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Regional visual information can instruct local tuning",
+      "body": [
+        "A **topographic instructive signal** supplies location-specific information about how a neural representation should change. Hyde and Knudsen distinguished this possibility from instruction based only on whether an auditory orienting movement ended at the correct central visual position.",
+        "After initial adaptation to leftward 23° prisms, one owl experienced normal vision centrally while the peripheral field beyond 15° was occluded. After 11 days, central tectal timing moved toward normal while the occluded peripheral representation changed much less.",
+        "Different regional adjustments support a point-by-point visual contribution to calibration. A teaching signal derived solely from central gaze would predict a more uniform change. The experiment identifies the spatial organization of instruction without directly recording the neurons that carry it."
+      ],
+      "cite": "Hyde & Knudsen (2001)",
+      "refs": [
+        "Peter S. Hyde; Eric I. Knudsen (2001). A Topographic Instructive Signal Guides the Adjustment of the Auditory Space Map in the Optic Tectum. The Journal of Neuroscience 21(21):8586-8593. https://doi.org/10.1523/jneurosci.21-21-08586.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A topographic instructive signal supplies location-specific information about how a neural representation should change. Hyde and Knudsen distinguished this possibility from instruction based only on whether an auditory orienting movement ended at the correct central visual position.",
+        "After initial adaptation to leftward 23° prisms, one owl experienced normal vision centrally while the peripheral field beyond 15° was occluded. After 11 days, central tectal timing moved toward normal while the occluded peripheral representation changed much less.",
+        "Different regional adjustments support a point-by-point visual contribution to calibration. A teaching signal derived solely from central gaze would predict a more uniform change. The experiment identifies the spatial organization of instruction without directly recording the neurons that carry it.",
+        "Center-of-gaze and peripheral manipulations create different visual conditions within one animal, providing an internal comparison between regions of the map."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/H01_1.png",
+          "caption": "Hyde & Knudsen (2001), Fig. 1(A–F). Central recovery with peripheral visual occlusion.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-21-08586.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Occluded map regions receive less effective instruction",
+      "body": [
+        "Hyde and Knudsen repeated regional manipulations in several prism-adapted owls. They compared preferred auditory timing across tectal sites representing the center of gaze and sites representing an occluded peripheral visual region.",
+        "Following 14–35 days with normal central vision and peripheral occlusion, changes in auditory tuning were generally larger in the centrally instructed region. The comparison used each owl’s previously measured prism-adapted map as the reference and preserved the regional distinction in visual experience.",
+        "Occlusion therefore did more than reduce the total amount of visual stimulation. It limited the effective information available to a corresponding part of the map. The data remain compatible with additional global influences, because absence of local visual instruction need not eliminate every source of auditory change."
+      ],
+      "cite": "Hyde & Knudsen (2001)",
+      "refs": [
+        "Peter S. Hyde; Eric I. Knudsen (2001). A Topographic Instructive Signal Guides the Adjustment of the Auditory Space Map in the Optic Tectum. The Journal of Neuroscience 21(21):8586-8593. https://doi.org/10.1523/jneurosci.21-21-08586.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Hyde and Knudsen repeated regional manipulations in several prism-adapted owls. They compared preferred auditory timing across tectal sites representing the center of gaze and sites representing an occluded peripheral visual region.",
+        "Following 14–35 days with normal central vision and peripheral occlusion, changes in auditory tuning were generally larger in the centrally instructed region. The comparison used each owl’s previously measured prism-adapted map as the reference and preserved the regional distinction in visual experience.",
+        "Occlusion therefore did more than reduce the total amount of visual stimulation. It limited the effective information available to a corresponding part of the map. The data remain compatible with additional global influences, because absence of local visual instruction need not eliminate every source of auditory change.",
+        "A location-specific difference within the same brain is especially informative when the animal’s age, general housing conditions, and prismatic history are shared."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/H01_2.png",
+          "caption": "Hyde & Knudsen (2001), Fig. 2(A–F). Regional responses after peripheral occlusion.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-21-08586.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Peripheral vision can drive peripheral remapping",
+      "body": [
+        "A local teaching signal should work in the periphery as well as at the center of gaze. Hyde and Knudsen tested this by interrupting central vision intermittently while imposing a 23° prismatic displacement on the peripheral visual field.",
+        "After 21 days, auditory timing changed more in the peripheral representation that experienced the displaced visual scene. The central representation, whose visual input was interrupted, adjusted less. Normal-vision measurements immediately before the manipulation established each region’s starting condition.",
+        "This result is difficult to explain by a teaching signal that depends exclusively on the accuracy of central foveation. It supports spatially distributed visual instruction. It does not establish that peripheral instruction and central instruction use completely separate neural pathways."
+      ],
+      "cite": "Hyde & Knudsen (2001)",
+      "refs": [
+        "Peter S. Hyde; Eric I. Knudsen (2001). A Topographic Instructive Signal Guides the Adjustment of the Auditory Space Map in the Optic Tectum. The Journal of Neuroscience 21(21):8586-8593. https://doi.org/10.1523/jneurosci.21-21-08586.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A local teaching signal should work in the periphery as well as at the center of gaze. Hyde and Knudsen tested this by interrupting central vision intermittently while imposing a 23° prismatic displacement on the peripheral visual field.",
+        "After 21 days, auditory timing changed more in the peripheral representation that experienced the displaced visual scene. The central representation, whose visual input was interrupted, adjusted less. Normal-vision measurements immediately before the manipulation established each region’s starting condition.",
+        "This result is difficult to explain by a teaching signal that depends exclusively on the accuracy of central foveation. It supports spatially distributed visual instruction. It does not establish that peripheral instruction and central instruction use completely separate neural pathways.",
+        "Foveation means directing the visual axis toward a target. A purely foveation-based signal would use the outcome of that movement as its teaching information."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/H01_3.png",
+          "caption": "Hyde & Knudsen (2001), Fig. 3(A–F). Displaced peripheral vision with interrupted central vision.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-21-08586.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Visual instruction does not require uniform map change",
+      "body": [
+        "The auditory map can adjust differently in regions subjected to different optical conditions. Hyde and Knudsen compared changes in the tectal representation of visually occluded and nonoccluded regions across their experimental manipulations.",
+        "In most experiments, the nonoccluded region changed more in the direction specified by its visual experience. The imposed displacements were 23°, but their effective instruction was regional rather than a command to move every auditory preference by one identical amount.",
+        "The findings support topographic instruction while allowing additional influences on map alignment. They do not prove that error is encoded as a dedicated firing-rate signal or identify the visual-to-auditory synaptic rule. Those are mechanistic proposals beyond the directly measured regional changes."
+      ],
+      "cite": "Hyde & Knudsen (2001)",
+      "refs": [
+        "Peter S. Hyde; Eric I. Knudsen (2001). A Topographic Instructive Signal Guides the Adjustment of the Auditory Space Map in the Optic Tectum. The Journal of Neuroscience 21(21):8586-8593. https://doi.org/10.1523/jneurosci.21-21-08586.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "The auditory map can adjust differently in regions subjected to different optical conditions. Hyde and Knudsen compared changes in the tectal representation of visually occluded and nonoccluded regions across their experimental manipulations.",
+        "In most experiments, the nonoccluded region changed more in the direction specified by its visual experience. The imposed displacements were 23°, but their effective instruction was regional rather than a command to move every auditory preference by one identical amount.",
+        "The findings support topographic instruction while allowing additional influences on map alignment. They do not prove that error is encoded as a dedicated firing-rate signal or identify the visual-to-auditory synaptic rule. Those are mechanistic proposals beyond the directly measured regional changes.",
+        "The experiment distinguishes the spatial pattern of instruction from the cellular implementation of learning. A topographic outcome does not uniquely specify a learning algorithm."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/H01_5.png",
+          "caption": "Hyde & Knudsen (2001), Fig. 5(A–B). Changes in occluded and nonoccluded map regions.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-21-08586.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Glutamate receptors support auditory excitation",
+      "body": [
+        "**Glutamate** is the excitatory transmitter considered in Feldman and Knudsen’s collicular pharmacology experiments. NMDA and non-NMDA receptors are glutamate-activated ion channels whose contributions can be tested by applying receptor antagonists near a recording site.",
+        "The authors used AP-5 to antagonize NMDA receptors and CNQX to antagonize non-NMDA receptors. In normal ICCls and ICX recordings, both drugs reduced auditory responses. Control and recovery measurements checked that the response change followed reversible local drug application.",
+        "An extracellular spike response measures the combined effect of synaptic currents and neuronal integration. Drug sensitivity establishes a receptor contribution to that response, not a direct count of receptors at an identified synapse. The normal recordings supplied the baseline for interpreting learned responses."
+      ],
+      "cite": "Feldman & Knudsen (1998)",
+      "refs": [
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Glutamate is the excitatory transmitter considered in Feldman and Knudsen’s collicular pharmacology experiments. NMDA and non-NMDA receptors are glutamate-activated ion channels whose contributions can be tested by applying receptor antagonists near a recording site.",
+        "The authors used AP-5 to antagonize NMDA receptors and CNQX to antagonize non-NMDA receptors. In normal ICCls and ICX recordings, both drugs reduced auditory responses. Control and recovery measurements checked that the response change followed reversible local drug application.",
+        "An extracellular spike response measures the combined effect of synaptic currents and neuronal integration. Drug sensitivity establishes a receptor contribution to that response, not a direct count of receptors at an identified synapse. The normal recordings supplied the baseline for interpreting learned responses.",
+        "Iontophoresis uses electrical current to eject charged drug molecules from a recording pipette. The drug acts locally, although its precise concentration at each synapse is not directly measured."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/F98_3.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 3(A–D). Receptor blockade in normal collicular recordings.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "AP-5 preferentially reduces newly learned responses",
+      "body": [
+        "Feldman and Knudsen compared normal and learned timing responses during local AP-5 application in ICX. **NMDA** names a class of glutamate receptor identified pharmacologically by N-methyl-D-aspartate sensitivity; AP-5 blocks its activation.",
+        "In a transition-state example, the control best ITD had shifted 13 µs from the normal transect value. Responses to learned timing values were preferentially reduced during AP-5 ejection at 10–40 nA, while control and recovery responses confirmed reversibility. The resulting tuning moved toward its normal component.",
+        "The result supports a greater NMDA-receptor contribution to expression of newly learned responses. Because the antagonist was applied after responses had developed, this experiment alone does not establish that NMDA receptors were necessary to induce the learning."
+      ],
+      "cite": "Feldman & Knudsen (1998)",
+      "refs": [
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Feldman and Knudsen compared normal and learned timing responses during local AP-5 application in ICX. NMDA names a class of glutamate receptor identified pharmacologically by N-methyl-D-aspartate sensitivity; AP-5 blocks its activation.",
+        "In a transition-state example, the control best ITD had shifted 13 µs from the normal transect value. Responses to learned timing values were preferentially reduced during AP-5 ejection at 10–40 nA, while control and recovery responses confirmed reversibility. The resulting tuning moved toward its normal component.",
+        "The result supports a greater NMDA-receptor contribution to expression of newly learned responses. Because the antagonist was applied after responses had developed, this experiment alone does not establish that NMDA receptors were necessary to induce the learning.",
+        "Expression is the ability of an established input to evoke a response during measurement. Induction is the process that originally changed the circuit; these are different causal questions."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/F98_5.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 5(A–C). AP-5 effects on transition-state tuning and spike timing.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Drug sensitivity follows the learned timing component",
+      "body": [
+        "A drug effect tied to one absolute ITD could mimic a selective effect on learning. Feldman and Knudsen therefore compared owls adapted in opposite directions and examined cases where the learned response occurred near zero ITD.",
+        "AP-5 sensitivity increased toward the adaptive side of the tuning curve in both prism directions. Preferential blockade also occurred when the learned response was at 0 µs. The authors examined response magnitude and unshifted ICX sites to test alternative explanations based on firing strength or stimulus timing alone.",
+        "These controls support a relationship between pharmacology and learned response identity. They do not demonstrate that the neuron labels an input as learned. Experience changes the circuit properties that determine how different inputs generate spikes."
+      ],
+      "cite": "Feldman & Knudsen (1998)",
+      "refs": [
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A drug effect tied to one absolute ITD could mimic a selective effect on learning. Feldman and Knudsen therefore compared owls adapted in opposite directions and examined cases where the learned response occurred near zero ITD.",
+        "AP-5 sensitivity increased toward the adaptive side of the tuning curve in both prism directions. Preferential blockade also occurred when the learned response was at 0 µs. The authors examined response magnitude and unshifted ICX sites to test alternative explanations based on firing strength or stimulus timing alone.",
+        "These controls support a relationship between pharmacology and learned response identity. They do not demonstrate that the neuron labels an input as learned. Experience changes the circuit properties that determine how different inputs generate spikes.",
+        "The adaptive direction reverses with prism direction. Selectivity that follows that reversal is stronger evidence than selectivity observed for only one physical stimulus range."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/F98_7.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 7(A–E). Controls for response size and stimulus timing.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "CNQX reduces both normal and learned responses",
+      "body": [
+        "**Non-NMDA receptors** in this experiment refer to the glutamate receptor currents sensitive to CNQX, interpreted primarily as AMPA-mediated excitation. AMPA receptors contribute depolarization that helps convert auditory synaptic input into neuronal firing.",
+        "At transition-state ICX sites in owls with 30–154 days of prism experience, CNQX generally reduced normal and learned responses similarly. At matched sites, AP-5 could produce a preferential reduction on the learned side. The contrasting drug effects therefore did not reflect a universal tendency for every antagonist to suppress learned responses more strongly.",
+        "Equal CNQX blockade does not establish that normal and learned synapses contain identical receptor mixtures. Reducing non-NMDA depolarization can also reduce the voltage-dependent contribution of NMDA receptors, complicating a simple interpretation based on isolated receptor currents."
+      ],
+      "cite": "Feldman & Knudsen (1998)",
+      "refs": [
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Non-NMDA receptors in this experiment refer to the glutamate receptor currents sensitive to CNQX, interpreted primarily as AMPA-mediated excitation. AMPA receptors contribute depolarization that helps convert auditory synaptic input into neuronal firing.",
+        "At transition-state ICX sites in owls with 30–154 days of prism experience, CNQX generally reduced normal and learned responses similarly. At matched sites, AP-5 could produce a preferential reduction on the learned side. The contrasting drug effects therefore did not reflect a universal tendency for every antagonist to suppress learned responses more strongly.",
+        "Equal CNQX blockade does not establish that normal and learned synapses contain identical receptor mixtures. Reducing non-NMDA depolarization can also reduce the voltage-dependent contribution of NMDA receptors, complicating a simple interpretation based on isolated receptor currents.",
+        "The measured endpoint is spikes. Interactions between excitatory receptor currents can make that endpoint differ from the effect of a blocker on one receptor class alone."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/F98_8.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 8(A–C). CNQX and AP-5 effects on transition-state tuning.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "NMDA currents depend on synaptic and membrane state",
+      "body": [
+        "NMDA-receptor currents depend on receptor activation and on the postsynaptic membrane’s electrical state. A **postsynaptic** neuron receives a synaptic input; depolarization makes its membrane voltage less negative and can increase the contribution of NMDA currents to excitation.",
+        "Feldman and Knudsen’s AP-5 experiments found greater sensitivity of newly learned ICX responses than of normal responses during 30–154 days of prism experience. Their interpretation allowed changes intrinsic to the synapse and changes in the surrounding circuit that altered the neuron’s voltage during a response.",
+        "The extracellular recordings did not directly measure receptor numbers, receptor subunits, or the NMDA-to-AMPA current ratio. Those mechanisms remain explanations consistent with the observed pharmacology. The established result is differential dependence of the spike response on NMDA-receptor activation."
+      ],
+      "cite": "Feldman & Knudsen (1998)",
+      "refs": [
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "NMDA-receptor currents depend on receptor activation and on the postsynaptic membrane’s electrical state. A postsynaptic neuron receives a synaptic input; depolarization makes its membrane voltage less negative and can increase the contribution of NMDA currents to excitation.",
+        "Feldman and Knudsen’s AP-5 experiments found greater sensitivity of newly learned ICX responses than of normal responses during 30–154 days of prism experience. Their interpretation allowed changes intrinsic to the synapse and changes in the surrounding circuit that altered the neuron’s voltage during a response.",
+        "The extracellular recordings did not directly measure receptor numbers, receptor subunits, or the NMDA-to-AMPA current ratio. Those mechanisms remain explanations consistent with the observed pharmacology. The established result is differential dependence of the spike response on NMDA-receptor activation.",
+        "The paper discusses voltage dependence as one reason that antagonist sensitivity cannot uniquely reveal receptor abundance. Mechanistic alternatives must remain distinct from the measured drug effect."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/F98_6.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 6(A–C). Functional NMDA sensitivity of learned responses.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Learned-response pharmacology changes with experience",
+      "body": [
+        "A newly acquired response need not retain its initial receptor dependence. Feldman and Knudsen tested ICX sites after more than 175 days of prism experience, when shifted auditory tuning had been established for a prolonged period.",
+        "AP-5 no longer preferentially blocked learned responses. Examples from owls with 259 and 386 days of experience showed more uniform reduction across the tuning curve. Normal response components remained measurable at the sites used for the within-site comparison.",
+        "The change is consistent with maturation of the circuit supporting learned responses. It does not mean NMDA receptors disappear: the drug still reduced auditory firing. The observation concerns loss of differential sensitivity between normal and learned inputs, rather than loss of every NMDA contribution."
+      ],
+      "cite": "Feldman & Knudsen (1998)",
+      "refs": [
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A newly acquired response need not retain its initial receptor dependence. Feldman and Knudsen tested ICX sites after more than 175 days of prism experience, when shifted auditory tuning had been established for a prolonged period.",
+        "AP-5 no longer preferentially blocked learned responses. Examples from owls with 259 and 386 days of experience showed more uniform reduction across the tuning curve. Normal response components remained measurable at the sites used for the within-site comparison.",
+        "The change is consistent with maturation of the circuit supporting learned responses. It does not mean NMDA receptors disappear: the drug still reduced auditory firing. The observation concerns loss of differential sensitivity between normal and learned inputs, rather than loss of every NMDA contribution.",
+        "An equal drug effect on two response components can emerge from changes in one component. It should not be interpreted as proof that both components changed equally."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/F98_9.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 9(A–C). AP-5 effects after extended prism experience.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Age and experience duration are confounded",
+      "body": [
+        "Learning-associated pharmacology changes over a timescale that overlaps development. Feldman and Knudsen plotted differential AP-5 blockade against both age and the number of days wearing prisms, retaining the relationship between these two variables.",
+        "The preferential effect on learned responses was absent after roughly 235 days of age, corresponding to about 175 days of prism experience in this preparation. Because prisms were generally attached at similar ages, older animals also had longer exposure.",
+        "The study therefore cannot determine whether chronological maturation, continued sensory experience, or both caused the change. A proposed increase in AMPA contribution, decrease in NMDA contribution, or altered inhibition requires further evidence. The measured correlation should not be converted into a definitive developmental switch."
+      ],
+      "cite": "Feldman & Knudsen (1998)",
+      "refs": [
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Learning-associated pharmacology changes over a timescale that overlaps development. Feldman and Knudsen plotted differential AP-5 blockade against both age and the number of days wearing prisms, retaining the relationship between these two variables.",
+        "The preferential effect on learned responses was absent after roughly 235 days of age, corresponding to about 175 days of prism experience in this preparation. Because prisms were generally attached at similar ages, older animals also had longer exposure.",
+        "The study therefore cannot determine whether chronological maturation, continued sensory experience, or both caused the change. A proposed increase in AMPA contribution, decrease in NMDA contribution, or altered inhibition requires further evidence. The measured correlation should not be converted into a definitive developmental switch.",
+        "Separating age from experience would require animals of comparable age with different exposure histories, or comparable exposure durations beginning at different ages."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/F98_11.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 11. AP-5 asymmetry versus age and prism experience.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Upstream responses lack the learned pharmacological bias",
+      "body": [
+        "The lateral shell of ICC, called **ICCls**, provides timing-specific input to ICX. Feldman and Knudsen tested whether the pharmacological asymmetry of learned responses was inherited from this upstream representation.",
+        "In prism-reared owls, AP-5 and CNQX generally reduced the adaptive and nonadaptive flanks of ICCls tuning similarly. Ejection currents were varied, and the direction of the downstream ICX adjustment provided the adaptive reference. These recordings contrasted with the preferential AP-5 effect on learned ICX responses.",
+        "The comparison places the distinctive expression of learned-response pharmacology downstream of the tested ICCls responses. It does not exclude every possible upstream change, because the experiments sampled particular sites and measured spikes rather than all presynaptic inputs. The conclusion is a localized difference in the tested functional response."
+      ],
+      "cite": "Feldman & Knudsen (1998)",
+      "refs": [
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "The lateral shell of ICC, called ICCls, provides timing-specific input to ICX. Feldman and Knudsen tested whether the pharmacological asymmetry of learned responses was inherited from this upstream representation.",
+        "In prism-reared owls, AP-5 and CNQX generally reduced the adaptive and nonadaptive flanks of ICCls tuning similarly. Ejection currents were varied, and the direction of the downstream ICX adjustment provided the adaptive reference. These recordings contrasted with the preferential AP-5 effect on learned ICX responses.",
+        "The comparison places the distinctive expression of learned-response pharmacology downstream of the tested ICCls responses. It does not exclude every possible upstream change, because the experiments sampled particular sites and measured spikes rather than all presynaptic inputs. The conclusion is a localized difference in the tested functional response.",
+        "An adaptive flank is the side of a tuning curve toward the ITD values instructed by the prism displacement. It is defined by the animal’s experimental condition."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/F98_4.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 4(A–D). AP-5 and CNQX effects in prism-reared ICCls.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "GABAergic inhibition limits expression of excitation",
+      "body": [
+        "**GABA**, gamma-aminobutyric acid, mediates inhibitory input in the ICX experiments of Zheng and Knudsen. GABA_A receptors are the receptor class blocked by bicuculline. Reducing their action tests how inhibition shapes the spike responses generated by auditory excitation.",
+        "In a normal owl, bicuculline increased responses while leaving the weighted timing preference approximately unchanged. During early prism adaptation, the same manipulation could shift the response toward learned ITDs. Control, drug, and recovery periods linked these changes to reversible local application.",
+        "A response revealed by disinhibition was already supported by functional excitatory input. The drug did not need to create a new projection during the recording session. The result separates the available excitatory information from the timing information expressed in spikes when inhibition is active."
+      ],
+      "cite": "Zheng & Knudsen (2001)",
+      "refs": [
+        "Weimin Zheng; Eric I. Knudsen (2001). GABAergic Inhibition Antagonizes Adaptive Adjustment of the Owl's Auditory Space Map during the Initial Phase of Plasticity. The Journal of Neuroscience 21(12):4356-4365. https://doi.org/10.1523/jneurosci.21-12-04356.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "GABA, gamma-aminobutyric acid, mediates inhibitory input in the ICX experiments of Zheng and Knudsen. GABAA receptors are the receptor class blocked by bicuculline. Reducing their action tests how inhibition shapes the spike responses generated by auditory excitation.",
+        "In a normal owl, bicuculline increased responses while leaving the weighted timing preference approximately unchanged. During early prism adaptation, the same manipulation could shift the response toward learned ITDs. Control, drug, and recovery periods linked these changes to reversible local application.",
+        "A response revealed by disinhibition was already supported by functional excitatory input. The drug did not need to create a new projection during the recording session. The result separates the available excitatory information from the timing information expressed in spikes when inhibition is active.",
+        "Disinhibition is removal or reduction of inhibition. A weighted-average ITD summarizes the distribution of responses across timing values rather than identifying only the strongest point."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/Z01_2.png",
+          "caption": "Zheng & Knudsen (2001), Fig. 2(a–d). Bicuculline effects in normal and adapting ICX.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-12-04356.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Early inhibition preferentially masks learned inputs",
+      "body": [
+        "Early adaptive excitation can remain partly hidden by inhibition. Zheng and Knudsen compared bicuculline-induced changes on the adaptive and nonadaptive sides of ICX tuning curves in prism-wearing and normal owls.",
+        "During the initial phase, GABAergic inhibition suppressed the learned side more strongly. At a representative site, removing inhibition shifted the weighted preference from approximately 13 to 21 µs in the adaptive direction. Recovery restored the preference toward its pre-drug value.",
+        "The additional adaptive shift means that the excitatory circuit had changed more than the ordinary spike tuning revealed. Inhibition therefore opposed expression of the new mapping at this stage. This does not establish that inhibition prevented every underlying learning event; the revealed response indicates that some adaptive excitation had already formed."
+      ],
+      "cite": "Zheng & Knudsen (2001)",
+      "refs": [
+        "Weimin Zheng; Eric I. Knudsen (2001). GABAergic Inhibition Antagonizes Adaptive Adjustment of the Owl's Auditory Space Map during the Initial Phase of Plasticity. The Journal of Neuroscience 21(12):4356-4365. https://doi.org/10.1523/jneurosci.21-12-04356.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Early adaptive excitation can remain partly hidden by inhibition. Zheng and Knudsen compared bicuculline-induced changes on the adaptive and nonadaptive sides of ICX tuning curves in prism-wearing and normal owls.",
+        "During the initial phase, GABAergic inhibition suppressed the learned side more strongly. At a representative site, removing inhibition shifted the weighted preference from approximately 13 to 21 µs in the adaptive direction. Recovery restored the preference toward its pre-drug value.",
+        "The additional adaptive shift means that the excitatory circuit had changed more than the ordinary spike tuning revealed. Inhibition therefore opposed expression of the new mapping at this stage. This does not establish that inhibition prevented every underlying learning event; the revealed response indicates that some adaptive excitation had already formed.",
+        "The asymmetric effect concerns which timing inputs are suppressed, not simply how much total firing increases when an inhibitory receptor is blocked."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/Z01_3.png",
+          "caption": "Zheng & Knudsen (2001), Fig. 3(a–b). Asymmetric suppression during initial map adjustment.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-12-04356.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "NMDA blockade does not remove inhibitory asymmetry",
+      "body": [
+        "A voltage-dependent interaction between excitation and inhibition could potentially explain an asymmetric bicuculline effect. Zheng and Knudsen tested this possibility by blocking NMDA receptors with AP-5 while measuring the effect of removing GABA_A-mediated inhibition.",
+        "At an ICX site with preferential NMDA support for learned responses, AP-5 shifted weighted tuning about 8 µs in the nonadaptive direction. Adding bicuculline nevertheless revealed an asymmetric increase toward adaptive timing values. The disinhibitory effect therefore persisted when NMDA-receptor activation was reduced.",
+        "The result argues that the learned-side suppression was not merely an indirect consequence of NMDA voltage dependence. It supports an ITD-specific inhibitory influence. It does not directly identify the inhibitory neuron or demonstrate the anatomy of its connection to the recorded population."
+      ],
+      "cite": "Zheng & Knudsen (2001)",
+      "refs": [
+        "Weimin Zheng; Eric I. Knudsen (2001). GABAergic Inhibition Antagonizes Adaptive Adjustment of the Owl's Auditory Space Map during the Initial Phase of Plasticity. The Journal of Neuroscience 21(12):4356-4365. https://doi.org/10.1523/jneurosci.21-12-04356.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A voltage-dependent interaction between excitation and inhibition could potentially explain an asymmetric bicuculline effect. Zheng and Knudsen tested this possibility by blocking NMDA receptors with AP-5 while measuring the effect of removing GABAA-mediated inhibition.",
+        "At an ICX site with preferential NMDA support for learned responses, AP-5 shifted weighted tuning about 8 µs in the nonadaptive direction. Adding bicuculline nevertheless revealed an asymmetric increase toward adaptive timing values. The disinhibitory effect therefore persisted when NMDA-receptor activation was reduced.",
+        "The result argues that the learned-side suppression was not merely an indirect consequence of NMDA voltage dependence. It supports an ITD-specific inhibitory influence. It does not directly identify the inhibitory neuron or demonstrate the anatomy of its connection to the recorded population.",
+        "Sequential receptor blockade compares excitation and inhibition within the same local preparation. The surviving effect is evidence against a mechanism requiring the blocked receptor contribution."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/Z01_4.png",
+          "caption": "Zheng & Knudsen (2001), Fig. 4(a–f). Sequential AP-5 and bicuculline effects.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-12-04356.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Inhibitory bias can occur without selective NMDA support",
+      "body": [
+        "Not every adapting ICX site exhibits greater NMDA dependence for learned responses. Zheng and Knudsen examined a site where AP-5 reduced normal and learned responses similarly and did not shift the weighted timing preference.",
+        "Bicuculline still produced a greater increase on the adaptive side of the tuning curve, including when NMDA receptors were blocked. Thus, selective GABAergic suppression of learned timing inputs could exist without a corresponding selective AP-5 effect at that recording site.",
+        "The two pharmacological properties are therefore separable. Differential inhibition cannot be inferred solely from the presence of differential NMDA sensitivity, and absence of the latter does not establish absence of the former. The experiment concerns expressed input weighting, not a direct measurement of receptor placement on identified synapses."
+      ],
+      "cite": "Zheng & Knudsen (2001)",
+      "refs": [
+        "Weimin Zheng; Eric I. Knudsen (2001). GABAergic Inhibition Antagonizes Adaptive Adjustment of the Owl's Auditory Space Map during the Initial Phase of Plasticity. The Journal of Neuroscience 21(12):4356-4365. https://doi.org/10.1523/jneurosci.21-12-04356.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Not every adapting ICX site exhibits greater NMDA dependence for learned responses. Zheng and Knudsen examined a site where AP-5 reduced normal and learned responses similarly and did not shift the weighted timing preference.",
+        "Bicuculline still produced a greater increase on the adaptive side of the tuning curve, including when NMDA receptors were blocked. Thus, selective GABAergic suppression of learned timing inputs could exist without a corresponding selective AP-5 effect at that recording site.",
+        "The two pharmacological properties are therefore separable. Differential inhibition cannot be inferred solely from the presence of differential NMDA sensitivity, and absence of the latter does not establish absence of the former. The experiment concerns expressed input weighting, not a direct measurement of receptor placement on identified synapses.",
+        "Normal and learned components are defined by stimulus timing and the anatomical reference. Their inhibitory and excitatory pharmacology need not mature at identical rates."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/Z01_5.png",
+          "caption": "Zheng & Knudsen (2001), Fig. 5(a–f). Disinhibition at a site with uniform AP-5 effects.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-12-04356.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Inhibition changes its bias as the map consolidates",
+      "body": [
+        "The influence of inhibition depends on the stage of auditory-map adaptation. Zheng and Knudsen compared the effects of bicuculline across early adjustment, established adjustment, and normal auditory maps.",
+        "During the initial phase, disinhibition favored learned timing values. At later stages represented in the comparison, inhibition preferentially suppressed the original normal inputs, helping the learned mapping dominate expressed tuning. Both stages involved an inhibitory contribution, but its timing selectivity differed.",
+        "These observations support a changing relationship between excitatory and inhibitory input. The proposed explanation is that inhibitory connectivity adjusts differently from adaptive excitation. The recordings do not directly follow the same inhibitory synapse from one stage to another, so the developmental sequence is inferred from measurements across conditions."
+      ],
+      "cite": "Zheng & Knudsen (2001)",
+      "refs": [
+        "Weimin Zheng; Eric I. Knudsen (2001). GABAergic Inhibition Antagonizes Adaptive Adjustment of the Owl's Auditory Space Map during the Initial Phase of Plasticity. The Journal of Neuroscience 21(12):4356-4365. https://doi.org/10.1523/jneurosci.21-12-04356.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "The influence of inhibition depends on the stage of auditory-map adaptation. Zheng and Knudsen compared the effects of bicuculline across early adjustment, established adjustment, and normal auditory maps.",
+        "During the initial phase, disinhibition favored learned timing values. At later stages represented in the comparison, inhibition preferentially suppressed the original normal inputs, helping the learned mapping dominate expressed tuning. Both stages involved an inhibitory contribution, but its timing selectivity differed.",
+        "These observations support a changing relationship between excitatory and inhibitory input. The proposed explanation is that inhibitory connectivity adjusts differently from adaptive excitation. The recordings do not directly follow the same inhibitory synapse from one stage to another, so the developmental sequence is inferred from measurements across conditions.",
+        "A functional bias can reverse without inhibition becoming globally stronger or weaker. What matters for map expression is the relation between inhibitory tuning and the competing excitatory inputs."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/Z01_7.png",
+          "caption": "Zheng & Knudsen (2001), Fig. 7(a–b). Inhibitory effects across stages of map adjustment.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-12-04356.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Tracer anatomy identifies the ICC-to-ICX projection",
+      "body": [
+        "**Anterograde tracing** labels projections from neuronal cell bodies toward their axon terminals. DeBello and colleagues injected biocytin into timing-defined ICC sites and reconstructed the labeled axons extending into ICX.",
+        "A calcium-binding-protein stain identified the ICC core as an anatomical reference. Biocytin labeling revealed the projection field and individual bouton-bearing axons. The published sections include scale bars of 500 µm for anatomical organization and 100 µm for the higher-magnification projection image.",
+        "This approach measures the physical distribution of axons rather than their momentary firing. It can distinguish a change in projection geometry from a change in physiological weighting alone. The label does not directly measure synaptic strength, transmitter release, or the behavior of the traced axon during a sound."
+      ],
+      "cite": "DeBello et al. (2001)",
+      "refs": [
+        "William M. DeBello; Daniel E. Feldman; Eric I. Knudsen (2001). Adaptive Axonal Remodeling in the Midbrain Auditory Space Map. The Journal of Neuroscience 21(9):3161-3174. https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      ],
+      "transcript": [
+        "Anterograde tracing labels projections from neuronal cell bodies toward their axon terminals. DeBello and colleagues injected biocytin into timing-defined ICC sites and reconstructed the labeled axons extending into ICX.",
+        "A calcium-binding-protein stain identified the ICC core as an anatomical reference. Biocytin labeling revealed the projection field and individual bouton-bearing axons. The published sections include scale bars of 500 µm for anatomical organization and 100 µm for the higher-magnification projection image.",
+        "This approach measures the physical distribution of axons rather than their momentary firing. It can distinguish a change in projection geometry from a change in physiological weighting alone. The label does not directly measure synaptic strength, transmitter release, or the behavior of the traced axon during a sound.",
+        "A bouton is a localized swelling along or at the end of an axon, commonly associated with a presynaptic release site. Its appearance is anatomical evidence, not a measurement of release efficacy."
+      ],
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/D01_2.png",
+        "caption": "DeBello et al. (2001), Fig. 2. Histological tracing of central-to-external collicular axons.",
+        "source_url": "https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      }
+    },
+    {
+      "title": "Normal development refines the projection field",
+      "body": [
+        "DeBello and colleagues compared ICC-to-ICX projections in normal juvenile and adult owls using equivalent tracing procedures. A **projection field** is the spatial region containing axons from the labeled source population.",
+        "Adult fields were narrower and sparser than juvenile fields. The reduction was strongest on the caudal flank, where total axonal labeling was about 68% lower in adults. Caudal means toward the rear; rostral means toward the front. The peak region and rostral flank changed less.",
+        "The pattern supports selective developmental refinement rather than uniform scaling of the entire projection. Because different animals supplied the age groups, the study measures net anatomical differences rather than observing individual axons retract. The result provides the normal developmental reference for evaluating prism-dependent remodeling."
+      ],
+      "cite": "DeBello et al. (2001)",
+      "refs": [
+        "William M. DeBello; Daniel E. Feldman; Eric I. Knudsen (2001). Adaptive Axonal Remodeling in the Midbrain Auditory Space Map. The Journal of Neuroscience 21(9):3161-3174. https://doi.org/10.1523/jneurosci.21-09-03161.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "DeBello and colleagues compared ICC-to-ICX projections in normal juvenile and adult owls using equivalent tracing procedures. A projection field is the spatial region containing axons from the labeled source population.",
+        "Adult fields were narrower and sparser than juvenile fields. The reduction was strongest on the caudal flank, where total axonal labeling was about 68% lower in adults. Caudal means toward the rear; rostral means toward the front. The peak region and rostral flank changed less.",
+        "The pattern supports selective developmental refinement rather than uniform scaling of the entire projection. Because different animals supplied the age groups, the study measures net anatomical differences rather than observing individual axons retract. The result provides the normal developmental reference for evaluating prism-dependent remodeling.",
+        "Spatially selective loss can sharpen a projection without moving every surviving axon. The cross-sectional comparison does not distinguish each individual elimination event."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/D01_6.png",
+          "caption": "DeBello et al. (2001), Fig. 6(A–B). Juvenile and adult distributions of traced axons.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Prism experience changes where projections extend",
+      "body": [
+        "DeBello and colleagues compared labeled ICC-to-ICX projections in prism-reared owls with the normal adult pattern. Injection sites represented similar timing values, so differences in target distribution could be related to the direction of the adaptive map shift.",
+        "Projections associated with rostralward physiological shifts extended more strongly toward the rostral side of ICX. Caudalward shifts were associated with a different pattern of extension and preservation. The approximately 23° optical manipulation therefore corresponded to spatially appropriate anatomical changes rather than indiscriminate expansion.",
+        "The tracing supports remodeling of the auditory input pathway. It does not establish that every additional labeled branch is responsible for a measured learned spike response. The anatomical and physiological correspondence constrains the mechanism without identifying the contribution of each individual connection."
+      ],
+      "cite": "DeBello et al. (2001)",
+      "refs": [
+        "William M. DeBello; Daniel E. Feldman; Eric I. Knudsen (2001). Adaptive Axonal Remodeling in the Midbrain Auditory Space Map. The Journal of Neuroscience 21(9):3161-3174. https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      ],
+      "transcript": [
+        "DeBello and colleagues compared labeled ICC-to-ICX projections in prism-reared owls with the normal adult pattern. Injection sites represented similar timing values, so differences in target distribution could be related to the direction of the adaptive map shift.",
+        "Projections associated with rostralward physiological shifts extended more strongly toward the rostral side of ICX. Caudalward shifts were associated with a different pattern of extension and preservation. The approximately 23° optical manipulation therefore corresponded to spatially appropriate anatomical changes rather than indiscriminate expansion.",
+        "The tracing supports remodeling of the auditory input pathway. It does not establish that every additional labeled branch is responsible for a measured learned spike response. The anatomical and physiological correspondence constrains the mechanism without identifying the contribution of each individual connection.",
+        "The direction of map adjustment differs between the two sides of the brain. Anatomical comparisons must therefore distinguish rostralward and caudalward shifts rather than pooling them."
+      ],
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/D01_9.png",
+        "caption": "DeBello et al. (2001), Fig. 9. Projection distributions in prism-adapted owls.",
+        "source_url": "https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      }
+    },
+    {
+      "title": "Adaptive expansion exceeds normal juvenile labeling",
+      "body": [
+        "A broad projection in a prism-reared adult could reflect retained juvenile axons or growth beyond the juvenile pattern. DeBello and colleagues compared the regional amounts of labeled axon with both normal juvenile and normal adult projections.",
+        "For rostralward shifts, the adaptive flank contained about 2.3 times the axonal density and bouton number measured on the corresponding juvenile flank. This exceeded simple preservation of the normal juvenile distribution. The comparisons used projection subregions defined relative to the normal peak.",
+        "The result supports net elaboration in the adaptive region. It does not directly distinguish branch formation from all other microscopic contributions to increased labeled length, nor does it measure the strength of the resulting synapses. The regional increase is the established anatomical finding."
+      ],
+      "cite": "DeBello et al. (2001)",
+      "refs": [
+        "William M. DeBello; Daniel E. Feldman; Eric I. Knudsen (2001). Adaptive Axonal Remodeling in the Midbrain Auditory Space Map. The Journal of Neuroscience 21(9):3161-3174. https://doi.org/10.1523/jneurosci.21-09-03161.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A broad projection in a prism-reared adult could reflect retained juvenile axons or growth beyond the juvenile pattern. DeBello and colleagues compared the regional amounts of labeled axon with both normal juvenile and normal adult projections.",
+        "For rostralward shifts, the adaptive flank contained about 2.3 times the axonal density and bouton number measured on the corresponding juvenile flank. This exceeded simple preservation of the normal juvenile distribution. The comparisons used projection subregions defined relative to the normal peak.",
+        "The result supports net elaboration in the adaptive region. It does not directly distinguish branch formation from all other microscopic contributions to increased labeled length, nor does it measure the strength of the resulting synapses. The regional increase is the established anatomical finding.",
+        "Preservation predicts an adult retaining approximately the earlier anatomical amount. An increase beyond the juvenile reference requires an additional net contribution to the projection."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/D01_10.png",
+          "caption": "DeBello et al. (2001), Fig. 10(A–B). Prism-reared projection fields compared with age controls.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Adaptive axons carry presynaptic boutons",
+      "body": [
+        "An additional axon branch is more relevant to circuit function when it contains potential synaptic contacts. DeBello and colleagues examined the labeled axons in the adaptive flank and at the peak of the normal ICC-to-ICX projection.",
+        "The prism-associated axons were branched and carried boutons. The original micrographs retain a 20 µm scale bar. Bouton-bearing axons were present in the newly expanded region as well as in the normal projection region, linking altered projection geometry with potential presynaptic input.",
+        "The anatomy supports an adaptive circuit containing opportunities for synaptic transmission. A bouton visible by light microscopy does not reveal its receptor partners or its functional efficacy. The inference of synaptogenesis relies on the anatomical characterization and prior evidence about labeled boutons, rather than a direct recording from each contact."
+      ],
+      "cite": "DeBello et al. (2001)",
+      "refs": [
+        "William M. DeBello; Daniel E. Feldman; Eric I. Knudsen (2001). Adaptive Axonal Remodeling in the Midbrain Auditory Space Map. The Journal of Neuroscience 21(9):3161-3174. https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      ],
+      "transcript": [
+        "An additional axon branch is more relevant to circuit function when it contains potential synaptic contacts. DeBello and colleagues examined the labeled axons in the adaptive flank and at the peak of the normal ICC-to-ICX projection.",
+        "The prism-associated axons were branched and carried boutons. The original micrographs retain a 20 µm scale bar. Bouton-bearing axons were present in the newly expanded region as well as in the normal projection region, linking altered projection geometry with potential presynaptic input.",
+        "The anatomy supports an adaptive circuit containing opportunities for synaptic transmission. A bouton visible by light microscopy does not reveal its receptor partners or its functional efficacy. The inference of synaptogenesis relies on the anatomical characterization and prior evidence about labeled boutons, rather than a direct recording from each contact.",
+        "A presynaptic structure belongs to the transmitting side of a synapse. The receiving dendrite and its receptor currents require additional methods to characterize."
+      ],
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/D01_11.png",
+        "caption": "DeBello et al. (2001), Fig. 11. Bouton-bearing axons in normal and prism-reared ICX.",
+        "source_url": "https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      }
+    },
+    {
+      "title": "Bouton distributions follow adaptive projection changes",
+      "body": [
+        "A circuit can change its number of potential contacts by changing axon length, bouton frequency along axons, or both. DeBello and colleagues quantified bouton distributions together with the spatial distribution of traced projection axons.",
+        "Prism-reared cases contained increased bouton labeling in the adaptive portions of the projection. The analysis compared rostralward and caudalward shifts with the normal juvenile pattern and examined frequency along measured axonal segments. The regional increase corresponded to the projection remodeling rather than a uniform addition throughout ICX.",
+        "These measures describe structural opportunities for auditory input. They do not establish the amount of glutamate released per bouton or the postsynaptic current per contact. A larger anatomical projection can coexist with physiological suppression when inhibitory input or synaptic efficacy limits its expression."
+      ],
+      "cite": "DeBello et al. (2001)",
+      "refs": [
+        "William M. DeBello; Daniel E. Feldman; Eric I. Knudsen (2001). Adaptive Axonal Remodeling in the Midbrain Auditory Space Map. The Journal of Neuroscience 21(9):3161-3174. https://doi.org/10.1523/jneurosci.21-09-03161.2001",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "A circuit can change its number of potential contacts by changing axon length, bouton frequency along axons, or both. DeBello and colleagues quantified bouton distributions together with the spatial distribution of traced projection axons.",
+        "Prism-reared cases contained increased bouton labeling in the adaptive portions of the projection. The analysis compared rostralward and caudalward shifts with the normal juvenile pattern and examined frequency along measured axonal segments. The regional increase corresponded to the projection remodeling rather than a uniform addition throughout ICX.",
+        "These measures describe structural opportunities for auditory input. They do not establish the amount of glutamate released per bouton or the postsynaptic current per contact. A larger anatomical projection can coexist with physiological suppression when inhibitory input or synaptic efficacy limits its expression.",
+        "Bouton frequency is the number of boutons per measured axonal length. It differs from the total number of boutons contributed by an entire projection field."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/D01_12.png",
+          "caption": "DeBello et al. (2001), Fig. 12. Regional bouton distributions and bouton frequency.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "The normal projection survives alongside adaptive inputs",
+      "body": [
+        "Prism adaptation does not require complete removal of the original auditory pathway. DeBello and colleagues found that axonal and bouton labeling around the peak of the normal projection remained comparable to, or greater than, that in normal control groups.",
+        "Prism-reared owls therefore retained the anatomical substrate for normal timing inputs while also possessing appropriately placed adaptive projections. The spatial comparisons used the same normal-peak reference and separated rostralward from caudalward map shifts.",
+        "Coexistence of these projections provides a plausible substrate for recovery after prism removal. It is not proof that the retained contacts alone explain recovery, because their synaptic strengths and inhibitory gating were not measured by the tracer. Anatomical persistence and physiological expression are distinct properties of a circuit."
+      ],
+      "cite": "DeBello et al. (2001)",
+      "refs": [
+        "William M. DeBello; Daniel E. Feldman; Eric I. Knudsen (2001). Adaptive Axonal Remodeling in the Midbrain Auditory Space Map. The Journal of Neuroscience 21(9):3161-3174. https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      ],
+      "transcript": [
+        "Prism adaptation does not require complete removal of the original auditory pathway. DeBello and colleagues found that axonal and bouton labeling around the peak of the normal projection remained comparable to, or greater than, that in normal control groups.",
+        "Prism-reared owls therefore retained the anatomical substrate for normal timing inputs while also possessing appropriately placed adaptive projections. The spatial comparisons used the same normal-peak reference and separated rostralward from caudalward map shifts.",
+        "Coexistence of these projections provides a plausible substrate for recovery after prism removal. It is not proof that the retained contacts alone explain recovery, because their synaptic strengths and inhibitory gating were not measured by the tracer. Anatomical persistence and physiological expression are distinct properties of a circuit.",
+        "A pathway can persist anatomically while contributing little to the measured spike response. Re-expression can require changes in functional weighting even when no new axon is necessary."
+      ],
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/D01_15.png",
+        "caption": "DeBello et al. (2001), Fig. 15(A–B). Normal projection regions retained in prism-reared owls.",
+        "source_url": "https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      }
+    },
+    {
+      "title": "Adult hunting increases expressed map plasticity",
+      "body": [
+        "Bergan and colleagues tested whether an ecologically important behavior could increase adult auditory plasticity. Adult owls experienced 17° prisms while either receiving dead mice or hunting live mice during one-hour daily feeding sessions in communal aviaries.",
+        "After 10 weeks without hunting, the median map shift was about 5 µs. With hunting, it was about 25 µs, approximately five times larger. A separate group introduced directly to hunting showed a similar 26 µs median shift after eight weeks, reducing concern that previous prism exposure alone explained the effect.",
+        "Hunting increased adult adaptation but did not restore the full juvenile response. The experiment changed several features of experience together and did not isolate a particular neuromodulator as the causal signal."
+      ],
+      "cite": "Bergan et al. (2005)",
+      "refs": [
+        "Joseph F. Bergan; Peter Ro; Daniel Ro; Eric I. Knudsen (2005). Hunting Increases Adaptive Auditory Map Plasticity in Adult Barn Owls. The Journal of Neuroscience 25(42):9816-9820. https://doi.org/10.1523/jneurosci.2533-05.2005",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Bergan and colleagues tested whether an ecologically important behavior could increase adult auditory plasticity. Adult owls experienced 17° prisms while either receiving dead mice or hunting live mice during one-hour daily feeding sessions in communal aviaries.",
+        "After 10 weeks without hunting, the median map shift was about 5 µs. With hunting, it was about 25 µs, approximately five times larger. A separate group introduced directly to hunting showed a similar 26 µs median shift after eight weeks, reducing concern that previous prism exposure alone explained the effect.",
+        "Hunting increased adult adaptation but did not restore the full juvenile response. The experiment changed several features of experience together and did not isolate a particular neuromodulator as the causal signal.",
+        "The predicted full shift for the 17-degree displacement was approximately 42.5 microseconds. The adult hunting response was substantial but remained incomplete."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/G05_2.png",
+          "caption": "Bergan et al. (2005), Fig. 2(A–B). Adult timing-map shifts with and without hunting.",
+          "source_url": "https://doi.org/10.1523/jneurosci.2533-05.2005"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Hunting produces more consistent timing-map shifts",
+      "body": [
+        "Bergan and colleagues recorded tectal responses to 50 ms broadband noise bursts delivered independently to the two ears. The 2–10 kHz stimuli were presented 20–30 dB above auditory threshold, while visual receptive fields established the normal timing reference.",
+        "In a representative adult, 10 weeks of prism experience without hunting produced a small shift. After normal calibration was restored and an opposite displacement was paired with hunting, responses shifted substantially farther and individual sites agreed more consistently with the adaptive mapping.",
+        "The raster displays and population tuning therefore connect the behavioral condition with neuronal response organization. The recording measures sensory tuning under controlled stimulation; it does not directly observe the signals that occurred during each prey strike or identify the teaching event within a hunting session."
+      ],
+      "cite": "Bergan et al. (2005)",
+      "refs": [
+        "Joseph F. Bergan; Peter Ro; Daniel Ro; Eric I. Knudsen (2005). Hunting Increases Adaptive Auditory Map Plasticity in Adult Barn Owls. The Journal of Neuroscience 25(42):9816-9820. https://doi.org/10.1523/jneurosci.2533-05.2005",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "Bergan and colleagues recorded tectal responses to 50 ms broadband noise bursts delivered independently to the two ears. The 2–10 kHz stimuli were presented 20–30 dB above auditory threshold, while visual receptive fields established the normal timing reference.",
+        "In a representative adult, 10 weeks of prism experience without hunting produced a small shift. After normal calibration was restored and an opposite displacement was paired with hunting, responses shifted substantially farther and individual sites agreed more consistently with the adaptive mapping.",
+        "The raster displays and population tuning therefore connect the behavioral condition with neuronal response organization. The recording measures sensory tuning under controlled stimulation; it does not directly observe the signals that occurred during each prey strike or identify the teaching event within a hunting session.",
+        "A raster display marks individual spike times across repeated stimulus presentations. Population tuning combines the timing preferences of multiple recording sites."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/G05_1.png",
+          "caption": "Bergan et al. (2005), Fig. 1(A–F). Adult neural responses before and after hunting experience.",
+          "source_url": "https://doi.org/10.1523/jneurosci.2533-05.2005"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Improved prey capture accompanies auditory remapping",
+      "body": [
+        "**Strike success** is the proportion of attempts in which the owl captures the target mouse. Bergan and colleagues measured this behavioral outcome while adult owls hunted with prismatic displacement, linking neural adjustment with a natural localization task.",
+        "Average success was about 89% without prisms and fell to about 27% immediately after prism attachment. During subsequent hunting experience, improved capture performance covaried with the amount of adaptive timing-map shift. The prism condition challenged cross-modal localization during an action with a clear behavioral consequence.",
+        "The association supports the functional relevance of auditory remapping. It does not establish that map adjustment was the only contributor to improved capture, because movement strategies and other sensory processes could also change. Neural tuning and behavior were related outcomes, not interchangeable measurements."
+      ],
+      "cite": "Bergan et al. (2005)",
+      "refs": [
+        "Joseph F. Bergan; Peter Ro; Daniel Ro; Eric I. Knudsen (2005). Hunting Increases Adaptive Auditory Map Plasticity in Adult Barn Owls. The Journal of Neuroscience 25(42):9816-9820. https://doi.org/10.1523/jneurosci.2533-05.2005"
+      ],
+      "transcript": [
+        "Strike success is the proportion of attempts in which the owl captures the target mouse. Bergan and colleagues measured this behavioral outcome while adult owls hunted with prismatic displacement, linking neural adjustment with a natural localization task.",
+        "Average success was about 89% without prisms and fell to about 27% immediately after prism attachment. During subsequent hunting experience, improved capture performance covaried with the amount of adaptive timing-map shift. The prism condition challenged cross-modal localization during an action with a clear behavioral consequence.",
+        "The association supports the functional relevance of auditory remapping. It does not establish that map adjustment was the only contributor to improved capture, because movement strategies and other sensory processes could also change. Neural tuning and behavior were related outcomes, not interchangeable measurements.",
+        "The study compared change in strike performance with change in the map. Correlation constrains the functional interpretation but does not replace a selective causal manipulation."
+      ],
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/G05_3.png",
+        "caption": "Bergan et al. (2005), Fig. 3. Map adjustment versus improvement in strike success.",
+        "source_url": "https://doi.org/10.1523/jneurosci.2533-05.2005"
+      }
+    },
+    {
+      "title": "Natural experience changes the conditions for learning",
+      "body": [
+        "The hunting manipulation preserved many aspects of the adult owls’ environment while changing the task of obtaining food. Both groups had one-hour feeding periods, lived in aviaries, and oriented and flew toward mice. Only the hunting condition required capturing live prey.",
+        "Live mice supplied movement and rustling sounds, coupled visual and auditory information, and a consequence for inaccurate strikes. Adult map shifts increased from roughly 5 to 25 µs under the hunting condition. These differences suggest several possible routes by which natural behavior could enhance plasticity.",
+        "Attention, arousal, sensory information, and reward were proposed contributors, not separately established mechanisms. The study did not manipulate dopamine, acetylcholine, or another transmitter. The defensible conclusion is that the compound hunting experience increased adaptive plasticity in the adult map."
+      ],
+      "cite": "Bergan et al. (2005)",
+      "refs": [
+        "Joseph F. Bergan; Peter Ro; Daniel Ro; Eric I. Knudsen (2005). Hunting Increases Adaptive Auditory Map Plasticity in Adult Barn Owls. The Journal of Neuroscience 25(42):9816-9820. https://doi.org/10.1523/jneurosci.2533-05.2005",
+        "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+      ],
+      "transcript": [
+        "The hunting manipulation preserved many aspects of the adult owls’ environment while changing the task of obtaining food. Both groups had one-hour feeding periods, lived in aviaries, and oriented and flew toward mice. Only the hunting condition required capturing live prey.",
+        "Live mice supplied movement and rustling sounds, coupled visual and auditory information, and a consequence for inaccurate strikes. Adult map shifts increased from roughly 5 to 25 µs under the hunting condition. These differences suggest several possible routes by which natural behavior could enhance plasticity.",
+        "Attention, arousal, sensory information, and reward were proposed contributors, not separately established mechanisms. The study did not manipulate dopamine, acetylcholine, or another transmitter. The defensible conclusion is that the compound hunting experience increased adaptive plasticity in the adult map.",
+        "A behavioral state manipulation can identify a condition that promotes learning without establishing a molecular pathway. Naming a candidate neuromodulator would require additional source evidence."
+      ],
+      "layout": "two-figures",
+      "text_height": 2.65,
+      "figures": [
+        {
+          "path": "figures/G05_2.png",
+          "caption": "Bergan et al. (2005), Fig. 2(A–B). Adult adaptation depends on the feeding condition.",
+          "source_url": "https://doi.org/10.1523/jneurosci.2533-05.2005"
+        },
+        {
+          "path": "figures/F98_2A.png",
+          "caption": "Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-08-03073.1998"
+        }
+      ]
+    },
+    {
+      "title": "Map plasticity combines instruction and circuit change",
+      "body": [
+        "Auditory-map adaptation involves distinct processes supported by different experiments. Regional visual manipulations identify the spatial information guiding change; recordings identify shifted timing preferences; receptor blockade identifies contributions to response expression; tracing identifies altered projection anatomy.",
+        "The normal and adaptive projections can coexist after 23° prism experience. Recovery of normal tuning, differential NMDA dependence, and inhibitory suppression are therefore compatible with a circuit that retains several potential mappings but expresses them differently under different conditions.",
+        "No single experiment establishes the complete chain from visual error to axon growth to successful localization. The supported account combines complementary evidence while preserving those limits. Developmental age, prior calibration, environmental richness, and behavioral engagement all affect the amount or form of plasticity expressed."
+      ],
+      "cite": "DeBello et al. (2001)",
+      "refs": [
+        "William M. DeBello; Daniel E. Feldman; Eric I. Knudsen (2001). Adaptive Axonal Remodeling in the Midbrain Auditory Space Map. The Journal of Neuroscience 21(9):3161-3174. https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      ],
+      "transcript": [
+        "Auditory-map adaptation involves distinct processes supported by different experiments. Regional visual manipulations identify the spatial information guiding change; recordings identify shifted timing preferences; receptor blockade identifies contributions to response expression; tracing identifies altered projection anatomy.",
+        "The normal and adaptive projections can coexist after 23° prism experience. Recovery of normal tuning, differential NMDA dependence, and inhibitory suppression are therefore compatible with a circuit that retains several potential mappings but expresses them differently under different conditions.",
+        "No single experiment establishes the complete chain from visual error to axon growth to successful localization. The supported account combines complementary evidence while preserving those limits. Developmental age, prior calibration, environmental richness, and behavioral engagement all affect the amount or form of plasticity expressed.",
+        "The anatomical persistence measured by DeBello and colleagues supports an available substrate. Connecting that substrate to receptor changes and behavioral recovery remains a synthesis across studies."
+      ],
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/D01_15.png",
+        "caption": "DeBello et al. (2001), Fig. 15(A–B). Coexisting normal and adaptive anatomical projections.",
+        "source_url": "https://doi.org/10.1523/jneurosci.21-09-03161.2001"
+      }
+    }
+  ],
+  "takeaways": {
+    "cite": "Brainard & Knudsen (1993); Hyde & Knudsen (2001); Feldman & Knudsen (1998); Brainard & Knudsen (1998); Zheng & Knudsen (2001); DeBello et al. (2001); Bergan et al. (2005)",
+    "refs": [
+      "MS Brainard; EI Knudsen (1993). Experience-dependent plasticity in the inferior colliculus: a site for visual calibration of the neural representation of auditory space in the barn owl. The Journal of Neuroscience 13(11):4589-4608. https://doi.org/10.1523/jneurosci.13-11-04589.1993",
+      "Peter S. Hyde; Eric I. Knudsen (2001). A Topographic Instructive Signal Guides the Adjustment of the Auditory Space Map in the Optic Tectum. The Journal of Neuroscience 21(21):8586-8593. https://doi.org/10.1523/jneurosci.21-21-08586.2001",
+      "Daniel E. Feldman; Eric I. Knudsen (1998). Pharmacological Specialization of Learned Auditory Responses in the Inferior Colliculus of the Barn Owl. The Journal of Neuroscience 18(8):3073-3087. https://doi.org/10.1523/jneurosci.18-08-03073.1998",
+      "Michael S. Brainard; Eric I. Knudsen (1998). Sensitive Periods for Visual Calibration of the Auditory Space Map in the Barn Owl Optic Tectum. The Journal of Neuroscience 18(10):3929-3942. https://doi.org/10.1523/jneurosci.18-10-03929.1998",
+      "Weimin Zheng; Eric I. Knudsen (2001). GABAergic Inhibition Antagonizes Adaptive Adjustment of the Owl's Auditory Space Map during the Initial Phase of Plasticity. The Journal of Neuroscience 21(12):4356-4365. https://doi.org/10.1523/jneurosci.21-12-04356.2001",
+      "William M. DeBello; Daniel E. Feldman; Eric I. Knudsen (2001). Adaptive Axonal Remodeling in the Midbrain Auditory Space Map. The Journal of Neuroscience 21(9):3161-3174. https://doi.org/10.1523/jneurosci.21-09-03161.2001",
+      "Joseph F. Bergan; Peter Ro; Daniel Ro; Eric I. Knudsen (2005). Hunting Increases Adaptive Auditory Map Plasticity in Adult Barn Owls. The Journal of Neuroscience 25(42):9816-9820. https://doi.org/10.1523/jneurosci.2533-05.2005"
+    ],
+    "items": [
+      {
+        "lead": "Vision calibrates auditory space.",
+        "text": "Prismatic displacement alters the association between acoustic timing cues and represented location; regional visual information provides topographic instruction."
+      },
+      {
+        "lead": "Sensitive periods depend on the task and environment.",
+        "text": "Learning an unfamiliar displacement and recovering normal tuning have different age constraints, and rich experience can permit recovery after failure in cages."
+      },
+      {
+        "lead": "ICX expresses adaptive circuit change.",
+        "text": "Timing-specific central-collicular input is transformed into a shifted auditory-space representation, supported by experience-dependent projection remodeling."
+      },
+      {
+        "lead": "Learned responses initially depend more on NMDA receptors.",
+        "text": "AP-5 preferentially reduces newly learned responses; that differential effect disappears after extended prism experience."
+      },
+      {
+        "lead": "Inhibition controls which inputs are expressed.",
+        "text": "Early GABAergic inhibition can mask learned excitation, whereas later inhibition favors expression of the established adaptive mapping."
+      },
+      {
+        "lead": "Adult learning retains behavioral relevance.",
+        "text": "Hunting increases adult map shifts and accompanies improved prey capture, while the normal anatomical projection persists alongside adaptive inputs."
+      }
+    ]
+  }
+}
