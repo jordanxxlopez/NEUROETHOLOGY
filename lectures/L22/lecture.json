@@ -1,0 +1,1547 @@
+{
+  "lecture": 22,
+  "theme": "ink-cherry",
+  "content_slides": 44,
+  "title_image": {
+    "kind": "article",
+    "path": "figures/title_animal.png",
+    "caption": "Heiligenberg (1980), Fig. 1(a, top). Eigenmannia and its caudal electric organ; original published animal drawing.",
+    "source_url": "https://doi.org/10.1007/BF01047630"
+  },
+  "slides": [
+    {
+      "title": "A stable electric discharge can be shifted away from a rival",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "_Eigenmannia virescens_ is a South American weakly electric fish whose **electric organ discharge**, or **EOD**, is a continuously repeating electrical signal. Heiligenberg described individual discharge frequencies between 300 and 600 Hz. The caudal electric organ produces the field used to detect nearby objects.",
+        "A neighboring fish with a similar frequency creates interference. In the **jamming avoidance response**, or **JAR**, the focal fish shifts its discharge away from the neighbor’s frequency. A lower-frequency neighbor elicits an increase; a higher-frequency neighbor elicits a decrease. Removing the neighbor’s signal permits a return toward the original frequency.",
+        "The published simultaneous recordings pair a 500-Hz EOD with one pacemaker command per cycle. The **pacemaker nucleus**, a hindbrain group generating rhythmic commands, changes signal frequency rather than turning the electric sense off. The movement of discharge frequency is a measurable motor output."
+      ],
+      "transcript": [
+        [
+          "Eigenmannia virescens is a South American weakly electric fish whose electric organ discharge, or EOD, is a continuously repeating electrical signal. Heiligenberg described individual discharge frequencies between 300 and 600 Hz. The caudal electric organ produces the field used to detect nearby objects.",
+          [
+            "The electric organ lies in the tail, but the relevant sensory inputs arrive from skin over the body. The illustrated neural route in the 1980 paper was an early account; later lesion and recording experiments revised the proposed premotor control without changing the defining direction of the behavior."
+          ]
+        ],
+        "A neighboring fish with a similar frequency creates interference. In the jamming avoidance response, or JAR, the focal fish shifts its discharge away from the neighbor’s frequency. A lower-frequency neighbor elicits an increase; a higher-frequency neighbor elicits a decrease. Removing the neighbor’s signal permits a return toward the original frequency.",
+        "The published simultaneous recordings pair a 500-Hz EOD with one pacemaker command per cycle. The pacemaker nucleus, a hindbrain group generating rhythmic commands, changes signal frequency rather than turning the electric sense off. The movement of discharge frequency is a measurable motor output."
+      ],
+      "cite": "Heiligenberg (1980)",
+      "refs": [
+        "Heiligenberg W (1980). The jamming avoidance response in the weakly electric fish Eigenmannia: A behavior controlled by distributed evaluation of electroreceptive afferences. Naturwissenschaften 67(10):499-507. https://doi.org/10.1007/bf01047630"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/01_control80.png",
+        "caption": "Heiligenberg (1980), Fig. 1(a). Animal, brain structures, and the 500-Hz discharge record.",
+        "source_url": "https://doi.org/10.1007/bf01047630"
+      }
+    },
+    {
+      "title": "Interference creates slow amplitude and phase modulation",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "A **beat** is the slow modulation produced when two similar-frequency signals combine. **Amplitude** is signal magnitude; **phase** is position within its repeating cycle. Heiligenberg represented the fish’s discharge by S1 and the foreign signal by S2, measuring the mixed signal rather than either source alone.",
+        "The mixture repeatedly becomes stronger and weaker while its timing advances and delays relative to S1. These changes occur at the difference between the source frequencies. Thus a fast electrical carrier can contain a slow interference pattern that competes with amplitude changes used for object sensing.",
+        "The original oscilloscope and amplitude–phase representation preserve this relationship. For the illustrated 500-Hz carrier, one cycle lasts 2 ms. A beat rate alone identifies the magnitude of a frequency difference but cannot distinguish a neighbor above the fish’s frequency from one equally far below it."
+      ],
+      "transcript": [
+        [
+          "A beat is the slow modulation produced when two similar-frequency signals combine. Amplitude is signal magnitude; phase is position within its repeating cycle. Heiligenberg represented the fish’s discharge by S1 and the foreign signal by S2, measuring the mixed signal rather than either source alone.",
+          [
+            "A zero crossing is the moment when the electrical voltage changes sign. It supplies a reproducible timing landmark. Amplitude and zero-crossing timing are different properties of the same mixed waveform, and neither sensory pathway directly receives an isolated copy of the neighbor’s signal."
+          ]
+        ],
+        "The mixture repeatedly becomes stronger and weaker while its timing advances and delays relative to S1. These changes occur at the difference between the source frequencies. Thus a fast electrical carrier can contain a slow interference pattern that competes with amplitude changes used for object sensing.",
+        "The original oscilloscope and amplitude–phase representation preserve this relationship. For the illustrated 500-Hz carrier, one cycle lasts 2 ms. A beat rate alone identifies the magnitude of a frequency difference but cannot distinguish a neighbor above the fish’s frequency from one equally far below it."
+      ],
+      "cite": "Heiligenberg (1980)",
+      "refs": [
+        "Heiligenberg W (1980). The jamming avoidance response in the weakly electric fish Eigenmannia: A behavior controlled by distributed evaluation of electroreceptive afferences. Naturwissenschaften 67(10):499-507. https://doi.org/10.1007/bf01047630"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/02_control80.png",
+        "caption": "Heiligenberg (1980), Fig. 2. Interference changes amplitude and phase during a beat.",
+        "source_url": "https://doi.org/10.1007/bf01047630"
+      }
+    },
+    {
+      "title": "Opposite beat signs require opposite frequency shifts",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Difference frequency**, written Δf in these studies, is the neighbor’s frequency minus the fish’s own frequency. Positive Δf requires a decrease in the fish’s EOD; negative Δf requires an increase. The sensory problem is therefore a decision about sign, rather than merely detection of interference.",
+        "Carr and colleagues depicted how an internal EOD source and an external, transverse source combine at the skin. Their example uses a 500-Hz EOD with neighbors at 495 or 505 Hz. Both produce 5-Hz amplitude beats, but the relationship between amplitude change and differential timing reverses.",
+        "Natural current geometry provides a basis for this discrimination. The external source affects opposite body regions differently, whereas the internal discharge has a common origin. The published stimulus construction makes sign information available through paired amplitude and timing cues; a 5-Hz rate by itself remains ambiguous."
+      ],
+      "transcript": [
+        [
+          "Difference frequency, written Δf in these studies, is the neighbor’s frequency minus the fish’s own frequency. Positive Δf requires a decrease in the fish’s EOD; negative Δf requires an increase. The sensory problem is therefore a decision about sign, rather than merely detection of interference.",
+          [
+            "The sign convention must remain fixed when comparing experiments. A frequency increase is the correct avoidance response only when the neighboring signal is lower. A response plotted as positive by an investigator may instead mean a correctly directed response, encompassing either an actual increase or an actual decrease."
+          ]
+        ],
+        "Carr and colleagues depicted how an internal EOD source and an external, transverse source combine at the skin. Their example uses a 500-Hz EOD with neighbors at 495 or 505 Hz. Both produce 5-Hz amplitude beats, but the relationship between amplitude change and differential timing reverses.",
+        "Natural current geometry provides a basis for this discrimination. The external source affects opposite body regions differently, whereas the internal discharge has a common origin. The published stimulus construction makes sign information available through paired amplitude and timing cues; a 5-Hz rate by itself remains ambiguous."
+      ],
+      "cite": "Carr et al. (1986)",
+      "refs": [
+        "Carr C, Heiligenberg W, Rose G (1986). A time-comparison circuit in the electric fish midbrain. I. Behavior and physiology. The Journal of Neuroscience 6(1):107-119. https://doi.org/10.1523/jneurosci.06-01-00107.1986"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/03_rose86a.png",
+        "caption": "Carr et al. (1986), Fig. 1(A–D). Current geometry and opposite amplitude–phase trajectories.",
+        "source_url": "https://doi.org/10.1523/jneurosci.06-01-00107.1986"
+      }
+    },
+    {
+      "title": "Different skin regions receive different mixtures",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "An **amplitude ratio** compares the local strength of the foreign signal with the EOD substitute. Heiligenberg analyzed two body regions with ratios of 0.3 and 0.1. The more contaminated region undergoes larger changes in both amplitude and phase during the same interference cycle.",
+        "The fish can compare timing between these regions without requiring an entirely uncontaminated patch of skin. **Differential phase** is the phase of one local signal relative to another local signal. Subtracting the common timing component leaves the disparity caused by their different mixtures.",
+        "The two local amplitude–differential-phase trajectories can nevertheless rotate in opposite directions. Their contributions must be weighted rather than treated as identical votes. The paper tested regional stimulation and interpreted larger amplitude modulation as a stronger contribution to the eventual frequency shift; the graphical description alone does not identify the responsible neurons."
+      ],
+      "transcript": [
+        [
+          "An amplitude ratio compares the local strength of the foreign signal with the EOD substitute. Heiligenberg analyzed two body regions with ratios of 0.3 and 0.1. The more contaminated region undergoes larger changes in both amplitude and phase during the same interference cycle.",
+          [
+            "If two pure sinusoidal sources have identical spatial geometry, their amplitude ratio is constant over the body. The resulting common timing changes provide no differential phase cue. Different electrode geometries are consequently a sensory manipulation, not a minor variation in apparatus placement."
+          ]
+        ],
+        "The fish can compare timing between these regions without requiring an entirely uncontaminated patch of skin. Differential phase is the phase of one local signal relative to another local signal. Subtracting the common timing component leaves the disparity caused by their different mixtures.",
+        "The two local amplitude–differential-phase trajectories can nevertheless rotate in opposite directions. Their contributions must be weighted rather than treated as identical votes. The paper tested regional stimulation and interpreted larger amplitude modulation as a stronger contribution to the eventual frequency shift; the graphical description alone does not identify the responsible neurons."
+      ],
+      "cite": "Heiligenberg (1980)",
+      "refs": [
+        "Heiligenberg W (1980). The jamming avoidance response in the weakly electric fish Eigenmannia: A behavior controlled by distributed evaluation of electroreceptive afferences. Naturwissenschaften 67(10):499-507. https://doi.org/10.1007/bf01047630"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/04_control80.png",
+        "caption": "Heiligenberg (1980), Fig. 3. Different contamination ratios across the body surface.",
+        "source_url": "https://doi.org/10.1007/bf01047630"
+      }
+    },
+    {
+      "title": "Exchanging regional timing reverses the motor response",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Heiligenberg used electronically controlled stimuli to manipulate amplitude and phase independently in separate body regions. One region received a modulated carrier and the other supplied a comparison signal. The foreign-signal difference frequency in the published experiment was 4 Hz.",
+        "Exchanging which region carried the phase modulation reversed the pacemaker response while preserving the amplitude modulation arrangement. Responses also depended on the constant phase offset between the regional signals. Near zero offset, the normal timing relationship produced the expected negative shift for positive Δf.",
+        "This manipulation separates a causal timing cue from the mere occurrence of amplitude beats. A change in the timing relationship can reverse the behavioral decision without changing the beat frequency. The experiment tests the information used by the animal; it does not assign that comparison to a single identified neuron."
+      ],
+      "transcript": [
+        [
+          "Heiligenberg used electronically controlled stimuli to manipulate amplitude and phase independently in separate body regions. One region received a modulated carrier and the other supplied a comparison signal. The foreign-signal difference frequency in the published experiment was 4 Hz.",
+          [
+            "Artificial regional stimulation is useful because the investigator can hold one cue constant while changing another. A natural neighbor changes several cues together. The phase-offset dependence constrains candidate neural operations, but a graph of behavior is not a direct measure of a cellular coincidence mechanism."
+          ]
+        ],
+        "Exchanging which region carried the phase modulation reversed the pacemaker response while preserving the amplitude modulation arrangement. Responses also depended on the constant phase offset between the regional signals. Near zero offset, the normal timing relationship produced the expected negative shift for positive Δf.",
+        "This manipulation separates a causal timing cue from the mere occurrence of amplitude beats. A change in the timing relationship can reverse the behavioral decision without changing the beat frequency. The experiment tests the information used by the animal; it does not assign that comparison to a single identified neuron."
+      ],
+      "cite": "Heiligenberg (1980)",
+      "refs": [
+        "Heiligenberg W (1980). The jamming avoidance response in the weakly electric fish Eigenmannia: A behavior controlled by distributed evaluation of electroreceptive afferences. Naturwissenschaften 67(10):499-507. https://doi.org/10.1007/bf01047630"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/05_control80.png",
+        "caption": "Heiligenberg (1980), Fig. 4. Exchanging phase modulation reverses pacemaker responses.",
+        "source_url": "https://doi.org/10.1007/bf01047630"
+      }
+    },
+    {
+      "title": "Cue trajectories distinguish order from beat magnitude",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Heiligenberg presented closed and open trajectories in an **amplitude–phase plane**, a representation pairing local amplitude with differential timing. Changing the sequence of cue combinations altered pacemaker output even when the overall set of available amplitude and phase values was similar.",
+        "The published behavioral comparisons associated opposite trajectory orientations with opposite frequency shifts. Vertical portions contributed strongly when amplitude was elevated, whereas timing changes at weaker amplitude contributed differently. These experiments motivated an amplitude-dependent weighting of timing information rather than a detector of beat rate alone.",
+        "The proposed integral over a trajectory was a functional description of behavior, not a measured intracellular arithmetic operation. Later recordings tested whether neurons possessed the required cue combinations. Natural avoidance therefore required experimental separation of stimulus computation, neural implementation, and the resulting motor command."
+      ],
+      "transcript": [
+        [
+          "Heiligenberg presented closed and open trajectories in an amplitude–phase plane, a representation pairing local amplitude with differential timing. Changing the sequence of cue combinations altered pacemaker output even when the overall set of available amplitude and phase values was similar.",
+          [
+            "A waveform’s temporal order carries information that is lost if amplitude and phase are separately averaged over a whole beat. The original paper’s trajectories belong to that published analysis; no new mathematical reconstruction is needed to teach the experimental dependence on cue order."
+          ]
+        ],
+        "The published behavioral comparisons associated opposite trajectory orientations with opposite frequency shifts. Vertical portions contributed strongly when amplitude was elevated, whereas timing changes at weaker amplitude contributed differently. These experiments motivated an amplitude-dependent weighting of timing information rather than a detector of beat rate alone.",
+        "The proposed integral over a trajectory was a functional description of behavior, not a measured intracellular arithmetic operation. Later recordings tested whether neurons possessed the required cue combinations. Natural avoidance therefore required experimental separation of stimulus computation, neural implementation, and the resulting motor command."
+      ],
+      "cite": "Heiligenberg (1980)",
+      "refs": [
+        "Heiligenberg W (1980). The jamming avoidance response in the weakly electric fish Eigenmannia: A behavior controlled by distributed evaluation of electroreceptive afferences. Naturwissenschaften 67(10):499-507. https://doi.org/10.1007/bf01047630"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/06_control80.png",
+        "caption": "Heiligenberg (1980), Fig. 5. Different trajectories separate amplitude and timing contributions.",
+        "source_url": "https://doi.org/10.1007/bf01047630"
+      }
+    },
+    {
+      "title": "Behavior detects temporal disparities of 400 nanoseconds",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Temporal hyperacuity** is behavioral discrimination finer than the timing precision expected from individual sensory inputs. Rose and Heiligenberg immobilized fish, suppressed their EOD, and replaced it with controlled electrical signals in a two-compartment chamber. The compartments electrically separated head and tail stimulation.",
+        "A neighbor mimic was mixed with the replacement signal at the head, while the tail received the replacement alone. The sign of a 4-Hz frequency difference alternated every 25.6 s. Fish shifted in the appropriate direction in at least 90% of trials at available temporal disparities as small as 400 ns.",
+        "The response was recorded from the spinal command signal despite suppression of the electric organ’s discharge. The controlled preparation establishes extraordinarily fine discrimination of a spatial timing cue. Because the chamber was less effective than broader stimulation, the authors regarded the measured threshold as a conservative estimate."
+      ],
+      "transcript": [
+        [
+          "Temporal hyperacuity is behavioral discrimination finer than the timing precision expected from individual sensory inputs. Rose and Heiligenberg immobilized fish, suppressed their EOD, and replaced it with controlled electrical signals in a two-compartment chamber. The compartments electrically separated head and tail stimulation.",
+          [
+            "Four hundred nanoseconds is 0.4 microseconds. The fish need not produce a separate action potential every 400 ns; it compares the timing of spikes tied to much slower EOD cycles. Behavioral precision and the interval between spikes are distinct quantities."
+          ]
+        ],
+        "A neighbor mimic was mixed with the replacement signal at the head, while the tail received the replacement alone. The sign of a 4-Hz frequency difference alternated every 25.6 s. Fish shifted in the appropriate direction in at least 90% of trials at available temporal disparities as small as 400 ns.",
+        "The response was recorded from the spinal command signal despite suppression of the electric organ’s discharge. The controlled preparation establishes extraordinarily fine discrimination of a spatial timing cue. Because the chamber was less effective than broader stimulation, the authors regarded the measured threshold as a conservative estimate."
+      ],
+      "cite": "Rose & Heiligenberg (1985)",
+      "refs": [
+        "Rose G, Heiligenberg W (1985). Temporal hyperacuity in the electric sense of fish. Nature 318(6042):178-180. https://doi.org/10.1038/318178a0"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/07_hyperacuity85.png",
+        "caption": "Rose & Heiligenberg (1985), Fig. 1. Correct responses persist at submicrosecond disparities.",
+        "source_url": "https://doi.org/10.1038/318178a0"
+      }
+    },
+    {
+      "title": "Electronic controls isolate neural timing",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Rose and Heiligenberg recorded intracellular spikes from **primary afferents**, sensory neurons carrying receptor information toward the brain. Phase-coding afferents fired at a preferred moment of each electrical cycle, but their spike times varied from cycle to cycle even under controlled stimulation.",
+        "The investigators also recorded electronically generated spike mimics through the same equipment. A computer-controlled clock resolved timing in 0.1-µs increments. The much narrower distribution of electronic events excluded recording-system uncertainty as the main explanation for the broader neural timing distribution.",
+        "The most precisely recorded afferent still could not account straightforwardly for 400-ns behavioral discrimination within the roughly 300-ms response latency. This result motivated convergence across parallel inputs. It does not mean that each afferent lacks timing information; it limits an explanation based on one afferent’s short record."
+      ],
+      "transcript": [
+        [
+          "Rose and Heiligenberg recorded intracellular spikes from primary afferents, sensory neurons carrying receptor information toward the brain. Phase-coding afferents fired at a preferred moment of each electrical cycle, but their spike times varied from cycle to cycle even under controlled stimulation.",
+          [
+            "The electronic controls were adjusted to resemble the steep rising portion of neural spikes. A different spike shape could otherwise alter threshold-crossing precision. Intracellular recordings also reduced contamination from small extracellular signals, helping distinguish biological variability from the recording method."
+          ]
+        ],
+        "The investigators also recorded electronically generated spike mimics through the same equipment. A computer-controlled clock resolved timing in 0.1-µs increments. The much narrower distribution of electronic events excluded recording-system uncertainty as the main explanation for the broader neural timing distribution.",
+        "The most precisely recorded afferent still could not account straightforwardly for 400-ns behavioral discrimination within the roughly 300-ms response latency. This result motivated convergence across parallel inputs. It does not mean that each afferent lacks timing information; it limits an explanation based on one afferent’s short record."
+      ],
+      "cite": "Rose & Heiligenberg (1985); Carr et al. (1986)",
+      "refs": [
+        "Rose G, Heiligenberg W (1985). Temporal hyperacuity in the electric sense of fish. Nature 318(6042):178-180. https://doi.org/10.1038/318178a0",
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/08_hyperacuity85.png",
+          "caption": "Rose & Heiligenberg (1985), Fig. 2(a–b). Afferent timing and electronic spike-mimic control.",
+          "source_url": "https://doi.org/10.1038/318178a0"
+        },
+        {
+          "kind": "article",
+          "path": "figures/phase_chain.png",
+          "caption": "Carr et al. (1986), Fig. 1(B). Receptor, nerve, spherical-cell and toral timing pathway.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.06-05-01372.1986"
+        }
+      ]
+    },
+    {
+      "title": "Recruiting additional skin regions restores weak responses",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Rose and Heiligenberg divided the fish’s body into electrically isolated compartments so that local receptor populations could be stimulated separately or together. A strong neighbor-to-EOD amplitude ratio of 0.05 elicited a JAR from a single body region.",
+        "At a ratio of 0.0016, corresponding to a maximal left–right disparity of 1.8 µs in this arrangement, separate stimulation of the tested compartments failed to produce a detectable response. Simultaneous stimulation of the three regions produced a strong, correctly directed JAR under the same local stimulus conditions.",
+        "The manipulation changes the area providing information rather than increasing each region’s stimulus strength. Regional recruitment supports pooling within the central nervous system. It does not identify how many afferents converge on a particular comparator or prove that one anatomical stage alone generates the improvement."
+      ],
+      "transcript": [
+        [
+          "Rose and Heiligenberg divided the fish’s body into electrically isolated compartments so that local receptor populations could be stimulated separately or together. A strong neighbor-to-EOD amplitude ratio of 0.05 elicited a JAR from a single body region.",
+          [
+            "The internal EOD substitute and the transverse neighbor mimic had different current geometries. Opposite body sides therefore provided different timing information within a compartment. Stimulating additional regions also increased the available set of cross-body comparisons rather than merely repeating one identical receptor input."
+          ]
+        ],
+        "At a ratio of 0.0016, corresponding to a maximal left–right disparity of 1.8 µs in this arrangement, separate stimulation of the tested compartments failed to produce a detectable response. Simultaneous stimulation of the three regions produced a strong, correctly directed JAR under the same local stimulus conditions.",
+        "The manipulation changes the area providing information rather than increasing each region’s stimulus strength. Regional recruitment supports pooling within the central nervous system. It does not identify how many afferents converge on a particular comparator or prove that one anatomical stage alone generates the improvement."
+      ],
+      "cite": "Rose & Heiligenberg (1985)",
+      "refs": [
+        "Rose G, Heiligenberg W (1985). Temporal hyperacuity in the electric sense of fish. Nature 318(6042):178-180. https://doi.org/10.1038/318178a0"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/09_hyperacuity85.png",
+        "caption": "Rose & Heiligenberg (1985), Fig. 3(a–c). Recruiting multiple skin regions restores the response.",
+        "source_url": "https://doi.org/10.1038/318178a0"
+      }
+    },
+    {
+      "title": "Regional inputs combine more strongly than simple addition",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "The compartment experiment permitted a quantitative comparison between responses to individual regions and their simultaneous stimulation. Rose and Heiligenberg measured integrated, correctly directed frequency shifts while retaining the same weak local signals used for the separate-region conditions.",
+        "The combined response exceeded the contribution expected from merely adding the measured individual responses. Independent amplitude and phase manipulations indicated that the limiting factor was resolution of temporal disparity rather than sensitivity to amplitude modulation alone. The observed improvement was therefore associated with joint timing information.",
+        "This **nonlinear convergence**, an output not proportional to a simple sum of regional outputs, supported a distributed source of hyperacuity. The particular nonlinearity and its cellular location were proposed rather than directly identified by this behavioral experiment. A silent regional behavioral response does not imply that its afferents were electrically silent."
+      ],
+      "transcript": [
+        [
+          "The compartment experiment permitted a quantitative comparison between responses to individual regions and their simultaneous stimulation. Rose and Heiligenberg measured integrated, correctly directed frequency shifts while retaining the same weak local signals used for the separate-region conditions.",
+          [
+            "The original comparison considered an additive expectation that already allowed more cross-region phase comparisons during combined stimulation. The measured effect remained larger. The result is consequently stronger than observing that a larger stimulated skin area produces a larger response."
+          ]
+        ],
+        "The combined response exceeded the contribution expected from merely adding the measured individual responses. Independent amplitude and phase manipulations indicated that the limiting factor was resolution of temporal disparity rather than sensitivity to amplitude modulation alone. The observed improvement was therefore associated with joint timing information.",
+        "This nonlinear convergence, an output not proportional to a simple sum of regional outputs, supported a distributed source of hyperacuity. The particular nonlinearity and its cellular location were proposed rather than directly identified by this behavioral experiment. A silent regional behavioral response does not imply that its afferents were electrically silent."
+      ],
+      "cite": "Rose & Heiligenberg (1985)",
+      "refs": [
+        "Rose G, Heiligenberg W (1985). Temporal hyperacuity in the electric sense of fish. Nature 318(6042):178-180. https://doi.org/10.1038/318178a0"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/10_hyperacuity85.png",
+        "caption": "Rose & Heiligenberg (1985), Fig. 4. Combined stimulation exceeds individual regional responses.",
+        "source_url": "https://doi.org/10.1038/318178a0"
+      }
+    },
+    {
+      "title": "Phase-coded spikes pass through spherical and giant cells",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Tuberous electroreceptors** respond to high-frequency electrical signals near the EOD carrier. Their timing-sensitive, or T-type, afferents encode a recurring phase of the local signal. Carr and colleagues traced this pathway from the skin through the anterior lateral line nerve to the hindbrain.",
+        "The afferents contact **spherical cells** in the electrosensory lateral line lobe, or **ELL**. Spherical-cell axons then project to **lamina VI**, the sixth layer of the midbrain **torus semicircularis**. There they contact giant cells and provide the timing input needed for comparisons between body regions.",
+        "The illustrated circuit retains a phase-locked spike on successive carrier cycles rather than first converting every timing signal into average firing rate. Physiological recordings and anatomical labeling connect these stages. The pathway identifies timing transmission, but its existence alone does not establish the small-cell comparison rule."
+      ],
+      "transcript": [
+        [
+          "Tuberous electroreceptors respond to high-frequency electrical signals near the EOD carrier. Their timing-sensitive, or T-type, afferents encode a recurring phase of the local signal. Carr and colleagues traced this pathway from the skin through the anterior lateral line nerve to the hindbrain.",
+          [
+            "A primary afferent’s cell body lies in a peripheral ganglion, whereas the spherical cell is a central neuron. These are successive elements, not different names for one cell. The parallel P-type pathway represents signal amplitude and follows different central cellular targets."
+          ]
+        ],
+        "The afferents contact spherical cells in the electrosensory lateral line lobe, or ELL. Spherical-cell axons then project to lamina VI, the sixth layer of the midbrain torus semicircularis. There they contact giant cells and provide the timing input needed for comparisons between body regions.",
+        "The illustrated circuit retains a phase-locked spike on successive carrier cycles rather than first converting every timing signal into average firing rate. Physiological recordings and anatomical labeling connect these stages. The pathway identifies timing transmission, but its existence alone does not establish the small-cell comparison rule."
+      ],
+      "cite": "Carr et al. (1986); Carr et al. (1986)",
+      "refs": [
+        "Carr C, Heiligenberg W, Rose G (1986). A time-comparison circuit in the electric fish midbrain. I. Behavior and physiology. The Journal of Neuroscience 6(1):107-119. https://doi.org/10.1523/jneurosci.06-01-00107.1986",
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/11_rose86a.png",
+          "caption": "Carr et al. (1986), Fig. 5. Phase-coding pathway from the skin to toral giant cells.",
+          "source_url": "https://doi.org/10.1523/jneurosci.06-01-00107.1986"
+        },
+        {
+          "kind": "article",
+          "path": "figures/phase_brain.png",
+          "caption": "Carr et al. (1986), Fig. 1(A). Sagittal brain anatomy with torus and electrosensory lateral line lobe.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.06-05-01372.1986"
+        }
+      ]
+    },
+    {
+      "title": "Amplitude signals enter the torus through E and I afferents",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**P-type afferents** encode electrical amplitude through their probability of firing on successive cycles. In the ELL, **E units** increase activity with rising amplitude, whereas **I units** increase activity as amplitude falls. Their responses separate opposite directions of amplitude change.",
+        "Heiligenberg and Rose recorded and labeled ELL projections entering the torus. The published I-type example responded during declining amplitude for either sign of the neighbor’s frequency difference. Its axon terminated across several toral laminae, while individual afferents differed in their detailed terminal patterns.",
+        "Amplitude sensitivity therefore supplies a necessary cue without inherently solving the sign decision. An I-unit response can occur during either positive or negative Δf. Comparing its activity with timing-sensitive signals is required to distinguish these cases; the afferent labeling does not establish every downstream synaptic connection."
+      ],
+      "transcript": [
+        [
+          "P-type afferents encode electrical amplitude through their probability of firing on successive cycles. In the ELL, E units increase activity with rising amplitude, whereas I units increase activity as amplitude falls. Their responses separate opposite directions of amplitude change.",
+          [
+            "The original preparation used controlled interference signals and intracellular labeling to associate response class with axonal structure. The presence of a projection is an anatomical finding, while the recorded preference for amplitude decline is a physiological finding. Neither alone proves a complete pathway to pacemaker output."
+          ]
+        ],
+        "Heiligenberg and Rose recorded and labeled ELL projections entering the torus. The published I-type example responded during declining amplitude for either sign of the neighbor’s frequency difference. Its axon terminated across several toral laminae, while individual afferents differed in their detailed terminal patterns.",
+        "Amplitude sensitivity therefore supplies a necessary cue without inherently solving the sign decision. An I-unit response can occur during either positive or negative Δf. Comparing its activity with timing-sensitive signals is required to distinguish these cases; the afferent labeling does not establish every downstream synaptic connection."
+      ],
+      "cite": "Heiligenberg & Rose (1985)",
+      "refs": [
+        "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/12_rose85.png",
+        "caption": "Heiligenberg & Rose (1985), Fig. 3(a–c). Labeled amplitude-coding afferents and laminar terminations.",
+        "source_url": "https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      }
+    },
+    {
+      "title": "Convergence improves phase-locking precision",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Carr and colleagues compared timing-sensitive afferents in the anterior lateral line nerve with neurons in the torus. A repeated sinusoidal stimulus fixed the timing landmark, allowing the precision of phase-locked spikes to be compared at peripheral and central stages.",
+        "The comparison included stimulus intensities of 1 mV/cm and three times that value. Midbrain phase-coding responses were generally more tightly aligned to the stimulus than peripheral responses. Increasing stimulus strength did not eliminate the distinction between the two stages.",
+        "Anatomical convergence is consistent with combining partly independent timing estimates into a more precise central signal. Nevertheless, the best single-cell responses remained less precise than behavioral hyperacuity. Improved phase locking within the pathway and the final detection of a disparity across body regions are related but distinct operations."
+      ],
+      "transcript": [
+        [
+          "Carr and colleagues compared timing-sensitive afferents in the anterior lateral line nerve with neurons in the torus. A repeated sinusoidal stimulus fixed the timing landmark, allowing the precision of phase-locked spikes to be compared at peripheral and central stages.",
+          [
+            "The measurements used the same repeated electrical cycle as a reference for both recording locations. A change in firing rate alone would not establish more precise phase locking. The proposed contribution of convergence is supported jointly by the physiological comparison and the independently reconstructed connectivity."
+          ]
+        ],
+        "The comparison included stimulus intensities of 1 mV/cm and three times that value. Midbrain phase-coding responses were generally more tightly aligned to the stimulus than peripheral responses. Increasing stimulus strength did not eliminate the distinction between the two stages.",
+        "Anatomical convergence is consistent with combining partly independent timing estimates into a more precise central signal. Nevertheless, the best single-cell responses remained less precise than behavioral hyperacuity. Improved phase locking within the pathway and the final detection of a disparity across body regions are related but distinct operations."
+      ],
+      "cite": "Carr et al. (1986); Carr et al. (1986)",
+      "refs": [
+        "Carr C, Heiligenberg W, Rose G (1986). A time-comparison circuit in the electric fish midbrain. I. Behavior and physiology. The Journal of Neuroscience 6(1):107-119. https://doi.org/10.1523/jneurosci.06-01-00107.1986",
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/13_rose86a.png",
+          "caption": "Carr et al. (1986), Fig. 6. Timing precision in peripheral and midbrain recordings.",
+          "source_url": "https://doi.org/10.1523/jneurosci.06-01-00107.1986"
+        },
+        {
+          "kind": "article",
+          "path": "figures/phase_brain.png",
+          "caption": "Carr et al. (1986), Fig. 1(A). Sagittal brain anatomy with torus and electrosensory lateral line lobe.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.06-05-01372.1986"
+        }
+      ]
+    },
+    {
+      "title": "Electrical junctions transmit timing in both directions",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "A **gap junction** is a direct electrical connection between neighboring cells that permits current to pass without a conventional transmitter-release step. Carr and colleagues recorded spherical-cell afferent terminals close to their contacts on giant cells in lamina VI.",
+        "With a stimulus present, the terminals carried the expected phase-locked axonal spikes. Without external stimulation, junctional potentials could still be recorded in these terminals, including events as large as 40 mV. Labeled terminals surrounded the giant-cell soma in the accompanying anatomical preparation.",
+        "These potentials support a nonrectifying connection: current can influence the afferent terminal from the giant-cell side as well as forward into the giant cell. They were interpreted as giant-cell spikes and potentials transmitted backward through the junction. This interpretation differs from a newly generated peripheral sensory event."
+      ],
+      "transcript": [
+        [
+          "A gap junction is a direct electrical connection between neighboring cells that permits current to pass without a conventional transmitter-release step. Carr and colleagues recorded spherical-cell afferent terminals close to their contacts on giant cells in lamina VI.",
+          [
+            "The original micrograph has a 20-µm scale bar. Recording near a terminal and labeling the same pathway linked electrophysiology to an identifiable contact. The investigators did not infer electrical transmission merely from the proximity of unlabeled cells."
+          ]
+        ],
+        "With a stimulus present, the terminals carried the expected phase-locked axonal spikes. Without external stimulation, junctional potentials could still be recorded in these terminals, including events as large as 40 mV. Labeled terminals surrounded the giant-cell soma in the accompanying anatomical preparation.",
+        "These potentials support a nonrectifying connection: current can influence the afferent terminal from the giant-cell side as well as forward into the giant cell. They were interpreted as giant-cell spikes and potentials transmitted backward through the junction. This interpretation differs from a newly generated peripheral sensory event."
+      ],
+      "cite": "Carr et al. (1986)",
+      "refs": [
+        "Carr C, Heiligenberg W, Rose G (1986). A time-comparison circuit in the electric fish midbrain. I. Behavior and physiology. The Journal of Neuroscience 6(1):107-119. https://doi.org/10.1523/jneurosci.06-01-00107.1986"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/14_rose86a.png",
+        "caption": "Carr et al. (1986), Fig. 8(A–C). Afferent spikes, junctional potentials, and labeled terminals.",
+        "source_url": "https://doi.org/10.1523/jneurosci.06-01-00107.1986"
+      }
+    },
+    {
+      "title": "Local afferents contact both giant and small cells",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Carr, Maler, and Taylor combined intracellular labeling with **electron microscopy**, imaging fine cellular structure at synapses. Afferents from ELL spherical cells formed restricted terminal arbors in lamina VI, preserving information about a local patch of the body surface.",
+        "Each afferent contacted one or two giant-cell somata and distal dendrites of small cells. Some terminals formed clusters termed **synaptic islands**. The published panels include labeled afferent terminals and their contacts, with scale bars ranging from 2 to 20 µm.",
+        "The same local timing source thus enters different elements of the comparison circuit. Contacts on giant cells distribute information broadly, whereas small-cell dendritic contacts preserve local input. Anatomical apposition alone cannot specify the exact contribution of each contact; ultrastructure distinguishes junction types, and physiology constrains their functional interpretation."
+      ],
+      "transcript": [
+        [
+          "Carr, Maler, and Taylor combined intracellular labeling with electron microscopy, imaging fine cellular structure at synapses. Afferents from ELL spherical cells formed restricted terminal arbors in lamina VI, preserving information about a local patch of the body surface.",
+          [
+            "A soma is the cell body; a dendrite is a receiving cellular process; an axon carries signals toward downstream targets. The location of an input on the soma or distal dendrite matters here because the proposed timing comparison depends on segregated input sites."
+          ]
+        ],
+        "Each afferent contacted one or two giant-cell somata and distal dendrites of small cells. Some terminals formed clusters termed synaptic islands. The published panels include labeled afferent terminals and their contacts, with scale bars ranging from 2 to 20 µm.",
+        "The same local timing source thus enters different elements of the comparison circuit. Contacts on giant cells distribute information broadly, whereas small-cell dendritic contacts preserve local input. Anatomical apposition alone cannot specify the exact contribution of each contact; ultrastructure distinguishes junction types, and physiology constrains their functional interpretation."
+      ],
+      "cite": "Carr et al. (1986)",
+      "refs": [
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/15_rose86b.png",
+        "caption": "Carr et al. (1986), Fig. 2(A–F). Local afferent synapses onto giant cells and small-cell dendrites.",
+        "source_url": "https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      }
+    },
+    {
+      "title": "Giant cells distribute timing through electrical contacts",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Giant cells in lamina VI have extensive axonal arbors and lack the conventional dendritic tree of many central neurons. Carr and colleagues reconstructed labeled cells and examined their contacts with afferents at light- and electron-microscope resolution.",
+        "The published ultrastructure identifies gap-junction contacts between afferent terminals and giant cells. Its detailed contact panel includes a 0.5-µm scale bar. Other panels reveal the unipolar soma and large axonal processes that distribute timing information across the layer.",
+        "This organization can provide many local comparators with timing signals originating at other body regions. The anatomy establishes direct electrical contacts and broad distribution; it does not mean that one giant cell encodes the entire animal’s behavioral decision. The comparison still depends on which local and distributed inputs reach each small cell."
+      ],
+      "transcript": [
+        [
+          "Giant cells in lamina VI have extensive axonal arbors and lack the conventional dendritic tree of many central neurons. Carr and colleagues reconstructed labeled cells and examined their contacts with afferents at light- and electron-microscope resolution.",
+          [
+            "The published circuit includes morphologically mixed contacts onto small-cell dendrites, with both electrical and chemical specializations. Those contacts must not be described as exclusively electrical. Giant-cell somatic contacts and small-cell dendritic contacts differ in both location and ultrastructural organization."
+          ]
+        ],
+        "The published ultrastructure identifies gap-junction contacts between afferent terminals and giant cells. Its detailed contact panel includes a 0.5-µm scale bar. Other panels reveal the unipolar soma and large axonal processes that distribute timing information across the layer.",
+        "This organization can provide many local comparators with timing signals originating at other body regions. The anatomy establishes direct electrical contacts and broad distribution; it does not mean that one giant cell encodes the entire animal’s behavioral decision. The comparison still depends on which local and distributed inputs reach each small cell."
+      ],
+      "cite": "Carr et al. (1986)",
+      "refs": [
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/16_rose86b.png",
+        "caption": "Carr et al. (1986), Fig. 4(A–F). Giant-cell anatomy and ultrastructure of gap-junction contacts.",
+        "source_url": "https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      }
+    },
+    {
+      "title": "Amplitude and timing pathways occupy different laminae",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Heiligenberg and Rose recorded intracellularly in the torus and filled physiologically identified neurons with dyes. Their anatomical summary separated amplitude-coding ELL pyramidal inputs from phase-coding spherical-cell inputs rather than treating the torus as a uniform relay.",
+        "Amplitude inputs reached laminae 3, 5, 7, 8c, and 8d. Phase information reached giant cells in lamina 6, with subsequent processing in deeper layers. The body surface was represented **somatotopically**, meaning that different body locations mapped onto different neural locations.",
+        "This arrangement makes local amplitude information available alongside comparisons of timing across body regions. A layered projection pattern is consistent with successive cue transformations, but a lamina can contain heterogeneous cells. The paper also identified a lobus caudalis projection whose computational significance remained unresolved."
+      ],
+      "transcript": [
+        [
+          "Heiligenberg and Rose recorded intracellularly in the torus and filled physiologically identified neurons with dyes. Their anatomical summary separated amplitude-coding ELL pyramidal inputs from phase-coding spherical-cell inputs rather than treating the torus as a uniform relay.",
+          [
+            "Intracellular labeling permitted the response properties of a cell to be linked with its position and processes. The named laminae are anatomical layers rather than separate behavioral stages with only one operation each. The source explicitly retained uncertainty about some projections instead of assigning every connection a JAR function."
+          ]
+        ],
+        "Amplitude inputs reached laminae 3, 5, 7, 8c, and 8d. Phase information reached giant cells in lamina 6, with subsequent processing in deeper layers. The body surface was represented somatotopically, meaning that different body locations mapped onto different neural locations.",
+        "This arrangement makes local amplitude information available alongside comparisons of timing across body regions. A layered projection pattern is consistent with successive cue transformations, but a lamina can contain heterogeneous cells. The paper also identified a lobus caudalis projection whose computational significance remained unresolved."
+      ],
+      "cite": "Heiligenberg & Rose (1985)",
+      "refs": [
+        "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/17_rose85.png",
+        "caption": "Heiligenberg & Rose (1985), Fig. 2. Amplitude and phase inputs reach distinct toral laminae.",
+        "source_url": "https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      }
+    },
+    {
+      "title": "Small cells respond selectively to differential phase",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Heiligenberg and Rose stimulated head and tail compartments independently while recording small cells in lamina 6. The head signal’s timing was advanced or delayed relative to the tail, while a triangular waveform swept the phase difference at 2 Hz.",
+        "Spikes occurred preferentially within particular portions of the differential-phase range. One small cell was silent when the head signal lagged; another had a different preference. Intracellular dye filling associated these response patterns with small-cell anatomy near giant cells.",
+        "The experiment isolates a **phase comparator**, a neuron whose firing depends on relative timing rather than only on one local waveform. Selectivity is not a complete JAR decision because amplitude change has not yet been combined with phase preference. The anatomical delay-and-coincidence interpretation remained a proposed mechanism for this selectivity."
+      ],
+      "transcript": [
+        [
+          "Heiligenberg and Rose stimulated head and tail compartments independently while recording small cells in lamina 6. The head signal’s timing was advanced or delayed relative to the tail, while a triangular waveform swept the phase difference at 2 Hz.",
+          [
+            "In the proposed arrangement, a small cell receives distributed timing on its soma and local timing on a dendrite. A dendritic delay could make simultaneous arrival at the spike-generating region depend on the original difference between the two signals. The anatomical segregation supports this proposal without directly measuring every dendritic delay."
+          ]
+        ],
+        "Spikes occurred preferentially within particular portions of the differential-phase range. One small cell was silent when the head signal lagged; another had a different preference. Intracellular dye filling associated these response patterns with small-cell anatomy near giant cells.",
+        "The experiment isolates a phase comparator, a neuron whose firing depends on relative timing rather than only on one local waveform. Selectivity is not a complete JAR decision because amplitude change has not yet been combined with phase preference. The anatomical delay-and-coincidence interpretation remained a proposed mechanism for this selectivity."
+      ],
+      "cite": "Heiligenberg & Rose (1985)",
+      "refs": [
+        "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/18_rose85.png",
+        "caption": "Heiligenberg & Rose (1985), Fig. 4(a–c). Small-cell firing depends on differential phase.",
+        "source_url": "https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      }
+    },
+    {
+      "title": "Phase comparators do not simply report amplitude beats",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "The same two-compartment preparation allowed Heiligenberg and Rose to compare combined amplitude-and-phase modulation with phase modulation alone and amplitude modulation alone. Intracellular recording distinguished the contributions while retaining a recurring electrical carrier in the reference compartment.",
+        "A small cell in lamina 6 retained differential-phase sensitivity under phase-only stimulation. Isolated amplitude modulation did not produce the same response pattern. Removing the comparison signal changed activity rather than supplying an equivalent timing reference through the central pacemaker.",
+        "These controls place the first relative-timing comparison within the sensory circuit. A phase-sensitive response cannot be assigned to the amplitude beat merely because both coexist during normal interference. The result also does not require a neuron to recognize the neighbor’s absolute EOD frequency or identity."
+      ],
+      "transcript": [
+        [
+          "The same two-compartment preparation allowed Heiligenberg and Rose to compare combined amplitude-and-phase modulation with phase modulation alone and amplitude modulation alone. Intracellular recording distinguished the contributions while retaining a recurring electrical carrier in the reference compartment.",
+          [
+            "The source used the stimulus variables independently because a natural beat changes them together. The recording separates correlation from cue dependence. A cell’s response to a mixed stimulus would otherwise leave unresolved whether the relevant driver was amplitude, differential phase, or their interaction."
+          ]
+        ],
+        "A small cell in lamina 6 retained differential-phase sensitivity under phase-only stimulation. Isolated amplitude modulation did not produce the same response pattern. Removing the comparison signal changed activity rather than supplying an equivalent timing reference through the central pacemaker.",
+        "These controls place the first relative-timing comparison within the sensory circuit. A phase-sensitive response cannot be assigned to the amplitude beat merely because both coexist during normal interference. The result also does not require a neuron to recognize the neighbor’s absolute EOD frequency or identity."
+      ],
+      "cite": "Heiligenberg & Rose (1985); Carr et al. (1986)",
+      "refs": [
+        "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985",
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/19_rose85.png",
+          "caption": "Heiligenberg & Rose (1985), Fig. 5(a–d). Small-cell responses to isolated amplitude and phase modulation.",
+          "source_url": "https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+        },
+        {
+          "kind": "article",
+          "path": "figures/small_cells.png",
+          "caption": "Carr et al. (1986), Fig. 5(A). Published reconstruction of lamina-VI small cells and their processes.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.06-05-01372.1986"
+        }
+      ]
+    },
+    {
+      "title": "Phase tuning includes both dynamic and stationary cues",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Heiligenberg and Rose varied the timing relationship between head and tail while recording a small cell in lamina 6. At 2-Hz triangular phase modulation, its spike density favored a restricted phase range. Removing the head carrier released activity over much more of the cycle.",
+        "Another record used a 0.2-Hz phase scan and sustained phase offsets. The neuron could discriminate stationary phase values rather than responding only to the direction of a rapid scan. Carrier presence and relative phase therefore changed the operating state of the comparator.",
+        "The differing tests distinguish sensitivity to instantaneous timing from sensitivity to temporal change. They do not imply that every comparator has identical dynamics or that its firing directly specifies upward versus downward JAR. The behavioral decision requires the phase preference to be interpreted together with amplitude information."
+      ],
+      "transcript": [
+        [
+          "Heiligenberg and Rose varied the timing relationship between head and tail while recording a small cell in lamina 6. At 2-Hz triangular phase modulation, its spike density favored a restricted phase range. Removing the head carrier released activity over much more of the cycle.",
+          [
+            "A phase advance and a phase delay concern the order of corresponding carrier events, not a faster or slower beat in isolation. Holding a phase value constant tests the comparator’s steady response. Sweeping it tests how that response behaves during changing input."
+          ]
+        ],
+        "Another record used a 0.2-Hz phase scan and sustained phase offsets. The neuron could discriminate stationary phase values rather than responding only to the direction of a rapid scan. Carrier presence and relative phase therefore changed the operating state of the comparator.",
+        "The differing tests distinguish sensitivity to instantaneous timing from sensitivity to temporal change. They do not imply that every comparator has identical dynamics or that its firing directly specifies upward versus downward JAR. The behavioral decision requires the phase preference to be interpreted together with amplitude information."
+      ],
+      "cite": "Heiligenberg & Rose (1985); Carr et al. (1986)",
+      "refs": [
+        "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985",
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/20_rose85.png",
+          "caption": "Heiligenberg & Rose (1985), Fig. 6(a–b). Phase-sensitive responses and removal of the head signal.",
+          "source_url": "https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+        },
+        {
+          "kind": "article",
+          "path": "figures/small_cells.png",
+          "caption": "Carr et al. (1986), Fig. 5(A). Published reconstruction of lamina-VI small cells and their processes.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.06-05-01372.1986"
+        }
+      ]
+    },
+    {
+      "title": "Local amplitude gates timing responses in deeper neurons",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "In deeper toral laminae, Heiligenberg and Rose found neurons sensitive to both amplitude and differential phase. The investigators modulated either the head or tail while retaining a carrier at the other region, then removed or restored the reference signal.",
+        "The published lamina-8b/8c neuron responded differently to combined modulation, amplitude alone, and phase alone. A local amplitude change altered the expression of its phase preference. Its labeled morphology extended through the deeper layers where the two information streams could converge.",
+        "**Combination sensitivity** is a dependence on a particular pairing of stimulus features. Here, phase information is interpreted in the context of local amplitude, providing a candidate operation for determining beat sign. The recording establishes cue interaction in this neuron, rather than proving that all cells use an identical multiplication mechanism."
+      ],
+      "transcript": [
+        [
+          "In deeper toral laminae, Heiligenberg and Rose found neurons sensitive to both amplitude and differential phase. The investigators modulated either the head or tail while retaining a carrier at the other region, then removed or restored the reference signal.",
+          [
+            "The source also compared slow phase scans with stationary offsets. These tests separated phase tuning from the modulation cycle itself. The recorded preference was influenced by which body region supplied the local amplitude signal, consistent with a somatotopic organization of cue integration."
+          ]
+        ],
+        "The published lamina-8b/8c neuron responded differently to combined modulation, amplitude alone, and phase alone. A local amplitude change altered the expression of its phase preference. Its labeled morphology extended through the deeper layers where the two information streams could converge.",
+        "Combination sensitivity is a dependence on a particular pairing of stimulus features. Here, phase information is interpreted in the context of local amplitude, providing a candidate operation for determining beat sign. The recording establishes cue interaction in this neuron, rather than proving that all cells use an identical multiplication mechanism."
+      ],
+      "cite": "Heiligenberg & Rose (1985)",
+      "refs": [
+        "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/21_rose85.png",
+        "caption": "Heiligenberg & Rose (1985), Fig. 7(a–c). Amplitude-dependent gating and phase sensitivity in a deeper neuron.",
+        "source_url": "https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      }
+    },
+    {
+      "title": "Changing the stimulated region changes cue interaction",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Heiligenberg and Rose applied amplitude modulation to the head, to the tail, or to both regions while independently varying differential phase. The deeper neuron’s response changed with the spatial assignment of the cues even when modulation occurred at the same 2-Hz rate.",
+        "The published response matrix contrasts conditions with the tail carrier present and absent. A neuron excited by one phase relationship could become insensitive to amplitude modulation at an appropriate static phase. Reversing which body region was modulated also changed which phase relationship favored its firing.",
+        "The interaction links timing comparison to a particular local amplitude channel. A phase advance does not carry a universal motor instruction independent of spatial context. These controlled stimuli identify conditional sensory tuning; they do not by themselves identify the downstream synaptic sign at the pacemaker nucleus."
+      ],
+      "transcript": [
+        [
+          "Heiligenberg and Rose applied amplitude modulation to the head, to the tail, or to both regions while independently varying differential phase. The deeper neuron’s response changed with the spatial assignment of the cues even when modulation occurred at the same 2-Hz rate.",
+          [
+            "The source’s phase-only and amplitude-only conditions were not interchangeable with removing the electrical carrier. Carrier removal changes the availability of a timing reference. Maintaining that distinction prevents a response to absent input from being mistaken for selectivity to a different beat sign."
+          ]
+        ],
+        "The published response matrix contrasts conditions with the tail carrier present and absent. A neuron excited by one phase relationship could become insensitive to amplitude modulation at an appropriate static phase. Reversing which body region was modulated also changed which phase relationship favored its firing.",
+        "The interaction links timing comparison to a particular local amplitude channel. A phase advance does not carry a universal motor instruction independent of spatial context. These controlled stimuli identify conditional sensory tuning; they do not by themselves identify the downstream synaptic sign at the pacemaker nucleus."
+      ],
+      "cite": "Heiligenberg & Rose (1985); Carr et al. (1986)",
+      "refs": [
+        "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985",
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/22_rose85.png",
+          "caption": "Heiligenberg & Rose (1985), Fig. 8(a–i). Responses when head and tail signals are modulated separately.",
+          "source_url": "https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+        },
+        {
+          "kind": "article",
+          "path": "figures/phase_brain.png",
+          "caption": "Carr et al. (1986), Fig. 1(A). Sagittal brain anatomy with torus and electrosensory lateral line lobe.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.06-05-01372.1986"
+        }
+      ]
+    },
+    {
+      "title": "Four cell classes combine amplitude with phase preference",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Heiligenberg and Rose classified deeper toral neurons by two independent response preferences. Cells could favor rising amplitude, termed E-type, or falling amplitude, termed I-type. They could also favor a local phase advance or a phase delay relative to the comparison region.",
+        "The resulting E-advance, E-delay, I-advance, and I-delay classes were associated with labeled multipolar cells in deeper laminae. Their dendritic and axonal forms differed from the small comparators of lamina 6. The published drawings preserve their laminar positions and 100-µm scale.",
+        "The four combinations supply opposing evidence about the sign of interference. Individual neurons were not perfectly invariant across stimulus conditions; the authors emphasized the joint effect of populations. Physiological classification identifies a response preference, while labeled morphology supplies an anatomical correlate rather than a molecular cell identity."
+      ],
+      "transcript": [
+        [
+          "Heiligenberg and Rose classified deeper toral neurons by two independent response preferences. Cells could favor rising amplitude, termed E-type, or falling amplitude, termed I-type. They could also favor a local phase advance or a phase delay relative to the comparison region.",
+          [
+            "The term excitatory in E-type denotes excitation during amplitude increase, not necessarily the neurotransmitter released by the cell. An I-type sensory preference likewise does not establish that the neuron inhibits every postsynaptic target. Sensory response class and synaptic transmitter identity must remain distinct."
+          ]
+        ],
+        "The resulting E-advance, E-delay, I-advance, and I-delay classes were associated with labeled multipolar cells in deeper laminae. Their dendritic and axonal forms differed from the small comparators of lamina 6. The published drawings preserve their laminar positions and 100-µm scale.",
+        "The four combinations supply opposing evidence about the sign of interference. Individual neurons were not perfectly invariant across stimulus conditions; the authors emphasized the joint effect of populations. Physiological classification identifies a response preference, while labeled morphology supplies an anatomical correlate rather than a molecular cell identity."
+      ],
+      "cite": "Heiligenberg & Rose (1985)",
+      "refs": [
+        "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/23_rose85.png",
+        "caption": "Heiligenberg & Rose (1985), Fig. 9(a–d). Morphology of excitatory/inhibitory advance/delay classes.",
+        "source_url": "https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      }
+    },
+    {
+      "title": "A sign-selective neuron projects toward motor-control nuclei",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Metzner recorded a deeper toral neuron during naturalistic interference and then filled it with biocytin, a cellular tracer. Transverse jamming electrodes and longitudinal EOD-mimic electrodes supplied different spatial geometries. The jamming signal differed from the EOD mimic by 2 Hz.",
+        "The neuron favored positive Δf under the spatially differentiated stimulus. When the two signals used identical electrodes, differential phase was absent and its response reduced to an amplitude preference. Its axon projected prominently to the optic tectum and sent a thinner collateral toward the nucleus electrosensorius.",
+        "The collateral formed terminals at the ventral nucleus electrosensorius, consistent with a route carrying information for frequency decreases. **Sign selectivity** here means unequal responses to positive and negative difference frequencies. The anatomical evidence concerned one successfully labeled neuron and therefore does not establish uniform connectivity for the entire class."
+      ],
+      "transcript": [
+        [
+          "Metzner recorded a deeper toral neuron during naturalistic interference and then filled it with biocytin, a cellular tracer. Transverse jamming electrodes and longitudinal EOD-mimic electrodes supplied different spatial geometries. The jamming signal differed from the EOD mimic by 2 Hz.",
+          [
+            "The source could follow the thinner collateral about 600 µm rostrally before describing its diencephalic course. The labeled cell provides a direct link between recorded sensory preference and a candidate downstream target. A complete reconstruction of every sign-selective toral neuron was not obtained."
+          ]
+        ],
+        "The neuron favored positive Δf under the spatially differentiated stimulus. When the two signals used identical electrodes, differential phase was absent and its response reduced to an amplitude preference. Its axon projected prominently to the optic tectum and sent a thinner collateral toward the nucleus electrosensorius.",
+        "The collateral formed terminals at the ventral nucleus electrosensorius, consistent with a route carrying information for frequency decreases. Sign selectivity here means unequal responses to positive and negative difference frequencies. The anatomical evidence concerned one successfully labeled neuron and therefore does not establish uniform connectivity for the entire class."
+      ],
+      "cite": "Metzner (1993)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/24_metzner93.png",
+        "caption": "Metzner (1993), Fig. 14(A–D). Sign-selective physiology and a traced diencephalic projection.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+      }
+    },
+    {
+      "title": "Population activity links cue combinations to beat sign",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "The published synthesis by Heiligenberg and Rose paired four combination-sensitive classes with the amplitude and timing patterns produced by opposite difference frequencies. E-delay and I-advance neurons preferentially represented positive Δf; E-advance and I-delay neurons preferentially represented negative Δf.",
+        "Positive Δf denotes a higher-frequency neighbor and calls for a decrease in the focal fish’s EOD. Negative Δf denotes a lower-frequency neighbor and calls for an increase. The population code converts the relationship between two sensory variables into evidence for these opposing motor outcomes.",
+        "The authors derived this classification from intracellular response tests and labeled neurons. A population interpretation accommodates incomplete tuning in single cells, but the 1985 study did not causally silence each class. Later motor-pathway experiments were needed to determine how the sensory decision changed oscillator frequency."
+      ],
+      "transcript": [
+        [
+          "The published synthesis by Heiligenberg and Rose paired four combination-sensitive classes with the amplitude and timing patterns produced by opposite difference frequencies. E-delay and I-advance neurons preferentially represented positive Δf; E-advance and I-delay neurons preferentially represented negative Δf.",
+          [
+            "The published summary includes pure amplitude coders, phase coders, and cells sensitive to both variables. These are experimentally distinguishable stages of representation. Their coexistence also prevents the conclusion that every toral cell individually encodes the complete sign decision."
+          ]
+        ],
+        "Positive Δf denotes a higher-frequency neighbor and calls for a decrease in the focal fish’s EOD. Negative Δf denotes a lower-frequency neighbor and calls for an increase. The population code converts the relationship between two sensory variables into evidence for these opposing motor outcomes.",
+        "The authors derived this classification from intracellular response tests and labeled neurons. A population interpretation accommodates incomplete tuning in single cells, but the 1985 study did not causally silence each class. Later motor-pathway experiments were needed to determine how the sensory decision changed oscillator frequency."
+      ],
+      "cite": "Heiligenberg & Rose (1985)",
+      "refs": [
+        "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/25_rose85.png",
+        "caption": "Heiligenberg & Rose (1985), Fig. 12. Four combination-sensitive classes encode opposite beat signs.",
+        "source_url": "https://doi.org/10.1523/jneurosci.05-02-00515.1985"
+      }
+    },
+    {
+      "title": "Frequency increases and decreases use separate pathways",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Metzner tested the earlier idea that one prepacemaker population controlled both directions of the JAR. The study combined brain lesions, stimulation, pharmacology, and continuous recording of EOD frequency in immobilized _Eigenmannia_. The **nucleus electrosensorius** is a diencephalic sensory–motor interface.",
+        "The dorsal electrosensorius pathway drives the gradual prepacemaker region, **PPn-G**, and supports frequency increases. A ventral pathway engages the **sublemniscal prepacemaker nucleus**, or **SPPn**, and supports decreases by reducing its ongoing excitatory influence on the pacemaker network.",
+        "The published circuit separates these routes from the chirp-controlling **PPn-C**. The proposed architecture was constrained by selective losses and preserved responses, rather than by a diagram alone. Some cellular targets in 1993 remained inferred; subsequent intracellular recordings tested the target-cell assignments directly."
+      ],
+      "transcript": [
+        [
+          "Metzner tested the earlier idea that one prepacemaker population controlled both directions of the JAR. The study combined brain lesions, stimulation, pharmacology, and continuous recording of EOD frequency in immobilized Eigenmannia. The nucleus electrosensorius is a diencephalic sensory–motor interface.",
+          [
+            "The older single-population interpretation treated a decrease as reduced activity in the same neurons producing increases. Selective lesions supported a different organization. Each route can alter one direction of frequency modulation while the other direction remains available."
+          ]
+        ],
+        "The dorsal electrosensorius pathway drives the gradual prepacemaker region, PPn-G, and supports frequency increases. A ventral pathway engages the sublemniscal prepacemaker nucleus, or SPPn, and supports decreases by reducing its ongoing excitatory influence on the pacemaker network.",
+        "The published circuit separates these routes from the chirp-controlling PPn-C. The proposed architecture was constrained by selective losses and preserved responses, rather than by a diagram alone. Some cellular targets in 1993 remained inferred; subsequent intracellular recordings tested the target-cell assignments directly."
+      ],
+      "cite": "Metzner (1993); Juranek & Metzner (1998)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993",
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/26_metzner93.png",
+          "caption": "Metzner (1993), Fig. 2. Separate acceleration, deceleration, and chirp pathways.",
+          "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "Prepacemaker lesions abolish frequency increases",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Metzner made bilateral lesions in the PPn-G/central posterior region and measured the JAR before and after the manipulation. The jamming stimulus alternated between positive and negative frequency differences, while the fish’s resting EOD frequency supplied the reference for response direction.",
+        "After the lesion, the EOD no longer rose above resting frequency in response to a lower-frequency signal. Frequency decreases elicited by a higher-frequency signal remained. The published records compare responses approximately one minute before the lesion with those after it and document lesion location.",
+        "This selective deficit identifies the region as necessary for normal frequency acceleration under the tested conditions. Preserved deceleration argues against a complete loss of sensation, pacemaker function, or all motor output. The lesion affects a region and its connections, so it does not isolate one molecularly identified neuron type."
+      ],
+      "transcript": [
+        [
+          "Metzner made bilateral lesions in the PPn-G/central posterior region and measured the JAR before and after the manipulation. The jamming stimulus alternated between positive and negative frequency differences, while the fish’s resting EOD frequency supplied the reference for response direction.",
+          [
+            "The original analysis also separated recovery toward baseline after a previous response from a newly induced frequency decrease. Passive recovery can continue even when a specific JAR direction is lost. A frequency trace must therefore be related to the stimulus and resting level, not interpreted from its slope alone."
+          ]
+        ],
+        "After the lesion, the EOD no longer rose above resting frequency in response to a lower-frequency signal. Frequency decreases elicited by a higher-frequency signal remained. The published records compare responses approximately one minute before the lesion with those after it and document lesion location.",
+        "This selective deficit identifies the region as necessary for normal frequency acceleration under the tested conditions. Preserved deceleration argues against a complete loss of sensation, pacemaker function, or all motor output. The lesion affects a region and its connections, so it does not isolate one molecularly identified neuron type."
+      ],
+      "cite": "Metzner (1993)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/27_metzner93.png",
+        "caption": "Metzner (1993), Fig. 3(A–D). Prepacemaker lesions remove frequency increases selectively.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+      }
+    },
+    {
+      "title": "Stimulation localizes the interrupted acceleration route",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Metzner stimulated dorsal and ventral nucleus electrosensorius sites and the SPPn before and after a PPn-G lesion. **Iontophoresis** uses electrical current to deliver a charged compound locally; L-glutamate was applied to activate neurons near the stimulation electrode.",
+        "After the lesion, stimulation of the dorsal electrosensorius no longer produced the normal frequency increase through the damaged route. Responses associated with the ventral electrosensorius and SPPn remained, consistent with their access to the oscillator through a separate pathway.",
+        "Combining lesions with stimulation distinguishes damage to an ascending sensory representation from interruption of a descending route. The preserved alternative responses also constrain nonspecific explanations for the lesion effect. Local chemical stimulation nevertheless activates nearby cells and does not prove a monosynaptic connection between every named structure."
+      ],
+      "transcript": [
+        [
+          "Metzner stimulated dorsal and ventral nucleus electrosensorius sites and the SPPn before and after a PPn-G lesion. Iontophoresis uses electrical current to deliver a charged compound locally; L-glutamate was applied to activate neurons near the stimulation electrode.",
+          [
+            "The stimulation bars in the original records delimit the period of local activation. The comparison concerns the same candidate pathway before and after a structural interruption. Resting frequency and the direction of induced change remain separate from the availability of a natural jamming cue."
+          ]
+        ],
+        "After the lesion, stimulation of the dorsal electrosensorius no longer produced the normal frequency increase through the damaged route. Responses associated with the ventral electrosensorius and SPPn remained, consistent with their access to the oscillator through a separate pathway.",
+        "Combining lesions with stimulation distinguishes damage to an ascending sensory representation from interruption of a descending route. The preserved alternative responses also constrain nonspecific explanations for the lesion effect. Local chemical stimulation nevertheless activates nearby cells and does not prove a monosynaptic connection between every named structure."
+      ],
+      "cite": "Metzner (1993); Juranek & Metzner (1998)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993",
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/28_metzner93.png",
+          "caption": "Metzner (1993), Fig. 4(A–C). Upstream stimulation before and after prepacemaker lesions.",
+          "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "Tracing identifies a sublemniscal projection to the oscillator",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "The SPPn is a scattered brainstem population rather than a conspicuous compact nucleus. Metzner injected a retrograde tracer into the medullary pacemaker nucleus and examined labeled cells at the appropriate level of the brainstem tegmentum.",
+        "**Retrograde tracing** labels neurons that project toward the injection site. The published histology identifies scattered cells beneath the lateral lemniscus, with 100-µm scales in the broader and enlarged views. These cells supplied an anatomical candidate for an independent premotor route.",
+        "The tracer identifies a projection to the pacemaker region; it does not independently determine whether those cells raise or lower frequency. Physiological stimulation and lesions supplied the complementary functional evidence. Sparse organization also makes precise lesion placement and chemical stimulation more difficult than in a large compact nucleus."
+      ],
+      "transcript": [
+        [
+          "The SPPn is a scattered brainstem population rather than a conspicuous compact nucleus. Metzner injected a retrograde tracer into the medullary pacemaker nucleus and examined labeled cells at the appropriate level of the brainstem tegmentum.",
+          [
+            "The SPPn’s position relative to the lateral lemniscus and nearby structures guided the experiments. An injection into the pacemaker must be evaluated for spread to neighboring tissue. Anatomical labeling supports pathway localization while the selective behavioral effects constrain the role assigned to it."
+          ]
+        ],
+        "Retrograde tracing labels neurons that project toward the injection site. The published histology identifies scattered cells beneath the lateral lemniscus, with 100-µm scales in the broader and enlarged views. These cells supplied an anatomical candidate for an independent premotor route.",
+        "The tracer identifies a projection to the pacemaker region; it does not independently determine whether those cells raise or lower frequency. Physiological stimulation and lesions supplied the complementary functional evidence. Sparse organization also makes precise lesion placement and chemical stimulation more difficult than in a large compact nucleus."
+      ],
+      "cite": "Metzner (1993)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/29_metzner93.png",
+        "caption": "Metzner (1993), Fig. 5(A–B). Retrograde labeling identifies the sublemniscal prepacemaker.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+      }
+    },
+    {
+      "title": "Sublemniscal lesions abolish decreases and lower baseline",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Metzner lesioned the SPPn and compared responses before and after the manipulation. Before the lesion, positive difference frequencies lowered the EOD and negative difference frequencies raised it. The published anatomical panel documents the lesion within the relevant brainstem region.",
+        "The lesion lowered the resting EOD frequency and eliminated further JAR decreases below the new baseline. Frequency increases to lower-frequency jamming signals remained. The result contrasts with PPn-G lesions, which removed acceleration while sparing deceleration.",
+        "The baseline decrease indicates that the SPPn normally supplies **tonic drive**, an influence maintained even without a jamming stimulus. JAR deceleration can reduce that drive. Selective preservation of acceleration supports independent control routes; lesion extent and neighboring tissue remain limitations of a regional ablation."
+      ],
+      "transcript": [
+        [
+          "Metzner lesioned the SPPn and compared responses before and after the manipulation. Before the lesion, positive difference frequencies lowered the EOD and negative difference frequencies raised it. The published anatomical panel documents the lesion within the relevant brainstem region.",
+          [
+            "The paper distinguished stimulus-induced deceleration from passive return after an earlier frequency increase. Lowering the oscillator’s baseline does not mean the entire pacemaker is silenced. The network continues discharging, but one route for moving below its operating frequency has been removed."
+          ]
+        ],
+        "The lesion lowered the resting EOD frequency and eliminated further JAR decreases below the new baseline. Frequency increases to lower-frequency jamming signals remained. The result contrasts with PPn-G lesions, which removed acceleration while sparing deceleration.",
+        "The baseline decrease indicates that the SPPn normally supplies tonic drive, an influence maintained even without a jamming stimulus. JAR deceleration can reduce that drive. Selective preservation of acceleration supports independent control routes; lesion extent and neighboring tissue remain limitations of a regional ablation."
+      ],
+      "cite": "Metzner (1993)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/30_metzner93.png",
+        "caption": "Metzner (1993), Fig. 6(A–D). Sublemniscal lesions alter baseline and abolish decreases.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+      }
+    },
+    {
+      "title": "GABA reduces tonic sublemniscal drive",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "**GABA**, gamma-aminobutyric acid, is an inhibitory neurotransmitter in the tested pathway. Metzner applied GABA to the SPPn and measured a fall in resting EOD frequency. Electrical stimulation of the same region instead increased the operating frequency.",
+        "**Bicuculline**, an antagonist that interferes with GABA-sensitive inhibition, raised the baseline when applied locally. It also blocked the frequency decrease normally elicited by stimulating the ventral nucleus electrosensorius. That upstream stimulation therefore depended on inhibitory action within the sublemniscal route.",
+        "The mechanistic sequence is inhibition of SPPn activity, reduction of tonic excitation reaching the pacemaker, and slower EOD output. A slower oscillator need not result from direct inhibition of its rhythm-generating cells. Local drug effects establish a GABA-sensitive mechanism without identifying every receptor subunit or ion conductance in the SPPn."
+      ],
+      "transcript": [
+        [
+          "GABA, gamma-aminobutyric acid, is an inhibitory neurotransmitter in the tested pathway. Metzner applied GABA to the SPPn and measured a fall in resting EOD frequency. Electrical stimulation of the same region instead increased the operating frequency.",
+          [
+            "The published experiments compared resting frequency with ongoing JAR performance. GABA changed the operating level while the preserved responses constrained generalized suppression. Pharmacological delivery concentration is not the measured concentration at each synapse, so it cannot be treated as an endogenous transmitter level."
+          ]
+        ],
+        "Bicuculline, an antagonist that interferes with GABA-sensitive inhibition, raised the baseline when applied locally. It also blocked the frequency decrease normally elicited by stimulating the ventral nucleus electrosensorius. That upstream stimulation therefore depended on inhibitory action within the sublemniscal route.",
+        "The mechanistic sequence is inhibition of SPPn activity, reduction of tonic excitation reaching the pacemaker, and slower EOD output. A slower oscillator need not result from direct inhibition of its rhythm-generating cells. Local drug effects establish a GABA-sensitive mechanism without identifying every receptor subunit or ion conductance in the SPPn."
+      ],
+      "cite": "Metzner (1993); Juranek & Metzner (1998)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993",
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/31_metzner93.png",
+          "caption": "Metzner (1993), Fig. 8(A–D). GABA and bicuculline effects in the sublemniscal nucleus.",
+          "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "AMPA-sensitive transmission supports frequency increases",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Glutamate** is an excitatory neurotransmitter acting through several receptor classes. **AMPA-type receptors** are glutamate-sensitive, channel-forming receptors; their activation changes postsynaptic membrane conductance. Metzner injected **CNQX**, an antagonist of AMPA/non-NMDA transmission, into the medullary pacemaker nucleus.",
+        "CNQX selectively suppressed the frequency increases normally evoked by negative Δf. Frequency decreases remained available, and the acceleration response recovered after the drug effect diminished. Artificial cerebrospinal-fluid injections provided a control for mechanical and solution-delivery effects.",
+        "The result assigns an AMPA-sensitive component to the acceleration route rather than requiring the same receptor mechanism for both JAR directions. It does not imply that all glutamatergic input uses AMPA receptors exclusively. Drug spread and the electrically coupled oscillator network limit localization to an individual synaptic contact."
+      ],
+      "transcript": [
+        [
+          "Glutamate is an excitatory neurotransmitter acting through several receptor classes. AMPA-type receptors are glutamate-sensitive, channel-forming receptors; their activation changes postsynaptic membrane conductance. Metzner injected CNQX, an antagonist of AMPA/non-NMDA transmission, into the medullary pacemaker nucleus.",
+          [
+            "An antagonist reduces signaling through a receptor class, whereas L-glutamate stimulation activates nearby neurons through available receptors. These interventions answer different questions. The vehicle control was essential because injecting fluid into a small nucleus can alter the recording or local tissue independently of receptor blockade."
+          ]
+        ],
+        "CNQX selectively suppressed the frequency increases normally evoked by negative Δf. Frequency decreases remained available, and the acceleration response recovered after the drug effect diminished. Artificial cerebrospinal-fluid injections provided a control for mechanical and solution-delivery effects.",
+        "The result assigns an AMPA-sensitive component to the acceleration route rather than requiring the same receptor mechanism for both JAR directions. It does not imply that all glutamatergic input uses AMPA receptors exclusively. Drug spread and the electrically coupled oscillator network limit localization to an individual synaptic contact."
+      ],
+      "cite": "Metzner (1993); Juranek & Metzner (1998)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993",
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/32_metzner93.png",
+          "caption": "Metzner (1993), Fig. 9(A–C). CNQX selectively suppresses JAR frequency increases.",
+          "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "Receptor blockade separates upstream motor commands",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Metzner combined pacemaker CNQX injections with stimulation of upstream structures. Activation of dorsal nucleus electrosensorius and PPn-G tested frequency-increasing commands; activation of ventral electrosensorius and manipulation of the SPPn tested the deceleration route.",
+        "CNQX strongly reduced accelerations induced through the dorsal and PPn-G pathway. Effects associated with the alternative route were retained to a much greater extent. The original frequency traces use a 5-Hz vertical calibration and document the timing of drug delivery and upstream stimulation.",
+        "The experiment places the receptor-sensitive step downstream of the stimulated acceleration structures. It is stronger evidence than loss of natural JAR alone, which could result from disrupting sensory encoding. The source supports pathway-specific glutamatergic transmission, while the exact balance of receptor classes requires additional cellular evidence."
+      ],
+      "transcript": [
+        [
+          "Metzner combined pacemaker CNQX injections with stimulation of upstream structures. Activation of dorsal nucleus electrosensorius and PPn-G tested frequency-increasing commands; activation of ventral electrosensorius and manipulation of the SPPn tested the deceleration route.",
+          [
+            "The same pacemaker network can remain responsive after one receptor-dependent input is weakened. A preserved response through another input therefore acts as a functional control for the ability of the oscillator to change frequency. Electrical coupling also allows a local synaptic effect to influence network output."
+          ]
+        ],
+        "CNQX strongly reduced accelerations induced through the dorsal and PPn-G pathway. Effects associated with the alternative route were retained to a much greater extent. The original frequency traces use a 5-Hz vertical calibration and document the timing of drug delivery and upstream stimulation.",
+        "The experiment places the receptor-sensitive step downstream of the stimulated acceleration structures. It is stronger evidence than loss of natural JAR alone, which could result from disrupting sensory encoding. The source supports pathway-specific glutamatergic transmission, while the exact balance of receptor classes requires additional cellular evidence."
+      ],
+      "cite": "Metzner (1993); Juranek & Metzner (1998)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993",
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/33_metzner93.png",
+          "caption": "Metzner (1993), Fig. 11(A–E). CNQX effects on stimulated acceleration and deceleration routes.",
+          "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "NMDA blockade removes tonic excitation and deceleration",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "**NMDA-type receptors** are another glutamate-sensitive channel-forming receptor class. Metzner injected **APV**, an NMDA-receptor antagonist, into the pacemaker nucleus while monitoring resting frequency and JAR responses. The intervention tested the tonic sublemniscal influence separately from the CNQX-sensitive route.",
+        "In the published example, APV lowered resting frequency from 215 to 209 Hz. Both JAR directions were initially reduced, but acceleration recovered after roughly one minute, whereas the deceleration response recovered only after approximately 12 minutes.",
+        "The different recovery courses, together with upstream stimulation tests, support an NMDA-sensitive tonic input required for frequency decreases. Initial suppression of both directions should not be interpreted as identical pathway dependence. The experiment measures network behavior during a local drug perturbation, rather than isolated receptor current in a single identified cell."
+      ],
+      "transcript": [
+        [
+          "NMDA-type receptors are another glutamate-sensitive channel-forming receptor class. Metzner injected APV, an NMDA-receptor antagonist, into the pacemaker nucleus while monitoring resting frequency and JAR responses. The intervention tested the tonic sublemniscal influence separately from the CNQX-sensitive route.",
+          [
+            "The baseline change follows removal of excitatory drive, and later deceleration is limited because the same tonic component has already been reduced. This mechanism differs from opening a new inhibitory conductance directly in the pacemaker. The original temporal record is necessary to separate early nonspecific changes from the longer selective deficit."
+          ]
+        ],
+        "In the published example, APV lowered resting frequency from 215 to 209 Hz. Both JAR directions were initially reduced, but acceleration recovered after roughly one minute, whereas the deceleration response recovered only after approximately 12 minutes.",
+        "The different recovery courses, together with upstream stimulation tests, support an NMDA-sensitive tonic input required for frequency decreases. Initial suppression of both directions should not be interpreted as identical pathway dependence. The experiment measures network behavior during a local drug perturbation, rather than isolated receptor current in a single identified cell."
+      ],
+      "cite": "Metzner (1993); Juranek & Metzner (1998)",
+      "refs": [
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993",
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/34_metzner93.png",
+          "caption": "Metzner (1993), Fig. 12(A–C). APV lowers baseline and delays recovery of frequency decreases.",
+          "source_url": "https://doi.org/10.1523/jneurosci.13-05-01862.1993"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "Earlier pharmacology did not fully resolve pathway identity",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Kawasaki and Heiligenberg’s 1990 study compared pharmacological control of neuronal oscillators in different electric-fish genera. Its _Eigenmannia_ record tested APV and bicuculline within the pacemaker nucleus, before the later demonstration of separate JAR motor routes.",
+        "APV at 500 µM lowered resting frequency and reduced JAR frequency rises. Bicuculline at 2 mM did not produce the corresponding inhibitory-blockade effect in _Eigenmannia_. These results initially supported a prominent glutamatergic influence and argued against simple GABA-mediated inhibition directly at the oscillator.",
+        "Metzner’s subsequent lesions, receptor blockade, and recovery comparisons refined the interpretation. Frequency decrease involves GABA-sensitive inhibition upstream in the SPPn and loss of tonic excitation downstream. An early drug effect on a coupled network cannot alone identify the physiological target cells or every route contributing to the response."
+      ],
+      "transcript": [
+        [
+          "Kawasaki and Heiligenberg’s 1990 study compared pharmacological control of neuronal oscillators in different electric-fish genera. Its Eigenmannia record tested APV and bicuculline within the pacemaker nucleus, before the later demonstration of separate JAR motor routes.",
+          [
+            "The 1990 paper includes many experiments in the pulse-type genus Hypopomus. Its anatomical and drug results cannot all be transferred to Eigenmannia. The selected panel specifically concerns Eigenmannia, and later primary experiments are cited to explain the revised circuit assignment."
+          ]
+        ],
+        "APV at 500 µM lowered resting frequency and reduced JAR frequency rises. Bicuculline at 2 mM did not produce the corresponding inhibitory-blockade effect in Eigenmannia. These results initially supported a prominent glutamatergic influence and argued against simple GABA-mediated inhibition directly at the oscillator.",
+        "Metzner’s subsequent lesions, receptor blockade, and recovery comparisons refined the interpretation. Frequency decrease involves GABA-sensitive inhibition upstream in the SPPn and loss of tonic excitation downstream. An early drug effect on a coupled network cannot alone identify the physiological target cells or every route contributing to the response."
+      ],
+      "cite": "Kawasaki & Heiligenberg (1990); Metzner (1993); Juranek & Metzner (1998)",
+      "refs": [
+        "Kawasaki M, Heiligenberg W (1990). Different classes of glutamate receptors and GABA mediate distinct modulations of a neuronal oscillator, the medullary pacemaker of a gymnotiform electric fish. The Journal of Neuroscience 10(12):3896-3904. https://doi.org/10.1523/jneurosci.10-12-03896.1990",
+        "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993",
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/35_receptors90.png",
+          "caption": "Kawasaki & Heiligenberg (1990), Fig. 4. Early APV and bicuculline tests in Eigenmannia.",
+          "source_url": "https://doi.org/10.1523/jneurosci.10-12-03896.1990"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "Gradual acceleration increases pacemaker-cell conductance",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Juranek and Metzner recorded intracellularly from pacemaker and relay cells while activating PPn-G. **Pacemaker cells** generate the rhythm; **relay cells** transmit the command toward spinal output. Histological labeling verified cell identity after physiological classification.",
+        "Brief current pulses measured **input resistance**, the voltage response per injected current. PPn-G stimulation produced gradual accelerations of 5–30 Hz and decreased resistance more strongly in pacemaker cells. The published example begins near 496 Hz with a pacemaker-cell resistance of 3.4 MΩ.",
+        "A resistance decrease indicates greater conductance, or easier current flow through the membrane. The preferential change supports excitatory input onto rhythm-generating cells. Smaller changes in relay cells can arise through coupling, so an observed effect in both cell types does not imply equivalent direct innervation."
+      ],
+      "transcript": [
+        [
+          "Juranek and Metzner recorded intracellularly from pacemaker and relay cells while activating PPn-G. Pacemaker cells generate the rhythm; relay cells transmit the command toward spinal output. Histological labeling verified cell identity after physiological classification.",
+          [
+            "The investigators tested whether changing membrane voltage alone altered resistance across the relevant operating range. That control reduced an explanation based solely on intrinsic voltage-dependent conductances. The measurement locates a synaptic influence more directly than an EOD-frequency trace alone."
+          ]
+        ],
+        "Brief current pulses measured input resistance, the voltage response per injected current. PPn-G stimulation produced gradual accelerations of 5–30 Hz and decreased resistance more strongly in pacemaker cells. The published example begins near 496 Hz with a pacemaker-cell resistance of 3.4 MΩ.",
+        "A resistance decrease indicates greater conductance, or easier current flow through the membrane. The preferential change supports excitatory input onto rhythm-generating cells. Smaller changes in relay cells can arise through coupling, so an observed effect in both cell types does not imply equivalent direct innervation."
+      ],
+      "cite": "Juranek & Metzner (1998)",
+      "refs": [
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/36_segregation98.png",
+          "caption": "Juranek & Metzner (1998), Fig. 6(A–C). Input-resistance changes during gradual frequency increases.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "Deceleration reduces excitatory conductance in relay cells",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "Juranek and Metzner activated the ventral nucleus electrosensorius to inhibit the SPPn indirectly while recording identified oscillator cells. Directly manipulating the sparse SPPn consistently was difficult, so the upstream route supplied a reproducible way to reduce its tonic influence.",
+        "The stimulation produced gradual frequency decreases of 3–5 Hz. During a representative 4-Hz decrease, relay-cell input resistance increased by 8%, whereas the pacemaker-cell increase was 5%. The relay-cell response tracked deceleration more consistently across the recorded conditions.",
+        "Increased resistance indicates removal of membrane conductance, supporting withdrawal of tonic excitatory input onto relay cells. This is not the signature expected from adding a new inhibitory conductance directly to those cells. Electrical coupling explains why pacemaker cells may also change despite a more selective relay-cell target."
+      ],
+      "transcript": [
+        [
+          "Juranek and Metzner activated the ventral nucleus electrosensorius to inhibit the SPPn indirectly while recording identified oscillator cells. Directly manipulating the sparse SPPn consistently was difficult, so the upstream route supplied a reproducible way to reduce its tonic influence.",
+          [
+            "The causal sequence connects an upstream inhibitory action to reduced downstream excitation. The transmitter-mediated conductance at the relay cell and the GABA-sensitive influence in the SPPn occupy different synapses. Treating them as one direct GABA input to the pacemaker would misidentify the circuit."
+          ]
+        ],
+        "The stimulation produced gradual frequency decreases of 3–5 Hz. During a representative 4-Hz decrease, relay-cell input resistance increased by 8%, whereas the pacemaker-cell increase was 5%. The relay-cell response tracked deceleration more consistently across the recorded conditions.",
+        "Increased resistance indicates removal of membrane conductance, supporting withdrawal of tonic excitatory input onto relay cells. This is not the signature expected from adding a new inhibitory conductance directly to those cells. Electrical coupling explains why pacemaker cells may also change despite a more selective relay-cell target."
+      ],
+      "cite": "Juranek & Metzner (1998)",
+      "refs": [
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/37_segregation98.png",
+          "caption": "Juranek & Metzner (1998), Fig. 7(A–C). Relay-cell resistance rises during frequency deceleration.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "Brief chirps preferentially target relay cells",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Chirps** are brief modulations used in electric communication, distinct from gradual JAR frequency shifts. Juranek and Metzner activated PPn-C while recording pacemaker or relay-cell somata. The resulting frequency changes lasted about 5–20 ms and ranged from 30 to 160 Hz.",
+        "In representative comparable chirps, relay-cell input resistance fell by 34%, while pacemaker-cell resistance fell by 9%. Relay-cell conductance changes lasted approximately 8–20 ms. These measurements support preferential excitatory input onto the output cells for rapid communication signals.",
+        "The same oscillator therefore supports different behaviors through segregated synaptic targets and receptor-sensitive inputs. A rapid chirp should not be mistaken for a stronger JAR. The source’s resistance controls and cell labeling constrain the target assignment, while coupled cells can still exhibit secondary responses."
+      ],
+      "transcript": [
+        [
+          "Chirps are brief modulations used in electric communication, distinct from gradual JAR frequency shifts. Juranek and Metzner activated PPn-C while recording pacemaker or relay-cell somata. The resulting frequency changes lasted about 5–20 ms and ranged from 30 to 160 Hz.",
+          [
+            "PPn-C and PPn-G are neighboring premotor subdivisions with different behavioral effects. Their separation continues to the cellular targets within the oscillator. The timing and size of a change in EOD frequency do not alone identify which subdivision was responsible; the stimulation site and intracellular response are needed."
+          ]
+        ],
+        "In representative comparable chirps, relay-cell input resistance fell by 34%, while pacemaker-cell resistance fell by 9%. Relay-cell conductance changes lasted approximately 8–20 ms. These measurements support preferential excitatory input onto the output cells for rapid communication signals.",
+        "The same oscillator therefore supports different behaviors through segregated synaptic targets and receptor-sensitive inputs. A rapid chirp should not be mistaken for a stronger JAR. The source’s resistance controls and cell labeling constrain the target assignment, while coupled cells can still exhibit secondary responses."
+      ],
+      "cite": "Juranek & Metzner (1998)",
+      "refs": [
+        "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/38_segregation98.png",
+          "caption": "Juranek & Metzner (1998), Fig. 4(A–C). Brief chirps preferentially change relay-cell conductance.",
+          "source_url": "https://doi.org/10.1523/jneurosci.18-21-09010.1998"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pacemaker_targets.png",
+          "caption": "Juranek & Metzner (1998), Fig. 1. Published circuit with pacemaker and relay-cell targets.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.18-21-09010.1998"
+        }
+      ]
+    },
+    {
+      "title": "Voltage-dependent responses reshape temporal filtering",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Temporal filtering** is selective transmission of slow or fast changes in sensory input. Fortune and Rose made whole-cell intracellular recordings from toral neurons while comparing electrical sensory stimulation with injected current over 2–30 Hz. Labeled cells supplied anatomical context.",
+        "Changing the holding current exposed voltage-dependent responses beyond the incoming postsynaptic potential. Some active responses lasted in proportion to the stimulus cycle; others remained brief, generally below 30 ms. Hyperpolarizing the membrane reduced these components and changed the neuron’s filtering properties.",
+        "The experiments separate incoming synaptic drive from an **active membrane conductance**, a conductance whose expression depends on membrane voltage. Passive properties and active responses both contribute, but neither always explains the full sensory filter. The specific molecular channels underlying these active responses were not identified by this experiment."
+      ],
+      "transcript": [
+        [
+          "Temporal filtering is selective transmission of slow or fast changes in sensory input. Fortune and Rose made whole-cell intracellular recordings from toral neurons while comparing electrical sensory stimulation with injected current over 2–30 Hz. Labeled cells supplied anatomical context.",
+          [
+            "A whole-cell recording measures membrane voltage while permitting controlled current injection. Depolarization makes the voltage less negative, whereas hyperpolarization makes it more negative. The observed holding-current dependence is evidence for an active contribution; assigning it to a named calcium or sodium channel requires an additional selective test."
+          ]
+        ],
+        "Changing the holding current exposed voltage-dependent responses beyond the incoming postsynaptic potential. Some active responses lasted in proportion to the stimulus cycle; others remained brief, generally below 30 ms. Hyperpolarizing the membrane reduced these components and changed the neuron’s filtering properties.",
+        "The experiments separate incoming synaptic drive from an active membrane conductance, a conductance whose expression depends on membrane voltage. Passive properties and active responses both contribute, but neither always explains the full sensory filter. The specific molecular channels underlying these active responses were not identified by this experiment."
+      ],
+      "cite": "Fortune & Rose (1997); Carr et al. (1986)",
+      "refs": [
+        "Fortune ES, Rose GJ (1997). Passive and Active Membrane Properties Contribute to the Temporal Filtering Properties of Midbrain Neurons In Vivo. The Journal of Neuroscience 17(10):3815-3825. https://doi.org/10.1523/jneurosci.17-10-03815.1997",
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/39_filter97.png",
+          "caption": "Fortune & Rose (1997), Fig. 6(A–B). Holding current separates active responses from synaptic input.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-10-03815.1997"
+        },
+        {
+          "kind": "article",
+          "path": "figures/phase_brain.png",
+          "caption": "Carr et al. (1986), Fig. 1(A). Sagittal brain anatomy with torus and electrosensory lateral line lobe.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.06-05-01372.1986"
+        }
+      ]
+    },
+    {
+      "title": "Short-term depression weakens fast sensory input",
+      "layout": "figures-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Postsynaptic potentials**, or **PSPs**, are changes in a receiving neuron’s membrane voltage following synaptic input. **Short-term depression** is a reversible decline in these responses during repeated stimulation. Rose and Fortune recorded toral neurons during continuous and interrupted sensory signals.",
+        "At 20-Hz stimulation, introducing gaps of 8–48 ms increased the first responses after the interruption. Recovery depended on gap duration; most neurons regained their initial PSP amplitude after a 150-ms gap. Direct current injection did not reproduce the sensory response decline.",
+        "The controls support a synaptic contribution to low-pass filtering, preferential transmission of slow changes. Depression can attenuate rapid beats while retaining sensitivity to slower jamming cues. The recordings do not establish whether the underlying cause is transmitter depletion, receptor desensitization, or another synaptic process."
+      ],
+      "transcript": [
+        [
+          "Postsynaptic potentials, or PSPs, are changes in a receiving neuron’s membrane voltage following synaptic input. Short-term depression is a reversible decline in these responses during repeated stimulation. Rose and Fortune recorded toral neurons during continuous and interrupted sensory signals.",
+          [
+            "The source related this mechanism to behavior: continuous 30-Hz beats elicited much smaller decelerations than slow beats, whereas interruption at 5 Hz restored a larger response. Recovery from depression allows a stimulus with fast internal cycles to become effective when its temporal organization includes sufficiently spaced input."
+          ]
+        ],
+        "At 20-Hz stimulation, introducing gaps of 8–48 ms increased the first responses after the interruption. Recovery depended on gap duration; most neurons regained their initial PSP amplitude after a 150-ms gap. Direct current injection did not reproduce the sensory response decline.",
+        "The controls support a synaptic contribution to low-pass filtering, preferential transmission of slow changes. Depression can attenuate rapid beats while retaining sensitivity to slower jamming cues. The recordings do not establish whether the underlying cause is transmitter depletion, receptor desensitization, or another synaptic process."
+      ],
+      "cite": "Rose & Fortune (1999); Carr et al. (1986)",
+      "refs": [
+        "Rose GJ, Fortune ES (1999). Frequency-Dependent PSP Depression Contributes to Low-Pass Temporal Filtering in Eigenmannia. The Journal of Neuroscience 19(17):7629-7639. https://doi.org/10.1523/jneurosci.19-17-07629.1999",
+        "Carr C, Maler L, Taylor B (1986). A time-comparison circuit in the electric fish midbrain. II. Functional morphology. The Journal of Neuroscience 6(5):1372-1383. https://doi.org/10.1523/jneurosci.06-05-01372.1986"
+      ],
+      "primary_figure_height": 3.15,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/40_filter99.png",
+          "caption": "Rose & Fortune (1999), Fig. 7(A–B). Brief gaps restore depressed sensory postsynaptic potentials.",
+          "source_url": "https://doi.org/10.1523/jneurosci.19-17-07629.1999"
+        },
+        {
+          "kind": "article",
+          "path": "figures/phase_brain.png",
+          "caption": "Carr et al. (1986), Fig. 1(A). Sagittal brain anatomy with torus and electrosensory lateral line lobe.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.06-05-01372.1986"
+        }
+      ]
+    },
+    {
+      "title": "Amplitude modulation alone can lower discharge frequency",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Takizawa, Rose, and Kawasaki tested whether the classical sign-computation account explains every frequency decrease. In curarized fish, they amplitude-modulated the EOD substitute while omitting the separate neighbor signal. An unmodulated carrier between presentations supplied the baseline control.",
+        "A 30% amplitude modulation at 4 Hz produced consistent deceleration. One published example decreased by 3.5 Hz; other individuals differed in magnitude. Similar decelerations occurred when recorded EODs from intact fish were amplitude-modulated and returned to the tank.",
+        "This response does not discriminate positive from negative Δf because a separate neighbor frequency need not be present. Amplitude-only deceleration is therefore distinct from the bidirectional sign-selective JAR, even though it can contribute to the measured output during natural interference. Curarized and intact preparations supported the finding under their respective conditions."
+      ],
+      "transcript": [
+        [
+          "Takizawa, Rose, and Kawasaki tested whether the classical sign-computation account explains every frequency decrease. In curarized fish, they amplitude-modulated the EOD substitute while omitting the separate neighbor signal. An unmodulated carrier between presentations supplied the baseline control.",
+          [
+            "Curarization suppresses the electric organ while leaving a command signal available for recording. Testing intact fish addressed whether the amplitude-only response depended entirely on replacing the natural electric field. The authors observed individual differences rather than an identical response magnitude in every preparation."
+          ]
+        ],
+        "A 30% amplitude modulation at 4 Hz produced consistent deceleration. One published example decreased by 3.5 Hz; other individuals differed in magnitude. Similar decelerations occurred when recorded EODs from intact fish were amplitude-modulated and returned to the tank.",
+        "This response does not discriminate positive from negative Δf because a separate neighbor frequency need not be present. Amplitude-only deceleration is therefore distinct from the bidirectional sign-selective JAR, even though it can contribute to the measured output during natural interference. Curarized and intact preparations supported the finding under their respective conditions."
+      ],
+      "cite": "Takizawa et al. (1999)",
+      "refs": [
+        "Takizawa Y, Rose GJ, Kawasaki M (1999). Resolving competing theories for control of the jamming avoidance response: the role of amplitude modulations in electric organ discharge decelerations. Journal of Experimental Biology 202(10):1377-1386. https://doi.org/10.1242/jeb.202.10.1377"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/41_behavior99.png",
+        "caption": "Takizawa et al. (1999), Fig. 2(A–B). Pure amplitude modulation produces repeatable decelerations.",
+        "source_url": "https://doi.org/10.1242/jeb.202.10.1377"
+      }
+    },
+    {
+      "title": "Amplitude-only deceleration has measurable sensitivity",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Takizawa and colleagues varied amplitude-modulation depth while keeping the carrier and modulation frequency controlled. **Modulation depth** describes the relative size of the amplitude fluctuation. The published experiment used 4-Hz sinusoidal modulation and compared several depths in the same preparations.",
+        "A few percent modulation generally induced deceleration. One particularly sensitive fish responded at 0.1%, while less sensitive individuals required more than 10%. Frequency dependence was strongest near 4 Hz, matching the range that strongly activates natural jamming responses.",
+        "The shared tuning does not make amplitude-only deceleration identical to beat-sign discrimination. Both can be driven by slow amplitude changes, while only the bidirectional component requires the appropriate spatial timing relationship. Sensitivity differed across individuals, so the most sensitive trace should not be treated as a universal behavioral threshold."
+      ],
+      "transcript": [
+        [
+          "Takizawa and colleagues varied amplitude-modulation depth while keeping the carrier and modulation frequency controlled. Modulation depth describes the relative size of the amplitude fluctuation. The published experiment used 4-Hz sinusoidal modulation and compared several depths in the same preparations.",
+          [
+            "The stimulus period lasted 30 s and alternated with 30-s baseline periods. Responses were measured relative to each animal’s prestimulus frequency. This reference distinguishes a true increase above resting frequency from a return upward after an earlier amplitude-induced decrease."
+          ]
+        ],
+        "A few percent modulation generally induced deceleration. One particularly sensitive fish responded at 0.1%, while less sensitive individuals required more than 10%. Frequency dependence was strongest near 4 Hz, matching the range that strongly activates natural jamming responses.",
+        "The shared tuning does not make amplitude-only deceleration identical to beat-sign discrimination. Both can be driven by slow amplitude changes, while only the bidirectional component requires the appropriate spatial timing relationship. Sensitivity differed across individuals, so the most sensitive trace should not be treated as a universal behavioral threshold."
+      ],
+      "cite": "Takizawa et al. (1999)",
+      "refs": [
+        "Takizawa Y, Rose GJ, Kawasaki M (1999). Resolving competing theories for control of the jamming avoidance response: the role of amplitude modulations in electric organ discharge decelerations. Journal of Experimental Biology 202(10):1377-1386. https://doi.org/10.1242/jeb.202.10.1377"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/42_behavior99.png",
+        "caption": "Takizawa et al. (1999), Fig. 4(A–B). Amplitude-modulation depth controls deceleration magnitude.",
+        "source_url": "https://doi.org/10.1242/jeb.202.10.1377"
+      }
+    },
+    {
+      "title": "A trunk timing reference is unnecessary for amplitude drops",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Takizawa and colleagues electrically separated the head and trunk and independently manipulated the head carrier’s amplitude and phase. In the published experiment, a 380-Hz carrier supported 30% amplitude modulation and phase excursions spanning 200 µs peak to peak.",
+        "With a trunk reference, the normal amplitude–phase pairings produced the expected opposing JAR directions. Removing the trunk signal did not abolish amplitude-induced deceleration. Changing or omitting head phase modulation still allowed strong decreases without the usual spatial reference.",
+        "The finding argues against an explanation in which every amplitude-only decrease requires an internally generated, or “phantom,” differential-phase cue. It supports an additional amplitude-driven process. Its proposed role in balancing natural upward and downward excursions remained untested, rather than a proven adaptive function."
+      ],
+      "transcript": [
+        [
+          "Takizawa and colleagues electrically separated the head and trunk and independently manipulated the head carrier’s amplitude and phase. In the published experiment, a 380-Hz carrier supported 30% amplitude modulation and phase excursions spanning 200 µs peak to peak.",
+          [
+            "The same paper emphasized that EOD frequency must be compared with its resting level. Alternating two stimuli that both cause decreases can create an apparently bidirectional trace. A rise from one depressed level to another is not equivalent to a genuine acceleration above baseline."
+          ]
+        ],
+        "With a trunk reference, the normal amplitude–phase pairings produced the expected opposing JAR directions. Removing the trunk signal did not abolish amplitude-induced deceleration. Changing or omitting head phase modulation still allowed strong decreases without the usual spatial reference.",
+        "The finding argues against an explanation in which every amplitude-only decrease requires an internally generated, or “phantom,” differential-phase cue. It supports an additional amplitude-driven process. Its proposed role in balancing natural upward and downward excursions remained untested, rather than a proven adaptive function."
+      ],
+      "cite": "Takizawa et al. (1999)",
+      "refs": [
+        "Takizawa Y, Rose GJ, Kawasaki M (1999). Resolving competing theories for control of the jamming avoidance response: the role of amplitude modulations in electric organ discharge decelerations. Journal of Experimental Biology 202(10):1377-1386. https://doi.org/10.1242/jeb.202.10.1377"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/43_behavior99.png",
+        "caption": "Takizawa et al. (1999), Fig. 8(A–F). Head stimulation decelerates without a trunk phase reference.",
+        "source_url": "https://doi.org/10.1242/jeb.202.10.1377"
+      }
+    },
+    {
+      "title": "Electric-field complexity can degrade usable sign cues",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Shifman and Lewis used experimentally constrained **finite-element models**, numerical descriptions of electrical fields, to compare _Eigenmannia_ with _Apteronotus_. The model fish discharged at 300 and 600 Hz, respectively. Published analyses considered both single-neighbor interference and mixtures representing two neighbors.",
+        "In three-fish conditions, amplitude envelopes and relative phase became more complex. The _Apteronotus_ field produced less reliable cue combinations for a model of sign-dependent frequency adjustment than the more spatially uniform _Eigenmannia_ field. The published polar trajectories are results of that computational analysis.",
+        "The authors proposed that degraded cues could help explain evolutionary differences in frequency-control behavior. These plotted results are modeled sensory inputs, not newly recorded neuronal tuning or direct proof of evolutionary causation. Applying an _Eigenmannia_-based behavioral mapping to another species also does not establish identical neural algorithms."
+      ],
+      "transcript": [
+        [
+          "Shifman and Lewis used experimentally constrained finite-element models, numerical descriptions of electrical fields, to compare Eigenmannia with Apteronotus. The model fish discharged at 300 and 600 Hz, respectively. Published analyses considered both single-neighbor interference and mixtures representing two neighbors.",
+          [
+            "The paper distinguishes electric-field geometry from the mere existence of sign-sensitive neurons. A system can retain sensory selectivity while its motor pathways or available cues differ. The proposed relationship between field complexity and circuit evolution requires comparative physiological and behavioral tests beyond the model alone."
+          ]
+        ],
+        "In three-fish conditions, amplitude envelopes and relative phase became more complex. The Apteronotus field produced less reliable cue combinations for a model of sign-dependent frequency adjustment than the more spatially uniform Eigenmannia field. The published polar trajectories are results of that computational analysis.",
+        "The authors proposed that degraded cues could help explain evolutionary differences in frequency-control behavior. These plotted results are modeled sensory inputs, not newly recorded neuronal tuning or direct proof of evolutionary causation. Applying an Eigenmannia-based behavioral mapping to another species also does not establish identical neural algorithms."
+      ],
+      "cite": "Shifman & Lewis (2018)",
+      "refs": [
+        "Shifman AR, Lewis JE (2018). The complexity of high-frequency electric fields degrades electrosensory inputs: implications for the jamming avoidance response in weakly electric fish. Journal of The Royal Society Interface 15(138):20170633. https://doi.org/10.1098/rsif.2017.0633"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/44_interference18.png",
+        "caption": "Shifman & Lewis (2018), Fig. 6. Published electric-field model predicts ambiguity in phase cues.",
+        "source_url": "https://doi.org/10.1098/rsif.2017.0633"
+      }
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Beat rate is insufficient",
+        "text": "Opposite frequency differences can produce the same beat rate; spatial amplitude–phase relationships supply the sign cue."
+      },
+      {
+        "lead": "Hyperacuity is distributed",
+        "text": "Eigenmannia discriminates temporal disparities near 400 ns, and recruiting multiple skin regions supports nonlinear pooling of timing information."
+      },
+      {
+        "lead": "Sensory pathways converge",
+        "text": "Amplitude-coding E/I inputs and phase comparisons feed combination-sensitive toral populations representing opposite beat signs."
+      },
+      {
+        "lead": "Motor routes remain separate",
+        "text": "PPn-G supports frequency increases, while inhibition of tonic SPPn drive supports decreases; selective lesions distinguish the routes."
+      },
+      {
+        "lead": "Synaptic targets shape behavior",
+        "text": "Gradual acceleration preferentially increases pacemaker-cell conductance, whereas deceleration removes tonic excitation from relay cells."
+      },
+      {
+        "lead": "A decrease alone does not prove sign discrimination",
+        "text": "Amplitude modulation can lower EOD frequency without a trunk phase reference; responses must be measured against resting frequency."
+      }
+    ],
+    "cite": "Rose & Heiligenberg (1985); Metzner (1993); Juranek & Metzner (1998); Takizawa et al. (1999)",
+    "refs": [
+      "Rose G, Heiligenberg W (1985). Temporal hyperacuity in the electric sense of fish. Nature 318(6042):178-180. https://doi.org/10.1038/318178a0",
+      "Heiligenberg W, Rose G (1985). Phase and amplitude computations in the midbrain of an electric fish: intracellular studies of neurons participating in the jamming avoidance response of Eigenmannia. The Journal of Neuroscience 5(2):515-531. https://doi.org/10.1523/jneurosci.05-02-00515.1985",
+      "Metzner W (1993). The jamming avoidance response in Eigenmannia is controlled by two separate motor pathways. The Journal of Neuroscience 13(5):1862-1878. https://doi.org/10.1523/jneurosci.13-05-01862.1993",
+      "Juranek J, Metzner W (1998). Segregation of Behavior-Specific Synaptic Inputs to a Vertebrate Neuronal Oscillator. The Journal of Neuroscience 18(21):9010-9019. https://doi.org/10.1523/jneurosci.18-21-09010.1998",
+      "Takizawa Y, Rose GJ, Kawasaki M (1999). Resolving competing theories for control of the jamming avoidance response: the role of amplitude modulations in electric organ discharge decelerations. Journal of Experimental Biology 202(10):1377-1386. https://doi.org/10.1242/jeb.202.10.1377"
+    ]
+  }
+}
