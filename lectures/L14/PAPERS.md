@@ -1,16 +1,19 @@
-# Lecture 14 — required PDF uploads
+# Lecture 14 — remaining required PDF uploads
 
-Exact scheduled title: **Insect hearing I: cricket phonotaxis and song recognition (Hoy)**  
-Date: **Friday, September 25, 2026**
+**Insect hearing I: cricket phonotaxis and song recognition (Hoy)**  
+**Friday, September 25, 2026**
 
-Access checked October 8, 2026 against publisher downloads and Europe PMC. The following original studies are needed for the historical and behavioral evidence. Their bibliographic details and DOIs were verified using Crossref and/or Europe PMC. Publisher downloads failed; Europe PMC lists no full-text PDF for these papers.
+The instructor supplied Hoy & Paul (1973), Pollack & Hoy (1979), and Hedwig & Poulet (2004). These PDFs were downloaded and their article text checked. Kostarakos & Hedwig (2012) and Selverston, Kleindienst & Huber (1985) were downloaded successfully from the journal.
 
-1. Hoy, R. R., & Paul, R. C. (1973). Genetic control of song specificity in crickets. *Science, 180*(4081), 82–83. https://doi.org/10.1126/science.180.4081.82 — publisher PDF returned HTTP 403.
-2. Pollack, G. S., & Hoy, R. R. (1979). Temporal pattern as a cue for species-specific calling song recognition in crickets. *Science, 204*(4391), 429–432. https://doi.org/10.1126/science.204.4391.429 — publisher PDF returned HTTP 403.
-3. Hedwig, B., & Poulet, J. F. A. (2004). Complex auditory behaviour emerges from simple reactive steering. *Nature, 430*(7001), 781–785. https://doi.org/10.1038/nature02787 — publisher PDF endpoint returned HTML rather than a PDF.
+Remaining papers required for original ear anatomy, directional acoustics, and song-recognition mechanisms:
 
-Please upload these three PDFs. Further sources will be checked after these required original studies are available; this is not a claim that every remaining paper is accessible.
+1. Wohlers, D. W., & Huber, F. (1982). Processing of sound signals by six types of neurons in the prothoracic ganglion of the cricket, Gryllus campestris L. *Journal of Comparative Physiology, 146*, 161–173. https://doi.org/10.1007/BF00610234
+2. Michelsen, A., Popov, A. V., & Lewis, B. (1994). Physics of directional hearing in the cricket Gryllus bimaculatus. *Journal of Comparative Physiology A, 175*, 153–164. https://doi.org/10.1007/BF00215111
+3. Schöneich, S., Kostarakos, K., & Hedwig, B. (2015). An auditory feature detection circuit for sound pattern recognition. *Science Advances, 1*(8), e1500325. https://doi.org/10.1126/sciadv.1500325
+4. Zhang, X., & Hedwig, B. (2023). Sound processing in the cricket brain: evidence for a pulse duration filter. *Journal of Neurophysiology, 130*, 953–966. https://doi.org/10.1152/jn.00252.2023
 
-Already downloaded: Kostarakos & Hedwig (2012), *Journal of Neuroscience, 32*(28), 9601–9612, https://doi.org/10.1523/JNEUROSCI.1170-12.2012. Schöneich, Kostarakos & Hedwig (2015), https://doi.org/10.1126/sciadv.1500325, has an open-access Europe PMC record (PMC4643773); its publisher endpoint is blocked, and repository retrieval remains to be checked.
+Crossref metadata verified October 8, 2026. Springer PDF endpoints returned non-PDF pages. Science and physiology PDF endpoints returned HTTP 403. The 2015 paper has an open-access record (PMC4643773), but Europe PMC PDF requests returned HTTP 403 and tested PMC PDF requests returned non-PDF pages.
 
-No deck was built or delivered because required figure sources are missing. On continuation, use the repository builder, 46 slides, two-column layouts, at least 40 image-bearing content slides (34 or more with primary article figures), and unchanged source colors, axes, units, panel letters, and scale bars. Never generate replacement images.
+Please upload these four PDFs. Under the instructor's explicit stop rule, the deck is not built while these needed source PDFs are unavailable. No replacement figures were created.
+
+Build requirements retained: repository builder; exact scheduled title/date; 46 slides; Arial; fresh allowed palette; 3–5 paragraphs per content slide; two-column text/figure layouts; 40 or more content slides with images and 34 or more with primary article figures; large unmodified original panels with original labels and colors; citations, teaching transcripts, and visual review.
