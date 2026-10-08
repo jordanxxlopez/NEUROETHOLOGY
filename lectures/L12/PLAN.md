@@ -4,7 +4,7 @@ Exact schedule title: **Insect vision II: jumping spider eyes and predatory trac
 
 Exact schedule date: **Monday, September 21, 2026**
 
-Status: eight original PDFs are required before final claims, numerical results, panel selection, teaching transcripts and the new PPTX can be completed. See `PAPERS.md`. Titles below are provisional content claims, not a finished deck. They will be revised where the complete source requires it.
+Status: ten of eleven original PDFs are available. The uploaded Steinhoff et al. (2020) PDF exceeds the 32 MiB transfer limit and needs compression or splitting before its anatomy figures and the final PPTX can be completed. See `PAPERS.md`. Titles below are provisional content claims, not a finished deck. They will be revised where the complete source requires it.
 
 Target: 46 slides, original article figures on all 44 content slides, native published color on at least half. Use original colorful modern anatomy as relevant insets beside classic grayscale evidence; never tint or redraw. The title carries the study animal, with original article credit or a licensed web photograph. The approved Lectures 8 and 9 each contain images on all 44 content slides.
 

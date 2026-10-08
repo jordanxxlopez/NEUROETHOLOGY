@@ -1,14 +1,14 @@
 {
   "lecture": 12,
   "checked_on": "2026-10-08",
-  "repository_head": "4e9244e2600f0658bc8a22043bc81d57f9fb796c",
+  "repository_head": "749787ee07a0903cfb3fb63cf684f303ae84a48d",
   "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
   "schedule": {
     "n": 12,
     "date": "Monday, September 21, 2026",
     "title": "Insect vision II: jumping spider eyes and predatory tracking (Land)"
   },
-  "status": "Awaiting eight primary PDFs before final writing, original figure selection and build. Existing Lecture 12 is an older artifact and has not been delivered as the requested revision.",
+  "status": "Ten core source PDFs available. Only Steinhoff et al. (2020) remains blocked: uploaded PDF exceeds the 32 MiB transfer limit. Need compressed file or split PDF parts before figure selection and final deck build.",
   "sources": {
     "land69a": {
       "id": "land69a",
@@ -210,7 +210,16 @@
         }
       ],
       "openalex_error": "HTTP Error 429: Too Many Requests",
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_path": "papers/land69a.pdf",
+      "pdf_bytes": 5204680,
+      "pdf_pages": 28,
+      "sha256": "af3b0997572fc021abb8b496529b8afb8b9b186b89c2bf191c09605cb39abc48",
+      "uploaded_file": {
+        "filename": "jexbio_51_2_443 (1).pdf",
+        "sediment_file_id": "file_00000000552081fd983f035d592b4ca3"
+      },
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "land69b": {
       "id": "land69b",
@@ -421,7 +430,16 @@
         }
       ],
       "openalex_error": "HTTP Error 429: Too Many Requests",
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_path": "papers/land69b.pdf",
+      "pdf_bytes": 3419026,
+      "pdf_pages": 24,
+      "sha256": "e1cfd4820ebac7f032715fa1b282ded27650e10bdd70710a51a35d02638fa784",
+      "uploaded_file": {
+        "filename": "jexbio_51_2_471 (1).pdf",
+        "sediment_file_id": "file_000000007e7481fdb66f2941a3a13b0d"
+      },
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "land71": {
       "id": "land71",
@@ -643,7 +661,16 @@
         "oa_url": null,
         "any_repository_has_fulltext": false
       },
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_path": "papers/land71.pdf",
+      "pdf_bytes": 4156597,
+      "pdf_pages": 21,
+      "sha256": "3e247ae0d31b9cf7c18266ab348f8a27fb2376a6082bc2bd9bb7cf0de577ee0e",
+      "uploaded_file": {
+        "filename": "jexbio_54_1_119.pdf",
+        "sediment_file_id": "file_00000000d8988230b7865564b00b752c"
+      },
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "devoe75": {
       "id": "devoe75",
@@ -890,7 +917,16 @@
         }
       ],
       "openalex_error": "HTTP Error 429: Too Many Requests",
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_path": "papers/devoe75.pdf",
+      "pdf_bytes": 1251648,
+      "pdf_pages": 15,
+      "sha256": "12466fbf9678d41811f465755ed2ef87e92d040ac0eeb311fe85e14170623f2e",
+      "uploaded_file": {
+        "filename": "jg662193.pdf",
+        "sediment_file_id": "file_00000000c6648206b8616e02e53a960b"
+      },
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "nagata12": {
       "id": "nagata12",
@@ -1400,7 +1436,8 @@
       "pdf_bytes": 586293,
       "pdf_pages": 4,
       "sha256": "e58df9fc700e243c5215d5894a1479a614825234113b5f67106a440b2c0873dc",
-      "download_url": "https://nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com/contents/ir_soken_ac_jp/90/d8/1413-7dd1-4ab2-ae95-d5fcd0b41afe/data?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B%20filename%3D469.full.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=2933d73c5ea35b566afd770d1a6af5c853196a77%2F20261008%2Fap-tokyo-1%2Fs3%2Faws4_request&X-Amz-Date=20261008T171005Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=dd4ad3b296186bdc37ac6938ccfdfa84c50bc225d86d2d6dc0d963e039e8a8f0"
+      "download_url": "https://nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com/contents/ir_soken_ac_jp/90/d8/1413-7dd1-4ab2-ae95-d5fcd0b41afe/data?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B%20filename%3D469.full.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=2933d73c5ea35b566afd770d1a6af5c853196a77%2F20261008%2Fap-tokyo-1%2Fs3%2Faws4_request&X-Amz-Date=20261008T171005Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=dd4ad3b296186bdc37ac6938ccfdfa84c50bc225d86d2d6dc0d963e039e8a8f0",
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "zurek15": {
       "id": "zurek15",
@@ -1843,7 +1880,16 @@
         }
       ],
       "openalex_error": "HTTP Error 429: Too Many Requests",
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_path": "papers/zurek15.pdf",
+      "pdf_bytes": 326179,
+      "pdf_pages": 2,
+      "sha256": "efe4efbe086975923354b204bec6188b4f7e09828d85e28afa2572e704b2a65e",
+      "uploaded_file": {
+        "filename": "PIIS0960982215003486.pdf",
+        "sediment_file_id": "file_00000000009481fdb0edf2bf4bd4fc9f"
+      },
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "zurek10": {
       "id": "zurek10",
@@ -2235,7 +2281,8 @@
       "pdf_bytes": 255088,
       "pdf_pages": 7,
       "sha256": "8dd2d4c07bfdcc79db7c120738da8029d1b76ce181fad5a99a77c989543e0491",
-      "download_url": "https://www.ximenanelson.com/uploads/4/5/4/9/4549707/zurek_et_al_2010.pdf"
+      "download_url": "https://www.ximenanelson.com/uploads/4/5/4/9/4549707/zurek_et_al_2010.pdf",
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "zn12b": {
       "id": "zn12b",
@@ -2527,7 +2574,8 @@
       "pdf_bytes": 360547,
       "pdf_pages": 7,
       "sha256": "7d358236fea292cef7c392f6b904ef81dbb594b006e73b7fbf994bcee3ca958c",
-      "download_url": "https://www.ximenanelson.com/uploads/4/5/4/9/4549707/zurek__nelson_2012.pdf"
+      "download_url": "https://www.ximenanelson.com/uploads/4/5/4/9/4549707/zurek__nelson_2012.pdf",
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "jakob18": {
       "id": "jakob18",
@@ -2955,7 +3003,16 @@
         }
       ],
       "openalex_error": "HTTP Error 429: Too Many Requests",
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_path": "papers/jakob18.pdf",
+      "pdf_bytes": 224060,
+      "pdf_pages": 2,
+      "sha256": "4b750e3e151215b3d08b675c761ad9fcfb123ecf7269584f2e6ea4ccec9dc375",
+      "uploaded_file": {
+        "filename": "PIIS0960982218309953 (1).pdf",
+        "sediment_file_id": "file_00000000b7a081fdb1e9c057f5fcb9f7"
+      },
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     },
     "steinhoff20": {
       "id": "steinhoff20",
@@ -3388,10 +3445,19 @@
         {
           "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/cne.24861",
           "result": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cne.24861",
+          "result": "HTTP 403; no smaller published PDF obtained."
         }
       ],
       "openalex_error": "HTTP Error 429: Too Many Requests",
-      "pdf_available": false
+      "pdf_available": false,
+      "uploaded_file": {
+        "filename": "J of Comparative Neurology - 2020 - Steinhoff - Visual pathways in the brain of the jumping spider Marpissa muscosa.pdf",
+        "sediment_file_id": "file_00000000e8b081fdb13db5bb2ad5e80f",
+        "transfer_status": "Blocked: file exceeds executor transfer limit of 32 MiB. Need compressed PDF or split parts each below 32 MiB."
+      }
     },
     "menda14": {
       "id": "menda14",
@@ -3785,7 +3851,16 @@
         "oa_url": "http://www.cell.com/article/S0960982214011506/pdf",
         "any_repository_has_fulltext": false
       },
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_path": "papers/menda14.pdf",
+      "pdf_bytes": 1695294,
+      "pdf_pages": 6,
+      "sha256": "22383dd2a9cf3bf3415d8e609b2c93fe1bc6d2efbaacde4537aaff8a0643dc8d",
+      "uploaded_file": {
+        "filename": "PIIS0960982214011506 (1).pdf",
+        "sediment_file_id": "file_00000000f41481fd84281b238532c39f"
+      },
+      "identity_verification": "Article title and author identity checked in PDF; DOI metadata checked against Crossref/Europe PMC. Scientific source, not an instruction source."
     }
   },
   "searches": [
