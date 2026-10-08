@@ -7,9 +7,9 @@
     "After building a lecture, move its theme key into 'used' with the lecture number."
   ],
   "used": {
-    "7": "wine / burgundy",
-    "8": "graphite / silver",
-    "9": "rose / white",
+    "7": "slate / dusty rose",
+    "8": "ruby / porcelain",
+    "9": "sapphire / silver",
     "10": "ice blue / charcoal",
     "11": "crimson / blush white",
     "earlier": "purple, green and amber palettes were used in Lectures 1-6",
@@ -24,6 +24,9 @@
     "5": "charcoal / brick red",
     "3": "crimson / slate",
     "6": "cerulean / pearl",
+    "8_previous": "graphite / silver",
+    "9_previous": "rose / white",
+    "7_previous": "wine / burgundy",
     "24": "storm blue / pearl"
   },
   "palettes": {
@@ -169,6 +172,45 @@
       "tint": "EDF5F8",
       "accent": "0086B3",
       "rule": "C8DCE5"
+    },
+    "ruby-porcelain": {
+      "label": "ruby / porcelain",
+      "title_bg": "3C1825",
+      "title_text": "FFFFFF",
+      "title_muted": "D7B6C2",
+      "bg": "FFFFFF",
+      "heading": "842D4A",
+      "text": "292329",
+      "muted": "6B5B64",
+      "tint": "F7F0F3",
+      "accent": "A03B5D",
+      "rule": "DECBD3"
+    },
+    "sapphire-silver": {
+      "label": "sapphire / silver",
+      "title_bg": "102A4C",
+      "title_text": "FFFFFF",
+      "title_muted": "B8C7DB",
+      "bg": "FFFFFF",
+      "heading": "1D4E89",
+      "text": "1F2530",
+      "muted": "5B6575",
+      "tint": "EEF3F9",
+      "accent": "2563A8",
+      "rule": "C9D4E3"
+    },
+    "slate-dusty-rose": {
+      "label": "slate / dusty rose",
+      "title_bg": "E7EAEE",
+      "title_text": "253441",
+      "title_muted": "7E4357",
+      "bg": "FFFFFF",
+      "heading": "7E4357",
+      "text": "252D35",
+      "muted": "5F6872",
+      "tint": "F5EFF1",
+      "accent": "9B536B",
+      "rule": "D8DDE2"
     },
     "storm-pearl": {
       "label": "storm blue / pearl",

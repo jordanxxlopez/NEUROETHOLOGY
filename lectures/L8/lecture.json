@@ -1,0 +1,1466 @@
+{
+  "lecture": 8,
+  "theme": "ruby-porcelain",
+  "content_slides": 44,
+  "title_refs": [
+    "J. M. Camhi (1969c). Locust wind receptors. III. Contribution to flight initiation and lift control. Journal of Experimental Biology 50(2):363–373. https://doi.org/10.1242/jeb.50.2.363"
+  ],
+  "title_image": {
+    "path": "figures/desert_locust.jpg",
+    "caption": "Photo: Michael Linnenbach, CC BY-SA 4.0. Desert locust (Schistocerca gregaria), freshly moulted.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Schistocerca_gregaria-gehaeutet.jpg",
+    "kind": "web",
+    "credit": "Michael Linnenbach",
+    "license": "CC BY-SA 4.0"
+  },
+  "slides": [
+    {
+      "title": "Wind can release flight without initiating every take-off",
+      "layout": "figure-right",
+      "body": [
+        "A locust can begin wing beating when airflow reaches the wind-sensitive hairs on its head. In **tethered flight**, the animal is held in place, so an experimenter controls airflow independently of the animal’s forward movement. This preparation isolates sensory conditions that can release flight.",
+        "Camhi filmed freely jumping _Schistocerca gregaria_ at 64 frames per second and compared wing opening with wind-triggered responses in tethered animals. Wings began opening within approximately 15 ms of jump onset, whereas the fastest measured response to wind took 35 ms.",
+        "Wind stimulation is therefore sufficient for flight initiation under tethered conditions but is too slow to explain the initial wing opening in these jumps. A sensory stimulus that can release a behavior need not be the natural trigger on every occasion."
+      ],
+      "transcript": [
+        "A locust can begin wing beating when airflow reaches the wind-sensitive hairs on its head. In tethered flight, the animal is held in place, so an experimenter controls airflow independently of the animal’s forward movement. This preparation isolates sensory conditions that can release flight.",
+        "Camhi filmed freely jumping Schistocerca gregaria at 64 frames per second and compared wing opening with wind-triggered responses in tethered animals. Wings began opening within approximately 15 ms of jump onset, whereas the fastest measured response to wind took 35 ms.",
+        "Wind stimulation is therefore sufficient for flight initiation under tethered conditions but is too slow to explain the initial wing opening in these jumps. A sensory stimulus that can release a behavior need not be the natural trigger on every occasion.",
+        "The film interval was approximately 15 ms. The comparison concerns the beginning of wing opening, rather than the duration of a complete wing stroke or the time needed to gain altitude."
+      ],
+      "cite": "Camhi (1969c)",
+      "refs": [
+        "J. M. Camhi (1969c). Locust wind receptors. III. Contribution to flight initiation and lift control. Journal of Experimental Biology 50(2):363–373. https://doi.org/10.1242/jeb.50.2.363"
+      ],
+      "figure": {
+        "path": "figures/C3_plate1.png",
+        "caption": "Camhi (1969), Fig. 1 (photographic Plate 1). Filmed take-off sequences of desert locusts.",
+        "source_url": "https://doi.org/10.1242/jeb.50.2.363"
+      }
+    },
+    {
+      "title": "Elevators and depressors alternate with a hindwing lead",
+      "layout": "figures-right",
+      "body": [
+        "**Elevator muscles** raise the wings; **depressor muscles** lower them. Forewings attach to the mesothorax and hindwings to the metathorax, the second and third thoracic segments. A motor neuron is a nerve cell whose axon activates a muscle.",
+        "Wilson described flight near 17 wingbeats per second, with hindwing activation leading corresponding forewing activation by approximately 6–8 ms. The flight motor score alternated elevators and depressors while coordinating both body sides. The upstroke occupied about 41% of a normal cycle.",
+        "These relationships define an organized motor pattern rather than undifferentiated muscle excitation. Later deafferented preparations retained alternation and a hindwing lead, but their measured delays depended on the experimental treatment. Intact movement timing and reduced-preparation muscle timing are related measurements with different mechanical conditions."
+      ],
+      "transcript": [
+        "Elevator muscles raise the wings; depressor muscles lower them. Forewings attach to the mesothorax and hindwings to the metathorax, the second and third thoracic segments. A motor neuron is a nerve cell whose axon activates a muscle.",
+        "Wilson described flight near 17 wingbeats per second, with hindwing activation leading corresponding forewing activation by approximately 6–8 ms. The flight motor score alternated elevators and depressors while coordinating both body sides. The upstroke occupied about 41% of a normal cycle.",
+        "These relationships define an organized motor pattern rather than undifferentiated muscle excitation. Later deafferented preparations retained alternation and a hindwing lead, but their measured delays depended on the experimental treatment. Intact movement timing and reduced-preparation muscle timing are related measurements with different mechanical conditions.",
+        "A ganglion is a concentration of neuronal cell bodies and interconnected processes. The thoracic ganglia contain flight circuitry; their connectives carry axons between ganglia. The later pharmacology measured muscle activity rather than directly measuring aerodynamic force."
+      ],
+      "cite": "Wilson (1961); Buhl et al. (2008)",
+      "refs": [
+        "D. M. Wilson (1961). The central nervous control of flight in a locust. Journal of Experimental Biology 38(2):471–490. https://doi.org/10.1242/jeb.38.2.471",
+        "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/W61_1.png",
+          "caption": "Wilson (1961), Fig. 1. Ganglia and muscles of the flight preparation.",
+          "source_url": "https://doi.org/10.1242/jeb.38.2.471"
+        },
+        {
+          "path": "figures/B08_2DE.png",
+          "caption": "Buhl et al. (2008), Fig. 2(D,E). Hind–forewing delays and near-synchronous bilateral activity.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        }
+      ]
+    },
+    {
+      "title": "Head airflow changes downstroke wing twist",
+      "layout": "figure-right",
+      "body": [
+        "**Pronation** is wing rotation toward the orientation used during the downstroke; **supination** is the reverse rotation associated with the upstroke. Wing twist changes the wing’s interaction with air and therefore contributes to lift control.",
+        "Camhi delivered 0–4 m/s airflow to the head of tethered locusts while shielding the body and wings. Stroboscopic photographs measured a paper marker across the forewing chord. Faster head airflow reduced downstroke pronation, whereas upstroke twist changed little.",
+        "Directing wind at the wing instead of the head did not reproduce the response. This control supports a sensory-mediated adjustment rather than a direct aerodynamic twisting effect. The head-wind experiment measured wing angle, so the corresponding change in lift remained a functional interpretation rather than a simultaneous force measurement."
+      ],
+      "transcript": [
+        "Pronation is wing rotation toward the orientation used during the downstroke; supination is the reverse rotation associated with the upstroke. Wing twist changes the wing’s interaction with air and therefore contributes to lift control.",
+        "Camhi delivered 0–4 m/s airflow to the head of tethered locusts while shielding the body and wings. Stroboscopic photographs measured a paper marker across the forewing chord. Faster head airflow reduced downstroke pronation, whereas upstroke twist changed little.",
+        "Directing wind at the wing instead of the head did not reproduce the response. This control supports a sensory-mediated adjustment rather than a direct aerodynamic twisting effect. The head-wind experiment measured wing angle, so the corresponding change in lift remained a functional interpretation rather than a simultaneous force measurement.",
+        "The wing chord runs from its leading edge to its trailing edge. After wind acceleration, the additional reduction in pronation appeared after about 80 ms and relaxed over several hundred milliseconds toward the maintained-speed response."
+      ],
+      "cite": "Camhi (1969c)",
+      "refs": [
+        "J. M. Camhi (1969c). Locust wind receptors. III. Contribution to flight initiation and lift control. Journal of Experimental Biology 50(2):363–373. https://doi.org/10.1242/jeb.50.2.363"
+      ],
+      "figure": {
+        "path": "figures/C3_4.png",
+        "caption": "Camhi (1969), Fig. 4. Wind speed versus measured forewing twist.",
+        "source_url": "https://doi.org/10.1242/jeb.50.2.363"
+      }
+    },
+    {
+      "title": "Jump-associated wing opening outruns the wind reflex",
+      "layout": "figure-right",
+      "body": [
+        "Camhi monitored airflow with a hot-wire anemometer and detected wing opening when the forewing stopped interrupting a narrow light beam. Both signals were photographed on the same moving film. This method placed stimulus onset and movement onset on a common time base.",
+        "Wind accelerations of 100–600 m/s² ended at speeds of 2.5–4.5 m/s. Typical wing-opening latency was approximately 45 ms, and the shortest measured latency was 35 ms. Freely jumping animals had begun opening their wings within approximately 15 ms.",
+        "Covering the head hairs prevented wind-triggered opening; removing the covering restored it. The hairs therefore supplied the tested reflex pathway. The latency difference supports an additional jump-associated initiating pathway, while the behavioral experiment alone does not identify its neurons."
+      ],
+      "transcript": [
+        "Camhi monitored airflow with a hot-wire anemometer and detected wing opening when the forewing stopped interrupting a narrow light beam. Both signals were photographed on the same moving film. This method placed stimulus onset and movement onset on a common time base.",
+        "Wind accelerations of 100–600 m/s² ended at speeds of 2.5–4.5 m/s. Typical wing-opening latency was approximately 45 ms, and the shortest measured latency was 35 ms. Freely jumping animals had begun opening their wings within approximately 15 ms.",
+        "Covering the head hairs prevented wind-triggered opening; removing the covering restored it. The hairs therefore supplied the tested reflex pathway. The latency difference supports an additional jump-associated initiating pathway, while the behavioral experiment alone does not identify its neurons.",
+        "A latency is the elapsed time between a defined stimulus and a defined response. The common film recording reduced uncertainty from comparing signals recorded by independent clocks. Hair immobilization tested the sensory route rather than merely correlating airflow with movement."
+      ],
+      "cite": "Camhi (1969c)",
+      "refs": [
+        "J. M. Camhi (1969c). Locust wind receptors. III. Contribution to flight initiation and lift control. Journal of Experimental Biology 50(2):363–373. https://doi.org/10.1242/jeb.50.2.363"
+      ],
+      "figure": {
+        "path": "figures/C3_1.png",
+        "caption": "Camhi (1969), Fig. 1. Wind onset and wing-opening latency records.",
+        "source_url": "https://doi.org/10.1242/jeb.50.2.363"
+      }
+    },
+    {
+      "title": "Removing foot contact releases a slower initiation route",
+      "layout": "figure-right",
+      "body": [
+        "The **tarsi** are the distal portions of the legs that contact a surface. Contact can inhibit flight in a tethered locust. Camhi placed the animal on a hinged roughened rod and lowered the rod to remove support while recording the first wing-opening movement.",
+        "Wing opening followed the last possible instant of contact by at least 30 ms. The latency remained similar after successive leg amputations, including trials with only one leg contacting the rod. The support was mechanically independent of the tether, and comparable hand movements did not release flight.",
+        "Loss of contact can therefore release flight under these conditions, but its latency is longer than jump-associated wing opening. The controls reduce explanations based on shock to the tether or insufficient initial contact. They do not identify the central pathway that couples jumping to flying."
+      ],
+      "transcript": [
+        "The tarsi are the distal portions of the legs that contact a surface. Contact can inhibit flight in a tethered locust. Camhi placed the animal on a hinged roughened rod and lowered the rod to remove support while recording the first wing-opening movement.",
+        "Wing opening followed the last possible instant of contact by at least 30 ms. The latency remained similar after successive leg amputations, including trials with only one leg contacting the rod. The support was mechanically independent of the tether, and comparable hand movements did not release flight.",
+        "Loss of contact can therefore release flight under these conditions, but its latency is longer than jump-associated wing opening. The controls reduce explanations based on shock to the tether or insufficient initial contact. They do not identify the central pathway that couples jumping to flying.",
+        "Release from inhibition allows a circuit to become active without necessarily supplying its rhythmic timing. The leg-amputation comparison tested whether distributing contact across several legs had artificially delayed the response."
+      ],
+      "cite": "Camhi (1969c)",
+      "refs": [
+        "J. M. Camhi (1969c). Locust wind receptors. III. Contribution to flight initiation and lift control. Journal of Experimental Biology 50(2):363–373. https://doi.org/10.1242/jeb.50.2.363"
+      ],
+      "figure": {
+        "path": "figures/C3_2.png",
+        "caption": "Camhi (1969), Fig. 2. Tarsal-release and wing-opening records.",
+        "source_url": "https://doi.org/10.1242/jeb.50.2.363"
+      }
+    },
+    {
+      "title": "Head hairs form a directional mechanosensory array",
+      "layout": "figures-right",
+      "body": [
+        "A **mechanoreceptor** converts mechanical displacement into neural activity. The locust’s aerodynamic head hairs are **setae**, cuticular shafts coupled to sensory cells. Their shafts are approximately 70–250 μm long and curve forward in different directions.",
+        "Camhi mapped the curvature of the larger hairs and compared individual hair orientation with sensory responses. A receptor responded most strongly when wind arrived in the plane of its shaft curvature. The array was approximately bilaterally symmetrical and similar across animals.",
+        "Different preferred directions allow the head to distribute airflow information across receptors. A single receptor’s firing rate still depends on both wind direction and speed, so it is not an unambiguous speed meter. The anatomical map predicts preferred direction but does not measure the full response of every smaller hair."
+      ],
+      "transcript": [
+        "A mechanoreceptor converts mechanical displacement into neural activity. The locust’s aerodynamic head hairs are setae, cuticular shafts coupled to sensory cells. Their shafts are approximately 70–250 μm long and curve forward in different directions.",
+        "Camhi mapped the curvature of the larger hairs and compared individual hair orientation with sensory responses. A receptor responded most strongly when wind arrived in the plane of its shaft curvature. The array was approximately bilaterally symmetrical and similar across animals.",
+        "Different preferred directions allow the head to distribute airflow information across receptors. A single receptor’s firing rate still depends on both wind direction and speed, so it is not an unambiguous speed meter. The anatomical map predicts preferred direction but does not measure the full response of every smaller hair.",
+        "A sensillum is a sensory structure that includes its cuticular specialization and associated sensory neuron. The receptor dendrite attaches eccentrically near the shaft base; the shaft pivots in a socket instead of bending freely along its length."
+      ],
+      "cite": "Camhi (1969a)",
+      "refs": [
+        "J. M. Camhi (1969a). Locust wind receptors. I. Transducer mechanics and sensory response. Journal of Experimental Biology 50(2):335–348. https://doi.org/10.1242/jeb.50.2.335"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/C1_7.png",
+          "caption": "Camhi (1969), Fig. 7. Map of head-hair curvature and preferred wind directions.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        },
+        {
+          "path": "figures/C1_1.png",
+          "caption": "Camhi (1969), Fig. 1. Published anatomy of a seta and its sensory neuron.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Sustained wind produces adapting sensory discharge",
+      "layout": "figures-right",
+      "body": [
+        "**Adaptation** is a decline in a receptor’s response during a maintained stimulus. Camhi teased small axon bundles from the circumoesophageal connective and recorded a sensory unit during controlled airflow. These connectives run beside the oesophagus between head ganglia.",
+        "A 4.5 m/s wind directed approximately 10° left of center produced an initial discharge near 200 spikes/s. Within about half a second, the rate declined to a maintained level near 125 spikes/s. Continued airflow produced a further modest decline over minutes.",
+        "The sensory discharge contains both an onset response and information about continuing airflow. Adaptation does not imply complete loss of sensitivity. Because these recordings were extracellular, they establish action-potential timing but do not directly measure the receptor current or identify its mechanically gated ion channel."
+      ],
+      "transcript": [
+        "Adaptation is a decline in a receptor’s response during a maintained stimulus. Camhi teased small axon bundles from the circumoesophageal connective and recorded a sensory unit during controlled airflow. These connectives run beside the oesophagus between head ganglia.",
+        "A 4.5 m/s wind directed approximately 10° left of center produced an initial discharge near 200 spikes/s. Within about half a second, the rate declined to a maintained level near 125 spikes/s. Continued airflow produced a further modest decline over minutes.",
+        "The sensory discharge contains both an onset response and information about continuing airflow. Adaptation does not imply complete loss of sensitivity. Because these recordings were extracellular, they establish action-potential timing but do not directly measure the receptor current or identify its mechanically gated ion channel.",
+        "An action potential is a brief propagated electrical impulse. Extracellular recording detects the voltage associated with that impulse outside the cell, whereas intracellular recording can resolve the cell’s membrane potential."
+      ],
+      "cite": "Camhi (1969a)",
+      "refs": [
+        "J. M. Camhi (1969a). Locust wind receptors. I. Transducer mechanics and sensory response. Journal of Experimental Biology 50(2):335–348. https://doi.org/10.1242/jeb.50.2.335"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/C1_2.png",
+          "caption": "Camhi (1969), Fig. 2. Sensory spikes during airflow onset and cessation.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        },
+        {
+          "path": "figures/C1_1.png",
+          "caption": "Camhi (1969), Fig. 1. Seta shaft, socket and attached sensory cell.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        }
+      ]
+    },
+    {
+      "title": "One hair encodes direction and speed together",
+      "layout": "figures-right",
+      "body": [
+        "Camhi rotated a calibrated wind jet around the head and recorded the maintained firing of a single sensory axon. A **directional tuning curve** relates neural response to stimulus direction. Different wind speeds were tested with the same receptor.",
+        "The published curves used 1.5, 3.0 and 4.5 m/s wind. Maximum firing occurred near 15° left of center, close to the hair’s measured curvature plane. The angular separation between the half-maximum responses was approximately 54°, and higher speeds produced higher firing rates.",
+        "The rate therefore combines direction and speed rather than representing either variable alone. The alignment of response and shaft curvature links anatomy to sensory tuning. These measurements do not establish the decoding operation performed by downstream interneurons or behaviorally achievable angular precision."
+      ],
+      "transcript": [
+        "Camhi rotated a calibrated wind jet around the head and recorded the maintained firing of a single sensory axon. A directional tuning curve relates neural response to stimulus direction. Different wind speeds were tested with the same receptor.",
+        "The published curves used 1.5, 3.0 and 4.5 m/s wind. Maximum firing occurred near 15° left of center, close to the hair’s measured curvature plane. The angular separation between the half-maximum responses was approximately 54°, and higher speeds produced higher firing rates.",
+        "The rate therefore combines direction and speed rather than representing either variable alone. The alignment of response and shaft curvature links anatomy to sensory tuning. These measurements do not establish the decoding operation performed by downstream interneurons or behaviorally achievable angular precision.",
+        "Half-maximum width describes the breadth of a response curve. It is not the smallest direction difference that the intact animal can detect. Comparing the same cell at several speeds separates changing stimulus strength from differences among receptors."
+      ],
+      "cite": "Camhi (1969a)",
+      "refs": [
+        "J. M. Camhi (1969a). Locust wind receptors. I. Transducer mechanics and sensory response. Journal of Experimental Biology 50(2):335–348. https://doi.org/10.1242/jeb.50.2.335"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/C1_3.png",
+          "caption": "Camhi (1969), Fig. 3. Directional response curves at three wind speeds.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        },
+        {
+          "path": "figures/C1_7.png",
+          "caption": "Camhi (1969), Fig. 7. Hair orientations distributed across the head.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Several mechanical asymmetries sharpen hair tuning",
+      "layout": "figures-right",
+      "body": [
+        "Camhi separated three potential sources of directional tuning: shaft curvature, socket elasticity, and the off-center attachment of the receptor dendrite. Mechanical displacement with a pipette controlled the shaft movement directly, reducing the contribution of aerodynamic drag.",
+        "A 50 μm shaft deflection produced a broader directional response than wind stimulation. Its typical half-maximum width was approximately 85°, compared with approximately 54° for the wind response. Measurements of socket resistance and drag on remounted shafts were broader still.",
+        "No tested component alone accounted for the narrow wind-tuning curve. The results support combined contributions from mechanical structure and sensory coupling. They do not identify the molecular transduction channel, and the remounted-shaft experiment depended on the mechanical properties of the replacement socket."
+      ],
+      "transcript": [
+        "Camhi separated three potential sources of directional tuning: shaft curvature, socket elasticity, and the off-center attachment of the receptor dendrite. Mechanical displacement with a pipette controlled the shaft movement directly, reducing the contribution of aerodynamic drag.",
+        "A 50 μm shaft deflection produced a broader directional response than wind stimulation. Its typical half-maximum width was approximately 85°, compared with approximately 54° for the wind response. Measurements of socket resistance and drag on remounted shafts were broader still.",
+        "No tested component alone accounted for the narrow wind-tuning curve. The results support combined contributions from mechanical structure and sensory coupling. They do not identify the molecular transduction channel, and the remounted-shaft experiment depended on the mechanical properties of the replacement socket.",
+        "The original hair socket resists displacement differently in different directions. Camhi tested excised shafts in a non-directional mounting to separate shaft aerodynamics from socket resistance. The combined explanation concerns peripheral mechanics, not a newly established central computation."
+      ],
+      "cite": "Camhi (1969a)",
+      "refs": [
+        "J. M. Camhi (1969a). Locust wind receptors. I. Transducer mechanics and sensory response. Journal of Experimental Biology 50(2):335–348. https://doi.org/10.1242/jeb.50.2.335"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/C1_4.png",
+          "caption": "Camhi (1969), Fig. 4. Directional responses to imposed 50 μm hair deflections.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        },
+        {
+          "path": "figures/C1_1.png",
+          "caption": "Camhi (1969), Fig. 1. The shaft, socket and eccentric dendritic attachment.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Head-hair axons reach the suboesophageal ganglion",
+      "layout": "figure-right",
+      "body": [
+        "Camhi recorded simultaneously from a cut hair tip and an axon in the ipsilateral circumoesophageal connective. **Ipsilateral** means on the same side; **contralateral** means on the opposite side. Every recorded sensory impulse appeared at both sites.",
+        "The two recordings were separated by approximately 10 ms. Electrical stimulation of the connective evoked impulses that traveled back toward the hair, with latencies of 7–14 ms and an estimated conduction speed near 0.5 m/s. Stimulation farther back in the cervical connective did not evoke the same sensory response.",
+        "These tests support axons passing through the brain and terminating before the thoracic pathway, probably in the suboesophageal ganglion. The physiological inference is stronger than visual proximity alone. It does not reconstruct every terminal branch or directly identify each sensory-to-interneuron synapse."
+      ],
+      "transcript": [
+        "Camhi recorded simultaneously from a cut hair tip and an axon in the ipsilateral circumoesophageal connective. Ipsilateral means on the same side; contralateral means on the opposite side. Every recorded sensory impulse appeared at both sites.",
+        "The two recordings were separated by approximately 10 ms. Electrical stimulation of the connective evoked impulses that traveled back toward the hair, with latencies of 7–14 ms and an estimated conduction speed near 0.5 m/s. Stimulation farther back in the cervical connective did not evoke the same sensory response.",
+        "These tests support axons passing through the brain and terminating before the thoracic pathway, probably in the suboesophageal ganglion. The physiological inference is stronger than visual proximity alone. It does not reconstruct every terminal branch or directly identify each sensory-to-interneuron synapse.",
+        "Antidromic conduction is propagation toward the cell’s peripheral origin, opposite to the usual direction of sensory information flow. The small sensory axons differ from the later giant interneuron, which conveys descending information much faster."
+      ],
+      "cite": "Camhi (1969a)",
+      "refs": [
+        "J. M. Camhi (1969a). Locust wind receptors. I. Transducer mechanics and sensory response. Journal of Experimental Biology 50(2):335–348. https://doi.org/10.1242/jeb.50.2.335"
+      ],
+      "figure": {
+        "path": "figures/C1_8.png",
+        "caption": "Camhi (1969), Fig. 8. Simultaneous seta and connective recordings.",
+        "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+      }
+    },
+    {
+      "title": "Wind-indicator interneurons pool broad directional input",
+      "layout": "figures-right",
+      "body": [
+        "An **interneuron** connects other neurons rather than directly serving as the primary receptor or muscle output. Camhi recorded individual wind-responsive units in the cervical connective, downstream of the head sensory pathways. Wind-indicator cells sustained discharge during maintained airflow.",
+        "Their directional half-maximum width was approximately 140°, substantially broader than individual sensory receptors. At favorable direction, a 4.5 m/s wind produced a maintained rate near 85 spikes/s. Small air jets mapped inputs from head hairs on both sides with varied preferred directions.",
+        "Pooling differently tuned receptors is consistent with a broad signal for the presence and intensity of airflow. The recordings and receptive-field tests do not directly establish the exact synaptic weights. Camhi’s classification described response properties rather than assigning each unit a modern identified-cell label."
+      ],
+      "transcript": [
+        "An interneuron connects other neurons rather than directly serving as the primary receptor or muscle output. Camhi recorded individual wind-responsive units in the cervical connective, downstream of the head sensory pathways. Wind-indicator cells sustained discharge during maintained airflow.",
+        "Their directional half-maximum width was approximately 140°, substantially broader than individual sensory receptors. At favorable direction, a 4.5 m/s wind produced a maintained rate near 85 spikes/s. Small air jets mapped inputs from head hairs on both sides with varied preferred directions.",
+        "Pooling differently tuned receptors is consistent with a broad signal for the presence and intensity of airflow. The recordings and receptive-field tests do not directly establish the exact synaptic weights. Camhi’s classification described response properties rather than assigning each unit a modern identified-cell label.",
+        "Single-hair deflection did not reliably evoke interneuron spikes. Simultaneous stimulation of separate hair groups increased or preserved the response, supporting convergence of excitatory sensory influences."
+      ],
+      "cite": "Camhi (1969b); Camhi (1969a)",
+      "refs": [
+        "J. M. Camhi (1969b). Locust wind receptors. II. Interneurones in the cervical connective. Journal of Experimental Biology 50(2):349–362. https://doi.org/10.1242/jeb.50.2.349",
+        "J. M. Camhi (1969a). Locust wind receptors. I. Transducer mechanics and sensory response. Journal of Experimental Biology 50(2):335–348. https://doi.org/10.1242/jeb.50.2.335"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/C2_2.png",
+          "caption": "Camhi (1969), Fig. 2. Broad wind-indicator tuning at several speeds.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.349"
+        },
+        {
+          "path": "figures/C1_7.png",
+          "caption": "Camhi (1969), Fig. 7. Bilateral distribution of directional sensory hairs.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Wind-direction cells retain sharper angular preferences",
+      "layout": "figures-right",
+      "body": [
+        "Camhi distinguished wind-direction cells from broadly tuned wind-indicator cells by varying wind angle, speed and angular motion. The recorded units maintained firing in wind but had sharper angular selectivity. Their mapped sensory inputs had more similar preferred directions.",
+        "Directional half-maximum widths were approximately 60°. Rotating an already flowing jet toward a cell’s favorable direction could add a transient burst, whereas moving away could briefly reduce discharge. The rate-speed relationship was not simply linear across the tested range.",
+        "A downstream cell can therefore emphasize directional information while remaining sensitive to stimulus strength and change. These findings support a possible role in directional stabilization, but Camhi did not prove that a particular recorded unit was necessary for a specific yaw-correction movement."
+      ],
+      "transcript": [
+        "Camhi distinguished wind-direction cells from broadly tuned wind-indicator cells by varying wind angle, speed and angular motion. The recorded units maintained firing in wind but had sharper angular selectivity. Their mapped sensory inputs had more similar preferred directions.",
+        "Directional half-maximum widths were approximately 60°. Rotating an already flowing jet toward a cell’s favorable direction could add a transient burst, whereas moving away could briefly reduce discharge. The rate-speed relationship was not simply linear across the tested range.",
+        "A downstream cell can therefore emphasize directional information while remaining sensitive to stimulus strength and change. These findings support a possible role in directional stabilization, but Camhi did not prove that a particular recorded unit was necessary for a specific yaw-correction movement.",
+        "Yaw is rotation around the animal’s vertical axis. A head-wind angle can change during yaw or changes in the local airstream, so neural direction sensitivity must be interpreted with the mechanical context."
+      ],
+      "cite": "Camhi (1969b)",
+      "refs": [
+        "J. M. Camhi (1969b). Locust wind receptors. II. Interneurones in the cervical connective. Journal of Experimental Biology 50(2):349–362. https://doi.org/10.1242/jeb.50.2.349"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/C2_3.png",
+          "caption": "Camhi (1969), Fig. 3. Wind-direction tuning at several airflow speeds.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.349"
+        },
+        {
+          "path": "figures/C2_4.png",
+          "caption": "Camhi (1969), Fig. 4. Spike responses to pivots of a maintained wind jet.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.349"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Recentre cells emphasize motion toward head-on airflow",
+      "layout": "figures-right",
+      "body": [
+        "**Recentre cells** are Camhi’s rapidly adapting interneurons that respond especially to airflow shifting toward the head-on direction from one preferred side. He pivoted a maintained wind jet around the head rather than repeatedly turning airflow on and off.",
+        "At 3 m/s, a shift toward center from the preferred side evoked a burst, while the reverse shift or recentring from the other side could evoke little activity. Rapid shifts were more effective than slow shifts; strong responses occurred for pivots lasting less than about 100–150 ms.",
+        "The response distinguishes the direction of a change, beyond the starting and ending wind angles alone. The preparation establishes temporal and directional selectivity. A role in terminating corrective turns was proposed from these properties, but not verified by selective cell manipulation."
+      ],
+      "transcript": [
+        "Recentre cells are Camhi’s rapidly adapting interneurons that respond especially to airflow shifting toward the head-on direction from one preferred side. He pivoted a maintained wind jet around the head rather than repeatedly turning airflow on and off.",
+        "At 3 m/s, a shift toward center from the preferred side evoked a burst, while the reverse shift or recentring from the other side could evoke little activity. Rapid shifts were more effective than slow shifts; strong responses occurred for pivots lasting less than about 100–150 ms.",
+        "The response distinguishes the direction of a change, beyond the starting and ending wind angles alone. The preparation establishes temporal and directional selectivity. A role in terminating corrective turns was proposed from these properties, but not verified by selective cell manipulation.",
+        "The initial and final wind angles could both lie in a region that responded to wind onset. The different pivot responses therefore cannot be explained solely by whether the final direction was within the cell’s static receptive field."
+      ],
+      "cite": "Camhi (1969b)",
+      "refs": [
+        "J. M. Camhi (1969b). Locust wind receptors. II. Interneurones in the cervical connective. Journal of Experimental Biology 50(2):349–362. https://doi.org/10.1242/jeb.50.2.349"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/C2_6.png",
+          "caption": "Camhi (1969), Fig. 6. Responses to wind-angle shifts toward and away from center.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.349"
+        },
+        {
+          "path": "figures/C2_8.png",
+          "caption": "Camhi (1969), Fig. 8. Pivot duration versus the first interspike intervals.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.349"
+        }
+      ]
+    },
+    {
+      "title": "Acceleration cells emphasize rapid airflow onset",
+      "layout": "figures-right",
+      "body": [
+        "Camhi tested acceleration-sensitive interneurons by increasing wind from rest to the same final speed over different time intervals. **Acceleration** is the rate of change of velocity. Fixing the final speed distinguished sensitivity to onset dynamics from sensitivity to maintained speed.",
+        "These cells responded only when wind reached approximately 1–1.5 m/s or more. Faster acceleration toward 4.5 m/s produced shorter initial interspike intervals and a more vigorous burst. Directional tuning was broad, and even sizable angular pivots of an existing wind jet could fail to evoke activity.",
+        "Their response therefore differs from both sustained wind-indication and directional recentring. It is consistent with a transient signal about airflow onset. The recordings do not establish that acceleration cells alone initiate flight, especially because free-jump wing opening occurs faster than the tested wind reflex."
+      ],
+      "transcript": [
+        "Camhi tested acceleration-sensitive interneurons by increasing wind from rest to the same final speed over different time intervals. Acceleration is the rate of change of velocity. Fixing the final speed distinguished sensitivity to onset dynamics from sensitivity to maintained speed.",
+        "These cells responded only when wind reached approximately 1–1.5 m/s or more. Faster acceleration toward 4.5 m/s produced shorter initial interspike intervals and a more vigorous burst. Directional tuning was broad, and even sizable angular pivots of an existing wind jet could fail to evoke activity.",
+        "Their response therefore differs from both sustained wind-indication and directional recentring. It is consistent with a transient signal about airflow onset. The recordings do not establish that acceleration cells alone initiate flight, especially because free-jump wing opening occurs faster than the tested wind reflex.",
+        "Shorter interspike intervals correspond to a higher instantaneous spike rate. The comparison held the endpoint speed constant, so changes in the initial discharge were associated with the speed of the airflow transition."
+      ],
+      "cite": "Camhi (1969b); Camhi (1969a)",
+      "refs": [
+        "J. M. Camhi (1969b). Locust wind receptors. II. Interneurones in the cervical connective. Journal of Experimental Biology 50(2):349–362. https://doi.org/10.1242/jeb.50.2.349",
+        "J. M. Camhi (1969a). Locust wind receptors. I. Transducer mechanics and sensory response. Journal of Experimental Biology 50(2):335–348. https://doi.org/10.1242/jeb.50.2.335"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/C2_10.png",
+          "caption": "Camhi (1969), Fig. 10. Interspike intervals as wind acceleration duration changes.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.349"
+        },
+        {
+          "path": "figures/C1_7.png",
+          "caption": "Camhi (1969), Fig. 7. Head-hair sensory array supplying wind information.",
+          "source_url": "https://doi.org/10.1242/jeb.50.2.335"
+        }
+      ]
+    },
+    {
+      "title": "Flight-like alternation survives loss of wing feedback",
+      "layout": "figures-right",
+      "body": [
+        "A **central pattern generator**, or CPG, can generate rhythmic patterned output without requiring rhythmic sensory input. Wilson progressively removed wings, cut wing sensory nerves, and reduced the preparation to the head and thoracic nervous system, with limited remaining body structures.",
+        "Continuous wind at the head still elicited alternating elevator and depressor activity. Reduced preparations produced approximately 4–12 cycles/s, often near 7 cycles/s. Elevator-to-depressor delays remained around 30–40 ms in well-preserved preparations, despite the slower overall rhythm.",
+        "Wing movement and its feedback were therefore unnecessary for the basic alternation. This does not mean that feedback is unnecessary for normal frequency, aerodynamic control or stable free flight. Continuous sensory excitation from the head supplied activation without specifying every phase of the rhythm."
+      ],
+      "transcript": [
+        "A central pattern generator, or CPG, can generate rhythmic patterned output without requiring rhythmic sensory input. Wilson progressively removed wings, cut wing sensory nerves, and reduced the preparation to the head and thoracic nervous system, with limited remaining body structures.",
+        "Continuous wind at the head still elicited alternating elevator and depressor activity. Reduced preparations produced approximately 4–12 cycles/s, often near 7 cycles/s. Elevator-to-depressor delays remained around 30–40 ms in well-preserved preparations, despite the slower overall rhythm.",
+        "Wing movement and its feedback were therefore unnecessary for the basic alternation. This does not mean that feedback is unnecessary for normal frequency, aerodynamic control or stable free flight. Continuous sensory excitation from the head supplied activation without specifying every phase of the rhythm.",
+        "Deafferentation removes sensory input; it must be distinguished from removal of all possible excitation. Wilson retained the head-wind pathway and supplied aeration to sustain the highly reduced nervous system."
+      ],
+      "cite": "Wilson (1961)",
+      "refs": [
+        "D. M. Wilson (1961). The central nervous control of flight in a locust. Journal of Experimental Biology 38(2):471–490. https://doi.org/10.1242/jeb.38.2.471"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/W61_6.png",
+          "caption": "Wilson (1961), Fig. 6. Elevator and depressor activity after severe sensory reduction.",
+          "source_url": "https://doi.org/10.1242/jeb.38.2.471"
+        },
+        {
+          "path": "figures/W61_1.png",
+          "caption": "Wilson (1961), Fig. 1. Published dissection identifies ganglia, nerves and muscles.",
+          "source_url": "https://doi.org/10.1242/jeb.38.2.471"
+        }
+      ]
+    },
+    {
+      "title": "Thoracic motor axons burst without flight muscles",
+      "layout": "figures-right",
+      "body": [
+        "Wilson recorded from motor nerves in preparations lacking thoracic muscles and the abdomen. A **motor axon** carries the neural output toward muscle; recording its central stump tests whether rhythmic drive is produced before muscle contraction occurs.",
+        "Small bursts of spikes repeated at approximately 4–10 cycles/s. Activity in the two wing-related segments was often nearly synchronous or separated by a few milliseconds, though timing could drift over long periods. Some preparations had an irregular mesothoracic rhythm while metathoracic discharge remained orderly.",
+        "Rhythm without attached flight muscles excludes a muscle-driven reflex chain as the sole origin of the recorded bursts. The reduced output still differed from intact flight. Preparation damage and lost feedback limit conclusions about the normal precision and contributions of each segment."
+      ],
+      "transcript": [
+        "Wilson recorded from motor nerves in preparations lacking thoracic muscles and the abdomen. A motor axon carries the neural output toward muscle; recording its central stump tests whether rhythmic drive is produced before muscle contraction occurs.",
+        "Small bursts of spikes repeated at approximately 4–10 cycles/s. Activity in the two wing-related segments was often nearly synchronous or separated by a few milliseconds, though timing could drift over long periods. Some preparations had an irregular mesothoracic rhythm while metathoracic discharge remained orderly.",
+        "Rhythm without attached flight muscles excludes a muscle-driven reflex chain as the sole origin of the recorded bursts. The reduced output still differed from intact flight. Preparation damage and lost feedback limit conclusions about the normal precision and contributions of each segment.",
+        "A central stump is the remaining nerve segment connected to the central nervous system after its peripheral continuation is cut. The recorded bursts were neural events rather than electrical activity produced by contracting muscle."
+      ],
+      "cite": "Wilson (1961)",
+      "refs": [
+        "D. M. Wilson (1961). The central nervous control of flight in a locust. Journal of Experimental Biology 38(2):471–490. https://doi.org/10.1242/jeb.38.2.471"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/W61_7.png",
+          "caption": "Wilson (1961), Fig. 7. Motor-nerve discharge in a muscle-free reduced preparation.",
+          "source_url": "https://doi.org/10.1242/jeb.38.2.471"
+        },
+        {
+          "path": "figures/W61_1.png",
+          "caption": "Wilson (1961), Fig. 1. Published dissection identifies ganglia, nerves and muscles.",
+          "source_url": "https://doi.org/10.1242/jeb.38.2.471"
+        }
+      ]
+    },
+    {
+      "title": "Unpatterned excitation can release patterned output",
+      "layout": "figures-right",
+      "body": [
+        "Wilson stimulated the anterior thoracic cord electrically while recording flight muscle responses in reduced preparations. A **tonic drive** is sustained excitation that need not repeat at the same rhythm as the motor output. Stimulation frequency and output frequency were varied independently.",
+        "Repeated stimulation could recruit alternating groups of motor activity instead of a simple one-for-one muscle response. At slower stimulation rates, some units followed the stimulus directly; at higher rates, the circuit produced a rhythm with its own changing frequency. The response depended on the recruited pathways and preparation state.",
+        "Central circuitry can therefore transform continuing excitation into patterned alternation. This experiment does not require a single dedicated pacemaker neuron. Electrical cord stimulation recruits multiple axons, so it cannot identify the natural activating cell or its transmitter."
+      ],
+      "transcript": [
+        "Wilson stimulated the anterior thoracic cord electrically while recording flight muscle responses in reduced preparations. A tonic drive is sustained excitation that need not repeat at the same rhythm as the motor output. Stimulation frequency and output frequency were varied independently.",
+        "Repeated stimulation could recruit alternating groups of motor activity instead of a simple one-for-one muscle response. At slower stimulation rates, some units followed the stimulus directly; at higher rates, the circuit produced a rhythm with its own changing frequency. The response depended on the recruited pathways and preparation state.",
+        "Central circuitry can therefore transform continuing excitation into patterned alternation. This experiment does not require a single dedicated pacemaker neuron. Electrical cord stimulation recruits multiple axons, so it cannot identify the natural activating cell or its transmitter.",
+        "Some stimulation frequencies below about 20 per second produced responses closely related to each pulse. The distinction is between stimulus-locked excitation and the organized output that emerges when excitation recruits the central network."
+      ],
+      "cite": "Wilson (1961)",
+      "refs": [
+        "D. M. Wilson (1961). The central nervous control of flight in a locust. Journal of Experimental Biology 38(2):471–490. https://doi.org/10.1242/jeb.38.2.471"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/W61_8.png",
+          "caption": "Wilson (1961), Fig. 8. Motor-unit responses to electrical stimulation of the cord.",
+          "source_url": "https://doi.org/10.1242/jeb.38.2.471"
+        },
+        {
+          "path": "figures/W61_1.png",
+          "caption": "Wilson (1961), Fig. 1. Published dissection identifies ganglia, nerves and muscles.",
+          "source_url": "https://doi.org/10.1242/jeb.38.2.471"
+        }
+      ]
+    },
+    {
+      "title": "The 404 group links sensory input to flight activation",
+      "layout": "figures-right",
+      "body": [
+        "Pearson and colleagues recorded and dye-filled **404 interneurons** in _Locusta migratoria_. These mesothoracic cells have looping main neurites and ascending axons. A neurite is a neuronal process; dye filling linked the physiological recordings to recognizable anatomy.",
+        "404 neurons fired tonically during flight episodes initiated by wind or a sudden reduction in illumination. The same neuron responded weakly to turning the light back on, without releasing flight. It generally lacked the strong cycle-by-cycle oscillation characteristic of the rhythm-generating circuit.",
+        "This separates an activating pathway from neurons that determine successive phases. The small 404 group contains physiological and anatomical variation, so results from one member do not imply identical sensory input to every member. Tonic activity supplies drive rather than a complete motor score."
+      ],
+      "transcript": [
+        "Pearson and colleagues recorded and dye-filled 404 interneurons in Locusta migratoria. These mesothoracic cells have looping main neurites and ascending axons. A neurite is a neuronal process; dye filling linked the physiological recordings to recognizable anatomy.",
+        "404 neurons fired tonically during flight episodes initiated by wind or a sudden reduction in illumination. The same neuron responded weakly to turning the light back on, without releasing flight. It generally lacked the strong cycle-by-cycle oscillation characteristic of the rhythm-generating circuit.",
+        "This separates an activating pathway from neurons that determine successive phases. The small 404 group contains physiological and anatomical variation, so results from one member do not imply identical sensory input to every member. Tonic activity supplies drive rather than a complete motor score.",
+        "The investigators correlated physiological identification with Lucifer-yellow morphology. Closely adjacent neurons had parallel neurites and axons, supporting a group of cells rather than one neuron with unlimited variation."
+      ],
+      "cite": "Pearson et al. (1985)",
+      "refs": [
+        "K. G. Pearson; D. N. Reye; D. W. Parsons; G. Bicker (1985). Flight-initiating interneurons in the locust. Journal of Neurophysiology 53(4):910–925. https://doi.org/10.1152/jn.1985.53.4.910"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/P85_2.png",
+          "caption": "Pearson et al. (1985), Fig. 2. 404 discharge during wind and changing illumination.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        },
+        {
+          "path": "figures/P85_1.png",
+          "caption": "Pearson et al. (1985), Fig. 1. Filled 404 neuron in the thoracic nervous system.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "404 discharge tracks the frequency of fictive flight",
+      "layout": "figures-right",
+      "body": [
+        "In Pearson and colleagues’ preparation, the discharge rate of a 404 neuron declined during a sustained wind stimulus as the frequency of flight activity declined. **Fictive flight** is flight-like neural or muscle output in a reduced preparation, rather than aerodynamic flight through space.",
+        "Higher 404 firing rates were associated with faster flight rhythms. Turning the lights off increased both 404 activity and rhythm frequency while preserving the relationship between them. Flight commonly ended after the recorded 404 discharge fell below approximately 50 spikes/s.",
+        "The association is consistent with an excitatory drive that regulates circuit activation. Correlation alone does not prove that 404 firing causes the frequency change, because both could respond to another input. Current-injection experiments supplied the additional causal test."
+      ],
+      "transcript": [
+        "In Pearson and colleagues’ preparation, the discharge rate of a 404 neuron declined during a sustained wind stimulus as the frequency of flight activity declined. Fictive flight is flight-like neural or muscle output in a reduced preparation, rather than aerodynamic flight through space.",
+        "Higher 404 firing rates were associated with faster flight rhythms. Turning the lights off increased both 404 activity and rhythm frequency while preserving the relationship between them. Flight commonly ended after the recorded 404 discharge fell below approximately 50 spikes/s.",
+        "The association is consistent with an excitatory drive that regulates circuit activation. Correlation alone does not prove that 404 firing causes the frequency change, because both could respond to another input. Current-injection experiments supplied the additional causal test.",
+        "The figure’s discharge-rate axis is in impulses per second and its flight-frequency axis in cycles per second. These are different rates: one activating interneuron can fire several spikes during each motor cycle."
+      ],
+      "cite": "Pearson et al. (1985)",
+      "refs": [
+        "K. G. Pearson; D. N. Reye; D. W. Parsons; G. Bicker (1985). Flight-initiating interneurons in the locust. Journal of Neurophysiology 53(4):910–925. https://doi.org/10.1152/jn.1985.53.4.910"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/P85_3.png",
+          "caption": "Pearson et al. (1985), Fig. 3. 404 firing rate versus flight rhythm frequency.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        },
+        {
+          "path": "figures/P85_1.png",
+          "caption": "Pearson et al. (1985), Fig. 1. Filled 404 neuron in the thoracic nervous system.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Depolarizing one 404 neuron can initiate the flight rhythm",
+      "layout": "figures-right",
+      "body": [
+        "**Depolarization** makes membrane voltage less negative and can increase neuronal firing. Pearson and colleagues injected depolarizing current into a single 404 neuron while recording dorsal longitudinal muscle activity and, in additional trials, an elevator or depressor motor neuron.",
+        "Flight-like bursts often began when the stimulated 404 neuron reached approximately 100 spikes/s. Current-evoked rhythms commonly started near 8 cycles/s, slower than the approximately 12 cycles/s initially recorded during wind-induced episodes. Motor-neuron voltage oscillations resembled those evoked by wind.",
+        "This is causal evidence that one 404 neuron can recruit the central flight program. It establishes sufficiency in favorable preparations, not that the cell acts alone in the intact animal. Wind normally activates several pathways, whereas current injection selectively increases one neuron’s drive."
+      ],
+      "transcript": [
+        "Depolarization makes membrane voltage less negative and can increase neuronal firing. Pearson and colleagues injected depolarizing current into a single 404 neuron while recording dorsal longitudinal muscle activity and, in additional trials, an elevator or depressor motor neuron.",
+        "Flight-like bursts often began when the stimulated 404 neuron reached approximately 100 spikes/s. Current-evoked rhythms commonly started near 8 cycles/s, slower than the approximately 12 cycles/s initially recorded during wind-induced episodes. Motor-neuron voltage oscillations resembled those evoked by wind.",
+        "This is causal evidence that one 404 neuron can recruit the central flight program. It establishes sufficiency in favorable preparations, not that the cell acts alone in the intact animal. Wind normally activates several pathways, whereas current injection selectively increases one neuron’s drive.",
+        "The simultaneous intracellular motor recordings excluded an interpretation in which 404 merely excited a depressor muscle tonically. Elevator and depressor membrane potentials developed patterned oscillations instead."
+      ],
+      "cite": "Pearson et al. (1985)",
+      "refs": [
+        "K. G. Pearson; D. N. Reye; D. W. Parsons; G. Bicker (1985). Flight-initiating interneurons in the locust. Journal of Neurophysiology 53(4):910–925. https://doi.org/10.1152/jn.1985.53.4.910"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/P85_6.png",
+          "caption": "Pearson et al. (1985), Fig. 6. Flight-related motor bursts during 404 current injection.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        },
+        {
+          "path": "figures/P85_1.png",
+          "caption": "Pearson et al. (1985), Fig. 1. Filled 404 neuron in the thoracic nervous system.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        }
+      ]
+    },
+    {
+      "title": "Hyperpolarizing one 404 neuron can prevent initiation",
+      "layout": "figures-right",
+      "body": [
+        "**Hyperpolarization** makes membrane voltage more negative and can suppress firing. Pearson and colleagues compared a brief wind pulse before and during hyperpolarizing current injection into a recorded 404 neuron. The stimulus was otherwise unchanged.",
+        "A 0.5 s wind pulse normally evoked a short flight episode. During approximately 6 nA of hyperpolarizing current, the recorded 404 cell produced only one impulse and the same stimulus failed to initiate the flight rhythm. Suppression was most effective with weaker wind or near the end of an episode.",
+        "A single member of the activating group can therefore influence whether the circuit reaches its activation threshold. The condition dependence prevents interpreting this as universal necessity of one cell. Other 404 neurons and parallel inputs can contribute enough drive under stronger stimulation."
+      ],
+      "transcript": [
+        "Hyperpolarization makes membrane voltage more negative and can suppress firing. Pearson and colleagues compared a brief wind pulse before and during hyperpolarizing current injection into a recorded 404 neuron. The stimulus was otherwise unchanged.",
+        "A 0.5 s wind pulse normally evoked a short flight episode. During approximately 6 nA of hyperpolarizing current, the recorded 404 cell produced only one impulse and the same stimulus failed to initiate the flight rhythm. Suppression was most effective with weaker wind or near the end of an episode.",
+        "A single member of the activating group can therefore influence whether the circuit reaches its activation threshold. The condition dependence prevents interpreting this as universal necessity of one cell. Other 404 neurons and parallel inputs can contribute enough drive under stronger stimulation.",
+        "The current manipulation altered the neuron while retaining the wind stimulus. Its effectiveness varied with the available background excitation, which is expected for a distributed activating pathway."
+      ],
+      "cite": "Pearson et al. (1985)",
+      "refs": [
+        "K. G. Pearson; D. N. Reye; D. W. Parsons; G. Bicker (1985). Flight-initiating interneurons in the locust. Journal of Neurophysiology 53(4):910–925. https://doi.org/10.1152/jn.1985.53.4.910"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/P85_9.png",
+          "caption": "Pearson et al. (1985), Fig. 9. A repeated wind pulse with and without 404 inhibition.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        },
+        {
+          "path": "figures/P85_1.png",
+          "caption": "Pearson et al. (1985), Fig. 1. Filled 404 neuron in the thoracic nervous system.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "404 bursts may link jumping to the start of flight",
+      "layout": "figures-right",
+      "body": [
+        "Pearson and colleagues recorded a 404 neuron together with hindleg muscle activity during kicks. A kick uses coordinated flexor and extensor activation followed by rapid extension. Its motor organization resembles that used to launch a jump.",
+        "The 404 neuron produced a brief high-frequency burst beginning just before the kick was triggered. Rapid extension driven by the fast extensor motor neuron alone did not produce the same pattern. The published recording retains a 0.5 s time calibration and a 20 mV voltage calibration.",
+        "The temporal relationship and the ability of 404 stimulation to release flight support a possible central link between jump-related activity and flight initiation. The source of the kick-associated excitation was unresolved. These recordings were not direct proof that 404 neurons trigger wing opening during natural jumps."
+      ],
+      "transcript": [
+        "Pearson and colleagues recorded a 404 neuron together with hindleg muscle activity during kicks. A kick uses coordinated flexor and extensor activation followed by rapid extension. Its motor organization resembles that used to launch a jump.",
+        "The 404 neuron produced a brief high-frequency burst beginning just before the kick was triggered. Rapid extension driven by the fast extensor motor neuron alone did not produce the same pattern. The published recording retains a 0.5 s time calibration and a 20 mV voltage calibration.",
+        "The temporal relationship and the ability of 404 stimulation to release flight support a possible central link between jump-related activity and flight initiation. The source of the kick-associated excitation was unresolved. These recordings were not direct proof that 404 neurons trigger wing opening during natural jumps.",
+        "The authors considered both central input from the kick circuitry and proprioceptive input near the end of muscle co-contraction. The preparation did not selectively separate those two explanations."
+      ],
+      "cite": "Pearson et al. (1985)",
+      "refs": [
+        "K. G. Pearson; D. N. Reye; D. W. Parsons; G. Bicker (1985). Flight-initiating interneurons in the locust. Journal of Neurophysiology 53(4):910–925. https://doi.org/10.1152/jn.1985.53.4.910"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/P85_11.png",
+          "caption": "Pearson et al. (1985), Fig. 11. 404 activity near the trigger of a hindleg kick.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        },
+        {
+          "path": "figures/P85_1.png",
+          "caption": "Pearson et al. (1985), Fig. 1. Filled 404 neuron in the thoracic nervous system.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.4.910"
+        }
+      ]
+    },
+    {
+      "title": "Interneuron 301 can advance or delay the next cycle",
+      "layout": "figure-right",
+      "body": [
+        "A neuron’s rhythmic firing does not by itself establish that it helps generate the rhythm. Robertson and Pearson injected brief current pulses into identified interneuron 301 during fictive flight and measured the timing of subsequent dorsal longitudinal motor bursts.",
+        "A 30 ms depolarizing pulse could advance or delay the next cycle depending on when it occurred. **Phase** specifies the position within a repeating cycle; a **phase-response curve** relates the timing of a perturbation to its effect on the rhythm. The neuron’s branches span mesothoracic and metathoracic regions.",
+        "Phase-dependent resetting supplies causal evidence for participation in rhythm generation. It does not prove that 301 is the sole oscillator or that the tested pulse reproduces its natural synaptic input. The response must be interpreted within the connected flight network."
+      ],
+      "transcript": [
+        "A neuron’s rhythmic firing does not by itself establish that it helps generate the rhythm. Robertson and Pearson injected brief current pulses into identified interneuron 301 during fictive flight and measured the timing of subsequent dorsal longitudinal motor bursts.",
+        "A 30 ms depolarizing pulse could advance or delay the next cycle depending on when it occurred. Phase specifies the position within a repeating cycle; a phase-response curve relates the timing of a perturbation to its effect on the rhythm. The neuron’s branches span mesothoracic and metathoracic regions.",
+        "Phase-dependent resetting supplies causal evidence for participation in rhythm generation. It does not prove that 301 is the sole oscillator or that the tested pulse reproduces its natural synaptic input. The response must be interpreted within the connected flight network.",
+        "Advancing a cycle makes the next burst occur earlier; delaying it makes the burst occur later. The stimulation was timed relative to the motor rhythm, so a fixed current pulse had different effects in different circuit states."
+      ],
+      "cite": "Robertson & Pearson (1985)",
+      "refs": [
+        "R. M. Robertson; K. G. Pearson (1985). Neural circuits in the flight system of the locust. Journal of Neurophysiology 53(1):110–128. https://doi.org/10.1152/jn.1985.53.1.110"
+      ],
+      "figure": {
+        "path": "figures/R85_1.png",
+        "caption": "Robertson & Pearson (1985), Fig. 1. 301 anatomy and phase-response measurements.",
+        "source_url": "https://doi.org/10.1152/jn.1985.53.1.110"
+      }
+    },
+    {
+      "title": "Interneuron 501 supplies phase-dependent delays",
+      "layout": "figure-right",
+      "body": [
+        "Robertson and Pearson tested interneuron 501 with the same phase-dependent current-injection approach used for 301. The dye-filled cell was identified within the metathoracic ganglion. Both neurons expressed flight-related activity, but their resetting effects differed.",
+        "Brief depolarizing pulses into 501 reliably delayed the following cycle over particular phases. Apparent advances were not clearly separable from ordinary cycle variation. Its inhibitory connections included elevator-related pathways, whereas its own burst was associated with the depressor phase.",
+        "The distinction between 301 and 501 argues against treating every rhythmically active interneuron as functionally interchangeable. 501 can alter when the network moves into its next cycle. Current injection establishes a network effect while leaving other neurons and parallel oscillatory mechanisms available."
+      ],
+      "transcript": [
+        "Robertson and Pearson tested interneuron 501 with the same phase-dependent current-injection approach used for 301. The dye-filled cell was identified within the metathoracic ganglion. Both neurons expressed flight-related activity, but their resetting effects differed.",
+        "Brief depolarizing pulses into 501 reliably delayed the following cycle over particular phases. Apparent advances were not clearly separable from ordinary cycle variation. Its inhibitory connections included elevator-related pathways, whereas its own burst was associated with the depressor phase.",
+        "The distinction between 301 and 501 argues against treating every rhythmically active interneuron as functionally interchangeable. 501 can alter when the network moves into its next cycle. Current injection establishes a network effect while leaving other neurons and parallel oscillatory mechanisms available.",
+        "The published resetting curve uses normalized cycle timing. Normalization permits comparison between slightly different cycle periods without equating the firing rate of the interneuron with the frequency of wing beating."
+      ],
+      "cite": "Robertson & Pearson (1985)",
+      "refs": [
+        "R. M. Robertson; K. G. Pearson (1985). Neural circuits in the flight system of the locust. Journal of Neurophysiology 53(1):110–128. https://doi.org/10.1152/jn.1985.53.1.110"
+      ],
+      "figure": {
+        "path": "figures/R85_2.png",
+        "caption": "Robertson & Pearson (1985), Fig. 2. 501 morphology and resetting curve.",
+        "source_url": "https://doi.org/10.1152/jn.1985.53.1.110"
+      }
+    },
+    {
+      "title": "Delayed excitation and fast inhibition couple 301 and 501",
+      "layout": "figures-right",
+      "body": [
+        "Robertson and Pearson recorded simultaneously from interneurons 301 and 501. A **postsynaptic potential** is a change in membrane voltage caused by input from another neuron. An excitatory potential tends to favor firing; an inhibitory potential tends to oppose it under the recorded conditions.",
+        "A spike in 301 preceded a depolarizing potential in 501 by approximately 6 ms. A spike in 501 preceded an inhibitory potential in 301 by approximately 3 ms. The delayed excitation lasted longer than the feedback inhibition and could support alternating activation and release from inhibition.",
+        "These paired recordings establish directional physiological interactions. A longer latency suggests additional processing but does not alone count synapses. The 301-to-501 depolarization required further tests because depolarization can arise from removal of inhibition rather than direct excitatory transmitter action."
+      ],
+      "transcript": [
+        "Robertson and Pearson recorded simultaneously from interneurons 301 and 501. A postsynaptic potential is a change in membrane voltage caused by input from another neuron. An excitatory potential tends to favor firing; an inhibitory potential tends to oppose it under the recorded conditions.",
+        "A spike in 301 preceded a depolarizing potential in 501 by approximately 6 ms. A spike in 501 preceded an inhibitory potential in 301 by approximately 3 ms. The delayed excitation lasted longer than the feedback inhibition and could support alternating activation and release from inhibition.",
+        "These paired recordings establish directional physiological interactions. A longer latency suggests additional processing but does not alone count synapses. The 301-to-501 depolarization required further tests because depolarization can arise from removal of inhibition rather than direct excitatory transmitter action.",
+        "Excitation from 301 to 501 and inhibition returning from 501 to 301 form a candidate burst-generating interaction. Long depolarizing current pulses into 301 sometimes recruited rhythmical output, but other components of the flight network remained active."
+      ],
+      "cite": "Robertson & Pearson (1985)",
+      "refs": [
+        "R. M. Robertson; K. G. Pearson (1985). Neural circuits in the flight system of the locust. Journal of Neurophysiology 53(1):110–128. https://doi.org/10.1152/jn.1985.53.1.110"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/R85_3.png",
+          "caption": "Robertson & Pearson (1985), Fig. 3. Paired recordings of delayed excitation and feedback inhibition.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.1.110"
+        },
+        {
+          "path": "figures/R85_1A.png",
+          "caption": "Robertson & Pearson (1985), Fig. 1(A). Filled interneuron 301 across two thoracic ganglia.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.1.110"
+        }
+      ]
+    },
+    {
+      "title": "A depolarizing response can arise from disinhibition",
+      "layout": "figures-right",
+      "body": [
+        "**Disinhibition** is excitation caused by reducing an inhibitory influence. Robertson and Pearson hyperpolarized 501 while monitoring its delayed response to 301 spikes. A direct increase in excitatory conductance and a reduction in inhibitory conductance need not behave the same way when membrane voltage changes.",
+        "The delayed depolarizing potential decreased and reversed sign near 6 nA of hyperpolarizing current. Spontaneous inhibitory potentials reversed at a similar point. Chloride loading reduced the delayed potential, consistent with an inhibitory conductance contributing to its origin.",
+        "An identified pathway through interneuron 511 contained inhibition from 301 to 511 and from 511 to 501. The observations support delayed excitation through disinhibition, but tonic graded transmitter release at the candidate intermediate connection was not directly established."
+      ],
+      "transcript": [
+        "Disinhibition is excitation caused by reducing an inhibitory influence. Robertson and Pearson hyperpolarized 501 while monitoring its delayed response to 301 spikes. A direct increase in excitatory conductance and a reduction in inhibitory conductance need not behave the same way when membrane voltage changes.",
+        "The delayed depolarizing potential decreased and reversed sign near 6 nA of hyperpolarizing current. Spontaneous inhibitory potentials reversed at a similar point. Chloride loading reduced the delayed potential, consistent with an inhibitory conductance contributing to its origin.",
+        "An identified pathway through interneuron 511 contained inhibition from 301 to 511 and from 511 to 501. The observations support delayed excitation through disinhibition, but tonic graded transmitter release at the candidate intermediate connection was not directly established.",
+        "A conductance describes how readily ionic current passes across the membrane. Reversing an inhibitory current’s driving force can reverse a response produced by removing that current. The absolute reversal voltage was difficult to determine with the recording method."
+      ],
+      "cite": "Robertson & Pearson (1985)",
+      "refs": [
+        "R. M. Robertson; K. G. Pearson (1985). Neural circuits in the flight system of the locust. Journal of Neurophysiology 53(1):110–128. https://doi.org/10.1152/jn.1985.53.1.110"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/R85_6.png",
+          "caption": "Robertson & Pearson (1985), Fig. 6. Delayed potentials reverse during hyperpolarizing current injection.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.1.110"
+        },
+        {
+          "path": "figures/R85_7.png",
+          "caption": "Robertson & Pearson (1985), Fig. 7. Recorded inhibitory links through interneuron 511.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.1.110"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Picrotoxin disrupts inhibition and delayed excitation",
+      "layout": "figures-right",
+      "body": [
+        "Robertson and Pearson applied **picrotoxin**, an inhibitor of certain ligand-gated inhibitory channel responses, to test the proposed disinhibitory pathway. The bath concentration was approximately 150 μM. Paired recordings compared the same connections before and after treatment.",
+        "Within about 4 min, picrotoxin blocked inhibition from 301 to 511 and also the delayed excitation from 301 to 501. Neuron 501 became strongly depolarized and could fire continuously. Rhythmic activity sometimes persisted at 16–18 Hz instead of the usual 10–12 Hz, with altered bursts and disrupted phase relationships.",
+        "Blocking an inhibitory influence can remove a depolarizing response that depends on disinhibition. The result supports that mechanism but does not identify a particular inhibitory transmitter or receptor subunit. Persistent, distorted rhythmicity also argues against assigning all oscillation to this one interaction."
+      ],
+      "transcript": [
+        "Robertson and Pearson applied picrotoxin, an inhibitor of certain ligand-gated inhibitory channel responses, to test the proposed disinhibitory pathway. The bath concentration was approximately 150 μM. Paired recordings compared the same connections before and after treatment.",
+        "Within about 4 min, picrotoxin blocked inhibition from 301 to 511 and also the delayed excitation from 301 to 501. Neuron 501 became strongly depolarized and could fire continuously. Rhythmic activity sometimes persisted at 16–18 Hz instead of the usual 10–12 Hz, with altered bursts and disrupted phase relationships.",
+        "Blocking an inhibitory influence can remove a depolarizing response that depends on disinhibition. The result supports that mechanism but does not identify a particular inhibitory transmitter or receptor subunit. Persistent, distorted rhythmicity also argues against assigning all oscillation to this one interaction.",
+        "The drug’s effects on multiple pathways limit molecular specificity. Failure to recover the connection during limited washout also restricts interpretation. The observed physiological block should not be converted into a definitive identification of a GABA receptor subtype."
+      ],
+      "cite": "Robertson & Pearson (1985)",
+      "refs": [
+        "R. M. Robertson; K. G. Pearson (1985). Neural circuits in the flight system of the locust. Journal of Neurophysiology 53(1):110–128. https://doi.org/10.1152/jn.1985.53.1.110"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/R85_9.png",
+          "caption": "Robertson & Pearson (1985), Fig. 9. 301-to-501 responses before and after picrotoxin.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.1.110"
+        },
+        {
+          "path": "figures/R85_8.png",
+          "caption": "Robertson & Pearson (1985), Fig. 8. Picrotoxin blocks the recorded 301-to-511 inhibitory potential.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.1.110"
+        }
+      ]
+    },
+    {
+      "title": "Interneuron chains carry CPG timing to depressor output",
+      "layout": "figures-right",
+      "body": [
+        "A **premotor interneuron** influences motor neurons, placing it between network timing and muscle activation. Robertson and Pearson found delayed excitation from 301 to interneuron 503, followed by excitation from 503 to 201. The 201 cells provide excitatory input to depressor motor neurons.",
+        "Paired intracellular recordings linked 301 spikes to delayed 503 responses and 503 spikes to shorter-latency 201 responses. The two stages preserve a separation between elevator-associated activity in 301 and later depressor-associated drive. Their recordings include millivolt voltage and millisecond time calibrations.",
+        "The chain supplies a physiological route by which central activity can establish phase relationships in motor output. It is part of a broader network, with additional excitation and inhibition. The recorded connections do not establish that the chain is the only route to every depressor motor neuron."
+      ],
+      "transcript": [
+        "A premotor interneuron influences motor neurons, placing it between network timing and muscle activation. Robertson and Pearson found delayed excitation from 301 to interneuron 503, followed by excitation from 503 to 201. The 201 cells provide excitatory input to depressor motor neurons.",
+        "Paired intracellular recordings linked 301 spikes to delayed 503 responses and 503 spikes to shorter-latency 201 responses. The two stages preserve a separation between elevator-associated activity in 301 and later depressor-associated drive. Their recordings include millivolt voltage and millisecond time calibrations.",
+        "The chain supplies a physiological route by which central activity can establish phase relationships in motor output. It is part of a broader network, with additional excitation and inhibition. The recorded connections do not establish that the chain is the only route to every depressor motor neuron.",
+        "The published circuit interpretation links delayed activation to the relatively stable elevator-to-depressor interval. Premotor cells can also participate in resetting the rhythm, so pattern generation and motor-output functions are not always exclusive cell categories."
+      ],
+      "cite": "Robertson & Pearson (1985); Wilson (1961)",
+      "refs": [
+        "R. M. Robertson; K. G. Pearson (1985). Neural circuits in the flight system of the locust. Journal of Neurophysiology 53(1):110–128. https://doi.org/10.1152/jn.1985.53.1.110",
+        "D. M. Wilson (1961). The central nervous control of flight in a locust. Journal of Experimental Biology 38(2):471–490. https://doi.org/10.1242/jeb.38.2.471"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/R85_13.png",
+          "caption": "Robertson & Pearson (1985), Fig. 13. Recorded interactions among 301, 503 and 201.",
+          "source_url": "https://doi.org/10.1152/jn.1985.53.1.110"
+        },
+        {
+          "path": "figures/W61_1.png",
+          "caption": "Wilson (1961), Fig. 1. Published dissection identifies ganglia, nerves and muscles.",
+          "source_url": "https://doi.org/10.1242/jeb.38.2.471"
+        }
+      ]
+    },
+    {
+      "title": "Muscarinic stimulation recruits a flight-like motor score",
+      "layout": "figures-right",
+      "body": [
+        "**Acetylcholine** is a neurotransmitter acting through nicotinic and muscarinic receptors. Muscarinic receptors are G-protein-coupled receptors that alter cellular signaling and excitability. An **agonist** activates a receptor; pilocarpine is a muscarinic agonist used to test flight activation.",
+        "Buhl and colleagues applied 5 mM pilocarpine to deafferented _Schistocerca gregaria_ while recording hindwing elevators and depressors and bilateral wing-related muscles. Pilocarpine induced alternating activity after several seconds, with pauses interrupting the flight episodes. Wind-induced activity served as the reference pattern.",
+        "The agonist establishes that muscarinic stimulation can recruit the flight circuitry without phasic wing feedback. Bath sufficiency does not identify the endogenous releasing neuron, local transmitter concentration, or receptor subtype. The retained muscle arrangement and phase relationships distinguish a flight score from general hyperactivity."
+      ],
+      "transcript": [
+        "Acetylcholine is a neurotransmitter acting through nicotinic and muscarinic receptors. Muscarinic receptors are G-protein-coupled receptors that alter cellular signaling and excitability. An agonist activates a receptor; pilocarpine is a muscarinic agonist used to test flight activation.",
+        "Buhl and colleagues applied 5 mM pilocarpine to deafferented Schistocerca gregaria while recording hindwing elevators and depressors and bilateral wing-related muscles. Pilocarpine induced alternating activity after several seconds, with pauses interrupting the flight episodes. Wind-induced activity served as the reference pattern.",
+        "The agonist establishes that muscarinic stimulation can recruit the flight circuitry without phasic wing feedback. Bath sufficiency does not identify the endogenous releasing neuron, local transmitter concentration, or receptor subtype. The retained muscle arrangement and phase relationships distinguish a flight score from general hyperactivity.",
+        "The thoracic sensory nerves were severed while motor innervation to the recorded muscles was retained. The reported bath dose was millimolar; it should not be interpreted as a measured synaptic acetylcholine concentration."
+      ],
+      "cite": "Buhl et al. (2008)",
+      "refs": [
+        "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/B08_1AB.png",
+          "caption": "Buhl et al. (2008), Fig. 1(A–F). Wind- and pilocarpine-induced flight muscle activity.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        },
+        {
+          "path": "figures/B08_2A.png",
+          "caption": "Buhl et al. (2008), Fig. 2(A). Frequencies of wind- and drug-induced flight patterns.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Nicotinic excitation alone does not recruit stable flight",
+      "layout": "figures-right",
+      "body": [
+        "**Nicotinic receptors** are ligand-gated ion channels activated by acetylcholine and nicotine. Unlike muscarinic receptors, they mediate direct channel responses. Buhl and colleagues compared nicotine with **carbachol**, an acetylcholine analogue that activates both receptor classes.",
+        "At 1 mM, nicotine produced a brief burst of uncoordinated motor activity rather than a stable flight pattern. At 5 mM, carbachol produced sustained flight-like alternation near 18 Hz. This was faster than the approximately 11.5 Hz rhythm induced by pilocarpine in the same study.",
+        "Direct excitation of motor activity is therefore insufficient evidence for CPG recruitment. Combined muscarinic and nicotinic actions may support faster output, but the experiment did not isolate every cellular contribution. The nicotinic antagonist tests were not selectively reversible at doses that abolished activity."
+      ],
+      "transcript": [
+        "Nicotinic receptors are ligand-gated ion channels activated by acetylcholine and nicotine. Unlike muscarinic receptors, they mediate direct channel responses. Buhl and colleagues compared nicotine with carbachol, an acetylcholine analogue that activates both receptor classes.",
+        "At 1 mM, nicotine produced a brief burst of uncoordinated motor activity rather than a stable flight pattern. At 5 mM, carbachol produced sustained flight-like alternation near 18 Hz. This was faster than the approximately 11.5 Hz rhythm induced by pilocarpine in the same study.",
+        "Direct excitation of motor activity is therefore insufficient evidence for CPG recruitment. Combined muscarinic and nicotinic actions may support faster output, but the experiment did not isolate every cellular contribution. The nicotinic antagonist tests were not selectively reversible at doses that abolished activity.",
+        "A ligand is a molecule that binds a receptor. The study supports muscarinic activation and a possible additional nicotinic contribution to sustained high-frequency output. It did not measure channel currents in identified CPG cells."
+      ],
+      "cite": "Buhl et al. (2008)",
+      "refs": [
+        "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/B08_1EF.png",
+          "caption": "Buhl et al. (2008), Fig. 1(A–F). Carbachol and nicotine produce different motor responses.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        },
+        {
+          "path": "figures/B08_2A.png",
+          "caption": "Buhl et al. (2008), Fig. 2(A). Different activation treatments produce different rhythm frequencies.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Muscarinic antagonists reversibly block wind initiation",
+      "layout": "figures-right",
+      "body": [
+        "An **antagonist** reduces a receptor’s response to its activating ligand. Buhl and colleagues perfused the thoracic nervous system with 10 mM atropine or scopolamine, both muscarinic antagonists. Wind stimulation and pilocarpine were tested during the treatment.",
+        "Wind normally evoked alternating elevator and depressor activity. During atropine perfusion, even strong wind failed to release a flight episode; saline wash restored the response after approximately 20 min. Atropine and scopolamine also blocked the flight-inducing action of pilocarpine.",
+        "Reversibility reduces an explanation based solely on irreversible tissue damage. Blockade of natural stimulation and an agonist supports a necessary muscarinic step in the tested pathway. High bath doses and the absence of cell-specific receptor manipulation limit assignment of the affected receptor to a particular interneuron."
+      ],
+      "transcript": [
+        "An antagonist reduces a receptor’s response to its activating ligand. Buhl and colleagues perfused the thoracic nervous system with 10 mM atropine or scopolamine, both muscarinic antagonists. Wind stimulation and pilocarpine were tested during the treatment.",
+        "Wind normally evoked alternating elevator and depressor activity. During atropine perfusion, even strong wind failed to release a flight episode; saline wash restored the response after approximately 20 min. Atropine and scopolamine also blocked the flight-inducing action of pilocarpine.",
+        "Reversibility reduces an explanation based solely on irreversible tissue damage. Blockade of natural stimulation and an agonist supports a necessary muscarinic step in the tested pathway. High bath doses and the absence of cell-specific receptor manipulation limit assignment of the affected receptor to a particular interneuron.",
+        "The head-wind pathway remained connected, whereas phasic wing sensory inputs were removed. The experiment therefore tests a central pharmacological requirement for sensory-evoked activation, rather than requiring normal wing motion to assess the drug."
+      ],
+      "cite": "Buhl et al. (2008)",
+      "refs": [
+        "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/B08_3.png",
+          "caption": "Buhl et al. (2008), Fig. 3. Wind and pilocarpine responses during muscarinic blockade.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        },
+        {
+          "path": "figures/B08_2.png",
+          "caption": "Buhl et al. (2008), Fig. 2. Motor-pattern measurements for the different activation conditions.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        }
+      ]
+    },
+    {
+      "title": "TCG-driven flight also requires muscarinic signaling",
+      "layout": "figure-right",
+      "body": [
+        "The **tritocerebral commissure giant interneuron**, or TCG, is a descending wind-responsive neuron with an axon approximately 20 μm in diameter. A commissure connects structures across the nervous system’s midline. Buhl and colleagues stimulated its accessible axon while monitoring flight muscle activity.",
+        "A train of 20 pulses at 200 Hz could evoke several seconds of fictive flight. The shortest onset delay was approximately 23 ms. Thoracic atropine blocked this response, and a saline wash restored it after approximately 30 min.",
+        "The short latency and reversible block support a muscarinic step close to the flight-generating circuit. They do not prove that TCG itself releases acetylcholine: its follower neuron could supply the cholinergic action. The experiment established a receptor-dependent route from an identified activating neuron to motor output."
+      ],
+      "transcript": [
+        "The tritocerebral commissure giant interneuron, or TCG, is a descending wind-responsive neuron with an axon approximately 20 μm in diameter. A commissure connects structures across the nervous system’s midline. Buhl and colleagues stimulated its accessible axon while monitoring flight muscle activity.",
+        "A train of 20 pulses at 200 Hz could evoke several seconds of fictive flight. The shortest onset delay was approximately 23 ms. Thoracic atropine blocked this response, and a saline wash restored it after approximately 30 min.",
+        "The short latency and reversible block support a muscarinic step close to the flight-generating circuit. They do not prove that TCG itself releases acetylcholine: its follower neuron could supply the cholinergic action. The experiment established a receptor-dependent route from an identified activating neuron to motor output.",
+        "Stimulation was set at the threshold for the larger TCG axon to reduce recruitment of the smaller tritocerebral dwarf neuron. The first muscle burst involved elevators, followed by sustained elevator-depressor alternation."
+      ],
+      "cite": "Buhl et al. (2008)",
+      "refs": [
+        "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384"
+      ],
+      "figure": {
+        "path": "figures/B08_4.png",
+        "caption": "Buhl et al. (2008), Fig. 4. TCG stimulation, atropine blockade and wash recovery.",
+        "source_url": "https://doi.org/10.1242/jeb.017384"
+      }
+    },
+    {
+      "title": "Amine-induced flight depends on muscarinic signaling",
+      "layout": "figures-right",
+      "body": [
+        "**Biogenic amines** are signaling molecules that can modulate neural activity; octopamine, dopamine and tyramine are examples. Buhl and colleagues applied them to deafferented preparations and compared their motor patterns with wind- and cholinergic-induced activity.",
+        "Octopamine at 500 mM and tyramine at 10 mM induced flight-like bursts under these bath conditions. Dopamine and histamine also released episodes, whereas serotonin and the precursor amino acid tyrosine did not. Atropine blocked the flight-inducing action of octopamine.",
+        "Drug-induced sufficiency does not establish an amine as the indispensable natural trigger. The antagonist result places muscarinic action downstream of, or within, the amine-recruited activation route. Bath drug potency cannot be equated with natural release probability or concentration at receptors behind the insect blood–brain barrier."
+      ],
+      "transcript": [
+        "Biogenic amines are signaling molecules that can modulate neural activity; octopamine, dopamine and tyramine are examples. Buhl and colleagues applied them to deafferented preparations and compared their motor patterns with wind- and cholinergic-induced activity.",
+        "Octopamine at 500 mM and tyramine at 10 mM induced flight-like bursts under these bath conditions. Dopamine and histamine also released episodes, whereas serotonin and the precursor amino acid tyrosine did not. Atropine blocked the flight-inducing action of octopamine.",
+        "Drug-induced sufficiency does not establish an amine as the indispensable natural trigger. The antagonist result places muscarinic action downstream of, or within, the amine-recruited activation route. Bath drug potency cannot be equated with natural release probability or concentration at receptors behind the insect blood–brain barrier.",
+        "The large concentrations are those printed in the original 2008 article and are preserved as experimental bath concentrations. The doses in the later 2013 preparation were different; neither study measured the concentration reaching individual central receptors."
+      ],
+      "cite": "Buhl et al. (2008)",
+      "refs": [
+        "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/B08_5AC.png",
+          "caption": "Buhl et al. (2008), Fig. 5(A–C). Octopamine and tyramine induce flight-related muscle bursts.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        },
+        {
+          "path": "figures/B08_2.png",
+          "caption": "Buhl et al. (2008), Fig. 2. Amine-induced patterns differ from cholinergic patterns in phase.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Flight initiation persists after verified amine depletion",
+      "layout": "figure-right",
+      "body": [
+        "**Reserpine** reduces stored biogenic amines and provides a test distinct from receptor-antagonist application. Buhl and colleagues injected a total of 500 μg per locust over two treatments. They examined thoracic tissue using octopamine immunocytochemistry, an antibody-based method for detecting octopamine-like labeling.",
+        "Control tissue labeled dorsal unpaired median neurons and fine processes in the flight neuropil. Reserpine-treated tissue lost this labeling. Nevertheless, wind and 5 mM pilocarpine still evoked flight-like activity with the main timing relationships retained.",
+        "The verified loss of labeling strengthens the conclusion that normal amine stores are not required for initiation in this preparation. It does not prove that amines never affect intact flight, or exclude every residual molecule. Muscarinic activation remains distinguishable from aminergic facilitation and motor-pattern tuning."
+      ],
+      "transcript": [
+        "Reserpine reduces stored biogenic amines and provides a test distinct from receptor-antagonist application. Buhl and colleagues injected a total of 500 μg per locust over two treatments. They examined thoracic tissue using octopamine immunocytochemistry, an antibody-based method for detecting octopamine-like labeling.",
+        "Control tissue labeled dorsal unpaired median neurons and fine processes in the flight neuropil. Reserpine-treated tissue lost this labeling. Nevertheless, wind and 5 mM pilocarpine still evoked flight-like activity with the main timing relationships retained.",
+        "The verified loss of labeling strengthens the conclusion that normal amine stores are not required for initiation in this preparation. It does not prove that amines never affect intact flight, or exclude every residual molecule. Muscarinic activation remains distinguishable from aminergic facilitation and motor-pattern tuning.",
+        "Neuropil is tissue rich in interacting axons, dendrites and synapses. The treated animals were less active overall, yet the reduced preparation retained a releasable flight program. Reduced general activity and inability to activate a particular program are different outcomes."
+      ],
+      "cite": "Buhl et al. (2008)",
+      "refs": [
+        "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384"
+      ],
+      "figure": {
+        "path": "figures/B08_6.png",
+        "caption": "Buhl et al. (2008), Fig. 6. Octopamine staining and flight output after reserpine.",
+        "source_url": "https://doi.org/10.1242/jeb.017384"
+      }
+    },
+    {
+      "title": "Activation chemistry changes frequency and phase together",
+      "layout": "figure-right",
+      "body": [
+        "Buhl and colleagues quantified the motor score with simultaneous recordings from a hindwing elevator and several depressor muscles. **Cycle frequency** is the number of complete repetitions per second; **phase** expresses where one event falls within that repetition.",
+        "Wind-induced fictive flight averaged approximately 8.6 Hz, pilocarpine-induced activity 11.5 Hz, and carbachol-induced activity 18.1 Hz. The elevator occupied phase approximately 0.58 with wind and 0.52 with pilocarpine, but approximately 0.76 during octopamine-induced activity.",
+        "Similar alternating patterns therefore need not have identical temporal structure. The chemistry used to release a motor program can also tune the program. These values describe deafferented preparations and should not be treated as interchangeable with the frequency, forces or wing angles of intact flight."
+      ],
+      "transcript": [
+        "Buhl and colleagues quantified the motor score with simultaneous recordings from a hindwing elevator and several depressor muscles. Cycle frequency is the number of complete repetitions per second; phase expresses where one event falls within that repetition.",
+        "Wind-induced fictive flight averaged approximately 8.6 Hz, pilocarpine-induced activity 11.5 Hz, and carbachol-induced activity 18.1 Hz. The elevator occupied phase approximately 0.58 with wind and 0.52 with pilocarpine, but approximately 0.76 during octopamine-induced activity.",
+        "Similar alternating patterns therefore need not have identical temporal structure. The chemistry used to release a motor program can also tune the program. These values describe deafferented preparations and should not be treated as interchangeable with the frequency, forces or wing angles of intact flight.",
+        "Left and right homologous muscles remained nearly synchronous across treatments, and corresponding forewing activity generally lagged hindwing activity. The comparison separates conserved organizational relationships from parameters that change with activation state."
+      ],
+      "cite": "Buhl et al. (2008)",
+      "refs": [
+        "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384"
+      ],
+      "figure": {
+        "path": "figures/B08_2.png",
+        "caption": "Buhl et al. (2008), Fig. 2. Measured rhythm frequency, delays and phase across treatments.",
+        "source_url": "https://doi.org/10.1242/jeb.017384"
+      }
+    },
+    {
+      "title": "Tegula input resets the transition to wing elevation",
+      "layout": "figures-right",
+      "body": [
+        "The **tegula** is a proprioceptive sense organ at the wing base that signals wing downstroke. **Proprioception** supplies information about the animal’s own movement. Ausborn and colleagues electrically stimulated hindwing tegula afferents while monitoring wing position and elevator motor-neuron voltage.",
+        "Stimulus trains used 0.1 ms pulses at 220 Hz to approximate natural receptor bursts. Stimulating at different phases synchronized the subsequent elevator response and wing movement. Excitatory postsynaptic potential amplitudes varied within a flight episode even when stimulation occurred at similar phases.",
+        "The tegula can therefore reset a centrally generated rhythm instead of merely reporting its movement. The response depends on circuit state and effective sensory input. Electrical activation substitutes for natural hair movement, so it does not reproduce every mechanical detail of the intact wing-base receptor."
+      ],
+      "transcript": [
+        "The tegula is a proprioceptive sense organ at the wing base that signals wing downstroke. Proprioception supplies information about the animal’s own movement. Ausborn and colleagues electrically stimulated hindwing tegula afferents while monitoring wing position and elevator motor-neuron voltage.",
+        "Stimulus trains used 0.1 ms pulses at 220 Hz to approximate natural receptor bursts. Stimulating at different phases synchronized the subsequent elevator response and wing movement. Excitatory postsynaptic potential amplitudes varied within a flight episode even when stimulation occurred at similar phases.",
+        "The tegula can therefore reset a centrally generated rhythm instead of merely reporting its movement. The response depends on circuit state and effective sensory input. Electrical activation substitutes for natural hair movement, so it does not reproduce every mechanical detail of the intact wing-base receptor.",
+        "Open-loop stimulation is imposed without adapting each stimulus to the immediately preceding motor cycle. The later closed-loop experiment makes sensory stimulation depend on motor output, restoring an important reciprocal relationship."
+      ],
+      "cite": "Ausborn et al. (2007)",
+      "refs": [
+        "J. Ausborn; W. Stein; H. Wolf (2007). Frequency control of motor patterning by negative sensory feedback. Journal of Neuroscience 27(35):9319–9328. https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/F07_2AB.png",
+          "caption": "Ausborn et al. (2007), Fig. 2(A). Wing motion and elevator recordings during tegula stimulation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+        },
+        {
+          "path": "figures/F07_1AB.png",
+          "caption": "Ausborn et al. (2007), Fig. 1(A). Published ganglion and tegula-nerve recording preparation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+        }
+      ]
+    },
+    {
+      "title": "Recruiting more tegula afferents increases central input",
+      "layout": "figures-right",
+      "body": [
+        "Ausborn and colleagues stimulated the cut tegula nerve while recording its **compound action potential**, the summed extracellular response of several axons. The lowest stimulus voltage producing a detectable response defined threshold T. Increasing voltage recruited additional afferents.",
+        "A second nerve-response component appeared near 1.3 times threshold in the published example. Higher stimulus intensities also produced larger postsynaptic responses in flight interneurons, including 511. The recordings distinguish increasing peripheral recruitment from an assumed change in one neuron’s spike size.",
+        "Stimulus strength is therefore an experimentally controlled way to change the sensory drive reaching the network. It is not a direct measurement of natural synaptic gain at one identified receptor connection. The resulting network response must also be assessed with feedback timing allowed to depend on motor output."
+      ],
+      "transcript": [
+        "Ausborn and colleagues stimulated the cut tegula nerve while recording its compound action potential, the summed extracellular response of several axons. The lowest stimulus voltage producing a detectable response defined threshold T. Increasing voltage recruited additional afferents.",
+        "A second nerve-response component appeared near 1.3 times threshold in the published example. Higher stimulus intensities also produced larger postsynaptic responses in flight interneurons, including 511. The recordings distinguish increasing peripheral recruitment from an assumed change in one neuron’s spike size.",
+        "Stimulus strength is therefore an experimentally controlled way to change the sensory drive reaching the network. It is not a direct measurement of natural synaptic gain at one identified receptor connection. The resulting network response must also be assessed with feedback timing allowed to depend on motor output.",
+        "Individual action potentials are not normally enlarged in proportion to stimulus voltage. The compound signal grows because more axons contribute, and its timing can change when slower-conducting fibers are recruited."
+      ],
+      "cite": "Ausborn et al. (2007)",
+      "refs": [
+        "J. Ausborn; W. Stein; H. Wolf (2007). Frequency control of motor patterning by negative sensory feedback. Journal of Neuroscience 27(35):9319–9328. https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/F07_5.png",
+          "caption": "Ausborn et al. (2007), Fig. 5. Recorded compound nerve responses and interneuron potentials.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+        },
+        {
+          "path": "figures/F07_1AB.png",
+          "caption": "Ausborn et al. (2007), Fig. 1(A). Published ganglion and tegula-nerve recording preparation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+        }
+      ]
+    },
+    {
+      "title": "Closed-loop feedback strength can slow the flight rhythm",
+      "layout": "figures-right",
+      "body": [
+        "In **closed-loop feedback**, motor output affects the next sensory input, which then affects later motor output. Ausborn and colleagues used depressor muscle bursts to calculate the onset and duration of each subsequent tegula stimulus train in real time.",
+        "Near threshold, feedback sped the rhythm from approximately 10.3 to 13.1 Hz in the published example. Raising stimulation from 0.75 V to 1.5 V, twice threshold, greatly reduced that acceleration. In some preparations strong feedback slowed the rhythm below its unstimulated frequency.",
+        "Stronger sensory excitation does not therefore guarantee a faster closed-loop rhythm. Timing, stimulus duration and network inhibition interact across cycles. The experimental recordings confirm a feedback-dependent relationship predicted by a model, but they do not establish every ionic current assumed by that model."
+      ],
+      "transcript": [
+        "In closed-loop feedback, motor output affects the next sensory input, which then affects later motor output. Ausborn and colleagues used depressor muscle bursts to calculate the onset and duration of each subsequent tegula stimulus train in real time.",
+        "Near threshold, feedback sped the rhythm from approximately 10.3 to 13.1 Hz in the published example. Raising stimulation from 0.75 V to 1.5 V, twice threshold, greatly reduced that acceleration. In some preparations strong feedback slowed the rhythm below its unstimulated frequency.",
+        "Stronger sensory excitation does not therefore guarantee a faster closed-loop rhythm. Timing, stimulus duration and network inhibition interact across cycles. The experimental recordings confirm a feedback-dependent relationship predicted by a model, but they do not establish every ionic current assumed by that model.",
+        "The illustrated recordings are from the biological locust preparation, not replotted data or simulated voltage traces. Increasing input can prolong the network state that delays the next depressor burst, changing the overall frequency despite excitation of elevator-related pathways."
+      ],
+      "cite": "Ausborn et al. (2007)",
+      "refs": [
+        "J. Ausborn; W. Stein; H. Wolf (2007). Frequency control of motor patterning by negative sensory feedback. Journal of Neuroscience 27(35):9319–9328. https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/F07_6ABCD.png",
+          "caption": "Ausborn et al. (2007), Fig. 6(A–F). Biological flight output during dynamically timed tegula stimulation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+        },
+        {
+          "path": "figures/F07_1AB.png",
+          "caption": "Ausborn et al. (2007), Fig. 1(A). Published ganglion and tegula-nerve recording preparation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Walking and flight circuits can operate simultaneously",
+      "layout": "figures-right",
+      "body": [
+        "Rillich and colleagues recorded leg motor nerves and wing muscle activity from the same deafferented locust. **Co-activation** means that two motor programs are expressed together. The preparation retained motor output but removed sensory and descending inputs that ordinarily help select locomotion.",
+        "At 1 mM pilocarpine, slow walking-like bursts in leg pathways could occur at the same time as rapid flight-like wing alternation. Walking activity often began within approximately 1 min of drug application and flight activity followed after approximately 1–3 min. Individual leg spikes could become coupled to wingbeats within the slow step rhythm.",
+        "The two CPGs can therefore remain active concurrently in a reduced nervous system. This does not mean that intact locusts normally walk and fly simultaneously. Behavioral exclusivity can depend on additional selection mechanisms rather than obligatory inhibition between the core rhythm generators."
+      ],
+      "transcript": [
+        "Rillich and colleagues recorded leg motor nerves and wing muscle activity from the same deafferented locust. Co-activation means that two motor programs are expressed together. The preparation retained motor output but removed sensory and descending inputs that ordinarily help select locomotion.",
+        "At 1 mM pilocarpine, slow walking-like bursts in leg pathways could occur at the same time as rapid flight-like wing alternation. Walking activity often began within approximately 1 min of drug application and flight activity followed after approximately 1–3 min. Individual leg spikes could become coupled to wingbeats within the slow step rhythm.",
+        "The two CPGs can therefore remain active concurrently in a reduced nervous system. This does not mean that intact locusts normally walk and fly simultaneously. Behavioral exclusivity can depend on additional selection mechanisms rather than obligatory inhibition between the core rhythm generators.",
+        "The slow leg pattern and rapid flight pattern occupy different time scales. Temporal coupling of individual spikes can occur without eliminating the longer swing-stance organization of the leg output."
+      ],
+      "cite": "Rillich et al. (2013)",
+      "refs": [
+        "J. Rillich; P. A. Stevenson; H.-J. Pflueger (2013). Flight and walking in locusts–cholinergic co-activation, temporal coupling and its modulation by biogenic amines. PLOS ONE 8(5):e62899. https://doi.org/10.1371/journal.pone.0062899"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/R13_3A.png",
+          "caption": "Rillich et al. (2013), Fig. 3(A). Simultaneous leg and wing output during pilocarpine exposure.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0062899"
+        },
+        {
+          "path": "figures/R13_4.png",
+          "caption": "Rillich et al. (2013), Fig. 4. Drug concentration changes the expressed leg and wing motor patterns.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0062899"
+        }
+      ]
+    },
+    {
+      "title": "Octopamine and tyramine recruit different motor states",
+      "layout": "figures-right",
+      "body": [
+        "Rillich and colleagues compared **octopamine** with **tyramine**, its biosynthetic precursor and an independent signaling molecule. Both could activate flight-related output, but their effects on leg motor patterns differed. The same preparation and recorded pathways were used for the comparison.",
+        "Octopamine at 100 mM strongly recruited flight-like wing activity and usually coupled leg motor units to the flight rhythm. Tyramine at 10 mM could recruit walking-like activity; a higher 100 mM concentration could recruit flight as well. Leg-wing coupling was weaker during tyramine-induced activity.",
+        "The effect of an amine therefore includes which motor state becomes available and how outputs are coordinated. Structural relatedness does not imply interchangeable physiological action. The experiment establishes responses to applied drugs rather than the timing of natural octopamine or tyramine release during flight choice."
+      ],
+      "transcript": [
+        "Rillich and colleagues compared octopamine with tyramine, its biosynthetic precursor and an independent signaling molecule. Both could activate flight-related output, but their effects on leg motor patterns differed. The same preparation and recorded pathways were used for the comparison.",
+        "Octopamine at 100 mM strongly recruited flight-like wing activity and usually coupled leg motor units to the flight rhythm. Tyramine at 10 mM could recruit walking-like activity; a higher 100 mM concentration could recruit flight as well. Leg-wing coupling was weaker during tyramine-induced activity.",
+        "The effect of an amine therefore includes which motor state becomes available and how outputs are coordinated. Structural relatedness does not imply interchangeable physiological action. The experiment establishes responses to applied drugs rather than the timing of natural octopamine or tyramine release during flight choice.",
+        "Trochanteral levator and depressor units report opposing leg motor phases. Coupling means their spike timing becomes related to wing depressor activity; it does not imply that every recorded leg unit has acquired the same function."
+      ],
+      "cite": "Rillich et al. (2013)",
+      "refs": [
+        "J. Rillich; P. A. Stevenson; H.-J. Pflueger (2013). Flight and walking in locusts–cholinergic co-activation, temporal coupling and its modulation by biogenic amines. PLOS ONE 8(5):e62899. https://doi.org/10.1371/journal.pone.0062899"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/R13_3BC.png",
+          "caption": "Rillich et al. (2013), Fig. 3(B,C). Leg and wing activity under octopamine versus tyramine.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0062899"
+        },
+        {
+          "path": "figures/R13_4.png",
+          "caption": "Rillich et al. (2013), Fig. 4. Concentration-dependent recruitment differs between the two amines.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0062899"
+        }
+      ]
+    },
+    {
+      "title": "Octopamine tunes leg-wing coupling during wind flight",
+      "layout": "figures-right",
+      "body": [
+        "Rillich and colleagues retained head input to release fictive flight with wind, then tested how amines changed motor coordination. **Epinastine** is an octopamine receptor antagonist. Leg and wing recordings separated effects on activation from effects on timing during ongoing episodes.",
+        "Bath-applied octopamine at 5 mM increased the effectiveness of wind and shortened the cycle. It also tightened the timing of leg motor units relative to wing depressor output, whereas 1 mM epinastine loosened that relationship. Tyramine and its antagonist had no comparable effect on coupling under the tested conditions.",
+        "These observations support octopaminergic modulation of recruitment and coordination. They do not contradict the persistence of initiation after amine depletion: facilitation and obligatory activation are different causal roles. The experiment did not directly localize the receptor responsible for coupling to a single CPG neuron."
+      ],
+      "transcript": [
+        "Rillich and colleagues retained head input to release fictive flight with wind, then tested how amines changed motor coordination. Epinastine is an octopamine receptor antagonist. Leg and wing recordings separated effects on activation from effects on timing during ongoing episodes.",
+        "Bath-applied octopamine at 5 mM increased the effectiveness of wind and shortened the cycle. It also tightened the timing of leg motor units relative to wing depressor output, whereas 1 mM epinastine loosened that relationship. Tyramine and its antagonist had no comparable effect on coupling under the tested conditions.",
+        "These observations support octopaminergic modulation of recruitment and coordination. They do not contradict the persistence of initiation after amine depletion: facilitation and obligatory activation are different causal roles. The experiment did not directly localize the receptor responsible for coupling to a single CPG neuron.",
+        "The antagonist affected the temporal dispersion of leg-wing relationships more than the elevator-depressor relationship within the flight score. The result concerns coordination among outputs rather than identifying the source of the core flight rhythm."
+      ],
+      "cite": "Rillich et al. (2013)",
+      "refs": [
+        "J. Rillich; P. A. Stevenson; H.-J. Pflueger (2013). Flight and walking in locusts–cholinergic co-activation, temporal coupling and its modulation by biogenic amines. PLOS ONE 8(5):e62899. https://doi.org/10.1371/journal.pone.0062899"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/R13_11.png",
+          "caption": "Rillich et al. (2013), Fig. 11. Changes in motor coupling after amine and antagonist treatments.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0062899"
+        },
+        {
+          "path": "figures/R13_1A.png",
+          "caption": "Rillich et al. (2013), Fig. 1(A–C). Published leg-nerve and wing-muscle recording anatomy.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0062899"
+        }
+      ]
+    },
+    {
+      "title": "DUM neurons regulate metabolic readiness of flight muscle",
+      "layout": "figures-right",
+      "body": [
+        "**Dorsal unpaired median neurons**, or DUM neurons, are centrally located modulatory neurons with peripheral projections. Mentel and colleagues stimulated DUM axons supplying flight muscle M119 in _Locusta migratoria_. Their experiment separated modulatory input from the motor-neuron input that produces contraction.",
+        "After unilateral denervation, 1 Hz DUM stimulation for 20 min increased muscle **fructose 2,6-bisphosphate**, a regulator that promotes glycolysis. Its amount rose approximately sevenfold relative to the contralateral control muscle. Glycolysis is the pathway that supplies energy by breaking down carbohydrate.",
+        "Central modulatory neurons can therefore prepare the muscle’s metabolic state without themselves generating wingbeat contractions. The within-animal comparison supports a peripheral effect of DUM activity. It does not establish that these neurons initiate the flight CPG or remain equally active throughout sustained flight."
+      ],
+      "transcript": [
+        "Dorsal unpaired median neurons, or DUM neurons, are centrally located modulatory neurons with peripheral projections. Mentel and colleagues stimulated DUM axons supplying flight muscle M119 in Locusta migratoria. Their experiment separated modulatory input from the motor-neuron input that produces contraction.",
+        "After unilateral denervation, 1 Hz DUM stimulation for 20 min increased muscle fructose 2,6-bisphosphate, a regulator that promotes glycolysis. Its amount rose approximately sevenfold relative to the contralateral control muscle. Glycolysis is the pathway that supplies energy by breaking down carbohydrate.",
+        "Central modulatory neurons can therefore prepare the muscle’s metabolic state without themselves generating wingbeat contractions. The within-animal comparison supports a peripheral effect of DUM activity. It does not establish that these neurons initiate the flight CPG or remain equally active throughout sustained flight.",
+        "The published thoracic tissue staining identifies octopamine-associated DUM cells, while the muscle study tests their peripheral metabolic action. A neuron’s transmitter and projection targets do not imply that it supplies rhythmic motor commands."
+      ],
+      "cite": "Mentel et al. (2003); Buhl et al. (2008)",
+      "refs": [
+        "T. Mentel; C. Duch; H. Stypa; G. Wegener; U. Müller; H.-J. Pflüger (2003). Central modulatory neurons control fuel selection in flight muscle of migratory locust. Journal of Neuroscience 23(4):1109–1113. https://doi.org/10.1523/JNEUROSCI.23-04-01109.2003",
+        "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/M03_1.png",
+          "caption": "Mentel et al. (2003), Fig. 1. DUM stimulation and flight-muscle glycolytic activator levels.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.23-04-01109.2003"
+        },
+        {
+          "path": "figures/B08_6AB.png",
+          "caption": "Buhl et al. (2008), Fig. 6(A,B). Octopamine-associated DUM cells in stained thoracic sections.",
+          "source_url": "https://doi.org/10.1242/jeb.017384"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "PKA is required but insufficient for the metabolic effect",
+      "layout": "figures-right",
+      "body": [
+        "**Cyclic AMP**, or cAMP, is an intracellular second messenger; **protein kinase A**, or PKA, is an enzyme activated by cAMP that modifies proteins through phosphorylation. Mentel and colleagues assayed PKA activity and the glycolytic regulator after DUM stimulation.",
+        "DUM activity increased PKA activity in flight muscle. Applying the PKA inhibitor KT5720 prevented the DUM-associated increase in fructose 2,6-bisphosphate. A cAMP donor increased PKA activity without reproducing the increase in the glycolytic regulator after a 20 min treatment.",
+        "PKA signaling is therefore necessary under these test conditions but is insufficient by itself for the metabolic response. A parallel pathway, possibly involving calcium signaling, was proposed but not established. The experiment concerns muscle metabolism, and cannot be transferred directly to muscarinic activation of thoracic CPG neurons."
+      ],
+      "transcript": [
+        "Cyclic AMP, or cAMP, is an intracellular second messenger; protein kinase A, or PKA, is an enzyme activated by cAMP that modifies proteins through phosphorylation. Mentel and colleagues assayed PKA activity and the glycolytic regulator after DUM stimulation.",
+        "DUM activity increased PKA activity in flight muscle. Applying the PKA inhibitor KT5720 prevented the DUM-associated increase in fructose 2,6-bisphosphate. A cAMP donor increased PKA activity without reproducing the increase in the glycolytic regulator after a 20 min treatment.",
+        "PKA signaling is therefore necessary under these test conditions but is insufficient by itself for the metabolic response. A parallel pathway, possibly involving calcium signaling, was proposed but not established. The experiment concerns muscle metabolism, and cannot be transferred directly to muscarinic activation of thoracic CPG neurons.",
+        "Phosphorylation is addition of a phosphate group to a protein. The inhibitor tests necessity, whereas the cAMP-donor experiment tests sufficiency. The two results support involvement of more than one signaling contribution."
+      ],
+      "cite": "Mentel et al. (2003)",
+      "refs": [
+        "T. Mentel; C. Duch; H. Stypa; G. Wegener; U. Müller; H.-J. Pflüger (2003). Central modulatory neurons control fuel selection in flight muscle of migratory locust. Journal of Neuroscience 23(4):1109–1113. https://doi.org/10.1523/JNEUROSCI.23-04-01109.2003"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/M03_3.png",
+          "caption": "Mentel et al. (2003), Fig. 3. PKA blockade and cAMP-donor effects on the glycolytic regulator.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.23-04-01109.2003"
+        },
+        {
+          "path": "figures/M03_1.png",
+          "caption": "Mentel et al. (2003), Fig. 1. DUM projections and the controlled flight-muscle preparation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.23-04-01109.2003"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    },
+    {
+      "title": "Central generation works with sensory control",
+      "layout": "figures-right",
+      "body": [
+        "Wilson’s reduced preparations established that wing motion is unnecessary for a basic central flight rhythm. Ausborn and colleagues tested how experimentally restored tegula input reshapes that rhythm when sensory stimulation depends on the preceding motor cycle.",
+        "The central output was slower and less normally organized without the peripheral loop. Feedback near threshold could accelerate the rhythm, while stronger closed-loop input diminished that acceleration or slowed it. Wind supplies activation, and wing-base sensors supply information about the movement that activation produces.",
+        "A CPG is therefore part of a sensorimotor system rather than a guarantee of normal movement in isolation. Central drive, synaptic network interactions, receptor-dependent state and reciprocal feedback contribute different functions. The cited preparations establish those distinctions without providing a complete reconstruction of every connection required for intact flight."
+      ],
+      "transcript": [
+        "Wilson’s reduced preparations established that wing motion is unnecessary for a basic central flight rhythm. Ausborn and colleagues tested how experimentally restored tegula input reshapes that rhythm when sensory stimulation depends on the preceding motor cycle.",
+        "The central output was slower and less normally organized without the peripheral loop. Feedback near threshold could accelerate the rhythm, while stronger closed-loop input diminished that acceleration or slowed it. Wind supplies activation, and wing-base sensors supply information about the movement that activation produces.",
+        "A CPG is therefore part of a sensorimotor system rather than a guarantee of normal movement in isolation. Central drive, synaptic network interactions, receptor-dependent state and reciprocal feedback contribute different functions. The cited preparations establish those distinctions without providing a complete reconstruction of every connection required for intact flight.",
+        "The experimental evidence supports a distributed explanation: an activating pathway makes flight circuitry available, central interactions organize repetitive output, and sensory feedback modifies its timing. Removing one contribution tests that contribution without proving the others are irrelevant."
+      ],
+      "cite": "Ausborn et al. (2007)",
+      "refs": [
+        "J. Ausborn; W. Stein; H. Wolf (2007). Frequency control of motor patterning by negative sensory feedback. Journal of Neuroscience 27(35):9319–9328. https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+      ],
+      "figure_width": 6.0,
+      "primary_figure_height": 2.35,
+      "figures": [
+        {
+          "path": "figures/F07_6ABCD.png",
+          "caption": "Ausborn et al. (2007), Fig. 6(A–F). Flight frequency changes with experimentally restored feedback.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+        },
+        {
+          "path": "figures/F07_1AB.png",
+          "caption": "Ausborn et al. (2007), Fig. 1(A). Published ganglion and tegula-nerve recording preparation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.0907-07.2007"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.75
+    }
+  ],
+  "takeaways": {
+    "cite": "Wilson (1961); Camhi (1969a–c); Pearson et al. (1985); Robertson & Pearson (1985); Buhl et al. (2008); Ausborn et al. (2007); Rillich et al. (2013)",
+    "refs": [
+      "D. M. Wilson (1961). The central nervous control of flight in a locust. Journal of Experimental Biology 38(2):471–490. https://doi.org/10.1242/jeb.38.2.471",
+      "J. M. Camhi (1969a). Locust wind receptors. I. Transducer mechanics and sensory response. Journal of Experimental Biology 50(2):335–348. https://doi.org/10.1242/jeb.50.2.335",
+      "J. M. Camhi (1969b). Locust wind receptors. II. Interneurones in the cervical connective. Journal of Experimental Biology 50(2):349–362. https://doi.org/10.1242/jeb.50.2.349",
+      "J. M. Camhi (1969c). Locust wind receptors. III. Contribution to flight initiation and lift control. Journal of Experimental Biology 50(2):363–373. https://doi.org/10.1242/jeb.50.2.363",
+      "K. G. Pearson; D. N. Reye; D. W. Parsons; G. Bicker (1985). Flight-initiating interneurons in the locust. Journal of Neurophysiology 53(4):910–925. https://doi.org/10.1152/jn.1985.53.4.910",
+      "R. M. Robertson; K. G. Pearson (1985). Neural circuits in the flight system of the locust. Journal of Neurophysiology 53(1):110–128. https://doi.org/10.1152/jn.1985.53.1.110",
+      "E. Buhl; K. Schildberger; P. A. Stevenson (2008). A muscarinic cholinergic mechanism underlies activation of the central pattern generator for locust flight. Journal of Experimental Biology 211(14):2346–2357. https://doi.org/10.1242/jeb.017384",
+      "J. Ausborn; W. Stein; H. Wolf (2007). Frequency control of motor patterning by negative sensory feedback. Journal of Neuroscience 27(35):9319–9328. https://doi.org/10.1523/JNEUROSCI.0907-07.2007",
+      "J. Rillich; P. A. Stevenson; H.-J. Pflueger (2013). Flight and walking in locusts–cholinergic co-activation, temporal coupling and its modulation by biogenic amines. PLOS ONE 8(5):e62899. https://doi.org/10.1371/journal.pone.0062899",
+      "T. Mentel; C. Duch; H. Stypa; G. Wegener; U. Müller; H.-J. Pflüger (2003). Central modulatory neurons control fuel selection in flight muscle of migratory locust. Journal of Neuroscience 23(4):1109–1113. https://doi.org/10.1523/JNEUROSCI.23-04-01109.2003"
+    ],
+    "items": [
+      {
+        "lead": "Central generation",
+        "text": "Thoracic circuits produce flight-like alternation without phasic wing feedback; intact frequency and control still depend on sensory interaction."
+      },
+      {
+        "lead": "Wind coding",
+        "text": "Head hairs encode speed and direction jointly. Interneurons distinguish maintained airflow, direction, recentring and acceleration."
+      },
+      {
+        "lead": "Activation versus rhythm",
+        "text": "Tonic 404 drive can release flight, whereas phase-dependent resetting implicates neurons such as 301 and 501 in rhythm generation."
+      },
+      {
+        "lead": "Synaptic mechanism",
+        "text": "Delayed excitation can arise through disinhibition. Pharmacology and reversal tests support a mechanism without identifying every intermediate cell or channel."
+      },
+      {
+        "lead": "Chemical state",
+        "text": "Muscarinic signaling supports flight initiation; amines facilitate recruitment, timing and coordination rather than constituting an obligatory trigger in the tested preparation."
+      },
+      {
+        "lead": "Feedback and muscle readiness",
+        "text": "Closed-loop tegula input alters frequency, and DUM activity regulates muscle metabolism. Neither role replaces the central generator."
+      }
+    ],
+    "transcript": [
+      "Central generation. Thoracic circuits produce flight-like alternation without phasic wing feedback; intact frequency and control still depend on sensory interaction.",
+      "Wind coding. Head hairs encode speed and direction jointly. Interneurons distinguish maintained airflow, direction, recentring and acceleration.",
+      "Activation versus rhythm. Tonic 404 drive can release flight, whereas phase-dependent resetting implicates neurons such as 301 and 501 in rhythm generation.",
+      "Synaptic mechanism. Delayed excitation can arise through disinhibition. Pharmacology and reversal tests support a mechanism without identifying every intermediate cell or channel.",
+      "Chemical state. Muscarinic signaling supports flight initiation; amines facilitate recruitment, timing and coordination rather than constituting an obligatory trigger in the tested preparation.",
+      "Feedback and muscle readiness. Closed-loop tegula input alters frequency, and DUM activity regulates muscle metabolism. Neither role replaces the central generator."
+    ]
+  }
+}
