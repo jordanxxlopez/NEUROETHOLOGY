@@ -69,19 +69,24 @@ WRITING (slides and notes)
 - VISIBLE CONTENT ONLY: no equations, formulas or calculations unless they appear in the
   cited article or figure; no worked examples or math of your own.
 
-FIGURES — STRICT
-- Figures must come ONLY from published academic articles: original panels cropped from
-  their PDFs with tools/crop_figure.py, preserving axes, units, scale bars and panel letters.
-- Caption every figure "Author (year), Fig. N(panel). What it shows." and supply the DOI
-  as source_url.
-- Do NOT create any figure: no schematics, diagrams, flowcharts, re-plotted or redrawn
-  graphs, charts from reported numbers, model/template curves, illustrations, icons,
-  stock photos, web photos, AI-generated images or clip art — not even labeled as such.
-- At least 40 of the 44 content slides carry original article figures, meeting the repo's
-  image minimum and the instructor's minimum of 18 article-figure slides.
-- If a needed PDF cannot be downloaded, stop and give me a numbered list of the papers
-  with DOI links so I can upload them. Never substitute a created visual. Slides without
-  an article figure are text slides (a text table of reported values is fine).
+IMAGES — ON NEARLY EVERY SLIDE
+- Never create images: no schematics, diagrams, flowcharts, re-plotted or redrawn graphs,
+  charts from reported numbers, model/template curves, illustrations, icons, AI-generated
+  images or clip art — not even labeled as such.
+- Almost every slide has a figure, not just a minimum number; ignore any "at least 15/18
+  figures" requirement. At least 40 of the 44 content slides carry an image, and at least 34
+  carry a figure cropped from a primary paper (tools/crop_figure.py) with axes, units, scale
+  bars and panel letters intact; caption "Author (year), Fig. N(panel). What it shows." and
+  the DOI as source_url.
+- The title slide shows the study animal so students see what the lecture is about: a
+  figure of the animal from a primary paper or a credited web photo.
+- When a slide discusses a specific brain region, neuron, sense organ or other structure,
+  include an anatomy image of it (an article figure first, otherwise a credited web image).
+- Credited web images (Wikimedia Commons, museum, lab or atlas pages; caption "Photo: …"
+  with credit, license and source_url) are fine where they help, including
+  neuroscience-related ones; at most 6 per deck; never generic decoration.
+- If a paper's PDF cannot be downloaded, do not substitute anything. Stop and give me a
+  numbered list of the papers you need with DOI links so I can upload the PDFs.
 
 FINISH
 - Run the builder and checker until there are 0 failures, reread every slide and transcript
