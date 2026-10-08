@@ -1,19 +1,15 @@
-# Lecture 14 — remaining required PDF uploads
+# Lecture 14 — verified sources
 
-**Insect hearing I: cricket phonotaxis and song recognition (Hoy)**  
-**Friday, September 25, 2026**
+All required PDFs are available. Seven were supplied by the instructor; Kostarakos & Hedwig (2012) and Selverston et al. (1985) were downloaded from the journal. PDFs remain in the ignored papers directory.
 
-The instructor supplied Hoy & Paul (1973), Pollack & Hoy (1979), and Hedwig & Poulet (2004). These PDFs were downloaded and their article text checked. Kostarakos & Hedwig (2012) and Selverston, Kleindienst & Huber (1985) were downloaded successfully from the journal.
+1. Hoy RR, Paul RC (1973). Genetic control of song specificity in crickets. Science 180(4081):82–83. https://doi.org/10.1126/science.180.4081.82
+2. Pollack GS, Hoy RR (1979). Temporal pattern as a cue for species-specific calling song recognition in crickets. Science 204(4391):429–432. https://doi.org/10.1126/science.204.4391.429
+3. Michelsen A, Popov AV, Lewis B (1994). Physics of directional hearing in the cricket Gryllus bimaculatus. Journal of Comparative Physiology A 175:153–164. https://doi.org/10.1007/BF00215111
+4. Wohlers DW, Huber F (1982). Processing of sound signals by six types of neurons in the prothoracic ganglion of the cricket, Gryllus campestris L. Journal of Comparative Physiology A 146:161–173. https://doi.org/10.1007/BF00610234
+5. Selverston AI, Kleindienst HU, Huber F (1985). Synaptic connectivity between cricket auditory interneurons as studied by selective photoinactivation. Journal of Neuroscience 5(5):1283–1292. https://doi.org/10.1523/JNEUROSCI.05-05-01283.1985
+6. Kostarakos K, Hedwig B (2012). Calling song recognition in female crickets: temporal tuning of identified brain neurons matches behavior. Journal of Neuroscience 32(28):9601–9612. https://doi.org/10.1523/JNEUROSCI.1170-12.2012
+7. Schöneich S, Kostarakos K, Hedwig B (2015). An auditory feature detection circuit for sound pattern recognition. Science Advances 1(8):e1500325. https://doi.org/10.1126/sciadv.1500325
+8. Hedwig B, Poulet JFA (2004). Complex auditory behaviour emerges from simple reactive steering. Nature 430(7001):781–785. https://doi.org/10.1038/nature02787
+9. Zhang X, Hedwig B (2023). Sound processing in the cricket brain: evidence for a pulse duration filter. Journal of Neurophysiology 130:953–966. https://doi.org/10.1152/jn.00252.2023
 
-Remaining papers required for original ear anatomy, directional acoustics, and song-recognition mechanisms:
-
-1. Wohlers, D. W., & Huber, F. (1982). Processing of sound signals by six types of neurons in the prothoracic ganglion of the cricket, Gryllus campestris L. *Journal of Comparative Physiology, 146*, 161–173. https://doi.org/10.1007/BF00610234
-2. Michelsen, A., Popov, A. V., & Lewis, B. (1994). Physics of directional hearing in the cricket Gryllus bimaculatus. *Journal of Comparative Physiology A, 175*, 153–164. https://doi.org/10.1007/BF00215111
-3. Schöneich, S., Kostarakos, K., & Hedwig, B. (2015). An auditory feature detection circuit for sound pattern recognition. *Science Advances, 1*(8), e1500325. https://doi.org/10.1126/sciadv.1500325
-4. Zhang, X., & Hedwig, B. (2023). Sound processing in the cricket brain: evidence for a pulse duration filter. *Journal of Neurophysiology, 130*, 953–966. https://doi.org/10.1152/jn.00252.2023
-
-Crossref metadata verified October 8, 2026. Springer PDF endpoints returned non-PDF pages. Science and physiology PDF endpoints returned HTTP 403. The 2015 paper has an open-access record (PMC4643773), but Europe PMC PDF requests returned HTTP 403 and tested PMC PDF requests returned non-PDF pages.
-
-Please upload these four PDFs. Under the instructor's explicit stop rule, the deck is not built while these needed source PDFs are unavailable. No replacement figures were created.
-
-Build requirements retained: repository builder; exact scheduled title/date; 46 slides; Arial; fresh allowed palette; 3–5 paragraphs per content slide; two-column text/figure layouts; 40 or more content slides with images and 34 or more with primary article figures; large unmodified original panels with original labels and colors; citations, teaching transcripts, and visual review.
+Citation metadata was checked against the original articles and Crossref/Europe PMC records. Earlier access logs record failed publisher retrievals before the instructor supplied the missing PDFs.
