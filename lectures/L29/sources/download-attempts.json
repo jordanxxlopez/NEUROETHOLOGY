@@ -1,0 +1,240 @@
+[
+  {
+    "key": "vonfrisch46",
+    "doi": "10.1007/BF02154391",
+    "attempts": [],
+    "error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.1007/BF02154391",
+    "excluded": "Unverified candidate DOI; not cited. Selected verified classic is von Frisch and Lindauer (1954), 10.1007/BF00634944."
+  },
+  {
+    "key": "riley05",
+    "doi": "10.1038/nature03526",
+    "attempts": [
+      {
+        "url": "http://www.nature.com/articles/nature03526.pdf",
+        "status": 200,
+        "type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.nature.com/articles/nature03526.pdf",
+        "status": 200,
+        "type": "text/html; charset=utf-8"
+      }
+    ],
+    "title": "The flight paths of honeybees recruited by the waggle dance"
+  },
+  {
+    "key": "optic00",
+    "doi": "10.1126/science.287.5454.851",
+    "attempts": [
+      {
+        "url": "https://www.science.org/doi/pdf/10.1126/science.287.5454.851",
+        "status": 403,
+        "type": "text/html; charset=UTF-8"
+      }
+    ],
+    "title": "Honeybee Navigation: Nature and Calibration of the \"Odometer\""
+  },
+  {
+    "key": "optic01",
+    "doi": "10.1038/35079072",
+    "attempts": [
+      {
+        "url": "http://www.nature.com/articles/35079072.pdf",
+        "status": 200,
+        "type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.nature.com/articles/35079072.pdf",
+        "status": 200,
+        "type": "text/html; charset=utf-8"
+      }
+    ],
+    "title": "Honeybee dances communicate distances measured by optic flow"
+  },
+  {
+    "key": "terrain04",
+    "doi": "10.1371/journal.pbio.0020211",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC449896?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "Honeybee Odometry: Performance in Varying Natural Terrain",
+    "pdf": true,
+    "pages": 9,
+    "pmcid": "PMC449896"
+  },
+  {
+    "key": "clock12",
+    "doi": "10.1073/pnas.1201130109",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC3386072?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "RNA 3'-end mismatch excision by the severe acute respiratory syndrome coronavirus nonstructural protein nsp10/nsp14 exoribonuclease complex",
+    "pdf": true,
+    "pages": 6,
+    "pmcid": "PMC3386072",
+    "excluded": "Unrelated DOI; not a lecture source. Correct clock12 source is 10.1073/pnas.1201734109 (extra-download-attempts.json)."
+  },
+  {
+    "key": "solar94",
+    "doi": "10.1073/pnas.91.10.4471",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC43807?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "Development of sun compensation by honeybees: how partially experienced bees estimate the sun's course.",
+    "pdf": true,
+    "pages": 4,
+    "pmcid": "PMC43807"
+  },
+  {
+    "key": "decode23",
+    "doi": "10.1073/pnas.2213068120",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC10041085?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "Honey bees infer source location from the dances of returning foragers",
+    "pdf": true,
+    "pages": 8,
+    "pmcid": "PMC10041085"
+  },
+  {
+    "key": "tmn15",
+    "doi": "10.1371/journal.pone.0143244",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC4667876?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "Transmedulla Neurons in the Sky Compass Network of the Honeybee (Apis mellifera) Are a Possible Site of Circadian Input",
+    "pdf": true,
+    "pages": 25,
+    "pmcid": "PMC4667876"
+  },
+  {
+    "key": "micro16",
+    "doi": "10.3389/fnbeh.2016.00186",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC5053983?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "Microglomerular Synaptic Complexes in the Sky-Compass Network of the Honeybee Connect Parallel Pathways from the Anterior Optic Tubercle to the Central Complex",
+    "pdf": true,
+    "pages": 15,
+    "pmcid": "PMC5053983"
+  },
+  {
+    "key": "vibration17",
+    "doi": "10.1523/JNEUROSCI.0044-17.2017",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC6596516?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "Interneurons in the Honeybee Primary Auditory Center Responding to Waggle Dance-Like Vibration Pulses",
+    "pdf": true,
+    "pages": 12,
+    "pmcid": "PMC6596516"
+  },
+  {
+    "key": "mature19",
+    "doi": "10.1523/ENEURO.0454-18.2019",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC6731536?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "Adaptations during Maturation in an Identified Honeybee Interneuron Responsive to Waggle Dance Vibration Signals",
+    "pdf": true,
+    "pages": 12,
+    "pmcid": "PMC6731536"
+  },
+  {
+    "key": "fields13",
+    "doi": "10.1098/rspb.2013.0528",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC3619523?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "Reception and learning of electric fields in bees",
+    "pdf": true,
+    "pages": 8,
+    "pmcid": "PMC3619523"
+  },
+  {
+    "key": "pol12",
+    "doi": "10.1098/rspb.2011.0929",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC3234551?pdf=render",
+        "status": 200,
+        "type": "application/pdf"
+      }
+    ],
+    "title": "Evidence for instantaneous e-vector detection in the honeybee using an associative learning paradigm",
+    "pdf": true,
+    "pages": 8,
+    "pmcid": "PMC3234551"
+  },
+  {
+    "key": "landmark24",
+    "doi": "10.1242/jeb.248162",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC11529883?pdf=render",
+        "status": 404,
+        "type": "application/json;charset=UTF-8"
+      },
+      {
+        "url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.248162/3567632/jeb248162.pdf",
+        "status": 403,
+        "type": "text/html; charset=UTF-8"
+      },
+      {
+        "url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.248162/3572259/jeb248162.pdf",
+        "status": 403,
+        "type": "text/html; charset=UTF-8"
+      }
+    ],
+    "title": "Landmark knowledge overrides optic flow in honeybee waggle dance distance estimation"
+  },
+  {
+    "key": "learning23",
+    "doi": "10.1126/science.ade1702",
+    "attempts": [
+      {
+        "url": "https://www.science.org/doi/pdf/10.1126/science.ade1702",
+        "status": 403,
+        "type": "text/html; charset=UTF-8"
+      }
+    ],
+    "title": "Social signal learning of the waggle dance in honey bees"
+  }
+]
