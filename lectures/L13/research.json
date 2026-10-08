@@ -1,0 +1,3400 @@
+{
+  "lecture": 13,
+  "checked_on": "2026-10-08",
+  "repository_head": "5456682a0415c2449e25bd9ebd5b0a346f0a8e2d",
+  "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
+  "schedule": {
+    "n": 13,
+    "date": "Wednesday, September 23, 2026",
+    "title": "Mantis shrimp vision: hyperspectral and polarization sensing"
+  },
+  "status": "Complete: built and visually inspected 46-slide PPTX and PDF; all 44 content slides contain original primary-article crops, 36 carry native color.",
+  "sources": {
+    "cm89": {
+      "id": "cm89",
+      "full_reference": "Cronin TW, Marshall NJ (1989). A retina with at least ten spectral types of photoreceptors in a mantis shrimp. Nature 339: 137-140. https://doi.org/10.1038/339137a0",
+      "doi": "10.1038/339137a0",
+      "title": "A retina with at least ten spectral types of photoreceptors in a mantis shrimp",
+      "authors": [
+        {
+          "given": "Thomas W.",
+          "family": "Cronin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N. Justin",
+          "family": "Marshall",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Nature",
+      "volume": "339",
+      "pages_or_article": "137-140",
+      "year": 1989,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1038%2F339137a0"
+      ],
+      "europepmc": [],
+      "download": {
+        "id": "cm89",
+        "attempts": [
+          {
+            "url": "https://www.nature.com/articles/339137a0.pdf",
+            "status": 200,
+            "result": "Response is not a PDF"
+          }
+        ],
+        "available": true,
+        "origin": "user-upload",
+        "upload_filename": "A_Retina_with_at_Least_Ten_Spe.pdf",
+        "pdf_path": "papers/cm89.pdf",
+        "pages": 4,
+        "bytes": 501810,
+        "sha256": "866f5033fcf35568171f2a61491c0a5610f82d6f3c62c1a3ef2919c407bdfe72",
+        "doi_in_pdf": false
+      },
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
+    },
+    "t14": {
+      "id": "t14",
+      "full_reference": "Thoen HH, How MJ, Chiou TH, Marshall J (2014). A Different Form of Color Vision in Mantis Shrimp. Science 343: 411-413. https://doi.org/10.1126/science.1245824",
+      "doi": "10.1126/science.1245824",
+      "title": "A Different Form of Color Vision in Mantis Shrimp",
+      "authors": [
+        {
+          "given": "Hanne H.",
+          "family": "Thoen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Queensland Brain Institute, University of Queensland, Brisbane, Queensland 4072, Australia."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Martin J.",
+          "family": "How",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Queensland Brain Institute, University of Queensland, Brisbane, Queensland 4072, Australia."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tsyr-Huei",
+          "family": "Chiou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Life Sciences, National Cheng Kung University, Tainan City 70101, Taiwan, Republic of China."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justin",
+          "family": "Marshall",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Queensland Brain Institute, University of Queensland, Brisbane, Queensland 4072, Australia."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Science",
+      "volume": "343",
+      "pages_or_article": "411-413",
+      "year": 2014,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1126%2Fscience.1245824",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1126/science.1245824&format=json&resultType=core"
+      ],
+      "europepmc": [
+        {
+          "id": "24458639",
+          "source": "MED",
+          "pmid": "24458639",
+          "doi": "10.1126/science.1245824",
+          "title": "A different form of color vision in mantis shrimp.",
+          "authorString": "Thoen HH, How MJ, Chiou TH, Marshall J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Thoen HH",
+                "lastName": "Thoen",
+                "firstName": "Hanne H",
+                "initials": "HH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Queensland Brain Institute, University of Queensland, Brisbane, Queensland 4072, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "How MJ",
+                "lastName": "How",
+                "firstName": "Martin J",
+                "initials": "MJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5135-8828"
+                }
+              },
+              {
+                "fullName": "Chiou TH",
+                "lastName": "Chiou",
+                "firstName": "Tsyr-Huei",
+                "initials": "TH",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3504-5113"
+                }
+              },
+              {
+                "fullName": "Marshall J",
+                "lastName": "Marshall",
+                "firstName": "Justin",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9006-6713"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5135-8828"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9006-6713"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3504-5113"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "wikipedia"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6169",
+            "volume": "343",
+            "journalIssueId": 2118973,
+            "dateOfPublication": "2014 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2014,
+            "journal": {
+              "medlineAbbreviation": "Science",
+              "title": "Science (New York, N.Y.)",
+              "essn": "1095-9203",
+              "issn": "0036-8075",
+              "nlmid": "0404511",
+              "isoabbreviation": "Science"
+            },
+            "printPublicationDate": "2014-01-01"
+          },
+          "pubYear": "2014",
+          "pageInfo": "411-413",
+          "abstractText": "One of the most complex eyes in the animal kingdom can be found in species of stomatopod crustaceans (mantis shrimp), some of which have 12 different photoreceptor types, each sampling a narrow set of wavelengths ranging from deep ultraviolet to far red (300 to 720 nanometers). Functionally, this chromatic complexity has presented a mystery. Why use 12 color channels when three or four are sufficient for fine color discrimination? Behavioral wavelength discrimination tests (Δλ functions) in stomatopods revealed a surprisingly poor performance, ruling out color vision that makes use of the conventional color-opponent coding system. Instead, our experiments suggest that stomatopods use a previously unknown color vision system based on temporal signaling combined with scanning eye movements, enabling a type of color recognition rather than discrimination.",
+          "affiliation": "Queensland Brain Institute, University of Queensland, Brisbane, Queensland 4072, Australia.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Crustacea",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Eye Movements"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Behavior, Animal"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Color"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Color Vision"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1126/science.1245824"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "MED",
+                "id": "24458632",
+                "reference": "Science. 2014 Jan 24;343(6169):381-2. doi: 10.1126/science.1249614",
+                "type": "Comment in",
+                "orderIn": 1
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 97,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2014-02-24",
+          "dateOfCreation": "2014-01-25",
+          "dateOfRevision": "2014-01-24",
+          "firstPublicationDate": "2014-01-01",
+          "firstIndexDate": "2014-01-25",
+          "hasEvaluations": "N"
+        }
+      ],
+      "download": {
+        "id": "t14",
+        "attempts": [
+          {
+            "url": "https://www.science.org/doi/pdf/10.1126/science.1245824",
+            "result": "HTTP Error 403: Forbidden"
+          }
+        ],
+        "available": true,
+        "origin": "user-upload",
+        "upload_filename": "science.1245824.pdf",
+        "pdf_path": "papers/t14.pdf",
+        "pages": 4,
+        "bytes": 387500,
+        "sha256": "91c4e3bedaeb37da7d4e45bdd4c4cf797558f37ee568e307a4ad942b3282404b",
+        "doi_in_pdf": true
+      },
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
+    },
+    "b14": {
+      "id": "b14",
+      "full_reference": "Bok MJ, Porter ML, Place AR, Cronin TW (2014). Biological Sunscreens Tune Polychromatic Ultraviolet Vision in Mantis Shrimp. Current Biology 24: 1636-1642. https://doi.org/10.1016/j.cub.2014.05.071",
+      "doi": "10.1016/j.cub.2014.05.071",
+      "title": "Biological Sunscreens Tune Polychromatic Ultraviolet Vision in Mantis Shrimp",
+      "authors": [
+        {
+          "given": "Michael J.",
+          "family": "Bok",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Megan L.",
+          "family": "Porter",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Allen R.",
+          "family": "Place",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas W.",
+          "family": "Cronin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Current Biology",
+      "volume": "24",
+      "pages_or_article": "1636-1642",
+      "year": 2014,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1016%2Fj.cub.2014.05.071",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.cub.2014.05.071&format=json&resultType=core"
+      ],
+      "europepmc": [
+        {
+          "id": "24998530",
+          "source": "MED",
+          "pmid": "24998530",
+          "doi": "10.1016/j.cub.2014.05.071",
+          "title": "Biological sunscreens tune polychromatic ultraviolet vision in mantis shrimp.",
+          "authorString": "Bok MJ, Porter ML, Place AR, Cronin TW.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Bok MJ",
+                "lastName": "Bok",
+                "firstName": "Michael J",
+                "initials": "MJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3169-8523"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Sciences, University of Maryland Baltimore County, 1000 Hilltop Circle, Baltimore, MD 21250, USA. Electronic address: mikebok@gmail.com."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Porter ML",
+                "lastName": "Porter",
+                "firstName": "Megan L",
+                "initials": "ML",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Sciences, University of Maryland Baltimore County, 1000 Hilltop Circle, Baltimore, MD 21250, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Place AR",
+                "lastName": "Place",
+                "firstName": "Allen R",
+                "initials": "AR",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Marine and Environmental Technology, University of Maryland Center for Environmental Science, 701 East Pratt Street, Baltimore, MD 21202, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cronin TW",
+                "lastName": "Cronin",
+                "firstName": "Thomas W",
+                "initials": "TW",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Sciences, University of Maryland Baltimore County, 1000 Hilltop Circle, Baltimore, MD 21250, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3169-8523"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "related_data",
+              "wikipedia"
+            ]
+          },
+          "journalInfo": {
+            "issue": "14",
+            "volume": "24",
+            "journalIssueId": 2183107,
+            "dateOfPublication": "2014 Jul",
+            "monthOfPublication": 7,
+            "yearOfPublication": 2014,
+            "journal": {
+              "medlineAbbreviation": "Curr Biol",
+              "title": "Current biology : CB",
+              "essn": "1879-0445",
+              "issn": "0960-9822",
+              "isoabbreviation": "Curr Biol",
+              "nlmid": "9107782"
+            },
+            "printPublicationDate": "2014-07-01"
+          },
+          "pubYear": "2014",
+          "pageInfo": "1636-1642",
+          "abstractText": "<h4>Video abstract</h4>Stomatopod crustaceans, or mantis shrimp, are renowned for their complex visual systems. Their array of 16 types of photoreceptors provides complex color reception, as well as linear and circular polarization sensitivity [1-6]. The least-understood components of their retina are the UV receptors, of which there are up to six distinct, narrowly tuned spectral types [4]. Here we show that in the stomatopod species Neogonodactylus oerstedii, this set of receptors is based on only two visual pigments. Surprisingly, five of the six UV receptor types contain the same visual pigment. The various UV receptors are spectrally tuned by a novel set of four short- and long-pass UV-specific optical filters in the overlying crystalline cones. These filters are composed of various mycosporine-like amino acid (MAA) pigments. Commonly referred to as \"nature's sunscreens,\" MAAs are usually employed for UV photoprotection [7, 8], but mantis shrimp uniquely incorporate them into powerful spectral tuning filters, extending and diversifying their preeminently elaborate photoreceptive arsenal.",
+          "affiliation": "Department of Biological Sciences, University of Maryland Baltimore County, 1000 Hilltop Circle, Baltimore, MD 21250, USA. Electronic address: mikebok@gmail.com.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Air Force Office of Scientific Research",
+                "grantId": "FA9550-12-1-0321",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Retinal Pigments",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Amino Acids"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Ultraviolet Rays"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Vision, Ocular",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Photoreceptor Cells, Invertebrate",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Decapoda",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Amino Acids",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Retinal Pigments",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.cub.2014.05.071"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "MED",
+                "id": "25137589",
+                "reference": "Curr Biol. 2014 Aug 18;24(16):R753-5. doi: 10.1016/j.cub.2014.07.025",
+                "type": "Comment in",
+                "orderIn": 1
+              },
+              {
+                "source": "MED",
+                "id": "25137590",
+                "reference": "Curr Biol. 2014 Aug 18;24(16):R755-7. doi: 10.1016/j.cub.2014.07.018",
+                "type": "Comment in",
+                "orderIn": 2
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 46,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "Y",
+          "dbCrossReferenceList": {
+            "dbName": [
+              "EMBL"
+            ]
+          },
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2015-09-10",
+          "dateOfCreation": "2014-07-08",
+          "dateOfRevision": "2019-12-10",
+          "electronicPublicationDate": "2014-07-03",
+          "firstPublicationDate": "2014-07-03",
+          "firstIndexDate": "2014-07-09",
+          "hasEvaluations": "N"
+        }
+      ],
+      "download": {
+        "id": "b14",
+        "available": true,
+        "attempts": [
+          {
+            "url": "https://www.cell.com/current-biology/pdf/S0960-9822(14)00672-1.pdf",
+            "result": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+          }
+        ],
+        "origin": "user-upload",
+        "upload_filename": "PIIS0960982214006721.pdf",
+        "pdf_path": "papers/b14.pdf",
+        "pages": 7,
+        "bytes": 1648894,
+        "sha256": "4fb82f0ba7c46c3801a1a498e91f75b5ed1f227717084e0b927095afe3682668",
+        "doi_in_pdf": true
+      },
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
+    },
+    "c08": {
+      "id": "c08",
+      "full_reference": "Chiou TH, Kleinlogel S, Cronin T, Caldwell R, Loeffler B, Siddiqi A, Goldizen A, Marshall J (2008). Circular Polarization Vision in a Stomatopod Crustacean. Current Biology 18: 429-434. https://doi.org/10.1016/j.cub.2008.02.066",
+      "doi": "10.1016/j.cub.2008.02.066",
+      "title": "Circular Polarization Vision in a Stomatopod Crustacean",
+      "authors": [
+        {
+          "given": "Tsyr-Huei",
+          "family": "Chiou",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sonja",
+          "family": "Kleinlogel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tom",
+          "family": "Cronin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Roy",
+          "family": "Caldwell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Birte",
+          "family": "Loeffler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Afsheen",
+          "family": "Siddiqi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alan",
+          "family": "Goldizen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justin",
+          "family": "Marshall",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Current Biology",
+      "volume": "18",
+      "pages_or_article": "429-434",
+      "year": 2008,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1016%2Fj.cub.2008.02.066",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.cub.2008.02.066&format=json&resultType=core"
+      ],
+      "europepmc": [
+        {
+          "id": "18356053",
+          "source": "MED",
+          "pmid": "18356053",
+          "doi": "10.1016/j.cub.2008.02.066",
+          "title": "Circular polarization vision in a stomatopod crustacean.",
+          "authorString": "Chiou TH, Kleinlogel S, Cronin T, Caldwell R, Loeffler B, Siddiqi A, Goldizen A, Marshall J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Chiou TH",
+                "lastName": "Chiou",
+                "firstName": "Tsyr-Huei",
+                "initials": "TH",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3504-5113"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Sciences, University of Maryland, Baltimore County, Baltimore, Maryland 21250, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kleinlogel S",
+                "lastName": "Kleinlogel",
+                "firstName": "Sonja",
+                "initials": "S"
+              },
+              {
+                "fullName": "Cronin T",
+                "lastName": "Cronin",
+                "firstName": "Tom",
+                "initials": "T"
+              },
+              {
+                "fullName": "Caldwell R",
+                "lastName": "Caldwell",
+                "firstName": "Roy",
+                "initials": "R"
+              },
+              {
+                "fullName": "Loeffler B",
+                "lastName": "Loeffler",
+                "firstName": "Birte",
+                "initials": "B"
+              },
+              {
+                "fullName": "Siddiqi A",
+                "lastName": "Siddiqi",
+                "firstName": "Afsheen",
+                "initials": "A"
+              },
+              {
+                "fullName": "Goldizen A",
+                "lastName": "Goldizen",
+                "firstName": "Alan",
+                "initials": "A"
+              },
+              {
+                "fullName": "Marshall J",
+                "lastName": "Marshall",
+                "firstName": "Justin",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9006-6713"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9006-6713"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3504-5113"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "recommended_reviews",
+              "wikipedia"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "18",
+            "journalIssueId": 1516691,
+            "dateOfPublication": "2008 Mar",
+            "monthOfPublication": 3,
+            "yearOfPublication": 2008,
+            "journal": {
+              "medlineAbbreviation": "Curr Biol",
+              "title": "Current biology : CB",
+              "essn": "1879-0445",
+              "issn": "0960-9822",
+              "isoabbreviation": "Curr Biol",
+              "nlmid": "9107782"
+            },
+            "printPublicationDate": "2008-03-01"
+          },
+          "pubYear": "2008",
+          "pageInfo": "429-434",
+          "abstractText": "We describe the addition of a fourth visual modality in the animal kingdom, the perception of circular polarized light. Animals are sensitive to various characteristics of light, such as intensity, color, and linear polarization [1, 2]. This latter capability can be used for object identification, contrast enhancement, navigation, and communication through polarizing reflections [2-4]. Circularly polarized reflections from a few animal species have also been known for some time [5, 6]. Although optically interesting [7, 8], their signal function or use (if any) was obscure because no visual system was known to detect circularly polarized light. Here, in stomatopod crustaceans, we describe for the first time a visual system capable of detecting and analyzing circularly polarized light. Four lines of evidence-behavior, electrophysiology, optical anatomy, and details of signal design-are presented to describe this new visual function. We suggest that this remarkable ability mediates sexual signaling and mate choice, although other potential functions of circular polarization vision, such as enhanced contrast in turbid environments, are also possible [7, 8]. The ability to differentiate the handedness of circularly polarized light, a visual feat never expected in the animal kingdom, is demonstrated behaviorally here for the first time.",
+          "affiliation": "Department of Biological Sciences, University of Maryland, Baltimore County, Baltimore, Maryland 21250, USA.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Crustacea",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AH",
+                      "qualifierName": "anatomy & histology"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Visual Perception",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Choice Behavior",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Electrophysiology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Light"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Vision, Ocular",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Photoreceptor Cells, Invertebrate",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AH",
+                      "qualifierName": "anatomy & histology"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "http://www.cell.com/article/S0960982208002522/pdf"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "abs",
+                "site": "www.current-biology.com",
+                "url": "http://www.current-biology.com/cgi/content/reprint/18/6/429"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.cub.2008.02.066"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 143,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2008-07-15",
+          "dateOfCreation": "2008-03-22",
+          "dateOfRevision": "2008-11-21",
+          "firstPublicationDate": "2008-03-01",
+          "firstIndexDate": "2008-12-23",
+          "hasEvaluations": "N"
+        }
+      ],
+      "download": {
+        "id": "c08",
+        "available": true,
+        "attempts": [
+          {
+            "url": "https://www.cell.com/current-biology/pdf/S0960-9822(08)00252-2.pdf",
+            "result": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+          },
+          {
+            "url": "https://www.cell.com/article/S0960982208002522/pdf",
+            "result": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+          }
+        ],
+        "origin": "user-upload",
+        "upload_filename": "PIIS0960982208002522.pdf",
+        "pdf_path": "papers/c08.pdf",
+        "pages": 6,
+        "bytes": 1029390,
+        "sha256": "2bfa10d23e0e91ab0c8678179eba4317e2c4beb5d22a03153e8fb71d4705e98f",
+        "doi_in_pdf": true
+      },
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
+    },
+    "r09": {
+      "id": "r09",
+      "full_reference": "Roberts NW, Chiou TH, Marshall NJ, Cronin TW (2009). A biological quarter-wave retarder with excellent achromaticity in the visible wavelength region. Nature Photonics 3: 641-644. https://doi.org/10.1038/nphoton.2009.189",
+      "doi": "10.1038/nphoton.2009.189",
+      "title": "A biological quarter-wave retarder with excellent achromaticity in the visible wavelength region",
+      "authors": [
+        {
+          "given": "N. W.",
+          "family": "Roberts",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T.-H.",
+          "family": "Chiou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N. J.",
+          "family": "Marshall",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T. W.",
+          "family": "Cronin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Nature Photonics",
+      "volume": "3",
+      "pages_or_article": "641-644",
+      "year": 2009,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1038%2Fnphoton.2009.189"
+      ],
+      "europepmc": [],
+      "download": {
+        "id": "r09",
+        "attempts": [
+          {
+            "url": "https://www.nature.com/articles/nphoton.2009.189.pdf",
+            "status": 200,
+            "result": "Response is not a PDF"
+          }
+        ],
+        "available": true,
+        "origin": "user-upload",
+        "upload_filename": "Roberts_shrimp_eye.pdf",
+        "pdf_path": "papers/r09.pdf",
+        "pages": 4,
+        "bytes": 364113,
+        "sha256": "f32c803879b92a57af4577265cca7f2bae2ca6de580f1f9486b00b384374dc90",
+        "doi_in_pdf": true
+      },
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
+    },
+    "kw08": {
+      "id": "kw08",
+      "full_reference": "Kleinlogel S, White AG (2008). The Secret World of Shrimps: Polarisation Vision at Its Best. PLoS ONE 3: e2190. https://doi.org/10.1371/journal.pone.0002190",
+      "doi": "10.1371/journal.pone.0002190",
+      "title": "The Secret World of Shrimps: Polarisation Vision at Its Best",
+      "authors": [
+        {
+          "given": "Sonja",
+          "family": "Kleinlogel",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Andrew G.",
+          "family": "White",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "PLoS ONE",
+      "volume": "3",
+      "pages_or_article": "e2190",
+      "year": 2008,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1371%2Fjournal.pone.0002190",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1371/journal.pone.0002190&format=json&resultType=core"
+      ],
+      "europepmc": [
+        {
+          "id": "18478095",
+          "source": "MED",
+          "pmid": "18478095",
+          "pmcid": "PMC2377063",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC2377063"
+            ]
+          },
+          "doi": "10.1371/journal.pone.0002190",
+          "title": "The secret world of shrimps: polarisation vision at its best.",
+          "authorString": "Kleinlogel S, White AG.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Kleinlogel S",
+                "lastName": "Kleinlogel",
+                "firstName": "Sonja",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biophysical Chemistry, Max Planck Institute of Biophysics, Frankfurt am Main, Germany. Sonja.Kleinlogel@mpibp-frankfurt.mpg.de"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "White AG",
+                "lastName": "White",
+                "firstName": "Andrew G",
+                "initials": "AG",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9639-5200"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9639-5200"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "wikipedia"
+            ]
+          },
+          "journalInfo": {
+            "issue": "5",
+            "volume": "3",
+            "journalIssueId": 2466230,
+            "dateOfPublication": "2008 May",
+            "monthOfPublication": 5,
+            "yearOfPublication": 2008,
+            "journal": {
+              "medlineAbbreviation": "PLoS One",
+              "title": "PloS one",
+              "essn": "1932-6203",
+              "issn": "1932-6203",
+              "isoabbreviation": "PLoS One",
+              "nlmid": "101285081"
+            },
+            "printPublicationDate": "2008-05-01"
+          },
+          "pubYear": "2008",
+          "pageInfo": "e2190",
+          "abstractText": "<h4>Background</h4>Animal vision spans a great range of complexity, with systems evolving to detect variations in light intensity, distribution, colour, and polarisation. Polarisation vision systems studied to date detect one to four channels of linear polarisation, combining them in opponent pairs to provide intensity-independent operation. Circular polarisation vision has never been seen, and is widely believed to play no part in animal vision.<h4>Methodology/principal findings</h4>Polarisation is fully measured via Stokes' parameters--obtained by combined linear and circular polarisation measurements. Optimal polarisation vision is the ability to see Stokes' parameters: here we show that the crustacean Gonodactylus smithii measures the exact components required.<h4>Conclusions/significance</h4>This vision provides optimal contrast-enhancement and precise determination of polarisation with no confusion states or neutral points--significant advantages. Linear and circular polarisation each give partial information about the polarisation of light--but the combination of the two, as we will show here, results in optimal polarisation vision. We suggest that linear and circular polarisation vision not be regarded as different modalities, since both are necessary for optimal polarisation vision; their combination renders polarisation vision independent of strongly linearly or circularly polarised features in the animal's environment.",
+          "affiliation": "Department of Biophysical Chemistry, Max Planck Institute of Biophysics, Frankfurt am Main, Germany. Sonja.Kleinlogel@mpibp-frankfurt.mpg.de",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Crustacea",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Light"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Vision, Ocular"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1371/journal.pone.0002190"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC2377063"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC2377063?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 11,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2008-08-19",
+          "dateOfCreation": "2008-05-15",
+          "dateOfRevision": "2021-10-20",
+          "electronicPublicationDate": "2008-05-14",
+          "firstPublicationDate": "2008-05-14",
+          "firstIndexDate": "2010-09-23",
+          "fullTextReceivedDate": "2025-02-02",
+          "hasEvaluations": "N"
+        }
+      ],
+      "download": {
+        "id": "kw08",
+        "attempts": [
+          {
+            "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0002190&type=printable",
+            "status": 200,
+            "result": "PDF downloaded"
+          }
+        ],
+        "available": true,
+        "pages": 8,
+        "bytes": 467855,
+        "sha256": "0ea4e17d5f479dfe36244d8cc827bb7772008a2f031053191b4d9840911913a0",
+        "pdf_path": "papers/kw08.pdf"
+      },
+      "reading_status": "PDF downloaded; extract available for close reading"
+    },
+    "d16": {
+      "id": "d16",
+      "full_reference": "Daly IM, How MJ, Partridge JC, Temple SE, Marshall NJ, Cronin TW, Roberts NW (2016). Dynamic polarization vision in mantis shrimps. Nature Communications 7: 12140. https://doi.org/10.1038/ncomms12140",
+      "doi": "10.1038/ncomms12140",
+      "title": "Dynamic polarization vision in mantis shrimps",
+      "authors": [
+        {
+          "given": "Ilse M.",
+          "family": "Daly",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Martin J.",
+          "family": "How",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julian C.",
+          "family": "Partridge",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shelby E.",
+          "family": "Temple",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N. Justin",
+          "family": "Marshall",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas W.",
+          "family": "Cronin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4540-6683",
+          "authenticated-orcid": false,
+          "given": "Nicholas W.",
+          "family": "Roberts",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Nature Communications",
+      "volume": "7",
+      "pages_or_article": "12140",
+      "year": 2016,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1038%2Fncomms12140",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/ncomms12140&format=json&resultType=core"
+      ],
+      "europepmc": [
+        {
+          "id": "27401817",
+          "source": "MED",
+          "pmid": "27401817",
+          "pmcid": "PMC4945877",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC4945877"
+            ]
+          },
+          "doi": "10.1038/ncomms12140",
+          "title": "Dynamic polarization vision in mantis shrimps.",
+          "authorString": "Daly IM, How MJ, Partridge JC, Temple SE, Marshall NJ, Cronin TW, Roberts NW.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Daly IM",
+                "lastName": "Daly",
+                "firstName": "Ilse M",
+                "initials": "IM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8938-0174"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biological Sciences, University of Bristol, Tyndall Avenue, Bristol BS8 1TQ, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "How MJ",
+                "lastName": "How",
+                "firstName": "Martin J",
+                "initials": "MJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biological Sciences, University of Bristol, Tyndall Avenue, Bristol BS8 1TQ, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Partridge JC",
+                "lastName": "Partridge",
+                "firstName": "Julian C",
+                "initials": "JC",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3788-2900"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Animal Biology and the Oceans Institute, University of Western Australia, 35 Stirling Highway (M317), Crawley, Western Australia 6009, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Temple SE",
+                "lastName": "Temple",
+                "firstName": "Shelby E",
+                "initials": "SE",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6447-4713"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biological Sciences, University of Bristol, Tyndall Avenue, Bristol BS8 1TQ, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Marshall NJ",
+                "lastName": "Marshall",
+                "firstName": "N Justin",
+                "initials": "NJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9006-6713"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Queensland Brain Institute, The University of Queensland, St Lucia, Queensland 4072, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cronin TW",
+                "lastName": "Cronin",
+                "firstName": "Thomas W",
+                "initials": "TW",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Sciences, University of Maryland Baltimore County, 1000 Hilltop Circle, Baltimore, Maryland 21250, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Roberts NW",
+                "lastName": "Roberts",
+                "firstName": "Nicholas W",
+                "initials": "NW",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4540-6683"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biological Sciences, University of Bristol, Tyndall Avenue, Bristol BS8 1TQ, UK."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6447-4713"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8938-0174"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9006-6713"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4540-6683"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3788-2900"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "volume": "7",
+            "journalIssueId": 2477837,
+            "dateOfPublication": "2016 Jul",
+            "monthOfPublication": 7,
+            "yearOfPublication": 2016,
+            "journal": {
+              "medlineAbbreviation": "Nat Commun",
+              "title": "Nature communications",
+              "essn": "2041-1723",
+              "issn": "2041-1723",
+              "isoabbreviation": "Nat Commun",
+              "nlmid": "101528555"
+            },
+            "printPublicationDate": "2016-07-01"
+          },
+          "pubYear": "2016",
+          "pageInfo": "12140",
+          "abstractText": "Gaze stabilization is an almost ubiquitous animal behaviour, one that is required to see the world clearly and without blur. Stomatopods, however, only fix their eyes on scenes or objects of interest occasionally. Almost uniquely among animals they explore their visual environment with a series pitch, yaw and torsional (roll) rotations of their eyes, where each eye may also move largely independently of the other. In this work, we demonstrate that the torsional rotations are used to actively enhance their ability to see the polarization of light. Both Gonodactylus smithii and Odontodactylus scyllarus rotate their eyes to align particular photoreceptors relative to the angle of polarization of a linearly polarized visual stimulus, thereby maximizing the polarization contrast between an object of interest and its background. This is the first documented example of any animal displaying dynamic polarization vision, in which the polarization information is actively maximized through rotational eye movements.",
+          "affiliation": "School of Biological Sciences, University of Bristol, Tyndall Avenue, Bristol BS8 1TQ, UK.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Biotechnology and Biological Sciences Research Council",
+                "acronym": "BB_",
+                "grantId": "BB/G022917/1",
+                "orderIn": 0
+              },
+              {
+                "agency": "Biotechnology and Biological Sciences Research Council",
+                "grantId": "BB/J014400/1",
+                "orderIn": 0
+              },
+              {
+                "agency": "Engineering and Physical Sciences Research Council",
+                "grantId": "EP/M000885/1",
+                "orderIn": 0
+              },
+              {
+                "agency": "Biotechnology and Biological Sciences Research Council",
+                "acronym": "BB_",
+                "grantId": "1237653",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Crustacea"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Eye Movements",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Fixation, Ocular"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Rotation"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Light"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Vision, Ocular",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.1038/ncomms12140"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/ncomms12140"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4945877"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4945877?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 60,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2018-09-14",
+          "dateOfCreation": "2016-07-13",
+          "dateOfRevision": "2025-05-30",
+          "electronicPublicationDate": "2016-07-12",
+          "firstPublicationDate": "2016-07-12",
+          "firstIndexDate": "2016-07-13",
+          "fullTextReceivedDate": "2020-07-12",
+          "hasEvaluations": "N"
+        }
+      ],
+      "download": {
+        "id": "d16",
+        "available": true,
+        "attempts": [
+          {
+            "url": "https://europepmc.org/articles/PMC4945877?pdf=render",
+            "status": 200,
+            "result": "PDF downloaded"
+          }
+        ],
+        "bytes": 932351,
+        "pages": 9,
+        "sha256": "68d9a9555b9b6548a0e1ab13f3014bee3f3ad20374c8305c40956fe12d810e53",
+        "pdf_path": "papers/d16.pdf"
+      },
+      "reading_status": "PDF downloaded; extract available for close reading"
+    },
+    "u18": {
+      "id": "u18",
+      "full_reference": "Bok MJ, Roberts NW, Cronin TW (2018). Behavioural evidence for polychromatic ultraviolet sensitivity in mantis shrimp. Proceedings of the Royal Society B: Biological Sciences 285: 20181384. https://doi.org/10.1098/rspb.2018.1384",
+      "doi": "10.1098/rspb.2018.1384",
+      "title": "Behavioural evidence for polychromatic ultraviolet sensitivity in mantis shrimp",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3169-8523",
+          "authenticated-orcid": true,
+          "given": "Michael J.",
+          "family": "Bok",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4540-6683",
+          "authenticated-orcid": true,
+          "given": "Nicholas W.",
+          "family": "Roberts",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7375-9382",
+          "authenticated-orcid": true,
+          "given": "Thomas W.",
+          "family": "Cronin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Maryland Baltimore County, Baltimore, MD 21250, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "Proceedings of the Royal Society B: Biological Sciences",
+      "volume": "285",
+      "pages_or_article": "20181384",
+      "year": 2018,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1098%2Frspb.2018.1384",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1098/rspb.2018.1384&format=json&resultType=core"
+      ],
+      "europepmc": [
+        {
+          "id": "30068672",
+          "source": "MED",
+          "pmid": "30068672",
+          "pmcid": "PMC6111172",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC6111172"
+            ]
+          },
+          "doi": "10.1098/rspb.2018.1384",
+          "title": "Behavioural evidence for polychromatic ultraviolet sensitivity in mantis shrimp.",
+          "authorString": "Bok MJ, Roberts NW, Cronin TW.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Bok MJ",
+                "lastName": "Bok",
+                "firstName": "Michael J",
+                "initials": "MJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3169-8523"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK mikebok@gmail.com."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Roberts NW",
+                "lastName": "Roberts",
+                "firstName": "Nicholas W",
+                "initials": "NW",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4540-6683"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cronin TW",
+                "lastName": "Cronin",
+                "firstName": "Thomas W",
+                "initials": "TW",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7375-9382"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Sciences, University of Maryland Baltimore County, Baltimore, MD 21250, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7375-9382"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3169-8523"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4540-6683"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1884",
+            "volume": "285",
+            "journalIssueId": 2711861,
+            "dateOfPublication": "2018 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2018,
+            "journal": {
+              "medlineAbbreviation": "Proc Biol Sci",
+              "title": "Proceedings. Biological sciences",
+              "essn": "1471-2954",
+              "issn": "0962-8452",
+              "nlmid": "101245157",
+              "isoabbreviation": "Proc Biol Sci"
+            },
+            "printPublicationDate": "2018-08-01"
+          },
+          "pubYear": "2018",
+          "pageInfo": "20181384",
+          "abstractText": "Stomatopod crustaceans are renowned for their elaborate visual systems. Their eyes contain a plethora of photoreceptors specialized for chromatic and polarization detection, including several that are sensitive to varying wavelength ranges and angles of polarization within the ultraviolet (UV) range (less than 400 nm). Behavioural experiments have previously suggested that UV photoreception plays a role in stomatopod communication, but these experiments have only manipulated the entire UV range. Here, using a behavioural approach, we examine UV vision in the stomatopod <i>Haptosquilla trispinosa</i> Using binary trained choice assays as well as innate burrow-choice experiments, we assessed the ability of <i>H. trispinosa</i> to detect and respond to narrow-band LED stimuli peaking near 314 nm (UVB) versus 379 nm (UVA) in wavelength. We find that <i>H. trispinosa</i> can discriminate these stimuli and appears to display an aversive reaction to UVB light, suggesting segregated behavioural responses to stimuli within the UV range. Furthermore, we find that <i>H. trispinosa</i> can discriminate stimuli peaking near 379 nm versus 351 nm in wavelength, suggesting that their wavelength discrimination in the UV is comparable to their performance in the human-visible range.",
+          "affiliation": "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK mikebok@gmail.com.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Biotechnology and Biological Sciences Research Council",
+                "acronym": "BB_",
+                "grantId": "BB/G022917/1",
+                "orderIn": 0
+              },
+              {
+                "agency": "Biotechnology and Biological Sciences Research Council",
+                "acronym": "BB_",
+                "grantId": "1237653",
+                "orderIn": 0
+              },
+              {
+                "agency": "Air Force Office of Scientific Research",
+                "grantId": "FA9550-12-1-0321, FA8655-12-2112",
+                "orderIn": 0
+              },
+              {
+                "agency": "Knut and Alice Wallenberg Foundation",
+                "orderIn": 0
+              },
+              {
+                "agency": "Engineering and Physical Sciences Research Council",
+                "grantId": "EP/M000885/1",
+                "orderIn": 0
+              },
+              {
+                "agency": "Lizard Island Research Station, Australian Museum Isobel Bennett Marine Biology Fellowship",
+                "orderIn": 0
+              },
+              {
+                "agency": "The Crustacean Society",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Behavior, Animal",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "RE",
+                      "qualifierName": "radiation effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Choice Behavior",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Ultraviolet Rays"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Vision, Ocular",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Decapoda",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Colour vision",
+              "Visual Ecology",
+              "Mantis Shrimp",
+              "Ultraviolet Vision"
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2018.1384"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1098/rspb.2018.1384"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC6111172"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC6111172?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1098/rspb.2018.1384"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 14,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2019-08-27",
+          "dateOfCreation": "2018-08-03",
+          "dateOfRevision": "2025-05-30",
+          "electronicPublicationDate": "2018-08-01",
+          "firstPublicationDate": "2018-08-01",
+          "firstIndexDate": "2018-08-03",
+          "fullTextReceivedDate": "2025-02-05",
+          "embargoDate": "2019-08-15",
+          "hasEvaluations": "N"
+        }
+      ],
+      "download": {
+        "id": "u18",
+        "available": true,
+        "attempts": [
+          {
+            "url": "https://europepmc.org/articles/PMC6111172?pdf=render",
+            "status": 200,
+            "result": "PDF downloaded"
+          }
+        ],
+        "bytes": 632304,
+        "pages": 7,
+        "sha256": "47c3a570e5ad6bd1e75d2ba8b03fa5b448c8a8577be590e9fff188f07f2c6bd7",
+        "pdf_path": "papers/u18.pdf"
+      },
+      "reading_status": "PDF downloaded; extract available for close reading"
+    },
+    "p20": {
+      "id": "p20",
+      "full_reference": "Chiou TH, Wang CW (2020). Neural processing of linearly and circularly polarized light signal in a mantis shrimp Haptosquilla pulchella (Miers, 1880). Journal of Experimental Biology 223: jeb219832. https://doi.org/10.1242/jeb.219832",
+      "doi": "10.1242/jeb.219832",
+      "title": "Neural processing of linearly and circularly polarized light signal in a mantis shrimp Haptosquilla pulchella (Miers, 1880)",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3504-5113",
+          "authenticated-orcid": false,
+          "given": "Tsyr-Huei",
+          "family": "Chiou",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Life Sciences, National Cheng Kung University, Tainan 70101, Taiwan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ching-Wen",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Life Sciences, National Cheng Kung University, Tainan 70101, Taiwan"
+            },
+            {
+              "name": "Queensland Brain Institute, University of Queensland, St Lucia, QLD 4072, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Journal of Experimental Biology",
+      "volume": "223",
+      "pages_or_article": "jeb219832",
+      "year": 2020,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1242%2Fjeb.219832",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1242/jeb.219832&format=json&resultType=core"
+      ],
+      "europepmc": [
+        {
+          "id": "33097570",
+          "source": "MED",
+          "pmid": "33097570",
+          "doi": "10.1242/jeb.219832",
+          "title": "Neural processing of linearly and circularly polarized light signal in a mantis shrimp <i>Haptosquilla pulchella</i>.",
+          "authorString": "Chiou TH, Wang CW.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Chiou TH",
+                "lastName": "Chiou",
+                "firstName": "Tsyr-Huei",
+                "initials": "TH",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3504-5113"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Life Sciences, National Cheng Kung University, Tainan 70101, Taiwan thchiou@mail.ncku.edu.tw."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang CW",
+                "lastName": "Wang",
+                "firstName": "Ching-Wen",
+                "initials": "CW",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Life Sciences, National Cheng Kung University, Tainan 70101, Taiwan."
+                    },
+                    {
+                      "affiliation": "Queensland Brain Institute, University of Queensland, St Lucia, QLD 4072, Australia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3504-5113"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "Pt 22",
+            "volume": "223",
+            "journalIssueId": 3053981,
+            "dateOfPublication": "2020 Nov",
+            "monthOfPublication": 11,
+            "yearOfPublication": 2020,
+            "journal": {
+              "medlineAbbreviation": "J Exp Biol",
+              "title": "The Journal of experimental biology",
+              "essn": "1477-9145",
+              "issn": "0022-0949",
+              "isoabbreviation": "J Exp Biol",
+              "nlmid": "0243705"
+            },
+            "printPublicationDate": "2020-11-01"
+          },
+          "pubYear": "2020",
+          "pageInfo": "jeb219832",
+          "abstractText": "Stomatopods, or mantis shrimp, are the only animal group known to possess circular polarization vision along with linear polarization vision. By using the rhabdomere of a distally located photoreceptor as a wave retarder, the eyes of mantis shrimp are able to convert circularly polarized light into linearly polarized light. As a result, their circular polarization vision is based on the linearly polarized light-sensitive photoreceptors commonly found in many arthropods. To investigate how linearly and circularly polarized light signals might be processed, we presented a dynamic polarized light stimulus while recording from photoreceptors or lamina neurons in intact mantis shrimp <i>Haptosquilla pulchella</i> The results indicate that all the circularly polarized light-sensitive photoreceptors also showed differential responses to the changing e-vector angle of linearly polarized light. When stimulated with linearly polarized light of varying e-vector angle, most photoreceptors produced a concordant sinusoidal response. In contrast, some lamina neurons doubled the response frequency in reacting to linearly polarized light. These responses resembled a rectified sum of two-channel linear polarization-sensitive photoreceptors, indicating that polarization visual signals are processed at or before the first optic lobe. Noticeably, within the lamina, there was one type of neuron that showed a steady depolarization response to all stimuli except right-handed circularly polarized light. Together, our findings suggest that, between the photoreceptors and lamina neurons, linearly and circularly polarized light may be processed in parallel and differently from one another.",
+          "affiliation": "Department of Life Sciences, National Cheng Kung University, Tainan 70101, Taiwan thchiou@mail.ncku.edu.tw.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Ministry of Science and Technology, Taiwan",
+                "grantId": "102-2311-B006-002-MY3",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Eye"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Crustacea"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Mantodea"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Light"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Photoreceptor Cells"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Vision, Ocular"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Electrophysiology",
+              "Lamina",
+              "Stomatopod",
+              "Polarization Vision",
+              "Visual Neuropil"
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://journals.biologists.com/jeb/article-pdf/223/22/jeb219832/1980335/jeb219832.pdf"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1242/jeb.219832"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2021-06-18",
+          "dateOfCreation": "2020-10-24",
+          "dateOfRevision": "2023-08-23",
+          "electronicPublicationDate": "2020-11-26",
+          "firstPublicationDate": "2020-11-26",
+          "firstIndexDate": "2020-10-25",
+          "hasEvaluations": "N"
+        }
+      ],
+      "download": {
+        "id": "p20",
+        "available": true,
+        "attempts": [
+          {
+            "url": "https://journals.biologists.com/jeb/article-pdf/223/22/jeb219832/1980335/jeb219832.pdf",
+            "result": "HTTP Error 403: Forbidden"
+          }
+        ],
+        "origin": "user-upload",
+        "upload_filename": "jeb219832.pdf",
+        "pdf_path": "papers/p20.pdf",
+        "pages": 8,
+        "bytes": 2302648,
+        "sha256": "0586b6501a4393b996a997ee723ae0eed20b1d0a32e8de2e2225a04ffef21423",
+        "doi_in_pdf": true
+      },
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
+    },
+    "o25": {
+      "id": "o25",
+      "full_reference": "Wang CWJ, Marshall NJ (2025). Behavioural evidence of spectral opponent processing in the visual system of stomatopod crustaceans. Journal of Experimental Biology 228: jeb247952. https://doi.org/10.1242/jeb.247952",
+      "doi": "10.1242/jeb.247952",
+      "title": "Behavioural evidence of spectral opponent processing in the visual system of stomatopod crustaceans",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1210-829X",
+          "authenticated-orcid": false,
+          "given": "Ching-Wen Judy",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Queensland Brain Institute, University of Queensland , St Lucia, QLD 4072 ,",
+              "place": [
+                "Australia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9006-6713",
+          "authenticated-orcid": false,
+          "given": "N. Justin",
+          "family": "Marshall",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Queensland Brain Institute, University of Queensland , St Lucia, QLD 4072 ,",
+              "place": [
+                "Australia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Journal of Experimental Biology",
+      "volume": "228",
+      "pages_or_article": "jeb247952",
+      "year": 2025,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1242%2Fjeb.247952",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1242/jeb.247952&format=json&resultType=core"
+      ],
+      "europepmc": [
+        {
+          "id": "39670570",
+          "source": "MED",
+          "pmid": "39670570",
+          "pmcid": "PMC11744319",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11744319"
+            ]
+          },
+          "doi": "10.1242/jeb.247952",
+          "title": "Behavioural evidence of spectral opponent processing in the visual system of stomatopod crustaceans.",
+          "authorString": "Wang CJ, Marshall NJ.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Wang CJ",
+                "lastName": "Wang",
+                "firstName": "Ching-Wen Judy",
+                "initials": "CJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1210-829X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Queensland Brain Institute, University of Queensland, St Lucia, QLD 4072, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Marshall NJ",
+                "lastName": "Marshall",
+                "firstName": "N Justin",
+                "initials": "NJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9006-6713"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Queensland Brain Institute, University of Queensland, St Lucia, QLD 4072, Australia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9006-6713"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1210-829X"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "228",
+            "journalIssueId": 3877659,
+            "dateOfPublication": "2025 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "J Exp Biol",
+              "title": "The Journal of experimental biology",
+              "essn": "1477-9145",
+              "issn": "0022-0949",
+              "isoabbreviation": "J Exp Biol",
+              "nlmid": "0243705"
+            },
+            "printPublicationDate": "2025-01-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "jeb247952",
+          "abstractText": "Stomatopods, commonly known as mantis shrimps, possess intricate colour vision with up to 12 photoreceptor classes arranged in four specialised ommatidia rows (rows 1-4 in the midband region of the eye) for colour perception. Whereas 2-4 spectral sensitivities suffice for most visual systems, the function and mechanism behind stomatopods' 12-channel colour vision remains unclear. Previous anatomical and behavioural studies have suggested that binning and opponent processing mechanisms may coexist in stomatopod colour vision. However, direct evidence of colour opponency has been lacking. We hypothesised that if colour opponency exists in stomatopod vision, they would be able to distinguish colour from grey under coloured illumination. Conversely, if only the binning system is used, they would not. By examining the colour vision of the stomatopod Haptosquilla trispinosa with modified von Frisch grey card experiments, we found that they can differentiate between colour and grey under various coloured illuminations. Our results provide the first direct behavioural evidence of spectral opponency in stomatopods, suggesting that they use a hybrid colour processing system combining opponent and binning mechanisms for colour vision. This study advances our understanding of the complex visual system in stomatopods and highlights the importance of further research into the processing mechanisms, function and evolution of their unique visual system.",
+          "affiliation": "Queensland Brain Institute, University of Queensland, St Lucia, QLD 4072, Australia.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Australian Research Council",
+                "grantId": "FL140100197",
+                "orderIn": 0
+              },
+              {
+                "agency": "Australian Research Council",
+                "grantId": "DP200101930",
+                "orderIn": 0
+              },
+              {
+                "agency": "University of Queensland",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Crustacea",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AH",
+                      "qualifierName": "anatomy & histology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Behavior, Animal",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Color Perception",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Photoreceptor Cells, Invertebrate",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Color Vision",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Behaviour",
+              "Colour vision",
+              "Spectral Opponency",
+              "Invertebrate Vision",
+              "Stomatopods"
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.1242/jeb.247952"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1242/jeb.247952"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11744319"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "PPR",
+                "id": "PPR847351",
+                "type": "Preprint in",
+                "note": "CrossRef Pre-print loader",
+                "orderIn": 10002
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 3,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2025-01-08",
+          "dateOfCreation": "2024-12-13",
+          "dateOfRevision": "2025-07-31",
+          "electronicPublicationDate": "2025-01-08",
+          "firstPublicationDate": "2025-01-08",
+          "firstIndexDate": "2024-12-13",
+          "fullTextReceivedDate": "2025-11-28",
+          "hasEvaluations": "N"
+        }
+      ],
+      "download": {
+        "id": "o25",
+        "available": true,
+        "attempts": [
+          {
+            "url": "https://europepmc.org/articles/PMC11744319?pdf=render",
+            "result": "HTTP Error 404: Not Found"
+          },
+          {
+            "url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.247952/3587753/jeb247952.pdf",
+            "result": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.247952/3609939/jeb247952.pdf",
+            "result": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.247952/3609939/jeb247952.pdf",
+            "result": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://europepmc.org/articles/PMC11744319/bin/jexbio-228-247952.pdf",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11744319/pdf/jexbio-228-247952.pdf",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11744319/pdf/jexbio-228-247952.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ],
+        "origin": "user-upload",
+        "upload_filename": "jeb247952.pdf",
+        "pdf_path": "papers/o25.pdf",
+        "pages": 14,
+        "bytes": 2797649,
+        "sha256": "8c6509c6516c395662b345ae28a0de215f6cf5e651830efa980fc512b563d779",
+        "doi_in_pdf": true
+      },
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
+    },
+    "n25": {
+      "id": "n25",
+      "full_reference": "Streets A, England H, Marshall J (2025). Neural Repertoire Behind the World's Most Complex Retina: Neuroanatomy of the Stomatopod Lamina. Journal of Comparative Neurology 533: e70063. https://doi.org/10.1002/cne.70063",
+      "doi": "10.1002/cne.70063",
+      "title": "Neural Repertoire Behind the World's Most Complex Retina: Neuroanatomy of the Stomatopod Lamina",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8883-7758",
+          "authenticated-orcid": false,
+          "given": "Amy",
+          "family": "Streets",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Queensland Brain Institute University of Queensland  Brisbane Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hayley",
+          "family": "England",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Queensland Brain Institute University of Queensland  Brisbane Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9006-6713",
+          "authenticated-orcid": false,
+          "given": "Justin",
+          "family": "Marshall",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Queensland Brain Institute University of Queensland  Brisbane Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "Journal of Comparative Neurology",
+      "volume": "533",
+      "pages_or_article": "e70063",
+      "year": 2025,
+      "metadata_verification": [
+        "https://api.crossref.org/works/10.1002%2Fcne.70063",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1002/cne.70063&format=json&resultType=core"
+      ],
+      "europepmc": [
+        {
+          "id": "40503869",
+          "source": "MED",
+          "pmid": "40503869",
+          "pmcid": "PMC12160673",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12160673"
+            ]
+          },
+          "doi": "10.1002/cne.70063",
+          "title": "Neural Repertoire Behind the World's Most Complex Retina: Neuroanatomy of the Stomatopod Lamina.",
+          "authorString": "Streets A, England H, Marshall J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Streets A",
+                "lastName": "Streets",
+                "firstName": "Amy",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8883-7758"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Queensland Brain Institute, University of Queensland, Brisbane, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "England H",
+                "lastName": "England",
+                "firstName": "Hayley",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Queensland Brain Institute, University of Queensland, Brisbane, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Marshall J",
+                "lastName": "Marshall",
+                "firstName": "Justin",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9006-6713"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Queensland Brain Institute, University of Queensland, Brisbane, Australia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9006-6713"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8883-7758"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "533",
+            "journalIssueId": 3947934,
+            "dateOfPublication": "2025 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "J Comp Neurol",
+              "title": "The Journal of comparative neurology",
+              "essn": "1096-9861",
+              "issn": "0021-9967",
+              "nlmid": "0406041",
+              "isoabbreviation": "J Comp Neurol"
+            },
+            "printPublicationDate": "2025-06-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "e70063",
+          "abstractText": "The lamina is the first optic neuropil and visual information integration station in crustaceans and insects, containing synaptic connections between photoreceptors and first-order interneurons. The lamina circuitry in mantis shrimp (stomatopods) is both interesting and complex, as there are 16 different types of photoreceptors contained within the mid-band region of the eye. Using serial block-face scanning electron microscopy, we have reconstructed photoreceptor terminals and lamina interneurons in two major superfamilies with different visual ecologies. Neurons follow the same general pattern as other crustaceans but with notable differences in gross anatomy from insects. The photoreceptors form bulbous terminals in the lamina, following the same overall connectivity pattern in all lamina cartridges across species examined and eye regions. The photoreceptor terminals themselves appear to be complex, with many large mitochondria, a notable difference between insects and stomatopods. Connectivity between photoreceptors and interneurons, as well as cross-cartridge connections, is estimated based on neuronal overlap. Lamina monopolar cells follow previous research in stomatopods and crustaceans, with a set of common neuron types that may provide the beginning of an opponency circuit. Additionally, neurons that extend beyond their parent cartridge in the midband show a preference for branching between rows within the same visual column of cells, as well as some connections within the same row. This added complexity suggests that the stomatopod lamina performs a unique processing of visual signals versus other crustaceans and insects and provides further evidence for the emerging hypotheses around the processing of information by the scanning visual system of stomatopods.",
+          "affiliation": "Queensland Brain Institute, University of Queensland, Brisbane, Australia.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Office of Naval Research Global",
+                "grantId": "N62909-18-1-2134",
+                "orderIn": 0
+              },
+              {
+                "agency": "Australian Research Council",
+                "grantId": "DP200101930",
+                "orderIn": 0
+              },
+              {
+                "agency": "Australian Research Council",
+                "grantId": "FL140100197",
+                "orderIn": 0
+              },
+              {
+                "agency": "Office of Naval Research Global",
+                "grantId": "N62909‐18‐1‐2134",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Visual Pathways",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "UL",
+                      "qualifierName": "ultrastructure"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Neuropil",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "UL",
+                      "qualifierName": "ultrastructure"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Interneurons",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "UL",
+                      "qualifierName": "ultrastructure"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Retina",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CY",
+                      "qualifierName": "cytology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "UL",
+                      "qualifierName": "ultrastructure"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Crustacea",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AH",
+                      "qualifierName": "anatomy & histology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Microscopy, Electron, Scanning"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Photoreceptor Cells, Invertebrate",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "UL",
+                      "qualifierName": "ultrastructure"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Lamina",
+              "Color Vision",
+              "Neural Circuits",
+              "Stomatopod",
+              "Sbem",
+              "Crustacean Vision",
+              "Scr_007353",
+              "Rrids:scr_002285",
+              "Scr_008954"
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1002/cne.70063"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12160673"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12160673?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2025-06-12",
+          "dateOfCreation": "2025-06-12",
+          "dateOfRevision": "2025-06-14",
+          "firstPublicationDate": "2025-06-01",
+          "firstIndexDate": "2025-06-13",
+          "fullTextReceivedDate": "2025-11-29",
+          "hasEvaluations": "N"
+        }
+      ],
+      "download": {
+        "id": "n25",
+        "available": true,
+        "attempts": [
+          {
+            "url": "https://europepmc.org/articles/PMC12160673?pdf=render",
+            "status": 200,
+            "result": "PDF downloaded"
+          }
+        ],
+        "bytes": 4978465,
+        "pages": 14,
+        "sha256": "72fe06e197c42796881da325123fe9a65ec47a45adf951df0df627fa069936d6",
+        "pdf_path": "papers/n25.pdf"
+      },
+      "reading_status": "PDF downloaded; extract available for close reading"
+    }
+  },
+  "pdfs_needed": [],
+  "reference_decks": [
+    {
+      "file": "Neuroethology_Lecture12_FA2026 (5).pptx",
+      "slides": 46,
+      "image_occurrences": 61,
+      "content_slides_with_images": 44,
+      "size_inches": [
+        13.33299978127734,
+        7.5
+      ],
+      "notes_present": 46
+    },
+    {
+      "file": "Neuroethology_Lecture8_FA2026_V3.pptx",
+      "slides": 46,
+      "image_occurrences": 79,
+      "content_slides_with_images": 44,
+      "size_inches": [
+        13.333333333333334,
+        7.5
+      ],
+      "notes_present": 46
+    }
+  ],
+  "research_searches": {
+    "crossref": "Title/topic searches and direct DOI metadata checks",
+    "europepmc": "DOI searches and primary-literature topic searches; open PDFs downloaded where available",
+    "duckduckgo": [
+      {
+        "id": "m88",
+        "query": "\"A unique colour and polarization vision system\" pdf",
+        "url": "https://html.duckduckgo.com/html/?q=%22A+unique+colour+and+polarization+vision+system%22+pdf",
+        "http_status": 200,
+        "result_count": 6
+      },
+      {
+        "id": "cm89",
+        "query": "\"A retina with at least ten spectral types\" pdf",
+        "url": "https://html.duckduckgo.com/html/?q=%22A+retina+with+at+least+ten+spectral+types%22+pdf",
+        "http_status": 200,
+        "result_count": 9
+      },
+      {
+        "id": "t14",
+        "query": "\"A Different Form of Color Vision in Mantis Shrimp\" pdf",
+        "url": "https://html.duckduckgo.com/html/?q=%22A+Different+Form+of+Color+Vision+in+Mantis+Shrimp%22+pdf",
+        "http_status": 202,
+        "result_count": 0
+      },
+      {
+        "id": "b14",
+        "query": "\"Biological Sunscreens Tune Polychromatic Ultraviolet Vision\" pdf",
+        "url": "https://html.duckduckgo.com/html/?q=%22Biological+Sunscreens+Tune+Polychromatic+Ultraviolet+Vision%22+pdf",
+        "http_status": 202,
+        "result_count": 0
+      },
+      {
+        "id": "c08",
+        "query": "\"Circular Polarization Vision in a Stomatopod Crustacean\" pdf",
+        "url": "https://html.duckduckgo.com/html/?q=%22Circular+Polarization+Vision+in+a+Stomatopod+Crustacean%22+pdf",
+        "http_status": 202,
+        "result_count": 0
+      },
+      {
+        "id": "r09",
+        "query": "\"A biological quarter-wave retarder\" pdf",
+        "url": "https://html.duckduckgo.com/html/?q=%22A+biological+quarter-wave+retarder%22+pdf",
+        "http_status": 202,
+        "result_count": 0
+      },
+      {
+        "id": "p20",
+        "query": "\"Neural processing of linearly and circularly polarized\" pdf",
+        "url": "https://html.duckduckgo.com/html/?q=%22Neural+processing+of+linearly+and+circularly+polarized%22+pdf",
+        "http_status": 202,
+        "result_count": 0
+      }
+    ],
+    "access_notes": [
+      "Publisher HTTP 200 HTML responses were not accepted as PDFs.",
+      "Institutional record pages were checked; the UQ records API returned 403.",
+      "The 2025 opponent-processing article full-text XML is available, but its original PDF links returned 403 or 404. XML was not converted into a substitute paper PDF.",
+      "Wrong or irrelevant search hits were excluded from references.",
+      "Marshall (1988) was considered as background; modern downloaded anatomy studies can cover its structural role, so it is not an additional required upload."
+    ]
+  },
+  "access_notes_final": "The authoritative default branch was refreshed again before saving progress; concurrent changes concerned Lecture 14 and were preserved.",
+  "build_base_head": "6d5cce69260d106a7115a4da0efce9045fe28a0a",
+  "authoritative_default_head_checked": "3c2d883e596f24cc77402d4f906026198f2e6161"
+}
