@@ -88,6 +88,11 @@ IMAGES — ON NEARLY EVERY SLIDE
 - If a paper's PDF cannot be downloaded, do not substitute anything. Stop and give me a
   numbered list of the papers you need with DOI links so I can upload the PDFs.
 
+LAYOUT
+- Use two columns: text on one side and scientific figures on the other. Keep figures
+  large, readable, and aligned with the corresponding text. Avoid figures at the bottom
+  beneath the text.
+
 FINISH
 - Run the builder and checker until there are 0 failures, reread every slide and transcript
   against the writing rules, render every slide and fix any text overflow or bad crops,
