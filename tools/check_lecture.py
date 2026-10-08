@@ -85,7 +85,7 @@ def main():
         if pics:
             fig_slides += 1
         notes = s.notes_slide.notes_text_frame.text if s.has_notes_slide else ""
-        if not re.search(r"\(\d{4}\)|\b(19|20)\d{2}\b", notes):
+        if not re.search(r"\((19|20)\d{2}[a-z]?\)|\b(19|20)\d{2}[a-z]?\b", notes):
             errs.append(f"slide {i}: speaker notes need the full reference(s) with year")
         if "doi" not in notes.lower() and "http" not in notes.lower():
             warns.append(f"slide {i}: no DOI/URL in notes")

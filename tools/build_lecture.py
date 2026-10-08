@@ -86,7 +86,7 @@ def fit_size(paras, width_in, height_in, max_pt=BODY_MAX_PT, min_pt=BODY_MIN_PT,
         n_lines = lines_needed(paras, width_in, pt)
         need = n_lines * pt * 1.18 / 72 + (len(paras) - 1) * pt * 0.6 / 72
         if need <= height_in * 0.97:
-            return pt
+            return pt, need
     raise SpecError(
         f"{where}: text does not fit at {min_pt} pt in a {width_in:.1f}x{height_in:.1f} in box. "
         "Cut words, move a paragraph to another slide, or use the 'text' layout."
@@ -221,11 +221,12 @@ class Deck:
         _, tf = textbox(s, x, y, w, 0.55, "Figure caption")
         write_paras(tf, [text], CAPTION_PT, self.t["muted"], space_after=0)
 
-    def body(self, s, paras, x, y, w, h, where):
-        pt = fit_size(paras, w, h, where=where)
+    def body(self, s, paras, x, y, w, h, where, max_pt=BODY_MAX_PT):
+        """Write paragraphs at the largest size that fits; return the estimated height used."""
+        pt, need = fit_size(paras, w, h, max_pt=max_pt, where=where)
         _, tf = textbox(s, x, y, w, h, "Body")
         write_paras(tf, paras, pt, self.t["text"], bold_color=self.t["heading"])
-        return pt
+        return need
 
     # ---------------------------------------------------------- layouts
     def title_slide(self):
@@ -243,7 +244,7 @@ class Deck:
         # break after the first colon for the two-line look; text is unchanged
         lines = [title[: title.index(":") + 1], title[title.index(":") + 1:].strip()] if ":" in title else [title]
         _, tf = textbox(s, x, 2.55, w, 2.1, "Lecture title")
-        pt = fit_size(lines, w, 2.1, max_pt=30, min_pt=22, where="title slide")
+        pt, _ = fit_size(lines, w, 2.1, max_pt=30, min_pt=22, where="title slide")
         write_paras(tf, lines, pt, t["title_text"], space_after=0)
         for p in tf.paragraphs:
             for r in p.runs:
@@ -281,17 +282,17 @@ class Deck:
             self.caption(s, fx, BODY_Y + 0.15 + ph, fig_w, sd["figure"]["caption"])
         elif lay == "figure-below":
             top_h = sd.get("text_height", 1.9)
-            self.body(s, sd["body"], M, BODY_Y, W - 2 * M, top_h, where)
-            fy = BODY_Y + top_h + 0.15
+            used = self.body(s, sd["body"], M, BODY_Y, W - 2 * M, top_h, where, max_pt=16)
+            fy = BODY_Y + used + 0.2
             ph = picture_contain(s, self.path(sd["figure"]["path"]), M, fy, W - 2 * M, BODY_BOTTOM - fy - 0.5)
             self.caption(s, M, fy + ph + 0.08, W - 2 * M, sd["figure"]["caption"])
         elif lay == "two-figures":
             top_h = sd.get("text_height", 1.8)
-            self.body(s, sd["body"], M, BODY_Y, W - 2 * M, top_h, where)
+            used = self.body(s, sd["body"], M, BODY_Y, W - 2 * M, top_h, where, max_pt=16)
             figs = sd["figures"]
             if len(figs) != 2:
                 raise SpecError(f"{where}: two-figures needs exactly 2 figures")
-            fy = BODY_Y + top_h + 0.15
+            fy = BODY_Y + used + 0.2
             gap, fw = 0.4, (W - 2 * M - 0.4) / 2
             for i, f in enumerate(figs):
                 fx = M + i * (fw + gap)
@@ -301,8 +302,8 @@ class Deck:
             tbl = sd["table"]
             rows = len(tbl["rows"]) + 1
             top_h = sd.get("text_height", 2.0)
-            self.body(s, sd["body"], M, BODY_Y, W - 2 * M, top_h, where)
-            ty = BODY_Y + top_h + 0.15
+            used = self.body(s, sd["body"], M, BODY_Y, W - 2 * M, top_h, where, max_pt=16)
+            ty = BODY_Y + used + 0.25
             row_h = min(0.6, (BODY_BOTTOM - ty) / rows)
             shape = s.shapes.add_table(rows, len(tbl["header"]), Inches(M), Inches(ty),
                                        Inches(W - 2 * M), Inches(row_h * rows))
@@ -338,7 +339,7 @@ class Deck:
             cy = BODY_Y + (i // cols) * (ch + gap)
             rect(s, cx, cy, cw, ch, self.t["tint"])
             paras = [f"**{it['lead']}** {it['text']}"]
-            pt = fit_size(paras, cw - 0.4, ch - 0.3, max_pt=16, min_pt=12, where=f"takeaway {i+1}")
+            pt, _ = fit_size(paras, cw - 0.4, ch - 0.3, max_pt=16, min_pt=12, where=f"takeaway {i+1}")
             _, tf = textbox(s, cx + 0.2, cy + 0.15, cw - 0.4, ch - 0.3)
             write_paras(tf, paras, pt, self.t["text"], bold_color=self.t["heading"])
         self.footer(s, tk["cite"])
