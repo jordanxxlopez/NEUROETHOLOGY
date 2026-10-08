@@ -1,6 +1,7 @@
 # Lecture 29
 
-**Navigation II: honeybee waggle dance and sun-compass navigation (von Frisch)**  
+**Navigation II: honeybee waggle dance and sun-compass navigation (von Frisch)**
+
 **Monday, November 2, 2026**
 
 Authoritative connected default branch was refreshed at task start and merged again at `02dd657`, including completed Lecture 28. Work is on `codex/lecture29-primary-sources`. No ZIP or older checkout was used. Current AGENTS.md, lecture skill, schedule, template, themes and the preceding lecture were reviewed. All seven supplied example decks were inspected for slide content, images, notes and typography; their review is recorded in `example-review.json`.
