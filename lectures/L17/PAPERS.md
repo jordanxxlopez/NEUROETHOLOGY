@@ -4,19 +4,19 @@
 
 **Exact date:** Friday, October 2, 2026
 
-The current connected default branch was fetched and updated before research. Europe PMC scholarly searches and Crossref metadata retrieval succeeded. The citations below were checked against Crossref metadata. Full-text PDF verification and scientific panel selection remain pending.
+The current connected default branch was fetched and updated before research. Europe PMC scholarly searches and Crossref metadata retrieval succeeded. The citations below were checked against Crossref metadata. Full-text PDF verification and scientific panel selection are complete.
 
-## Upload status
+## Sources received
 
-Five distinct source PDFs have now been supplied and identified from their article title pages: Simmons (1973), Bates et al. (2011), Simmons et al. (2024), Moss et al. (2006), and Ming et al. (2020).
+All six distinct article PDFs have been supplied and verified against their title pages and the independently retrieved Crossref metadata. The two Moss uploads were byte-identical; only one was used. No additional PDF is required for this deck.
 
-`file.pdf` and `file (1).pdf` are byte-identical copies of Moss et al. (2006), not two different papers. Williams and Fuzessery (2011) remains missing. Its journal PDF endpoint returned a proxy tunnel HTTP 403; the Europe PMC PDF alternative returned HTTP 403. The earlier PMC PDF route returned a verification page rather than a PDF.
+The scientific sources cover comparative range discrimination, echo harmonic structure and masking, FM-selective inhibitory circuitry, population timing in the brainstem and midbrain, active sonar in clutter, and frequency-dependent pulse assignment.
 
-### One PDF still required
+## Figure provenance
 
-1. Williams AJ, Fuzessery ZM (2011). Differential roles of GABAergic and glycinergic input on FM selectivity in the inferior colliculus of the pallid bat. Journal of Neurophysiology 106(5):2523–2535. https://doi.org/10.1152/jn.00569.2011
+`crops.json` records the six source PDFs, one-based PDF pages, and normalized crop boxes. All lecture images are unchanged original article panels rendered and cropped with the repository tools. Figures include the original axes, units, scale bars where present, and panel letters. No diagram, graph, illustration, icon, or photograph was created for the lecture. Source PDFs are kept in the ignored `papers/` directory.
 
-The deck remains paused under the instructor's explicit missing-PDF rule. No substitute figure or incomplete PPTX has been created. No theme has been marked used.
+The spec contains 44 content slides, of which 42 include article figures. All 42 meet the repository checker's article-image requirements. Some panels recur where different source-supported concepts use the same experiment. All content slides have full teaching paragraphs and transcripts with DOI references.
 
 ## Verified bibliography
 
