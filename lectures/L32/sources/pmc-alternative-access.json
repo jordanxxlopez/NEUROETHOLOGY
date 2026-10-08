@@ -1,0 +1,54 @@
+[
+  {
+    "key": "anatomy09",
+    "attempts": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2822067/",
+        "status": 200
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2822067/fullTextXML",
+        "status": 500
+      }
+    ]
+  },
+  {
+    "key": "morphology18",
+    "attempts": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6070301/",
+        "status": 200
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6070301/fullTextXML",
+        "status": 500
+      }
+    ]
+  },
+  {
+    "key": "context14",
+    "attempts": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4132189/",
+        "status": 200
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4132189/fullTextXML",
+        "status": 500
+      }
+    ]
+  },
+  {
+    "key": "dopamine12",
+    "attempts": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3370102/",
+        "status": 200
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3370102/fullTextXML",
+        "status": 500
+      }
+    ]
+  }
+]
