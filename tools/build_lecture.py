@@ -168,7 +168,8 @@ class Deck:
         key = spec.get("theme")
         if key not in themes["palettes"]:
             raise SpecError(f"theme '{key}' not in course/themes.json palettes: {list(themes['palettes'])}")
-        used_labels = {str(v) for v in themes["used"].values()}
+        # a lecture may keep its own recorded theme when it is rebuilt
+        used_labels = {str(v) for k, v in themes["used"].items() if k != str(n)}
         if themes["palettes"][key]["label"] in used_labels and not spec.get("allow_reused_theme"):
             raise SpecError(f"theme '{key}' was already used by another lecture; pick a new one")
         self.t = themes["palettes"][key]
