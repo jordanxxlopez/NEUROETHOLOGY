@@ -1,6 +1,6 @@
 ---
 name: neuroethology-lecture
-description: Build a NEUR 411 Neuroethology (Fall 2026) lecture PowerPoint in the approved Lecture 8-10 format — 1 title slide + 44 content slides + 1 key-takeaways slide, primary-literature research, images ONLY from published articles on nearly every slide (no web photos — never self-made), direct teaching prose with no framing, speaker notes as a teaching transcript, new color theme, exact schedule title. Use whenever the user asks to "make lecture N", "do the same for lecture N", or names a topic from the course schedule.
+description: Build a NEUR 411 Neuroethology (Fall 2026) lecture PowerPoint in the approved Lecture 8-10 format — 1 title slide + 44 content slides + 1 key-takeaways slide, primary-literature research, images ONLY from published articles on nearly every slide (plus a few credited web images where needed, the study animal on the title slide, anatomy for every structure discussed — never self-made), direct teaching prose with no framing, speaker notes as a teaching transcript, new color theme, exact schedule title. Use whenever the user asks to "make lecture N", "do the same for lecture N", or names a topic from the course schedule.
 ---
 
 # NEUR 411 lecture builder
@@ -22,6 +22,7 @@ Use the connected `jordanxxlopez/NEUROETHOLOGY` repository’s current default b
    - Caption: `Author (year), Fig. N(panel). What it shows.` Supply the article DOI as `source_url`.
    - At least 40 of the 44 content slides carry an original article figure, satisfying the repository image minimum and the instructor's minimum of 18 article-figure slides. Slides without an article figure are text slides; a text table of values reported in the source is allowed.
    - If a needed PDF cannot be downloaded, stop before delivering the deck and provide a numbered list of the needed papers with DOI links so the instructor can upload them. Never substitute a created image.
+   - The title slide uses an original article figure of the study animal; never substitute a web photograph.
 
 7. **New color theme every lecture.** Pick a palette from `course/themes.json` that is not in `used`. Never yellow, orange, gold or other loud colors; purple and green are already used. Font is always **Arial**. After the deck is final, add the lecture to `used`.
 8. **Citations:** short citation in the slide footer (e.g. `Maisak et al. (2013)`), full reference with DOI in the speaker notes after `References:`, figure caption names the exact figure and panel.
@@ -58,7 +59,7 @@ The builder and checker reject the banned phrasings and statistics automatically
    Check each crop visually: no clipped labels, no fragments of neighboring panels, no stray text.
    **If the PDFs cannot be downloaded** (blocked network, paywall): do NOT draw substitutes. Give the instructor a numbered list of the papers with DOI links and ask them to upload the PDFs; build the figure slides from the uploads. Save the list as `lectures/L<N>/PAPERS.md`.
 5. **Write the spec** (for long lectures, generate it from a `write_spec.py` that defines each reference once): copy `lectures/_template/` to `lectures/L<N>/` and fill `lecture.json` — `body` (slide paragraphs), `transcript` (speaker-note bullets: strings or `[text, [sub-bullets]]`), `cite`, `refs`, and `figure`/`figures` (layouts: `text`, `figure-right`, `figure-left`, `figure-below`, `two-figures`, `table`; `**bold**` for key terms, `_italic_` for species names). Prefer `figure-right` for most figure slides — it keeps body text largest.
-6. **Build:** `python tools/build_lecture.py lectures/L<N>/lecture.json` → writes `lectures/L<N>/Neuroethology_Lecture<N>_FA2026.pptx` and runs `tools/check_lecture.py`. The builder refuses: text that will not fit at 13 pt, banned framing, statistics clutter, a missing transcript, and any image lacking required article source credit, and decks where fewer than 40 content slides have an image or fewer than 40 have an article figure. Fix every FAIL.
+6. **Build:** `python tools/build_lecture.py lectures/L<N>/lecture.json` → writes `lectures/L<N>/Neuroethology_Lecture<N>_FA2026.pptx` and runs `tools/check_lecture.py`. The builder refuses: text that will not fit at 13 pt, banned framing, statistics clutter, a missing transcript, and any image lacking required article source credit, a missing title-slide animal image, and decks where fewer than 40 content slides have an image or fewer than 34 have an article figure. Fix every FAIL.
 7. **Visual QA:** convert to PDF and images and look at every slide (text overflow, figure crops, caption collisions with the footer). Fix and rebuild.
 8. Add the theme to `used` in `course/themes.json`, commit the spec, figures and deck, push, and give the instructor the .pptx.
 

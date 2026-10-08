@@ -5,7 +5,7 @@ Paste this in a chat inside the "NEUR 411 Lectures" project. Change only the lec
 ```text
 Make Lecture [N] for NEUR 411 as a downloadable .pptx, following the project instructions exactly.
 
-1. Unzip NEUR411-lecture-builder.zip and read AGENTS.md, course/schedule.json and course/themes.json.
+1. Use the connected repository’s current default branch and read AGENTS.md, course/schedule.json and course/themes.json. Never use a ZIP.
    Use the exact title and date for Lecture [N] from the schedule.
 2. Search the web and the primary literature for this topic. Before writing slides, give me a
    numbered list of the papers you will use with DOI links, and mark which ones I need to upload as

@@ -30,7 +30,7 @@ IMAGES — STRICT
 - Your Python tool has no internet. If you cannot obtain a paper's PDF, do not substitute anything: give a numbered list of the papers needed with DOI links and ask the instructor to upload the PDFs. Slides without an article figure are text slides.
 
 WORKFLOW
-1. Unzip the builder; read AGENTS.md, course/schedule.json and course/themes.json.
+1. Use the connected repository’s current default branch; read AGENTS.md, course/schedule.json and course/themes.json. Never use a ZIP.
 2. Research with web search; list the papers; request any PDFs you cannot open.
 3. Crop figures from the uploaded PDFs and look at every crop.
 4. Write lectures/L<N>/lecture.json (body, transcript, cite, refs, figure) and run python tools/build_lecture.py lectures/L<N>/lecture.json until it reports 0 failures.
