@@ -1,0 +1,1961 @@
+{
+  "lecture": 27,
+  "theme": "rosewater-harbor",
+  "content_slides": 44,
+  "title_image": {
+    "path": "figures/animal.png",
+    "caption": "Reichenthal et al. (2018), Fig. 1(A). Archerfish directing a water jet toward an aerial insect.",
+    "source_url": "https://doi.org/10.3389/fncir.2018.00018",
+    "kind": "article",
+    "original_color": true
+  },
+  "slides": [
+    {
+      "layout": "figure-right",
+      "title": "A water shot and a predictive start secure aerial prey",
+      "body": [
+        "Archerfish are aquatic predators that dislodge aerial prey with a directed water jet. In _Toxotes jaculatrix_, a successful shot releases an insect into a falling trajectory. Securing the food then requires reaching the water-entry point before another fish does; the shooter and nearby bystanders can both respond.",
+        "Rossel and colleagues recorded fish and dislodged flies from above. Responding fish initiated a rapid turn within approximately 100 ms, aligned toward the future landing point, and accelerated along that heading while the prey remained airborne. Shooting and interception therefore impose different motor demands.",
+        "Gerullis and Schuster separately recorded shots at controlled target heights of 20, 40 and 60 cm. These experiments measured jet control and prey interception directly; neither behavior alone identifies the neurons that compute a successful aim."
+      ],
+      "transcript": [
+        [
+          "Archerfish are aquatic predators that dislodge aerial prey with a directed water jet. In Toxotes jaculatrix, a successful shot releases an insect into a falling trajectory. Securing the food then requires reaching the water-entry point before another fish does; the shooter and nearby bystanders can both respond.",
+          [
+            "The photographed fish belongs to the visual-physiology preparation of Reichenthal and colleagues. The interception measurements and jet measurements come from separate primary experiments."
+          ]
+        ],
+        [
+          "Rossel and colleagues recorded fish and dislodged flies from above. Responding fish initiated a rapid turn within approximately 100 ms, aligned toward the future landing point, and accelerated along that heading while the prey remained airborne. Shooting and interception therefore impose different motor demands.",
+          []
+        ],
+        [
+          "Gerullis and Schuster separately recorded shots at controlled target heights of 20, 40 and 60 cm. These experiments measured jet control and prey interception directly; neither behavior alone identifies the neurons that compute a successful aim.",
+          []
+        ]
+      ],
+      "cite": "Rossel et al. (2002); Gerullis & Schuster (2014)",
+      "refs": [
+        "Rossel S, Corlija J, Schuster S (2002). Predicting three-dimensional target motion: how archer fish determine where to catch their dislodged prey. Journal of Experimental Biology 205: 3321-3326. https://doi.org/10.1242/jeb.205.21.3321",
+        "Gerullis P, Schuster S (2014). Archerfish Actively Control the Hydrodynamics of Their Jets. Current Biology 24: 2156-2160. https://doi.org/10.1016/j.cub.2014.07.059",
+        "Reichenthal A, Ben-Tov M, Segev R (2018). Coding Schemes in the Archerfish Optic Tectum. Frontiers in Neural Circuits 12: 18. https://doi.org/10.3389/fncir.2018.00018"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/animal.png",
+        "caption": "Reichenthal et al. (2018), Fig. 1(A). Archerfish directing a water jet toward an aerial insect.",
+        "source_url": "https://doi.org/10.3389/fncir.2018.00018",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Controlled prey release separates two possible aims",
+      "body": [
+        "A **ballistic trajectory** is motion dominated by initial velocity and gravity after release. Rossel and colleagues attached wet flies, approximately 50 mg, beneath a disk positioned 20 or 40 cm above the water. Overhead video sampled prey and fish positions at 20-ms intervals.",
+        "The investigators compared errors relative to two destinations: the eventual water-entry point and the prey’s horizontal position when the fish finished turning. They corrected the camera’s perspective for the prey’s changing height rather than treating its image position as an unchanged water-surface coordinate.",
+        "This comparison separates prediction from pursuit of the currently visible target. Trials with obstructed turns were excluded, and initial misalignment exceeded 10° so turn onset and completion could be identified. Temporal resolution limits the precision assigned to individual response latencies."
+      ],
+      "transcript": [
+        [
+          "A ballistic trajectory is motion dominated by initial velocity and gravity after release. Rossel and colleagues attached wet flies, approximately 50 mg, beneath a disk positioned 20 or 40 cm above the water. Overhead video sampled prey and fish positions at 20-ms intervals.",
+          [
+            "The two errors are defined in the authors’ original preparation. The study did not record a neural representation of either destination."
+          ]
+        ],
+        [
+          "The investigators compared errors relative to two destinations: the eventual water-entry point and the prey’s horizontal position when the fish finished turning. They corrected the camera’s perspective for the prey’s changing height rather than treating its image position as an unchanged water-surface coordinate.",
+          []
+        ],
+        [
+          "This comparison separates prediction from pursuit of the currently visible target. Trials with obstructed turns were excluded, and initial misalignment exceeded 10° so turn onset and completion could be identified. Temporal resolution limits the precision assigned to individual response latencies.",
+          []
+        ]
+      ],
+      "cite": "Rossel et al. (2002)",
+      "refs": [
+        "Rossel S, Corlija J, Schuster S (2002). Predicting three-dimensional target motion: how archer fish determine where to catch their dislodged prey. Journal of Experimental Biology 205: 3321-3326. https://doi.org/10.1242/jeb.205.21.3321"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/task.png",
+        "caption": "Rossel et al. (2002), Fig. 1(A–B). Published preparation and definitions of landing-point and current-position errors.",
+        "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+        "kind": "article",
+        "original_color": false
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Initial height and velocity constrain the landing point",
+      "body": [
+        "For the released flies, horizontal landing distance increased with initial horizontal velocity. Rossel and colleagues compared the measured distances at 20- and 40-cm release heights with the published ballistic predictions. The data were consistent with negligible air resistance and negligible initial vertical velocity under these conditions.",
+        "The same horizontal speed produces a more distant landing point when the release height is greater, because the object remains airborne longer. A fish must therefore combine motion information with height information; horizontal speed alone cannot identify the destination across both heights.",
+        "The ballistic approximation was checked against actual prey paths rather than imposed without measurement. Its success applies to the wet flies and release conditions tested. It does not establish that every natural insect, especially one actively flying or falling with substantial drag, follows the same trajectory."
+      ],
+      "transcript": [
+        [
+          "For the released flies, horizontal landing distance increased with initial horizontal velocity. Rossel and colleagues compared the measured distances at 20- and 40-cm release heights with the published ballistic predictions. The data were consistent with negligible air resistance and negligible initial vertical velocity under these conditions.",
+          [
+            "The published graph contains both measured landings and the authors’ theoretical curves. No values have been replotted or reconstructed."
+          ]
+        ],
+        [
+          "The same horizontal speed produces a more distant landing point when the release height is greater, because the object remains airborne longer. A fish must therefore combine motion information with height information; horizontal speed alone cannot identify the destination across both heights.",
+          []
+        ],
+        [
+          "The ballistic approximation was checked against actual prey paths rather than imposed without measurement. Its success applies to the wet flies and release conditions tested. It does not establish that every natural insect, especially one actively flying or falling with substantial drag, follows the same trajectory.",
+          []
+        ]
+      ],
+      "cite": "Rossel et al. (2002)",
+      "refs": [
+        "Rossel S, Corlija J, Schuster S (2002). Predicting three-dimensional target motion: how archer fish determine where to catch their dislodged prey. Journal of Experimental Biology 205: 3321-3326. https://doi.org/10.1242/jeb.205.21.3321"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/ballistics.png",
+        "caption": "Rossel et al. (2002), Fig. 2. Landing distance versus horizontal take-off velocity at 20 and 40 cm.",
+        "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+        "kind": "article",
+        "original_color": false
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Interception works across widely different initial headings",
+      "body": [
+        "A bystander’s initial orientation can differ greatly from the direction in which a dislodged fly moves. Rossel and colleagues sampled this angular relation at both 20- and 40-cm prey heights, including orientations that required large turns before acceleration toward the destination.",
+        "The observed headings were therefore not restricted to a shooter already facing the prey’s path. Responders could transform prey-motion information into a body-centered turning requirement while occupying different positions and orientations in the tank. Turning generally ended before the prey entered the water.",
+        "This behavioral flexibility rules out a fixed turn angle as an adequate explanation of interception. It does not reveal the particular coordinate transformation performed by the nervous system. The analysis considered unobstructed first responders, so it does not describe every maneuver made in a crowded group."
+      ],
+      "transcript": [
+        [
+          "A bystander’s initial orientation can differ greatly from the direction in which a dislodged fly moves. Rossel and colleagues sampled this angular relation at both 20- and 40-cm prey heights, including orientations that required large turns before acceleration toward the destination.",
+          [
+            "The broad orientation distributions are separate from the later, higher-resolution measurements of C-start kinematics."
+          ]
+        ],
+        [
+          "The observed headings were therefore not restricted to a shooter already facing the prey’s path. Responders could transform prey-motion information into a body-centered turning requirement while occupying different positions and orientations in the tank. Turning generally ended before the prey entered the water.",
+          []
+        ],
+        [
+          "This behavioral flexibility rules out a fixed turn angle as an adequate explanation of interception. It does not reveal the particular coordinate transformation performed by the nervous system. The analysis considered unobstructed first responders, so it does not describe every maneuver made in a crowded group.",
+          []
+        ]
+      ],
+      "cite": "Rossel et al. (2002)",
+      "refs": [
+        "Rossel S, Corlija J, Schuster S (2002). Predicting three-dimensional target motion: how archer fish determine where to catch their dislodged prey. Journal of Experimental Biology 205: 3321-3326. https://doi.org/10.1242/jeb.205.21.3321"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/orientation.png",
+        "caption": "Rossel et al. (2002), Fig. 3(A–B). Initial orientations sampled during prey interception.",
+        "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+        "kind": "article",
+        "original_color": false
+      }
+    },
+    {
+      "layout": "figures-right",
+      "title": "Turns target future impact rather than current prey position",
+      "body": [
+        "Rossel and colleagues measured where the fish’s final heading intersected the prey’s projected horizontal path. Errors relative to the future water-entry point were centered near zero at both tested heights, across the naturally occurring range of horizontal take-off speeds.",
+        "Errors relative to the prey’s position at turn completion instead showed a systematic offset. The fish had already aimed ahead of that position. This within-trial comparison used the same responses and therefore did not confound two different groups of animals or two different stimulus histories.",
+        "The result supports prediction of the landing destination before impact. It is stronger than merely observing that fish eventually catch prey, because later swimming corrections cannot account for the initial heading. It does not specify whether prediction uses an explicit internal trajectory or a learned relation between sensory variables and destination."
+      ],
+      "transcript": [
+        [
+          "Rossel and colleagues measured where the fish’s final heading intersected the prey’s projected horizontal path. Errors relative to the future water-entry point were centered near zero at both tested heights, across the naturally occurring range of horizontal take-off speeds.",
+          [
+            "The two original error graphs use the same prey trajectories and turn responses, making the alternative aiming hypotheses directly comparable."
+          ]
+        ],
+        [
+          "Errors relative to the prey’s position at turn completion instead showed a systematic offset. The fish had already aimed ahead of that position. This within-trial comparison used the same responses and therefore did not confound two different groups of animals or two different stimulus histories.",
+          []
+        ],
+        [
+          "The result supports prediction of the landing destination before impact. It is stronger than merely observing that fish eventually catch prey, because later swimming corrections cannot account for the initial heading. It does not specify whether prediction uses an explicit internal trajectory or a learned relation between sensory variables and destination.",
+          []
+        ]
+      ],
+      "cite": "Rossel et al. (2002)",
+      "refs": [
+        "Rossel S, Corlija J, Schuster S (2002). Predicting three-dimensional target motion: how archer fish determine where to catch their dislodged prey. Journal of Experimental Biology 205: 3321-3326. https://doi.org/10.1242/jeb.205.21.3321"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/aim.png",
+          "caption": "Rossel et al. (2002), Fig. 5(A–B). Errors relative to the future landing point.",
+          "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+          "kind": "article",
+          "original_color": false
+        },
+        {
+          "path": "figures/currentaim.png",
+          "caption": "Rossel et al. (2002), Fig. 6(A–B). Errors relative to the prey position at turn completion.",
+          "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+          "kind": "article",
+          "original_color": false
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Reversing prey motion exposes an initial motor commitment",
+      "body": [
+        "To test dependence on continuing visual feedback, Rossel and colleagues tethered prey with a thin filament. The fly initially moved freely for slightly more than 100 ms, then stopped and reversed its direction when the filament became taut.",
+        "Fish still turned and initially accelerated toward the landing point predicted from the early motion. Corrections appeared much later. An initial commitment therefore persisted even though the subsequently visible trajectory contradicted the motion information used to choose it.",
+        "This manipulation supports an initially programmed turn and acceleration rather than continuous tracking during that phase. It does not imply that the entire hunt is permanently open loop. The paper reports the reversal experiment in text without a separate data panel; the accompanying original latency panel documents the timing of the normal turn preparation."
+      ],
+      "transcript": [
+        [
+          "To test dependence on continuing visual feedback, Rossel and colleagues tethered prey with a thin filament. The fly initially moved freely for slightly more than 100 ms, then stopped and reversed its direction when the filament became taut.",
+          [
+            "The figure is the published free-flight latency distribution, not an invented reversal graph. The filament result is reported separately in the article text."
+          ]
+        ],
+        [
+          "Fish still turned and initially accelerated toward the landing point predicted from the early motion. Corrections appeared much later. An initial commitment therefore persisted even though the subsequently visible trajectory contradicted the motion information used to choose it.",
+          []
+        ],
+        [
+          "This manipulation supports an initially programmed turn and acceleration rather than continuous tracking during that phase. It does not imply that the entire hunt is permanently open loop. The paper reports the reversal experiment in text without a separate data panel; the accompanying original latency panel documents the timing of the normal turn preparation.",
+          []
+        ]
+      ],
+      "cite": "Rossel et al. (2002)",
+      "refs": [
+        "Rossel S, Corlija J, Schuster S (2002). Predicting three-dimensional target motion: how archer fish determine where to catch their dislodged prey. Journal of Experimental Biology 205: 3321-3326. https://doi.org/10.1242/jeb.205.21.3321"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/latency.png",
+        "caption": "Rossel et al. (2002), Fig. 4(A–B). Turn onset and completion relative to prey landing.",
+        "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+        "kind": "article",
+        "original_color": false
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Horizontal motion evokes a virtual landing prediction",
+      "body": [
+        "Rossel and colleagues placed prey on a transparent horizontal glass screen at 20 or 40 cm height. Air from a blast pipe moved the object horizontally at speeds within the natural take-off range. The target therefore moved without descending toward the water.",
+        "Fish nevertheless turned toward the **virtual landing point**, the destination at which prey with that initial height and horizontal velocity would have entered the water if allowed to fall. Errors relative to this virtual point were centered near zero at both heights.",
+        "Straight extrapolation of the actual horizontal trajectory cannot supply a finite water-entry point in this preparation. The result instead supports a relation built from initial height, speed and direction. It establishes the behavioral input–output relation while leaving the neural implementation of that relation unresolved."
+      ],
+      "transcript": [
+        [
+          "Rossel and colleagues placed prey on a transparent horizontal glass screen at 20 or 40 cm height. Air from a blast pipe moved the object horizontally at speeds within the natural take-off range. The target therefore moved without descending toward the water.",
+          [
+            "Preventing descent changes the spatial trajectory while retaining the initial horizontal motion cue. That intervention separates trajectory continuation from a landing-point computation."
+          ]
+        ],
+        [
+          "Fish nevertheless turned toward the virtual landing point, the destination at which prey with that initial height and horizontal velocity would have entered the water if allowed to fall. Errors relative to this virtual point were centered near zero at both heights.",
+          []
+        ],
+        [
+          "Straight extrapolation of the actual horizontal trajectory cannot supply a finite water-entry point in this preparation. The result instead supports a relation built from initial height, speed and direction. It establishes the behavioral input–output relation while leaving the neural implementation of that relation unresolved.",
+          []
+        ]
+      ],
+      "cite": "Rossel et al. (2002)",
+      "refs": [
+        "Rossel S, Corlija J, Schuster S (2002). Predicting three-dimensional target motion: how archer fish determine where to catch their dislodged prey. Journal of Experimental Biology 205: 3321-3326. https://doi.org/10.1242/jeb.205.21.3321"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/virtual.png",
+        "caption": "Rossel et al. (2002), Fig. 7(A–B). Turns toward virtual landing points for targets moving horizontally.",
+        "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+        "kind": "article",
+        "original_color": false
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Predictive starts bend and then straighten the body",
+      "body": [
+        "A **C-start** is a rapid maneuver in which the body first bends into a C-like shape and then straightens with an opposite tail movement. Wöhl and Schuster filmed predictive starts from above at 500 frames per second, resolving consecutive body positions every 2 ms.",
+        "They defined the first stage by bending toward the chosen destination and the second by straightening. In an original example, a fish rotated 43.6° within 22 ms and subsequently reached a take-off speed of 1.225 m/s. The center of mass and body axis were measured independently.",
+        "Thus, displacement and rotation are coordinated within a recognizable two-stage motor pattern. The timing definitions matter: the end of bending does not necessarily mark completion of the turn, because large turns can continue during straightening. Body kinematics alone cannot prove which descending neurons initiate the maneuver."
+      ],
+      "transcript": [
+        [
+          "A C-start is a rapid maneuver in which the body first bends into a C-like shape and then straightens with an opposite tail movement. Wöhl and Schuster filmed predictive starts from above at 500 frames per second, resolving consecutive body positions every 2 ms.",
+          [
+            "The silhouettes are the authors’ published high-speed sequence, including their stage colors and measured center-of-mass markers."
+          ]
+        ],
+        [
+          "They defined the first stage by bending toward the chosen destination and the second by straightening. In an original example, a fish rotated 43.6° within 22 ms and subsequently reached a take-off speed of 1.225 m/s. The center of mass and body axis were measured independently.",
+          []
+        ],
+        [
+          "Thus, displacement and rotation are coordinated within a recognizable two-stage motor pattern. The timing definitions matter: the end of bending does not necessarily mark completion of the turn, because large turns can continue during straightening. Body kinematics alone cannot prove which descending neurons initiate the maneuver.",
+          []
+        ]
+      ],
+      "cite": "Wöhl & Schuster (2007)",
+      "refs": [
+        "Wöhl S, Schuster S (2007). The predictive start of hunting archer fish: a flexible and precise motor pattern performed with the kinematics of an escape C-start. Journal of Experimental Biology 210: 311-324. https://doi.org/10.1242/jeb.02646"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/sequence.png",
+        "caption": "Wöhl & Schuster (2007), Fig. 3. Original 2-ms silhouettes of bending, straightening and take-off.",
+        "source_url": "https://doi.org/10.1242/jeb.02646",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figures-right",
+      "title": "Fast starts combine rapid rotation with strong acceleration",
+      "body": [
+        "Wöhl and Schuster reconstructed angular and linear motion from high-speed video. Predictive starts reached angular speeds above 4500°/s and linear speeds as high as 2.1 m/s. Their measured peak linear acceleration reached 120 m/s².",
+        "Angular speed generally peaked during initial bending, whereas the strongest linear speed occurred after straightening began. These different time courses separate reorientation from the subsequent acceleration toward the predicted prey destination. The same maneuver can therefore set both heading and take-off speed.",
+        "These are measured ranges across demanding interception responses, not a claim that every start achieves the maxima simultaneously. The estimates required smoothing position records before differentiating them. They establish unusually high motor performance, while leaving the neuronal commands and muscle recruitment pattern unmeasured."
+      ],
+      "transcript": [
+        [
+          "Wöhl and Schuster reconstructed angular and linear motion from high-speed video. Predictive starts reached angular speeds above 4500°/s and linear speeds as high as 2.1 m/s. Their measured peak linear acceleration reached 120 m/s².",
+          [
+            "Angular speed measures change in body orientation per unit time; linear speed measures translation of the center of mass. The published profiles should not be treated as interchangeable."
+          ]
+        ],
+        [
+          "Angular speed generally peaked during initial bending, whereas the strongest linear speed occurred after straightening began. These different time courses separate reorientation from the subsequent acceleration toward the predicted prey destination. The same maneuver can therefore set both heading and take-off speed.",
+          []
+        ],
+        [
+          "These are measured ranges across demanding interception responses, not a claim that every start achieves the maxima simultaneously. The estimates required smoothing position records before differentiating them. They establish unusually high motor performance, while leaving the neuronal commands and muscle recruitment pattern unmeasured.",
+          []
+        ]
+      ],
+      "cite": "Wöhl & Schuster (2007)",
+      "refs": [
+        "Wöhl S, Schuster S (2007). The predictive start of hunting archer fish: a flexible and precise motor pattern performed with the kinematics of an escape C-start. Journal of Experimental Biology 210: 311-324. https://doi.org/10.1242/jeb.02646"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/turnspeed.png",
+          "caption": "Wöhl & Schuster (2007), Fig. 5(A–B). Angular speed and acceleration during predictive starts.",
+          "source_url": "https://doi.org/10.1242/jeb.02646",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/linearspeed.png",
+          "caption": "Wöhl & Schuster (2007), Fig. 6(A–B). Linear speed and acceleration for different required take-off speeds.",
+          "source_url": "https://doi.org/10.1242/jeb.02646",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Predictive and escape starts share a fast motor pattern",
+      "body": [
+        "Wöhl and Schuster elicited escape C-starts in the same fish and compared them with prey-directed predictive starts. Both behaviors contained rapid bending followed by straightening, and their ranges of stage durations and performance substantially overlapped.",
+        "Predictive starts were not systematically slower despite requiring a heading appropriate for a future catch point. Escape starts also varied in turn angle and speed, so neither behavioral category could be described adequately as a single stereotyped body movement.",
+        "The shared kinematics support possible recruitment of overlapping fast-start circuitry. They do not directly demonstrate that the same identified neuron fires in both contexts. Establishing that causal link requires recordings during the behavior or a selective intervention, rather than resemblance between published body silhouettes alone."
+      ],
+      "transcript": [
+        [
+          "Wöhl and Schuster elicited escape C-starts in the same fish and compared them with prey-directed predictive starts. Both behaviors contained rapid bending followed by straightening, and their ranges of stage durations and performance substantially overlapped.",
+          [
+            "The study compares actual predictive and experimentally elicited escape movements in the same preparation; circuit identity remains an inference from their similar performance."
+          ]
+        ],
+        [
+          "Predictive starts were not systematically slower despite requiring a heading appropriate for a future catch point. Escape starts also varied in turn angle and speed, so neither behavioral category could be described adequately as a single stereotyped body movement.",
+          []
+        ],
+        [
+          "The shared kinematics support possible recruitment of overlapping fast-start circuitry. They do not directly demonstrate that the same identified neuron fires in both contexts. Establishing that causal link requires recordings during the behavior or a selective intervention, rather than resemblance between published body silhouettes alone.",
+          []
+        ]
+      ],
+      "cite": "Wöhl & Schuster (2007)",
+      "refs": [
+        "Wöhl S, Schuster S (2007). The predictive start of hunting archer fish: a flexible and precise motor pattern performed with the kinematics of an escape C-start. Journal of Experimental Biology 210: 311-324. https://doi.org/10.1242/jeb.02646"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/escape.png",
+        "caption": "Wöhl & Schuster (2007), Fig. 12(A–B). Original comparison of predictive and escape C-start sequences.",
+        "source_url": "https://doi.org/10.1242/jeb.02646",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "The amount of body bending helps set the turn angle",
+      "body": [
+        "Predictive starts had to produce turns from 4° to 156° and take-off speeds from 0.4 to 2.1 m/s in Wöhl and Schuster’s recordings. Turn size was most closely associated with the maximum body bending reached at the end of the first stage.",
+        "For larger turns, further rotation could occur during straightening. Changes in stage durations, angular speed and displacement contributed additional variability. The motor pattern was therefore flexibly adjusted rather than selected from a small set of identical movements.",
+        "Maximum bending is a kinematic predictor, not itself a demonstrated neural command variable. Correlations among body measurements cannot determine the order in which the nervous system specifies them. The findings constrain circuit explanations: any adequate mechanism must allow rapid movement with continuously variable turning and speed."
+      ],
+      "transcript": [
+        [
+          "Predictive starts had to produce turns from 4° to 156° and take-off speeds from 0.4 to 2.1 m/s in Wöhl and Schuster’s recordings. Turn size was most closely associated with the maximum body bending reached at the end of the first stage.",
+          [
+            "The original relation compares required turn angle with the extent of bending. No graph has been generated from the reported angle range."
+          ]
+        ],
+        [
+          "For larger turns, further rotation could occur during straightening. Changes in stage durations, angular speed and displacement contributed additional variability. The motor pattern was therefore flexibly adjusted rather than selected from a small set of identical movements.",
+          []
+        ],
+        [
+          "Maximum bending is a kinematic predictor, not itself a demonstrated neural command variable. Correlations among body measurements cannot determine the order in which the nervous system specifies them. The findings constrain circuit explanations: any adequate mechanism must allow rapid movement with continuously variable turning and speed.",
+          []
+        ]
+      ],
+      "cite": "Wöhl & Schuster (2007)",
+      "refs": [
+        "Wöhl S, Schuster S (2007). The predictive start of hunting archer fish: a flexible and precise motor pattern performed with the kinematics of an escape C-start. Journal of Experimental Biology 210: 311-324. https://doi.org/10.1242/jeb.02646"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/turnsize.png",
+        "caption": "Wöhl & Schuster (2007), Fig. 9. Maximum bending predicts the required turn angle.",
+        "source_url": "https://doi.org/10.1242/jeb.02646",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Target height changes jet control",
+      "body": [
+        "Gerullis and Schuster trained _Toxotes jaculatrix_ to shoot from a restricted channel at targets 20, 40 or 60 cm above the water. Small black spheres provided reproducible targets, and successful shots were rewarded with flies delivered in front of the shooter.",
+        "Side-view recordings reached 5000 frames per second, allowing the investigators to follow the water from emergence to impact. The fish tolerated the illumination needed for these recordings and maintained a nearly fixed mouth-tip position during water release.",
+        "This preparation separates the target’s range from the fish’s shooting position. It also extends beyond the very short distances used in earlier jet measurements. The controlled target and constrained firing geometry improve measurement, but they do not reproduce every angle, target attachment or wind condition of a natural hunt."
+      ],
+      "transcript": [
+        [
+          "Gerullis and Schuster trained Toxotes jaculatrix to shoot from a restricted channel at targets 20, 40 or 60 cm above the water. Small black spheres provided reproducible targets, and successful shots were rewarded with flies delivered in front of the shooter.",
+          [
+            "Target spheres were 5 mm in diameter. The restricted channel reduced variation in position and camera angle across the three target heights."
+          ]
+        ],
+        [
+          "Side-view recordings reached 5000 frames per second, allowing the investigators to follow the water from emergence to impact. The fish tolerated the illumination needed for these recordings and maintained a nearly fixed mouth-tip position during water release.",
+          []
+        ],
+        [
+          "This preparation separates the target’s range from the fish’s shooting position. It also extends beyond the very short distances used in earlier jet measurements. The controlled target and constrained firing geometry improve measurement, but they do not reproduce every angle, target attachment or wind condition of a natural hunt.",
+          []
+        ]
+      ],
+      "cite": "Gerullis & Schuster (2014)",
+      "refs": [
+        "Gerullis P, Schuster S (2014). Archerfish Actively Control the Hydrodynamics of Their Jets. Current Biology 24: 2156-2160. https://doi.org/10.1016/j.cub.2014.07.059"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/jettips.png",
+        "caption": "Gerullis & Schuster (2014), Fig. 1(D). Preimpact tips at 20, 40 and 60 cm; original 1-cm scale bar.",
+        "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "The jet focuses just before impact at the chosen range",
+      "body": [
+        "In shots aimed at a target 60 cm high, the water had not finished assembling at the jet tip after 30 cm of travel. Near impact, the tip became concentrated. By contrast, a shot aimed at 20 cm was already focused at that closer target height.",
+        "Gerullis and Schuster compared original high-speed images at equivalent travel positions and at the preimpact phase. Preimpact tips were similarly concentrated across the three target heights, whereas the intermediate shapes differed according to the intended range.",
+        "The result rejects a fixed-distance focusing account in which water always assembles near the mouth and the finished tip simply travels onward. It supports active adjustment of the focusing distance. Image comparisons establish the jet’s spatial organization, but they do not by themselves identify the muscular or neural control signals."
+      ],
+      "transcript": [
+        [
+          "In shots aimed at a target 60 cm high, the water had not finished assembling at the jet tip after 30 cm of travel. Near impact, the tip became concentrated. By contrast, a shot aimed at 20 cm was already focused at that closer target height.",
+          [
+            "The two photographs are different phases of a shot to the same 60-cm target, with the article’s original scale bar preserved."
+          ]
+        ],
+        [
+          "Gerullis and Schuster compared original high-speed images at equivalent travel positions and at the preimpact phase. Preimpact tips were similarly concentrated across the three target heights, whereas the intermediate shapes differed according to the intended range.",
+          []
+        ],
+        [
+          "The result rejects a fixed-distance focusing account in which water always assembles near the mouth and the finished tip simply travels onward. It supports active adjustment of the focusing distance. Image comparisons establish the jet’s spatial organization, but they do not by themselves identify the muscular or neural control signals.",
+          []
+        ]
+      ],
+      "cite": "Gerullis & Schuster (2014)",
+      "refs": [
+        "Gerullis P, Schuster S (2014). Archerfish Actively Control the Hydrodynamics of Their Jets. Current Biology 24: 2156-2160. https://doi.org/10.1016/j.cub.2014.07.059"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/jetfocus.png",
+        "caption": "Gerullis & Schuster (2014), Fig. 1(A–B). A 60-cm shot midway through travel and just before impact.",
+        "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+        "kind": "article",
+        "original_color": false
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Jet stability also depends on intended target distance",
+      "body": [
+        "A water jet can develop diameter fluctuations and break into droplets. Gerullis and Schuster inspected the jet shaft after a common 30-cm path, comparing shots originally directed toward different target heights. Longer-range jets had fewer shaft modulations than shorter-range jets.",
+        "For close targets, rare missed shots allowed observation beyond the intended impact point without collision with the target. This control matters because a jet that struck a target could break up as a consequence of the collision rather than its original hydrodynamic design.",
+        "The resulting differences support coordinated control of stability and focusing range. They do not show that smoothness alone determines impact force. Tip speed, water concentration and the duration of water release are separate measured properties, and their contributions must be evaluated rather than inferred from a single shaft image."
+      ],
+      "transcript": [
+        [
+          "A water jet can develop diameter fluctuations and break into droplets. Gerullis and Schuster inspected the jet shaft after a common 30-cm path, comparing shots originally directed toward different target heights. Longer-range jets had fewer shaft modulations than shorter-range jets.",
+          [
+            "The published comparison preserves a common travel distance. Missed short-range targets supplied the required uninterrupted jets for that comparison."
+          ]
+        ],
+        [
+          "For close targets, rare missed shots allowed observation beyond the intended impact point without collision with the target. This control matters because a jet that struck a target could break up as a consequence of the collision rather than its original hydrodynamic design.",
+          []
+        ],
+        [
+          "The resulting differences support coordinated control of stability and focusing range. They do not show that smoothness alone determines impact force. Tip speed, water concentration and the duration of water release are separate measured properties, and their contributions must be evaluated rather than inferred from a single shaft image.",
+          []
+        ]
+      ],
+      "cite": "Gerullis & Schuster (2014)",
+      "refs": [
+        "Gerullis P, Schuster S (2014). Archerfish Actively Control the Hydrodynamics of Their Jets. Current Biology 24: 2156-2160. https://doi.org/10.1016/j.cub.2014.07.059"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/jetshaft.png",
+        "caption": "Gerullis & Schuster (2014), Fig. 1(E). Shaft stability after a common 30-cm path.",
+        "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figures-right",
+      "title": "Later-emerging water accelerates the jet tip",
+      "body": [
+        "Gerullis and Schuster measured the tip speed during the first 20 ms of jet formation. The tip accelerated even while the jet rose against gravity, because it remained connected to subsequently emitted water moving faster than the early water.",
+        "Published fits yielded hypothetical limiting speeds of 5.8–6.8 m/s, total speed increments of 2.7–3.8 m/s, and time constants of 6.6–20.0 ms. The speed increment increased with target height, linking the early-to-late velocity difference to the intended shooting range.",
+        "The limiting speed is a fitted parameter describing continued flow, not necessarily a speed directly reached by every observed shot. The data support adjustable velocity gradients and reject an ordinary rigid-projectile description of the jet. These measurements do not yet explain how the mouth changes its effective outlet during emission."
+      ],
+      "transcript": [
+        [
+          "Gerullis and Schuster measured the tip speed during the first 20 ms of jet formation. The tip accelerated even while the jet rose against gravity, because it remained connected to subsequently emitted water moving faster than the early water.",
+          [
+            "The curves are the original published fits and data. The slides describe their parameters without calculating or drawing a new jet model."
+          ]
+        ],
+        [
+          "Published fits yielded hypothetical limiting speeds of 5.8–6.8 m/s, total speed increments of 2.7–3.8 m/s, and time constants of 6.6–20.0 ms. The speed increment increased with target height, linking the early-to-late velocity difference to the intended shooting range.",
+          []
+        ],
+        [
+          "The limiting speed is a fitted parameter describing continued flow, not necessarily a speed directly reached by every observed shot. The data support adjustable velocity gradients and reject an ordinary rigid-projectile description of the jet. These measurements do not yet explain how the mouth changes its effective outlet during emission.",
+          []
+        ]
+      ],
+      "cite": "Gerullis & Schuster (2014)",
+      "refs": [
+        "Gerullis P, Schuster S (2014). Archerfish Actively Control the Hydrodynamics of Their Jets. Current Biology 24: 2156-2160. https://doi.org/10.1016/j.cub.2014.07.059"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/jetspeed.png",
+          "caption": "Gerullis & Schuster (2014), Fig. 2(A–C). Tip acceleration during the first 20 ms at three target heights.",
+          "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/jetincrement.png",
+          "caption": "Gerullis & Schuster (2014), Fig. 2(D). Speed increment increases with target height.",
+          "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "A matching speed profile does not guarantee a stable jet",
+      "body": [
+        "To test whether tip acceleration alone explains coherence, Gerullis and Schuster produced upward jets with a fixed disposable syringe. High-speed recordings captured both jets that remained coherent during release and jets that broke up before all the water had emerged.",
+        "The two classes nevertheless had similar fitted tip-speed time courses. The apparatus could therefore reproduce the increase in speed without consistently reproducing the stability of an archerfish shot. This control separates a sufficient description of tip motion from a sufficient mechanism for the whole jet.",
+        "A living fish must coordinate properties beyond the acceleration profile if it maintains stable, focused impacts over different ranges. The syringe comparison supports that requirement but does not isolate a particular anatomical feature. The manually operated syringe also differs from the biological mouth in outlet geometry and pressure generation."
+      ],
+      "transcript": [
+        [
+          "To test whether tip acceleration alone explains coherence, Gerullis and Schuster produced upward jets with a fixed disposable syringe. High-speed recordings captured both jets that remained coherent during release and jets that broke up before all the water had emerged.",
+          [
+            "Stable and broken syringe jets are original experimental controls in the paper. Their similar speed fits do not establish that the syringe duplicates every biological flow variable."
+          ]
+        ],
+        [
+          "The two classes nevertheless had similar fitted tip-speed time courses. The apparatus could therefore reproduce the increase in speed without consistently reproducing the stability of an archerfish shot. This control separates a sufficient description of tip motion from a sufficient mechanism for the whole jet.",
+          []
+        ],
+        [
+          "A living fish must coordinate properties beyond the acceleration profile if it maintains stable, focused impacts over different ranges. The syringe comparison supports that requirement but does not isolate a particular anatomical feature. The manually operated syringe also differs from the biological mouth in outlet geometry and pressure generation.",
+          []
+        ]
+      ],
+      "cite": "Gerullis & Schuster (2014)",
+      "refs": [
+        "Gerullis P, Schuster S (2014). Archerfish Actively Control the Hydrodynamics of Their Jets. Current Biology 24: 2156-2160. https://doi.org/10.1016/j.cub.2014.07.059"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/syringe.png",
+        "caption": "Gerullis & Schuster (2014), Fig. 2(E–F). Stable and unstable syringe jets with similar tip-speed profiles.",
+        "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+        "kind": "article",
+        "original_color": false
+      }
+    },
+    {
+      "layout": "figures-right",
+      "title": "Shot chemistry and body drift do not explain range tuning",
+      "body": [
+        "Gerullis and Schuster collected water fired by the fish and compared it with control water. Shot viscosity was 0.867 mPa·s and control viscosity 0.869 mPa·s; surface tension was 70.37 versus 70.49 mN/m. No detectable change in these properties supported chemical tuning of the fluid.",
+        "They also tracked mouth-tip displacement and body orientation during emission. Average total displacement was below 0.26 mm and total rotation below 0.5°, with no systematic dependence on target height. Range tuning therefore could not be attributed to large body movements during the shot.",
+        "These controls narrow the candidate mechanisms without proving that every possible chemical or mechanical variable is absent. Their direct measurements motivate examination of the time-varying mouth opening rather than assuming that water composition or whole-body motion supplies the range adjustment."
+      ],
+      "transcript": [
+        [
+          "Gerullis and Schuster collected water fired by the fish and compared it with control water. Shot viscosity was 0.867 mPa·s and control viscosity 0.869 mPa·s; surface tension was 70.37 versus 70.49 mN/m. No detectable change in these properties supported chemical tuning of the fluid.",
+          [
+            "Viscosity measures resistance to shear and surface tension measures the energetic cost of the water–air interface. The measured shot water retained the tested properties of ordinary control water."
+          ]
+        ],
+        [
+          "They also tracked mouth-tip displacement and body orientation during emission. Average total displacement was below 0.26 mm and total rotation below 0.5°, with no systematic dependence on target height. Range tuning therefore could not be attributed to large body movements during the shot.",
+          []
+        ],
+        [
+          "These controls narrow the candidate mechanisms without proving that every possible chemical or mechanical variable is absent. Their direct measurements motivate examination of the time-varying mouth opening rather than assuming that water composition or whole-body motion supplies the range adjustment.",
+          []
+        ]
+      ],
+      "cite": "Gerullis & Schuster (2014)",
+      "refs": [
+        "Gerullis P, Schuster S (2014). Archerfish Actively Control the Hydrodynamics of Their Jets. Current Biology 24: 2156-2160. https://doi.org/10.1016/j.cub.2014.07.059"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/chemistry.png",
+          "caption": "Gerullis & Schuster (2014), Fig. 3(A). Water-shot viscosity and surface tension compared with controls.",
+          "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/drift.png",
+          "caption": "Gerullis & Schuster (2014), Fig. 3(C). Mouth-tip drift and body rotation during water release.",
+          "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Mouth-opening dynamics tune the duration of water release",
+      "body": [
+        "The mouth opening changed continuously during a shot; it did not form a constant aperture that simply opened and shut. Gerullis and Schuster measured opening and closing at 20-, 40- and 60-cm target heights, aligning records to the onset of water emergence.",
+        "The onset-to-closure interval increased with range, approximately 3.4 ms per additional 10 cm in the authors’ analysis. Maximum opening width and the final closure interval after release were comparatively unchanged. Specific phases of the movement therefore changed independently rather than undergoing uniform slowing.",
+        "This pattern supports active control of a time-dependent outlet to coordinate jet formation and range. The mouth measurements constrain a mechanical mechanism but do not directly record its motor neurons or pressure profile. Correlated changes in aperture and focusing are evidence for control, not a complete causal reconstruction of the fluid dynamics."
+      ],
+      "transcript": [
+        [
+          "The mouth opening changed continuously during a shot; it did not form a constant aperture that simply opened and shut. Gerullis and Schuster measured opening and closing at 20-, 40- and 60-cm target heights, aligning records to the onset of water emergence.",
+          [
+            "An aperture is the opening through which water exits. The invariant maximum width separates timing adjustments from a simple increase in mouth-opening size."
+          ]
+        ],
+        [
+          "The onset-to-closure interval increased with range, approximately 3.4 ms per additional 10 cm in the authors’ analysis. Maximum opening width and the final closure interval after release were comparatively unchanged. Specific phases of the movement therefore changed independently rather than undergoing uniform slowing.",
+          []
+        ],
+        [
+          "This pattern supports active control of a time-dependent outlet to coordinate jet formation and range. The mouth measurements constrain a mechanical mechanism but do not directly record its motor neurons or pressure profile. Correlated changes in aperture and focusing are evidence for control, not a complete causal reconstruction of the fluid dynamics.",
+          []
+        ]
+      ],
+      "cite": "Gerullis & Schuster (2014)",
+      "refs": [
+        "Gerullis P, Schuster S (2014). Archerfish Actively Control the Hydrodynamics of Their Jets. Current Biology 24: 2156-2160. https://doi.org/10.1016/j.cub.2014.07.059"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/aperture.png",
+          "caption": "Gerullis & Schuster (2014), Fig. 4(C). Mouth-opening time courses for three target heights.",
+          "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/timing.png",
+          "caption": "Gerullis & Schuster (2014), Fig. 4(A–B). Range-dependent onset-to-closure time and final closure after the jet.",
+          "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "A retinal high-density region aligns with aerial aiming",
+      "body": [
+        "Temple and colleagues mapped cones and retinal ganglion cells in _Toxotes chatareus_ using retinal preparations and anatomical counts. A ventral high-density region aligned with the up-forward visual direction used during spitting, rather than providing equal sampling across the entire visual field.",
+        "The highest cone densities exceeded 50,000 cells/mm², and the local ganglion-cell density approached a one-to-one relation with cone density in that region. Anatomically estimated resolving power reached 6.9 cycles/degree there, compared with 2.2 cycles/degree along the downward visual axis.",
+        "A **cycle** is one bright–dark repetition in a spatial pattern; more cycles per degree indicate finer anatomical sampling. These estimates connect retinal organization to the preferred shooting direction. They do not measure behavioral acuity directly or establish that a particular prey discrimination uses every available anatomical sampling unit."
+      ],
+      "transcript": [
+        [
+          "Temple and colleagues mapped cones and retinal ganglion cells in Toxotes chatareus using retinal preparations and anatomical counts. A ventral high-density region aligned with the up-forward visual direction used during spitting, rather than providing equal sampling across the entire visual field.",
+          [
+            "Cone photoreceptors sample incident light, whereas ganglion cells form the retina’s output population. The anatomical estimate depends on cell spacing and optical geometry."
+          ]
+        ],
+        [
+          "The highest cone densities exceeded 50,000 cells/mm², and the local ganglion-cell density approached a one-to-one relation with cone density in that region. Anatomically estimated resolving power reached 6.9 cycles/degree there, compared with 2.2 cycles/degree along the downward visual axis.",
+          []
+        ],
+        [
+          "A cycle is one bright–dark repetition in a spatial pattern; more cycles per degree indicate finer anatomical sampling. These estimates connect retinal organization to the preferred shooting direction. They do not measure behavioral acuity directly or establish that a particular prey discrimination uses every available anatomical sampling unit.",
+          []
+        ]
+      ],
+      "cite": "Temple et al. (2010)",
+      "refs": [
+        "Temple S, Hart NS, Marshall NJ, Collin SP (2010). A spitting image: specializations in archerfish eyes for vision at the interface between air and water. Proceedings of the Royal Society B: Biological Sciences 277: 2607-2615. https://doi.org/10.1098/rspb.2010.0345"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/retinatopo.png",
+        "caption": "Temple et al. (2010), Fig. 3. Ganglion-cell topography aligned with the preferred shooting axis.",
+        "source_url": "https://doi.org/10.1098/rspb.2010.0345",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Cone spectral sensitivity differs across retinal regions",
+      "body": [
+        "Temple and colleagues used microspectrophotometry to measure absorption in individual photoreceptors, then corrected absorptance for ocular transmission and photopigment properties. Their comparisons separated retinal regions viewing different parts of the aquatic and aerial environment.",
+        "The published spectra contain short-, middle- and long-wavelength cone contributions and show regional differences in their combined spectral coverage. The measurements directly concern light capture by the receptors; they are not inferred solely from a fish choosing among colored targets.",
+        "A **photopigment** is a light-absorbing receptor molecule that initiates a photoreceptor response. Regional sensitivity can shape which contrasts are available against an aerial background, but these spectra alone do not prove color perception or explain compensation for refraction. Spectral sensitivity and the spatial resolving power measured anatomically are distinct constraints on visual aiming."
+      ],
+      "transcript": [
+        [
+          "Temple and colleagues used microspectrophotometry to measure absorption in individual photoreceptors, then corrected absorptance for ocular transmission and photopigment properties. Their comparisons separated retinal regions viewing different parts of the aquatic and aerial environment.",
+          [
+            "Microspectrophotometry measures how absorption varies with wavelength in a selected receptor. The original curves remain unchanged, including their axes and relative sensitivity scales."
+          ]
+        ],
+        [
+          "The published spectra contain short-, middle- and long-wavelength cone contributions and show regional differences in their combined spectral coverage. The measurements directly concern light capture by the receptors; they are not inferred solely from a fish choosing among colored targets.",
+          []
+        ],
+        [
+          "A photopigment is a light-absorbing receptor molecule that initiates a photoreceptor response. Regional sensitivity can shape which contrasts are available against an aerial background, but these spectra alone do not prove color perception or explain compensation for refraction. Spectral sensitivity and the spatial resolving power measured anatomically are distinct constraints on visual aiming.",
+          []
+        ]
+      ],
+      "cite": "Temple et al. (2010)",
+      "refs": [
+        "Temple S, Hart NS, Marshall NJ, Collin SP (2010). A spitting image: specializations in archerfish eyes for vision at the interface between air and water. Proceedings of the Royal Society B: Biological Sciences 277: 2607-2615. https://doi.org/10.1098/rspb.2010.0345"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/spectra.png",
+        "caption": "Temple et al. (2010), Fig. 2(A–C). Regional cone absorptance spectra.",
+        "source_url": "https://doi.org/10.1098/rspb.2010.0345",
+        "kind": "article",
+        "original_color": false
+      }
+    },
+    {
+      "layout": "figures-right",
+      "title": "Isolated retinal recordings test rapid motion information",
+      "body": [
+        "Kretschmer and colleagues placed isolated archerfish retinas on a multielectrode array and projected alternating black and white bars. The grating remained present while movement began at randomly selected velocities, separating motion onset from the sudden appearance of a new object.",
+        "The 400-µm bars moved upward or downward, stopping when their contrast edges reached the next electrode row. Recorded ganglion cells produced sharply timed responses after movement onset. The protocol also varied movement history so direction reversal did not occur in every step.",
+        "This preparation tests information available at retinal output before central processing. Velocities were expressed as those of an external object approximately 30 cm from the eye, not as literal movement speeds across the retinal surface. An isolated retina cannot establish which output features the intact brain actually reads during interception."
+      ],
+      "transcript": [
+        [
+          "Kretschmer and colleagues placed isolated archerfish retinas on a multielectrode array and projected alternating black and white bars. The grating remained present while movement began at randomly selected velocities, separating motion onset from the sudden appearance of a new object.",
+          [
+            "A multielectrode array records extracellular spikes from several retinal output cells simultaneously. It samples activity without recording the whole animal’s aiming movement."
+          ]
+        ],
+        [
+          "The 400-µm bars moved upward or downward, stopping when their contrast edges reached the next electrode row. Recorded ganglion cells produced sharply timed responses after movement onset. The protocol also varied movement history so direction reversal did not occur in every step.",
+          []
+        ],
+        [
+          "This preparation tests information available at retinal output before central processing. Velocities were expressed as those of an external object approximately 30 cm from the eye, not as literal movement speeds across the retinal surface. An isolated retina cannot establish which output features the intact brain actually reads during interception.",
+          []
+        ]
+      ],
+      "cite": "Kretschmer et al. (2012)",
+      "refs": [
+        "Kretschmer V, Kretschmer F, Ahlers MT, Ammermüller J (2012). High speed coding for velocity by archerfish retinal ganglion cells. BMC Neuroscience 13: 69. https://doi.org/10.1186/1471-2202-13-69",
+        "Temple S, Hart NS, Marshall NJ, Collin SP (2010). A spitting image: specializations in archerfish eyes for vision at the interface between air and water. Proceedings of the Royal Society B: Biological Sciences 277: 2607-2615. https://doi.org/10.1098/rspb.2010.0345"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/retinalresponses.png",
+          "caption": "Kretschmer et al. (2012), Fig. 1(A–G). Recorded retinal ganglion-cell responses and grating stimulus.",
+          "source_url": "https://doi.org/10.1186/1471-2202-13-69",
+          "kind": "article",
+          "original_color": false
+        },
+        {
+          "path": "figures/retinatopo.png",
+          "caption": "Temple et al. (2010), Fig. 3. Ganglion-cell topography aligned with the preferred shooting axis.",
+          "source_url": "https://doi.org/10.1098/rspb.2010.0345",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "First-spike timing carries information about velocity",
+      "body": [
+        "A **first-spike latency** is the interval from a reference event to the first action potential in a response. Kretschmer and colleagues compared ganglion-cell latencies across the moving-grating velocities. The shortest median absolute latencies were about 22 ms at stimulus speeds around 5–6 m/s.",
+        "Latencies increased at both lower and higher velocities. Different individual cells supplied distinct tuning profiles, allowing the population pattern to distinguish velocity better than a single median value could. A published decoder reconstructed the presented velocities most successfully from absolute first-spike latencies.",
+        "Absolute latency requires knowledge of stimulus onset, which the experimenter possesses but the brain must infer from its own signals. The decoding result identifies available information rather than proving an implemented biological decoder. It also does not equate grating responses with responses to every natural falling insect."
+      ],
+      "transcript": [
+        [
+          "A first-spike latency is the interval from a reference event to the first action potential in a response. Kretschmer and colleagues compared ganglion-cell latencies across the moving-grating velocities. The shortest median absolute latencies were about 22 ms at stimulus speeds around 5–6 m/s.",
+          [
+            "An action potential is a brief electrical spike used for neuronal signaling. The earliest available spike can transmit information before a long counting window is complete."
+          ]
+        ],
+        [
+          "Latencies increased at both lower and higher velocities. Different individual cells supplied distinct tuning profiles, allowing the population pattern to distinguish velocity better than a single median value could. A published decoder reconstructed the presented velocities most successfully from absolute first-spike latencies.",
+          []
+        ],
+        [
+          "Absolute latency requires knowledge of stimulus onset, which the experimenter possesses but the brain must infer from its own signals. The decoding result identifies available information rather than proving an implemented biological decoder. It also does not equate grating responses with responses to every natural falling insect.",
+          []
+        ]
+      ],
+      "cite": "Kretschmer et al. (2012)",
+      "refs": [
+        "Kretschmer V, Kretschmer F, Ahlers MT, Ammermüller J (2012). High speed coding for velocity by archerfish retinal ganglion cells. BMC Neuroscience 13: 69. https://doi.org/10.1186/1471-2202-13-69",
+        "Temple S, Hart NS, Marshall NJ, Collin SP (2010). A spitting image: specializations in archerfish eyes for vision at the interface between air and water. Proceedings of the Royal Society B: Biological Sciences 277: 2607-2615. https://doi.org/10.1098/rspb.2010.0345"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/latencycode.png",
+          "caption": "Kretschmer et al. (2012), Fig. 2(A–L). First-spike latency varies with stimulus velocity.",
+          "source_url": "https://doi.org/10.1186/1471-2202-13-69",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/retinatopo.png",
+          "caption": "Temple et al. (2010), Fig. 3. Ganglion-cell topography aligned with the preferred shooting axis.",
+          "source_url": "https://doi.org/10.1098/rspb.2010.0345",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Relative timing outperforms the tested rate code",
+      "body": [
+        "Kretschmer and colleagues compared absolute latency with first interspike interval, spike rate over 100 ms, and latency relative to population response onset. An **interspike interval** is the elapsed time between consecutive action potentials; a firing rate counts spikes per unit time.",
+        "The first interval and the tested rate measure reconstructed velocity poorly. Relative first-spike latency performed better, even though its median remained near 10 ms across velocities, because the patterns across different cells retained velocity information. Relative timing supplied an internal reference rather than the experimenter’s stimulus clock.",
+        "The comparison supports population timing as a plausible fast signal. It does not rule out every rate code, stimulus condition or longer integration period. The tested 100-ms window is particularly relevant because predictive behavior can begin before an extended spike-count estimate becomes available."
+      ],
+      "transcript": [
+        [
+          "Kretschmer and colleagues compared absolute latency with first interspike interval, spike rate over 100 ms, and latency relative to population response onset. An interspike interval is the elapsed time between consecutive action potentials; a firing rate counts spikes per unit time.",
+          [
+            "The four decoding panels are the authors’ original analysis. Relative latencies reference the onset of the recorded population response, not the animal’s motor response."
+          ]
+        ],
+        [
+          "The first interval and the tested rate measure reconstructed velocity poorly. Relative first-spike latency performed better, even though its median remained near 10 ms across velocities, because the patterns across different cells retained velocity information. Relative timing supplied an internal reference rather than the experimenter’s stimulus clock.",
+          []
+        ],
+        [
+          "The comparison supports population timing as a plausible fast signal. It does not rule out every rate code, stimulus condition or longer integration period. The tested 100-ms window is particularly relevant because predictive behavior can begin before an extended spike-count estimate becomes available.",
+          []
+        ]
+      ],
+      "cite": "Kretschmer et al. (2012)",
+      "refs": [
+        "Kretschmer V, Kretschmer F, Ahlers MT, Ammermüller J (2012). High speed coding for velocity by archerfish retinal ganglion cells. BMC Neuroscience 13: 69. https://doi.org/10.1186/1471-2202-13-69",
+        "Temple S, Hart NS, Marshall NJ, Collin SP (2010). A spitting image: specializations in archerfish eyes for vision at the interface between air and water. Proceedings of the Royal Society B: Biological Sciences 277: 2607-2615. https://doi.org/10.1098/rspb.2010.0345"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/decode.png",
+          "caption": "Kretschmer et al. (2012), Fig. 2(A–L). Published decoding based on latency, interval, rate and relative latency.",
+          "source_url": "https://doi.org/10.1186/1471-2202-13-69",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/retinatopo.png",
+          "caption": "Temple et al. (2010), Fig. 3. Ganglion-cell topography aligned with the preferred shooting axis.",
+          "source_url": "https://doi.org/10.1098/rspb.2010.0345",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Combining ganglion cells improves velocity estimates",
+      "body": [
+        "Kretschmer and colleagues repeatedly decoded velocity while increasing the number of recorded ganglion cells included. Published reconstruction errors fell as the population grew, but the gain was steepest for the first few cells and became smaller with additional cells.",
+        "Individual experiments differed in accuracy because response timing and tuning quality differed among their sampled cells. Even the most precisely timed unit did not reproduce the information present in a useful combination of units. Population coding therefore depends on which signals are included, not simply on an abstract cell count.",
+        "This analysis supports distributed retinal information and a limited benefit from progressively larger samples. It does not identify the actual downstream convergence pattern or the synapses that read these spikes. Recorded cells were added computationally; no central neuron was shown to perform the same decoding operation."
+      ],
+      "transcript": [
+        [
+          "Kretschmer and colleagues repeatedly decoded velocity while increasing the number of recorded ganglion cells included. Published reconstruction errors fell as the population grew, but the gain was steepest for the first few cells and became smaller with additional cells.",
+          [
+            "The error curves are published analyses of recorded spikes. Their flattening describes diminishing informational returns under this decoder, not an anatomical proof of redundant connections."
+          ]
+        ],
+        [
+          "Individual experiments differed in accuracy because response timing and tuning quality differed among their sampled cells. Even the most precisely timed unit did not reproduce the information present in a useful combination of units. Population coding therefore depends on which signals are included, not simply on an abstract cell count.",
+          []
+        ],
+        [
+          "This analysis supports distributed retinal information and a limited benefit from progressively larger samples. It does not identify the actual downstream convergence pattern or the synapses that read these spikes. Recorded cells were added computationally; no central neuron was shown to perform the same decoding operation.",
+          []
+        ]
+      ],
+      "cite": "Kretschmer et al. (2012)",
+      "refs": [
+        "Kretschmer V, Kretschmer F, Ahlers MT, Ammermüller J (2012). High speed coding for velocity by archerfish retinal ganglion cells. BMC Neuroscience 13: 69. https://doi.org/10.1186/1471-2202-13-69",
+        "Temple S, Hart NS, Marshall NJ, Collin SP (2010). A spitting image: specializations in archerfish eyes for vision at the interface between air and water. Proceedings of the Royal Society B: Biological Sciences 277: 2607-2615. https://doi.org/10.1098/rspb.2010.0345"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/populations.png",
+          "caption": "Kretschmer et al. (2012), Fig. 7(A–B). Decoding error as more ganglion cells are added.",
+          "source_url": "https://doi.org/10.1186/1471-2202-13-69",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/retinatopo.png",
+          "caption": "Temple et al. (2010), Fig. 3. Ganglion-cell topography aligned with the preferred shooting axis.",
+          "source_url": "https://doi.org/10.1098/rspb.2010.0345",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Tectal neurons integrate spatial and temporal contrast",
+      "body": [
+        "The **optic tectum** is a midbrain structure receiving visual input and participating in sensorimotor processing. Reichenthal and colleagues recorded extracellular activity in archerfish while presenting random checkerboards. A spike-triggered average described the stimulus patterns preceding each neuron’s spikes.",
+        "Receptive fields ranged from nearly circular to elongated. About 68% of the sampled cells had a monophasic temporal profile, whereas the remaining group had two phases with opposite contrast signs. Mean estimated response latencies were 54.5 ms and 60 ms for these groups.",
+        "These measurements distinguish spatial sampling from the temporal contrast sequence associated with firing. A **receptive field** is the stimulus region and pattern that changes a neuron’s activity. The assay characterizes responses to controlled visual stimuli; it does not prove that an identified tectal cell computes the prey’s complete landing point."
+      ],
+      "transcript": [
+        [
+          "The optic tectum is a midbrain structure receiving visual input and participating in sensorimotor processing. Reichenthal and colleagues recorded extracellular activity in archerfish while presenting random checkerboards. A spike-triggered average described the stimulus patterns preceding each neuron’s spikes.",
+          [
+            "A spike-triggered average is the average stimulus history before spikes, compared with the overall stimulus ensemble. Its positive and negative lobes describe contrast preference."
+          ]
+        ],
+        [
+          "Receptive fields ranged from nearly circular to elongated. About 68% of the sampled cells had a monophasic temporal profile, whereas the remaining group had two phases with opposite contrast signs. Mean estimated response latencies were 54.5 ms and 60 ms for these groups.",
+          []
+        ],
+        [
+          "These measurements distinguish spatial sampling from the temporal contrast sequence associated with firing. A receptive field is the stimulus region and pattern that changes a neuron’s activity. The assay characterizes responses to controlled visual stimuli; it does not prove that an identified tectal cell computes the prey’s complete landing point.",
+          []
+        ]
+      ],
+      "cite": "Reichenthal et al. (2018)",
+      "refs": [
+        "Reichenthal A, Ben-Tov M, Segev R (2018). Coding Schemes in the Archerfish Optic Tectum. Frontiers in Neural Circuits 12: 18. https://doi.org/10.3389/fncir.2018.00018",
+        "Karoubi N, Segev R, Wullimann MF (2016). The Brain of the Archerfish Toxotes chatareus: A Nissl-Based Neuroanatomical Atlas and Catecholaminergic/Cholinergic Systems. Frontiers in Neuroanatomy 10: 106. https://doi.org/10.3389/fnana.2016.00106"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/tectumfields.png",
+          "caption": "Reichenthal et al. (2018), Fig. 2(A–H). Spatial and temporal receptive fields of tectal neurons.",
+          "source_url": "https://doi.org/10.3389/fncir.2018.00018",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/braintectum.png",
+          "caption": "Karoubi et al. (2016), Fig. 3(Q–R). Published Nissl-stained sections and labeled brain structures.",
+          "source_url": "https://doi.org/10.3389/fnana.2016.00106",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Additional temporal filters capture tectal selectivity",
+      "body": [
+        "Reichenthal and colleagues also presented full-field flashes with varying intensity to reduce the visual stimulus to a time series. They used spike-triggered covariance, which compares variation in the stimulus histories preceding spikes with variation in the full stimulus set.",
+        "Structured temporal filters identified combinations of earlier light levels associated with the response. Cells could be described by one to three relevant filters, with two most common. Some filters were termed excitatory or inhibitory according to their statistical relation to the stimulus ensemble.",
+        "Those terms describe a model’s stimulus selectivity and do not identify excitatory transmitters, inhibitory receptors or anatomical synapses. The analysis adds information missed by an average alone, but its success remains constrained by the stimuli presented and the amount of recorded activity. It does not locate the circuit generating the inferred filters."
+      ],
+      "transcript": [
+        [
+          "Reichenthal and colleagues also presented full-field flashes with varying intensity to reduce the visual stimulus to a time series. They used spike-triggered covariance, which compares variation in the stimulus histories preceding spikes with variation in the full stimulus set.",
+          [
+            "A temporal filter weights portions of the preceding light history. The published eigenvectors belong to an analytical response model, not a reconstructed anatomical circuit."
+          ]
+        ],
+        [
+          "Structured temporal filters identified combinations of earlier light levels associated with the response. Cells could be described by one to three relevant filters, with two most common. Some filters were termed excitatory or inhibitory according to their statistical relation to the stimulus ensemble.",
+          []
+        ],
+        [
+          "Those terms describe a model’s stimulus selectivity and do not identify excitatory transmitters, inhibitory receptors or anatomical synapses. The analysis adds information missed by an average alone, but its success remains constrained by the stimuli presented and the amount of recorded activity. It does not locate the circuit generating the inferred filters.",
+          []
+        ]
+      ],
+      "cite": "Reichenthal et al. (2018)",
+      "refs": [
+        "Reichenthal A, Ben-Tov M, Segev R (2018). Coding Schemes in the Archerfish Optic Tectum. Frontiers in Neural Circuits 12: 18. https://doi.org/10.3389/fncir.2018.00018",
+        "Karoubi N, Segev R, Wullimann MF (2016). The Brain of the Archerfish Toxotes chatareus: A Nissl-Based Neuroanatomical Atlas and Catecholaminergic/Cholinergic Systems. Frontiers in Neuroanatomy 10: 106. https://doi.org/10.3389/fnana.2016.00106"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/tectumfilters.png",
+          "caption": "Reichenthal et al. (2018), Fig. 4(A–B). Published covariance analysis and significant stimulus filters.",
+          "source_url": "https://doi.org/10.3389/fncir.2018.00018",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/braintectum.png",
+          "caption": "Karoubi et al. (2016), Fig. 3(Q–R). Published Nissl-stained sections and labeled brain structures.",
+          "source_url": "https://doi.org/10.3389/fnana.2016.00106",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Nonlinear combinations predict different tectal responses",
+      "body": [
+        "Reichenthal and colleagues fitted models that combined the recovered temporal filters through nonlinear response functions. A **nonlinearity** means the response cannot be described simply by proportional addition of all filter outputs; the joint values can change how strongly the neuron fires.",
+        "Original examples included one-, two- and three-filter descriptions with different response surfaces. Two-filter models could reproduce response structure that an average-based single filter missed. The authors compared model output with recorded firing rather than judging the inferred filters solely by their appearance.",
+        "These are phenomenological models: compact descriptions of measured input–output relationships. They do not establish the corresponding ion channels, synapses or behavioral function. The diverse combinations provide candidate transformations of visual timing before a motor decision, while leaving their causal contribution to predictive aiming untested."
+      ],
+      "transcript": [
+        [
+          "Reichenthal and colleagues fitted models that combined the recovered temporal filters through nonlinear response functions. A nonlinearity means the response cannot be described simply by proportional addition of all filter outputs; the joint values can change how strongly the neuron fires.",
+          [
+            "The displayed response surfaces and traces are the original published models and recordings. No surface, trace or model curve has been recreated."
+          ]
+        ],
+        [
+          "Original examples included one-, two- and three-filter descriptions with different response surfaces. Two-filter models could reproduce response structure that an average-based single filter missed. The authors compared model output with recorded firing rather than judging the inferred filters solely by their appearance.",
+          []
+        ],
+        [
+          "These are phenomenological models: compact descriptions of measured input–output relationships. They do not establish the corresponding ion channels, synapses or behavioral function. The diverse combinations provide candidate transformations of visual timing before a motor decision, while leaving their causal contribution to predictive aiming untested.",
+          []
+        ]
+      ],
+      "cite": "Reichenthal et al. (2018)",
+      "refs": [
+        "Reichenthal A, Ben-Tov M, Segev R (2018). Coding Schemes in the Archerfish Optic Tectum. Frontiers in Neural Circuits 12: 18. https://doi.org/10.3389/fncir.2018.00018",
+        "Karoubi N, Segev R, Wullimann MF (2016). The Brain of the Archerfish Toxotes chatareus: A Nissl-Based Neuroanatomical Atlas and Catecholaminergic/Cholinergic Systems. Frontiers in Neuroanatomy 10: 106. https://doi.org/10.3389/fnana.2016.00106"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/tectummodel.png",
+          "caption": "Reichenthal et al. (2018), Fig. 7(A–D). Original two-filter nonlinear response models and neural recordings.",
+          "source_url": "https://doi.org/10.3389/fncir.2018.00018",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/braintectum.png",
+          "caption": "Karoubi et al. (2016), Fig. 3(Q–R). Published Nissl-stained sections and labeled brain structures.",
+          "source_url": "https://doi.org/10.3389/fnana.2016.00106",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "A brain atlas separates visual and descending structures",
+      "body": [
+        "Karoubi and colleagues examined _Toxotes chatareus_ brains with Nissl staining and immunohistochemistry. **Nissl staining** labels cell-rich tissue and helps distinguish nuclei and layers; immunohistochemistry uses antibodies to locate selected molecular markers within the tissue.",
+        "The atlas documents the telencephalon, diencephalon, optic tectum, cerebellum and hindbrain in serial sections and whole-brain views. Its labeled sections supply anatomical landmarks for interpreting visual recordings and the location of descending neurons, rather than assuming that all activity comes from a single undifferentiated brain region.",
+        "The atlas also maps catecholaminergic and cholinergic markers, but anatomical labeling does not show that those cells control shooting or predictive starts. A **cholinergic** neuron uses acetylcholine; marker localization alone does not specify the postsynaptic receptor or the behavioral effect of transmitter release."
+      ],
+      "transcript": [
+        [
+          "Karoubi and colleagues examined Toxotes chatareus brains with Nissl staining and immunohistochemistry. Nissl staining labels cell-rich tissue and helps distinguish nuclei and layers; immunohistochemistry uses antibodies to locate selected molecular markers within the tissue.",
+          [
+            "Serial anatomy supplies a coordinate framework for physiological studies. The atlas does not trace a complete retinal-to-Mauthner interception pathway."
+          ]
+        ],
+        [
+          "The atlas documents the telencephalon, diencephalon, optic tectum, cerebellum and hindbrain in serial sections and whole-brain views. Its labeled sections supply anatomical landmarks for interpreting visual recordings and the location of descending neurons, rather than assuming that all activity comes from a single undifferentiated brain region.",
+          []
+        ],
+        [
+          "The atlas also maps catecholaminergic and cholinergic markers, but anatomical labeling does not show that those cells control shooting or predictive starts. A cholinergic neuron uses acetylcholine; marker localization alone does not specify the postsynaptic receptor or the behavioral effect of transmitter release.",
+          []
+        ]
+      ],
+      "cite": "Karoubi et al. (2016)",
+      "refs": [
+        "Karoubi N, Segev R, Wullimann MF (2016). The Brain of the Archerfish Toxotes chatareus: A Nissl-Based Neuroanatomical Atlas and Catecholaminergic/Cholinergic Systems. Frontiers in Neuroanatomy 10: 106. https://doi.org/10.3389/fnana.2016.00106"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/brain.png",
+        "caption": "Karoubi et al. (2016), Fig. 2(A–D). Lateral view and reconstruction of the archerfish brain.",
+        "source_url": "https://doi.org/10.3389/fnana.2016.00106",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figures-right",
+      "title": "An electrical field signature locates the Mauthner cell",
+      "body": [
+        "The **Mauthner cell** is a large hindbrain neuron with a descending axon associated with fast-start behavior in fishes. Machnik and colleagues stimulated the spinal cord and searched the archerfish hindbrain for a characteristic short-latency, all-or-none extracellular field potential.",
+        "Increasing a stimulus above threshold changed whether the signal occurred but did not progressively scale its amplitude. Each side of the hindbrain contained a distinct focus, consistent with a paired neuronal source. Intracellular penetration and subsequent staining then linked that source to a cell with Mauthner-like morphology.",
+        "This approach connects an electrical signature to anatomy instead of relying only on cell size. It establishes an experimentally accessible Mauthner neuron in archerfish. Antidromic stimulation, traveling backward from axon toward cell body, does not show that the cell normally fires during a predictive prey-directed turn."
+      ],
+      "transcript": [
+        [
+          "The Mauthner cell is a large hindbrain neuron with a descending axon associated with fast-start behavior in fishes. Machnik and colleagues stimulated the spinal cord and searched the archerfish hindbrain for a characteristic short-latency, all-or-none extracellular field potential.",
+          [
+            "All-or-none refers to the recruitment of a spike once threshold is reached. The focused extracellular signal also depends on the axon-cap geometry around the cell."
+          ]
+        ],
+        [
+          "Increasing a stimulus above threshold changed whether the signal occurred but did not progressively scale its amplitude. Each side of the hindbrain contained a distinct focus, consistent with a paired neuronal source. Intracellular penetration and subsequent staining then linked that source to a cell with Mauthner-like morphology.",
+          []
+        ],
+        [
+          "This approach connects an electrical signature to anatomy instead of relying only on cell size. It establishes an experimentally accessible Mauthner neuron in archerfish. Antidromic stimulation, traveling backward from axon toward cell body, does not show that the cell normally fires during a predictive prey-directed turn.",
+          []
+        ]
+      ],
+      "cite": "Machnik et al. (2018a)",
+      "refs": [
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018a). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts I. Identification and comparative morphology. Journal of Experimental Biology 221: jeb.182535. https://doi.org/10.1242/jeb.182535"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/mauthnersearch.png",
+          "caption": "Machnik et al. (2018a), Fig. 2(A–D). All-or-none field potential used to locate the Mauthner cell.",
+          "source_url": "https://doi.org/10.1242/jeb.182535",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/mauthneraxon.png",
+          "caption": "Machnik et al. (2018a), Fig. 6(A–E). Hindbrain Mauthner cell and giant crossed spinal axons.",
+          "source_url": "https://doi.org/10.1242/jeb.182535",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Mauthner morphology resembles that of goldfish",
+      "body": [
+        "Machnik and colleagues filled identified Mauthner neurons and compared archerfish with similarly sized goldfish processed by the same method. The **soma** is the neuronal cell body; **dendrites** receive and integrate inputs before signals reach the spike-initiation region.",
+        "Archerfish soma diameters ranged from 45 to 63 µm, compared with 47–66 µm in goldfish. Both had prominent lateral and ventral dendrites, an axon hillock, and smaller branches. The broad similarity persisted despite the archerfish’s specialized interception demands.",
+        "The matched preparation controls for major differences caused by animal size and staining method. It argues against a dramatically enlarged or uniquely shaped Mauthner neuron as a necessary explanation of the archerfish skill. Similar morphology does not imply identical connectivity, synaptic strengths or recruitment during natural behavior."
+      ],
+      "transcript": [
+        [
+          "Machnik and colleagues filled identified Mauthner neurons and compared archerfish with similarly sized goldfish processed by the same method. The soma is the neuronal cell body; dendrites receive and integrate inputs before signals reach the spike-initiation region.",
+          [
+            "The red and blue cell reconstructions are original published anatomical reconstructions. Their colors and dimensions have not been changed."
+          ]
+        ],
+        [
+          "Archerfish soma diameters ranged from 45 to 63 µm, compared with 47–66 µm in goldfish. Both had prominent lateral and ventral dendrites, an axon hillock, and smaller branches. The broad similarity persisted despite the archerfish’s specialized interception demands.",
+          []
+        ],
+        [
+          "The matched preparation controls for major differences caused by animal size and staining method. It argues against a dramatically enlarged or uniquely shaped Mauthner neuron as a necessary explanation of the archerfish skill. Similar morphology does not imply identical connectivity, synaptic strengths or recruitment during natural behavior.",
+          []
+        ]
+      ],
+      "cite": "Machnik et al. (2018a)",
+      "refs": [
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018a). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts I. Identification and comparative morphology. Journal of Experimental Biology 221: jeb.182535. https://doi.org/10.1242/jeb.182535"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/mauthnermorph.png",
+        "caption": "Machnik et al. (2018a), Fig. 5(A–E). Published cell reconstructions and soma/dendrite comparisons.",
+        "source_url": "https://doi.org/10.1242/jeb.182535",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Two crossed giant axons dominate the spinal cord",
+      "body": [
+        "After staining identified cells, Machnik and colleagues followed the Mauthner axons across the hindbrain midline and into the opposite spinal cord. Unstained cross-sections independently contained two exceptionally large axons in the corresponding positions.",
+        "The largest axons averaged 71.9 µm in diameter in the measured archerfish sections and were comparable with those of similarly sized goldfish. Finding exactly two matched giants argued against an additional, equally large descending pathway hidden elsewhere in the sampled cord.",
+        "A large axon can support rapid conduction, making this anatomy compatible with a fast motor command. The comparison does not exclude smaller neurons contributing to turn selection or speed adjustment. Nor does it prove that a particular giant axon generates the predictive start; anatomical availability and behavioral recruitment are different questions."
+      ],
+      "transcript": [
+        [
+          "After staining identified cells, Machnik and colleagues followed the Mauthner axons across the hindbrain midline and into the opposite spinal cord. Unstained cross-sections independently contained two exceptionally large axons in the corresponding positions.",
+          [
+            "The original stained and unstained sections provide complementary identification controls. Crossing means that an axon descends on the side opposite its hindbrain cell body."
+          ]
+        ],
+        [
+          "The largest axons averaged 71.9 µm in diameter in the measured archerfish sections and were comparable with those of similarly sized goldfish. Finding exactly two matched giants argued against an additional, equally large descending pathway hidden elsewhere in the sampled cord.",
+          []
+        ],
+        [
+          "A large axon can support rapid conduction, making this anatomy compatible with a fast motor command. The comparison does not exclude smaller neurons contributing to turn selection or speed adjustment. Nor does it prove that a particular giant axon generates the predictive start; anatomical availability and behavioral recruitment are different questions.",
+          []
+        ]
+      ],
+      "cite": "Machnik et al. (2018a)",
+      "refs": [
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018a). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts I. Identification and comparative morphology. Journal of Experimental Biology 221: jeb.182535. https://doi.org/10.1242/jeb.182535"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/mauthneraxon.png",
+        "caption": "Machnik et al. (2018a), Fig. 6(A–E). Hindbrain Mauthner cell and giant crossed spinal axons.",
+        "source_url": "https://doi.org/10.1242/jeb.182535",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figures-right",
+      "title": "Intracellular spikes reveal a rapid excitable output neuron",
+      "body": [
+        "Machnik and colleagues obtained intracellular recordings from identified archerfish Mauthner cells. Mean resting voltage was −79.5 mV, antidromic spike onset latency was 0.265 ms, and the somatically recorded spike had a half-maximal duration of 0.54 ms.",
+        "The apparently small somatic spike, approximately 36.7 mV, must be interpreted with the extracellular field surrounding the cell. Subtracting the nearby external potential reconstructs the actual membrane-voltage change; a distant reference electrode alone does not directly measure that difference.",
+        "These recordings remained stable for approximately 2–3 hours, permitting repeated sensory and inhibitory tests within one cell. An **action potential** is the regenerative electrical event that can propagate down the axon. The experiment measures excitability and conduction following imposed stimulation, rather than the timing of spontaneous commands during a free-swimming hunt."
+      ],
+      "transcript": [
+        [
+          "Machnik and colleagues obtained intracellular recordings from identified archerfish Mauthner cells. Mean resting voltage was −79.5 mV, antidromic spike onset latency was 0.265 ms, and the somatically recorded spike had a half-maximal duration of 0.54 ms.",
+          [
+            "The transmembrane potential is the voltage inside the cell relative to the immediately adjacent extracellular space. The distant reference can include the local spike-associated field."
+          ]
+        ],
+        [
+          "The apparently small somatic spike, approximately 36.7 mV, must be interpreted with the extracellular field surrounding the cell. Subtracting the nearby external potential reconstructs the actual membrane-voltage change; a distant reference electrode alone does not directly measure that difference.",
+          []
+        ],
+        [
+          "These recordings remained stable for approximately 2–3 hours, permitting repeated sensory and inhibitory tests within one cell. An action potential is the regenerative electrical event that can propagate down the axon. The experiment measures excitability and conduction following imposed stimulation, rather than the timing of spontaneous commands during a free-swimming hunt.",
+          []
+        ]
+      ],
+      "cite": "Machnik et al. (2018b)",
+      "refs": [
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018b). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts II. Physiology. Journal of Experimental Biology 221: jeb.175588. https://doi.org/10.1242/jeb.175588"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/spike.png",
+          "caption": "Machnik et al. (2018b), Fig. 1(B–C). Antidromic spike and correction for the extracellular field.",
+          "source_url": "https://doi.org/10.1242/jeb.175588",
+          "kind": "article",
+          "original_color": false
+        },
+        {
+          "path": "figures/spikeprops.png",
+          "caption": "Machnik et al. (2018b), Fig. 2(A–E). Intracellular recording stability and action-potential measurements.",
+          "source_url": "https://doi.org/10.1242/jeb.175588",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Acoustic stimuli evoke early Mauthner depolarization",
+      "body": [
+        "Machnik and colleagues delivered brief acoustic bursts while recording the Mauthner cell. A **postsynaptic potential**, or PSP, is a membrane-voltage change associated with synaptic input. Under their stimulus conditions, detectable acoustic PSPs began after 7.4–15.1 ms in archerfish.",
+        "The mean acoustic PSP amplitude was 4.3 mV, and some preparations produced no detectable acoustic PSP despite strong visually evoked responses. The same standardized stimulus and recording conditions were used in the comparison with goldfish, permitting a controlled species contrast.",
+        "An earlier onset does not imply a stronger influence on firing: latency and amplitude measure different properties of input. The findings concern the selected acoustic burst, not the full hearing sensitivity of either species. They establish access to mechanosensory input without identifying every upstream receptor or intervening synapse."
+      ],
+      "transcript": [
+        [
+          "Machnik and colleagues delivered brief acoustic bursts while recording the Mauthner cell. A postsynaptic potential, or PSP, is a membrane-voltage change associated with synaptic input. Under their stimulus conditions, detectable acoustic PSPs began after 7.4–15.1 ms in archerfish.",
+          [
+            "Depolarization is movement of membrane voltage toward less negative values. The original recordings compare acoustic responses in archerfish and goldfish under the same conditions."
+          ]
+        ],
+        [
+          "The mean acoustic PSP amplitude was 4.3 mV, and some preparations produced no detectable acoustic PSP despite strong visually evoked responses. The same standardized stimulus and recording conditions were used in the comparison with goldfish, permitting a controlled species contrast.",
+          []
+        ],
+        [
+          "An earlier onset does not imply a stronger influence on firing: latency and amplitude measure different properties of input. The findings concern the selected acoustic burst, not the full hearing sensitivity of either species. They establish access to mechanosensory input without identifying every upstream receptor or intervening synapse.",
+          []
+        ]
+      ],
+      "cite": "Machnik et al. (2018b)",
+      "refs": [
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018b). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts II. Physiology. Journal of Experimental Biology 221: jeb.175588. https://doi.org/10.1242/jeb.175588",
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018a). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts I. Identification and comparative morphology. Journal of Experimental Biology 221: jeb.182535. https://doi.org/10.1242/jeb.182535"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/auditorypsp.png",
+          "caption": "Machnik et al. (2018b), Fig. 4(A–B). Sound- and light-evoked postsynaptic potentials in the same preparations.",
+          "source_url": "https://doi.org/10.1242/jeb.175588",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/mauthnermorph.png",
+          "caption": "Machnik et al. (2018a), Fig. 5(A–E). Published cell reconstructions and soma/dendrite comparisons.",
+          "source_url": "https://doi.org/10.1242/jeb.182535",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Light flashes evoke stronger but later visual inputs",
+      "body": [
+        "Machnik and colleagues presented 7-ms light flashes while recording the same identified Mauthner cells. Visual PSP amplitudes ranged from 5.3 to 28.2 mV, with a mean of 17.1 mV. Onset latencies ranged from 27.5 to 54.2 ms, averaging 39.4 ms.",
+        "Under the tested conditions, visual responses were substantially larger than acoustic responses in archerfish. Goldfish instead had mean visual and acoustic amplitudes of 7.0 and 8.2 mV. The shared stimuli make this a comparison of relative efficacy rather than an uncontrolled comparison of separate experiments.",
+        "The late portions of the visual PSPs varied more than their initial rise, consistent with additional network input. These flashes sometimes elicited spikes, but they did not reproduce the full prey-motion stimulus. Strong visual access supports a role in visuomotor processing while leaving recruitment during predictive starts unresolved."
+      ],
+      "transcript": [
+        [
+          "Machnik and colleagues presented 7-ms light flashes while recording the same identified Mauthner cells. Visual PSP amplitudes ranged from 5.3 to 28.2 mV, with a mean of 17.1 mV. Onset latencies ranged from 27.5 to 54.2 ms, averaging 39.4 ms.",
+          [
+            "The flashes had an intensity of 100 cd/m² with maximum intensity at 569 nm. Species differences apply to this selected visual and acoustic comparison."
+          ]
+        ],
+        [
+          "Under the tested conditions, visual responses were substantially larger than acoustic responses in archerfish. Goldfish instead had mean visual and acoustic amplitudes of 7.0 and 8.2 mV. The shared stimuli make this a comparison of relative efficacy rather than an uncontrolled comparison of separate experiments.",
+          []
+        ],
+        [
+          "The late portions of the visual PSPs varied more than their initial rise, consistent with additional network input. These flashes sometimes elicited spikes, but they did not reproduce the full prey-motion stimulus. Strong visual access supports a role in visuomotor processing while leaving recruitment during predictive starts unresolved.",
+          []
+        ]
+      ],
+      "cite": "Machnik et al. (2018b)",
+      "refs": [
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018b). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts II. Physiology. Journal of Experimental Biology 221: jeb.175588. https://doi.org/10.1242/jeb.175588",
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018a). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts I. Identification and comparative morphology. Journal of Experimental Biology 221: jeb.182535. https://doi.org/10.1242/jeb.182535"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/pspcompare.png",
+          "caption": "Machnik et al. (2018b), Fig. 5(A–C). Visual and acoustic PSP amplitude and latency comparisons.",
+          "source_url": "https://doi.org/10.1242/jeb.175588",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/mauthnermorph.png",
+          "caption": "Machnik et al. (2018a), Fig. 5(A–E). Published cell reconstructions and soma/dendrite comparisons.",
+          "source_url": "https://doi.org/10.1242/jeb.182535",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Dendritic decay separates visual from acoustic entry sites",
+      "body": [
+        "Machnik and colleagues recorded at different positions along the Mauthner lateral dendrite and corrected the signals for the nearby extracellular field. Reconstructed spike amplitude decayed passively with length constants of 141–164 µm in the tested cells.",
+        "Acoustic PSPs were larger at a distal lateral-dendrite position than close to the soma, consistent with input arriving laterally. Visual PSPs showed the opposite gradient: their amplitude decreased toward the distal lateral dendrite, consistent with input entering nearer the soma or through another dendritic region.",
+        "A **length constant** describes the distance over which passive voltage spread is attenuated. The gradients constrain where inputs enter but do not anatomically trace each presynaptic axon. They also do not prove that the visual and acoustic pathways use identical receptors or that these entry sites encode the prey’s predicted landing point."
+      ],
+      "transcript": [
+        [
+          "Machnik and colleagues recorded at different positions along the Mauthner lateral dendrite and corrected the signals for the nearby extracellular field. Reconstructed spike amplitude decayed passively with length constants of 141–164 µm in the tested cells.",
+          [
+            "Proximal and distal recordings were approximately 50 and 150 µm lateral to the axon hillock. Different gradients are interpreted using independently measured passive decay."
+          ]
+        ],
+        [
+          "Acoustic PSPs were larger at a distal lateral-dendrite position than close to the soma, consistent with input arriving laterally. Visual PSPs showed the opposite gradient: their amplitude decreased toward the distal lateral dendrite, consistent with input entering nearer the soma or through another dendritic region.",
+          []
+        ],
+        [
+          "A length constant describes the distance over which passive voltage spread is attenuated. The gradients constrain where inputs enter but do not anatomically trace each presynaptic axon. They also do not prove that the visual and acoustic pathways use identical receptors or that these entry sites encode the prey’s predicted landing point.",
+          []
+        ]
+      ],
+      "cite": "Machnik et al. (2018b)",
+      "refs": [
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018b). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts II. Physiology. Journal of Experimental Biology 221: jeb.175588. https://doi.org/10.1242/jeb.175588",
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018a). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts I. Identification and comparative morphology. Journal of Experimental Biology 221: jeb.182535. https://doi.org/10.1242/jeb.182535"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/dendrites.png",
+          "caption": "Machnik et al. (2018b), Fig. 6(A–D). Passive dendritic decay and locations of sensory input.",
+          "source_url": "https://doi.org/10.1242/jeb.175588",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/mauthnermorph.png",
+          "caption": "Machnik et al. (2018a), Fig. 5(A–E). Published cell reconstructions and soma/dendrite comparisons.",
+          "source_url": "https://doi.org/10.1242/jeb.182535",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Recurrent inhibition limits repeated Mauthner firing",
+      "body": [
+        "**Recurrent inhibition** is inhibitory feedback activated after a neuron or its associated network fires. Machnik and colleagues elicited pairs of antidromic Mauthner spikes and varied their separation. The second spike was reduced most strongly at short intervals, and recovery contained fast and slow components.",
+        "Archerfish recovery time constants were 0.9 and 16.5 ms, compared with 0.8 and 12.8 ms in goldfish. The paper associates the fast component provisionally with sodium-channel inactivation. Repeated stimulation and chloride-loaded recordings supplied additional tests of later inhibitory responses.",
+        "Voltage-gated sodium-channel inactivation temporarily reduces the ability to generate another spike; chloride loading can change the polarity of a chloride-dependent synaptic potential. The comparable physiology supports functionally similar inhibitory networks. It does not directly identify every archerfish inhibitory transmitter or prove that the paired-spike experiment reproduces natural predictive-start selection."
+      ],
+      "transcript": [
+        [
+          "Recurrent inhibition is inhibitory feedback activated after a neuron or its associated network fires. Machnik and colleagues elicited pairs of antidromic Mauthner spikes and varied their separation. The second spike was reduced most strongly at short intervals, and recovery contained fast and slow components.",
+          [
+            "The chloride-loaded electrode contained 3 mol/L KCl. A change in apparent potential polarity after chloride loading must not be mistaken for a change from inhibitory to excitatory network function."
+          ]
+        ],
+        [
+          "Archerfish recovery time constants were 0.9 and 16.5 ms, compared with 0.8 and 12.8 ms in goldfish. The paper associates the fast component provisionally with sodium-channel inactivation. Repeated stimulation and chloride-loaded recordings supplied additional tests of later inhibitory responses.",
+          []
+        ],
+        [
+          "Voltage-gated sodium-channel inactivation temporarily reduces the ability to generate another spike; chloride loading can change the polarity of a chloride-dependent synaptic potential. The comparable physiology supports functionally similar inhibitory networks. It does not directly identify every archerfish inhibitory transmitter or prove that the paired-spike experiment reproduces natural predictive-start selection.",
+          []
+        ]
+      ],
+      "cite": "Machnik et al. (2018b)",
+      "refs": [
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018b). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts II. Physiology. Journal of Experimental Biology 221: jeb.175588. https://doi.org/10.1242/jeb.175588",
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018a). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts I. Identification and comparative morphology. Journal of Experimental Biology 221: jeb.182535. https://doi.org/10.1242/jeb.182535"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/feedback.png",
+          "caption": "Machnik et al. (2018b), Fig. 7(A–D). Paired-spike tests and chloride-loaded recordings of recurrent inhibition.",
+          "source_url": "https://doi.org/10.1242/jeb.175588",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/mauthneraxon.png",
+          "caption": "Machnik et al. (2018a), Fig. 6(A–E). Hindbrain Mauthner cell and giant crossed spinal axons.",
+          "source_url": "https://doi.org/10.1242/jeb.182535",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Sensory input recruits inhibition as well as excitation",
+      "body": [
+        "**Feed-forward inhibition** occurs when sensory input excites inhibitory pathways alongside the pathway to a target neuron. Machnik and colleagues elicited an antidromic spike at different times during a visual or acoustic PSP, using its reduction as a probe of sensory-driven inhibition.",
+        "In archerfish and goldfish, the inhibitory time course was matched to the duration of the evoked PSP. Comparable effects occurred for visual and acoustic stimulation. Sensory access to the Mauthner cell therefore includes opposing influences rather than a purely excitatory command.",
+        "The method measures a functional inhibitory effect during synaptic input, but it does not trace the entire pathway or identify its transmitter receptors. Similar time courses can arise from different underlying circuits. The authors consequently treat a shared inhibitory network as a parsimonious explanation, while acknowledging that the observed equivalence is not an anatomical demonstration."
+      ],
+      "transcript": [
+        [
+          "Feed-forward inhibition occurs when sensory input excites inhibitory pathways alongside the pathway to a target neuron. Machnik and colleagues elicited an antidromic spike at different times during a visual or acoustic PSP, using its reduction as a probe of sensory-driven inhibition.",
+          [
+            "A sensory PSP and inhibition can overlap in time. Reduction of the probe spike is an operational measurement of that inhibition, not a direct recording from the interneurons supplying it."
+          ]
+        ],
+        [
+          "In archerfish and goldfish, the inhibitory time course was matched to the duration of the evoked PSP. Comparable effects occurred for visual and acoustic stimulation. Sensory access to the Mauthner cell therefore includes opposing influences rather than a purely excitatory command.",
+          []
+        ],
+        [
+          "The method measures a functional inhibitory effect during synaptic input, but it does not trace the entire pathway or identify its transmitter receptors. Similar time courses can arise from different underlying circuits. The authors consequently treat a shared inhibitory network as a parsimonious explanation, while acknowledging that the observed equivalence is not an anatomical demonstration.",
+          []
+        ]
+      ],
+      "cite": "Machnik et al. (2018b)",
+      "refs": [
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018b). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts II. Physiology. Journal of Experimental Biology 221: jeb.175588. https://doi.org/10.1242/jeb.175588",
+        "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018a). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts I. Identification and comparative morphology. Journal of Experimental Biology 221: jeb.182535. https://doi.org/10.1242/jeb.182535"
+      ],
+      "figure_width": 5.75,
+      "figures": [
+        {
+          "path": "figures/feedforward.png",
+          "caption": "Machnik et al. (2018b), Fig. 8(A–C). Sensory-driven inhibition measured during visual and acoustic PSPs.",
+          "source_url": "https://doi.org/10.1242/jeb.175588",
+          "kind": "article",
+          "original_color": true
+        },
+        {
+          "path": "figures/mauthnermorph.png",
+          "caption": "Machnik et al. (2018a), Fig. 5(A–E). Published cell reconstructions and soma/dendrite comparisons.",
+          "source_url": "https://doi.org/10.1242/jeb.182535",
+          "kind": "article",
+          "original_color": true
+        }
+      ],
+      "figure_arrangement": "stacked",
+      "figure_weights": [
+        0.76,
+        0.24
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Airflow perturbation tests adaptation of shooting aim",
+      "body": [
+        "Volotsky and colleagues trained _Toxotes chatareus_ to shoot at an aerial target and introduced horizontal airflow above the water. The air deflected the jet while the fish remained in water, creating an aiming error without moving the visible target itself.",
+        "The experiment compared baseline shots, a perturbation period, and shots after airflow removal. Errors initially increased when airflow began, then declined over successive shots. Trials in both airflow directions tested whether adjustment was limited to a single direction of physical deflection.",
+        "**Motor adaptation** is adjustment of a movement in response to systematic errors caused by changed conditions. The measured correction supports flexible calibration of the shooting action. It does not identify the learning circuit or establish that fish directly sensed airflow; the apparatus was designed to keep the blower outside their visual field."
+      ],
+      "transcript": [
+        [
+          "Volotsky and colleagues trained Toxotes chatareus to shoot at an aerial target and introduced horizontal airflow above the water. The air deflected the jet while the fish remained in water, creating an aiming error without moving the visible target itself.",
+          [
+            "The published setup includes a real video frame of the water jet. Airflow acted on the aerial water stream while the target location remained controlled."
+          ]
+        ],
+        [
+          "The experiment compared baseline shots, a perturbation period, and shots after airflow removal. Errors initially increased when airflow began, then declined over successive shots. Trials in both airflow directions tested whether adjustment was limited to a single direction of physical deflection.",
+          []
+        ],
+        [
+          "Motor adaptation is adjustment of a movement in response to systematic errors caused by changed conditions. The measured correction supports flexible calibration of the shooting action. It does not identify the learning circuit or establish that fish directly sensed airflow; the apparatus was designed to keep the blower outside their visual field.",
+          []
+        ]
+      ],
+      "cite": "Volotsky et al. (2023)",
+      "refs": [
+        "Volotsky S, Donchin O, Segev R (2023). The archerfish uses motor adaptation in shooting to correct for changing physical conditions. eLife (reviewed preprint) 12: RP92909. https://doi.org/10.7554/elife.92909"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/windsetup.png",
+        "caption": "Volotsky et al. (2023), Fig. 2(A–B). Original airflow apparatus and photographed water jet.",
+        "source_url": "https://doi.org/10.7554/elife.92909",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Opposite washout errors reveal retained compensation",
+      "body": [
+        "After the airflow perturbation ended, Volotsky and colleagues observed errors in the opposite direction. These **aftereffects** declined over several subsequent shots. A compensation learned during the perturbation therefore initially persisted when the physical deflection was removed.",
+        "The baseline–perturbation–washout sequence distinguishes adaptive recalibration from simply following the current disturbance. If each shot only corrected the visible outcome after it occurred, removal of the disturbance would not produce the same systematic initial bias in the opposite direction.",
+        "The result supports altered motor commands anticipating a recurring perturbation. It does not establish a specific internal forward model or identify its neural location. The authors also could not make a definite claim about savings across sessions because the data were too noisy to resolve that additional learning effect."
+      ],
+      "transcript": [
+        [
+          "After the airflow perturbation ended, Volotsky and colleagues observed errors in the opposite direction. These aftereffects declined over several subsequent shots. A compensation learned during the perturbation therefore initially persisted when the physical deflection was removed.",
+          [
+            "Washout refers to trials after the perturbation is removed. The original error records preserve their units and condition colors, without replacing them with a simulated adaptation curve."
+          ]
+        ],
+        [
+          "The baseline–perturbation–washout sequence distinguishes adaptive recalibration from simply following the current disturbance. If each shot only corrected the visible outcome after it occurred, removal of the disturbance would not produce the same systematic initial bias in the opposite direction.",
+          []
+        ],
+        [
+          "The result supports altered motor commands anticipating a recurring perturbation. It does not establish a specific internal forward model or identify its neural location. The authors also could not make a definite claim about savings across sessions because the data were too noisy to resolve that additional learning effect.",
+          []
+        ]
+      ],
+      "cite": "Volotsky et al. (2023)",
+      "refs": [
+        "Volotsky S, Donchin O, Segev R (2023). The archerfish uses motor adaptation in shooting to correct for changing physical conditions. eLife (reviewed preprint) 12: RP92909. https://doi.org/10.7554/elife.92909"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/adapttraces.png",
+        "caption": "Volotsky et al. (2023), Fig. 3(C–F). Trial-by-trial error reduction and aftereffects in both airflow directions.",
+        "source_url": "https://doi.org/10.7554/elife.92909",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Reversing body direction reveals an egocentric adjustment",
+      "body": [
+        "An **egocentric reference frame** expresses a relation relative to the animal’s body; an allocentric frame expresses it relative to the external environment. Volotsky and colleagues rotated the shooting access so a trained fish changed its body orientation while airflow direction remained fixed in the tank.",
+        "After the reversal, errors became large and adaptation required additional shots. The retained compensation followed the previous body-relative relation rather than immediately accounting for the unchanged external airflow direction. Visual landmarks within the tank remained available.",
+        "This manipulation supports body-centered adaptation under conditions lacking direct cues to airflow direction. It does not show that every component of archerfish aiming is egocentric, nor that fish cannot learn external spatial relations. The result specifically constrains how an acquired shooting compensation transfers when the body–disturbance relation changes."
+      ],
+      "transcript": [
+        [
+          "An egocentric reference frame expresses a relation relative to the animal’s body; an allocentric frame expresses it relative to the external environment. Volotsky and colleagues rotated the shooting access so a trained fish changed its body orientation while airflow direction remained fixed in the tank.",
+          [
+            "The distinction concerns the transfer of learned correction. A fixed environmental wind becomes an opposite body-relative disturbance when the fish reverses its shooting direction."
+          ]
+        ],
+        [
+          "After the reversal, errors became large and adaptation required additional shots. The retained compensation followed the previous body-relative relation rather than immediately accounting for the unchanged external airflow direction. Visual landmarks within the tank remained available.",
+          []
+        ],
+        [
+          "This manipulation supports body-centered adaptation under conditions lacking direct cues to airflow direction. It does not show that every component of archerfish aiming is egocentric, nor that fish cannot learn external spatial relations. The result specifically constrains how an acquired shooting compensation transfers when the body–disturbance relation changes.",
+          []
+        ]
+      ],
+      "cite": "Volotsky et al. (2023)",
+      "refs": [
+        "Volotsky S, Donchin O, Segev R (2023). The archerfish uses motor adaptation in shooting to correct for changing physical conditions. eLife (reviewed preprint) 12: RP92909. https://doi.org/10.7554/elife.92909"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/adaptframe.png",
+        "caption": "Volotsky et al. (2023), Fig. 5(A–E). Body-direction reversal tests of the adaptation reference frame.",
+        "source_url": "https://doi.org/10.7554/elife.92909",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Predictive starts can learn a different interception rule",
+      "body": [
+        "Krause and colleagues presented virtual prey on a screen above the tank and rewarded the corresponding virtual impact points. After initially straight motion, training trajectories changed direction by 39.8°. Food was then delivered at the new deflected destination rather than the old ballistic one.",
+        "With training, initial turns shifted toward the new destinations. Critical tests displayed only the early straight trajectory and moved feeders away from both candidate impact points. Fish still aimed at the learned deflected point, excluding simple pursuit of the later deflection or a visible feeder.",
+        "The response remained a rapid predictive start rather than being replaced by a slow approach. This establishes plasticity in the relation between early motion and chosen destination. It does not show where the learned rule is stored, and it does not prove that the animal represents the rule in a human verbal or mathematical form."
+      ],
+      "transcript": [
+        [
+          "Krause and colleagues presented virtual prey on a screen above the tank and rewarded the corresponding virtual impact points. After initially straight motion, training trajectories changed direction by 39.8°. Food was then delivered at the new deflected destination rather than the old ballistic one.",
+          [
+            "The virtual task retains an objective predicted landing point while allowing the investigators to change the motion-to-reward relation independently of physical falling prey."
+          ]
+        ],
+        [
+          "With training, initial turns shifted toward the new destinations. Critical tests displayed only the early straight trajectory and moved feeders away from both candidate impact points. Fish still aimed at the learned deflected point, excluding simple pursuit of the later deflection or a visible feeder.",
+          []
+        ],
+        [
+          "The response remained a rapid predictive start rather than being replaced by a slow approach. This establishes plasticity in the relation between early motion and chosen destination. It does not show where the learned rule is stored, and it does not prove that the animal represents the rule in a human verbal or mathematical form.",
+          []
+        ]
+      ],
+      "cite": "Krause et al. (2024)",
+      "refs": [
+        "Krause M, Schulze W, Schuster S (2024). Learning and cognition in highspeed decision making. eLife (reviewed preprint) 13: RP99634. https://doi.org/10.7554/elife.99634"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/learnrule.png",
+        "caption": "Krause et al. (2024), Fig. 4(A–K). Original deflection training, transfer tests and latency–accuracy results.",
+        "source_url": "https://doi.org/10.7554/elife.99634",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "The learned rule transfers to untrained input combinations",
+      "body": [
+        "Krause and colleagues tested whether learning only replaced familiar stimulus–response associations. Fish trained at one height were challenged at different heights where the old training-height response and the new rule predicted different destinations.",
+        "Initial turns were already appropriate for the untrained heights rather than systematically approaching the training-height substitute. Additional tests changed object size and included an untrained speed of 1.425 m/s. The learned relation generalized beyond the exact combinations repeatedly encountered during training.",
+        "Immediate transfer supports a more general representation than a lookup list restricted to trained cases. It does not uniquely identify the algorithm or its neural substrate. The interpretation depends on comparing competing predicted destinations in these controlled transfer trials, rather than equating any successful catch with abstract reasoning."
+      ],
+      "transcript": [
+        [
+          "Krause and colleagues tested whether learning only replaced familiar stimulus–response associations. Fish trained at one height were challenged at different heights where the old training-height response and the new rule predicted different destinations.",
+          [
+            "Generalization means that a learned relation supports responses to inputs not previously trained. The tests were selected so alternative stored associations predicted different initial headings."
+          ]
+        ],
+        [
+          "Initial turns were already appropriate for the untrained heights rather than systematically approaching the training-height substitute. Additional tests changed object size and included an untrained speed of 1.425 m/s. The learned relation generalized beyond the exact combinations repeatedly encountered during training.",
+          []
+        ],
+        [
+          "Immediate transfer supports a more general representation than a lookup list restricted to trained cases. It does not uniquely identify the algorithm or its neural substrate. The interpretation depends on comparing competing predicted destinations in these controlled transfer trials, rather than equating any successful catch with abstract reasoning.",
+          []
+        ]
+      ],
+      "cite": "Krause et al. (2024)",
+      "refs": [
+        "Krause M, Schulze W, Schuster S (2024). Learning and cognition in highspeed decision making. eLife (reviewed preprint) 13: RP99634. https://doi.org/10.7554/elife.99634"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/learngeneral.png",
+        "caption": "Krause et al. (2024), Fig. 5(A–G). Transfer to untrained speed, angle, size and height.",
+        "source_url": "https://doi.org/10.7554/elife.99634",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Object shape selects between two interception rules",
+      "body": [
+        "Krause and colleagues trained fish with two visually different prey objects. A disk required the learned deflected relation, whereas a triangle required the original ballistic relation. Shape and initial motion were controlled so the same motion variables could require different destinations.",
+        "In interspersed tests, only the initial trajectory was visible. Fish directed turns toward the deflected virtual point for disks and the ballistic virtual point for triangles. The decision could therefore use a context cue to choose between two concurrent motion-to-destination relations.",
+        "This is stronger evidence than learning one fixed turn toward each shape, because required turns also depended on prey speed, direction, height and fish position. Nevertheless, shape-dependent performance does not identify the cells that recognize the object or the synapses that switch the motor computation. Those circuit mechanisms remain to be determined."
+      ],
+      "transcript": [
+        [
+          "Krause and colleagues trained fish with two visually different prey objects. A disk required the learned deflected relation, whereas a triangle required the original ballistic relation. Shape and initial motion were controlled so the same motion variables could require different destinations.",
+          [
+            "The object cue chooses a rule, while current motion and geometry still determine the required heading. The rule is not equivalent to one fixed body turn per shape."
+          ]
+        ],
+        [
+          "In interspersed tests, only the initial trajectory was visible. Fish directed turns toward the deflected virtual point for disks and the ballistic virtual point for triangles. The decision could therefore use a context cue to choose between two concurrent motion-to-destination relations.",
+          []
+        ],
+        [
+          "This is stronger evidence than learning one fixed turn toward each shape, because required turns also depended on prey speed, direction, height and fish position. Nevertheless, shape-dependent performance does not identify the cells that recognize the object or the synapses that switch the motor computation. Those circuit mechanisms remain to be determined.",
+          []
+        ]
+      ],
+      "cite": "Krause et al. (2024)",
+      "refs": [
+        "Krause M, Schulze W, Schuster S (2024). Learning and cognition in highspeed decision making. eLife (reviewed preprint) 13: RP99634. https://doi.org/10.7554/elife.99634"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/learncontext.png",
+        "caption": "Krause et al. (2024), Fig. 6(A–J). Shape cues select between learned and ballistic interception rules.",
+        "source_url": "https://doi.org/10.7554/elife.99634",
+        "kind": "article",
+        "original_color": true
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "A late shape cue can still select the correct rule",
+      "body": [
+        "Krause and colleagues tested whether a shape cue had to appear before prey motion to prepare the appropriate decision. A neutral cross remained stationary for 2 seconds, then changed into the relevant disk or triangle exactly when movement began.",
+        "Only the initial straight movement was displayed, preventing the later deflection from identifying the correct destination. Errors were comparable with those obtained when object identity had been visible 2 seconds before motion. The fish selected the appropriate rule during the brief decision interval itself.",
+        "This finding adds conditional flexibility to a response made in less than 100 ms under the tested conditions. It does not establish that rapid choice is unlimited or independent of training. Together with the transfer tests, it constrains simplistic accounts of a fixed reflex while leaving the underlying visual recognition and command-selection circuitry unresolved."
+      ],
+      "transcript": [
+        [
+          "Krause and colleagues tested whether a shape cue had to appear before prey motion to prepare the appropriate decision. A neutral cross remained stationary for 2 seconds, then changed into the relevant disk or triangle exactly when movement began.",
+          [
+            "Late cue means identity becomes available at motion onset, rather than before it. The paper compares that condition with an advance cue while holding the interception rules and initial motion controlled."
+          ]
+        ],
+        [
+          "Only the initial straight movement was displayed, preventing the later deflection from identifying the correct destination. Errors were comparable with those obtained when object identity had been visible 2 seconds before motion. The fish selected the appropriate rule during the brief decision interval itself.",
+          []
+        ],
+        [
+          "This finding adds conditional flexibility to a response made in less than 100 ms under the tested conditions. It does not establish that rapid choice is unlimited or independent of training. Together with the transfer tests, it constrains simplistic accounts of a fixed reflex while leaving the underlying visual recognition and command-selection circuitry unresolved.",
+          []
+        ]
+      ],
+      "cite": "Krause et al. (2024)",
+      "refs": [
+        "Krause M, Schulze W, Schuster S (2024). Learning and cognition in highspeed decision making. eLife (reviewed preprint) 13: RP99634. https://doi.org/10.7554/elife.99634"
+      ],
+      "figure_width": 5.75,
+      "figure": {
+        "path": "figures/learnclue.png",
+        "caption": "Krause et al. (2024), Fig. 7(A–E). Rule selection when an object changes appearance after motion onset.",
+        "source_url": "https://doi.org/10.7554/elife.99634",
+        "kind": "article",
+        "original_color": true
+      }
+    }
+  ],
+  "takeaways": {
+    "cite": "Rossel et al. (2002); Wöhl & Schuster (2007); Gerullis & Schuster (2014); Kretschmer et al. (2012); Machnik et al. (2018a); Machnik et al. (2018b); Volotsky et al. (2023); Krause et al. (2024)",
+    "refs": [
+      "Rossel S, Corlija J, Schuster S (2002). Predicting three-dimensional target motion: how archer fish determine where to catch their dislodged prey. Journal of Experimental Biology 205: 3321-3326. https://doi.org/10.1242/jeb.205.21.3321",
+      "Wöhl S, Schuster S (2007). The predictive start of hunting archer fish: a flexible and precise motor pattern performed with the kinematics of an escape C-start. Journal of Experimental Biology 210: 311-324. https://doi.org/10.1242/jeb.02646",
+      "Gerullis P, Schuster S (2014). Archerfish Actively Control the Hydrodynamics of Their Jets. Current Biology 24: 2156-2160. https://doi.org/10.1016/j.cub.2014.07.059",
+      "Kretschmer V, Kretschmer F, Ahlers MT, Ammermüller J (2012). High speed coding for velocity by archerfish retinal ganglion cells. BMC Neuroscience 13: 69. https://doi.org/10.1186/1471-2202-13-69",
+      "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018a). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts I. Identification and comparative morphology. Journal of Experimental Biology 221: jeb.182535. https://doi.org/10.1242/jeb.182535",
+      "Machnik P, Leupolz K, Feyl S, Schulze W, Schuster S (2018b). The Mauthner cell in a fish with top-performance and yet flexibly-tuned C-starts II. Physiology. Journal of Experimental Biology 221: jeb.175588. https://doi.org/10.1242/jeb.175588",
+      "Volotsky S, Donchin O, Segev R (2023). The archerfish uses motor adaptation in shooting to correct for changing physical conditions. eLife (reviewed preprint) 12: RP92909. https://doi.org/10.7554/elife.92909",
+      "Krause M, Schulze W, Schuster S (2024). Learning and cognition in highspeed decision making. eLife (reviewed preprint) 13: RP99634. https://doi.org/10.7554/elife.99634"
+    ],
+    "items": [
+      {
+        "lead": "Prediction targets future impact",
+        "text": "Early height and horizontal motion guide the initial turn toward a landing point, including a virtual landing point when descent is prevented."
+      },
+      {
+        "lead": "Fast starts remain flexible",
+        "text": "Predictive C-starts bend and straighten rapidly while adjusting heading and take-off speed; similar escape kinematics do not alone prove a shared command neuron."
+      },
+      {
+        "lead": "Jet control is active",
+        "text": "Range-dependent velocity gradients, stability and mouth-opening timing focus water near impact; the tested shot chemistry and body drift do not explain the adjustment."
+      },
+      {
+        "lead": "Timing carries retinal information",
+        "text": "First-spike population timing decodes motion velocity better than the tested rate or interval measures; biological use of the decoder remains unproven."
+      },
+      {
+        "lead": "Neural anatomy and causation differ",
+        "text": "Archerfish have identifiable Mauthner cells with strong visual access and inhibitory controls, but these studies do not directly establish their recruitment in predictive starts."
+      },
+      {
+        "lead": "Learning changes rapid control",
+        "text": "Shooting shows adaptive aftereffects; predictive starts can learn, generalize and select between context-dependent interception rules without abandoning rapid decisions."
+      }
+    ]
+  }
+}

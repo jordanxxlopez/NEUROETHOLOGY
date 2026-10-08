@@ -1,0 +1,786 @@
+{
+  "animal": {
+    "paper": "tectum18",
+    "page": 3,
+    "box_points": [
+      104,
+      69,
+      232,
+      267
+    ],
+    "caption": "Reichenthal et al. (2018), Fig. 1(A). Archerfish directing a water jet toward an aerial insect.",
+    "source_url": "https://doi.org/10.3389/fncir.2018.00018",
+    "out": "figures/animal.png",
+    "original_color": true
+  },
+  "task": {
+    "paper": "predict02",
+    "page": 2,
+    "box_points": [
+      43,
+      73,
+      295,
+      325
+    ],
+    "caption": "Rossel et al. (2002), Fig. 1(A\u2013B). Published preparation and definitions of landing-point and current-position errors.",
+    "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+    "out": "figures/task.png",
+    "original_color": false
+  },
+  "ballistics": {
+    "paper": "predict02",
+    "page": 2,
+    "box_points": [
+      310,
+      73,
+      565,
+      197
+    ],
+    "caption": "Rossel et al. (2002), Fig. 2. Landing distance versus horizontal take-off velocity at 20 and 40 cm.",
+    "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+    "out": "figures/ballistics.png",
+    "original_color": false
+  },
+  "orientation": {
+    "paper": "predict02",
+    "page": 3,
+    "box_points": [
+      43,
+      72,
+      299,
+      326
+    ],
+    "caption": "Rossel et al. (2002), Fig. 3(A\u2013B). Initial orientations sampled during prey interception.",
+    "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+    "out": "figures/orientation.png",
+    "original_color": false
+  },
+  "latency": {
+    "paper": "predict02",
+    "page": 3,
+    "box_points": [
+      316,
+      65,
+      569,
+      340
+    ],
+    "caption": "Rossel et al. (2002), Fig. 4(A\u2013B). Turn onset and completion relative to prey landing.",
+    "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+    "out": "figures/latency.png",
+    "original_color": false
+  },
+  "aim": {
+    "paper": "predict02",
+    "page": 4,
+    "box_points": [
+      42,
+      72,
+      297,
+      343
+    ],
+    "caption": "Rossel et al. (2002), Fig. 5(A\u2013B). Errors relative to the future landing point.",
+    "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+    "out": "figures/aim.png",
+    "original_color": false
+  },
+  "currentaim": {
+    "paper": "predict02",
+    "page": 4,
+    "box_points": [
+      310,
+      72,
+      566,
+      343
+    ],
+    "caption": "Rossel et al. (2002), Fig. 6(A\u2013B). Errors relative to the prey position at turn completion.",
+    "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+    "out": "figures/currentaim.png",
+    "original_color": false
+  },
+  "virtual": {
+    "paper": "predict02",
+    "page": 5,
+    "box_points": [
+      47,
+      72,
+      304,
+      345
+    ],
+    "caption": "Rossel et al. (2002), Fig. 7(A\u2013B). Turns toward virtual landing points for targets moving horizontally.",
+    "source_url": "https://doi.org/10.1242/jeb.205.21.3321",
+    "out": "figures/virtual.png",
+    "original_color": false
+  },
+  "sequence": {
+    "paper": "start07",
+    "page": 4,
+    "box_points": [
+      44,
+      371,
+      568,
+      670
+    ],
+    "caption": "W\u00f6hl & Schuster (2007), Fig. 3. Original 2-ms silhouettes of bending, straightening and take-off.",
+    "source_url": "https://doi.org/10.1242/jeb.02646",
+    "out": "figures/sequence.png",
+    "original_color": true
+  },
+  "turnspeed": {
+    "paper": "start07",
+    "page": 6,
+    "box_points": [
+      44,
+      73,
+      300,
+      358
+    ],
+    "caption": "W\u00f6hl & Schuster (2007), Fig. 5(A\u2013B). Angular speed and acceleration during predictive starts.",
+    "source_url": "https://doi.org/10.1242/jeb.02646",
+    "out": "figures/turnspeed.png",
+    "original_color": true
+  },
+  "linearspeed": {
+    "paper": "start07",
+    "page": 6,
+    "box_points": [
+      314,
+      73,
+      569,
+      360
+    ],
+    "caption": "W\u00f6hl & Schuster (2007), Fig. 6(A\u2013B). Linear speed and acceleration for different required take-off speeds.",
+    "source_url": "https://doi.org/10.1242/jeb.02646",
+    "out": "figures/linearspeed.png",
+    "original_color": true
+  },
+  "turnsize": {
+    "paper": "start07",
+    "page": 9,
+    "box_points": [
+      44,
+      73,
+      300,
+      247
+    ],
+    "caption": "W\u00f6hl & Schuster (2007), Fig. 9. Maximum bending predicts the required turn angle.",
+    "source_url": "https://doi.org/10.1242/jeb.02646",
+    "out": "figures/turnsize.png",
+    "original_color": true
+  },
+  "escape": {
+    "paper": "start07",
+    "page": 11,
+    "box_points": [
+      43,
+      73,
+      569,
+      151
+    ],
+    "caption": "W\u00f6hl & Schuster (2007), Fig. 12(A\u2013B). Original comparison of predictive and escape C-start sequences.",
+    "source_url": "https://doi.org/10.1242/jeb.02646",
+    "out": "figures/escape.png",
+    "original_color": true
+  },
+  "jetfocus": {
+    "paper": "jet14",
+    "page": 2,
+    "box_points": [
+      55,
+      80,
+      140,
+      205
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 1(A\u2013B). A 60-cm shot midway through travel and just before impact.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/jetfocus.png",
+    "original_color": false
+  },
+  "jettips": {
+    "paper": "jet14",
+    "page": 2,
+    "box_points": [
+      286,
+      81,
+      379,
+      137
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 1(D). Preimpact tips at 20, 40 and 60 cm; original 1-cm scale bar.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/jettips.png",
+    "original_color": true
+  },
+  "jetshaft": {
+    "paper": "jet14",
+    "page": 2,
+    "box_points": [
+      286,
+      137,
+      379,
+      218
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 1(E). Shaft stability after a common 30-cm path.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/jetshaft.png",
+    "original_color": true
+  },
+  "jetspeed": {
+    "paper": "jet14",
+    "page": 2,
+    "box_points": [
+      55,
+      528,
+      383,
+      640
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 2(A\u2013C). Tip acceleration during the first 20 ms at three target heights.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/jetspeed.png",
+    "original_color": true
+  },
+  "jetincrement": {
+    "paper": "jet14",
+    "page": 2,
+    "box_points": [
+      55,
+      640,
+      163,
+      750
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 2(D). Speed increment increases with target height.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/jetincrement.png",
+    "original_color": true
+  },
+  "syringe": {
+    "paper": "jet14",
+    "page": 2,
+    "box_points": [
+      165,
+      640,
+      383,
+      750
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 2(E\u2013F). Stable and unstable syringe jets with similar tip-speed profiles.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/syringe.png",
+    "original_color": false
+  },
+  "chemistry": {
+    "paper": "jet14",
+    "page": 3,
+    "box_points": [
+      55,
+      77,
+      219,
+      220
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 3(A). Water-shot viscosity and surface tension compared with controls.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/chemistry.png",
+    "original_color": true
+  },
+  "drift": {
+    "paper": "jet14",
+    "page": 3,
+    "box_points": [
+      55,
+      223,
+      375,
+      465
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 3(C). Mouth-tip drift and body rotation during water release.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/drift.png",
+    "original_color": true
+  },
+  "aperture": {
+    "paper": "jet14",
+    "page": 4,
+    "box_points": [
+      55,
+      201.5,
+      294,
+      520
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 4(C). Mouth-opening time courses for three target heights.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/aperture.png",
+    "original_color": true
+  },
+  "timing": {
+    "paper": "jet14",
+    "page": 4,
+    "box_points": [
+      54,
+      77,
+      295,
+      200
+    ],
+    "caption": "Gerullis & Schuster (2014), Fig. 4(A\u2013B). Range-dependent onset-to-closure time and final closure after the jet.",
+    "source_url": "https://doi.org/10.1016/j.cub.2014.07.059",
+    "out": "figures/timing.png",
+    "original_color": true
+  },
+  "retinatopo": {
+    "paper": "vision10",
+    "page": 5,
+    "box_points": [
+      60,
+      60,
+      298,
+      379
+    ],
+    "caption": "Temple et al. (2010), Fig. 3. Ganglion-cell topography aligned with the preferred shooting axis.",
+    "source_url": "https://doi.org/10.1098/rspb.2010.0345",
+    "out": "figures/retinatopo.png",
+    "original_color": true
+  },
+  "spectra": {
+    "paper": "vision10",
+    "page": 4,
+    "box_points": [
+      44,
+      221,
+      281,
+      488
+    ],
+    "caption": "Temple et al. (2010), Fig. 2(A\u2013C). Regional cone absorptance spectra.",
+    "source_url": "https://doi.org/10.1098/rspb.2010.0345",
+    "out": "figures/spectra.png",
+    "original_color": false
+  },
+  "retinalresponses": {
+    "paper": "retina12",
+    "page": 2,
+    "box_points": [
+      62,
+      412,
+      532,
+      630
+    ],
+    "caption": "Kretschmer et al. (2012), Fig. 1(A\u2013G). Recorded retinal ganglion-cell responses and grating stimulus.",
+    "source_url": "https://doi.org/10.1186/1471-2202-13-69",
+    "out": "figures/retinalresponses.png",
+    "original_color": false
+  },
+  "latencycode": {
+    "paper": "retina12",
+    "page": 3,
+    "box_points": [
+      57,
+      91,
+      539,
+      331
+    ],
+    "caption": "Kretschmer et al. (2012), Fig. 2(A\u2013L). First-spike latency varies with stimulus velocity.",
+    "source_url": "https://doi.org/10.1186/1471-2202-13-69",
+    "out": "figures/latencycode.png",
+    "original_color": true
+  },
+  "relativecode": {
+    "paper": "retina12",
+    "page": 3,
+    "box_points": [
+      57,
+      91,
+      539,
+      331
+    ],
+    "caption": "Kretschmer et al. (2012), Fig. 2(A\u2013L). Relative first-spike latency across velocities.",
+    "source_url": "https://doi.org/10.1186/1471-2202-13-69",
+    "out": "figures/relativecode.png",
+    "original_color": true
+  },
+  "decode": {
+    "paper": "retina12",
+    "page": 3,
+    "box_points": [
+      57,
+      91,
+      539,
+      331
+    ],
+    "caption": "Kretschmer et al. (2012), Fig. 2(A\u2013L). Published decoding based on latency, interval, rate and relative latency.",
+    "source_url": "https://doi.org/10.1186/1471-2202-13-69",
+    "out": "figures/decode.png",
+    "original_color": true
+  },
+  "populations": {
+    "paper": "retina12",
+    "page": 9,
+    "box_points": [
+      65,
+      94,
+      530,
+      367
+    ],
+    "caption": "Kretschmer et al. (2012), Fig. 7(A\u2013B). Decoding error as more ganglion cells are added.",
+    "source_url": "https://doi.org/10.1186/1471-2202-13-69",
+    "out": "figures/populations.png",
+    "original_color": true
+  },
+  "tectumfields": {
+    "paper": "tectum18",
+    "page": 6,
+    "box_points": [
+      80,
+      65,
+      515,
+      654
+    ],
+    "caption": "Reichenthal et al. (2018), Fig. 2(A\u2013H). Spatial and temporal receptive fields of tectal neurons.",
+    "source_url": "https://doi.org/10.3389/fncir.2018.00018",
+    "out": "figures/tectumfields.png",
+    "original_color": true
+  },
+  "tectumfilters": {
+    "paper": "tectum18",
+    "page": 8,
+    "box_points": [
+      125,
+      66,
+      480,
+      202
+    ],
+    "caption": "Reichenthal et al. (2018), Fig. 4(A\u2013B). Published covariance analysis and significant stimulus filters.",
+    "source_url": "https://doi.org/10.3389/fncir.2018.00018",
+    "out": "figures/tectumfilters.png",
+    "original_color": true
+  },
+  "tectummodel": {
+    "paper": "tectum18",
+    "page": 11,
+    "box_points": [
+      95,
+      66,
+      511,
+      654
+    ],
+    "caption": "Reichenthal et al. (2018), Fig. 7(A\u2013D). Original two-filter nonlinear response models and neural recordings.",
+    "source_url": "https://doi.org/10.3389/fncir.2018.00018",
+    "out": "figures/tectummodel.png",
+    "original_color": true
+  },
+  "brain": {
+    "paper": "atlas16",
+    "page": 6,
+    "box_points": [
+      80,
+      65,
+      514,
+      302
+    ],
+    "caption": "Karoubi et al. (2016), Fig. 2(A\u2013D). Lateral view and reconstruction of the archerfish brain.",
+    "source_url": "https://doi.org/10.3389/fnana.2016.00106",
+    "out": "figures/brain.png",
+    "original_color": true
+  },
+  "braintectum": {
+    "paper": "atlas16",
+    "page": 9,
+    "box_points": [
+      110,
+      67,
+      480,
+      219
+    ],
+    "caption": "Karoubi et al. (2016), Fig. 3(Q\u2013R). Published Nissl-stained sections and labeled brain structures.",
+    "source_url": "https://doi.org/10.3389/fnana.2016.00106",
+    "out": "figures/braintectum.png",
+    "original_color": true
+  },
+  "mauthnersearch": {
+    "paper": "morph18",
+    "page": 4,
+    "box_points": [
+      47,
+      55,
+      412,
+      541
+    ],
+    "caption": "Machnik et al. (2018a), Fig. 2(A\u2013D). All-or-none field potential used to locate the Mauthner cell.",
+    "source_url": "https://doi.org/10.1242/jeb.182535",
+    "out": "figures/mauthnersearch.png",
+    "original_color": true
+  },
+  "mauthnerlocation": {
+    "paper": "morph18",
+    "page": 5,
+    "box_points": [
+      48,
+      54,
+      565,
+      653
+    ],
+    "caption": "Machnik et al. (2018a), Fig. 3(A\u2013F). Paired hindbrain focus points and the spatial electrical field.",
+    "source_url": "https://doi.org/10.1242/jeb.182535",
+    "out": "figures/mauthnerlocation.png",
+    "original_color": true
+  },
+  "mauthnermorph": {
+    "paper": "morph18",
+    "page": 7,
+    "box_points": [
+      47,
+      57,
+      563,
+      441
+    ],
+    "caption": "Machnik et al. (2018a), Fig. 5(A\u2013E). Published cell reconstructions and soma/dendrite comparisons.",
+    "source_url": "https://doi.org/10.1242/jeb.182535",
+    "out": "figures/mauthnermorph.png",
+    "original_color": true
+  },
+  "mauthneraxon": {
+    "paper": "morph18",
+    "page": 9,
+    "box_points": [
+      47,
+      55,
+      563,
+      543
+    ],
+    "caption": "Machnik et al. (2018a), Fig. 6(A\u2013E). Hindbrain Mauthner cell and giant crossed spinal axons.",
+    "source_url": "https://doi.org/10.1242/jeb.182535",
+    "out": "figures/mauthneraxon.png",
+    "original_color": true
+  },
+  "spike": {
+    "paper": "phys18",
+    "page": 3,
+    "box_points": [
+      67,
+      179,
+      280,
+      369
+    ],
+    "caption": "Machnik et al. (2018b), Fig. 1(B\u2013C). Antidromic spike and correction for the extracellular field.",
+    "source_url": "https://doi.org/10.1242/jeb.175588",
+    "out": "figures/spike.png",
+    "original_color": false
+  },
+  "spikeprops": {
+    "paper": "phys18",
+    "page": 4,
+    "box_points": [
+      47,
+      57,
+      301,
+      637
+    ],
+    "caption": "Machnik et al. (2018b), Fig. 2(A\u2013E). Intracellular recording stability and action-potential measurements.",
+    "source_url": "https://doi.org/10.1242/jeb.175588",
+    "out": "figures/spikeprops.png",
+    "original_color": true
+  },
+  "visualpsp": {
+    "paper": "phys18",
+    "page": 6,
+    "box_points": [
+      85,
+      55,
+      540,
+      245
+    ],
+    "caption": "Machnik et al. (2018b), Fig. 4(A\u2013B). Light- and sound-evoked postsynaptic potentials in archerfish and goldfish.",
+    "source_url": "https://doi.org/10.1242/jeb.175588",
+    "out": "figures/visualpsp.png",
+    "original_color": true
+  },
+  "auditorypsp": {
+    "paper": "phys18",
+    "page": 6,
+    "box_points": [
+      85,
+      55,
+      540,
+      245
+    ],
+    "caption": "Machnik et al. (2018b), Fig. 4(A\u2013B). Sound- and light-evoked postsynaptic potentials in the same preparations.",
+    "source_url": "https://doi.org/10.1242/jeb.175588",
+    "out": "figures/auditorypsp.png",
+    "original_color": true
+  },
+  "pspcompare": {
+    "paper": "phys18",
+    "page": 6,
+    "box_points": [
+      65,
+      440,
+      549,
+      688
+    ],
+    "caption": "Machnik et al. (2018b), Fig. 5(A\u2013C). Visual and acoustic PSP amplitude and latency comparisons.",
+    "source_url": "https://doi.org/10.1242/jeb.175588",
+    "out": "figures/pspcompare.png",
+    "original_color": true
+  },
+  "dendrites": {
+    "paper": "phys18",
+    "page": 7,
+    "box_points": [
+      47,
+      58,
+      300,
+      641
+    ],
+    "caption": "Machnik et al. (2018b), Fig. 6(A\u2013D). Passive dendritic decay and locations of sensory input.",
+    "source_url": "https://doi.org/10.1242/jeb.175588",
+    "out": "figures/dendrites.png",
+    "original_color": true
+  },
+  "feedback": {
+    "paper": "phys18",
+    "page": 8,
+    "box_points": [
+      65,
+      56,
+      282,
+      577
+    ],
+    "caption": "Machnik et al. (2018b), Fig. 7(A\u2013D). Paired-spike tests and chloride-loaded recordings of recurrent inhibition.",
+    "source_url": "https://doi.org/10.1242/jeb.175588",
+    "out": "figures/feedback.png",
+    "original_color": true
+  },
+  "feedforward": {
+    "paper": "phys18",
+    "page": 9,
+    "box_points": [
+      80,
+      56,
+      275,
+      627
+    ],
+    "caption": "Machnik et al. (2018b), Fig. 8(A\u2013C). Sensory-driven inhibition measured during visual and acoustic PSPs.",
+    "source_url": "https://doi.org/10.1242/jeb.175588",
+    "out": "figures/feedforward.png",
+    "original_color": true
+  },
+  "windsetup": {
+    "paper": "adapt24",
+    "page": 4,
+    "box_points": [
+      37,
+      54,
+      506,
+      349
+    ],
+    "caption": "Volotsky et al. (2023), Fig. 2(A\u2013B). Original airflow apparatus and photographed water jet.",
+    "source_url": "https://doi.org/10.7554/elife.92909",
+    "out": "figures/windsetup.png",
+    "original_color": true
+  },
+  "adapttraces": {
+    "paper": "adapt24",
+    "page": 5,
+    "box_points": [
+      169,
+      200,
+      521,
+      505
+    ],
+    "caption": "Volotsky et al. (2023), Fig. 3(C\u2013F). Trial-by-trial error reduction and aftereffects in both airflow directions.",
+    "source_url": "https://doi.org/10.7554/elife.92909",
+    "out": "figures/adapttraces.png",
+    "original_color": true
+  },
+  "adaptgroup": {
+    "paper": "adapt24",
+    "page": 6,
+    "box_points": [
+      169,
+      54,
+      520,
+      335
+    ],
+    "caption": "Volotsky et al. (2023), Fig. 4(A\u2013D). Shot errors before, during and after airflow perturbation.",
+    "source_url": "https://doi.org/10.7554/elife.92909",
+    "out": "figures/adaptgroup.png",
+    "original_color": true
+  },
+  "adaptframe": {
+    "paper": "adapt24",
+    "page": 8,
+    "box_points": [
+      169,
+      54,
+      521,
+      600
+    ],
+    "caption": "Volotsky et al. (2023), Fig. 5(A\u2013E). Body-direction reversal tests of the adaptation reference frame.",
+    "source_url": "https://doi.org/10.7554/elife.92909",
+    "out": "figures/adaptframe.png",
+    "original_color": true
+  },
+  "learnvirtual": {
+    "paper": "learn25",
+    "page": 6,
+    "box_points": [
+      38,
+      77,
+      578,
+      418
+    ],
+    "caption": "Krause et al. (2024), Fig. 3(A\u2013G). Critical virtual-prey tests and landing-point error distributions.",
+    "source_url": "https://doi.org/10.7554/elife.99634",
+    "out": "figures/learnvirtual.png",
+    "original_color": true
+  },
+  "learnrule": {
+    "paper": "learn25",
+    "page": 8,
+    "box_points": [
+      38,
+      76,
+      578,
+      579
+    ],
+    "caption": "Krause et al. (2024), Fig. 4(A\u2013K). Original deflection training, transfer tests and latency\u2013accuracy results.",
+    "source_url": "https://doi.org/10.7554/elife.99634",
+    "out": "figures/learnrule.png",
+    "original_color": true
+  },
+  "learngeneral": {
+    "paper": "learn25",
+    "page": 12,
+    "box_points": [
+      169,
+      76,
+      579,
+      623
+    ],
+    "caption": "Krause et al. (2024), Fig. 5(A\u2013G). Transfer to untrained speed, angle, size and height.",
+    "source_url": "https://doi.org/10.7554/elife.99634",
+    "out": "figures/learngeneral.png",
+    "original_color": true
+  },
+  "learncontext": {
+    "paper": "learn25",
+    "page": 14,
+    "box_points": [
+      169,
+      76,
+      579,
+      659
+    ],
+    "caption": "Krause et al. (2024), Fig. 6(A\u2013J). Shape cues select between learned and ballistic interception rules.",
+    "source_url": "https://doi.org/10.7554/elife.99634",
+    "out": "figures/learncontext.png",
+    "original_color": true
+  },
+  "learnclue": {
+    "paper": "learn25",
+    "page": 16,
+    "box_points": [
+      38,
+      76,
+      578,
+      316
+    ],
+    "caption": "Krause et al. (2024), Fig. 7(A\u2013E). Rule selection when an object changes appearance after motion onset.",
+    "source_url": "https://doi.org/10.7554/elife.99634",
+    "out": "figures/learnclue.png",
+    "original_color": true
+  }
+}

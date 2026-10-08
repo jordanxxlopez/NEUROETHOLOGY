@@ -1,9 +1,21 @@
-# Lecture 27 preparation
+# Lecture 27
 
-Fresh branch from default commit 5eccd8a; no ZIP or older repository source used. Current AGENTS.md, neuroethology-lecture skill, template, and prompt read. Uploaded Lectures 8, 9, 22, 23, 24 inspected: each has 46 slides, images on 45 slides and notes on all 46. Details: example-review.json.
+**Archerfish: predictive aiming and ballistic prey capture** — **Wednesday, October 28, 2026**.
 
-Research searches and access records are under sources/. Six original primary PDFs were downloaded, opened, and extracted as text in /workspace/lecture27-research; local PDFs are in ignored papers/. Five foundational PDFs remain inaccessible and are listed in PAPERS.md / needed-papers.json. No scientific visual has been generated, no incomplete deck built, and no theme marked used. Resume after source uploads, inspect/crop their original figures, write 44 full content slides with transcripts, build with tools/build_lecture.py, validate, and visually inspect all 46 slides before export.
+The connected repository default branch was refreshed and merged through commit 8c7bafd before preparation was completed. No ZIP was used. Current AGENTS.md, neuroethology-lecture skill, schedule, themes, template, and build tools were followed. Uploaded Lectures 8, 9, 22, 23, and 24 were inspected as format examples (example-review.json).
 
-Bibliographic care: eLife repository indexing dates differ from the article volume-year line. The available PDFs identify Volotsky et al. as eLife 2023;12:RP92909 and Krause et al. as eLife 2024;13:RP99634. Verify the selected published version and cite its version and year consistently rather than blindly using PubMed indexing year.
+46 slides: title, 44 three-paragraph content slides, and six exam takeaways. Every content slide has primary article figures; 35 include original color. Full teaching notes and linked DOI references appear on all slides. No generated, redrawn, reconstructed, recolored, stock, or decorative scientific visual is present. Theme: rosewater / harbor blue; font: Arial.
 
-The strict original-image rules are already persisted in AGENTS.md, .claude/skills/neuroethology-lecture/SKILL.md and prompts/make_lecture.md. A lecture-specific reusable prompt is saved as prompts/make_lecture_27.md.
+Eleven original primary PDFs support the deck. The instructor supplied five previously inaccessible papers; access is resolved. Figures were cropped with tools/crop_panels.py, which calls tools/crop_figure.py. Cropping provenance, hashes, research searches and Crossref metadata are preserved. PDFs remain ignored in papers/. Bibliographic years follow the selected eLife reviewed-preprint PDF volume-year lines (2023;12:RP92909 and 2024;13:RP99634), rather than later indexing dates. Species/preparation differences and causal limits are explicit.
+
+Rebuild with the repository Python environment:
+
+```sh
+python lectures/L27/make_crops.py
+python lectures/L27/write_spec.py
+python tools/build_lecture.py lectures/L27/lecture.json
+python lectures/L27/finalize.py
+python lectures/L27/validate.py
+```
+
+The native deck passed tools/check_lecture.py; all 46 rendered slides and source crops were reviewed for labels, axes, units, clipping, text fit and caption placement. Validation details: sources/validation.json. The reusable strict-figure prompt is prompts/make_lecture_27.md.
