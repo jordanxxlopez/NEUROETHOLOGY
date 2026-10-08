@@ -1,0 +1,1218 @@
+{
+  "lecture": 28,
+  "theme": "marine-clay",
+  "content_slides": 44,
+  "slides": [
+    {
+      "title": "A home vector survives a winding outward journey",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Path integration** is the continual updating of direction and distance from a starting point using information gathered during movement. A **home vector** specifies the direction and distance back to the nest; it need not reproduce the sequence of outward turns.",
+        "M\u00fcller and Wehner recorded a natural foraging trip of Cataglyphis fortis in Tunisia. The outward path measured 354.5 m, while the maximum distance from the nest was 113.2 m. After finding food, the ant returned along a comparatively direct inbound route.",
+        "The difference between outward path length and nest displacement separates route retracing from vector-guided homing. This recorded journey documents the behavior, but does not identify a neuron that stores the vector or establish the mathematical precision of its updating mechanism."
+      ],
+      "transcript": [
+        "**Path integration** is the continual updating of direction and distance from a starting point using information gathered during movement. A **home vector** specifies the direction and distance back to the nest; it need not reproduce the sequence of outward turns.",
+        "M\u00fcller and Wehner recorded a natural foraging trip of Cataglyphis fortis in Tunisia. The outward path measured 354.5 m, while the maximum distance from the nest was 113.2 m. After finding food, the ant returned along a comparatively direct inbound route.",
+        "The difference between outward path length and nest displacement separates route retracing from vector-guided homing. This recorded journey documents the behavior, but does not identify a neuron that stores the vector or establish the mathematical precision of its updating mechanism."
+      ],
+      "cite": "M\u00fcller & Wehner (1988)",
+      "refs": [
+        "M\u00fcller M, Wehner R (1988). Path integration in desert ants, Cataglyphis fortis. Proceedings of the National Academy of Sciences 85(14):5287\u20135290. https://doi.org/10.1073/pnas.85.14.5287"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/M88_1.png",
+        "caption": "M\u00fcller & Wehner (1988), Fig. 1. A natural outbound route and direct homeward return.",
+        "source_url": "https://doi.org/10.1073/pnas.85.14.5287"
+      }
+    },
+    {
+      "title": "Displacement separates the vector from the real nest",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "Passive displacement changes an ant\u2019s geographical position without supplying the walking movements that normally update its home vector. A displaced ant can therefore express a direction appropriate to its earlier position rather than to the nest\u2019s actual location.",
+        "M\u00fcller and Wehner captured a food-carrying ant at its feeding location and released it elsewhere in open terrain. The animal\u2019s subsequent course was compared with the geographical nest direction and the course predicted from its recorded outbound trajectory, using a 10 m spatial scale.",
+        "The course retained information from the outward journey despite the transfer. The test distinguishes movement-derived navigation from immediate attraction to the true nest, while leaving landmark guidance and systematic searching available as additional mechanisms under natural conditions."
+      ],
+      "transcript": [
+        "Passive displacement changes an ant\u2019s geographical position without supplying the walking movements that normally update its home vector. A displaced ant can therefore express a direction appropriate to its earlier position rather than to the nest\u2019s actual location.",
+        "M\u00fcller and Wehner captured a food-carrying ant at its feeding location and released it elsewhere in open terrain. The animal\u2019s subsequent course was compared with the geographical nest direction and the course predicted from its recorded outbound trajectory, using a 10 m spatial scale.",
+        "The course retained information from the outward journey despite the transfer. The test distinguishes movement-derived navigation from immediate attraction to the true nest, while leaving landmark guidance and systematic searching available as additional mechanisms under natural conditions."
+      ],
+      "cite": "M\u00fcller & Wehner (1988)",
+      "refs": [
+        "M\u00fcller M, Wehner R (1988). Path integration in desert ants, Cataglyphis fortis. Proceedings of the National Academy of Sciences 85(14):5287\u20135290. https://doi.org/10.1073/pnas.85.14.5287"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/M88_4.png",
+        "caption": "M\u00fcller & Wehner (1988), Fig. 4. Natural-path displacement and the resulting homeward course.",
+        "source_url": "https://doi.org/10.1073/pnas.85.14.5287"
+      }
+    },
+    {
+      "title": "Angular channels constrain the path being integrated",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "An experimental path can specify the directions and distances an ant experiences before homing. M\u00fcller and Wehner trained Cataglyphis fortis through narrow plastic channels, then transferred individuals from the feeder to a separate open test field.",
+        "The two legs were varied over lengths of 5\u201310 m and turning angles spanning 0\u2013180\u00b0. In the plotted experiment, the first leg was 10 m and the second 5 m. Release occurred within one minute of capture, reducing the delay between training and the directional test.",
+        "The recorded initial homeward course measures the ant\u2019s accumulated directional estimate rather than its ability to follow the training channel backward. Removing the channels during testing separates the geometry experienced during acquisition from the geometry available during expression."
+      ],
+      "transcript": [
+        "An experimental path can specify the directions and distances an ant experiences before homing. M\u00fcller and Wehner trained Cataglyphis fortis through narrow plastic channels, then transferred individuals from the feeder to a separate open test field.",
+        "The two legs were varied over lengths of 5\u201310 m and turning angles spanning 0\u2013180\u00b0. In the plotted experiment, the first leg was 10 m and the second 5 m. Release occurred within one minute of capture, reducing the delay between training and the directional test.",
+        "The recorded initial homeward course measures the ant\u2019s accumulated directional estimate rather than its ability to follow the training channel backward. Removing the channels during testing separates the geometry experienced during acquisition from the geometry available during expression."
+      ],
+      "cite": "M\u00fcller & Wehner (1988)",
+      "refs": [
+        "M\u00fcller M, Wehner R (1988). Path integration in desert ants, Cataglyphis fortis. Proceedings of the National Academy of Sciences 85(14):5287\u20135290. https://doi.org/10.1073/pnas.85.14.5287"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/M88_2.png",
+        "caption": "M\u00fcller & Wehner (1988), Fig. 2(A\u2013B). Two-leg training and measured homing-direction errors.",
+        "source_url": "https://doi.org/10.1073/pnas.85.14.5287"
+      }
+    },
+    {
+      "title": "Homing errors depend on the outward turning angle",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Systematic error** means a directional deviation that varies predictably with an experimental manipulation. It differs from random scatter among journeys. M\u00fcller and Wehner measured the angular difference between the true homeward direction and the course expressed after two-leg training.",
+        "With outbound legs of 10 m and 5 m, the error increased as the turning angle approached approximately 150\u00b0, reaching about 20\u00b0 in the published measurements. The error returned toward zero at the limiting straight or reversed arrangements.",
+        "The angle-dependent pattern supported an approximate updating rule under these conditions. It does not prove that every ant species, every route geometry, or every neural representation uses the same approximation; the inference concerns the measured Cataglyphis trajectories and their proposed mathematical account."
+      ],
+      "transcript": [
+        "**Systematic error** means a directional deviation that varies predictably with an experimental manipulation. It differs from random scatter among journeys. M\u00fcller and Wehner measured the angular difference between the true homeward direction and the course expressed after two-leg training.",
+        "With outbound legs of 10 m and 5 m, the error increased as the turning angle approached approximately 150\u00b0, reaching about 20\u00b0 in the published measurements. The error returned toward zero at the limiting straight or reversed arrangements.",
+        "The angle-dependent pattern supported an approximate updating rule under these conditions. It does not prove that every ant species, every route geometry, or every neural representation uses the same approximation; the inference concerns the measured Cataglyphis trajectories and their proposed mathematical account."
+      ],
+      "cite": "M\u00fcller & Wehner (1988)",
+      "refs": [
+        "M\u00fcller M, Wehner R (1988). Path integration in desert ants, Cataglyphis fortis. Proceedings of the National Academy of Sciences 85(14):5287\u20135290. https://doi.org/10.1073/pnas.85.14.5287"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/M88_2.png",
+        "caption": "M\u00fcller & Wehner (1988), Fig. 2(A\u2013B). Two-leg training and measured homing-direction errors.",
+        "source_url": "https://doi.org/10.1073/pnas.85.14.5287"
+      }
+    },
+    {
+      "title": "Sun and polarization cues support the directional test",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A **celestial compass** derives heading information from features of the sky. Direct sunlight and the pattern of polarized skylight provide related but separable information. Polarization refers to the orientation of the electric field oscillation in a light wave.",
+        "M\u00fcller and Wehner compared homing errors while ants used the sun, polarized skylight, or both. Screening the sun removed direct solar information; painting the dorsal rim of the compound eyes removed access to the specialized polarization-sensitive eye region. The 10 m and 5 m route still produced systematic errors.",
+        "The persistence of the error pattern across compass conditions argues against a single defective sky cue accounting for the path-integration bias. Restricted sky windows can themselves distort polarization estimates, so the authors considered this separate source of compass error in their interpretation."
+      ],
+      "transcript": [
+        "A **celestial compass** derives heading information from features of the sky. Direct sunlight and the pattern of polarized skylight provide related but separable information. Polarization refers to the orientation of the electric field oscillation in a light wave.",
+        "M\u00fcller and Wehner compared homing errors while ants used the sun, polarized skylight, or both. Screening the sun removed direct solar information; painting the dorsal rim of the compound eyes removed access to the specialized polarization-sensitive eye region. The 10 m and 5 m route still produced systematic errors.",
+        "The persistence of the error pattern across compass conditions argues against a single defective sky cue accounting for the path-integration bias. Restricted sky windows can themselves distort polarization estimates, so the authors considered this separate source of compass error in their interpretation."
+      ],
+      "cite": "M\u00fcller & Wehner (1988)",
+      "refs": [
+        "M\u00fcller M, Wehner R (1988). Path integration in desert ants, Cataglyphis fortis. Proceedings of the National Academy of Sciences 85(14):5287\u20135290. https://doi.org/10.1073/pnas.85.14.5287"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/M88_2.png",
+        "caption": "M\u00fcller & Wehner (1988), Fig. 2(A\u2013B). Two-leg training and measured homing-direction errors.",
+        "source_url": "https://doi.org/10.1073/pnas.85.14.5287"
+      }
+    },
+    {
+      "title": "Three-leg routes test an approximate updating rule",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "An explanation fitted to one route geometry must also account for a different sequence of movements. M\u00fcller and Wehner added a third leg to the channel arrangement, introducing a second 90\u00b0 turn rather than repeating the original two-leg experiment.",
+        "The first leg was 10 m and the second and third legs were each 5 m. Ants subsequently released into open terrain deviated by 30.8\u00b0 from the true home direction. The approximation derived from the earlier experiments predicted a deviation of 33.7\u00b0.",
+        "The agreement extended the behavioral account beyond the particular angles used to derive it. A successful prediction of homing direction still leaves the cellular implementation unresolved: the experiment measured the animal\u2019s course, not the voltage, transmitter or synaptic activity of an identified integrator."
+      ],
+      "transcript": [
+        "An explanation fitted to one route geometry must also account for a different sequence of movements. M\u00fcller and Wehner added a third leg to the channel arrangement, introducing a second 90\u00b0 turn rather than repeating the original two-leg experiment.",
+        "The first leg was 10 m and the second and third legs were each 5 m. Ants subsequently released into open terrain deviated by 30.8\u00b0 from the true home direction. The approximation derived from the earlier experiments predicted a deviation of 33.7\u00b0.",
+        "The agreement extended the behavioral account beyond the particular angles used to derive it. A successful prediction of homing direction still leaves the cellular implementation unresolved: the experiment measured the animal\u2019s course, not the voltage, transmitter or synaptic activity of an identified integrator."
+      ],
+      "cite": "M\u00fcller & Wehner (1988)",
+      "refs": [
+        "M\u00fcller M, Wehner R (1988). Path integration in desert ants, Cataglyphis fortis. Proceedings of the National Academy of Sciences 85(14):5287\u20135290. https://doi.org/10.1073/pnas.85.14.5287"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/M88_3.png",
+        "caption": "M\u00fcller & Wehner (1988), Fig. 3. Three-leg training and homing directions.",
+        "source_url": "https://doi.org/10.1073/pnas.85.14.5287"
+      }
+    },
+    {
+      "title": "Natural routes can limit the cost of directional bias",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "Route geometry determines how an approximate path integrator accumulates error. A sharp sustained turn can produce a large deviation, whereas turns in opposite directions may partly cancel their effects on the estimated homeward direction.",
+        "M\u00fcller and Wehner compared the proposed updating rule with recorded natural foraging paths. In the displaced example, the expressed course departed from the real nest direction by approximately 20\u00b0, consistent with the direction predicted from that ant\u2019s outward trajectory.",
+        "The authors noted that natural Cataglyphis paths rarely contained the repeated sharp backward turns that generated especially large experimental errors. This ecological interpretation explains possible usefulness without establishing perfect accuracy; landmarks and searching remain relevant when a home vector is insufficient."
+      ],
+      "transcript": [
+        "Route geometry determines how an approximate path integrator accumulates error. A sharp sustained turn can produce a large deviation, whereas turns in opposite directions may partly cancel their effects on the estimated homeward direction.",
+        "M\u00fcller and Wehner compared the proposed updating rule with recorded natural foraging paths. In the displaced example, the expressed course departed from the real nest direction by approximately 20\u00b0, consistent with the direction predicted from that ant\u2019s outward trajectory.",
+        "The authors noted that natural Cataglyphis paths rarely contained the repeated sharp backward turns that generated especially large experimental errors. This ecological interpretation explains possible usefulness without establishing perfect accuracy; landmarks and searching remain relevant when a home vector is insufficient."
+      ],
+      "cite": "M\u00fcller & Wehner (1988)",
+      "refs": [
+        "M\u00fcller M, Wehner R (1988). Path integration in desert ants, Cataglyphis fortis. Proceedings of the National Academy of Sciences 85(14):5287\u20135290. https://doi.org/10.1073/pnas.85.14.5287"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/M88_4.png",
+        "caption": "M\u00fcller & Wehner (1988), Fig. 4. Natural-path displacement and the resulting homeward course.",
+        "source_url": "https://doi.org/10.1073/pnas.85.14.5287"
+      }
+    },
+    {
+      "title": "Leg length manipulation changes the estimated distance",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "An **odometer** is a mechanism for estimating distance traveled. A **stride** is one complete movement cycle of a particular leg. Altering leg length can change the distance covered during each stride without changing the distance experienced before the manipulation.",
+        "Wittlinger and colleagues trained Cataglyphis fortis to a feeder 10 m from the nest. At the feeder, they lengthened legs with attached pig bristles, producing stilts, or shortened legs, producing stumps. Food-carrying ants were then tested in a separate channel.",
+        "The manipulation was performed after the outbound distance had been acquired, allowing an unequal relationship between outbound and inbound strides. The resulting distance error tests locomotor information, but leg surgery alone does not distinguish peripheral sensory feedback from centrally generated movement signals."
+      ],
+      "transcript": [
+        "An **odometer** is a mechanism for estimating distance traveled. A **stride** is one complete movement cycle of a particular leg. Altering leg length can change the distance covered during each stride without changing the distance experienced before the manipulation.",
+        "Wittlinger and colleagues trained Cataglyphis fortis to a feeder 10 m from the nest. At the feeder, they lengthened legs with attached pig bristles, producing stilts, or shortened legs, producing stumps. Food-carrying ants were then tested in a separate channel.",
+        "The manipulation was performed after the outbound distance had been acquired, allowing an unequal relationship between outbound and inbound strides. The resulting distance error tests locomotor information, but leg surgery alone does not distinguish peripheral sensory feedback from centrally generated movement signals."
+      ],
+      "cite": "Wittlinger et al. (2006)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2006). The Ant Odometer: Stepping on Stilts and Stumps. Science 312(5782):1965\u20131967. https://doi.org/10.1126/science.1126912"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W06_2.png",
+        "caption": "Wittlinger et al. (2006), Fig. 2. Normal legs, stilts and stumps.",
+        "source_url": "https://doi.org/10.1126/science.1126912"
+      }
+    },
+    {
+      "title": "Stilts overshoot and stumps undershoot the nest",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "The transition from directed walking to repeated U-turns provides a behavioral measure of expected nest distance. Wittlinger and colleagues used the median of the initial six turning points to identify the centre of an ant\u2019s nest-search behavior.",
+        "After a normal 10 m outbound journey, ants with lengthened legs searched at 15.30 m, ants with shortened legs searched at 5.75 m, and normal-legged controls searched at 10.20 m. The direction of the error followed the change in stride length.",
+        "Longer inbound strides made the stored journey terminate farther from release, while shorter strides made it terminate sooner. This bidirectional effect is difficult to attribute solely to debilitation, which would not predict vigorous overshooting by the animals walking on stilts."
+      ],
+      "transcript": [
+        "The transition from directed walking to repeated U-turns provides a behavioral measure of expected nest distance. Wittlinger and colleagues used the median of the initial six turning points to identify the centre of an ant\u2019s nest-search behavior.",
+        "After a normal 10 m outbound journey, ants with lengthened legs searched at 15.30 m, ants with shortened legs searched at 5.75 m, and normal-legged controls searched at 10.20 m. The direction of the error followed the change in stride length.",
+        "Longer inbound strides made the stored journey terminate farther from release, while shorter strides made it terminate sooner. This bidirectional effect is difficult to attribute solely to debilitation, which would not predict vigorous overshooting by the animals walking on stilts."
+      ],
+      "cite": "Wittlinger et al. (2006)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2006). The Ant Odometer: Stepping on Stilts and Stumps. Science 312(5782):1965\u20131967. https://doi.org/10.1126/science.1126912"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W06_3.png",
+        "caption": "Wittlinger et al. (2006), Fig. 3(A\u2013B). Homing distances after leg manipulation and after matched outbound training.",
+        "source_url": "https://doi.org/10.1126/science.1126912"
+      }
+    },
+    {
+      "title": "Matched outward and inward legs restore homing distance",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "The same modified animal can experience a new outbound journey with the altered legs. This control keeps the manipulation present while removing the mismatch between the locomotor conditions used to acquire and express the stored distance.",
+        "After returning to the nest, ants walked to the feeder again with their stilts or stumps and were retested. Searches centred at 10.55 m for stilts and 10.25 m for stumps, close to the 10.20 m normal-leg condition and the true 10 m separation.",
+        "Recovery of the expected distance supports a stride-dependent acquisition-and-readout relationship rather than permanent loss of navigation after surgery. It does not require the ant to measure its leg length explicitly or identify which neural signal constitutes the odometer\u2019s input."
+      ],
+      "transcript": [
+        "The same modified animal can experience a new outbound journey with the altered legs. This control keeps the manipulation present while removing the mismatch between the locomotor conditions used to acquire and express the stored distance.",
+        "After returning to the nest, ants walked to the feeder again with their stilts or stumps and were retested. Searches centred at 10.55 m for stilts and 10.25 m for stumps, close to the 10.20 m normal-leg condition and the true 10 m separation.",
+        "Recovery of the expected distance supports a stride-dependent acquisition-and-readout relationship rather than permanent loss of navigation after surgery. It does not require the ant to measure its leg length explicitly or identify which neural signal constitutes the odometer\u2019s input."
+      ],
+      "cite": "Wittlinger et al. (2006)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2006). The Ant Odometer: Stepping on Stilts and Stumps. Science 312(5782):1965\u20131967. https://doi.org/10.1126/science.1126912"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W06_3.png",
+        "caption": "Wittlinger et al. (2006), Fig. 3(A\u2013B). Homing distances after leg manipulation and after matched outbound training.",
+        "source_url": "https://doi.org/10.1126/science.1126912"
+      }
+    },
+    {
+      "title": "Two shortening treatments separate locomotor effects",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "Wittlinger and colleagues extended the odometer experiment with two degrees of leg shortening. **Tarsomeres** are the distal segments of an insect leg; the **tibia** lies proximal to the tarsus. Removing these regions changes the effective length of the walking limb.",
+        "Stumps I lacked the distal tarsal segments, whereas stumps II had the distal half of the tibia removed. A third group carried bristle stilts, and normal-legged ants provided the comparison. All groups had acquired the same 10 m outbound feeder distance before the first test.",
+        "The anatomically graded manipulation allowed comparison of different reductions in stride length rather than treating all shortened legs as one condition. It preserved a common navigational task, while acknowledging that leg length, walking speed and load can change together."
+      ],
+      "transcript": [
+        "Wittlinger and colleagues extended the odometer experiment with two degrees of leg shortening. **Tarsomeres** are the distal segments of an insect leg; the **tibia** lies proximal to the tarsus. Removing these regions changes the effective length of the walking limb.",
+        "Stumps I lacked the distal tarsal segments, whereas stumps II had the distal half of the tibia removed. A third group carried bristle stilts, and normal-legged ants provided the comparison. All groups had acquired the same 10 m outbound feeder distance before the first test.",
+        "The anatomically graded manipulation allowed comparison of different reductions in stride length rather than treating all shortened legs as one condition. It preserved a common navigational task, while acknowledging that leg length, walking speed and load can change together."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_2.png",
+        "caption": "Wittlinger et al. (2007), Fig. 2. Leg anatomy and the four length conditions.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "Shortened legs retain alternating tripod coordination",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A **tripod gait** alternates two sets of three supporting legs. In Cataglyphis, one set combines the left front and hind legs with the right middle leg; the complementary set uses the remaining three legs.",
+        "High-speed video at 250 frames per second recorded ants before and after manipulation. The published normal example had a stride length of 13.3 mm at 0.28 m/s, whereas a stumps-II example retained tripod coordination with a 10.5 mm stride at 0.27 m/s.",
+        "The observations separate shortening of the walking cycle\u2019s spatial extent from replacement of its basic coordination pattern. Preserved tripods do not establish unchanged sensory feedback or motor-neuron activity, but they constrain explanations that require an entirely different gait after shortening."
+      ],
+      "transcript": [
+        "A **tripod gait** alternates two sets of three supporting legs. In Cataglyphis, one set combines the left front and hind legs with the right middle leg; the complementary set uses the remaining three legs.",
+        "High-speed video at 250 frames per second recorded ants before and after manipulation. The published normal example had a stride length of 13.3 mm at 0.28 m/s, whereas a stumps-II example retained tripod coordination with a 10.5 mm stride at 0.27 m/s.",
+        "The observations separate shortening of the walking cycle\u2019s spatial extent from replacement of its basic coordination pattern. Preserved tripods do not establish unchanged sensory feedback or motor-neuron activity, but they constrain explanations that require an entirely different gait after shortening."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_3B.png",
+        "caption": "Wittlinger et al. (2007), Fig. 3(B). Tripod gait after shortening the tibiae.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "Distance errors track the extent of leg shortening",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A shorter stride covers less ground during each locomotor cycle. If outbound distance is stored in relation to movement cycles, shortening the legs only after that journey should make the inbound estimate terminate before the original feeder-to-nest distance.",
+        "In the expanded experiment, normal-legged ants searched at 10.20 m, stumps-I ants at 6.95 m and stumps-II ants at 5.75 m. Stilts produced searches at 15.30 m. These values were measured after a 10 m outbound run through the training channel.",
+        "The graded undershoot is consistent with a stride integrator rather than a fixed physical-distance readout independent of locomotion. The two shortening treatments nevertheless changed more than one biomechanical variable, so recorded stride kinematics were needed to assess the quantitative prediction."
+      ],
+      "transcript": [
+        "A shorter stride covers less ground during each locomotor cycle. If outbound distance is stored in relation to movement cycles, shortening the legs only after that journey should make the inbound estimate terminate before the original feeder-to-nest distance.",
+        "In the expanded experiment, normal-legged ants searched at 10.20 m, stumps-I ants at 6.95 m and stumps-II ants at 5.75 m. Stilts produced searches at 15.30 m. These values were measured after a 10 m outbound run through the training channel.",
+        "The graded undershoot is consistent with a stride integrator rather than a fixed physical-distance readout independent of locomotion. The two shortening treatments nevertheless changed more than one biomechanical variable, so recorded stride kinematics were needed to assess the quantitative prediction."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_4.png",
+        "caption": "Wittlinger et al. (2007), Fig. 4(A\u2013B). Color-coded searches before and after matched leg-length training.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "Search density distinguishes distance from uncertainty",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A **search density distribution** records how often an ant visits positions during its search. Its centre estimates expected nest location, while its width describes how broadly the animal distributes its search around that estimate.",
+        "The test channel was divided into 10 cm bins. In the first test, the full width at half maximum was 8.3 m for stilts, 6.0 m for normal legs, 5.2 m for stumps I and 4.1 m for stumps II. The plotted search curves therefore differed in spread as well as centre.",
+        "The widths are behavioral descriptions of searching rather than direct measurements of a neural uncertainty variable. Longer or shorter strides alter the spatial extent covered during searching, so distribution width cannot by itself establish how precisely a central memory encodes distance."
+      ],
+      "transcript": [
+        "A **search density distribution** records how often an ant visits positions during its search. Its centre estimates expected nest location, while its width describes how broadly the animal distributes its search around that estimate.",
+        "The test channel was divided into 10 cm bins. In the first test, the full width at half maximum was 8.3 m for stilts, 6.0 m for normal legs, 5.2 m for stumps I and 4.1 m for stumps II. The plotted search curves therefore differed in spread as well as centre.",
+        "The widths are behavioral descriptions of searching rather than direct measurements of a neural uncertainty variable. Longer or shorter strides alter the spatial extent covered during searching, so distribution width cannot by itself establish how precisely a central memory encodes distance."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_5.png",
+        "caption": "Wittlinger et al. (2007), Fig. 5. Widths of the nest-search distributions.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "Repeated training removes most of the distance mismatch",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "Comparing first and second tests separates a newly imposed mismatch from walking with altered legs on both journey directions. In the second test, ants had left the nest and reached the feeder using the same modified limbs used during homing.",
+        "The initial stilt and stump searches were displaced from the 10 m nest distance. After the subsequent outbound journey, the color-coded search distributions clustered near the correct distance across the four leg conditions, even though the surgical or bristle modifications remained present.",
+        "The dependence on journey history makes a persistent injury explanation insufficient. Matched locomotor conditions permit accurate homing without proving a numerical step counter; a physiological integrator of stride-associated signals can produce the same qualitative relationship between acquisition and return."
+      ],
+      "transcript": [
+        "Comparing first and second tests separates a newly imposed mismatch from walking with altered legs on both journey directions. In the second test, ants had left the nest and reached the feeder using the same modified limbs used during homing.",
+        "The initial stilt and stump searches were displaced from the 10 m nest distance. After the subsequent outbound journey, the color-coded search distributions clustered near the correct distance across the four leg conditions, even though the surgical or bristle modifications remained present.",
+        "The dependence on journey history makes a persistent injury explanation insufficient. Matched locomotor conditions permit accurate homing without proving a numerical step counter; a physiological integrator of stride-associated signals can produce the same qualitative relationship between acquisition and return."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_4.png",
+        "caption": "Wittlinger et al. (2007), Fig. 4(A\u2013B). Color-coded searches before and after matched leg-length training.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "Body size must be separated from stride length",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "Larger Cataglyphis workers have longer legs and can take longer strides. **Normalization** expresses measurements relative to a specified reference so that differences in body size do not masquerade as effects of the experimental manipulation.",
+        "Wittlinger and colleagues measured the **alitrunk**, the thoracic region between the pronotum and propodeum, and expressed middle-leg length and stride length relative to alitrunk length. High-speed records related these relative strides to frequency, including a comparison at 20 Hz.",
+        "The analysis placed normal, stilt and stump animals on a common anatomical and locomotor basis. Relative stride length is therefore dimensionless in the relevant plot; it is not a second independently measured estimate of homing distance or evidence that ants themselves perform this normalization."
+      ],
+      "transcript": [
+        "Larger Cataglyphis workers have longer legs and can take longer strides. **Normalization** expresses measurements relative to a specified reference so that differences in body size do not masquerade as effects of the experimental manipulation.",
+        "Wittlinger and colleagues measured the **alitrunk**, the thoracic region between the pronotum and propodeum, and expressed middle-leg length and stride length relative to alitrunk length. High-speed records related these relative strides to frequency, including a comparison at 20 Hz.",
+        "The analysis placed normal, stilt and stump animals on a common anatomical and locomotor basis. Relative stride length is therefore dimensionless in the relevant plot; it is not a second independently measured estimate of homing distance or evidence that ants themselves perform this normalization."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_6.png",
+        "caption": "Wittlinger et al. (2007), Fig. 6. Stride length as a function of stride frequency.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "Stride length varies even at a common cycle frequency",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Stride frequency** is the number of complete leg cycles per second, measured in hertz. It is distinct from stride length, the distance advanced during one cycle. Either variable can change walking speed.",
+        "At comparable frequencies, stilt ants had longer relative strides and stump ants shorter relative strides than controls. The investigators used the measured frequency\u2013length relationships to compare animals at 20 Hz, reducing the effect of unequal movement speeds on the predicted homing distances.",
+        "The remaining ordering of the leg conditions links the imposed limb geometry to locomotor displacement. The measured relationships provide a quantitative behavioral constraint, but they do not reveal whether the odometer receives cycle counts, proprioceptive signals or an integrated motor command."
+      ],
+      "transcript": [
+        "**Stride frequency** is the number of complete leg cycles per second, measured in hertz. It is distinct from stride length, the distance advanced during one cycle. Either variable can change walking speed.",
+        "At comparable frequencies, stilt ants had longer relative strides and stump ants shorter relative strides than controls. The investigators used the measured frequency\u2013length relationships to compare animals at 20 Hz, reducing the effect of unequal movement speeds on the predicted homing distances.",
+        "The remaining ordering of the leg conditions links the imposed limb geometry to locomotor displacement. The measured relationships provide a quantitative behavioral constraint, but they do not reveal whether the odometer receives cycle counts, proprioceptive signals or an integrated motor command."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_6.png",
+        "caption": "Wittlinger et al. (2007), Fig. 6. Stride length as a function of stride frequency.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "Walking speed is not determined by frequency alone",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "Increasing walking speed can involve faster cycles, longer strides, or both. Wittlinger and colleagues recorded freely walking animals under several temperature and preparation conditions, retaining straight runs without abrupt stops for the kinematic comparisons.",
+        "The color-coded data related walking speed, in mm/s, to stride frequency, in Hz. Normal and shortened-leg ants increased cycle frequency as speed increased, while stilts tended to use lower frequencies for a given speed. Their longer strides partly compensated for the reduced frequency.",
+        "These relationships prevent interpreting every change in elapsed journey time as a proportional change in distance. A time-based explanation must account for the actual measured speeds rather than assume that all manipulated ants maintain the same cycle rate or velocity."
+      ],
+      "transcript": [
+        "Increasing walking speed can involve faster cycles, longer strides, or both. Wittlinger and colleagues recorded freely walking animals under several temperature and preparation conditions, retaining straight runs without abrupt stops for the kinematic comparisons.",
+        "The color-coded data related walking speed, in mm/s, to stride frequency, in Hz. Normal and shortened-leg ants increased cycle frequency as speed increased, while stilts tended to use lower frequencies for a given speed. Their longer strides partly compensated for the reduced frequency.",
+        "These relationships prevent interpreting every change in elapsed journey time as a proportional change in distance. A time-based explanation must account for the actual measured speeds rather than assume that all manipulated ants maintain the same cycle rate or velocity."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_7A.png",
+        "caption": "Wittlinger et al. (2007), Fig. 7(A). Stride frequency increases with walking speed.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "Stride length also increases with walking speed",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "The distance advanced during one stride is not a fixed constant for a leg condition. Cataglyphis changes stride length as it runs faster, so the effect of altered limb length must be evaluated across measured locomotor speeds.",
+        "The published plot relates stride length in mm to walking speed in mm/s. Stilts have longer strides than controls at comparable speeds, and stumps shorter strides. High-speed recordings establish this relationship independently of the turning-point measures used to locate each ant\u2019s nest search.",
+        "The agreement between locomotor displacement and homing bias supports stride-based odometry while avoiding an assumption of one unchanging step size. The measurements still leave unresolved how stride-length information is represented and combined with heading information in the nervous system."
+      ],
+      "transcript": [
+        "The distance advanced during one stride is not a fixed constant for a leg condition. Cataglyphis changes stride length as it runs faster, so the effect of altered limb length must be evaluated across measured locomotor speeds.",
+        "The published plot relates stride length in mm to walking speed in mm/s. Stilts have longer strides than controls at comparable speeds, and stumps shorter strides. High-speed recordings establish this relationship independently of the turning-point measures used to locate each ant\u2019s nest search.",
+        "The agreement between locomotor displacement and homing bias supports stride-based odometry while avoiding an assumption of one unchanging step size. The measurements still leave unresolved how stride-length information is represented and combined with heading information in the nervous system."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_7B.png",
+        "caption": "Wittlinger et al. (2007), Fig. 7(B). Stride length increases with walking speed.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "A stride integrator need not be a literal counter",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A **stride integrator** accumulates information associated with rhythmic locomotion. It need not register each footfall as a discrete counted object. Possible inputs include **proprioception**, sensory information about limb position and movement, or activity associated with generating the walking rhythm.",
+        "The 2007 experiments combined a 10 m navigational task with 250-frame-per-second video and leg-length manipulations. Both the preserved tripod pattern and the graded stride changes were consistent with accumulation of movement-linked information rather than a fixed elapsed-time rule.",
+        "The physiological alternatives were not directly recorded or selectively blocked in this study. No transmitter, receptor or ion channel was identified as the odometer mechanism, so these candidates remain proposed explanations rather than established cellular findings in Cataglyphis."
+      ],
+      "transcript": [
+        "A **stride integrator** accumulates information associated with rhythmic locomotion. It need not register each footfall as a discrete counted object. Possible inputs include **proprioception**, sensory information about limb position and movement, or activity associated with generating the walking rhythm.",
+        "The 2007 experiments combined a 10 m navigational task with 250-frame-per-second video and leg-length manipulations. Both the preserved tripod pattern and the graded stride changes were consistent with accumulation of movement-linked information rather than a fixed elapsed-time rule.",
+        "The physiological alternatives were not directly recorded or selectively blocked in this study. No transmitter, receptor or ion channel was identified as the odometer mechanism, so these candidates remain proposed explanations rather than established cellular findings in Cataglyphis."
+      ],
+      "cite": "Wittlinger et al. (2007)",
+      "refs": [
+        "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/W07_3A.png",
+        "caption": "Wittlinger et al. (2007), Fig. 3(A). Normal tripod gait in a walking Cataglyphis fortis.",
+        "source_url": "https://doi.org/10.1242/jeb.02657"
+      }
+    },
+    {
+      "title": "Learning walks precede long-distance foraging",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Learning walks** are short excursions around the nest during the transition from interior work to outside foraging. Cataglyphis nodus repeatedly pauses and rotates during these walks, acquiring experience with directional and visual information before taking distant journeys.",
+        "Grob and colleagues tested novices around natural nests in Greece. A table installed 30 cm above the entrance held a polarization filter over a 60 \u00d7 60 cm learning-walk area. Ants experienced defined skylight conditions over three days before their brains were analyzed.",
+        "The field preparation retained active behavior near the home nest while manipulating one component of the compass environment. It tests experience-dependent structural change; it does not directly measure a complete home vector in an identified neuron or establish each novice\u2019s later foraging success."
+      ],
+      "transcript": [
+        "**Learning walks** are short excursions around the nest during the transition from interior work to outside foraging. Cataglyphis nodus repeatedly pauses and rotates during these walks, acquiring experience with directional and visual information before taking distant journeys.",
+        "Grob and colleagues tested novices around natural nests in Greece. A table installed 30 cm above the entrance held a polarization filter over a 60 \u00d7 60 cm learning-walk area. Ants experienced defined skylight conditions over three days before their brains were analyzed.",
+        "The field preparation retained active behavior near the home nest while manipulating one component of the compass environment. It tests experience-dependent structural change; it does not directly measure a complete home vector in an identified neuron or establish each novice\u2019s later foraging success."
+      ],
+      "cite": "Grob et al. (2022)",
+      "refs": [
+        "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G22_1A.png",
+        "caption": "Grob et al. (2022), Fig. 1(a). The polarization-filter apparatus in the natural habitat.",
+        "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+      }
+    },
+    {
+      "title": "Sky polarization supplies a changing compass reference",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "The **solar ephemeris** is the sun\u2019s changing position over the day. A time-compensated sky compass must relate current solar or polarization information to heading despite that movement. Initial learning can establish the relation between celestial changes and stable surroundings.",
+        "Grob and colleagues compared natural skylight with a stationary polarizer, a single 90\u00b0 turn at solar noon, hourly 45\u00b0 turns, and continuous rotation at 15\u00b0 per hour. Each treatment constrained how polarization direction changed during three days of learning walks.",
+        "The artificial schedules separated exposure to polarized light from experience of a changing polarization pattern. They were controlled experimental cues rather than claims that the natural sky everywhere follows those exact angular steps, especially near noon or at different geographical positions."
+      ],
+      "transcript": [
+        "The **solar ephemeris** is the sun\u2019s changing position over the day. A time-compensated sky compass must relate current solar or polarization information to heading despite that movement. Initial learning can establish the relation between celestial changes and stable surroundings.",
+        "Grob and colleagues compared natural skylight with a stationary polarizer, a single 90\u00b0 turn at solar noon, hourly 45\u00b0 turns, and continuous rotation at 15\u00b0 per hour. Each treatment constrained how polarization direction changed during three days of learning walks.",
+        "The artificial schedules separated exposure to polarized light from experience of a changing polarization pattern. They were controlled experimental cues rather than claims that the natural sky everywhere follows those exact angular steps, especially near noon or at different geographical positions."
+      ],
+      "cite": "Grob et al. (2022)",
+      "refs": [
+        "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G22_1B.png",
+        "caption": "Grob et al. (2022), Fig. 1(b). Stationary, stepped and continuously rotating polarization treatments.",
+        "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+      }
+    },
+    {
+      "title": "Two visual pathways reach different integration centres",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A **neuropil** is a region containing neuronal processes and synapses. The **central complex** comprises midline brain neuropils implicated in heading and navigation, while the **mushroom bodies** are paired structures implicated in memory-based processing.",
+        "Grob and colleagues labelled Cataglyphis brains with anti-synapsin antibodies and fluorescent phalloidin, which marks actin-rich structures. Their preparations identified mushroom-body collar microglomeruli and giant synapses in the lateral complex. The whole-brain image has a 200 \u00b5m scale bar and the synaptic insets 10 \u00b5m bars.",
+        "The anatomical distinction permits separate measurements along the two visual pathways. Labelling synaptic structures establishes their position and morphology, but neither stain reports the sign of a postsynaptic voltage change, an active compass heading or a stored navigational distance."
+      ],
+      "transcript": [
+        "A **neuropil** is a region containing neuronal processes and synapses. The **central complex** comprises midline brain neuropils implicated in heading and navigation, while the **mushroom bodies** are paired structures implicated in memory-based processing.",
+        "Grob and colleagues labelled Cataglyphis brains with anti-synapsin antibodies and fluorescent phalloidin, which marks actin-rich structures. Their preparations identified mushroom-body collar microglomeruli and giant synapses in the lateral complex. The whole-brain image has a 200 \u00b5m scale bar and the synaptic insets 10 \u00b5m bars.",
+        "The anatomical distinction permits separate measurements along the two visual pathways. Labelling synaptic structures establishes their position and morphology, but neither stain reports the sign of a postsynaptic voltage change, an active compass heading or a stored navigational distance."
+      ],
+      "cite": "Grob et al. (2022)",
+      "refs": [
+        "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G22_1C.png",
+        "caption": "Grob et al. (2022), Fig. 1(c). Central complex, lateral complex and mushroom-body synaptic anatomy.",
+        "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+      }
+    },
+    {
+      "title": "Synaptic labels distinguish boutons from target processes",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Synapsin** is a protein associated with presynaptic vesicles, so anti-synapsin labelling helps identify presynaptic specializations. **F-actin** is filamentous actin; fluorescent phalloidin labels it in neuronal processes and supports identification of synaptic organization.",
+        "The Cataglyphis nodus preparations used complementary synapsin and actin labels to quantify **microglomeruli**, compact synaptic complexes in the mushroom-body collar, and giant synapses in the lateral complex. The magnified examples retain 10 \u00b5m scale bars for these different structures.",
+        "Structural counts can reveal experience-associated reorganization, but an additional labelled complex does not automatically imply increased firing or stronger transmission. The experiments did not measure release probability, receptor conductance or excitatory and inhibitory currents in the counted synapses."
+      ],
+      "transcript": [
+        "**Synapsin** is a protein associated with presynaptic vesicles, so anti-synapsin labelling helps identify presynaptic specializations. **F-actin** is filamentous actin; fluorescent phalloidin labels it in neuronal processes and supports identification of synaptic organization.",
+        "The Cataglyphis nodus preparations used complementary synapsin and actin labels to quantify **microglomeruli**, compact synaptic complexes in the mushroom-body collar, and giant synapses in the lateral complex. The magnified examples retain 10 \u00b5m scale bars for these different structures.",
+        "Structural counts can reveal experience-associated reorganization, but an additional labelled complex does not automatically imply increased firing or stronger transmission. The experiments did not measure release probability, receptor conductance or excitatory and inhibitory currents in the counted synapses."
+      ],
+      "cite": "Grob et al. (2022)",
+      "refs": [
+        "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G22_1C.png",
+        "caption": "Grob et al. (2022), Fig. 1(c). Central complex, lateral complex and mushroom-body synaptic anatomy.",
+        "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+      }
+    },
+    {
+      "title": "Light exposure changes the lateral-complex pathway",
+      "layout": "figures-right",
+      "figure_width": 5.8,
+      "body": [
+        "**Light exposure** and active learning walks are separable experimental experiences. Grob and colleagues compared dark controls with ants exposed to natural skylight, ultraviolet-filtered skylight or a fixed polarization pattern, with additional groups allowed to perform learning walks.",
+        "After three days, lateral-complex giant-synapse counts increased under suitable full-spectrum light exposure even without learning walks. Removing ultraviolet light reduced this response. Central-complex volume did not exhibit the same simple light-exposure dependence as the lateral-complex synaptic count.",
+        "The dissociation supports different experience requirements in the two visual pathways. It does not identify ultraviolet phototransduction channels or prove that additional lateral-complex synapses are sufficient for accurate homing; the measured endpoint was synaptic structure rather than navigational performance."
+      ],
+      "transcript": [
+        "**Light exposure** and active learning walks are separable experimental experiences. Grob and colleagues compared dark controls with ants exposed to natural skylight, ultraviolet-filtered skylight or a fixed polarization pattern, with additional groups allowed to perform learning walks.",
+        "After three days, lateral-complex giant-synapse counts increased under suitable full-spectrum light exposure even without learning walks. Removing ultraviolet light reduced this response. Central-complex volume did not exhibit the same simple light-exposure dependence as the lateral-complex synaptic count.",
+        "The dissociation supports different experience requirements in the two visual pathways. It does not identify ultraviolet phototransduction channels or prove that additional lateral-complex synapses are sufficient for accurate homing; the measured endpoint was synaptic structure rather than navigational performance."
+      ],
+      "cite": "Grob et al. (2022)",
+      "refs": [
+        "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499"
+      ],
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/G22_2a.png",
+          "caption": "Grob et al. (2022), Fig. 2(a). Lateral-complex synaptic counts across light conditions.",
+          "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+        },
+        {
+          "kind": "article",
+          "path": "figures/G22_1C.png",
+          "caption": "Grob et al. (2022), Fig. 1(c). Central complex, lateral complex and mushroom-body synaptic anatomy.",
+          "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
+    },
+    {
+      "title": "Central-complex growth requires more than light alone",
+      "layout": "figures-right",
+      "figure_width": 5.8,
+      "body": [
+        "**Structural plasticity** is an experience-associated change in neuronal anatomy, such as neuropil volume or synaptic organization. It must be distinguished from an acute firing-rate response to a sensory stimulus.",
+        "After three days, natural learning walks increased the size-corrected central-complex volume relative to dark controls. Passive light exposure and learning walks under a stationary polarization filter did not produce the same increase. Brain volumes were corrected for body size rather than compared solely as raw tissue amounts.",
+        "The result links active experience with changing celestial information to central-complex structure. It does not establish whether volume changes arise from extra synapses, expanded neurites or other tissue components, nor whether the observed growth is causally required for path integration."
+      ],
+      "transcript": [
+        "**Structural plasticity** is an experience-associated change in neuronal anatomy, such as neuropil volume or synaptic organization. It must be distinguished from an acute firing-rate response to a sensory stimulus.",
+        "After three days, natural learning walks increased the size-corrected central-complex volume relative to dark controls. Passive light exposure and learning walks under a stationary polarization filter did not produce the same increase. Brain volumes were corrected for body size rather than compared solely as raw tissue amounts.",
+        "The result links active experience with changing celestial information to central-complex structure. It does not establish whether volume changes arise from extra synapses, expanded neurites or other tissue components, nor whether the observed growth is causally required for path integration."
+      ],
+      "cite": "Grob et al. (2022)",
+      "refs": [
+        "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499"
+      ],
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/G22_2b.png",
+          "caption": "Grob et al. (2022), Fig. 2(b). Central-complex volumes after light exposure or learning walks.",
+          "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+        },
+        {
+          "kind": "article",
+          "path": "figures/G22_1C.png",
+          "caption": "Grob et al. (2022), Fig. 1(c). Central complex, lateral complex and mushroom-body synaptic anatomy.",
+          "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
+    },
+    {
+      "title": "Rotation during learning changes mushroom-body structure",
+      "layout": "figures-right",
+      "figure_width": 5.8,
+      "body": [
+        "The **mushroom-body collar** is a visual input region of the mushroom-body calyx. Its microglomeruli receive visual information and provide a measurable synaptic endpoint for changes accompanying the acquisition of outdoor experience.",
+        "Grob and colleagues allowed three days of learning walks under different polarization schedules. A stationary pattern failed to elicit the growth associated with changing polarization. A single 90\u00b0 daily turn, hourly 45\u00b0 turns and continuous 15\u00b0-per-hour rotation supported increases in collar volume and microglomerular number.",
+        "The comparison separates a changing compass-related environment from polarized illumination alone. It does not prove that these mushroom-body synapses encode the complete solar ephemeris, and it does not equate structural growth with a measured increase in synaptic current or behavioral accuracy."
+      ],
+      "transcript": [
+        "The **mushroom-body collar** is a visual input region of the mushroom-body calyx. Its microglomeruli receive visual information and provide a measurable synaptic endpoint for changes accompanying the acquisition of outdoor experience.",
+        "Grob and colleagues allowed three days of learning walks under different polarization schedules. A stationary pattern failed to elicit the growth associated with changing polarization. A single 90\u00b0 daily turn, hourly 45\u00b0 turns and continuous 15\u00b0-per-hour rotation supported increases in collar volume and microglomerular number.",
+        "The comparison separates a changing compass-related environment from polarized illumination alone. It does not prove that these mushroom-body synapses encode the complete solar ephemeris, and it does not equate structural growth with a measured increase in synaptic current or behavioral accuracy."
+      ],
+      "cite": "Grob et al. (2022)",
+      "refs": [
+        "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499"
+      ],
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/G22_3cd.png",
+          "caption": "Grob et al. (2022), Fig. 3(c\u2013d). Mushroom-body volume and microglomeruli under polarization rotation.",
+          "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+        },
+        {
+          "kind": "article",
+          "path": "figures/G22_1C.png",
+          "caption": "Grob et al. (2022), Fig. 1(c). Central complex, lateral complex and mushroom-body synaptic anatomy.",
+          "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
+    },
+    {
+      "title": "Rotation affects higher centres more than giant synapses",
+      "layout": "figures-right",
+      "figure_width": 5.8,
+      "body": [
+        "A common sensory manipulation can affect different brain regions differently. The lateral complex lies along the sky-compass pathway, whereas the central complex and mushroom-body collar provide distinct higher-order measures of experience-associated change.",
+        "Across the three-day learning-walk experiment, the different polarization-rotation schedules altered central-complex volume and mushroom-body measures, but giant-synapse counts in the lateral complex remained broadly similar. The continuous rotation condition changed filter orientation at 15\u00b0 per hour.",
+        "The dissociation limits a claim of uniform growth throughout the visual system. Similar giant-synapse numbers do not establish identical activity in that pathway; transmitter release, synaptic strength and firing patterns were not measured by counting anatomical complexes."
+      ],
+      "transcript": [
+        "A common sensory manipulation can affect different brain regions differently. The lateral complex lies along the sky-compass pathway, whereas the central complex and mushroom-body collar provide distinct higher-order measures of experience-associated change.",
+        "Across the three-day learning-walk experiment, the different polarization-rotation schedules altered central-complex volume and mushroom-body measures, but giant-synapse counts in the lateral complex remained broadly similar. The continuous rotation condition changed filter orientation at 15\u00b0 per hour.",
+        "The dissociation limits a claim of uniform growth throughout the visual system. Similar giant-synapse numbers do not establish identical activity in that pathway; transmitter release, synaptic strength and firing patterns were not measured by counting anatomical complexes."
+      ],
+      "cite": "Grob et al. (2022)",
+      "refs": [
+        "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499"
+      ],
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/G22_3ab.png",
+          "caption": "Grob et al. (2022), Fig. 3(a\u2013b). Giant synapses and central-complex volume under polarization rotation.",
+          "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+        },
+        {
+          "kind": "article",
+          "path": "figures/G22_1C.png",
+          "caption": "Grob et al. (2022), Fig. 1(c). Central complex, lateral complex and mushroom-body synaptic anatomy.",
+          "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
+    },
+    {
+      "title": "Transmitter assignments constrain proposed circuit roles",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**GABAergic** neurons use gamma-aminobutyric acid as a transmitter; **cholinergic** neurons use acetylcholine. These transmitter classifications describe signaling identity, while the postsynaptic effect also depends on receptor type and cellular conditions.",
+        "Grob and colleagues discuss evidence that most tangential neurons projecting from the lateral complex toward the central complex are GABAergic, whereas visual projection neurons supplying mushroom bodies are presumably cholinergic. Their three-day experience experiment measured structural endpoints in these pathways rather than pharmacologically isolating transmitter action.",
+        "The different transmitter identities may contribute to different plasticity patterns, but that explanation was proposed rather than tested here. The study does not establish which GABA or acetylcholine receptor subtype, ion channel or intracellular cascade causes the observed volume and synaptic changes."
+      ],
+      "transcript": [
+        "**GABAergic** neurons use gamma-aminobutyric acid as a transmitter; **cholinergic** neurons use acetylcholine. These transmitter classifications describe signaling identity, while the postsynaptic effect also depends on receptor type and cellular conditions.",
+        "Grob and colleagues discuss evidence that most tangential neurons projecting from the lateral complex toward the central complex are GABAergic, whereas visual projection neurons supplying mushroom bodies are presumably cholinergic. Their three-day experience experiment measured structural endpoints in these pathways rather than pharmacologically isolating transmitter action.",
+        "The different transmitter identities may contribute to different plasticity patterns, but that explanation was proposed rather than tested here. The study does not establish which GABA or acetylcholine receptor subtype, ion channel or intracellular cascade causes the observed volume and synaptic changes."
+      ],
+      "cite": "Grob et al. (2022)",
+      "refs": [
+        "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G22_1D.png",
+        "caption": "Grob et al. (2022), Fig. 1(d). Published three-dimensional reconstruction of visual integration centres.",
+        "source_url": "https://doi.org/10.1098/rspb.2021.2499"
+      }
+    },
+    {
+      "title": "Magnetic coils isolate the reference used during learning",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "The **geomagnetic field** is Earth\u2019s magnetic field, which can provide a directional reference independent of the sun\u2019s daily movement. A **Helmholtz coil system** generates controlled magnetic fields in an experimental volume.",
+        "Grob and colleagues installed a three-dimensional coil system around a 60 \u00d7 60 cm platform connected to a Cataglyphis nodus nest. Novices performed learning walks over three consecutive days. At the site, the natural total field was about 46.1 \u00b5T, with a horizontal component of 26.6 \u00b5T.",
+        "The preparation manipulated magnetic information while retaining the natural panorama and celestial environment. Comparing several magnetic conditions with dark interior-worker controls allowed assessment of experience-associated brain changes, but did not directly identify a magnetic receptor or selectively stimulate a known magnetosensory neuron."
+      ],
+      "transcript": [
+        "The **geomagnetic field** is Earth\u2019s magnetic field, which can provide a directional reference independent of the sun\u2019s daily movement. A **Helmholtz coil system** generates controlled magnetic fields in an experimental volume.",
+        "Grob and colleagues installed a three-dimensional coil system around a 60 \u00d7 60 cm platform connected to a Cataglyphis nodus nest. Novices performed learning walks over three consecutive days. At the site, the natural total field was about 46.1 \u00b5T, with a horizontal component of 26.6 \u00b5T.",
+        "The preparation manipulated magnetic information while retaining the natural panorama and celestial environment. Comparing several magnetic conditions with dark interior-worker controls allowed assessment of experience-associated brain changes, but did not directly identify a magnetic receptor or selectively stimulate a known magnetosensory neuron."
+      ],
+      "cite": "Grob et al. (2024)",
+      "refs": [
+        "Grob R, M\u00fcller VL, Gr\u00fcbel K, R\u00f6ssler W, Fleischmann PN (2024). Importance of magnetic information for neuronal plasticity in desert ants. Proceedings of the National Academy of Sciences 121(8):e2320764121. https://doi.org/10.1073/pnas.2320764121"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G24_1C.png",
+        "caption": "Grob et al. (2024), Fig. 1(C). Helmholtz coils and the learning-walk platform.",
+        "source_url": "https://doi.org/10.1073/pnas.2320764121"
+      }
+    },
+    {
+      "title": "Removing horizontal magnetic information disrupts gazes",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A **pirouette** is a rotation around the ant\u2019s body axis during a learning walk. Under natural conditions, the longest pauses in these rotations are directed toward the nest, providing a measurable orientation behavior near the nest entrance.",
+        "In the horizontal-elimination condition, the coils cancelled the horizontal field component while retaining a downward vertical field of about 37.5 \u00b5T. The longest stopping directions no longer clustered toward the nest in the published angular distributions, which used 10\u00b0 bins.",
+        "The result supports a role for horizontal magnetic information in the novices\u2019 nest-directed behavior under this condition. It does not prove that every other compass cue is unavailable, and the remaining vertical field differs fundamentally from removing magnetic information entirely."
+      ],
+      "transcript": [
+        "A **pirouette** is a rotation around the ant\u2019s body axis during a learning walk. Under natural conditions, the longest pauses in these rotations are directed toward the nest, providing a measurable orientation behavior near the nest entrance.",
+        "In the horizontal-elimination condition, the coils cancelled the horizontal field component while retaining a downward vertical field of about 37.5 \u00b5T. The longest stopping directions no longer clustered toward the nest in the published angular distributions, which used 10\u00b0 bins.",
+        "The result supports a role for horizontal magnetic information in the novices\u2019 nest-directed behavior under this condition. It does not prove that every other compass cue is unavailable, and the remaining vertical field differs fundamentally from removing magnetic information entirely."
+      ],
+      "cite": "Grob et al. (2024)",
+      "refs": [
+        "Grob R, M\u00fcller VL, Gr\u00fcbel K, R\u00f6ssler W, Fleischmann PN (2024). Importance of magnetic information for neuronal plasticity in desert ants. Proceedings of the National Academy of Sciences 121(8):e2320764121. https://doi.org/10.1073/pnas.2320764121"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G24_2.png",
+        "caption": "Grob et al. (2024), Fig. 2(A\u2013C). Nest-directed gazes under three magnetic manipulations.",
+        "source_url": "https://doi.org/10.1073/pnas.2320764121"
+      }
+    },
+    {
+      "title": "Complete field elimination permits a different outcome",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "Complete magnetic-field elimination is a distinct cue manipulation from retaining a vertical field. Grob and colleagues cancelled both the horizontal and vertical components rather than leaving a directional magnetic cue pointing downward.",
+        "Under total elimination, the residual field was about 0.1 \u00b5T. Ants nevertheless directed their longest pirouette pauses toward the nest. This differed from the loss of nest-directed gazes when only the horizontal component had been eliminated.",
+        "The authors interpreted the contrast as possible recruitment of a backup compass when magnetic information was absent altogether. Panoramic information is a candidate, but the experiment did not independently remove it, so the specific substitute cue and the switching mechanism remain unresolved."
+      ],
+      "transcript": [
+        "Complete magnetic-field elimination is a distinct cue manipulation from retaining a vertical field. Grob and colleagues cancelled both the horizontal and vertical components rather than leaving a directional magnetic cue pointing downward.",
+        "Under total elimination, the residual field was about 0.1 \u00b5T. Ants nevertheless directed their longest pirouette pauses toward the nest. This differed from the loss of nest-directed gazes when only the horizontal component had been eliminated.",
+        "The authors interpreted the contrast as possible recruitment of a backup compass when magnetic information was absent altogether. Panoramic information is a candidate, but the experiment did not independently remove it, so the specific substitute cue and the switching mechanism remain unresolved."
+      ],
+      "cite": "Grob et al. (2024)",
+      "refs": [
+        "Grob R, M\u00fcller VL, Gr\u00fcbel K, R\u00f6ssler W, Fleischmann PN (2024). Importance of magnetic information for neuronal plasticity in desert ants. Proceedings of the National Academy of Sciences 121(8):e2320764121. https://doi.org/10.1073/pnas.2320764121"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G24_2.png",
+        "caption": "Grob et al. (2024), Fig. 2(A\u2013C). Nest-directed gazes under three magnetic manipulations.",
+        "source_url": "https://doi.org/10.1073/pnas.2320764121"
+      }
+    },
+    {
+      "title": "A rotating magnetic vector can still guide look-backs",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A magnetic cue need not always point toward natural magnetic north to provide a usable short-term directional reference. The relevant comparison is whether its direction remains sufficiently stable during each individual learning walk.",
+        "In the magnetic-plus-solar condition, the horizontal vector was adjusted every 10 seconds to follow the sun\u2019s azimuth over the day. Individual walks lasted seconds to minutes, and ants retained nest-directed longest stops despite the vector\u2019s changing geographical alignment.",
+        "The preservation of look-back behavior does not establish normal long-term calibration. The manipulation makes magnetic and celestial directions covary over the day, removing their natural changing angular relationship even while leaving a useful reference for an individual short excursion."
+      ],
+      "transcript": [
+        "A magnetic cue need not always point toward natural magnetic north to provide a usable short-term directional reference. The relevant comparison is whether its direction remains sufficiently stable during each individual learning walk.",
+        "In the magnetic-plus-solar condition, the horizontal vector was adjusted every 10 seconds to follow the sun\u2019s azimuth over the day. Individual walks lasted seconds to minutes, and ants retained nest-directed longest stops despite the vector\u2019s changing geographical alignment.",
+        "The preservation of look-back behavior does not establish normal long-term calibration. The manipulation makes magnetic and celestial directions covary over the day, removing their natural changing angular relationship even while leaving a useful reference for an individual short excursion."
+      ],
+      "cite": "Grob et al. (2024)",
+      "refs": [
+        "Grob R, M\u00fcller VL, Gr\u00fcbel K, R\u00f6ssler W, Fleischmann PN (2024). Importance of magnetic information for neuronal plasticity in desert ants. Proceedings of the National Academy of Sciences 121(8):e2320764121. https://doi.org/10.1073/pnas.2320764121"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G24_2.png",
+        "caption": "Grob et al. (2024), Fig. 2(A\u2013C). Nest-directed gazes under three magnetic manipulations.",
+        "source_url": "https://doi.org/10.1073/pnas.2320764121"
+      }
+    },
+    {
+      "title": "Magnetic treatments dissociate gaze and brain growth",
+      "layout": "figures-right",
+      "figure_width": 5.8,
+      "body": [
+        "Accurate nest-directed gazes and structural brain change are different experimental endpoints. Recording a successful look-back does not guarantee that all compass-calibration and visual-memory processes associated with the learning period occur normally.",
+        "After three days, central-complex volume increased under natural magnetic conditions and under several elimination or disarray conditions. When the magnetic vector followed solar azimuth, central-complex growth did not occur relative to dark controls, despite preserved nest-directed look-backs.",
+        "The result dissociates an immediate orientation behavior from an experience-associated anatomical outcome. It supports a role for the changing relation between compass cues, but does not demonstrate that absent volume growth causes a later navigation deficit; that causal behavioral test was not performed."
+      ],
+      "transcript": [
+        "Accurate nest-directed gazes and structural brain change are different experimental endpoints. Recording a successful look-back does not guarantee that all compass-calibration and visual-memory processes associated with the learning period occur normally.",
+        "After three days, central-complex volume increased under natural magnetic conditions and under several elimination or disarray conditions. When the magnetic vector followed solar azimuth, central-complex growth did not occur relative to dark controls, despite preserved nest-directed look-backs.",
+        "The result dissociates an immediate orientation behavior from an experience-associated anatomical outcome. It supports a role for the changing relation between compass cues, but does not demonstrate that absent volume growth causes a later navigation deficit; that causal behavioral test was not performed."
+      ],
+      "cite": "Grob et al. (2024)",
+      "refs": [
+        "Grob R, M\u00fcller VL, Gr\u00fcbel K, R\u00f6ssler W, Fleischmann PN (2024). Importance of magnetic information for neuronal plasticity in desert ants. Proceedings of the National Academy of Sciences 121(8):e2320764121. https://doi.org/10.1073/pnas.2320764121"
+      ],
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/G24_4a.png",
+          "caption": "Grob et al. (2024), Fig. 4(A). Central-complex volume under magnetic treatments.",
+          "source_url": "https://doi.org/10.1073/pnas.2320764121"
+        },
+        {
+          "kind": "article",
+          "path": "figures/G24_3B.png",
+          "caption": "Grob et al. (2024), Fig. 3(B). Central complex and mushroom-body collar reconstruction.",
+          "source_url": "https://doi.org/10.1073/pnas.2320764121"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
+    },
+    {
+      "title": "Magnetic cues affect mushroom-body plasticity",
+      "layout": "figures-right",
+      "figure_width": 5.8,
+      "body": [
+        "Visual memories acquired near the nest may require information specifying which direction the ant is facing. The mushroom-body collar provides a visual input region in which synaptic structure can be compared after controlled learning experience.",
+        "Grob and colleagues measured size-corrected collar volume and microglomerular number after three days of learning walks. These measures increased under the natural field, while the tested altered magnetic conditions did not produce the same increases. The effect differed from central-complex responses to complete field removal.",
+        "The association supports a role for appropriate magnetic information in experience-dependent visual circuitry. It does not identify an engram for a particular view, prove that microglomerular growth stores the nest panorama, or establish which molecular signal controls consolidation."
+      ],
+      "transcript": [
+        "Visual memories acquired near the nest may require information specifying which direction the ant is facing. The mushroom-body collar provides a visual input region in which synaptic structure can be compared after controlled learning experience.",
+        "Grob and colleagues measured size-corrected collar volume and microglomerular number after three days of learning walks. These measures increased under the natural field, while the tested altered magnetic conditions did not produce the same increases. The effect differed from central-complex responses to complete field removal.",
+        "The association supports a role for appropriate magnetic information in experience-dependent visual circuitry. It does not identify an engram for a particular view, prove that microglomerular growth stores the nest panorama, or establish which molecular signal controls consolidation."
+      ],
+      "cite": "Grob et al. (2024)",
+      "refs": [
+        "Grob R, M\u00fcller VL, Gr\u00fcbel K, R\u00f6ssler W, Fleischmann PN (2024). Importance of magnetic information for neuronal plasticity in desert ants. Proceedings of the National Academy of Sciences 121(8):e2320764121. https://doi.org/10.1073/pnas.2320764121"
+      ],
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/G24_4bc.png",
+          "caption": "Grob et al. (2024), Fig. 4(B\u2013C). Mushroom-body volume and synaptic complexes under magnetic treatments.",
+          "source_url": "https://doi.org/10.1073/pnas.2320764121"
+        },
+        {
+          "kind": "article",
+          "path": "figures/G24_3A.png",
+          "caption": "Grob et al. (2024), Fig. 3(A). Synapsin-labelled brain and mushroom-body microglomeruli.",
+          "source_url": "https://doi.org/10.1073/pnas.2320764121"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.6
+    },
+    {
+      "title": "A stable reference may calibrate the moving sky compass",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "**Compass calibration** establishes the relationship between a sensory directional cue and an internal heading reference. The sun and polarization pattern change over the day, whereas natural magnetic direction and a fixed panorama provide comparatively stable external references.",
+        "The three-day magnetic experiment dissociated natural-field exposure from a vector that rotated with the sun. The published circuit hypothesis proposes convergence of magnetic, panoramic and celestial information in the **posterior slope**, a multisensory brain region linked to the central complex.",
+        "The posterior-slope mechanism is a proposed anatomical account supported by comparative connectivity, not a direct recording of cue integration in these ants. The candidate contribution of the antennal Johnston\u2019s organ to magnetoreception likewise remains unproven; no magnetic receptor molecule or ion channel was identified."
+      ],
+      "transcript": [
+        "**Compass calibration** establishes the relationship between a sensory directional cue and an internal heading reference. The sun and polarization pattern change over the day, whereas natural magnetic direction and a fixed panorama provide comparatively stable external references.",
+        "The three-day magnetic experiment dissociated natural-field exposure from a vector that rotated with the sun. The published circuit hypothesis proposes convergence of magnetic, panoramic and celestial information in the **posterior slope**, a multisensory brain region linked to the central complex.",
+        "The posterior-slope mechanism is a proposed anatomical account supported by comparative connectivity, not a direct recording of cue integration in these ants. The candidate contribution of the antennal Johnston\u2019s organ to magnetoreception likewise remains unproven; no magnetic receptor molecule or ion channel was identified."
+      ],
+      "cite": "Grob et al. (2024)",
+      "refs": [
+        "Grob R, M\u00fcller VL, Gr\u00fcbel K, R\u00f6ssler W, Fleischmann PN (2024). Importance of magnetic information for neuronal plasticity in desert ants. Proceedings of the National Academy of Sciences 121(8):e2320764121. https://doi.org/10.1073/pnas.2320764121"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/G24_5.png",
+        "caption": "Grob et al. (2024), Fig. 5. Published hypothesis for integrating magnetic and celestial information.",
+        "source_url": "https://doi.org/10.1073/pnas.2320764121"
+      }
+    },
+    {
+      "title": "A new route can emerge from familiar goal vectors",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A **goal vector** specifies a remembered direction and distance to a destination relative to the nest. A **shortcut** connects familiar destinations along a route that was not itself used during training; this behavior need not uniquely imply a metric cognitive map.",
+        "Voegeli and colleagues trained Cataglyphis ants to feeders A and B in separate channels. The nest distances were 4.5 m and 5.7 m, and the test channel connected the feeder positions across a 4.1 m separation. Only one nest-channel entrance was open at a time.",
+        "The channel arrangement separated experience with individual nest-to-feeder routes from experience with their connecting route. It provided a controlled way to test use of stored goals and an ongoing path integrator without first training the ant to follow the proposed shortcut."
+      ],
+      "transcript": [
+        "A **goal vector** specifies a remembered direction and distance to a destination relative to the nest. A **shortcut** connects familiar destinations along a route that was not itself used during training; this behavior need not uniquely imply a metric cognitive map.",
+        "Voegeli and colleagues trained Cataglyphis ants to feeders A and B in separate channels. The nest distances were 4.5 m and 5.7 m, and the test channel connected the feeder positions across a 4.1 m separation. Only one nest-channel entrance was open at a time.",
+        "The channel arrangement separated experience with individual nest-to-feeder routes from experience with their connecting route. It provided a controlled way to test use of stored goals and an ongoing path integrator without first training the ant to follow the proposed shortcut."
+      ],
+      "cite": "Voegeli et al. (2025)",
+      "refs": [
+        "Voegeli B, Sommer S, Knaden M, Wehner R (2025). Vector-based navigation in desert ants: the significance of path-integration vectors. Journal of Comparative Physiology A 211:209\u2013220. https://doi.org/10.1007/s00359-024-01725-2"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/V25_1.png",
+        "caption": "Voegeli et al. (2025), Fig. 1. Training channels, two feeders and the novel connecting route.",
+        "source_url": "https://doi.org/10.1007/s00359-024-01725-2"
+      }
+    },
+    {
+      "title": "Alternating training establishes two separate destinations",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "Experience with more than one food source can establish alternative navigational goals. In the channel experiment, feeders were hidden below the channel floor, preventing an approaching ant from simply steering toward a visible food cup.",
+        "Ants completed ten training journeys: four to feeder A, four to B and two final journeys to A. Feeder B lay 45\u00b0 to the left or right of A as viewed from the nest. The subsequent test removed food and opened the connecting test channel at A.",
+        "The final visits standardized the starting goal while preserving experience with the second destination. Channel shutters constrained which route was available, but the design still allows the ant to choose search directions within the connecting channel rather than forcing a particular first turn."
+      ],
+      "transcript": [
+        "Experience with more than one food source can establish alternative navigational goals. In the channel experiment, feeders were hidden below the channel floor, preventing an approaching ant from simply steering toward a visible food cup.",
+        "Ants completed ten training journeys: four to feeder A, four to B and two final journeys to A. Feeder B lay 45\u00b0 to the left or right of A as viewed from the nest. The subsequent test removed food and opened the connecting test channel at A.",
+        "The final visits standardized the starting goal while preserving experience with the second destination. Channel shutters constrained which route was available, but the design still allows the ant to choose search directions within the connecting channel rather than forcing a particular first turn."
+      ],
+      "cite": "Voegeli et al. (2025)",
+      "refs": [
+        "Voegeli B, Sommer S, Knaden M, Wehner R (2025). Vector-based navigation in desert ants: the significance of path-integration vectors. Journal of Comparative Physiology A 211:209\u2013220. https://doi.org/10.1007/s00359-024-01725-2"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/V25_1.png",
+        "caption": "Voegeli et al. (2025), Fig. 1. Training channels, two feeders and the novel connecting route.",
+        "source_url": "https://doi.org/10.1007/s00359-024-01725-2"
+      }
+    },
+    {
+      "title": "One-feeder training produces a symmetric local search",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A one-feeder control establishes the search pattern expected without memory of a second food source. This comparison distinguishes a general tendency to widen a search from a directional bias toward another learned destination.",
+        "Control ants visited only feeder A before testing. After food removal, their searches were concentrated around the former feeder position and distributed approximately symmetrically on its two sides. Distance from the starting point was measured in metres along the connecting test channel.",
+        "The symmetric baseline constrains interpretations of the two-feeder experiments. A later directional shift cannot be attributed simply to entering that channel, although a density distribution still describes where ants search rather than directly measuring the neural representation of a food vector."
+      ],
+      "transcript": [
+        "A one-feeder control establishes the search pattern expected without memory of a second food source. This comparison distinguishes a general tendency to widen a search from a directional bias toward another learned destination.",
+        "Control ants visited only feeder A before testing. After food removal, their searches were concentrated around the former feeder position and distributed approximately symmetrically on its two sides. Distance from the starting point was measured in metres along the connecting test channel.",
+        "The symmetric baseline constrains interpretations of the two-feeder experiments. A later directional shift cannot be attributed simply to entering that channel, although a density distribution still describes where ants search rather than directly measuring the neural representation of a food vector."
+      ],
+      "cite": "Voegeli et al. (2025)",
+      "refs": [
+        "Voegeli B, Sommer S, Knaden M, Wehner R (2025). Vector-based navigation in desert ants: the significance of path-integration vectors. Journal of Comparative Physiology A 211:209\u2013220. https://doi.org/10.1007/s00359-024-01725-2"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/V25_2.png",
+        "caption": "Voegeli et al. (2025), Fig. 2. Symmetric search after training to one feeder.",
+        "source_url": "https://doi.org/10.1007/s00359-024-01725-2"
+      }
+    },
+    {
+      "title": "Two-feeder experience biases the first search direction",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "The first U-turn after the missing feeder measures an early component of search direction. It is distinct from the full spatial distribution accumulated during later back-and-forth movements in the test channel.",
+        "After training to A and B, about two-thirds of the ants made their first U-turn on the side containing the second feeder. The effect occurred with feeder B either left or right of A, whose trained positions were separated by 4.1 m.",
+        "The left\u2013right comparison argues against an intrinsic turning preference accounting for the result. The early bias is consistent with using an alternative learned goal, but a first turn alone does not establish arrival accuracy or distinguish all possible computations involving current and remembered vectors."
+      ],
+      "transcript": [
+        "The first U-turn after the missing feeder measures an early component of search direction. It is distinct from the full spatial distribution accumulated during later back-and-forth movements in the test channel.",
+        "After training to A and B, about two-thirds of the ants made their first U-turn on the side containing the second feeder. The effect occurred with feeder B either left or right of A, whose trained positions were separated by 4.1 m.",
+        "The left\u2013right comparison argues against an intrinsic turning preference accounting for the result. The early bias is consistent with using an alternative learned goal, but a first turn alone does not establish arrival accuracy or distinguish all possible computations involving current and remembered vectors."
+      ],
+      "cite": "Voegeli et al. (2025)",
+      "refs": [
+        "Voegeli B, Sommer S, Knaden M, Wehner R (2025). Vector-based navigation in desert ants: the significance of path-integration vectors. Journal of Comparative Physiology A 211:209\u2013220. https://doi.org/10.1007/s00359-024-01725-2"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/V25_3.png",
+        "caption": "Voegeli et al. (2025), Fig. 3(a\u2013b). Search shifts toward the second feeder on either side.",
+        "source_url": "https://doi.org/10.1007/s00359-024-01725-2"
+      }
+    },
+    {
+      "title": "Search expands preferentially toward the missing goal",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "The full search trajectory contains information beyond its first movement. Ants can begin at the expected position of one feeder, then redistribute their efforts toward another destination when the first food source is absent.",
+        "Two-feeder ants initially searched around A but progressively widened their searches toward B. Their search-density distributions were asymmetric in the direction of the second feeder, whereas the one-feeder controls were symmetric. The effect reversed when B changed from the left to the right side.",
+        "The evidence supports flexible use of prior destination experience without requiring prior travel along A-to-B. It does not demonstrate a landmark-based representation of the connecting space, because the channel experiment was designed around controlled routes and stored vector information."
+      ],
+      "transcript": [
+        "The full search trajectory contains information beyond its first movement. Ants can begin at the expected position of one feeder, then redistribute their efforts toward another destination when the first food source is absent.",
+        "Two-feeder ants initially searched around A but progressively widened their searches toward B. Their search-density distributions were asymmetric in the direction of the second feeder, whereas the one-feeder controls were symmetric. The effect reversed when B changed from the left to the right side.",
+        "The evidence supports flexible use of prior destination experience without requiring prior travel along A-to-B. It does not demonstrate a landmark-based representation of the connecting space, because the channel experiment was designed around controlled routes and stored vector information."
+      ],
+      "cite": "Voegeli et al. (2025)",
+      "refs": [
+        "Voegeli B, Sommer S, Knaden M, Wehner R (2025). Vector-based navigation in desert ants: the significance of path-integration vectors. Journal of Comparative Physiology A 211:209\u2013220. https://doi.org/10.1007/s00359-024-01725-2"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/V25_3.png",
+        "caption": "Voegeli et al. (2025), Fig. 3(a\u2013b). Search shifts toward the second feeder on either side.",
+        "source_url": "https://doi.org/10.1007/s00359-024-01725-2"
+      }
+    },
+    {
+      "title": "Restricted sky views predict biases in goal searches",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A narrow channel restricts the visible portion of the polarization pattern. Depending on channel orientation and solar position, this restriction can bias the compass information used during outbound acquisition and therefore alter a stored goal vector.",
+        "Voegeli and colleagues separated tests into conditions predicting underestimation or overestimation of the 4.1 m A-to-B distance. Relative search distributions were obtained by subtracting the one-feeder baseline from the two-feeder distributions. Their positive regions shifted in the predicted direction.",
+        "The relationship links the searches to compass information acquired through the channels rather than merely to the physical location of an absent feeder. The subtraction is an analysis of recorded behavior, not proof that ants themselves subtract search distributions or represent their uncertainty in this format."
+      ],
+      "transcript": [
+        "A narrow channel restricts the visible portion of the polarization pattern. Depending on channel orientation and solar position, this restriction can bias the compass information used during outbound acquisition and therefore alter a stored goal vector.",
+        "Voegeli and colleagues separated tests into conditions predicting underestimation or overestimation of the 4.1 m A-to-B distance. Relative search distributions were obtained by subtracting the one-feeder baseline from the two-feeder distributions. Their positive regions shifted in the predicted direction.",
+        "The relationship links the searches to compass information acquired through the channels rather than merely to the physical location of an absent feeder. The subtraction is an analysis of recorded behavior, not proof that ants themselves subtract search distributions or represent their uncertainty in this format."
+      ],
+      "cite": "Voegeli et al. (2025)",
+      "refs": [
+        "Voegeli B, Sommer S, Knaden M, Wehner R (2025). Vector-based navigation in desert ants: the significance of path-integration vectors. Journal of Comparative Physiology A 211:209\u2013220. https://doi.org/10.1007/s00359-024-01725-2"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/V25_4.png",
+        "caption": "Voegeli et al. (2025), Fig. 4(a1\u2013b2). Relative search distributions track predicted compass biases.",
+        "source_url": "https://doi.org/10.1007/s00359-024-01725-2"
+      }
+    },
+    {
+      "title": "Stored goals can interact with the current home vector",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "The **current vector** is updated during ongoing travel, whereas a stored goal vector can persist across journeys. A goal can be approached by comparing the current nest-relative state with a remembered destination rather than constructing a map of all familiar places.",
+        "In the two-feeder experiment, ants searched toward B from A along an untrained connecting route separated by 4.1 m. The authors proposed retrieval of B\u2019s food vector into working memory while the path integrator continued to track the ant\u2019s current state.",
+        "This account explains the shortcut without requiring a metric cognitive map. It remains an interpretation of behavioral results: the experiment did not record a working-memory neuron, isolate synaptic storage of A and B, or decisively exclude every alternative form of vector computation."
+      ],
+      "transcript": [
+        "The **current vector** is updated during ongoing travel, whereas a stored goal vector can persist across journeys. A goal can be approached by comparing the current nest-relative state with a remembered destination rather than constructing a map of all familiar places.",
+        "In the two-feeder experiment, ants searched toward B from A along an untrained connecting route separated by 4.1 m. The authors proposed retrieval of B\u2019s food vector into working memory while the path integrator continued to track the ant\u2019s current state.",
+        "This account explains the shortcut without requiring a metric cognitive map. It remains an interpretation of behavioral results: the experiment did not record a working-memory neuron, isolate synaptic storage of A and B, or decisively exclude every alternative form of vector computation."
+      ],
+      "cite": "Voegeli et al. (2025)",
+      "refs": [
+        "Voegeli B, Sommer S, Knaden M, Wehner R (2025). Vector-based navigation in desert ants: the significance of path-integration vectors. Journal of Comparative Physiology A 211:209\u2013220. https://doi.org/10.1007/s00359-024-01725-2"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/V25_5.png",
+        "caption": "Voegeli et al. (2025), Fig. 5. Published framework relating current, stored and view-based vectors.",
+        "source_url": "https://doi.org/10.1007/s00359-024-01725-2"
+      }
+    },
+    {
+      "title": "A shortcut does not uniquely establish a cognitive map",
+      "layout": "figure-right",
+      "figure_width": 5.6,
+      "body": [
+        "A **metric cognitive map** represents spatial relationships among familiar places in a common coordinate system. Novel shortcutting is often treated as evidence for such a map, but the same behavior can sometimes follow from simpler stored vectors and continuous self-motion updating.",
+        "Cataglyphis ants trained separately to feeders 4.5 m and 5.7 m from the nest searched along their previously untraveled connecting route. The controlled A-to-B test demonstrated flexible navigation toward a second goal without requiring prior experience of that particular route.",
+        "The finding makes shortcutting insufficient as a unique diagnostic of map-based navigation. It does not prove that ants can never form other spatial representations; it specifies that this observed behavior is compatible with a nest-referenced vector system and does not require the stronger explanation."
+      ],
+      "transcript": [
+        "A **metric cognitive map** represents spatial relationships among familiar places in a common coordinate system. Novel shortcutting is often treated as evidence for such a map, but the same behavior can sometimes follow from simpler stored vectors and continuous self-motion updating.",
+        "Cataglyphis ants trained separately to feeders 4.5 m and 5.7 m from the nest searched along their previously untraveled connecting route. The controlled A-to-B test demonstrated flexible navigation toward a second goal without requiring prior experience of that particular route.",
+        "The finding makes shortcutting insufficient as a unique diagnostic of map-based navigation. It does not prove that ants can never form other spatial representations; it specifies that this observed behavior is compatible with a nest-referenced vector system and does not require the stronger explanation."
+      ],
+      "cite": "Voegeli et al. (2025)",
+      "refs": [
+        "Voegeli B, Sommer S, Knaden M, Wehner R (2025). Vector-based navigation in desert ants: the significance of path-integration vectors. Journal of Comparative Physiology A 211:209\u2013220. https://doi.org/10.1007/s00359-024-01725-2"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/V25_5.png",
+        "caption": "Voegeli et al. (2025), Fig. 5. Published framework relating current, stored and view-based vectors.",
+        "source_url": "https://doi.org/10.1007/s00359-024-01725-2"
+      }
+    }
+  ],
+  "title_image": {
+    "kind": "article",
+    "path": "figures/W07_3A.png",
+    "caption": "Wittlinger et al. (2007), Fig. 3(A). Normal tripod gait in a walking Cataglyphis fortis.",
+    "source_url": "https://doi.org/10.1242/jeb.02657"
+  },
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Home vectors",
+        "text": "combine direction and distance acquired during movement; they differ from retracing the outward route."
+      },
+      {
+        "lead": "Controlled displacement",
+        "text": "reveals a stored movement-derived estimate by separating the expressed vector from the true nest position."
+      },
+      {
+        "lead": "Stride-dependent odometry",
+        "text": "is supported by stilt overshoot, stump undershoot and recovery when outbound and inbound leg conditions match."
+      },
+      {
+        "lead": "Compass learning",
+        "text": "depends on changing celestial information during early learning walks and is associated with region-specific structural plasticity."
+      },
+      {
+        "lead": "Magnetic reference signals",
+        "text": "affect nest-directed gazes and brain plasticity differently; the magnetic receptor and causal cellular mechanisms remain unresolved."
+      },
+      {
+        "lead": "Novel shortcuts",
+        "text": "can arise from stored goal vectors interacting with an ongoing path integrator, so shortcutting alone does not establish a cognitive map."
+      }
+    ],
+    "transcript": [
+      "Home vectors combine direction and distance acquired during movement; they differ from retracing the outward route.",
+      "Controlled displacement reveals a stored movement-derived estimate by separating the expressed vector from the true nest position.",
+      "Stride-dependent odometry is supported by stilt overshoot, stump undershoot and recovery when outbound and inbound leg conditions match.",
+      "Compass learning depends on changing celestial information during early learning walks and is associated with region-specific structural plasticity.",
+      "Magnetic reference signals affect nest-directed gazes and brain plasticity differently; the magnetic receptor and causal cellular mechanisms remain unresolved.",
+      "Novel shortcuts can arise from stored goal vectors interacting with an ongoing path integrator, so shortcutting alone does not establish a cognitive map."
+    ],
+    "refs": [
+      "M\u00fcller M, Wehner R (1988). Path integration in desert ants, Cataglyphis fortis. Proceedings of the National Academy of Sciences 85(14):5287\u20135290. https://doi.org/10.1073/pnas.85.14.5287",
+      "Wittlinger M, Wehner R, Wolf H (2006). The Ant Odometer: Stepping on Stilts and Stumps. Science 312(5782):1965\u20131967. https://doi.org/10.1126/science.1126912",
+      "Wittlinger M, Wehner R, Wolf H (2007). The desert ant odometer: a stride integrator that accounts for stride length and walking speed. Journal of Experimental Biology 210(2):198\u2013207. https://doi.org/10.1242/jeb.02657",
+      "Grob R, Holland Cunz O, Gr\u00fcbel K, Pfeiffer K, R\u00f6ssler W, Fleischmann PN (2022). Rotation of skylight polarization during learning walks is necessary to trigger neuronal plasticity in Cataglyphis ants. Proceedings of the Royal Society B 289:20212499. https://doi.org/10.1098/rspb.2021.2499",
+      "Grob R, M\u00fcller VL, Gr\u00fcbel K, R\u00f6ssler W, Fleischmann PN (2024). Importance of magnetic information for neuronal plasticity in desert ants. Proceedings of the National Academy of Sciences 121(8):e2320764121. https://doi.org/10.1073/pnas.2320764121",
+      "Voegeli B, Sommer S, Knaden M, Wehner R (2025). Vector-based navigation in desert ants: the significance of path-integration vectors. Journal of Comparative Physiology A 211:209\u2013220. https://doi.org/10.1007/s00359-024-01725-2"
+    ],
+    "cite": "M\u00fcller & Wehner (1988); Wittlinger et al. (2007); Grob et al. (2022, 2024); Voegeli et al. (2025)"
+  }
+}
