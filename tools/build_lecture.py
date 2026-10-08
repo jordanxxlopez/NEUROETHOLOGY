@@ -366,6 +366,21 @@ class Deck:
             self.body(s, sd["body"], tx, BODY_Y, text_w, avail, where)
             ph = picture_contain(s, self.path(sd["figure"]["path"]), fx, BODY_Y + 0.05, fig_w, avail - 0.75)
             self.caption(s, fx, BODY_Y + 0.15 + ph, fig_w, sd["figure"]["caption"])
+        elif lay in ("figures-right", "figures-left"):
+            fig_w = sd.get("figure_width", 6.0)
+            text_w = W - 2 * M - fig_w - 0.4
+            fx = W - M - fig_w if lay == "figures-right" else M
+            tx = M if lay == "figures-right" else M + fig_w + 0.4
+            self.body(s, sd["body"], tx, BODY_Y, text_w, avail, where)
+            figs = sd["figures"]
+            if len(figs) != 2:
+                raise SpecError(f"{where}: {lay} needs exactly 2 figures")
+            primary_h = sd.get("primary_figure_height", 2.7)
+            ph = picture_contain(s, self.path(figs[0]["path"]), fx, BODY_Y + 0.05, fig_w, primary_h)
+            self.caption(s, fx, BODY_Y + 0.15 + ph, fig_w, figs[0]["caption"])
+            fy = BODY_Y + primary_h + 0.65
+            ph = picture_contain(s, self.path(figs[1]["path"]), fx, fy, fig_w, BODY_BOTTOM - fy - 0.5)
+            self.caption(s, fx, fy + ph + 0.08, fig_w, figs[1]["caption"])
         elif lay == "figure-below":
             top_h = sd.get("text_height", 1.9)
             used = self.body(s, sd["body"], M, BODY_Y, W - 2 * M, top_h, where, max_pt=16)

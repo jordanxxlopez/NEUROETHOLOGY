@@ -9,7 +9,7 @@ def add(title,key,image,number,caption,text,extra,anatomy=True):
  fig={'path':'figures/'+image+'.png','caption':f'{R[key][0]}, Fig. {number}. {caption}','source_url':'https://doi.org/'+R[key][2]}
  sd={'title':title,'body':body,'cite':R[key][0],'refs':[R[key][1]],'transcript':[re.sub(r'\*\*|_', '',p)for p in body]+[extra]}
  if anatomy and image not in ['B93_1B','B93_13','F98_2','F98_2A','D01_2','D01_4','D01_5','D01_8','D01_11','D01_15']:
-  sd.update(layout='two-figures',text_height=2.65,figures=[fig,{'path':'figures/F98_2A.png','caption':'Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.','source_url':'https://doi.org/'+R['F98'][2]}]);sd['refs']+=[R['F98'][1]] if key!='F98' else []
+  sd.update(layout='figures-right',figure_width=6.0,primary_figure_height=2.7,figures=[fig,{'path':'figures/F98_2A.png','caption':'Feldman & Knudsen (1998), Fig. 2(A). ICCls, ICX, and optic-tectum locations.','source_url':'https://doi.org/'+R['F98'][2]}]);sd['refs']+=[R['F98'][1]] if key!='F98' else []
  else:sd.update(layout='figure-right',figure=fig)
  slides.append(sd)
 
