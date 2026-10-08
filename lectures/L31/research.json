@@ -1,0 +1,2170 @@
+{
+  "version": "6.9",
+  "hitCount": 7,
+  "request": {
+    "queryString": "DOI:10.1073/pnas.0701575104 OR DOI:10.1073/pnas.0406984101 OR DOI:10.1098/rsif.2014.0777 OR DOI:10.1038/nature11046 OR DOI:10.1523/jneurosci.0185-25.2025 OR DOI:10.1371/journal.pone.0022385 OR DOI:10.1098/rspb.2014.0025",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 20,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40571414",
+        "source": "MED",
+        "pmid": "40571414",
+        "pmcid": "PMC12311757",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12311757"
+          ]
+        },
+        "doi": "10.1523/jneurosci.0185-25.2025",
+        "title": "Hippocampal LFP Responses during Pigeon Homing Flight in Outdoors.",
+        "authorString": "Yang L, Li M, Yang L, Wang Z, Shang Z.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yang L",
+              "lastName": "Yang",
+              "firstName": "Long",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Electrical and Information Engineering, Zhengzhou University, Zhengzhou 450001, China."
+                  },
+                  {
+                    "affiliation": "Henan Key Laboratory of Brain Science and Brain-Computer Interface Technology, Zhengzhou 450001, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li M",
+              "lastName": "Li",
+              "firstName": "Mengmeng",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2788-0314"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Electrical and Information Engineering, Zhengzhou University, Zhengzhou 450001, China limengmeng@zzu.edu.cn zhigang_shang@zzu.edu.cn."
+                  },
+                  {
+                    "affiliation": "Henan Key Laboratory of Brain Science and Brain-Computer Interface Technology, Zhengzhou 450001, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang L",
+              "lastName": "Yang",
+              "firstName": "Lifang",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Electrical and Information Engineering, Zhengzhou University, Zhengzhou 450001, China."
+                  },
+                  {
+                    "affiliation": "Henan Key Laboratory of Brain Science and Brain-Computer Interface Technology, Zhengzhou 450001, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Z",
+              "lastName": "Wang",
+              "firstName": "Zhenlong",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Henan Key Laboratory of Brain Science and Brain-Computer Interface Technology, Zhengzhou 450001, China."
+                  },
+                  {
+                    "affiliation": "School of Life Sciences, Zhengzhou University, Zhengzhou 450001, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shang Z",
+              "lastName": "Shang",
+              "firstName": "Zhigang",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Electrical and Information Engineering, Zhengzhou University, Zhengzhou 450001, China limengmeng@zzu.edu.cn zhigang_shang@zzu.edu.cn."
+                  },
+                  {
+                    "affiliation": "Henan Key Laboratory of Brain Science and Brain-Computer Interface Technology, Zhengzhou 450001, China."
+                  },
+                  {
+                    "affiliation": "Institute of Medical Engineering Technology and Data Mining, Zhengzhou University, Zhengzhou 450001, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2788-0314"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "30",
+          "volume": "45",
+          "journalIssueId": 3982418,
+          "dateOfPublication": "2025 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "J Neurosci",
+            "title": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "essn": "1529-2401",
+            "issn": "0270-6474",
+            "isoabbreviation": "J Neurosci",
+            "nlmid": "8102140"
+          },
+          "printPublicationDate": "2025-07-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e0185252025",
+        "abstractText": "The hippocampal formation (HF) plays a key role in avian spatial navigation. Previous studies suggest that the HF may serve different functions at various stages in pigeons' long-distance outdoor homing flight. However, it remains unclear whether the HF exhibits specific neural responses during these stages. In this study, we employed a wearable bimodal data recording system to simultaneously capture flight trajectories and hippocampal local field potential (LFP) signals of pigeons (either sex) during outdoor homing navigation. Our results revealed significant differences in hippocampal neural responses across the initial decision-making (DM) and en route navigation (ER) stages. Specifically, elevated LFP power in theta (4-12\u2005Hz) and beta (12-30\u2005Hz) bands was detected during the DM stage compared with the ER stage, while the high-gamma (60-120\u2005Hz) band exhibited the opposite pattern. In addition, we examined typical theta-beta phase-amplitude coupling during the ER stage. Additionally, stage-specific hippocampal responses remained consistent across release sites. Notably, the difference in hippocampal responses across stages diminished along with the accumulation of homing experience. These results offer new insights into the role of the avian HF in homing flight navigation and suggest parallels between avian and mammalian hippocampal mechanisms in spatial learning.",
+        "affiliation": "School of Electrical and Information Engineering, Zhengzhou University, Zhengzhou 450001, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "MOST | National Natural Science Foundation of China",
+              "grantId": "62301496",
+              "orderIn": 0
+            },
+            {
+              "agency": "Postdoctoral Fellowship Program of China Postdoctoral Science Foundation",
+              "grantId": "GZC20232447",
+              "orderIn": 0
+            },
+            {
+              "agency": "the Key Scientific and Technological Projects of Henan Province",
+              "grantId": "252102311095",
+              "orderIn": 0
+            },
+            {
+              "agency": "the Key Scientific and Technological Projects of Henan Province",
+              "grantId": "252102210008",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hippocampus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Columbidae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theta Rhythm",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Homing Behavior",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Flight, Animal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Spatial Navigation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pigeon",
+            "Hippocampal formation",
+            "Outdoors",
+            "Local Field Potential",
+            "Phase\u2013amplitude Coupling",
+            "Homing Flight"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1523/JNEUROSCI.0185-25.2025"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12311757"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12311757?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1523/jneurosci.0185-25.2025"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-sa",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-07-23",
+        "dateOfCreation": "2025-06-26",
+        "dateOfRevision": "2026-03-12",
+        "electronicPublicationDate": "2025-07-23",
+        "firstPublicationDate": "2025-07-23",
+        "firstIndexDate": "2025-06-28",
+        "fullTextReceivedDate": "2026-01-23",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25232052",
+        "source": "MED",
+        "pmid": "25232052",
+        "pmcid": "PMC4191110",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4191110"
+          ]
+        },
+        "doi": "10.1098/rsif.2014.0777",
+        "title": "Magnetic field-driven induction of ZENK in the trigeminal system of pigeons (Columba livia).",
+        "authorString": "Lefeldt N, Heyers D, Schneider NL, Engels S, Elbers D, Mouritsen H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lefeldt N",
+              "lastName": "Lefeldt",
+              "firstName": "Nele",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "AG Neurosensorik/Animal Navigation, Institute of Biological and Environmental Sciences, University Oldenburg, 26111 Oldenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Heyers D",
+              "lastName": "Heyers",
+              "firstName": "Dominik",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2831-6985"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "AG Neurosensorik/Animal Navigation, Institute of Biological and Environmental Sciences, University Oldenburg, 26111 Oldenburg, Germany dominik.heyers@uni-oldenburg.de."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schneider NL",
+              "lastName": "Schneider",
+              "firstName": "Nils-Lasse",
+              "initials": "NL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "AG Neurosensorik/Animal Navigation, Institute of Biological and Environmental Sciences, University Oldenburg, 26111 Oldenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Engels S",
+              "lastName": "Engels",
+              "firstName": "Svenja",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "AG Neurosensorik/Animal Navigation, Institute of Biological and Environmental Sciences, University Oldenburg, 26111 Oldenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Elbers D",
+              "lastName": "Elbers",
+              "firstName": "Dana",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "AG Neurosensorik/Animal Navigation, Institute of Biological and Environmental Sciences, University Oldenburg, 26111 Oldenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mouritsen H",
+              "lastName": "Mouritsen",
+              "firstName": "Henrik",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7082-4839"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "AG Neurosensorik/Animal Navigation, Institute of Biological and Environmental Sciences, University Oldenburg, 26111 Oldenburg, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7082-4839"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2831-6985"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "100",
+          "volume": "11",
+          "journalIssueId": 2194499,
+          "dateOfPublication": "2014 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "J R Soc Interface",
+            "title": "Journal of the Royal Society, Interface",
+            "essn": "1742-5662",
+            "issn": "1742-5689",
+            "isoabbreviation": "J R Soc Interface",
+            "nlmid": "101217269"
+          },
+          "printPublicationDate": "2014-11-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "20140777",
+        "abstractText": "Magnetoreception remains one of the few unsolved mysteries in sensory biology. The upper beak, which is innervated by the ophthalmic branch of the trigeminal nerve (V1), has been suggested to contain magnetic sensors based on ferromagnetic structures. Recently, its existence in pigeons has been seriously challenged by studies suggesting that the previously described iron-accumulations are macrophages, not magnetosensitive nerve endings. This raised the fundamental question of whether V1 is involved in magnetoreception in pigeons at all. We exposed pigeons to either a constantly changing magnetic field (CMF), to a zero magnetic field providing no magnetic information, or to CMF conditions after V1 was cut bilaterally. Using immediate early genes as a marker of neuronal responsiveness, we report that the trigeminal brainstem nuclei of pigeons, which receive V1 input, are activated under CMF conditions and that this neuronal activation disappears if the magnetic stimuli are removed or if V1 is cut. Our data suggest that the trigeminal system in pigeons is involved in processing magnetic field information and that V1 transmits this information from currently unknown, V1-associated magnetosensors to the brain.",
+        "affiliation": "AG Neurosensorik/Animal Navigation, Institute of Biological and Environmental Sciences, University Oldenburg, 26111 Oldenburg, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Trigeminal Ganglion",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Macrophages",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Columbidae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Iron",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Perception",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Magnetic Fields"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Homing",
+            "immediate early gene",
+            "Bird Migration",
+            "Trigeminal System",
+            "Magnetic Sense"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Iron",
+              "registryNumber": "E1UOL152H7"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rsif.2014.0777"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4191110"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4191110?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rsif.2014.0777"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 36,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-05-12",
+        "dateOfCreation": "2014-09-19",
+        "dateOfRevision": "2021-10-21",
+        "firstPublicationDate": "2014-11-01",
+        "firstIndexDate": "2014-09-20",
+        "fullTextReceivedDate": "2020-07-09",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24671977",
+        "source": "MED",
+        "pmid": "24671977",
+        "pmcid": "PMC3996611",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3996611"
+          ]
+        },
+        "doi": "10.1098/rspb.2014.0025",
+        "title": "Odours stimulate neuronal activity in the dorsolateral area of the hippocampal formation during path integration.",
+        "authorString": "Jorge PE, Phillips JB, Gon\u00e7alves A, Marques PA, N\u0115mec P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Jorge PE",
+              "lastName": "Jorge",
+              "firstName": "P E",
+              "initials": "PE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9348-6510"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unidade de Investiga\u00e7\u00e3o em Eco-Etologia, ISPA-Instituto Universit\u00e1rio, , Lisboa 1149-041, Portugal, Department of Biological Sciences, Virginia Tech, , Blacksburg, VA 24061-0406, USA, MUHNAC, Universidade de Lisboa, , Lisboa 1250-102, Portugal, Faculty of Science, Department of Zoology, Charles University in Prague, , 128 44 Praha 2, Czech Republic."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Phillips JB",
+              "lastName": "Phillips",
+              "firstName": "J B",
+              "initials": "JB"
+            },
+            {
+              "fullName": "Gon\u00e7alves A",
+              "lastName": "Gon\u00e7alves",
+              "firstName": "A",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4763-5735"
+              }
+            },
+            {
+              "fullName": "Marques PA",
+              "lastName": "Marques",
+              "firstName": "P A M",
+              "initials": "PA"
+            },
+            {
+              "fullName": "N\u0115mec P",
+              "lastName": "N\u0115mec",
+              "firstName": "P",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0277-0239"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9348-6510"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0277-0239"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4763-5735"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1783",
+          "volume": "281",
+          "journalIssueId": 2156282,
+          "dateOfPublication": "2014 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Proc Biol Sci",
+            "title": "Proceedings. Biological sciences",
+            "essn": "1471-2954",
+            "issn": "0962-8452",
+            "isoabbreviation": "Proc Biol Sci",
+            "nlmid": "101245157"
+          },
+          "printPublicationDate": "2014-05-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "20140025",
+        "abstractText": "The dorsolateral area of the hippocampal formation of birds is commonly assumed to play a central role in processing information needed for geographical positioning and homing. Previous work has interpreted odour-induced activity in this region as evidence for an 'olfactory map'. Here, we show, using c-Fos expression as a marker, that neuronal activation in the dorsolateral area of the hippocampal formation of pigeons is primarily a response to odour novelty, not to the spatial distribution of odour sources that would be necessary for an olfactory map. Pigeons exposed to odours had significantly more neurons activated in this area of the brain than pigeons exposed to filtered air with odours removed. This increased activity was observed only in response to unfamiliar odours. No change in activity was observed when pigeons were exposed to home odours. These findings are consistent with non-home odours activating non-olfactory components of the pigeon's navigation system. The pattern of neuronal activation in the triangular and dorsomedial areas of the hippocampal formation was, by contrast, consistent with the possibility that odours play a role in providing spatial information.",
+        "affiliation": "Unidade de Investiga\u00e7\u00e3o em Eco-Etologia, ISPA-Instituto Universit\u00e1rio, , Lisboa 1149-041, Portugal, Department of Biological Sciences, Virginia Tech, , Blacksburg, VA 24061-0406, USA, MUHNAC, Universidade de Lisboa, , Lisboa 1250-102, Portugal, Faculty of Science, Department of Zoology, Charles University in Prague, , 128 44 Praha 2, Czech Republic.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hippocampus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Columbidae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Avian Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proto-Oncogene Proteins c-fos",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Markers"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Olfactory Perception"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spatial Navigation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Odorants"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hippocampus",
+            "Pigeon",
+            "Homing",
+            "Immediate Early Genes",
+            "Navigation",
+            "Olfactory Activation"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Genetic Markers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Avian Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proto-Oncogene Proteins c-fos",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rspb.2014.0025"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3996611"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3996611?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rspb.2014.0025"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 7,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-01-09",
+        "dateOfCreation": "2014-03-28",
+        "dateOfRevision": "2021-10-21",
+        "electronicPublicationDate": "2014-03-26",
+        "firstPublicationDate": "2014-03-26",
+        "firstIndexDate": "2014-03-28",
+        "fullTextReceivedDate": "2020-07-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21857925",
+        "source": "MED",
+        "pmid": "21857925",
+        "pmcid": "PMC3152288",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3152288"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0022385",
+        "title": "Homing pigeons only navigate in air with intact environmental odours: a test of the olfactory activation hypothesis with GPS data loggers.",
+        "authorString": "Gagliardo A, Ioal\u00e8 P, Filannino C, Wikelski M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gagliardo A",
+              "lastName": "Gagliardo",
+              "firstName": "Anna",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, University of Pisa, Pisa, Italy. agagliardo@biologia.unipi.it"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ioal\u00e8 P",
+              "lastName": "Ioal\u00e8",
+              "firstName": "Paolo",
+              "initials": "P"
+            },
+            {
+              "fullName": "Filannino C",
+              "lastName": "Filannino",
+              "firstName": "Caterina",
+              "initials": "C"
+            },
+            {
+              "fullName": "Wikelski M",
+              "lastName": "Wikelski",
+              "firstName": "Martin",
+              "initials": "M"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "6",
+          "journalIssueId": 1855469,
+          "dateOfPublication": "2011 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "isoabbreviation": "PLoS One",
+            "nlmid": "101285081"
+          },
+          "printPublicationDate": "2011-01-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "e22385",
+        "abstractText": "A large body of evidence has shown that anosmic pigeons are impaired in their navigation. However, the role of odours in navigation is still subject to debate. While according to the olfactory navigation hypothesis homing pigeons possess a navigational map based on the distribution of environmental odours, the olfactory activation hypothesis proposes that odour perception is only needed to activate a navigational mechanism based on cues of another nature. Here we tested experimentally whether the perception of artificial odours is sufficient to allow pigeons to navigate, as expected from the olfactory activation hypothesis. We transported three groups of pigeons in air-tight containers to release sites 53 and 61 km from home in three different olfactory conditions. The Control group received natural environmental air; both the Pure Air and the Artificial Odour groups received pure air filtered through an active charcoal filter. Only the Artificial Odour group received additional puffs of artificial odours until release. We then released pigeons while recording their tracks with 1 Hz GPS data loggers. We also followed non-homing pigeons using an aerial data readout to a Cessna plane, allowing, for the first time, the tracking of non-homing homing pigeons. Within the first hour after release, the pigeons in both the Artificial Odour and the Pure Air group (receiving no environmental odours) showed impaired navigational performances at each release site. Our data provide evidence against an activation role of odours in navigation, and document that pigeons only navigate well when they perceive environmental odours.",
+        "affiliation": "Department of Biology, University of Pisa, Pisa, Italy. agagliardo@biologia.unipi.it",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Olfactory Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Olfactory Pathways",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Columbidae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Orientation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Homing Behavior",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cues"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Space Perception",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Smell",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Environment"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Air"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flight, Animal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Geography"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Geographic Information Systems"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Italy"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Odorants"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0022385"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3152288"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3152288?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 28,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-02-15",
+        "dateOfCreation": "2011-08-23",
+        "dateOfRevision": "2026-01-28",
+        "electronicPublicationDate": "2011-08-03",
+        "firstPublicationDate": "2011-08-03",
+        "firstIndexDate": "2011-08-23",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17452634",
+        "source": "MED",
+        "pmid": "17452634",
+        "pmcid": "PMC1863466",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC1863466"
+          ]
+        },
+        "doi": "10.1073/pnas.0701575104",
+        "title": "Pigeons combine compass and landmark guidance in familiar route navigation.",
+        "authorString": "Biro D, Freeman R, Meade J, Roberts S, Guilford T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Biro D",
+              "lastName": "Biro",
+              "firstName": "Dora",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3408-6274"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Zoology, University of Oxford, South Parks Road, Oxford OX1 3PS, United Kingdom. dora.biro@zoo.ox.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Freeman R",
+              "lastName": "Freeman",
+              "firstName": "Robin",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0560-8942"
+              }
+            },
+            {
+              "fullName": "Meade J",
+              "lastName": "Meade",
+              "firstName": "Jessica",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1082-9907"
+              }
+            },
+            {
+              "fullName": "Roberts S",
+              "lastName": "Roberts",
+              "firstName": "Stephen",
+              "initials": "S"
+            },
+            {
+              "fullName": "Guilford T",
+              "lastName": "Guilford",
+              "firstName": "Tim",
+              "initials": "T"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0560-8942"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3408-6274"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1082-9907"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "18",
+          "volume": "104",
+          "journalIssueId": 1393550,
+          "dateOfPublication": "2007 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+            "title": "Proceedings of the National Academy of Sciences of the United States of America",
+            "essn": "1091-6490",
+            "issn": "0027-8424",
+            "isoabbreviation": "Proc Natl Acad Sci U S A",
+            "nlmid": "7505876"
+          },
+          "printPublicationDate": "2007-05-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "7471-7476",
+        "abstractText": "How do birds orient over familiar terrain? In the best studied avian species, the homing pigeon (Columba livia), two apparently independent primary mechanisms are currently debated: either memorized visual landmarks provide homeward guidance directly, or birds rely on a compass to home from familiar locations. Using miniature Global Positioning System tracking technology and clock-shift procedures, we set sun-compass and landmark information in conflict, showing that experienced birds can accurately complete their memorized routes by using landmarks alone. Nevertheless, we also find that route following is often consistently offset in the expected compass direction, faithfully reproducing the shape of the track, but in parallel. Thus, we demonstrate conditions under which compass orientation and landmark guidance must be combined into a system of simultaneous or oscillating dual control.",
+        "affiliation": "Department of Zoology, University of Oxford, South Parks Road, Oxford OX1 3PS, United Kingdom. dora.biro@zoo.ox.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Engineering and Physical Sciences Research Council",
+              "grantId": "GR/R93261/01",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Columbidae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animal Migration",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Homing Behavior",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cues"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Space Perception",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "England"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc1863466?pdf=render"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.0701575104"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1863466"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1863466?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.0701575104"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 55,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-06-20",
+        "dateOfCreation": "2007-04-25",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2007-04-23",
+        "firstPublicationDate": "2007-04-23",
+        "firstIndexDate": "2010-09-16",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22495303",
+        "source": "MED",
+        "pmid": "22495303",
+        "doi": "10.1038/nature11046",
+        "title": "Clusters of iron-rich cells in the upper beak of pigeons are macrophages not magnetosensitive neurons.",
+        "authorString": "Treiber CD, Salzer MC, Riegler J, Edelman N, Sugar C, Breuss M, Pichler P, Cadiou H, Saunders M, Lythgoe M, Shaw J, Keays DA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Treiber CD",
+              "lastName": "Treiber",
+              "firstName": "Christoph Daniel",
+              "initials": "CD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6994-091X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Molecular Pathology, Dr Bohr-Gasse, 1030 Vienna, Austria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Salzer MC",
+              "lastName": "Salzer",
+              "firstName": "Marion Claudia",
+              "initials": "MC"
+            },
+            {
+              "fullName": "Riegler J",
+              "lastName": "Riegler",
+              "firstName": "Johannes",
+              "initials": "J"
+            },
+            {
+              "fullName": "Edelman N",
+              "lastName": "Edelman",
+              "firstName": "Nathaniel",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5142-6760"
+              }
+            },
+            {
+              "fullName": "Sugar C",
+              "lastName": "Sugar",
+              "firstName": "Cristina",
+              "initials": "C"
+            },
+            {
+              "fullName": "Breuss M",
+              "lastName": "Breuss",
+              "firstName": "Martin",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2200-8604"
+              }
+            },
+            {
+              "fullName": "Pichler P",
+              "lastName": "Pichler",
+              "firstName": "Paul",
+              "initials": "P"
+            },
+            {
+              "fullName": "Cadiou H",
+              "lastName": "Cadiou",
+              "firstName": "Herve",
+              "initials": "H"
+            },
+            {
+              "fullName": "Saunders M",
+              "lastName": "Saunders",
+              "firstName": "Martin",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6873-7816"
+              }
+            },
+            {
+              "fullName": "Lythgoe M",
+              "lastName": "Lythgoe",
+              "firstName": "Mark",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4945-0171"
+              }
+            },
+            {
+              "fullName": "Shaw J",
+              "lastName": "Shaw",
+              "firstName": "Jeremy",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5140-457X"
+              }
+            },
+            {
+              "fullName": "Keays DA",
+              "lastName": "Keays",
+              "firstName": "David Anthony",
+              "initials": "DA"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6873-7816"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4945-0171"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5140-457X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5142-6760"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6994-091X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2200-8604"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "recommended_reviews",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7394",
+          "volume": "484",
+          "journalIssueId": 1925032,
+          "dateOfPublication": "2012 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Nature",
+            "title": "Nature",
+            "essn": "1476-4687",
+            "issn": "0028-0836",
+            "isoabbreviation": "Nature",
+            "nlmid": "0410462"
+          },
+          "printPublicationDate": "2012-04-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "367-370",
+        "abstractText": "Understanding the molecular and cellular mechanisms that mediate magnetosensation in vertebrates is a formidable scientific problem. One hypothesis is that magnetic information is transduced into neuronal impulses by using a magnetite-based magnetoreceptor. Previous studies claim to have identified a magnetic sense system in the pigeon, common to avian species, which consists of magnetite-containing trigeminal afferents located at six specific loci in the rostral subepidermis of the beak. These studies have been widely accepted in the field and heavily relied upon by both behavioural biologists and physicists. Here we show that clusters of iron-rich cells in the rostro-medial upper beak of the pigeon Columbia livia are macrophages, not magnetosensitive neurons. Our systematic characterization of the pigeon upper beak identified iron-rich cells in the stratum laxum of the subepidermis, the basal region of the respiratory epithelium and the apex of feather follicles. Using a three-dimensional blueprint of the pigeon beak created by magnetic resonance imaging and computed tomography, we mapped the location of iron-rich cells, revealing unexpected variation in their distribution and number--an observation that is inconsistent with a role in magnetic sensation. Ultrastructure analysis of these cells, which are not unique to the beak, showed that their subcellular architecture includes ferritin-like granules, siderosomes, haemosiderin and filopodia, characteristics of iron-rich macrophages. Our conclusion that these cells are macrophages and not magnetosensitive neurons is supported by immunohistological studies showing co-localization with the antigen-presenting molecule major histocompatibility complex class II. Our work necessitates a renewed search for the true magnetite-dependent magnetoreceptor in birds.",
+        "affiliation": "Institute of Molecular Pathology, Dr Bohr-Gasse, 1030 Vienna, Austria.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Engineering and Physical Sciences Research Council",
+              "grantId": "EP/I014667/1",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Respiratory Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neurons",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Macrophages",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Beak",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AH",
+                    "qualifierName": "anatomy & histology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Feathers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Columbidae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AH",
+                    "qualifierName": "anatomy & histology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ferrocyanides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Iron",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tomography, Emission-Computed, Single-Photon"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Magnetic Resonance Imaging"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunohistochemistry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Orientation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animal Migration"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Sensation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Magnetic Fields"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Ferrocyanides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ferric ferrocyanide",
+              "registryNumber": "TLE294X33A"
+            },
+            {
+              "name": "Iron",
+              "registryNumber": "E1UOL152H7"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/nature11046"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "22517155",
+              "reference": "Nature. 2012 Apr 19;484(7394):320-1",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 92,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-05-25",
+        "dateOfCreation": "2012-04-13",
+        "dateOfRevision": "2021-10-21",
+        "electronicPublicationDate": "2012-04-11",
+        "firstPublicationDate": "2012-04-11",
+        "firstIndexDate": "2012-04-14",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15572457",
+        "source": "MED",
+        "pmid": "15572457",
+        "pmcid": "PMC536010",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC536010"
+          ]
+        },
+        "doi": "10.1073/pnas.0406984101",
+        "title": "Familiar route loyalty implies visual pilotage in the homing pigeon.",
+        "authorString": "Biro D, Meade J, Guilford T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Biro D",
+              "lastName": "Biro",
+              "firstName": "Dora",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3408-6274"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Zoology, University of Oxford, South Parks Road, Oxford OX1 3PS, United Kingdom. dora.biro@zoo.ox.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meade J",
+              "lastName": "Meade",
+              "firstName": "Jessica",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1082-9907"
+              }
+            },
+            {
+              "fullName": "Guilford T",
+              "lastName": "Guilford",
+              "firstName": "Tim",
+              "initials": "T"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3408-6274"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1082-9907"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "50",
+          "volume": "101",
+          "journalIssueId": 1211889,
+          "dateOfPublication": "2004 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+            "title": "Proceedings of the National Academy of Sciences of the United States of America",
+            "essn": "1091-6490",
+            "issn": "0027-8424",
+            "isoabbreviation": "Proc Natl Acad Sci U S A",
+            "nlmid": "7505876"
+          },
+          "printPublicationDate": "2004-12-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "17440-17443",
+        "abstractText": "Wide-ranging animals, such as birds, regularly traverse large areas of the landscape efficiently in the course of their local movement patterns, which raises fundamental questions about the cognitive mechanisms involved. By using precision global-positioning-system loggers, we show that homing pigeons (Columba livia) not only come to rely on highly stereotyped yet surprisingly inefficient routes within the local area but are attracted directly back to their individually preferred routes even when released from novel sites off-route. This precise route loyalty demonstrates a reliance on familiar landmarks throughout the flight, which was unexpected under current models of avian navigation. We discuss how visual landmarks may be encoded as waypoints within familiar route maps.",
+        "affiliation": "Department of Zoology, University of Oxford, South Parks Road, Oxford OX1 3PS, United Kingdom. dora.biro@zoo.ox.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Engineering and Physical Sciences Research Council",
+              "grantId": "GR/R93261/01",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Columbidae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photic Stimulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animal Migration",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Homing Behavior",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cues"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vision, Ocular",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United Kingdom"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.0406984101"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC536010"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC536010?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.0406984101"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 91,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-01-14",
+        "dateOfCreation": "2004-12-02",
+        "dateOfRevision": "2026-01-28",
+        "electronicPublicationDate": "2004-11-30",
+        "firstPublicationDate": "2004-11-30",
+        "firstIndexDate": "2010-09-22",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}
