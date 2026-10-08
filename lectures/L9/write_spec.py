@@ -797,7 +797,7 @@ items = [
 spec = {
     "lecture": 9,
     "content_slides": 44,
-    "theme": "cranberry-smoke",
+    "theme": "sapphire-silver",
     "title_image": {
         "path": "figures/title_toad.jpg",
         "caption": "Photo: Common toad (Bufo bufo), the species used in Ewert's prey-catching studies.",

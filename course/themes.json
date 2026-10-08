@@ -2,19 +2,14 @@
   "_rules": [
     "Every lecture gets its own palette. Never reuse a palette that appears in 'used'.",
     "Never use yellow, orange, gold, mustard or other loud/ugly colors.",
-    "Purple and green have already been used — do not use them again.",
+    "Purple and green have already been used \u2014 do not use them again.",
     "Font is always Arial.",
     "After building a lecture, move its theme key into 'used' with the lecture number."
   ],
   "used": {
     "7": "wine / burgundy",
-<<<<<<< HEAD
-    "8": "graphite / silver",
-    "9": "cranberry / smoke gray",
-=======
     "8": "ruby / porcelain",
-    "9": "rose / white",
->>>>>>> origin/claude/neuroethology-fa2026-schedule-2lgmmr
+    "9": "sapphire / silver",
     "10": "ice blue / charcoal",
     "11": "crimson / blush white",
     "earlier": "purple, green and amber palettes were used in Lectures 1-6",
@@ -29,7 +24,8 @@
     "5": "charcoal / brick red",
     "3": "crimson / slate",
     "6": "cerulean / pearl",
-    "8_previous": "graphite / silver"
+    "8_previous": "graphite / silver",
+    "9_previous": "rose / white"
   },
   "palettes": {
     "midnight-silver": {
@@ -175,20 +171,6 @@
       "accent": "0086B3",
       "rule": "C8DCE5"
     },
-<<<<<<< HEAD
-    "cranberry-smoke": {
-      "label": "cranberry / smoke gray",
-      "title_bg": "5E1A2C",
-      "title_text": "FFFFFF",
-      "title_muted": "E2C6CE",
-      "bg": "FFFFFF",
-      "heading": "8A2340",
-      "text": "26232A",
-      "muted": "66606A",
-      "tint": "F6EFF1",
-      "accent": "8A2340",
-      "rule": "DCD0D4"
-=======
     "ruby-porcelain": {
       "label": "ruby / porcelain",
       "title_bg": "3C1825",
@@ -201,7 +183,19 @@
       "tint": "F7F0F3",
       "accent": "A03B5D",
       "rule": "DECBD3"
->>>>>>> origin/claude/neuroethology-fa2026-schedule-2lgmmr
+    },
+    "sapphire-silver": {
+      "label": "sapphire / silver",
+      "title_bg": "102A4C",
+      "title_text": "FFFFFF",
+      "title_muted": "B8C7DB",
+      "bg": "FFFFFF",
+      "heading": "1D4E89",
+      "text": "1F2530",
+      "muted": "5B6575",
+      "tint": "EEF3F9",
+      "accent": "2563A8",
+      "rule": "C9D4E3"
     }
   }
 }
