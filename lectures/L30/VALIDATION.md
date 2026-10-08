@@ -11,4 +11,4 @@
 - Build used the repository builder. `finalize_notes.py` applies Arial and removes literal Markdown markers in notes; `build.py` reproduces that finishing step. LibreOffice produced the PDF preview; rendering used PyMuPDF. PDFs themselves remain uncommitted; hashes and access records are retained in research.json.
 - Theme flint / soft blue is unique and marked used for Lecture 30 after final QA.
 
-Publication URLs, artifact checksums and HTTP checks are recorded in export.json after repository publication.
+Public immutable download URLs, artifact checksums and HTTP checks are recorded in export.json. Anonymous PowerPoint and PDF downloads both returned HTTP 200; their bytes match the local validated artifacts and contain 46 slides/pages.
