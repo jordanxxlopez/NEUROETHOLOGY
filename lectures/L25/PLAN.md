@@ -1,52 +1,50 @@
-# Lecture 25 preparation
+# Lecture 25 — final organization
 
-This is an internal research plan, not a delivered lecture outline.
+The deck progresses from observed food search and sensory lesions through plume sampling, hair-array hydrodynamics, receptor localization, sensory response mechanisms, temporal coding, central inhibition and contemporary navigation models.
 
-44 content topics, advancing from search behavior through anatomy, physiology, cellular mechanisms and contemporary evidence:
+1. Food odor organizes source-directed walking
+2. A flume separates chemical input from water flow
+3. Speed and heading change during the approach
+4. Recorded turns do not reveal a fixed casting program
+5. Close-range searching recruits walking-leg raking
+6. Two antennular pathways can guide spiny lobsters
+7. Selective lesions require distinct procedural controls
+8. Either pathway can preserve food-source finding
+9. Successful searching can still become less efficient
+10. Turbulence produces patchy dissolved odor input
+11. Antennular length changes the sampled chemical pattern
+12. Discrete sniffing changes the gaps between encounters
+13. Antennules and legs encounter different gradients
+14. Aesthetasc arrays organize the olfactory interface
+15. Scaled physical models isolate hair-array hydrodynamics
+16. The fast downstroke replaces water between hairs
+17. The slow return retains a chemical sample
+18. Hair orientation and guard hairs alter delivery
+19. Published video directly reveals lobster sniffing
+20. A captured sample preserves spatial information briefly
+21. Ionotropic-receptor genes occur in olfactory neurons
+22. Receptor protein reaches the sensory dendrites
+23. Neighboring sensory cells differ in chemical selectivity
+24. Single-cell sequencing resolves receptor coexpression
+25. A neuron can express many candidate tuning receptors
+26. Gene expression does not establish odor recognition
+27. Controlled odor delivery separates input from response
+28. Peripheral neurons can be excited or inhibited by odor
+29. Calcium signals and spikes have different time courses
+30. Some olfactory neurons burst without odor stimulation
+31. Adjacent receptor neurons need not share an oscillator
+32. Cyclic nucleotides can support peripheral inhibition
+33. Enzyme activation probes a candidate inhibitory pathway
+34. Odor rapidly changes dendritic second messengers
+35. Ligand concentration changes messenger recruitment
+36. Bursting neurons supply diverse temporal reference scales
+37. Odor-response probability depends on bursting phase
+38. A published decoder tests the timing-code hypothesis
+39. Central transmission can suppress repeated afferent input
+40. GABA and histamine inhibit lobster afferent transmission
+41. Antagonists distinguish two inhibitory receptor actions
+42. Joint odor and flow sampling offers direction cues
+43. Plume intermittency supplies a different spatial statistic
+44. Search combines sampling, neural timing and context
 
-1. Food odor elicits directed lobster source searching (Moore 1991, pending).
-2. Controlled turbulent-flow preparation separates odor and flow (Moore 1991, pending).
-3. Search trajectories combine progress and lateral corrections (Moore 1991, pending).
-4. Bilateral antennular sampling constrains directional explanations (Moore 1991, pending).
-5. Antennular sensory pathways overlap in orientation (Horner 2004, pending).
-6. Selective lesions distinguish sensory-channel contributions (Horner 2004, pending).
-7. Preserved versus impaired search limits necessity claims (Horner 2004, pending).
-8. Turbulence creates patchy dissolved odor input (Reidenbach & Koehl 2011).
-9. Antennular and leg sampling encounter different plume statistics (Reidenbach & Koehl 2011).
-10. Lateral flagellar aesthetascs contain olfactory dendrites (Reidenbach 2008; Kozma 2018).
-11. High-speed kinematics measure discrete sampling (Goldman & Koehl 2001).
-12. Food odors alter flicking schedules (Goldman & Koehl 2001).
-13. Hydrodynamic physical models test water exchange (Reidenbach 2008).
-14. Fast downstrokes replace water in the hair array (Reidenbach 2008).
-15. Slow returns retain fluid for molecular diffusion (Reidenbach 2008).
-16. Sniffing filters spatial and temporal plume input (Koehl 2001).
-17. Antennular length changes odor-filament encounter probability (Reidenbach & Koehl 2011).
-18. Discrete sampling alters odor-free gap durations (Reidenbach & Koehl 2011).
-19. Common ionotropic-receptor subunits occur in sensory neurons (Corey 2013).
-20. Dendritic receptor localization constrains transduction sites (Corey 2013).
-21. Ligand responses differ among neighboring sensory cells (Corey 2013).
-22. Modern transcriptomes revise candidate-receptor inventories (Kozma 2018).
-23. Single-cell transcriptomes resolve receptor coexpression (Kozma 2020).
-24. Candidate GPCR expression does not establish an odor receptor (Rump 2021).
-25. Excitation and inhibition can originate in sensory neurons (Bobkov 2012).
-26. Spike recordings and calcium signals report different kinetics (Bobkov 2012).
-27. Whole-cell currents constrain peripheral response diversity (Bobkov 2012).
-28. Current injection distinguishes intrinsic spike-generation properties (Bobkov 2012).
-29. Cyclic nucleotides can activate inhibitory potassium currents (Michel & Ache 1992).
-30. Odorants differentially recruit second-messenger pathways (Michel & Ache 1994).
-31. Bursting receptor neurons have distinct intrinsic periods (Park 2014).
-32. Odor-response probability depends on bursting phase (Park 2014).
-33. Population responses can encode time between encounters (Park 2014).
-34. Coding models require independently stated behavioral limitations (Park 2014).
-35. Simulated plume intermittency varies with spatial position (Michaelis 2020).
-36. Sampling times constrain the information in intermittency (Michaelis 2020).
-37. Joint flow-and-odor sampling offers a proposed navigation cue (Pravin & Reidenbach 2013).
-38. Presynaptic inhibition changes olfactory afferent transmission (Wachowiak 1999).
-39. Calcium imaging tests the locus of afferent inhibition (Wachowiak 1999).
-40. Lobster and turtle afferents use different inhibitory mechanisms (Wachowiak 1999).
-41. Juvenile chemical responses connect peripheral activity and behavior (2026 primary paper).
-42. Social odor functions depend on species and behavioral context (2023 primary paper).
-43. Source finding requires chemical identity, timing and flow context (selected primary evidence).
-44. Experimental evidence distinguishes detection, coding and navigation (selected primary evidence).
-
-No quantitative results or figure panel assignments should be invented for pending papers. Reassess topic divisions after full reading to avoid repetition. Exact final slide titles must obey the repository's 62-character limit. All source figures must remain original crops, and models published by source authors must be identified as models rather than recorded animal behavior.
+Final deliverable: 1 title, 44 content slides and 1 Key takeaways slide. All content slides carry original primary-paper figures. Each has three academic paragraphs, teaching transcript and complete references. Models are explicitly distinguished from measured animal behavior.
