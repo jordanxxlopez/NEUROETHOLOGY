@@ -296,6 +296,8 @@ class Deck:
         s = self.new_slide()
         t = self.t
         img = self.spec.get("title_image")
+        if not img:
+            raise SpecError("title slide: missing 'title_image' — show the study animal (article figure or credited web photo)")
         if img:
             check_image(img, "title slide")
             if img.get("kind", "article") == "web":
@@ -311,14 +313,16 @@ class Deck:
         # break after the first colon for the two-line look; text is unchanged
         lines = [title[: title.index(":") + 1], title[title.index(":") + 1:].strip()] if ":" in title else [title]
         _, tf = textbox(s, x, 2.55, w, 2.1, "Lecture title")
-        pt, _ = fit_size(lines, w, 2.1, max_pt=30, min_pt=22, where="title slide")
+        pt, need = fit_size(lines, w, 2.1, max_pt=30, min_pt=22, where="title slide")
         write_paras(tf, lines, pt, t["title_text"], space_after=0)
         for p in tf.paragraphs:
             for r in p.runs:
                 r.font.bold = True
-        _, tf = textbox(s, x, 5.05, w, 0.4)
+        # date and instructor follow the title's measured height so they never overlap it
+        date_y = max(4.2, 2.55 + need * 1.15 + 0.35)
+        _, tf = textbox(s, x, date_y, w, 0.4)
         write_paras(tf, [self.meta["date"]], 16, t["title_muted"], space_after=0)
-        _, tf = textbox(s, x, 5.9, w, 0.7)
+        _, tf = textbox(s, x, max(5.9, date_y + 0.75), w, 0.7)
         write_paras(tf, [self.course["instructor"], self.course["instructor_title"]], 12, t["title_muted"], space_after=2)
         if img:
             picture_contain(s, self.path(img["path"]), W / 2 + 0.5, 0.9, W / 2 - 1.0, 5.4)
