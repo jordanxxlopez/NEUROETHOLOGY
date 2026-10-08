@@ -67,6 +67,6 @@ MADE_IMAGE_WORDS = re.compile(
     r"\bAI\b|midjourney|dall-?e|stable diffusion|summary table|summary diagram|not original|template curves|"
     r"simulated|mock-?up|clip ?art|icon", re.I)
 # Nearly every content slide carries an image; primary-article figures dominate.
-MIN_IMAGE_SLIDES = 40           # of 44 content slides: article figure or credited photo
-MIN_ARTICLE_FIGURE_SLIDES = 34  # content slides with at least one article figure
-MAX_WEB_IMAGES = 6              # credited web photos (animal, habitat, specimen), only where needed
+MIN_IMAGE_SLIDES = 40           # of 44 content slides: original article figures
+MIN_ARTICLE_FIGURE_SLIDES = 40  # content slides with at least one article figure
+MAX_WEB_IMAGES = 0              # credited web photos (animal, habitat, specimen), only where needed

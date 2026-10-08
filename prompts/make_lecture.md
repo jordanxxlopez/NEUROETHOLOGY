@@ -77,8 +77,8 @@ FIGURES — STRICT
 - Do NOT create any figure: no schematics, diagrams, flowcharts, re-plotted or redrawn
   graphs, charts from reported numbers, model/template curves, illustrations, icons,
   stock photos, web photos, AI-generated images or clip art — not even labeled as such.
-- At least 40 of the 44 content slides carry original article figures, meeting the repo's
-  image minimum and the instructor's minimum of 18 article-figure slides.
+- At least 40 of the 44 content slides carry original article figures. The 40-slide
+  requirement supersedes earlier minimums of 15 or 18; those are not the target.
 - If a needed PDF cannot be downloaded, stop and give me a numbered list of the papers
   with DOI links so I can upload them. Never substitute a created visual. Slides without
   an article figure are text slides (a text table of reported values is fine).
