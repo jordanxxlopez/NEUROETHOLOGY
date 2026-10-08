@@ -1,0 +1,1577 @@
+{
+  "lecture": 24,
+  "theme": "storm-pearl",
+  "content_slides": 44,
+  "title_image": {
+    "kind": "article",
+    "path": "figures/animal.png",
+    "caption": "Yamada et al. (2021), Fig. 1(A, photograph). Male silkmoth on the trackball preparation.",
+    "source_url": "https://doi.org/10.7554/elife.72001"
+  },
+  "slides": [
+    {
+      "title": "Bombykol triggers silkmoth mate searching",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "**Pheromones** are chemical signals exchanged between members of a species. Male silkmoths, _Bombyx mori_, respond to the female pheromone **bombykol** with a forward walking surge, alternating zigzag turns and wider looping search when further odor contacts are absent.",
+        "Shiota and colleagues measured body angle in tethered males and source finding during free walking. A single bombykol pulse elicited the complete searching sequence in both normal moths and moths lacking a pheromone-binding protein. Thus, the sequence could persist despite altered peripheral response kinetics.",
+        "At repeated stimulation rates of 0.83 and 2 Hz, mutants spent less time surging and more time turning. Detecting pheromone is therefore insufficient for efficient tracking: the sensory system must also distinguish successive encounters. These behavioral differences do not establish the identity of the central circuit generating each movement."
+      ],
+      "transcript": [
+        [
+          "Pheromones are chemical signals exchanged between members of a species. Male silkmoths, Bombyx mori, respond to the female pheromone bombykol with a forward walking surge, alternating zigzag turns and wider looping search when further odor contacts are absent.",
+          [
+            "Bombykol is the alcohol (E,Z)-10,12-hexadecadien-1-ol. A surge is forward progress rather than continuous rotation; the later zigzag phase can search for another odor encounter."
+          ]
+        ],
+        "Shiota and colleagues measured body angle in tethered males and source finding during free walking. A single bombykol pulse elicited the complete searching sequence in both normal moths and moths lacking a pheromone-binding protein. Thus, the sequence could persist despite altered peripheral response kinetics.",
+        "At repeated stimulation rates of 0.83 and 2 Hz, mutants spent less time surging and more time turning. Detecting pheromone is therefore insufficient for efficient tracking: the sensory system must also distinguish successive encounters. These behavioral differences do not establish the identity of the central circuit generating each movement."
+      ],
+      "cite": "Shiota et al. (2021)",
+      "refs": [
+        "Shiota Y, Sakurai T, Ando N, Haupt SS, Mitsuno H, Daimon T, Kanzaki R (2021). Pheromone binding protein is involved in temporal olfactory resolution in the silkmoth. iScience 24(11):103334. https://doi.org/10.1016/j.isci.2021.103334"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/pbpbehavior.png",
+        "caption": "Shiota et al. (2021), Fig. 4(A–E). Surge and turning behavior after pheromone-binding-protein loss.",
+        "source_url": "https://doi.org/10.1016/j.isci.2021.103334"
+      }
+    },
+    {
+      "title": "Turbulence separates odor into intermittent strands",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "An **odor plume** is the distribution of odor-bearing air transported from a source. Atmospheric turbulence divides that distribution into brief encounters separated by clean-air gaps. Murlis, Willis and Cardé measured plume intermittency in an open field and a forest rather than assuming a smooth concentration gradient.",
+        "The investigators released negatively charged air ions as a tracer and recorded fluctuations at downwind detectors. Signals were present only about 20% of the time in both environments. Sampling extended to 20 m downwind in the field and 10 m in the forest.",
+        "These measurements establish a discontinuous physical input at the detector, not the activity of a silkmoth neuron. Ionized air approximates plume transport but is not chemically identical to pheromone. Responses to intermittent odor must therefore be interpreted in relation to both environmental structure and the sensory preparation."
+      ],
+      "transcript": [
+        [
+          "An odor plume is the distribution of odor-bearing air transported from a source. Atmospheric turbulence divides that distribution into brief encounters separated by clean-air gaps. Murlis, Willis and Cardé measured plume intermittency in an open field and a forest rather than assuming a smooth concentration gradient.",
+          [
+            "A filament is a strand of odor-bearing air; a gap is an interval without detectable signal. Intermittency describes those alternations, rather than the average concentration alone."
+          ]
+        ],
+        "The investigators released negatively charged air ions as a tracer and recorded fluctuations at downwind detectors. Signals were present only about 20% of the time in both environments. Sampling extended to 20 m downwind in the field and 10 m in the forest.",
+        "These measurements establish a discontinuous physical input at the detector, not the activity of a silkmoth neuron. Ionized air approximates plume transport but is not chemically identical to pheromone. Responses to intermittent odor must therefore be interpreted in relation to both environmental structure and the sensory preparation."
+      ],
+      "cite": "Murlis et al. (2000)",
+      "refs": [
+        "Murlis J, Willis MA, Cardé RT (2000). Spatial and temporal structures of pheromone plumes in fields and forests. Physiological Entomology 25(3):211-222. https://doi.org/10.1046/j.1365-3032.2000.00176.x"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/plume.png",
+        "caption": "Murlis et al. (2000), Fig. 1(a–g). Intermittent ion-tracer signals at several field and forest distances.",
+        "source_url": "https://doi.org/10.1046/j.1365-3032.2000.00176.x"
+      }
+    },
+    {
+      "title": "Forest plumes contain longer gaps between bursts",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "**Bursts** are groups of closely spaced tracer peaks separated by longer gaps. Murlis and colleagues compared their timing in field and forest recordings. Although signal occupancy was about 20% in both environments, equal occupancy did not imply equal patterns of odor availability.",
+        "Forest interburst gaps lasted at least three times longer than field gaps. A burst contained about seven tracer spikes in the forest and three in the field. The environment therefore changed the clustering of encounters, even when the fraction of time containing signal was similar.",
+        "Longer gaps can permit searching movements to develop before odor returns. That behavioral implication follows from combining plume measurements with separate moth experiments; the tracer study itself did not identify a motor program or measure silkmoth source-finding success. A single mean concentration cannot describe the temporal challenge imposed by these plumes."
+      ],
+      "transcript": [
+        [
+          "Bursts are groups of closely spaced tracer peaks separated by longer gaps. Murlis and colleagues compared their timing in field and forest recordings. Although signal occupancy was about 20% in both environments, equal occupancy did not imply equal patterns of odor availability.",
+          [
+            "Burst structure distinguishes several rapid contacts followed by a long interruption from contacts distributed evenly through time. Both can have the same average occupancy."
+          ]
+        ],
+        "Forest interburst gaps lasted at least three times longer than field gaps. A burst contained about seven tracer spikes in the forest and three in the field. The environment therefore changed the clustering of encounters, even when the fraction of time containing signal was similar.",
+        "Longer gaps can permit searching movements to develop before odor returns. That behavioral implication follows from combining plume measurements with separate moth experiments; the tracer study itself did not identify a motor program or measure silkmoth source-finding success. A single mean concentration cannot describe the temporal challenge imposed by these plumes."
+      ],
+      "cite": "Murlis et al. (2000); Vickers & Baker (1994)",
+      "refs": [
+        "Murlis J, Willis MA, Cardé RT (2000). Spatial and temporal structures of pheromone plumes in fields and forests. Physiological Entomology 25(3):211-222. https://doi.org/10.1046/j.1365-3032.2000.00176.x",
+        "Vickers NJ, Baker TC (1994). Reiterative responses to single strands of odor promote sustained upwind flight and odor source location by moths. Proceedings of the National Academy of Sciences 91(13):5756-5760. https://doi.org/10.1073/pnas.91.13.5756"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/gaps.png",
+        "caption": "Murlis et al. (2000), Fig. 2(a–b). Field and forest burst-length and burst-return-period distributions.",
+        "source_url": "https://doi.org/10.1046/j.1365-3032.2000.00176.x"
+      }
+    },
+    {
+      "title": "Antennal voltage is an imperfect odor readout",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "An **electroantennogram**, or EAG, measures the summed electrical response of an antenna to odor. Murlis and colleagues paired ion-tracer measurements with male gypsy-moth antennal responses to the pheromone disparlure. This biological comparison tested whether tracer intermittency resembled stimulation reaching an insect sensory organ.",
+        "The pheromone source was positioned about 10 cm from the ion source. Ion bursts became weaker with distance, whereas EAG burst strength did not decrease in the same systematic way. Antennal responses also depended on how quickly consecutive stimuli arrived.",
+        "EAG voltage is therefore not a simple linear measure of airborne pheromone concentration. Receptor sensitivity and recovery shape the recorded waveform. These gypsy-moth measurements validate aspects of plume encounter timing but cannot be assigned directly to silkmoth receptor neurons or interpreted as recordings of a central neural circuit."
+      ],
+      "transcript": [
+        [
+          "An electroantennogram, or EAG, measures the summed electrical response of an antenna to odor. Murlis and colleagues paired ion-tracer measurements with male gypsy-moth antennal responses to the pheromone disparlure. This biological comparison tested whether tracer intermittency resembled stimulation reaching an insect sensory organ.",
+          [
+            "The comparison involves Lymantria dispar and disparlure. The animal and ligand differ from Bombyx mori and bombykol, although both assays address intermittent antennal stimulation."
+          ]
+        ],
+        "The pheromone source was positioned about 10 cm from the ion source. Ion bursts became weaker with distance, whereas EAG burst strength did not decrease in the same systematic way. Antennal responses also depended on how quickly consecutive stimuli arrived.",
+        "EAG voltage is therefore not a simple linear measure of airborne pheromone concentration. Receptor sensitivity and recovery shape the recorded waveform. These gypsy-moth measurements validate aspects of plume encounter timing but cannot be assigned directly to silkmoth receptor neurons or interpreted as recordings of a central neural circuit."
+      ],
+      "cite": "Murlis et al. (2000)",
+      "refs": [
+        "Murlis J, Willis MA, Cardé RT (2000). Spatial and temporal structures of pheromone plumes in fields and forests. Physiological Entomology 25(3):211-222. https://doi.org/10.1046/j.1365-3032.2000.00176.x"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/tracer.png",
+        "caption": "Murlis et al. (2000), Fig. 5(a–c). Ion-tracer signals compared with gypsy-moth antennal responses.",
+        "source_url": "https://doi.org/10.1046/j.1365-3032.2000.00176.x"
+      }
+    },
+    {
+      "title": "One odor strand evokes a short upwind surge",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Vickers and Baker exposed flying male tobacco budworms, _Heliothis virescens_, to single strands of their species-specific six-component pheromone blend. After interrupting an established plume, they delivered an isolated filament and synchronized its passage with calibrated lights moving at wind speed.",
+        "The average upwind surge covered 13.4 cm and lasted 0.38 s. Its onset followed odor contact by about 0.30 s. Males cast across the wind before and after the surge; no-filament control trials produced no upwind displacement by casting males.",
+        "A brief sensory event can therefore trigger a motor response that outlasts the event. The measurement concerns flying tobacco budworms, not walking silkmoths, and its numerical latency must not be transferred between species. The experiment establishes the timing of behavior without identifying the neurons maintaining the response."
+      ],
+      "transcript": [
+        [
+          "Vickers and Baker exposed flying male tobacco budworms, Heliothis virescens, to single strands of their species-specific six-component pheromone blend. After interrupting an established plume, they delivered an isolated filament and synchronized its passage with calibrated lights moving at wind speed.",
+          [
+            "Casting means repeated crosswind turns after odor contact is lost. The authors combined observations into a proposed phasic–tonic account, but the individual recorded tracks remain distinct from their calculated template."
+          ]
+        ],
+        "The average upwind surge covered 13.4 cm and lasted 0.38 s. Its onset followed odor contact by about 0.30 s. Males cast across the wind before and after the surge; no-filament control trials produced no upwind displacement by casting males.",
+        "A brief sensory event can therefore trigger a motor response that outlasts the event. The measurement concerns flying tobacco budworms, not walking silkmoths, and its numerical latency must not be transferred between species. The experiment establishes the timing of behavior without identifying the neurons maintaining the response."
+      ],
+      "cite": "Vickers & Baker (1994)",
+      "refs": [
+        "Vickers NJ, Baker TC (1994). Reiterative responses to single strands of odor promote sustained upwind flight and odor source location by moths. Proceedings of the National Academy of Sciences 91(13):5756-5760. https://doi.org/10.1073/pnas.91.13.5756"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/surge.png",
+        "caption": "Vickers & Baker (1994), Fig. 1(A). Recorded flight responses to single pheromone filaments.",
+        "source_url": "https://doi.org/10.1073/pnas.91.13.5756"
+      }
+    },
+    {
+      "title": "Frequent contacts sustain straighter upwind flight",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Vickers and Baker varied pheromone delivery from 1 to 10 filaments/s while holding wind speed at 0.6 m/s. Each pulse lasted 20 ms, and air flow through the delivery device remained 5 mL/s. Flight trajectories were recorded from below the wind tunnel.",
+        "Fewer than 4 filaments/s activated males and elicited casting but did not sustain upwind flight. At 4 filaments/s, upwind trajectories remained tortuous. At 10 filaments/s, flight was straighter and contained less crosswind casting; 5 filaments/s produced an intermediate pattern.",
+        "Repeated encounters can renew forward responses before casting fully develops. Constant wind speed excludes wind-velocity changes as the explanation, although changing pulse rate also changes odor delivery through time. The experiment does not isolate every integrated-dose variable or establish an identical frequency threshold in Bombyx mori."
+      ],
+      "transcript": [
+        [
+          "Vickers and Baker varied pheromone delivery from 1 to 10 filaments/s while holding wind speed at 0.6 m/s. Each pulse lasted 20 ms, and air flow through the delivery device remained 5 mL/s. Flight trajectories were recorded from below the wind tunnel.",
+          [
+            "The published figure contains recorded tracks and an author-derived comparison template. The template is a proposed description of repeated responses, rather than an additional animal trajectory."
+          ]
+        ],
+        "Fewer than 4 filaments/s activated males and elicited casting but did not sustain upwind flight. At 4 filaments/s, upwind trajectories remained tortuous. At 10 filaments/s, flight was straighter and contained less crosswind casting; 5 filaments/s produced an intermediate pattern.",
+        "Repeated encounters can renew forward responses before casting fully develops. Constant wind speed excludes wind-velocity changes as the explanation, although changing pulse rate also changes odor delivery through time. The experiment does not isolate every integrated-dose variable or establish an identical frequency threshold in Bombyx mori."
+      ],
+      "cite": "Vickers & Baker (1994)",
+      "refs": [
+        "Vickers NJ, Baker TC (1994). Reiterative responses to single strands of odor promote sustained upwind flight and odor source location by moths. Proceedings of the National Academy of Sciences 91(13):5756-5760. https://doi.org/10.1073/pnas.91.13.5756"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/frequency.png",
+        "caption": "Vickers & Baker (1994), Fig. 2(A–B). Recorded flight tracks and heading distributions at 4 and 10 filaments/s.",
+        "source_url": "https://doi.org/10.1073/pnas.91.13.5756"
+      }
+    },
+    {
+      "title": "Casting follows the loss of detectable odor",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Vickers and Baker recorded local pheromone encounters during free flight using an excised third antenna mounted on a male’s thorax. Both of the animal’s own antennae remained intact. The mounted antenna supplied an EAG while synchronized video recorded the carrier’s trajectory.",
+        "Casting began on average 0.30 s after the last recorded filament contact. Relatively steady upwind flight involved more frequent encounters than crosswind flight. The video and EAG records were synchronized within 0.01 s, allowing behavioral timing to be compared with local sensory exposure.",
+        "Loss of intermittent input can release a different search movement without requiring the moth to detect a spatial concentration gradient. The mounted antenna sampled odor near the head but did not measure spikes in the animal’s brain. Correlated contact and movement cannot identify a specific inhibitory or excitatory central synapse."
+      ],
+      "transcript": [
+        [
+          "Vickers and Baker recorded local pheromone encounters during free flight using an excised third antenna mounted on a male’s thorax. Both of the animal’s own antennae remained intact. The mounted antenna supplied an EAG while synchronized video recorded the carrier’s trajectory.",
+          [
+            "A disappearing EAG signal marks the absence of a detected local encounter, rather than proving that every receptor on both intact antennae became silent at precisely that instant."
+          ]
+        ],
+        "Casting began on average 0.30 s after the last recorded filament contact. Relatively steady upwind flight involved more frequent encounters than crosswind flight. The video and EAG records were synchronized within 0.01 s, allowing behavioral timing to be compared with local sensory exposure.",
+        "Loss of intermittent input can release a different search movement without requiring the moth to detect a spatial concentration gradient. The mounted antenna sampled odor near the head but did not measure spikes in the animal’s brain. Correlated contact and movement cannot identify a specific inhibitory or excitatory central synapse."
+      ],
+      "cite": "Vickers & Baker (1994)",
+      "refs": [
+        "Vickers NJ, Baker TC (1994). Reiterative responses to single strands of odor promote sustained upwind flight and odor source location by moths. Proceedings of the National Academy of Sciences 91(13):5756-5760. https://doi.org/10.1073/pnas.91.13.5756"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/eagflight.png",
+        "caption": "Vickers & Baker (1994), Fig. 3(A–B). Flight paths synchronized with local electroantennogram contacts.",
+        "source_url": "https://doi.org/10.1073/pnas.91.13.5756"
+      }
+    },
+    {
+      "title": "A trackball separates odor, wind and visual inputs",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Yamada and colleagues studied walking male Bombyx mori using a **virtual reality** preparation: movement on a trackball updated the animal’s position in a controlled odor field. Odor ports could stimulate the two antennae independently, while wind arrived from four directions.",
+        "Visual stimulation supplied **optic flow**, the movement of a visual scene associated with self-motion. Odor, wind and visual conditions could be combined or reversed independently. A search was successful when the virtual position entered a 10-mm radius around the source within 300 s.",
+        "This preparation separates sensory influences that normally covary during walking. The authors compared performance with free-walking experiments, but a tethered virtual search still differs from unrestricted movement toward a real female. The experiment measures multisensory behavior rather than directly identifying the synapses that combine those cues."
+      ],
+      "transcript": [
+        [
+          "Yamada and colleagues studied walking male Bombyx mori using a virtual reality preparation: movement on a trackball updated the animal’s position in a controlled odor field. Odor ports could stimulate the two antennae independently, while wind arrived from four directions.",
+          [
+            "Closed-loop stimulation means the sensory inputs depend on the animal’s measured movement. Movement and input influence one another instead of following an entirely predetermined replay."
+          ]
+        ],
+        "Visual stimulation supplied optic flow, the movement of a visual scene associated with self-motion. Odor, wind and visual conditions could be combined or reversed independently. A search was successful when the virtual position entered a 10-mm radius around the source within 300 s.",
+        "This preparation separates sensory influences that normally covary during walking. The authors compared performance with free-walking experiments, but a tethered virtual search still differs from unrestricted movement toward a real female. The experiment measures multisensory behavior rather than directly identifying the synapses that combine those cues."
+      ],
+      "cite": "Yamada et al. (2021)",
+      "refs": [
+        "Yamada M, Ohashi H, Hosoda K, Kurabayashi D, Shigaki S (2021). Multisensory-motor integration in olfactory navigation of silkmoth, Bombyx mori, using virtual reality system. eLife 10:e72001. https://doi.org/10.7554/elife.72001"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/vrprep.png",
+        "caption": "Yamada et al. (2021), Fig. 1(A–C). Photograph and published sensory-control preparation.",
+        "source_url": "https://doi.org/10.7554/elife.72001"
+      }
+    },
+    {
+      "title": "Wind information steers walking toward the source",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "In the virtual-reality study, males received odor alone, odor plus wind, or odor plus visual motion. Additional treatments reversed wind or visual direction while keeping the other available information controlled. These interventions tested the contribution of cue direction rather than simply increasing stimulation.",
+        "Correctly aligned wind improved source-finding success relative to odor alone. Reversed wind reduced success and increased downwind headings. Visual motion without wind produced trajectories more similar to odor-only search than did the addition of wind.",
+        "**Anemotaxis** is orientation relative to wind. The results support a role for wind direction in silkmoth odor-guided walking, while visual effects depend on the sensory context. They do not establish that odor concentration itself supplies direction or that the animal uses one fixed search rule in every cue combination."
+      ],
+      "transcript": [
+        [
+          "In the virtual-reality study, males received odor alone, odor plus wind, or odor plus visual motion. Additional treatments reversed wind or visual direction while keeping the other available information controlled. These interventions tested the contribution of cue direction rather than simply increasing stimulation.",
+          [
+            "Odor signals that an appropriate chemical has arrived; wind can supply information about transport direction. Reversing that direction creates a conflict between sensory cues rather than removing odor detection."
+          ]
+        ],
+        "Correctly aligned wind improved source-finding success relative to odor alone. Reversed wind reduced success and increased downwind headings. Visual motion without wind produced trajectories more similar to odor-only search than did the addition of wind.",
+        "Anemotaxis is orientation relative to wind. The results support a role for wind direction in silkmoth odor-guided walking, while visual effects depend on the sensory context. They do not establish that odor concentration itself supplies direction or that the animal uses one fixed search rule in every cue combination."
+      ],
+      "cite": "Yamada et al. (2021)",
+      "refs": [
+        "Yamada M, Ohashi H, Hosoda K, Kurabayashi D, Shigaki S (2021). Multisensory-motor integration in olfactory navigation of silkmoth, Bombyx mori, using virtual reality system. eLife 10:e72001. https://doi.org/10.7554/elife.72001"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/vrtracks.png",
+        "caption": "Yamada et al. (2021), Fig. 2(A–F). Walking paths with odor, wind and visual treatments.",
+        "source_url": "https://doi.org/10.7554/elife.72001"
+      }
+    },
+    {
+      "title": "Bombykol detection begins in antennal sensory hairs",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "**Olfactory receptor neurons**, or ORNs, are sensory cells that convert odor exposure into electrical activity. In male Bombyx mori, long **sensilla trichodea**, hairlike structures on the antenna, house paired pheromone-responsive neurons. Their sensory endings contact the fluid inside each sensillum.",
+        "Sakurai and colleagues used receptor-gene expression, fluorescent labeling and in situ hybridization to identify the bombykol-responsive population. **BmOR1** is the ligand-selective receptor expressed by these neurons; the neighboring bombykal-responsive neuron expresses BmOR3. Bombykal is the corresponding aldehyde rather than the alcohol bombykol.",
+        "The separate receptor populations distinguish chemical channels before central processing. Expression and localization establish cell identity but do not by themselves measure ion flow or explain the behavioral meaning assigned to each channel. Those functions require electrophysiological and behavioral tests of the identified sensory population."
+      ],
+      "transcript": [
+        [
+          "Olfactory receptor neurons, or ORNs, are sensory cells that convert odor exposure into electrical activity. In male Bombyx mori, long sensilla trichodea, hairlike structures on the antenna, house paired pheromone-responsive neurons. Their sensory endings contact the fluid inside each sensillum.",
+          [
+            "In situ hybridization detects a chosen RNA sequence within cells. Its localization is evidence about gene expression, whereas a neuronal spike recording measures the electrical consequence of stimulation."
+          ]
+        ],
+        "Sakurai and colleagues used receptor-gene expression, fluorescent labeling and in situ hybridization to identify the bombykol-responsive population. BmOR1 is the ligand-selective receptor expressed by these neurons; the neighboring bombykal-responsive neuron expresses BmOR3. Bombykal is the corresponding aldehyde rather than the alcohol bombykol.",
+        "The separate receptor populations distinguish chemical channels before central processing. Expression and localization establish cell identity but do not by themselves measure ion flow or explain the behavioral meaning assigned to each channel. Those functions require electrophysiological and behavioral tests of the identified sensory population."
+      ],
+      "cite": "Sakurai et al. (2011)",
+      "refs": [
+        "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/antenna.png",
+        "caption": "Sakurai et al. (2011), Fig. 1(A–D). Receptor expression and sensory-cell localization in the antenna.",
+        "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+      }
+    },
+    {
+      "title": "Distinct receptor neurons resolve pheromone identity",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "A **single-sensillum recording** measures spikes near the sensory neurons housed in one antennal hair. Sakurai and colleagues distinguished the large-amplitude spikes of the bombykol neuron from the smaller spikes of the bombykal neuron while presenting chemically different ligands.",
+        "Control males responded through the bombykol channel to bombykol but not to the diamondback-moth ligand Z11-16:Ald. Introducing its receptor, PxOR1, into BmOR1-expressing neurons added responses to that aldehyde while retaining the original bombykol response.",
+        "The manipulation changed which chemical could excite an existing sensory channel. It did not convert the neighboring bombykal neuron or establish that all antennal hairs respond identically. Spike amplitude separates recorded units in this preparation; amplitude alone is not a universal molecular signature of a receptor."
+      ],
+      "transcript": [
+        [
+          "A single-sensillum recording measures spikes near the sensory neurons housed in one antennal hair. Sakurai and colleagues distinguished the large-amplitude spikes of the bombykol neuron from the smaller spikes of the bombykal neuron while presenting chemically different ligands.",
+          [
+            "The foreign receptor came from Plutella xylostella. Adding it to Bombyx neurons tests the relationship between molecular ligand recognition and the behavioral pathway already connected to those neurons."
+          ]
+        ],
+        "Control males responded through the bombykol channel to bombykol but not to the diamondback-moth ligand Z11-16:Ald. Introducing its receptor, PxOR1, into BmOR1-expressing neurons added responses to that aldehyde while retaining the original bombykol response.",
+        "The manipulation changed which chemical could excite an existing sensory channel. It did not convert the neighboring bombykal neuron or establish that all antennal hairs respond identically. Spike amplitude separates recorded units in this preparation; amplitude alone is not a universal molecular signature of a receptor."
+      ],
+      "cite": "Sakurai et al. (2011)",
+      "refs": [
+        "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/receptors.png",
+          "caption": "Sakurai et al. (2011), Fig. 2(A–D). Chemical selectivity and single-sensillum responses after receptor addition.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+        },
+        {
+          "kind": "article",
+          "path": "figures/antenna.png",
+          "caption": "Sakurai et al. (2011), Fig. 1(A–D). Receptor expression and sensory-cell localization in the antenna.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+        }
+      ]
+    },
+    {
+      "title": "A foreign receptor adds a new sensory response",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Sakurai and colleagues used the **GAL4/UAS system**, a genetic driver-and-target arrangement, to express PxOR1 in Bombyx bombykol-responsive neurons. PxOR1 was added alongside the native receptor rather than replacing or deleting BmOR1. Males bearing only one genetic component served as controls.",
+        "The manipulated neurons gained responses to Z11-16:Ald but not the corresponding tested acetate and alcohol compounds. Dose-response recordings retained responsiveness to bombykol. The added receptor’s transcript abundance was approximately ten times lower than that of native BmOR1.",
+        "Chemical selectivity can therefore change without changing the identity of the sensory pathway. Lower expression may contribute to differing response thresholds, but transcript abundance is not a direct count of functioning channels at the membrane. The experiment does not establish that receptor proteins themselves encode the motor sequence."
+      ],
+      "transcript": [
+        [
+          "Sakurai and colleagues used the GAL4/UAS system, a genetic driver-and-target arrangement, to express PxOR1 in Bombyx bombykol-responsive neurons. PxOR1 was added alongside the native receptor rather than replacing or deleting BmOR1. Males bearing only one genetic component served as controls.",
+          [
+            "Genetic targeting restricts the added receptor to a selected cell population. Single-component controls test whether the complete expression system is necessary for the new ligand response."
+          ]
+        ],
+        "The manipulated neurons gained responses to Z11-16:Ald but not the corresponding tested acetate and alcohol compounds. Dose-response recordings retained responsiveness to bombykol. The added receptor’s transcript abundance was approximately ten times lower than that of native BmOR1.",
+        "Chemical selectivity can therefore change without changing the identity of the sensory pathway. Lower expression may contribute to differing response thresholds, but transcript abundance is not a direct count of functioning channels at the membrane. The experiment does not establish that receptor proteins themselves encode the motor sequence."
+      ],
+      "cite": "Sakurai et al. (2011)",
+      "refs": [
+        "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/receptors.png",
+          "caption": "Sakurai et al. (2011), Fig. 2(A–D). Chemical selectivity and single-sensillum responses after receptor addition.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+        },
+        {
+          "kind": "article",
+          "path": "figures/antenna.png",
+          "caption": "Sakurai et al. (2011), Fig. 1(A–D). Receptor expression and sensory-cell localization in the antenna.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+        }
+      ]
+    },
+    {
+      "title": "Receptor addition changes mate-search initiation",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Sakurai and colleagues tested whether the newly detected aldehyde could activate behavior through the bombykol pathway. Transgenic males expressing PxOR1 in BmOR1 neurons initiated wing flapping and pheromone-search walking in response to Z11-16:Ald. Parental genetic controls did not acquire that response.",
+        "Walking trajectories after the new ligand included the characteristic searching sequence. The manipulated males also attempted copulation with diamondback-moth females while retaining responsiveness to bombykol. Chemical recognition was altered without replacing the male’s existing central sensory-to-motor pathway.",
+        "The behavioral result connects receptor-neuron activation to initiation of a species-typical program. It does not imply that the foreign receptor contains a walking algorithm or that every aspect of successful reproduction was transferred. The central interpretation depends on the identity of the activated channel as well as the molecule detected."
+      ],
+      "transcript": [
+        [
+          "Sakurai and colleagues tested whether the newly detected aldehyde could activate behavior through the bombykol pathway. Transgenic males expressing PxOR1 in BmOR1 neurons initiated wing flapping and pheromone-search walking in response to Z11-16:Ald. Parental genetic controls did not acquire that response.",
+          [
+            "A copulation attempt is not the same as mating success. The experiment measured elicited behavior and cannot establish reproductive compatibility between the two species."
+          ]
+        ],
+        "Walking trajectories after the new ligand included the characteristic searching sequence. The manipulated males also attempted copulation with diamondback-moth females while retaining responsiveness to bombykol. Chemical recognition was altered without replacing the male’s existing central sensory-to-motor pathway.",
+        "The behavioral result connects receptor-neuron activation to initiation of a species-typical program. It does not imply that the foreign receptor contains a walking algorithm or that every aspect of successful reproduction was transferred. The central interpretation depends on the identity of the activated channel as well as the molecule detected."
+      ],
+      "cite": "Sakurai et al. (2011)",
+      "refs": [
+        "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/behavior.png",
+        "caption": "Sakurai et al. (2011), Fig. 3(A–C). Behavioral responses and walking turns to the newly detected ligand.",
+        "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+      }
+    },
+    {
+      "title": "Receptor addition preserves central axon targets",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "A **glomerulus** is a region of concentrated sensory terminals and their interacting central neurons. The male silkmoth **macroglomerular complex**, or MGC, contains enlarged pheromone-processing glomeruli. BmOR1 sensory axons terminate in the **toroid**, a glomerulus dedicated to bombykol input.",
+        "Sakurai and colleagues compared fluorescently labeled axon terminals before and after PxOR1 addition. Axons carrying the modified chemical response still innervated the toroid rather than shifting to the neighboring cumulus. The new ligand therefore entered an existing central channel.",
+        "Preserved targeting supports an interpretation in which a changed peripheral detector gains access to established behavioral wiring. It does not prove that every synaptic weight or developmental property remained unchanged. Gross anatomical targeting and functional output are complementary evidence, rather than a complete synapse-by-synapse reconstruction."
+      ],
+      "transcript": [
+        [
+          "A glomerulus is a region of concentrated sensory terminals and their interacting central neurons. The male silkmoth macroglomerular complex, or MGC, contains enlarged pheromone-processing glomeruli. BmOR1 sensory axons terminate in the toroid, a glomerulus dedicated to bombykol input.",
+          [
+            "The toroid is a central target, whereas the receptor resides in the peripheral neuron. Preserving the target separates a change in ligand recognition from a wholesale remapping of sensory axons."
+          ]
+        ],
+        "Sakurai and colleagues compared fluorescently labeled axon terminals before and after PxOR1 addition. Axons carrying the modified chemical response still innervated the toroid rather than shifting to the neighboring cumulus. The new ligand therefore entered an existing central channel.",
+        "Preserved targeting supports an interpretation in which a changed peripheral detector gains access to established behavioral wiring. It does not prove that every synaptic weight or developmental property remained unchanged. Gross anatomical targeting and functional output are complementary evidence, rather than a complete synapse-by-synapse reconstruction."
+      ],
+      "cite": "Sakurai et al. (2011)",
+      "refs": [
+        "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/targeting.png",
+        "caption": "Sakurai et al. (2011), Fig. 4(A–B). Sensory axons maintain glomerular targets after receptor addition.",
+        "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+      }
+    },
+    {
+      "title": "Bombykol receptors require a second subunit",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "The functional bombykol receptor combines the ligand-selective subunit BmOR1 with **Orco**, a broadly conserved olfactory co-receptor. A **heteromeric** complex contains different protein subunits. The older silkmoth name BmOr2 refers to this co-receptor rather than a second bombykol-selective detector.",
+        "Sato and colleagues expressed insect receptor pairs in non-insect cells and measured odor-evoked electrical currents. Nakagawa and colleagues then examined the Bombyx pair in frog oocytes using controlled voltage and amino-acid substitutions. Both preparations separate receptor function from an intact moth brain.",
+        "The evidence supports a ligand-gated, nonselective cation conductance associated with the receptor complex. **Cations** are positively charged ions; their movement can change membrane voltage. The published topology drawing was predicted from sequence, so it must not be treated as an experimentally solved atomic structure or proof of exact subunit stoichiometry."
+      ],
+      "transcript": [
+        [
+          "The functional bombykol receptor combines the ligand-selective subunit BmOR1 with Orco, a broadly conserved olfactory co-receptor. A heteromeric complex contains different protein subunits. The older silkmoth name BmOr2 refers to this co-receptor rather than a second bombykol-selective detector.",
+          [
+            "Ligand recognition and channel function are linked properties of the complex. Heterologous expression tests what the expressed proteins can do without recreating a complete antennal sensillum."
+          ]
+        ],
+        "Sato and colleagues expressed insect receptor pairs in non-insect cells and measured odor-evoked electrical currents. Nakagawa and colleagues then examined the Bombyx pair in frog oocytes using controlled voltage and amino-acid substitutions. Both preparations separate receptor function from an intact moth brain.",
+        "The evidence supports a ligand-gated, nonselective cation conductance associated with the receptor complex. Cations are positively charged ions; their movement can change membrane voltage. The published topology drawing was predicted from sequence, so it must not be treated as an experimentally solved atomic structure or proof of exact subunit stoichiometry."
+      ],
+      "cite": "Nakagawa et al. (2012); Sato et al. (2008)",
+      "refs": [
+        "Nakagawa T, Pellegrino M, Sato K, Vosshall LB, Touhara K (2012). Amino Acid Residues Contributing to Function of the Heteromeric Insect Olfactory Receptor Complex. PLoS ONE 7(3):e32372. https://doi.org/10.1371/journal.pone.0032372",
+        "Sato K, Pellegrino M, Nakagawa T, Nakagawa T, Vosshall LB, Touhara K (2008). Insect olfactory receptors are heteromeric ligand-gated ion channels. Nature 452(7190):1002-1006. https://doi.org/10.1038/nature06850"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/orstructure.png",
+        "caption": "Nakagawa et al. (2012), Fig. 1(A). Published predicted membrane topology and tested receptor residues.",
+        "source_url": "https://doi.org/10.1371/journal.pone.0032372"
+      }
+    },
+    {
+      "title": "Odor gates current in isolated membrane patches",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "An **outside-out patch** is a small piece of membrane removed so its extracellular surface faces the bathing solution. Sato and colleagues recorded odor-evoked openings in patches containing fruitfly Or47a with Or83b, and mosquito receptor complexes. These recordings provide comparative evidence for the insect receptor class.",
+        "Pentyl acetate activated the fruitfly complex in excised frog-oocyte patches. At a holding voltage of −80 mV, individual current events were about 1.2 pA. Control oocyte patches without the receptor proteins did not respond to the tested odorants, and activity persisted without added ATP or GTP in the pipette.",
+        "Excised-patch activation supports direct odor-gated channel activity without requiring the usual cytoplasmic signaling cascade. These particular single-channel measurements are not recordings of BmOR1 or Bombyx behavior. They support a shared receptor mechanism while leaving modulation in intact sensory neurons possible."
+      ],
+      "transcript": [
+        [
+          "An outside-out patch is a small piece of membrane removed so its extracellular surface faces the bathing solution. Sato and colleagues recorded odor-evoked openings in patches containing fruitfly Or47a with Or83b, and mosquito receptor complexes. These recordings provide comparative evidence for the insect receptor class.",
+          [
+            "A picoampere is one trillionth of an ampere. An opening current is a membrane measurement, whereas neuronal firing additionally depends on the neuron’s voltage-dependent excitability."
+          ]
+        ],
+        "Pentyl acetate activated the fruitfly complex in excised frog-oocyte patches. At a holding voltage of −80 mV, individual current events were about 1.2 pA. Control oocyte patches without the receptor proteins did not respond to the tested odorants, and activity persisted without added ATP or GTP in the pipette.",
+        "Excised-patch activation supports direct odor-gated channel activity without requiring the usual cytoplasmic signaling cascade. These particular single-channel measurements are not recordings of BmOR1 or Bombyx behavior. They support a shared receptor mechanism while leaving modulation in intact sensory neurons possible."
+      ],
+      "cite": "Sato et al. (2008); Nakagawa et al. (2012)",
+      "refs": [
+        "Sato K, Pellegrino M, Nakagawa T, Nakagawa T, Vosshall LB, Touhara K (2008). Insect olfactory receptors are heteromeric ligand-gated ion channels. Nature 452(7190):1002-1006. https://doi.org/10.1038/nature06850",
+        "Nakagawa T, Pellegrino M, Sato K, Vosshall LB, Touhara K (2012). Amino Acid Residues Contributing to Function of the Heteromeric Insect Olfactory Receptor Complex. PLoS ONE 7(3):e32372. https://doi.org/10.1371/journal.pone.0032372"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/isolated.png",
+          "caption": "Sato et al. (2008), Fig. 4(a–e). Odor-gated currents in isolated oocyte membrane patches.",
+          "source_url": "https://doi.org/10.1038/nature06850"
+        },
+        {
+          "kind": "article",
+          "path": "figures/orstructure.png",
+          "caption": "Nakagawa et al. (2012), Fig. 1(A). Published predicted membrane topology and tested receptor residues.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0032372"
+        }
+      ]
+    },
+    {
+      "title": "Receptor residues alter cation selectivity",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "**Ion selectivity** describes the relative ease with which different ions pass through a channel. Nakagawa and colleagues changed conserved amino acids in the Bombyx BmOR1–Orco complex and recorded bombykol-evoked currents from frog oocytes. Each test changed one subunit while retaining the other in its normal form.",
+        "Replacing extracellular sodium with potassium allowed comparison of **reversal potentials**, the voltage at which net current changes direction. BmOR1 D299N and E356Q reduced relative potassium permeability; Orco Y464A increased it. Thus, substitutions in either protein could affect the ions carried by the complex.",
+        "These results implicate both subunits in channel function. They do not establish an atomic pore structure, nor does every mutation altering current necessarily line the pore. Expression, protein assembly and allosteric effects remain possible contributors unless separated by additional controls."
+      ],
+      "transcript": [
+        [
+          "Ion selectivity describes the relative ease with which different ions pass through a channel. Nakagawa and colleagues changed conserved amino acids in the Bombyx BmOR1–Orco complex and recorded bombykol-evoked currents from frog oocytes. Each test changed one subunit while retaining the other in its normal form.",
+          [
+            "The amino-acid notation identifies the original residue, its position and the replacement. E356Q replaces glutamate at position 356 with glutamine; it does not delete the receptor."
+          ]
+        ],
+        "Replacing extracellular sodium with potassium allowed comparison of reversal potentials, the voltage at which net current changes direction. BmOR1 D299N and E356Q reduced relative potassium permeability; Orco Y464A increased it. Thus, substitutions in either protein could affect the ions carried by the complex.",
+        "These results implicate both subunits in channel function. They do not establish an atomic pore structure, nor does every mutation altering current necessarily line the pore. Expression, protein assembly and allosteric effects remain possible contributors unless separated by additional controls."
+      ],
+      "cite": "Nakagawa et al. (2012)",
+      "refs": [
+        "Nakagawa T, Pellegrino M, Sato K, Vosshall LB, Touhara K (2012). Amino Acid Residues Contributing to Function of the Heteromeric Insect Olfactory Receptor Complex. PLoS ONE 7(3):e32372. https://doi.org/10.1371/journal.pone.0032372"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/ions.png",
+        "caption": "Nakagawa et al. (2012), Fig. 2(A–C). Ion-substitution measurements identify selectivity-changing residues.",
+        "source_url": "https://doi.org/10.1371/journal.pone.0032372"
+      }
+    },
+    {
+      "title": "Chemical modification probes receptor function",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Nakagawa and colleagues replaced selected receptor residues with **cysteine**, an amino acid whose exposed chemical group can react with a modifying reagent. They applied **MTSET**, a cysteine-reactive compound, while recording bombykol currents from oocytes expressing the modified receptor pair.",
+        "BmOR1 E356C currents were strongly and irreversibly inhibited by MTSET. Orco Y464C instead produced a rapid inward current during reagent application. The mutants retained bombykol dose-response sensitivity similar to the normal complex, helping separate ligand recognition from the altered modification response.",
+        "These interventions support accessibility and functional importance of specific residues near the proteins’ carboxy-terminal regions. They do not prove that the reagent contacts a resolved pore wall. MTSET also reduced normal receptor responses, so mutant effects must be interpreted relative to that background effect rather than against an assumed inert control."
+      ],
+      "transcript": [
+        [
+          "Nakagawa and colleagues replaced selected receptor residues with cysteine, an amino acid whose exposed chemical group can react with a modifying reagent. They applied MTSET, a cysteine-reactive compound, while recording bombykol currents from oocytes expressing the modified receptor pair.",
+          [
+            "Chemical accessibility means a reagent can reach a reactive group under the experimental conditions. Accessibility and altered current constrain channel hypotheses without establishing the complete three-dimensional structure."
+          ]
+        ],
+        "BmOR1 E356C currents were strongly and irreversibly inhibited by MTSET. Orco Y464C instead produced a rapid inward current during reagent application. The mutants retained bombykol dose-response sensitivity similar to the normal complex, helping separate ligand recognition from the altered modification response.",
+        "These interventions support accessibility and functional importance of specific residues near the proteins’ carboxy-terminal regions. They do not prove that the reagent contacts a resolved pore wall. MTSET also reduced normal receptor responses, so mutant effects must be interpreted relative to that background effect rather than against an assumed inert control."
+      ],
+      "cite": "Nakagawa et al. (2012)",
+      "refs": [
+        "Nakagawa T, Pellegrino M, Sato K, Vosshall LB, Touhara K (2012). Amino Acid Residues Contributing to Function of the Heteromeric Insect Olfactory Receptor Complex. PLoS ONE 7(3):e32372. https://doi.org/10.1371/journal.pone.0032372"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/cysteine.png",
+        "caption": "Nakagawa et al. (2012), Fig. 3(A–B). Cysteine substitution and chemical modification probe channel function.",
+        "source_url": "https://doi.org/10.1371/journal.pone.0032372"
+      }
+    },
+    {
+      "title": "A binding protein shapes response termination",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "**Pheromone-binding protein**, or PBP, is a soluble protein in the fluid surrounding sensory endings inside an antennal sensillum. Shiota and colleagues deleted BmPBP1 and tested whether its contribution extended beyond increasing sensitivity. Antennal recordings measured the rise and recovery of responses to 200-ms odor pulses.",
+        "The knockout antennae remained responsive but produced smaller EAG peaks at the same dose. The investigators therefore compared kinetics while accounting for response amplitude. After that control, knockout responses recovered more slowly, whereas response rise and onset latency did not differ in the same way.",
+        "BmPBP1 contributes to termination of the peripheral response as well as detection sensitivity. The knockout does not reveal precisely how the protein clears receptor stimulation. Capturing or redistributing pheromone are proposed explanations; the study does not establish that BmPBP1 enzymatically destroys bombykol."
+      ],
+      "transcript": [
+        [
+          "Pheromone-binding protein, or PBP, is a soluble protein in the fluid surrounding sensory endings inside an antennal sensillum. Shiota and colleagues deleted BmPBP1 and tested whether its contribution extended beyond increasing sensitivity. Antennal recordings measured the rise and recovery of responses to 200-ms odor pulses.",
+          [
+            "A recovery time constant describes how quickly the response approaches baseline. Delayed recovery can blur closely spaced inputs even when the initial odor remains detectable."
+          ]
+        ],
+        "The knockout antennae remained responsive but produced smaller EAG peaks at the same dose. The investigators therefore compared kinetics while accounting for response amplitude. After that control, knockout responses recovered more slowly, whereas response rise and onset latency did not differ in the same way.",
+        "BmPBP1 contributes to termination of the peripheral response as well as detection sensitivity. The knockout does not reveal precisely how the protein clears receptor stimulation. Capturing or redistributing pheromone are proposed explanations; the study does not establish that BmPBP1 enzymatically destroys bombykol."
+      ],
+      "cite": "Shiota et al. (2021); Sakurai et al. (2011)",
+      "refs": [
+        "Shiota Y, Sakurai T, Ando N, Haupt SS, Mitsuno H, Daimon T, Kanzaki R (2021). Pheromone binding protein is involved in temporal olfactory resolution in the silkmoth. iScience 24(11):103334. https://doi.org/10.1016/j.isci.2021.103334",
+        "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/pbpkinetics.png",
+          "caption": "Shiota et al. (2021), Fig. 1(A–D). Antennal response kinetics after pheromone-binding-protein loss.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.103334"
+        },
+        {
+          "kind": "article",
+          "path": "figures/antenna.png",
+          "caption": "Sakurai et al. (2011), Fig. 1(A–D). Receptor expression and sensory-cell localization in the antenna.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+        }
+      ]
+    },
+    {
+      "title": "Matched responses reveal slower peripheral recovery",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "An amplitude difference can confound comparisons of sensory timing. Shiota and colleagues used 100 ng of bombykol for normal antennae and 10,000 ng for knockout antennae when comparing EAG pulse-train responses. These source loads were chosen to compensate for the lower knockout sensitivity.",
+        "At 0.17 Hz, both groups recovered between pulses, although termination was slower in mutants. At 2 Hz, several knockout preparations never returned to baseline throughout the train, whereas normal antennae recovered rapidly. The remaining voltage between responses was larger in the knockout.",
+        "The defect therefore concerns separation of successive encounters rather than complete sensory failure. The filter-paper load is not a measured airborne concentration at each receptor. Amplitude matching strengthens the timing interpretation but cannot reproduce every aspect of the native sensillum’s chemical environment."
+      ],
+      "transcript": [
+        [
+          "An amplitude difference can confound comparisons of sensory timing. Shiota and colleagues used 100 ng of bombykol for normal antennae and 10,000 ng for knockout antennae when comparing EAG pulse-train responses. These source loads were chosen to compensate for the lower knockout sensitivity.",
+          [
+            "Hertz means events per second. The 2-Hz treatment tests repeated contact at a rate that can sustain consecutive surges, whereas the lower rate permits longer gaps."
+          ]
+        ],
+        "At 0.17 Hz, both groups recovered between pulses, although termination was slower in mutants. At 2 Hz, several knockout preparations never returned to baseline throughout the train, whereas normal antennae recovered rapidly. The remaining voltage between responses was larger in the knockout.",
+        "The defect therefore concerns separation of successive encounters rather than complete sensory failure. The filter-paper load is not a measured airborne concentration at each receptor. Amplitude matching strengthens the timing interpretation but cannot reproduce every aspect of the native sensillum’s chemical environment."
+      ],
+      "cite": "Shiota et al. (2021); Sakurai et al. (2011)",
+      "refs": [
+        "Shiota Y, Sakurai T, Ando N, Haupt SS, Mitsuno H, Daimon T, Kanzaki R (2021). Pheromone binding protein is involved in temporal olfactory resolution in the silkmoth. iScience 24(11):103334. https://doi.org/10.1016/j.isci.2021.103334",
+        "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/pbppulses.png",
+          "caption": "Shiota et al. (2021), Fig. 2(A–D). Antennal recovery to 0.17-Hz and 2-Hz pheromone pulse trains.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.103334"
+        },
+        {
+          "kind": "article",
+          "path": "figures/antenna.png",
+          "caption": "Sakurai et al. (2011), Fig. 1(A–D). Receptor expression and sensory-cell localization in the antenna.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+        }
+      ]
+    },
+    {
+      "title": "Sensory neurons must separate successive pulses",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Shiota and colleagues tested individual bombykol-responsive neurons with single-sensillum recordings. They compared normal and BmPBP1-knockout antennae using 1,000 and 10,000 ng source loads, respectively. Similar evoked spike totals reduced the possibility that response-strength differences alone explained altered timing.",
+        "Spontaneous firing was similar between groups. After isolated stimulation at 0.17 Hz, knockout firing took longer to return to its spontaneous level. At 2 Hz, all tested knockout neurons remained above spontaneous activity between successive stimuli, whereas normal responses terminated rapidly.",
+        "An **action potential**, or spike, is a brief regenerative electrical event transmitted along an axon. Prolonged spike output can obscure the boundary between separate odor contacts. These results link the EAG recovery defect to sensory-neuron activity without identifying the molecular step by which BmPBP1 shortens receptor stimulation."
+      ],
+      "transcript": [
+        [
+          "Shiota and colleagues tested individual bombykol-responsive neurons with single-sensillum recordings. They compared normal and BmPBP1-knockout antennae using 1,000 and 10,000 ng source loads, respectively. Similar evoked spike totals reduced the possibility that response-strength differences alone explained altered timing.",
+          [
+            "Similar total spike counts can conceal very different temporal patterns. A persistent response and a short burst may transmit equal counts while carrying different information about odor onset."
+          ]
+        ],
+        "Spontaneous firing was similar between groups. After isolated stimulation at 0.17 Hz, knockout firing took longer to return to its spontaneous level. At 2 Hz, all tested knockout neurons remained above spontaneous activity between successive stimuli, whereas normal responses terminated rapidly.",
+        "An action potential, or spike, is a brief regenerative electrical event transmitted along an axon. Prolonged spike output can obscure the boundary between separate odor contacts. These results link the EAG recovery defect to sensory-neuron activity without identifying the molecular step by which BmPBP1 shortens receptor stimulation."
+      ],
+      "cite": "Shiota et al. (2021); Sakurai et al. (2011)",
+      "refs": [
+        "Shiota Y, Sakurai T, Ando N, Haupt SS, Mitsuno H, Daimon T, Kanzaki R (2021). Pheromone binding protein is involved in temporal olfactory resolution in the silkmoth. iScience 24(11):103334. https://doi.org/10.1016/j.isci.2021.103334",
+        "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/pbpspikes.png",
+          "caption": "Shiota et al. (2021), Fig. 3(A–F). Single-neuron response termination under amplitude-matched stimulation.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.103334"
+        },
+        {
+          "kind": "article",
+          "path": "figures/antenna.png",
+          "caption": "Sakurai et al. (2011), Fig. 1(A–D). Receptor expression and sensory-cell localization in the antenna.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+        }
+      ]
+    },
+    {
+      "title": "Slow termination changes the surge–turn sequence",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Peripheral timing can affect the reset of searching behavior. Shiota and colleagues measured tethered males’ body angle during isolated and repeated bombykol exposure. Knockouts retained the complete surge–zigzag sequence after a single pulse, but their initial surge lasted longer than in normal males.",
+        "At 0.17 Hz, successive contacts restarted surges in both groups. At 0.83 and 2 Hz, knockouts had lower surge rates and more zigzag turning. They also produced fewer surges lasting more than 2 s during the 2-Hz train, despite the prolonged response to an isolated stimulus.",
+        "A longer sensory response does not necessarily produce more sustained forward progress under repeated stimulation. The authors proposed that poor separation of onsets prevents efficient resetting. The concordance among sensory and behavioral measurements supports this explanation without recording the intervening central circuit directly."
+      ],
+      "transcript": [
+        [
+          "Peripheral timing can affect the reset of searching behavior. Shiota and colleagues measured tethered males’ body angle during isolated and repeated bombykol exposure. Knockouts retained the complete surge–zigzag sequence after a single pulse, but their initial surge lasted longer than in normal males.",
+          [
+            "Surge rate here is the fraction of locomotion time spent surging. It differs from the frequency of presented odor pulses and from the speed of an individual forward movement."
+          ]
+        ],
+        "At 0.17 Hz, successive contacts restarted surges in both groups. At 0.83 and 2 Hz, knockouts had lower surge rates and more zigzag turning. They also produced fewer surges lasting more than 2 s during the 2-Hz train, despite the prolonged response to an isolated stimulus.",
+        "A longer sensory response does not necessarily produce more sustained forward progress under repeated stimulation. The authors proposed that poor separation of onsets prevents efficient resetting. The concordance among sensory and behavioral measurements supports this explanation without recording the intervening central circuit directly."
+      ],
+      "cite": "Shiota et al. (2021)",
+      "refs": [
+        "Shiota Y, Sakurai T, Ando N, Haupt SS, Mitsuno H, Daimon T, Kanzaki R (2021). Pheromone binding protein is involved in temporal olfactory resolution in the silkmoth. iScience 24(11):103334. https://doi.org/10.1016/j.isci.2021.103334"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/pbpbehavior.png",
+        "caption": "Shiota et al. (2021), Fig. 4(A–E). Surge and turning behavior after pheromone-binding-protein loss.",
+        "source_url": "https://doi.org/10.1016/j.isci.2021.103334"
+      }
+    },
+    {
+      "title": "Binding-protein loss delays source finding",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Shiota and colleagues allowed males to walk freely in a wind tunnel toward pulsed bombykol or real females. Normal moths received 1–100 ng bombykol source loads; knockouts received 100–10,000 ng to compensate for lower sensitivity. Source-finding success and time were measured separately.",
+        "Both groups could locate the source, with similar success across the tested treatments. Knockouts took longer, followed shorter forward surges and accumulated more turning. Searching toward real females produced the same qualitative combination of preserved success and reduced efficiency.",
+        "The loss of BmPBP1 therefore impairs efficient navigation without abolishing odor-guided searching. Dose comparisons and female-source tests weaken a simple insufficient-dose explanation. They do not establish that the mutant lacks spatial information entirely or isolate one central neuron responsible for the delayed arrival."
+      ],
+      "transcript": [
+        [
+          "Shiota and colleagues allowed males to walk freely in a wind tunnel toward pulsed bombykol or real females. Normal moths received 1–100 ng bombykol source loads; knockouts received 100–10,000 ng to compensate for lower sensitivity. Source-finding success and time were measured separately.",
+          [
+            "Arrival time and success answer different questions. A sensory system can retain the ability to reach a source while losing the timing precision required for rapid progress."
+          ]
+        ],
+        "Both groups could locate the source, with similar success across the tested treatments. Knockouts took longer, followed shorter forward surges and accumulated more turning. Searching toward real females produced the same qualitative combination of preserved success and reduced efficiency.",
+        "The loss of BmPBP1 therefore impairs efficient navigation without abolishing odor-guided searching. Dose comparisons and female-source tests weaken a simple insufficient-dose explanation. They do not establish that the mutant lacks spatial information entirely or isolate one central neuron responsible for the delayed arrival."
+      ],
+      "cite": "Shiota et al. (2021)",
+      "refs": [
+        "Shiota Y, Sakurai T, Ando N, Haupt SS, Mitsuno H, Daimon T, Kanzaki R (2021). Pheromone binding protein is involved in temporal olfactory resolution in the silkmoth. iScience 24(11):103334. https://doi.org/10.1016/j.isci.2021.103334"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/pbpfinding.png",
+        "caption": "Shiota et al. (2021), Fig. 5(A–I). Source-finding performance for synthetic pheromone and females.",
+        "source_url": "https://doi.org/10.1016/j.isci.2021.103334"
+      }
+    },
+    {
+      "title": "A dedicated glomerulus relays bombykol input",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "The **antennal lobe** is the first central olfactory processing region. Bombykol-sensitive ORNs terminate in its toroid, where **projection neurons**, or PNs, carry processed information toward higher brain regions. **Local interneurons** connect within the antennal lobe and influence its input–output transformation.",
+        "Fujiwara and colleagues expressed **GCaMP**, a calcium-sensitive fluorescent protein, selectively in BmOR1 neurons. Their axon terminals were localized to the toroid. Calcium signals increased with bombykol source load and remained concentration dependent during repeated 200-ms pulses delivered every 1.2 s.",
+        "Sensory-terminal signals thus retained dose dependence even when downstream PN firing became less dose dependent after repeated stimulation. The comparison locates an additional transformation within the central pathway. Calcium fluorescence is an indirect activity measure and cannot be equated numerically with the firing rate recorded from a PN."
+      ],
+      "transcript": [
+        [
+          "The antennal lobe is the first central olfactory processing region. Bombykol-sensitive ORNs terminate in its toroid, where projection neurons, or PNs, carry processed information toward higher brain regions. Local interneurons connect within the antennal lobe and influence its input–output transformation.",
+          [
+            "A neuropil is a region rich in neuronal processes and synapses. Anatomical labeling establishes where the sensory terminals lie; the calcium assay measures changing activity in those terminals."
+          ]
+        ],
+        "Fujiwara and colleagues expressed GCaMP, a calcium-sensitive fluorescent protein, selectively in BmOR1 neurons. Their axon terminals were localized to the toroid. Calcium signals increased with bombykol source load and remained concentration dependent during repeated 200-ms pulses delivered every 1.2 s.",
+        "Sensory-terminal signals thus retained dose dependence even when downstream PN firing became less dose dependent after repeated stimulation. The comparison locates an additional transformation within the central pathway. Calcium fluorescence is an indirect activity measure and cannot be equated numerically with the firing rate recorded from a PN."
+      ],
+      "cite": "Fujiwara et al. (2014)",
+      "refs": [
+        "Fujiwara T, Kazawa T, Sakurai T, Fukushima R, Uchino K, Yamagata T, Namiki S, Haupt SS, Kanzaki R (2014). Odorant Concentration Differentiator for Intermittent Olfactory Signals. The Journal of Neuroscience 34(50):16581-16593. https://doi.org/10.1523/jneurosci.2319-14.2014"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/alcalcium.png",
+        "caption": "Fujiwara et al. (2014), Fig. 4(A–G). Sensory-terminal anatomy and concentration-dependent calcium responses.",
+        "source_url": "https://doi.org/10.1523/jneurosci.2319-14.2014"
+      }
+    },
+    {
+      "title": "Optogenetics controls sensory input timing",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "**Optogenetics** uses a light-sensitive protein to control selected cells. Tabuchi and colleagues expressed **channelrhodopsin-2**, or ChR2, in Bombyx bombykol-sensitive ORNs. ChR2 is a light-gated membrane channel; this intervention bypassed odor delivery while retaining the existing pheromone pathway.",
+        "Blue-light stimulation evoked sensory spikes and pheromone-like wing flapping and zigzag turns. Controls lacking one genetic component, antennae or the required retinal cofactor did not respond in the same way. Light wavelength controls further separated ChR2 activation from a general behavioral effect of illumination.",
+        "The preparation gives millisecond control over afferent timing, allowing central integration to be tested without uncertain plume transit or binding kinetics. Artificial light activation is not natural pheromone transduction. Its value is selective stimulation of an identified input channel, rather than replacement of the chemical mechanism under natural conditions."
+      ],
+      "transcript": [
+        [
+          "Optogenetics uses a light-sensitive protein to control selected cells. Tabuchi and colleagues expressed channelrhodopsin-2, or ChR2, in Bombyx bombykol-sensitive ORNs. ChR2 is a light-gated membrane channel; this intervention bypassed odor delivery while retaining the existing pheromone pathway.",
+          [
+            "An afferent signal travels from a sensory organ toward a central processing region. The fluorescently marked axons still entered the toroid, connecting the manipulated input to its known central target."
+          ]
+        ],
+        "Blue-light stimulation evoked sensory spikes and pheromone-like wing flapping and zigzag turns. Controls lacking one genetic component, antennae or the required retinal cofactor did not respond in the same way. Light wavelength controls further separated ChR2 activation from a general behavioral effect of illumination.",
+        "The preparation gives millisecond control over afferent timing, allowing central integration to be tested without uncertain plume transit or binding kinetics. Artificial light activation is not natural pheromone transduction. Its value is selective stimulation of an identified input channel, rather than replacement of the chemical mechanism under natural conditions."
+      ],
+      "cite": "Tabuchi et al. (2013)",
+      "refs": [
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/optogenetic.png",
+        "caption": "Tabuchi et al. (2013), Fig. 1(A–H). Selective receptor-neuron activation and resulting behavior.",
+        "source_url": "https://doi.org/10.1073/pnas.1313707110"
+      }
+    },
+    {
+      "title": "Brief light pulses regulate sensory spike output",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Tabuchi and colleagues recorded spikes from pheromone-sensitive sensilla while activating ChR2-expressing neurons. Increasing light intensity or pulse duration increased the sensory response. Bombykol and blue light evoked spikes of the same amplitude from the targeted unit; parental genetic controls lacked the light response.",
+        "Paired light pulses could therefore impose a reproducible temporal pattern on the bombykol channel. The authors compared 3-ms pulses, near behavioral threshold, with 10-ms pulses producing strong behavioral responsiveness. These durations define weak and strong input for this optogenetic preparation.",
+        "The distinction concerns the experimental neural input, not a universal conversion between milliseconds of light and pheromone concentration. The receptor neuron must be measured because light pulse duration alone does not specify transmitted spike output. Peripheral recordings also constrain claims that later amplification originates entirely in the sensory neuron."
+      ],
+      "transcript": [
+        [
+          "Tabuchi and colleagues recorded spikes from pheromone-sensitive sensilla while activating ChR2-expressing neurons. Increasing light intensity or pulse duration increased the sensory response. Bombykol and blue light evoked spikes of the same amplitude from the targeted unit; parental genetic controls lacked the light response.",
+          [
+            "A short stimulus can initiate multiple spikes. The effective input to the brain is that transmitted activity, rather than the duration of illumination considered in isolation."
+          ]
+        ],
+        "Paired light pulses could therefore impose a reproducible temporal pattern on the bombykol channel. The authors compared 3-ms pulses, near behavioral threshold, with 10-ms pulses producing strong behavioral responsiveness. These durations define weak and strong input for this optogenetic preparation.",
+        "The distinction concerns the experimental neural input, not a universal conversion between milliseconds of light and pheromone concentration. The receptor neuron must be measured because light pulse duration alone does not specify transmitted spike output. Peripheral recordings also constrain claims that later amplification originates entirely in the sensory neuron."
+      ],
+      "cite": "Tabuchi et al. (2013); Sakurai et al. (2011)",
+      "refs": [
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110",
+        "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/lightspikes.png",
+          "caption": "Tabuchi et al. (2013), Fig. 2(A–C). Light pulses control sensory-neuron spike output.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        },
+        {
+          "kind": "article",
+          "path": "figures/antenna.png",
+          "caption": "Sakurai et al. (2011), Fig. 1(A–D). Receptor expression and sensory-cell localization in the antenna.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1002115"
+        }
+      ]
+    },
+    {
+      "title": "Short intervals enhance behavioral responsiveness",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Tabuchi and colleagues delivered two 3-ms light pulses to the bombykol sensory channel while varying the **interstimulus interval**, the time separating the pulses. Each pulse alone supplied weak input. The experiment tested whether closely spaced inputs could combine to cross the behavioral response threshold.",
+        "At intervals of 100–180 ms, only about 17–28% of males responded. When the interval was below 80 ms, responsiveness increased more than twofold. The response depended on timing even though the number and duration of presented pulses remained controlled.",
+        "**Temporal integration** is the combination of inputs arriving over a limited period. The behavioral assay establishes a behaviorally relevant integration window but cannot alone identify its location. Projection-neuron recordings and sensory controls are needed to distinguish peripheral summation from a central transformation."
+      ],
+      "transcript": [
+        [
+          "Tabuchi and colleagues delivered two 3-ms light pulses to the bombykol sensory channel while varying the interstimulus interval, the time separating the pulses. Each pulse alone supplied weak input. The experiment tested whether closely spaced inputs could combine to cross the behavioral response threshold.",
+          [
+            "A behavioral threshold is a boundary for expression of the scored response, not a claim that subthreshold stimulation is undetected by every neuron in the pathway."
+          ]
+        ],
+        "At intervals of 100–180 ms, only about 17–28% of males responded. When the interval was below 80 ms, responsiveness increased more than twofold. The response depended on timing even though the number and duration of presented pulses remained controlled.",
+        "Temporal integration is the combination of inputs arriving over a limited period. The behavioral assay establishes a behaviorally relevant integration window but cannot alone identify its location. Projection-neuron recordings and sensory controls are needed to distinguish peripheral summation from a central transformation."
+      ],
+      "cite": "Tabuchi et al. (2013)",
+      "refs": [
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/pairedbehavior.png",
+          "caption": "Tabuchi et al. (2013), Fig. 3(single panel). Short interstimulus intervals enhance behavioral responsiveness.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        },
+        {
+          "kind": "article",
+          "path": "figures/alhistology.png",
+          "caption": "Tabuchi et al. (2013), Fig. 1(C). Bombykol sensory axons terminate in the toroid.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.25
+    },
+    {
+      "title": "Weak input is amplified in projection neurons",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Tabuchi and colleagues recorded toroid projection neurons while presenting paired optogenetic inputs. At long intervals, the two responses remained temporally separated. With weak 3-ms pulses separated by 20–60 ms, the combined PN spike output exceeded the response obtained with widely separated pulses.",
+        "The integration window matched the interval range that enhanced behavior. Peripheral ORNs did not exhibit the same supralinear enhancement, and variation in conduction through the antennal nerve was negligible. These controls place the amplification after the recorded sensory input rather than in odor delivery.",
+        "**Supralinear integration** means output exceeds simple addition of the separate responses. Residual synaptic depolarization is a proposed contributor to the PN effect, but these recordings do not identify its complete membrane mechanism. The agreement with behavior supports relevance without proving that one PN alone determines the motor threshold."
+      ],
+      "transcript": [
+        [
+          "Tabuchi and colleagues recorded toroid projection neurons while presenting paired optogenetic inputs. At long intervals, the two responses remained temporally separated. With weak 3-ms pulses separated by 20–60 ms, the combined PN spike output exceeded the response obtained with widely separated pulses.",
+          [
+            "Closely timed weak inputs can become effective together even if either is insufficient by itself. This temporal dependence increases sensitivity to brief clustered encounters."
+          ]
+        ],
+        "The integration window matched the interval range that enhanced behavior. Peripheral ORNs did not exhibit the same supralinear enhancement, and variation in conduction through the antennal nerve was negligible. These controls place the amplification after the recorded sensory input rather than in odor delivery.",
+        "Supralinear integration means output exceeds simple addition of the separate responses. Residual synaptic depolarization is a proposed contributor to the PN effect, but these recordings do not identify its complete membrane mechanism. The agreement with behavior supports relevance without proving that one PN alone determines the motor threshold."
+      ],
+      "cite": "Tabuchi et al. (2013)",
+      "refs": [
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/pnsum.png",
+          "caption": "Tabuchi et al. (2013), Fig. 4(A–C). Weak and strong paired sensory inputs evoke different projection-neuron integration.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        },
+        {
+          "kind": "article",
+          "path": "figures/alhistology.png",
+          "caption": "Tabuchi et al. (2013), Fig. 1(C). Bombykol sensory axons terminate in the toroid.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.25
+    },
+    {
+      "title": "GABA limits integration of strong sensory input",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "**GABA**, gamma-aminobutyric acid, is an inhibitory neurotransmitter used by many antennal-lobe local interneurons. Tabuchi and colleagues tested its contribution by combining blockers of GABA-A and GABA-B receptors during PN recordings. These receptor classes differ in their cellular signaling mechanisms.",
+        "Normal PNs integrated weak inputs but did not exhibit the same supralinear response to strong 10-ms pulses. After receptor blockade, strong inputs separated by about 40–100 ms could produce supralinear integration. Spontaneous and light-evoked firing also increased, consistent with removal of inhibition.",
+        "GABA-dependent inhibition therefore constrains integration when sensory input is strong, favoring temporal separation. The combined treatment cannot assign the effect to one receptor subtype, synapse or local interneuron. Weak-input integration persisted during blockade, suggesting that inhibition regulates an integration capacity rather than creating it."
+      ],
+      "transcript": [
+        [
+          "GABA, gamma-aminobutyric acid, is an inhibitory neurotransmitter used by many antennal-lobe local interneurons. Tabuchi and colleagues tested its contribution by combining blockers of GABA-A and GABA-B receptors during PN recordings. These receptor classes differ in their cellular signaling mechanisms.",
+          [
+            "GABA-A receptors are associated with ion-channel inhibition, whereas GABA-B receptors signal through G proteins. The study establishes pharmacological involvement without resolving the exact synaptic implementation."
+          ]
+        ],
+        "Normal PNs integrated weak inputs but did not exhibit the same supralinear response to strong 10-ms pulses. After receptor blockade, strong inputs separated by about 40–100 ms could produce supralinear integration. Spontaneous and light-evoked firing also increased, consistent with removal of inhibition.",
+        "GABA-dependent inhibition therefore constrains integration when sensory input is strong, favoring temporal separation. The combined treatment cannot assign the effect to one receptor subtype, synapse or local interneuron. Weak-input integration persisted during blockade, suggesting that inhibition regulates an integration capacity rather than creating it."
+      ],
+      "cite": "Tabuchi et al. (2013)",
+      "refs": [
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/gabaintegration.png",
+          "caption": "Tabuchi et al. (2013), Fig. 5(A–C). GABA-receptor blockade exposes integration of strong inputs.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        },
+        {
+          "kind": "article",
+          "path": "figures/alhistology.png",
+          "caption": "Tabuchi et al. (2013), Fig. 1(C). Bombykol sensory axons terminate in the toroid.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.25
+    },
+    {
+      "title": "Projection neurons emphasize changes in odor dose",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Fujiwara and colleagues presented repeated 200-ms bombykol pulses every 1.2 s and recorded PN spike responses. After the response settled, they increased the source load from 1,000 to 2,000 ng or decreased it from 1,000 to 100 ng while maintaining pulse timing.",
+        "A concentration increase briefly enhanced firing before responses returned toward their previous settled level. A decrease initially suppressed responses, followed by recovery. Thus, transient output distinguished the direction of a change even when settled spike output was relatively insensitive to the absolute dose.",
+        "An **odorant concentration differentiator** is the authors’ functional description of this change-sensitive transformation. It does not mean that a neuron explicitly computes a symbolic equation. Source load also differs from receptor-level airborne concentration; the conclusion applies to the calibrated stimulus changes and repeated-stimulation conditions tested."
+      ],
+      "transcript": [
+        [
+          "Fujiwara and colleagues presented repeated 200-ms bombykol pulses every 1.2 s and recorded PN spike responses. After the response settled, they increased the source load from 1,000 to 2,000 ng or decreased it from 1,000 to 100 ng while maintaining pulse timing.",
+          [
+            "The same increase can evoke a transient response after adaptation without permanently increasing the settled rate. That difference separates change sensitivity from a simple static dose-response relationship."
+          ]
+        ],
+        "A concentration increase briefly enhanced firing before responses returned toward their previous settled level. A decrease initially suppressed responses, followed by recovery. Thus, transient output distinguished the direction of a change even when settled spike output was relatively insensitive to the absolute dose.",
+        "An odorant concentration differentiator is the authors’ functional description of this change-sensitive transformation. It does not mean that a neuron explicitly computes a symbolic equation. Source load also differs from receptor-level airborne concentration; the conclusion applies to the calibrated stimulus changes and repeated-stimulation conditions tested."
+      ],
+      "cite": "Fujiwara et al. (2014); Tabuchi et al. (2013)",
+      "refs": [
+        "Fujiwara T, Kazawa T, Sakurai T, Fukushima R, Uchino K, Yamagata T, Namiki S, Haupt SS, Kanzaki R (2014). Odorant Concentration Differentiator for Intermittent Olfactory Signals. The Journal of Neuroscience 34(50):16581-16593. https://doi.org/10.1523/jneurosci.2319-14.2014",
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/concentration.png",
+          "caption": "Fujiwara et al. (2014), Fig. 3(A–D). Projection-neuron responses to increases and decreases in odor dose.",
+          "source_url": "https://doi.org/10.1523/jneurosci.2319-14.2014"
+        },
+        {
+          "kind": "article",
+          "path": "figures/alhistology.png",
+          "caption": "Tabuchi et al. (2013), Fig. 1(C). Bombykol sensory axons terminate in the toroid.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.25
+    },
+    {
+      "title": "Repeated odor changes the antennal-lobe response",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Fujiwara and colleagues recorded toroid PN spikes during repeated bombykol pulses at 0.83 Hz. The first response had a peak firing frequency that increased with source load. Later responses were initially suppressed and then recovered toward a settled output level.",
+        "At medium and high source loads, settled spike output became relatively concentration independent. Antennal controls did not show a progressive loss of delivered odor. Some absolute-dose information persisted in timing: reported settled response latencies were about 361, 339 and 322 ms at 10, 100 and 1,000 ng.",
+        "Central processing therefore changes which response features carry concentration information. Rate adaptation does not imply total loss of dose information. Picrotoxin, a GABA-A receptor antagonist, reduced suppression and restored stronger dose dependence, implicating inhibitory processing without resolving every synapse or membrane channel in the transformation."
+      ],
+      "transcript": [
+        [
+          "Fujiwara and colleagues recorded toroid PN spikes during repeated bombykol pulses at 0.83 Hz. The first response had a peak firing frequency that increased with source load. Later responses were initially suppressed and then recovered toward a settled output level.",
+          [
+            "An antagonist reduces receptor-mediated effects. Blocking inhibition changes output, but it cannot by itself identify the exact inhibitory neuron or distinguish every presynaptic and postsynaptic contribution."
+          ]
+        ],
+        "At medium and high source loads, settled spike output became relatively concentration independent. Antennal controls did not show a progressive loss of delivered odor. Some absolute-dose information persisted in timing: reported settled response latencies were about 361, 339 and 322 ms at 10, 100 and 1,000 ng.",
+        "Central processing therefore changes which response features carry concentration information. Rate adaptation does not imply total loss of dose information. Picrotoxin, a GABA-A receptor antagonist, reduced suppression and restored stronger dose dependence, implicating inhibitory processing without resolving every synapse or membrane channel in the transformation."
+      ],
+      "cite": "Fujiwara et al. (2014)",
+      "refs": [
+        "Fujiwara T, Kazawa T, Sakurai T, Fukushima R, Uchino K, Yamagata T, Namiki S, Haupt SS, Kanzaki R (2014). Odorant Concentration Differentiator for Intermittent Olfactory Signals. The Journal of Neuroscience 34(50):16581-16593. https://doi.org/10.1523/jneurosci.2319-14.2014"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/alresponses.png",
+        "caption": "Fujiwara et al. (2014), Fig. 2(A–G). Antennal-lobe anatomy and responses to repeated odor pulses.",
+        "source_url": "https://doi.org/10.1523/jneurosci.2319-14.2014"
+      }
+    },
+    {
+      "title": "Accessory lobes connect with descending pathways",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "The **lateral accessory lobes**, or LALs, are paired higher-order brain regions associated with pheromone-guided motor control. **Descending neurons**, or DNs, send axons from the brain toward the ventral nervous system and thoracic motor centers. Namiki and colleagues mapped their regional arborizations in Bombyx mori.",
+        "Fluorescent dye introduced through the neck connectives labeled descending and ascending fibers. Confocal imaging revealed dense innervation in the **posterior slope**, a posterior–ventral neuropil. LAL neurons also extended processes into that region, linking two candidate sites of sensorimotor processing.",
+        "The anatomy constrains the possible routes by which pheromone information reaches motor pathways. Backfill labels fibers by their trajectory, not by neurotransmitter or response type, and includes ascending fibers as well. Dense fluorescence therefore cannot be interpreted as a count of pheromone-specific descending neurons or direct evidence of synaptic excitation."
+      ],
+      "transcript": [
+        [
+          "The lateral accessory lobes, or LALs, are paired higher-order brain regions associated with pheromone-guided motor control. Descending neurons, or DNs, send axons from the brain toward the ventral nervous system and thoracic motor centers. Namiki and colleagues mapped their regional arborizations in Bombyx mori.",
+          [
+            "A connective is a nerve pathway linking central ganglia. A neuron’s arborization is the branching region through which it can receive or distribute information."
+          ]
+        ],
+        "Fluorescent dye introduced through the neck connectives labeled descending and ascending fibers. Confocal imaging revealed dense innervation in the posterior slope, a posterior–ventral neuropil. LAL neurons also extended processes into that region, linking two candidate sites of sensorimotor processing.",
+        "The anatomy constrains the possible routes by which pheromone information reaches motor pathways. Backfill labels fibers by their trajectory, not by neurotransmitter or response type, and includes ascending fibers as well. Dense fluorescence therefore cannot be interpreted as a count of pheromone-specific descending neurons or direct evidence of synaptic excitation."
+      ],
+      "cite": "Namiki et al. (2018)",
+      "refs": [
+        "Namiki S, Wada S, Kanzaki R (2018). Descending neurons from the lateral accessory lobe and posterior slope in the brain of the silkmoth Bombyx mori. Scientific Reports 8(1):9663. https://doi.org/10.1038/s41598-018-27954-5"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/lalanatomy.png",
+        "caption": "Namiki et al. (2018), Fig. 2(a–d). Confocal anatomy of lateral accessory lobes and posterior slope.",
+        "source_url": "https://doi.org/10.1038/s41598-018-27954-5"
+      }
+    },
+    {
+      "title": "Descending activity can persist after an odor pulse",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Kanzaki, Ikeda and Shibuya recorded activity from dorsal bundles of the neck connectives while delivering brief bombykol pulses. Anatomical staining identified descending neurons associated with the LAL. These recordings tested whether the motor pathway simply copied the brief duration of peripheral stimulation.",
+        "Some units switched between high- and low-frequency states after 100-ms odor pulses. The operational criterion required at least a doubling or halving of prestimulus firing that persisted for at least 5 s after stimulation ended. The response could therefore greatly outlast the input.",
+        "This **flip-flopping activity** is a persistent state change, rather than a new odor contact lasting several seconds. It is consistent with central maintenance of a searching command. Extracellular bundle recordings do not identify every contributing cell or prove that persistent firing alone produces a particular leg movement."
+      ],
+      "transcript": [
+        [
+          "Kanzaki, Ikeda and Shibuya recorded activity from dorsal bundles of the neck connectives while delivering brief bombykol pulses. Anatomical staining identified descending neurons associated with the LAL. These recordings tested whether the motor pathway simply copied the brief duration of peripheral stimulation.",
+          [
+            "A brief trigger and a maintained state have different time courses. Persistence permits the nervous system to continue responding during an interruption of odor contact."
+          ]
+        ],
+        "Some units switched between high- and low-frequency states after 100-ms odor pulses. The operational criterion required at least a doubling or halving of prestimulus firing that persisted for at least 5 s after stimulation ended. The response could therefore greatly outlast the input.",
+        "This flip-flopping activity is a persistent state change, rather than a new odor contact lasting several seconds. It is consistent with central maintenance of a searching command. Extracellular bundle recordings do not identify every contributing cell or prove that persistent firing alone produces a particular leg movement."
+      ],
+      "cite": "Kanzaki et al. (1994); Namiki et al. (2018)",
+      "refs": [
+        "Kanzaki R, Ikeda A, Shibuya T (1994). Morphological and physiological properties of pheromone-triggered flipflopping descending interneurons of the male silkworm moth, Bombyx mori. Journal of Comparative Physiology A 175(1):1–14. https://doi.org/10.1007/bf00217431",
+        "Namiki S, Wada S, Kanzaki R (2018). Descending neurons from the lateral accessory lobe and posterior slope in the brain of the silkmoth Bombyx mori. Scientific Reports 8(1):9663. https://doi.org/10.1038/s41598-018-27954-5"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/dnstate.png",
+          "caption": "Kanzaki et al. (1994), Fig. 6(A–E). Descending-neuron locations and persistent pheromone responses.",
+          "source_url": "https://doi.org/10.1007/bf00217431"
+        },
+        {
+          "kind": "article",
+          "path": "figures/lalanatomy.png",
+          "caption": "Namiki et al. (2018), Fig. 2(a–d). Confocal anatomy of lateral accessory lobes and posterior slope.",
+          "source_url": "https://doi.org/10.1038/s41598-018-27954-5"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.25
+    },
+    {
+      "title": "Later odor pulses can switch the persistent state",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Kanzaki and colleagues applied successive pheromone pulses to one or both antennae while recording descending units. Some units alternated between high and low firing states rather than producing an identical transient response to every presentation. Spontaneous state changes also occurred after stimulation.",
+        "In one class, two recorded signals changed in synchrony; other recordings had an opposite relationship. The maintained activity could be interrupted or switched by a later pulse, so its duration was not determined solely by the duration of one sensory stimulus.",
+        "The findings support a state-dependent central transformation between odor contact and descending output. They do not establish a fully autonomous oscillator with a fixed period or a particular recurrent inhibitory synapse. Switching, synchrony and persistence are measured response properties; the circuitry generating them remains an explanatory hypothesis."
+      ],
+      "transcript": [
+        [
+          "Kanzaki and colleagues applied successive pheromone pulses to one or both antennae while recording descending units. Some units alternated between high and low firing states rather than producing an identical transient response to every presentation. Spontaneous state changes also occurred after stimulation.",
+          [
+            "The same sensory event can have different effects depending on current activity. A neuron already in its high state need not respond as if it were initially silent."
+          ]
+        ],
+        "In one class, two recorded signals changed in synchrony; other recordings had an opposite relationship. The maintained activity could be interrupted or switched by a later pulse, so its duration was not determined solely by the duration of one sensory stimulus.",
+        "The findings support a state-dependent central transformation between odor contact and descending output. They do not establish a fully autonomous oscillator with a fixed period or a particular recurrent inhibitory synapse. Switching, synchrony and persistence are measured response properties; the circuitry generating them remains an explanatory hypothesis."
+      ],
+      "cite": "Kanzaki et al. (1994); Namiki et al. (2018)",
+      "refs": [
+        "Kanzaki R, Ikeda A, Shibuya T (1994). Morphological and physiological properties of pheromone-triggered flipflopping descending interneurons of the male silkworm moth, Bombyx mori. Journal of Comparative Physiology A 175(1):1–14. https://doi.org/10.1007/bf00217431",
+        "Namiki S, Wada S, Kanzaki R (2018). Descending neurons from the lateral accessory lobe and posterior slope in the brain of the silkmoth Bombyx mori. Scientific Reports 8(1):9663. https://doi.org/10.1038/s41598-018-27954-5"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/dnreset.png",
+          "caption": "Kanzaki et al. (1994), Fig. 7(A–F). Repeated pheromone stimulation changes descending activity state.",
+          "source_url": "https://doi.org/10.1007/bf00217431"
+        },
+        {
+          "kind": "article",
+          "path": "figures/lalanatomy.png",
+          "caption": "Namiki et al. (2018), Fig. 2(a–d). Confocal anatomy of lateral accessory lobes and posterior slope.",
+          "source_url": "https://doi.org/10.1038/s41598-018-27954-5"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.25
+    },
+    {
+      "title": "Descending signals include opposite activity states",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Kanzaki and colleagues distinguished **antiphasic** activity, in which one signal was high while the other was low, from synchronized state changes. Bilateral connective recordings revealed opposite states across sides; a small-bundle recording also separated large and small impulses with opposite switching patterns.",
+        "The authors named the antiphasic class FF and the synchronized class ff. Both could change after brief pheromone stimulation. Thus, the descending pathway contained more than one relationship among persistent outputs rather than one uniform bilateral signal.",
+        "Opposite states are compatible with alternating directional commands during searching, but compatibility is not a causal demonstration of turning. Bundle recordings cannot reveal the complete synaptic connections or assign every spike to an identified motor pathway. The labels FF and ff describe response classes in the paper, not distinct molecular receptor types."
+      ],
+      "transcript": [
+        [
+          "Kanzaki and colleagues distinguished antiphasic activity, in which one signal was high while the other was low, from synchronized state changes. Bilateral connective recordings revealed opposite states across sides; a small-bundle recording also separated large and small impulses with opposite switching patterns.",
+          [
+            "Antiphasic refers to the relationship between two signals. It does not require that either signal oscillate at a regular frequency or that the pair be directly connected."
+          ]
+        ],
+        "The authors named the antiphasic class FF and the synchronized class ff. Both could change after brief pheromone stimulation. Thus, the descending pathway contained more than one relationship among persistent outputs rather than one uniform bilateral signal.",
+        "Opposite states are compatible with alternating directional commands during searching, but compatibility is not a causal demonstration of turning. Bundle recordings cannot reveal the complete synaptic connections or assign every spike to an identified motor pathway. The labels FF and ff describe response classes in the paper, not distinct molecular receptor types."
+      ],
+      "cite": "Kanzaki et al. (1994); Namiki et al. (2018)",
+      "refs": [
+        "Kanzaki R, Ikeda A, Shibuya T (1994). Morphological and physiological properties of pheromone-triggered flipflopping descending interneurons of the male silkworm moth, Bombyx mori. Journal of Comparative Physiology A 175(1):1–14. https://doi.org/10.1007/bf00217431",
+        "Namiki S, Wada S, Kanzaki R (2018). Descending neurons from the lateral accessory lobe and posterior slope in the brain of the silkmoth Bombyx mori. Scientific Reports 8(1):9663. https://doi.org/10.1038/s41598-018-27954-5"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/dnbilateral.png",
+          "caption": "Kanzaki et al. (1994), Fig. 8(single panel). Opposite switching states in units recorded from a descending bundle.",
+          "source_url": "https://doi.org/10.1007/bf00217431"
+        },
+        {
+          "kind": "article",
+          "path": "figures/lalanatomy.png",
+          "caption": "Namiki et al. (2018), Fig. 2(a–d). Confocal anatomy of lateral accessory lobes and posterior slope.",
+          "source_url": "https://doi.org/10.1038/s41598-018-27954-5"
+        }
+      ]
+    },
+    {
+      "title": "Cell staining constrains the source of switching",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Kanzaki and colleagues combined electrophysiology with staining of a small descending bundle carrying FF-type activity. In the reported preparation, a single stained neuron had its cell body among group-II descending neurons and processes associated with the lateral accessory lobe.",
+        "The simultaneously recorded activity retained the opposite-state relationship with the other connective. The cell’s descending axon and regional innervation therefore connected anatomical identity to a persistent physiological response more specifically than a whole-connective recording alone.",
+        "This result supports participation of a group-II LAL descending neuron in the switching pathway. It does not establish that all group-II neurons share the same response or that this one cell is sufficient to create zigzag behavior. Staining and physiology restrict candidate pathways without revealing the complete mechanism maintaining the high and low states."
+      ],
+      "transcript": [
+        [
+          "Kanzaki and colleagues combined electrophysiology with staining of a small descending bundle carrying FF-type activity. In the reported preparation, a single stained neuron had its cell body among group-II descending neurons and processes associated with the lateral accessory lobe.",
+          [
+            "A labeled cell provides a candidate anatomical source of recorded activity. Establishing necessary or sufficient behavioral control would additionally require a selective intervention on that neuron."
+          ]
+        ],
+        "The simultaneously recorded activity retained the opposite-state relationship with the other connective. The cell’s descending axon and regional innervation therefore connected anatomical identity to a persistent physiological response more specifically than a whole-connective recording alone.",
+        "This result supports participation of a group-II LAL descending neuron in the switching pathway. It does not establish that all group-II neurons share the same response or that this one cell is sufficient to create zigzag behavior. Staining and physiology restrict candidate pathways without revealing the complete mechanism maintaining the high and low states."
+      ],
+      "cite": "Kanzaki et al. (1994)",
+      "refs": [
+        "Kanzaki R, Ikeda A, Shibuya T (1994). Morphological and physiological properties of pheromone-triggered flipflopping descending interneurons of the male silkworm moth, Bombyx mori. Journal of Comparative Physiology A 175(1):1–14. https://doi.org/10.1007/bf00217431"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/dncell.png",
+        "caption": "Kanzaki et al. (1994), Fig. 10(A–C). Stained group-II descending neuron and switching responses.",
+        "source_url": "https://doi.org/10.1007/bf00217431"
+      }
+    },
+    {
+      "title": "Posterior-slope neurons carry transient odor signals",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Namiki and colleagues recorded and filled descending neurons whose processes entered the posterior slope but not necessarily the lateral accessory lobe. The group-III PSDN1 neuron had smooth processes in posterior brain regions and varicose processes in the gnathal ganglion, a lower central region associated with descending pathways.",
+        "The identified cell responded to bombykol with excitation. The authors did not observe the characteristic flip-flop activity in the group-III neurons they examined. This distinguishes a transient pheromone-responsive population from the LAL-associated persistent pathways described in earlier work.",
+        "The authors proposed that transient group-III signals might contribute to the initial surge, whereas persistent signals could contribute to casting. This assignment remains a functional hypothesis because neuron-specific behavioral necessity was not tested. The route supplying pheromone input to the posterior slope also remained unresolved."
+      ],
+      "transcript": [
+        [
+          "Namiki and colleagues recorded and filled descending neurons whose processes entered the posterior slope but not necessarily the lateral accessory lobe. The group-III PSDN1 neuron had smooth processes in posterior brain regions and varicose processes in the gnathal ganglion, a lower central region associated with descending pathways.",
+          [
+            "Smooth and varicose processes are morphological features used to infer likely input and output regions. Light-microscopic shape does not establish the direction of every individual synapse."
+          ]
+        ],
+        "The identified cell responded to bombykol with excitation. The authors did not observe the characteristic flip-flop activity in the group-III neurons they examined. This distinguishes a transient pheromone-responsive population from the LAL-associated persistent pathways described in earlier work.",
+        "The authors proposed that transient group-III signals might contribute to the initial surge, whereas persistent signals could contribute to casting. This assignment remains a functional hypothesis because neuron-specific behavioral necessity was not tested. The route supplying pheromone input to the posterior slope also remained unresolved."
+      ],
+      "cite": "Namiki et al. (2018)",
+      "refs": [
+        "Namiki S, Wada S, Kanzaki R (2018). Descending neurons from the lateral accessory lobe and posterior slope in the brain of the silkmoth Bombyx mori. Scientific Reports 8(1):9663. https://doi.org/10.1038/s41598-018-27954-5"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/pscell.png",
+        "caption": "Namiki et al. (2018), Fig. 9(a–e). Posterior-slope descending-neuron anatomy and odor-evoked activity.",
+        "source_url": "https://doi.org/10.1038/s41598-018-27954-5"
+      }
+    },
+    {
+      "title": "Serotonin changes behavioral pheromone sensitivity",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "**Serotonin**, also called 5-hydroxytryptamine, is a neurotransmitter and neuromodulator that can change a circuit’s responsiveness. Gatellier and colleagues applied it to exposed silkmoth antennal lobes and measured male responses to increasing bombykol source loads. Saline tests before treatment and a later wash supplied comparisons.",
+        "At 10⁻⁴ mol/L, serotonin increased behavioral sensitivity. For 5 ng bombykol, the response fraction rose from 18% in the control condition to 30% during treatment. The dose-response curve returned toward the control condition after 24 h.",
+        "The effect connects a central chemical manipulation to altered behavioral initiation. It does not imply that serotonin replaces pheromone or selectively controls one identified PN. Brain exposure and pharmacological application can affect several elements, so the cellular target and signaling pathway cannot be assigned solely from the behavioral curve."
+      ],
+      "transcript": [
+        [
+          "Serotonin, also called 5-hydroxytryptamine, is a neurotransmitter and neuromodulator that can change a circuit’s responsiveness. Gatellier and colleagues applied it to exposed silkmoth antennal lobes and measured male responses to increasing bombykol source loads. Saline tests before treatment and a later wash supplied comparisons.",
+          [
+            "A neuromodulator changes how a circuit responds to another input. Here the initiating sensory signal remained bombykol, while serotonin altered the likelihood of responding."
+          ]
+        ],
+        "At 10⁻⁴ mol/L, serotonin increased behavioral sensitivity. For 5 ng bombykol, the response fraction rose from 18% in the control condition to 30% during treatment. The dose-response curve returned toward the control condition after 24 h.",
+        "The effect connects a central chemical manipulation to altered behavioral initiation. It does not imply that serotonin replaces pheromone or selectively controls one identified PN. Brain exposure and pharmacological application can affect several elements, so the cellular target and signaling pathway cannot be assigned solely from the behavioral curve."
+      ],
+      "cite": "Gatellier et al. (2004); Tabuchi et al. (2013)",
+      "refs": [
+        "Gatellier L, Nagao T, Kanzaki R (2004). Serotonin modifies the sensitivity of the male silkmoth to pheromone. Journal of Experimental Biology 207(14):2487-2496. https://doi.org/10.1242/jeb.01035",
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/serotonin.png",
+          "caption": "Gatellier et al. (2004), Fig. 2(single panel). Pheromone response curve before serotonin, during treatment and after wash.",
+          "source_url": "https://doi.org/10.1242/jeb.01035"
+        },
+        {
+          "kind": "article",
+          "path": "figures/alhistology.png",
+          "caption": "Tabuchi et al. (2013), Fig. 1(C). Bombykol sensory axons terminate in the toroid.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        }
+      ]
+    },
+    {
+      "title": "Serotonin has concentration-dependent effects",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Gatellier and colleagues compared serotonin applications of 10⁻⁵, 10⁻⁴ and 10⁻³ mol/L. The lowest concentration did not appreciably change behavioral sensitivity, the intermediate concentration enhanced it, and the highest concentration reduced it. More serotonin therefore did not produce a monotonic increase in responsiveness.",
+        "**High-performance liquid chromatography**, or HPLC, separated serotonin from other tissue compounds for electrochemical measurement. Brain content rose from about 0.18 pmol/brain in controls to 0.44 and 0.80 pmol/brain after the intermediate and high applications. After 24 h, content returned toward control levels.",
+        "These measurements verify that application changed tissue serotonin while revealing opposite behavioral outcomes. Whole-brain content is not the concentration at one synapse, and the study did not identify distinct receptor pathways causing enhancement and inhibition. Dose-dependent effects constrain a simple uniformly excitatory explanation."
+      ],
+      "transcript": [
+        [
+          "Gatellier and colleagues compared serotonin applications of 10⁻⁵, 10⁻⁴ and 10⁻³ mol/L. The lowest concentration did not appreciably change behavioral sensitivity, the intermediate concentration enhanced it, and the highest concentration reduced it. More serotonin therefore did not produce a monotonic increase in responsiveness.",
+          [
+            "A picomole is one trillionth of a mole. Tissue content measures total recovered material and differs from the applied solution’s concentration."
+          ]
+        ],
+        "High-performance liquid chromatography, or HPLC, separated serotonin from other tissue compounds for electrochemical measurement. Brain content rose from about 0.18 pmol/brain in controls to 0.44 and 0.80 pmol/brain after the intermediate and high applications. After 24 h, content returned toward control levels.",
+        "These measurements verify that application changed tissue serotonin while revealing opposite behavioral outcomes. Whole-brain content is not the concentration at one synapse, and the study did not identify distinct receptor pathways causing enhancement and inhibition. Dose-dependent effects constrain a simple uniformly excitatory explanation."
+      ],
+      "cite": "Gatellier et al. (2004); Tabuchi et al. (2013)",
+      "refs": [
+        "Gatellier L, Nagao T, Kanzaki R (2004). Serotonin modifies the sensitivity of the male silkmoth to pheromone. Journal of Experimental Biology 207(14):2487-2496. https://doi.org/10.1242/jeb.01035",
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/serotoninamount.png",
+          "caption": "Gatellier et al. (2004), Fig. 4(single panel). Measured brain serotonin after application and wash.",
+          "source_url": "https://doi.org/10.1242/jeb.01035"
+        },
+        {
+          "kind": "article",
+          "path": "figures/alhistology.png",
+          "caption": "Tabuchi et al. (2013), Fig. 1(C). Bombykol sensory axons terminate in the toroid.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        }
+      ]
+    },
+    {
+      "title": "Antagonists reduce pheromone responsiveness",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Gatellier and colleagues applied the serotonin antagonists **mianserin** and **ketanserin** to the exposed brain before bombykol testing. Mianserin at 10⁻⁴ mol/L and ketanserin at 10⁻³ mol/L shifted behavioral responsiveness toward higher required pheromone doses.",
+        "For 5 ng bombykol, mianserin reduced the response fraction from 46% to 33% in its comparison group. Ketanserin reduced it from 25% to 17% in a separate group. Ketanserin at 10⁻⁴ mol/L did not produce the same inhibitory effect.",
+        "The antagonist results support serotonergic involvement in behavioral sensitivity, but the drugs are not perfectly selective probes of an identified insect receptor. Different control response fractions belong to different experiments and should not be pooled. Incomplete recovery after 24 h also limits attributing every remaining change solely to persistent receptor blockade."
+      ],
+      "transcript": [
+        [
+          "Gatellier and colleagues applied the serotonin antagonists mianserin and ketanserin to the exposed brain before bombykol testing. Mianserin at 10⁻⁴ mol/L and ketanserin at 10⁻³ mol/L shifted behavioral responsiveness toward higher required pheromone doses.",
+          [
+            "The authors noted possible actions beyond the intended receptor classes. Pharmacological specificity must be established before an antagonist is treated as a selective deletion of one neural pathway."
+          ]
+        ],
+        "For 5 ng bombykol, mianserin reduced the response fraction from 46% to 33% in its comparison group. Ketanserin reduced it from 25% to 17% in a separate group. Ketanserin at 10⁻⁴ mol/L did not produce the same inhibitory effect.",
+        "The antagonist results support serotonergic involvement in behavioral sensitivity, but the drugs are not perfectly selective probes of an identified insect receptor. Different control response fractions belong to different experiments and should not be pooled. Incomplete recovery after 24 h also limits attributing every remaining change solely to persistent receptor blockade."
+      ],
+      "cite": "Gatellier et al. (2004); Tabuchi et al. (2013)",
+      "refs": [
+        "Gatellier L, Nagao T, Kanzaki R (2004). Serotonin modifies the sensitivity of the male silkmoth to pheromone. Journal of Experimental Biology 207(14):2487-2496. https://doi.org/10.1242/jeb.01035",
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/antagonists.png",
+          "caption": "Gatellier et al. (2004), Fig. 5(A–B). Serotonin antagonists decrease behavioral sensitivity to bombykol.",
+          "source_url": "https://doi.org/10.1242/jeb.01035"
+        },
+        {
+          "kind": "article",
+          "path": "figures/alhistology.png",
+          "caption": "Tabuchi et al. (2013), Fig. 1(C). Bombykol sensory axons terminate in the toroid.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        }
+      ],
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.25
+    },
+    {
+      "title": "Daily serotonin variation accompanies sensitivity",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Gatellier and colleagues measured brain serotonin every 4 h over a 24-h light–dark cycle and tested pheromone responsiveness at multiple times. Serotonin content peaked around noon at about 0.72 pmol/brain and declined to about 0.41 pmol/brain two hours after darkness began.",
+        "For 1 ng bombykol, behavioral responsiveness rose from 32% at 06:00 to 63% around noon, then declined to 16% at 22:00. Brain serotonin and response sensitivity therefore varied together over the tested daily schedule.",
+        "The correlation is consistent with a state-dependent serotonergic contribution but does not prove that serotonin alone generates the rhythm. Measurements under a light–dark cycle also do not establish persistence of an endogenous circadian oscillator in constant conditions. Daily modulation and the separate application experiments provide different forms of evidence."
+      ],
+      "transcript": [
+        [
+          "Gatellier and colleagues measured brain serotonin every 4 h over a 24-h light–dark cycle and tested pheromone responsiveness at multiple times. Serotonin content peaked around noon at about 0.72 pmol/brain and declined to about 0.41 pmol/brain two hours after darkness began.",
+          [
+            "An endogenous circadian rhythm continues without repeated external time cues. A daily pattern measured under scheduled light and darkness requires additional tests before that stronger claim can be made."
+          ]
+        ],
+        "For 1 ng bombykol, behavioral responsiveness rose from 32% at 06:00 to 63% around noon, then declined to 16% at 22:00. Brain serotonin and response sensitivity therefore varied together over the tested daily schedule.",
+        "The correlation is consistent with a state-dependent serotonergic contribution but does not prove that serotonin alone generates the rhythm. Measurements under a light–dark cycle also do not establish persistence of an endogenous circadian oscillator in constant conditions. Daily modulation and the separate application experiments provide different forms of evidence."
+      ],
+      "cite": "Gatellier et al. (2004); Tabuchi et al. (2013)",
+      "refs": [
+        "Gatellier L, Nagao T, Kanzaki R (2004). Serotonin modifies the sensitivity of the male silkmoth to pheromone. Journal of Experimental Biology 207(14):2487-2496. https://doi.org/10.1242/jeb.01035",
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/daily.png",
+          "caption": "Gatellier et al. (2004), Fig. 7(single panel). Brain serotonin content varies with time of day.",
+          "source_url": "https://doi.org/10.1242/jeb.01035"
+        },
+        {
+          "kind": "article",
+          "path": "figures/alhistology.png",
+          "caption": "Tabuchi et al. (2013), Fig. 1(C). Bombykol sensory axons terminate in the toroid.",
+          "source_url": "https://doi.org/10.1073/pnas.1313707110"
+        }
+      ]
+    },
+    {
+      "title": "Sensory context changes walking speed and turning",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Yamada and colleagues measured forward and angular velocity as a function of odor-detection frequency during virtual navigation. **Angular velocity** is the rate of change of heading, distinct from translational movement through space. Wind and optic-flow direction could be reversed independently.",
+        "With correctly aligned cues, forward velocity peaked around 0.7 Hz and turning velocity around 0.4 Hz. Reversing wind removed the same frequency-dependent forward-speed pattern and shifted the turning peak toward about 0.2 Hz. Reversing visual motion also produced unequal left- and right-turning responses.",
+        "These behavioral changes establish context-dependent control rather than a fixed response to odor frequency alone. The proposed association between higher encounter rates and proximity to a female remains an interpretation, not proof that frequency uniquely determines distance. The experiment does not identify the central neurons performing the multisensory comparison."
+      ],
+      "transcript": [
+        [
+          "Yamada and colleagues measured forward and angular velocity as a function of odor-detection frequency during virtual navigation. Angular velocity is the rate of change of heading, distinct from translational movement through space. Wind and optic-flow direction could be reversed independently.",
+          [
+            "Frequency depends on the transported plume and the animal’s movement. An encounter rate cannot be treated as an invariant chemical distance ruler across environments."
+          ]
+        ],
+        "With correctly aligned cues, forward velocity peaked around 0.7 Hz and turning velocity around 0.4 Hz. Reversing wind removed the same frequency-dependent forward-speed pattern and shifted the turning peak toward about 0.2 Hz. Reversing visual motion also produced unequal left- and right-turning responses.",
+        "These behavioral changes establish context-dependent control rather than a fixed response to odor frequency alone. The proposed association between higher encounter rates and proximity to a female remains an interpretation, not proof that frequency uniquely determines distance. The experiment does not identify the central neurons performing the multisensory comparison."
+      ],
+      "cite": "Yamada et al. (2021)",
+      "refs": [
+        "Yamada M, Ohashi H, Hosoda K, Kurabayashi D, Shigaki S (2021). Multisensory-motor integration in olfactory navigation of silkmoth, Bombyx mori, using virtual reality system. eLife 10:e72001. https://doi.org/10.7554/elife.72001"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/vrvelocity.png",
+        "caption": "Yamada et al. (2021), Fig. 5(A–C). Measured speed and turning changes with odor frequency and cue reversals.",
+        "source_url": "https://doi.org/10.7554/elife.72001"
+      }
+    },
+    {
+      "title": "Aligned sensory cues improve source-finding success",
+      "layout": "figure-right",
+      "figure_width": 5.65,
+      "body": [
+        "Yamada and colleagues compared search success, arrival time and success per unit time across combinations of odor, wind and visual input. All treatments retained odor information, allowing the contributions of other cues to be evaluated against an odor-only condition.",
+        "Correctly aligned odor, wind and visual information improved performance compared with reduced-cue conditions. Reversing wind within the full-cue preparation sharply reduced success. Visual effects were context dependent: limited effects with odor alone did not mean vision was irrelevant when all three modalities were present.",
+        "The results support multisensory control of walking odor-source search. Success within a 300-s virtual trial does not establish unrestricted navigation in a natural habitat or a complete sensory-to-motor circuit. Behavioral cue manipulations complement receptor and neuronal experiments while leaving the site and synaptic mechanism of integration unresolved."
+      ],
+      "transcript": [
+        [
+          "Yamada and colleagues compared search success, arrival time and success per unit time across combinations of odor, wind and visual input. All treatments retained odor information, allowing the contributions of other cues to be evaluated against an odor-only condition.",
+          [
+            "A behavioral improvement under combined cues need not arise from one anatomical convergence point. Several processing stages could contribute to the performance difference."
+          ]
+        ],
+        "Correctly aligned odor, wind and visual information improved performance compared with reduced-cue conditions. Reversing wind within the full-cue preparation sharply reduced success. Visual effects were context dependent: limited effects with odor alone did not mean vision was irrelevant when all three modalities were present.",
+        "The results support multisensory control of walking odor-source search. Success within a 300-s virtual trial does not establish unrestricted navigation in a natural habitat or a complete sensory-to-motor circuit. Behavioral cue manipulations complement receptor and neuronal experiments while leaving the site and synaptic mechanism of integration unresolved."
+      ],
+      "cite": "Yamada et al. (2021)",
+      "refs": [
+        "Yamada M, Ohashi H, Hosoda K, Kurabayashi D, Shigaki S (2021). Multisensory-motor integration in olfactory navigation of silkmoth, Bombyx mori, using virtual reality system. eLife 10:e72001. https://doi.org/10.7554/elife.72001"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/vrsuccess.png",
+        "caption": "Yamada et al. (2021), Fig. 4(A–C). Source-finding success, time and performance across sensory conditions.",
+        "source_url": "https://doi.org/10.7554/elife.72001"
+      }
+    },
+    {
+      "title": "Tracking requires detection, timing and motor state",
+      "layout": "figures-right",
+      "figure_width": 5.9,
+      "body": [
+        "Published silkmoth experiments link several transformations: ligand-selective receptors excite a defined sensory channel; peripheral binding-protein function helps responses terminate; and antennal-lobe neurons combine or separate contacts according to input strength. These are experimentally distinguishable operations rather than one generic measure of olfactory sensitivity.",
+        "BmPBP1 loss preserves searching but reduces its temporal efficiency. Optogenetic paired inputs reveal central integration within tens of milliseconds, while descending recordings reveal states lasting seconds after brief stimulation. The different timescales permit short odor encounters to influence extended motor behavior.",
+        "No cited study establishes every synapse from bombykol binding to a completed plume-tracking trajectory. GABA pharmacology, serotonin application and anatomical overlap constrain mechanisms without resolving all receptor subtypes, intrinsic channels or causal motor assignments. Natural searching combines these sensory and central operations with wind and visual information."
+      ],
+      "transcript": [
+        [
+          "Published silkmoth experiments link several transformations: ligand-selective receptors excite a defined sensory channel; peripheral binding-protein function helps responses terminate; and antennal-lobe neurons combine or separate contacts according to input strength. These are experimentally distinguishable operations rather than one generic measure of olfactory sensitivity.",
+          [
+            "A supported component mechanism should not be expanded into a fully established circuit. Peripheral timing, central integration and descending persistence were measured in different experimental preparations."
+          ]
+        ],
+        "BmPBP1 loss preserves searching but reduces its temporal efficiency. Optogenetic paired inputs reveal central integration within tens of milliseconds, while descending recordings reveal states lasting seconds after brief stimulation. The different timescales permit short odor encounters to influence extended motor behavior.",
+        "No cited study establishes every synapse from bombykol binding to a completed plume-tracking trajectory. GABA pharmacology, serotonin application and anatomical overlap constrain mechanisms without resolving all receptor subtypes, intrinsic channels or causal motor assignments. Natural searching combines these sensory and central operations with wind and visual information."
+      ],
+      "cite": "Fujiwara et al. (2014); Shiota et al. (2021); Tabuchi et al. (2013); Kanzaki et al. (1994); Yamada et al. (2021)",
+      "refs": [
+        "Fujiwara T, Kazawa T, Sakurai T, Fukushima R, Uchino K, Yamagata T, Namiki S, Haupt SS, Kanzaki R (2014). Odorant Concentration Differentiator for Intermittent Olfactory Signals. The Journal of Neuroscience 34(50):16581-16593. https://doi.org/10.1523/jneurosci.2319-14.2014",
+        "Shiota Y, Sakurai T, Ando N, Haupt SS, Mitsuno H, Daimon T, Kanzaki R (2021). Pheromone binding protein is involved in temporal olfactory resolution in the silkmoth. iScience 24(11):103334. https://doi.org/10.1016/j.isci.2021.103334",
+        "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110",
+        "Kanzaki R, Ikeda A, Shibuya T (1994). Morphological and physiological properties of pheromone-triggered flipflopping descending interneurons of the male silkworm moth, Bombyx mori. Journal of Comparative Physiology A 175(1):1–14. https://doi.org/10.1007/bf00217431",
+        "Yamada M, Ohashi H, Hosoda K, Kurabayashi D, Shigaki S (2021). Multisensory-motor integration in olfactory navigation of silkmoth, Bombyx mori, using virtual reality system. eLife 10:e72001. https://doi.org/10.7554/elife.72001"
+      ],
+      "primary_figure_height": 3.2,
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/alresponses.png",
+          "caption": "Fujiwara et al. (2014), Fig. 2(A–G). Antennal-lobe anatomy and responses to repeated odor pulses.",
+          "source_url": "https://doi.org/10.1523/jneurosci.2319-14.2014"
+        },
+        {
+          "kind": "article",
+          "path": "figures/pbpbehavior.png",
+          "caption": "Shiota et al. (2021), Fig. 4(A–E). Surge and turning behavior after pheromone-binding-protein loss.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.103334"
+        }
+      ]
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Plumes are intermittent",
+        "text": "Turbulence creates odor contacts and gaps; encounter timing can renew surges or permit casting rather than supplying a smooth concentration gradient."
+      },
+      {
+        "lead": "Sensory identity gates behavior",
+        "text": "Adding a foreign receptor to bombykol neurons changes which ligand initiates searching while preserving their central toroid targets."
+      },
+      {
+        "lead": "Receptors conduct cations",
+        "text": "Ligand-selective OR and Orco subunits support odor-gated currents; patch recordings and residue substitutions constrain the channel mechanism."
+      },
+      {
+        "lead": "Termination supports tracking",
+        "text": "BmPBP1 loss prolongs sensory responses, blurs repeated contacts and delays source finding despite preserved searching and eventual success."
+      },
+      {
+        "lead": "Central processing is state dependent",
+        "text": "Weak contacts can integrate over tens of milliseconds; GABA limits strong-input integration, and descending signals can persist for seconds."
+      },
+      {
+        "lead": "Navigation depends on context",
+        "text": "Serotonin alters responsiveness in a dose-dependent manner, while wind and visual feedback influence odor-guided movement and source-finding success."
+      }
+    ],
+    "cite": "Vickers & Baker (1994); Sakurai et al. (2011); Sato et al. (2008); Shiota et al. (2021); Tabuchi et al. (2013); Kanzaki et al. (1994); Yamada et al. (2021)",
+    "refs": [
+      "Vickers NJ, Baker TC (1994). Reiterative responses to single strands of odor promote sustained upwind flight and odor source location by moths. Proceedings of the National Academy of Sciences 91(13):5756-5760. https://doi.org/10.1073/pnas.91.13.5756",
+      "Sakurai T, Mitsuno H, Haupt SS, Uchino K, Yokohari F, Nishioka T, Kobayashi I, Sezutsu H, Tamura T, Kanzaki R (2011). A Single Sex Pheromone Receptor Determines Chemical Response Specificity of Sexual Behavior in the Silkmoth Bombyx mori. PLoS Genetics 7(6):e1002115. https://doi.org/10.1371/journal.pgen.1002115",
+      "Sato K, Pellegrino M, Nakagawa T, Nakagawa T, Vosshall LB, Touhara K (2008). Insect olfactory receptors are heteromeric ligand-gated ion channels. Nature 452(7190):1002-1006. https://doi.org/10.1038/nature06850",
+      "Nakagawa T, Pellegrino M, Sato K, Vosshall LB, Touhara K (2012). Amino Acid Residues Contributing to Function of the Heteromeric Insect Olfactory Receptor Complex. PLoS ONE 7(3):e32372. https://doi.org/10.1371/journal.pone.0032372",
+      "Shiota Y, Sakurai T, Ando N, Haupt SS, Mitsuno H, Daimon T, Kanzaki R (2021). Pheromone binding protein is involved in temporal olfactory resolution in the silkmoth. iScience 24(11):103334. https://doi.org/10.1016/j.isci.2021.103334",
+      "Tabuchi M, Sakurai T, Mitsuno H, Namiki S, Minegishi R, Shiotsuki T, Uchino K, Sezutsu H, Tamura T, Haupt SS, Nakatani K, Kanzaki R (2013). Pheromone responsiveness threshold depends on temporal integration by antennal lobe projection neurons. Proceedings of the National Academy of Sciences 110(38):15455-15460. https://doi.org/10.1073/pnas.1313707110",
+      "Kanzaki R, Ikeda A, Shibuya T (1994). Morphological and physiological properties of pheromone-triggered flipflopping descending interneurons of the male silkworm moth, Bombyx mori. Journal of Comparative Physiology A 175(1):1–14. https://doi.org/10.1007/bf00217431",
+      "Gatellier L, Nagao T, Kanzaki R (2004). Serotonin modifies the sensitivity of the male silkmoth to pheromone. Journal of Experimental Biology 207(14):2487-2496. https://doi.org/10.1242/jeb.01035",
+      "Yamada M, Ohashi H, Hosoda K, Kurabayashi D, Shigaki S (2021). Multisensory-motor integration in olfactory navigation of silkmoth, Bombyx mori, using virtual reality system. eLife 10:e72001. https://doi.org/10.7554/elife.72001"
+    ]
+  }
+}

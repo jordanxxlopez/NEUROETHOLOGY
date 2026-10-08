@@ -4,7 +4,7 @@
 
 **Wednesday, October 21, 2026**
 
-Authority: connected repository default branch `claude/neuroethology-fa2026-schedule-2lgmmr`, refreshed to `6fa018c` without discarding the Lecture 24 preparation. No ZIP was used.
+Authority: connected repository default branch `claude/neuroethology-fa2026-schedule-2lgmmr`, refreshed to `30cabd2` without discarding the Lecture 24 preparation. No ZIP was used.
 
 The instructor supplied the four previously requested PDFs for Murlis, Willis & Cardé (2000), Kanzaki, Ikeda & Shibuya (1994), Sato et al. (2008), and Gatellier, Nagao & Kanzaki (2004). These files open successfully as published papers.
 
@@ -22,4 +22,4 @@ Vickers NJ, Baker TC (1994). **Reiterative responses to single strands of odor p
 
 All twelve selected primary PDFs are now locally available. No additional PDF upload is required for the selected sources. Access records and verified metadata are retained under `sources/`; original PDFs remain in the ignored `papers/` directory.
 
-This access resolution is not a claim that the final PowerPoint has passed its slide, citation, figure or formatting checks.
+The completed deck passes the repository checks: 46 slides, 44 content slides with original primary-paper figures, and 32 content slides with source-colored figures. Citations, complete speaker notes, exact title/date, Arial text and source-image hashes were checked. All 46 slides were visually reviewed. No scientific visuals were generated or reconstructed.
