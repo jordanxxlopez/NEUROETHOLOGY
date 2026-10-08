@@ -14,7 +14,7 @@ The scientific sources cover comparative range discrimination, echo harmonic str
 
 ## Figure provenance
 
-`crops.json` records the six source PDFs, one-based PDF pages, and normalized crop boxes. All 40 distinct lecture images are unchanged original article panels rendered and cropped with the repository tools. Figures include the original axes, units, scale bars where present, and panel letters. No diagram, graph, illustration, icon, or photograph was created for the lecture. Source PDFs are kept in the ignored `papers/` directory.
+`crops.json` records the six source PDFs, one-based PDF pages, and normalized crop boxes. All 39 distinct article images are unchanged original article panels rendered and cropped with the repository tools. Figures include the original axes, units, scale bars where present, and panel letters. No diagram, graph, illustration, icon, or photograph was created for the lecture. Source PDFs are kept in the ignored `papers/` directory.
 
 The spec contains 44 content slides, of which 42 include article figures. All 42 meet the repository checker's article-image requirements. Some panels recur where different source-supported concepts use the same experiment. The title image is the unchanged bat-and-flight-room figure in Moss et al. (2006), Fig. 1. All content slides have full teaching paragraphs and transcripts with DOI references.
 
@@ -26,3 +26,7 @@ The spec contains 44 content slides, of which 42 include article figures. All 42
 4. Simmons, Andrea Megela; Warnecke, Michaela; Simmons, James A. (2024). Microseconds-level coding of echo delay in the auditory brainstem of an FM-echolocating bat. Journal of Neurophysiology 132(6):2012-2022. https://doi.org/10.1152/jn.00305.2024 — Brainstem timing and echo-delay coding.
 5. Moss, Cynthia F; Bohn, Kari; Gilkenson, Hannah; Surlykke, Annemarie (2006). Active Listening for Spatial Orientation in a Complex Auditory Scene. PLoS Biology 4(4):e79. https://doi.org/10.1371/journal.pbio.0040079 — Adaptive sonar behavior in clutter.
 6. Ming, Chen; Bates, Mary E.; Simmons, James A. (2020). How frequency hopping suppresses pulse-echo ambiguity in bat biosonar. Proceedings of the National Academy of Sciences 117(29):17288-17295. https://doi.org/10.1073/pnas.2001105117 — Frequency hopping and pulse–echo assignment.
+
+## Final rebuild
+
+All 44 content slides carry original article figures; 22 carry native-color article figures. Histology of the cochlear nucleus accompanies the relevant brainstem recordings. The title photograph is a public-domain U.S. National Park Service image of Eptesicus fuscus, credited via https://commons.wikimedia.org/wiki/File:Big_brown_bat.jpg. Images remain unchanged except for PDF rendering and rectangular cropping.

@@ -1,21 +1,15 @@
 {
   "lecture": 15,
   "checked_on": "2026-10-08",
-  "repository_head": "5eccd8aaa9a9497a5ec09375d02e63ba28eb58ea",
+  "repository_head": "8c7bafdb3a5d1575e77e1ea08070989d4e18cf1c",
   "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
   "schedule": {
     "n": 15,
     "date": "Monday, September 28, 2026",
     "title": "Insect hearing II: moth ears and bat-evasion behavior (Roeder)"
   },
-  "status": "Awaiting five required source PDFs; six primary PDFs downloaded and verified. No PPTX has been built.",
-  "missing_pdf_ids": [
-    "r57",
-    "r62",
-    "r64",
-    "r66",
-    "g18"
-  ],
+  "status": "Completed 46-slide lecture; all eleven source PDFs available. Built and checked with repository tools.",
+  "missing_pdf_ids": [],
   "sources": {
     "r57": {
       "id": "r57",
@@ -371,8 +365,21 @@
         }
       },
       "teaching_use": "Tympanic ear structure, receptor recordings and the original bat-detection preparation.",
-      "pdf_available": false,
-      "pdf_status": "Unavailable after publisher and legitimate open-copy searches; upload needed before figure selection and detailed writing."
+      "pdf_available": true,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "pdf_path": "papers/r57.pdf",
+      "pdf_pages": 31,
+      "pdf_sha256": "5597fd93b917e5411abd33ffed7d441bd27492550267bb696aff9af91bc52d98",
+      "pdf_title_authors_doi_checked": true,
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "r57_f1",
+        "r57_f2",
+        "r57_f3",
+        "r57_f6"
+      ],
+      "pdf_origin": "user upload",
+      "uploaded_file_id": "file_0000000065a881fd8d9f7addd8cd4c1c"
     },
     "r62": {
       "id": "r62",
@@ -696,8 +703,20 @@
         }
       },
       "teaching_use": "Free-flight responses to experimentally controlled ultrasound.",
-      "pdf_available": false,
-      "pdf_status": "Unavailable after publisher and legitimate open-copy searches; upload needed before figure selection and detailed writing."
+      "pdf_available": true,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "pdf_path": "papers/r62.pdf",
+      "pdf_pages": 9,
+      "pdf_sha256": "f9930da323fd66f9464adca9896900fcd2eb43e556e8133b4fbd7761c20804c6",
+      "pdf_title_authors_doi_checked": true,
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "r62_f1de",
+        "r62_f1ghi",
+        "r62_f2"
+      ],
+      "pdf_origin": "user upload",
+      "uploaded_file_id": "file_00000000f9c881fdaf08c39db68000bf"
     },
     "r64": {
       "id": "r64",
@@ -1026,8 +1045,20 @@
         }
       },
       "teaching_use": "A1/A2 afferent responses, temporal integration and adaptation.",
-      "pdf_available": false,
-      "pdf_status": "Unavailable after publisher and legitimate open-copy searches; upload needed before figure selection and detailed writing."
+      "pdf_available": true,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "pdf_path": "papers/r64.pdf",
+      "pdf_pages": 22,
+      "pdf_sha256": "6a1e39018455b9b7c1deabe27451bd5732ba6ee6f7f1ded1cabd200dcef4a65f",
+      "pdf_title_authors_doi_checked": true,
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "r64_f2",
+        "r64_f4",
+        "r64_f5"
+      ],
+      "pdf_origin": "user upload",
+      "uploaded_file_id": "file_00000000263081fd9b006d0b51eb4c18"
     },
     "r66": {
       "id": "r66",
@@ -1387,8 +1418,23 @@
         }
       },
       "teaching_use": "Thoracic interneuron responses and limits of the demonstrated central pathway.",
-      "pdf_available": false,
-      "pdf_status": "Unavailable after publisher and legitimate open-copy searches; upload needed before figure selection and detailed writing."
+      "pdf_available": true,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "pdf_path": "papers/r66.pdf",
+      "pdf_pages": 26,
+      "pdf_sha256": "22366ae5e2439e3d2a88b6e591dff7fb0ec2b6da7c4c79b94f3175b2cf4fdb8c",
+      "pdf_title_authors_doi_checked": true,
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "r66_f1",
+        "r66_f4",
+        "r66_f6ab",
+        "r66_f6e",
+        "r66_f7c",
+        "r66_f8"
+      ],
+      "pdf_origin": "user upload",
+      "uploaded_file_id": "file_000000008ca481fda7af660cdbe49bfd"
     },
     "m11": {
       "id": "m11",
@@ -1835,7 +1881,15 @@
       "pdf_pages": 5,
       "pdf_sha256": "4d643ba2eef080c1ee79f52575113a9e38340f66858f2149cfd8e8066bbf075b",
       "pdf_title_authors_doi_checked": true,
-      "close_reading_complete": false
+      "close_reading_complete": false,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "m11_f1",
+        "m11_f2abc",
+        "m11_f2gh"
+      ],
+      "pdf_origin": "downloaded academic paper"
     },
     "h13": {
       "id": "h13",
@@ -2242,7 +2296,17 @@
       "pdf_pages": 4,
       "pdf_sha256": "199c563c66a918f7a16349a08e4083e4884c24d1643e526948963ee2141cc9ea",
       "pdf_title_authors_doi_checked": true,
-      "close_reading_complete": false
+      "close_reading_complete": false,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "h13_animal",
+        "h13_ear",
+        "h13_f1c",
+        "h13_f1d",
+        "h13_f2"
+      ],
+      "pdf_origin": "downloaded academic paper"
     },
     "g18": {
       "id": "g18",
@@ -3168,8 +3232,25 @@
         "article-number": "jeb171561"
       },
       "teaching_use": "Pulse duration/timing and the auditory information available for predator-distance assessment.",
-      "pdf_available": false,
-      "pdf_status": "Unavailable after publisher and legitimate open-copy searches; upload needed before figure selection and detailed writing."
+      "pdf_available": true,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "pdf_path": "papers/g18.pdf",
+      "pdf_pages": 11,
+      "pdf_sha256": "43daef3373ef4f77ce925b39974a5d6ceff4ea8b32521f9adef0c1b37b6aefc5",
+      "pdf_title_authors_doi_checked": true,
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "g18_f1b",
+        "g18_f2cd",
+        "g18_f3a",
+        "g18_f3b",
+        "g18_f4",
+        "g18_f5",
+        "g18_f6",
+        "g18_f7"
+      ],
+      "pdf_origin": "user upload",
+      "uploaded_file_id": "file_00000000ca0481fdb07fbe2517ef9e2b"
     },
     "d18": {
       "id": "d18",
@@ -3633,7 +3714,14 @@
       "pdf_pages": 12,
       "pdf_sha256": "7fd237c16b8219a050820f7bc388397204c482f08dd4cc002331ef1624e9efcb",
       "pdf_title_authors_doi_checked": true,
-      "close_reading_complete": false
+      "close_reading_complete": false,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "d18_f6",
+        "d18_f7"
+      ],
+      "pdf_origin": "downloaded academic paper"
     },
     "risk13": {
       "id": "risk13",
@@ -4516,7 +4604,16 @@
       "pdf_pages": 13,
       "pdf_sha256": "9d1ea3f0fbddb809a74cb132274d087e5c644cb9a26b7144998d5a895397a7c6",
       "pdf_title_authors_doi_checked": true,
-      "close_reading_complete": false
+      "close_reading_complete": false,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "risk13_f4",
+        "risk13_f5",
+        "risk13_f6ab",
+        "risk13_f6cd"
+      ],
+      "pdf_origin": "downloaded academic paper"
     },
     "e16": {
       "id": "e16",
@@ -5394,7 +5491,18 @@
       "pdf_pages": 12,
       "pdf_sha256": "58110396351790b48d9157759732217c6f8d4469cf5518f4339bf3f8681de935",
       "pdf_title_authors_doi_checked": true,
-      "close_reading_complete": false
+      "close_reading_complete": false,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "e16_f3abcd",
+        "e16_f4abcd",
+        "e16_f5",
+        "e16_f6",
+        "e16_f7c",
+        "e16_f9"
+      ],
+      "pdf_origin": "downloaded academic paper"
     },
     "j09": {
       "id": "j09",
@@ -5802,7 +5910,16 @@
       "pdf_pages": 3,
       "pdf_sha256": "14b999bdf33d19dba8d4799bfb266e6d9e062f40b4ec28f94ad985e2968342bb",
       "pdf_title_authors_doi_checked": true,
-      "close_reading_complete": false
+      "close_reading_complete": false,
+      "pdf_status": "Available and used; source methods, findings and figure legends checked for the claims in this lecture.",
+      "used_sections_and_figure_legends_checked": true,
+      "figures_used": [
+        "j09_tymbal",
+        "j09_f1bc",
+        "j09_f2bc",
+        "j09_f3"
+      ],
+      "pdf_origin": "downloaded academic paper"
     }
   },
   "web_searches": [
@@ -5952,6 +6069,7 @@
       "image_content_slides": 44
     }
   ],
-  "workflow_validation": "Current Python dependencies import; LibreOffice and pdftoppm are available; repository checker passes Lecture 14 with zero failures/warnings.",
-  "research_started_at_repository_head": "1e6f7df87fac8aa0f5101849ca5229defa36bfea"
+  "workflow_validation": "Repository builder/checker: 46 slides, 44 image slides, 44 article-figure slides, 26 native-color slides; zero failures and zero warnings.",
+  "research_started_at_repository_head": "1e6f7df87fac8aa0f5101849ca5229defa36bfea",
+  "image_policy": "Original article panels only. All crops use repository crop tools and retain native pixels and colors. Published model and reanalysis panels are identified as such; no created, redrawn, re-plotted, recolored, generated or stock images."
 }

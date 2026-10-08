@@ -1,67 +1,62 @@
-# Lecture 15 — provisional source-based plan
+# Lecture 15 — completed source-based sequence
 
 **Insect hearing II: moth ears and bat-evasion behavior (Roeder)**
 
 **Monday, September 28, 2026**
 
-Status: awaiting the five PDFs in `PAPERS.md`. This is a proposed sequence, not completed slide text or a verified figure inventory. Bibliographic verification is complete; complete close reading, source-specific claims, quantitative results, exact figure/panel choices and speaker notes remain unfinished. Every proposed focus must be checked against its full paper before becoming a slide. No PPTX has been built.
+46 slides: one title, 44 content slides, one six-point Key takeaways slide. Every content slide has an original article image; 26 carry native color. Three explanatory paragraphs appear on each content slide, with expanded teaching transcripts and DOI references in notes.
 
-Source IDs refer to `research.json`. Slides 2–45 are the 44 content slides; slide 1 uses the exact schedule title and date, and slide 46 will contain 5–6 exam-level key takeaways with bold lead phrases.
-
-| Slide | Proposed teaching focus | Primary sources to examine |
+| Slide | Teaching claim | Original article figures |
 | --- | --- | --- |
-| 2 | Ultrasound and changes in free-flight behavior | r62 |
-| 3 | Directional avoidance under weaker stimulation | r62 |
-| 4 | Escape actions under stronger stimulation | r62 |
-| 5 | Three-dimensional measurements of real attacks | e16 |
-| 6 | Evasive flight and capture outcomes | e16 |
-| 7 | Tympanic ears and reception of ultrasound | r57, m11 |
-| 8 | Membrane motion at sensory attachments | r57, m11 |
-| 9 | Acoustic afferents in the noctuid ear | r57, r64 |
-| 10 | Vibrometry at the receptor attachment site | m11 |
-| 11 | Displacement, velocity and neural thresholds | m11 |
-| 12 | Intact and dissected mechanical preparations | m11 |
-| 13 | Acoustic calibration and neural thresholds | d18 |
-| 14 | Pulse onset and apparent frequency sensitivity | d18 |
-| 15 | Very high frequency hearing in wax moths | h13 |
-| 16 | Mechanical bandwidth and neural sensitivity | h13 |
-| 17 | Membrane vibration and afferent spike generation | m11, h13 |
-| 18 | A1 and A2 threshold differences | r57, r64 |
-| 19 | Recruitment across sound intensities | r64 |
-| 20 | Afferent responses to repeated stimulation | r64 |
-| 21 | Brief pulses and temporal integration | r64 |
-| 22 | Information carried by pulse trains | r64 |
-| 23 | Thoracic interneurons receiving tympanic input | r66 |
-| 24 | Bilateral input and directional processing | r66 |
-| 25 | Transformations between afferents and interneurons | r66 |
-| 26 | Limits of inferring a causal escape circuit | r66 |
-| 27 | Call duration and auditory encoding | g18 |
-| 28 | Separating duration and intensity effects | g18 |
-| 29 | Dynamic range and inferred predator distance | g18 |
-| 30 | Call timing and available afferent signals | g18 |
-| 31 | Neural distance cues and escape decisions | g18, r66 |
-| 32 | Defensive clicking as a measurable response | risk13 |
-| 33 | Playback and field tests of threat assessment | risk13 |
-| 34 | Targeted attacks and other nearby bat calls | risk13 |
-| 35 | Attack stage and defensive risk cues | risk13 |
-| 36 | Reconstructed evasive flight trajectories | e16 |
-| 37 | Predator and prey speeds during interception | e16 |
-| 38 | Escape angle and interception geometry | e16 |
-| 39 | Radial acceleration and escape outcomes | e16 |
-| 40 | Flanking trajectories and retreat trajectories | e16 |
-| 41 | Defensive ultrasound produced by tiger moths | j09 |
-| 42 | Sound-organ silencing as an experimental control | j09 |
-| 43 | Evidence separating jamming and startle | j09 |
-| 44 | Timing of clicks and defensive responses | risk13, j09 |
-| 45 | Evidence linking hearing, neural coding and escape | r57, r64, r66, g18, e16, j09 |
+| 2 | Ultrasound changes the flight of unrestrained moths | Roeder (1962), Fig |
+| 3 | Weaker ultrasound elicits flight away from the source | Roeder (1962), Fig |
+| 4 | Stronger stimulation recruits varied diving maneuvers | Roeder (1962), Fig |
+| 5 | Three-dimensional tracking measures actual bat attacks | Corcoran & Conner (2016), Fig |
+| 6 | Evasion greatly reduces capture during aerial pursuit | Corcoran & Conner (2016), Fig; Corcoran & Conner (2016), Fig |
+| 7 | Noctuid ears connect the tympanum to sensory neurons | Roeder & Treat (1957), Fig |
+| 8 | Sensory attachments couple membrane motion to the ear | Roeder & Treat (1957), Fig |
+| 9 | Sound recruits acoustic units within the tympanic nerve | Roeder & Treat (1957), Fig; Roeder & Treat (1957), Fig |
+| 10 | Vibrometry links membrane motion to neural activity | ter Hofstede et al; Roeder & Treat (1957), Fig |
+| 11 | Displacement predicts the threshold for auditory spikes | ter Hofstede et al; Roeder & Treat (1957), Fig |
+| 12 | Dissection preserves near-threshold membrane motion | ter Hofstede et al; Roeder & Treat (1957), Fig |
+| 13 | Sound-level meters can bias pulse-duration comparisons | Thevenon & Pfuhl (2018), Fig |
+| 14 | Repetition-rate effects depend on amplitude calibration | Thevenon & Pfuhl (2018), Fig |
+| 15 | Wax-moth membranes respond across a broad bandwidth | Moir et al; Moir et al |
+| 16 | Wax-moth receptors respond at frequencies up to 300 kHz | Moir et al; Moir et al |
+| 17 | Constant displacement stabilizes A1 response latency | ter Hofstede et al; Roeder & Treat (1957), Fig |
+| 18 | A1 and A2 sample different sound-level ranges | Gordon & ter Hofstede (2018), Fig; Roeder & Treat (1957), Fig |
+| 19 | A2 extends coding after A1 activity begins to saturate | Gordon & ter Hofstede (2018), Fig; Roeder & Treat (1957), Fig |
+| 20 | A sustained tone rapidly adapts the acoustic response | Roeder & Treat (1957), Fig; Roeder & Treat (1957), Fig |
+| 21 | Stronger pulses shorten peripheral response latency | Roeder (1964), Fig; Roeder & Treat (1957), Fig |
+| 22 | Total spike count does not predict pulse effectiveness | Roeder (1964), Fig; Roeder (1964), Fig |
+| 23 | Thoracic repeaters relay the afferent burst | Roeder (1966), Fig; Roeder (1966), Fig |
+| 24 | Bilateral summation differs from a direction comparator | Roeder (1966), Fig; Roeder (1966), Fig |
+| 25 | Pulse-marker units transform bursts into single events | Roeder (1966), Fig; Roeder (1966), Fig |
+| 26 | Pulse-marker recovery depends on the afferent pattern | Roeder (1966), Fig; Roeder (1966), Fig |
+| 27 | Longer sound pulses lower A1 and A2 thresholds | Gordon & ter Hofstede (2018), Fig; Roeder & Treat (1957), Fig |
+| 28 | Short calls leave wider gaps in count-based intensity coding | Gordon & ter Hofstede (2018), Fig; Roeder & Treat (1957), Fig |
+| 29 | An A1 plateau can conceal increasing sound level | Gordon & ter Hofstede (2018), Fig; Roeder & Treat (1957), Fig |
+| 30 | Spike intervals change little within the saturation range | Gordon & ter Hofstede (2018), Fig; Roeder & Treat (1957), Fig |
+| 31 | Bat-like pulse sequences preserve individual coding gaps | Gordon & ter Hofstede (2018), Fig; Roeder & Treat (1957), Fig |
+| 32 | Approach-like sequences adapt more at higher amplitudes | Gordon & ter Hofstede (2018), Fig; Roeder & Treat (1957), Fig |
+| 33 | Clicking thresholds depend on bat-like pulse timing | Corcoran et al; Corcoran et al |
+| 34 | Targeted attacks differ acoustically from nearby attacks | Corcoran et al |
+| 35 | Field clicking begins during early-to-middle approach | Corcoran et al |
+| 36 | Rising call levels precede defensive clicking | Corcoran et al |
+| 37 | Escape does not require greater speed than the bat | Corcoran & Conner (2016), Fig |
+| 38 | Turning performance combines speed and turn radius | Corcoran & Conner (2016), Fig |
+| 39 | Sharp turns and smaller escape angles favor survival | Corcoran & Conner (2016), Fig |
+| 40 | Successful trajectories reach the bat’s flanks | Corcoran & Conner (2016), Fig; Corcoran & Conner (2016), Fig |
+| 41 | Tiger-moth tymbals produce overlapping ultrasonic clicks | Corcoran et al; Corcoran et al |
+| 42 | Silencing tymbals removes the protection from clicks | Corcoran et al; Corcoran et al |
+| 43 | Persistent protection supports jamming over startle | Corcoran et al; Corcoran et al |
+| 44 | Moth clicks disrupt the progression of an attack | Corcoran et al |
+| 45 | Hearing measurements constrain claims about escape | Moir et al; Gordon & ter Hofstede (2018), Fig |
 
-## Completion requirements after the uploads
+Title image: Moir et al. (2013), Fig. 1(a), greater wax moth.
 
-- Match uploaded papers by title, authors and DOI; read the full texts, methods, figure legends and relevant supplements. Revise or replace proposed focuses that the sources do not support. Do not infer an identified transmitter, receptor or ion channel from extracellular spike recordings alone.
-- Assign original article panels to the content slides. Aim for all 44 to have article figures, with at least 40 image slides and at least 34 primary-article figure slides. Prefer native color for at least half of the image slides where the actual evidence supports it. These are targets, not achieved counts.
-- Supply an original article animal photograph or a real credited animal photograph for the title slide. Supply appropriate anatomy wherever an ear, sensory neuron or central pathway is discussed. Crop with the repository tools, preserving axes, units, scale bars, panel letters and native colors. Never generate, redraw, replot or recolor an image.
-- Select exact panels only after visual inspection of each complete source page. Caption each article crop with author, year, figure and panel and record its DOI as `source_url`. Published model figures, if used, remain unchanged and are distinguished from measured data.
-- Write 3–5 explanatory paragraphs per content slide and complete teaching transcripts with verified references. Retain numbers that teach mechanisms; omit statistical bookkeeping. Keep measured findings and proposed explanations distinct.
-- Choose a new permitted muted palette in `course/themes.json`; all current palettes are used, so add a new palette before building. Do not mark Lecture 15 as using a theme until the deck is final.
-- Build with `tools/build_lecture.py`, satisfy `tools/check_lecture.py`, render to PDF and inspect every slide. Both uploaded comparison decks inspected in this session (Lectures 8 and 14) have images on all 44 content slides; preserve that level of image coverage and the repository's two-column layouts.
-- Deliver a tested downloadable PPTX and a viewable PDF only after all source, formatting and visual checks pass.
+Key takeaways: mechanical coupling; receptor range and timing; central transformations; escape geometry; acoustic defense; limits of the evidence.
+
+The theme is iron / cloud blue; Arial is specified throughout. No outline, agenda, objectives, preview, continued slides or created figures are present. Molecular channel and transmitter identities are not inferred from extracellular recordings. Published reanalysis and model panels retain their original content and are identified accurately.
+
+`prompts/make_lecture_15.md` preserves the reusable request prompt; image restrictions are also enforced by the repository instructions and builder.

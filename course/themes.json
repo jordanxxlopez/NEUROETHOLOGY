@@ -14,8 +14,8 @@
     "11": "warm gray / linen",
     "earlier": "purple, green and amber palettes were used in Lectures 1-6",
     "12": "pewter / pale blue",
-    "16": "espresso brown / stone gray",
-    "17": "midnight navy / silver",
+    "16": "graphite blue / ice",
+    "17": "slate blue / muted raspberry",
     "19": "petrol blue / mist",
     "21": "steel / sky",
     "1": "ink black / cherry red",
@@ -31,7 +31,10 @@
     "10_previous": "ice blue / charcoal",
     "12_previous": "cobalt / white",
     "14": "storm gray / frost",
-    "13": "taupe / frost"
+    "13": "taupe / frost",
+    "16_previous": "espresso brown / stone gray",
+    "17_previous": "midnight navy / silver",
+    "15": "iron / cloud blue"
   },
   "palettes": {
     "midnight-silver": {
@@ -280,6 +283,45 @@
       "tint": "F5F3F1",
       "accent": "958476",
       "rule": "D7D1CC"
+    },
+    "graphite-ice": {
+      "label": "graphite blue / ice",
+      "title_bg": "243642",
+      "title_text": "FFFFFF",
+      "title_muted": "C2D4DE",
+      "bg": "FFFFFF",
+      "heading": "294858",
+      "text": "27343C",
+      "muted": "5B6D77",
+      "tint": "EDF3F6",
+      "accent": "597F92",
+      "rule": "CDDAE2"
+    },
+    "slate-raspberry": {
+      "label": "slate blue / muted raspberry",
+      "title_bg": "303B4C",
+      "title_text": "FFFFFF",
+      "title_muted": "E1C7D1",
+      "bg": "FFFFFF",
+      "heading": "424E64",
+      "text": "27303C",
+      "muted": "66717E",
+      "tint": "F2F3F6",
+      "accent": "985A75",
+      "rule": "D3D8E0"
+    },
+    "iron-cloud": {
+      "label": "iron / cloud blue",
+      "title_bg": "4B5258",
+      "title_text": "FFFFFF",
+      "title_muted": "D1DFE7",
+      "bg": "FFFFFF",
+      "heading": "384E60",
+      "text": "263039",
+      "muted": "64727C",
+      "tint": "F0F4F7",
+      "accent": "697E8C",
+      "rule": "CDD8E0"
     }
   }
 }
