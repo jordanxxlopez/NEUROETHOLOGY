@@ -50,6 +50,7 @@ The builder and checker reject the banned phrasings and statistics automatically
 4. **Figures:** download each PDF into its own folder under the scratchpad, then
    `python tools/crop_figure.py paper.pdf <page> --preview p.png` → look at it →
    `python tools/crop_figure.py paper.pdf <page> --box L T R B -o lectures/L<N>/figures/<name>.png`.
+   For many panels, list them in `lectures/L<N>/crops.json` (PDF paths, page, crop box) and run `python tools/crop_panels.py lectures/L<N>/crops.json` (see `lectures/L12/crops.json`). Keep the PDFs in `lectures/L<N>/papers/` (not committed).
    Check each crop visually: no clipped labels, no fragments of neighboring panels, no stray text.
    **If the PDFs cannot be downloaded** (blocked network, paywall): do NOT draw substitutes. Give the instructor a numbered list of the papers with DOI links and ask them to upload the PDFs; build the figure slides from the uploads. Save the list as `lectures/L<N>/PAPERS.md`.
    **Web photos:** download only real photographs with a clear license (e.g. Wikimedia Commons file page); record credit, license and page URL.

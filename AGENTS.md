@@ -47,6 +47,7 @@ The builder and checker reject the banned phrasings and statistics automatically
 4. **Figures:** download each PDF into its own scratch folder outside `lectures/`, then
    `python tools/crop_figure.py paper.pdf <page> --preview p.png` → look at it →
    `python tools/crop_figure.py paper.pdf <page> --box L T R B -o lectures/L<N>/figures/<name>.png`.
+   For many panels, list them in `lectures/L<N>/crops.json` (PDF paths, page, crop box) and run `python tools/crop_panels.py lectures/L<N>/crops.json` (see `lectures/L12/crops.json`). Keep the PDFs in `lectures/L<N>/papers/` (not committed).
    Check each crop visually: no clipped labels, no fragments of neighboring panels, no stray text.
    **If the PDFs cannot be downloaded** (blocked network, paywall): do NOT draw substitutes. Give the instructor a numbered list of the papers with DOI links and ask them to upload the PDFs; build the figure slides from the uploads. Save the list as `lectures/L<N>/PAPERS.md`.
    **Web photos:** download only real photographs with a clear license (e.g. Wikimedia Commons file page); record credit, license and page URL.
@@ -77,8 +78,9 @@ pip install -r requirements.txt      # python-pptx, Pillow
 - `tools/style_rules.py` — banned framing phrases, statistics patterns and image-caption rules shared by both tools.
 - `tools/crop_figure.py` — cut figure panels from paper PDFs.
 - `lectures/_template/` — starter spec showing every layout, a transcript and a web photo.
-- `lectures/L12/` — worked example of article panels (`crop_panels.py`); built before the transcript rule.
-- `lectures/L14/PAPERS.md` — papers to upload for Lecture 14.
+- `tools/crop_panels.py` — batch-crop article panels for any lecture from `lectures/L<N>/crops.json`.
+- `lectures/L12/` — worked example (`crops.json` with 25 article panels); built before the transcript rule.
+- `lectures/L<N>/PAPERS.md` — papers needed for a lecture, with DOI links, when PDFs must be uploaded.
 - `reference/` — approved Lectures 8–11 decks.
 - `prompts/make_lecture.md` — the request prompt to paste into Claude or Codex.
 - `chatgpt/` — setup guide, Project instructions and per-lecture message for ChatGPT.
