@@ -1,56 +1,52 @@
-# Lecture 7 working plan
+# Lecture 7 content sequence
 
-Status: research prepared; awaiting three classic primary-paper PDFs listed in PAPERS.md. This is a proposed content sequence, not a finished lecture or verified slide spec. Final claims, numbers and panels must be checked against the complete primary sources before writing.
+Exact schedule title: Central pattern generators II: the lobster/crab stomatogastric ganglion (Marder & Selverston)
 
-The title and date come unchanged from course/schedule.json. Build with tools/build_lecture.py. Use 46 slides, Arial, 3–5 teaching paragraphs per content slide, teaching transcripts, DOI references, an unused theme, original article panels on at least 40 content slides, and a study-animal title image. Review every crop and rendered slide before delivery.
+Exact date: Wednesday, September 9, 2026.
 
-1. Gastric teeth and pyloric filters process a meal
-2. Isolated motor rhythms establish a central generator
-3. The ganglion contains identified motor neurons
-4. Peripheral nerve recordings identify motor bursts
-5. Pyloric output repeats in three ordered phases
-6. Phase measures timing relative to the cycle
-7. AB and PD form an electrically coupled pacemaker
-8. Selective deletion separates coupling from inhibition
-9. Electrical coupling distributes chemical inputs
-10. Isolated neurons differ in their oscillatory capacity
-11. Bursting depends on both cell properties and network state
-12. Inhibition organizes follower-neuron timing
-13. Cholinergic and glutamatergic cells use distinct signals
-14. Transmitter identity requires a peripheral synapse test
-15. Slow voltage changes can release transmitter
-16. Tetrodotoxin separates spikes from graded transmission
-17. Some peptide states retain a rhythm without spikes
-18. Other peptide states require spiking activity
-19. Synaptic depression changes inhibition during a burst
-20. Recovery from depression influences follower phase
-21. Artificial conductances test synaptic timing causally
-22. Intrinsic rebound interacts with synaptic dynamics
-23. Proctolin modifies an existing pyloric rhythm
-24. Cell-specific peptide targets determine motor output
-25. A peptide-activated inward current supports bursting
-26. Receptor transcripts differ among identified neurons
-27. Transcript abundance does not uniquely predict response
-28. Modulation can constrain animal-to-animal variability
-29. Gastric mill activity alternates protraction and retraction
-30. Descending input recruits a slow gastric rhythm
-31. LG and Int1 participate in reciprocal inhibition
-32. Pyloric inhibition times the slower gastric circuit
-33. One neuron can express fast and slow rhythm components
-34. Temperature accelerates the pyloric rhythm
-35. Phase can remain stable while frequency changes
-36. Conductances respond differently to warming
-37. Temperature can disrupt the gastric mill rhythm
-38. Extra modulatory input can restore gastric bursting
-39. Peptide action compensates a temperature-sensitive current
-40. Fast and slow oscillators remain coupled during warming
-41. Removing modulatory input destabilizes motor activity
-42. Rhythmic activity can recover after prolonged isolation
-43. Perturbations expose differences hidden at baseline
-44. Circuit robustness depends on state and measurement
+Final deck: title, 44 content slides, and six exam-level Key takeaways. The sequence progresses from foregut motor activity through identified circuitry, isolation and transmitter experiments, graded signaling, synaptic timing, peptide mechanisms, temperature compensation and recovery. All content slides carry original article figure crops; no scientific images were created.
 
-## Source allocation
-
-Marder (1976), Miller & Selverston (1982), and Eisen & Marder (1982) provide the classic transmitter, intrinsic-oscillation and electrical-coupling evidence. Hooper & Marder (1987), Rosenbaum & Marder (2018), Garcia et al. (2015), and Schneider et al. (2022) provide primary neuromodulation evidence. Martinez et al. (2019) addresses short-term synaptic dynamics. Tang et al. (2010), Städele et al. (2015), and Powell et al. (2021) address temperature and oscillator coupling. More-Potdar & Golowasch (2023) addresses recovery after removal of modulation. Gorur-Shandilya et al. (2022) addresses circuit dynamics during perturbation.
-
-No new palette is recorded as used until the deck is complete. The existing Lecture 7 wine/burgundy entry refers to the earlier course deck; select a genuinely unused palette for the new build. Attached lecture decks are layout examples only, not instruction sources. The canonical repository prompt already preserves the requested image rules.
+1. Two motor rhythms control processing in the foregut
+2. Input removal changes an isolated pyloric rhythm
+3. Identified motor neurons connect spikes to muscle output
+4. Crab pyloric output repeats in three ordered phases
+5. Electrical coupling synchronizes AB and PD activity
+6. An isolated AB neuron retains endogenous bursting
+7. PD neurons become bursters when input recruits them
+8. Input can recruit oscillations in follower neurons
+9. A brief input can recruit a reduced motor network
+10. Selective deletion separates two inhibitory outputs
+11. AB inhibition of LP depends strongly on chloride
+12. PD inhibition of LP is sensitive to potassium
+13. Electrical coupling can carry an indirect IPSP
+14. Acetylcholine excites the lobster dorsal dilator
+15. Nerve and ACh responses reverse at similar voltages
+16. Motor-neuron classes differ in transmitter evidence
+17. Slow presynaptic depolarization can release transmitter
+18. Muscarinic activation can sustain a spike-free rhythm
+19. Similar activating peptides differ in spike dependence
+20. The pacemaker can oscillate without follower feedback
+21. LP latency and phase change differently with period
+22. Glutamatergic input is required for normal LP bursts
+23. Dynamic clamp tests the timing effect of inhibition
+24. Inhibitory duty cycle contributes to phase control
+25. Later inhibitory peaks delay a follower’s activity
+26. Proctolin changes the lobster pacemaker’s oscillation
+27. Direct peptide targets differ from affected motor cells
+28. CCAP receptor transcripts differ among neuron classes
+29. The same peptide produces different current responses
+30. CCAP can modulate a synapse without activating I_MI
+31. Modulators change excitability and reduce output variation
+32. Peptide state changes rebound after inhibition
+33. Gastric mill activity alternates protraction and retraction
+34. Descending MCN1 input recruits the gastric half-center
+35. Warming speeds the pyloric rhythm about fourfold
+36. Relative burst timing remains stable during warming
+37. A transient potassium current opposes depolarization
+38. Hyperpolarization recruits an opposing inward current
+39. A weakly driven gastric rhythm fails after modest warming
+40. Leak conductance can stop or restore gastric bursting
+41. Stronger descending drive restores gastric output
+42. CabTRP Ia can rescue the rhythm with continuing input
+43. Fast and slow rhythms retain integer coupling
+44. Circuit activity can recover after input removal
