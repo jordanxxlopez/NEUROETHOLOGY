@@ -1,0 +1,1375 @@
+{
+  "lecture": 18,
+  "theme": "steel-sky",
+  "content_slides": 44,
+  "slides": [
+    {
+      "title": "Owls orient toward sounds without visual guidance",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "The barn owl, **Tyto alba**, is a nocturnal predator whose auditory system converts prey-generated sound into directed head movements. **Azimuth** is horizontal direction; **elevation** is vertical direction. Head turns provide a behavioral measure of the location the owl perceives.",
+        "Kettler and colleagues recorded head orientation while presenting sounds through earphones. At an interaural delay of 100 µs, broadband noise produced turns toward the corresponding target. A 5-kHz tone could instead elicit turns toward an alternative location in the opposite hemifield.",
+        "This **phantom source** is a localization illusion, not a second physical loudspeaker. Broadband and 1.5-kHz-wide narrowband stimuli distinguished spectral effects from a change in the imposed delay. The behavior connects auditory timing ambiguity to an observable orienting decision."
+      ],
+      "transcript": [
+        [
+          "The barn owl, Tyto alba, is a nocturnal predator whose auditory system converts prey-generated sound into directed head movements. Azimuth is horizontal direction; elevation is vertical direction. Head turns provide a behavioral measure of the location the owl perceives.",
+          [
+            "A head-turn trajectory measures the animal’s response to an auditory percept, rather than neuronal tuning itself. The earphone conditions control the acoustic difference between ears while the bird remains able to orient. The published comparisons include broadband sounds, pure tones, and narrowband noise under the same timing manipulation."
+          ]
+        ],
+        "Kettler and colleagues recorded head orientation while presenting sounds through earphones. At an interaural delay of 100 µs, broadband noise produced turns toward the corresponding target. A 5-kHz tone could instead elicit turns toward an alternative location in the opposite hemifield.",
+        "This phantom source is a localization illusion, not a second physical loudspeaker. Broadband and 1.5-kHz-wide narrowband stimuli distinguished spectral effects from a change in the imposed delay. The behavior connects auditory timing ambiguity to an observable orienting decision."
+      ],
+      "cite": "Kettler et al. (2017)",
+      "refs": [
+        "Kettler L, Griebel H, Ferger R, Wagner H (2017). Combination of Interaural Level and Time Difference in Azimuthal Sound Localization in Owls. eNeuro 4(6):ENEURO.0238-17.2017. https://doi.org/10.1523/eneuro.0238-17.2017"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/01_mod17-pdf.png",
+        "caption": "Kettler et al. (2017), Fig. 2(A–D). Head-turn trajectories for broadband, tonal, and narrowband sounds.",
+        "source_url": "https://doi.org/10.1523/eneuro.0238-17.2017"
+      }
+    },
+    {
+      "title": "The two ears supply time and level differences",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Interaural time difference**, or ITD, is the difference in sound arrival time between ears, measured in microseconds. **Interaural level difference**, or ILD, is the difference in sound pressure level, measured in decibels. Neither cue is a location label at the auditory nerve.",
+        "Kettler and colleagues used ear-canal probe microphones to measure the head’s acoustic filtering. The frontal ITD map varied chiefly with azimuth; ILD varied strongly with elevation and also contained an azimuthal component. The facial ruff and asymmetric ears contribute to this filtering.",
+        "Acoustic measurements and playback tests used directions corresponding to delays of 50, 100, and 150 µs. Natural level cues reduced timing ambiguities. The familiar association of ITD with horizontal direction and ILD with vertical direction is therefore a useful specialization, not an absolute separation of behavioral functions."
+      ],
+      "transcript": [
+        [
+          "Interaural time difference, or ITD, is the difference in sound arrival time between ears, measured in microseconds. Interaural level difference, or ILD, is the difference in sound pressure level, measured in decibels. Neither cue is a location label at the auditory nerve.",
+          [
+            "The head-related transfer function describes how the head and external ears change the level and phase of each frequency arriving from a particular direction. Measuring it close to the eardrum includes the filtering actually available to the animal. A small horizontal level component can matter when timing information admits two competing locations."
+          ]
+        ],
+        "Kettler and colleagues used ear-canal probe microphones to measure the head’s acoustic filtering. The frontal ITD map varied chiefly with azimuth; ILD varied strongly with elevation and also contained an azimuthal component. The facial ruff and asymmetric ears contribute to this filtering.",
+        "Acoustic measurements and playback tests used directions corresponding to delays of 50, 100, and 150 µs. Natural level cues reduced timing ambiguities. The familiar association of ITD with horizontal direction and ILD with vertical direction is therefore a useful specialization, not an absolute separation of behavioral functions."
+      ],
+      "cite": "Kettler et al. (2017)",
+      "refs": [
+        "Kettler L, Griebel H, Ferger R, Wagner H (2017). Combination of Interaural Level and Time Difference in Azimuthal Sound Localization in Owls. eNeuro 4(6):ENEURO.0238-17.2017. https://doi.org/10.1523/eneuro.0238-17.2017"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/02_mod17-pdf.png",
+        "caption": "Kettler et al. (2017), Fig. 1(A–D). Measured timing and level differences across acoustic space.",
+        "source_url": "https://doi.org/10.1523/eneuro.0238-17.2017"
+      }
+    },
+    {
+      "title": "Midbrain neurons respond to restricted auditory space",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "A **receptive field** is the set of stimulus conditions that changes a neuron’s activity. Knudsen and Konishi mapped auditory receptive fields by moving a loudspeaker around the head of a lightly anesthetized owl in an anechoic chamber, which minimized reflected sound.",
+        "Noise bursts lasted 100 ms and were delivered 10 dB above each unit’s threshold. Speaker positions were sampled in azimuth and elevation while extracellular spikes were recorded. A smaller **best area** was defined by the positions producing maximal rather than merely detectable responses.",
+        "Most mapped fields were vertically elongated. Their widths ranged from 7° to 40° in azimuth, with a mean of 25°. A broad response boundary and a smaller best area describe different aspects of selectivity; neither alone is a behavioral localization threshold."
+      ],
+      "transcript": [
+        [
+          "A receptive field is the set of stimulus conditions that changes a neuron’s activity. Knudsen and Konishi mapped auditory receptive fields by moving a loudspeaker around the head of a lightly anesthetized owl in an anechoic chamber, which minimized reflected sound.",
+          [
+            "An extracellular electrode detects the action potentials of a unit while the experimenter controls speaker position. The published field includes responses collected at different positions, not a spatial image received by the cochlea. The neurons were recorded in darkness, and tests with visual stimuli did not evoke the reported auditory responses."
+          ]
+        ],
+        "Noise bursts lasted 100 ms and were delivered 10 dB above each unit’s threshold. Speaker positions were sampled in azimuth and elevation while extracellular spikes were recorded. A smaller best area was defined by the positions producing maximal rather than merely detectable responses.",
+        "Most mapped fields were vertically elongated. Their widths ranged from 7° to 40° in azimuth, with a mean of 25°. A broad response boundary and a smaller best area describe different aspects of selectivity; neither alone is a behavioral localization threshold."
+      ],
+      "cite": "Knudsen & Konishi (1978)",
+      "refs": [
+        "Knudsen EI, Konishi M (1978). A Neural Map of Auditory Space in the Owl. Science 200(4343):795-797. https://doi.org/10.1126/science.644324"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/03_k78.png",
+        "caption": "Knudsen & Konishi (1978), Fig. 2. Measured receptive-field boundaries and best area.",
+        "source_url": "https://doi.org/10.1126/science.644324"
+      }
+    },
+    {
+      "title": "Midbrain neighbors represent neighboring sound locations",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Knudsen and Konishi reconstructed electrode tracks histologically and compared recording position with the center of each neuron’s best area. The auditory region was called **MLD**, nucleus mesencephalicus lateralis dorsalis, the avian homolog of the inferior colliculus.",
+        "Best-area azimuth shifted from approximately 60° contralateral in the posterolateral region to 15° ipsilateral anteromedially. Best-area elevation ranged from about +20° to −90°, with higher directions represented dorsally and lower directions ventrally. Neighboring neurons generally had overlapping receptive fields.",
+        "Tone bursts, clicks, and noise usually preserved best-area location; changing level from 10 to 30 dB above threshold also preserved its position. The orderly representation supports a computed map of auditory space rather than a simple map of acoustic frequency or overall loudness."
+      ],
+      "transcript": [
+        [
+          "Knudsen and Konishi reconstructed electrode tracks histologically and compared recording position with the center of each neuron’s best area. The auditory region was called MLD, nucleus mesencephalicus lateralis dorsalis, the avian homolog of the inferior colliculus.",
+          [
+            "Contralateral means on the side opposite the recording hemisphere; ipsilateral means on the same side. Histological lesions identified track endpoints so that receptive-field order could be matched to tissue position. The original report established an orderly physiological map, while later experiments identified the separate computations that supply its coordinates."
+          ]
+        ],
+        "Best-area azimuth shifted from approximately 60° contralateral in the posterolateral region to 15° ipsilateral anteromedially. Best-area elevation ranged from about +20° to −90°, with higher directions represented dorsally and lower directions ventrally. Neighboring neurons generally had overlapping receptive fields.",
+        "Tone bursts, clicks, and noise usually preserved best-area location; changing level from 10 to 30 dB above threshold also preserved its position. The orderly representation supports a computed map of auditory space rather than a simple map of acoustic frequency or overall loudness."
+      ],
+      "cite": "Knudsen & Konishi (1978)",
+      "refs": [
+        "Knudsen EI, Konishi M (1978). A Neural Map of Auditory Space in the Owl. Science 200(4343):795-797. https://doi.org/10.1126/science.644324"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/04_k78.png",
+        "caption": "Knudsen & Konishi (1978), Fig. 1. Ordered receptive fields and their measured midbrain locations.",
+        "source_url": "https://doi.org/10.1126/science.644324"
+      }
+    },
+    {
+      "title": "Timing and level preferences can vary independently",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "A **tuning curve** relates neuronal response to a controlled stimulus parameter. Takahashi, Moiseff, and Konishi varied ITD while holding ILD fixed, then varied ILD while holding ITD fixed, recording from space-specific midbrain neurons through calibrated earphone stimulation.",
+        "Changing the level difference over a 20-dB range did not systematically displace the timing preference. Conversely, changes in timing altered response magnitude without systematically displacing the preferred level difference. The positions of the two response peaks were separable.",
+        "Independence of preferred values does not mean that both cues are irrelevant to firing rate. A neuron can respond strongly only when both are favorable. The experiments separate how each cue is represented from how the two representations jointly determine the output."
+      ],
+      "transcript": [
+        [
+          "A tuning curve relates neuronal response to a controlled stimulus parameter. Takahashi, Moiseff, and Konishi varied ITD while holding ILD fixed, then varied ILD while holding ITD fixed, recording from space-specific midbrain neurons through calibrated earphone stimulation.",
+          [
+            "Earphones allow one binaural cue to change without the acoustically coupled changes produced by moving a real speaker. The critical observation concerns the location of the tuning peak, rather than complete invariance of all spike counts. Holding the other cue fixed tests whether one preference shifts when the other input changes."
+          ]
+        ],
+        "Changing the level difference over a 20-dB range did not systematically displace the timing preference. Conversely, changes in timing altered response magnitude without systematically displacing the preferred level difference. The positions of the two response peaks were separable.",
+        "Independence of preferred values does not mean that both cues are irrelevant to firing rate. A neuron can respond strongly only when both are favorable. The experiments separate how each cue is represented from how the two representations jointly determine the output."
+      ],
+      "cite": "Takahashi et al. (1984)",
+      "refs": [
+        "Takahashi T, Moiseff A, Konishi M (1984). Time and intensity cues are processed independently in the auditory system of the owl. The Journal of Neuroscience 4(7):1781-1786. https://doi.org/10.1523/jneurosci.04-07-01781.1984"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/05_t84.png",
+        "caption": "Takahashi et al. (1984), Fig. 4. Independent tuning to timing and level differences.",
+        "source_url": "https://doi.org/10.1523/jneurosci.04-07-01781.1984"
+      }
+    },
+    {
+      "title": "Angularis activity is necessary for normal level tuning",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Nucleus angularis**, or NA, is a cochlear nucleus receiving auditory-nerve input. Takahashi and colleagues locally injected lidocaine into NA while recording a space-specific neuron in the inferior colliculus. Lidocaine is a local anesthetic that blocks neuronal impulse conduction.",
+        "After unilateral NA inactivation, the neuron’s ILD response shifted toward the injected side’s altered effective input. In the same preparation, the ITD response peak remained essentially stable. Recovery measurements and an injection-site marker linked the change to a localized, reversible manipulation.",
+        "The selective alteration supports a level-processing pathway originating in NA. It does not imply that NA alone calculates a binaural level difference: its monaural output must subsequently be compared with information from the other ear. Local inactivation also cannot identify every downstream synapse."
+      ],
+      "transcript": [
+        [
+          "Nucleus angularis, or NA, is a cochlear nucleus receiving auditory-nerve input. Takahashi and colleagues locally injected lidocaine into NA while recording a space-specific neuron in the inferior colliculus. Lidocaine is a local anesthetic that blocks neuronal impulse conduction.",
+          [
+            "When one cochlear nucleus contributes less activity, the downstream circuit receives an unbalanced representation even though the earphone stimulus itself has not changed. The timing curve serves as a within-neuron control against a general collapse of midbrain responsiveness. Histological localization distinguishes an angularis injection from neighboring magnocellularis tissue."
+          ]
+        ],
+        "After unilateral NA inactivation, the neuron’s ILD response shifted toward the injected side’s altered effective input. In the same preparation, the ITD response peak remained essentially stable. Recovery measurements and an injection-site marker linked the change to a localized, reversible manipulation.",
+        "The selective alteration supports a level-processing pathway originating in NA. It does not imply that NA alone calculates a binaural level difference: its monaural output must subsequently be compared with information from the other ear. Local inactivation also cannot identify every downstream synapse."
+      ],
+      "cite": "Takahashi et al. (1984)",
+      "refs": [
+        "Takahashi T, Moiseff A, Konishi M (1984). Time and intensity cues are processed independently in the auditory system of the owl. The Journal of Neuroscience 4(7):1781-1786. https://doi.org/10.1523/jneurosci.04-07-01781.1984"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/06_t84.png",
+        "caption": "Takahashi et al. (1984), Fig. 1. Angularis inactivation changes level tuning while sparing time tuning.",
+        "source_url": "https://doi.org/10.1523/jneurosci.04-07-01781.1984"
+      }
+    },
+    {
+      "title": "Magnocellularis activity is necessary for normal time tuning",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Nucleus magnocellularis**, or NM, is a second cochlear nucleus receiving auditory-nerve input. Takahashi and colleagues injected lidocaine into NM and measured the same two binaural tuning dimensions used in the angularis experiments, separating neural impairment from an acoustic change.",
+        "NM inactivation altered the ITD tuning of a space-specific neuron, while its preferred ILD remained approximately unchanged. Recordings before injection, during the effect, and after recovery supplied a temporal control. Injection-site histology checked the anatomical locus of the manipulation.",
+        "The reciprocal effects of NM and NA inactivation form a **double dissociation**: disrupting one pathway selectively changes timing, whereas disrupting the other selectively changes level. This establishes functional separation at the cochlear nuclei without claiming that the final spatial response is generated by only one pathway."
+      ],
+      "transcript": [
+        [
+          "Nucleus magnocellularis, or NM, is a second cochlear nucleus receiving auditory-nerve input. Takahashi and colleagues injected lidocaine into NM and measured the same two binaural tuning dimensions used in the angularis experiments, separating neural impairment from an acoustic change.",
+          [
+            "A double dissociation is stronger than observing two kinds of tuning in separate neurons. Each intervention is evaluated against both response dimensions. The result constrains the origin of the information reaching the midbrain, while leaving open the precise transformations carried out between the cochlear nuclei and the recorded space-specific cell."
+          ]
+        ],
+        "NM inactivation altered the ITD tuning of a space-specific neuron, while its preferred ILD remained approximately unchanged. Recordings before injection, during the effect, and after recovery supplied a temporal control. Injection-site histology checked the anatomical locus of the manipulation.",
+        "The reciprocal effects of NM and NA inactivation form a double dissociation: disrupting one pathway selectively changes timing, whereas disrupting the other selectively changes level. This establishes functional separation at the cochlear nuclei without claiming that the final spatial response is generated by only one pathway."
+      ],
+      "cite": "Takahashi et al. (1984)",
+      "refs": [
+        "Takahashi T, Moiseff A, Konishi M (1984). Time and intensity cues are processed independently in the auditory system of the owl. The Journal of Neuroscience 4(7):1781-1786. https://doi.org/10.1523/jneurosci.04-07-01781.1984"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/07_t84.png",
+        "caption": "Takahashi et al. (1984), Fig. 3. Magnocellularis inactivation changes time tuning while sparing level tuning.",
+        "source_url": "https://doi.org/10.1523/jneurosci.04-07-01781.1984"
+      }
+    },
+    {
+      "title": "Distinct brainstem nuclei preserve different sound variables",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "The eighth cranial nerve carries auditory information from the cochlea into the brainstem. Carr and Konishi identified NA, NM, and **nucleus laminaris**, or NL, in transverse tissue sections. NL lies in the timing pathway downstream of bilateral NM input.",
+        "A neurofilament stain distinguished fiber-rich laminaris from neighboring nuclei and the cerebellar peduncle. Histology supplied landmarks for intracellular recording and tracer experiments, preventing recording depth alone from being treated as proof of a particular nucleus.",
+        "The anatomical separation is compatible with parallel timing and level computations, but staining does not measure what a neuron encodes. Functional assignments require the phase-locking, rate-level, binaural, and inactivation experiments that connect these structures to particular acoustic variables."
+      ],
+      "transcript": [
+        [
+          "The eighth cranial nerve carries auditory information from the cochlea into the brainstem. Carr and Konishi identified NA, NM, and nucleus laminaris, or NL, in transverse tissue sections. NL lies in the timing pathway downstream of bilateral NM input.",
+          [
+            "Auditory-nerve fibers carry both temporal and level information. Parallel nuclei need not receive completely different acoustic signals to emphasize different variables. The relevant distinction is how neurons transform their shared peripheral input. The original micrograph supplies anatomical positions and a scale bar; its labeled nuclei are experimental tissue, not an invented circuit."
+          ]
+        ],
+        "A neurofilament stain distinguished fiber-rich laminaris from neighboring nuclei and the cerebellar peduncle. Histology supplied landmarks for intracellular recording and tracer experiments, preventing recording depth alone from being treated as proof of a particular nucleus.",
+        "The anatomical separation is compatible with parallel timing and level computations, but staining does not measure what a neuron encodes. Functional assignments require the phase-locking, rate-level, binaural, and inactivation experiments that connect these structures to particular acoustic variables."
+      ],
+      "cite": "Carr & Konishi (1990)",
+      "refs": [
+        "Carr CE, Konishi M (1990). A circuit for detection of interaural time differences in the brain stem of the barn owl. The Journal of Neuroscience 10(10):3227-3246. https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/08_c90-jneuro.png",
+        "caption": "Carr & Konishi (1990), Fig. 1. Histological positions of the owl auditory brainstem nuclei.",
+        "source_url": "https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      }
+    },
+    {
+      "title": "Magnocellular spikes retain the phase of acoustic cycles",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Phase locking** means that spikes occur preferentially at a particular phase of a repeating sound waveform. Sullivan and Konishi recorded NM neurons during tonal stimulation and grouped spike times into **period histograms**, which align successive stimulus cycles.",
+        "NM neurons retained phase locking at frequencies up to 9 kHz in that study. The distributions were not identical at every frequency: spikes could occur on different cycles while remaining concentrated near a preferred position within the cycle. Timing information therefore survived without one spike per cycle.",
+        "NM rate-level functions were comparatively narrow and often changed little above spontaneous discharge. This specialization supports timing transmission to NL. A phase histogram measures temporal alignment; it does not, by itself, establish a neuron’s sensitivity to differences between the two ears."
+      ],
+      "transcript": [
+        [
+          "Phase locking means that spikes occur preferentially at a particular phase of a repeating sound waveform. Sullivan and Konishi recorded NM neurons during tonal stimulation and grouped spike times into period histograms, which align successive stimulus cycles.",
+          [
+            "A high spontaneous rate does not prevent a sound from reorganizing spike timing. A neuron can convey more temporal information without greatly increasing its average spike count. The comparison with angularis is functional: magnocellularis emphasizes phase, whereas angularis supplies a more informative rate representation of sound level."
+          ]
+        ],
+        "NM neurons retained phase locking at frequencies up to 9 kHz in that study. The distributions were not identical at every frequency: spikes could occur on different cycles while remaining concentrated near a preferred position within the cycle. Timing information therefore survived without one spike per cycle.",
+        "NM rate-level functions were comparatively narrow and often changed little above spontaneous discharge. This specialization supports timing transmission to NL. A phase histogram measures temporal alignment; it does not, by itself, establish a neuron’s sensitivity to differences between the two ears."
+      ],
+      "cite": "Sullivan & Konishi (1984)",
+      "refs": [
+        "Sullivan WE, Konishi M (1984). Segregation of stimulus phase and intensity coding in the cochlear nucleus of the barn owl. The Journal of Neuroscience 4(7):1787-1799. https://doi.org/10.1523/jneurosci.04-07-01787.1984"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/09_s84.png",
+        "caption": "Sullivan & Konishi (1984), Fig. 1(A–D). Phase-locked magnocellular spike distributions.",
+        "source_url": "https://doi.org/10.1523/jneurosci.04-07-01787.1984"
+      }
+    },
+    {
+      "title": "Angularis firing rates represent changes in sound level",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Sullivan and Konishi measured **rate-level functions**, the relation between stimulus level and spike count, in NA neurons. Compared with NM, NA typically had lower spontaneous discharge and larger increases in firing as the level of a tone rose.",
+        "Angularis responses commonly changed over more than 20 dB, often 30 dB or more. The **dynamic range** is the range of levels over which the response changes substantially. Different cells showed different slopes and saturation levels, preserving a population representation of level.",
+        "NA showed little or no phase locking at higher frequencies, although weak locking occurred below about 3.5 kHz. The contrast with NM concerns relative specialization, not perfectly exclusive coding. Monaural level-sensitive discharge provides input for later comparison between ears."
+      ],
+      "transcript": [
+        [
+          "Sullivan and Konishi measured rate-level functions, the relation between stimulus level and spike count, in NA neurons. Compared with NM, NA typically had lower spontaneous discharge and larger increases in firing as the level of a tone rose.",
+          [
+            "The two cochlear nuclei can have similar frequency selectivity while differing substantially in temporal and intensity responses. Frequency tuning therefore cannot substitute for testing rate-level and phase-locking properties. The plotted decibel scale is the original experimental level scale; it should not be relabeled as an absolute environmental sound level."
+          ]
+        ],
+        "Angularis responses commonly changed over more than 20 dB, often 30 dB or more. The dynamic range is the range of levels over which the response changes substantially. Different cells showed different slopes and saturation levels, preserving a population representation of level.",
+        "NA showed little or no phase locking at higher frequencies, although weak locking occurred below about 3.5 kHz. The contrast with NM concerns relative specialization, not perfectly exclusive coding. Monaural level-sensitive discharge provides input for later comparison between ears."
+      ],
+      "cite": "Sullivan & Konishi (1984)",
+      "refs": [
+        "Sullivan WE, Konishi M (1984). Segregation of stimulus phase and intensity coding in the cochlear nucleus of the barn owl. The Journal of Neuroscience 4(7):1787-1799. https://doi.org/10.1523/jneurosci.04-07-01787.1984"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/10_s84.png",
+        "caption": "Sullivan & Konishi (1984), Fig. 10(A–D). Angularis spike counts increase over a broad sound-level range.",
+        "source_url": "https://doi.org/10.1523/jneurosci.04-07-01787.1984"
+      }
+    },
+    {
+      "title": "Auditory-nerve phase locking reaches approximately 10 kHz",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Köppl recorded single auditory-nerve fibers with calibrated tones and compared their spike timing across frequency and sound level. **Vector strength** quantifies concentration of spike phases: values near one indicate tight phase alignment, whereas values near zero indicate dispersed phases.",
+        "Auditory-nerve phase locking extended to approximately 10 kHz. Its quality declined with frequency, but the decline included a plateau around 1.5–3 kHz. Phase organization could be detected below the level at which a clear increase in average spike rate appeared.",
+        "The peripheral temporal code supplies the brainstem with information needed for ITD processing. Detectable locking is not equivalent to equally precise locking at every frequency. Rate threshold and timing sensitivity also describe different response measurements and should not be treated as interchangeable."
+      ],
+      "transcript": [
+        [
+          "Köppl recorded single auditory-nerve fibers with calibrated tones and compared their spike timing across frequency and sound level. Vector strength quantifies concentration of spike phases: values near one indicate tight phase alignment, whereas values near zero indicate dispersed phases.",
+          [
+            "The study used ear-canal calibration for individual animals, so stimulus level was measured at the auditory input rather than inferred from a speaker setting. Vector strength compares phases across many cycles. A high-frequency neuron need not fire on every cycle to retain information about a preferred stimulus phase."
+          ]
+        ],
+        "Auditory-nerve phase locking extended to approximately 10 kHz. Its quality declined with frequency, but the decline included a plateau around 1.5–3 kHz. Phase organization could be detected below the level at which a clear increase in average spike rate appeared.",
+        "The peripheral temporal code supplies the brainstem with information needed for ITD processing. Detectable locking is not equivalent to equally precise locking at every frequency. Rate threshold and timing sensitivity also describe different response measurements and should not be treated as interchangeable."
+      ],
+      "cite": "Köppl (1997)",
+      "refs": [
+        "Köppl C (1997). Phase Locking to High Frequencies in the Auditory Nerve and Cochlear Nucleus Magnocellularis of the Barn Owl,Tyto alba. The Journal of Neuroscience 17(9):3312-3321. https://doi.org/10.1523/jneurosci.17-09-03312.1997"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/11_kop97.png",
+        "caption": "Köppl (1997), Fig. 1(A–N). Auditory-nerve phase locking at high stimulus frequencies.",
+        "source_url": "https://doi.org/10.1523/jneurosci.17-09-03312.1997"
+      }
+    },
+    {
+      "title": "The NM synapse limits some temporal precision",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Köppl obtained auditory-nerve and NM recordings in the same animals, permitting a direct comparison of temporal information before and after the first central relay. Tone frequency and level were controlled while saturated phase-locking quality was assessed.",
+        "Above approximately 1 kHz, NM vector strength was consistently lower than auditory-nerve vector strength. The comparison does not support a universal sharpening of phase locking at this relay. Both populations retained locking well into the frequency range used for owl localization.",
+        "The additional synaptic transformation can introduce temporal dispersion even in a highly specialized pathway. These recordings identify a functional limitation of transmission; they do not isolate a particular ion-channel subtype or determine whether convergence compensates for the loss at later stages."
+      ],
+      "transcript": [
+        [
+          "Köppl obtained auditory-nerve and NM recordings in the same animals, permitting a direct comparison of temporal information before and after the first central relay. Tone frequency and level were controlled while saturated phase-locking quality was assessed.",
+          [
+            "Saturated phase locking refers to the response after increasing sound level no longer improves timing alignment substantially. Comparisons at appropriate levels avoid attributing a level-dependent improvement to the relay itself. Earlier NM studies remain plotted in the original article, but the same-animal nerve-versus-NM comparison supplies the direct experimental test."
+          ]
+        ],
+        "Above approximately 1 kHz, NM vector strength was consistently lower than auditory-nerve vector strength. The comparison does not support a universal sharpening of phase locking at this relay. Both populations retained locking well into the frequency range used for owl localization.",
+        "The additional synaptic transformation can introduce temporal dispersion even in a highly specialized pathway. These recordings identify a functional limitation of transmission; they do not isolate a particular ion-channel subtype or determine whether convergence compensates for the loss at later stages."
+      ],
+      "cite": "Köppl (1997)",
+      "refs": [
+        "Köppl C (1997). Phase Locking to High Frequencies in the Auditory Nerve and Cochlear Nucleus Magnocellularis of the Barn Owl,Tyto alba. The Journal of Neuroscience 17(9):3312-3321. https://doi.org/10.1523/jneurosci.17-09-03312.1997"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/12_kop97.png",
+        "caption": "Köppl (1997), Fig. 12. Direct comparison of auditory-nerve and magnocellular phase locking.",
+        "source_url": "https://doi.org/10.1523/jneurosci.17-09-03312.1997"
+      }
+    },
+    {
+      "title": "Laminaris receives frequency-matched input from both ears",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Tonotopy** is the orderly anatomical representation of acoustic frequency. Carr and Konishi traced NM projections and recorded afferent fibers within NL. Inputs from opposite ears entered corresponding frequency regions rather than mixing all frequencies indiscriminately.",
+        "Injections into NM regions tuned near 5.5 and 7 kHz labeled different projection territories. Physiological recordings from a single NL penetration found closely matched ipsilateral and contralateral frequency tuning, including fibers encountered at depths of 1320 and 1400 µm.",
+        "Frequency matching permits comparison of the timing of corresponding waveform components. Comparing unrelated frequencies would not preserve a stable phase relation. Anatomical tracing establishes projection order, while the paired frequency-response measurements establish the functional matching needed by a timing comparator."
+      ],
+      "transcript": [
+        [
+          "Tonotopy is the orderly anatomical representation of acoustic frequency. Carr and Konishi traced NM projections and recorded afferent fibers within NL. Inputs from opposite ears entered corresponding frequency regions rather than mixing all frequencies indiscriminately.",
+          [
+            "The best frequency is the frequency producing the strongest response under the measurement conditions. The original normalized curves permit comparison of tuning shape even when absolute spike counts differ. The study also found mismatched fibers near borders, which limits any claim that every axon encountered around NL belongs to the same frequency channel."
+          ]
+        ],
+        "Injections into NM regions tuned near 5.5 and 7 kHz labeled different projection territories. Physiological recordings from a single NL penetration found closely matched ipsilateral and contralateral frequency tuning, including fibers encountered at depths of 1320 and 1400 µm.",
+        "Frequency matching permits comparison of the timing of corresponding waveform components. Comparing unrelated frequencies would not preserve a stable phase relation. Anatomical tracing establishes projection order, while the paired frequency-response measurements establish the functional matching needed by a timing comparator."
+      ],
+      "cite": "Carr & Konishi (1990)",
+      "refs": [
+        "Carr CE, Konishi M (1990). A circuit for detection of interaural time differences in the brain stem of the barn owl. The Journal of Neuroscience 10(10):3227-3246. https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/13_c90-jneuro.png",
+        "caption": "Carr & Konishi (1990), Fig. 3(A–D). Frequency-matched bilateral inputs to nucleus laminaris.",
+        "source_url": "https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      }
+    },
+    {
+      "title": "NM axons enter laminaris from opposite borders",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Carr and Konishi injected **horseradish peroxidase**, or HRP, into NM and followed labeled axons through serial brain sections. HRP is a tracer that permits projection pathways to be visualized after a histochemical reaction.",
+        "An NM neuron sends branches to NL on both sides. Ipsilateral afferents approach the dorsal border, whereas contralateral afferents approach the ventral border. The published reconstruction preserves this opposing arrangement and includes a 1-mm scale bar.",
+        "Opposing entry directions supply an anatomical basis for position-dependent differences in arrival time. The tracing identifies axonal paths, not conduction speed. A functioning **delay line**, a pathway whose travel time changes with position, also requires physiological evidence of orderly timing differences."
+      ],
+      "transcript": [
+        [
+          "Carr and Konishi injected horseradish peroxidase, or HRP, into NM and followed labeled axons through serial brain sections. HRP is a tracer that permits projection pathways to be visualized after a histochemical reaction.",
+          [
+            "The original authors reconstructed three-dimensional arbors across serial sections and adjusted their projection onto the published two-dimensional view. The drawing is their published anatomical result, cropped unchanged from the article. Its geometry should not be interpreted as an exact flattened measurement of every branch length or physical separation."
+          ]
+        ],
+        "An NM neuron sends branches to NL on both sides. Ipsilateral afferents approach the dorsal border, whereas contralateral afferents approach the ventral border. The published reconstruction preserves this opposing arrangement and includes a 1-mm scale bar.",
+        "Opposing entry directions supply an anatomical basis for position-dependent differences in arrival time. The tracing identifies axonal paths, not conduction speed. A functioning delay line, a pathway whose travel time changes with position, also requires physiological evidence of orderly timing differences."
+      ],
+      "cite": "Carr & Konishi (1990)",
+      "refs": [
+        "Carr CE, Konishi M (1990). A circuit for detection of interaural time differences in the brain stem of the barn owl. The Journal of Neuroscience 10(10):3227-3246. https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/14_c90-jneuro.png",
+        "caption": "Carr & Konishi (1990), Fig. 2. Published traced magnocellular axons entering laminaris from opposite borders.",
+        "source_url": "https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      }
+    },
+    {
+      "title": "Input spike timing changes systematically through laminaris",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Carr and Konishi recorded phase-locked NM afferents at different depths within NL. They stimulated one ear with a tone and measured the mean phase of the resulting intracellularly recorded spikes, testing whether conduction time changed along the projection.",
+        "At 4 kHz, the tonal period was 250 µs; at 5.5 kHz it was approximately 182 µs. Mean phase changed regularly with depth. In a 7-kHz region, abrupt apparent phase jumps corresponded to crossing into the next stimulus cycle.",
+        "**Phase wrapping** occurs because phase repeats after a complete cycle even when physical delay continues increasing. The data support orderly neural delays rather than independent random timing at each site. Reading phase alone without recognizing cycle repetition would misidentify these continuous gradients."
+      ],
+      "transcript": [
+        [
+          "Carr and Konishi recorded phase-locked NM afferents at different depths within NL. They stimulated one ear with a tone and measured the mean phase of the resulting intracellularly recorded spikes, testing whether conduction time changed along the projection.",
+          [
+            "The physiological measurement concerns the arrival time of afferent spikes, not the external arrival time of sound at the ears. A longer axonal travel path shifts spike phase systematically. At a high enough stimulus frequency, a real delay can span more than one cycle, requiring the authors to track the neighboring cycle."
+          ]
+        ],
+        "At 4 kHz, the tonal period was 250 µs; at 5.5 kHz it was approximately 182 µs. Mean phase changed regularly with depth. In a 7-kHz region, abrupt apparent phase jumps corresponded to crossing into the next stimulus cycle.",
+        "Phase wrapping occurs because phase repeats after a complete cycle even when physical delay continues increasing. The data support orderly neural delays rather than independent random timing at each site. Reading phase alone without recognizing cycle repetition would misidentify these continuous gradients."
+      ],
+      "cite": "Carr & Konishi (1990)",
+      "refs": [
+        "Carr CE, Konishi M (1990). A circuit for detection of interaural time differences in the brain stem of the barn owl. The Journal of Neuroscience 10(10):3227-3246. https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/15_c90-jneuro.png",
+        "caption": "Carr & Konishi (1990), Fig. 7(A–C). Input spike phase changes systematically with recording depth.",
+        "source_url": "https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      }
+    },
+    {
+      "title": "Opposed delay gradients support binaural coincidence",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Within a common frequency region, Carr and Konishi found that ipsilateral afferent delay increased with recording depth while contralateral delay decreased. Intracellular recordings distinguished the two input populations during separate stimulation of the ears.",
+        "Across NL’s approximately 700-µm depth, conduction time changed by about 160 µs for frequencies between 4 and 7.5 kHz. Similar delay ranges across frequency channels support comparison of common external timing differences rather than unrelated phase preferences.",
+        "At a particular position, an external ITD can compensate for the difference in internal path delays. The two spike trains then arrive together. This spatially ordered compensation explains how a physical time difference can be represented by the location of strongly activated NL neurons."
+      ],
+      "transcript": [
+        [
+          "Within a common frequency region, Carr and Konishi found that ipsilateral afferent delay increased with recording depth while contralateral delay decreased. Intracellular recordings distinguished the two input populations during separate stimulation of the ears.",
+          [
+            "The original Figure 8A contains paired gradients from multiple penetrations. The plotted time axes preserve the authors’ conversion of phase to delay. A coincidence detector responds to arrival times after both external acoustic travel and internal neural conduction have contributed; changing either contribution can change the favored ITD."
+          ]
+        ],
+        "Across NL’s approximately 700-µm depth, conduction time changed by about 160 µs for frequencies between 4 and 7.5 kHz. Similar delay ranges across frequency channels support comparison of common external timing differences rather than unrelated phase preferences.",
+        "At a particular position, an external ITD can compensate for the difference in internal path delays. The two spike trains then arrive together. This spatially ordered compensation explains how a physical time difference can be represented by the location of strongly activated NL neurons."
+      ],
+      "cite": "Carr & Konishi (1990)",
+      "refs": [
+        "Carr CE, Konishi M (1990). A circuit for detection of interaural time differences in the brain stem of the barn owl. The Journal of Neuroscience 10(10):3227-3246. https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/16_c90-jneuro.png",
+        "caption": "Carr & Konishi (1990), Fig. 8(A). Opposed timing gradients in ipsilateral and contralateral afferents.",
+        "source_url": "https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      }
+    },
+    {
+      "title": "Short myelin internodes can contribute to slow conduction",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "A **myelin internode** is the insulated axonal segment between successive nodes where impulse propagation is renewed. Carr and Konishi measured internodal spacing in HRP-labeled NM axons inside and outside NL, comparing anatomy with physiological delay gradients.",
+        "Internodes within NL were about 60 µm long and more regularly spaced than many segments outside the nucleus. The physiological estimates placed local conduction velocity around 3–5 m/s. Published micrographs identify nodes at branch points and along axon segments.",
+        "The authors proposed that short internodes help regulate the slow propagation needed for delay lines. The spacing measurements and timing gradients are established observations; the causal contribution of internodal length was not tested by selectively changing myelination while recording conduction speed."
+      ],
+      "transcript": [
+        [
+          "A myelin internode is the insulated axonal segment between successive nodes where impulse propagation is renewed. Carr and Konishi measured internodal spacing in HRP-labeled NM axons inside and outside NL, comparing anatomy with physiological delay gradients.",
+          [
+            "Nodes are interruptions of the myelin sheath, and nodal spacing is one anatomical contributor to impulse propagation. The experiment does not establish a particular sodium- or potassium-channel density at each node. Its interpretation combines measured axonal anatomy with measured conduction delays while keeping that mechanistic inference separate from direct intervention."
+          ]
+        ],
+        "Internodes within NL were about 60 µm long and more regularly spaced than many segments outside the nucleus. The physiological estimates placed local conduction velocity around 3–5 m/s. Published micrographs identify nodes at branch points and along axon segments.",
+        "The authors proposed that short internodes help regulate the slow propagation needed for delay lines. The spacing measurements and timing gradients are established observations; the causal contribution of internodal length was not tested by selectively changing myelination while recording conduction speed."
+      ],
+      "cite": "Carr & Konishi (1990)",
+      "refs": [
+        "Carr CE, Konishi M (1990). A circuit for detection of interaural time differences in the brain stem of the barn owl. The Journal of Neuroscience 10(10):3227-3246. https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/17_c90-jneuro.png",
+        "caption": "Carr & Konishi (1990), Fig. 10(A–C). Short myelin internodes within laminaris and labeled axons.",
+        "source_url": "https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      }
+    },
+    {
+      "title": "Laminaris detects bilateral spike coincidence",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Coincidence detection** is enhanced firing when two inputs arrive within a short interval. Carr and Konishi recorded NL neurons intracellularly, first stimulating each ear separately and then varying ITD during binaural stimulation.",
+        "For a neuron tested at 4409 Hz, monaural response phases were approximately 338° and 294°. A favorable delay of 30 µs, with the contralateral ear leading, increased the recorded response to 1107 spikes, compared with 393 and 360 for the separate-ear conditions.",
+        "The same neuron responded much less at unfavorable delays. The binaural enhancement therefore depended on relative timing rather than simply the presence of two sounds. Across the study, favorable binaural responses were roughly twice monaural responses, consistent with coincidence-sensitive integration."
+      ],
+      "transcript": [
+        [
+          "Coincidence detection is enhanced firing when two inputs arrive within a short interval. Carr and Konishi recorded NL neurons intracellularly, first stimulating each ear separately and then varying ITD during binaural stimulation.",
+          [
+            "The displayed totals come from the published stimulus-repetition protocol and are not firing rates in spikes per second. Separate-ear histograms supply a prediction of which delay aligns the inputs; the binaural delay curve tests that prediction. Intracellular recording avoids confusing the strong population field potential in NL with a single neuron’s spikes."
+          ]
+        ],
+        "For a neuron tested at 4409 Hz, monaural response phases were approximately 338° and 294°. A favorable delay of 30 µs, with the contralateral ear leading, increased the recorded response to 1107 spikes, compared with 393 and 360 for the separate-ear conditions.",
+        "The same neuron responded much less at unfavorable delays. The binaural enhancement therefore depended on relative timing rather than simply the presence of two sounds. Across the study, favorable binaural responses were roughly twice monaural responses, consistent with coincidence-sensitive integration."
+      ],
+      "cite": "Carr & Konishi (1990)",
+      "refs": [
+        "Carr CE, Konishi M (1990). A circuit for detection of interaural time differences in the brain stem of the barn owl. The Journal of Neuroscience 10(10):3227-3246. https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/18_c90-jneuro.png",
+        "caption": "Carr & Konishi (1990), Fig. 13(A–D). Monaural and binaural spikes in a coincidence-detecting neuron.",
+        "source_url": "https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      }
+    },
+    {
+      "title": "A narrow frequency channel represents time ambiguously",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "NL neurons receive frequency-selective, phase-locked inputs. With a tone, the same phase alignment recurs whenever the interaural delay changes by a whole stimulus period. Carr and Konishi measured periodic firing peaks across a range of imposed delays.",
+        "The delay curves differed in preferred timing and modulation depth, but their repeated maxima were consistent with the frequency of the stimulus. At 4 kHz, the 250-µs period gives repeated opportunities for alignment, including delays beyond the strongest peak near the physiological range.",
+        "**Phase ambiguity** is this inability of a single narrowband channel to identify one unique ITD from its firing rate. Precise coincidence detection and an unambiguous estimate of sound direction are different computations. Later integration must distinguish the true timing relation from repeated phase matches."
+      ],
+      "transcript": [
+        [
+          "NL neurons receive frequency-selective, phase-locked inputs. With a tone, the same phase alignment recurs whenever the interaural delay changes by a whole stimulus period. Carr and Konishi measured periodic firing peaks across a range of imposed delays.",
+          [
+            "The original curves also preserve monaural response markers and spontaneous levels. Responses at unfavorable binaural timing could fall below the monaural level, so the entire curve cannot be explained by simple summation of two independent firing rates. Repeated response peaks reflect waveform periodicity rather than multiple real sound sources."
+          ]
+        ],
+        "The delay curves differed in preferred timing and modulation depth, but their repeated maxima were consistent with the frequency of the stimulus. At 4 kHz, the 250-µs period gives repeated opportunities for alignment, including delays beyond the strongest peak near the physiological range.",
+        "Phase ambiguity is this inability of a single narrowband channel to identify one unique ITD from its firing rate. Precise coincidence detection and an unambiguous estimate of sound direction are different computations. Later integration must distinguish the true timing relation from repeated phase matches."
+      ],
+      "cite": "Carr & Konishi (1990)",
+      "refs": [
+        "Carr CE, Konishi M (1990). A circuit for detection of interaural time differences in the brain stem of the barn owl. The Journal of Neuroscience 10(10):3227-3246. https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/19_c90-jneuro.png",
+        "caption": "Carr & Konishi (1990), Fig. 12. Periodic interaural-delay response curves of laminaris neurons.",
+        "source_url": "https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+      }
+    },
+    {
+      "title": "Collicular arrays conserve timing across frequency channels",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Wagner, Takahashi, and Konishi recorded neurons while advancing an electrode through the central nucleus of the inferior colliculus, or **ICC**. Individual cells were narrowly frequency tuned and had periodic ITD response curves.",
+        "One penetration sampled best frequencies from approximately 2100 to 6700 Hz. Despite different peak spacings, its neurons shared an **array-specific ITD** at which their relative responses aligned. Mean interaural phase changed systematically with frequency across the array.",
+        "An **array** is a group of neurons arranged across frequency laminae with a common timing relation. Convergence from such an array can supply a downstream neuron with agreement across frequencies at one delay, even when each contributing channel remains individually ambiguous."
+      ],
+      "transcript": [
+        [
+          "Wagner, Takahashi, and Konishi recorded neurons while advancing an electrode through the central nucleus of the inferior colliculus, or ICC. Individual cells were narrowly frequency tuned and had periodic ITD response curves.",
+          [
+            "The curves are normalized to each recording’s maximum, so alignment refers to relative response levels rather than identical absolute firing. The study compared single-unit and multi-unit recordings and found closely matching peak positions. A preferred phase for one frequency is insufficient to identify the array-specific ITD without the cross-frequency relation."
+          ]
+        ],
+        "One penetration sampled best frequencies from approximately 2100 to 6700 Hz. Despite different peak spacings, its neurons shared an array-specific ITD at which their relative responses aligned. Mean interaural phase changed systematically with frequency across the array.",
+        "An array is a group of neurons arranged across frequency laminae with a common timing relation. Convergence from such an array can supply a downstream neuron with agreement across frequencies at one delay, even when each contributing channel remains individually ambiguous."
+      ],
+      "cite": "Wagner et al. (1987)",
+      "refs": [
+        "Wagner H, Takahashi T, Konishi M (1987). Representation of interaural time difference in the central nucleus of the barn owl's inferior colliculus. The Journal of Neuroscience 7(10):3105-3116. https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/20_w87-jneuro.png",
+        "caption": "Wagner et al. (1987), Fig. 1(A–B). Frequency channels in one neuronal array share a timing preference.",
+        "source_url": "https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      }
+    },
+    {
+      "title": "Frequency changes systematically along a collicular array",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "An **isofrequency lamina** is a sheet of neurons with similar frequency tuning. Wagner and colleagues used dorsoventral electrode penetrations through ICC to sample multiple laminae and establish the anatomical orientation of the physiological arrays.",
+        "In a representative penetration, best frequency rose monotonically with depth from approximately 500 Hz to 10 kHz. This organization provided the frequency diversity needed to test whether different channels share a common delay rather than merely a common preferred phase.",
+        "The recording trajectory crossed frequency laminae; it did not trace one neuron’s dendrite through every channel. The observed tonotopy establishes the organization of the sampled population. Connectivity to the external nucleus requires separate tracer measurements rather than an inference from adjacent recording sites alone."
+      ],
+      "transcript": [
+        [
+          "An isofrequency lamina is a sheet of neurons with similar frequency tuning. Wagner and colleagues used dorsoventral electrode penetrations through ICC to sample multiple laminae and establish the anatomical orientation of the physiological arrays.",
+          [
+            "A shared delay produces different preferred phase values at different frequencies, because each waveform has a different period. Sampling a broad frequency range makes that relation testable. Electrode depth supplies an anatomical coordinate, while the measured frequency at each site provides the functional coordinate of the lamina."
+          ]
+        ],
+        "In a representative penetration, best frequency rose monotonically with depth from approximately 500 Hz to 10 kHz. This organization provided the frequency diversity needed to test whether different channels share a common delay rather than merely a common preferred phase.",
+        "The recording trajectory crossed frequency laminae; it did not trace one neuron’s dendrite through every channel. The observed tonotopy establishes the organization of the sampled population. Connectivity to the external nucleus requires separate tracer measurements rather than an inference from adjacent recording sites alone."
+      ],
+      "cite": "Wagner et al. (1987)",
+      "refs": [
+        "Wagner H, Takahashi T, Konishi M (1987). Representation of interaural time difference in the central nucleus of the barn owl's inferior colliculus. The Journal of Neuroscience 7(10):3105-3116. https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/21_w87-jneuro.png",
+        "caption": "Wagner et al. (1987), Fig. 4. Best frequency varies with depth through an array.",
+        "source_url": "https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      }
+    },
+    {
+      "title": "Array-specific delays form an ordered central-nucleus map",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Wagner and colleagues compared ITD-frequency relations across seven penetrations whose positions were reconstructed histologically. Each penetration contained an array, but the slope of its phase-frequency relation differed from slopes in neighboring arrays.",
+        "Mean interaural phase was plotted against frequencies up to approximately 8 kHz. The different slopes identified different array-specific delays. Their orderly change across ICC established a map of timing preference superimposed on the frequency organization.",
+        "This representation is not yet the full two-dimensional map of external sound direction. It is a map of a computed binaural timing variable distributed across frequency channels. ILD selectivity and broader integration are needed to produce the restricted spatial receptive fields of the external nucleus."
+      ],
+      "transcript": [
+        [
+          "Wagner and colleagues compared ITD-frequency relations across seven penetrations whose positions were reconstructed histologically. Each penetration contained an array, but the slope of its phase-frequency relation differed from slopes in neighboring arrays.",
+          [
+            "The characteristic delay is the delay associated with a frequency-dependent phase relation. The original authors distinguished a neuron exhibiting such a relation across tests from its ability to signal an unambiguous delay in a single narrowband response. Population organization can preserve the relation even when each cell’s rate curve repeats."
+          ]
+        ],
+        "Mean interaural phase was plotted against frequencies up to approximately 8 kHz. The different slopes identified different array-specific delays. Their orderly change across ICC established a map of timing preference superimposed on the frequency organization.",
+        "This representation is not yet the full two-dimensional map of external sound direction. It is a map of a computed binaural timing variable distributed across frequency channels. ILD selectivity and broader integration are needed to produce the restricted spatial receptive fields of the external nucleus."
+      ],
+      "cite": "Wagner et al. (1987)",
+      "refs": [
+        "Wagner H, Takahashi T, Konishi M (1987). Representation of interaural time difference in the central nucleus of the barn owl's inferior colliculus. The Journal of Neuroscience 7(10):3105-3116. https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/22_w87-jneuro.png",
+        "caption": "Wagner et al. (1987), Fig. 9. Systematic differences in array-specific timing across penetrations.",
+        "source_url": "https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      }
+    },
+    {
+      "title": "ICx receives inputs with matching timing preferences",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "The **external nucleus of the inferior colliculus**, or ICx, contains space-specific neurons. Wagner and colleagues recorded timing preference at an ICx site, injected HRP there, and located retrogradely labeled neurons in ICC.",
+        "Labeled somata occupied an array crossing frequency laminae. Nearby physiological measurements in ICC shared the timing preference measured at the injection site. The published example includes a −120-µs array-specific relation and a 1-mm anatomical scale bar.",
+        "**Retrograde tracing** identifies neurons projecting toward the injection region. Matching tracer distribution with measured tuning supports convergence from an appropriate ICC array to a localized ICx region. It does not establish the synaptic weight or connectivity of every labeled neuron to one particular recorded cell."
+      ],
+      "transcript": [
+        [
+          "The external nucleus of the inferior colliculus, or ICx, contains space-specific neurons. Wagner and colleagues recorded timing preference at an ICx site, injected HRP there, and located retrogradely labeled neurons in ICC.",
+          [
+            "The experiment combines two independent kinds of evidence: physiological cue tuning and anatomical projection labeling. An injection region can encompass more than one cell, so the result concerns a restricted target region rather than a complete single-cell wiring diagram. The preserved original sections and response curves retain that distinction."
+          ]
+        ],
+        "Labeled somata occupied an array crossing frequency laminae. Nearby physiological measurements in ICC shared the timing preference measured at the injection site. The published example includes a −120-µs array-specific relation and a 1-mm anatomical scale bar.",
+        "Retrograde tracing identifies neurons projecting toward the injection region. Matching tracer distribution with measured tuning supports convergence from an appropriate ICC array to a localized ICx region. It does not establish the synaptic weight or connectivity of every labeled neuron to one particular recorded cell."
+      ],
+      "cite": "Wagner et al. (1987)",
+      "refs": [
+        "Wagner H, Takahashi T, Konishi M (1987). Representation of interaural time difference in the central nucleus of the barn owl's inferior colliculus. The Journal of Neuroscience 7(10):3105-3116. https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/23_w87-jneuro.png",
+        "caption": "Wagner et al. (1987), Fig. 6(A–B). Physiological timing preferences matched to retrogradely labeled arrays.",
+        "source_url": "https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      }
+    },
+    {
+      "title": "Projection position shifts with the target’s timing preference",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Wagner and colleagues repeated retrograde labeling at ICx sites with different timing preferences. They counted labeled ICC somata as a function of distance from the posterior end of the colliculus, testing whether projection origins moved systematically.",
+        "The ICx injection sites preferred delays of 120, 90, and 60 µs with the contralateral ear leading, or 15 µs with the ipsilateral ear leading. The distributions of labeled cells shifted with these target preferences rather than remaining at one fixed ICC position.",
+        "The covariation supports an ordered transformation from an ICC timing map into the horizontal coordinate of the ICx space map. Cell-count distributions locate projection populations; their height does not directly report synaptic strength, firing rate, or the probability of a behavioral turn."
+      ],
+      "transcript": [
+        [
+          "Wagner and colleagues repeated retrograde labeling at ICx sites with different timing preferences. They counted labeled ICC somata as a function of distance from the posterior end of the colliculus, testing whether projection origins moved systematically.",
+          [
+            "A target with a different preferred timing cue receives input from a differently positioned array. Frequency convergence can therefore preserve one timing relation while passing through the broad set of frequencies represented in that array. This anatomical selectivity is compatible with the physiological absence of strong phase ambiguity for broadband ICx stimulation."
+          ]
+        ],
+        "The ICx injection sites preferred delays of 120, 90, and 60 µs with the contralateral ear leading, or 15 µs with the ipsilateral ear leading. The distributions of labeled cells shifted with these target preferences rather than remaining at one fixed ICC position.",
+        "The covariation supports an ordered transformation from an ICC timing map into the horizontal coordinate of the ICx space map. Cell-count distributions locate projection populations; their height does not directly report synaptic strength, firing rate, or the probability of a behavioral turn."
+      ],
+      "cite": "Wagner et al. (1987)",
+      "refs": [
+        "Wagner H, Takahashi T, Konishi M (1987). Representation of interaural time difference in the central nucleus of the barn owl's inferior colliculus. The Journal of Neuroscience 7(10):3105-3116. https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/24_w87-jneuro.png",
+        "caption": "Wagner et al. (1987), Fig. 7. Projection position shifts with timing preference at the injection site.",
+        "source_url": "https://doi.org/10.1523/jneurosci.07-10-03105.1987"
+      }
+    },
+    {
+      "title": "Broadband input suppresses repeated peaks in ICx",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Takahashi and Konishi compared ICx delay curves evoked by a tone at the neuron’s best frequency with curves evoked by broadband noise. A tone contains a repeated cycle, whereas broadband noise supplies multiple frequency components with different periods.",
+        "Tonal stimulation commonly produced a principal peak and repeated secondary peaks. Noise greatly reduced the secondary responses while preserving the timing near the principal peak. The comparison was performed within the same neuron, holding recording site constant.",
+        "Cross-frequency agreement is strongest at the actual delay shared by the broadband components. This supports convergence as part of ambiguity resolution, but spectral convergence alone does not establish every source of suppression. Level controls, response nonlinearities, and later inhibitory manipulations constrain the mechanism more directly."
+      ],
+      "transcript": [
+        [
+          "Takahashi and Konishi compared ICx delay curves evoked by a tone at the neuron’s best frequency with curves evoked by broadband noise. A tone contains a repeated cycle, whereas broadband noise supplies multiple frequency components with different periods.",
+          [
+            "The best frequency describes the channel most effective for that neuron; broadband input recruits additional channels. The authors compared response levels for tones and noise because a weaker tone could otherwise create an apparent difference in selectivity merely by lowering firing. The neural output becomes less ambiguous when independent spectral components agree."
+          ]
+        ],
+        "Tonal stimulation commonly produced a principal peak and repeated secondary peaks. Noise greatly reduced the secondary responses while preserving the timing near the principal peak. The comparison was performed within the same neuron, holding recording site constant.",
+        "Cross-frequency agreement is strongest at the actual delay shared by the broadband components. This supports convergence as part of ambiguity resolution, but spectral convergence alone does not establish every source of suppression. Level controls, response nonlinearities, and later inhibitory manipulations constrain the mechanism more directly."
+      ],
+      "cite": "Takahashi & Konishi (1986)",
+      "refs": [
+        "Takahashi T, Konishi M (1986). Selectivity for interaural time difference in the owl's midbrain. The Journal of Neuroscience 6(12):3413-3422. https://doi.org/10.1523/jneurosci.06-12-03413.1986"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/25_t86.png",
+        "caption": "Takahashi & Konishi (1986), Fig. 7(A–C). Broadband stimulation suppresses the secondary peaks present for tones.",
+        "source_url": "https://doi.org/10.1523/jneurosci.06-12-03413.1986"
+      }
+    },
+    {
+      "title": "Two-tone stimulation tests cross-frequency convergence",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Takahashi and Konishi presented two tones individually and together while varying ITD. The tones were selected within a neuron’s frequency-response range, permitting a controlled test of integration rather than comparing one tone with an unrestricted noise spectrum.",
+        "In the published examples, tones near 7 and 8 kHz generated differently spaced delay peaks. Their joint presentation favored the common principal delay and altered secondary responses. The combined response was compared with the responses to each component alone.",
+        "This preparation tests whether timing evidence from different frequency channels interacts at a space-specific neuron. It supports a convergence mechanism but does not prove linear addition or identify each presynaptic source. The final selectivity can include inhibitory and spike-generation nonlinearities as well as excitatory agreement."
+      ],
+      "transcript": [
+        [
+          "Takahashi and Konishi presented two tones individually and together while varying ITD. The tones were selected within a neuron’s frequency-response range, permitting a controlled test of integration rather than comparing one tone with an unrestricted noise spectrum.",
+          [
+            "Two tones share a true imposed interaural delay while their repeated phase matches occur at different delays. Component-only conditions supply the control needed to distinguish spectral integration from simply increasing the sound level. The source article analyzes how the joint response compares with the expected combination of the separate component responses."
+          ]
+        ],
+        "In the published examples, tones near 7 and 8 kHz generated differently spaced delay peaks. Their joint presentation favored the common principal delay and altered secondary responses. The combined response was compared with the responses to each component alone.",
+        "This preparation tests whether timing evidence from different frequency channels interacts at a space-specific neuron. It supports a convergence mechanism but does not prove linear addition or identify each presynaptic source. The final selectivity can include inhibitory and spike-generation nonlinearities as well as excitatory agreement."
+      ],
+      "cite": "Takahashi & Konishi (1986)",
+      "refs": [
+        "Takahashi T, Konishi M (1986). Selectivity for interaural time difference in the owl's midbrain. The Journal of Neuroscience 6(12):3413-3422. https://doi.org/10.1523/jneurosci.06-12-03413.1986"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/26_t86.png",
+        "caption": "Takahashi & Konishi (1986), Fig. 9(A–C). Two-tone responses test convergence across frequency channels.",
+        "source_url": "https://doi.org/10.1523/jneurosci.06-12-03413.1986"
+      }
+    },
+    {
+      "title": "Secondary peaks are reduced rather than universally absent",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Takahashi and Konishi quantified the strongest secondary response relative to the principal response during broadband stimulation. The **secondary-to-primary peak ratio** describes residual ambiguity, with a ratio near one indicating similarly strong competing peaks.",
+        "The published distribution spans approximately zero to one, with many neurons retaining a substantial but smaller secondary response. Broadband selectivity therefore varied across ICx cells rather than forming a perfectly uniform all-or-none solution.",
+        "Population firing, inhibitory sharpening, and output thresholds can reduce the impact of residual peaks. A low peak ratio is evidence of improved single-cell selectivity; it is not a direct measurement of the probability that an owl will orient toward a phantom source under every listening condition."
+      ],
+      "transcript": [
+        [
+          "Takahashi and Konishi quantified the strongest secondary response relative to the principal response during broadband stimulation. The secondary-to-primary peak ratio describes residual ambiguity, with a ratio near one indicating similarly strong competing peaks.",
+          [
+            "The principal peak is identified by its relation to the neuron’s characteristic delay, while the secondary peak is a different local maximum. The ratio measures relative response within one neuron and should not be interpreted as a response rate. Neural suppression and behavioral disambiguation are related, but they require different experimental readouts."
+          ]
+        ],
+        "The published distribution spans approximately zero to one, with many neurons retaining a substantial but smaller secondary response. Broadband selectivity therefore varied across ICx cells rather than forming a perfectly uniform all-or-none solution.",
+        "Population firing, inhibitory sharpening, and output thresholds can reduce the impact of residual peaks. A low peak ratio is evidence of improved single-cell selectivity; it is not a direct measurement of the probability that an owl will orient toward a phantom source under every listening condition."
+      ],
+      "cite": "Takahashi & Konishi (1986)",
+      "refs": [
+        "Takahashi T, Konishi M (1986). Selectivity for interaural time difference in the owl's midbrain. The Journal of Neuroscience 6(12):3413-3422. https://doi.org/10.1523/jneurosci.06-12-03413.1986"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/27_t86.png",
+        "caption": "Takahashi & Konishi (1986), Fig. 6. Distribution of secondary-to-primary peak response ratios.",
+        "source_url": "https://doi.org/10.1523/jneurosci.06-12-03413.1986"
+      }
+    },
+    {
+      "title": "VLVp combines excitation from one ear with inhibition",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**VLVp**, the posterior part of the ventral nucleus of the lateral lemniscus, is an early binaural station in the level pathway. Manley, Köppl, and Konishi recorded its responses while independently changing sound levels at the two ears.",
+        "Contralateral stimulation excited VLVp cells; ipsilateral stimulation inhibited them. Dorsal, intermediate, and ventral sites differed in inhibitory strength. The published examples include a strongly inhibited dorsal cell at 7.9 kHz and an intermediate cell with approximately 60% inhibition at 8.6 kHz.",
+        "Varying ILD while holding average binaural level constant separated interaural balance from overall loudness. These largely monotonic response functions supply a graded code for level disparity. They should not be equated with the sharply peaked ILD tuning that emerges at later collicular stages."
+      ],
+      "transcript": [
+        [
+          "VLVp, the posterior part of the ventral nucleus of the lateral lemniscus, is an early binaural station in the level pathway. Manley, Köppl, and Konishi recorded its responses while independently changing sound levels at the two ears.",
+          [
+            "Monotonic means that response changes mainly in one direction as the cue increases across the tested range. The same binaural difference can be produced at several absolute levels, so testing multiple average levels assesses how robust the response is to source intensity. VLVp contributes an intermediate representation rather than a complete spatial receptive field."
+          ]
+        ],
+        "Contralateral stimulation excited VLVp cells; ipsilateral stimulation inhibited them. Dorsal, intermediate, and ventral sites differed in inhibitory strength. The published examples include a strongly inhibited dorsal cell at 7.9 kHz and an intermediate cell with approximately 60% inhibition at 8.6 kHz.",
+        "Varying ILD while holding average binaural level constant separated interaural balance from overall loudness. These largely monotonic response functions supply a graded code for level disparity. They should not be equated with the sharply peaked ILD tuning that emerges at later collicular stages."
+      ],
+      "cite": "Manley et al. (1988)",
+      "refs": [
+        "Manley GA, Köppl C, Konishi M (1988). A neural map of interaural intensity differences in the brain stem of the barn owl. The Journal of Neuroscience 8(8):2665-2676. https://doi.org/10.1523/jneurosci.08-08-02665.1988"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/28_k88-jneuro.png",
+        "caption": "Manley et al. (1988), Fig. 3(A–C). Level-difference functions at dorsal, intermediate, and ventral sites.",
+        "source_url": "https://doi.org/10.1523/jneurosci.08-08-02665.1988"
+      }
+    },
+    {
+      "title": "VLVp level thresholds are ordered dorsoventrally",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Manley and colleagues described a VLVp response by its **half-maximum point**, the ILD at which firing reaches half of the response maximum. Sequential recording sites within a penetration were compared to test for an anatomical order of this response criterion.",
+        "Dorsal sites had more contralaterally biased half-maximum points; progressively ventral sites shifted toward ipsilateral values. Some cells changed their half-maximum point by 2 dB or less when average binaural level rose by 10 dB, providing a measure of level stability.",
+        "This is an ordered map of response thresholds along a binaural level axis. It differs from a spatial map of receptive-field centers. A half-maximum point can be well defined for a monotonic curve even when the neuron has no sharply bounded preferred ILD."
+      ],
+      "transcript": [
+        [
+          "Manley and colleagues described a VLVp response by its half-maximum point, the ILD at which firing reaches half of the response maximum. Sequential recording sites within a penetration were compared to test for an anatomical order of this response criterion.",
+          [
+            "Average binaural level is the mean of the two ear levels expressed in decibels in this experiment. Opposite changes at the ears vary ILD while preserving that average. The authors grouped cells by their relative position within each penetration, so the ordering is a physiological-anatomical relation rather than a measurement of external elevation in degrees."
+          ]
+        ],
+        "Dorsal sites had more contralaterally biased half-maximum points; progressively ventral sites shifted toward ipsilateral values. Some cells changed their half-maximum point by 2 dB or less when average binaural level rose by 10 dB, providing a measure of level stability.",
+        "This is an ordered map of response thresholds along a binaural level axis. It differs from a spatial map of receptive-field centers. A half-maximum point can be well defined for a monotonic curve even when the neuron has no sharply bounded preferred ILD."
+      ],
+      "cite": "Manley et al. (1988)",
+      "refs": [
+        "Manley GA, Köppl C, Konishi M (1988). A neural map of interaural intensity differences in the brain stem of the barn owl. The Journal of Neuroscience 8(8):2665-2676. https://doi.org/10.1523/jneurosci.08-08-02665.1988"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/29_k88-jneuro.png",
+        "caption": "Manley et al. (1988), Fig. 4(A–B). Dorsoventral ordering and level-stable half-maximum points.",
+        "source_url": "https://doi.org/10.1523/jneurosci.08-08-02665.1988"
+      }
+    },
+    {
+      "title": "Excitatory and inhibitory thresholds shape level sensitivity",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Manley and colleagues measured monaural excitatory and inhibitory thresholds in VLVp. Inhibition was assessed against an established discharge produced by contralateral stimulation, allowing reductions in spikes to be measured rather than requiring a cell to fire below zero.",
+        "The difference between excitatory and inhibitory thresholds covaried with the strength of inhibition. Threshold relationships and ILD half-maximum points changed along the dorsoventral recording sequence. The interaction, rather than one ear’s absolute sensitivity alone, shaped the binaural response.",
+        "This physiology supports an excitation-inhibition comparison as the basis of level sensitivity. It does not identify a unique molecular receptor at every connection. Later pharmacological experiments tested the contribution of GABAergic inhibition and the effects of manipulating the two VLVp populations independently."
+      ],
+      "transcript": [
+        [
+          "Manley and colleagues measured monaural excitatory and inhibitory thresholds in VLVp. Inhibition was assessed against an established discharge produced by contralateral stimulation, allowing reductions in spikes to be measured rather than requiring a cell to fire below zero.",
+          [
+            "An inhibitory threshold is meaningful only when activity is available to suppress. Background excitation supplies that activity, so an apparent absence of spikes is not mistaken for proof that an inhibitory input is absent. The difference between the thresholds determines when inhibition begins relative to the growth of excitatory firing."
+          ]
+        ],
+        "The difference between excitatory and inhibitory thresholds covaried with the strength of inhibition. Threshold relationships and ILD half-maximum points changed along the dorsoventral recording sequence. The interaction, rather than one ear’s absolute sensitivity alone, shaped the binaural response.",
+        "This physiology supports an excitation-inhibition comparison as the basis of level sensitivity. It does not identify a unique molecular receptor at every connection. Later pharmacological experiments tested the contribution of GABAergic inhibition and the effects of manipulating the two VLVp populations independently."
+      ],
+      "cite": "Manley et al. (1988)",
+      "refs": [
+        "Manley GA, Köppl C, Konishi M (1988). A neural map of interaural intensity differences in the brain stem of the barn owl. The Journal of Neuroscience 8(8):2665-2676. https://doi.org/10.1523/jneurosci.08-08-02665.1988"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/30_k88-jneuro.png",
+        "caption": "Manley et al. (1988), Fig. 6(A–B). Excitatory and inhibitory thresholds vary with position and inhibition.",
+        "source_url": "https://doi.org/10.1523/jneurosci.08-08-02665.1988"
+      }
+    },
+    {
+      "title": "Both VLVp populations project to collicular level circuits",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Adolphs injected **PHA-L**, an anterograde tract tracer, into VLVp and examined labeled terminals in the inferior colliculus. **Anterograde tracing** follows projections away from the injected neuronal population toward its targets.",
+        "Label appeared in the lateral shell of ICC on both sides of the brain. The published tissue sections include the VLVp injection site and 500-µm scale bars. The injection was anatomically separated from the adjacent anterior subdivision, VLVa, in the illustrated preparation.",
+        "Bilateral connectivity gives the colliculus access to two differently biased level signals. Tracer labeling establishes projection pathways but not whether a terminal is excitatory or inhibitory. Functional manipulations and receptor-sensitive interventions are required to establish the signs and consequences of those connections."
+      ],
+      "transcript": [
+        [
+          "Adolphs injected PHA-L, an anterograde tract tracer, into VLVp and examined labeled terminals in the inferior colliculus. Anterograde tracing follows projections away from the injected neuronal population toward its targets.",
+          [
+            "The lateral shell is a subdivision of the central inferior colliculus that supplies input to the spatial map. Anatomical localization prevents a timing-pathway injection from being misclassified as a level-pathway experiment. The source photographs preserve the labeled terminals, injection region, and scale bars needed to evaluate that localization."
+          ]
+        ],
+        "Label appeared in the lateral shell of ICC on both sides of the brain. The published tissue sections include the VLVp injection site and 500-µm scale bars. The injection was anatomically separated from the adjacent anterior subdivision, VLVa, in the illustrated preparation.",
+        "Bilateral connectivity gives the colliculus access to two differently biased level signals. Tracer labeling establishes projection pathways but not whether a terminal is excitatory or inhibitory. Functional manipulations and receptor-sensitive interventions are required to establish the signs and consequences of those connections."
+      ],
+      "cite": "Adolphs (1993)",
+      "refs": [
+        "Adolphs R (1993). Bilateral inhibition generates neuronal responses tuned to interaural level differences in the auditory brainstem of the barn owl. The Journal of Neuroscience 13(9):3647-3668. https://doi.org/10.1523/jneurosci.13-09-03647.1993"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/31_a93.png",
+        "caption": "Adolphs (1993), Fig. 2(A–C). Tracer labeling of bilateral collicular projections and the VLVp injection site.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-09-03647.1993"
+      }
+    },
+    {
+      "title": "Increasing VLVp activity can suppress collicular responses",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Adolphs manipulated VLVp while recording an ICC lateral-shell neuron. **GABA**, gamma-aminobutyric acid, is an inhibitory transmitter; **bicuculline methiodide**, or BMI, blocks GABA-A receptors. Blocking inhibition within VLVp can increase the activity sent to its targets.",
+        "In the published experiment, a 0.5-µL BMI injection into contralateral VLVp nearly eliminated the lateral-shell response. Responses were measured before injection, 2 and 7 minutes afterward, and during recovery. The response returned toward its original ILD dependence by about 60 minutes.",
+        "The remote reduction supports an inhibitory influence from that VLVp population onto the collicular circuit. Blocking an inhibitory receptor upstream can decrease downstream firing by disinhibiting an inhibitory projection. Injection spread and network effects limit assignment of the entire effect to one directly connected neuron."
+      ],
+      "transcript": [
+        [
+          "Adolphs manipulated VLVp while recording an ICC lateral-shell neuron. GABA, gamma-aminobutyric acid, is an inhibitory transmitter; bicuculline methiodide, or BMI, blocks GABA-A receptors. Blocking inhibition within VLVp can increase the activity sent to its targets.",
+          [
+            "Disinhibition means increased activity after an inhibitory influence is removed. The sign of a drug’s effect at its injection site need not match the sign of the effect at a distant recording site. Reversible changes and the time course of recovery help distinguish acute circuit modulation from irreversible tissue damage."
+          ]
+        ],
+        "In the published experiment, a 0.5-µL BMI injection into contralateral VLVp nearly eliminated the lateral-shell response. Responses were measured before injection, 2 and 7 minutes afterward, and during recovery. The response returned toward its original ILD dependence by about 60 minutes.",
+        "The remote reduction supports an inhibitory influence from that VLVp population onto the collicular circuit. Blocking an inhibitory receptor upstream can decrease downstream firing by disinhibiting an inhibitory projection. Injection spread and network effects limit assignment of the entire effect to one directly connected neuron."
+      ],
+      "cite": "Adolphs (1993)",
+      "refs": [
+        "Adolphs R (1993). Bilateral inhibition generates neuronal responses tuned to interaural level differences in the auditory brainstem of the barn owl. The Journal of Neuroscience 13(9):3647-3668. https://doi.org/10.1523/jneurosci.13-09-03647.1993"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/32_a93.png",
+        "caption": "Adolphs (1993), Fig. 11(A–D). Increasing contralateral VLVp activity suppresses lateral-shell responses.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-09-03647.1993"
+      }
+    },
+    {
+      "title": "Reversible VLVp inactivation selectively changes ILD tuning",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Adolphs injected lidocaine into one VLVp and recorded a neuron in contralateral ICx. The earphone stimulus remained controlled while ILD and ITD response curves were tested separately, providing a comparison of level and timing effects in the same downstream cell.",
+        "At approximately 7 minutes after injection, responses at large ipsilateral ILDs increased and the ILD peak shifted. The original response recovered by about 25 minutes. The neuron’s ITD curve remained nearly unchanged during the same manipulation.",
+        "The result supports an inhibitory level signal that normally limits responses on one side of the ILD range. Removing that signal broadens or shifts level tuning while sparing the timing preference. Lidocaine reduces activity broadly at the injection site, so it is not a transmitter-specific test."
+      ],
+      "transcript": [
+        [
+          "Adolphs injected lidocaine into one VLVp and recorded a neuron in contralateral ICx. The earphone stimulus remained controlled while ILD and ITD response curves were tested separately, providing a comparison of level and timing effects in the same downstream cell.",
+          [
+            "The intact ITD response is a within-cell control against a general loss of auditory responsiveness. Recovery supplies an additional control against permanent damage. The experiment links a brainstem population to a particular dimension of an ICx receptive field, without equating drug-induced tuning shifts with the owl’s immediate orienting behavior."
+          ]
+        ],
+        "At approximately 7 minutes after injection, responses at large ipsilateral ILDs increased and the ILD peak shifted. The original response recovered by about 25 minutes. The neuron’s ITD curve remained nearly unchanged during the same manipulation.",
+        "The result supports an inhibitory level signal that normally limits responses on one side of the ILD range. Removing that signal broadens or shifts level tuning while sparing the timing preference. Lidocaine reduces activity broadly at the injection site, so it is not a transmitter-specific test."
+      ],
+      "cite": "Adolphs (1993)",
+      "refs": [
+        "Adolphs R (1993). Bilateral inhibition generates neuronal responses tuned to interaural level differences in the auditory brainstem of the barn owl. The Journal of Neuroscience 13(9):3647-3668. https://doi.org/10.1523/jneurosci.13-09-03647.1993"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/33_a93.png",
+        "caption": "Adolphs (1993), Fig. 12. Reversible VLVp inactivation alters ILD tuning while sparing ITD tuning.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-09-03647.1993"
+      }
+    },
+    {
+      "title": "Opposing inhibitory influences can create a level peak",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "A sharply peaked ILD curve requires reduced firing on both sides of its preferred range. Adolphs tested whether the two VLVp populations supply opposing inhibitory influences by increasing activity in one population with local BMI injection.",
+        "At about 3 minutes, ICx responses decreased at large ipsilateral ILDs, opposite to the effect of inactivating that VLVp. The ILD response recovered toward its baseline over approximately 50 minutes. The ITD response measured during the experiment remained stable.",
+        "Combined anatomical and manipulation evidence supports bilateral inhibition as a mechanism for peaked collicular level tuning. The circuit transforms two graded, differently biased inputs into a restricted response range. Exact synaptic weights and the contribution of additional local inhibition were not determined by these injections."
+      ],
+      "transcript": [
+        [
+          "A sharply peaked ILD curve requires reduced firing on both sides of its preferred range. Adolphs tested whether the two VLVp populations supply opposing inhibitory influences by increasing activity in one population with local BMI injection.",
+          [
+            "The original study used complementary increases and decreases of VLVp activity, rather than relying on a single drug condition. Opposite physiological effects strengthen the interpretation that level tuning depends on the upstream population. Preserved timing sensitivity limits the effect to the level-processing contribution under the tested stimulus conditions."
+          ]
+        ],
+        "At about 3 minutes, ICx responses decreased at large ipsilateral ILDs, opposite to the effect of inactivating that VLVp. The ILD response recovered toward its baseline over approximately 50 minutes. The ITD response measured during the experiment remained stable.",
+        "Combined anatomical and manipulation evidence supports bilateral inhibition as a mechanism for peaked collicular level tuning. The circuit transforms two graded, differently biased inputs into a restricted response range. Exact synaptic weights and the contribution of additional local inhibition were not determined by these injections."
+      ],
+      "cite": "Adolphs (1993)",
+      "refs": [
+        "Adolphs R (1993). Bilateral inhibition generates neuronal responses tuned to interaural level differences in the auditory brainstem of the barn owl. The Journal of Neuroscience 13(9):3647-3668. https://doi.org/10.1523/jneurosci.13-09-03647.1993"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/34_a93.png",
+        "caption": "Adolphs (1993), Fig. 14. VLVp disinhibition changes ILD selectivity and preserves ITD responses.",
+        "source_url": "https://doi.org/10.1523/jneurosci.13-09-03647.1993"
+      }
+    },
+    {
+      "title": "An ILD spectrum contributes to the vertical receptive field",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "An **ILD spectrum** is the set of level differences across acoustic frequencies at one sound direction. Euston and Takahashi measured head-related transfer functions and used them to deliver virtual sources through earphones, preserving frequency-dependent acoustic filtering.",
+        "For 100-ms stimuli, they compared normal receptive fields with **ILD-alone fields**, in which ITD was fixed at the neuron’s preferred value while natural ILD spectra varied with location. ILD-alone responses typically formed a horizontal band containing the normal receptive field.",
+        "An ILD spectrum therefore supplies substantial vertical selectivity, while timing information restricts the horizontal region. The two conditions often had different response maxima. The neuron’s normal preferred direction cannot be inferred simply by selecting the largest ILD-alone response."
+      ],
+      "transcript": [
+        [
+          "An ILD spectrum is the set of level differences across acoustic frequencies at one sound direction. Euston and Takahashi measured head-related transfer functions and used them to deliver virtual sources through earphones, preserving frequency-dependent acoustic filtering.",
+          [
+            "Virtual acoustic space is an experimental playback method using measured head filtering; the published response maps are recordings from neurons under those conditions. The surrounding inhibitory regions were retained in the authors’ maps. The comparison holds timing favorable to isolate level contributions without moving a real sound source."
+          ]
+        ],
+        "For 100-ms stimuli, they compared normal receptive fields with ILD-alone fields, in which ITD was fixed at the neuron’s preferred value while natural ILD spectra varied with location. ILD-alone responses typically formed a horizontal band containing the normal receptive field.",
+        "An ILD spectrum therefore supplies substantial vertical selectivity, while timing information restricts the horizontal region. The two conditions often had different response maxima. The neuron’s normal preferred direction cannot be inferred simply by selecting the largest ILD-alone response."
+      ],
+      "cite": "Euston & Takahashi (2002)",
+      "refs": [
+        "Euston DR, Takahashi TT (2002). From Spectrum to Space: The Contribution of Level Difference Cues to Spatial Receptive Fields in the Barn Owl Inferior Colliculus. The Journal of Neuroscience 22(1):284-293. https://doi.org/10.1523/jneurosci.22-01-00284.2002"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/35_e02.png",
+        "caption": "Euston & Takahashi (2002), Fig. 3(A, columns 1–2). Normal and ILD-alone receptive fields of the same neuron.",
+        "source_url": "https://doi.org/10.1523/jneurosci.22-01-00284.2002"
+      }
+    },
+    {
+      "title": "Normal spatial tuning need not maximize each ILD",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Euston and Takahashi measured pure-tone ILD tuning across frequency and compared preferred ILDs with the values occurring at the peaks of normal and ILD-alone receptive fields. They examined bands spanning 3–5, 5–7, and 7–9 kHz.",
+        "Frequency-specific preferences matched the ILDs at the ILD-alone peak more closely than those at the normal receptive-field peak. A sum of frequency-specific inputs accounted for approximately 56% of the variance in measured ILD-alone fields, leaving substantial unexplained structure.",
+        "The normal receptive field reflects a balance of inputs rather than independent maximization of every frequency-specific channel. The reported prediction supports a contribution from spectral integration; it does not establish that the computation is purely additive or explain all inhibitory interactions."
+      ],
+      "transcript": [
+        [
+          "Euston and Takahashi measured pure-tone ILD tuning across frequency and compared preferred ILDs with the values occurring at the peaks of normal and ILD-alone receptive fields. They examined bands spanning 3–5, 5–7, and 7–9 kHz.",
+          [
+            "The regression comparisons separate a neuron’s favorite level difference for a tone from the actual spectral values at a spatial response peak. A direction can be preferred under broadband stimulation without providing the best ILD at every frequency. The remaining prediction error limits a simple account based only on summing measured tonal responses."
+          ]
+        ],
+        "Frequency-specific preferences matched the ILDs at the ILD-alone peak more closely than those at the normal receptive-field peak. A sum of frequency-specific inputs accounted for approximately 56% of the variance in measured ILD-alone fields, leaving substantial unexplained structure.",
+        "The normal receptive field reflects a balance of inputs rather than independent maximization of every frequency-specific channel. The reported prediction supports a contribution from spectral integration; it does not establish that the computation is purely additive or explain all inhibitory interactions."
+      ],
+      "cite": "Euston & Takahashi (2002)",
+      "refs": [
+        "Euston DR, Takahashi TT (2002). From Spectrum to Space: The Contribution of Level Difference Cues to Spatial Receptive Fields in the Barn Owl Inferior Colliculus. The Journal of Neuroscience 22(1):284-293. https://doi.org/10.1523/jneurosci.22-01-00284.2002"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/36_e02.png",
+        "caption": "Euston & Takahashi (2002), Fig. 7(A–B). Preferred frequency-specific ILDs compared with ILDs at receptive-field peaks.",
+        "source_url": "https://doi.org/10.1523/jneurosci.22-01-00284.2002"
+      }
+    },
+    {
+      "title": "ICx membranes integrate timing and level before spikes",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Peña and Konishi recorded identified ICx neurons intracellularly and labeled them with neurobiotin. A **postsynaptic potential** is a membrane-voltage change caused by synaptic input; it can depolarize toward spike threshold or hyperpolarize away from it.",
+        "Broadband noise bursts lasted 100 ms and were presented 30 dB above threshold. Testing ITD-ILD pairs produced depolarizing responses near a preferred combination and hyperpolarizing responses outside it. Spike output formed a more restricted excitatory center surrounded by reduced firing.",
+        "The intracellular measurement distinguishes input integration from the thresholded spike response. Depolarization at an unfavorable cue pair need not produce spikes. Hyperpolarizing responses support inhibition, but the recorded voltage can contain a mixture of excitatory and inhibitory influences rather than a single isolated conductance."
+      ],
+      "transcript": [
+        [
+          "Peña and Konishi recorded identified ICx neurons intracellularly and labeled them with neurobiotin. A postsynaptic potential is a membrane-voltage change caused by synaptic input; it can depolarize toward spike threshold or hyperpolarize away from it.",
+          [
+            "The paper verified inhibitory voltage behavior by changing membrane potential, rather than identifying inhibition solely from absent spikes. Neurobiotin labeling connects the physiological recording to an ICx cell with a tectal projection. The figure retains the original 25-µm cellular scale bar and the 1-mm projection scale."
+          ]
+        ],
+        "Broadband noise bursts lasted 100 ms and were presented 30 dB above threshold. Testing ITD-ILD pairs produced depolarizing responses near a preferred combination and hyperpolarizing responses outside it. Spike output formed a more restricted excitatory center surrounded by reduced firing.",
+        "The intracellular measurement distinguishes input integration from the thresholded spike response. Depolarization at an unfavorable cue pair need not produce spikes. Hyperpolarizing responses support inhibition, but the recorded voltage can contain a mixture of excitatory and inhibitory influences rather than a single isolated conductance."
+      ],
+      "cite": "Peña & Konishi (2001)",
+      "refs": [
+        "Peña JL, Konishi M (2001). Auditory Spatial Receptive Fields Created by Multiplication. Science 292(5515):249-252. https://doi.org/10.1126/science.1059201"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/37_p01.png",
+        "caption": "Peña & Konishi (2001), Fig. 1(A–D). Identified ICx neuron, intracellular potentials, and spatially selective spikes.",
+        "source_url": "https://doi.org/10.1126/science.1059201"
+      }
+    },
+    {
+      "title": "Timing and level interact approximately multiplicatively",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Peña and Konishi arranged subthreshold membrane responses into a matrix of ITD-ILD combinations. A **multiplicative interaction** means that the effectiveness of one cue depends on the strength of the other, rather than two cue-dependent responses simply being added.",
+        "After accounting for a constant membrane-voltage offset, a separable multiplicative component described about 96.6% of the response structure in the studied neurons. **Singular value decomposition** separated the measured matrix into ranked components, allowing multiplicative and additive accounts to be compared.",
+        "Multiplication captured the data better than a simple additive alternative. This describes an experimentally supported computation at the membrane-response level. The analysis does not prove that one particular receptor or dendritic compartment literally performs multiplication, and it does not eliminate smaller contributions from other interactions."
+      ],
+      "transcript": [
+        [
+          "Peña and Konishi arranged subthreshold membrane responses into a matrix of ITD-ILD combinations. A multiplicative interaction means that the effectiveness of one cue depends on the strength of the other, rather than two cue-dependent responses simply being added.",
+          [
+            "An analog conjunction can permit firing only when both timing and level are favorable. The measured response matrix and the authors’ fitted matrix are reproduced directly from the paper, including their original units and axes. The fit is the authors’ published analysis; no response surfaces have been reconstructed for this deck."
+          ]
+        ],
+        "After accounting for a constant membrane-voltage offset, a separable multiplicative component described about 96.6% of the response structure in the studied neurons. Singular value decomposition separated the measured matrix into ranked components, allowing multiplicative and additive accounts to be compared.",
+        "Multiplication captured the data better than a simple additive alternative. This describes an experimentally supported computation at the membrane-response level. The analysis does not prove that one particular receptor or dendritic compartment literally performs multiplication, and it does not eliminate smaller contributions from other interactions."
+      ],
+      "cite": "Peña & Konishi (2001)",
+      "refs": [
+        "Peña JL, Konishi M (2001). Auditory Spatial Receptive Fields Created by Multiplication. Science 292(5515):249-252. https://doi.org/10.1126/science.1059201"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/38_p01.png",
+        "caption": "Peña & Konishi (2001), Fig. 2(A–F). Recorded response matrix and the authors’ multiplicative decomposition.",
+        "source_url": "https://doi.org/10.1126/science.1059201"
+      }
+    },
+    {
+      "title": "Spike generation sharpens spatial selectivity",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Peña and Konishi compared membrane-potential and spike tuning in the same ICx neurons. The **spike threshold** is the voltage-dependent boundary above which the neuron can generate an action potential; small depolarizations need not cross it.",
+        "The example retained several subthreshold timing peaks but produced spikes mainly near the dominant timing peak. ILD tuning was also narrower in spike output than in membrane voltage. The original records use milliseconds for the stimulus traces and microseconds for imposed interaural timing.",
+        "The quality of a multiplicative description was lower for spike output than for subthreshold responses. Additional nonlinear processes therefore intervene between synaptic integration and discharge. Thresholding is consistent with this sharpening, while inhibition can also change the underlying voltage response before spikes occur."
+      ],
+      "transcript": [
+        [
+          "Peña and Konishi compared membrane-potential and spike tuning in the same ICx neurons. The spike threshold is the voltage-dependent boundary above which the neuron can generate an action potential; small depolarizations need not cross it.",
+          [
+            "A small secondary depolarization can be visible in an intracellular record yet fail to produce any spike output. The disappearance of a firing peak does not prove that the corresponding input has vanished. The experiment separates membrane integration from the output transformation and limits conclusions based only on extracellular spike tuning."
+          ]
+        ],
+        "The example retained several subthreshold timing peaks but produced spikes mainly near the dominant timing peak. ILD tuning was also narrower in spike output than in membrane voltage. The original records use milliseconds for the stimulus traces and microseconds for imposed interaural timing.",
+        "The quality of a multiplicative description was lower for spike output than for subthreshold responses. Additional nonlinear processes therefore intervene between synaptic integration and discharge. Thresholding is consistent with this sharpening, while inhibition can also change the underlying voltage response before spikes occur."
+      ],
+      "cite": "Peña & Konishi (2001)",
+      "refs": [
+        "Peña JL, Konishi M (2001). Auditory Spatial Receptive Fields Created by Multiplication. Science 292(5515):249-252. https://doi.org/10.1126/science.1059201"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/39_p01.png",
+        "caption": "Peña & Konishi (2001), Fig. 5(A–D). Additional sharpening between postsynaptic potentials and spike output.",
+        "source_url": "https://doi.org/10.1126/science.1059201"
+      }
+    },
+    {
+      "title": "Binaural correlation controls the strength of timing input",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Binaural correlation** measures similarity of the fine temporal waveform at the two ears. Peña and Konishi varied correlation while recording intracellular responses, changing timing reliability without simply replacing the level difference with a different spatial cue.",
+        "Correlation values of zero, 0.25, 0.5, 0.75, and one altered the amplitude of ITD-dependent membrane responses. ILD tuning was comparatively stable. At zero correlation, the timing component became nearly flat even though level-dependent responses could remain.",
+        "Multiplicative descriptions remained effective across much of the manipulated range. When one input is almost constant, additive and multiplicative alternatives become harder to distinguish. Correlation manipulations therefore test robustness while exposing an identifiability limit of the mathematical description."
+      ],
+      "transcript": [
+        [
+          "Binaural correlation measures similarity of the fine temporal waveform at the two ears. Peña and Konishi varied correlation while recording intracellular responses, changing timing reliability without simply replacing the level difference with a different spatial cue.",
+          [
+            "The same nominal delay becomes unreliable when the two ear signals no longer share matching fine structure. The study changed the temporal relationship independently of the level tuning measurement. A flat timing response under uncorrelated noise does not imply deafness; it indicates loss of evidence for one specific interaural delay."
+          ]
+        ],
+        "Correlation values of zero, 0.25, 0.5, 0.75, and one altered the amplitude of ITD-dependent membrane responses. ILD tuning was comparatively stable. At zero correlation, the timing component became nearly flat even though level-dependent responses could remain.",
+        "Multiplicative descriptions remained effective across much of the manipulated range. When one input is almost constant, additive and multiplicative alternatives become harder to distinguish. Correlation manipulations therefore test robustness while exposing an identifiability limit of the mathematical description."
+      ],
+      "cite": "Peña & Konishi (2004)",
+      "refs": [
+        "Peña JL, Konishi M (2004). Robustness of Multiplicative Processes in Auditory Spatial Tuning. The Journal of Neuroscience 24(40):8907-8910. https://doi.org/10.1523/jneurosci.2924-04.2004"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/40_p04.png",
+        "caption": "Peña & Konishi (2004), Fig. 1(a–d). Binaural correlation changes timing tuning and synaptic response amplitude.",
+        "source_url": "https://doi.org/10.1523/jneurosci.2924-04.2004"
+      }
+    },
+    {
+      "title": "GABA-A inhibition sharpens collicular timing selectivity",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Fujita and Konishi applied BMI locally while recording timing-sensitive neurons across auditory nuclei. **GABA-A receptors** are ligand-gated chloride channels. GABA binding changes chloride conductance and can reduce the effectiveness of excitatory input. Antagonist application tests whether this inhibitory transmission contributes to the response curve.",
+        "In ICC and ICx, BMI broadened tonal ITD tuning and increased responses at unfavorable delays. The lateral-shell example compares tuning before, during, and after application; a 3-kHz tonal condition was followed through recovery. VLVa timing selectivity was comparatively unaffected.",
+        "GABAergic inhibition therefore sharpens the timing representation at selected collicular stages rather than uniformly creating timing sensitivity everywhere. Local drug application establishes a receptor-sensitive contribution. It does not separately identify every inhibitory source or specify an unmeasured ion-channel subtype."
+      ],
+      "transcript": [
+        [
+          "Fujita and Konishi applied BMI locally while recording timing-sensitive neurons across auditory nuclei. GABA-A receptors are ligand-gated chloride channels. GABA binding changes chloride conductance and can reduce the effectiveness of excitatory input. Antagonist application tests whether this inhibitory transmission contributes to the response curve.",
+          [
+            "The half-peak width measures the range of delays over which a response remains above half of its peak. A broader curve indicates weaker selectivity even if the maximum response rises. GABA application produced opposite effects, and simultaneous BMI could antagonize those effects, supporting a GABA-receptor-mediated interpretation."
+          ]
+        ],
+        "In ICC and ICx, BMI broadened tonal ITD tuning and increased responses at unfavorable delays. The lateral-shell example compares tuning before, during, and after application; a 3-kHz tonal condition was followed through recovery. VLVa timing selectivity was comparatively unaffected.",
+        "GABAergic inhibition therefore sharpens the timing representation at selected collicular stages rather than uniformly creating timing sensitivity everywhere. Local drug application establishes a receptor-sensitive contribution. It does not separately identify every inhibitory source or specify an unmeasured ion-channel subtype."
+      ],
+      "cite": "Fujita & Konishi (1991)",
+      "refs": [
+        "Fujita I, Konishi M (1991). The role of GABAergic inhibition in processing of interaural time difference in the owl's auditory system. The Journal of Neuroscience 11(3):722-739. https://doi.org/10.1523/jneurosci.11-03-00722.1991"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/41_fu91.png",
+        "caption": "Fujita & Konishi (1991), Fig. 8(A–C). GABA-receptor blockade broadens timing tuning in the lateral shell.",
+        "source_url": "https://doi.org/10.1523/jneurosci.11-03-00722.1991"
+      }
+    },
+    {
+      "title": "GABAergic inhibition helps suppress false timing peaks",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Fujita and Konishi compared broadband ICx timing responses before and during local GABA-A receptor blockade. Broadband input normally emphasizes a principal timing peak while suppressing repeated matches inherited from narrowband channels.",
+        "BMI increased secondary-peak responses and could restore phase ambiguity for noise. The published records include time-dependent increases at delays such as −270 and +120 µs while the principal timing preference remained distinguishable. Recovery measurements tested reversibility after drug application.",
+        "Cross-frequency convergence and inhibitory suppression jointly support unique broadband timing selectivity. The antagonist result establishes an inhibitory contribution but does not imply that inhibition alone can compute the correct delay without frequency-matched excitation. Drug spread and altered network gain limit a single-synapse interpretation."
+      ],
+      "transcript": [
+        [
+          "Fujita and Konishi compared broadband ICx timing responses before and during local GABA-A receptor blockade. Broadband input normally emphasizes a principal timing peak while suppressing repeated matches inherited from narrowband channels.",
+          [
+            "An increase in all responses can differ from a selective release of secondary peaks. The source compares the secondary-to-primary relation as well as response time courses, helping distinguish these possibilities. Phase ambiguity can therefore reappear when inhibition is weakened even though the excitatory inputs still carry the same physical sound timing."
+          ]
+        ],
+        "BMI increased secondary-peak responses and could restore phase ambiguity for noise. The published records include time-dependent increases at delays such as −270 and +120 µs while the principal timing preference remained distinguishable. Recovery measurements tested reversibility after drug application.",
+        "Cross-frequency convergence and inhibitory suppression jointly support unique broadband timing selectivity. The antagonist result establishes an inhibitory contribution but does not imply that inhibition alone can compute the correct delay without frequency-matched excitation. Drug spread and altered network gain limit a single-synapse interpretation."
+      ],
+      "cite": "Fujita & Konishi (1991)",
+      "refs": [
+        "Fujita I, Konishi M (1991). The role of GABAergic inhibition in processing of interaural time difference in the owl's auditory system. The Journal of Neuroscience 11(3):722-739. https://doi.org/10.1523/jneurosci.11-03-00722.1991"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/42_fu91.png",
+        "caption": "Fujita & Konishi (1991), Fig. 12(A–D). GABA-receptor blockade releases secondary timing-response peaks.",
+        "source_url": "https://doi.org/10.1523/jneurosci.11-03-00722.1991"
+      }
+    },
+    {
+      "title": "Glutamate contributions differ across collicular stages",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "**Glutamate** is an excitatory transmitter. Feldman and Knudsen applied AP5, an antagonist of NMDA (N-methyl-D-aspartate) receptors, and CNQX, a non-NMDA glutamate-receptor antagonist, by iontophoresis while recording from ICx and the ICC lateral shell.",
+        "AP5 removed about 55% of auditory-evoked spikes at ICx multiunit sites and 64% at single units, compared with approximately 19% and 25% in the lateral shell. Combined AP5 and CNQX strongly suppressed responses in both subdivisions, often eliminating them.",
+        "NMDA-dependent transmission contributes more prominently to ICx responses, while non-NMDA transmission is substantial in both regions. Normalizing AP5 blockade against combined blockade addressed variation in drug efficacy across sites. Spike reduction measures functional contribution, not receptor abundance or a direct percentage of synaptic current."
+      ],
+      "transcript": [
+        [
+          "Glutamate is an excitatory transmitter. Feldman and Knudsen applied AP5, an antagonist of NMDA (N-methyl-D-aspartate) receptors, and CNQX, a non-NMDA glutamate-receptor antagonist, by iontophoresis while recording from ICx and the ICC lateral shell.",
+          [
+            "Iontophoresis uses an electrical current to deliver a drug locally. The two-antagonist comparison constrains whether a weak AP5 effect reflects little NMDA contribution or generally ineffective local delivery. NMDA and non-NMDA receptors are distinct glutamate-sensitive ion-channel families. NMDA channels have voltage-dependent magnesium block that can be relieved by depolarization. The ICx responses retained an NMDA contribution across their tested dynamic range, rather than recruiting it only above a separate high-level threshold. Antagonist-sensitive spikes do not constitute a complete molecular census."
+          ]
+        ],
+        "AP5 removed about 55% of auditory-evoked spikes at ICx multiunit sites and 64% at single units, compared with approximately 19% and 25% in the lateral shell. Combined AP5 and CNQX strongly suppressed responses in both subdivisions, often eliminating them.",
+        "NMDA-dependent transmission contributes more prominently to ICx responses, while non-NMDA transmission is substantial in both regions. Normalizing AP5 blockade against combined blockade addressed variation in drug efficacy across sites. Spike reduction measures functional contribution, not receptor abundance or a direct percentage of synaptic current."
+      ],
+      "cite": "Feldman & Knudsen (1994)",
+      "refs": [
+        "Feldman DE, Knudsen EI (1994). NMDA and non-NMDA glutamate receptors in auditory transmission in the barn owl inferior colliculus. The Journal of Neuroscience 14(10):5939-5958. https://doi.org/10.1523/jneurosci.14-10-05939.1994"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/43_f94-jneuro.png",
+        "caption": "Feldman & Knudsen (1994), Fig. 8(A–B). NMDA blockade differs between ICx and lateral shell.",
+        "source_url": "https://doi.org/10.1523/jneurosci.14-10-05939.1994"
+      }
+    },
+    {
+      "title": "NMDA-dependent transmission sustains late ICx responses",
+      "layout": "figure-right",
+      "figure_width": 5.2,
+      "body": [
+        "Feldman and Knudsen analyzed **peristimulus time histograms**, which align repeated spike trains to sound onset. They tested ICx units with transient, sustained, or mixed responses to 50-ms broadband stimuli at their preferred ITD and ILD.",
+        "AP5 at 25 nA reduced spikes, with a larger effect on late activity in mixed transient-sustained responses. Responses were measured before application, during blockade, and after recovery. CNQX, in contrast, reduced activity more uniformly across the response time course.",
+        "The temporal difference is consistent with slower NMDA-dependent excitation supplementing faster non-NMDA transmission. It does not directly measure receptor kinetics in voltage clamp. Together with coincidence detection, bilateral inhibition, and cross-frequency convergence, synaptic integration supports the sustained spatial signals available for owl orienting."
+      ],
+      "transcript": [
+        [
+          "Feldman and Knudsen analyzed peristimulus time histograms, which align repeated spike trains to sound onset. They tested ICx units with transient, sustained, or mixed responses to 50-ms broadband stimuli at their preferred ITD and ILD.",
+          [
+            "An iontophoretic current is a drug-delivery setting, not the synaptic current flowing through a neuron. The 50-ms sound duration and the sequence of control, blockade, and recovery remain in the original figure. A slow excitatory postsynaptic current can persist between successive inputs and summate during a sustained spike train. The authors proposed this mechanism for the growing late NMDA contribution. These experiments concern transmission in established spatial circuits; a role in developmental plasticity requires separate evidence."
+          ]
+        ],
+        "AP5 at 25 nA reduced spikes, with a larger effect on late activity in mixed transient-sustained responses. Responses were measured before application, during blockade, and after recovery. CNQX, in contrast, reduced activity more uniformly across the response time course.",
+        "The temporal difference is consistent with slower NMDA-dependent excitation supplementing faster non-NMDA transmission. It does not directly measure receptor kinetics in voltage clamp. Together with coincidence detection, bilateral inhibition, and cross-frequency convergence, synaptic integration supports the sustained spatial signals available for owl orienting."
+      ],
+      "cite": "Feldman & Knudsen (1994)",
+      "refs": [
+        "Feldman DE, Knudsen EI (1994). NMDA and non-NMDA glutamate receptors in auditory transmission in the barn owl inferior colliculus. The Journal of Neuroscience 14(10):5939-5958. https://doi.org/10.1523/jneurosci.14-10-05939.1994"
+      ],
+      "figure": {
+        "kind": "article",
+        "path": "figures/44_f94-jneuro.png",
+        "caption": "Feldman & Knudsen (1994), Fig. 9(A–C). NMDA blockade alters the time course of auditory spike responses.",
+        "source_url": "https://doi.org/10.1523/jneurosci.14-10-05939.1994"
+      }
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Computed spatial maps",
+        "text": "ICx receptive-field centers are ordered by sound direction; the map is computed from binaural signals rather than copied from a spatial receptor surface."
+      },
+      {
+        "lead": "Parallel cue pathways",
+        "text": "NM preserves timing and NA emphasizes sound level. Selective inactivation dissociates their contributions before the cues converge."
+      },
+      {
+        "lead": "Delay lines and coincidence",
+        "text": "Opposed NM conduction gradients and coincidence-sensitive NL neurons transform interaural timing into place-dependent activity."
+      },
+      {
+        "lead": "Convergence and inhibition",
+        "text": "Frequency-matched ICC arrays provide cross-frequency agreement, while GABAergic inhibition suppresses competing timing peaks in ICx."
+      },
+      {
+        "lead": "Level tuning and cue combination",
+        "text": "Bilateral inhibitory influences create peaked ILD tuning; approximately multiplicative membrane integration combines timing and level selectivity."
+      },
+      {
+        "lead": "Mechanisms have experimental limits",
+        "text": "NMDA and non-NMDA antagonists identify transmission contributions. Natural ILDs can also aid horizontal disambiguation, so ITD and ILD are not exclusive behavioral axes."
+      }
+    ],
+    "cite": "Knudsen & Konishi (1978); Carr & Konishi (1990); Adolphs (1993); Peña & Konishi (2001); Kettler et al. (2017)",
+    "refs": [
+      "Knudsen EI, Konishi M (1978). A Neural Map of Auditory Space in the Owl. Science 200(4343):795-797. https://doi.org/10.1126/science.644324",
+      "Sullivan WE, Konishi M (1984). Segregation of stimulus phase and intensity coding in the cochlear nucleus of the barn owl. The Journal of Neuroscience 4(7):1787-1799. https://doi.org/10.1523/jneurosci.04-07-01787.1984",
+      "Takahashi T, Moiseff A, Konishi M (1984). Time and intensity cues are processed independently in the auditory system of the owl. The Journal of Neuroscience 4(7):1781-1786. https://doi.org/10.1523/jneurosci.04-07-01781.1984",
+      "Carr CE, Konishi M (1990). A circuit for detection of interaural time differences in the brain stem of the barn owl. The Journal of Neuroscience 10(10):3227-3246. https://doi.org/10.1523/jneurosci.10-10-03227.1990",
+      "Wagner H, Takahashi T, Konishi M (1987). Representation of interaural time difference in the central nucleus of the barn owl's inferior colliculus. The Journal of Neuroscience 7(10):3105-3116. https://doi.org/10.1523/jneurosci.07-10-03105.1987",
+      "Manley GA, Köppl C, Konishi M (1988). A neural map of interaural intensity differences in the brain stem of the barn owl. The Journal of Neuroscience 8(8):2665-2676. https://doi.org/10.1523/jneurosci.08-08-02665.1988",
+      "Adolphs R (1993). Bilateral inhibition generates neuronal responses tuned to interaural level differences in the auditory brainstem of the barn owl. The Journal of Neuroscience 13(9):3647-3668. https://doi.org/10.1523/jneurosci.13-09-03647.1993",
+      "Fujita I, Konishi M (1991). The role of GABAergic inhibition in processing of interaural time difference in the owl's auditory system. The Journal of Neuroscience 11(3):722-739. https://doi.org/10.1523/jneurosci.11-03-00722.1991",
+      "Peña JL, Konishi M (2001). Auditory Spatial Receptive Fields Created by Multiplication. Science 292(5515):249-252. https://doi.org/10.1126/science.1059201",
+      "Feldman DE, Knudsen EI (1994). NMDA and non-NMDA glutamate receptors in auditory transmission in the barn owl inferior colliculus. The Journal of Neuroscience 14(10):5939-5958. https://doi.org/10.1523/jneurosci.14-10-05939.1994",
+      "Kettler L, Griebel H, Ferger R, Wagner H (2017). Combination of Interaural Level and Time Difference in Azimuthal Sound Localization in Owls. eNeuro 4(6):ENEURO.0238-17.2017. https://doi.org/10.1523/eneuro.0238-17.2017"
+    ]
+  },
+  "title_image": {
+    "kind": "article",
+    "path": "figures/04_k78.png",
+    "caption": "Knudsen & Konishi (1978), Fig. 1. Ordered receptive fields and their measured midbrain locations.",
+    "source_url": "https://doi.org/10.1126/science.644324"
+  }
+}
