@@ -4,7 +4,7 @@
 
 **Monday, October 19, 2026**
 
-Authority: fresh clone of the connected repository’s default branch, `claude/neuroethology-fa2026-schedule-2lgmmr`, commit `e4e16b0`. No ZIP or older checkout was used.
+Authority: fresh clone of the connected repository’s default branch, `claude/neuroethology-fa2026-schedule-2lgmmr`, refreshed and merged through commit `4dfc791`. No ZIP or older checkout was used.
 
 Seven of the eight requested original PDFs have now been supplied, opened and extracted. Only the following requested paper remains unavailable:
 
