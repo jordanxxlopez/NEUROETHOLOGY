@@ -8,7 +8,7 @@
     "date": "Wednesday, September 23, 2026",
     "title": "Mantis shrimp vision: hyperspectral and polarization sensing"
   },
-  "status": "Blocked before deck construction: seven needed primary PDFs unavailable. Four primary PDFs downloaded and validated. No figures created; no theme consumed.",
+  "status": "Complete: built and visually inspected 46-slide PPTX and PDF; all 44 content slides contain original primary-article crops, 36 carry native color.",
   "sources": {
     "cm89": {
       "id": "cm89",
@@ -58,9 +58,16 @@
             "result": "Response is not a PDF"
           }
         ],
-        "available": false
+        "available": true,
+        "origin": "user-upload",
+        "upload_filename": "A_Retina_with_at_Least_Ten_Spe.pdf",
+        "pdf_path": "papers/cm89.pdf",
+        "pages": 4,
+        "bytes": 501810,
+        "sha256": "866f5033fcf35568171f2a61491c0a5610f82d6f3c62c1a3ef2919c407bdfe72",
+        "doi_in_pdf": false
       },
-      "reading_status": "Bibliographic record verified; final evidence and figure selection require PDF"
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
     },
     "t14": {
       "id": "t14",
@@ -348,9 +355,16 @@
             "result": "HTTP Error 403: Forbidden"
           }
         ],
-        "available": false
+        "available": true,
+        "origin": "user-upload",
+        "upload_filename": "science.1245824.pdf",
+        "pdf_path": "papers/t14.pdf",
+        "pages": 4,
+        "bytes": 387500,
+        "sha256": "91c4e3bedaeb37da7d4e45bdd4c4cf797558f37ee568e307a4ad942b3282404b",
+        "doi_in_pdf": true
       },
-      "reading_status": "Bibliographic record verified; final evidence and figure selection require PDF"
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
     },
     "b14": {
       "id": "b14",
@@ -686,15 +700,22 @@
       ],
       "download": {
         "id": "b14",
-        "available": false,
+        "available": true,
         "attempts": [
           {
             "url": "https://www.cell.com/current-biology/pdf/S0960-9822(14)00672-1.pdf",
             "result": "<urlopen error Tunnel connection failed: 403 Forbidden>"
           }
-        ]
+        ],
+        "origin": "user-upload",
+        "upload_filename": "PIIS0960982214006721.pdf",
+        "pdf_path": "papers/b14.pdf",
+        "pages": 7,
+        "bytes": 1648894,
+        "sha256": "4fb82f0ba7c46c3801a1a498e91f75b5ed1f227717084e0b927095afe3682668",
+        "doi_in_pdf": true
       },
-      "reading_status": "Bibliographic record verified; final evidence and figure selection require PDF"
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
     },
     "c08": {
       "id": "c08",
@@ -1085,7 +1106,7 @@
       ],
       "download": {
         "id": "c08",
-        "available": false,
+        "available": true,
         "attempts": [
           {
             "url": "https://www.cell.com/current-biology/pdf/S0960-9822(08)00252-2.pdf",
@@ -1095,9 +1116,16 @@
             "url": "https://www.cell.com/article/S0960982208002522/pdf",
             "result": "<urlopen error Tunnel connection failed: 403 Forbidden>"
           }
-        ]
+        ],
+        "origin": "user-upload",
+        "upload_filename": "PIIS0960982208002522.pdf",
+        "pdf_path": "papers/c08.pdf",
+        "pages": 6,
+        "bytes": 1029390,
+        "sha256": "2bfa10d23e0e91ab0c8678179eba4317e2c4beb5d22a03153e8fb71d4705e98f",
+        "doi_in_pdf": true
       },
-      "reading_status": "Bibliographic record verified; final evidence and figure selection require PDF"
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
     },
     "r09": {
       "id": "r09",
@@ -1171,9 +1199,16 @@
             "result": "Response is not a PDF"
           }
         ],
-        "available": false
+        "available": true,
+        "origin": "user-upload",
+        "upload_filename": "Roberts_shrimp_eye.pdf",
+        "pdf_path": "papers/r09.pdf",
+        "pages": 4,
+        "bytes": 364113,
+        "sha256": "f32c803879b92a57af4577265cca7f2bae2ca6de580f1f9486b00b384374dc90",
+        "doi_in_pdf": true
       },
-      "reading_status": "Bibliographic record verified; final evidence and figure selection require PDF"
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
     },
     "kw08": {
       "id": "kw08",
@@ -2491,15 +2526,22 @@
       ],
       "download": {
         "id": "p20",
-        "available": false,
+        "available": true,
         "attempts": [
           {
             "url": "https://journals.biologists.com/jeb/article-pdf/223/22/jeb219832/1980335/jeb219832.pdf",
             "result": "HTTP Error 403: Forbidden"
           }
-        ]
+        ],
+        "origin": "user-upload",
+        "upload_filename": "jeb219832.pdf",
+        "pdf_path": "papers/p20.pdf",
+        "pages": 8,
+        "bytes": 2302648,
+        "sha256": "0586b6501a4393b996a997ee723ae0eed20b1d0a32e8de2e2225a04ffef21423",
+        "doi_in_pdf": true
       },
-      "reading_status": "Bibliographic record verified; final evidence and figure selection require PDF"
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
     },
     "o25": {
       "id": "o25",
@@ -2836,7 +2878,7 @@
       ],
       "download": {
         "id": "o25",
-        "available": false,
+        "available": true,
         "attempts": [
           {
             "url": "https://europepmc.org/articles/PMC11744319?pdf=render",
@@ -2866,9 +2908,16 @@
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11744319/pdf/jexbio-228-247952.pdf",
             "error": "HTTP Error 404: Not Found"
           }
-        ]
+        ],
+        "origin": "user-upload",
+        "upload_filename": "jeb247952.pdf",
+        "pdf_path": "papers/o25.pdf",
+        "pages": 14,
+        "bytes": 2797649,
+        "sha256": "8c6509c6516c395662b345ae28a0de215f6cf5e651830efa980fc512b563d779",
+        "doi_in_pdf": true
       },
-      "reading_status": "Bibliographic record verified; final evidence and figure selection require PDF"
+      "reading_status": "Uploaded PDF matched against article title/authors and DOI record; close reading in progress"
     },
     "n25": {
       "id": "n25",
@@ -3258,15 +3307,7 @@
       "reading_status": "PDF downloaded; extract available for close reading"
     }
   },
-  "pdfs_needed": [
-    "cm89",
-    "t14",
-    "b14",
-    "c08",
-    "r09",
-    "p20",
-    "o25"
-  ],
+  "pdfs_needed": [],
   "reference_decks": [
     {
       "file": "Neuroethology_Lecture12_FA2026 (5).pptx",
@@ -3353,5 +3394,7 @@
       "Marshall (1988) was considered as background; modern downloaded anatomy studies can cover its structural role, so it is not an additional required upload."
     ]
   },
-  "access_notes_final": "The authoritative default branch was refreshed again before saving progress; concurrent changes concerned Lecture 14 and were preserved."
+  "access_notes_final": "The authoritative default branch was refreshed again before saving progress; concurrent changes concerned Lecture 14 and were preserved.",
+  "build_base_head": "6d5cce69260d106a7115a4da0efce9045fe28a0a",
+  "authoritative_default_head_checked": "3c2d883e596f24cc77402d4f906026198f2e6161"
 }
