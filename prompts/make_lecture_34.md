@@ -107,3 +107,5 @@ FINISH
 ```
 
 Additional requirements: at least 40 of 44 content slides have images; aim for original color images on half of image slides. Never create, redraw, replot or recolor an image. Keep large figures beside text in two columns. Use the exact scheduled title: Bat echolocation I: CF-FM bats and Doppler-shift compensation (Suga).
+
+One color per lecture: titles and bold terms use a darker shade of the title-slide color; all other text is black (#000000), as enforced by the current repository builder.
