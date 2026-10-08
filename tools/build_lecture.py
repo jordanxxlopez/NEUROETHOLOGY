@@ -119,6 +119,29 @@ def plain(text):
     return "".join(c for c, _, _ in inline_runs(text))
 
 
+_TITLE_FONT = None
+
+
+def title_width_in(text, pt):
+    """Width of a bold Arial title in inches, measured with Arial or the metric-compatible
+    Liberation Sans Bold when either is installed; None if neither is available."""
+    global _TITLE_FONT
+    if _TITLE_FONT is None:
+        from PIL import ImageFont
+        _TITLE_FONT = False
+        for name in ("Arial Bold.ttf", "arialbd.ttf", "Arial_Bold.ttf", "LiberationSans-Bold.ttf"):
+            for base in ("/usr/share/fonts", "/Library/Fonts", "/System/Library/Fonts", "C:/Windows/Fonts"):
+                hits = list(Path(base).rglob(name)) if Path(base).exists() else []
+                if hits:
+                    _TITLE_FONT = ImageFont.truetype(str(hits[0]), 300)
+                    break
+            if _TITLE_FONT:
+                break
+    if not _TITLE_FONT:
+        return None
+    return _TITLE_FONT.getlength(plain(text)) / 300 * pt / 72
+
+
 def lines_needed(paras, width_in, pt):
     """Rough Arial line count: average glyph ≈ 0.5 em."""
     chars_per_line = max(1, int(width_in * 72 / (pt * 0.5)))
@@ -256,6 +279,9 @@ class Deck:
             r.font.bold = True
         if len(text) > 62:
             raise SpecError(f"slide {self.num}: title over 62 characters will wrap: {text!r}")
+        width = title_width_in(text, 30)
+        if width is not None and width > W - 2 * M - 0.05:
+            raise SpecError(f"slide {self.num}: title is {width:.1f} in wide at 30 pt bold and will wrap onto the body; shorten it: {text!r}")
 
     def footer(self, s, cite):
         rect(s, M, FOOT_Y, W - 2 * M, 0.01, self.t["rule"])  # hairline above the footer
@@ -333,6 +359,8 @@ class Deck:
                f"Source: {img['source_url']}" if img and img.get("kind") == "web" else
                f"\n\nFigure: {img['caption']}\nFigure source: {img['source_url']}" if img else "")
         )
+        if self.spec.get("title_refs"):
+            s.notes_slide.notes_text_frame.text += "\n\nReferences:\n" + "\n".join(self.spec["title_refs"])
 
     def content_slide(self, sd):
         s = self.new_slide()
@@ -375,12 +403,28 @@ class Deck:
             figs = sd["figures"]
             if len(figs) != 2:
                 raise SpecError(f"{where}: {lay} needs exactly 2 figures")
-            primary_h = sd.get("primary_figure_height", 2.7)
-            ph = picture_contain(s, self.path(figs[0]["path"]), fx, BODY_Y + 0.05, fig_w, primary_h)
-            self.caption(s, fx, BODY_Y + 0.15 + ph, fig_w, figs[0]["caption"])
-            fy = BODY_Y + primary_h + 0.65
-            ph = picture_contain(s, self.path(figs[1]["path"]), fx, fy, fig_w, BODY_BOTTOM - fy - 0.5)
-            self.caption(s, fx, fy + ph + 0.08, fig_w, figs[1]["caption"])
+            if sd.get("figure_arrangement") == "side-by-side":
+                # Tall article recordings use the full body height; a smaller
+                # source anatomy panel stays beside them, without altering pixels.
+                primary_w = sd.get("primary_figure_width", 4.0)
+                gap = 0.2
+                secondary_w = fig_w - primary_w - gap
+                if primary_w <= 0 or secondary_w < 1.2:
+                    raise SpecError(f"{where}: invalid side-by-side figure widths")
+                ph = picture_contain(s, self.path(figs[0]["path"]), fx, BODY_Y + 0.05,
+                                     primary_w, avail - 0.75)
+                self.caption(s, fx, BODY_Y + 0.15 + ph, primary_w, figs[0]["caption"])
+                sx, sy = fx + primary_w + gap, BODY_Y + 1.0
+                ph = picture_contain(s, self.path(figs[1]["path"]), sx, sy, secondary_w,
+                                     BODY_BOTTOM - sy - 0.75)
+                self.caption(s, sx, sy + ph + 0.08, secondary_w, figs[1]["caption"])
+            else:
+                primary_h = sd.get("primary_figure_height", 2.7)
+                ph = picture_contain(s, self.path(figs[0]["path"]), fx, BODY_Y + 0.05, fig_w, primary_h)
+                self.caption(s, fx, BODY_Y + 0.15 + ph, fig_w, figs[0]["caption"])
+                fy = BODY_Y + primary_h + 0.65
+                ph = picture_contain(s, self.path(figs[1]["path"]), fx, fy, fig_w, BODY_BOTTOM - fy - 0.5)
+                self.caption(s, fx, fy + ph + 0.08, fig_w, figs[1]["caption"])
         elif lay == "figure-below":
             top_h = sd.get("text_height", 1.9)
             used = self.body(s, sd["body"], M, BODY_Y, W - 2 * M, top_h, where, max_pt=16)

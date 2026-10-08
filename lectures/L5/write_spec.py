@@ -1,0 +1,908 @@
+#!/usr/bin/env python3
+"""Generate lectures/L5/lecture.json (Lecture 5: Mauthner cell and C-start).
+
+Each reference is defined once in R. Figures are panels cropped by crop_figs.py from the
+original article figures; the title image is a credited Wikimedia Commons photograph.
+"""
+import json
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+
+R = {
+    "E77": ("Eaton et al. (1977)", "Eaton RC, Bombardieri RA, Meyer DL (1977). The Mauthner-initiated startle response in teleost fish. Journal of Experimental Biology 66: 65–81", "10.1242/jeb.66.1.65"),
+    "Z77": ("Zottoli (1977)", "Zottoli SJ (1977). Correlation of the startle reflex and Mauthner cell auditory responses in unrestrained goldfish. Journal of Experimental Biology 66: 243–254", "10.1242/jeb.66.1.243"),
+    "E88": ("Eaton et al. (1988)", "Eaton RC, DiDomenico R, Nissanov J (1988). Flexible body dynamics of the goldfish C-start: implications for reticulospinal command mechanisms. Journal of Neuroscience 8(8): 2758–2768", "10.1523/JNEUROSCI.08-08-02758.1988"),
+    "EE91": ("Eaton & Emberley (1991)", "Eaton RC, Emberley DS (1991). How stimulus direction determines the trajectory of the Mauthner-initiated escape response in a teleost fish. Journal of Experimental Biology 161: 469–487", "10.1242/jeb.161.1.469"),
+    "FE93": ("Foreman & Eaton (1993)", "Foreman MB, Eaton RC (1993). The direction change concept for reticulospinal control of goldfish escape. Journal of Neuroscience 13(10): 4101–4113", "10.1523/JNEUROSCI.13-10-04101.1993"),
+    "KF05": ("Korn & Faber (2005)", "Korn H, Faber DS (2005). The Mauthner cell half a century later: a neurobiological model for decision-making? Neuron 47(1): 13–28", "10.1016/j.neuron.2005.05.019"),
+    "F64": ("Furshpan (1964)", "Furshpan EJ (1964). \"Electrical transmission\" at an excitatory synapse in a vertebrate brain. Science 144(3620): 878–880", "10.1126/science.144.3620.878"),
+    "FFA65": ("Fukami et al. (1965)", "Fukami Y, Furukawa T, Asada Y (1965). Excitability changes of the Mauthner cell during collateral inhibition. Journal of General Physiology 48(4): 581–600", "10.1085/jgp.48.4.581"),
+    "KO08": ("Kohashi & Oda (2008)", "Kohashi T, Oda Y (2008). Initiation of Mauthner- or non-Mauthner-mediated fast escape evoked by different modes of sensory input. Journal of Neuroscience 28(42): 10641–10653", "10.1523/JNEUROSCI.1435-08.2008"),
+    "W08": ("Weiss et al. (2008)", "Weiss SA, Preuss T, Faber DS (2008). A role of electrical inhibition in sensorimotor integration. Proceedings of the National Academy of Sciences USA 105(46): 18047–18052", "10.1073/pnas.0806145105"),
+    "WF10": ("Weiss & Faber (2010)", "Weiss SA, Faber DS (2010). Field effects in the CNS play functional roles. Frontiers in Neural Circuits 4: 15", "10.3389/fncir.2010.00015"),
+    "FF88": ("Fetcho & Faber (1988)", "Fetcho JR, Faber DS (1988). Identification of motoneurons and interneurons in the spinal network for escapes initiated by the Mauthner cell in goldfish. Journal of Neuroscience 8(11): 4192–4213", "10.1523/JNEUROSCI.08-11-04192.1988"),
+    "S09": ("Satou et al. (2009)", "Satou C, Kimura Y, Kohashi T, Horikawa K, Takeda H, Oda Y, Higashijima S (2009). Functional role of a specialized class of spinal commissural inhibitory neurons during fast escapes in zebrafish. Journal of Neuroscience 29(21): 6780–6793", "10.1523/JNEUROSCI.0801-09.2009"),
+    "LF99": ("Liu & Fetcho (1999)", "Liu KS, Fetcho JR (1999). Laser ablations reveal functional relationships of segmental hindbrain neurons in zebrafish. Neuron 23(2): 325–335", "10.1016/S0896-6273(00)80783-7"),
+    "L15": ("Lacoste et al. (2015)", "Lacoste AM, Schoppik D, Robson DN, Haesemeyer M, Portugues R, Li JM, Randlett O, Wee CL, Engert F, Schier AF (2015). A convergent and essential interneuron pathway for Mauthner-cell-mediated escapes. Current Biology 25(11): 1526–1534", "10.1016/j.cub.2015.04.025"),
+    "D16": ("Dunn et al. (2016)", "Dunn TW, Gebhardt C, Naumann EA, Riegler C, Ahrens MB, Engert F, Del Bene F (2016). Neural circuits underlying visually evoked escapes in larval zebrafish. Neuron 89(3): 613–628", "10.1016/j.neuron.2015.12.021"),
+    "T18": ("Tabor et al. (2018)", "Tabor KM, Smith TS, Brown M, Bergeron SA, Briggman KL, Burgess HA (2018). Presynaptic inhibition selectively gates auditory transmission to the brainstem startle circuit. Current Biology 28(16): 2527–2535.e8", "10.1016/j.cub.2018.06.020"),
+    "P16": ("Pantoja et al. (2016)", "Pantoja C, Hoagland A, Carroll EC, Karalis V, Conner A, Isacoff EY (2016). Neuromodulatory regulation of behavioral individuality in zebrafish. Neuron 91(3): 587–601", "10.1016/j.neuron.2016.06.016"),
+    "B17": ("Bhattacharyya et al. (2017)", "Bhattacharyya K, McLean DL, MacIver MA (2017). Visual threat assessment and reticulospinal encoding of calibrated responses in larval zebrafish. Current Biology 27(18): 2751–2762.e6", "10.1016/j.cub.2017.08.012"),
+    "MG15": ("Marsden & Granato (2015)", "Marsden KC, Granato M (2015). In vivo Ca2+ imaging reveals that decreased dendritic excitability drives startle habituation. Cell Reports 13(9): 1733–1740", "10.1016/j.celrep.2015.10.060"),
+    "R11": ("Roberts et al. (2011)", "Roberts AC, Reichl J, Song MY, Dearinger AD, Moridzadeh N, Lu ED, Pearce K, Esdin J, Glanzman DL (2011). Habituation of the C-start response in larval zebrafish exhibits several distinct phases and sensitivity to NMDA receptor blockade. PLoS ONE 6(12): e29132", "10.1371/journal.pone.0029132"),
+    "BG07": ("Burgess & Granato (2007)", "Burgess HA, Granato M (2007). Sensorimotor gating in larval zebrafish. Journal of Neuroscience 27(18): 4984–4994", "10.1523/JNEUROSCI.0615-07.2007"),
+    "P06": ("Preuss et al. (2006)", "Preuss T, Osei-Bonsu PE, Weiss SA, Wang C, Faber DS (2006). Neural representation of object approach in a decision-making motor circuit. Journal of Neuroscience 26(13): 3454–3464", "10.1523/JNEUROSCI.5259-05.2006"),
+    "K16": ("Koyama et al. (2016)", "Koyama M, Minale F, Shum J, Nishimura N, Schaffer CB, Fetcho JR (2016). A circuit motif in the zebrafish hindbrain for a two alternative behavioral choice to turn left or right. eLife 5: e16808", "10.7554/eLife.16808"),
+    "M17": ("Miller et al. (2017)", "Miller AC, Whitebirch AC, Shah AN, Marsden KC, Granato M, O'Brien J, Moens CB (2017). A genetic basis for molecular asymmetry at vertebrate electrical synapses. eLife 6: e25364", "10.7554/eLife.25364"),
+    "LA21": ("Lasseigne et al. (2021)", "Lasseigne AM, Echeverry FA, Ijaz S, Michel JC, Martin EA, Marsh AJ, Trujillo E, Marsden KC, Pereda AE, Miller AC (2021). Electrical synaptic transmission requires a postsynaptic scaffolding protein. eLife 10: e66898", "10.7554/eLife.66898"),
+    "OC24": ("Otero-Coronel et al. (2024)", "Otero-Coronel S, Preuss T, Medan V (2024). Multisensory integration enhances audiovisual responses in the Mauthner cell. eLife 13: RP99424", "10.7554/eLife.99424"),
+    "H20": ("Hecker et al. (2020)", "Hecker A, Schulze W, Oster J, Richter DO, Schuster S (2020). Removing a single neuron in a vertebrate brain forever abolishes an essential behavior. Proceedings of the National Academy of Sciences USA 117(6): 3254–3260", "10.1073/pnas.1918578117"),
+    "MM22": ("Martorell & Medan (2022)", "Martorell N, Medan V (2022). Audiovisual integration in the Mauthner cell enhances escape probability and reduces response latency. Scientific Reports 12: 1097", "10.1038/s41598-022-04998-2"),
+    "BA21": ("Bátora et al. (2021)", "Bátora D, Zsigmond Á, Lőrincz IZ, Szegvári G, Varga M, Málnási-Csizmadia A (2021). Subcellular dissection of a simple neural circuit: functional domains of the Mauthner-cell during habituation. Frontiers in Neural Circuits 15: 648487", "10.3389/fncir.2021.648487"),
+    "BP17": ("Bronson & Preuss (2017)", "Bronson DR, Preuss T (2017). Cellular mechanisms of cortisol-induced changes in Mauthner-cell excitability in the startle circuit of goldfish. Frontiers in Neural Circuits 11: 68", "10.3389/fncir.2017.00068"),
+    "WA17": ("Watanabe et al. (2017)", "Watanabe T, Shimazaki T, Oda Y (2017). Coordinated expression of two types of low-threshold K+ channels establishes unique single spiking of Mauthner cells among segmentally homologous neurons in the zebrafish hindbrain. eNeuro 4(5): ENEURO.0249-17.2017", "10.1523/ENEURO.0249-17.2017"),
+    "EC22": ("Echeverry et al. (2022)", "Echeverry FA, Ijaz S, Pereda AE (2022). Recording synaptic transmission from auditory mixed synapses on the Mauthner cells of developing zebrafish. eNeuro 9(3): ENEURO.0021-22.2022", "10.1523/ENEURO.0021-22.2022"),
+    "MQ19": ("Marquart et al. (2019)", "Marquart GD, Tabor KM, Bergeron SA, Briggman KL, Burgess HA (2019). Prepontine non-giant neurons drive flexible escape behavior in zebrafish. PLoS Biology 17(10): e3000480", "10.1371/journal.pbio.3000480"),
+    "MS18": ("Marsden et al. (2018)", "Marsden KC, Jain RA, Wolman MA, Echeverry FA, Nelson JC, Hayer KE, Miltenberg B, Pereda AE, Granato M (2018). A Cyfip2-dependent excitatory interneuron pathway establishes the innate startle threshold. Cell Reports 23(3): 878–887", "10.1016/j.celrep.2018.03.095"),
+    "SC23": ("Schuster (2023)", "Schuster S (2023). The archerfish predictive C-start. Journal of Comparative Physiology A 209(5): 827–837", "10.1007/s00359-023-01658-2"),
+}
+
+
+def ref(k):
+    return f"{R[k][1]}. https://doi.org/{R[k][2]}"
+
+
+def fig(k, name, num, caption):
+    return {"path": f"figures/{name}.png", "caption": f"{R[k][0]}, Fig. {num}. {caption}",
+            "source_url": f"https://doi.org/{R[k][2]}", "kind": "article"}
+
+
+slides = []
+
+
+def add(title, refs, body, transcript, figure=None, figures=None, width=None, primary=None):
+    assert len(title) <= 62, title
+    paras = [p.strip() for p in body.strip().split("\n\n")]
+    s = {"title": title, "body": paras, "transcript": transcript,
+         "cite": "; ".join(R[k][0] for k in refs[:3]), "refs": [ref(k) for k in refs]}
+    if figures:
+        s.update(layout="figures-right", figures=figures, figure_width=width or 5.9,
+                 primary_figure_height=primary or 2.4)
+    else:
+        s.update(layout="figure-right", figure=figure)
+        if width:
+            s["figure_width"] = width
+    slides.append(s)
+
+
+# ---------------------------------------------------------------- behavior
+add("A C-start bends the body into a C, then drives it away", ["E77", "E88", "SC23", "BG07"], """
+The **C-start** is a fast escape in which a fish bends its body into the shape of a letter C and then accelerates away. Eaton and colleagues filmed it at 200 frames per second in 11 of 13 teleost species that possess Mauthner cells; the response began 5–10 ms after a vibrational stimulus.
+
+**Stage 1**, the fast body bend, lasts about 20 ms and moves the head and tail to the same side. **Stage 2** is a flip of the tail to the opposite side that propels the fish. Within 100 ms most fish had moved 0.5–1.5 body lengths, and where they ended up varied from trial to trial.
+
+In goldfish, stage 1 rotates the body 30–100° about its center of mass in 15–40 ms, and stage 2 moves the center of mass 2–6 cm. A larval zebrafish C-start has the same structure: the head angle swings to a peak within about 10 ms of the stimulus.""",
+[
+    ["A C-start is the escape a fish makes when something abrupt happens beside it: the body folds into a C, and then the fish shoots off.",
+     ["Eaton and colleagues filmed this response at 200 frames per second in 11 of the 13 teleost species they tested that have Mauthner cells.",
+      "The response started only 5 to 10 milliseconds after a vibration."]],
+    ["They divided it into two phases.",
+     ["Stage 1, the fast body bend, takes about 20 milliseconds, and the head and tail swing to the same side, so the body curls.",
+      "Stage 2 is the return flip of the tail to the other side, and that stroke drives the fish forward."]],
+    ["Within 100 milliseconds most fish had moved half a body length to one and a half body lengths, and their final positions differed from trial to trial.",
+     ["Eaton proposed that this variability makes the escape hard for a predator to anticipate."]],
+    "In goldfish, the stage 1 rotation ranges from about 30 to 100 degrees about the center of mass, and stage 2 carries the center of mass 2 to 6 centimeters. The archerfish frames and the larval zebrafish head-angle trace both have this same bend-then-propel sequence.",
+],
+figures=[fig("SC23", "f01a_schuster_f2a", "2a", "Archerfish C-starts at 500 frames/s; dark blue marks the initial C-bend, light blue the straightening phase."),
+         fig("BG07", "f01b_burgess_f1b", "1B", "Head angle of a larval zebrafish after an acoustic stimulus, with latency, duration and C1 angle marked.")],
+width=5.9, primary=1.3)
+
+add("Larval zebrafish startle within milliseconds of a tap", ["BG07", "E77"], """
+Burgess and Granato tracked the **acoustic startle response** of many 6-day-old zebrafish larvae at once. An acoustic/vibrational tap was delivered to the dish, and a high-speed camera recorded every larva's position and head orientation.
+
+The startle consists of a sharp **C1 bend** of the head and trunk away from the initial heading, followed by counter-bends. From the head-angle record the software measures three quantities: the **latency** to movement onset, the **duration** of the first bend, and the **C1 angle**, the peak change in head orientation.
+
+Automated tracking turned the startle into a high-throughput assay: thousands of trials could be scored, which made genetic screens for startle and its regulation possible. Eaton had already reported that goldfish also produce Mauthner-initiated startles to visual stimuli, so the behavior is not restricted to sound.""",
+[
+    ["Burgess and Granato built a system that films many zebrafish larvae at the same time and measures each fish's startle automatically.",
+     ["The larvae are six days old, small enough that dozens swim in one dish under a high-speed camera.",
+      "A tap on the dish delivers an acoustic and vibrational stimulus, and the tracks record each larva's path afterward."]],
+    ["The startle is a sharp first bend, called C1, followed by smaller bends to alternate sides.",
+     ["From the change in head angle over time the software extracts the latency, the duration of the first bend, and the C1 angle, the size of that first turn."]],
+    ["Because each trial is scored automatically, the experimenters could analyze thousands of startles, and that throughput is what allowed later screens for genes that change startle behavior.",
+     ["Eaton's earlier work in goldfish had found that a visual stimulus can also elicit a Mauthner-initiated startle, so the circuit responds to more than sound."]],
+],
+figure=fig("BG07", "f02_burgess_f1a", "1A", "Tracks of 18 larvae (6 dpf) after an acoustic/vibrational stimulus (red) and frames of one startle at 0–12 ms."))
+
+add("One Mauthner spike precedes the contralateral muscle burst", ["Z77", "P06"], """
+Zottoli implanted fine electrodes next to one **Mauthner cell (M-cell)** in goldfish that then swam freely, and recorded the M-cell's extracellular spike together with the **electromyogram (EMG)**, the electrical activity of trunk muscle, during startles to a brief 200 Hz sound.
+
+In every one of 34 startles in which the recorded M-cell lay on the side opposite the contracting muscle, a single M-cell spike preceded the EMG by about 1–2 ms. When the recorded cell was on the same side as the contracting muscle, it fired in only one of 39 startles, and it never fired when the fish did not startle.
+
+Each M-cell therefore drives contraction of the opposite side of the body. Preuss and colleagues later recorded the same single M-axon spike before visually evoked C-starts, with later impulses attributed to other reticulospinal neurons.""",
+[
+    ["Zottoli's experiment linked one neuron to one behavior in an animal that was free to move.",
+     ["He implanted electrodes beside one Mauthner cell in a goldfish, let the fish swim, and played brief 200 hertz sounds while recording the cell and the trunk muscles."]],
+    ["The result was very consistent.",
+     ["Whenever the recorded Mauthner cell was on the side opposite the muscles that contracted, it fired a single spike about one to two milliseconds before the muscle activity began, in all 34 such startles.",
+      "When the recorded cell was on the same side as the contracting muscles, it fired in only one of 39 startles, and on trials without a startle it stayed silent."]],
+    "Each Mauthner cell therefore commands a bend toward the opposite side, and one spike is enough. Preuss and colleagues found the same single Mauthner-axon spike before C-starts triggered by an expanding visual disk.",
+],
+figure=fig("P06", "f03_preuss_f1a", "1A", "Looming disk projected above a goldfish, a visually evoked C-start, and a single M-axon spike (*) before it."))
+
+add("Stage 1 angle varies, so the C-start is not a fixed pattern", ["E88", "K16"], """
+Eaton, DiDomenico and Nissanov evoked goldfish C-starts with water displacements of only 3–6 µm and filmed them while recording trunk EMGs. The combined turn over stages 1 and 2 ranged from 15° to 135°, so the C-start is graded rather than a fixed movement.
+
+The duration of the stage 1 EMG was correlated with the stage 1 turn angle. Triggering the M-cell by itself does not produce this variable EMG, so circuits other than the M-cell must set how far the fish turns.
+
+The stage 1 and stage 2 angles were correlated, and the final trajectory could be predicted on average 26 ms after movement began. The stage 2 EMG usually started near the onset of stage 1 movement, so stage 2 is commanded before feedback from the bend is available. The M-cell starts the escape and fixes its side, and parallel circuits set its angle.""",
+[
+    ["The 1988 study asked whether the C-start is one stereotyped motor program or a family of movements.",
+     ["Tiny water displacements, only 3 to 6 micrometers, were enough to trigger escapes in goldfish, and the fish turned anywhere from 15 to 135 degrees."]],
+    ["Muscle recordings explained part of that range.",
+     ["The longer the stage 1 muscle burst, the larger the stage 1 turn.",
+      "Stimulating the Mauthner cell alone gives a fixed muscle burst, so the extra, variable part of the command has to come from other neurons."]],
+    ["Stage 2 was already planned during stage 1.",
+     ["The trajectory could be predicted about 26 milliseconds after movement began, and the stage 2 muscle activity typically started near the beginning of stage 1, before any sensory feedback about the bend could arrive.",
+      "Eaton concluded that the Mauthner cell initiates the escape and determines its side, while parallel reticulospinal circuits organize the escape angle."]],
+    "The larval frames, from a squirt of water at the side, have the same rapid C-bend, peaking about 10 milliseconds after the first movement.",
+],
+figure=fig("K16", "f04_koyama_f9a", "9A", "Larval zebrafish escaping a squirt of water: bend onset (*) and peak initial bend at 10 ms (**)."))
+
+add("Stimulus direction sets the escape, and the turn is ballistic", ["EE91", "FE93", "K16"], """
+Eaton and Emberley dropped a ball into the water near goldfish and filmed the C-starts. The angle turned in stage 1 varied inversely with the direction of the ball's impact relative to the fish, so the stimulus direction sets the escape trajectory.
+
+Fish starting near a wall chose an escape route that could not be predicted from the stimulus angle alone, and fish that began turning toward the ball did not correct their path. The command is therefore **ballistic**: once the movement starts, it no longer uses sensory information about the stimulus, and any information about obstacles must be used before the trigger.
+
+Foreman and Eaton found that trajectory is set by the relative size of the agonist and antagonist muscle contractions on the two sides and by their timing. No separate signal controls forward force; force is embedded in the command that bends the body.""",
+[
+    ["Eaton and Emberley used a falling ball as a natural threat and asked how its direction changed the escape.",
+     ["The farther around the fish the impact was, the more the stage 1 angle changed, an inverse relationship between impact direction and turn angle."]],
+    ["Two observations pointed to a ballistic command.",
+     ["Near a wall, fish took escape routes that the stimulus angle alone did not predict, so they must have used information about the wall gathered before the stimulus.",
+      "Fish that began turning toward the ball never corrected the turn, so once the escape starts, information about the stimulus is not used to steer."]],
+    ["Foreman and Eaton then related muscle activity to trajectory.",
+     ["The angle depended on how strongly the muscles on the bending side contracted compared with the opposite side, and on the timing between them.",
+      "They found no separate command for forward thrust; the push comes from the same commands that bend the body."]],
+],
+figure=fig("K16", "f05_koyama_f10ab", "10A–B", "A dish is vibrated under a free larva; frames of an escape to the right from start (*) to end (**) of the initial bend."))
+
+add("Larvae make short-latency and long-latency C-bends", ["BG07", "MQ19"], """
+Across nearly 20,000 startle trials, Burgess and Granato found that larval response latencies were **biphasic**. About 79% of responses began within 12 ms, and the rest formed a second wave peaking near 22 ms.
+
+They named the two types **short-latency C-bends (SLCs)** and **long-latency C-bends (LLCs)**. SLCs had larger initial bends and faster angular velocities: on average about 105° at 22.5°/ms, compared with about 75° at 11.8°/ms for LLCs. Individual larvae produced both types, so the distinction is between behaviors, not between fish.
+
+Marquart and colleagues imaged groups of 6-day-old larvae at 1,000 frames per second. The same two peaks appeared in the latency histogram, near 8 ms and between about 20 and 40 ms. Overlaid frames, color-coded by time, trace an SLC curling within 10–30 ms and an LLC developing over 30–50 ms.""",
+[
+    ["When Burgess and Granato plotted the latency of every startle, the histogram had two humps instead of one.",
+     ["Most responses, about 79 percent, began within 12 milliseconds.",
+      "The rest formed a smaller second wave that peaked around 22 milliseconds."]],
+    ["They called these short-latency C-bends, or SLCs, and long-latency C-bends, or LLCs.",
+     ["SLCs are stronger and faster: the first bend averaged about 105 degrees at about 22 degrees per millisecond, while LLCs averaged about 75 degrees at about 12 degrees per millisecond.",
+      "The same larva could produce both types, so these are two kinds of behavior, not two kinds of fish."]],
+    "Marquart and colleagues recorded the same two-peaked distribution with a camera running at 1,000 frames per second, and their color-coded overlays trace the timing of each bend millisecond by millisecond.",
+],
+figure=fig("MQ19", "f06_marquart_f1b", "1B", "Latency histograms for 15 individual larvae; insets overlay an SLC and an LLC, color-coded by ms after the stimulus."))
+
+add("Long-latency escapes have a lower threshold and vary more", ["BG07", "MQ19"], """
+The two startle types differ in how much stimulus they need. As tap intensity increased, the fraction of larvae performing LLCs rose steeply at low intensities, whereas SLCs needed stronger stimuli and rose more gradually. Weak stimuli therefore evoke LLCs, and strong stimuli recruit SLCs.
+
+Marquart and colleagues quantified how variable each response was. The **coefficient of variation**, the spread of a measure relative to its average, was much larger for LLCs in the first bend angle, the second bend angle and the displacement.
+
+Plotting head positions 5 and 25 ms after the stimulus, SLC trajectories formed two tight clusters to the left and right, whereas LLC trajectories spread out in many directions. SLCs are stereotyped, ballistic escapes; LLCs are slower but more flexible in where they carry the fish. Marquart proposed that less precipitous threats elicit these delayed, flexible escapes.""",
+[
+    ["The two startle types also differ in threshold, the stimulus strength needed to trigger them.",
+     ["As Burgess and Granato increased the strength of the tap, long-latency C-bends appeared at low intensities and quickly reached most larvae.",
+      "Short-latency C-bends needed stronger taps and climbed more slowly."]],
+    ["Marquart and colleagues compared how variable each type was.",
+     ["They used the coefficient of variation, which is the spread of a measurement divided by its average, so that measures of different size can be compared.",
+      "For the first bend angle, the second bend angle and the distance traveled, LLCs were much more variable than SLCs."]],
+    ["Where the fish ended up made the same point.",
+     ["Short-latency escapes sent the head into two tight clusters, one to each side, while long-latency escapes scattered the fish in many directions.",
+      "The authors proposed that weaker, less urgent threats call for this delayed escape, whose path can be adjusted."]],
+],
+figures=[fig("BG07", "f07b_burgess_f3a", "3A", "Fraction of larvae responding with SLCs and LLCs as stimulus intensity increases."),
+         fig("MQ19", "f07a_marquart_f1cd", "1C–D", "Variability of SLC (S) and LLC (L) kinematics and head positions 5 ms and 25 ms after the stimulus.")],
+width=5.9, primary=2.5)
+
+add("Mauthner cells are required for short-latency C-bends", ["BG07", "LF99", "KO08"], """
+Burgess and Granato killed both M-cells with a laser and tested the larvae one and two days later. Short-latency C-bends disappeared, whereas killing other randomly chosen reticulospinal neurons left them intact. Long-latency C-bends were unaffected by M-cell ablation.
+
+Killing one M-cell made the remaining SLCs go almost exclusively toward the ablated side, the bend produced by the surviving contralateral M-cell. LLC direction remained balanced, so LLCs are driven by other neurons.
+
+Liu and Fetcho found that killing only the M-cell impaired escapes from tail-directed stimuli but not from head-directed ones; killing the M-cell and its two segmental homologs, **MiD2cm** and **MiD3cm**, eliminated short-latency escapes to both. Kohashi and Oda showed that ear stimulation evokes M-cell-mediated escapes, while touch to the head evokes delayed escapes in which the M-cell is silent and MiD3cm is active.""",
+[
+    ["Burgess and Granato tested which escape needs the Mauthner cells.",
+     ["After both Mauthner cells were killed with a laser, short-latency C-bends were essentially gone, while killing a similar number of other reticulospinal neurons had no effect.",
+      "Long-latency C-bends were just as common after the ablation, so they do not depend on the Mauthner cells."]],
+    ["Killing one Mauthner cell biased the direction.",
+     ["The remaining short-latency bends went almost entirely toward the side of the dead cell, because only the surviving Mauthner cell, on the other side, could still drive a bend, and it bends the body away from its own side."]],
+    ["Other experiments refined the picture.",
+     ["Liu and Fetcho found that the Mauthner cell alone was needed for escapes from stimuli at the tail, while the Mauthner cell together with MiD2cm and MiD3cm was needed for fast escapes from both head and tail.",
+      "Kohashi and Oda found that stimulating the ear triggered Mauthner-driven escapes, while touching the head triggered slower escapes in which the Mauthner cell did not fire and MiD3cm did."]],
+],
+figure=fig("BG07", "f08_burgess_f4", "4A–D", "SLC and LLC responsiveness and direction after bilateral (A–B) or unilateral (C–D) Mauthner-cell ablation."))
+
+# ---------------------------------------------------------------- anatomy
+add("Two Mauthner cells sit side by side in the hindbrain", ["K16", "H20", "WA17"], """
+The **Mauthner cells** are a single pair of giant neurons, one on each side of the **hindbrain**, the region of the brainstem that continues into the spinal cord. Each lies in **rhombomere 4**, one of the repeated segments of the developing hindbrain. Hecker and colleagues describe the Mauthner cell as the largest neuron known in the vertebrate brain.
+
+The M-cells are **reticulospinal neurons**: their cell bodies lie in the reticular formation of the brainstem, and their axons project down the spinal cord. Each cell has a large **lateral dendrite** extending toward the ear and a **ventral dendrite**.
+
+In the larval hindbrain, the two M-cells (blue) lie at the same level, with glycinergic inhibitory neurons (green) packed around them. A feedforward inhibitory neuron (red) lies beside one M-cell. These inhibitory neurons are central to how the pair decides which side fires.""",
+[
+    ["There are just two Mauthner cells in each fish, one on each side of the hindbrain.",
+     ["The hindbrain is the part of the brainstem that joins the spinal cord, and during development it is divided into repeated segments called rhombomeres; the Mauthner cells sit in rhombomere 4.",
+      "Hecker and colleagues describe the Mauthner cell as the largest neuron known in any vertebrate brain."]],
+    ["They are reticulospinal neurons, meaning their cell bodies are in the brainstem reticular formation and their axons run down the spinal cord.",
+     ["Each cell has a long lateral dendrite reaching out toward the ear, and a ventral dendrite."]],
+    "In the larval hindbrain the two Mauthner cells, in blue, lie at the same level, surrounded by inhibitory glycinergic neurons in green. The red cell beside one Mauthner cell is a feedforward inhibitory neuron, part of the circuit that decides which Mauthner cell fires.",
+],
+figure=fig("K16", "f09_koyama_f1b", "1B1–B2", "Larval hindbrain: Mauthner cells (M, blue), glycinergic neurons (glyt2:GFP, green) and one feedforward neuron (FF, red)."))
+
+add("Lateral and ventral dendrites collect different sensory inputs", ["SC23", "P06", "KF05"], """
+Intracellular filling of single M-cells in goldfish (red) and archerfish (blue) reveals the same layout: a thick **lateral dendrite**, a long **ventral dendrite**, and the **axon**, which leaves the cell and crosses the midline. Schuster reports no major differences between the two species in this shape.
+
+The two dendrites receive different senses. The lateral dendrite receives auditory and vestibular afferents of the VIIIth cranial nerve from the ipsilateral ear. The ventral dendrite receives visual input from the **optic tectum**, the main visual center of the fish midbrain.
+
+The tectum also excites inhibitory interneurons, the **PHP neurons**, that inhibit the M-cell. Visual input therefore reaches the M-cell as excitation on the ventral dendrite and as feedforward inhibition near the cell body. Because both dendrites converge on one cell body and one axon, sound and vision can combine to trigger a single escape command.""",
+[
+    ["Filling single Mauthner cells with dye reveals their shape in full.",
+     ["In both goldfish and archerfish there is a thick lateral dendrite, a long ventral dendrite, and the axon, which leaves the cell body and crosses to the other side.",
+      "Schuster reports that the cells of the two species are very similar."]],
+    ["The two dendrites are specialized for different senses.",
+     ["The lateral dendrite receives the eighth cranial nerve, which carries hearing and balance signals from the ear on the same side.",
+      "The ventral dendrite receives visual input from the optic tectum, the main visual area of the fish midbrain."]],
+    ["The tectum also drives inhibitory interneurons called PHP neurons, which inhibit the Mauthner cell.",
+     ["Vision therefore both excites and inhibits the cell.",
+      "Both dendrites feed a single cell body and a single axon, so auditory and visual signals end in one decision to fire or not."]],
+],
+figures=[fig("SC23", "f10a_schuster_f6b", "6b", "Mauthner neurons filled intracellularly in goldfish (red) and archerfish (blue)."),
+         fig("P06", "f10b_preuss_f8a", "8A", "Visual pathway: the optic tectum excites the ventral dendrite and drives inhibitory PHP neurons.")],
+width=5.7, primary=2.5)
+
+add("The giant axon crosses the midline and descends the cord", ["M17", "FF88"], """
+The M-cell axon crosses the midline immediately after leaving the cell body and descends the entire length of the spinal cord on the opposite side. This crossing explains why each M-cell bends the body away from its own side.
+
+Miller and colleagues injected **Neurobiotin**, a small tracer that passes through gap junctions, into the spinal cord at a caudal cut. The tracer filled the M-cell bodies retrogradely and then crossed into the **CoLo interneurons** of each spinal segment, which are electrically coupled to the M-axon.
+
+In goldfish, Fetcho and Faber recorded from the M-axon and spinal neurons simultaneously. Each M-axon makes direct chemical excitatory synapses onto **primary motoneurons**, which innervate fast white muscle, and onto descending excitatory interneurons on its side of the cord. Interneurons that are electrically coupled to the M-axon inhibit the opposite side, which receives input from the other M-axon.""",
+[
+    ["The Mauthner axon crosses to the other side of the brain right away and then runs down the whole spinal cord.",
+     ["That crossing is why the left Mauthner cell bends the body to the right, and the right one to the left."]],
+    ["Miller and colleagues traced the axon with Neurobiotin, a small molecule that can pass through gap junctions.",
+     ["Applied to the cut spinal cord, it travels back up the axon and fills the Mauthner cell body.",
+      "It also jumps into the CoLo interneurons along the cord, which tells us those cells are electrically coupled to the Mauthner axon."]],
+    ["Fetcho and Faber worked out the spinal connections in goldfish by recording from the Mauthner axon and a spinal neuron at the same time.",
+     ["The axon directly excites large primary motoneurons, which drive fast white muscle, and descending interneurons that spread the excitation over several segments.",
+      "Coupled interneurons cross the cord and inhibit the other side, so the opposite muscles stay relaxed during the bend."]],
+],
+figure=fig("M17", "f11_miller_f4ab", "4A–B", "Neurobiotin (Nb) backfilled Mauthner cells (A) and dye coupling into spinal CoLo neurons (B, circles)."))
+
+add("Segmental homologs share inputs but fire differently", ["WA17", "LF99", "KO08"], """
+The M-cell is the first of a **segmental series**: morphologically similar reticulospinal neurons repeat in the next hindbrain segments, **MiD2cm** in rhombomere 5 and **MiD3cm** in rhombomere 6. All three receive auditory input.
+
+Watanabe and colleagues found that the cells encode that input differently. When excited, the M-cell fires a **single spike** at the onset of an abrupt stimulus, whereas MiD2cm and MiD3cm fire repeatedly, encoding stimulus intensity in their firing frequency.
+
+**In situ hybridization**, which labels the cells expressing a given mRNA, detected the potassium channel gene **Kv7.4/kcnq4** in the M-cells (arrowheads, green) at 2 and 5 days after fertilization, but not in MiD2cm or MiD3cm. The homologs contribute to behavior in their own right: with MiD2cm and MiD3cm intact, larvae lacking only the M-cell still escape quickly from head-directed stimuli, and MiD3cm is strongly active during escapes that the M-cell does not trigger.""",
+[
+    ["The Mauthner cell has relatives in the next two hindbrain segments.",
+     ["MiD2cm sits in rhombomere 5 and MiD3cm in rhombomere 6; they look like smaller versions of the Mauthner cell and they also receive auditory input."]],
+    ["What separates them is how they fire.",
+     ["The Mauthner cell gives one spike at the start of an abrupt stimulus, while the homologs fire trains of spikes whose rate grows with stimulus strength."]],
+    ["Watanabe and colleagues looked for a molecular difference.",
+     ["In situ hybridization labels cells that make a particular messenger RNA, and the Kv7.4 potassium channel message was found in the Mauthner cells but not in the homologs, both at two and five days after fertilization."]],
+    "The homologs matter for behavior. Liu and Fetcho's ablations implicated them in fast escapes from the head, and Kohashi and Oda saw MiD3cm strongly active during escapes in which the Mauthner cell stayed silent.",
+],
+figure=fig("WA17", "f12_watanabe_f3b", "3B", "Kv7.4 mRNA (green) in M-cells (arrowheads) of rhombomere 4 at 2 and 5 dpf; reticulospinal neurons labeled in magenta."))
+
+# ---------------------------------------------------------------- excitation
+add("Club endings are mixed electrical–chemical synapses", ["EC22", "F64"], """
+Auditory afferents from the fish **sacculus**, the main auditory organ, each end as a single large terminal on the distal lateral dendrite of the M-cell. These **large myelinated club endings** contain both **gap junctions**, channels that connect the cytoplasm of two cells, and glutamate release sites. They are **mixed synapses**.
+
+Stimulating the auditory nerve produces a mixed postsynaptic potential with an early **electrical** component followed by a delayed **glutamatergic** component, and both grow as more afferents are recruited. Electron microscopy of a 6-day-old zebrafish identifies a club ending in direct contact with the M-cell lateral dendrite.
+
+Furshpan identified the electrical component in goldfish. The EPSP appeared about 0.1 ms after eighth-nerve stimulation, a negligible synaptic delay, and was largest in the distal lateral dendrite where club endings cluster. Potential changes in the M-cell also spread backward into the afferent fibers, the signature of low-resistance connections.""",
+[
+    ["The main auditory input to the Mauthner cell arrives through club endings.",
+     ["Each auditory afferent from the sacculus, the main hearing organ of fish, ends in one large terminal on the far end of the lateral dendrite.",
+      "Each terminal has gap junctions, which are channels that directly connect the inside of one cell to the inside of the other, and it also releases glutamate."]],
+    ["A single stimulus therefore produces two responses in the Mauthner cell.",
+     ["First comes a fast electrical component, current flowing directly through the gap junctions.",
+      "Then comes a slower glutamatergic component, produced by transmitter release and receptor activation."]],
+    ["Furshpan's 1964 recordings were the first evidence for electrical transmission at a synapse in a vertebrate brain.",
+     ["The early potential appeared about a tenth of a millisecond after nerve stimulation, essentially no synaptic delay.",
+      "Voltage changes in the Mauthner cell also spread backward into the afferent fibers, which only happens if the two cells are joined by low-resistance connections."]],
+],
+figure=fig("EC22", "f13_echeverry_f1", "1A–C", "M-cells in the fish, club endings on the lateral dendrite, and the mixed PSP with electrical and glutamatergic components."))
+
+add("Larval club endings arise from the posterior macula", ["EC22"], """
+In adult goldfish, the auditory afferents that form club endings contact hair cells of the **saccular macula**. Echeverry and colleagues traced their origin in 5-day-old zebrafish larvae, whose ear is still developing.
+
+A Gal4 line expressing the red protein mCherry labeled auditory afferents. Their dendrites formed cup-shaped terminals on hair cells of the **posterior macula**, the sensory patch under the posterior **otolith** (an ear stone that moves relative to the hair cells). The posterior macula develops into the adult sacculus.
+
+The labeled afferents run from the posterior macula to the M-cell lateral dendrite, where they end as club endings (green: M-cell). Stimulating the posterior macula with an electrode evoked the same mixed electrical and chemical response in the M-cell. Larval and adult club endings therefore originate in the same auditory end organ at different developmental stages.""",
+[
+    ["In adult fish, the club-ending afferents start at hair cells of the sacculus.",
+     ["Echeverry and colleagues asked where they start in larvae, whose ears are still developing."]],
+    ["They used a genetic line in which auditory afferents make a red fluorescent protein.",
+     ["The afferents wrapped cup-shaped endings around hair cells of the posterior macula, the patch of hair cells beneath the posterior otolith.",
+      "Otoliths are small mineral stones that move relative to the hair cells and bend their hair bundles; the posterior macula later becomes the adult sacculus."]],
+    ["Following the red fibers inward, they end on the lateral dendrite of the Mauthner cell, which is green.",
+     ["Electrical stimulation of the posterior macula evoked the same two-part response, electrical then chemical, in the Mauthner cell.",
+      "Larval and adult club endings therefore come from the same auditory organ at two stages of development."]],
+],
+figure=fig("EC22", "f14_echeverry_f4", "4A–C", "mCherry-labeled auditory afferents (red) contact posterior-macula hair cells and project to the M-cell lateral dendrite (green)."))
+
+add("The early component passes through gap junctions", ["EC22", "F64"], """
+Echeverry and colleagues recorded club-ending responses from larval M-cells by **whole-cell patch clamp**. **Meclofenamic acid**, a gap junction blocker, abolished the early component and left the delayed one, which the glutamate receptor blockers CNQX and DAP5 then removed.
+
+Immunolabeling located the junctions. An antibody to the connexin family **Cx35/36** stained the club-ending contacts on the lateral dendrite, and antibodies against two zebrafish connexins, **Cx35.5** (cyan) and **Cx34.1** (yellow), each labeled the same crescent-shaped contacts. **Connexins** are the proteins that assemble into gap junction channels.
+
+In larvae lacking either Cx34.1 (gjd1a mutants) or Cx35.5 (gjd2a mutants), the electrical component was absent, and the remaining response was entirely glutamatergic. The fast potential that Furshpan recorded therefore depends on two connexins at each contact.""",
+[
+    ["Two blockers separated the two parts of the club-ending response.",
+     ["Meclofenamic acid blocks gap junctions, and when it was applied the early, electrical part of the response disappeared while the later part stayed.",
+      "CNQX and DAP5, which block glutamate receptors, then abolished what was left."]],
+    ["Antibody staining showed where the gap junctions are.",
+     ["Connexins are the proteins that make gap junction channels, and staining for the Cx35/36 family lit up the club-ending contacts on the lateral dendrite.",
+      "Two zebrafish connexins, Cx35.5 and Cx34.1, were both present at the same crescent-shaped contacts."]],
+    "Genetics confirmed the requirement. Mutant larvae lacking either connexin had no electrical component at all, and their club-ending response was purely chemical.",
+],
+figure=fig("EC22", "f15_echeverry_f6", "6A–D", "Meclofenamic acid removes the electrical component (A); Cx35/36, Cx35.5 and Cx34.1 at club endings (B–D)."))
+
+add("The delayed component is glutamatergic and facilitates", ["EC22"], """
+Applying the glutamate receptor antagonists **CNQX** (which blocks AMPA-type receptors) and **DAP5** (which blocks NMDA receptors) suppressed the delayed, longer-lasting component of the club-ending response without affecting the early electrical component. Subtracting the trace recorded in the drugs from the control trace isolates the time course of the glutamatergic component.
+
+The chemical component lasts several milliseconds, much longer than the electrical spike, and large dendritic potentials in the M-cell return to baseline slowly.
+
+Repeated stimulation changes the chemical component. In a train of six pulses 2 ms apart (500 Hz), the chemical component grew from the first to the last pulse. This **facilitation**, an increase in response with repeated stimulation, means that a brief burst of auditory activity can build up the glutamatergic drive to the M-cell.""",
+[
+    ["The second part of the club-ending response is chemical, carried by glutamate.",
+     ["CNQX blocks AMPA-type glutamate receptors and DAP5 blocks NMDA-type receptors, and together they removed the slow component while the fast electrical one stayed.",
+      "Subtracting the trace recorded in the blockers from the control trace isolates the glutamate-driven part."]],
+    "That chemical component lasts several milliseconds, much longer than the electrical one.",
+    ["High-frequency stimulation changes the chemical component.",
+     ["When six pulses were delivered two milliseconds apart, the chemical component got bigger from the first pulse to the last.",
+      "That growth is facilitation, so a burst of auditory spikes increases the glutamate drive onto the Mauthner cell."]],
+],
+figure=fig("EC22", "f16_echeverry_f5", "5A–C", "CNQX/AP5 isolates the glutamatergic component (A–B); a 500 Hz train facilitates the chemical component (C)."))
+
+add("Two different connexins build each club-ending gap junction", ["M17"], """
+Gap junctions are often pictured as symmetric: the same connexin on both sides. Miller and colleagues tested this at Mauthner synapses using **chimeric** larvae, made by transplanting cells from a donor embryo of one genotype into a host of another, so that the cells on either side of a synapse could carry different mutations.
+
+When a transplanted auditory afferent lacked Cx35.5 (gjd2a), connexin staining at its club endings on a normal M-cell was lost; an afferent lacking Cx34.1 (gjd1a) formed normal junctions. When the transplanted M-cell lacked Cx34.1, staining at its club endings was greatly reduced, whereas an M-cell lacking Cx35.5 was normal.
+
+**Cx35.5 is required presynaptically and Cx34.1 postsynaptically.** The same asymmetric rule held at the M-axon to CoLo synapses in the spinal cord. Electrical synapses in this circuit are therefore molecularly asymmetric, built from a different connexin in each partner.""",
+[
+    ["It is often assumed that a gap junction is symmetrical, with the same connexin protein contributed by each of the two cells.",
+     ["Miller and colleagues tested this with chimeric larvae, built by transplanting cells from one embryo into another so that the two partners of a synapse can have different genotypes."]],
+    ["The results depended on which side carried the mutation.",
+     ["If the auditory afferent lacked Cx35.5, the club-ending gap junction was lost, but if it lacked Cx34.1 the junction formed normally.",
+      "If the Mauthner cell lacked Cx34.1 the junction staining was greatly reduced, but lacking Cx35.5 made no difference."]],
+    "Cx35.5 therefore works on the presynaptic side and Cx34.1 on the postsynaptic side. The same rule applied where the Mauthner axon contacts CoLo neurons in the spinal cord, so these electrical synapses are built from two different halves.",
+],
+figure=fig("M17", "f17_miller_f6", "6A–M", "Chimeras: donor auditory afferents (A, F, K) or M-cells (B–C, G–H, L–M) of wild-type, gjd1a or gjd2a genotype; Cx36 at club endings."),
+width=4.6)
+
+add("ZO1b anchors connexins at the postsynaptic side", ["LA21", "M17"], """
+Chemical synapses depend on **scaffolding proteins** that hold receptors in place. Lasseigne and colleagues asked whether gap junctions need one. **ZO1** (zonula occludens 1) is an intracellular scaffold found at electrical synapses.
+
+In wild-type larvae, Cx35.5 (cyan), Cx34.1 (yellow) and ZO1 (magenta) colocalized at club endings on the M-cell lateral dendrite (green). In **tjp1b/ZO1b mutants** both connexins were lost from the contacts, whereas in connexin mutants ZO1b still localized normally. ZO1b is upstream: it is required for connexins to accumulate, but not the reverse.
+
+Biochemical experiments placed the interaction precisely. The first **PDZ domain** of ZO1b, a protein-binding module, bound the C-terminal motif of both connexins, but in the brain ZO1b associated with Cx34.1. In chimeric larvae ZO1b was found only on the postsynaptic side, matching the postsynaptic role of Cx34.1.""",
+[
+    ["At chemical synapses, receptors are held in place by scaffolding proteins, and Lasseigne and colleagues asked whether electrical synapses work the same way.",
+     ["ZO1 is a scaffolding protein known to sit at electrical synapses."]],
+    ["In normal larvae, both connexins and ZO1 are found together at the club endings.",
+     ["In larvae lacking ZO1b, both connexins vanished from those contacts.",
+      "In larvae lacking a connexin, ZO1b was still there, so the dependence runs in one direction: ZO1b is needed to place the connexins."]],
+    ["The binding was traced to a specific part of the protein.",
+     ["ZO1b's first PDZ domain, a module that binds short motifs at the ends of other proteins, grabbed the tail of each connexin.",
+      "In the fish brain ZO1b associated with Cx34.1, and chimera experiments put ZO1b only on the postsynaptic side, the same side as Cx34.1."]],
+],
+figure=fig("LA21", "f18_lasseigne_f1", "1C–J", "Club endings in wild-type and tjp1b/ZO1b mutant larvae: GFP (M-cell), Cx35, Cx34 and ZO1."))
+
+add("Without ZO1b the electrical component disappears", ["LA21"], """
+Lasseigne and colleagues stimulated the auditory afferents and recorded the M-cell by whole-cell patch clamp. In wild-type larvae the club-ending response had the usual early electrical and delayed chemical components.
+
+Larvae lacking Cx35.5 or Cx34.1 had no detectable electrical component; the remaining response was blocked by CNQX and DAP5. **tjp1b/ZO1b mutants** had the same phenotype: the electrical component was abolished while the chemical component was preserved. Larvae lacking the related **ZO1a** had normal responses.
+
+Glutamate receptor (GluR2/3) staining at the club endings was unaffected in the mutants, so the chemical half of each mixed synapse forms independently of the electrical half. Without electrical input, M-cells in ZO1b mutants also showed increased excitability, so the loss of gap junctions changes how readily the cell fires as well as how quickly it is driven.""",
+[
+    ["The recordings tested whether ZO1b matters for function, not just for where connexins sit.",
+     ["In normal larvae, stimulating auditory afferents gives the familiar fast electrical response followed by the slower chemical response."]],
+    ["In larvae lacking either connexin, and in larvae lacking ZO1b, the electrical component was gone.",
+     ["The chemical component was still there, and blocking glutamate receptors removed it.",
+      "Larvae lacking the related protein ZO1a responded normally, so the requirement is specific to ZO1b."]],
+    ["Glutamate receptors were still present at the club endings in the mutants, so the chemical half of each mixed synapse does not depend on the electrical half.",
+     ["The Mauthner cells of the mutants were also more excitable, so losing the gap junctions changed the cell's sensitivity as well."]],
+],
+figure=fig("LA21", "f19_lasseigne_f3", "3A–I", "Club-ending responses in wild type and in connexin and ZO1 mutants; electrical and chemical amplitudes (E, I)."))
+
+add("Electrical synapses make the startle fast and coordinated", ["LA21", "M17", "S09"], """
+ZO1b mutants startled to strong acoustic stimuli as often as their wild-type siblings, but they began their startles about 2 ms later. This delay matches the electrophysiology: without electrical transmission the escape network operates with longer synaptic delays.
+
+Most mutant startles had normal turn angles and velocities, but about 15% were abnormally shallow and slow. Overlaying body midlines every 4 ms, wild-type larvae curled into a deep C within 16 ms, while some mutant larvae formed kinked or S-shaped postures. Miller and colleagues had found the same defects in connexin mutants, and they resemble startles after ablation of the spinal CoLo neurons.
+
+Mutants were also more likely to startle at mid-range intensities, and their long-latency C-bends nearly disappeared. Electrical synapses therefore contribute speed, coordination and the innate threshold of the Mauthner startle.""",
+[
+    ["The behavioral consequences of losing the electrical synapses were subtle but clear.",
+     ["ZO1b mutants startled as often as normal larvae to strong sounds, but each startle began about two milliseconds later, matching the slower synaptic drive in the recordings."]],
+    ["The shape of the startle also suffered.",
+     ["About 15 percent of mutant startles were shallow, slow bends, and frame-by-frame tracings showed kinked or S-shaped bodies instead of a clean C.",
+      "The same defects occur in connexin mutants, and they look like startles after CoLo neurons in the spinal cord are destroyed, which points to the electrical synapses between the Mauthner axon and CoLo."]],
+    ["Threshold changed too.",
+     ["Mutants startled more readily to medium-strength sounds, and long-latency C-bends almost vanished, so the electrical synapses also help set how easily the Mauthner cell fires."]],
+],
+figure=fig("LA21", "f20_lasseigne_f5", "5A–H", "Startle frequency, latency and kinematics; overlaid wild-type and tjp1b/ZO1b mutant startles at 0–16 ms."))
+
+add("Spiral fiber neurons excite the M-cell at its axon cap", ["L15", "MS18"], """
+A second excitatory pathway reaches the M-cell. **Spiral fiber neurons** are hindbrain interneurons whose axons cross to the opposite M-cell and wrap around its **axon hillock**, where the axon leaves the cell body, inside a structure called the **axon cap**.
+
+Lacoste and colleagues found by calcium imaging that spiral fiber neurons are active in response to aversive stimuli that elicit escapes. Bilateral ablation of these neurons largely eliminated short-latency escapes, like M-cell ablation, and unilateral ablation shifted escape direction. Optogenetic activation increased the probability of short-latency escapes.
+
+Marsden and colleagues imaged spiral fiber neurons expressing GCaMP, a calcium indicator that brightens when neurons are active (green), together with the M-cells (magenta). Their axon terminals in the axon cap brightened after a strong acoustic stimulus. The M-cell therefore receives auditory excitation at two sites: directly on the lateral dendrite and indirectly at the axon hillock.""",
+[
+    ["The club endings are not the only excitatory input.",
+     ["Spiral fiber neurons are interneurons whose axons cross to the opposite Mauthner cell and coil around its axon hillock, the point where the axon leaves the cell body, inside the axon cap."]],
+    ["Lacoste and colleagues showed these neurons are essential.",
+     ["Calcium imaging found them active when a stimulus could trigger an escape.",
+      "Killing them on both sides removed most short-latency escapes, much like killing the Mauthner cells, and killing them on one side shifted which way the fish turned.",
+      "Activating them with light made short-latency escapes more likely."]],
+    "Marsden and colleagues imaged the spiral fiber terminals in the axon cap with a calcium indicator, and they brightened after a strong sound. Auditory excitation therefore reaches the Mauthner cell at two places, the dendrite and the axon hillock.",
+],
+figure=fig("MS18", "f21_marsden_f4", "4A–B", "Spiral fiber neurons (green; arrowheads) and their axon-cap terminals (*) beside the M-cells (magenta); calcium signal at peak."))
+
+add("Glutamate release differs at the dendrite and initial segment", ["BA21"], """
+Bátora and colleagues expressed **iGluSnFR**, a fluorescent sensor that brightens when glutamate binds to it, on the M-cell surface. They then imaged two sites: the **lateral dendrite (LD)**, which receives VIIIth-nerve input, and the **axon initial segment (AIS)**, which receives spiral fiber input inside the axon cap.
+
+The two sites behaved differently at rest. No spontaneous glutamate release was detected at the LD during 1-minute recordings, whereas the AIS showed frequent spontaneous release events. Blocking NMDA receptors with L-701,324 increased the rate of spontaneous release at the AIS.
+
+Acoustic stimuli evoked glutamate transients at both sites. Release at the AIS was regulated by NMDA receptors and set the sensitivity of the startle, whereas release at the LD was not modulated by NMDA receptor activity and provided a baseline component of M-cell activation. A single command neuron can therefore have functionally distinct input domains.""",
+[
+    ["Bátora and colleagues watched glutamate arriving at the Mauthner cell directly.",
+     ["iGluSnFR is a protein sensor placed on the cell surface that fluoresces when glutamate binds, so release shows up as a flash of light.",
+      "They imaged the lateral dendrite, where auditory afferents end, and the axon initial segment, where spiral fiber terminals end."]],
+    ["At rest, the two sites were completely different.",
+     ["The lateral dendrite was silent, while the axon initial segment had frequent spontaneous release events.",
+      "Blocking NMDA receptors made the spontaneous release at the initial segment more frequent."]],
+    "During acoustic stimulation, release at the axon initial segment depended on NMDA receptors and set how sensitive the startle was, while release at the lateral dendrite was a steady baseline drive not affected by NMDA receptors.",
+],
+figure=fig("BA21", "f22_batora_f2", "2A–D", "iGluSnFR on the M-cell: lateral dendrite and AIS regions; spontaneous release at the AIS but not the LD."))
+
+add("The axon initial segment integrates escape-triggering input", ["H20"], """
+After a laser ablation of the M-cell soma, the axon does not disappear at once. Hecker and colleagues followed individual larvae as the M-cell degenerated and measured escapes that would recruit that cell at each stage.
+
+While the soma was gone but the **axon initial segment (AIS)** and axon remained, rapid short-latency escapes still occurred, with near-normal latency. Once the AIS was lost, latencies jumped to tens of milliseconds and angular speed fell, even though the rest of the axon was still present. Losing the axon as well made no further difference.
+
+Response probability, however, dropped as soon as the soma was lost. The soma and its huge dendrites are needed for reliable triggering, but the AIS is sufficient for high-speed escapes. All the inputs that can still drive a fast escape after the soma is lost, including the spiral fiber input of the axon cap, are sampled at the initial segment.""",
+[
+    ["Hecker and colleagues used the slow death of an ablated Mauthner cell as an experiment.",
+     ["After the cell body is destroyed with a laser, the axon survives for a while, and they could check its state and test escapes in the same larva over time."]],
+    ["The axon initial segment turned out to be the critical piece.",
+     ["With the soma gone but the initial segment present, fast short-latency escapes still happened.",
+      "Once the initial segment was lost, escapes became slow, with latencies of tens of milliseconds and much lower turning speed, even with the rest of the axon still there."]],
+    ["The soma still matters for something.",
+     ["As soon as the soma was gone, escapes became much less likely, so the dendrites and soma are needed for the cell to be triggered reliably.",
+      "The inputs that can still produce a fast escape without the soma, such as the spiral fibers in the axon cap, act at the initial segment."]],
+],
+figure=fig("H20", "f23_hecker_f2", "2A–E", "Escape latency, angular speed and probability at stages of M-cell degeneration (intact, +AIS, −AIS, −axon)."),
+width=4.8)
+
+# ---------------------------------------------------------------- inhibition
+add("The axon cap makes inhibition electrical", ["WF10", "FFA65", "KF05"], """
+The **axon cap** is a specialized region around the M-cell axon hillock with an extracellular resistance about ninefold higher than that of the surrounding tissue. The unmyelinated terminal branches of feedforward inhibitory interneurons penetrate it.
+
+When these interneurons fire, current generated at the last node of Ranvier of their myelinated axons flows out passively at their terminals in the cap. Because the cap's high resistance limits the return path, part of that current flows inward across the M-cell membrane at the axon hillock. Intracellular minus extracellular voltage then becomes more negative: the M-cell is hyperpolarized by an **extrinsic hyperpolarizing potential (EHP)**, an **electrical inhibition** produced by an extracellular field.
+
+The same interneurons also release glycine, producing a conventional inhibitory postsynaptic potential (IPSP). Fukami and colleagues measured M-cell excitability directly and found that the EHP suppressed it about as strongly as the IPSP did.""",
+[
+    ["The axon cap is a small region around the Mauthner axon hillock with an unusually high extracellular resistance, about nine times that of the surrounding tissue.",
+     ["The terminals of feedforward inhibitory interneurons run into it."]],
+    ["When those interneurons fire, current flows out of their terminals into the cap.",
+     ["Because the cap resists current flowing back out, some of it crosses into the Mauthner cell at the axon hillock.",
+      "The outside of the cell becomes more positive relative to the inside, so the membrane is hyperpolarized; this is the extrinsic hyperpolarizing potential, or EHP, an inhibition carried by an electric field instead of a transmitter."]],
+    ["The same interneurons also release glycine, which opens chloride channels and gives an ordinary inhibitory postsynaptic potential.",
+     ["Fukami and colleagues tested the Mauthner cell's excitability with current pulses and found that the electrical EHP inhibited it about as strongly as the chemical IPSP did."]],
+],
+figure=fig("WF10", "f24_weissfaber_f3", "3", "Electrical inhibition at the axon cap: an inhibitory interneuron spike (V_PHP) hyperpolarizes the M-cell axon hillock."),
+width=5.0)
+
+add("Feedforward inhibition helps set the startle threshold", ["W08", "OC24"], """
+An abrupt sound excites the M-cell and, at the same moment, a population of inhibitory interneurons. Weiss and colleagues found that such sounds produce synchronized spikes in 20 or more of these interneurons, generating **feedforward electrical inhibition** of the M-cell. **Feedforward** means that the same sensory input drives both the excitation and the inhibition.
+
+The electrical inhibition coincided with the electrotonic excitation, and its peak was about 40% of the excitation's amplitude. Cancelling it with an extracellular current pulse converted subthreshold auditory stimuli into ones that made the M-cell fire. Inhibition therefore raises the threshold of the startle.
+
+Otero-Coronel and colleagues measured feedforward inhibition in goldfish as the reduction of an antidromic test spike, shunted by the inhibitory conductance. Auditory and tectal (visual) stimuli both produced it with similar peak strength, but tectal inhibition decayed faster.""",
+[
+    ["The sound that excites the Mauthner cell also drives the inhibitory interneurons around it, so inhibition arrives in parallel with excitation; that arrangement is called feedforward inhibition.",
+     ["Weiss and colleagues found that an abrupt sound makes 20 or more of these interneurons fire together."]],
+    ["Their electrical inhibition lined up in time with the electrical excitation from the club endings and reached about 40 percent of its size.",
+     ["When the experimenters cancelled the inhibition with a current pulse applied outside the cell, sounds that were normally too weak to make the Mauthner cell fire now triggered a spike.",
+      "Inhibition is therefore part of what sets the threshold of the startle."]],
+    ["Otero-Coronel and colleagues measured feedforward inhibition by how much it shrank a test spike sent backward into the Mauthner cell.",
+     ["Sound and visual input from the tectum both produced this shunting inhibition with a similar peak, but the visual inhibition faded faster."]],
+],
+figure=fig("OC24", "f25_otero_f3a", "3A", "Auditory and tectal feedforward inhibition reduce a test spike in the M-cell (shaded areas); circuit with Php interneurons."))
+
+add("FF neurons inhibit the opposite M-cell more strongly", ["K16"], """
+Koyama and colleagues identified the **feedforward (FF) inhibitory neurons** of the larval escape circuit: glycinergic interneurons beside each M-cell that receive eighth-nerve input and inhibit both M-cells.
+
+They recorded an FF neuron together with one M-cell. A spike in the FF neuron produced an **inhibitory postsynaptic potential (IPSP)** in the M-cell on its own side and in the M-cell on the opposite side. In most pairs the contralateral IPSP was larger. Counts of FF synaptic contacts gave the same answer: each FF neuron made more contacts on the opposite M-cell.
+
+FF neurons on the two sides also inhibited each other. Sensory input from one side therefore excites the M-cell on that side, inhibits the opposite M-cell more strongly, and suppresses the opposite FF neurons. A computational model of this connectivity predicted a decision in which only one M-cell fires.""",
+[
+    ["The feedforward inhibitory neurons are glycinergic cells sitting next to each Mauthner cell, driven by the same eighth-nerve input that drives the Mauthner cell.",
+     ["Koyama and colleagues recorded from one of these neurons and a Mauthner cell at the same time to measure the connection."]],
+    ["A spike in a feedforward neuron inhibited both Mauthner cells, but usually the one on the opposite side more strongly.",
+     ["The anatomy matched: each feedforward neuron made more synaptic contacts on the opposite Mauthner cell."]],
+    ["The feedforward neurons on the two sides also inhibit each other.",
+     ["A sound from the left therefore excites the left Mauthner cell, strongly inhibits the right one, and suppresses the right-side inhibitory neurons that would have opposed the left cell.",
+      "Their computational model of this wiring produced a winner-take-all choice of one Mauthner cell."]],
+],
+figure=fig("K16", "f26_koyama_f1c", "1C", "Paired recordings: an FF spike evokes IPSPs in ipsilateral and contralateral M-cells; contralateral IPSPs are larger (C2)."),
+width=3.4)
+
+add("Losing one side's FF neurons biases escape direction", ["K16"], """
+Koyama and colleagues tested the model by laser ablation followed by behavior. Vibrating the dish provided an omnidirectional stimulus, so intact larvae turned left and right equally often.
+
+Killing one M-cell left almost no short-latency escapes initiated by the lesioned side. Cutting off one M-cell's lateral dendrite also biased responses: only about 13% of escapes came from the lesioned side, consistent with the loss of excitatory input onto the cut dendrite.
+
+Ablating part of the lateral feedforward inhibitory population on one side shifted 70–75% of escapes to the intact side, as the model predicted; ablating nearby medial glycinergic neurons did not. With a stimulus delivered to one side, removing FF neurons shortened escape latency on the lesioned side. The inhibitory connections are therefore part of the mechanism that chooses left versus right.""",
+[
+    ["To test the model, Koyama and colleagues destroyed specific neurons with a laser and watched escapes to a vibration that came from no particular side.",
+     ["Normal larvae turned left half the time and right half the time."]],
+    ["Each lesion pushed that balance in a predictable direction.",
+     ["Killing one Mauthner cell meant almost no short-latency escapes started from that side.",
+      "Cutting off one Mauthner cell's lateral dendrite cut its sensory input, and only about 13 percent of escapes came from that side."]],
+    ["The key test was ablating feedforward inhibitory neurons on one side.",
+     ["About 70 to 75 percent of escapes then came from the intact side, as the model predicted, while killing nearby medial glycinergic neurons had no effect.",
+      "With a stimulus to one side, removing the feedforward neurons shortened the escape latency on that side, so these neurons normally delay and gate the Mauthner response."]],
+],
+figure=fig("K16", "f28_koyama_f10c", "10C", "Percentage of escapes turning toward the un-ablated side after each lesion; sham controls near 50%."),
+width=5.0)
+
+add("Spinal CoLo neurons silence a late second M-cell command", ["S09", "FF88", "M17"], """
+In goldfish, Fetcho and Faber found that both classes of spinal neurons excited by one M-axon are inhibited, through two synapses, by the other M-axon. The inhibition is mediated by interneurons that are electrically coupled to one M-axon and send a process across the cord.
+
+Satou and colleagues identified these neurons in zebrafish as **CoLo** (commissural local) interneurons, one per hemisegment. An M-spike evoked a CoLo spike through electrical transmission, and CoLos made inhibitory synapses onto contralateral primary motoneurons. They were active only during escapes.
+
+After CoLo ablation, sound-evoked escapes were often impaired, with a reduced initial bend. The evidence indicated that these failures occurred when both M-cells fired: normally CoLos silence the output of the slightly delayed second M-cell. Spinal circuits can therefore filter a conflicting descending command.""",
+[
+    ["Fetcho and Faber found a crossed inhibitory pathway in the goldfish spinal cord.",
+     ["Neurons excited by one Mauthner axon are inhibited, after two synapses, by the other Mauthner axon, through interneurons electrically coupled to the axon that send a branch across the cord."]],
+    ["Satou and colleagues identified these cells in zebrafish as CoLo neurons, short for commissural local.",
+     ["There is one CoLo in each half of each spinal segment.",
+      "A Mauthner spike triggers a CoLo spike through the gap junction, and the CoLo then inhibits the primary motoneurons on the other side; CoLos fire only during escapes."]],
+    ["Ablating CoLos weakened the escape.",
+     ["Sound-evoked escapes often had a smaller initial bend, and the evidence pointed to trials in which both Mauthner cells fired.",
+      "Normally, the CoLos activated by the first Mauthner cell block the output of the second one, which fires slightly later, so the body still bends to one side."]],
+],
+figure=fig("M17", "f29_miller_f3ac", "3A–C", "Mauthner cells and axons (magenta) and M/CoLo synapses in two spinal segments (circles), labeled for Cx36."))
+
+# ---------------------------------------------------------------- ion channels
+add("Two potassium channels let the M-cell fire only once", ["WA17"], """
+Mature larval M-cells (4–7 days after fertilization) respond to a long depolarizing current step with a single spike at its onset. Watanabe and colleagues tested which **potassium (K+) channels** enforce this.
+
+**Dendrotoxin (DTX)** blocks **Kv1** channels, and **XE991** blocks **Kv7/KCNQ** channels; both are **low-threshold** K+ channels that open near the resting potential. Blocking either channel alone turned the single spike into a short **phasic burst** of spikes. Blocking both made the M-cell fire **tonically** throughout the step, like its homologs MiD2cm and MiD3cm, which fire repetitively without any drug.
+
+The single spike of the M-cell is therefore not built into its shape or size. It depends on two outward currents that open as the cell depolarizes and terminate firing after the first spike. Repeated firing returns as soon as both are removed.""",
+[
+    ["Mature Mauthner cells answer a long current step with just one spike at the start.",
+     ["Watanabe and colleagues asked which potassium channels are responsible."]],
+    ["They used two blockers.",
+     ["Dendrotoxin blocks Kv1 channels, and XE991 blocks Kv7, also called KCNQ, channels; both are low-threshold potassium channels that start to open close to the resting potential.",
+      "Blocking either one turned the single spike into a short burst, and blocking both made the cell fire continuously through the whole step."]],
+    ["With both blocked, the Mauthner cell fired like MiD2cm and MiD3cm, its homologs, which fire repetitively on their own.",
+     ["The single spike comes from these two potassium currents, which turn on as the cell depolarizes and stop it from firing again."]],
+],
+figure=fig("WA17", "f30_watanabe_f1", "1", "Firing of 4–7 dpf M-cells before and after DTX and/or XE991, compared with MiD2cm and MiD3cm; spike counts and latency."))
+
+add("Single spiking develops between 2 and 4 days of age", ["WA17"], """
+At 2 days after fertilization, M-cells do not yet fire single spikes. A current step evokes a **phasic burst**: a train of spikes whose intervals lengthen until firing stops, a pattern called **spike-frequency adaptation**.
+
+At this age XE991 converted the burst into tonic firing with constant intervals, whereas DTX had almost no effect beyond a slight delay of the first spike. In situ hybridization detected **Kv7.4** mRNA specifically in M-cells at 2 dpf. Kv7.4 therefore generates the adaptation of the immature M-cell.
+
+The earlier study cited by Watanabe and colleagues showed that M-cells acquire single spiking at 4 dpf when they begin to express the auxiliary subunit **Kvβ2**, which acts on Kv1.1 channels present throughout the Mauthner series. Single spiking emerges when this Kvβ2-associated Kv1 current is added to the Kv7.4 current already present.""",
+[
+    ["Young Mauthner cells, at two days after fertilization, fire bursts instead of single spikes.",
+     ["Their spikes come faster at first and then slow down until firing stops, which is called spike-frequency adaptation."]],
+    ["At this stage only one channel blocker mattered.",
+     ["XE991, the Kv7 blocker, turned the adapting burst into steady firing.",
+      "Dendrotoxin, the Kv1 blocker, barely changed it, and the Kv7.4 channel message was already present specifically in the Mauthner cells."]],
+    ["By four days the cells add a second current.",
+     ["The authors' earlier work found that Mauthner cells start making Kvβ2, an auxiliary subunit that associates with Kv1.1 channels, at the time they switch to single spiking.",
+      "Kv7.4 is present first, and the Kvβ2-associated Kv1 current is added later to produce the single spike."]],
+],
+figure=fig("WA17", "f31_watanabe_f2", "2", "Firing of 2 dpf M-cells before and after DTX and/or XE991; spike counts, interspike intervals, threshold and latency."))
+
+add("Kv7.4 opens slowly; Kvβ2 speeds up Kv1.1", ["WA17"], """
+Watanabe and colleagues expressed zebrafish Kv7.4 and Kv1.1 in **Xenopus oocytes**, frog eggs that can be injected with mRNA to make a single channel type, and recorded the currents at command voltages from −80 to +50 mV.
+
+Both channels produced **low-threshold outward currents**, beginning to activate above about −60 mV. Kv7.4 rose slowly, taking tens of milliseconds to reach half its maximum, whereas Kv1.1 activated within a few milliseconds. Coexpressing **Kvβ2** accelerated Kv1.1 activation and increased its current. Kv1.1 opened at more negative voltages than Kv7.4.
+
+In computational models, Kv7.4 suppressed repetitive firing to produce adaptation, while Kvβ2-associated Kv1.1 raised the firing threshold and shortened the latency of the first spike. A fast Kv1 current that terminates firing right after the first spike, together with a slower Kv7 current that suppresses repetitive firing, accounts for the M-cell's single, short-latency spike.""",
+[
+    ["To study the channels in isolation, the researchers injected their messenger RNA into frog oocytes, which then make only that channel.",
+     ["Both Kv7.4 and Kv1.1 started passing outward current at relatively negative voltages, above about minus 60 millivolts, which is why they are called low-threshold."]],
+    ["They differed in speed.",
+     ["Kv7.4 turned on slowly, over tens of milliseconds.",
+      "Kv1.1 turned on within a few milliseconds, and adding the Kvβ2 subunit made it faster still and larger."]],
+    ["Computer models of the Mauthner cell put these roles together.",
+     ["Kv7.4 alone produced adapting bursts, the immature pattern.",
+      "Adding the fast, Kvβ2-boosted Kv1.1 raised the threshold and moved the first spike earlier, giving one quick spike, the adult pattern."]],
+],
+figure=fig("WA17", "f32_watanabe_f4", "4A–C", "Currents of Kv7.4, Kv1.1a and Kv1.1a+Kvβ2b in oocytes; conductance and normalized conductance versus voltage."))
+
+# ---------------------------------------------------------------- necessity
+add("Removing one M axon removes fast escapes to one side", ["H20"], """
+Earlier ablations of the M-cell soma did not abolish all rapid escapes, so it seemed that smaller neurons could compensate. Hecker and colleagues found that the giant axon survives for a long time after its soma is destroyed and can still drive escapes. They therefore removed both the soma and the axon of one M-cell, verified by two-photon imaging.
+
+Each M-cell drives bends to the opposite side. Escapes that could still use the remaining M-cell ("ipsi") had normal latencies of about 5 ms and normal response probability. Escapes that would have required the ablated cell ("contra") had latencies around 40 ms and were rare.
+
+Escapes toward the intact side did not differ from those of untreated larvae, so the ablation had no general side effect. The comparison within a single larva isolates the contribution of one identified neuron: without its M axon, a fish loses its fast escapes to one side.""",
+[
+    ["Earlier experiments had killed the Mauthner cell body and still seen fast escapes, so it was thought other neurons could take over.",
+     ["Hecker and colleagues found the reason: the giant axon survives long after the soma is destroyed and keeps working.",
+      "They removed both the soma and the axon of one Mauthner cell and confirmed it with two-photon imaging."]],
+    ["Because each Mauthner cell bends the body toward the opposite side, every larva became its own control.",
+     ["Escapes that could still use the intact Mauthner cell had normal latencies of about 5 milliseconds and normal probability.",
+      "Escapes that needed the missing cell were rare and started only after about 40 milliseconds."]],
+    "Escapes toward the intact side were just like those of untreated siblings, so the procedure itself caused no general damage. Without its giant axon, the fish loses fast escapes to one side.",
+],
+figure=fig("H20", "f33_hecker_f1", "1A–C", "Unilateral M-cell ablation: escape latency and response probability for intact, ipsi (can recruit M) and contra escapes."),
+width=4.4)
+
+add("Larvae without M axons are caught more often by predators", ["H20"], """
+Hecker and colleagues asked whether M-cell escapes improve survival. Groups of eight larvae were placed with a last-instar **damselfly nymph**, a natural predator of zebrafish larvae.
+
+In each experimental group, four larvae had both M axons removed and four were untreated. In procedural controls, four larvae received sham ablations of two cerebellar neurons and four were untreated. Additional groups contained only untreated larvae of the two strains used.
+
+Over 7 hours, the survival of M-ablated larvae dropped steeply compared with sham-ablated and untreated larvae, and the M-ablated larvae were captured more often than their untreated tank-mates. Sham-ablated larvae were captured no more often than controls, and the control groups did not differ from one another. The loss of a single pair of neurons was enough to make the fish more vulnerable to an ecologically relevant predator.""",
+[
+    ["The survival test put larvae in a tank with a damselfly nymph, a predator that eats zebrafish larvae in the wild.",
+     ["Each tank held eight larvae: four with both Mauthner axons removed and four untreated."]],
+    ["The controls addressed the obvious alternatives.",
+     ["In some tanks, four larvae had a sham ablation of two cerebellar neurons, to test whether laser surgery itself made fish easier to catch.",
+      "Other tanks held only untreated larvae of the two strains used."]],
+    ["Over seven hours, Mauthner-ablated larvae were lost much faster than sham-ablated or untreated larvae.",
+     ["At the end, the ablated larvae had been eaten more often than their untreated tank-mates, while sham-ablated larvae were eaten no more than controls.",
+      "One pair of neurons measurably changed the outcome of real predator encounters."]],
+],
+figure=fig("H20", "f34_hecker_f3", "3A–F", "Predation assays with damselfly nymphs: survival over 7 h and captured larvae for M-ablated and sham groups."))
+
+add("An M axon lost early is never replaced", ["H20", "SC23"], """
+Larvae with one M axon removed were raised with untreated siblings for 5 months. Their escapes were then tested blind, after which each fish was examined to determine which M axon, if any, was missing.
+
+As adults, the fish still escaped predominantly toward the side that could use the remaining M-cell. Escapes that could not recruit an M axon had longer latencies and lower angular speeds than escapes by the same fish that could, so the deficit had not been compensated during growth.
+
+Schuster summarizes the result: across the months of development no other neuron took over the function of the missing M-cell. Hecker and colleagues proposed that mechanisms must exist to keep this single, survival-critical axon alive and connected, which could account for how long the axon survives after its soma is lost.""",
+[
+    ["The last experiment asked whether the brain makes up for a missing Mauthner cell over time.",
+     ["Larvae with one Mauthner axon removed grew up for five months with their untreated siblings."]],
+    ["The adults were tested without the experimenters knowing which fish had been ablated.",
+     ["The fish still escaped mostly toward the side served by the remaining Mauthner cell.",
+      "In the same fish, escapes that could not use a Mauthner axon started later and turned more slowly, so the deficit was still present in adulthood."]],
+    "No other neuron took over during five months of growth. Hecker and colleagues proposed that, because so much depends on this one axon, mechanisms must exist to keep it alive and connected, consistent with how long it survives after injury.",
+],
+figure=fig("H20", "f35_hecker_f4", "4A–E", "Adults 5 months after unilateral M-axon ablation: responses, latency and angular speed for ipsi and contra escapes."),
+width=4.6)
+
+# ---------------------------------------------------------------- vision and integration
+add("Looming objects drive M-cell escapes in goldfish", ["P06"], """
+Preuss and colleagues projected expanding dark disks above goldfish to simulate an approaching object, a **looming stimulus**. These stimuli evoked C-starts with probabilities of 0.7–0.91 and mean latencies from 142 to 716 ms, and chronic recordings linked the C-starts to M-cell spikes.
+
+Intracellular recordings from the M-cell revealed bursts of graded EPSPs that grew as the disk expanded, with peaks of up to 9 mV. The depolarizing envelope followed a scaled function of the disk's **angular size**, the angle it subtended at the eye, in which the weight of angular size progressively decreased as the image grew. The timing of the largest PSP peak was predicted by the peak of that function.
+
+A receding disk evoked much weaker responses than the same disk looming, so the M-cell response was specific to approach. Recordings of presynaptic inhibitory interneurons suggested that the timing of the PSP peak is shaped by the interplay of visual excitation and feedforward inhibition.""",
+[
+    ["Preuss and colleagues imitated an approaching predator with a dark disk that expanded on a screen above the fish.",
+     ["Most presentations, 70 to 91 percent, triggered a C-start, after delays of about 140 to 720 milliseconds depending on the stimulus, much longer than the auditory startle."]],
+    ["Inside the Mauthner cell, the visual input arrived as a growing barrage of small excitatory potentials.",
+     ["The envelope of that depolarization followed a function of the disk's angular size, the angle it covers on the retina, in which each increase in size counts for less as the disk gets larger.",
+      "The time of the biggest potential matched the peak of that function very closely."]],
+    ["A disk moving away produced much weaker responses, so the Mauthner cell responded specifically to approach.",
+     ["Recordings from inhibitory interneurons suggested that inhibition from the visual pathway shapes when the depolarization peaks."]],
+],
+figure=fig("P06", "f36_preuss_f5", "5", "M-cell PSPs evoked by looming stimuli with the superimposed scaling function κ(t); PSP peak time versus κ peak time."))
+
+add("Sound and looming combine to make escape more likely", ["MM22"], """
+Martorell and Medan presented goldfish with a visual loom, a brief sound, or both, with the sound arriving 160 ms before the end of the loom. **Multisensory integration** is the combination of information from different senses into a single response.
+
+Combined stimuli increased C-start probability above that produced by either stimulus alone. The enhancement was inversely related to stimulus salience: weak sounds produced a proportionally larger multisensory effect than strong ones. Fish that were freezing before the stimulus responded less, so the animal's prior motor state also influenced the decision.
+
+Multisensory stimulation also shortened response times, and most escapes were locked to the auditory cue, occurring within a short window after it. An integrate-and-fire model of the M-cell, which sums inputs until a threshold is reached, reproduced the behavior, suggesting that excitatory visual and auditory inputs summed at the M-cell soma underlie the multisensory decision.""",
+[
+    ["Martorell and Medan asked how the fish combines a looming shape with a sound.",
+     ["Goldfish saw a loom, heard a brief sound, or got both, with the sound coming 160 milliseconds before the loom finished expanding."]],
+    ["The combination was more effective than either stimulus alone.",
+     ["The boost was largest when the stimuli were weak; a faint sound added proportionally more than a loud one.",
+      "Fish that were already freezing responded less, so the fish's prior state also mattered."]],
+    ["Combined stimuli also made the escape happen sooner, with most escapes following the sound within a short window.",
+     ["A simple model of the Mauthner cell, which adds up inputs until it reaches threshold, reproduced these results, suggesting the two senses are summed on the Mauthner cell itself."]],
+],
+figure=fig("MM22", "f37_martorell_f4", "4a,c", "C-start probability across visual contrast and sound intensity (a); response times, colored by sound intensity (c)."))
+
+add("The M-cell sums auditory and tectal inputs sublinearly", ["OC24", "MM22"], """
+Otero-Coronel and colleagues recorded M-cells intracellularly in adult goldfish while stimulating the **optic tectum** electrically (T) and presenting a sound pip (A), separately and together. Tectal trains of 1–200 ms evoked depolarizations that grew with duration.
+
+The combined multisensory response (M) was larger than the largest response to either input alone, but for trains longer than 1 ms it was smaller than the sum of the two. The integration is therefore **sublinear**. Stimulus modality, intensity, temporal structure and the delay between stimuli all affected how inputs summed.
+
+The different decay of auditory and tectal feedforward inhibition accounted for some of these effects: the faster-fading tectal inhibition allows a later auditory input to sum more effectively. The M-cell is a rare case in which multisensory integration can be measured in a neuron whose firing directly triggers a behavior.""",
+[
+    ["Otero-Coronel and colleagues recorded inside the Mauthner cell of adult goldfish while stimulating vision and hearing.",
+     ["They stimulated the optic tectum electrically, as a stand-in for visual input, and played a short sound."]],
+    ["Together, the two inputs depolarized the cell more than either one alone.",
+     ["But for most combinations the response was less than the two separate responses added together, which is called sublinear summation.",
+      "How the inputs combined depended on modality, intensity, timing and the delay between them."]],
+    "Feedforward inhibition helps explain the pattern. Inhibition triggered by the tectum fades faster than inhibition triggered by sound, which changes how much the second input can add. Because one spike in this cell starts an escape, its integration of the two senses directly determines behavior.",
+],
+figure=fig("OC24", "f38_otero_f2", "2A–B", "M-cell responses to tectal trains (T), sound (A) and both (M); stacked bars compare unisensory and multisensory depolarization."))
+
+add("Delayed escapes use a separate prepontine pathway", ["MQ19"], """
+Marquart and colleagues searched for the neurons that drive long-latency C-bends. They expressed a **nitroreductase** enzyme in neurons labeled by 28 different Gal4 lines, then added metronidazole, which nitroreductase converts into a toxin, to kill only the labeled cells.
+
+Ablation in three lines reduced LLCs by more than half. Their expression overlapped in a small bilateral cluster in **rhombomere 1** of the prepontine hindbrain (R1), near the locus coeruleus and raphe. Laser ablation of R1 abolished LLCs, whereas ablating a cluster in rhombomere 6 (R6) did not.
+
+After ablating R1 on the left only, most remaining LLCs went to the right, so each prepontine cluster drives escapes toward its own side. These **prepontine neurons**, a cluster of 38 cells, are completely separate from the M-cell and its homologs. Escapes with long latency use a different command pathway rather than a slow version of the Mauthner pathway.""",
+[
+    ["Marquart and colleagues did a circuit-breaking screen to find the neurons behind long-latency escapes.",
+     ["In each of 28 genetic lines, a set of neurons made nitroreductase, an enzyme that turns the drug metronidazole into a toxin, so adding the drug killed just those neurons."]],
+    ["Three lines lost more than half of their long-latency escapes after ablation.",
+     ["Their labeled neurons overlapped in a small cluster on each side of rhombomere 1, in the prepontine hindbrain near the locus coeruleus and raphe.",
+      "Killing that cluster with a laser abolished long-latency escapes, while killing a cluster in rhombomere 6 did not."]],
+    ["Ablating the left cluster alone sent most remaining long-latency escapes to the right.",
+     ["These 38 prepontine neurons are entirely separate from the Mauthner cells, so the delayed escape uses its own command pathway."]],
+],
+figure=fig("MQ19", "f39_marquart_f2", "2E–I", "Overlap of three Gal4 lines in prepontine cluster R1; LLC probability after laser ablation of R1, R6 or left R1."))
+
+add("Threat level selects between parallel escape pathways", ["MQ19", "B17", "D16"], """
+Marquart and colleagues proposed that zebrafish choose between two **parallel escape pathways**. Auditory input reaches the M-cells directly, and the M-cells drive motoneurons directly. The prepontine neurons receive auditory information only indirectly and drive the spinal cord indirectly. An M-cell that fires first can therefore prevent a delayed escape, and the M-cells inhibit the prepontine neurons.
+
+A high threat level triggers the immediate, ballistic M-cell escape. A lower threat level allows a delayed, flexible escape whose trajectory can be guided by visual information.
+
+Visual threats are assessed the same way. Bhattacharyya and colleagues found that slowly approaching looms evoked slower, longer-latency, more variable escapes, whereas fast looms evoked short-latency escapes with M-cell activity, and all escapes began at the same angular size. Dunn and colleagues showed that the optic tectum processes looming stimuli and that visual and mechanosensory escapes share the same hindbrain premotor network.""",
+[
+    ["Marquart's model has two escape routes running in parallel.",
+     ["Sound reaches the Mauthner cells directly, and the Mauthner cells drive motoneurons directly, so this route is fastest.",
+      "The prepontine neurons get auditory information only through intermediate steps and also reach the spinal cord indirectly, so they are slower but can combine more information, including vision."]],
+    "When the threat is high, the Mauthner cell fires first and its escape preempts the other route. When the threat is lower, the delayed prepontine escape occurs, and its direction can be steered.",
+    ["Visual threats follow the same logic.",
+     ["Bhattacharyya and colleagues found that slow looms produced slower, later and more variable escapes, while fast looms produced quick escapes with Mauthner cell activity, and all of them began when the object reached the same apparent size.",
+      "Dunn and colleagues showed that the optic tectum processes the looming signal and that vision feeds into the same hindbrain escape network as touch and sound."]],
+],
+figure=fig("MQ19", "f40_marquart_f7", "7A–B", "Parallel escape pathways through M-cells (Mc) and prepontine neurons (Pp), selected according to threat level."))
+
+# ---------------------------------------------------------------- modulation
+add("Spiral fiber activity sets the innate startle threshold", ["MS18", "L15"], """
+Marsden and colleagues screened for mutant larvae that startled to stimuli too weak to affect wild-type fish, and isolated five lines with reduced startle thresholds. In one line the mutation was in **cyfip2**, a gene encoding a protein that interacts with the fragile X protein FMRP; cyfip2 acted independently of FMRP.
+
+Club-ending input to the M-cell was normal in cyfip2 mutants. The spiral fiber neurons, however, responded more strongly: imaged with a calcium indicator, they fired to weak and medium stimuli that rarely activated them in siblings, whereas strong stimuli activated them fully in both.
+
+Restoring cyfip2 expression with a heat-inducible transgene after the phenotype had appeared returned startle sensitivity to baseline. The innate threshold of the startle is therefore set, at least in part, by limiting how readily the excitatory spiral fiber neurons respond, a pathway that Lacoste and colleagues showed is essential for M-cell escapes.""",
+[
+    ["Marsden and colleagues looked for mutant larvae that startle too easily.",
+     ["They found five lines, and in one of them the mutation was in cyfip2, a gene whose protein binds the fragile X protein FMRP, although here it worked independently of FMRP."]],
+    ["The defect was not in the main auditory input.",
+     ["Club-ending synapses onto the Mauthner cell worked normally in the mutants.",
+      "Instead, the spiral fiber neurons were overactive: with calcium imaging they fired to weak sounds that rarely activated them in normal siblings, while loud sounds activated them fully in both."]],
+    ["Turning cyfip2 back on with a heat-inducible transgene, even after the problem had appeared, restored normal startle sensitivity.",
+     ["The startle threshold is set partly by how easily the spiral fiber neurons, an essential excitatory input to the Mauthner cell, respond."]],
+],
+figure=fig("MS18", "f41_marsden_f5", "5A–B", "Spiral fiber calcium responses to a −12 dB stimulus (A) and firing probability across intensities in siblings and cyfip2 mutants (B)."))
+
+add("Habituation depresses excitation at the M-cell", ["BA21", "MG15", "R11", "P16"], """
+**Habituation** is a decrease in response to a stimulus that is repeated without consequence. Roberts and colleagues found two forms of startle habituation in larvae: a rapid form lasting under 15 minutes after 120 pulses at 0.5–2 Hz, and a short-term form lasting up to an hour after spaced training, which alone required NMDA receptors.
+
+Marsden and Granato imaged calcium in the M-cell of head-restrained larvae. The amplitude of the lateral-dendrite calcium signal determined startle probability, and habituation depressed this dendritic activity rather than acting downstream. It depended on glycine and NMDA receptors.
+
+Bátora and colleagues found that glutamate release at both input sites declined during 60 repeated stimuli, and only at the axon initial segment did this depression depend on NMDA receptors. Pantoja and colleagues found that serotonergic neurons of the dorsal raphe, activated by the same stimuli, decrease their activity during habituation; reducing serotonin increased habituation.""",
+[
+    ["Habituation is a drop in response to a stimulus that keeps repeating without consequence.",
+     ["Roberts and colleagues found two forms of startle habituation in larvae: a rapid one that faded within 15 minutes, and a longer one, produced by spaced blocks of stimuli, that lasted up to an hour and alone needed NMDA receptors."]],
+    ["Marsden and Granato located the change in the Mauthner cell itself.",
+     ["The size of the calcium signal in the lateral dendrite predicted whether a startle occurred, and repeated stimuli made that signal smaller.",
+      "This depression needed glycine and NMDA receptors, consistent with more inhibition from feedforward neurons and less excitation from the auditory afferents."]],
+    ["Bátora and colleagues saw glutamate release fall at both input sites during repeated stimulation, with only the initial-segment depression depending on NMDA receptors.",
+     ["Pantoja and colleagues added a modulatory layer: serotonergic neurons in the dorsal raphe respond to the same sounds, their activity falls during habituation, and less serotonin means faster habituation."]],
+],
+figure=fig("BA21", "f42_batora_f4", "4E–F", "AIS glutamate release over 60 stimuli at 1–4 Hz (E); at 1 Hz with vehicle or the NMDA antagonist L-701,324 (F)."))
+
+add("Weak prepulses inhibit short-latency startles", ["BG07", "T18"], """
+**Prepulse inhibition (PPI)** is the reduction of a startle when a weak stimulus precedes the startling one. It is a measure of **sensorimotor gating**, the filtering of sensory input before it reaches motor systems, and is impaired in several neuropsychiatric disorders, including schizophrenia.
+
+Burgess and Granato found that weak prepulses reduced the fraction of larvae performing SLCs, more so as the prepulse became stronger, without changing LLC frequency or SLC kinematics. The dopamine agonist apomorphine disrupted PPI, and the antipsychotic haloperidol, a D2 receptor antagonist, blocked that disruption, as in mammals.
+
+Tabor and colleagues identified a cluster of about 30 neurons that suppress auditory transmission during PPI. They project to the termination zone of auditory afferents on the M-cell lateral dendrite and reduce glutamate release from those afferents, a **presynaptic inhibition** that spares auditory signaling to other brain regions.""",
+[
+    ["Prepulse inhibition is a classic measure of sensory filtering: a weak sound shortly before a loud one makes the startle smaller.",
+     ["It is impaired in several psychiatric conditions, including schizophrenia, which is why it is studied in so many species."]],
+    ["Burgess and Granato showed that zebrafish larvae have it.",
+     ["A weak prepulse reduced short-latency startles, more so with stronger prepulses, but left long-latency C-bends and the shape of the startle unchanged.",
+      "The dopamine agonist apomorphine disrupted it, and the antipsychotic haloperidol prevented that disruption, just as in mammals."]],
+    ["Tabor and colleagues found where the gating happens.",
+     ["About 30 neurons project onto the auditory afferent terminals on the Mauthner cell's lateral dendrite and reduce their glutamate release.",
+      "This presynaptic inhibition blocks the auditory signal to the startle circuit while leaving auditory signaling to the rest of the brain intact."]],
+],
+figure=fig("BG07", "f43_burgess_f5", "5A", "Fraction of larvae performing SLCs after prepulses of increasing intensity (dB relative to the startle stimulus)."),
+width=3.4)
+
+add("Cortisol rapidly raises M-cell excitability", ["BP17"], """
+Predator pressure and **alarm substance**, a chemical released from injured fish skin, modulate C-starts, and the stress hormone **cortisol** is a candidate mediator. Bronson and Preuss recorded goldfish M-cells intracellularly before and after cortisol (CORT).
+
+A ramp of injected current reached spike threshold earlier after cortisol, meaning that less current was needed to fire the cell. Threshold current decreased within 10 minutes and returned toward baseline over an hour. The speed suggests **non-genomic** mechanisms, acting without changes in gene transcription.
+
+Cortisol increased the M-cell's **input resistance** near threshold, a voltage-dependent postsynaptic effect that the authors attributed to a chloride conductance. It also enlarged sound-evoked PSPs by reducing feedforward inhibition, while the separate network mediating prepulse inhibition was unaffected. A stress hormone can therefore adjust escape probability through a single command neuron.""",
+[
+    ["Fish exposed to predators or to alarm substance, a chemical released from injured skin, change their C-starts, and cortisol, the main fish stress hormone, could be involved.",
+     ["Bronson and Preuss recorded from goldfish Mauthner cells while applying cortisol."]],
+    ["Cortisol made the Mauthner cell easier to fire.",
+     ["Less injected current was needed to reach threshold within 10 minutes, and the effect faded over about an hour.",
+      "That speed points to non-genomic actions, effects that do not require changes in gene expression."]],
+    ["They identified two mechanisms.",
+     ["Cortisol raised the cell's input resistance near threshold, so the same current depolarizes it more, and the authors proposed a chloride conductance as the target.",
+      "It also weakened feedforward inhibition, which made sound responses larger, while prepulse inhibition was unaffected."]],
+],
+figure=fig("BP17", "f44_bronson_f3", "3A–C", "M-cell response to a current ramp before (black) and after cortisol (red); threshold current and its time course."))
+
+add("Archerfish use a C-start to reach falling prey first", ["SC23"], """
+Archerfish shoot down insects with jets of water, then compete with other surface-feeding fish for the falling prey. Schuster describes how hunting archerfish turn toward the point where the prey will land, using only information sampled shortly after the prey starts to fall.
+
+This **predictive C-start** cannot be distinguished kinematically from an escape C-start made by the same fish, and it is among the fastest C-starts known in teleosts. The start itself gives the fish the speed needed to arrive at the right time.
+
+In the field in Thailand, archerfish compete with halfbeaks that are more sensitive to surface waves. All archerfish C-starts began before the prey hit the water, and the archerfish secured over 98% of the prey. Archerfish and goldfish M-cells have similar shapes, but visual PSPs are larger in archerfish, consistent with the proposal that the M-cell participates in this visually guided decision.""",
+[
+    ["Archerfish knock insects into the water by spitting, and then have to get to the prey before other fish do.",
+     ["Schuster's work shows that they decide where to go from information collected just after the insect starts to fall, and then turn toward the future landing point."]],
+    ["They make that turn with a C-start.",
+     ["The movement is indistinguishable from the same fish's escape C-start and is among the fastest known in teleosts, and the start alone gives the fish enough speed to arrive on time."]],
+    ["In the field, archerfish share their habitat with halfbeaks, which respond strongly to surface waves.",
+     ["Every archerfish C-start began before the prey splashed down, and archerfish got more than 98 percent of the prey.",
+      "Their Mauthner cells look like goldfish Mauthner cells but have larger visual responses, consistent with the idea that the Mauthner cell helps trigger this visually guided hunting decision."]],
+],
+figure=fig("SC23", "f27_schuster_f3", "3", "Archerfish and halfbeaks in the field (a); timing of C-start onset (red) and end (blue) relative to prey impact (b)."),
+width=4.0)
+
+WIDE = {"f15_echeverry_f6": 6.6, "f19_lasseigne_f3": 6.6, "f22_batora_f2": 6.4, "f25_otero_f3a": 6.6,
+        "f32_watanabe_f4": 6.6, "f37_martorell_f4": 6.6, "f38_otero_f2": 6.6, "f44_bronson_f3": 6.6,
+        "f21_marsden_f4": 6.4, "f13_echeverry_f1": 6.0, "f40_marquart_f7": 6.4}
+for sl in slides:
+    if "figure" in sl:
+        stem = Path(sl["figure"]["path"]).stem
+        if stem in WIDE:
+            sl["figure_width"] = WIDE[stem]
+assert len(slides) == 44, len(slides)
+for s in slides:
+    w = len(" ".join(s["body"]).split())
+    assert 90 <= w <= 175, (s["title"], w)
+
+items = [
+    ("A single spike triggers the C-start.", "One Mauthner-cell spike precedes contraction of the opposite trunk; stage 1 bends the fish into a C within about 20 ms, and stage 2 propels it away on a trajectory fixed before feedback arrives."),
+    ("The Mauthner cell integrates senses at distinct sites.", "Auditory club endings on the lateral dendrite are mixed synapses, electrical through Cx35.5 (presynaptic) and Cx34.1 (postsynaptic) anchored by ZO1b, plus glutamatergic; vision reaches the ventral dendrite and spiral fibers excite the axon initial segment."),
+    ("Inhibition chooses the side and sets the threshold.", "Feedforward glycinergic neurons inhibit the opposite M-cell more strongly and act electrically through the high-resistance axon cap; spinal CoLo neurons block a late second command."),
+    ("Potassium channels enforce single spiking.", "Low-threshold Kv7.4 and Kvβ2-associated Kv1.1 currents restrict the M-cell to one short-latency spike, unlike its repetitively firing homologs MiD2cm and MiD3cm."),
+    ("Fast and flexible escapes use parallel pathways.", "Short-latency C-bends require the M-cell axon and its initial segment and improve survival; long-latency, flexible escapes are driven by separate prepontine neurons selected at lower threat levels."),
+    ("The startle is continuously modulated.", "Spiral fiber excitability sets the innate threshold, NMDA-dependent depression of excitation underlies habituation, presynaptic inhibition produces prepulse inhibition, and cortisol increases M-cell excitability."),
+]
+
+spec = {
+    "lecture": 5,
+    "content_slides": 44,
+    "theme": "charcoal-red-clay",
+    "title_image": {
+        "path": "figures/title_goldfish.jpg",
+        "caption": "Photo: Goldfish (Carassius auratus), the classic species for Mauthner-cell physiology.",
+        "credit": "James St. John",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Carassius_auratus_auratus_(goldfish)_1.jpg",
+        "kind": "web",
+    },
+    "slides": slides,
+    "takeaways": {"items": [{"lead": l, "text": t} for l, t in items],
+                  "cite": "Eaton et al. (1977); Korn & Faber (2005); Koyama et al. (2016); Hecker et al. (2020)",
+                  "refs": [ref(k) for k in R]},
+}
+(HERE / "lecture.json").write_text(json.dumps(spec, ensure_ascii=False, indent=2) + "\n")
+print("Wrote", len(slides), "content slides")
