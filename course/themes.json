@@ -1,0 +1,79 @@
+{
+  "_rules": [
+    "Every lecture gets its own palette. Never reuse a palette that appears in 'used'.",
+    "Never use yellow, orange, gold, mustard or other loud/ugly colors.",
+    "Purple and green have already been used — do not use them again.",
+    "Font is always Arial.",
+    "After building a lecture, move its theme key into 'used' with the lecture number."
+  ],
+  "used": {
+    "7":  "wine / burgundy",
+    "8":  "graphite / silver",
+    "9":  "rose / white",
+    "10": "ice blue / charcoal",
+    "11": "(set when Lecture 11 is finalized)",
+    "earlier": "purple, green and amber palettes were used in Lectures 1-6"
+  },
+  "palettes": {
+    "midnight-silver": {
+      "label": "midnight navy / silver",
+      "title_bg": "1B2233", "title_text": "FFFFFF", "title_muted": "B9C2D3",
+      "bg": "FFFFFF", "heading": "1B2233", "text": "23272F", "muted": "5F6878",
+      "tint": "EEF1F6", "accent": "4A5A7A", "rule": "C9CFDA"
+    },
+    "cobalt-white": {
+      "label": "cobalt / white",
+      "title_bg": "E8EEFB", "title_text": "12245C", "title_muted": "3A55A4",
+      "bg": "FFFFFF", "heading": "1F3FA0", "text": "1E2330", "muted": "5A6378",
+      "tint": "EDF2FD", "accent": "1F3FA0", "rule": "C8D3EE"
+    },
+    "petrol-mist": {
+      "label": "petrol blue / mist",
+      "title_bg": "0F3A4A", "title_text": "FFFFFF", "title_muted": "A9C6D0",
+      "bg": "FFFFFF", "heading": "0F4C5C", "text": "1F2A30", "muted": "56676E",
+      "tint": "EAF2F4", "accent": "0F4C5C", "rule": "C5D6DB"
+    },
+    "crimson-slate": {
+      "label": "crimson / slate",
+      "title_bg": "2E3440", "title_text": "FFFFFF", "title_muted": "C3C9D3",
+      "bg": "FFFFFF", "heading": "A3162E", "text": "22262E", "muted": "5C6370",
+      "tint": "F4F5F7", "accent": "A3162E", "rule": "CDD1D8"
+    },
+    "espresso-stone": {
+      "label": "espresso brown / stone gray",
+      "title_bg": "3B2A24", "title_text": "FFFFFF", "title_muted": "CDBFB8",
+      "bg": "FFFFFF", "heading": "5A3A2E", "text": "2A2422", "muted": "6B625E",
+      "tint": "F3F1F0", "accent": "5A3A2E", "rule": "D6D0CD"
+    },
+    "denim-ivory": {
+      "label": "denim / ivory white",
+      "title_bg": "2F4A6D", "title_text": "FFFFFF", "title_muted": "BCCBDD",
+      "bg": "FFFFFF", "heading": "2F4A6D", "text": "222831", "muted": "5D6673",
+      "tint": "EFF3F8", "accent": "2F4A6D", "rule": "CBD5E2"
+    },
+    "steel-sky": {
+      "label": "steel / sky",
+      "title_bg": "DCEAF5", "title_text": "1E3448", "title_muted": "3F6E92",
+      "bg": "FFFFFF", "heading": "2B5577", "text": "1F262D", "muted": "58636E",
+      "tint": "EEF5FA", "accent": "2B5577", "rule": "C7D6E3"
+    },
+    "ink-cherry": {
+      "label": "ink black / cherry red",
+      "title_bg": "16181D", "title_text": "FFFFFF", "title_muted": "B3B7C0",
+      "bg": "FFFFFF", "heading": "16181D", "text": "202329", "muted": "5E636D",
+      "tint": "F3F3F5", "accent": "B0102A", "rule": "D2D4D9"
+    },
+    "deep-sea": {
+      "label": "deep sea blue / cyan",
+      "title_bg": "0B2A45", "title_text": "FFFFFF", "title_muted": "9FC4DE",
+      "bg": "FFFFFF", "heading": "0B4F7A", "text": "1C242C", "muted": "56636F",
+      "tint": "EAF4FA", "accent": "0B7AA8", "rule": "C3D7E5"
+    },
+    "charcoal-red-clay": {
+      "label": "charcoal / brick red",
+      "title_bg": "F1ECEB", "title_text": "2B2B2E", "title_muted": "8A3B32",
+      "bg": "FFFFFF", "heading": "8A3B32", "text": "26252A", "muted": "62606A",
+      "tint": "F6F2F1", "accent": "8A3B32", "rule": "DAD1CF"
+    }
+  }
+}

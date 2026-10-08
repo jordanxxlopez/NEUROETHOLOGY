@@ -1,0 +1,101 @@
+{
+  "_how_to": "Copy this folder to lectures/L<N>/, fill 44 slides, then run: python tools/build_lecture.py lectures/L<N>/lecture.json. Title and date come from course/schedule.json automatically. Layouts: text | figure-right | figure-left | figure-below | two-figures | table. Inline **bold** for key terms and _italic_ for species names.",
+  "lecture": 11,
+  "theme": "deep-sea",
+  "content_slides": 44,
+  "title_image": {
+    "path": "figures/example_panel.png",
+    "caption": "Author (year), Fig. N. What the panel shows."
+  },
+  "slides": [
+    {
+      "layout": "text",
+      "title": "Flies turn with a rotating visual surround",
+      "body": [
+        "A tethered fly placed inside a rotating striped drum turns in the direction of the rotation. This **optomotor response** stabilizes gaze and course: when self-motion produces unintended rotation of the visual world, the turning response opposes it.",
+        "The behavior is measured as a torque or a wingbeat-amplitude difference between the left and right wings. Because the fly is fixed in place, the experimenter controls the visual input exactly while the motor output is recorded continuously.",
+        "Götz used this preparation in _Drosophila_ to compare wild-type flies with eye mutants, connecting identifiable photoreceptor classes to the optomotor behavior they support."
+      ],
+      "cite": "Götz (1964)",
+      "refs": [
+        "Götz KG (1964). Optomotorische Untersuchung des visuellen Systems einiger Augenmutanten der Fruchtfliege Drosophila. Kybernetik 2: 77–92. https://doi.org/10.1007/BF00288561"
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "The correlation model compares two delayed inputs",
+      "body": [
+        "Hassenstein and Reichardt proposed that direction is computed by pairing two neighboring inputs, delaying one, and **multiplying** the delayed signal with the undelayed signal from the neighbor.",
+        "A mirror-symmetric subunit performs the same operation in the opposite direction. Subtracting the two subunits yields a signed output whose sign reports the direction of motion.",
+        "The model was derived from beetle turning behavior, not from recordings of neurons. It is a computational description that later physiology had to test."
+      ],
+      "figure": {
+        "path": "figures/example_panel.png",
+        "caption": "Author (year), Fig. N. Describe what is plotted, the axes, and the units.",
+        "source_url": "https://doi.org/..."
+      },
+      "cite": "Hassenstein & Reichardt (1956)",
+      "refs": [
+        "Hassenstein B, Reichardt W (1956). Systemtheoretische Analyse der Zeit-, Reihenfolgen- und Vorzeichenauswertung bei der Bewegungsperzeption des Rüsselkäfers Chlorophanus. Zeitschrift für Naturforschung B 11: 513–524. https://doi.org/10.1515/znb-1956-9-1004"
+      ]
+    },
+    {
+      "layout": "two-figures",
+      "title": "T4 and T5 split motion by contrast polarity",
+      "body": [
+        "Maisak and colleagues imaged calcium in **T4** and **T5** cells while presenting moving ON edges (bright) and OFF edges (dark). T4 responded to ON edges and T5 to OFF edges, and each cell type contained four subtypes tuned to the four cardinal directions."
+      ],
+      "figures": [
+        {"path": "figures/example_panel.png", "caption": "Maisak et al. (2013), Fig. Xa. Panel description."},
+        {"path": "figures/example_panel.png", "caption": "Maisak et al. (2013), Fig. Xb. Panel description."}
+      ],
+      "cite": "Maisak et al. (2013)",
+      "refs": [
+        "Maisak MS, Haag J, Ammer G, Serbe E, Meier M, Leonhardt A, Schilling T, Bahl A, Rubin GM, Nern A, Dickson BJ, Reiff DF, Hopp E, Borst A (2013). A directional tuning map of Drosophila elementary motion detectors. Nature 500: 212–216. https://doi.org/10.1038/nature12320"
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "Each experiment tests a different link",
+      "body": [
+        "Behavior, model, and cellular recordings answer different questions. A model that fits behavior does not identify the neurons that implement it, and a direction-selective neuron does not by itself prove that the behavior depends on it.",
+        "Silencing experiments close that gap by asking whether removing a cell type removes the behavior."
+      ],
+      "table": {
+        "header": ["Approach", "What it measures", "What it can establish"],
+        "rows": [
+          ["Tethered flight", "Turning torque to controlled motion", "The behavioral input–output relation"],
+          ["Correlation model", "Predicted responses to stimuli", "A sufficient computation"],
+          ["Calcium imaging", "Direction tuning of identified cells", "Where selectivity first appears"]
+        ]
+      },
+      "cite": "Borst et al. (2020)",
+      "refs": [
+        "Borst A, Haag J, Mauss AS (2020). How fly neurons compute the direction of visual motion. Journal of Comparative Physiology A 206: 109–124. https://doi.org/10.1007/s00359-019-01375-9"
+      ]
+    },
+    {
+      "layout": "figure-below",
+      "text_height": 1.5,
+      "title": "Wide figure with a short explanation above it",
+      "body": [
+        "Use this layout for a wide multi-panel figure such as a time course or a set of recordings. Explain the method, the control, and the measured result in the text above; the caption names the exact panel."
+      ],
+      "figure": {"path": "figures/example_panel.png", "caption": "Author (year), Fig. N. Panel description."},
+      "cite": "Author (year)",
+      "refs": ["Full reference with DOI."]
+    }
+  ],
+  "takeaways": {
+    "cite": "Hassenstein & Reichardt (1956); Maisak et al. (2013); Borst et al. (2020)",
+    "refs": ["Full references for every study named in the takeaways."],
+    "items": [
+      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
+      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
+      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
+      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
+      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."},
+      {"lead": "Lead phrase in bold.", "text": "One or two sentences a student needs for the exam."}
+    ]
+  }
+}
