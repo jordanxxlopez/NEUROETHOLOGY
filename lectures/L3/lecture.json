@@ -1,0 +1,1792 @@
+{
+  "lecture": 3,
+  "theme": "crimson-slate",
+  "content_slides": 44,
+  "title_image": {
+    "path": "figures/B09_1AB.png",
+    "kind": "article",
+    "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+    "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+  },
+  "title_refs": [
+    "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+  ],
+  "slides": [
+    {
+      "title": "Air displacement can signal a predator’s approach",
+      "body": [
+        "An approaching predator displaces air before contact with its prey. In _Periplaneta americana_, the American cockroach, air currents can initiate **escape**, a rapid turn followed by running. Camhi and colleagues examined whether airflow from an approaching toad could provide an early warning.",
+        "They filmed attacks by _Bufo marinus_ and measured air movement near the cockroach. A **cercus** is one of the paired appendages at the posterior abdomen; together the cerci carry wind-sensitive hairs. Cockroach movement often began before the toad’s tongue emerged.",
+        "The temporal ordering makes predator-generated airflow a plausible initiating stimulus. Timing alone does not identify the sensory pathway or exclude other cues. Experiments that blocked the cercal hairs tested whether this peripheral detector contributed to successful escape."
+      ],
+      "transcript": [
+        "A predator does not have to touch a cockroach before producing a detectable mechanical disturbance. Its advancing body pushes air toward the animal. The relevant interval begins before the tongue strike, rather than at the instant of capture.",
+        [
+          "Camhi, Tom and Volman compared the attack sequence with the cockroach’s first movement and with airflow measurements.",
+          [
+            "The cerci lie behind the abdomen, where numerous small hairs detect air movement. The published second-instar anatomy locates these appendages; the predator experiments used adult cockroaches."
+          ]
+        ],
+        "Airflow and escape occurring in the appropriate order establish temporal plausibility. Blocking the sensory structures is necessary to test their contribution, because an approaching toad can also supply visual and mechanical cues."
+      ],
+      "cite": "Camhi et al. (1978); Booth et al. (2009)",
+      "refs": [
+        "Camhi, J. M., Tom, W., & Volman, S. (1978). The escape behavior of the cockroach Periplaneta americana. II. Detection of natural predators by air displacement. Journal of Comparative Physiology, 128, 203–212. https://doi.org/10.1007/BF00656853",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/C78II_3A.png",
+          "kind": "article",
+          "caption": "Camhi et al. (1978), Fig. 3(A). Toad approach distance and airflow before the strike.",
+          "source_url": "https://doi.org/10.1007/BF00656853"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Controlled wind puffs elicit directed escape turns",
+      "body": [
+        "Camhi and Tom delivered controlled wind puffs to adult cockroaches standing on a horizontal surface. Wind direction was defined relative to the animal’s body before stimulation. High-speed film separated the first rotational movement from the subsequent running path.",
+        "The initial turn generally carried the body away from the wind source. Later movements could include reversals and additional changes in direction. A trajectory measured after several steps therefore need not describe the sensory decision expressed at escape onset.",
+        "The apparatus delivered wind at about **2 m/s** near the cerci. Its controlled direction and timing allowed comparison across stimulus angles. The experiment establishes a directional relationship for an imposed airflow stimulus; it does not require every later step to follow a straight path directly opposite the source."
+      ],
+      "transcript": [
+        "A wind puff provides an experimentally controlled substitute for the air disturbance of an approaching animal. The source position specifies an angle relative to the cockroach’s starting orientation, and the film records the body’s movement after that puff.",
+        [
+          "The first pivot and the later running trajectory are different measurements.",
+          [
+            "The initial rotation usually moves the body away from the incoming wind. Subsequent steering can add turns or reversals, so a final heading alone can obscure the first response."
+          ]
+        ],
+        "The reported airflow was approximately two meters per second at the cerci. This is an imposed laboratory stimulus, not a claim that natural predators always generate that speed. Controlled puffs permit analysis of how source direction influences the earliest movement."
+      ],
+      "cite": "Camhi & Tom (1978)",
+      "refs": [
+        "Camhi, J. M., & Tom, W. (1978). The escape behavior of the cockroach Periplaneta americana. I. Turning response to wind puffs. Journal of Comparative Physiology, 128, 193–201. https://doi.org/10.1007/BF00656852"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/C78I_3.png",
+          "kind": "article",
+          "caption": "Camhi & Tom (1978), Fig. 3(A–F). Initial turns and subsequent escape paths.",
+          "source_url": "https://doi.org/10.1007/BF00656852"
+        },
+        {
+          "path": "figures/C78I_2AB.png",
+          "kind": "article",
+          "caption": "Camhi & Tom (1978), Fig. 2(A,B). Wind stimulus.",
+          "source_url": "https://doi.org/10.1007/BF00656852"
+        }
+      ],
+      "primary_figure_height": 3.4,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Natural-predator trials reproduce the escape pivot",
+      "body": [
+        "During filmed toad attacks, the cockroach usually began escaping with a rapid pivot away from the approaching predator. The relationship between predator position and initial turn resembled the directional response obtained with laboratory wind puffs.",
+        "Camhi and colleagues measured the toad’s angle relative to the cockroach and the animal’s first body rotation. These measurements concerned the beginning of escape, before the later path could be altered by running or by the predator’s continuing movement.",
+        "Agreement between the two preparations connects the controlled stimulus to a natural encounter. It supports the role of wind-evoked escape in predator avoidance, while leaving open whether natural attacks recruit additional senses. A laboratory puff and an actual predator differ in airflow history, other cues and consequences of delayed movement."
+      ],
+      "transcript": [
+        "The toad approaches from a particular direction relative to the cockroach. The cockroach’s earliest body rotation usually moves it away from that approach. Camhi and colleagues quantified this relationship from films rather than assigning direction from the later running path.",
+        [
+          "The similarity to wind-puff responses links the laboratory preparation to a natural predator encounter.",
+          [
+            "Both preparations permit separate measurement of stimulus direction and initial body rotation. A toad attack adds visual information, an evolving airflow pattern and a capture attempt."
+          ]
+        ],
+        "Similar turning relationships are compatible with a shared sensory mechanism, but similarity is not a selective intervention. The natural-predator experiment establishes behavioral relevance; manipulation of the cerci supplies stronger evidence about the receptor pathway."
+      ],
+      "cite": "Camhi et al. (1978)",
+      "refs": [
+        "Camhi, J. M., Tom, W., & Volman, S. (1978). The escape behavior of the cockroach Periplaneta americana. II. Detection of natural predators by air displacement. Journal of Comparative Physiology, 128, 203–212. https://doi.org/10.1007/BF00656853"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/C78II_1AB.png",
+          "kind": "article",
+          "caption": "Camhi et al. (1978), Fig. 1(A,B). Filmed toad attacks and cockroach escape pivots.",
+          "source_url": "https://doi.org/10.1007/BF00656853"
+        },
+        {
+          "path": "figures/C78II_2.png",
+          "kind": "article",
+          "caption": "Camhi et al. (1978), Fig. 2. Initial turn angle relative to the approaching toad.",
+          "source_url": "https://doi.org/10.1007/BF00656853"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Cercal blocking reduces escape from toad strikes",
+      "body": [
+        "Camhi and colleagues covered the cerci with wax to restrict movement of their sensory hairs. These cockroaches escaped from toad attacks much less often than untreated animals. The intervention altered the peripheral wind detector before the predator encounter.",
+        "A **control treatment** isolates effects of the procedure from effects of the targeted structure. Wax placed on an abdominal sternite, a plate of the ventral, or underside, body wall, did not produce the same loss of escape. The comparison argues against wax application alone explaining the impairment.",
+        "Blocking cercal input supports a causal contribution to predator avoidance. It does not establish that airflow is the only available cue, nor that every failure resulted from an identical neural defect. The manipulation suppresses the sensory organ broadly rather than selecting one hair or one downstream neuron."
+      ],
+      "transcript": [
+        "Wax on the cerci limits the freedom of the wind-sensitive hairs to move. The manipulation therefore interrupts the mechanical input to the receptor cells before the nervous system can process that input.",
+        [
+          "The sternite control tests a different explanation for the behavioral effect.",
+          [
+            "Animals receiving wax on the ventral abdominal plate still escaped much more effectively than animals whose cerci were covered. Handling and the presence of wax alone cannot account for the entire impairment."
+          ]
+        ],
+        "The experiment connects a peripheral sensory structure to an outcome during a real attack. It does not distinguish individual receptor classes or individual giant interneurons, large-axon cells that connect sensory input with other neurons, because the covered organ contains many hairs. Additional cues may remain available even when cercal airflow sensitivity is reduced."
+      ],
+      "cite": "Camhi et al. (1978); Booth et al. (2009)",
+      "refs": [
+        "Camhi, J. M., Tom, W., & Volman, S. (1978). The escape behavior of the cockroach Periplaneta americana. II. Detection of natural predators by air displacement. Journal of Comparative Physiology, 128, 203–212. https://doi.org/10.1007/BF00656853",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/C78II_1AB.png",
+          "kind": "article",
+          "caption": "Camhi et al. (1978), Fig. 1(A,B). Filmed toad attacks and cockroach escape pivots.",
+          "source_url": "https://doi.org/10.1007/BF00656853"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Predator airflow precedes the tongue strike",
+      "body": [
+        "Airflow recorded during a toad’s approach rose before the tongue emerged. Cockroaches began moving, on average, about **17 ms before tongue emergence**. This ordering is compatible with a sensory warning generated by the predator’s advancing body.",
+        "The authors combined the attack timing with an approximately **58 ms** wind-to-movement latency from controlled-puff experiments. They inferred that a useful airflow signal could occur roughly **75 ms before the tongue strike**. This is a timing inference across preparations, not a direct recording of the cockroach’s neural decision during an attack.",
+        "Very small currents were behaviorally effective in restrained-animal threshold tests, around **0.003 m/s**. The airflow histories and animal constraints differed from free predator encounters. Sensitivity and early availability together support wind as a usable warning, without specifying a universal detection threshold for every natural attack."
+      ],
+      "transcript": [
+        "The first cockroach movement could precede the toad’s tongue. The mean lead was about seventeen milliseconds. A response beginning before tongue emergence must have been triggered by information available earlier in the approach.",
+        [
+          "The authors estimated the earlier warning interval using the laboratory wind-to-movement latency.",
+          [
+            "Their approximately seventy-five-millisecond estimate joins attack timing to a latency measured under controlled stimulation. It is not a simultaneous measurement of airflow, receptor spikes and movement in the same attack."
+          ]
+        ],
+        "Threshold tests in restrained cockroaches found responses to air currents near three thousandths of a meter per second. That result establishes high sensitivity under those test conditions. Natural airflow varies over time, and freely moving animals differ from the restrained preparation."
+      ],
+      "cite": "Camhi et al. (1978)",
+      "refs": [
+        "Camhi, J. M., Tom, W., & Volman, S. (1978). The escape behavior of the cockroach Periplaneta americana. II. Detection of natural predators by air displacement. Journal of Comparative Physiology, 128, 203–212. https://doi.org/10.1007/BF00656853"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/C78II_3A.png",
+          "kind": "article",
+          "caption": "Camhi et al. (1978), Fig. 3(A). Toad approach distance and airflow before the strike.",
+          "source_url": "https://doi.org/10.1007/BF00656853"
+        },
+        {
+          "path": "figures/C78II_3B.png",
+          "kind": "article",
+          "caption": "Camhi et al. (1978), Fig. 3(B). Wind trace near the behavioral response threshold.",
+          "source_url": "https://doi.org/10.1007/BF00656853"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Hind-leg movements redirect the body at turn onset",
+      "body": [
+        "The earliest escape turn depends on different movements of the two hind legs. **Protraction** moves a leg forward relative to the body, whereas **retraction** moves it backward. A foot held on the substrate can also serve as a pivot.",
+        "For wind approaching near the front on the same side as a hind leg, retraction was common. More posterior stimulation favored protraction of that leg. On the opposite side, posterior wind often left the foot fixed as the body rotated.",
+        "These directional combinations appeared at the beginning of the filmed response. They connect source angle to coordinated motor output rather than to a uniform increase in running speed. The rapid initial organization is consistent with an early sensory-to-motor command; it does not exclude later modification by sensory feedback as the animal moves."
+      ],
+      "transcript": [
+        "A turn requires the forces from the legs to act differently on the two sides. Camhi and Tom classified the earliest hind-leg movement as protraction, retraction or fixation of the foot.",
+        [
+          "The relationship depended on where the wind originated relative to each leg.",
+          [
+            "Anterior wind on the same side favored backward movement of the hind leg. More posterior wind favored forward movement. A contralateral foot could remain planted and provide a pivot for body rotation."
+          ]
+        ],
+        "These are coordinated movements, not simply a faster version of straight running. Their appearance in the earliest film interval supports directional organization at response onset. The film cannot establish that feedback is absent throughout escape, because leg contact and body orientation continue to change during subsequent movement."
+      ],
+      "cite": "Camhi & Tom (1978); Booth et al. (2009)",
+      "refs": [
+        "Camhi, J. M., & Tom, W. (1978). The escape behavior of the cockroach Periplaneta americana. I. Turning response to wind puffs. Journal of Comparative Physiology, 128, 193–201. https://doi.org/10.1007/BF00656852",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/C78I_12AB.png",
+          "kind": "article",
+          "caption": "Camhi & Tom (1978), Fig. 12(A,B). Initial hind-leg movements by wind direction.",
+          "source_url": "https://doi.org/10.1007/BF00656852"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Filiform hairs occupy the ventral cercal surfaces",
+      "body": [
+        "A **filiform hair** is a slender sensory hair displaced by air movement. Each hair is associated with a receptor neuron at its base. An **axon**, the neuron’s impulse-conducting process, carries sensory activity to the **terminal abdominal ganglion**, a posterior cluster of neurons and **synapses**, the contacts through which neurons influence other cells.",
+        "The wind-sensitive hairs are concentrated on the ventral cercal surface. Camhi and Tom covered that surface with adhesive and abolished detectable turns in response to their wind stimuli. Covering the dorsal, or upper, surface left directional responses substantially intact.",
+        "The contrast identifies the exposed ventral hair field as essential for this response under the test conditions. It does not identify the molecular channel that converts hair movement into electrical activity. The colored anatomy is Booth and colleagues’ published second-instar representation; adults used in the classic experiments have many more cercal hairs."
+      ],
+      "transcript": [
+        "Air movement bends the filiform hairs, and each hair has a sensory neuron associated with its base. An axon is the cell’s impulse-conducting process. It carries the signal to the terminal abdominal ganglion, the posterior cluster of neurons and their connections in the nerve cord.",
+        [
+          "Surface-specific covering connects the location of the hairs to behavior.",
+          [
+            "Adhesive on the ventral surface eliminated detectable wind-evoked movement in the classic experiment. Adhesive on the dorsal surface provided a comparison in which the wind-sensitive field remained more available."
+          ]
+        ],
+        "The sensory organization is present in juveniles as well as adults, but hair number changes during development. The published colored anatomy represents a second-instar animal. Neither the covering experiment nor the population nerve recordings identify a particular mechanosensitive ion channel."
+      ],
+      "cite": "Camhi & Tom (1978); Olsen & Triblehorn (2014); Booth et al. (2009)",
+      "refs": [
+        "Camhi, J. M., & Tom, W. (1978). The escape behavior of the cockroach Periplaneta americana. I. Turning response to wind puffs. Journal of Comparative Physiology, 128, 193–201. https://doi.org/10.1007/BF00656852",
+        "Olsen, A. C. K., & Triblehorn, J. D. (2014). Neural responses from the filiform receptor neuron afferents of the wind-sensitive cercal system in three cockroach species. Journal of Insect Physiology, 68, 76–86. https://doi.org/10.1016/j.jinsphys.2014.07.002",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        },
+        {
+          "path": "figures/C78I_8.png",
+          "kind": "article",
+          "caption": "Camhi & Tom (1978), Fig. 8. Stimulus angles tested after ventral cercal covering.",
+          "source_url": "https://doi.org/10.1007/BF00656852"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Dorsal and ventral coverings have different effects",
+      "body": [
+        "Anatomical location changes the interpretation of a covering experiment. The ventral cercal hairs detect airflow, while covering the dorsal surface leaves much of that sensory field accessible. Camhi and Tom compared these manipulations using the same type of wind stimulation.",
+        "Ventral covering eliminated detectable responses across the tested stimulus directions. Dorsally covered cockroaches still turned in relation to source angle. The preserved response argues against any adhesive applied to a cercus necessarily abolishing escape.",
+        "The manipulation tests availability of the hair field, rather than central processing of a normal sensory signal. A behavioral failure after ventral covering therefore cannot by itself be assigned to a giant interneuron or a motor circuit. Its strongest conclusion concerns the peripheral entry point of the wind-sensitive pathway."
+      ],
+      "transcript": [
+        "Both treatments put adhesive on a cercus, but they affect different portions of the sensory surface. Ventral coverage immobilizes the wind-sensitive hair field more directly than dorsal coverage.",
+        [
+          "Cockroaches with dorsal coverage retained direction-related turning.",
+          [
+            "This comparison separates loss of access to the receptor hairs from a general consequence of coating or handling an appendage. The animals with ventral coverage made no detectable response to the tested wind angles."
+          ]
+        ],
+        "The intervention acts before the sensory axons deliver information to the ganglion. Downstream neurons may be anatomically present and electrically excitable even though the natural stimulus can no longer activate them normally. The behavioral result does not localize a defect inside the central circuit."
+      ],
+      "cite": "Camhi & Tom (1978); Booth et al. (2009)",
+      "refs": [
+        "Camhi, J. M., & Tom, W. (1978). The escape behavior of the cockroach Periplaneta americana. I. Turning response to wind puffs. Journal of Comparative Physiology, 128, 193–201. https://doi.org/10.1007/BF00656852",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/C78I_9.png",
+          "kind": "article",
+          "caption": "Camhi & Tom (1978), Fig. 9. Direction-related turns after dorsal cercal covering.",
+          "source_url": "https://doi.org/10.1007/BF00656852"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar anatomy.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Rotating the cerci shifts perceived wind direction",
+      "body": [
+        "Camhi and Tom changed the orientation of the cerci while leaving the wind source fixed in the external environment. The hair field consequently sampled airflow at a different angle relative to its usual position on the body.",
+        "Clockwise cercal rotation shifted the direction-related turning relationship by about **65°**. The receptor geometry affected the direction of the behavioral response, rather than merely determining whether an escape began. The two cerci were rotated by different amounts, so the manipulation did not represent a perfectly rigid rotation of the entire detector.",
+        "The result supports a directional sensory code based on cercal input. It does not specify how individual sensory neurons distribute that information across interneurons. A detector can influence perceived direction through its population activity even when the downstream computation remains experimentally unresolved."
+      ],
+      "transcript": [
+        "Rotating the cerci changes the relationship between the receptor hairs and an external airflow direction. The wind tunnel remains in the same place, but the sensory surface no longer has its normal orientation relative to the cockroach.",
+        [
+          "The turning relationship shifted by approximately sixty-five degrees after clockwise rotation.",
+          [
+            "The two appendages were not rotated by identical amounts. The observed shift therefore should not be interpreted as a precise one-to-one rotation of an otherwise unchanged sensory coordinate system."
+          ]
+        ],
+        "Directional distortion is stronger evidence for an instructive role than a simple failure to escape. Cercal input carries information that affects which way the animal turns. These behavioral experiments do not identify which interneurons carry each directional component."
+      ],
+      "cite": "Camhi & Tom (1978); Booth et al. (2009)",
+      "refs": [
+        "Camhi, J. M., & Tom, W. (1978). The escape behavior of the cockroach Periplaneta americana. I. Turning response to wind puffs. Journal of Comparative Physiology, 128, 193–201. https://doi.org/10.1007/BF00656852",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/C78I_10.png",
+          "kind": "article",
+          "caption": "Camhi & Tom (1978), Fig. 10. Turning after clockwise cercal rotation.",
+          "source_url": "https://doi.org/10.1007/BF00656852"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar anatomy.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Afferent recordings measure peripheral wind responses",
+      "body": [
+        "An **afferent** is a neuron carrying sensory information toward the central nervous system. Olsen and Triblehorn recorded extracellularly from cercal nerves in three cockroach species. An extracellular electrode detects electrical activity outside the cells, often combining signals from many axons.",
+        "The authors delivered **250 ms** wind stimuli and measured airflow at the preparation. A zero-wind valve condition tested stimulus-equipment noise, while a baffle reduced mechanical vibration. These controls separated neural responses to delivered airflow from artifacts of opening the valve.",
+        "Responses were rectified and integrated to quantify population activity. This measure combines the number, size and timing of **spikes**, brief electrical impulses in axons; it is not an identified receptor’s spike count. The preparation tests peripheral encoding before input reaches the terminal ganglion, without directly measuring the transformation across individual sensory synapses."
+      ],
+      "transcript": [
+        "A cercal nerve contains axons from many hair receptors. An electrode outside that nerve records their combined electrical signal. It therefore measures a sensory population rather than the membrane potential of one identified cell.",
+        [
+          "The stimulus apparatus included direct airflow measurement and controls for non-airflow disturbances.",
+          [
+            "Opening a valve can introduce sound, vibration or electrical artifacts. The zero-wind condition and the baffle reduce the risk of assigning those disturbances to hair-receptor activity."
+          ]
+        ],
+        "Rectification converts the recorded signal into a measure of its magnitude, and integration accumulates that magnitude over a selected time interval. Spikes are brief electrical impulses that propagate along axons. Overlapping spikes can change the measure through their timing as well as their number. It cannot be interpreted as a direct count of impulses from a single receptor."
+      ],
+      "cite": "Olsen & Triblehorn (2014); Booth et al. (2009)",
+      "refs": [
+        "Olsen, A. C. K., & Triblehorn, J. D. (2014). Neural responses from the filiform receptor neuron afferents of the wind-sensitive cercal system in three cockroach species. Journal of Insect Physiology, 68, 76–86. https://doi.org/10.1016/j.jinsphys.2014.07.002",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/O14_2.png",
+          "kind": "article",
+          "caption": "Olsen & Triblehorn (2014), Fig. 2. Single and averaged cercal afferent responses.",
+          "source_url": "https://doi.org/10.1016/j.jinsphys.2014.07.002"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar anatomy.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Faster wind recruits larger afferent responses",
+      "body": [
+        "Olsen and Triblehorn varied airflow from **1 to 250 cm/s** while recording cercal afferent populations. A **stimulus–response relationship** describes how the measured neural response changes as stimulus intensity changes.",
+        "Peripheral response magnitude generally increased with wind velocity. The analysis separated the first **100 ms** of stimulation from the remaining **150 ms**, because the onset response differed from activity sustained during the puff. Normalizing each species’ curve permitted comparison of response shape without equating absolute signal magnitudes.",
+        "The response depended on both species and time window. A rising population signal can reflect recruitment of additional receptors, changes in firing or greater overlap among their spikes. The extracellular measurement does not separate those contributions or establish that faster wind must produce a larger escape turn."
+      ],
+      "transcript": [
+        "A stronger air current generally produced a larger peripheral population response. Wind velocity was measured at the preparation, so the stimulus axis refers to delivered airflow rather than the pressure setting of the supply apparatus.",
+        [
+          "The onset and the later part of the puff were analyzed separately.",
+          [
+            "The first one hundred milliseconds include the initial response. The following one hundred fifty milliseconds measure activity after the onset burst. Combining them would conceal changes in the response over time."
+          ]
+        ],
+        "An absolute response curve and a normalized curve answer different questions. Absolute magnitude retains differences in recorded signal strength. Normalization emphasizes how each response grows relative to its own maximum. Neither analysis makes the nerve recording a direct measure of body rotation."
+      ],
+      "cite": "Olsen & Triblehorn (2014); Booth et al. (2009)",
+      "refs": [
+        "Olsen, A. C. K., & Triblehorn, J. D. (2014). Neural responses from the filiform receptor neuron afferents of the wind-sensitive cercal system in three cockroach species. Journal of Insect Physiology, 68, 76–86. https://doi.org/10.1016/j.jinsphys.2014.07.002",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/O14_5ABCD.png",
+          "kind": "article",
+          "caption": "Olsen & Triblehorn (2014), Fig. 5(A–D). Early and later afferent stimulus–response curves.",
+          "source_url": "https://doi.org/10.1016/j.jinsphys.2014.07.002"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 3.15
+    },
+    {
+      "title": "Response peaks depend on population timing",
+      "body": [
+        "Wind stimulation produced structured afferent responses rather than a constant level of activity. Olsen and Triblehorn distinguished early positive peaks in averaged extracellular signals. Peak amplitude can depend on several receptor axons firing at similar times.",
+        "**Synchrony** means temporal alignment of activity across neurons. _Blaberus craniifer_ had a particularly prominent second positive peak, despite having fewer filiform hairs than _P. americana_. The authors proposed stronger synchrony as one explanation for its large population response.",
+        "That explanation remains an inference from combined nerve signals. Different firing patterns, receptor sensitivity or signal overlap could also influence the peaks. Population recording identifies when a collective response occurs, but simultaneous recordings from identified receptors would be required to assign the peak to particular cells and their timing."
+      ],
+      "transcript": [
+        "Extracellular afferent signals contain overlapping contributions from many sensory axons. When several axons fire close together in time, their electrical signals can contribute to a larger population peak.",
+        [
+          "Blaberus craniifer produced a large second positive peak in the averaged response.",
+          [
+            "The species has fewer wind-sensitive hairs than Periplaneta americana, so receptor number alone cannot explain the magnitude. Olsen and Triblehorn proposed more synchronous activity as a possible contribution."
+          ]
+        ],
+        "Synchrony is a relationship among firing times, not simply a higher total number of spikes. The combined recordings do not identify every contributing receptor. They support a timing-based explanation without establishing the individual-cell mechanism that creates the second peak."
+      ],
+      "cite": "Olsen & Triblehorn (2014); Booth et al. (2009)",
+      "refs": [
+        "Olsen, A. C. K., & Triblehorn, J. D. (2014). Neural responses from the filiform receptor neuron afferents of the wind-sensitive cercal system in three cockroach species. Journal of Insect Physiology, 68, 76–86. https://doi.org/10.1016/j.jinsphys.2014.07.002",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/O14_4.png",
+          "kind": "article",
+          "caption": "Olsen & Triblehorn (2014), Fig. 4(A–C). Species differences in wind-response timing.",
+          "source_url": "https://doi.org/10.1016/j.jinsphys.2014.07.002"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Fewer hairs need not mean weaker sensory signals",
+      "body": [
+        "The three species differed substantially in cercal organization. _P. americana_ had about **200 filiform hairs per cercus**, _B. craniifer_ about **60**, and _Gromphodorhina portentosa_ about **20**. Hair number describes available receptors, not the output of each receptor.",
+        "_G. portentosa_ produced the weakest afferent responses, but _B. craniifer_ often matched or exceeded _P. americana_. During the later **150 ms** of stimulation, _B. craniifer_ produced larger responses despite its smaller hair population.",
+        "These comparisons reject a simple proportional relationship between hair count and recorded population magnitude. Receptor response properties and timing must also be considered. Cross-species extracellular measurements do not determine how much each hair contributes, and a large peripheral signal does not by itself establish effective coupling to an escape motor program."
+      ],
+      "transcript": [
+        "Hair count constrains the number of sensory inputs, but it does not determine their firing pattern. The three species provide a comparison in which receptor number and response magnitude do not always rank in the same order.",
+        [
+          "Blaberus craniifer had far fewer hairs than Periplaneta americana but could produce a larger combined response.",
+          [
+            "The difference was especially apparent during the later part of the puff. Gromphodorhina portentosa, with the smallest hair population, produced the weakest responses."
+          ]
+        ],
+        "Both receptor number and receptor physiology can influence sensory output. The recordings cannot assign the species difference to one property of a single cell. They also cannot determine whether the signal will recruit the thoracic motor circuitry strongly enough to generate terrestrial escape."
+      ],
+      "cite": "Olsen & Triblehorn (2014); Booth et al. (2009)",
+      "refs": [
+        "Olsen, A. C. K., & Triblehorn, J. D. (2014). Neural responses from the filiform receptor neuron afferents of the wind-sensitive cercal system in three cockroach species. Journal of Insect Physiology, 68, 76–86. https://doi.org/10.1016/j.jinsphys.2014.07.002",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/O14_5ABCD.png",
+          "kind": "article",
+          "caption": "Olsen & Triblehorn (2014), Fig. 5(A–D). Early and later afferent stimulus–response curves.",
+          "source_url": "https://doi.org/10.1016/j.jinsphys.2014.07.002"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 3.15
+    },
+    {
+      "title": "Sensory afferents converge in the terminal ganglion",
+      "body": [
+        "The **terminal abdominal ganglion** is a posterior concentration of neuronal cell bodies and connections in the ventral nerve cord. Cercal sensory axons enter this ganglion and contact wind-sensitive interneurons. An **interneuron** connects neurons within the nervous system rather than directly innervating a sensory receptor or muscle.",
+        "A **synapse** is a specialized site where a neuron influences another cell. A **monosynaptic connection** links a sensory neuron to its target through one synapse. This pathway allows wind information to influence ascending activity without requiring a long chain of intervening neurons at the first stage.",
+        "**Synaptic efficacy** is the strength of a connection’s effect on its target. Interneuron responses also depend on intrinsic membrane properties. Olsen and Triblehorn discussed sodium- or calcium-activated potassium channels as possible contributors to spike-rate adaptation, a reduction of firing during sustained stimulation. Their comparative recordings did not measure those channels or identify the responsible transmitter or receptor subtype."
+      ],
+      "transcript": [
+        "A hair-receptor axon carries sensory activity into the terminal abdominal ganglion. There it can make a direct synaptic connection with a wind-sensitive interneuron. Monosynaptic means that one connection separates the sensory neuron from that target.",
+        [
+          "Many receptor inputs converge on interneurons within the ganglion.",
+          [
+            "Different hair orientations supply different directional information. The activity of an interneuron can therefore depend on which inputs are active together and on how strongly those inputs influence it."
+          ]
+        ],
+        "Multiple directional inputs converge on interneurons, but the number of incoming impulses does not determine the output by itself. Synaptic efficacy specifies how strongly an input affects its target. Intrinsic membrane properties also influence whether an interneuron continues firing during a sustained puff.",
+        [
+          "Olsen and Triblehorn discussed sodium- and calcium-activated potassium channels as candidate contributors to spike-rate adaptation.",
+          [
+            "Ion channels are membrane proteins that permit selective ion movement. These candidate channels respond to intracellular sodium or calcium and can alter excitability through potassium conductance. Adaptation means that firing diminishes during sustained stimulation. The channels were proposed from broader membrane physiology, not directly recorded or selectively blocked in these comparative cockroach experiments."
+          ]
+        ]
+      ],
+      "cite": "Olsen & Triblehorn (2014); Booth et al. (2009)",
+      "refs": [
+        "Olsen, A. C. K., & Triblehorn, J. D. (2014). Neural responses from the filiform receptor neuron afferents of the wind-sensitive cercal system in three cockroach species. Journal of Insect Physiology, 68, 76–86. https://doi.org/10.1016/j.jinsphys.2014.07.002",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/B09_1AB.png",
+        "kind": "article",
+        "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+        "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      }
+    },
+    {
+      "title": "Giant axons carry wind signals toward motor circuits",
+      "body": [
+        "A **giant interneuron**, or GI, has a large axon that carries activity anteriorly through the abdominal nerve cord. Its dendrites receive cercal sensory input in the terminal ganglion. **Dendrites** are neuronal processes that receive and integrate input; an **axon** carries propagated electrical impulses away from that input region.",
+        "An **action potential**, or spike, is a brief propagated electrical event. GI spikes reach thoracic regions containing premotor and motor circuitry. A **premotor neuron** influences motor neurons, whose axons drive muscle activity.",
+        "This organization connects posterior airflow detection with coordinated leg movement. Ascending GI activity supplies directional information, but the GI is not itself a leg motor neuron. Selective stimulation tests its contribution to movement without identifying every thoracic connection or the complete set of synaptic and membrane mechanisms."
+      ],
+      "transcript": [
+        "The large GI axon provides an ascending path from the posterior sensory ganglion toward the thoracic motor regions. The dendritic region receives input locally; action potentials carry the resulting activity along the axon.",
+        [
+          "The pathway still contains processing between the GI and the muscles.",
+          [
+            "Premotor neurons influence motor neurons, and motor neurons innervate muscles. A giant interneuron therefore contributes a sensory-related signal rather than directly supplying all of the commands for a coordinated turn."
+          ]
+        ],
+        "Levi and Camhi tested that contribution by changing activity in an identified GI while measuring leg movement. The intervention establishes a causal role for its spikes. It does not establish every synaptic step between the recorded axon and the individual leg muscles."
+      ],
+      "cite": "Olsen & Triblehorn (2014); Levi & Camhi (2000a); Booth et al. (2009)",
+      "refs": [
+        "Olsen, A. C. K., & Triblehorn, J. D. (2014). Neural responses from the filiform receptor neuron afferents of the wind-sensitive cercal system in three cockroach species. Journal of Insect Physiology, 68, 76–86. https://doi.org/10.1016/j.jinsphys.2014.07.002",
+        "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/B09_1AB.png",
+        "kind": "article",
+        "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+        "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      }
+    },
+    {
+      "title": "Three bilateral GI pairs contribute to direction",
+      "body": [
+        "Directional analyses focused on three identified ventral giant interneurons on each side, designated **GI1, GI2 and GI3**. **Bilateral** organization means corresponding neurons occur on the two sides of the nervous system.",
+        "These cells have different directional response profiles. A **receptive field** specifies the stimulus directions that excite a neuron and the relative strength of those responses. Activity distributed across the six cells provides more information than the presence of a spike in one cell alone.",
+        "Levi and Camhi manipulated identified GIs to test how that distribution affects turning. Their analysis concerns this defined subset of the wind-sensitive system, not every ascending interneuron. The colored juvenile anatomy locates the sensory inputs and ascending cells; the adult receptive-field profiles in the coding study describe a different developmental preparation."
+      ],
+      "transcript": [
+        "GI1, GI2 and GI3 are identified cells, with a corresponding set on the other side. Their responses overlap in stimulus direction, but they are not identical copies of one another.",
+        [
+          "A receptive field relates wind direction to the strength of a neuron’s response.",
+          [
+            "Overlapping fields mean that the same puff can activate several cells to different degrees. Directional information therefore resides in the pattern across cells as well as in the activity of any one cell."
+          ]
+        ],
+        "The experiments target the ventral GIs involved in the authors’ directional analysis. Other wind-sensitive interneurons remain part of the nervous system. The adult response profiles and the published second-instar anatomical representation should not be treated as recordings from the same age of animal."
+      ],
+      "cite": "Levi & Camhi (2000b); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000b). Population vector coding by the giant interneurons of the cockroach. Journal of Neuroscience, 20(10), 3822–3829. https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/V00_1A.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000b), Fig. 1(A). Adult GI directional profiles used as model inputs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Terminal ganglion and ascending GIs in the second instar.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Each GI weights a different range of wind directions",
+      "body": [
+        "The response profiles of GI1, GI2 and GI3 overlap, but each cell responds most strongly over a different range of source angles. A **preferred direction** is the direction associated with the strongest response in the directional profile.",
+        "A puff from the animal’s side can activate cells whose preferred directions lie more anteriorly or posteriorly. The relative spike activity across those cells therefore contains information about source position. The published profiles are inputs to the authors’ coding models.",
+        "An overlapping representation is compatible with several possible decoding mechanisms. It does not establish that the motor system simply follows the most active cell. Selective changes in one GI’s activity can alter the relative pattern while leaving the external airflow direction unchanged, permitting a causal test of how the distributed signal influences movement."
+      ],
+      "transcript": [
+        "A cell’s preferred direction describes its response profile, not a command to turn toward that direction. The nervous system must transform a pattern representing incoming wind into movement away from the threat.",
+        [
+          "A lateral puff activates overlapping directional fields.",
+          [
+            "Some active cells prefer a more anterior source and others a more posterior source. Their relative contributions can shift the directional estimate even when total activity remains substantial."
+          ]
+        ],
+        "The published response profiles supplied the inputs for Levi and Camhi’s model comparison. They do not identify the motor decoder by themselves. Changing one cell’s spikes while holding the wind stimulus fixed tests whether that cell contributes to the behavioral interpretation of the population signal."
+      ],
+      "cite": "Levi & Camhi (2000b); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000b). Population vector coding by the giant interneurons of the cockroach. Journal of Neuroscience, 20(10), 3822–3829. https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/V00_1A.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000b), Fig. 1(A). Adult GI directional profiles used as model inputs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Terminal ganglion and ascending GIs in the second instar.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Identified-cell recordings permit selective intervention",
+      "body": [
+        "Levi and Camhi combined behavioral recording with an **intracellular electrode**, which accesses the electrical potential inside one neuron. The electrode also allowed current injection into an identified GI during wind stimulation.",
+        "Hook electrodes on the nerve cord monitored spikes traveling anteriorly toward the motor regions. This provided a check that stimulation at the intracellular recording site produced impulses capable of reaching downstream circuits.",
+        "Selective manipulation held the external wind stimulus approximately constant while changing one component of the neural response. It tested whether activity in that GI causally influenced turning. The preparation required dissection and tethering, so control comparisons were needed to establish which features of the intact directional response remained measurable."
+      ],
+      "transcript": [
+        "An intracellular electrode records from one identified neuron rather than combining signals from an entire nerve. Current passed through that electrode can evoke spikes in the same cell.",
+        [
+          "The anterior hook recording checks propagation toward the motor circuitry.",
+          [
+            "A local electrical response would not be sufficient if it failed to travel along the GI axon. Recording the propagated impulses connects the manipulation to the ascending signal available downstream."
+          ]
+        ],
+        "The wind puff can remain the same while the response of one GI changes. Differences in leg movement can then be attributed more specifically to altered neural activity. Dissection and tethering constrain the behavior, so the preparation must be compared with less disrupted animals before interpreting the directional measure."
+      ],
+      "cite": "Levi & Camhi (2000a); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/W00_1.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000a), Fig. 1. Tethered animal, neural recording and leg-motion preparation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Second-instar GIs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Tethered animals retain coordinated escape leg movements",
+      "body": [
+        "Levi and Camhi restrained the cockroach over an oiled glass surface. **Tethering** fixes the animal’s body while allowing its legs to move. The low-friction surface reduced resistance to those movements during wind-evoked escape.",
+        "High-speed video at **250 frames/s** recorded leg-joint motion. The animal could not express a freely moving body trajectory, but its legs still generated coordinated directional movements in response to wind.",
+        "This preparation made simultaneous neural intervention and behavioral measurement possible. It preserved a measurable motor pattern rather than the complete natural escape sequence. A change in the resulting turning index must therefore be described as a change in leg-derived turning tendency, not automatically converted into degrees of body rotation or improved predator survival."
+      ],
+      "transcript": [
+        "Tethering prevents the cockroach’s body from translating or rotating freely, but the legs remain mobile. The oiled glass reduces friction, allowing the directional motor pattern to be measured while electrodes remain in place.",
+        [
+          "The video recorded two hundred fifty frames each second.",
+          [
+            "This temporal resolution allowed the authors to locate the onset of leg movement and measure joint-angle changes associated with the escape response."
+          ]
+        ],
+        "The preparation trades a natural trajectory for controlled access to an identified neuron. The behavioral readout is still meaningful because coordinated leg movements vary with wind direction. It is not a freely moving escape angle, and it supplies no direct measurement of whether the animal would evade a toad."
+      ],
+      "cite": "Levi & Camhi (2000a)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/W00_1.png",
+        "kind": "article",
+        "caption": "Levi & Camhi (2000a), Fig. 1. Tethered animal, neural recording and leg-motion preparation.",
+        "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+      }
+    },
+    {
+      "title": "Joint movements quantify escape-turn strength",
+      "body": [
+        "The **coxa–femur joint** links the basal leg segment to the femur. Levi and Camhi measured changes at these joints across the six legs after wind stimulation. Different joints changed differently as source angle varied.",
+        "The authors combined direction-related joint movements into **left-turning tendency**, an index of the motor pattern associated with turning left. The index allowed within-animal comparison between wind alone and wind paired with GI stimulation.",
+        "An index summarizes several measurements; it is not an independent physical angle. Increasing left-turning tendency means that the measured leg pattern became more consistent with a stronger left turn. The assay can test neural control of a coordinated directional response, while leaving actual body displacement, running speed and escape success outside its direct measurement."
+      ],
+      "transcript": [
+        "The coxa–femur angle changes when a leg moves relative to the body. Levi and Camhi measured those changes for the legs on both sides and used their directional relationships to form a composite turning measure.",
+        [
+          "Left-turning tendency describes the leg pattern rather than a measured body heading.",
+          [
+            "A larger index means that the combination of joint movements was more strongly associated with leftward turning. The tethered body itself could not execute that turn."
+          ]
+        ],
+        "Within-animal comparisons are valuable because the same measurement procedure applies before and during neural manipulation. The index is suited to a causal test of GI activity. It should not be reported as a number of degrees of escape, since that conversion was not the behavioral assay."
+      ],
+      "cite": "Levi & Camhi (2000a)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/W00_2.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000a), Fig. 2. Coxa–femur joint movements by wind direction.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+        },
+        {
+          "path": "figures/W00_1.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000a), Fig. 1. Recording preparation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Dissection preserves the directional relationship",
+      "body": [
+        "Dissection could alter a wind-evoked response independently of any selective GI intervention. Levi and Camhi therefore compared the joint-derived turning measure in tethered animals before and after the preparation needed for intracellular recording.",
+        "Both conditions retained a systematic relationship between wind angle and left-turning tendency. Wind arriving farther toward the rear produced a smaller left-turning tendency than more anterior wind on the same side. Control trials in the experimental preparation also followed the intact directional relationship.",
+        "The comparison supports using the preparation to test changes within that response. It does not establish that every feature of natural escape remains intact. In particular, a tethered joint index cannot measure freely moving body rotation, later path selection or actual success against a predator."
+      ],
+      "transcript": [
+        "Surgery can change behavior through effects unrelated to the neuron under study. A directional response after dissection is therefore meaningful only if its relationship to wind direction remains comparable to an appropriate control preparation.",
+        [
+          "Levi and Camhi compared tethered animals with and without the dissection required for intracellular recording.",
+          [
+            "Both retained the decrease in left-turning tendency as the wind source moved toward the rear. Wind-only control trials in the experimental animals also followed the directional relationship."
+          ]
+        ],
+        "The control validates the measured relationship rather than the entire natural behavior. The body remains restrained, and the assay concerns joint movements near response onset. Later running trajectories and predator avoidance require different preparations and cannot be inferred from preserved joint-angle relationships alone."
+      ],
+      "cite": "Levi & Camhi (2000a)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/W00_3.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000a), Fig. 3(A,B). Turning tendency in intact and dissected preparations.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+        },
+        {
+          "path": "figures/W00_1.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000a), Fig. 1. Recording preparation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Intracellular stimulation adds spikes to one GI",
+      "body": [
+        "Levi and Camhi paired a wind puff with brief current pulses delivered through the intracellular electrode in right GI3. The pulses evoked additional spikes while the natural sensory stimulus remained present.",
+        "A wind-only trial provided the comparison for the same animal. Intracellular activity and anterior hook recordings confirmed the added impulses and their propagation. In the recorded example, stimulation increased the relevant GI3 spike count from **5 to 10** before the behavioral cutoff.",
+        "The resulting motor change tests whether one cell’s activity contributes causally to turn strength. It is stronger evidence than a correlation between wind direction and spikes alone. The manipulation supplies an artificial spike pattern within a functioning circuit; it does not reproduce every feature of naturally occurring input or directly identify the downstream synaptic computation."
+      ],
+      "transcript": [
+        "Current injection changes the activity of the identified GI without moving the wind source. The authors compared the wind-only response with a trial in which electrical pulses added impulses to right GI3.",
+        [
+          "The example recording contains five spikes in the control interval and ten in the stimulated interval.",
+          [
+            "Anterior hook recordings confirm that the extra impulses traveled toward the motor regions. The added activity therefore becomes available to the circuitry controlling the legs."
+          ]
+        ],
+        "Changing the neural input while preserving the external stimulus is a causal intervention. A difference in the leg-derived turning measure can be assigned to the added GI activity more specifically than to wind intensity. The imposed pulse train is still an experimental perturbation, rather than a complete reconstruction of natural sensory activity."
+      ],
+      "cite": "Levi & Camhi (2000a); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/W00_4AB.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000a), Fig. 4(A,B). GI3 activity with wind alone and added spikes.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Second-instar GIs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Spikes must arrive before movement begins",
+      "body": [
+        "A spike can influence the initial movement only if it reaches the relevant circuits early enough. Levi and Camhi counted GI spikes until **4 ms before the first leg movement**, allowing time for processing between the recorded GI and motor output.",
+        "The cutoff excluded impulses occurring too late to explain the measured onset response. Timing signals, intracellular recordings, anterior hook recordings and high-speed video placed neural activity and leg movement on a common experimental timeline.",
+        "This analysis links the causal claim to activity preceding the motor event. Later spikes may influence later movement, but they cannot explain a response that has already begun. The **4 ms** interval was a processing allowance used in this preparation, not a complete decomposition of sensory transduction, axonal conduction, synaptic delay and muscle activation."
+      ],
+      "transcript": [
+        "Neural activity and movement have to be compared in the correct temporal order. The authors stopped counting the relevant GI impulses four milliseconds before the first visible leg movement.",
+        [
+          "That interval allows for processing between the GI recording site and the motor response.",
+          [
+            "An impulse arriving after the cutoff may still affect subsequent behavior, but it cannot be assigned to initiation of the measured movement under the authors’ timing criterion."
+          ]
+        ],
+        "The intracellular signal, anterior nerve-cord recording, stimulus timing signal and high-speed film establish the temporal relationship. The cutoff does not identify how much time each cellular process consumes. Sensory activation, spike propagation, synaptic transmission and muscle recruitment remain distinct components that were not separately timed in this assay."
+      ],
+      "cite": "Levi & Camhi (2000a); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/W00_4AB.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000a), Fig. 4(A,B). GI3 activity with wind alone and added spikes.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Second-instar GIs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Increasing GI3 activity changes turn strength gradually",
+      "body": [
+        "Levi and Camhi varied the frequency of spikes added to right GI3 during wind puffs. **Spike frequency**, expressed in hertz, is the number of impulses per second. Increasing the imposed frequency generally increased left-turning tendency.",
+        "The responses included intermediate turning values rather than an abrupt switch between two fixed outcomes. A **winner-take-all model** assigns the output to a single dominant unit and predicts more discrete changes when the winner changes.",
+        "The graded effect argues against a strong winner-take-all explanation of turn strength under these conditions. Several units can contribute to a continuously varying output. The experiment does not identify the complete decoder, and it does not exclude weak interactions among downstream pathways or categorical decisions in other components of escape."
+      ],
+      "transcript": [
+        "A frequency measured in hertz specifies how rapidly spikes occur. Increasing the added right-GI3 spike frequency produced progressively stronger left-turning tendencies, with behavioral values between the low and high extremes.",
+        [
+          "A strong winner-take-all account would select one dominant contribution rather than combine them continuously.",
+          [
+            "Intermediate responses are inconsistent with an abrupt switch being the sole explanation for the measured turn strength."
+          ]
+        ],
+        "The result establishes that this motor measure can vary with the activity supplied by one member of the population. It does not identify every participating synapse or establish that all parts of escape use a continuous code. The first directional turn and the decision to initiate movement can have different neural requirements."
+      ],
+      "cite": "Levi & Camhi (2000a); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/W00_6ABC.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000a), Fig. 6(A–C). Graded turning with increasing GI3 spike frequency.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Second-instar GIs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 3.45,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Opposite-side GI activity changes turning progressively",
+      "body": [
+        "Wind from the right normally favored a leftward escape motor pattern. Levi and Camhi added spikes to left GI1, GI2 or GI3, changing activity on the side opposite the strongly wind-driven cells.",
+        "Increasing that activity reduced left-turning tendency progressively. Stronger stimulation could reverse the sign of the joint-derived turning measure. Intermediate frequencies produced intermediate motor responses rather than an obligatory sudden switch between left and right.",
+        "The experiment supports joint contributions from the two sides to the measured directional output. It argues against strong mutual exclusion as the only mechanism producing turn direction. The result does not identify the anatomical location of all interactions or establish whether weaker inhibition contributes within the thoracic circuits."
+      ],
+      "transcript": [
+        "Right-sided wind and added activity in a left-side GI provide competing directional contributions. As the added left-side activity increased, the motor pattern became less strongly leftward and could become rightward.",
+        [
+          "The intermediate responses matter for evaluating the form of the interaction.",
+          [
+            "A single abrupt change from a left response to a right response would fit a strong competitive selection mechanism more readily. The recorded measure instead varied progressively with stimulation frequency."
+          ]
+        ],
+        "The experiment supports bilateral contributions to the directional motor output. It does not locate every interaction between those contributions. Weak inhibition or additional processing in follower neurons could still be present even though a strong winner-take-all mechanism does not explain the measured relationship."
+      ],
+      "cite": "Levi & Camhi (2000a); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/W00_8AB.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000a), Fig. 8(A,B). Turning changes after adding left-side GI spikes.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Second-instar GIs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Preferred directions define a population-coding proposal",
+      "body": [
+        "A **population vector** represents each neuron’s preferred wind direction as a directional contribution weighted by its spike activity. Combining those contributions yields an estimate of wind direction. The proposed escape command points away from that estimate.",
+        "Levi and Camhi compared this account with a **steering-wheel model**, in which each GI contributes a weighted turning command. Both models could account for some existing turning relationships, including changes caused by added GI3 spikes.",
+        "The published model representations are theoretical descriptions, not recordings of the thoracic decoder. Agreement with behavior is insufficient to distinguish them when their predictions coincide. A selective intervention must target a neuron and stimulus condition for which the models predict different behavioral effects."
+      ],
+      "transcript": [
+        "The population-vector proposal assigns a directional contribution to each GI according to its preferred wind direction. Its contribution becomes stronger when the cell supplies more spikes. The combined direction estimates the incoming airflow, and escape is directed away from that estimate.",
+        [
+          "The steering-wheel proposal assigns the cells direct contributions to turning instead.",
+          [
+            "Because two different computations can predict the same result after GI3 stimulation, that intervention alone cannot choose between them."
+          ]
+        ],
+        "The model comparison concerns how an overlapping sensory representation could be decoded. The published arrows express the authors’ theoretical calculations; they are not anatomical recordings of a decoder. A distinguishing experiment requires predictions that differ in sign or magnitude under the same neural perturbation."
+      ],
+      "cite": "Levi & Camhi (2000b); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000b). Population vector coding by the giant interneurons of the cockroach. Journal of Neuroscience, 20(10), 3822–3829. https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/V00_1BC.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000b), Fig. 1(B,C). Competing published decoding models and their outputs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Second-instar GIs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Competing models differ on the contribution of GI2",
+      "body": [
+        "GI2 supplied a distinguishing test because its preferred directional contribution differed from GI3’s. In the population-vector account, increasing right GI2 activity during right-sided wind shifts the estimated source toward the rear and predicts a smaller left turn.",
+        "The steering-wheel account instead assigns right GI2 a contribution that strengthens left turning. Removing the same input should therefore produce opposite behavioral changes under the two models: an enlarged leftward tendency for the population-vector account and a reduced tendency for the steering-wheel account.",
+        "Initial attempts to add GI2 spikes were limited by its very rapid natural onset firing. The authors instead removed wind-driven GI2 activity and then replaced part of it electrically. The theoretical alternatives became testable through a cell-specific loss-and-replacement intervention."
+      ],
+      "transcript": [
+        "GI2 and GI3 occupy different positions in the directional representation. Increasing GI3 activity had effects compatible with both candidate models, whereas changing GI2 created a disagreement between their predictions.",
+        [
+          "For right-sided wind, the population-vector calculation treats more right-GI2 activity as a shift toward a posterior source estimate.",
+          [
+            "That predicts a smaller left turn. The steering-wheel account predicts a larger leftward command from the same added activity. Removing GI2 reverses those respective predictions."
+          ]
+        ],
+        "Natural GI2 activity began too rapidly for reliable addition of extra onset spikes. The authors therefore used selective photoablation to eliminate wind-driven activity, followed by electrical replacement. That approach tests the contribution by subtracting it before adding it back."
+      ],
+      "cite": "Levi & Camhi (2000b); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000b). Population vector coding by the giant interneurons of the cockroach. Journal of Neuroscience, 20(10), 3822–3829. https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/V00_4ABC.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000b), Fig. 4(A–C). Different model predictions for GI3 and GI2 activity.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Second-instar GIs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Photoablation removes wind-driven activity from GI2",
+      "body": [
+        "**Photoablation** damages a selected neuron using light after the cell has been filled with a light-sensitive substance. Levi and Camhi targeted the posterior region of right GI2, eliminating its response to the wind stimulus.",
+        "The anterior axonal region remained available for electrical stimulation. Intracellular recordings confirmed that wind no longer evoked the normal GI2 spike burst, while injected pulses could still produce propagated activity through the remaining axon.",
+        "The intervention separated loss of natural sensory drive from loss of all access to downstream circuits. It allowed the authors to test behavior after removing GI2’s normal contribution and after replacing spikes. Selective manipulation does not mean the surrounding network is otherwise unchanged in every respect; the electrical rescue provides a further check on causal interpretation."
+      ],
+      "transcript": [
+        "Photoablation uses a light-sensitive fill to damage a selected portion of the identified neuron. The authors targeted the posterior GI2 region involved in receiving the natural wind-related signal.",
+        [
+          "After treatment, a wind puff no longer evoked the normal GI2 burst.",
+          [
+            "The more anterior axonal region could still respond to electrical pulses. Natural sensory activation and experimentally supplied axonal activity were therefore separated within the same identified pathway."
+          ]
+        ],
+        "This arrangement permits a rescue experiment. If replacing spikes shifts the behavior back toward its original value, the behavioral effect of losing the input is more specifically linked to GI2 activity. Rescue does not imply that the damaged sensory connections have regenerated."
+      ],
+      "cite": "Levi & Camhi (2000b); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000b). Population vector coding by the giant interneurons of the cockroach. Journal of Neuroscience, 20(10), 3822–3829. https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/V00_6AB.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000b), Fig. 6(A,B). GI2 loss, electrical replacement and turning.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Second-instar GIs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Removing GI2 enlarges the left-turning tendency",
+      "body": [
+        "With wind arriving from **90° to the right**, photoablation of right GI2 increased the measured left-turning tendency. Losing one excitatory sensory contribution did not simply weaken the entire directional response.",
+        "The direction of the change agreed with the population-vector prediction. Removing a contribution weighted toward more posterior wind shifted the combined estimate toward a more anterior source, for which the proposed decoder required a larger leftward turn.",
+        "The competing steering-wheel account predicted the opposite change and was not supported by this intervention. The result constrains how GI activity contributes to directional output. It does not directly identify neurons that calculate a vector, and the behavioral quantity remains a tethered leg index rather than a freely measured body angle."
+      ],
+      "transcript": [
+        "Right-GI2 photoablation caused a larger leftward turning tendency under right-sided wind. The behavioral response increased even though a wind-responsive input had been removed.",
+        [
+          "The sign of the change distinguishes the two candidate computations.",
+          [
+            "In the population-vector account, the lost GI2 contribution had pulled the estimated source toward the rear. Removing it makes the estimate more anterior and increases the predicted left turn. A direct additive steering contribution would instead have predicted a decrease."
+          ]
+        ],
+        "The experiment supports population coding through a prediction tested by selective intervention. It is not a recording of a literal vector calculation inside an identified thoracic neuron. Its output is the leg-derived index used throughout the tethered preparation."
+      ],
+      "cite": "Levi & Camhi (2000b); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000b). Population vector coding by the giant interneurons of the cockroach. Journal of Neuroscience, 20(10), 3822–3829. https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/V00_5.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000b), Fig. 5. Larger left-turning tendency after right-GI2 photoablation.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Terminal ganglion and ascending GIs in the second instar.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Replacing GI2 spikes partly restores the response",
+      "body": [
+        "After GI2 photoablation, Levi and Camhi delivered electrical pulses to the remaining anterior axon while repeating the wind stimulus. A pulse train near **300 Hz** restored a contribution that natural sensory input could no longer supply.",
+        "Photoablation had enlarged left-turning tendency. Electrical replacement reduced that enlarged response toward its original level. The direction of the rescue supports an effect of GI2 activity rather than an unrelated loss of general responsiveness.",
+        "The replacement did not reproduce the full natural onset burst, which exceeded **600 spikes/s**. A partial behavioral restoration is therefore compatible with an imperfect replacement signal. The experiment supplies functional activity through the remaining axon; it does not repair the ablated input region or establish complete restoration of normal escape."
+      ],
+      "transcript": [
+        "The same wind stimulus was tested before photoablation, after photoablation and during electrical replacement of GI2 activity. Adding spikes after the loss reduced the excessive leftward tendency toward the original response.",
+        [
+          "The replacement train was approximately three hundred hertz.",
+          [
+            "The natural onset response could exceed six hundred spikes per second, so the artificial train did not reproduce the original temporal pattern. Differences in the replacement signal can limit the completeness of behavioral rescue."
+          ]
+        ],
+        "Restoring a functional contribution is different from repairing sensory connectivity. The anterior axon carried experimentally evoked spikes to the downstream circuit even though the posterior wind-driven input remained disabled. The rescue strengthens the causal interpretation of GI2’s effect on the turning measure."
+      ],
+      "cite": "Levi & Camhi (2000b); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000b). Population vector coding by the giant interneurons of the cockroach. Journal of Neuroscience, 20(10), 3822–3829. https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/V00_6AB.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000b), Fig. 6(A,B). GI2 loss, electrical replacement and turning.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Second-instar GIs.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Behavioral rescue does not repair the sensory input",
+      "body": [
+        "GI2 replacement separates restoration of a behavioral contribution from restoration of the original sensory pathway. Electrical pulses bypassed the disabled posterior input region and drove the anterior axon directly.",
+        "The imposed train supplied a lower onset frequency than the natural burst and continued beyond the beginning of movement. Left-turning tendency nevertheless moved back toward the control value. Downstream circuitry could use the supplied activity without the original sensory connections being repaired.",
+        "This is a **functional rescue**, meaning that an intervention reverses part of a measured functional impairment or distortion. It supports the causal role of the missing GI signal. It does not establish anatomical regeneration, normal sensory selectivity or restoration of the complete spike pattern during an unrestricted escape."
+      ],
+      "transcript": [
+        "Electrical replacement bypasses the region that normally receives wind-related input. The remaining axon can deliver activity to the motor circuitry even while the natural posterior connection remains disabled.",
+        [
+          "The behavioral measure returned toward its control value despite an imperfect spike train.",
+          [
+            "The natural burst had a higher initial frequency, and the artificial stimulation continued after movement began. Functional compensation therefore did not require exact reproduction of every recorded feature of the original burst in this test."
+          ]
+        ],
+        "A rescue is defined by reversal of a measured effect, not by repair of tissue. The experiment links the missing GI contribution to the distorted turn. It leaves sensory selectivity and anatomical restoration untested, and it does not establish recovery of predator avoidance in a freely moving animal."
+      ],
+      "cite": "Levi & Camhi (2000b); Booth et al. (2009)",
+      "refs": [
+        "Levi, R., & Camhi, J. M. (2000b). Population vector coding by the giant interneurons of the cockroach. Journal of Neuroscience, 20(10), 3822–3829. https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/V00_7AB.png",
+          "kind": "article",
+          "caption": "Levi & Camhi (2000b), Fig. 7(A,B). Natural GI2 firing and partial behavioral rescue.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000"
+        },
+        {
+          "path": "figures/B09_GI.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(B). Terminal ganglion and ascending GIs in the second instar.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Wind-sensitive interneurons occur across four species",
+      "body": [
+        "McGorry and colleagues recorded ascending **wind-sensitive interneurons**, or WSIs, in four cockroach species. The comparison included _P. americana_, _Blattella germanica_, _B. craniifer_ and _G. portentosa_, which differ in terrestrial escape and flight behavior.",
+        "All four possessed neural responses to wind in the abdominal connectives, the axon bundles linking ganglia. Responses depended on wind velocity and on whether activity was measured during the first **100 ms** or the following **150 ms**.",
+        "The population recording sampled ascending interneuron activity rather than proving homology of every recorded unit with GI1, GI2 or GI3. **Homology** refers to corresponding structures inherited from a common ancestor. The presence of wind-responsive activity across species establishes a shared sensory capability, while leaving its behavioral use and cellular correspondence to separate tests."
+      ],
+      "transcript": [
+        "The comparative study recorded signals after sensory input had entered the nervous system and activated ascending interneurons. All four species had wind-responsive activity, including species with weak or absent terrestrial escape under the described conditions.",
+        [
+          "The abdominal connectives carry many axons between ganglia.",
+          [
+            "A population recording from these bundles cannot identify every unit as one of the three GIs used in Camhi and Levi’s experiments. Correspondence in a recording waveform is not sufficient to establish homology of an identified cell."
+          ]
+        ],
+        "The first and later portions of the puff differed in their response patterns. These recordings establish that wind information reaches ascending pathways across the species. They do not establish that those pathways recruit the same motor program with the same effectiveness."
+      ],
+      "cite": "McGorry et al. (2014); Booth et al. (2009)",
+      "refs": [
+        "McGorry, C. A., Newman, C. N., & Triblehorn, J. D. (2014). Neural responses from the wind-sensitive interneuron population in four cockroach species. Journal of Insect Physiology, 66, 59–70. https://doi.org/10.1016/j.jinsphys.2014.05.017",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/M14_4.png",
+          "kind": "article",
+          "caption": "McGorry et al. (2014), Fig. 4. Ascending wind responses in four cockroach species.",
+          "source_url": "https://doi.org/10.1016/j.jinsphys.2014.05.017"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Strong wind responses do not guarantee strong escape",
+      "body": [
+        "_B. craniifer_ had substantial peripheral and interneuron responses despite weak terrestrial escape. _G. portentosa_ retained wind sensitivity despite lacking the strong escape and flight behaviors associated with the cercal pathway in _P. americana_.",
+        "The comparative studies measured afferent responses and ascending WSI responses at different stages of the circuit. Their stimulus–response relationships differed in dynamic range, the range of wind velocities over which the response changed substantially.",
+        "A mismatch between neural sensitivity and behavior directs interpretation beyond receptor count alone. Different first-stage transformations or different access to motor circuits are possible explanations. The experiments did not selectively manipulate a particular synapse in each species, so they cannot assign the behavioral difference to one transmitter, ion channel or downstream connection."
+      ],
+      "transcript": [
+        "A species can detect wind strongly without expressing a strong terrestrial escape response. Blaberus craniifer is an especially clear case because its afferent and ascending responses were substantial while its described escape behavior was weak.",
+        [
+          "Comparing activity before and after the first sensory connection separates stages of the pathway.",
+          [
+            "A dynamic range describes the span of stimulus velocities over which a response changes appreciably. The afferent and interneuron ranges were not identical, indicating transformation rather than simple duplication of the peripheral signal."
+          ]
+        ],
+        "Different motor coupling is one possible explanation for the behavioral mismatch, but it was not selectively tested here. Population physiology cannot assign the difference to a molecular channel or a particular premotor synapse. Strong neural responsiveness and effective predator avoidance require separate evidence."
+      ],
+      "cite": "Olsen & Triblehorn (2014); McGorry et al. (2014); Booth et al. (2009)",
+      "refs": [
+        "Olsen, A. C. K., & Triblehorn, J. D. (2014). Neural responses from the filiform receptor neuron afferents of the wind-sensitive cercal system in three cockroach species. Journal of Insect Physiology, 68, 76–86. https://doi.org/10.1016/j.jinsphys.2014.07.002",
+        "McGorry, C. A., Newman, C. N., & Triblehorn, J. D. (2014). Neural responses from the wind-sensitive interneuron population in four cockroach species. Journal of Insect Physiology, 66, 59–70. https://doi.org/10.1016/j.jinsphys.2014.05.017",
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/O14_7.png",
+          "kind": "article",
+          "caption": "Olsen & Triblehorn (2014), Fig. 7. Peripheral and ascending stimulus–response relationships.",
+          "source_url": "https://doi.org/10.1016/j.jinsphys.2014.07.002"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Juveniles use several preferred escape trajectories",
+      "body": [
+        "Booth and colleagues measured wind-evoked escape in juvenile _P. americana_. An **instar** is a developmental stage between molts. Their second-instar animals had a much smaller hair population than adults but already produced organized escape responses.",
+        "An **escape trajectory** was the direction of travel relative to the wind stimulus, whereas a turn angle was measured relative to the animal’s starting body orientation. These quantities answer different questions and cannot be substituted for one another.",
+        "Control juveniles used several preferred trajectories rather than a single invariant direction directly opposite the wind. The distribution described choices made by freely moving animals under controlled stimulation. It should not be treated as the same variable as the tethered joint index used in the adult GI-intervention experiments."
+      ],
+      "transcript": [
+        "A juvenile’s direction of travel can be expressed relative to the wind or relative to its starting body axis. Booth and colleagues used escape trajectory for the stimulus-relative direction and distinguished it from the body-relative turn.",
+        [
+          "Second-instar animals already selected among several preferred escape trajectories.",
+          [
+            "An instar lasts between molts. The juvenile sensory surface has fewer hairs than the adult surface, so the same general circuit operates with a developing set of peripheral inputs."
+          ]
+        ],
+        "The existence of several trajectory peaks means that escape is not always a fixed reversal of incoming wind direction. These are freely moving behavioral measurements. They cannot be equated numerically with the adult tethered left-turning index, which summarizes leg-joint movements rather than travel direction."
+      ],
+      "cite": "Booth et al. (2009)",
+      "refs": [
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/B09_5CH.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 5(C–H). Juvenile trajectories by wind direction and En treatment.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Wind direction changes the selected trajectory",
+      "body": [
+        "The starting position of the wind source influenced which preferred escape trajectory a juvenile cockroach used. Booth and colleagues separated responses to anterior and posterior wind rather than combining all source angles into one distribution.",
+        "These conditional distributions differed even in untreated animals. A trajectory that was common for one range of source directions need not be equally common for another. Source direction and final movement therefore interact within the behavioral choice.",
+        "This dependence supplies a reference for interpreting genetic perturbation: a treatment may alter responses mainly to posterior wind while leaving anterior responses relatively intact. Such selectivity would be obscured by a single average trajectory. The conditional distributions describe behavior; they do not identify the exact neuron that selects each trajectory peak."
+      ],
+      "transcript": [
+        "A distribution pooled across all wind directions can conceal the relationship between source position and the chosen movement. The control animals’ escape choices differed when the puff originated from the front versus the rear.",
+        [
+          "Separating anterior and posterior stimulus ranges preserves that relationship.",
+          [
+            "The same set of preferred trajectories can be used with different relative frequencies depending on where the threat is located. A change in the overall average could therefore reflect a change in one conditional distribution rather than a uniform shift."
+          ]
+        ],
+        "En knock-down affected responses to rear wind more strongly. The comparison must use the same source-angle range in treated and control animals. Trajectory peaks remain behavioral outcomes, not labels for directly recorded decision neurons."
+      ],
+      "cite": "Booth et al. (2009)",
+      "refs": [
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/B09_5CH.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 5(C–H). Juvenile trajectories by wind direction and En treatment.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Engrailed marks identified sensory neurons",
+      "body": [
+        "**Engrailed**, abbreviated En, is a transcription factor: a protein that regulates gene expression. In the cercal sensory system, En is expressed in a subset of medially located sensory neurons. Its expression distinguishes those cells from nearby En-negative neurons.",
+        "Booth and colleagues used immunostaining, an antibody-based method for detecting a protein, to locate En in identified cells. The second-instar sensory neuron labeled **6m** belongs to the En-positive medial group.",
+        "Protein expression provides molecular identity, but a staining pattern alone does not establish the effect of En on escape. The study combined targeted reduction of En with behavioral measurements. Its circuit interpretation drew on earlier work linking En to sensory axon targeting and synaptic specificity, while the new experiments directly measured staining and trajectory changes."
+      ],
+      "transcript": [
+        "Engrailed is a transcription factor, so its immediate molecular role concerns regulation of gene expression. It is not an ion channel carrying the sensory current and not a transmitter released at the sensory synapse.",
+        [
+          "Antibody staining identified En-positive cells within the cercal sensory population.",
+          [
+            "The medial sensory neuron designated 6m was among these cells. Neighboring neurons differed in staining, allowing expression to be associated with an identified subset rather than the entire hair field."
+          ]
+        ],
+        "The anatomical localization alone cannot establish behavioral function. Booth and colleagues reduced En and then measured wind-evoked trajectories. Earlier connectivity work supplied the basis for their proposed link between molecular identity, sensory targeting and the directional signal available to the escape circuit."
+      ],
+      "cite": "Booth et al. (2009)",
+      "refs": [
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/B09_2AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 2(A,B). Second-instar En staining before and after RNAi.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "RNA interference reduces Engrailed staining",
+      "body": [
+        "**RNA interference**, or RNAi, reduces gene expression using RNA, ribonucleic acid, matched to the target gene. Booth and colleagues injected double-stranded RNA against En during the first instar and examined the sensory system after subsequent development.",
+        "In treated second-instar cerci, En staining was reduced in identified medial sensory neurons relative to controls. Reduced staining persisted into the third instar. The intervention thus altered molecular expression beyond the immediate injection period.",
+        "The staining result verifies the intended molecular effect in the sampled sensory cells. It does not by itself quantify every synapse made by those cells or establish a change in electrical excitability. Behavioral testing after the intervention connected reduced En expression with altered escape trajectories, while specific connectivity changes were interpreted using the earlier identified-neuron literature."
+      ],
+      "transcript": [
+        "RNA interference uses sequence-matched RNA to reduce expression of a target. The injections were delivered during the first instar, before the later sensory surfaces and behavior were examined.",
+        [
+          "En immunostaining was substantially reduced in the targeted medial sensory neurons.",
+          [
+            "The effect was present in the second instar and persisted into the third. The manipulation therefore outlasted the injection event and affected the developing sensory system."
+          ]
+        ],
+        "Loss of detectable staining verifies a change in the targeted protein, not a complete description of the cell’s physiology. The experiment did not measure all receptor currents or all individual synaptic strengths in those animals. Linking the molecular intervention to escape requires the accompanying behavioral comparisons and a distinction between direct measurements and proposed circuit consequences."
+      ],
+      "cite": "Booth et al. (2009)",
+      "refs": [
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/B09_2AB.png",
+        "kind": "article",
+        "caption": "Booth et al. (2009), Fig. 2(A,B). Second-instar En staining before and after RNAi.",
+        "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      }
+    },
+    {
+      "title": "Sham controls test the injection procedure",
+      "body": [
+        "A **sham control** reproduces a procedure while omitting its active experimental component. Booth and colleagues compared En-directed RNAi animals with untreated animals and animals receiving the injection carrier without the targeting RNA.",
+        "Sham-injected animals retained the principal control escape pattern. En-directed treatment produced additional directional changes, including more inappropriate responses to rearward wind. The comparison argues against injection alone accounting for the full behavioral effect.",
+        "Multiple controls address different alternatives: untreated animals supply the unmanipulated reference, while sham animals address handling and injection. Neither control directly measures all possible off-target molecular effects. The supported claim is that En-directed treatment produced a selective behavioral alteration beyond the effects of the procedure, with reduced En staining verifying target engagement."
+      ],
+      "transcript": [
+        "An untreated control gives the baseline developmental and behavioral pattern. A sham control adds the handling and injection procedure while leaving out the RNA directed against En.",
+        [
+          "The sham animals did not reproduce the full trajectory changes caused by En-directed treatment.",
+          [
+            "The treatment effect is therefore more specific than a general response to being injected. Reduced En staining supplies separate evidence that the molecular target was affected."
+          ]
+        ],
+        "Control comparisons narrow the causal interpretation but do not measure every possible molecular consequence of RNA interference. The experiment supports a relationship between the targeted reduction and the altered directional response. It does not establish that every affected connection was measured directly or that no other expression change occurred."
+      ],
+      "cite": "Booth et al. (2009)",
+      "refs": [
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/B09_2AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 2(A,B). Second-instar En staining before and after RNAi.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        },
+        {
+          "path": "figures/B09_1AB.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Gene knock-down alters responses to rear wind",
+      "body": [
+        "**Knock-down** means reducing expression rather than necessarily deleting a gene. En-directed RNAi changed juvenile escape choices most strongly when wind came from the rear. The animals used smaller stimulus-relative escape angles more often and used the large-angle trajectory near **175°** less often.",
+        "Responses to anterior wind were comparatively preserved. Treated animals also made more turns toward the source for rearward stimuli. The effect was directional, rather than a uniform disappearance of all wind-evoked movement.",
+        "The result links a molecular developmental regulator to a selective behavioral distortion. Earlier sensory-connectivity findings support the proposed involvement of altered directional input to GIs. The 2009 behavioral experiments do not directly establish a new receptor-channel mechanism or record every juvenile GI receptive field after treatment."
+      ],
+      "transcript": [
+        "Reducing En changed which trajectories juveniles selected, especially for wind from the rear. The distribution shifted toward smaller stimulus-relative escape angles and away from the large-angle peak near one hundred seventy-five degrees.",
+        [
+          "Anterior responses were less affected than posterior responses.",
+          [
+            "The treatment therefore did not simply abolish all movement or all wind detection. More rear-stimulus responses were directed toward the source, indicating distortion of directional escape behavior."
+          ]
+        ],
+        "The molecular intervention and behavior are directly measured, while the detailed circuit explanation depends partly on earlier connectivity studies. Altered sensory targeting can change the directional signal reaching GIs. The study does not identify a mechanosensitive channel or supply direct recordings of all juvenile GI receptive fields after RNAi."
+      ],
+      "cite": "Booth et al. (2009)",
+      "refs": [
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/B09_5CH.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 5(C–H). Juvenile trajectories by wind direction and En treatment.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        },
+        {
+          "path": "figures/B09_2CD.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 2(C,D). Persistent En reduction in third-instar sensory neurons.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Altered choices persist into the next instar",
+      "body": [
+        "En-directed treatment changed escape choices in the third instar as well as the second. Reduced staining also persisted into that later developmental stage. The behavioral effect therefore extended across a molt rather than being confined to the immediate aftermath of injection.",
+        "Third-instar responses to anterior and posterior wind remained distinguishable. The treated posterior-wind distribution differed from the control distribution, consistent with a lasting alteration in how directional sensory information influenced escape choice.",
+        "Persistence links developmental regulation to later circuit function, but it does not identify which anatomical changes are maintained across the molt. The paper’s juvenile GI receptive fields were predictions based on known sensory connections, not new direct recordings. Those predictions provide a proposed bridge between expression, connectivity and behavior rather than an independent measurement of every step."
+      ],
+      "transcript": [
+        "Third-instar animals continued to have reduced En staining and altered escape choices. The effect survived the transition between developmental stages, when the animal molts and the sensory system develops further.",
+        [
+          "The behavioral differences remained dependent on the direction of the incoming wind.",
+          [
+            "Separating anterior and posterior stimuli avoids treating persistence as a uniform loss of responsiveness. The posterior distribution remained altered relative to controls."
+          ]
+        ],
+        "The authors proposed a connection between changed sensory targeting and GI directional responses. Their juvenile receptive-field calculations were predictions, whereas the trajectories and staining were measured. Persistence of behavior does not convert those predicted fields into direct physiological recordings or specify all changes maintained through the molt."
+      ],
+      "cite": "Booth et al. (2009)",
+      "refs": [
+        "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/B09_6AF.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 6(A–F). Third-instar trajectories after En reduction.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        },
+        {
+          "path": "figures/B09_2CD.png",
+          "kind": "article",
+          "caption": "Booth et al. (2009), Fig. 2(C,D). Persistent En reduction in third-instar sensory neurons.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1374-09.2009"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Cercus loss separates injury from later compensation",
+      "body": [
+        "Jankowska and colleagues removed the right cercus of adult _P. americana_ and examined the remaining sensory pathway over **1–3 weeks**. **Compensatory plasticity** means a change in surviving neural function after input has been lost, distinct from regeneration of the removed structure.",
+        "Extracellular recordings sampled the left cercal nerve before the sensory synapse and the abdominal connective after input had entered the central pathway. Uninjured animals supplied baseline values, and injured untreated animals supplied the time-dependent comparison.",
+        "Removing one cercus eliminated its normal access to airflow. Subsequent changes in the surviving pathway could therefore be assessed separately from the immediate loss. These population recordings detect functional activity, but they do not directly count new synapses, trace regenerated axons or identify which individual interneurons account for the changes."
+      ],
+      "transcript": [
+        "Unilateral cercus removal creates an asymmetry in the sensory input. The removed appendage cannot receive wind through its original hair field, while the other cercus remains available.",
+        [
+          "The study sampled two levels of the surviving pathway.",
+          [
+            "The left cercal nerve carries peripheral afferent activity. The abdominal connective carries central ascending activity after the sensory input has reached the ganglion. Measurements extended from one to three weeks after injury."
+          ]
+        ],
+        "Compensation refers to altered use or responsiveness of surviving tissue. It does not require replacement of the removed organ. Population electrical activity can establish a functional change, but it cannot by itself establish growth of new synapses or recovery of the original bilateral directional representation."
+      ],
+      "cite": "Jankowska et al. (2021)",
+      "refs": [
+        "Jankowska, M., Klimek, A., Valsecchi, C., Stankiewicz, M., Wyszkowska, J., & Rogalska, J. (2021). Electromagnetic field and TGF-β enhance the compensatory plasticity after sensory nerve injury in cockroach Periplaneta americana. Scientific Reports, 11, 6582. https://doi.org/10.1038/s41598-021-85341-z"
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/J21_5AB.png",
+        "kind": "article",
+        "caption": "Jankowska et al. (2021), Fig. 5(a,b). Injury protocol and sensory-pathway recording sites.",
+        "source_url": "https://doi.org/10.1038/s41598-021-85341-z"
+      }
+    },
+    {
+      "title": "Surviving sensory input changes after injury",
+      "body": [
+        "In untreated injured animals, the remaining left cercal nerve responded differently depending on the side from which its cercus was stimulated. Jankowska and colleagues followed this directional response over **three weeks** after right-cercus removal.",
+        "The left-cercus response to stimulation from the left remained broadly stable. Its response to stimulation from the right increased by the third week. The remaining sensory organ therefore became more responsive to input from the side associated with the lost cercus.",
+        "The change supports compensation within the surviving sensory pathway. Peripheral and connective responses did not change identically, so increased afferent activity cannot be assumed to yield an equivalent downstream change. The measurements do not establish complete recovery of direction discrimination or the mechanism responsible for altered receptor responsiveness."
+      ],
+      "transcript": [
+        "After right-cercus removal, the left cercus could still be stimulated from either side. Its response to left-sided stimulation was comparatively stable, whereas its response to right-sided stimulation increased over the observation period.",
+        [
+          "By the third week, the surviving peripheral pathway responded more strongly to the side associated with the lost input.",
+          [
+            "The change is compatible with increased responsiveness of the remaining sensory system. It is not evidence that a new right cercus had developed."
+          ]
+        ],
+        "Measurements in the central connective did not duplicate all peripheral changes. Functional compensation at one stage therefore need not mean that the entire sensory-to-motor pathway has returned to its original organization. The experiment did not directly test recovery of fine directional discrimination or performance during a predator strike."
+      ],
+      "cite": "Jankowska et al. (2021)",
+      "refs": [
+        "Jankowska, M., Klimek, A., Valsecchi, C., Stankiewicz, M., Wyszkowska, J., & Rogalska, J. (2021). Electromagnetic field and TGF-β enhance the compensatory plasticity after sensory nerve injury in cockroach Periplaneta americana. Scientific Reports, 11, 6582. https://doi.org/10.1038/s41598-021-85341-z"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/J21_2AB.png",
+          "kind": "article",
+          "caption": "Jankowska et al. (2021), Fig. 2(a,b). Left-cercal nerve responses over three weeks after injury.",
+          "source_url": "https://doi.org/10.1038/s41598-021-85341-z"
+        },
+        {
+          "path": "figures/J21_5B.png",
+          "kind": "article",
+          "caption": "Jankowska et al. (2021), Fig. 5(b). Recording sites.",
+          "source_url": "https://doi.org/10.1038/s41598-021-85341-z"
+        }
+      ],
+      "primary_figure_height": 2.75,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Treatment effects differ across recording sites",
+      "body": [
+        "Jankowska and colleagues exposed injured animals to an electromagnetic field at **50 Hz and 7 mT** for **1 h daily**. A separate group received **TGF-β**, transforming growth factor beta, a signaling protein used as a positive treatment comparison after injury.",
+        "Field-exposed animals had larger left-cercal nerve responses than injured untreated controls. TGF-β treatment increased connective activity during right-sided stimulation of the remaining left cercus. The two recording sites measured different stages, so their magnitudes cannot be treated as interchangeable.",
+        "The authors proposed calcium-dependent signaling as one possible mechanism. Calcium ions can enter through membrane channels or be released from internal stores, altering cellular signaling. These experiments did not measure those channels or calcium directly, identify a specific receptor mechanism, or establish that the physiological changes restore normal escape."
+      ],
+      "transcript": [
+        "The electromagnetic exposure and the TGF-beta treatment were separate experimental groups. The field was fifty hertz and seven millitesla, applied for one hour daily after injury. TGF-beta was administered the day after removal at a solution concentration of one hundred nanograms per milliliter.",
+        [
+          "The electrical outcomes depend on where activity was recorded.",
+          [
+            "A cercal nerve records peripheral sensory activity; a connective records ascending activity after central processing. An increase at one site cannot be equated automatically with an increase in the same identified neuron at the other."
+          ]
+        ],
+        "The authors discussed calcium-dependent signaling as a candidate mechanism. Calcium entry through membrane channels and release from intracellular stores can alter signaling, but neither process was directly measured in these cockroaches. The treatment results therefore support physiological modulation without identifying the responsible channel or establishing clinical rehabilitation."
+      ],
+      "cite": "Jankowska et al. (2021)",
+      "refs": [
+        "Jankowska, M., Klimek, A., Valsecchi, C., Stankiewicz, M., Wyszkowska, J., & Rogalska, J. (2021). Electromagnetic field and TGF-β enhance the compensatory plasticity after sensory nerve injury in cockroach Periplaneta americana. Scientific Reports, 11, 6582. https://doi.org/10.1038/s41598-021-85341-z"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/J21_3AD.png",
+          "kind": "article",
+          "caption": "Jankowska et al. (2021), Fig. 3(a–d). Peripheral and central responses with field exposure.",
+          "source_url": "https://doi.org/10.1038/s41598-021-85341-z"
+        },
+        {
+          "path": "figures/J21_3F.png",
+          "kind": "article",
+          "caption": "Jankowska et al. (2021), Fig. 3(f). Connective response after TGF-β treatment.",
+          "source_url": "https://doi.org/10.1038/s41598-021-85341-z"
+        }
+      ],
+      "primary_figure_height": 2.75
+    },
+    {
+      "title": "Locomotor recovery does not prove restored escape",
+      "body": [
+        "Jankowska and colleagues tracked spontaneous movement in an arena after cercus removal. **Locomotion** describes movement of the animal through space; this assay measured distance traveled, immobility and time near the arena border.",
+        "Injury initially increased traveled distance relative to uninjured controls. After **three weeks**, field-exposed animals had locomotor measures closer to the uninjured pattern than untreated injured animals for several outcomes. The behavioral assay accompanied the physiological recordings but measured a different function.",
+        "Spontaneous arena movement is not a direct test of wind-evoked turn accuracy or avoidance of an attacking predator. The study supports treatment-associated changes in neural responsiveness and locomotor behavior. It does not establish recovered bilateral sensory coding, repaired GI connections or restoration of the natural escape performance tested in the classic toad experiments."
+      ],
+      "transcript": [
+        "The arena test measured spontaneous movement rather than a directed escape from a timed puff. Distance traveled, time spent immobile and border preference describe different aspects of locomotor behavior.",
+        [
+          "Injury increased traveled distance initially, and later field exposure shifted several measures toward the uninjured pattern.",
+          [
+            "A return toward a baseline locomotor measure is compatible with recovery of some behavioral organization. It does not measure the precision of the first escape pivot."
+          ]
+        ],
+        "The physiological and locomotor results provide complementary evidence, but their limits remain separate. Neither assay tests survival during a toad attack. Restoring that function would require appropriate wind-direction or predator trials, together with measures capable of distinguishing compensation from recovery of the original bilateral circuit."
+      ],
+      "cite": "Jankowska et al. (2021)",
+      "refs": [
+        "Jankowska, M., Klimek, A., Valsecchi, C., Stankiewicz, M., Wyszkowska, J., & Rogalska, J. (2021). Electromagnetic field and TGF-β enhance the compensatory plasticity after sensory nerve injury in cockroach Periplaneta americana. Scientific Reports, 11, 6582. https://doi.org/10.1038/s41598-021-85341-z"
+      ],
+      "layout": "figures-right",
+      "figure_width": 6,
+      "figures": [
+        {
+          "path": "figures/J21_4.png",
+          "kind": "article",
+          "caption": "Jankowska et al. (2021), Fig. 4(a–g). Arena locomotion after injury and field exposure.",
+          "source_url": "https://doi.org/10.1038/s41598-021-85341-z"
+        },
+        {
+          "path": "figures/J21_5B.png",
+          "kind": "article",
+          "caption": "Jankowska et al. (2021), Fig. 5(b). Peripheral and central recording sites.",
+          "source_url": "https://doi.org/10.1038/s41598-021-85341-z"
+        }
+      ],
+      "primary_figure_height": 2.75
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Cercal hairs provide an early warning.",
+        "text": "Predator airflow can precede the strike; ventral hair covering and cercal rotation causally alter escape."
+      },
+      {
+        "lead": "Direction is distributed across GIs.",
+        "text": "Overlapping directional inputs and bilateral spike activity contribute to the coordinated initial leg pattern."
+      },
+      {
+        "lead": "Turn strength varies with GI activity.",
+        "text": "Graded effects of added spikes argue against strong winner-take-all control of the measured directional output."
+      },
+      {
+        "lead": "GI2 loss can enlarge a turn.",
+        "text": "Selective loss and electrical replacement support population-vector decoding, without identifying the complete thoracic implementation."
+      },
+      {
+        "lead": "Development shapes directional behavior.",
+        "text": "En reduction changes juvenile trajectory choice, especially for rear wind; predicted circuit effects remain distinct from direct recordings."
+      },
+      {
+        "lead": "Recovery measures have different meanings.",
+        "text": "Increased sensory activity and normalized arena locomotion do not establish restored direction discrimination or predator avoidance."
+      }
+    ],
+    "cite": "Camhi et al. (1978); Levi & Camhi (2000a,b); Booth et al. (2009); Jankowska et al. (2021)",
+    "refs": [
+      "Camhi, J. M., & Tom, W. (1978). The escape behavior of the cockroach Periplaneta americana. I. Turning response to wind puffs. Journal of Comparative Physiology, 128, 193–201. https://doi.org/10.1007/BF00656852",
+      "Camhi, J. M., Tom, W., & Volman, S. (1978). The escape behavior of the cockroach Periplaneta americana. II. Detection of natural predators by air displacement. Journal of Comparative Physiology, 128, 203–212. https://doi.org/10.1007/BF00656853",
+      "Levi, R., & Camhi, J. M. (2000a). Wind direction coding in the cockroach escape response: winner does not take all. Journal of Neuroscience, 20(10), 3814–3821. https://doi.org/10.1523/JNEUROSCI.20-10-03814.2000",
+      "Levi, R., & Camhi, J. M. (2000b). Population vector coding by the giant interneurons of the cockroach. Journal of Neuroscience, 20(10), 3822–3829. https://doi.org/10.1523/JNEUROSCI.20-10-03822.2000",
+      "Booth, D., Marie, B., Domenici, P., Blagburn, J. M., & Bacon, J. P. (2009). Transcriptional control of behavior: engrailed knock-out changes cockroach escape trajectories. Journal of Neuroscience, 29(22), 7181–7190. https://doi.org/10.1523/JNEUROSCI.1374-09.2009",
+      "Jankowska, M., Klimek, A., Valsecchi, C., Stankiewicz, M., Wyszkowska, J., & Rogalska, J. (2021). Electromagnetic field and TGF-β enhance the compensatory plasticity after sensory nerve injury in cockroach Periplaneta americana. Scientific Reports, 11, 6582. https://doi.org/10.1038/s41598-021-85341-z"
+    ]
+  }
+}
