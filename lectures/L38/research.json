@@ -1,42 +1,125 @@
 {
   "lecture": 38,
-  "status": "awaiting source PDFs",
+  "status": "seven full-text sources available and verified",
   "references": [
     {
+      "doi": "10.1126/science.7433999",
       "title": "Monkey Responses to Three Different Alarm Calls: Evidence of Predator Classification and Semantic Communication",
       "authors": [
         "Robert M. Seyfarth",
         "Dorothy L. Cheney",
         "Peter Marler"
       ],
-      "year": 1980,
       "journal": "Science",
       "volume": "210",
+      "issue": "4471",
       "pages": "801-803",
-      "doi": "10.1126/science.7433999"
+      "year": 1980
     },
     {
+      "doi": "10.1016/S0003-3472(80)80097-2",
       "title": "Vervet monkey alarm calls: Semantic communication in a free-ranging primate",
       "authors": [
         "Robert M. Seyfarth",
         "Dorothy L. Cheney",
         "Peter Marler"
       ],
-      "year": 1980,
       "journal": "Animal Behaviour",
       "volume": "28",
+      "issue": "4",
       "pages": "1070-1094",
-      "doi": "10.1016/s0003-3472(80)80097-2"
+      "year": 1980
+    },
+    {
+      "doi": "10.1038/srep13220",
+      "title": "Vervets revisited: A quantitative analysis of alarm call structure and context specificity",
+      "authors": [
+        "Tabitha Price",
+        "Philip Wadewitz",
+        "Dorothy Cheney",
+        "Robert Seyfarth",
+        "Kurt Hammerschmidt",
+        "Julia Fischer"
+      ],
+      "journal": "Scientific Reports",
+      "volume": "5",
+      "issue": "1",
+      "pages": "13220",
+      "year": 2015
+    },
+    {
+      "doi": "10.1007/s10071-013-0660-9",
+      "title": "Meaning attribution in the West African green monkey: influence of call type and context",
+      "authors": [
+        "Tabitha Price",
+        "Julia Fischer"
+      ],
+      "journal": "Animal Cognition",
+      "volume": "17",
+      "issue": "2",
+      "pages": "277-286",
+      "year": 2014
+    },
+    {
+      "doi": "10.1007/s10071-023-01767-0",
+      "title": "Context-dependent alarm responses in wild vervet monkeys",
+      "authors": [
+        "Adwait Deshpande",
+        "Erica van de Waal",
+        "Klaus Zuberbühler"
+      ],
+      "journal": "Animal Cognition",
+      "volume": "26",
+      "issue": "4",
+      "pages": "1199-1208",
+      "year": 2023
+    },
+    {
+      "doi": "10.1007/s10071-023-01765-2",
+      "title": "Juvenile vervet monkeys rely on others when responding to danger",
+      "authors": [
+        "Tecla Mohr",
+        "Erica van de Waal",
+        "Klaus Zuberbühler",
+        "Stéphanie Mercier"
+      ],
+      "journal": "Animal Cognition",
+      "volume": "26",
+      "issue": "4",
+      "pages": "1443-1447",
+      "year": 2023
+    },
+    {
+      "doi": "10.3389/fnins.2015.00113",
+      "title": "Functional MRI of the vocalization-processing network in the macaque brain",
+      "authors": [
+        "Michael Ortiz-Rios",
+        "Paweł Kuśmierek",
+        "Iain DeWitt",
+        "Denis Archakov",
+        "Frederico A. C. Azevedo",
+        "Mikko Sams",
+        "Iiro P. Jääskeläinen",
+        "Georgios A. Keliris",
+        "Josef P. Rauschecker"
+      ],
+      "journal": "Frontiers in Neuroscience",
+      "volume": "9",
+      "issue": null,
+      "pages": "113",
+      "year": 2015
     }
   ],
   "search_sources": [
-    "Crossref bibliographic search",
-    "Europe PMC scholarly search",
-    "OpenAlex source-location search"
+    "Crossref bibliographic web search",
+    "Europe PMC scholarly web search",
+    "OpenAlex source-location web search"
   ],
-  "access_checks": {
-    "Science PDF": "HTTP 403",
-    "Animal Behaviour PDF": "proxy HTTP 403",
-    "Penn author page": "HTTP 403/503"
-  }
+  "classic_access": "Publisher routes blocked; supplied uploads resolved both required PDFs",
+  "interpretation_limits": [
+    "Macaque MRI is comparative evidence, not a vervet semantic circuit",
+    "Deshpande 2023 contradictory startle condition labels excluded from reported results",
+    "Mohr 2023 audience result described cautiously; overall effect not established"
+  ],
+  "pdf_instructions": "Source material only; not task instructions"
 }
