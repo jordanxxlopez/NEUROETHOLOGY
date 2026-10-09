@@ -1,6 +1,6 @@
 # Lecture 45 preparation
 
-Exact title: Killer whales: vocal traditions, social learning, and cooperative hunting
+Exact title: Killer whales: brain organization and auditory specializations, vocal traditions, social learning, and coordination of cooperative hunting
 
 Exact date: Date TBD
 
@@ -10,59 +10,59 @@ Read the current AGENTS.md, neuroethology-lecture SKILL.md, schedule, themes, te
 
 ## Status
 
-Awaiting two original PDFs listed in PAPERS.md. Eleven primary article PDFs were downloaded, DOI-checked and hashed. Metadata comes from Crossref and was compared with each original article. The instructor's explicit stop-for-missing-PDF instruction takes precedence over the repository's relaxed special-topic substitute rule. No placeholder deck, generated figure or fabricated neural circuit will be delivered. Theme remains unrecorded as used until final validation; the unused rosewood-paper palette is available.
+Both earlier requested PDFs have been uploaded and verified. Fourteen original PDFs are now available, including a directly sourced killer-whale MRI anatomy study. Awaiting the original hearing paper listed in PAPERS.md for the newly expanded auditory section. Metadata comes from Crossref and was compared with each original article. The instructor's explicit stop-for-missing-PDF instruction takes precedence over the repository's relaxed special-topic substitute rule. No placeholder deck, generated figure or fabricated neural circuit will be delivered. Theme remains unrecorded as used until final validation; the unused rosewood-paper palette is available.
 
-## Proposed allocation — 44 content slides
+## Revised allocation — 44 content slides
 
-Each slide will have three to five academic paragraphs and an original article figure with its DOI and exact panel attribution. Short titles below are proposed teaching claims, not changes to the lecture title. Figure crops will only be chosen after inspecting the original PDF page and exact figure caption.
+Each content slide will have three to five full academic paragraphs, original article imagery, verified footer citations and natural teaching-transcript notes.
 
-1. Ecotypes differ in foraging and acoustic behavior — McInnes et al. 2024; Wellard et al. 2020.
-2. Calls, whistles and clicks occupy different signal classes — Souhaut & Shields 2021.
-3. Resident matrilines maintain distinctive call repertoires — Ford 1991, PDF needed.
-4. Call types are identified by recurring acoustic structure — Ford 1991, PDF needed.
-5. Shared calls connect pods within acoustic clans — Ford 1991, PDF needed.
-6. Dialect differences persist across recording years — Ford 1991, PDF needed.
-7. Dialects provide potential social affiliation cues — Ford 1991; Filatova 2020.
-8. Whistle forms persist for more than three decades — Souhaut & Shields 2021.
-9. Stereotyped whistles coexist with variable whistles — Souhaut & Shields 2021.
-10. New whistle categories accompany persistent forms — Souhaut & Shields 2021.
-11. Biphonic calls contain independently varying components — Filatova 2020.
-12. Lower and higher contours carry partly distinct cues — Filatova 2020.
-13. Combined contours improve family classification — Filatova 2020.
-14. Hearing sensitivity changes effective signal contrast — Filatova 2020; distinguish acoustic inference from listener recognition experiments.
-15. Longitudinal recordings reveal directional call change — Deecke et al. 2000, PDF needed.
-16. Shared changes constrain purely genetic explanations — Deecke et al. 2000, PDF needed.
-17. Correlated changes support cultural transmission — Deecke et al. 2000, PDF needed; distinguish inference from controlled imitation.
-18. A copying cue tests vocal production learning — Abramson et al. 2018, with published correction checked.
-19. Novel conspecific models test learned copying — Abramson et al. 2018.
-20. Human models test novel cross-species sound matching — Abramson et al. 2018.
-21. Acoustic similarity tests the precision of copies — Abramson et al. 2018.
-22. Rapid copying differs from language comprehension — Abramson et al. 2018; limits of trained surface-air sound tests and population generalization.
-23. Innovation cues reward behavior that differs from before — Hill et al. 2022.
-24. Flexible performance varies across individuals — Hill et al. 2022; no claim of a mapped cellular creativity mechanism.
-25. Aerial observations separate association from interaction — Weiss et al. 2021.
-26. Age and sex shape physical social contacts — Weiss et al. 2021.
-27. Close association does not predict every interaction — Weiss et al. 2021.
-28. Social and genetic networks need not match diet boundaries — Jourdain et al. 2024.
-29. Population structure permits contact across foraging niches — Jourdain et al. 2024.
-30. Antarctic Type C whales have a varied call repertoire — Wellard et al. 2020.
-31. Call structure varies among acoustic categories — Wellard et al. 2020.
-32. Acoustic occurrence changes with ecological conditions — Shabangu et al. 2024.
-33. Seasonal prey context constrains acoustic interpretation — Shabangu et al. 2024; detection does not measure individual intention.
-34. Antarctic hunters select particular seals — Pitman & Durban 2012, author-hosted early-view PDF available.
-35. Aligned swimmers produce coordinated waves — Pitman & Durban 2012.
-36. Repeated waves can dislodge seals from ice — Pitman & Durban 2012.
-37. Attack duration and success vary with prey encounters — Pitman & Durban 2012.
-38. Prey handling continues after capture — Pitman & Durban 2012; observation is not proof of explicit teaching.
-39. Canyon hunters follow habitat contours during search — McInnes et al. 2024.
-40. Search occupies more time than prey pursuit — McInnes et al. 2024.
-41. Prey species recruit distinct attack sequences — McInnes et al. 2024.
-42. Seasonal occurrence follows changing prey opportunities — McInnes et al. 2024.
-43. Playback experiments test responses to another cetacean — Selbmann et al. 2026.
-44. Experimental avoidance differs from inferred group intent — Selbmann et al. 2026; defined controls and limits.
+1. Matrilineal groups maintain distinct acoustic repertoires — Ford 1991.
+2. Postmortem MRI resolves killer-whale brain structure — Marino et al. 2004; 1.5 T scanner, 0.63 × 0.63 × 2.0 mm voxels; fixed adult male specimen.
+3. Extensive cortical folds accompany broad temporal lobes — Marino et al. 2004; anatomical morphology, not a numerical intelligence measure.
+4. Insular and opercular elaboration differs among delphinids — Marino et al. 2004; proposed functional associations distinguished from observed folds.
+5. Limbic cortical elaboration does not identify a learning circuit — Marino et al. 2004.
+6. Cerebellar morphology accompanies a complex motor repertoire — Marino et al. 2004; no unsupported hunting-specific circuit assignment.
+7. Inferior colliculi occupy a distinctive midbrain arrangement — Marino et al. 2004; original labeled coronal/axial section.
+8. Anatomical tracts do not establish directional functional coupling — Marino et al. 2004.
+9. Conditioned responses measure hearing thresholds — Szymanski et al. 1999; PDF pending.
+10. Behavioral sensitivity varies across sound frequencies — Szymanski et al. 1999; PDF pending.
+11. Auditory brainstem potentials measure synchronized responses — Szymanski et al. 1999; PDF pending.
+12. Physiological and behavioral thresholds differ — Szymanski et al. 1999; PDF pending.
+13. High-frequency responses constrain the hearing range — Szymanski et al. 1999; PDF pending.
+14. Pulsed calls, whistles and clicks differ in acoustic structure — Ford 1991; Souhaut & Shields 2021.
+15. Discrete call repertoires contain multiple persistent types — Ford 1991.
+16. Shared call types define acoustic clans — Ford 1991.
+17. Historical recordings preserve calls across generations — Ford 1991.
+18. Stereotyped whistles persist for more than three decades — Souhaut & Shields 2021.
+19. Biphonic calls contain separately modulated contours — Filatova 2020.
+20. Combining contours improves acoustic family classification — Filatova 2020.
+21. Frequency-specific hearing affects potential signal contrast — Filatova 2020; acoustic inference, not a direct recognition experiment.
+22. Longitudinal analysis compares call modification over time — Deecke et al. 2000; A12/A30 matrilines, N4/N9 calls, 12–13 years.
+23. Call change can exceed divergence between matrilines — Deecke et al. 2000.
+24. Maturation remains an alternative to cultural drift — Deecke et al. 2000; explicitly retained alternative explanation.
+25. A copying cue tests vocal production learning — Abramson et al. 2018; original plus correction checked before drafting.
+26. Novel conspecific sounds test learned acoustic matching — Abramson et al. 2018.
+27. Human sound models test cross-species mimicry — Abramson et al. 2018; no claim of language comprehension.
+28. Independent acoustic comparisons test copying precision — Abramson et al. 2018.
+29. An innovation cue rewards behavioral novelty — Hill et al. 2022.
+30. Direct social contacts differ from simple association — Weiss et al. 2021.
+31. Ecological differences coexist with social connectivity — Jourdain et al. 2024.
+32. Ecotypes use distinct foraging tactics and call repertoires — Wellard et al. 2020; McInnes et al. 2024.
+33. Pack-ice hunters select Weddell seals — Pitman & Durban 2012.
+34. Aligned swimmers produce coordinated waves — Pitman & Durban 2012.
+35. Repeated waves can dislodge seals from ice — Pitman & Durban 2012.
+36. Attack duration and capture success vary — Pitman & Durban 2012.
+37. Prey processing continues after capture — Pitman & Durban 2012; observation is not proof of teaching.
+38. Canyon contours accompany prey-search routes — McInnes et al. 2024.
+39. Searching occupies more time than pursuing prey — McInnes et al. 2024.
+40. Large cetacean prey recruit coordinated attack sequences — McInnes et al. 2024.
+41. Seasonal occurrence follows changing prey opportunities — McInnes et al. 2024.
+42. Foraging observations distinguish coordination from intent — McInnes et al. 2024; Pitman & Durban 2012.
+43. Playback measures responses to pilot-whale sounds — Selbmann et al. 2026.
+44. Playback controls constrain acoustic-response explanations — Selbmann et al. 2026.
 
 The final slide will contain six exam-level facts with bold lead phrases. The title slide will have an original animal figure or a credited real photo. At least 40 content slides will have images, at least 34 primary-paper figures; aim for published color on half. Use only intact PDF crops, never redraw/recolor figures. Do not introduce killer-whale-specific neurotransmitter, receptor or learning-circuit claims without direct primary evidence. These behavioral papers do not identify a neural imitation circuit.
 
 ## Remaining execution
 
-Analyze the two uploaded originals; inspect all PDF figures; revise the allocation to avoid repetition; write complete slide paragraphs and natural teaching transcripts; crop with repository tools; build with current tools/build_lecture.py; pass all checker rules; render and inspect all 46 slides; verify exact title/date, Arial, image origins and full DOI references; mark the new theme used; export a fresh downloadable PPTX and public preview through Presenton; commit and push the finished deck.
+Analyze the hearing original after upload; inspect all PDF figures; revise the allocation to avoid repetition; write complete slide paragraphs and natural teaching transcripts; crop with repository tools; build with current tools/build_lecture.py; pass all checker rules; render and inspect all 46 slides; verify exact title/date, Arial, image origins and full DOI references; mark the new theme used; export a fresh downloadable PPTX and public preview through Presenton; commit and push the finished deck.

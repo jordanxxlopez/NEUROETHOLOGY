@@ -106,3 +106,7 @@ FINISH
 
 
 Lecture 45 special topic: use the exact schedule title and Date TBD. Scientific visuals are only intact original article-PDF crops. Never generate, draw, reconstruct, replot or recolor any scientific visual. Under this instructor request, stop for inaccessible necessary originals and provide their DOI upload list. Build with tools/build_lecture.py.
+
+Exact expanded title: Killer whales: brain organization and auditory specializations, vocal traditions, social learning, and coordination of cooperative hunting
+Exact schedule date: Date TBD
+Distinguish anatomical observations from functional proposals. Do not invent a killer-whale-specific cortical vocal-learning circuit or receptor/ion-channel mechanism.

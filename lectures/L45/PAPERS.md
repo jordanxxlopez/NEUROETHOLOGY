@@ -1,22 +1,20 @@
 # Lecture 45 — verified primary papers
 
-Exact title: Killer whales: vocal traditions, social learning, and cooperative hunting
+Exact title: Killer whales: brain organization and auditory specializations, vocal traditions, social learning, and coordination of cooperative hunting
 
 Date: Date TBD
 
-## PDFs needed from the instructor
+## Original PDF needed for the expanded auditory section
 
-1. John K. B. Ford (1991). Vocal traditions among resident killer whales (Orcinus orca) in coastal waters of British Columbia. Canadian Journal of Zoology 69(6): 1454-1483. https://doi.org/10.1139/z91-206
-   Foundational longitudinal evidence for resident killer-whale vocal dialects and cultural transmission; original figure PDF not accessible.
+1. Michael D. Szymanski; David E. Bain; Kent Kiehl; Scott Pennington; Scott Wong; Kenneth R. Henry (1999). Killer whale (Orcinus orca) hearing: Auditory brainstem response and behavioral audiograms. The Journal of the Acoustical Society of America 106(2): 1134-1141. https://doi.org/10.1121/1.427121
 
-2. V.B Deecke; J.K.B Ford; P Spong (2000). Dialect change in resident killer whales: implications for vocal learning and cultural transmission. Animal Behaviour 60(5): 629-638. https://doi.org/10.1006/anbe.2000.1454
-   Foundational longitudinal evidence for resident killer-whale vocal dialects and cultural transmission; original figure PDF not accessible.
+Direct killer-whale auditory brainstem responses and behavioral audiograms are required for the newly added auditory-specialization section. An abstract cannot supply the original data figures or full methods.
 
-The instructor explicitly requires stopping for missing necessary PDFs and prohibits substituted or reconstructed figures. No deck has been delivered.
+The two earlier requested originals have been uploaded and incorporated. The instructor explicitly requires stopping for a necessary inaccessible paper rather than substituting or reconstructing its figures. No completed PPTX has been delivered.
 
-## Downloaded and verified originals
+## Available originals
 
-- José Z. Abramson; Mª Victoria Hernández-Lloreda; Lino García; Fernando Colmenares; Francisco Aboitiz; Josep Call (2018). Imitation of novel conspecific and human speech sounds in the killer whale (Orcinus orca). Proceedings of the Royal Society B: Biological Sciences 285(1871): 20172171. https://doi.org/10.1098/rspb.2017.2171
+- José Z. Abramson; Mª Victoria Hernández-Lloreda; Lino García; Fernando Colmenares; Francisco Aboitiz; Josep Call (2018). Imitation of novel conspecific and human speech sounds in the killer whale ( Orcinus orca ). Proceedings of the Royal Society B: Biological Sciences 285(1871): 20172171. https://doi.org/10.1098/rspb.2017.2171
 
 - Marie Souhaut; Monika W. Shields (2021). Stereotyped whistles in southern resident killer whales. PeerJ 9: e12085. https://doi.org/10.7717/peerj.12085
 
@@ -36,6 +34,12 @@ The instructor explicitly requires stopping for missing necessary PDFs and prohi
 
 - Anna Selbmann; Filipa I. P. Samarra; Lucie Barluet de Beauchesne; Tatiana M. J. Marchon; Ellen Hayward; Jörundur Svavarsson; Patrick J. O. Miller; Paul J. Wensveen; Charlotte Curé (2026). Aversive behavioural responses of killer whales to sounds of long-finned pilot whales. Scientific Reports 16(1): 4716. https://doi.org/10.1038/s41598-026-35574-7
 
-- Robert L. Pitman; John W. Durban (2012). Cooperative hunting behavior, prey selectivity and prey handling by pack ice killer whales (Orcinus orca), type B, in Antarctic Peninsula waters. Marine Mammal Science 28(1): 16-36. https://doi.org/10.1111/j.1748-7692.2010.00453.x
+- Robert L. Pitman; John W. Durban (2012). Cooperative hunting behavior, prey selectivity and prey handling by pack ice killer whales ( Orcinus orca ), type B, in Antarctic Peninsula waters. Marine Mammal Science 28(1): 16-36. https://doi.org/10.1111/j.1748-7692.2010.00453.x
 
-Each downloaded PDF contains its matching DOI. File hashes and source URLs are in sources/available-pdfs.json. Original PDFs remain uncommitted in papers/.
+- John K. B. Ford (1991). Vocal traditions among resident killer whales (Orcinus orca) in coastal waters of British Columbia. Canadian Journal of Zoology 69(6): 1454-1483. https://doi.org/10.1139/z91-206
+
+- V.B Deecke; J.K.B Ford; P Spong (2000). Dialect change in resident killer whales: implications for vocal learning and cultural transmission. Animal Behaviour 60(5): 629-638. https://doi.org/10.1006/anbe.2000.1454
+
+- Lori Marino; Chet C. Sherwood; Bradley N. Delman; Cheuk Y. Tang; Thomas P. Naidich; Patrick R. Hof (2004). Neuroanatomy of the killer whale (Orcinus orca) from magnetic resonance images. The Anatomical Record Part A: Discoveries in Molecular, Cellular, and Evolutionary Biology 281A(2): 1256-1263. https://doi.org/10.1002/ar.a.20075
+
+Source URLs, citation metadata and PDF hashes are recorded in sources/available-pdfs.json. Original PDFs remain uncommitted in papers/.
