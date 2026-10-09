@@ -22,8 +22,8 @@ FORMAT
 
 CONTENT
 - Do web searches and use the primary academic literature. Every content slide is built on
-  real studies: preparation, methods, controls, what was found, and what the result does and
-  does not show. Verify every citation (authors, year, journal, volume, pages, DOI). Short
+  real studies: preparation, methods, controls, what was found, and how it works (mechanism,
+  circuit, link to behavior). Verify every citation (authors, year, journal, volume, pages, DOI). Short
   citation in the slide footer; full reference with DOI in the speaker notes.
 - Teach concepts, not statistics. Keep numbers only when they carry the concept (latencies
   in ms, pulse rates, sound frequencies, firing rates, angles, sizes). No p-values, test
@@ -33,7 +33,9 @@ CONTENT
   followed by the references.
 - Define each technical term when it first appears. Explain circuits, transmitters,
   receptors and ion channels step by step and connect them to neuronal activity and
-  behavior. Keep established findings separate from proposed explanations.
+  behavior. A limitation gets a sentence only when it changes
+  what students should conclude; not on every slide. No fixed paragraph structure; no em dashes
+  in slide text.
 
 WRITING (slides and notes)
 - NO NON-INSTRUCTIONAL FRAMING: every sentence directly teaches information from the sources
@@ -104,8 +106,5 @@ FINISH
   then commit, push, and give me the .pptx.
 ```
 
-## Lecture 53 requirements
 
-Exact title: Comparative Neuroethics: The Neurobiology of Captivity, Stress, and Behavioral Pathology Across Taxa
-
-Date: Date TBD. Use the uploaded Lectures 30–34 and 37 as visual references only. Each has 46 slides and images on all 44 content slides. Aim for that image density, with at least 34 primary-article figure slides, preserved labels and original color. Never generate, redraw, recolor or reconstruct an image. If a needed article PDF cannot be downloaded, stop and list the required papers with verified DOI links; do not deliver a substitute deck. This explicit request takes precedence over the repository special-topic substitution exception.
+Lecture 53 uses the exact schedule title. Follow the current teaching-focused rules: every paragraph teaches; caveats appear only when they change the conclusion; name a hypothesis in its sentence; no fixed paragraph order; no em dashes in slide text. Use original article PDF crops only, never create, reconstruct or recolor an image. Stop for inaccessible required PDFs and provide numbered DOI links.
