@@ -1,0 +1,500 @@
+{
+  "papers": {
+    "reintegration": "papers/reintegration.pdf",
+    "sampling": "papers/sampling.pdf",
+    "stereotypy": "papers/stereotypy.pdf",
+    "rest": "papers/rest.pdf",
+    "gut": "papers/gut.pdf",
+    "males": "papers/males.pdf",
+    "selfdirected": "papers/selfdirected.pdf",
+    "habitat": "papers/habitat.pdf",
+    "insight": "papers/insight.pdf",
+    "crh": "papers/crh.pdf",
+    "orphans": "papers/orphans.pdf",
+    "activity": "papers/activity.pdf",
+    "seasonal": "papers/seasonal.pdf"
+  },
+  "dpi": 200,
+  "crops": {
+    "stereo_budget": [
+      "stereotypy",
+      9,
+      [
+        0.1882,
+        0.0965,
+        0.9431,
+        0.5317
+      ]
+    ],
+    "stereo_day": [
+      "stereotypy",
+      13,
+      [
+        0.1733,
+        0.0965,
+        0.9431,
+        0.4593
+      ]
+    ],
+    "stereo_night": [
+      "stereotypy",
+      13,
+      [
+        0.2196,
+        0.5341,
+        0.9432,
+        0.8642
+      ]
+    ],
+    "stereo_alone": [
+      "stereotypy",
+      16,
+      [
+        0.1764,
+        0.4712,
+        0.9431,
+        0.8394
+      ]
+    ],
+    "stereo_young": [
+      "stereotypy",
+      17,
+      [
+        0.1733,
+        0.0965,
+        0.9431,
+        0.4608
+      ]
+    ],
+    "stereo_transfer": [
+      "stereotypy",
+      19,
+      [
+        0.1733,
+        0.0965,
+        0.9431,
+        0.451
+      ]
+    ],
+    "stereo_choice": [
+      "stereotypy",
+      22,
+      [
+        0.1745,
+        0.0965,
+        0.9432,
+        0.4523
+      ]
+    ],
+    "sdb_events": [
+      "selfdirected",
+      5,
+      [
+        0.1148,
+        0.5836,
+        0.8856,
+        0.8743
+      ]
+    ],
+    "sdb_context": [
+      "selfdirected",
+      6,
+      [
+        0.1564,
+        0.1057,
+        0.844,
+        0.3991
+      ]
+    ],
+    "sdb_attention": [
+      "selfdirected",
+      6,
+      [
+        0.1173,
+        0.4819,
+        0.4546,
+        0.6609
+      ]
+    ],
+    "sdb_history": [
+      "selfdirected",
+      7,
+      [
+        0.1149,
+        0.4284,
+        0.8855,
+        0.6925
+      ]
+    ],
+    "male_fgm": [
+      "males",
+      11,
+      [
+        0.056799999999999996,
+        0.1209,
+        0.6118,
+        0.371
+      ]
+    ],
+    "festival": [
+      "sampling",
+      8,
+      [
+        0.229,
+        0.1794,
+        0.7831,
+        0.543
+      ]
+    ],
+    "seasonal_climate": [
+      "seasonal",
+      3,
+      [
+        0.2528,
+        0.0907,
+        0.7464,
+        0.396
+      ]
+    ],
+    "seasonal_markers": [
+      "seasonal",
+      5,
+      [
+        0.15,
+        0.4883,
+        0.8492,
+        0.6858
+      ]
+    ],
+    "habitat_map": [
+      "habitat",
+      7,
+      [
+        0.279,
+        0.4033,
+        0.763,
+        0.6886
+      ]
+    ],
+    "habitat_walk": [
+      "habitat",
+      11,
+      [
+        0.279,
+        0.5538,
+        0.7589,
+        0.8063
+      ]
+    ],
+    "habitat_fgm": [
+      "habitat",
+      13,
+      [
+        0.08889999999999999,
+        0.1373,
+        0.9111,
+        0.8234
+      ]
+    ],
+    "habitat_budget": [
+      "habitat",
+      17,
+      [
+        0.0769,
+        0.1114,
+        0.9231,
+        0.8115
+      ]
+    ],
+    "habitat_near": [
+      "habitat",
+      19,
+      [
+        0.279,
+        0.2992,
+        0.844,
+        0.5979
+      ]
+    ],
+    "habitat_social": [
+      "habitat",
+      22,
+      [
+        0.279,
+        0.1914,
+        0.9061,
+        0.5207
+      ]
+    ],
+    "habitat_resources": [
+      "habitat",
+      23,
+      [
+        0.0999,
+        0.3887,
+        0.9001,
+        0.7197
+      ]
+    ],
+    "cameras": [
+      "activity",
+      4,
+      [
+        0.2395,
+        0.3144,
+        0.7698,
+        0.5672
+      ]
+    ],
+    "sleep_locations": [
+      "activity",
+      15,
+      [
+        0.319,
+        0.582,
+        0.685,
+        0.839
+      ]
+    ],
+    "rest_species": [
+      "rest",
+      7,
+      [
+        0.1302,
+        0.0965,
+        0.9432,
+        0.3701
+      ]
+    ],
+    "rest_individual": [
+      "rest",
+      8,
+      [
+        0.0893,
+        0.0965,
+        0.9431,
+        0.6065
+      ]
+    ],
+    "rest_daily": [
+      "rest",
+      9,
+      [
+        0.1172,
+        0.0965,
+        0.9432,
+        0.4535
+      ]
+    ],
+    "male_social": [
+      "males",
+      9,
+      [
+        0.056799999999999996,
+        0.6524,
+        0.8059,
+        0.8451
+      ]
+    ],
+    "male_individual": [
+      "males",
+      10,
+      [
+        0.056799999999999996,
+        0.365,
+        0.9432,
+        0.8325
+      ]
+    ],
+    "male_androgen": [
+      "males",
+      11,
+      [
+        0.056799999999999996,
+        0.4589,
+        0.6117,
+        0.709
+      ]
+    ],
+    "orphan_social": [
+      "orphans",
+      4,
+      [
+        0.2258,
+        0.5963,
+        0.7742,
+        0.8455
+      ]
+    ],
+    "orphan_season": [
+      "orphans",
+      5,
+      [
+        0.2258,
+        0.0629,
+        0.7741,
+        0.5883
+      ]
+    ],
+    "release_phases": [
+      "reintegration",
+      11,
+      [
+        0.1156,
+        0.0965,
+        0.9432,
+        0.8096
+      ]
+    ],
+    "release_change": [
+      "reintegration",
+      9,
+      [
+        0.1156,
+        0.2235,
+        0.9432,
+        0.8286
+      ]
+    ],
+    "habitat_gps": [
+      "habitat",
+      12,
+      [
+        0.278,
+        0.25,
+        0.93,
+        0.704
+      ]
+    ],
+    "cameras_compare": [
+      "activity",
+      9,
+      [
+        0.258,
+        0.103,
+        0.744,
+        0.47
+      ]
+    ],
+    "cameras_daily": [
+      "activity",
+      11,
+      [
+        0.253,
+        0.103,
+        0.75,
+        0.758
+      ]
+    ],
+    "gut_diversity": [
+      "gut",
+      3,
+      [
+        0.09,
+        0.28,
+        0.95,
+        0.851
+      ]
+    ],
+    "gut_composition": [
+      "gut",
+      6,
+      [
+        0.076,
+        0.063,
+        0.922,
+        0.248
+      ]
+    ],
+    "gut_function": [
+      "gut",
+      8,
+      [
+        0.075,
+        0.079,
+        0.915,
+        0.477
+      ]
+    ],
+    "pvn_cells": [
+      "crh",
+      4,
+      [
+        0.236,
+        0.202,
+        0.498,
+        0.416
+      ]
+    ],
+    "pvn_inhibition": [
+      "crh",
+      4,
+      [
+        0.235,
+        0.152,
+        0.77,
+        0.416
+      ]
+    ],
+    "pvn_groom": [
+      "crh",
+      4,
+      [
+        0.238,
+        0.568,
+        0.775,
+        0.696
+      ]
+    ],
+    "pvn_activation": [
+      "crh",
+      6,
+      [
+        0.224,
+        0.145,
+        0.767,
+        0.403
+      ]
+    ],
+    "lh_projection": [
+      "crh",
+      7,
+      [
+        0.598,
+        0.2,
+        0.729,
+        0.325
+      ]
+    ],
+    "lh_receptors": [
+      "crh",
+      7,
+      [
+        0.087,
+        0.354,
+        0.285,
+        0.5
+      ]
+    ],
+    "pvn_context": [
+      "crh",
+      10,
+      [
+        0.073,
+        0.219,
+        0.483,
+        0.659
+      ]
+    ],
+    "title_elephant": [
+      "insight",
+      2,
+      [
+        0.402,
+        0.077,
+        0.675,
+        0.349
+      ]
+    ]
+  }
+}
