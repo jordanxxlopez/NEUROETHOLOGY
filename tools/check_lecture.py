@@ -20,6 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from style_rules import (MADE_IMAGE_WORDS, MIN_ARTICLE_FIGURE_SLIDES, MIN_COLOR_SHARE, MIN_IMAGE_SLIDES,  # noqa: E402
                          framing_problems, is_color_image, stats_problems)
 from theme_colors import alignment_problems  # noqa: E402
+from style_rules import EM_DASH, MAX_LIMITATION_SHARE, ends_with_limitation  # noqa: E402
 
 STRUCTURE = [
     (r"^\s*(lecture )?(outline|agenda|overview|roadmap)\s*$", "no outline/agenda slide"),
@@ -124,6 +125,23 @@ def main():
         errs.append(f"only {img_slides} of {n} content slides have an image; nearly all must (>= {need_img})")
     if fig_slides < need_art:
         errs.append(f"only {fig_slides} content slides have article figures; need >= {need_art}")
+
+    # caveat endings and em dashes (slide text only; captions, footers and notes excluded)
+    caveats, dashes = [], []
+    for i, sl in enumerate(slides[1:-1], start=2):
+        frames = [sh for sh in sl.shapes if sh.has_text_frame
+                  and sh.name not in ("Figure caption", "Citation", "Slide number")]
+        if any(EM_DASH in sh.text_frame.text for sh in frames):
+            dashes.append(i)
+        body = [sh for sh in frames if sh.name == "Body"] or sorted(
+            frames, key=lambda sh: len(sh.text_frame.text.split()), reverse=True)[:1]
+        if body and ends_with_limitation([p.text for p in body[0].text_frame.paragraphs]):
+            caveats.append(i)
+    if dashes:
+        errs.append(f"em dash in slide text on slides {dashes[:12]}; use a comma, semicolon, colon or new sentence")
+    if len(caveats) > MAX_LIMITATION_SHARE * (len(slides) - 2):
+        errs.append(f"{len(caveats)} slides end on a caveat paragraph ({caveats[:12]}); at most 1 in 5. The last "
+                    "paragraph should teach; keep a limitation only when it changes what students should conclude")
 
     # one color per lecture: titles/bold = darker title-slide color, other text black
     errs.extend(alignment_problems(prs))

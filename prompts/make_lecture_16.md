@@ -24,8 +24,8 @@ FORMAT
 
 CONTENT
 - Do web searches and use the primary academic literature. Every content slide is built on
-  real studies: preparation, methods, controls, what was found, and what the result does and
-  does not show. Verify every citation (authors, year, journal, volume, pages, DOI). Short
+  real studies: preparation, methods, controls, what was found, and how it works (mechanism,
+  circuit, link to behavior). Verify every citation (authors, year, journal, volume, pages, DOI). Short
   citation in the slide footer; full reference with DOI in the speaker notes.
 - Teach concepts, not statistics. Keep numbers only when they carry the concept (latencies
   in ms, pulse rates, sound frequencies, firing rates, angles, sizes). No p-values, test
@@ -35,7 +35,9 @@ CONTENT
   followed by the references.
 - Define each technical term when it first appears. Explain circuits, transmitters,
   receptors and ion channels step by step and connect them to neuronal activity and
-  behavior. Keep established findings separate from proposed explanations.
+  behavior. A limitation gets a sentence only when it changes
+  what students should conclude; not on every slide. No fixed paragraph structure; no em dashes
+  in slide text.
 
 WRITING (slides and notes)
 - NO NON-INSTRUCTIONAL FRAMING: every sentence directly teaches information from the sources
