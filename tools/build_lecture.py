@@ -340,8 +340,9 @@ class Deck:
         title = self.meta["title"]
         # break after the first colon for the two-line look; text is unchanged
         lines = [title[: title.index(":") + 1], title[title.index(":") + 1:].strip()] if ":" in title else [title]
-        _, tf = textbox(s, x, 2.55, w, 2.1, "Lecture title")
-        pt, need = fit_size(lines, w, 2.1, max_pt=30, min_pt=22, where="title slide")
+        title_h = self.spec.get("title_height", 2.1)
+        _, tf = textbox(s, x, 2.55, w, title_h, "Lecture title")
+        pt, need = fit_size(lines, w, title_h, max_pt=30, min_pt=22, where="title slide")
         write_paras(tf, lines, pt, t["title_text"], space_after=0)
         for p in tf.paragraphs:
             for r in p.runs:

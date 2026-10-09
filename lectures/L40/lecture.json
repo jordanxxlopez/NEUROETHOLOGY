@@ -1,0 +1,1558 @@
+{
+  "lecture": 40,
+  "theme": "rosewood-paper",
+  "content_slides": 44,
+  "title_height": 2.7,
+  "title_image": {
+    "path": "figures/animal.png",
+    "kind": "article",
+    "caption": "Bezares-Calderón et al. (2018), Fig. 1(A). Nectochaete larva of Platynereis dumerilii.",
+    "source_url": "https://doi.org/10.7554/elife.36262"
+  },
+  "title_refs": [
+    "Luis A Bezares-Calderón; Jürgen Berger; Sanja Jasek; Csaba Verasztó; Sara Mendes; Martin Gühmann; Rodrigo Almeda; Réza Shahidi; Gáspár Jékely (2018). Neural circuitry of a polycystin-mediated hydrodynamic startle response for predator avoidance. eLife 7: e36262. https://doi.org/10.7554/elife.36262"
+  ],
+  "slides": [
+    {
+      "title": "Optical activation can recruit a specific action",
+      "body": [
+        "**Optogenetics** changes cellular activity by expressing a light-sensitive protein in selected cells. A **descending neuron** carries signals from the brain toward the **ventral nerve cord**, a longitudinal nervous-system structure whose motor networks organize movement. Cande and colleagues expressed the light-gated channel CsChrimson in identified descending-neuron populations of adult flies.",
+        "Flies received 15-s pulses of red light separated by 45-s recovery periods. Retinal-fed experimental flies increased occupancy of particular grooming or locomotor behaviors, whereas genetically matched flies without supplemental retinal supplied a stimulation control. **Retinal** is the light-absorbing cofactor required by the channel.",
+        "Recruiting a particular action establishes **sufficiency**: activating the tested cells can produce that response under the assay conditions. It does not establish that those cells normally initiate every occurrence of the behavior, or that the artificially imposed activity matches their natural firing pattern."
+      ],
+      "cite": "Cande et al. (2018); Inagaki et al. (2014)",
+      "refs": [
+        "Jessica Cande; Shigehiro Namiki; Jirui Qiu; Wyatt Korff; Gwyneth M Card; Joshua W Shaevitz; David L Stern; Gordon J Berman (2018). Optogenetic dissection of descending behavioral control in Drosophila. eLife 7: e34275. https://doi.org/10.7554/elife.34275",
+        "Hidehiko K Inagaki; Yonil Jung; Eric D Hoopfer; Allan M Wong; Neeli Mishra; John Y Lin; Roger Y Tsien; David J Anderson (2014). Optogenetic control of Drosophila using a red-shifted channelrhodopsin reveals experience-dependent influences on courtship. Nature Methods 11(3): 325-332. https://doi.org/10.1038/nmeth.2765"
+      ],
+      "transcript": [
+        "**Optogenetics** changes cellular activity by expressing a light-sensitive protein in selected cells. A **descending neuron** carries signals from the brain toward the **ventral nerve cord**, a longitudinal nervous-system structure whose motor networks organize movement. Cande and colleagues expressed the light-gated channel CsChrimson in identified descending-neuron populations of adult flies.",
+        [
+          "Flies received 15-s pulses of red light separated by 45-s recovery periods. Retinal-fed experimental flies increased occupancy of particular grooming or locomotor behaviors, whereas genetically matched flies without supplemental retinal supplied a stimulation control. **Retinal** is the light-absorbing cofactor required by the channel.",
+          [
+            "The fly can move within its chamber during stimulation. A behavioral change is attributed to the light-sensitive cells only after comparing it with flies that experience the same illumination but lack the supplied cofactor. The published P1–pIP10 arrangement identifies a brain-to-nerve-cord pathway; it is a separate courtship example, not the anatomical identity of the grooming cells."
+          ]
+        ],
+        "Recruiting a particular action establishes **sufficiency**: activating the tested cells can produce that response under the assay conditions. It does not establish that those cells normally initiate every occurrence of the behavior, or that the artificially imposed activity matches their natural firing pattern."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/cande2.png",
+          "kind": "article",
+          "caption": "Cande et al. (2018), Fig. 2(A–F). Grooming occupancy and entropy during 15-s stimulation.",
+          "source_url": "https://doi.org/10.7554/elife.34275"
+        },
+        {
+          "path": "figures/inag3b.png",
+          "kind": "article",
+          "caption": "Inagaki et al. (2014), Fig. 3(b). Published P1 and pIP10 circuit arrangement; connectivity is proposed.",
+          "source_url": "https://doi.org/10.1038/nmeth.2765"
+        }
+      ],
+      "primary_figure_height": 3.1,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "A microbial channel directly couples light to current",
+      "body": [
+        "**Channelrhodopsin-2**, or ChR2, is a retinal-containing membrane protein from the green alga _Chlamydomonas reinhardtii_. An **ion channel** provides a pathway through which charged particles move across the membrane. Nagel and colleagues expressed ChR2 in frog oocytes and mammalian cells to determine its primary action.",
+        "Blue illumination near 450 nm produced currents absent from uninjected oocytes. Under **voltage clamp**, an amplifier holds membrane voltage at a selected value while measuring current. Changing the held voltage changed current magnitude and direction, supporting a passive conductance rather than an ion pump.",
+        "A truncated construct containing the first 315 amino acids retained channel function. The findings locate the light-gated conductance within the membrane-spanning portion of the protein. They establish a cellular mechanism in expression systems, rather than a causal role for ChR2 in an animal’s natural behavioral circuit."
+      ],
+      "cite": "Nagel et al. (2003)",
+      "refs": [
+        "Georg Nagel; Tanjef Szellas; Wolfram Huhn; Suneel Kateriya; Nona Adeishvili; Peter Berthold; Doris Ollig; Peter Hegemann; Ernst Bamberg (2003). Channelrhodopsin-2, a directly light-gated cation-selective membrane channel. Proceedings of the National Academy of Sciences 100(24): 13940-13945. https://doi.org/10.1073/pnas.1936192100"
+      ],
+      "transcript": [
+        "**Channelrhodopsin-2**, or ChR2, is a retinal-containing membrane protein from the green alga _Chlamydomonas reinhardtii_. An **ion channel** provides a pathway through which charged particles move across the membrane. Nagel and colleagues expressed ChR2 in frog oocytes and mammalian cells to determine its primary action.",
+        [
+          "Blue illumination near 450 nm produced currents absent from uninjected oocytes. Under **voltage clamp**, an amplifier holds membrane voltage at a selected value while measuring current. Changing the held voltage changed current magnitude and direction, supporting a passive conductance rather than an ion pump.",
+          [
+            "An oocyte is an immature egg cell large enough for controlled electrical recordings. Expressing the same protein in more than one host helps separate its own function from a specialized component of the original algal sensory system. Passive ion movement follows electrical and concentration gradients rather than transporting a fixed ion number per photon."
+          ]
+        ],
+        "A truncated construct containing the first 315 amino acids retained channel function. The findings locate the light-gated conductance within the membrane-spanning portion of the protein. They establish a cellular mechanism in expression systems, rather than a causal role for ChR2 in an animal’s natural behavioral circuit."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/nagel1.png",
+        "kind": "article",
+        "caption": "Nagel et al. (2003), Fig. 1(a–h). Original ChR2 currents under ion substitution and voltage clamp.",
+        "source_url": "https://doi.org/10.1073/pnas.1936192100"
+      }
+    },
+    {
+      "title": "Ion substitution identifies the channel’s selectivity",
+      "body": [
+        "**Ion selectivity** describes which charged species can pass through a channel. Nagel and colleagues replaced salts around ChR2-expressing oocytes while measuring the response to the same blue-light stimulation. **Cations** carry positive charge; **anions** carry negative charge.",
+        "Photocurrents varied with the available cation. Replacing external chloride with aspartate did not appreciably change the current or its reversal voltage. **Reversal voltage** is the membrane voltage at which the net measured current changes direction. Calcium could also pass through ChR2, whereas magnesium permeability was negligible under the tested conditions.",
+        "At pH 9, with **pH** measuring acidity, the small current remaining in a solution containing the bulky cation N-methyl-D-glucamine disappeared, identifying a proton contribution at lower pH. These substitution controls support cation conduction. They do not justify assuming identical currents in neurons with different intracellular ion concentrations or membrane voltages."
+      ],
+      "cite": "Nagel et al. (2003)",
+      "refs": [
+        "Georg Nagel; Tanjef Szellas; Wolfram Huhn; Suneel Kateriya; Nona Adeishvili; Peter Berthold; Doris Ollig; Peter Hegemann; Ernst Bamberg (2003). Channelrhodopsin-2, a directly light-gated cation-selective membrane channel. Proceedings of the National Academy of Sciences 100(24): 13940-13945. https://doi.org/10.1073/pnas.1936192100"
+      ],
+      "transcript": [
+        "**Ion selectivity** describes which charged species can pass through a channel. Nagel and colleagues replaced salts around ChR2-expressing oocytes while measuring the response to the same blue-light stimulation. **Cations** carry positive charge; **anions** carry negative charge.",
+        [
+          "Photocurrents varied with the available cation. Replacing external chloride with aspartate did not appreciably change the current or its reversal voltage. **Reversal voltage** is the membrane voltage at which the net measured current changes direction. Calcium could also pass through ChR2, whereas magnesium permeability was negligible under the tested conditions.",
+          [
+            "Changing one solution component at a time asks which ion is responsible for the current. Protons are hydrogen ions, and pH expresses their availability. Calcium entry also activated a native oocyte current; suppressing that secondary response with a calcium-binding compound helped isolate the channel’s own calcium permeability."
+          ]
+        ],
+        "At pH 9, with **pH** measuring acidity, the small current remaining in a solution containing the bulky cation N-methyl-D-glucamine disappeared, identifying a proton contribution at lower pH. These substitution controls support cation conduction. They do not justify assuming identical currents in neurons with different intracellular ion concentrations or membrane voltages."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/nagel1b.png",
+        "kind": "article",
+        "caption": "Nagel et al. (2003), Fig. 1(a–h). Currents and selectivity under controlled salt solutions.",
+        "source_url": "https://doi.org/10.1073/pnas.1936192100"
+      }
+    },
+    {
+      "title": "Excised membranes retain rapid light gating",
+      "body": [
+        "A light-evoked current could arise either from the expressed protein itself or from a signaling pathway that activates another channel. Nagel and colleagues recorded ChR2 in **excised membrane patches**, membrane fragments separated from the intact cell with their internal solution experimentally controlled.",
+        "Photocurrents remained after soluble cellular contents were replaced. A 10-ns laser flash triggered channel opening with a rise time near 200 µs or faster. Closing was much slower and depended on intracellular pH, spanning approximately 10–400 ms across the tested conditions.",
+        "The persistence and rapid onset support direct channel gating without a required diffusible intracellular messenger. The unequal opening and closing times also mean that light-pulse duration alone does not define the complete electrical response. These kinetics describe ChR2 in this preparation, not every subsequent channelrhodopsin variant."
+      ],
+      "cite": "Nagel et al. (2003)",
+      "refs": [
+        "Georg Nagel; Tanjef Szellas; Wolfram Huhn; Suneel Kateriya; Nona Adeishvili; Peter Berthold; Doris Ollig; Peter Hegemann; Ernst Bamberg (2003). Channelrhodopsin-2, a directly light-gated cation-selective membrane channel. Proceedings of the National Academy of Sciences 100(24): 13940-13945. https://doi.org/10.1073/pnas.1936192100"
+      ],
+      "transcript": [
+        "A light-evoked current could arise either from the expressed protein itself or from a signaling pathway that activates another channel. Nagel and colleagues recorded ChR2 in **excised membrane patches**, membrane fragments separated from the intact cell with their internal solution experimentally controlled.",
+        [
+          "Photocurrents remained after soluble cellular contents were replaced. A 10-ns laser flash triggered channel opening with a rise time near 200 µs or faster. Closing was much slower and depended on intracellular pH, spanning approximately 10–400 ms across the tested conditions.",
+          [
+            "An inside-out patch exposes the membrane’s former cytoplasmic surface to the bathing solution. Manipulating that side of the membrane tests whether soluble cytoplasmic components are required and permits independent control of internal acidity. Rapid opening and pH-dependent closing are separate features of the measured response."
+          ]
+        ],
+        "The persistence and rapid onset support direct channel gating without a required diffusible intracellular messenger. The unequal opening and closing times also mean that light-pulse duration alone does not define the complete electrical response. These kinetics describe ChR2 in this preparation, not every subsequent channelrhodopsin variant."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/nagel3.png",
+        "kind": "article",
+        "caption": "Nagel et al. (2003), Fig. 3(a–g). Excised-patch responses to light and intracellular pH.",
+        "source_url": "https://doi.org/10.1073/pnas.1936192100"
+      }
+    },
+    {
+      "title": "Membrane expression enables optical drive of neurons",
+      "body": [
+        "Boyden and colleagues introduced a ChR2 fusion with yellow fluorescent protein into cultured rat neurons using a **lentiviral vector**, a modified virus that delivers an expression construct. The fluorescent tag identified the expressing cells and their membrane-associated processes.",
+        "Blue light spanning 450–490 nm generated an average peak inward current near 496 pA, followed by a smaller sustained current near 193 pA. Neurons expressing the fluorescent tag alone did not produce light-evoked responses. These controls separate the channel’s electrical effect from fluorescence labeling and illumination.",
+        "Inward current depolarized the neuron, making its internal voltage less negative. Reaching firing threshold triggered an **action potential**, a rapid regenerative voltage change. A **synapse** is a contact that transmits signals between cells. Expression permits intervention without identifying the cell’s natural targets or behavioral function."
+      ],
+      "cite": "Boyden et al. (2005)",
+      "refs": [
+        "Edward S Boyden; Feng Zhang; Ernst Bamberg; Georg Nagel; Karl Deisseroth (2005). Millisecond-timescale, genetically targeted optical control of neural activity. Nature Neuroscience 8(9): 1263-1268. https://doi.org/10.1038/nn1525"
+      ],
+      "transcript": [
+        "Boyden and colleagues introduced a ChR2 fusion with yellow fluorescent protein into cultured rat neurons using a **lentiviral vector**, a modified virus that delivers an expression construct. The fluorescent tag identified the expressing cells and their membrane-associated processes.",
+        [
+          "Blue light spanning 450–490 nm generated an average peak inward current near 496 pA, followed by a smaller sustained current near 193 pA. Neurons expressing the fluorescent tag alone did not produce light-evoked responses. These controls separate the channel’s electrical effect from fluorescence labeling and illumination.",
+          [
+            "A picoampere is one trillionth of an ampere and expresses the current measured by the recording amplifier. The fluorescent signal locates the introduced protein but does not establish that every labeled process produces an equal photocurrent. The electrical measurement verifies that the expression construct can actually change membrane excitation."
+          ]
+        ],
+        "Inward current depolarized the neuron, making its internal voltage less negative. Reaching firing threshold triggered an **action potential**, a rapid regenerative voltage change. A **synapse** is a contact that transmits signals between cells. Expression permits intervention without identifying the cell’s natural targets or behavioral function."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/boyden1.png",
+        "kind": "article",
+        "caption": "Boyden et al. (2005), Fig. 1(a–e). Membrane expression, inward current and light-evoked spikes.",
+        "source_url": "https://doi.org/10.1038/nn1525"
+      }
+    },
+    {
+      "title": "Pulse timing controls spikes with finite reliability",
+      "body": [
+        "An **action potential** is a rapid regenerative change in membrane voltage that carries a neuronal signal. Boyden and colleagues recorded neurons while applying repeated 10–15-ms light pulses, comparing the timing of evoked spikes across repeated stimulation sequences.",
+        "The same pulse sequence produced highly repeatable spike patterns, but not every light pulse elicited a spike. In two irregular stimulation protocols, about 76% and 85% of pulses successfully drove spikes. Spike reliability declined at higher rates in tests spanning 5–30 Hz.",
+        "Continuous illumination produced a well-timed initial spike followed by less precisely timed activity. Thus, a pulse train defines a controlled input rather than a guaranteed identical spike train in every neuron. Behavioral interpretations require validation of the actual neural response, especially when expression level and firing properties vary between cells."
+      ],
+      "cite": "Boyden et al. (2005)",
+      "refs": [
+        "Edward S Boyden; Feng Zhang; Ernst Bamberg; Georg Nagel; Karl Deisseroth (2005). Millisecond-timescale, genetically targeted optical control of neural activity. Nature Neuroscience 8(9): 1263-1268. https://doi.org/10.1038/nn1525"
+      ],
+      "transcript": [
+        "An **action potential** is a rapid regenerative change in membrane voltage that carries a neuronal signal. Boyden and colleagues recorded neurons while applying repeated 10–15-ms light pulses, comparing the timing of evoked spikes across repeated stimulation sequences.",
+        [
+          "The same pulse sequence produced highly repeatable spike patterns, but not every light pulse elicited a spike. In two irregular stimulation protocols, about 76% and 85% of pulses successfully drove spikes. Spike reliability declined at higher rates in tests spanning 5–30 Hz.",
+          [
+            "Current clamp allows membrane voltage to change while the amplifier records that change. Repeating the identical input distinguishes consistency of response timing from the probability that a response occurs. Precisely timed pulses can still fail to reach firing threshold, so temporal control and complete spike fidelity are different properties."
+          ]
+        ],
+        "Continuous illumination produced a well-timed initial spike followed by less precisely timed activity. Thus, a pulse train defines a controlled input rather than a guaranteed identical spike train in every neuron. Behavioral interpretations require validation of the actual neural response, especially when expression level and firing properties vary between cells."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/boyden2.png",
+          "kind": "article",
+          "caption": "Boyden et al. (2005), Fig. 2(a–h). Repeated pulse trains and timing of evoked spikes.",
+          "source_url": "https://doi.org/10.1038/nn1525"
+        },
+        {
+          "path": "figures/boyden1a.png",
+          "kind": "article",
+          "caption": "Boyden et al. (2005), Fig. 1(a). ChR2-YFP membrane expression in a cultured hippocampal neuron.",
+          "source_url": "https://doi.org/10.1038/nn1525"
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "title": "Anion channels conduct a different class of ions",
+      "body": [
+        "Govorunova and colleagues expressed light-sensitive proteins from the cryptophyte alga _Guillardia theta_ in mammalian cells. Two proteins, GtACR1 and GtACR2, functioned as **anion channelrhodopsins**, light-gated channels carrying negatively charged ions rather than the positive ions carried by ChR2.",
+        "Changing external sodium, potassium or calcium did not shift photocurrent reversal as expected for cation conduction. Replacing chloride with a nonpermeant anion did shift reversal. Currents were measured while membrane voltage varied in 20-mV steps, with ion substitutions providing the selectivity controls.",
+        "The chloride dependence supports anion conduction and excludes a simple inference from the sign of one recorded current. GtACRs could produce an inward current with a high-chloride recording solution. Whether the resulting voltage response excites or suppresses a neuron depends on its chloride gradient and starting membrane voltage."
+      ],
+      "cite": "Govorunova et al. (2015)",
+      "refs": [
+        "Elena G. Govorunova; Oleg A. Sineshchekov; Roger Janz; Xiaoqin Liu; John L. Spudich (2015). Natural light-gated anion channels: A family of microbial rhodopsins for advanced optogenetics. Science 349(6248): 647-650. https://doi.org/10.1126/science.aaa7484"
+      ],
+      "transcript": [
+        "Govorunova and colleagues expressed light-sensitive proteins from the cryptophyte alga _Guillardia theta_ in mammalian cells. Two proteins, GtACR1 and GtACR2, functioned as **anion channelrhodopsins**, light-gated channels carrying negatively charged ions rather than the positive ions carried by ChR2.",
+        [
+          "Changing external sodium, potassium or calcium did not shift photocurrent reversal as expected for cation conduction. Replacing chloride with a nonpermeant anion did shift reversal. Currents were measured while membrane voltage varied in 20-mV steps, with ion substitutions providing the selectivity controls.",
+          [
+            "The patch electrode solution determines much of the intracellular ion composition during a whole-cell recording. A current’s sign is therefore interpreted together with the actual solutions. The ion-substitution measurements distinguish what the channel conducts from whether a particular neuron is inhibited by that conductance."
+          ]
+        ],
+        "The chloride dependence supports anion conduction and excludes a simple inference from the sign of one recorded current. GtACRs could produce an inward current with a high-chloride recording solution. Whether the resulting voltage response excites or suppresses a neuron depends on its chloride gradient and starting membrane voltage."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/gov2.png",
+          "kind": "article",
+          "caption": "Govorunova et al. (2015), Fig. 2(A–D). Cation substitution and photocurrent reversal in GtACRs.",
+          "source_url": "https://doi.org/10.1126/science.aaa7484"
+        },
+        {
+          "path": "figures/gov3.png",
+          "kind": "article",
+          "caption": "Govorunova et al. (2015), Fig. 3(A–D). Chloride substitution identifies anion selectivity.",
+          "source_url": "https://doi.org/10.1126/science.aaa7484"
+        }
+      ],
+      "primary_figure_height": 2.1
+    },
+    {
+      "title": "Optical silencing depends on the chloride gradient",
+      "body": [
+        "A **chloride equilibrium potential** is the voltage at which the electrical and concentration forces on chloride balance. Opening an anion channel moves the membrane response toward this voltage; it does not impose a universal hyperpolarizing effect independent of the cell’s ionic conditions.",
+        "In cultured rat neurons studied by Govorunova and colleagues, GtACR2 photocurrent reversed near −88 mV. Illumination suppressed current-evoked spikes, including trains up to at least 25 Hz. In the tested ramp protocol, full suppression occurred at a light intensity of 0.005 mW/mm².",
+        "Dark-state electrical properties and morphology were retained in expressing neurons. The experiment validates effective silencing under the measured recording conditions. It does not establish the same chloride gradient in every cell compartment or species, and therefore cannot replace direct validation of inhibition in a new behavioral preparation."
+      ],
+      "cite": "Govorunova et al. (2015); Boyden et al. (2005)",
+      "refs": [
+        "Elena G. Govorunova; Oleg A. Sineshchekov; Roger Janz; Xiaoqin Liu; John L. Spudich (2015). Natural light-gated anion channels: A family of microbial rhodopsins for advanced optogenetics. Science 349(6248): 647-650. https://doi.org/10.1126/science.aaa7484",
+        "Edward S Boyden; Feng Zhang; Ernst Bamberg; Georg Nagel; Karl Deisseroth (2005). Millisecond-timescale, genetically targeted optical control of neural activity. Nature Neuroscience 8(9): 1263-1268. https://doi.org/10.1038/nn1525"
+      ],
+      "transcript": [
+        "A **chloride equilibrium potential** is the voltage at which the electrical and concentration forces on chloride balance. Opening an anion channel moves the membrane response toward this voltage; it does not impose a universal hyperpolarizing effect independent of the cell’s ionic conditions.",
+        [
+          "In cultured rat neurons studied by Govorunova and colleagues, GtACR2 photocurrent reversed near −88 mV. Illumination suppressed current-evoked spikes, including trains up to at least 25 Hz. In the tested ramp protocol, full suppression occurred at a light intensity of 0.005 mW/mm².",
+          [
+            "The externally injected current attempts to make the neuron fire while the optical intervention changes its membrane conductance. Suppression during that challenge is stronger evidence of functional inhibition than fluorescence expression alone. The accompanying neuronal morphology comes from the foundational ChR2 study and is not an image of a GtACR2-expressing cell."
+          ]
+        ],
+        "Dark-state electrical properties and morphology were retained in expressing neurons. The experiment validates effective silencing under the measured recording conditions. It does not establish the same chloride gradient in every cell compartment or species, and therefore cannot replace direct validation of inhibition in a new behavioral preparation."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/gov4.png",
+          "kind": "article",
+          "caption": "Govorunova et al. (2015), Fig. 4(A–F). GtACR2 current reversal, spike suppression and light sensitivity.",
+          "source_url": "https://doi.org/10.1126/science.aaa7484"
+        },
+        {
+          "path": "figures/boyden1a.png",
+          "kind": "article",
+          "caption": "Boyden et al. (2005), Fig. 1(a). ChR2-YFP membrane expression in a cultured hippocampal neuron.",
+          "source_url": "https://doi.org/10.1038/nn1525"
+        }
+      ],
+      "primary_figure_height": 3.1
+    },
+    {
+      "title": "Red-shifted activation reaches neurons in intact flies",
+      "body": [
+        "The adult fly’s **cuticle**, its external body covering, limits light reaching internal neurons. Inagaki and colleagues measured light transmission and compared several **opsins**, retinal-binding light-sensitive proteins, in peripheral and central neuronal populations of intact _Drosophila melanogaster_.",
+        "The red-activatable channelrhodopsin **ReaChR** supported stimulation with 627-nm light. In gustatory receptor neurons, cells that detect chemical taste cues, 100-ms pulses at 1 Hz produced temporally controlled spiking and proboscis extension, the outward movement of the feeding appendage.",
+        "ReaChR also drove central-neuron behavioral responses under conditions where several blue-sensitive variants were ineffective. Cuticle penetration, protein expression and membrane trafficking all contributed to efficacy. Red illumination reduced a visual-stimulation concern, but wavelength choice did not remove the need for light-only controls or physiological validation."
+      ],
+      "cite": "Inagaki et al. (2014); Grover et al. (2020)",
+      "refs": [
+        "Hidehiko K Inagaki; Yonil Jung; Eric D Hoopfer; Allan M Wong; Neeli Mishra; John Y Lin; Roger Y Tsien; David J Anderson (2014). Optogenetic control of Drosophila using a red-shifted channelrhodopsin reveals experience-dependent influences on courtship. Nature Methods 11(3): 325-332. https://doi.org/10.1038/nmeth.2765",
+        "Dhruv Grover; Takeo Katsuki; Jinfang Li; Thomas J. Dawkins; Ralph J. Greenspan (2020). Imaging brain activity during complex social behaviors in Drosophila with Flyception2. Nature Communications 11(1): 623. https://doi.org/10.1038/s41467-020-14487-7"
+      ],
+      "transcript": [
+        "The adult fly’s **cuticle**, its external body covering, limits light reaching internal neurons. Inagaki and colleagues measured light transmission and compared several **opsins**, retinal-binding light-sensitive proteins, in peripheral and central neuronal populations of intact _Drosophila melanogaster_.",
+        [
+          "The red-activatable channelrhodopsin **ReaChR** supported stimulation with 627-nm light. In gustatory receptor neurons, cells that detect chemical taste cues, 100-ms pulses at 1 Hz produced temporally controlled spiking and proboscis extension, the outward movement of the feeding appendage.",
+          [
+            "Trafficking is the movement of an expressed protein to the cellular location where it can act, including the membrane of neuronal processes. A wavelength that activates an isolated neuron well may work poorly through intact tissue. The adult-fly photograph is from the separate Flyception2 imaging preparation, not the ReaChR activation assay."
+          ]
+        ],
+        "ReaChR also drove central-neuron behavioral responses under conditions where several blue-sensitive variants were ineffective. Cuticle penetration, protein expression and membrane trafficking all contributed to efficacy. Red illumination reduced a visual-stimulation concern, but wavelength choice did not remove the need for light-only controls or physiological validation."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/inag1.png",
+          "kind": "article",
+          "caption": "Inagaki et al. (2014), Fig. 1(a–h). Opsin comparisons, cuticle transmission and gustatory-neuron responses.",
+          "source_url": "https://doi.org/10.1038/nmeth.2765"
+        },
+        {
+          "path": "figures/gro1c.png",
+          "kind": "article",
+          "caption": "Grover et al. (2020), Fig. 1(c). Head imaging window and retroreflective beads on an adult fly.",
+          "source_url": "https://doi.org/10.1038/s41467-020-14487-7"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "Matched light controls separate activation from sensation",
+      "body": [
+        "Light can affect behavior through the animal’s normal sensory pathways as well as through an introduced opsin. Inagaki and colleagues compared intact flies expressing different opsins with no-opsin controls under the same illumination and behavioral scoring conditions.",
+        "ReaChR activation recruited distinct responses depending on the targeted population, including wing extension and side walking. No-opsin controls did not produce these characteristic responses. With 5-ms red-light pulses targeting courtship-related P1 brain neurons, response probability increased with pulse frequency, reaching its fitted midpoint near 38.3 Hz.",
+        "A **dose-response relationship** links stimulation strength to response probability, but cannot alone identify a natural neuronal firing rate. At high activation intensities some populations produced paralysis rather than the lower-intensity behavior. Control genotypes and stimulation intensity therefore constrain which neuronal contribution can be inferred from an induced action."
+      ],
+      "cite": "Inagaki et al. (2014)",
+      "refs": [
+        "Hidehiko K Inagaki; Yonil Jung; Eric D Hoopfer; Allan M Wong; Neeli Mishra; John Y Lin; Roger Y Tsien; David J Anderson (2014). Optogenetic control of Drosophila using a red-shifted channelrhodopsin reveals experience-dependent influences on courtship. Nature Methods 11(3): 325-332. https://doi.org/10.1038/nmeth.2765"
+      ],
+      "transcript": [
+        "Light can affect behavior through the animal’s normal sensory pathways as well as through an introduced opsin. Inagaki and colleagues compared intact flies expressing different opsins with no-opsin controls under the same illumination and behavioral scoring conditions.",
+        [
+          "ReaChR activation recruited distinct responses depending on the targeted population, including wing extension and side walking. No-opsin controls did not produce these characteristic responses. With 5-ms red-light pulses targeting courtship-related P1 brain neurons, response probability increased with pulse frequency, reaching its fitted midpoint near 38.3 Hz.",
+          [
+            "A control animal sees the light and experiences the chamber without carrying the functional actuator in the tested cells. That comparison tests ordinary sensory responses to illumination. Increasing activation can recruit a different motor outcome, so the existence of a dose-dependent effect is not proof that every dose reproduces natural circuit operation."
+          ]
+        ],
+        "A **dose-response relationship** links stimulation strength to response probability, but cannot alone identify a natural neuronal firing rate. At high activation intensities some populations produced paralysis rather than the lower-intensity behavior. Control genotypes and stimulation intensity therefore constrain which neuronal contribution can be inferred from an induced action."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/inag2.png",
+        "kind": "article",
+        "caption": "Inagaki et al. (2014), Fig. 2(a–g). Intact-fly optical activation and matched no-opsin comparisons.",
+        "source_url": "https://doi.org/10.1038/nmeth.2765"
+      }
+    },
+    {
+      "title": "Social history changes the effect of P1 activation",
+      "body": [
+        "**P1 neurons** are a male-specific group of brain interneurons implicated in courtship control. An interneuron connects neural processing stages rather than directly serving as a muscle’s motor output. Inagaki and colleagues compared ReaChR-driven wing extension after 7 days of single or group housing.",
+        "Single-housed males responded at lower red-light intensities than group-housed males. By contrast, activating the descending courtship neurons pIP10 did not reveal the same housing-dependent sensitivity shift. The comparison used matched stimulation methods while changing the animal’s social experience.",
+        "Experience therefore modifies the behavioral consequence of activation at P1 or a functionally downstream stage preceding the pIP10-dependent output. The result does not establish a specific transmitter, receptor or intracellular plasticity mechanism. The published circuit arrangement marks proposed functional relationships rather than a complete synaptically verified connection map."
+      ],
+      "cite": "Inagaki et al. (2014)",
+      "refs": [
+        "Hidehiko K Inagaki; Yonil Jung; Eric D Hoopfer; Allan M Wong; Neeli Mishra; John Y Lin; Roger Y Tsien; David J Anderson (2014). Optogenetic control of Drosophila using a red-shifted channelrhodopsin reveals experience-dependent influences on courtship. Nature Methods 11(3): 325-332. https://doi.org/10.1038/nmeth.2765"
+      ],
+      "transcript": [
+        "**P1 neurons** are a male-specific group of brain interneurons implicated in courtship control. An interneuron connects neural processing stages rather than directly serving as a muscle’s motor output. Inagaki and colleagues compared ReaChR-driven wing extension after 7 days of single or group housing.",
+        [
+          "Single-housed males responded at lower red-light intensities than group-housed males. By contrast, activating the descending courtship neurons pIP10 did not reveal the same housing-dependent sensitivity shift. The comparison used matched stimulation methods while changing the animal’s social experience.",
+          [
+            "Wing extension is the measured courtship-associated movement, rather than a claim about a subjective motivational state. The different housing effects at two activation sites constrain where the experience-dependent change could act. They do not prove that all neurons downstream of P1 changed or that pIP10 is the only pathway used by natural courtship."
+          ]
+        ],
+        "Experience therefore modifies the behavioral consequence of activation at P1 or a functionally downstream stage preceding the pIP10-dependent output. The result does not establish a specific transmitter, receptor or intracellular plasticity mechanism. The published circuit arrangement marks proposed functional relationships rather than a complete synaptically verified connection map."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/inag4.png",
+          "kind": "article",
+          "caption": "Inagaki et al. (2014), Fig. 4(a–c). Social housing changes P1-evoked wing-extension sensitivity.",
+          "source_url": "https://doi.org/10.1038/nmeth.2765"
+        },
+        {
+          "path": "figures/inag3b.png",
+          "kind": "article",
+          "caption": "Inagaki et al. (2014), Fig. 3(b). Published P1 and pIP10 circuit arrangement; connectivity is proposed.",
+          "source_url": "https://doi.org/10.1038/nmeth.2765"
+        }
+      ],
+      "primary_figure_height": 3.0,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "Intersectional targeting restricts descending-cell drive",
+      "body": [
+        "The **split-GAL4 system** restricts expression by combining two separately expressed parts of a **transcriptional activator**, a protein that turns on gene expression. Only cells where these expression patterns overlap strongly activate the linked actuator gene. Cande and colleagues used this intersectional strategy to target sparse descending-neuron populations.",
+        "The actuator CsChrimson converted 617-nm illumination into a timed depolarizing intervention. Experimental and control flies shared the genetic construct, but only experimental flies received supplemental retinal. Repeated 15-s activation epochs tested the behavioral consequences of the genetically targeted population.",
+        "A sparse expression pattern increases anatomical specificity, but does not prove that a behavioral phenotype belongs to one cell if several cells express the actuator. Restricted access and physiological efficacy are separate requirements. The published courtship pathway supplies an identified descending example; it is not a replacement for verifying each screened line’s expression pattern."
+      ],
+      "cite": "Cande et al. (2018); Inagaki et al. (2014)",
+      "refs": [
+        "Jessica Cande; Shigehiro Namiki; Jirui Qiu; Wyatt Korff; Gwyneth M Card; Joshua W Shaevitz; David L Stern; Gordon J Berman (2018). Optogenetic dissection of descending behavioral control in Drosophila. eLife 7: e34275. https://doi.org/10.7554/elife.34275",
+        "Hidehiko K Inagaki; Yonil Jung; Eric D Hoopfer; Allan M Wong; Neeli Mishra; John Y Lin; Roger Y Tsien; David J Anderson (2014). Optogenetic control of Drosophila using a red-shifted channelrhodopsin reveals experience-dependent influences on courtship. Nature Methods 11(3): 325-332. https://doi.org/10.1038/nmeth.2765"
+      ],
+      "transcript": [
+        "The **split-GAL4 system** restricts expression by combining two separately expressed parts of a **transcriptional activator**, a protein that turns on gene expression. Only cells where these expression patterns overlap strongly activate the linked actuator gene. Cande and colleagues used this intersectional strategy to target sparse descending-neuron populations.",
+        [
+          "The actuator CsChrimson converted 617-nm illumination into a timed depolarizing intervention. Experimental and control flies shared the genetic construct, but only experimental flies received supplemental retinal. Repeated 15-s activation epochs tested the behavioral consequences of the genetically targeted population.",
+          [
+            "A transcriptional activator controls expression of the linked construct rather than directly producing a spike. The genetic intersection determines where the light-sensitive channel is present, while the light pulse determines when it is activated. Controls with the same genotype retain possible expression-related effects while altering whether the channel has its supplied light-absorbing cofactor."
+          ]
+        ],
+        "A sparse expression pattern increases anatomical specificity, but does not prove that a behavioral phenotype belongs to one cell if several cells express the actuator. Restricted access and physiological efficacy are separate requirements. The published courtship pathway supplies an identified descending example; it is not a replacement for verifying each screened line’s expression pattern."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/cande1.png",
+          "kind": "article",
+          "caption": "Cande et al. (2018), Fig. 1(A–C). Retinal controls, optical stimulation and behavioral occupancy.",
+          "source_url": "https://doi.org/10.7554/elife.34275"
+        },
+        {
+          "path": "figures/inag3b.png",
+          "kind": "article",
+          "caption": "Inagaki et al. (2014), Fig. 3(b). Published P1 and pIP10 circuit arrangement; connectivity is proposed.",
+          "source_url": "https://doi.org/10.1038/nmeth.2765"
+        }
+      ],
+      "primary_figure_height": 3.2,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "Posture dynamics resolve a broad behavioral repertoire",
+      "body": [
+        "A behavioral response can change without a large change in walking speed. Cande and colleagues recorded freely moving flies at 100 frames/s, aligned their body images and represented time-varying postures in a low-dimensional **behavior space**, a map grouping similar movement patterns.",
+        "Different regions contained anterior grooming, wing and abdomen movements, slow postures and locomotion. Occupancy measured how often a fly performed the movements assigned to a region. Comparing occupancy during red-light activation with matched controls distinguished action-specific effects from a general activity increase.",
+        "The map is an empirical description of movements sampled in this arena, not a map of neural anatomy. Its temporal sampling cannot resolve arbitrarily fast actions, and the flat chamber limits the available behavioral repertoire. A quantitative classifier therefore supports reproducible measurement while retaining the constraints of the preparation."
+      ],
+      "cite": "Cande et al. (2018)",
+      "refs": [
+        "Jessica Cande; Shigehiro Namiki; Jirui Qiu; Wyatt Korff; Gwyneth M Card; Joshua W Shaevitz; David L Stern; Gordon J Berman (2018). Optogenetic dissection of descending behavioral control in Drosophila. eLife 7: e34275. https://doi.org/10.7554/elife.34275"
+      ],
+      "transcript": [
+        "A behavioral response can change without a large change in walking speed. Cande and colleagues recorded freely moving flies at 100 frames/s, aligned their body images and represented time-varying postures in a low-dimensional **behavior space**, a map grouping similar movement patterns.",
+        [
+          "Different regions contained anterior grooming, wing and abdomen movements, slow postures and locomotion. Occupancy measured how often a fly performed the movements assigned to a region. Comparing occupancy during red-light activation with matched controls distinguished action-specific effects from a general activity increase.",
+          [
+            "Posture alignment removes differences in overall position and orientation before movements are compared. Similar body dynamics can then be grouped even when the fly occupies different parts of the chamber. The resulting action categories describe what the video captured, rather than an exhaustive catalogue of everything a fly can do."
+          ]
+        ],
+        "The map is an empirical description of movements sampled in this arena, not a map of neural anatomy. Its temporal sampling cannot resolve arbitrarily fast actions, and the flat chamber limits the available behavioral repertoire. A quantitative classifier therefore supports reproducible measurement while retaining the constraints of the preparation."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/cande1bc.png",
+        "kind": "article",
+        "caption": "Cande et al. (2018), Fig. 1(B–C). Published behavioral-density map and action categories.",
+        "source_url": "https://doi.org/10.7554/elife.34275"
+      }
+    },
+    {
+      "title": "Descending activation often favors one motor module",
+      "body": [
+        "A **motor module** is a coordinated component of behavior that can be recruited without necessarily producing an entire behavioral sequence. Cande and colleagues asked whether descending-neuron activation concentrated movement into particular regions of their empirically measured behavior space.",
+        "During 15-s red-light epochs, many experimental flies showed reduced **behavioral entropy**, a measure of how broadly their activity was distributed across available actions. Matched no-retinal controls did not display the same population-level reduction. Most effective lines predominantly favored one behavioral region.",
+        "The results support modular control under these arena and stimulation conditions. They do not establish that each descending neuron has only one function, or that every targeted population is a dedicated command for one natural action. The alternative command interpretation requires more selective testing of normal activity, necessity and context."
+      ],
+      "cite": "Cande et al. (2018); Inagaki et al. (2014)",
+      "refs": [
+        "Jessica Cande; Shigehiro Namiki; Jirui Qiu; Wyatt Korff; Gwyneth M Card; Joshua W Shaevitz; David L Stern; Gordon J Berman (2018). Optogenetic dissection of descending behavioral control in Drosophila. eLife 7: e34275. https://doi.org/10.7554/elife.34275",
+        "Hidehiko K Inagaki; Yonil Jung; Eric D Hoopfer; Allan M Wong; Neeli Mishra; John Y Lin; Roger Y Tsien; David J Anderson (2014). Optogenetic control of Drosophila using a red-shifted channelrhodopsin reveals experience-dependent influences on courtship. Nature Methods 11(3): 325-332. https://doi.org/10.1038/nmeth.2765"
+      ],
+      "transcript": [
+        "A **motor module** is a coordinated component of behavior that can be recruited without necessarily producing an entire behavioral sequence. Cande and colleagues asked whether descending-neuron activation concentrated movement into particular regions of their empirically measured behavior space.",
+        [
+          "During 15-s red-light epochs, many experimental flies showed reduced **behavioral entropy**, a measure of how broadly their activity was distributed across available actions. Matched no-retinal controls did not display the same population-level reduction. Most effective lines predominantly favored one behavioral region.",
+          [
+            "A lower entropy means that behavior becomes concentrated into fewer sampled patterns rather than that the animal necessarily moves less. One fly can walk vigorously while spending nearly all its time in a narrow locomotor pattern. Modular recruitment is therefore evaluated from the distribution of movement, not from speed alone."
+          ]
+        ],
+        "The results support modular control under these arena and stimulation conditions. They do not establish that each descending neuron has only one function, or that every targeted population is a dedicated command for one natural action. The alternative command interpretation requires more selective testing of normal activity, necessity and context."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/cande3.png",
+          "kind": "article",
+          "caption": "Cande et al. (2018), Fig. 3(A–D). Behavioral entropy across descending-neuron lines.",
+          "source_url": "https://doi.org/10.7554/elife.34275"
+        },
+        {
+          "path": "figures/inag3b.png",
+          "kind": "article",
+          "caption": "Inagaki et al. (2014), Fig. 3(b). Published P1 and pIP10 circuit arrangement; connectivity is proposed.",
+          "source_url": "https://doi.org/10.1038/nmeth.2765"
+        }
+      ],
+      "primary_figure_height": 3.3,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "The preceding action constrains the activated response",
+      "body": [
+        "Optical activation acts on a circuit that is already participating in behavior. Cande and colleagues related a fly’s movement in the 1.5 s before stimulation to its movement during the first 1.5 s of red-light activation.",
+        "For some descending-neuron lines, the action after activation depended strongly on the action before it. **Mutual information** quantified how much knowing the earlier behavioral state predicted the later state. The relationship exceeded the corresponding dependence in matched no-retinal controls for many lines.",
+        "The effect supports state-dependent recruitment rather than an invariant mapping from cell activation to action. The measurement identifies a behavioral dependency, not the synaptic mechanism that implements it. Sensory input, the activity of other neurons and the state of local motor networks remain possible contributors to the same context effect."
+      ],
+      "cite": "Cande et al. (2018); Inagaki et al. (2014)",
+      "refs": [
+        "Jessica Cande; Shigehiro Namiki; Jirui Qiu; Wyatt Korff; Gwyneth M Card; Joshua W Shaevitz; David L Stern; Gordon J Berman (2018). Optogenetic dissection of descending behavioral control in Drosophila. eLife 7: e34275. https://doi.org/10.7554/elife.34275",
+        "Hidehiko K Inagaki; Yonil Jung; Eric D Hoopfer; Allan M Wong; Neeli Mishra; John Y Lin; Roger Y Tsien; David J Anderson (2014). Optogenetic control of Drosophila using a red-shifted channelrhodopsin reveals experience-dependent influences on courtship. Nature Methods 11(3): 325-332. https://doi.org/10.1038/nmeth.2765"
+      ],
+      "transcript": [
+        "Optical activation acts on a circuit that is already participating in behavior. Cande and colleagues related a fly’s movement in the 1.5 s before stimulation to its movement during the first 1.5 s of red-light activation.",
+        [
+          "For some descending-neuron lines, the action after activation depended strongly on the action before it. **Mutual information** quantified how much knowing the earlier behavioral state predicted the later state. The relationship exceeded the corresponding dependence in matched no-retinal controls for many lines.",
+          [
+            "The stimulation is identical across trials, but the network is not necessarily in the same condition when it begins. A dependency on the preceding action can occur within a single individual. It therefore need not be attributed solely to genetic differences between flies or to a change in the channel itself."
+          ]
+        ],
+        "The effect supports state-dependent recruitment rather than an invariant mapping from cell activation to action. The measurement identifies a behavioral dependency, not the synaptic mechanism that implements it. Sensory input, the activity of other neurons and the state of local motor networks remain possible contributors to the same context effect."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/cande5.png",
+          "kind": "article",
+          "caption": "Cande et al. (2018), Fig. 5(A–C). Dependence of stimulated behavior on preceding behavior.",
+          "source_url": "https://doi.org/10.7554/elife.34275"
+        },
+        {
+          "path": "figures/inag3b.png",
+          "kind": "article",
+          "caption": "Inagaki et al. (2014), Fig. 3(b). Published P1 and pIP10 circuit arrangement; connectivity is proposed.",
+          "source_url": "https://doi.org/10.1038/nmeth.2765"
+        }
+      ],
+      "primary_figure_height": 3.4,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "Ciliary arrests coordinate an entire larval body",
+      "body": [
+        "The marine annelid _Platynereis dumerilii_ swims using **cilia**, microscopic moving projections on specialized cells. At approximately 72 h after fertilization, locomotor cilia form a main band called the **prototroch** and additional bands distributed along the larval trunk.",
+        "Verasztó and colleagues combined scanning electron microscopy, high-speed observation and calcium imaging. The different locomotor bands repeatedly stopped beating together and resumed together. Arrests coincided with coordinated increases in calcium-indicator fluorescence across the ciliated fields.",
+        "A **calcium indicator** changes fluorescence as intracellular calcium changes, providing an indirect measure of cellular activation. Synchrony connects a distributed effector system to a common functional event. It does not alone identify the neurons causing that event, and the imaging preparation must be distinguished from the freely swimming animal’s complete behavior."
+      ],
+      "cite": "Verasztó et al. (2017)",
+      "refs": [
+        "Csaba Verasztó; Nobuo Ueda; Luis A Bezares-Calderón; Aurora Panzera; Elizabeth A Williams; Réza Shahidi; Gáspár Jékely (2017). Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the Platynereis larva. eLife 6: e26000. https://doi.org/10.7554/elife.26000"
+      ],
+      "transcript": [
+        "The marine annelid _Platynereis dumerilii_ swims using **cilia**, microscopic moving projections on specialized cells. At approximately 72 h after fertilization, locomotor cilia form a main band called the **prototroch** and additional bands distributed along the larval trunk.",
+        [
+          "Verasztó and colleagues combined scanning electron microscopy, high-speed observation and calcium imaging. The different locomotor bands repeatedly stopped beating together and resumed together. Arrests coincided with coordinated increases in calcium-indicator fluorescence across the ciliated fields.",
+          [
+            "A kymograph condenses movement along a selected spatial line over time. In this preparation it relates ciliary motion to calcium changes in the same ciliary bands. The anatomical measurements identify where the beating cells lie, while the synchronized recordings establish that their arrests are coordinated across the body."
+          ]
+        ],
+        "A **calcium indicator** changes fluorescence as intracellular calcium changes, providing an indirect measure of cellular activation. Synchrony connects a distributed effector system to a common functional event. It does not alone identify the neurons causing that event, and the imaging preparation must be distinguished from the freely swimming animal’s complete behavior."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/ver1.png",
+        "kind": "article",
+        "caption": "Verasztó et al. (2017), Fig. 1(A–H). Larval ciliary bands, arrests and calcium activity.",
+        "source_url": "https://doi.org/10.7554/elife.26000"
+      }
+    },
+    {
+      "title": "Serial reconstruction locates ciliomotor connections",
+      "body": [
+        "A **connectome** records identified neural connections within a reconstructed nervous system. Verasztó and colleagues traced neurons and their synaptic contacts through serial transmission electron microscopy of a 3-day-old _Platynereis_ larva, relating them to the whole-body distribution of ciliated cells.",
+        "The large MC neuron and paired Loop neurons formed extensive contacts with locomotor ciliary bands. **Cholinergic neurons** use acetylcholine as a transmitter; their identity was supported by molecular labeling and cell morphology. **Axons**, neuronal processes that carry signals toward targets, reached several positions along the body.",
+        "The reconstruction constrains how a small set of neurons can coordinate widely separated effectors. A structural synapse does not specify the timing or sign of every functional response. Calcium recordings and selective interventions were therefore needed to determine whether these reconstructed neurons actually participated in ciliary arrests."
+      ],
+      "cite": "Verasztó et al. (2017)",
+      "refs": [
+        "Csaba Verasztó; Nobuo Ueda; Luis A Bezares-Calderón; Aurora Panzera; Elizabeth A Williams; Réza Shahidi; Gáspár Jékely (2017). Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the Platynereis larva. eLife 6: e26000. https://doi.org/10.7554/elife.26000"
+      ],
+      "transcript": [
+        "A **connectome** records identified neural connections within a reconstructed nervous system. Verasztó and colleagues traced neurons and their synaptic contacts through serial transmission electron microscopy of a 3-day-old _Platynereis_ larva, relating them to the whole-body distribution of ciliated cells.",
+        [
+          "The large MC neuron and paired Loop neurons formed extensive contacts with locomotor ciliary bands. **Cholinergic neurons** use acetylcholine as a transmitter; their identity was supported by molecular labeling and cell morphology. **Axons**, neuronal processes that carry signals toward targets, reached several positions along the body.",
+          [
+            "Serial electron microscopy follows the same cellular processes through successive ultrathin sections. A contact can be assigned to an identified presynaptic neuron and a postsynaptic target. The wiring supplies a physical route for coordination, but it does not measure what that route is doing during a particular swimming episode."
+          ]
+        ],
+        "The reconstruction constrains how a small set of neurons can coordinate widely separated effectors. A structural synapse does not specify the timing or sign of every functional response. Calcium recordings and selective interventions were therefore needed to determine whether these reconstructed neurons actually participated in ciliary arrests."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/ver2.png",
+        "kind": "article",
+        "caption": "Verasztó et al. (2017), Fig. 2(A–G). Reconstructed cholinergic neurons and ciliary targets.",
+        "source_url": "https://doi.org/10.7554/elife.26000"
+      }
+    },
+    {
+      "title": "Identified ciliomotor cells occupy different phases",
+      "body": [
+        "Verasztó and colleagues imaged identified ciliomotor neurons and the prototroch using GCaMP6s, a genetically encoded calcium-sensitive fluorescent protein. In 2-day-old larvae, cell position and reconstructed morphology linked the recorded cells to the anatomical circuit.",
+        "Two catecholaminergic ciliomotor cells, labeled cMNvl and cMNd, increased fluorescence in phase with the ciliary band. The cMNATO cell instead tended to vary oppositely. **Catecholaminergic** identifies a transmitter-related molecular class; it does not by itself specify the functional sign of a recorded cell.",
+        "These phase relationships separate neuron populations with different timing in the coordinated rhythm. Calcium fluorescence integrates cellular activity over time and is not a direct millisecond spike recording. Opposite phases therefore support differentiated circuit participation without proving that one cell directly inhibits another or establishing the causal contribution of each transmitter."
+      ],
+      "cite": "Verasztó et al. (2017)",
+      "refs": [
+        "Csaba Verasztó; Nobuo Ueda; Luis A Bezares-Calderón; Aurora Panzera; Elizabeth A Williams; Réza Shahidi; Gáspár Jékely (2017). Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the Platynereis larva. eLife 6: e26000. https://doi.org/10.7554/elife.26000"
+      ],
+      "transcript": [
+        "Verasztó and colleagues imaged identified ciliomotor neurons and the prototroch using GCaMP6s, a genetically encoded calcium-sensitive fluorescent protein. In 2-day-old larvae, cell position and reconstructed morphology linked the recorded cells to the anatomical circuit.",
+        [
+          "Two catecholaminergic ciliomotor cells, labeled cMNvl and cMNd, increased fluorescence in phase with the ciliary band. The cMNATO cell instead tended to vary oppositely. **Catecholaminergic** identifies a transmitter-related molecular class; it does not by itself specify the functional sign of a recorded cell.",
+          [
+            "The fluorescence and anatomical identification are combined to avoid assigning a signal to an unknown neighboring cell. A cell that is active at the opposite phase may participate in a competing circuit state, but that possibility remains different from a demonstrated inhibitory synapse. Timing and synaptic action require separate evidence."
+          ]
+        ],
+        "These phase relationships separate neuron populations with different timing in the coordinated rhythm. Calcium fluorescence integrates cellular activity over time and is not a direct millisecond spike recording. Opposite phases therefore support differentiated circuit participation without proving that one cell directly inhibits another or establishing the causal contribution of each transmitter."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/ver6.png",
+        "kind": "article",
+        "caption": "Verasztó et al. (2017), Fig. 6(A–G). Identified ciliomotor cells and calcium phase relations.",
+        "source_url": "https://doi.org/10.7554/elife.26000"
+      }
+    },
+    {
+      "title": "Ablation separates rhythm generation from its output",
+      "body": [
+        "**Ablation** removes or destroys a selected cell to test its contribution. Verasztó and colleagues used a pulsed laser to ablate the identified MC neuron, then compared prototroch calcium activity and ciliary arrests before and after the intervention.",
+        "MC ablation removed the prominent rhythmic prototroch activity and greatly reduced arrests. The MC calcium cycle had a median period near 71 s in intact imaged preparations. Blocking **nicotinic acetylcholine receptors**, transmitter-activated ion channels, with α-bungarotoxin uncoupled the ciliary response while the MC neuron continued to cycle.",
+        "The complementary interventions distinguish the source of rhythmic neuronal activity from cholinergic transmission to the effector. They support MC participation and receptor-dependent output. They do not establish that MC is the sole contributor to every arrest, because residual activity remained and the reconstructed network contained additional cholinergic neurons."
+      ],
+      "cite": "Verasztó et al. (2017)",
+      "refs": [
+        "Csaba Verasztó; Nobuo Ueda; Luis A Bezares-Calderón; Aurora Panzera; Elizabeth A Williams; Réza Shahidi; Gáspár Jékely (2017). Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the Platynereis larva. eLife 6: e26000. https://doi.org/10.7554/elife.26000"
+      ],
+      "transcript": [
+        "**Ablation** removes or destroys a selected cell to test its contribution. Verasztó and colleagues used a pulsed laser to ablate the identified MC neuron, then compared prototroch calcium activity and ciliary arrests before and after the intervention.",
+        [
+          "MC ablation removed the prominent rhythmic prototroch activity and greatly reduced arrests. The MC calcium cycle had a median period near 71 s in intact imaged preparations. Blocking **nicotinic acetylcholine receptors**, transmitter-activated ion channels, with α-bungarotoxin uncoupled the ciliary response while the MC neuron continued to cycle.",
+          [
+            "Removing a neuron changes the circuit itself, whereas blocking a receptor can leave the upstream neuronal rhythm intact. A preserved MC signal with a lost ciliary response localizes a required transmission step downstream of that rhythm. Residual low-rate activity after ablation also limits a claim that no other cell can activate the prototroch."
+          ]
+        ],
+        "The complementary interventions distinguish the source of rhythmic neuronal activity from cholinergic transmission to the effector. They support MC participation and receptor-dependent output. They do not establish that MC is the sole contributor to every arrest, because residual activity remained and the reconstructed network contained additional cholinergic neurons."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/ver7.png",
+        "kind": "article",
+        "caption": "Verasztó et al. (2017), Fig. 7(A–H). MC-cell ablation and cholinergic blockade alter ciliary activity.",
+        "source_url": "https://doi.org/10.7554/elife.26000"
+      }
+    },
+    {
+      "title": "Water disturbance recruits coordinated larval defense",
+      "body": [
+        "A **hydrodynamic stimulus** is a local movement of water that can deform sensory structures. Bezares-Calderón and colleagues tested _Platynereis_ larvae with a vibrating tungsten filament, observing ciliary arrest, body contraction and elevation of paired appendages called **parapodia**.",
+        "High-speed recordings at 230–350 frames/s resolved the response. Increasing filament speed favored wider appendage elevation, and placing the filament farther from the head required stronger stimulation. Wide elevation was consistently recruited above approximately 28 µm/ms under the tested arrangement.",
+        "The controlled stimulus links local water movement to a coordinated defensive action. Filament speed is the imposed mechanical parameter, not a direct measurement of the water velocity at each receptor. The dependence on distance supports near-field sensing, but behavior alone cannot identify the sensory channel or the neurons transmitting the response."
+      ],
+      "cite": "Bezares-Calderón et al. (2018)",
+      "refs": [
+        "Luis A Bezares-Calderón; Jürgen Berger; Sanja Jasek; Csaba Verasztó; Sara Mendes; Martin Gühmann; Rodrigo Almeda; Réza Shahidi; Gáspár Jékely (2018). Neural circuitry of a polycystin-mediated hydrodynamic startle response for predator avoidance. eLife 7: e36262. https://doi.org/10.7554/elife.36262"
+      ],
+      "transcript": [
+        "A **hydrodynamic stimulus** is a local movement of water that can deform sensory structures. Bezares-Calderón and colleagues tested _Platynereis_ larvae with a vibrating tungsten filament, observing ciliary arrest, body contraction and elevation of paired appendages called **parapodia**.",
+        [
+          "High-speed recordings at 230–350 frames/s resolved the response. Increasing filament speed favored wider appendage elevation, and placing the filament farther from the head required stronger stimulation. Wide elevation was consistently recruited above approximately 28 µm/ms under the tested arrangement.",
+          [
+            "The filament is placed near the larva without delivering a direct touch to its body. Fluorescent beads helped characterize the surrounding flow. Ciliary arrest reduces ongoing swimming while elevated appendages change body configuration, so the defensive response combines multiple effectors rather than one isolated reflex."
+          ]
+        ],
+        "The controlled stimulus links local water movement to a coordinated defensive action. Filament speed is the imposed mechanical parameter, not a direct measurement of the water velocity at each receptor. The dependence on distance supports near-field sensing, but behavior alone cannot identify the sensory channel or the neurons transmitting the response."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/bez1.png",
+        "kind": "article",
+        "caption": "Bezares-Calderón et al. (2018), Fig. 1(A–J). Hydrodynamic stimulus and larval startle kinematics.",
+        "source_url": "https://doi.org/10.7554/elife.36262"
+      }
+    },
+    {
+      "title": "Collar receptors respond to local water movement",
+      "body": [
+        "**Collar-receptor neurons** carry a sensory cilium surrounded by microvilli, small cellular projections that form a collar. Bezares-Calderón and colleagues combined electron microscopy with calcium imaging to identify these sensory cells in the head of _Platynereis_ larvae.",
+        "A collar included ten thick microvilli linked to the projecting cilium by fine fibers. A vibrating filament placed about 50 µm anterior to the head increased calcium-indicator fluorescence in identified head collar receptors. A nearby morphologically different sensory neuron supplied a comparison in the same recording.",
+        "The anatomical arrangement and stimulus-evoked activity support a mechanosensory input through these cells. They do not directly measure force opening a specific channel. Calcium imaging identifies an activated sensory population, while molecular expression and genetic disruption are needed to test which proteins are required for the behavioral response."
+      ],
+      "cite": "Bezares-Calderón et al. (2018)",
+      "refs": [
+        "Luis A Bezares-Calderón; Jürgen Berger; Sanja Jasek; Csaba Verasztó; Sara Mendes; Martin Gühmann; Rodrigo Almeda; Réza Shahidi; Gáspár Jékely (2018). Neural circuitry of a polycystin-mediated hydrodynamic startle response for predator avoidance. eLife 7: e36262. https://doi.org/10.7554/elife.36262"
+      ],
+      "transcript": [
+        "**Collar-receptor neurons** carry a sensory cilium surrounded by microvilli, small cellular projections that form a collar. Bezares-Calderón and colleagues combined electron microscopy with calcium imaging to identify these sensory cells in the head of _Platynereis_ larvae.",
+        [
+          "A collar included ten thick microvilli linked to the projecting cilium by fine fibers. A vibrating filament placed about 50 µm anterior to the head increased calcium-indicator fluorescence in identified head collar receptors. A nearby morphologically different sensory neuron supplied a comparison in the same recording.",
+          [
+            "The projecting cilium and its collar cross the body covering and can interact with surrounding water. Recording neighboring identified cells at the same time helps distinguish a selective response from a global imaging fluctuation. Ultrastructure specifies a candidate mechanical arrangement but does not itself measure channel gating."
+          ]
+        ],
+        "The anatomical arrangement and stimulus-evoked activity support a mechanosensory input through these cells. They do not directly measure force opening a specific channel. Calcium imaging identifies an activated sensory population, while molecular expression and genetic disruption are needed to test which proteins are required for the behavioral response."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/bez2.png",
+        "kind": "article",
+        "caption": "Bezares-Calderón et al. (2018), Fig. 2(A–G). Collar-receptor anatomy, ultrastructure and stimulus-evoked calcium.",
+        "source_url": "https://doi.org/10.7554/elife.36262"
+      }
+    },
+    {
+      "title": "Polycystin mutations disrupt startle and protection",
+      "body": [
+        "**Polycystins** are a protein family containing candidate components of mechanosensory signaling. Bezares-Calderón and colleagues detected PKD1-1 and PKD2-1 expression in larval collar-receptor neurons, then generated inherited loss-of-function mutations using targeted genome editing.",
+        "Larvae homozygous for either mutation failed to produce normal coordinated startle responses to the vibrating filament. Sensory-cell morphology was retained, arguing against a simple loss of the entire receptor cell. In predator tests, PKD2-1 mutants were captured more readily by predatory copepods, small planktonic crustaceans.",
+        "The genetic result establishes a requirement for these proteins in this sensory-to-behavior pathway. It does not establish directly that force gates a PKD1-1/PKD2-1 complex. Impaired detection, altered signal transmission or another channel-related contribution remain possible molecular explanations without direct recordings of mechanically activated current."
+      ],
+      "cite": "Bezares-Calderón et al. (2018)",
+      "refs": [
+        "Luis A Bezares-Calderón; Jürgen Berger; Sanja Jasek; Csaba Verasztó; Sara Mendes; Martin Gühmann; Rodrigo Almeda; Réza Shahidi; Gáspár Jékely (2018). Neural circuitry of a polycystin-mediated hydrodynamic startle response for predator avoidance. eLife 7: e36262. https://doi.org/10.7554/elife.36262"
+      ],
+      "transcript": [
+        "**Polycystins** are a protein family containing candidate components of mechanosensory signaling. Bezares-Calderón and colleagues detected PKD1-1 and PKD2-1 expression in larval collar-receptor neurons, then generated inherited loss-of-function mutations using targeted genome editing.",
+        [
+          "Larvae homozygous for either mutation failed to produce normal coordinated startle responses to the vibrating filament. Sensory-cell morphology was retained, arguing against a simple loss of the entire receptor cell. In predator tests, PKD2-1 mutants were captured more readily by predatory copepods, small planktonic crustaceans.",
+          [
+            "Homozygous mutant larvae carry the disrupted form on both inherited copies of the gene. Expression identifies the candidate sensory location, while the mutation tests whether the protein is required. The predator assay connects the laboratory startle deficit to a consequence during an encounter with a real predator."
+          ]
+        ],
+        "The genetic result establishes a requirement for these proteins in this sensory-to-behavior pathway. It does not establish directly that force gates a PKD1-1/PKD2-1 complex. Impaired detection, altered signal transmission or another channel-related contribution remain possible molecular explanations without direct recordings of mechanically activated current."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/bez4.png",
+          "kind": "article",
+          "caption": "Bezares-Calderón et al. (2018), Fig. 4(A–H). Polycystin mutations abolish the hydrodynamic startle response.",
+          "source_url": "https://doi.org/10.7554/elife.36262"
+        },
+        {
+          "path": "figures/bez3.png",
+          "kind": "article",
+          "caption": "Bezares-Calderón et al. (2018), Fig. 3(A–E). PKD1-1 and PKD2-1 expression in collar-receptor neurons.",
+          "source_url": "https://doi.org/10.7554/elife.36262"
+        }
+      ],
+      "primary_figure_height": 2.0
+    },
+    {
+      "title": "Hunting begins with coordinated eye and tail movements",
+      "body": [
+        "Larval zebrafish hunt small moving prey using a coordinated sequence of eye and body movements. **Eye convergence** rotates the eyes toward a common frontal region. A **saccade** is a rapid eye movement; convergent saccades provide a measurable marker of hunting initiation.",
+        "Antinucci and colleagues studied larvae 6–7 days after fertilization. During a partially restrained visual assay, small dark moving spots preferentially recruited convergence together with lateral tail movement. Approximately 92% of convergent saccades coincided with tail motion, with an average eye-to-tail delay near 12 ms.",
+        "Two-photon calcium imaging measured brain activity while the eyes and tail remained mobile. The preparation links controlled visual input to hunting-related movements, but does not retain the full sensory and mechanical conditions of prey capture. Free-swimming activation and ablation experiments supplied complementary behavioral tests."
+      ],
+      "cite": "Antinucci et al. (2019)",
+      "refs": [
+        "Paride Antinucci; Mónica Folgueira; Isaac H Bianco (2019). Pretectal neurons control hunting behaviour. eLife 8: e48114. https://doi.org/10.7554/elife.48114"
+      ],
+      "transcript": [
+        "Larval zebrafish hunt small moving prey using a coordinated sequence of eye and body movements. **Eye convergence** rotates the eyes toward a common frontal region. A **saccade** is a rapid eye movement; convergent saccades provide a measurable marker of hunting initiation.",
+        [
+          "Antinucci and colleagues studied larvae 6–7 days after fertilization. During a partially restrained visual assay, small dark moving spots preferentially recruited convergence together with lateral tail movement. Approximately 92% of convergent saccades coincided with tail motion, with an average eye-to-tail delay near 12 ms.",
+          [
+            "Two-photon imaging uses focused excitation to measure fluorescence in a selected tissue volume. The larva can move its eyes and tail even though part of its body is restrained. Eye convergence distinguishes a hunting-related motor transition from a generic tail movement, so it supports more specific activity–behavior comparisons."
+          ]
+        ],
+        "Two-photon calcium imaging measured brain activity while the eyes and tail remained mobile. The preparation links controlled visual input to hunting-related movements, but does not retain the full sensory and mechanical conditions of prey capture. Free-swimming activation and ablation experiments supplied complementary behavioral tests."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/ant1.png",
+        "kind": "article",
+        "caption": "Antinucci et al. (2019), Fig. 1(A–K). Hunting-related calcium activity, eye convergence and brain anatomy.",
+        "source_url": "https://doi.org/10.7554/elife.48114"
+      }
+    },
+    {
+      "title": "Pretectal populations separate prey input from action",
+      "body": [
+        "The **pretectum** is a visual brain region near retinal input sites and the optic tectum. **Retinal ganglion cells** carry output from the eye into the brain; their axons terminate in regions called **arborization fields**. Antinucci and colleagues mapped activity around the AF7 input region.",
+        "Calcium responses were compared between prey-like stimulus presentations that did and did not evoke hunting-related convergence. Prey-responsive cells followed visual input, whereas other clusters were more strongly associated with hunting initiation. Their anatomical distributions overlapped near AF7 but differed across the surrounding brain.",
+        "The dissociation distinguishes a response to the sensory event from a response associated with the animal’s action. It does not establish causation from calcium activity alone. A neuron active near movement onset could contribute to initiation, receive a related command or respond to the resulting movement; targeted interventions distinguish these possibilities."
+      ],
+      "cite": "Antinucci et al. (2019)",
+      "refs": [
+        "Paride Antinucci; Mónica Folgueira; Isaac H Bianco (2019). Pretectal neurons control hunting behaviour. eLife 8: e48114. https://doi.org/10.7554/elife.48114"
+      ],
+      "transcript": [
+        "The **pretectum** is a visual brain region near retinal input sites and the optic tectum. **Retinal ganglion cells** carry output from the eye into the brain; their axons terminate in regions called **arborization fields**. Antinucci and colleagues mapped activity around the AF7 input region.",
+        [
+          "Calcium responses were compared between prey-like stimulus presentations that did and did not evoke hunting-related convergence. Prey-responsive cells followed visual input, whereas other clusters were more strongly associated with hunting initiation. Their anatomical distributions overlapped near AF7 but differed across the surrounding brain.",
+          [
+            "The same visual stimulus can occur on a response trial and a non-response trial. Comparing those trials prevents every stimulus-related signal from being labeled a hunting command. The anatomical mapping also prevents functionally different cells close to the same retinal input site from being treated as one uniform population."
+          ]
+        ],
+        "The dissociation distinguishes a response to the sensory event from a response associated with the animal’s action. It does not establish causation from calcium activity alone. A neuron active near movement onset could contribute to initiation, receive a related command or respond to the resulting movement; targeted interventions distinguish these possibilities."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/ant2ab.png",
+        "kind": "article",
+        "caption": "Antinucci et al. (2019), Fig. 2(A–D). Pretectal hunting-initiation clusters in the larval brain.",
+        "source_url": "https://doi.org/10.7554/elife.48114"
+      }
+    },
+    {
+      "title": "Activating one pretectal cell can recruit hunting",
+      "body": [
+        "Antinucci and colleagues expressed **CoChR**, a light-gated cation channel, in individual genetically accessible pretectal neurons. Cell morphology identified the targeted neuron, and high-speed video quantified free-swimming responses during repeated 7-s blue-light stimulation periods.",
+        "Illumination at 470 nm and 0.44 mW/mm² caused some single-cell preparations to produce eye convergence followed by lateralized swim bouts and sustained hunting-like routines without prey. Responsive preparations had a median response probability near 18% during illumination, compared with zero in the corresponding light-off trials.",
+        "Opsin-negative controls did not display hunting in response to the blue light alone. Single-cell activation therefore supports sufficiency for recruitment of a coordinated motor program. The incomplete response probability and absence of prey limit any claim that the intervention reproduces every aspect of a naturally initiated hunt."
+      ],
+      "cite": "Antinucci et al. (2019)",
+      "refs": [
+        "Paride Antinucci; Mónica Folgueira; Isaac H Bianco (2019). Pretectal neurons control hunting behaviour. eLife 8: e48114. https://doi.org/10.7554/elife.48114"
+      ],
+      "transcript": [
+        "Antinucci and colleagues expressed **CoChR**, a light-gated cation channel, in individual genetically accessible pretectal neurons. Cell morphology identified the targeted neuron, and high-speed video quantified free-swimming responses during repeated 7-s blue-light stimulation periods.",
+        [
+          "Illumination at 470 nm and 0.44 mW/mm² caused some single-cell preparations to produce eye convergence followed by lateralized swim bouts and sustained hunting-like routines without prey. Responsive preparations had a median response probability near 18% during illumination, compared with zero in the corresponding light-off trials.",
+          [
+            "The behavioral sequence is classified from coordinated eye and tail kinematics rather than from one movement alone. The stimulated cell remains embedded in an intact downstream circuit, so sufficiency of its activation does not mean that one neuron executes the entire program without other neurons. The morphology identifies where the stimulated cell projects."
+          ]
+        ],
+        "Opsin-negative controls did not display hunting in response to the blue light alone. Single-cell activation therefore supports sufficiency for recruitment of a coordinated motor program. The incomplete response probability and absence of prey limit any claim that the intervention reproduces every aspect of a naturally initiated hunt."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/ant5.png",
+          "kind": "article",
+          "caption": "Antinucci et al. (2019), Fig. 5(A–T). Single-neuron optical activation and hunting-like kinematics.",
+          "source_url": "https://doi.org/10.7554/elife.48114"
+        },
+        {
+          "path": "figures/ant3.png",
+          "kind": "article",
+          "caption": "Antinucci et al. (2019), Fig. 3(A–I). Single pretectal-cell morphology and projection classes.",
+          "source_url": "https://doi.org/10.7554/elife.48114"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "Pretectal ablation impairs hunting selectively",
+      "body": [
+        "**Necessity** concerns whether normal performance requires the tested component. Antinucci and colleagues ablated fluorescently identified pretectal cells at 6 days after fertilization, then assessed free-swimming behavior before the intervention and on the following day.",
+        "Approximately 90% of the labeled population was removed. Prey consumption, hunting initiation and hunting-sequence duration declined. Average swimming speed, escape responses to looming stimuli and the **optomotor response**, swimming driven by moving visual patterns, were retained. Sham ablations removed nearby thalamic cells instead.",
+        "The preserved comparison behaviors argue against a general loss of movement or visual responsiveness. The result supports a contribution to normal hunting initiation and maintenance. It does not establish that every labeled cell has the same function, or that the residual population cannot support some remaining hunting under other conditions."
+      ],
+      "cite": "Antinucci et al. (2019)",
+      "refs": [
+        "Paride Antinucci; Mónica Folgueira; Isaac H Bianco (2019). Pretectal neurons control hunting behaviour. eLife 8: e48114. https://doi.org/10.7554/elife.48114"
+      ],
+      "transcript": [
+        "**Necessity** concerns whether normal performance requires the tested component. Antinucci and colleagues ablated fluorescently identified pretectal cells at 6 days after fertilization, then assessed free-swimming behavior before the intervention and on the following day.",
+        [
+          "Approximately 90% of the labeled population was removed. Prey consumption, hunting initiation and hunting-sequence duration declined. Average swimming speed, escape responses to looming stimuli and the **optomotor response**, swimming driven by moving visual patterns, were retained. Sham ablations removed nearby thalamic cells instead.",
+          [
+            "A sham intervention controls for a procedure while changing which tissue is damaged. Here nearby-cell ablations and handling-only comparisons helped constrain a general injury explanation. Reimaging verified cell loss, and intact retinal axons argued against destruction of the visual input itself."
+          ]
+        ],
+        "The preserved comparison behaviors argue against a general loss of movement or visual responsiveness. The result supports a contribution to normal hunting initiation and maintenance. It does not establish that every labeled cell has the same function, or that the residual population cannot support some remaining hunting under other conditions."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/ant6.png",
+        "kind": "article",
+        "caption": "Antinucci et al. (2019), Fig. 6(A–L). Pretectal ablation with hunting, escape and optomotor controls.",
+        "source_url": "https://doi.org/10.7554/elife.48114"
+      }
+    },
+    {
+      "title": "Tectal activation can recruit hunting without retinal input",
+      "body": [
+        "The **optic tectum** is a midbrain region participating in visual and motor processing. Antinucci and colleagues stimulated a ChR2-expressing anterior-ventral tectal region, while comparing sighted larvae with mutants lacking retinal ganglion cells because of disrupted **atoh7** function.",
+        "Blind larvae retained tectal ChR2 expression despite losing retinal input. Optical stimulation recruited hunting-like behavior more readily in these mutants than in their sighted siblings. Evoked routines retained eye convergence and lateralized tail movements, although response probability and duration differed.",
+        "Removing retinal input tests whether ordinary light-driven vision is required for the optically induced action. The result supports recruitment through central circuitry and indicates that retinal activation can interfere with the assay. It does not establish that vision is unnecessary for natural prey hunting or that the stimulated tectal population alone specifies the complete normal decision process."
+      ],
+      "cite": "Antinucci et al. (2019)",
+      "refs": [
+        "Paride Antinucci; Mónica Folgueira; Isaac H Bianco (2019). Pretectal neurons control hunting behaviour. eLife 8: e48114. https://doi.org/10.7554/elife.48114"
+      ],
+      "transcript": [
+        "The **optic tectum** is a midbrain region participating in visual and motor processing. Antinucci and colleagues stimulated a ChR2-expressing anterior-ventral tectal region, while comparing sighted larvae with mutants lacking retinal ganglion cells because of disrupted **atoh7** function.",
+        [
+          "Blind larvae retained tectal ChR2 expression despite losing retinal input. Optical stimulation recruited hunting-like behavior more readily in these mutants than in their sighted siblings. Evoked routines retained eye convergence and lateralized tail movements, although response probability and duration differed.",
+          [
+            "Light in a sighted ChR2-expressing animal can both activate the actuator and stimulate normal photoreceptors. A blind sibling separates these two influences more directly than changing light intensity alone. Preserved central expression is required for interpreting that comparison; otherwise a change in actuator expression could explain the behavioral difference."
+          ]
+        ],
+        "Removing retinal input tests whether ordinary light-driven vision is required for the optically induced action. The result supports recruitment through central circuitry and indicates that retinal activation can interfere with the assay. It does not establish that vision is unnecessary for natural prey hunting or that the stimulated tectal population alone specifies the complete normal decision process."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/ant7.png",
+        "kind": "article",
+        "caption": "Antinucci et al. (2019), Fig. 7(A–L). Tectal activation evokes hunting in larvae lacking retinal ganglion cells.",
+        "source_url": "https://doi.org/10.7554/elife.48114"
+      }
+    },
+    {
+      "title": "Tracking optics retain contact between untethered flies",
+      "body": [
+        "Grover and colleagues developed **Flyception2**, an optical tracking system for recording brain fluorescence in freely moving adult flies. Untethered means that the animal is not mechanically connected to the microscope by a cable; external optics still follow its head.",
+        "Three retroreflective glass beads, each about 30 µm in diameter, marked a window over the brain. A tracking loop updated mirror position at 1,000 Hz. **Retroreflection** returns incoming light toward its source, allowing the head to remain identifiable when two flies’ body outlines overlap.",
+        "Focus adjustment followed changes in head height during courtship and copulation. The method preserved social contact that had disrupted outline-based tracking. It still required a surgically prepared imaging window and a bounded imaging arena, so freely moving behavior should not be equated with an untouched animal behaving in the wild."
+      ],
+      "cite": "Grover et al. (2020)",
+      "refs": [
+        "Dhruv Grover; Takeo Katsuki; Jinfang Li; Thomas J. Dawkins; Ralph J. Greenspan (2020). Imaging brain activity during complex social behaviors in Drosophila with Flyception2. Nature Communications 11(1): 623. https://doi.org/10.1038/s41467-020-14487-7"
+      ],
+      "transcript": [
+        "Grover and colleagues developed **Flyception2**, an optical tracking system for recording brain fluorescence in freely moving adult flies. Untethered means that the animal is not mechanically connected to the microscope by a cable; external optics still follow its head.",
+        [
+          "Three retroreflective glass beads, each about 30 µm in diameter, marked a window over the brain. A tracking loop updated mirror position at 1,000 Hz. **Retroreflection** returns incoming light toward its source, allowing the head to remain identifiable when two flies’ body outlines overlap.",
+          [
+            "The tracking signal reports head position, not neural activity. The microscope uses that signal to keep the fluorescence measurement aligned to the moving preparation. The head window changes experimental access, while the absence of a tether permits contact and mounting movements that are difficult to measure in a fixed preparation."
+          ]
+        ],
+        "Focus adjustment followed changes in head height during courtship and copulation. The method preserved social contact that had disrupted outline-based tracking. It still required a surgically prepared imaging window and a bounded imaging arena, so freely moving behavior should not be equated with an untouched animal behaving in the wild."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/gro1.png",
+        "kind": "article",
+        "caption": "Grover et al. (2020), Fig. 1(a–i). Retroflector tracking, calcium imaging and behavioral preparation.",
+        "source_url": "https://doi.org/10.1038/s41467-020-14487-7"
+      }
+    },
+    {
+      "title": "Two-color imaging constrains movement artifacts",
+      "body": [
+        "A fluorescence change in a moving animal may arise from activity, altered focus or changing tissue orientation. Flyception2 measured calcium-dependent green GCaMP fluorescence and calcium-independent red **tdTomato** fluorescence in the same targeted cells.",
+        "The two channels were recorded simultaneously at 50 Hz using excitation at 473 and 561 nm. Their ratio reduced fluctuations shared by both channels. Frames were also filtered for visible tracking beads, sharpness and excessive motion; about 75% of frames in 100-s recordings passed those quality criteria.",
+        "These controls improve the attribution of fluorescence changes to cellular calcium. They do not turn fluorescence into a direct spike recording or recover information from excluded frames. Interpretation remains conditional on the analyzed behavioral periods, because rapid movements or occlusion can remove precisely timed parts of an interaction."
+      ],
+      "cite": "Grover et al. (2020)",
+      "refs": [
+        "Dhruv Grover; Takeo Katsuki; Jinfang Li; Thomas J. Dawkins; Ralph J. Greenspan (2020). Imaging brain activity during complex social behaviors in Drosophila with Flyception2. Nature Communications 11(1): 623. https://doi.org/10.1038/s41467-020-14487-7"
+      ],
+      "transcript": [
+        "A fluorescence change in a moving animal may arise from activity, altered focus or changing tissue orientation. Flyception2 measured calcium-dependent green GCaMP fluorescence and calcium-independent red **tdTomato** fluorescence in the same targeted cells.",
+        [
+          "The two channels were recorded simultaneously at 50 Hz using excitation at 473 and 561 nm. Their ratio reduced fluctuations shared by both channels. Frames were also filtered for visible tracking beads, sharpness and excessive motion; about 75% of frames in 100-s recordings passed those quality criteria.",
+          [
+            "The calcium-independent signal measures changes that can affect both optical channels, such as tissue movement through the field of view. A ratio cannot correct every artifact if the channels respond differently or the tissue leaves focus. Recording exclusions therefore remain part of the biological interpretation, not simply a technical cleanup step."
+          ]
+        ],
+        "These controls improve the attribution of fluorescence changes to cellular calcium. They do not turn fluorescence into a direct spike recording or recover information from excluded frames. Interpretation remains conditional on the analyzed behavioral periods, because rapid movements or occlusion can remove precisely timed parts of an interaction."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/gro2.png",
+        "kind": "article",
+        "caption": "Grover et al. (2020), Fig. 2(a–d). P1 fluorescence and behavior during courtship and copulation.",
+        "source_url": "https://doi.org/10.1038/s41467-020-14487-7"
+      }
+    },
+    {
+      "title": "Courtship-related activity changes during copulation",
+      "body": [
+        "Grover and colleagues imaged identified P1 neurons while a male approached, contacted and copulated with a female. Neural fluorescence was synchronized with the distance and angle between the flies, providing a measured relation between activity and the ongoing social interaction.",
+        "P1 activity increased during courtship but fell during copulation despite continuing physical contact. After mating, P1 activity could return when the male again approached the female. In a separate targeted population, **mAL neurons**, cells using γ-aminobutyric acid (GABA), a transmitter that can reduce target-cell excitation, remained active across courtship and copulation.",
+        "The contrasting activity patterns support behavioral-state-dependent circuit recruitment. They do not establish the causal receptor mechanism of the P1 decrease or prove that mAL activity alone causes it. These recordings complement, rather than replace, experiments directly activating or removing particular neurons."
+      ],
+      "cite": "Grover et al. (2020)",
+      "refs": [
+        "Dhruv Grover; Takeo Katsuki; Jinfang Li; Thomas J. Dawkins; Ralph J. Greenspan (2020). Imaging brain activity during complex social behaviors in Drosophila with Flyception2. Nature Communications 11(1): 623. https://doi.org/10.1038/s41467-020-14487-7"
+      ],
+      "transcript": [
+        "Grover and colleagues imaged identified P1 neurons while a male approached, contacted and copulated with a female. Neural fluorescence was synchronized with the distance and angle between the flies, providing a measured relation between activity and the ongoing social interaction.",
+        [
+          "P1 activity increased during courtship but fell during copulation despite continuing physical contact. After mating, P1 activity could return when the male again approached the female. In a separate targeted population, **mAL neurons**, cells using γ-aminobutyric acid (GABA), a transmitter that can reduce target-cell excitation, remained active across courtship and copulation.",
+          [
+            "The same neuron population can respond differently to contact depending on the behavioral state of the animal. Comparing identified populations prevents all activity during mating from being assigned a common sign or function. GABAergic identity supplies a candidate inhibitory role, but the observed calcium association does not specify which receptor on P1 mediates a particular state change."
+          ]
+        ],
+        "The contrasting activity patterns support behavioral-state-dependent circuit recruitment. They do not establish the causal receptor mechanism of the P1 decrease or prove that mAL activity alone causes it. These recordings complement, rather than replace, experiments directly activating or removing particular neurons."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/gro2.png",
+          "kind": "article",
+          "caption": "Grover et al. (2020), Fig. 2(a–d). P1 fluorescence and behavior during courtship and copulation.",
+          "source_url": "https://doi.org/10.1038/s41467-020-14487-7"
+        },
+        {
+          "path": "figures/gro3.png",
+          "kind": "article",
+          "caption": "Grover et al. (2020), Fig. 3(a–e). mAL-neuron fluorescence during courtship and mating.",
+          "source_url": "https://doi.org/10.1038/s41467-020-14487-7"
+        }
+      ],
+      "primary_figure_height": 2.1,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 2.9
+    },
+    {
+      "title": "Wireless telemetry removes the external recording tether",
+      "body": [
+        "**Neural telemetry** transmits recorded electrical signals remotely. Szuts and colleagues built a rat-borne system combining implanted electrodes, a head-mounted amplifier and a radio transmitter carried in a back harness. A short connection remained between the animal’s own boards, but no cable linked the rat to the recording computer.",
+        "The electronics could process up to 64 channels sampled at 20 kHz each and send the combined signal to a receiver. Continuous operation lasted approximately 6 h with the larger battery configuration. The arrangement enabled recordings during outdoor movement and travel through tunnels.",
+        "Wireless access expands the available movements and environments, but does not remove implant surgery or carried mass. The study validated recordings in rats with this particular payload. Its engineering success cannot be assumed for a small insect or for another animal whose movement is differently constrained by the device."
+      ],
+      "cite": "Szuts et al. (2011)",
+      "refs": [
+        "Tobi A Szuts; Vitaliy Fadeyev; Sergei Kachiguine; Alexander Sher; Matthew V Grivich; Margarida Agrochão; Pawel Hottowy; Wladyslaw Dabrowski; Evgueniy V Lubenov; Athanassios G Siapas; Naoshige Uchida; Alan M Litke; Markus Meister (2011). A wireless multi-channel neural amplifier for freely moving animals. Nature Neuroscience 14(2): 263-269. https://doi.org/10.1038/nn.2730"
+      ],
+      "transcript": [
+        "**Neural telemetry** transmits recorded electrical signals remotely. Szuts and colleagues built a rat-borne system combining implanted electrodes, a head-mounted amplifier and a radio transmitter carried in a back harness. A short connection remained between the animal’s own boards, but no cable linked the rat to the recording computer.",
+        [
+          "The electronics could process up to 64 channels sampled at 20 kHz each and send the combined signal to a receiver. Continuous operation lasted approximately 6 h with the larger battery configuration. The arrangement enabled recordings during outdoor movement and travel through tunnels.",
+          [
+            "An electrode channel measures voltage relative to a reference, not the membrane potential of an isolated identified cell. Amplification makes small signals large enough for transmission and analysis. The headstage and harness are attached to the animal, so removing the external tether changes the mechanics of the experiment without making the apparatus weightless."
+          ]
+        ],
+        "Wireless access expands the available movements and environments, but does not remove implant surgery or carried mass. The study validated recordings in rats with this particular payload. Its engineering success cannot be assumed for a small insect or for another animal whose movement is differently constrained by the device."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/sz1.png",
+        "kind": "article",
+        "caption": "Szuts et al. (2011), Fig. 1. Published wireless headstage, harness and recording components.",
+        "source_url": "https://doi.org/10.1038/nn.2730"
+      }
+    },
+    {
+      "title": "Sampling and bandwidth define the observable signal",
+      "body": [
+        "**Sampling rate** specifies how often a signal is measured, whereas **bandwidth** specifies the range of frequencies retained by the system. Szuts and colleagues filtered electrode voltages from 80 to 2,300 Hz and sampled each channel at 20 kHz in their recording configuration.",
+        "A simultaneous sample-and-hold stage captured the channel voltages before **time-division multiplexing**, placing successive channels onto a shared output. Synchronization markers identified each channel scan so that the original signals could be reconstructed after radio transmission.",
+        "High sampling rate does not restore frequency components removed by the filter. The configuration was suitable for extracellular spike analysis, but did not preserve the complete low-frequency signal as measured by other systems. Hardware settings therefore determine which neural events a behavioral experiment can meaningfully relate to movement, sensation or task timing."
+      ],
+      "cite": "Szuts et al. (2011)",
+      "refs": [
+        "Tobi A Szuts; Vitaliy Fadeyev; Sergei Kachiguine; Alexander Sher; Matthew V Grivich; Margarida Agrochão; Pawel Hottowy; Wladyslaw Dabrowski; Evgueniy V Lubenov; Athanassios G Siapas; Naoshige Uchida; Alan M Litke; Markus Meister (2011). A wireless multi-channel neural amplifier for freely moving animals. Nature Neuroscience 14(2): 263-269. https://doi.org/10.1038/nn.2730"
+      ],
+      "transcript": [
+        "**Sampling rate** specifies how often a signal is measured, whereas **bandwidth** specifies the range of frequencies retained by the system. Szuts and colleagues filtered electrode voltages from 80 to 2,300 Hz and sampled each channel at 20 kHz in their recording configuration.",
+        [
+          "A simultaneous sample-and-hold stage captured the channel voltages before **time-division multiplexing**, placing successive channels onto a shared output. Synchronization markers identified each channel scan so that the original signals could be reconstructed after radio transmission.",
+          [
+            "A sample-and-hold circuit captures a value at a specified instant and retains it while that channel is read out. Shared timing reduces ambiguity about whether a difference between channels arose from the circuit or from different acquisition times. The original paper’s circuit panel documents the implemented device, rather than a newly drawn teaching model."
+          ]
+        ],
+        "High sampling rate does not restore frequency components removed by the filter. The configuration was suitable for extracellular spike analysis, but did not preserve the complete low-frequency signal as measured by other systems. Hardware settings therefore determine which neural events a behavioral experiment can meaningfully relate to movement, sensation or task timing."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/sz2.png",
+        "kind": "article",
+        "caption": "Szuts et al. (2011), Fig. 2(a–b). Sampling, multiplexing and signal conditioning in the original device.",
+        "source_url": "https://doi.org/10.1038/nn.2730"
+      }
+    },
+    {
+      "title": "Transmission quality is tested against a wired signal",
+      "body": [
+        "Wireless recordings require validation of signal fidelity as well as transmission range. Szuts and colleagues compared the same extracellular waveform before and after radio transmission, then tested whether the reconstructed recordings retained distinguishable spike shapes.",
+        "The system introduced less than 4 µV of electrode-referred noise. In line-of-sight tests, recordings at distances up to 60 m retained spike waveforms and separable waveform clusters. Antenna orientation and a known test signal were used to characterize distance-dependent signal quality.",
+        "A **sorted unit** is a putative neuron identified from a cluster of similar extracellular waveforms. Retained clustering supports the reliability of this recording chain, but does not establish a neuron’s transmitter or causal behavioral role. Differences in firing rate between separate distance recordings also cannot be assigned to transmission when behavioral state was uncontrolled."
+      ],
+      "cite": "Szuts et al. (2011)",
+      "refs": [
+        "Tobi A Szuts; Vitaliy Fadeyev; Sergei Kachiguine; Alexander Sher; Matthew V Grivich; Margarida Agrochão; Pawel Hottowy; Wladyslaw Dabrowski; Evgueniy V Lubenov; Athanassios G Siapas; Naoshige Uchida; Alan M Litke; Markus Meister (2011). A wireless multi-channel neural amplifier for freely moving animals. Nature Neuroscience 14(2): 263-269. https://doi.org/10.1038/nn.2730"
+      ],
+      "transcript": [
+        "Wireless recordings require validation of signal fidelity as well as transmission range. Szuts and colleagues compared the same extracellular waveform before and after radio transmission, then tested whether the reconstructed recordings retained distinguishable spike shapes.",
+        [
+          "The system introduced less than 4 µV of electrode-referred noise. In line-of-sight tests, recordings at distances up to 60 m retained spike waveforms and separable waveform clusters. Antenna orientation and a known test signal were used to characterize distance-dependent signal quality.",
+          [
+            "Electrode-referred noise expresses added uncertainty as an equivalent voltage at the electrode input. Comparing a signal with itself before and after transmission isolates the engineering change more directly than comparing two unrelated behavioral recordings. A stable waveform cluster supports unit separation while leaving its anatomical and molecular identity unresolved."
+          ]
+        ],
+        "A **sorted unit** is a putative neuron identified from a cluster of similar extracellular waveforms. Retained clustering supports the reliability of this recording chain, but does not establish a neuron’s transmitter or causal behavioral role. Differences in firing rate between separate distance recordings also cannot be assigned to transmission when behavioral state was uncontrolled."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/sz4.png",
+        "kind": "article",
+        "caption": "Szuts et al. (2011), Fig. 4(a–g). Spike waveforms and unit separation before and after wireless transmission.",
+        "source_url": "https://doi.org/10.1038/nn.2730"
+      }
+    },
+    {
+      "title": "Wireless recordings retain three-dimensional flight",
+      "body": [
+        "Snyder and colleagues recorded the **hippocampus**, a brain region involved in spatial representation, while Egyptian fruit bats flew between reward locations. A lightweight implanted microdrive positioned electrodes in dorsal CA1, a hippocampal subdivision identified by post-recording histology.",
+        "Bats spontaneously followed reproducible three-dimensional paths to human experimenters offering fruit. The humans exchanged reward locations every 5 min while their hands remained on fixed platforms. Wireless recording retained flight between sites without an external recording tether.",
+        "Repeated paths allowed neural activity to be compared during similar movement toward different experimenters. This controls one source of behavioral variability while preserving self-initiated flight. The reward task still occurred in a prepared laboratory room and included human participants; it should not be described as neural recording during unrestricted wild navigation."
+      ],
+      "cite": "Snyder et al. (2024)",
+      "refs": [
+        "Madeleine C. Snyder; Kevin K. Qi; Michael M. Yartsev (2024). Neural representation of human experimenters in the bat hippocampus. Nature Neuroscience 27(9): 1675-1679. https://doi.org/10.1038/s41593-024-01690-8"
+      ],
+      "transcript": [
+        "Snyder and colleagues recorded the **hippocampus**, a brain region involved in spatial representation, while Egyptian fruit bats flew between reward locations. A lightweight implanted microdrive positioned electrodes in dorsal CA1, a hippocampal subdivision identified by post-recording histology.",
+        [
+          "Bats spontaneously followed reproducible three-dimensional paths to human experimenters offering fruit. The humans exchanged reward locations every 5 min while their hands remained on fixed platforms. Wireless recording retained flight between sites without an external recording tether.",
+          [
+            "A microdrive adjusts electrode depth in small steps rather than moving the entire animal or recording apparatus. Histology checks whether the sampled tissue matches the intended brain region. Consistent flight trajectories make it possible to ask whether a change in firing reflects more than a change in the bat’s path."
+          ]
+        ],
+        "Repeated paths allowed neural activity to be compared during similar movement toward different experimenters. This controls one source of behavioral variability while preserving self-initiated flight. The reward task still occurred in a prepared laboratory room and included human participants; it should not be described as neural recording during unrestricted wild navigation."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/sny1.png",
+        "kind": "article",
+        "caption": "Snyder et al. (2024), Fig. 1(a–g). Flight trajectories, hippocampal histology and experimenter-dependent firing.",
+        "source_url": "https://doi.org/10.1038/s41593-024-01690-8"
+      }
+    },
+    {
+      "title": "Neural and positional clocks require synchronization",
+      "body": [
+        "Relating a recorded spike to an external event requires a shared time reference. Snyder and colleagues tracked both bats and human experimenters with a **real-time location system**, which estimates the positions of attached tags using fixed room anchors.",
+        "Positions were sampled at 100 Hz and synchronized to the neural recordings with an external timing signal. Repeated trajectories were aligned to landing or take-off, allowing comparisons of neuronal discharge at corresponding stages of flights toward different reward providers.",
+        "A landing-aligned firing change can be distinguished from firing associated with a different location or route only when spatial and temporal measurements are sufficiently precise. Synchronization establishes the correspondence between measurements; it does not establish that an observed spike caused landing or that a landing event caused the spike through one identified synaptic pathway."
+      ],
+      "cite": "Snyder et al. (2024)",
+      "refs": [
+        "Madeleine C. Snyder; Kevin K. Qi; Michael M. Yartsev (2024). Neural representation of human experimenters in the bat hippocampus. Nature Neuroscience 27(9): 1675-1679. https://doi.org/10.1038/s41593-024-01690-8"
+      ],
+      "transcript": [
+        "Relating a recorded spike to an external event requires a shared time reference. Snyder and colleagues tracked both bats and human experimenters with a **real-time location system**, which estimates the positions of attached tags using fixed room anchors.",
+        [
+          "Positions were sampled at 100 Hz and synchronized to the neural recordings with an external timing signal. Repeated trajectories were aligned to landing or take-off, allowing comparisons of neuronal discharge at corresponding stages of flights toward different reward providers.",
+          [
+            "Time stamps from two independently running instruments can drift even if both report measurements in seconds. A shared synchronization event relates their clocks. The experiment also recorded the humans’ positions, because an external participant can move while the bat’s own trajectory remains similar."
+          ]
+        ],
+        "A landing-aligned firing change can be distinguished from firing associated with a different location or route only when spatial and temporal measurements are sufficiently precise. Synchronization establishes the correspondence between measurements; it does not establish that an observed spike caused landing or that a landing event caused the spike through one identified synaptic pathway."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/sny1.png",
+        "kind": "article",
+        "caption": "Snyder et al. (2024), Fig. 1(a–g). Flight trajectories, hippocampal histology and experimenter-dependent firing.",
+        "source_url": "https://doi.org/10.1038/s41593-024-01690-8"
+      }
+    },
+    {
+      "title": "Experimenter identity modulates hippocampal firing",
+      "body": [
+        "Snyder and colleagues compared hippocampal firing during flights along closely matched paths toward two different human experimenters. Location exchange separated the identity of the reward provider from one fixed reward site, while stable flight trajectories constrained self-motion differences.",
+        "Nearly half of the analyzable neurons, approximately 48%, differed in their discharge according to the experimenter at the landing site. Some cells combined spatial selectivity with experimenter-related modulation. The effect often occurred at one particular take-off or landing location rather than uniformly across every site.",
+        "The result supports a neural representation combining the animal’s position with features associated with an external individual. It does not identify the sensory cue carrying that information or prove recognition of human identity independently of every visual, olfactory and learned reward-associated feature."
+      ],
+      "cite": "Snyder et al. (2024)",
+      "refs": [
+        "Madeleine C. Snyder; Kevin K. Qi; Michael M. Yartsev (2024). Neural representation of human experimenters in the bat hippocampus. Nature Neuroscience 27(9): 1675-1679. https://doi.org/10.1038/s41593-024-01690-8"
+      ],
+      "transcript": [
+        "Snyder and colleagues compared hippocampal firing during flights along closely matched paths toward two different human experimenters. Location exchange separated the identity of the reward provider from one fixed reward site, while stable flight trajectories constrained self-motion differences.",
+        [
+          "Nearly half of the analyzable neurons, approximately 48%, differed in their discharge according to the experimenter at the landing site. Some cells combined spatial selectivity with experimenter-related modulation. The effect often occurred at one particular take-off or landing location rather than uniformly across every site.",
+          [
+            "Spatial selectivity means that a neuron’s firing depends on where the animal is. Experimenter-related selectivity is an additional measured dependency, not evidence that the spatial information disappears. Exchanging locations reduces the confound between who delivers a reward and where that reward is delivered."
+          ]
+        ],
+        "The result supports a neural representation combining the animal’s position with features associated with an external individual. It does not identify the sensory cue carrying that information or prove recognition of human identity independently of every visual, olfactory and learned reward-associated feature."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/sny1.png",
+        "kind": "article",
+        "caption": "Snyder et al. (2024), Fig. 1(a–g). Flight trajectories, hippocampal histology and experimenter-dependent firing.",
+        "source_url": "https://doi.org/10.1038/s41593-024-01690-8"
+      }
+    },
+    {
+      "title": "Matched behavior constrains experimenter-related coding",
+      "body": [
+        "An experimenter-related response could arise indirectly from changes in the animal’s movement, reward or another animal nearby. Snyder and colleagues restricted analyses to comparable trajectories and also excluded flights with a conspecific at take-off or landing. A **conspecific** is another individual of the same species.",
+        "Experimenter-dependent firing persisted in over 40% of the analyzable units after that exclusion. During separate trials, a resting bat remained at a stable position while humans repeated fixed paths; about 20% of analyzable units carried information about human position.",
+        "These comparisons weaken explanations based solely on the bat’s own movement or a nearby bat. They retain a measured influence of the external participant without identifying one sensory modality or receptor. The evidence remains observational neural coding with controlled behavioral comparisons, rather than a neural intervention establishing necessity for social behavior."
+      ],
+      "cite": "Snyder et al. (2024)",
+      "refs": [
+        "Madeleine C. Snyder; Kevin K. Qi; Michael M. Yartsev (2024). Neural representation of human experimenters in the bat hippocampus. Nature Neuroscience 27(9): 1675-1679. https://doi.org/10.1038/s41593-024-01690-8"
+      ],
+      "transcript": [
+        "An experimenter-related response could arise indirectly from changes in the animal’s movement, reward or another animal nearby. Snyder and colleagues restricted analyses to comparable trajectories and also excluded flights with a conspecific at take-off or landing. A **conspecific** is another individual of the same species.",
+        [
+          "Experimenter-dependent firing persisted in over 40% of the analyzable units after that exclusion. During separate trials, a resting bat remained at a stable position while humans repeated fixed paths; about 20% of analyzable units carried information about human position.",
+          [
+            "A stationary animal provides a different comparison from a moving animal on a matched path. Activity changing while the bat remains still can be related to external movement rather than the bat’s own locomotion. The experiment does not selectively remove vision, hearing or olfaction, so their relative contributions remain unresolved."
+          ]
+        ],
+        "These comparisons weaken explanations based solely on the bat’s own movement or a nearby bat. They retain a measured influence of the external participant without identifying one sensory modality or receptor. The evidence remains observational neural coding with controlled behavioral comparisons, rather than a neural intervention establishing necessity for social behavior."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/sny2.png",
+          "kind": "article",
+          "caption": "Snyder et al. (2024), Fig. 2(a–h). Human traverses and hippocampal responses in resting bats.",
+          "source_url": "https://doi.org/10.1038/s41593-024-01690-8"
+        },
+        {
+          "path": "figures/sny1d.png",
+          "kind": "article",
+          "caption": "Snyder et al. (2024), Fig. 1(d). Recorded dorsal hippocampus with electrode tracks and a 500-µm scale bar.",
+          "source_url": "https://doi.org/10.1038/s41593-024-01690-8"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "Large ensembles can be recorded during aerial foraging",
+      "body": [
+        "A **neural ensemble** is a population of neurons whose combined activity can represent information. Forli and colleagues used wireless Neuropixels recordings from the dorsal hippocampus of freely flying Egyptian fruit bats engaged in self-paced, rewarded aerial foraging.",
+        "The system recorded single-unit activity together with **local field potentials**, extracellular signals reflecting nearby population currents. Flights alternated spontaneously with rest. About 71% of flight-active neurons met the study’s criterion for spatial selectivity across the sampled trajectories.",
+        "Population recording allows comparisons of activity sequences that one electrode or one cell cannot provide. The combination of freely chosen flights and repeated routes preserves variability while enabling consistent measurement. It does not remove the laboratory’s reward structure, and spatially selective discharge alone does not establish that those cells are required for choosing a route."
+      ],
+      "cite": "Forli et al. (2025)",
+      "refs": [
+        "Angelo Forli; Wudi Fan; Kevin K. Qi; Michael M. Yartsev (2025). Replay and representation dynamics in the hippocampus of freely flying bats. Nature 645(8082): 974-980. https://doi.org/10.1038/s41586-025-09341-z"
+      ],
+      "transcript": [
+        "A **neural ensemble** is a population of neurons whose combined activity can represent information. Forli and colleagues used wireless Neuropixels recordings from the dorsal hippocampus of freely flying Egyptian fruit bats engaged in self-paced, rewarded aerial foraging.",
+        [
+          "The system recorded single-unit activity together with **local field potentials**, extracellular signals reflecting nearby population currents. Flights alternated spontaneously with rest. About 71% of flight-active neurons met the study’s criterion for spatial selectivity across the sampled trajectories.",
+          [
+            "Neuropixels probes provide many closely spaced recording sites, allowing simultaneous sampling from a large neuronal population. A local field potential differs from a sorted unit because it combines activity across sources rather than isolating one waveform cluster. The two measurements describe related but distinct levels of circuit activity."
+          ]
+        ],
+        "Population recording allows comparisons of activity sequences that one electrode or one cell cannot provide. The combination of freely chosen flights and repeated routes preserves variability while enabling consistent measurement. It does not remove the laboratory’s reward structure, and spatially selective discharge alone does not establish that those cells are required for choosing a route."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/for1.png",
+        "kind": "article",
+        "caption": "Forli et al. (2025), Fig. 1(a–j). Wireless Neuropixels recordings and flight-sequence replay.",
+        "source_url": "https://doi.org/10.1038/s41586-025-09341-z"
+      }
+    },
+    {
+      "title": "Rest events replay compressed flight sequences",
+      "body": [
+        "**Replay** is the reactivation of an ordered neuronal sequence related to an earlier behavioral trajectory. Forli and colleagues compared hippocampal place-cell activity during flight with brief population events occurring while the bats rested. **Place cells** are neurons with position-dependent discharge.",
+        "Detected replay events had a median duration near 358 ms and could preserve either the forward or reverse ordering of flight-related activity. They coincided with **sharp-wave ripples**, brief coordinated field-potential events, and frequently represented paths remote from the bat’s current resting location.",
+        "Sequence comparisons and position decoding support structured reactivation rather than indiscriminate population firing. They do not prove that a specific event causes a memory or predicts the animal’s next route. The recordings measured reactivation; they did not selectively disrupt replay and test the resulting navigation deficit."
+      ],
+      "cite": "Forli et al. (2025); Snyder et al. (2024)",
+      "refs": [
+        "Angelo Forli; Wudi Fan; Kevin K. Qi; Michael M. Yartsev (2025). Replay and representation dynamics in the hippocampus of freely flying bats. Nature 645(8082): 974-980. https://doi.org/10.1038/s41586-025-09341-z",
+        "Madeleine C. Snyder; Kevin K. Qi; Michael M. Yartsev (2024). Neural representation of human experimenters in the bat hippocampus. Nature Neuroscience 27(9): 1675-1679. https://doi.org/10.1038/s41593-024-01690-8"
+      ],
+      "transcript": [
+        "**Replay** is the reactivation of an ordered neuronal sequence related to an earlier behavioral trajectory. Forli and colleagues compared hippocampal place-cell activity during flight with brief population events occurring while the bats rested. **Place cells** are neurons with position-dependent discharge.",
+        [
+          "Detected replay events had a median duration near 358 ms and could preserve either the forward or reverse ordering of flight-related activity. They coincided with **sharp-wave ripples**, brief coordinated field-potential events, and frequently represented paths remote from the bat’s current resting location.",
+          [
+            "Decoding estimates represented position from the firing of neurons with known spatial tuning. The decoded location can differ from the bat’s actual location during rest. A matching sequence establishes a relation to flight experience, while a causal memory claim would require an intervention tied to a defined behavioral consequence."
+          ]
+        ],
+        "Sequence comparisons and position decoding support structured reactivation rather than indiscriminate population firing. They do not prove that a specific event causes a memory or predicts the animal’s next route. The recordings measured reactivation; they did not selectively disrupt replay and test the resulting navigation deficit."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/for2.png",
+          "kind": "article",
+          "caption": "Forli et al. (2025), Fig. 2(a–i). Replay location, timing and scaling across flight trajectories.",
+          "source_url": "https://doi.org/10.1038/s41586-025-09341-z"
+        },
+        {
+          "path": "figures/sny1d.png",
+          "kind": "article",
+          "caption": "Snyder et al. (2024), Fig. 1(d). Recorded dorsal hippocampus with electrode tracks and a 500-µm scale bar.",
+          "source_url": "https://doi.org/10.1038/s41593-024-01690-8"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "Flight-related representations track a motor rhythm",
+      "body": [
+        "During flight, Forli and colleagues examined how hippocampal population representations changed within ongoing behavior. The recordings did not contain sustained locomotor **theta oscillations**, a rhythmic field-potential pattern classically associated with rodent spatial processing.",
+        "Accelerometers instead detected a prominent wing-beat rhythm near 8 Hz. Many place cells fired preferentially at particular wing-beat phases, and decoded position swept ahead of the animal’s current position cyclically. These **representational sweeps** occurred despite the absence of continuous theta in the measured field potential.",
+        "The observation supports coupling between a species-specific motor rhythm and population coding. It does not prove that wing beats generate the neural sweeps or that a particular channel or sensory feedback pathway mediates their timing. Correlated rhythms constrain proposed mechanisms while remaining different from experimentally established causal links."
+      ],
+      "cite": "Forli et al. (2025); Snyder et al. (2024)",
+      "refs": [
+        "Angelo Forli; Wudi Fan; Kevin K. Qi; Michael M. Yartsev (2025). Replay and representation dynamics in the hippocampus of freely flying bats. Nature 645(8082): 974-980. https://doi.org/10.1038/s41586-025-09341-z",
+        "Madeleine C. Snyder; Kevin K. Qi; Michael M. Yartsev (2024). Neural representation of human experimenters in the bat hippocampus. Nature Neuroscience 27(9): 1675-1679. https://doi.org/10.1038/s41593-024-01690-8"
+      ],
+      "transcript": [
+        "During flight, Forli and colleagues examined how hippocampal population representations changed within ongoing behavior. The recordings did not contain sustained locomotor **theta oscillations**, a rhythmic field-potential pattern classically associated with rodent spatial processing.",
+        [
+          "Accelerometers instead detected a prominent wing-beat rhythm near 8 Hz. Many place cells fired preferentially at particular wing-beat phases, and decoded position swept ahead of the animal’s current position cyclically. These **representational sweeps** occurred despite the absence of continuous theta in the measured field potential.",
+          [
+            "An accelerometer records movement-related acceleration and supplies an independent measure of wing-beat timing. Phase locking means that spike probability depends on the position within a repeated cycle. A rhythmic relationship can arise through sensory feedback, shared drive or another interaction, and the recording alone does not select among those mechanisms."
+          ]
+        ],
+        "The observation supports coupling between a species-specific motor rhythm and population coding. It does not prove that wing beats generate the neural sweeps or that a particular channel or sensory feedback pathway mediates their timing. Correlated rhythms constrain proposed mechanisms while remaining different from experimentally established causal links."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/for3.png",
+          "kind": "article",
+          "caption": "Forli et al. (2025), Fig. 3(a–k). Representational sweeps and wing-beat phase during flight.",
+          "source_url": "https://doi.org/10.1038/s41586-025-09341-z"
+        },
+        {
+          "path": "figures/sny1d.png",
+          "kind": "article",
+          "caption": "Snyder et al. (2024), Fig. 1(d). Recorded dorsal hippocampus with electrode tracks and a 500-µm scale bar.",
+          "source_url": "https://doi.org/10.1038/s41593-024-01690-8"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    },
+    {
+      "title": "An internal implant can receive wireless optical power",
+      "body": [
+        "Montgomery and colleagues built fully internal light-delivery implants for mice. A **micro-LED** is a miniature light-emitting diode; it converts electrical power into light near the targeted tissue. A receiving coil and local electronics obtained power from an external radio-frequency apparatus.",
+        "The smallest implant weighed about 20 mg and occupied about 10 mm³. An aluminum resonant cavity operating near 1.5 GHz concentrated electromagnetic energy in the mouse, powering a blue LED without an external fiber or battery attached to the animal.",
+        "Miniaturization enabled implantation beneath the skin and access to central or peripheral targets. The radio-frequency geometry was optimized for mice in the tested arena. These measurements do not establish equivalent power delivery in a larger animal, during unrestricted outdoor behavior or with an implant placed in any arbitrary tissue configuration."
+      ],
+      "cite": "Montgomery et al. (2015)",
+      "refs": [
+        "Kate L Montgomery; Alexander J Yeh; John S Ho; Vivien Tsao; Shrivats Mohan Iyer; Logan Grosenick; Emily A Ferenczi; Yuji Tanabe; Karl Deisseroth; Scott L Delp; Ada S Y Poon (2015). Wirelessly powered, fully internal optogenetics for brain, spinal and peripheral circuits in mice. Nature Methods 12(10): 969-974. https://doi.org/10.1038/nmeth.3536"
+      ],
+      "transcript": [
+        "Montgomery and colleagues built fully internal light-delivery implants for mice. A **micro-LED** is a miniature light-emitting diode; it converts electrical power into light near the targeted tissue. A receiving coil and local electronics obtained power from an external radio-frequency apparatus.",
+        [
+          "The smallest implant weighed about 20 mg and occupied about 10 mm³. An aluminum resonant cavity operating near 1.5 GHz concentrated electromagnetic energy in the mouse, powering a blue LED without an external fiber or battery attached to the animal.",
+          [
+            "Wireless optical stimulation still uses an external power source; it removes the physical cable between that source and the animal. The receiving coil supplies the implant’s circuit, which drives the LED. The arena and receiving coil define the tested power-delivery geometry, so movement-dependent exposure remains a calibration question."
+          ]
+        ],
+        "Miniaturization enabled implantation beneath the skin and access to central or peripheral targets. The radio-frequency geometry was optimized for mice in the tested arena. These measurements do not establish equivalent power delivery in a larger animal, during unrestricted outdoor behavior or with an implant placed in any arbitrary tissue configuration."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/mon1.png",
+        "kind": "article",
+        "caption": "Montgomery et al. (2015), Fig. 1(a–c). Wireless-power preparation and miniaturized implanted light sources.",
+        "source_url": "https://doi.org/10.1038/nmeth.3536"
+      }
+    },
+    {
+      "title": "Position, pulse duty and heating constrain stimulation",
+      "body": [
+        "A wireless implant must provide enough light while limiting unwanted heating. Montgomery and colleagues calibrated the LED’s emitted power, pulse fidelity and position-dependent power delivery, using both controlled electrical tests and measurements in a mouse-sized saline preparation.",
+        "The device produced pulses as short as 100 µs. At a fixed cavity input, estimated light power density across the tested surface varied from approximately 9.2 to 25.8 mW/mm². Brain-adjacent measurements with 20 mW/mm² illumination remained below a 1 °C temperature rise at duty cycles up to 20%.",
+        "**Duty cycle** is the fraction of time that stimulation is on. Higher duty increased heating, with rises exceeding 1 °C near the tested 40% condition. Calibration therefore constrains dose and thermal artifacts; it does not establish identical light exposure or temperature in every tissue and behavioral position."
+      ],
+      "cite": "Montgomery et al. (2015)",
+      "refs": [
+        "Kate L Montgomery; Alexander J Yeh; John S Ho; Vivien Tsao; Shrivats Mohan Iyer; Logan Grosenick; Emily A Ferenczi; Yuji Tanabe; Karl Deisseroth; Scott L Delp; Ada S Y Poon (2015). Wirelessly powered, fully internal optogenetics for brain, spinal and peripheral circuits in mice. Nature Methods 12(10): 969-974. https://doi.org/10.1038/nmeth.3536"
+      ],
+      "transcript": [
+        "A wireless implant must provide enough light while limiting unwanted heating. Montgomery and colleagues calibrated the LED’s emitted power, pulse fidelity and position-dependent power delivery, using both controlled electrical tests and measurements in a mouse-sized saline preparation.",
+        [
+          "The device produced pulses as short as 100 µs. At a fixed cavity input, estimated light power density across the tested surface varied from approximately 9.2 to 25.8 mW/mm². Brain-adjacent measurements with 20 mW/mm² illumination remained below a 1 °C temperature rise at duty cycles up to 20%.",
+          [
+            "A short pulse limits the duration of each exposure, but repeated pulses can still produce substantial average energy delivery. Position changes can also alter received power. Tissue temperature and delivered optical intensity must therefore be evaluated as measurements separate from the intended neuronal targeting."
+          ]
+        ],
+        "**Duty cycle** is the fraction of time that stimulation is on. Higher duty increased heating, with rises exceeding 1 °C near the tested 40% condition. Calibration therefore constrains dose and thermal artifacts; it does not establish identical light exposure or temperature in every tissue and behavioral position."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/mon2.png",
+        "kind": "article",
+        "caption": "Montgomery et al. (2015), Fig. 2(a–e). LED power, pulse fidelity, position dependence and tissue heating.",
+        "source_url": "https://doi.org/10.1038/nmeth.3536"
+      }
+    },
+    {
+      "title": "Wireless cortical stimulation changes turning behavior",
+      "body": [
+        "Montgomery and colleagues implanted a wireless LED near the right **premotor cortex**, a cortical region participating in movement control. ChR2-expressing mice and implanted wild-type controls were tested in the same powered arena while video quantified movement.",
+        "During 20-s stimulation epochs, 5-ms pulses at 20 Hz increased circling from approximately 0.40 to 2.5 turns/min in the ChR2 group. Mean normalized locomotor speed increased by about 40%. Wild-type controls did not display the corresponding light-dependent movement changes.",
+        "The genotype comparison supports an opsin-dependent behavioral effect of wireless stimulation. It does not establish that natural premotor activity normally produces persistent circling, or that the activated population is necessary for every voluntary turn. The experiment validates untethered intervention while retaining the limits of imposed activation and broad expression."
+      ],
+      "cite": "Montgomery et al. (2015)",
+      "refs": [
+        "Kate L Montgomery; Alexander J Yeh; John S Ho; Vivien Tsao; Shrivats Mohan Iyer; Logan Grosenick; Emily A Ferenczi; Yuji Tanabe; Karl Deisseroth; Scott L Delp; Ada S Y Poon (2015). Wirelessly powered, fully internal optogenetics for brain, spinal and peripheral circuits in mice. Nature Methods 12(10): 969-974. https://doi.org/10.1038/nmeth.3536"
+      ],
+      "transcript": [
+        "Montgomery and colleagues implanted a wireless LED near the right **premotor cortex**, a cortical region participating in movement control. ChR2-expressing mice and implanted wild-type controls were tested in the same powered arena while video quantified movement.",
+        [
+          "During 20-s stimulation epochs, 5-ms pulses at 20 Hz increased circling from approximately 0.40 to 2.5 turns/min in the ChR2 group. Mean normalized locomotor speed increased by about 40%. Wild-type controls did not display the corresponding light-dependent movement changes.",
+          [
+            "The device’s receiver remains beneath the skin while the light source enters the targeted brain region. Wild-type mice experience implantation and the radio-frequency arena without the introduced channel. Circling is quantified as a behavioral outcome rather than inferred solely from the fact that the LED emits light."
+          ]
+        ],
+        "The genotype comparison supports an opsin-dependent behavioral effect of wireless stimulation. It does not establish that natural premotor activity normally produces persistent circling, or that the activated population is necessary for every voluntary turn. The experiment validates untethered intervention while retaining the limits of imposed activation and broad expression."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/mon3.png",
+        "kind": "article",
+        "caption": "Montgomery et al. (2015), Fig. 3(a–f). Implanted premotor-cortex stimulation and circling behavior.",
+        "source_url": "https://doi.org/10.1038/nmeth.3536"
+      }
+    },
+    {
+      "title": "Causal claims need matched behavioral controls",
+      "body": [
+        "A causal neural test must connect a defined intervention to a defined behavioral effect while controlling alternative explanations. Montgomery and colleagues placed wireless LEDs near paw sensory endings expressing ChR2 in **nociceptors**, neurons that detect potentially damaging stimulation.",
+        "With 10-ms pulses at 10 Hz, mice reduced time in the powered compartment during a 30-min stimulation period; fluorescent-tag-only controls did not display the same reduction. In a complementary necessity test, Antinucci and colleagues reduced hunting after pretectal ablation while preserving swimming, visual escape and optomotor responses.",
+        "Activation supports an opsin-dependent aversive consequence under the tested conditions, while selective ablation supports a contribution to normal hunting. Neither result alone specifies every intervening synapse, transmitter or receptor. A behavioral claim is strongest when perturbation efficacy, anatomical targeting and preserved comparison behaviors are established together."
+      ],
+      "cite": "Montgomery et al. (2015); Antinucci et al. (2019)",
+      "refs": [
+        "Kate L Montgomery; Alexander J Yeh; John S Ho; Vivien Tsao; Shrivats Mohan Iyer; Logan Grosenick; Emily A Ferenczi; Yuji Tanabe; Karl Deisseroth; Scott L Delp; Ada S Y Poon (2015). Wirelessly powered, fully internal optogenetics for brain, spinal and peripheral circuits in mice. Nature Methods 12(10): 969-974. https://doi.org/10.1038/nmeth.3536",
+        "Paride Antinucci; Mónica Folgueira; Isaac H Bianco (2019). Pretectal neurons control hunting behaviour. eLife 8: e48114. https://doi.org/10.7554/elife.48114"
+      ],
+      "transcript": [
+        "A causal neural test must connect a defined intervention to a defined behavioral effect while controlling alternative explanations. Montgomery and colleagues placed wireless LEDs near paw sensory endings expressing ChR2 in **nociceptors**, neurons that detect potentially damaging stimulation.",
+        [
+          "With 10-ms pulses at 10 Hz, mice reduced time in the powered compartment during a 30-min stimulation period; fluorescent-tag-only controls did not display the same reduction. In a complementary necessity test, Antinucci and colleagues reduced hunting after pretectal ablation while preserving swimming, visual escape and optomotor responses.",
+          [
+            "Place avoidance is a measured change in where the mouse spends time, not a direct readout of a subjective experience. The nociceptor intervention and pretectal ablation also concern different circuits and different behaviors. Their common evidential requirement is to measure a specific consequence while retaining controls for general sensory or motor disruption."
+          ]
+        ],
+        "Activation supports an opsin-dependent aversive consequence under the tested conditions, while selective ablation supports a contribution to normal hunting. Neither result alone specifies every intervening synapse, transmitter or receptor. A behavioral claim is strongest when perturbation efficacy, anatomical targeting and preserved comparison behaviors are established together."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/mon5.png",
+          "kind": "article",
+          "caption": "Montgomery et al. (2015), Fig. 5(a–g). Peripheral implant, sensory-fiber expression and place avoidance.",
+          "source_url": "https://doi.org/10.1038/nmeth.3536"
+        },
+        {
+          "path": "figures/ant6.png",
+          "kind": "article",
+          "caption": "Antinucci et al. (2019), Fig. 6(A–L). Pretectal ablation with hunting, escape and optomotor controls.",
+          "source_url": "https://doi.org/10.7554/elife.48114"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.2
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Channel mechanism:",
+        "text": "Light-gated cation and anion channels alter conductance directly. The ionic gradient and membrane voltage determine the electrical consequence; actuator expression alone does not establish excitation or inhibition."
+      },
+      {
+        "lead": "Sufficiency and necessity:",
+        "text": "Optical activation tests whether a targeted population can recruit an action. Ablation or verified silencing tests its contribution to normal performance. Neither intervention automatically identifies the complete natural circuit."
+      },
+      {
+        "lead": "State dependence:",
+        "text": "The behavioral effect of neuronal activation depends on stimulation strength, preceding behavior and social history. Identical optical input need not produce an invariant action."
+      },
+      {
+        "lead": "Measurement validity:",
+        "text": "Fluorescence requires motion and reference-channel controls. Wireless electrophysiology requires signal-fidelity and timing validation. Neither measurement is a direct causal test of behavioral function."
+      },
+      {
+        "lead": "Comparative evidence:",
+        "text": "Annelid startle, zebrafish hunting, fly courtship and bat flight link distinct circuit arrangements to species-specific behavior. Connectomes and activity patterns constrain mechanisms without proving every functional connection."
+      },
+      {
+        "lead": "Behavioral controls:",
+        "text": "Light-only and expression controls, anatomical verification, thermal calibration and preserved comparison behaviors limit alternative explanations. Wireless access expands behavior without removing preparation-specific constraints."
+      }
+    ],
+    "cite": "Boyden et al. (2005); Govorunova et al. (2015); Cande et al. (2018); Antinucci et al. (2019); Montgomery et al. (2015)",
+    "refs": [
+      "References:",
+      "Edward S Boyden; Feng Zhang; Ernst Bamberg; Georg Nagel; Karl Deisseroth (2005). Millisecond-timescale, genetically targeted optical control of neural activity. Nature Neuroscience 8(9): 1263-1268. https://doi.org/10.1038/nn1525",
+      "Elena G. Govorunova; Oleg A. Sineshchekov; Roger Janz; Xiaoqin Liu; John L. Spudich (2015). Natural light-gated anion channels: A family of microbial rhodopsins for advanced optogenetics. Science 349(6248): 647-650. https://doi.org/10.1126/science.aaa7484",
+      "Hidehiko K Inagaki; Yonil Jung; Eric D Hoopfer; Allan M Wong; Neeli Mishra; John Y Lin; Roger Y Tsien; David J Anderson (2014). Optogenetic control of Drosophila using a red-shifted channelrhodopsin reveals experience-dependent influences on courtship. Nature Methods 11(3): 325-332. https://doi.org/10.1038/nmeth.2765",
+      "Jessica Cande; Shigehiro Namiki; Jirui Qiu; Wyatt Korff; Gwyneth M Card; Joshua W Shaevitz; David L Stern; Gordon J Berman (2018). Optogenetic dissection of descending behavioral control in Drosophila. eLife 7: e34275. https://doi.org/10.7554/elife.34275",
+      "Csaba Verasztó; Nobuo Ueda; Luis A Bezares-Calderón; Aurora Panzera; Elizabeth A Williams; Réza Shahidi; Gáspár Jékely (2017). Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the Platynereis larva. eLife 6: e26000. https://doi.org/10.7554/elife.26000",
+      "Luis A Bezares-Calderón; Jürgen Berger; Sanja Jasek; Csaba Verasztó; Sara Mendes; Martin Gühmann; Rodrigo Almeda; Réza Shahidi; Gáspár Jékely (2018). Neural circuitry of a polycystin-mediated hydrodynamic startle response for predator avoidance. eLife 7: e36262. https://doi.org/10.7554/elife.36262",
+      "Paride Antinucci; Mónica Folgueira; Isaac H Bianco (2019). Pretectal neurons control hunting behaviour. eLife 8: e48114. https://doi.org/10.7554/elife.48114",
+      "Dhruv Grover; Takeo Katsuki; Jinfang Li; Thomas J. Dawkins; Ralph J. Greenspan (2020). Imaging brain activity during complex social behaviors in Drosophila with Flyception2. Nature Communications 11(1): 623. https://doi.org/10.1038/s41467-020-14487-7",
+      "Tobi A Szuts; Vitaliy Fadeyev; Sergei Kachiguine; Alexander Sher; Matthew V Grivich; Margarida Agrochão; Pawel Hottowy; Wladyslaw Dabrowski; Evgueniy V Lubenov; Athanassios G Siapas; Naoshige Uchida; Alan M Litke; Markus Meister (2011). A wireless multi-channel neural amplifier for freely moving animals. Nature Neuroscience 14(2): 263-269. https://doi.org/10.1038/nn.2730",
+      "Madeleine C. Snyder; Kevin K. Qi; Michael M. Yartsev (2024). Neural representation of human experimenters in the bat hippocampus. Nature Neuroscience 27(9): 1675-1679. https://doi.org/10.1038/s41593-024-01690-8",
+      "Angelo Forli; Wudi Fan; Kevin K. Qi; Michael M. Yartsev (2025). Replay and representation dynamics in the hippocampus of freely flying bats. Nature 645(8082): 974-980. https://doi.org/10.1038/s41586-025-09341-z",
+      "Kate L Montgomery; Alexander J Yeh; John S Ho; Vivien Tsao; Shrivats Mohan Iyer; Logan Grosenick; Emily A Ferenczi; Yuji Tanabe; Karl Deisseroth; Scott L Delp; Ada S Y Poon (2015). Wirelessly powered, fully internal optogenetics for brain, spinal and peripheral circuits in mice. Nature Methods 12(10): 969-974. https://doi.org/10.1038/nmeth.3536"
+    ]
+  }
+}
