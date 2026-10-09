@@ -29,3 +29,9 @@ soffice --headless --convert-to pdf --outdir lectures/L40 lectures/L40/Neuroetho
 ```
 
 `build.py` calls `tools/build_lecture.py`, formats the notes, and runs the repository checker. `plan.json` records final slide titles, source allocation and panel assignments; `research.json` preserves literature searches and citation/access verification. `validation.json` and `validation.txt` record the completed checks. `export.json` records verified public downloads after publication.
+
+## Instructor-requested blue styling revision
+
+The instructor requested a theme matching the blue optical light in a mouse photograph: dark-blue titles and bold terms, with black body/caption/footer text. The deck now uses `optical-blue-paper` (title panel #284FA6; headings/bold #1E3B7B). All slide wording, notes, scientific image bytes and element positions were compared with the previous deck and are unchanged. The rebuilt PPTX and 46-page PDF pass the repository checker with no failures or warnings.
+
+The requested title-photo replacement remains pending: the inline mouse image was visible in chat but had no downloadable identifier or local image attachment. Its original URL was requested. The existing title figure remains until the exact source image can be inserted; no substitute or generated image was used.
