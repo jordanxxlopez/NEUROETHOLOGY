@@ -1,0 +1,898 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture2_FA2026_V2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture2_FA2026_V2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "stickleback",
+  "sticklebacks",
+  "male",
+  "female",
+  "red",
+  "model",
+  "models",
+  "posture",
+  "threat",
+  "goose",
+  "egg",
+  "eggs",
+  "retrieval",
+  "rolling",
+  "inward",
+  "lateral",
+  "corrections",
+  "cube",
+  "nest",
+  "object",
+  "objects",
+  "movement",
+  "Tinbergen",
+  "Lorenz",
+  "James",
+  "Bell",
+  "Bukhari",
+  "AVP",
+  "vasotocin",
+  "MAOA",
+  "charging",
+  "charges",
+  "respiration",
+  "diencephalon",
+  "telencephalon",
+  "transcription",
+  "expression",
+  "gene",
+  "genes",
+  "construct",
+  "intruder",
+  "territorial",
+  "sign stimuli",
+  "sign stimulus",
+  "acetylation",
+  "chromatin"
+ ],
+ "new_slides": [
+  {
+   "after": 8,
+   "footer_number": "8a",
+   "template_slide": 7,
+   "title": "Sign stimuli add together to set the strength of a response",
+   "body": [
+    "Tinbergen called the combining of features **heterogeneous summation**: separate sign stimuli, such as red ventral color and the head-down threat posture, act together, and response strength depends largely on how many are present. Each feature adds to the same response instead of releasing a separate part of it.",
+    "Responses released this way are graded, not all-or-none. Removing any one feature weakens the reaction in a similar way, whichever feature is missing, so a neutral model in threat posture and a red model held horizontally can both intimidate, each less than a model combining both features.",
+    "Summation also limits what a negative result can mean. A reaction that still occurs without one feature does not mean the feature is irrelevant, since the others can carry the response at lower intensity; only comparing response strength with the feature present and absent measures its contribution."
+   ],
+   "figure": {
+    "from_slide": 7,
+    "picture": "Google Shape;94;p7",
+    "caption": "Tinbergen (1948), Fig. 3. Head-down threat posture and ventral-spine display at a mirror."
+   },
+   "cite": "Tinbergen (1948)",
+   "moves": [
+    "mechanism",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    3,
+    5,
+    7,
+    8
+   ],
+   "cited_papers_used": [
+    "10.5281/zenodo.16185673"
+   ],
+   "transcript": [
+    "Slides 3, 7 and 8 test red color and threat posture one at a time; Tinbergen's 1948 review explains how the two combine. He adopted a summation rule from earlier fish work and translated it as heterogeneous summation, stressing that it is simultaneous adding of different stimuli, not repeated presentation of the same one.",
+    [
+     "The same adding applies to a female's response to a courting male.",
+     [
+      "Females respond to both the red belly and the zigzag dance, and a male offering both is the most effective stimulus.",
+      "In red light, which removes the color contrast, females can still respond completely; that observation once led to the mistaken conclusion that the red belly had no function at all."
+     ]
+    ],
+    [
+     "Internal state enters the same sum.",
+     [
+      "Tinbergen treated motivation as one more contributor, so a strongly motivated fish can react to a poor model while a weakly motivated one may ignore a good model.",
+      "The owner and intruder comparisons on slides 5 and 6 therefore depend on the condition of the tested fish as well as on the model."
+     ]
+    ],
+    [
+     "Graded measurement is what made the model experiments informative.",
+     [
+      "Asking only whether an attack occurs can miss a real contribution, whereas comparing the strength of attack or intimidation across matched models revealed the effects of color and posture.",
+      "The tube experiment on slide 8 applies the same logic to a live fish by changing one feature, the available posture, while the rest of the stimulus stays present."
+     ]
+    ]
+   ],
+   "refs": [
+    "N. Tinbergen (1948). Social Releasers and the Experimental Method Required for Their Study. The Wilson Bulletin 60(1):6–51. Digitized article; repository DOI. https://doi.org/10.5281/zenodo.16185673"
+   ]
+  },
+  {
+   "after": 10,
+   "footer_number": "10a",
+   "template_slide": 10,
+   "title": "Each action is released by its own small set of features",
+   "body": [
+    "A **releasing mechanism** is the selective process linking a particular action to the few sign stimuli that release it. Tinbergen stressed that it belongs to a reaction, not to an object: during a single courtship, a female stickleback acts on the same male through different features at different steps.",
+    "She is drawn toward the nest by the sight of a red male, but she spawns only after repeated snout thrusts at the base of her tail, and a glass rod producing the same trembling works as well as the male. In the nest, the male's fertilizing behavior is released by chemical cues from the eggs, although he can see them.",
+    "Selectivity in one action therefore says little about what the sense organs detect. Disregarding body shape during attack, or courting a crude swollen dummy, reflects which features each releasing mechanism uses, not a limit of the eye."
+   ],
+   "figure": {
+    "from_slide": 10,
+    "picture": "Google Shape;130;p10",
+    "caption": "Tinbergen (1948), Fig. 5(A–C). A non-stickleback fish model, a normal-abdomen fish, and a swollen-abdomen dummy."
+   },
+   "cite": "Tinbergen (1948)",
+   "moves": [
+    "distinction",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    3,
+    9,
+    10
+   ],
+   "cited_papers_used": [
+    "10.5281/zenodo.16185673"
+   ],
+   "transcript": [
+    "Slides 3, 9 and 10 show attack, leading and courtship each depending on different features of what is, in nature, the same kind of fish. Tinbergen drew the general conclusion that a sex partner is not one stimulus to the animal but several, depending on which activity is under way.",
+    [
+     "The female's spawning sequence makes the point within seconds.",
+     [
+      "Visual features bring her into the nest, but once she is there, visual information no longer matters for laying; only the tactile trembling stimulus does.",
+      "Replacing the male with a vibrating glass rod is a stimulus-substitution test of the same kind as the dummies on slides 3 to 10."
+     ]
+    ],
+    [
+     "Sensory capacity requires a different method.",
+     [
+      "Tinbergen pointed out that most reactions can be conditioned to respond to any stimulus the sense organs receive, so training experiments measure what an animal can perceive.",
+      "Sticklebacks forage only on visual cues and ignore food extracts that attract many other fish, yet the male's fertilizing response depends on chemical cues; two actions of one animal draw on different senses."
+     ]
+    ],
+    [
+     "Responding to a few features is economical for the fish.",
+     [
+      "Each feature used, such as a red belly or a swollen abdomen in the breeding season, is closely tied to the right rival or partner under natural conditions, which is the usual explanation for why so few features suffice.",
+      "The same economy makes the fish responsive to crude dummies, which is what made the model experiments possible."
+     ]
+    ]
+   ],
+   "refs": [
+    "N. Tinbergen (1948). Social Releasers and the Experimental Method Required for Their Study. The Wilson Bulletin 60(1):6–51. Digitized article; repository DOI. https://doi.org/10.5281/zenodo.16185673"
+   ]
+  },
+  {
+   "after": 15,
+   "footer_number": "15a",
+   "template_slide": 14,
+   "title": "Egg retrieval is a chain of steps released by different cues",
+   "body": [
+    "Goose egg retrieval runs as a chain of steps, each released by a stimulus that the previous step brings within reach. Sight of a rounded object releases orientation and neck extension; the extension brings the bill into contact; contact then supplies the tactile information that decides whether rolling continues.",
+    "Splitting one act into steps with different sign stimuli means an object can pass one test and fail the following one. The rubber toy and the balloon passed the visual test and failed the tactile one, and the open cube passed both until its rim appeared, which switched the act to nibbling.",
+    "A chain organized this way allows one approach to serve several outcomes. The same neck extension can end in rolling, rejection, eating or nibbling, depending on what contact reveals, so the goose does not need to identify an object fully before moving toward it."
+   ],
+   "figure": {
+    "from_slide": 14,
+    "picture": "Google Shape;178;p14",
+    "caption": "Lorenz & Tinbergen (1938), Fig. 1(a–b). Visual orientation followed by a bill-contact test."
+   },
+   "cite": "Lorenz & Tinbergen (1938); Tinbergen (1948)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence",
+    "foundation"
+   ],
+   "integrates": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "cited_papers_used": [
+    "10.1111/j.1439-0310.1939.tb01558.x",
+    "10.5281/zenodo.16185673"
+   ],
+   "transcript": [
+    "Slides 13 to 16 report approach, contact tests and nibbling as separate observations. Read as a sequence, they form what Tinbergen called a chain of instinctive actions, in which each action changes the animal's situation so that the stimulus for the following action becomes available.",
+    [
+     "The chain depends on stimuli of different sensory modalities.",
+     [
+      "Visual sign stimuli are broad: a smooth, roughly continuous outline is enough to start the approach.",
+      "Tactile sign stimuli at the bill are stricter and decide between continuing, abandoning, eating or nibbling."
+     ]
+    ],
+    [
+     "Each link can be tested by an object that fails at that link.",
+     [
+      "The balloon and rubber toy isolate the tactile link, since they were approached normally and abandoned only after contact.",
+      "With the peeled egg and the fringed cardboard egg, contact also redirected the act into an entirely different action."
+     ]
+    ],
+    [
+     "The organization also explains why first appearance does not predict the outcome.",
+     [
+      "An observer who scored only the approach would conclude that the goose accepts balloons; scoring the full chain gives a different answer.",
+      "The same caution applies to slide 16, where acceptance of a cube depends on which phase of retrieval is being scored."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. Lorenz; N. Tinbergen (1938). Taxis und Instinkthandlung in der Eirollbewegung der Graugans. I. Zeitschrift für Tierpsychologie 2(1):1–29. Archive edition identifies 1938; Crossref indexes this DOI under 1939. https://doi.org/10.1111/j.1439-0310.1939.tb01558.x",
+    "N. Tinbergen (1948). Social Releasers and the Experimental Method Required for Their Study. The Wilson Bulletin 60(1):6–51. Digitized article; repository DOI. https://doi.org/10.5281/zenodo.16185673"
+   ]
+  },
+  {
+   "after": 20,
+   "footer_number": "20a",
+   "template_slide": 18,
+   "title": "Three manipulations separate a fixed core from feedback",
+   "body": [
+    "The distinction between the inward roll and the lateral corrections rests on three manipulations that change different things. Losing the egg removes the object and its feedback; the cube removes only the instability that needs correcting; the cylinder was meant to do the same but altered contact.",
+    "If both components depended on feedback, losing the egg should stop both. Instead the roll continued while the side-to-side movements vanished, and with the stable cube the corrections were absent though rolling proceeded. The conclusion rests on agreement across manipulations, not on a single trial.",
+    "This is the logic of **dissociation**: two components have different controls when one manipulation abolishes the first and spares the second. **Closed-loop** control adjusts movement continuously from feedback, as the corrections tracked the egg's sideways deviations; the inward roll, once started, needed no such signal."
+   ],
+   "figure": {
+    "from_slide": 18,
+    "picture": "Google Shape;226;p18",
+    "caption": "Lorenz & Tinbergen (1938), Fig. 4(c–d). Escape of an oversized object followed by continued empty movement."
+   },
+   "cite": "Lorenz & Tinbergen (1938)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "integration",
+    "mechanism"
+   ],
+   "integrates": [
+    17,
+    18,
+    19,
+    20,
+    22
+   ],
+   "cited_papers_used": [
+    "10.1111/j.1439-0310.1939.tb01558.x"
+   ],
+   "transcript": [
+    "Slides 17 to 22 contain several separate observations about the inward roll and the lateral corrections; together they form a classic dissociation argument, which is how Lorenz and Tinbergen justified treating egg retrieval as a fixed core plus a taxis.",
+    [
+     "Each manipulation answers a different question.",
+     [
+      "Losing the egg asks what remains when both the object and its feedback disappear.",
+      "The cube asks what happens when the object remains but no longer deviates sideways, so the need for correction disappears while contact remains."
+     ]
+    ],
+    [
+     "The cylinder trial shows why a manipulation must change only the intended factor.",
+     [
+      "The board and the off-center contact added new disturbances, so the cylinder could not cleanly remove lateral feedback.",
+      "Its deviations still linked the direction of the bill correction to the object's movement, which is useful evidence even though it is not a clean control."
+     ]
+    ],
+    [
+     "Open-loop and closed-loop components can coexist in one act.",
+     [
+      "The roll behaves as a centrally organized sequence, while the corrections behave as a continuously steered response.",
+      "Dissociation establishes that the two are controlled differently; it does not locate them in separate circuits, as slide 17 points out."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. Lorenz; N. Tinbergen (1938). Taxis und Instinkthandlung in der Eirollbewegung der Graugans. I. Zeitschrift für Tierpsychologie 2(1):1–29. Archive edition identifies 1938; Crossref indexes this DOI under 1939. https://doi.org/10.1111/j.1439-0310.1939.tb01558.x"
+   ]
+  },
+  {
+   "after": 24,
+   "footer_number": "24a",
+   "template_slide": 24,
+   "title": "A preset movement trades flexibility for speed and reliability",
+   "body": [
+    "A movement that runs without waiting for feedback is fast and repeatable, since no sensory signal has to travel to the brain and back before each part of it is produced. For a common, predictable task, such as rolling an ordinary egg over an ordinary nest rim, a preset sequence reliably produces the right result.",
+    "The cost appears when conditions differ. The goose did not scale its force to a heavier object, did not reshape its neck movement for an oversized egg, and lifted eggs that had already crossed the rim when they lay too close. Each failure follows from a movement tuned to ordinary egg size, weight and nest geometry.",
+    "The lateral corrections show the alternative arrangement inside the same act. Feedback-guided control copes with unpredictable deviations, while the preset roll handles the part of the task that rarely varies, matching each component to how variable its demand is."
+   ],
+   "figure": {
+    "from_slide": 24,
+    "picture": "Google Shape;298;p24",
+    "caption": "Lorenz & Tinbergen (1938), Fig. 1(c–d). Inward rolling toward the nest and lifting of the transported egg."
+   },
+   "cite": "Lorenz & Tinbergen (1938)",
+   "moves": [
+    "mechanism",
+    "consequence",
+    "integration",
+    "foundation"
+   ],
+   "integrates": [
+    17,
+    20,
+    21,
+    23,
+    24
+   ],
+   "cited_papers_used": [
+    "10.1111/j.1439-0310.1939.tb01558.x"
+   ],
+   "transcript": [
+    "Slides 21, 23 and 24 each describe a failure of retrieval, and together they show the same underlying property: the inward roll is calibrated for the conditions an egg normally presents.",
+    [
+     "Feedback has a time cost.",
+     [
+      "Every correction based on touch requires the sensory signal to reach the nervous system and a new command to return to the muscles, which takes time on every cycle.",
+      "A sequence produced from a central plan avoids that delay, which is an advantage whenever the conditions are predictable."
+     ]
+    ],
+    [
+     "The three failures map onto three fixed parameters.",
+     [
+      "Force was not increased for heavier objects on slide 23, neck curvature was not changed for the oversized egg on slide 21, and the timing of the upward component was not shifted for an egg already over the rim on slide 24.",
+      "In each case the movement continued according to its usual settings, which is what a preset sequence predicts."
+     ]
+    ],
+    [
+     "The design is a compromise, not a defect.",
+     [
+      "Eggs that roll out of a natural nest are usually ordinary eggs near the rim, so the preset roll succeeds in the cases that commonly arise.",
+      "The variable part of the task, sideways wobble, is the part handled by feedback."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. Lorenz; N. Tinbergen (1938). Taxis und Instinkthandlung in der Eirollbewegung der Graugans. I. Zeitschrift für Tierpsychologie 2(1):1–29. Archive edition identifies 1938; Crossref indexes this DOI under 1939. https://doi.org/10.1111/j.1439-0310.1939.tb01558.x"
+   ]
+  },
+  {
+   "after": 26,
+   "footer_number": "26a",
+   "template_slide": 25,
+   "title": "Retrieval fatigue is not sensory adaptation or muscle fatigue",
+   "body": [
+    "A response can weaken with repetition for several reasons. **Sensory adaptation** is reduced receptor sensitivity to a sustained stimulus; **muscle fatigue** is reduced force from overused muscle; **habituation** is a learned waning of response to a stimulus that proves inconsequential.",
+    "The goose results argue against the first two. Looking at the egg and extending the neck persisted, so the egg was still detected, and the neck still made the nest-material movement, so the muscles still worked. Only readiness for one movement declined, which a general loss of sensitivity or strength cannot produce.",
+    "Tinbergen treated internal readiness as a factor that adds to external stimuli in releasing an act. On that view, repeated retrieval lowers the internal contribution, so the same egg falls below threshold for rolling while still enough for orientation, and another action can appear instead."
+   ],
+   "figure": {
+    "from_slide": 25,
+    "picture": "Google Shape;310;p25",
+    "caption": "Lorenz & Tinbergen (1938), Fig. 6(a–c). Orientation and an alternative nest-material movement after repeated retrieval."
+   },
+   "cite": "Lorenz & Tinbergen (1938); Tinbergen (1948)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "integration",
+    "mechanism"
+   ],
+   "integrates": [
+    13,
+    25,
+    26
+   ],
+   "cited_papers_used": [
+    "10.1111/j.1439-0310.1939.tb01558.x",
+    "10.5281/zenodo.16185673"
+   ],
+   "transcript": [
+    "Slide 25 introduces response-specific fatigue as the authors' term, and three other processes could also weaken a repeated response, each predicting a different pattern of what survives repetition.",
+    [
+     "Sensory adaptation would remove orientation as well as rolling.",
+     [
+      "If the receptors no longer signaled the egg, the goose would stop looking at it and stop extending its neck.",
+      "Orientation persisted, as on slides 25 and 26, so the egg was still being detected."
+     ]
+    ],
+    [
+     "Muscle fatigue would weaken every movement of the neck.",
+     [
+      "The nest-material movement on slide 26 uses the same neck and was still performed.",
+      "A fatigue limited to one movement pattern points to the readiness of that pattern, not to the muscles."
+     ]
+    ],
+    [
+     "Habituation is harder to exclude.",
+     [
+      "Habituation would make the goose respond less to the egg as a stimulus, yet the egg still attracted orientation, which favors a change specific to the rolling response.",
+      "The experiments did not test recovery with a new stimulus or after a long rest, so a response-specific form of habituation cannot be fully ruled out."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. Lorenz; N. Tinbergen (1938). Taxis und Instinkthandlung in der Eirollbewegung der Graugans. I. Zeitschrift für Tierpsychologie 2(1):1–29. Archive edition identifies 1938; Crossref indexes this DOI under 1939. https://doi.org/10.1111/j.1439-0310.1939.tb01558.x",
+    "N. Tinbergen (1948). Social Releasers and the Experimental Method Required for Their Study. The Wilson Bulletin 60(1):6–51. Digitized article; repository DOI. https://doi.org/10.5281/zenodo.16185673"
+   ]
+  },
+  {
+   "after": 28,
+   "footer_number": "28a",
+   "template_slide": 27,
+   "title": "Innate release and later tuning answer different questions",
+   "body": [
+    "Calling a response **innate** in Tinbergen's sense means it appears without a specified kind of experience, as stickleback responses to models did in a male reared without other sticklebacks. Whether experience can later modify that response is a separate question about the same behavior.",
+    "The goose results address the second question. Acceptance narrowed to real goose eggs during incubation, and destructive nibbling of shell edges disappeared as the bird's own chicks hatched. The rolling and nibbling movements persisted; what changed was which objects released them.",
+    "The study could not separate two sources of the narrowing: learning from repeated encounters with eggs, and a change in internal state during incubation. Tinbergen noted that high motivation makes animals accept poor dummies, so declining motivation alone could also raise selectivity."
+   ],
+   "figure": {
+    "from_slide": 27,
+    "picture": "Google Shape;334;p27",
+    "caption": "Lorenz & Tinbergen (1938), Fig. 6(d–e). Avoidance of an artificial egg after changes in response readiness."
+   },
+   "cite": "Lorenz & Tinbergen (1938); Tinbergen (1948)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    11,
+    25,
+    27,
+    28
+   ],
+   "cited_papers_used": [
+    "10.1111/j.1439-0310.1939.tb01558.x",
+    "10.5281/zenodo.16185673"
+   ],
+   "transcript": [
+    "Slide 11 and slides 27 and 28 are often read as contradicting each other, one supporting innate responses and the other showing experience at work. They answer different questions about development, so both can be true of the same behavior.",
+    [
+     "The isolation experiment asks what is necessary for a response to appear.",
+     [
+      "Removing social experience and still obtaining the normal responses establishes that this experience is not required for them.",
+      "It does not mean that experience cannot later change the response, and Tinbergen's own review describes releasing mechanisms that are modified by conditioning."
+     ]
+    ],
+    [
+     "The goose observations ask what changes after the response is established.",
+     [
+      "The movement itself stayed the same while the range of effective objects shrank, so the change lies in stimulus selectivity rather than in the motor pattern.",
+      "That is the same separation between releasing mechanism and movement found elsewhere in the deck."
+     ]
+    ],
+    [
+     "The motivation alternative matters for interpretation.",
+     [
+      "Tinbergen described animals in an abnormally strong state of motivation responding indiscriminately to good and bad dummies, which makes early acceptance of many substitutes expected when readiness is high.",
+      "A falling readiness during incubation would then make the goose appear more selective without any learning, so the authors' attribution to experience remains one of two possible explanations."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. Lorenz; N. Tinbergen (1938). Taxis und Instinkthandlung in der Eirollbewegung der Graugans. I. Zeitschrift für Tierpsychologie 2(1):1–29. Archive edition identifies 1938; Crossref indexes this DOI under 1939. https://doi.org/10.1111/j.1439-0310.1939.tb01558.x",
+    "N. Tinbergen (1948). Social Releasers and the Experimental Method Required for Their Study. The Wilson Bulletin 60(1):6–51. Digitized article; repository DOI. https://doi.org/10.5281/zenodo.16185673"
+   ]
+  },
+  {
+   "after": 29,
+   "footer_number": "29a",
+   "template_slide": 29,
+   "title": "The diencephalon links social signals to hormonal output",
+   "body": [
+    "The diencephalon contains the hypothalamus, which links social information processing to the endocrine system through the pituitary gland. In adult teleost fish, vasotocin-producing neurons lie mainly in the preoptic area and ventral hypothalamus, where they help regulate the stress-hormone axis.",
+    "The telencephalon includes the fish homolog of the mammalian hippocampus, a region tied to spatial learning. Both regions contain parts of the social decision-making network, a set of interconnected areas that regulate social behavior across vertebrates.",
+    "These roles account for the experimental choices that follow. Aggression-related peptide and enzyme constructs were delivered to the anterior diencephalon, and expression responses to an intruder were measured separately in diencephalon and telencephalon, regions expected to handle different aspects of an encounter."
+   ],
+   "figure": {
+    "from_slide": 29,
+    "picture": "Google Shape;358;p29",
+    "caption": "James & Bell (2021), Fig. 2(A–C). Brain visibility through the skull and dissected dorsal brain anatomy."
+   },
+   "cite": "James & Bell (2021); Bukhari et al. (2017)",
+   "moves": [
+    "foundation",
+    "integration",
+    "method_logic"
+   ],
+   "integrates": [
+    29,
+    30,
+    33,
+    40,
+    42
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0251653",
+    "10.1371/journal.pgen.1006840"
+   ],
+   "transcript": [
+    "Slide 29 names the diencephalon and telencephalon as anatomical landmarks; their functions are the reason both stickleback studies target them.",
+    [
+     "The hypothalamus is the link between behavior and hormones.",
+     [
+      "Hypothalamic neurons release peptides that act within the brain and also control the pituitary gland, which in turn regulates hormone release from glands elsewhere in the body.",
+      "In fishes the stress axis runs from hypothalamus to pituitary to the interrenal tissue, the fish equivalent of the adrenal gland."
+     ]
+    ],
+    [
+     "Vasotocin is the fish member of the vasopressin family.",
+     [
+      "James and Bell point out that vasotocin is normally produced mainly in the preoptic area and ventral hypothalamus, so their broad diencephalic expression of AVP placed the peptide in locations where it is not usually made.",
+      "That is the ectopic expression discussed on slide 33."
+     ]
+    ],
+    [
+     "The telencephalon is the more likely site of spatial learning about the territory.",
+     [
+      "Bukhari and colleagues chose it because it contains the teleost homolog of the hippocampus.",
+      "Their later finding of learning-related genes among late responses is one reason the two regions were analyzed separately on slide 42."
+     ]
+    ]
+   ],
+   "refs": [
+    "N. James; A. Bell (2021). Minimally invasive brain injections for viral-mediated transgenesis: New tools for behavioral genetics in sticklebacks. PLOS ONE 16(5):e0251653. https://doi.org/10.1371/journal.pone.0251653",
+    "S.A. Bukhari; M.C. Saul; C.H. Seward; H. Zhang; M. Bensky; N. James; S.D. Zhao; S. Chandrasekaran; L. Stubbs; A.M. Bell (2017). Temporal dynamics of neurogenomic plasticity in response to social interactions in male threespined sticklebacks. PLOS Genetics 13(7):e1006840. https://doi.org/10.1371/journal.pgen.1006840"
+   ]
+  },
+  {
+   "after": 32,
+   "footer_number": "32a",
+   "template_slide": 31,
+   "title": "A disabled virus delivers a gene into adult brain cells",
+   "body": [
+    "A viral vector keeps a virus's ability to enter cells but not to replicate. James and Bell used a replication-deficient herpes simplex virus 1 carrying no viral genome, only a plasmid with a chosen gene and promoter; adeno-associated viruses had previously failed in teleost fish.",
+    "Adult delivery avoids the problems of germline transgenesis, in which a gene inserted into a fertilized egg is present throughout development. Developmental side effects and compensation then confound the adult phenotype, and breeding a stable line is slow in a fish with an annual generation time.",
+    "The fluorescent-protein virus controls for infection, foreign protein production and the time course, so the identity of the delivered gene is the remaining difference between groups. Testing waits for expression, since the delivered DNA must be transcribed and translated before protein accumulates."
+   ],
+   "figure": {
+    "from_slide": 31,
+    "picture": "Google Shape;382;p31",
+    "caption": "James & Bell (2021), Fig. 3(A–B). Restricted expression after one injection and broader expression after delivery at multiple depths."
+   },
+   "cite": "James & Bell (2021)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "distinction",
+    "mechanism"
+   ],
+   "integrates": [
+    30,
+    31,
+    32,
+    35
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0251653"
+   ],
+   "transcript": [
+    "Slides 30 to 32 describe the injection rig, the tissue verification and the promoter timing; the reasoning behind choosing viral delivery in adults ties them together.",
+    [
+     "The vector is a delivery vehicle, not an infection.",
+     [
+      "The modified virus carries only the plasmid payload, so it can enter cells and deliver DNA but cannot make new virus particles.",
+      "The authors chose this virus partly because it can carry larger payloads than some alternatives and has low toxicity."
+     ]
+    ],
+    [
+     "Adult delivery separates the gene's present role from its developmental role.",
+     [
+      "A gene present from the fertilized egg onward can alter how the brain is built, so a behavioral change in a germline transgenic fish could reflect development rather than current signaling.",
+      "Adult delivery also allows the same wild-caught fish to be tested before and after the manipulation, which is the paired design described on slide 38."
+     ]
+    ],
+    [
+     "The promoter sets when the payload is expressed.",
+     [
+      "The short-term and long-term promoters on slide 32 differ in how soon and how long they drive transcription.",
+      "Behavioral trials at 14 and 16 days were placed where the long-term construct produced strong expression."
+     ]
+    ]
+   ],
+   "refs": [
+    "N. James; A. Bell (2021). Minimally invasive brain injections for viral-mediated transgenesis: New tools for behavioral genetics in sticklebacks. PLOS ONE 16(5):e0251653. https://doi.org/10.1371/journal.pone.0251653"
+   ]
+  },
+  {
+   "after": 35,
+   "footer_number": "35a",
+   "template_slide": 32,
+   "title": "Acute and sustained vasotocin pushed charging in opposite ways",
+   "body": [
+    "James and Bell also gave vasotocin as a single injection and tested territorial behavior within hours. At the highest dose charging decreased, the opposite of the increase after two weeks of viral AVP expression, although both treatments raise vasopressin-family signaling.",
+    "The authors attribute the difference to timing. Vasopressin has a half-life under a minute, so an injection gives a brief pulse, whereas viral expression supplies a signal that builds for days, letting receptors and the hormonal stress axis readjust. Effects also depend on which receptor types are present where.",
+    "A gene effect therefore cannot be predicted from a drug effect on the same pathway. Whether readjustment explains the reversal has not been shown; the authors propose repeated low doses through an implanted cannula as a direct test."
+   ],
+   "figure": {
+    "from_slide": 35,
+    "picture": "Google Shape;434;p35",
+    "caption": "James & Bell (2021), Fig. 8. Paired baseline and post-transfection charge counts for EYFP, AVP, and MAOA."
+   },
+   "cite": "James & Bell (2021)",
+   "moves": [
+    "integration",
+    "mechanism",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    33,
+    34,
+    35,
+    39
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0251653"
+   ],
+   "transcript": [
+    "Slides 34 and 35 report two vasotocin-family manipulations with different outcomes measured: respiration after acute injection and charging after viral expression. The paper also measured charging after the acute treatment, which allows the two to be compared on the same behavior.",
+    [
+     "Both treatments were judged to have worked.",
+     [
+      "The acute injection changed respiration across the dose range and changed behavior at the highest dose, while viral AVP increased charging in nearly all treated fish.",
+      "Since both manipulations were effective, the opposite directions cannot be dismissed as a failed treatment."
+     ]
+    ],
+    [
+     "Timing is the main difference between the treatments.",
+     [
+      "A peptide with a half-life under a minute is cleared almost immediately, so a single dose produces a short pulse of signaling.",
+      "A construct that keeps producing peptide for weeks gives the system time to adjust receptor levels and hormone output, which can change how the same signal affects behavior."
+     ]
+    ],
+    [
+     "Location matters as well.",
+     [
+      "Vasotocin acts through several receptor types with different distributions, so peptide made broadly across the diencephalon may act on receptors that a natural release would not reach.",
+      "Charging was the behavior affected in every vasotocin manipulation, which the authors note fits its role as the voluntary start of an attack, whereas biting depends more on the intruder's reaction."
+     ]
+    ]
+   ],
+   "refs": [
+    "N. James; A. Bell (2021). Minimally invasive brain injections for viral-mediated transgenesis: New tools for behavioral genetics in sticklebacks. PLOS ONE 16(5):e0251653. https://doi.org/10.1371/journal.pone.0251653"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 35,
+     "picture": "Google Shape;436;p35",
+     "caption": "James & Bell (2021), Fig. 2(C). Dorsal brain anatomy; original scale bar 2 mm."
+    }
+   ]
+  },
+  {
+   "after": 37,
+   "footer_number": "37a",
+   "template_slide": 32,
+   "title": "Lower respiration confirms the enzyme worked as expected",
+   "body": [
+    "Monoamine oxidase breaks down serotonin and norepinephrine, so adding enzyme should lower their levels. Serotonin signaling generally restrains aggression, which makes increased charging the expected consequence of extra enzyme, and the authors interpret the result as consistent with reduced serotonin.",
+    "Respiration supplied an independent check. Breathing rate rises with serotonin and norepinephrine concentration, so an enzyme removing both should slow it; the MAOA group's respiration fell while the AVP and control groups showed no such decline. A change in the predicted direction indicates the construct was active.",
+    "A mouse enzyme acting in a fish raises the possibility of off-target effects. The authors cite evidence that fish and mammalian forms of the enzyme metabolize serotonin equally well, which makes a nonspecific action less likely; transmitter levels themselves were not measured."
+   ],
+   "figure": {
+    "from_slide": 37,
+    "picture": "Google Shape;462;p37",
+    "caption": "James & Bell (2021), Fig. 9. Paired respiration measurements in opercular beats per 20 seconds."
+   },
+   "cite": "James & Bell (2021)",
+   "moves": [
+    "mechanism",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    34,
+    36,
+    37
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0251653"
+   ],
+   "transcript": [
+    "Slides 36 and 37 present the enzyme's chemistry and the paired results; the respiration measurement connects them, because it is the only evidence in the study that the delivered enzyme acted on transmitter levels.",
+    [
+     "The enzyme changes how long transmitter remains active.",
+     [
+      "After release, monoamine transmitters are taken back into cells and broken down by monoamine oxidase, so more enzyme means less transmitter available for the following release.",
+      "Lower serotonin signaling is associated with more aggression across many vertebrates, which is the basis for predicting more charging."
+     ]
+    ],
+    [
+     "A behavioral effect alone would leave the mechanism open.",
+     [
+      "More charging could arise from many side effects of an injected virus or a foreign protein.",
+      "The respiration decline is a second, independent prediction of the same mechanism, and it appeared only in the MAOA group, not in the AVP or fluorescent-protein groups."
+     ]
+    ],
+    [
+     "The respiration result also contrasts with vasotocin.",
+     [
+      "Acute vasotocin raised respiration on slide 34, while MAOA lowered it, so the two candidate pathways act differently on the same physiological measure.",
+      "The authors list measuring transmitter levels and rescuing the effect pharmacologically as the steps that would complete the mechanistic account."
+     ]
+    ]
+   ],
+   "refs": [
+    "N. James; A. Bell (2021). Minimally invasive brain injections for viral-mediated transgenesis: New tools for behavioral genetics in sticklebacks. PLOS ONE 16(5):e0251653. https://doi.org/10.1371/journal.pone.0251653"
+   ]
+  },
+  {
+   "after": 41,
+   "footer_number": "41a",
+   "template_slide": 41,
+   "title": "Early regulators drive later genes, producing expression waves",
+   "body": [
+    "Neural activity during an encounter raises calcium in neurons, and calcium-dependent signaling activates transcription factors already present. These drive a first set of genes, many encoding further regulators, which then switch other genes on or off, so expression changes arrive in stages.",
+    "Staged regulation fits the little overlap between genes changing at 30, 60 and 120 minutes. Bukhari and colleagues link the early changes to the hormonal response to aggression, and the many increases at 120 minutes, including genes tied to learning and immunity, to recovery and preparation for later encounters.",
+    "Natural stickleback territories can receive up to 76 intrusions an hour, so in the wild a new encounter may begin before the molecular response to the last has run its course. The authors propose such waves as a way animals update their assessment of their social world; that function has not been tested."
+   ],
+   "figure": {
+    "from_slide": 41,
+    "picture": "Google Shape;516;p41",
+    "caption": "Bukhari et al. (2017), Fig. 2(B,D). Temporal expression patterns and functional associations of telencephalic gene clusters."
+   },
+   "cite": "Bukhari et al. (2017)",
+   "moves": [
+    "mechanism",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    40,
+    41,
+    43,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pgen.1006840"
+   ],
+   "transcript": [
+    "Slide 41 reports that different genes respond at different times after the intruder; the reason a single five-minute event produces staggered responses lies in how transcription is regulated.",
+    [
+     "The first wave needs no new protein.",
+     [
+      "Transcription factors that already exist in neurons are activated by activity-driven signals such as calcium, so they can start transcription within minutes.",
+      "Genes switched on this way often encode regulators themselves, which is why a second and third wave can follow without any further stimulus."
+     ]
+    ],
+    [
+     "The direction of change also shifted over time.",
+     [
+      "Expression was mostly reduced at 30 and 60 minutes and mostly increased in diencephalon at 120 minutes.",
+      "The authors interpret the late increases as recovery and preparation, citing learning-related functions such as calcium and calmodulin binding among genes peaking at 120 minutes."
+     ]
+    ],
+    [
+     "Behavioral experience gives the late wave a plausible use.",
+     [
+      "Territorial males improve at detecting and repelling intruders with experience and patrol places where earlier intrusions occurred.",
+      "The authors speculate that the late wave supports memory of where an encounter happened, which slide 45 also describes as a hypothesis."
+     ]
+    ]
+   ],
+   "refs": [
+    "S.A. Bukhari; M.C. Saul; C.H. Seward; H. Zhang; M. Bensky; N. James; S.D. Zhao; S. Chandrasekaran; L. Stubbs; A.M. Bell (2017). Temporal dynamics of neurogenomic plasticity in response to social interactions in male threespined sticklebacks. PLOS Genetics 13(7):e1006840. https://doi.org/10.1371/journal.pgen.1006840"
+   ],
+   "paper_numbers": {
+    "76": "Bukhari et al. 2017, discussion: intrusion rate in natural populations"
+   }
+  },
+  {
+   "after": 43,
+   "footer_number": "43a",
+   "template_slide": 40,
+   "title": "Expression data nominate genes; perturbation tests them",
+   "body": [
+    "Expression and network studies are correlational: they show which genes change with an encounter, not whether those changes cause behavior. A transcript could rise because aggression occurred, because of stress, or because it shapes the following encounter, and expression data alone cannot tell these apart.",
+    "Testing causation requires changing the gene and measuring behavior. James and Bell built their method for this purpose, noting that expression studies had nominated hundreds of genes, and used it to raise vasopressin-family signaling and monoamine oxidase and record charging within the same fish.",
+    "The approaches are complementary. An inferred network proposes which regulators coordinate the response over 30 to 120 minutes; perturbing one regulator and measuring its predicted targets and later territorial behavior would turn a network edge into a tested causal link."
+   ],
+   "figure": {
+    "from_slide": 43,
+    "picture": "Google Shape;544;p43",
+    "caption": "Bukhari et al. (2017), Fig. 3. The published inferred network of transcription factors and gene clusters."
+   },
+   "cite": "Bukhari et al. (2017); James & Bell (2021)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    35,
+    37,
+    41,
+    43
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pgen.1006840",
+    "10.1371/journal.pone.0251653"
+   ],
+   "transcript": [
+    "The deck contains both kinds of evidence about the stickleback brain: the expression, network and chromatin measurements on slides 40 to 45, and the gene manipulations on slides 33 to 38. The two kinds of evidence answer different questions, and overlapping groups of authors carried out both.",
+    [
+     "Correlation leaves the causal direction open.",
+     [
+      "A gene that changes after an intrusion may be a cause of later behavior, a consequence of the encounter, or a response to the handling and stress that accompany it.",
+      "The empty-flask control on slide 40 removes some of these alternatives, but it cannot establish that any changed gene matters for behavior."
+     ]
+    ],
+    [
+     "Perturbation addresses the causal question but has its own limits.",
+     [
+      "James and Bell's manipulations were broad and in some cases used mammalian genes, so they test whether a pathway can change behavior, not exactly how the native gene acts.",
+      "A positive perturbation result also does not establish that the gene changes naturally during an encounter; that is what the expression data supply."
+     ]
+    ],
+    [
+     "The regulatory network supplies specific targets for such tests.",
+     [
+      "Regulators predicted to control clusters of genes over time, such as those on slide 43, are natural candidates for manipulation.",
+      "A test would check both the predicted molecular targets and the behavior, linking the two levels."
+     ]
+    ]
+   ],
+   "refs": [
+    "S.A. Bukhari; M.C. Saul; C.H. Seward; H. Zhang; M. Bensky; N. James; S.D. Zhao; S. Chandrasekaran; L. Stubbs; A.M. Bell (2017). Temporal dynamics of neurogenomic plasticity in response to social interactions in male threespined sticklebacks. PLOS Genetics 13(7):e1006840. https://doi.org/10.1371/journal.pgen.1006840",
+    "N. James; A. Bell (2021). Minimally invasive brain injections for viral-mediated transgenesis: New tools for behavioral genetics in sticklebacks. PLOS ONE 16(5):e0251653. https://doi.org/10.1371/journal.pone.0251653"
+   ]
+  },
+  {
+   "after": 44,
+   "footer_number": "44a",
+   "template_slide": 42,
+   "title": "Acetylation loosens histone grip so genes can be transcribed",
+   "body": [
+    "DNA is wrapped around histone proteins whose positively charged lysine residues bind the negatively charged DNA. Adding an **acetyl group** to a lysine neutralizes its charge, weakens that binding and recruits proteins that recognize acetylated histones, making the DNA accessible to transcription factors and RNA polymerase.",
+    "Acetylation of lysine 27 on histone H3 marks active promoters and enhancers, the DNA regions that switch transcription on. At Pparg, a transcription factor in lipid and glucose metabolism, more marking and more RNA at 120 minutes fit this sequence.",
+    "Some regions with no clear marking before the challenge became marked afterward. A region that stays open could be transcribed faster during a later encounter, a form of **priming** the authors propose as a way one intrusion could change the response to the following one; priming was not tested."
+   ],
+   "figure": {
+    "from_slide": 44,
+    "picture": "Google Shape;556;p44",
+    "caption": "Bukhari et al. (2017), Fig. 4(D). Published chromatin-mark tracks near the Pparg locus."
+   },
+   "cite": "Bukhari et al. (2017)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    41,
+    44,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pgen.1006840"
+   ],
+   "transcript": [
+    "Slide 44 introduces chromatin and the H3K27 acetylation mark; the chemistry of the mark explains why it is used as a sign of accessible, active regulatory DNA.",
+    [
+     "Charge is the key to the mechanism.",
+     [
+      "Lysine side chains carry a positive charge that holds the negatively charged DNA backbone tightly against the histone core.",
+      "An acetyl group removes that charge, so the contact loosens, and proteins with domains that bind acetylated lysine are recruited to the site."
+     ]
+    ],
+    [
+     "The mark is measured by pulling down marked chromatin.",
+     [
+      "An antibody against acetylated H3K27 is used to collect the DNA bound to marked histones, and sequencing that DNA shows where the mark lies across the genome.",
+      "Comparing samples at 30 and 120 minutes then shows where marking increased or decreased after the challenge."
+     ]
+    ],
+    [
+     "Lasting chromatin change is one route to a lasting change in behavior.",
+     [
+      "Chromatin in adult tissue is often assumed to change slowly, yet the stickleback brain showed changes within two hours of a five-minute encounter.",
+      "If open regions persist, a later intrusion could recruit transcription faster, but whether this happens, and whether it changes behavior, was not measured."
+     ]
+    ]
+   ],
+   "refs": [
+    "S.A. Bukhari; M.C. Saul; C.H. Seward; H. Zhang; M. Bensky; N. James; S.D. Zhao; S. Chandrasekaran; L. Stubbs; A.M. Bell (2017). Temporal dynamics of neurogenomic plasticity in response to social interactions in male threespined sticklebacks. PLOS Genetics 13(7):e1006840. https://doi.org/10.1371/journal.pgen.1006840"
+   ]
+  }
+ ]
+}
