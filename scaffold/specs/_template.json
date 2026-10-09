@@ -1,0 +1,21 @@
+{
+  "_note": "One spec per input deck, saved as scaffold/specs/<OriginalName>.json. Exactly 14 entries in new_slides. 'after', 'template_slide', 'figure.from_slide' and 'integrates' use ORIGINAL slide positions (1-46). Captions, citations and references are copied character for character from the deck. 'moves' lists at least three of: mechanism, consequence, integration, method_logic, distinction, foundation.",
+  "input": "scaffold/input/<OriginalName>.pptx",
+  "output": "scaffold/output/<OriginalName>_SCAFFOLDED.pptx",
+  "new_slides": [
+    {
+      "after": 29,
+      "footer_number": "29a",
+      "template_slide": 29,
+      "title": "Claim sentence stating what the slide teaches",
+      "body": ["Paragraph 1.", "Paragraph 2.", "Paragraph 3."],
+      "figure": {"from_slide": 31, "picture": "<shape name on that slide>", "caption": "<original caption, exact>"},
+      "cite": "<short citations as the deck writes them>",
+      "moves": ["mechanism", "integration", "consequence"],
+      "integrates": [27, 29, 31, 33],
+      "cited_papers_used": ["<DOI of each cited paper whose full text informed the explanation>"],
+      "transcript": ["Main bullet.", ["Main bullet with sub-bullets.", ["Sub-bullet.", "Sub-bullet."]]],
+      "refs": ["<full reference with DOI, copied from the original notes>"]
+    }
+  ]
+}

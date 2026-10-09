@@ -20,6 +20,10 @@ python tools/check_lecture.py lectures/L13/Neuroethology_Lecture13_FA2026.pptx -
 
 Also install poppler (`pdftoppm`) and LibreOffice (`soffice`) for figure cropping and slide previews.
 
+## Scaffold slides
+
+Adds 14 teaching slides to each finished 46-slide deck (60 total) without changing the originals. Scaffold slides explain mechanisms, consequences and connections the deck does not state; they never repeat it. Rules: `scaffold/GUIDELINE.md`. Prompt: `prompts/add_scaffold_slides.md`. Inputs in `scaffold/input/`, outputs in `scaffold/output/`.
+
 ## Rules in short
 
 - Images are never created: figures come from published articles (priority); a few credited web photos only where needed.

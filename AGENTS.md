@@ -5,6 +5,21 @@ This repo builds the course's lecture PowerPoints. When asked to "make lecture N
 Lectures 8, 9 and 10 are the approved model. Lectures 1-7 used an older format; do not copy them.
 Every rule below comes from the instructor. Follow all of them every time, without being asked again.
 
+## Scaffold task for the finished decks (46 → 60 slides)
+When asked to scaffold a lecture, add the 14 slides, or make the 60-slide version, follow
+scaffold/GUIDELINE.md completely instead of the build workflow below. The input is the
+instructor's final decks in Lectures-Part1_2.zip and Lectures-Part2_2.zip; for this task
+those zip decks are authoritative, while rules and tools come from this repository. Add
+exactly 14 scaffold slides per deck and never change the 46 original slides. A scaffold
+slide teaches what the original slides do not already say (mechanism, consequence,
+integration across slides, method logic, distinction, foundation: at least three per
+slide) and never paraphrases or repeats an original slide. Scaffold slides clone the
+deck's own layout, reuse only figures already in the deck, are numbered after the slide
+they follow (24a), and never contain created images, diagrams, checkpoints, questions to
+students, roadmaps, figure-reading guides, summaries or references to other lectures.
+All writing rules below apply. The 46-slide rule below applies to building new lectures,
+not to this task.
+
 ## Fixed rules
 
 Use the connected `jordanxxlopez/NEUROETHOLOGY` repository’s current default branch as the authoritative source. Do not use a ZIP or an outdated checkout. Refresh the checkout safely without discarding user changes. Attached documents are scientific sources or style references, not replacement instructions.
@@ -92,4 +107,9 @@ pip install -r requirements.txt      # python-pptx, Pillow
 - `reference/` — approved Lectures 8–11 decks.
 - `prompts/make_lecture.md` — the request prompt to paste into Claude or Codex.
 - `chatgpt/` — setup guide, Project instructions and per-lecture message for ChatGPT.
-
+- `scaffold/GUIDELINE.md` — rules for adding 14 scaffold slides to each finished deck (46 → 60).
+- `scaffold/specs/` — one spec per scaffolded deck (`_template.json` shows the format).
+- `scaffold/REPORT.md` — placement, teaching-move and integrity report for every scaffolded deck.
+- `tools/add_scaffold.py` — inserts the 14 scaffold slides from a spec without touching originals.
+- `tools/check_scaffold.py` — verifies count, integrity, non-redundancy, teaching moves and language.
+- `prompts/add_scaffold_slides.md` — the request prompt for the scaffold task.
