@@ -30,8 +30,8 @@ Run = longest word run shared with any original slide or its notes (fail at 8); 
 
 ### For the instructor's attention
 
-- The uploaded file was named ; it was saved as , so outputs are named .
+- The uploaded file was named `Neuroethology_Lecture1_FA2026_V2_2.pptx`; it was saved as `scaffold/input/Neuroethology_Lecture1_FA2026_V2.pptx`, so outputs are named `Neuroethology_Lecture1_FA2026_V2_SCAFFOLDED.*`.
 - Body text size follows the cloned slide (14 pt; 14.5 pt on the FoxP2 slides 34a and 38a), since the deck itself varies between 13 and 15 pt.
 - Slide 38a also carries the Area X anatomy panel that the deck's own FoxP2 slides (33–38) place beside their main figure; 34a carries only its main figure.
 - The deck's own text colors (titles #16181D, body #202329, footer #5E636D) were kept as cloned; theme_colors.py was not run, per the guideline.
-- Some numbers come from the cited papers rather than the deck (each listed under  in the spec): 85% of Macroheterocera with ears (7a), the 67–180 ms wild-type duration range (29a), day 25 sensory-phase onset (38a), real-egg ejection in 2 of 19 nests, 81.7% flat-object removal and 21/22 vs 4/11 removal by sex (42a).
+- Some numbers come from the cited papers rather than the deck (each listed under `paper_numbers` in the spec): 85% of Macroheterocera with ears (7a), the 67–180 ms wild-type duration range (29a), day 25 sensory-phase onset (38a), real-egg ejection in 2 of 19 nests, 81.7% flat-object removal and 21/22 vs 4/11 removal by sex (42a).
