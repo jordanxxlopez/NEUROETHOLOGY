@@ -3,9 +3,9 @@
   "exact_title": "Simple learning circuits: Aplysia gill-withdrawal habituation and sensitization (Kandel)",
   "exact_date": "Friday, November 20, 2026",
   "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
-  "authoritative_commit": "bc46e896daacda3dd26875c107613d778af2eaa1",
-  "status": "awaiting_five_original_PDFs",
-  "available_primary_PDFs": 15,
+  "authoritative_commit": "71823ee870e8903e66279fb534cc6acd62db63a1",
+  "status": "completed_and_validated",
+  "available_primary_PDFs": 20,
   "sources": [
     {
       "id": "pinsker70",
@@ -41,7 +41,11 @@
           "status": 404
         }
       ],
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_pages": 4,
+      "pdf_sha256": "5797df8dbd42f24986f59af06dd1c3e76fef9229f4bfb977b1147ae1f912f609",
+      "local_pdf": "papers/pinsker70.pdf",
+      "access_source": "user_uploaded_original"
     },
     {
       "id": "castellucci70",
@@ -80,7 +84,11 @@
           "error": "Invalid URL '': No scheme supplied. Perhaps you meant https://?"
         }
       ],
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_pages": 5,
+      "pdf_sha256": "61b5c0b5da1329054fcf75be929c9006796fce1cdc51e1ab759718aff4674c4e",
+      "local_pdf": "papers/castellucci70.pdf",
+      "access_source": "user_uploaded_original"
     },
     {
       "id": "carew72",
@@ -118,7 +126,11 @@
           "error": "Invalid URL '': No scheme supplied. Perhaps you meant https://?"
         }
       ],
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_pages": 5,
+      "pdf_sha256": "155b7e9f4fb2b369fd2e084087704ddbc652fba6b6bbf49a1f4a651c32aee761",
+      "local_pdf": "papers/carew72.pdf",
+      "access_source": "user_uploaded_original"
     },
     {
       "id": "brunelli76",
@@ -156,7 +168,11 @@
           "error": "Invalid URL '': No scheme supplied. Perhaps you meant https://?"
         }
       ],
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_pages": 5,
+      "pdf_sha256": "528df49b1db4b17991ed91d41c074e4083aa2930536e9cc63f84bd7360de931d",
+      "local_pdf": "papers/brunelli76.pdf",
+      "access_source": "user_uploaded_original"
     },
     {
       "id": "montarolo86",
@@ -197,7 +213,11 @@
           "error": "Invalid URL '': No scheme supplied. Perhaps you meant https://?"
         }
       ],
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_pages": 7,
+      "pdf_sha256": "d6af3944439b9f5932d507a0967c31878c8a1faf13b3d5020abc35290d5e72f7",
+      "local_pdf": "papers/montarolo86.pdf",
+      "access_source": "user_uploaded_original"
     },
     {
       "id": "quantal74",
@@ -259,7 +279,7 @@
       "id": "varicosities88",
       "doi": "10.1073/pnas.85.7.2373",
       "title": "Long-term memory in Aplysia modulates the total number of varicosities of single identified sensory neurons.",
-      "reference": "Bailey CH; Chen M (1988). Long-term memory in Aplysia modulates the total number of varicosities of single identified sensory neurons.. Proceedings of the National Academy of Sciences, 85(7): 2373-2377. https://doi.org/10.1073/pnas.85.7.2373",
+      "reference": "Bailey CH; Chen M (1988). Long-term memory in Aplysia modulates the total number of varicosities of single identified sensory neurons. Proceedings of the National Academy of Sciences, 85(7): 2373-2377. https://doi.org/10.1073/pnas.85.7.2373",
       "year": 1988,
       "authors": [
         "Bailey CH",
@@ -286,7 +306,7 @@
       "id": "contacts88",
       "doi": "10.1073/pnas.85.23.9356",
       "title": "Long-term sensitization in Aplysia increases the number of presynaptic contacts onto the identified gill motor neuron L7.",
-      "reference": "Bailey CH; Chen M (1988). Long-term sensitization in Aplysia increases the number of presynaptic contacts onto the identified gill motor neuron L7.. Proceedings of the National Academy of Sciences, 85(23): 9356-9359. https://doi.org/10.1073/pnas.85.23.9356",
+      "reference": "Bailey CH; Chen M (1988). Long-term sensitization in Aplysia increases the number of presynaptic contacts onto the identified gill motor neuron L7. Proceedings of the National Academy of Sciences, 85(23): 9356-9359. https://doi.org/10.1073/pnas.85.23.9356",
       "year": 1988,
       "authors": [
         "Bailey CH",
@@ -313,7 +333,7 @@
       "id": "glutamate93",
       "doi": "10.1073/pnas.90.15.7163",
       "title": "L-glutamate may be the fast excitatory transmitter of Aplysia sensory neurons.",
-      "reference": "Dale N; Kandel ER (1993). L-glutamate may be the fast excitatory transmitter of Aplysia sensory neurons.. Proceedings of the National Academy of Sciences, 90(15): 7163-7167. https://doi.org/10.1073/pnas.90.15.7163",
+      "reference": "Dale N; Kandel ER (1993). L-glutamate may be the fast excitatory transmitter of Aplysia sensory neurons. Proceedings of the National Academy of Sciences, 90(15): 7163-7167. https://doi.org/10.1073/pnas.90.15.7163",
       "year": 1993,
       "authors": [
         "Dale N",
@@ -526,7 +546,7 @@
       "id": "reinstatement14",
       "doi": "10.7554/elife.03896",
       "title": "Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia",
-      "reference": "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3(): e03896. https://doi.org/10.7554/elife.03896",
+      "reference": "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896",
       "year": 2014,
       "authors": [
         "Chen S",
@@ -557,7 +577,7 @@
       "id": "epigenetic17",
       "doi": "10.7554/elife.18299",
       "title": "Role of protein synthesis and DNA methylation in the consolidation and maintenance of long-term memory in Aplysia",
-      "reference": "Pearce K; Cai D; Roberts AC; Glanzman DL (2017). Role of protein synthesis and DNA methylation in the consolidation and maintenance of long-term memory in Aplysia. eLife, 6(): e18299. https://doi.org/10.7554/elife.18299",
+      "reference": "Pearce K; Cai D; Roberts AC; Glanzman DL (2017). Role of protein synthesis and DNA methylation in the consolidation and maintenance of long-term memory in Aplysia. eLife, 6: e18299. https://doi.org/10.7554/elife.18299",
       "year": 2017,
       "authors": [
         "Pearce K",

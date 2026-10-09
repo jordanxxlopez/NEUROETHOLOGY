@@ -1,0 +1,1415 @@
+{
+  "lecture": 36,
+  "theme": "pearl-bordeaux",
+  "content_slides": 44,
+  "title_image": {
+    "path": "figures/aplysia.jpg",
+    "kind": "web",
+    "caption": "Photo: Aplysia californica, the California sea hare.",
+    "credit": "Jeff Young",
+    "license": "CC BY 4.0",
+    "source_url": "https://www.inaturalist.org/photos/746343526"
+  },
+  "title_refs": [
+    "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740",
+    "Castellucci V; Pinsker H; Kupfermann I; Kandel ER (1970). Neuronal Mechanisms of Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1745-1748. https://doi.org/10.1126/science.167.3926.1745",
+    "Brunelli M; Castellucci V; Kandel ER (1976). Synaptic Facilitation and Behavioral Sensitization in Aplysia : Possible Role of Serotonin and Cyclic AMP. Science, 194(4270): 1178-1181. https://doi.org/10.1126/science.186870",
+    "Montarolo PG; Goelet P; Castellucci VF; Morgan J; Kandel ER; Schacher S (1986). A Critical Period for Macromolecular Synthesis in Long-Term Heterosynaptic Facilitation in Aplysia. Science, 234(4781): 1249-1254. https://doi.org/10.1126/science.3775383"
+  ],
+  "slides": [
+    {
+      "layout": "figure-right",
+      "title": "Siphon touch recruits a defensive withdrawal",
+      "body": [
+        "_Aplysia californica_ is a marine gastropod whose **siphon** carries water out of the mantle cavity, the chamber containing its respiratory gill. Touching the siphon or adjacent mantle shelf evokes contraction of the gill, siphon, and mantle shelf. Withdrawal reduces the exposure of these delicate structures to a disturbing stimulus.",
+        "Pinsker and colleagues restrained animals with the gill exposed and delivered controlled seawater jets. A photocell measured gill movement from light scattered by the tissue. Stimulus duration was usually 800 ms, and stronger jets produced larger contractions with additional, delayed response components.",
+        "The preparation allowed stimulus intensity and response amplitude to be measured separately. Exposing and restraining the animal changes its normal sensory context, so the measured contraction is an experimentally accessible component of defense rather than a complete account of freely behaving avoidance."
+      ],
+      "cite": "Pinsker et al. (1970)",
+      "refs": [
+        "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740"
+      ],
+      "transcript": [
+        "Aplysia californica is a marine gastropod whose siphon carries water out of the mantle cavity, the chamber containing its respiratory gill. Touching the siphon or adjacent mantle shelf evokes contraction of the gill, siphon, and mantle shelf. Withdrawal reduces the exposure of these delicate structures to a disturbing stimulus.",
+        "Pinsker and colleagues restrained animals with the gill exposed and delivered controlled seawater jets. A photocell measured gill movement from light scattered by the tissue. Stimulus duration was usually 800 ms, and stronger jets produced larger contractions with additional, delayed response components.",
+        "The preparation allowed stimulus intensity and response amplitude to be measured separately. Exposing and restraining the animal changes its normal sensory context, so the measured contraction is an experimentally accessible component of defense rather than a complete account of freely behaving avoidance."
+      ],
+      "figure": {
+        "path": "figures/p1.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+        "caption": "Pinsker et al. (1970), Fig. 1(A–C). Gill, siphon, recording preparation, and stimulus-intensity responses."
+      }
+    },
+    {
+      "layout": "figures-left",
+      "title": "Repeated harmless stimulation reduces withdrawal",
+      "body": [
+        "**Habituation** is a decrease in responsiveness caused by repeated presentation of a stimulus. Pinsker and colleagues repeatedly stimulated the same siphon receptive region while holding the seawater-jet stimulus constant. The gill contracted progressively less even though the stimulus continued to reach the animal.",
+        "Across stimulus intervals ranging from seconds to several minutes, responses commonly approached about 25% of the initial amplitude. Longer spacing slowed the decrement. The relation between repetition and response therefore depended on the temporal history of stimulation, rather than simply on elapsed time in the apparatus.",
+        "A smaller movement alone cannot locate the change in the nervous system. Sensory adaptation, weaker central transmission, altered motor-neuron activity, or muscle fatigue could all reduce contraction. Controlled stimulation established the behavioral phenomenon; intracellular recordings were needed to distinguish these possible mechanisms."
+      ],
+      "cite": "Pinsker et al. (1970)",
+      "refs": [
+        "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740"
+      ],
+      "transcript": [
+        "Habituation is a decrease in responsiveness caused by repeated presentation of a stimulus. Pinsker and colleagues repeatedly stimulated the same siphon receptive region while holding the seawater-jet stimulus constant. The gill contracted progressively less even though the stimulus continued to reach the animal.",
+        "Across stimulus intervals ranging from seconds to several minutes, responses commonly approached about 25% of the initial amplitude. Longer spacing slowed the decrement. The relation between repetition and response therefore depended on the temporal history of stimulation, rather than simply on elapsed time in the apparatus.",
+        "A smaller movement alone cannot locate the change in the nervous system. Sensory adaptation, weaker central transmission, altered motor-neuron activity, or muscle fatigue could all reduce contraction. Controlled stimulation established the behavioral phenomenon; intracellular recordings were needed to distinguish these possible mechanisms."
+      ],
+      "figures": [
+        {
+          "path": "figures/p2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 2(A–B). Withdrawal habituation, dishabituation, and recovery after rest."
+        },
+        {
+          "path": "figures/p1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 1(A–C). Gill, siphon, recording preparation, and stimulus-intensity responses."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Rest allows withdrawal responsiveness to recover",
+      "body": [
+        "**Spontaneous recovery** is the return of responsiveness after stimulation stops. In the gill-withdrawal experiments, a previously effective stimulus again produced a substantial contraction after a rest period. The recovered response could then decrease during another series of identical stimuli.",
+        "Recovery was not a single fixed-duration process. Pinsker and colleagues described a rapid component over approximately 10–20 min that accounted for about 75–85% of recovery, followed by a slower component. Some responses recovered fully within 10 min, whereas others remained incompletely recovered after 122 min.",
+        "The animal therefore retained the capacity to contract its gill after habituation. Recovery weakens an explanation based on irreversible injury or permanent motor failure, but it does not by itself distinguish sensory adaptation from reversible synaptic or network changes. Behavioral recovery and synaptic recovery must be measured in their respective preparations."
+      ],
+      "cite": "Pinsker et al. (1970)",
+      "refs": [
+        "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740"
+      ],
+      "transcript": [
+        "Spontaneous recovery is the return of responsiveness after stimulation stops. In the gill-withdrawal experiments, a previously effective stimulus again produced a substantial contraction after a rest period. The recovered response could then decrease during another series of identical stimuli.",
+        "Recovery was not a single fixed-duration process. Pinsker and colleagues described a rapid component over approximately 10–20 min that accounted for about 75–85% of recovery, followed by a slower component. Some responses recovered fully within 10 min, whereas others remained incompletely recovered after 122 min.",
+        "The animal therefore retained the capacity to contract its gill after habituation. Recovery weakens an explanation based on irreversible injury or permanent motor failure, but it does not by itself distinguish sensory adaptation from reversible synaptic or network changes. Behavioral recovery and synaptic recovery must be measured in their respective preparations."
+      ],
+      "figures": [
+        {
+          "path": "figures/p2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 2(A–B). Withdrawal habituation, dishabituation, and recovery after rest."
+        },
+        {
+          "path": "figures/p1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 1(A–C). Gill, siphon, recording preparation, and stimulus-intensity responses."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "A strong stimulus restores a habituated response",
+      "body": [
+        "**Dishabituation** is an increase in a previously habituated response after another, stronger stimulus. Pinsker and colleagues first reduced gill withdrawal with repeated siphon stimulation, then applied a strong tactile stimulus elsewhere on the animal. Subsequent presentations of the original test stimulus again evoked larger contractions.",
+        "The increase lasted for several minutes and could exceed the original response level. **Sensitization**, an increased responsiveness following a strong or noxious stimulus, can therefore be superimposed on the response that was reduced during habituation. Restoration of movement does not necessarily mean that every underlying depressive process has been reversed.",
+        "Using the same siphon test stimulus before and after the strong stimulus separated the test input from the modulatory event. The result requires a process capable of increasing defensive responsiveness across inputs; its cellular location remained unresolved by the behavioral measurement alone."
+      ],
+      "cite": "Pinsker et al. (1970)",
+      "refs": [
+        "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740"
+      ],
+      "transcript": [
+        "Dishabituation is an increase in a previously habituated response after another, stronger stimulus. Pinsker and colleagues first reduced gill withdrawal with repeated siphon stimulation, then applied a strong tactile stimulus elsewhere on the animal. Subsequent presentations of the original test stimulus again evoked larger contractions.",
+        "The increase lasted for several minutes and could exceed the original response level. Sensitization, an increased responsiveness following a strong or noxious stimulus, can therefore be superimposed on the response that was reduced during habituation. Restoration of movement does not necessarily mean that every underlying depressive process has been reversed.",
+        "Using the same siphon test stimulus before and after the strong stimulus separated the test input from the modulatory event. The result requires a process capable of increasing defensive responsiveness across inputs; its cellular location remained unresolved by the behavioral measurement alone."
+      ],
+      "figures": [
+        {
+          "path": "figures/p3.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 3(A–B). Repeated-stimulation decrement and recovery of gill withdrawal."
+        },
+        {
+          "path": "figures/p1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 1(A–C). Gill, siphon, recording preparation, and stimulus-intensity responses."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Identified neurons connect siphon input to gill output",
+      "body": [
+        "Castellucci and colleagues isolated the **abdominal ganglion**, a cluster of neuronal cell bodies, while preserving a siphon nerve and its attached receptive skin. A **sensory neuron** detects stimulation of that skin, whereas a **motor neuron** drives contraction of a peripheral target. Large, identifiable cells permitted repeated intracellular recordings.",
+        "Brief mechanical or electrical skin stimuli produced an **excitatory postsynaptic potential**, or EPSP, in an identified gill motor neuron, usually L7. An EPSP is a membrane depolarization that brings a neuron closer to the voltage threshold for firing an action potential. Repeated stimulation reduced this response.",
+        "The preparation retained a defined input pathway while removing much of the animal. Matching neural changes to gill-withdrawal behavior therefore required comparison with more intact preparations. Identifying a sensory–motor connection established an accessible circuit element, rather than proving that the entire reflex was monosynaptic."
+      ],
+      "cite": "Castellucci et al. (1970); Chen et al. (2014)",
+      "refs": [
+        "Castellucci V; Pinsker H; Kupfermann I; Kandel ER (1970). Neuronal Mechanisms of Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1745-1748. https://doi.org/10.1126/science.167.3926.1745",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Castellucci and colleagues isolated the abdominal ganglion, a cluster of neuronal cell bodies, while preserving a siphon nerve and its attached receptive skin. A sensory neuron detects stimulation of that skin, whereas a motor neuron drives contraction of a peripheral target. Large, identifiable cells permitted repeated intracellular recordings.",
+        "Brief mechanical or electrical skin stimuli produced an excitatory postsynaptic potential, or EPSP, in an identified gill motor neuron, usually L7. An EPSP is a membrane depolarization that brings a neuron closer to the voltage threshold for firing an action potential. Repeated stimulation reduced this response.",
+        "The preparation retained a defined input pathway while removing much of the animal. Matching neural changes to gill-withdrawal behavior therefore required comparison with more intact preparations. Identifying a sensory–motor connection established an accessible circuit element, rather than proving that the entire reflex was monosynaptic."
+      ],
+      "figures": [
+        {
+          "path": "figures/c1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1745",
+          "caption": "Castellucci et al. (1970), Fig. 1(A–B). Receptive skin, isolated ganglion, and motor-cell potentials."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "Synaptic efficacy can fall while spikes still arrive",
+      "body": [
+        "A **monosynaptic connection** links a presynaptic neuron directly to a postsynaptic neuron without an intervening interneuron. Castellucci and colleagues used brief skin stimuli and elevated divalent-ion concentrations to suppress much of the polysynaptic activity while recording elementary EPSPs in a gill motor neuron.",
+        "The EPSPs had a short, stable latency and decreased during repeated stimulation. Their decrement persisted when the motor neuron was hyperpolarized to reduce spontaneous inhibitory potentials. Direct connective stimulation also produced decrement, reducing the likelihood that only adaptation of the stimulated skin explained the result.",
+        "These controls placed an important change within central excitatory transmission. They did not yet identify the molecular release machinery or exclude plasticity at other connections. A propagated sensory action potential and a reduced postsynaptic response can coexist because the effectiveness of transmission at their synapse has changed."
+      ],
+      "cite": "Castellucci et al. (1970); Chen et al. (2014)",
+      "refs": [
+        "Castellucci V; Pinsker H; Kupfermann I; Kandel ER (1970). Neuronal Mechanisms of Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1745-1748. https://doi.org/10.1126/science.167.3926.1745",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "A monosynaptic connection links a presynaptic neuron directly to a postsynaptic neuron without an intervening interneuron. Castellucci and colleagues used brief skin stimuli and elevated divalent-ion concentrations to suppress much of the polysynaptic activity while recording elementary EPSPs in a gill motor neuron.",
+        "The EPSPs had a short, stable latency and decreased during repeated stimulation. Their decrement persisted when the motor neuron was hyperpolarized to reduce spontaneous inhibitory potentials. Direct connective stimulation also produced decrement, reducing the likelihood that only adaptation of the stimulated skin explained the result.",
+        "These controls placed an important change within central excitatory transmission. They did not yet identify the molecular release machinery or exclude plasticity at other connections. A propagated sensory action potential and a reduced postsynaptic response can coexist because the effectiveness of transmission at their synapse has changed."
+      ],
+      "figures": [
+        {
+          "path": "figures/c2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1745",
+          "caption": "Castellucci et al. (1970), Fig. 2(A–D). Elementary EPSP decrement, recovery, and connective-induced facilitation."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Motor-neuron firing explains only part of withdrawal",
+      "body": [
+        "Antonov and colleagues combined intracellular recordings with siphon-movement measurements in a reduced preparation. **LFS motor neurons** were identified output cells for siphon withdrawal, and **LE sensory neurons** supplied tactile input. Artificially stimulating one LFS neuron allowed its contribution to movement to be compared with withdrawal evoked by siphon touch.",
+        "A single LFS neuron's contribution increased with its firing rate. Comparisons of movement, complex postsynaptic potentials, and individual sensory–motor EPSPs suggested that the LE-to-LFS monosynaptic pathway mediated approximately one-third of the measured reflex response. Other circuit and peripheral mechanisms supplied the remaining contribution.",
+        "This estimate applies to siphon flaring in this preparation, not to every component of gill or siphon withdrawal. Directly activating the motor cell bypassed sensory processing, providing a control for changes downstream of sensory input while also restricting which circuit mechanisms could be assessed."
+      ],
+      "cite": "Antonov et al. (1999)",
+      "refs": [
+        "Antonov I; Kandel ER; Hawkins RD (1999). The Contribution of Facilitation of Monosynaptic PSPs to Dishabituation and Sensitization of the Aplysia Siphon Withdrawal Reflex. The Journal of Neuroscience, 19(23): 10438-10450. https://doi.org/10.1523/jneurosci.19-23-10438.1999"
+      ],
+      "transcript": [
+        "Antonov and colleagues combined intracellular recordings with siphon-movement measurements in a reduced preparation. LFS motor neurons were identified output cells for siphon withdrawal, and LE sensory neurons supplied tactile input. Artificially stimulating one LFS neuron allowed its contribution to movement to be compared with withdrawal evoked by siphon touch.",
+        "A single LFS neuron's contribution increased with its firing rate. Comparisons of movement, complex postsynaptic potentials, and individual sensory–motor EPSPs suggested that the LE-to-LFS monosynaptic pathway mediated approximately one-third of the measured reflex response. Other circuit and peripheral mechanisms supplied the remaining contribution.",
+        "This estimate applies to siphon flaring in this preparation, not to every component of gill or siphon withdrawal. Directly activating the motor cell bypassed sensory processing, providing a control for changes downstream of sensory input while also restricting which circuit mechanisms could be assessed."
+      ],
+      "figures": [
+        {
+          "path": "figures/a4.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.19-23-10438.1999",
+          "caption": "Antonov et al. (1999), Fig. 4(A–B). Motor-cell firing compared with siphon withdrawal."
+        },
+        {
+          "path": "figures/a1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.19-23-10438.1999",
+          "caption": "Antonov et al. (1999), Fig. 1(A–B). Siphon, ganglia, and behavioral training protocols."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "Behavior and neural responses change together",
+      "body": [
+        "Antonov and colleagues recorded siphon withdrawal, LFS motor-neuron firing, LE sensory-neuron firing, and synaptic potentials during behavioral training. Habituation used repeated siphon taps, whereas dishabituation added tail shock after habituation. Sensitization was tested by applying shock without the same prior habituation history.",
+        "Withdrawal, motor-cell firing, complex postsynaptic potentials, and monosynaptic sensory–motor potentials generally changed in parallel. Facilitation occurred for sensory neurons whose receptive fields included the test location and for sensory neurons activated from other locations. The shock's modulatory action was therefore broader than the originally tapped sensory input.",
+        "Parallel changes connect synaptic physiology to an observable defensive response, but do not make one synapse the sole memory site. The siphon preparation also lacked some transient inhibition described in gill preparations, so apparent differences between dishabituation and sensitization depended partly on which reflex component was measured."
+      ],
+      "cite": "Antonov et al. (1999)",
+      "refs": [
+        "Antonov I; Kandel ER; Hawkins RD (1999). The Contribution of Facilitation of Monosynaptic PSPs to Dishabituation and Sensitization of the Aplysia Siphon Withdrawal Reflex. The Journal of Neuroscience, 19(23): 10438-10450. https://doi.org/10.1523/jneurosci.19-23-10438.1999"
+      ],
+      "transcript": [
+        "Antonov and colleagues recorded siphon withdrawal, LFS motor-neuron firing, LE sensory-neuron firing, and synaptic potentials during behavioral training. Habituation used repeated siphon taps, whereas dishabituation added tail shock after habituation. Sensitization was tested by applying shock without the same prior habituation history.",
+        "Withdrawal, motor-cell firing, complex postsynaptic potentials, and monosynaptic sensory–motor potentials generally changed in parallel. Facilitation occurred for sensory neurons whose receptive fields included the test location and for sensory neurons activated from other locations. The shock's modulatory action was therefore broader than the originally tapped sensory input.",
+        "Parallel changes connect synaptic physiology to an observable defensive response, but do not make one synapse the sole memory site. The siphon preparation also lacked some transient inhibition described in gill preparations, so apparent differences between dishabituation and sensitization depended partly on which reflex component was measured."
+      ],
+      "figures": [
+        {
+          "path": "figures/a6.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.19-23-10438.1999",
+          "caption": "Antonov et al. (1999), Fig. 6(A–C). Withdrawal, motor activity, and sensory activity during training."
+        },
+        {
+          "path": "figures/a1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.19-23-10438.1999",
+          "caption": "Antonov et al. (1999), Fig. 1(A–B). Siphon, ganglia, and behavioral training protocols."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Quantal analysis separates release from responsiveness",
+      "body": [
+        "Castellucci and Kandel analyzed sensory–motor transmission under conditions of low transmitter release. A **quantum** is the postsynaptic effect associated with a unit of transmitter release, usually interpreted as one vesicle's contents. Low calcium and high magnesium increased transmission failures and made small successful responses easier to resolve.",
+        "They repeatedly evoked sensory spikes and recorded motor-neuron EPSPs. The amplitudes fluctuated between failures and small responses, while the overall response became smaller during depression. Comparing successive periods of transmission distinguished a reduction in released quanta from a reduction in the motor neuron's response to an individual quantum.",
+        "This approach provided a functional estimate of release, not direct visualization of vesicle fusion. Its interpretation depends on resolving unitary responses and on the assumptions used to describe release statistics. The experimentally altered ionic environment also differs from transmission in an intact, normally perfused animal."
+      ],
+      "cite": "Castellucci & Kandel (1974); Chen et al. (2014)",
+      "refs": [
+        "Castellucci VF; Kandel ER (1974). A Quantal Analysis of the Synaptic Depression Underlying Habituation of the Gill-Withdrawal Reflex in Aplysia. Proceedings of the National Academy of Sciences, 71(12): 5004-5008. https://doi.org/10.1073/pnas.71.12.5004",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Castellucci and Kandel analyzed sensory–motor transmission under conditions of low transmitter release. A quantum is the postsynaptic effect associated with a unit of transmitter release, usually interpreted as one vesicle's contents. Low calcium and high magnesium increased transmission failures and made small successful responses easier to resolve.",
+        "They repeatedly evoked sensory spikes and recorded motor-neuron EPSPs. The amplitudes fluctuated between failures and small responses, while the overall response became smaller during depression. Comparing successive periods of transmission distinguished a reduction in released quanta from a reduction in the motor neuron's response to an individual quantum.",
+        "This approach provided a functional estimate of release, not direct visualization of vesicle fusion. Its interpretation depends on resolving unitary responses and on the assumptions used to describe release statistics. The experimentally altered ionic environment also differs from transmission in an intact, normally perfused animal."
+      ],
+      "figures": [
+        {
+          "path": "figures/q2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1073/pnas.71.12.5004",
+          "caption": "Castellucci & Kandel (1974), Fig. 2. Small successful EPSPs and failures during depression."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "Habituation reduces the number of released quanta",
+      "body": [
+        "During synaptic depression, Castellucci and Kandel found a decrease in **quantal content**, the average number of transmitter quanta released per sensory impulse. The size of the estimated unitary postsynaptic response remained approximately unchanged. Less transmitter therefore reached the motor neuron even when the sensory neuron was still stimulated.",
+        "Averaged successful EPSPs retained a similar time course during depression, while failures became more common. An unchanged quantum size argued against a major loss of postsynaptic receptor sensitivity in this short-term preparation. It placed the dominant measured change on the presynaptic side of the sensory–motor synapse.",
+        "A presynaptic result does not specify whether vesicles are depleted, release probability falls, or release sites become unavailable. Those alternatives can produce similar reductions in mean transmission. Quantal analysis identified which side of the synapse changed most strongly under the tested conditions, rather than a complete molecular mechanism."
+      ],
+      "cite": "Castellucci & Kandel (1974); Chen et al. (2014)",
+      "refs": [
+        "Castellucci VF; Kandel ER (1974). A Quantal Analysis of the Synaptic Depression Underlying Habituation of the Gill-Withdrawal Reflex in Aplysia. Proceedings of the National Academy of Sciences, 71(12): 5004-5008. https://doi.org/10.1073/pnas.71.12.5004",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "During synaptic depression, Castellucci and Kandel found a decrease in quantal content, the average number of transmitter quanta released per sensory impulse. The size of the estimated unitary postsynaptic response remained approximately unchanged. Less transmitter therefore reached the motor neuron even when the sensory neuron was still stimulated.",
+        "Averaged successful EPSPs retained a similar time course during depression, while failures became more common. An unchanged quantum size argued against a major loss of postsynaptic receptor sensitivity in this short-term preparation. It placed the dominant measured change on the presynaptic side of the sensory–motor synapse.",
+        "A presynaptic result does not specify whether vesicles are depleted, release probability falls, or release sites become unavailable. Those alternatives can produce similar reductions in mean transmission. Quantal analysis identified which side of the synapse changed most strongly under the tested conditions, rather than a complete molecular mechanism."
+      ],
+      "figures": [
+        {
+          "path": "figures/q3.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1073/pnas.71.12.5004",
+          "caption": "Castellucci & Kandel (1974), Fig. 3(E1–2). Averaged successful EPSPs retain similar waveforms during depression."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Depression does not follow a simple depletion rule",
+      "body": [
+        "**Homosynaptic depression** is reduced transmission caused by activity in the same synaptic pathway. Gover and colleagues compared strong and weak sensory–motor connections while evoking sensory action potentials at 15 s intervals. Strong and weak connections differed in their initial transmission and paired-pulse behavior but depressed at similar rates.",
+        "**Paired-pulse ratio** compares the postsynaptic responses to two closely spaced presynaptic spikes. Applying 2 mM 4-aminopyridine, a potassium-channel blocker, broadened sensory spikes and increased calcium-dependent release. This manipulation changed initial transmission and paired-pulse behavior without producing the depression expected from a simple relationship between greater release and faster depletion.",
+        "The observations supported stimulus-dependent silencing of functional release sites. They did not directly image a release-site switch or identify its molecular substrate. Vesicle availability can still influence transmission, but vesicle depletion alone did not explain these depression kinetics."
+      ],
+      "cite": "Gover et al. (2002); Chen et al. (2014)",
+      "refs": [
+        "Gover TD; Jiang XY; Abrams TW (2002). Persistent, Exocytosis-Independent Silencing of Release Sites Underlies Homosynaptic Depression at Sensory Synapses inAplysia. The Journal of Neuroscience, 22(5): 1942-1955. https://doi.org/10.1523/jneurosci.22-05-01942.2002",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Homosynaptic depression is reduced transmission caused by activity in the same synaptic pathway. Gover and colleagues compared strong and weak sensory–motor connections while evoking sensory action potentials at 15 s intervals. Strong and weak connections differed in their initial transmission and paired-pulse behavior but depressed at similar rates.",
+        "Paired-pulse ratio compares the postsynaptic responses to two closely spaced presynaptic spikes. Applying 2 mM 4-aminopyridine, a potassium-channel blocker, broadened sensory spikes and increased calcium-dependent release. This manipulation changed initial transmission and paired-pulse behavior without producing the depression expected from a simple relationship between greater release and faster depletion.",
+        "The observations supported stimulus-dependent silencing of functional release sites. They did not directly image a release-site switch or identify its molecular substrate. Vesicle availability can still influence transmission, but vesicle depletion alone did not explain these depression kinetics."
+      ],
+      "figures": [
+        {
+          "path": "figures/s2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.22-05-01942.2002",
+          "caption": "Gover et al. (2002), Fig. 2(A–D). Empirical depression and paired-pulse responses at strong and weak connections."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "Depressed release can persist through a long rest",
+      "body": [
+        "Gover and colleagues induced homosynaptic depression with repeated sensory-neuron stimulation, then left the connection unstimulated for 40 min. Subsequent EPSPs remained depressed rather than returning automatically to their original amplitude. A comparison with a shorter rest interval separated persistent depression from immediate stimulation effects.",
+        "Motor-neuron responsiveness and sensory-cell stimulation remained measurable. Together with the release-manipulation experiments, the persistence favored an activity-triggered change in functional release-site availability over a simple exhausted pool that rapidly refills at rest. The proposed switch remained a mechanistic interpretation of electrophysiological data.",
+        "This prolonged synaptic depression does not contradict the behavioral recovery reported in intact animals: stimulus history, ionic conditions, measured connections, and network contributions differed. A recovery time measured for a whole defensive movement cannot be assigned to every sensory–motor synapse without testing that connection directly."
+      ],
+      "cite": "Gover et al. (2002); Chen et al. (2014)",
+      "refs": [
+        "Gover TD; Jiang XY; Abrams TW (2002). Persistent, Exocytosis-Independent Silencing of Release Sites Underlies Homosynaptic Depression at Sensory Synapses inAplysia. The Journal of Neuroscience, 22(5): 1942-1955. https://doi.org/10.1523/jneurosci.22-05-01942.2002",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Gover and colleagues induced homosynaptic depression with repeated sensory-neuron stimulation, then left the connection unstimulated for 40 min. Subsequent EPSPs remained depressed rather than returning automatically to their original amplitude. A comparison with a shorter rest interval separated persistent depression from immediate stimulation effects.",
+        "Motor-neuron responsiveness and sensory-cell stimulation remained measurable. Together with the release-manipulation experiments, the persistence favored an activity-triggered change in functional release-site availability over a simple exhausted pool that rapidly refills at rest. The proposed switch remained a mechanistic interpretation of electrophysiological data.",
+        "This prolonged synaptic depression does not contradict the behavioral recovery reported in intact animals: stimulus history, ionic conditions, measured connections, and network contributions differed. A recovery time measured for a whole defensive movement cannot be assigned to every sensory–motor synapse without testing that connection directly."
+      ],
+      "figures": [
+        {
+          "path": "figures/s10.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.22-05-01942.2002",
+          "caption": "Gover et al. (2002), Fig. 13(A–B). Persistence of depression after 40 min or 100 s of rest."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Habituation can be retained for weeks",
+      "body": [
+        "Carew and colleagues tested **long-term habituation**, a reduction in responsiveness retained beyond the immediate training session. Unrestrained animals received ten siphon-stimulation trials per day over four days. Withdrawal duration was timed by an observer who did not know the animal's training group.",
+        "Trained animals responded less than control animals when tested after 24 h and one week. Reduced responsiveness remained detectable after three weeks, although some recovery had occurred. Gill-withdrawal tests in a restrained preparation also found retention, extending the behavioral result beyond the visually accessible siphon component.",
+        "The comparison controlled for handling and testing history, but long-lasting behavioral change did not identify its cellular substrate. Training-related retention could involve persistent synaptic efficacy, altered connectivity, or changes elsewhere in the circuit. The weeks-long effect established that a simple withdrawal system supports enduring nonassociative learning."
+      ],
+      "cite": "Carew et al. (1972); Pinsker et al. (1970)",
+      "refs": [
+        "Carew TJ; Pinsker HM; Kandel ER (1972). Long-Term Habituation of a Defensive Withdrawal Reflex in Aplysia. Science, 175(4020): 451-454. https://doi.org/10.1126/science.175.4020.451",
+        "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740"
+      ],
+      "transcript": [
+        "Carew and colleagues tested long-term habituation, a reduction in responsiveness retained beyond the immediate training session. Unrestrained animals received ten siphon-stimulation trials per day over four days. Withdrawal duration was timed by an observer who did not know the animal's training group.",
+        "Trained animals responded less than control animals when tested after 24 h and one week. Reduced responsiveness remained detectable after three weeks, although some recovery had occurred. Gill-withdrawal tests in a restrained preparation also found retention, extending the behavioral result beyond the visually accessible siphon component.",
+        "The comparison controlled for handling and testing history, but long-lasting behavioral change did not identify its cellular substrate. Training-related retention could involve persistent synaptic efficacy, altered connectivity, or changes elsewhere in the circuit. The weeks-long effect established that a simple withdrawal system supports enduring nonassociative learning."
+      ],
+      "figures": [
+        {
+          "path": "figures/h1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.175.4020.451",
+          "caption": "Carew et al. (1972), Fig. 1(A–C). Training and retention of withdrawal habituation over three weeks."
+        },
+        {
+          "path": "figures/p1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 1(A–C). Gill, siphon, recording preparation, and stimulus-intensity responses."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "Training spacing changes habituation retention",
+      "body": [
+        "Carew and colleagues compared forty habituation trials given in one day with the same total distributed over four days. The **massed** condition concentrated experience, whereas the **spaced** condition separated daily sessions. Matching the total number of trials isolated their temporal distribution as an experimental variable.",
+        "Both schedules produced substantial decrement during training. Spaced training yielded stronger retention after 24 h and one week than massed training. The final response during a training session therefore did not uniquely predict how much of the change would persist across days.",
+        "The measured outcome was withdrawal behavior, not protein synthesis or synapse number. These experiments establish a spacing effect in the defensive reflex but do not identify the molecular events responsible for it. Later cellular protocols could compare temporal patterns while directly testing requirements for lasting synaptic modification."
+      ],
+      "cite": "Carew et al. (1972); Pinsker et al. (1970)",
+      "refs": [
+        "Carew TJ; Pinsker HM; Kandel ER (1972). Long-Term Habituation of a Defensive Withdrawal Reflex in Aplysia. Science, 175(4020): 451-454. https://doi.org/10.1126/science.175.4020.451",
+        "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740"
+      ],
+      "transcript": [
+        "Carew and colleagues compared forty habituation trials given in one day with the same total distributed over four days. The massed condition concentrated experience, whereas the spaced condition separated daily sessions. Matching the total number of trials isolated their temporal distribution as an experimental variable.",
+        "Both schedules produced substantial decrement during training. Spaced training yielded stronger retention after 24 h and one week than massed training. The final response during a training session therefore did not uniquely predict how much of the change would persist across days.",
+        "The measured outcome was withdrawal behavior, not protein synthesis or synapse number. These experiments establish a spacing effect in the defensive reflex but do not identify the molecular events responsible for it. Later cellular protocols could compare temporal patterns while directly testing requirements for lasting synaptic modification."
+      ],
+      "figures": [
+        {
+          "path": "figures/h2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.175.4020.451",
+          "caption": "Carew et al. (1972), Fig. 2(A–B). Matched trial totals with spaced versus massed training."
+        },
+        {
+          "path": "figures/p1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 1(A–C). Gill, siphon, recording preparation, and stimulus-intensity responses."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figure-right",
+      "title": "Long-term training changes sensory-neuron arbors",
+      "body": [
+        "Bailey and Chen filled identified sensory neurons with **horseradish peroxidase**, an enzyme used to reveal their processes, and reconstructed the labeled arbors after behavioral training. A **varicosity** is an axonal swelling that can contain presynaptic release machinery. Counting these swellings compared anatomical connectivity across trained and control animals.",
+        "Control neurons in the habituation comparison averaged 1,291 varicosities, whereas neurons from long-term habituated animals averaged 836. In the sensitization comparison, the corresponding averages were 1,320 and 2,697. The anatomical changes therefore had opposite directions for persistent response decrement and persistent response enhancement.",
+        "These are counts of labeled structures, not direct measurements of transmitter release at every swelling. Training and anatomy were associated, but the counting experiment alone did not establish that each changed varicosity caused a particular remembered response or that all memory information resided in the counted structures."
+      ],
+      "cite": "Bailey & Chen (1988a)",
+      "refs": [
+        "Bailey CH; Chen M (1988a). Long-term memory in Aplysia modulates the total number of varicosities of single identified sensory neurons. Proceedings of the National Academy of Sciences, 85(7): 2373-2377. https://doi.org/10.1073/pnas.85.7.2373"
+      ],
+      "transcript": [
+        "Bailey and Chen filled identified sensory neurons with horseradish peroxidase, an enzyme used to reveal their processes, and reconstructed the labeled arbors after behavioral training. A varicosity is an axonal swelling that can contain presynaptic release machinery. Counting these swellings compared anatomical connectivity across trained and control animals.",
+        "Control neurons in the habituation comparison averaged 1,291 varicosities, whereas neurons from long-term habituated animals averaged 836. In the sensitization comparison, the corresponding averages were 1,320 and 2,697. The anatomical changes therefore had opposite directions for persistent response decrement and persistent response enhancement.",
+        "These are counts of labeled structures, not direct measurements of transmitter release at every swelling. Training and anatomy were associated, but the counting experiment alone did not establish that each changed varicosity caused a particular remembered response or that all memory information resided in the counted structures."
+      ],
+      "figure": {
+        "path": "figures/b2.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1073/pnas.85.7.2373",
+        "caption": "Bailey & Chen (1988a), Fig. 2. Reconstructed sensory-neuron arbors in sensitized animals and controls."
+      }
+    },
+    {
+      "layout": "figures-left",
+      "title": "Long-term sensitization strengthens identified synapses",
+      "body": [
+        "Frost and colleagues trained intact animals for long-term sensitization, then recorded identified sensory–motor connections in isolated abdominal ganglia. **Sensitization** increases defensive responsiveness after strong stimulation without requiring a predictive relation between two stimuli. The test asked whether a persistent behavioral change was accompanied by stronger central transmission.",
+        "Monosynaptic EPSPs onto the gill motor neuron L7 were larger in trained animals than in controls. Baseline motor-cell membrane properties were examined to distinguish increased synaptic input from a generalized increase in postsynaptic resistance. The recorded connection could therefore retain a consequence of prior behavioral experience.",
+        "The experiment linked whole-animal training to persistent sensory–motor enhancement, but did not exclude changes in interneurons, other motor cells, or peripheral targets. Isolating the ganglion also removed ongoing behavioral context. Long-term sensitization recruited an identified synapse without reducing the entire memory to that single connection."
+      ],
+      "cite": "Frost et al. (1985); Chen et al. (2014)",
+      "refs": [
+        "Frost WN; Castellucci VF; Hawkins RD; Kandel ER (1985). Monosynaptic connections made by the sensory neurons of the gill- and siphon-withdrawal reflex in Aplysia participate in the storage of long-term memory for sensitization. Proceedings of the National Academy of Sciences, 82(23): 8266-8269. https://doi.org/10.1073/pnas.82.23.8266",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Frost and colleagues trained intact animals for long-term sensitization, then recorded identified sensory–motor connections in isolated abdominal ganglia. Sensitization increases defensive responsiveness after strong stimulation without requiring a predictive relation between two stimuli. The test asked whether a persistent behavioral change was accompanied by stronger central transmission.",
+        "Monosynaptic EPSPs onto the gill motor neuron L7 were larger in trained animals than in controls. Baseline motor-cell membrane properties were examined to distinguish increased synaptic input from a generalized increase in postsynaptic resistance. The recorded connection could therefore retain a consequence of prior behavioral experience.",
+        "The experiment linked whole-animal training to persistent sensory–motor enhancement, but did not exclude changes in interneurons, other motor cells, or peripheral targets. Isolating the ganglion also removed ongoing behavioral context. Long-term sensitization recruited an identified synapse without reducing the entire memory to that single connection."
+      ],
+      "figures": [
+        {
+          "path": "figures/f2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1073/pnas.82.23.8266",
+          "caption": "Frost et al. (1985), Fig. 2(A–B). Sensory–motor EPSPs after long-term sensitization training."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Serotonin facilitates depressed sensory–motor transmission",
+      "body": [
+        "Brunelli and colleagues compared serotonin, dopamine, and octopamine at the sensory-neuron connection onto a gill motor neuron. **Serotonin**, also called 5-hydroxytryptamine or 5-HT, is a neuromodulator: it changes how an existing pathway responds rather than simply conveying the tactile test stimulus.",
+        "Sensory neurons were stimulated fifteen times at 10 s intervals to depress their EPSPs. Serotonin applied during a 2.5 min rest increased the subsequent synaptic responses. In the published comparison, 2 μM and 100 μM serotonin produced facilitation, whereas matched periods of rest without serotonin did not produce the same enhancement.",
+        "An antagonist, cinanserin, reversibly reduced facilitation evoked by connective stimulation while leaving repeated-stimulation depression intact. These pharmacological results supported a serotonergic contribution, but antagonist effects alone did not identify a receptor subtype or establish that every sensitizing pathway uses serotonin exclusively."
+      ],
+      "cite": "Brunelli et al. (1976); Chen et al. (2014)",
+      "refs": [
+        "Brunelli M; Castellucci V; Kandel ER (1976). Synaptic Facilitation and Behavioral Sensitization in Aplysia : Possible Role of Serotonin and Cyclic AMP. Science, 194(4270): 1178-1181. https://doi.org/10.1126/science.186870",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Brunelli and colleagues compared serotonin, dopamine, and octopamine at the sensory-neuron connection onto a gill motor neuron. Serotonin, also called 5-hydroxytryptamine or 5-HT, is a neuromodulator: it changes how an existing pathway responds rather than simply conveying the tactile test stimulus.",
+        "Sensory neurons were stimulated fifteen times at 10 s intervals to depress their EPSPs. Serotonin applied during a 2.5 min rest increased the subsequent synaptic responses. In the published comparison, 2 μM and 100 μM serotonin produced facilitation, whereas matched periods of rest without serotonin did not produce the same enhancement.",
+        "An antagonist, cinanserin, reversibly reduced facilitation evoked by connective stimulation while leaving repeated-stimulation depression intact. These pharmacological results supported a serotonergic contribution, but antagonist effects alone did not identify a receptor subtype or establish that every sensitizing pathway uses serotonin exclusively."
+      ],
+      "figures": [
+        {
+          "path": "figures/br1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.186870",
+          "caption": "Brunelli et al. (1976), Fig. 1(A–B). Serotonin facilitates EPSPs; cinanserin reduces connective-induced facilitation."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "Intracellular cyclic AMP can enhance transmitter release",
+      "body": [
+        "**Cyclic AMP**, or cAMP, is an intracellular second messenger that links receptor activation to downstream cellular responses. Brunelli and colleagues applied a membrane-permeant cAMP analog and injected cAMP directly into sensory-neuron cell bodies. Both manipulations enhanced EPSPs evoked in their postsynaptic motor neurons.",
+        "Controls included rest alone, comparable current injection, cyclic GMP, and 5′-AMP. These alternatives did not reproduce the cAMP effect. Injected cAMP enhanced transmission without changing the amplitude or duration of the action potential recorded at the sensory cell body, separating synaptic efficacy from that particular spike measurement.",
+        "The intervention supported cAMP as a mediator of facilitation, but did not specify every downstream target. An unchanged somatic spike also cannot exclude altered spike propagation or calcium entry at distant terminals. Compartment-specific signaling requires measurements or interventions at the relevant subcellular sites."
+      ],
+      "cite": "Brunelli et al. (1976); Chen et al. (2014)",
+      "refs": [
+        "Brunelli M; Castellucci V; Kandel ER (1976). Synaptic Facilitation and Behavioral Sensitization in Aplysia : Possible Role of Serotonin and Cyclic AMP. Science, 194(4270): 1178-1181. https://doi.org/10.1126/science.186870",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Cyclic AMP, or cAMP, is an intracellular second messenger that links receptor activation to downstream cellular responses. Brunelli and colleagues applied a membrane-permeant cAMP analog and injected cAMP directly into sensory-neuron cell bodies. Both manipulations enhanced EPSPs evoked in their postsynaptic motor neurons.",
+        "Controls included rest alone, comparable current injection, cyclic GMP, and 5′-AMP. These alternatives did not reproduce the cAMP effect. Injected cAMP enhanced transmission without changing the amplitude or duration of the action potential recorded at the sensory cell body, separating synaptic efficacy from that particular spike measurement.",
+        "The intervention supported cAMP as a mediator of facilitation, but did not specify every downstream target. An unchanged somatic spike also cannot exclude altered spike propagation or calcium entry at distant terminals. Compartment-specific signaling requires measurements or interventions at the relevant subcellular sites."
+      ],
+      "figures": [
+        {
+          "path": "figures/br2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.186870",
+          "caption": "Brunelli et al. (1976), Fig. 2(B). Intracellular cAMP enhances transmission relative to injection controls."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "PKA anchoring is required for serotonin facilitation",
+      "body": [
+        "**Protein kinase A**, or PKA, transfers phosphate groups onto target proteins when activated by cAMP. Its regulatory subunits restrain catalytic subunits; cAMP binding relieves this restraint. Liu and colleagues distinguished type I and type II PKA through their different regulatory subunits and cellular distributions.",
+        "**A-kinase anchoring proteins**, or AKAPs, localize type II PKA by binding its RII regulatory subunit. The Ht31 peptide disrupts this interaction. Ht31 reduced serotonin-induced short-term and long-term facilitation, whereas an inactive control peptide did not produce the same impairment.",
+        "The result made subcellular localization part of the mechanism: kinase activity must be available near appropriate targets. Disrupting an anchoring interaction does not identify every phosphorylated target or exclude other kinases. The experiments established a requirement for localized PKA signaling in this sensorimotor preparation."
+      ],
+      "cite": "Liu et al. (2004); Chen et al. (2014)",
+      "refs": [
+        "Liu J; Hu JY; Schacher S; Schwartz JH (2004). The Two Regulatory Subunits ofAplysiacAMP-Dependent Protein Kinase Mediate Distinct Functions in Producing Synaptic Plasticity. The Journal of Neuroscience, 24(10): 2465-2474. https://doi.org/10.1523/jneurosci.4331-03.2004",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Protein kinase A, or PKA, transfers phosphate groups onto target proteins when activated by cAMP. Its regulatory subunits restrain catalytic subunits; cAMP binding relieves this restraint. Liu and colleagues distinguished type I and type II PKA through their different regulatory subunits and cellular distributions.",
+        "A-kinase anchoring proteins, or AKAPs, localize type II PKA by binding its RII regulatory subunit. The Ht31 peptide disrupts this interaction. Ht31 reduced serotonin-induced short-term and long-term facilitation, whereas an inactive control peptide did not produce the same impairment.",
+        "The result made subcellular localization part of the mechanism: kinase activity must be available near appropriate targets. Disrupting an anchoring interaction does not identify every phosphorylated target or exclude other kinases. The experiments established a requirement for localized PKA signaling in this sensorimotor preparation."
+      ],
+      "figures": [
+        {
+          "path": "figures/k1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.4331-03.2004",
+          "caption": "Liu et al. (2004), Fig. 1(A–C). PKA anchoring disruption and short- versus long-term facilitation."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figure-left",
+      "title": "PKA subunits occupy different neuronal compartments",
+      "body": [
+        "Liu and colleagues compared PKA regulatory subunits in cell bodies, neurites, and **synaptosomes**, isolated terminal-enriched particles from nervous tissue. Type I PKA was predominantly soluble, whereas type II PKA was enriched in neuronal processes and associated with prominent anchoring proteins near nerve endings.",
+        "Repeated serotonin treatment increased RII protein in synaptosome preparations at 24 h. Immunostaining also detected increased RII in sensory neurons. These measurements connected prolonged facilitation to altered amounts and localization of a signaling protein rather than merely to a transient elevation of cAMP.",
+        "A terminal-enriched fraction is not a pure population of individually identified learning synapses. Localization supports access to presynaptic targets but does not prove a particular phosphorylation event caused release enhancement. The complementary roles assigned to nuclear type I and synaptic type II PKA remained an interpretation integrating biochemical and physiological results."
+      ],
+      "cite": "Liu et al. (2004)",
+      "refs": [
+        "Liu J; Hu JY; Schacher S; Schwartz JH (2004). The Two Regulatory Subunits ofAplysiacAMP-Dependent Protein Kinase Mediate Distinct Functions in Producing Synaptic Plasticity. The Journal of Neuroscience, 24(10): 2465-2474. https://doi.org/10.1523/jneurosci.4331-03.2004"
+      ],
+      "transcript": [
+        "Liu and colleagues compared PKA regulatory subunits in cell bodies, neurites, and synaptosomes, isolated terminal-enriched particles from nervous tissue. Type I PKA was predominantly soluble, whereas type II PKA was enriched in neuronal processes and associated with prominent anchoring proteins near nerve endings.",
+        "Repeated serotonin treatment increased RII protein in synaptosome preparations at 24 h. Immunostaining also detected increased RII in sensory neurons. These measurements connected prolonged facilitation to altered amounts and localization of a signaling protein rather than merely to a transient elevation of cAMP.",
+        "A terminal-enriched fraction is not a pure population of individually identified learning synapses. Localization supports access to presynaptic targets but does not prove a particular phosphorylation event caused release enhancement. The complementary roles assigned to nuclear type I and synaptic type II PKA remained an interpretation integrating biochemical and physiological results."
+      ],
+      "figure": {
+        "path": "figures/k5.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1523/jneurosci.4331-03.2004",
+        "caption": "Liu et al. (2004), Fig. 5(A–D). RII protein levels in terminal fractions and sensory neurons."
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "New RII expression contributes to lasting facilitation",
+      "body": [
+        "Liu and colleagues tested whether increased RII expression was necessary for long-term facilitation rather than only associated with it. **Antisense oligonucleotides** are short nucleic-acid sequences designed to bind a target RNA and reduce its expression. They were injected into sensory neurons before repeated serotonin treatment.",
+        "RII antisense reduced the serotonin-induced increase in RII protein and impaired facilitation measured 24 h later. Control injections and manipulations of the other regulatory-subunit class helped distinguish target-dependent effects from a nonspecific consequence of intracellular injection. Electrophysiological and protein measurements were obtained in parallel.",
+        "This intervention linked a specific expression change to enduring transmission enhancement. It did not imply that all lasting facilitation is produced by RII alone: transcription, translation, anchoring, and other signaling pathways still interact. Knockdown establishes a requirement under the tested protocol, not the sufficiency of a complete memory mechanism."
+      ],
+      "cite": "Liu et al. (2004)",
+      "refs": [
+        "Liu J; Hu JY; Schacher S; Schwartz JH (2004). The Two Regulatory Subunits ofAplysiacAMP-Dependent Protein Kinase Mediate Distinct Functions in Producing Synaptic Plasticity. The Journal of Neuroscience, 24(10): 2465-2474. https://doi.org/10.1523/jneurosci.4331-03.2004"
+      ],
+      "transcript": [
+        "Liu and colleagues tested whether increased RII expression was necessary for long-term facilitation rather than only associated with it. Antisense oligonucleotides are short nucleic-acid sequences designed to bind a target RNA and reduce its expression. They were injected into sensory neurons before repeated serotonin treatment.",
+        "RII antisense reduced the serotonin-induced increase in RII protein and impaired facilitation measured 24 h later. Control injections and manipulations of the other regulatory-subunit class helped distinguish target-dependent effects from a nonspecific consequence of intracellular injection. Electrophysiological and protein measurements were obtained in parallel.",
+        "This intervention linked a specific expression change to enduring transmission enhancement. It did not imply that all lasting facilitation is produced by RII alone: transcription, translation, anchoring, and other signaling pathways still interact. Knockdown establishes a requirement under the tested protocol, not the sufficiency of a complete memory mechanism."
+      ],
+      "figure": {
+        "path": "figures/k7.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1523/jneurosci.4331-03.2004",
+        "caption": "Liu et al. (2004), Fig. 7(A–D). RII antisense impairs expression and long-term facilitation."
+      }
+    },
+    {
+      "layout": "figures-left",
+      "title": "Glutamate can reproduce the fast excitatory input",
+      "body": [
+        "Dale and Kandel compared sensory-neuron-evoked currents with motor-neuron responses to applied **L-glutamate**, an amino-acid neurotransmitter. Voltage-clamp recordings held the motor cell at controlled membrane potentials while measuring synaptic current. This separated voltage dependence from changes in the motor neuron's firing threshold.",
+        "Evoked transmission and glutamate responses shared important voltage-dependent and pharmacological properties. Magnesium suppressed a component at negative voltages, consistent with a channel block relieved by depolarization. The authors concluded that glutamate was a likely fast excitatory transmitter, while acknowledging differences between applied agonist responses and naturally released transmitter.",
+        "**Ionotropic receptors** directly control membrane ion channels when transmitter binds. Their current depolarizes the motor cell and can recruit spikes that activate withdrawal muscles. Similar pharmacology supports transmitter identity but is not equivalent to directly measuring the chemical contents of every sensory-neuron vesicle."
+      ],
+      "cite": "Dale & Kandel (1993); Chen et al. (2014)",
+      "refs": [
+        "Dale N; Kandel ER (1993). L-glutamate may be the fast excitatory transmitter of Aplysia sensory neurons. Proceedings of the National Academy of Sciences, 90(15): 7163-7167. https://doi.org/10.1073/pnas.90.15.7163",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Dale and Kandel compared sensory-neuron-evoked currents with motor-neuron responses to applied L-glutamate, an amino-acid neurotransmitter. Voltage-clamp recordings held the motor cell at controlled membrane potentials while measuring synaptic current. This separated voltage dependence from changes in the motor neuron's firing threshold.",
+        "Evoked transmission and glutamate responses shared important voltage-dependent and pharmacological properties. Magnesium suppressed a component at negative voltages, consistent with a channel block relieved by depolarization. The authors concluded that glutamate was a likely fast excitatory transmitter, while acknowledging differences between applied agonist responses and naturally released transmitter.",
+        "Ionotropic receptors directly control membrane ion channels when transmitter binds. Their current depolarizes the motor cell and can recruit spikes that activate withdrawal muscles. Similar pharmacology supports transmitter identity but is not equivalent to directly measuring the chemical contents of every sensory-neuron vesicle."
+      ],
+      "figures": [
+        {
+          "path": "figures/g2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1073/pnas.90.15.7163",
+          "caption": "Dale & Kandel (1993), Fig. 2(A–C). Voltage-dependent currents evoked by sensory spikes and applied glutamate."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Postsynaptic calcium contributes to facilitation",
+      "body": [
+        "Li and colleagues tested cultured sensory–motor synapses while introducing **BAPTA**, a fast calcium-binding buffer, into the motor neuron. Intracellular calcium can regulate signaling without itself being the extracellular transmitter. Targeting the postsynaptic cell tested whether facilitation required a change beyond the sensory terminal.",
+        "A 10 min application of 10 μM serotonin enhanced control EPSPs. Buffering postsynaptic calcium reduced the facilitation, particularly after serotonin was removed. Matched motor-cell injections and test-alone conditions distinguished the calcium manipulation from recording-related changes and from the baseline effects of repeated testing.",
+        "The result established a postsynaptic calcium requirement in this preparation. It did not erase the presynaptic evidence from quantal analysis or cAMP interventions: a single connection can change on both sides. Culture conditions and stimulus duration also differ from the original intact gill-withdrawal experiments."
+      ],
+      "cite": "Li et al. (2005); Chen et al. (2014)",
+      "refs": [
+        "Li Q; Roberts AC; Glanzman DL (2005). Synaptic Facilitation and Behavioral Dishabituation in Aplysia: Dependence on Release of Ca2+ from Postsynaptic Intracellular Stores, Postsynaptic Exocytosis, and Modulation of Postsynaptic AMPA Receptor Efficacy. Journal of Neuroscience, 25(23): 5623-5637. https://doi.org/10.1523/jneurosci.5305-04.2005",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Li and colleagues tested cultured sensory–motor synapses while introducing BAPTA, a fast calcium-binding buffer, into the motor neuron. Intracellular calcium can regulate signaling without itself being the extracellular transmitter. Targeting the postsynaptic cell tested whether facilitation required a change beyond the sensory terminal.",
+        "A 10 min application of 10 μM serotonin enhanced control EPSPs. Buffering postsynaptic calcium reduced the facilitation, particularly after serotonin was removed. Matched motor-cell injections and test-alone conditions distinguished the calcium manipulation from recording-related changes and from the baseline effects of repeated testing.",
+        "The result established a postsynaptic calcium requirement in this preparation. It did not erase the presynaptic evidence from quantal analysis or cAMP interventions: a single connection can change on both sides. Culture conditions and stimulus duration also differ from the original intact gill-withdrawal experiments."
+      ],
+      "figures": [
+        {
+          "path": "figures/l1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.5305-04.2005",
+          "caption": "Li et al. (2005), Fig. 1(A–B). Postsynaptic calcium buffering reduces serotonin facilitation."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "Internal calcium stores support synaptic enhancement",
+      "body": [
+        "The **endoplasmic reticulum** stores calcium that can be released into the cytoplasm through regulated channels. Li and colleagues injected heparin into motor neurons to interfere with **inositol trisphosphate receptors**, or IP3 receptors, one class of intracellular calcium-release channel. They then measured serotonin-dependent EPSP enhancement.",
+        "Postsynaptic heparin reduced facilitation relative to control conditions. Complementary experiments used other store-related interventions, including manipulation of ryanodine receptors. These channels regulate intracellular calcium availability, distinct from the voltage-gated calcium entry that triggers transmitter release at sensory terminals.",
+        "Pharmacological interference supports dependence on calcium stores, but inhibitors can have additional effects and do not quantify the calcium signal at every synapse. The evidence is strongest when cellular targeting, time course, baseline transmission, and independent interventions converge. It supports a postsynaptic signaling contribution rather than identifying one exclusive route from serotonin to behavior."
+      ],
+      "cite": "Li et al. (2005); Chen et al. (2014)",
+      "refs": [
+        "Li Q; Roberts AC; Glanzman DL (2005). Synaptic Facilitation and Behavioral Dishabituation in Aplysia: Dependence on Release of Ca2+ from Postsynaptic Intracellular Stores, Postsynaptic Exocytosis, and Modulation of Postsynaptic AMPA Receptor Efficacy. Journal of Neuroscience, 25(23): 5623-5637. https://doi.org/10.1523/jneurosci.5305-04.2005",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "The endoplasmic reticulum stores calcium that can be released into the cytoplasm through regulated channels. Li and colleagues injected heparin into motor neurons to interfere with inositol trisphosphate receptors, or IP3 receptors, one class of intracellular calcium-release channel. They then measured serotonin-dependent EPSP enhancement.",
+        "Postsynaptic heparin reduced facilitation relative to control conditions. Complementary experiments used other store-related interventions, including manipulation of ryanodine receptors. These channels regulate intracellular calcium availability, distinct from the voltage-gated calcium entry that triggers transmitter release at sensory terminals.",
+        "Pharmacological interference supports dependence on calcium stores, but inhibitors can have additional effects and do not quantify the calcium signal at every synapse. The evidence is strongest when cellular targeting, time course, baseline transmission, and independent interventions converge. It supports a postsynaptic signaling contribution rather than identifying one exclusive route from serotonin to behavior."
+      ],
+      "figures": [
+        {
+          "path": "figures/l2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.5305-04.2005",
+          "caption": "Li et al. (2005), Fig. 2(A–B). Postsynaptic IP3-receptor intervention and EPSPs."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Postsynaptic exocytosis supports sustained facilitation",
+      "body": [
+        "**Exocytosis** is fusion of an intracellular membrane compartment with the cell surface. Li and colleagues injected botulinum toxin B into motor neurons to interfere with this process. Testing the postsynaptic cell distinguished membrane trafficking there from transmitter-vesicle fusion in the sensory neuron.",
+        "During and after a 10 min serotonin exposure, control synapses showed enhanced EPSPs. Postsynaptic toxin disrupted the lasting component after serotonin offset. Additional recordings in ganglia distinguished **AMPA-type** and **NMDA-type** glutamate-receptor contributions; the later enhancement preferentially involved the AMPA-mediated response.",
+        "The combined results supported calcium-dependent insertion or regulation of postsynaptic AMPA receptors. The toxin intervention did not directly count individual inserted receptors, and receptor-specific currents do not establish every trafficking step. Presynaptic release enhancement and postsynaptic receptor regulation can cooperate while having different onset and persistence."
+      ],
+      "cite": "Li et al. (2005); Chen et al. (2014)",
+      "refs": [
+        "Li Q; Roberts AC; Glanzman DL (2005). Synaptic Facilitation and Behavioral Dishabituation in Aplysia: Dependence on Release of Ca2+ from Postsynaptic Intracellular Stores, Postsynaptic Exocytosis, and Modulation of Postsynaptic AMPA Receptor Efficacy. Journal of Neuroscience, 25(23): 5623-5637. https://doi.org/10.1523/jneurosci.5305-04.2005",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Exocytosis is fusion of an intracellular membrane compartment with the cell surface. Li and colleagues injected botulinum toxin B into motor neurons to interfere with this process. Testing the postsynaptic cell distinguished membrane trafficking there from transmitter-vesicle fusion in the sensory neuron.",
+        "During and after a 10 min serotonin exposure, control synapses showed enhanced EPSPs. Postsynaptic toxin disrupted the lasting component after serotonin offset. Additional recordings in ganglia distinguished AMPA-type and NMDA-type glutamate-receptor contributions; the later enhancement preferentially involved the AMPA-mediated response.",
+        "The combined results supported calcium-dependent insertion or regulation of postsynaptic AMPA receptors. The toxin intervention did not directly count individual inserted receptors, and receptor-specific currents do not establish every trafficking step. Presynaptic release enhancement and postsynaptic receptor regulation can cooperate while having different onset and persistence."
+      ],
+      "figures": [
+        {
+          "path": "figures/l5.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.5305-04.2005",
+          "caption": "Li et al. (2005), Fig. 5(A–B). Postsynaptic botulinum toxin affects persistent EPSP enhancement."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "Motor-cell intervention can block dishabituation",
+      "body": [
+        "Li and colleagues extended postsynaptic interventions from culture to a reduced siphon-withdrawal preparation. Repeated siphon taps produced habituation, followed by tail shock and further siphon tests. Identified motor neurons were injected with botulinum toxin B before the behavioral sequence.",
+        "Control preparations increased siphon withdrawal after shock, whereas postsynaptic toxin impaired this dishabituation. Recording motor activity alongside movement connected a cell-targeted intervention to a measured behavioral change. Test-alone and vehicle-related comparisons helped distinguish the intervention from stimulation history and the injection procedure.",
+        "The behavioral result supported a functional contribution from postsynaptic exocytosis in siphon motor cells. It did not prove that the same trafficking requirement accounts for every gill response or every sensitization protocol. A reduced reflex preparation permits causal access to identified neurons while omitting parts of the intact animal's network and sensory environment."
+      ],
+      "cite": "Li et al. (2005); Antonov et al. (1999)",
+      "refs": [
+        "Li Q; Roberts AC; Glanzman DL (2005). Synaptic Facilitation and Behavioral Dishabituation in Aplysia: Dependence on Release of Ca2+ from Postsynaptic Intracellular Stores, Postsynaptic Exocytosis, and Modulation of Postsynaptic AMPA Receptor Efficacy. Journal of Neuroscience, 25(23): 5623-5637. https://doi.org/10.1523/jneurosci.5305-04.2005",
+        "Antonov I; Kandel ER; Hawkins RD (1999). The Contribution of Facilitation of Monosynaptic PSPs to Dishabituation and Sensitization of the Aplysia Siphon Withdrawal Reflex. The Journal of Neuroscience, 19(23): 10438-10450. https://doi.org/10.1523/jneurosci.19-23-10438.1999"
+      ],
+      "transcript": [
+        "Li and colleagues extended postsynaptic interventions from culture to a reduced siphon-withdrawal preparation. Repeated siphon taps produced habituation, followed by tail shock and further siphon tests. Identified motor neurons were injected with botulinum toxin B before the behavioral sequence.",
+        "Control preparations increased siphon withdrawal after shock, whereas postsynaptic toxin impaired this dishabituation. Recording motor activity alongside movement connected a cell-targeted intervention to a measured behavioral change. Test-alone and vehicle-related comparisons helped distinguish the intervention from stimulation history and the injection procedure.",
+        "The behavioral result supported a functional contribution from postsynaptic exocytosis in siphon motor cells. It did not prove that the same trafficking requirement accounts for every gill response or every sensitization protocol. A reduced reflex preparation permits causal access to identified neurons while omitting parts of the intact animal's network and sensory environment."
+      ],
+      "figures": [
+        {
+          "path": "figures/l9.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.5305-04.2005",
+          "caption": "Li et al. (2005), Fig. 9(A–D). Reduced withdrawal preparation and motor-cell intervention during dishabituation."
+        },
+        {
+          "path": "figures/a1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.19-23-10438.1999",
+          "caption": "Antonov et al. (1999), Fig. 1(A–B). Siphon, ganglia, and behavioral training protocols."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Repeated serotonin induces day-long facilitation",
+      "body": [
+        "Montarolo and colleagues cultured identified sensory neurons with the gill motor neuron L7. A single serotonin application produced short-term EPSP enhancement, whereas five 5 min applications distributed over approximately 1.5 h produced **long-term facilitation**, a persistent increase in synaptic transmission measured after the training stimulus ended.",
+        "At 24 h, repeated treatment increased connection strength by approximately 71%, whereas a single application did not leave the same persistent enhancement. Controls received equivalent recording and perfusion procedures without the repeated serotonin sequence. The same sensory–motor pair could be reexamined after the delay.",
+        "This cellular analog reproduced temporal features of sensitization but did not measure withdrawal behavior. The contrast between one and repeated applications established that stimulus history can recruit lasting synaptic change. It did not by itself identify which macromolecules or cellular compartments preserve that enhancement."
+      ],
+      "cite": "Montarolo et al. (1986); Chen et al. (2014)",
+      "refs": [
+        "Montarolo PG; Goelet P; Castellucci VF; Morgan J; Kandel ER; Schacher S (1986). A Critical Period for Macromolecular Synthesis in Long-Term Heterosynaptic Facilitation in Aplysia. Science, 234(4781): 1249-1254. https://doi.org/10.1126/science.3775383",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Montarolo and colleagues cultured identified sensory neurons with the gill motor neuron L7. A single serotonin application produced short-term EPSP enhancement, whereas five 5 min applications distributed over approximately 1.5 h produced long-term facilitation, a persistent increase in synaptic transmission measured after the training stimulus ended.",
+        "At 24 h, repeated treatment increased connection strength by approximately 71%, whereas a single application did not leave the same persistent enhancement. Controls received equivalent recording and perfusion procedures without the repeated serotonin sequence. The same sensory–motor pair could be reexamined after the delay.",
+        "This cellular analog reproduced temporal features of sensitization but did not measure withdrawal behavior. The contrast between one and repeated applications established that stimulus history can recruit lasting synaptic change. It did not by itself identify which macromolecules or cellular compartments preserve that enhancement."
+      ],
+      "figures": [
+        {
+          "path": "figures/mo1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.3775383",
+          "caption": "Montarolo et al. (1986), Fig. 1(A–C). Repeated serotonin and macromolecular-synthesis interventions."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "Lasting facilitation requires new macromolecules",
+      "body": [
+        "Montarolo and colleagues applied inhibitors during repeated serotonin treatment to distinguish immediate facilitation from its persistence. **Translation** makes protein from RNA, whereas **transcription** makes RNA from a DNA template. Anisomycin and emetine interfered with translation; actinomycin D and α-amanitin interfered with transcription.",
+        "The inhibitors prevented the enhancement normally retained at 24 h while allowing short-term facilitation during serotonin exposure. Drug-alone cultures, baseline connections, and reapplication tests helped distinguish a selective impairment of persistence from generalized failure of synaptic transmission. The immediate and delayed responses therefore had different macromolecular requirements.",
+        "Preserved short-term facilitation made simple neuronal death or complete transmission blockade inadequate explanations. Nevertheless, synthesis inhibitors affect many cellular products and cannot identify the individual proteins required. The experiment established synthesis dependence during induction rather than a unique molecular storage substrate."
+      ],
+      "cite": "Montarolo et al. (1986); Chen et al. (2014)",
+      "refs": [
+        "Montarolo PG; Goelet P; Castellucci VF; Morgan J; Kandel ER; Schacher S (1986). A Critical Period for Macromolecular Synthesis in Long-Term Heterosynaptic Facilitation in Aplysia. Science, 234(4781): 1249-1254. https://doi.org/10.1126/science.3775383",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Montarolo and colleagues applied inhibitors during repeated serotonin treatment to distinguish immediate facilitation from its persistence. Translation makes protein from RNA, whereas transcription makes RNA from a DNA template. Anisomycin and emetine interfered with translation; actinomycin D and α-amanitin interfered with transcription.",
+        "The inhibitors prevented the enhancement normally retained at 24 h while allowing short-term facilitation during serotonin exposure. Drug-alone cultures, baseline connections, and reapplication tests helped distinguish a selective impairment of persistence from generalized failure of synaptic transmission. The immediate and delayed responses therefore had different macromolecular requirements.",
+        "Preserved short-term facilitation made simple neuronal death or complete transmission blockade inadequate explanations. Nevertheless, synthesis inhibitors affect many cellular products and cannot identify the individual proteins required. The experiment established synthesis dependence during induction rather than a unique molecular storage substrate."
+      ],
+      "figures": [
+        {
+          "path": "figures/mo2.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.3775383",
+          "caption": "Montarolo et al. (1986), Fig. 2(A–C). Short-term facilitation persists during synthesis inhibition."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "The synthesis requirement has a limited time window",
+      "body": [
+        "Montarolo and colleagues varied when anisomycin was present relative to repeated serotonin. A 3 h exposure during and immediately after induction blocked long-term facilitation, whereas comparable inhibition beginning much earlier or several hours later did not produce the same loss of the 24 h enhancement.",
+        "Biochemical measurements confirmed strong suppression of protein synthesis during drug exposure and recovery after washout. These controls connected the intervention timing to its cellular action. Long-term facilitation therefore depended on new synthesis within a restricted induction period rather than continuously on the same inhibitor-sensitive process throughout the experiment.",
+        "A critical window is compatible with production of proteins that initiate or stabilize persistent change. It does not reveal their identities, turnover rates, or locations. Separate experiments are required to distinguish transcription-dependent somatic production from translation near individual synaptic terminals."
+      ],
+      "cite": "Montarolo et al. (1986); Chen et al. (2014)",
+      "refs": [
+        "Montarolo PG; Goelet P; Castellucci VF; Morgan J; Kandel ER; Schacher S (1986). A Critical Period for Macromolecular Synthesis in Long-Term Heterosynaptic Facilitation in Aplysia. Science, 234(4781): 1249-1254. https://doi.org/10.1126/science.3775383",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Montarolo and colleagues varied when anisomycin was present relative to repeated serotonin. A 3 h exposure during and immediately after induction blocked long-term facilitation, whereas comparable inhibition beginning much earlier or several hours later did not produce the same loss of the 24 h enhancement.",
+        "Biochemical measurements confirmed strong suppression of protein synthesis during drug exposure and recovery after washout. These controls connected the intervention timing to its cellular action. Long-term facilitation therefore depended on new synthesis within a restricted induction period rather than continuously on the same inhibitor-sensitive process throughout the experiment.",
+        "A critical window is compatible with production of proteins that initiate or stabilize persistent change. It does not reveal their identities, turnover rates, or locations. Separate experiments are required to distinguish transcription-dependent somatic production from translation near individual synaptic terminals."
+      ],
+      "figures": [
+        {
+          "path": "figures/mo4.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.3775383",
+          "caption": "Montarolo et al. (1986), Fig. 4(A–C). Timing of synthesis inhibition relative to long-term facilitation."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figure-left",
+      "title": "Sensitization increases contacts onto the gill motor cell",
+      "body": [
+        "Bailey and Chen combined labeling of sensory neurons with labeling of the identified gill motor neuron L7. Electron microscopy resolved labeled sensory terminals contacting labeled motor-cell processes. Comparing trained and control animals therefore examined a more specific relationship than counting all varicosities in a sensory arbor.",
+        "Long-term sensitization increased the number of presynaptic contacts onto L7. The morphological change did not involve a corresponding increase in the size of every presynaptic swelling or every active zone, the specialized membrane region supporting transmitter release. More contacts provided one anatomical route to stronger total input.",
+        "A labeled contact is not a simultaneous physiological measurement of its release probability. The study associated lasting behavioral sensitization with structural connectivity at an identified output cell, but did not establish that contact addition alone explains the full memory or excludes functional changes at retained synapses."
+      ],
+      "cite": "Bailey & Chen (1988b)",
+      "refs": [
+        "Bailey CH; Chen M (1988b). Long-term sensitization in Aplysia increases the number of presynaptic contacts onto the identified gill motor neuron L7. Proceedings of the National Academy of Sciences, 85(23): 9356-9359. https://doi.org/10.1073/pnas.85.23.9356"
+      ],
+      "transcript": [
+        "Bailey and Chen combined labeling of sensory neurons with labeling of the identified gill motor neuron L7. Electron microscopy resolved labeled sensory terminals contacting labeled motor-cell processes. Comparing trained and control animals therefore examined a more specific relationship than counting all varicosities in a sensory arbor.",
+        "Long-term sensitization increased the number of presynaptic contacts onto L7. The morphological change did not involve a corresponding increase in the size of every presynaptic swelling or every active zone, the specialized membrane region supporting transmitter release. More contacts provided one anatomical route to stronger total input.",
+        "A labeled contact is not a simultaneous physiological measurement of its release probability. The study associated lasting behavioral sensitization with structural connectivity at an identified output cell, but did not establish that contact addition alone explains the full memory or excludes functional changes at retained synapses."
+      ],
+      "figure": {
+        "path": "figures/contact.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1073/pnas.85.23.9356",
+        "caption": "Bailey & Chen (1988b), Fig. 1(A–C). Electron micrographs of labeled contacts onto gill motor-cell processes."
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Serotonin increases synapsin near release sites",
+      "body": [
+        "**Synapsin** is a protein associated with synaptic vesicles and their organization. Hart and colleagues treated sensory neurons with repeated serotonin and measured synapsin RNA, protein, and immunostaining. **Immunostaining** uses antibodies to reveal a protein's distribution within a cell.",
+        "Synapsin levels increased after treatment, with enhanced staining in sensory-neuron varicosities at 2 h and 24 h. The intervening time course was not a simple monotonic rise. Measurements in isolated cultured neurons and nervous tissue connected an expression response to presynaptic structures that participate in transmitter release.",
+        "Increased staining alone does not establish that the protein is necessary for facilitation, nor does it directly report vesicle fusion. Quantification required comparison with similarly processed controls and consistent imaging conditions. Synapsin became a candidate effector linking serotonin-dependent gene regulation to persistent changes in synaptic function."
+      ],
+      "cite": "Hart et al. (2011)",
+      "refs": [
+        "Hart AK; Fioravante D; Liu RY; Phares GA; Cleary LJ; Byrne JH (2011). Serotonin-Mediated Synapsin Expression Is Necessary for Long-Term Facilitation of theAplysiaSensorimotor Synapse. The Journal of Neuroscience, 31(50): 18401-18411. https://doi.org/10.1523/jneurosci.2816-11.2011"
+      ],
+      "transcript": [
+        "Synapsin is a protein associated with synaptic vesicles and their organization. Hart and colleagues treated sensory neurons with repeated serotonin and measured synapsin RNA, protein, and immunostaining. Immunostaining uses antibodies to reveal a protein's distribution within a cell.",
+        "Synapsin levels increased after treatment, with enhanced staining in sensory-neuron varicosities at 2 h and 24 h. The intervening time course was not a simple monotonic rise. Measurements in isolated cultured neurons and nervous tissue connected an expression response to presynaptic structures that participate in transmitter release.",
+        "Increased staining alone does not establish that the protein is necessary for facilitation, nor does it directly report vesicle fusion. Quantification required comparison with similarly processed controls and consistent imaging conditions. Synapsin became a candidate effector linking serotonin-dependent gene regulation to persistent changes in synaptic function."
+      ],
+      "figure": {
+        "path": "figures/t2.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1523/jneurosci.2816-11.2011",
+        "caption": "Hart et al. (2011), Fig. 2(A–B). Synapsin immunostaining in sensory-neuron varicosities."
+      }
+    },
+    {
+      "layout": "figure-left",
+      "title": "CREB couples serotonin signaling to synapsin expression",
+      "body": [
+        "**CREB1**, the cAMP response element-binding protein, is a transcription factor that regulates gene expression by binding DNA. A **promoter** is a DNA region that controls transcription of a gene. Hart and colleagues identified a cAMP response element in the Aplysia synapsin promoter.",
+        "A promoter-driven fluorescent reporter increased expression after serotonin treatment. Chromatin immunoprecipitation, which isolates DNA associated with a selected protein, found increased CREB1 association with the synapsin promoter. These complementary measurements connected a regulatory DNA sequence, transcription-factor binding, and enhanced expression.",
+        "The reporter tests promoter regulation outside the full native genomic setting, while DNA binding does not by itself prove that CREB1 is the only required regulator. Together, the assays support a route from serotonin-dependent signaling to synapsin production without assigning every transcriptional response in long-term facilitation to a single gene."
+      ],
+      "cite": "Hart et al. (2011)",
+      "refs": [
+        "Hart AK; Fioravante D; Liu RY; Phares GA; Cleary LJ; Byrne JH (2011). Serotonin-Mediated Synapsin Expression Is Necessary for Long-Term Facilitation of theAplysiaSensorimotor Synapse. The Journal of Neuroscience, 31(50): 18401-18411. https://doi.org/10.1523/jneurosci.2816-11.2011"
+      ],
+      "transcript": [
+        "CREB1, the cAMP response element-binding protein, is a transcription factor that regulates gene expression by binding DNA. A promoter is a DNA region that controls transcription of a gene. Hart and colleagues identified a cAMP response element in the Aplysia synapsin promoter.",
+        "A promoter-driven fluorescent reporter increased expression after serotonin treatment. Chromatin immunoprecipitation, which isolates DNA associated with a selected protein, found increased CREB1 association with the synapsin promoter. These complementary measurements connected a regulatory DNA sequence, transcription-factor binding, and enhanced expression.",
+        "The reporter tests promoter regulation outside the full native genomic setting, while DNA binding does not by itself prove that CREB1 is the only required regulator. Together, the assays support a route from serotonin-dependent signaling to synapsin production without assigning every transcriptional response in long-term facilitation to a single gene."
+      ],
+      "figure": {
+        "path": "figures/t4.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1523/jneurosci.2816-11.2011",
+        "caption": "Hart et al. (2011), Fig. 4(A–B). Serotonin increases synapsin-promoter-driven reporter expression."
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "Histone regulation accompanies transcriptional activation",
+      "body": [
+        "DNA is packaged with **histones**, proteins whose chemical modifications influence access to regulatory regions. Hart and colleagues examined the synapsin promoter after serotonin treatment using antibodies that recognized CREB1, acetylated histones, and histone deacetylase 5. **Acetylation** adds an acetyl group to a protein.",
+        "Serotonin increased acetylation of histones H3 and H4 near the promoter and reduced association of histone deacetylase 5, an enzyme that removes acetyl groups. Increased CREB1 binding occurred in the same regulatory region. The combination was consistent with greater transcriptional accessibility and the measured increase in synapsin expression.",
+        "These assays measured molecular association in collected tissue, rather than transcription at every individual synapse. Correlated chromatin changes do not determine which modification initiates the response or whether each is independently necessary. The evidence connects gene regulation to facilitation while preserving those causal limits."
+      ],
+      "cite": "Hart et al. (2011)",
+      "refs": [
+        "Hart AK; Fioravante D; Liu RY; Phares GA; Cleary LJ; Byrne JH (2011). Serotonin-Mediated Synapsin Expression Is Necessary for Long-Term Facilitation of theAplysiaSensorimotor Synapse. The Journal of Neuroscience, 31(50): 18401-18411. https://doi.org/10.1523/jneurosci.2816-11.2011"
+      ],
+      "transcript": [
+        "DNA is packaged with histones, proteins whose chemical modifications influence access to regulatory regions. Hart and colleagues examined the synapsin promoter after serotonin treatment using antibodies that recognized CREB1, acetylated histones, and histone deacetylase 5. Acetylation adds an acetyl group to a protein.",
+        "Serotonin increased acetylation of histones H3 and H4 near the promoter and reduced association of histone deacetylase 5, an enzyme that removes acetyl groups. Increased CREB1 binding occurred in the same regulatory region. The combination was consistent with greater transcriptional accessibility and the measured increase in synapsin expression.",
+        "These assays measured molecular association in collected tissue, rather than transcription at every individual synapse. Correlated chromatin changes do not determine which modification initiates the response or whether each is independently necessary. The evidence connects gene regulation to facilitation while preserving those causal limits."
+      ],
+      "figure": {
+        "path": "figures/t5.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1523/jneurosci.2816-11.2011",
+        "caption": "Hart et al. (2011), Fig. 5(A–B). CREB binding and histone-related assays at the synapsin promoter."
+      }
+    },
+    {
+      "layout": "figures-left",
+      "title": "Synapsin knockdown impairs long-term facilitation",
+      "body": [
+        "**RNA interference** uses complementary small RNA molecules to reduce expression of a target RNA. Hart and colleagues injected sensory neurons with synapsin-targeting small interfering RNA, or siRNA, and compared them with neurons receiving control siRNA. Serotonin training and EPSP measurements were then performed in sensory–motor cocultures.",
+        "Targeting synapsin blocked the serotonin-induced increase in its protein and impaired facilitation measured 24 h later. Basal synapsin and short-term synaptic responses were examined separately. The intervention therefore connected the induced expression change to the lasting physiological outcome rather than relying solely on correlated staining.",
+        "A knockdown can have unintended effects, so matched control RNA and baseline measures constrain interpretation. The result identifies synapsin regulation as necessary under this protocol, not as the entire memory mechanism. Vesicle organization, receptor signaling, transcription, and synaptic structure remain interacting components of persistent enhancement."
+      ],
+      "cite": "Hart et al. (2011); Chen et al. (2014)",
+      "refs": [
+        "Hart AK; Fioravante D; Liu RY; Phares GA; Cleary LJ; Byrne JH (2011). Serotonin-Mediated Synapsin Expression Is Necessary for Long-Term Facilitation of theAplysiaSensorimotor Synapse. The Journal of Neuroscience, 31(50): 18401-18411. https://doi.org/10.1523/jneurosci.2816-11.2011",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "RNA interference uses complementary small RNA molecules to reduce expression of a target RNA. Hart and colleagues injected sensory neurons with synapsin-targeting small interfering RNA, or siRNA, and compared them with neurons receiving control siRNA. Serotonin training and EPSP measurements were then performed in sensory–motor cocultures.",
+        "Targeting synapsin blocked the serotonin-induced increase in its protein and impaired facilitation measured 24 h later. Basal synapsin and short-term synaptic responses were examined separately. The intervention therefore connected the induced expression change to the lasting physiological outcome rather than relying solely on correlated staining.",
+        "A knockdown can have unintended effects, so matched control RNA and baseline measures constrain interpretation. The result identifies synapsin regulation as necessary under this protocol, not as the entire memory mechanism. Vesicle organization, receptor signaling, transcription, and synaptic structure remain interacting components of persistent enhancement."
+      ],
+      "figures": [
+        {
+          "path": "figures/t7.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.2816-11.2011",
+          "caption": "Hart et al. (2011), Fig. 7(A–B). Synapsin siRNA impairs the 24 h facilitation response."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figure-right",
+      "title": "Local protein expression can change without a cell body",
+      "body": [
+        "Lee and colleagues examined **ApCPEB4**, an RNA-binding translation regulator in _Aplysia kurodai_, a related sea-hare species. They introduced fluorescent reporters linked to its 3′ untranslated region, an RNA segment that can regulate expression without encoding the protein sequence. Severed neurites separated local responses from continued delivery by the cell body.",
+        "Serotonin increased reporter expression in isolated neuronal processes. Translation-related interventions and controls distinguished this increase from a requirement for new transcription. The result supported a local pool of RNA capable of responding to modulatory signaling after separation from the nucleus.",
+        "Reporter fluorescence is an expression readout, not a direct measurement of every newly translated molecule at a synapse. Severing a process also changes its physiology. The assay established local regulatory capability and helped distinguish translational control from cell-wide transcriptional responses involved in longer-lasting facilitation."
+      ],
+      "cite": "Lee et al. (2016)",
+      "refs": [
+        "Lee SH; Shim J; Cheong YH; Choi SL; Jun YW; Lee SH; Chae YS; Han JH; Lee YS; Lee JA; Lim CS; Si K; Kassabov S; Antonov I; Kandel ER; Kaang BK; Jang DJ (2016). ApCPEB4, a non-prion domain containing homolog of ApCPEB, is involved in the initiation of long-term facilitation. Molecular Brain, 9(1): 91. https://doi.org/10.1186/s13041-016-0271-x"
+      ],
+      "transcript": [
+        "Lee and colleagues examined ApCPEB4, an RNA-binding translation regulator in Aplysia kurodai, a related sea-hare species. They introduced fluorescent reporters linked to its 3′ untranslated region, an RNA segment that can regulate expression without encoding the protein sequence. Severed neurites separated local responses from continued delivery by the cell body.",
+        "Serotonin increased reporter expression in isolated neuronal processes. Translation-related interventions and controls distinguished this increase from a requirement for new transcription. The result supported a local pool of RNA capable of responding to modulatory signaling after separation from the nucleus.",
+        "Reporter fluorescence is an expression readout, not a direct measurement of every newly translated molecule at a synapse. Severing a process also changes its physiology. The assay established local regulatory capability and helped distinguish translational control from cell-wide transcriptional responses involved in longer-lasting facilitation."
+      ],
+      "figure": {
+        "path": "figures/u2.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1186/s13041-016-0271-x",
+        "caption": "Lee et al. (2016), Fig. 2(a–c). Local reporter responses in sensory-neuron processes."
+      }
+    },
+    {
+      "layout": "figure-left",
+      "title": "ApCPEB4 is required for initiation of facilitation",
+      "body": [
+        "Lee and colleagues reduced ApCPEB4 expression with target-specific double-stranded RNA and recorded cultured sensory–motor EPSPs. Five serotonin pulses normally induced facilitation measured 24 h later. ApCPEB4 knockdown blocked this enhancement, whereas control RNA and knockdown of the previously characterized ApCPEB did not produce the same early effect.",
+        "Overexpressing ApCPEB4 lowered the threshold for persistent enhancement: one serotonin pulse could support a response that normally required repeated treatment. Fluorescent labeling and expression measurements accompanied the recordings, linking the intervention to the intended protein in the cultured sensory neuron.",
+        "**Initiation** of a persistent response and its later **maintenance** are different experimental questions. ApCPEB4 lacks the prion-like domain of ApCPEB, and the two proteins bind different RNA targets. The findings support distinct translation-regulatory roles rather than a universal requirement for one CPEB mechanism at every time point."
+      ],
+      "cite": "Lee et al. (2016)",
+      "refs": [
+        "Lee SH; Shim J; Cheong YH; Choi SL; Jun YW; Lee SH; Chae YS; Han JH; Lee YS; Lee JA; Lim CS; Si K; Kassabov S; Antonov I; Kandel ER; Kaang BK; Jang DJ (2016). ApCPEB4, a non-prion domain containing homolog of ApCPEB, is involved in the initiation of long-term facilitation. Molecular Brain, 9(1): 91. https://doi.org/10.1186/s13041-016-0271-x"
+      ],
+      "transcript": [
+        "Lee and colleagues reduced ApCPEB4 expression with target-specific double-stranded RNA and recorded cultured sensory–motor EPSPs. Five serotonin pulses normally induced facilitation measured 24 h later. ApCPEB4 knockdown blocked this enhancement, whereas control RNA and knockdown of the previously characterized ApCPEB did not produce the same early effect.",
+        "Overexpressing ApCPEB4 lowered the threshold for persistent enhancement: one serotonin pulse could support a response that normally required repeated treatment. Fluorescent labeling and expression measurements accompanied the recordings, linking the intervention to the intended protein in the cultured sensory neuron.",
+        "Initiation of a persistent response and its later maintenance are different experimental questions. ApCPEB4 lacks the prion-like domain of ApCPEB, and the two proteins bind different RNA targets. The findings support distinct translation-regulatory roles rather than a universal requirement for one CPEB mechanism at every time point."
+      ],
+      "figure": {
+        "path": "figures/u4.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1186/s13041-016-0271-x",
+        "caption": "Lee et al. (2016), Fig. 4(a–d). ApCPEB4 knockdown and overexpression alter facilitation."
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "PKA phosphorylation contributes to ApCPEB4 function",
+      "body": [
+        "Lee and colleagues tested whether ApCPEB4 could be phosphorylated by PKA and whether that modification affected facilitation. **Phosphorylation** adds a phosphate group and can change a protein's activity or interactions. Biochemical assays and neuronal expression experiments addressed different parts of this proposed signaling relationship.",
+        "PKA phosphorylated ApCPEB4; replacing threonine at position 294 with alanine prevented phosphorylation there and interfered with long-term facilitation. Pharmacological comparisons distinguished the PKA-sensitive effect from the tested ERK- and protein-kinase-C-related interventions. This connected a translation-regulatory protein to a kinase already implicated in serotonin-dependent synaptic enhancement.",
+        "A biochemical substrate relationship does not prove every phosphorylation event occurs at the same terminal during behavior. Mutations can also alter properties beyond phosphorylation. The combined evidence supports a PKA-to-ApCPEB4 contribution in the cultured connection, with its behavioral deployment requiring additional direct tests."
+      ],
+      "cite": "Lee et al. (2016)",
+      "refs": [
+        "Lee SH; Shim J; Cheong YH; Choi SL; Jun YW; Lee SH; Chae YS; Han JH; Lee YS; Lee JA; Lim CS; Si K; Kassabov S; Antonov I; Kandel ER; Kaang BK; Jang DJ (2016). ApCPEB4, a non-prion domain containing homolog of ApCPEB, is involved in the initiation of long-term facilitation. Molecular Brain, 9(1): 91. https://doi.org/10.1186/s13041-016-0271-x"
+      ],
+      "transcript": [
+        "Lee and colleagues tested whether ApCPEB4 could be phosphorylated by PKA and whether that modification affected facilitation. Phosphorylation adds a phosphate group and can change a protein's activity or interactions. Biochemical assays and neuronal expression experiments addressed different parts of this proposed signaling relationship.",
+        "PKA phosphorylated ApCPEB4; replacing threonine at position 294 with alanine prevented phosphorylation there and interfered with long-term facilitation. Pharmacological comparisons distinguished the PKA-sensitive effect from the tested ERK- and protein-kinase-C-related interventions. This connected a translation-regulatory protein to a kinase already implicated in serotonin-dependent synaptic enhancement.",
+        "A biochemical substrate relationship does not prove every phosphorylation event occurs at the same terminal during behavior. Mutations can also alter properties beyond phosphorylation. The combined evidence supports a PKA-to-ApCPEB4 contribution in the cultured connection, with its behavioral deployment requiring additional direct tests."
+      ],
+      "figure": {
+        "path": "figures/u5.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1186/s13041-016-0271-x",
+        "caption": "Lee et al. (2016), Fig. 5(a–c). Phosphorylation assays and mutated ApCPEB4 intervention."
+      }
+    },
+    {
+      "layout": "figure-left",
+      "title": "Neurotrophin isoforms differ in neuronal trafficking",
+      "body": [
+        "Kassabov and colleagues identified **ApNT**, an Aplysia neurotrophin, and **ApTrk**, its receptor tyrosine kinase. A neurotrophin is a secreted signaling protein that regulates neuronal growth or function. Alternative RNA processing generated ApNT isoforms with different protein-processing and secretion properties.",
+        "Tagged isoforms were expressed in sensory–motor cultures and compared by biochemical assays and fluorescence microscopy. Their distributions differed between cell bodies, neurites, and secretion-related compartments. The labeling connected molecular processing to subcellular localization rather than assuming that all neurotrophin forms reach the same targets.",
+        "Tagged overexpression may alter trafficking, and spatial overlap is not direct proof of receptor activation. Functional assays were therefore needed alongside localization. The study established an invertebrate neurotrophin pathway while distinguishing precursor processing, delivery, and physiological action as experimentally separable steps."
+      ],
+      "cite": "Kassabov et al. (2013)",
+      "refs": [
+        "Kassabov SR; Choi YB; Karl KA; Vishwasrao HD; Bailey CH; Kandel ER (2013). A Single Aplysia Neurotrophin Mediates Synaptic Facilitation via Differentially Processed Isoforms. Cell Reports, 3(4): 1213-1227. https://doi.org/10.1016/j.celrep.2013.03.008"
+      ],
+      "transcript": [
+        "Kassabov and colleagues identified ApNT, an Aplysia neurotrophin, and ApTrk, its receptor tyrosine kinase. A neurotrophin is a secreted signaling protein that regulates neuronal growth or function. Alternative RNA processing generated ApNT isoforms with different protein-processing and secretion properties.",
+        "Tagged isoforms were expressed in sensory–motor cultures and compared by biochemical assays and fluorescence microscopy. Their distributions differed between cell bodies, neurites, and secretion-related compartments. The labeling connected molecular processing to subcellular localization rather than assuming that all neurotrophin forms reach the same targets.",
+        "Tagged overexpression may alter trafficking, and spatial overlap is not direct proof of receptor activation. Functional assays were therefore needed alongside localization. The study established an invertebrate neurotrophin pathway while distinguishing precursor processing, delivery, and physiological action as experimentally separable steps."
+      ],
+      "figure": {
+        "path": "figures/nt4.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1016/j.celrep.2013.03.008",
+        "caption": "Kassabov et al. (2013), Fig. 4(A–E). ApNT isoform processing and localization in cultured neurons."
+      }
+    },
+    {
+      "layout": "figure-right",
+      "title": "ApNT signaling promotes synaptic strength and growth",
+      "body": [
+        "Kassabov and colleagues manipulated ApNT–ApTrk signaling in cultured sensory–motor connections. A **dominant-negative receptor** is an altered receptor designed to interfere with signaling by the normal receptor. Expressing dominant-negative ApTrk impaired serotonin-induced long-term facilitation while sparing the tested short-term enhancement.",
+        "Increasing ApNT expression enhanced synaptic strength and increased sensory-neuron varicosities. Confocal images collected over time linked the structural measurements to labeled neuronal processes. Functional EPSPs and growth were measured separately, rather than treating fluorescent structure as a substitute for transmission.",
+        "Overexpression establishes what elevated signaling can produce, whereas receptor interference tests a requirement under the training protocol. Neither intervention proves that neurotrophin signaling stores all details of a withdrawal memory. The results identify a growth-related contribution that interacts with serotonin, kinase activity, and gene-expression mechanisms."
+      ],
+      "cite": "Kassabov et al. (2013)",
+      "refs": [
+        "Kassabov SR; Choi YB; Karl KA; Vishwasrao HD; Bailey CH; Kandel ER (2013). A Single Aplysia Neurotrophin Mediates Synaptic Facilitation via Differentially Processed Isoforms. Cell Reports, 3(4): 1213-1227. https://doi.org/10.1016/j.celrep.2013.03.008"
+      ],
+      "transcript": [
+        "Kassabov and colleagues manipulated ApNT–ApTrk signaling in cultured sensory–motor connections. A dominant-negative receptor is an altered receptor designed to interfere with signaling by the normal receptor. Expressing dominant-negative ApTrk impaired serotonin-induced long-term facilitation while sparing the tested short-term enhancement.",
+        "Increasing ApNT expression enhanced synaptic strength and increased sensory-neuron varicosities. Confocal images collected over time linked the structural measurements to labeled neuronal processes. Functional EPSPs and growth were measured separately, rather than treating fluorescent structure as a substitute for transmission.",
+        "Overexpression establishes what elevated signaling can produce, whereas receptor interference tests a requirement under the training protocol. Neither intervention proves that neurotrophin signaling stores all details of a withdrawal memory. The results identify a growth-related contribution that interacts with serotonin, kinase activity, and gene-expression mechanisms."
+      ],
+      "figure": {
+        "path": "figures/nt6.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1016/j.celrep.2013.03.008",
+        "caption": "Kassabov et al. (2013), Fig. 6(A–D). ApNT-dependent enhancement and growth of neuronal varicosities."
+      }
+    },
+    {
+      "layout": "figures-left",
+      "title": "CREB1 reduction weakens day-long synaptic enhancement",
+      "body": [
+        "Zhou and colleagues injected CREB1-targeting siRNA into sensory neurons and waited 72 h before applying repeated serotonin. The standard protocol used five 5 min pulses of 50 μM serotonin, with EPSPs compared before treatment and 24 h afterward. Control siRNA and vehicle treatment separated target reduction from injection and stimulation effects.",
+        "CREB1 reduction impaired long-term facilitation. In the reported comparison, control-RNA synapses reached approximately 184% of their pretest amplitude, whereas CREB1-siRNA synapses reached approximately 121%. Basal transmission and the effect of vehicle were assessed independently.",
+        "The outcome connects availability of a transcription factor to persistent synaptic enhancement. Partial reduction of a regulator does not remove every signaling pathway or prove that CREB1 alone is sufficient. A molecular impairment can constrain the effect of an otherwise effective training pattern without completely abolishing neuronal responsiveness."
+      ],
+      "cite": "Zhou et al. (2015); Chen et al. (2014)",
+      "refs": [
+        "Zhou L; Zhang Y; Liu RY; Smolen P; Cleary LJ; Byrne JH (2015). Rescue of Impaired Long-Term Facilitation at Sensorimotor Synapses ofAplysiafollowing siRNA Knockdown of CREB1. The Journal of Neuroscience, 35(4): 1617-1626. https://doi.org/10.1523/jneurosci.3330-14.2015",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Zhou and colleagues injected CREB1-targeting siRNA into sensory neurons and waited 72 h before applying repeated serotonin. The standard protocol used five 5 min pulses of 50 μM serotonin, with EPSPs compared before treatment and 24 h afterward. Control siRNA and vehicle treatment separated target reduction from injection and stimulation effects.",
+        "CREB1 reduction impaired long-term facilitation. In the reported comparison, control-RNA synapses reached approximately 184% of their pretest amplitude, whereas CREB1-siRNA synapses reached approximately 121%. Basal transmission and the effect of vehicle were assessed independently.",
+        "The outcome connects availability of a transcription factor to persistent synaptic enhancement. Partial reduction of a regulator does not remove every signaling pathway or prove that CREB1 alone is sufficient. A molecular impairment can constrain the effect of an otherwise effective training pattern without completely abolishing neuronal responsiveness."
+      ],
+      "figures": [
+        {
+          "path": "figures/z1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.3330-14.2015",
+          "caption": "Zhou et al. (2015), Fig. 1(A–B). Recorded EPSPs after CREB1 knockdown or control RNA."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-right",
+      "title": "Training and cAMP regulation can rescue impairment",
+      "body": [
+        "Zhou and colleagues tested a modified serotonin schedule selected using a previously developed signaling model. The critical evidence was the subsequent EPSP recording in real sensory–motor cultures, not the model prediction itself. The modified schedule partially restored facilitation after CREB1 knockdown.",
+        "**Rolipram** inhibits a cAMP phosphodiesterase, an enzyme that breaks down cAMP. At 0.2 μM, rolipram increased the effectiveness of the modified protocol. Comparisons included standard training, modified training, vehicle, control RNA, and target RNA, separating temporal-pattern effects from the pharmacological intervention.",
+        "Rescue was partial and preparation-specific. Increasing the duration or availability of cAMP signaling can compensate for part of a molecular deficit, but does not establish a universal treatment for memory impairment. The empirical rescue does not validate every simulated intermediate or identify the intracellular trajectory in each recorded neuron."
+      ],
+      "cite": "Zhou et al. (2015); Chen et al. (2014)",
+      "refs": [
+        "Zhou L; Zhang Y; Liu RY; Smolen P; Cleary LJ; Byrne JH (2015). Rescue of Impaired Long-Term Facilitation at Sensorimotor Synapses ofAplysiafollowing siRNA Knockdown of CREB1. The Journal of Neuroscience, 35(4): 1617-1626. https://doi.org/10.1523/jneurosci.3330-14.2015",
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Zhou and colleagues tested a modified serotonin schedule selected using a previously developed signaling model. The critical evidence was the subsequent EPSP recording in real sensory–motor cultures, not the model prediction itself. The modified schedule partially restored facilitation after CREB1 knockdown.",
+        "Rolipram inhibits a cAMP phosphodiesterase, an enzyme that breaks down cAMP. At 0.2 μM, rolipram increased the effectiveness of the modified protocol. Comparisons included standard training, modified training, vehicle, control RNA, and target RNA, separating temporal-pattern effects from the pharmacological intervention.",
+        "Rescue was partial and preparation-specific. Increasing the duration or availability of cAMP signaling can compensate for part of a molecular deficit, but does not establish a universal treatment for memory impairment. The empirical rescue does not validate every simulated intermediate or identify the intracellular trajectory in each recorded neuron."
+      ],
+      "figures": [
+        {
+          "path": "figures/z6.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/jneurosci.3330-14.2015",
+          "caption": "Zhou et al. (2015), Fig. 6(A–B). Empirical EPSPs after rescue training and rolipram intervention."
+        },
+        {
+          "path": "figures/r3a.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 3(A). Fluorescent sensory–motor coculture at 0, 24, and 48 hr; original 20 µm scale bar retained."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figure-left",
+      "title": "Loss of synaptic growth does not prove memory erasure",
+      "body": [
+        "Chen and colleagues repeatedly imaged labeled sensory–motor cultures before serotonin training and at 24 h and 48 h afterward. **Reconsolidation** is the process by which reactivated memory can require renewed stabilization. Reactivation followed by protein-synthesis inhibition reduced the extra varicosities associated with earlier training.",
+        "Tracking individual structures revealed loss of both original and newly formed varicosities rather than selective removal of only the serotonin-induced structures. Untrained cultures also exhibited structural turnover. The final number of swellings therefore did not uniquely identify which individual contacts had carried the earlier enhancement.",
+        "The imaging challenges a simple one-to-one correspondence between permanent synapses and stored information. It does not establish an alternative storage substrate or prove that synapses are irrelevant. Structural expression, physiological transmission, and behavioral memory must be tested independently before concluding that a treatment has erased memory itself."
+      ],
+      "cite": "Chen et al. (2014)",
+      "refs": [
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896"
+      ],
+      "transcript": [
+        "Chen and colleagues repeatedly imaged labeled sensory–motor cultures before serotonin training and at 24 h and 48 h afterward. Reconsolidation is the process by which reactivated memory can require renewed stabilization. Reactivation followed by protein-synthesis inhibition reduced the extra varicosities associated with earlier training.",
+        "Tracking individual structures revealed loss of both original and newly formed varicosities rather than selective removal of only the serotonin-induced structures. Untrained cultures also exhibited structural turnover. The final number of swellings therefore did not uniquely identify which individual contacts had carried the earlier enhancement.",
+        "The imaging challenges a simple one-to-one correspondence between permanent synapses and stored information. It does not establish an alternative storage substrate or prove that synapses are irrelevant. Structural expression, physiological transmission, and behavioral memory must be tested independently before concluding that a treatment has erased memory itself."
+      ],
+      "figure": {
+        "path": "figures/r3.png",
+        "kind": "article",
+        "source_url": "https://doi.org/10.7554/elife.03896",
+        "caption": "Chen et al. (2014), Fig. 3(A–C). Repeated imaging of sensory–motor cocultures and changing varicosities."
+      }
+    },
+    {
+      "layout": "figures-right",
+      "title": "Partial training can reveal latent sensitization",
+      "body": [
+        "Chen and colleagues measured siphon-withdrawal duration after long-term sensitization training, pharmacological disruption, and later partial retraining. A **latent memory** is a retained consequence of experience that is not evident in the current behavioral response but can influence subsequent performance.",
+        "After a kinase-related intervention reduced the expressed sensitization, three additional training bouts reinstated a long-lasting response. The same abbreviated training was insufficient in previously untrained controls. The difference supported a persistent consequence of the earlier experience despite apparent loss of its normal behavioral expression.",
+        "The intervention's specificity and possible savings mechanisms constrain what can be inferred about storage. Recovery after retraining does not directly locate the retained information or prove that all of the original memory survived unchanged. It separates failure to express sensitization from definitive elimination of every training-dependent cellular change."
+      ],
+      "cite": "Chen et al. (2014); Pinsker et al. (1970)",
+      "refs": [
+        "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896",
+        "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740"
+      ],
+      "transcript": [
+        "Chen and colleagues measured siphon-withdrawal duration after long-term sensitization training, pharmacological disruption, and later partial retraining. A latent memory is a retained consequence of experience that is not evident in the current behavioral response but can influence subsequent performance.",
+        "After a kinase-related intervention reduced the expressed sensitization, three additional training bouts reinstated a long-lasting response. The same abbreviated training was insufficient in previously untrained controls. The difference supported a persistent consequence of the earlier experience despite apparent loss of its normal behavioral expression.",
+        "The intervention's specificity and possible savings mechanisms constrain what can be inferred about storage. Recovery after retraining does not directly locate the retained information or prove that all of the original memory survived unchanged. It separates failure to express sensitization from definitive elimination of every training-dependent cellular change."
+      ],
+      "figures": [
+        {
+          "path": "figures/r8.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.03896",
+          "caption": "Chen et al. (2014), Fig. 8(A–B). Withdrawal sensitization after disruption and abbreviated retraining."
+        },
+        {
+          "path": "figures/p1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 1(A–C). Gill, siphon, recording preparation, and stimulus-intensity responses."
+        }
+      ],
+      "primary_figure_height": 3.3
+    },
+    {
+      "layout": "figures-left",
+      "title": "DNA methylation affects distinct memory phases",
+      "body": [
+        "Pearce and colleagues tested sensitization while varying protein-synthesis and **DNA methyltransferase** inhibition. DNA methyltransferases add methyl groups to DNA and can influence gene regulation. Training, drug timing, retention tests, and abbreviated retraining distinguished initial consolidation, later expression, and persistence.",
+        "Blocking protein synthesis shortly after training allowed later partial training to recover sensitization, whereas blocking synthesis during training did not. Inhibiting DNA methyltransferase after consolidation reduced the retained response and prevented its recovery by the same abbreviated training. Retention was assessed over days rather than during the initial shock sequence.",
+        "These interventions support different requirements across memory phases, but broad drug actions do not specify individual genomic targets or neurons. They also do not prove that methylated DNA encodes the complete behavioral memory. Cellular release, postsynaptic regulation, structural growth, and gene regulation contribute at different levels of this experimentally tractable learning system."
+      ],
+      "cite": "Pearce et al. (2017); Pinsker et al. (1970)",
+      "refs": [
+        "Pearce K; Cai D; Roberts AC; Glanzman DL (2017). Role of protein synthesis and DNA methylation in the consolidation and maintenance of long-term memory in Aplysia. eLife, 6: e18299. https://doi.org/10.7554/elife.18299",
+        "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740"
+      ],
+      "transcript": [
+        "Pearce and colleagues tested sensitization while varying protein-synthesis and DNA methyltransferase inhibition. DNA methyltransferases add methyl groups to DNA and can influence gene regulation. Training, drug timing, retention tests, and abbreviated retraining distinguished initial consolidation, later expression, and persistence.",
+        "Blocking protein synthesis shortly after training allowed later partial training to recover sensitization, whereas blocking synthesis during training did not. Inhibiting DNA methyltransferase after consolidation reduced the retained response and prevented its recovery by the same abbreviated training. Retention was assessed over days rather than during the initial shock sequence.",
+        "These interventions support different requirements across memory phases, but broad drug actions do not specify individual genomic targets or neurons. They also do not prove that methylated DNA encodes the complete behavioral memory. Cellular release, postsynaptic regulation, structural growth, and gene regulation contribute at different levels of this experimentally tractable learning system."
+      ],
+      "figures": [
+        {
+          "path": "figures/e7.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/elife.18299",
+          "caption": "Pearce et al. (2017), Fig. 7(A–B). Consolidated sensitization and delayed methyltransferase inhibition."
+        },
+        {
+          "path": "figures/p1.png",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1126/science.167.3926.1740",
+          "caption": "Pinsker et al. (1970), Fig. 1(A–C). Gill, siphon, recording preparation, and stimulus-intensity responses."
+        }
+      ],
+      "primary_figure_height": 3.3
+    }
+  ],
+  "takeaways": {
+    "title": "Key takeaways",
+    "cite": "Castellucci & Kandel (1974); Brunelli et al. (1976); Montarolo et al. (1986)",
+    "items": [
+      {
+        "lead": "Behavioral distinctions",
+        "text": "Habituation decreases repeated-stimulus responsiveness; sensitization increases responsiveness after strong stimulation; dishabituation restores a habituated response without proving that all depression has reversed."
+      },
+      {
+        "lead": "Presynaptic depression",
+        "text": "Short-term habituation reduces transmitter quanta released per sensory impulse; an unchanged unitary postsynaptic response argues against receptor desensitization in the tested preparation."
+      },
+      {
+        "lead": "Modulatory signaling",
+        "text": "Serotonin, cAMP, and localized PKA signaling facilitate sensory–motor transmission; release enhancement and postsynaptic calcium-dependent regulation can contribute together."
+      },
+      {
+        "lead": "Persistence requires additional mechanisms",
+        "text": "Repeated stimulation recruits lasting facilitation with a restricted requirement for transcription and translation; spacing and synthesis timing affect retention independently of immediate response strength."
+      },
+      {
+        "lead": "Functional and structural plasticity",
+        "text": "Long-term training changes sensory-neuron varicosities and contacts; CREB, synapsin, local translation, and neurotrophin signaling contribute under defined protocols without any one accounting for the entire memory."
+      },
+      {
+        "lead": "Expression is not storage by itself",
+        "text": "Lost withdrawal enhancement or synaptic growth does not prove complete memory erasure; retraining, cellular interventions, and appropriate controls distinguish latent experience from current performance."
+      }
+    ],
+    "refs": [
+      "Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740",
+      "Castellucci VF; Kandel ER (1974). A Quantal Analysis of the Synaptic Depression Underlying Habituation of the Gill-Withdrawal Reflex in Aplysia. Proceedings of the National Academy of Sciences, 71(12): 5004-5008. https://doi.org/10.1073/pnas.71.12.5004",
+      "Gover TD; Jiang XY; Abrams TW (2002). Persistent, Exocytosis-Independent Silencing of Release Sites Underlies Homosynaptic Depression at Sensory Synapses inAplysia. The Journal of Neuroscience, 22(5): 1942-1955. https://doi.org/10.1523/jneurosci.22-05-01942.2002",
+      "Brunelli M; Castellucci V; Kandel ER (1976). Synaptic Facilitation and Behavioral Sensitization in Aplysia : Possible Role of Serotonin and Cyclic AMP. Science, 194(4270): 1178-1181. https://doi.org/10.1126/science.186870",
+      "Liu J; Hu JY; Schacher S; Schwartz JH (2004). The Two Regulatory Subunits ofAplysiacAMP-Dependent Protein Kinase Mediate Distinct Functions in Producing Synaptic Plasticity. The Journal of Neuroscience, 24(10): 2465-2474. https://doi.org/10.1523/jneurosci.4331-03.2004",
+      "Li Q; Roberts AC; Glanzman DL (2005). Synaptic Facilitation and Behavioral Dishabituation in Aplysia: Dependence on Release of Ca2+ from Postsynaptic Intracellular Stores, Postsynaptic Exocytosis, and Modulation of Postsynaptic AMPA Receptor Efficacy. Journal of Neuroscience, 25(23): 5623-5637. https://doi.org/10.1523/jneurosci.5305-04.2005",
+      "Montarolo PG; Goelet P; Castellucci VF; Morgan J; Kandel ER; Schacher S (1986). A Critical Period for Macromolecular Synthesis in Long-Term Heterosynaptic Facilitation in Aplysia. Science, 234(4781): 1249-1254. https://doi.org/10.1126/science.3775383",
+      "Carew TJ; Pinsker HM; Kandel ER (1972). Long-Term Habituation of a Defensive Withdrawal Reflex in Aplysia. Science, 175(4020): 451-454. https://doi.org/10.1126/science.175.4020.451",
+      "Hart AK; Fioravante D; Liu RY; Phares GA; Cleary LJ; Byrne JH (2011). Serotonin-Mediated Synapsin Expression Is Necessary for Long-Term Facilitation of theAplysiaSensorimotor Synapse. The Journal of Neuroscience, 31(50): 18401-18411. https://doi.org/10.1523/jneurosci.2816-11.2011",
+      "Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3: e03896. https://doi.org/10.7554/elife.03896",
+      "Pearce K; Cai D; Roberts AC; Glanzman DL (2017). Role of protein synthesis and DNA methylation in the consolidation and maintenance of long-term memory in Aplysia. eLife, 6: e18299. https://doi.org/10.7554/elife.18299"
+    ]
+  }
+}
