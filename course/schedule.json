@@ -5,206 +5,46 @@
   "meeting": "MWF 8:30–9:50 AM",
   "_note": "Titles are FINAL. Copy them character-for-character onto the title slide. Never reword, shorten or 'improve' them.",
   "lectures": [
-    {
-      "n": 1,
-      "date": "Monday, August 24, 2026",
-      "title": "Introduction to neuroethology: Tinbergen's four questions, proximate vs. ultimate causation"
-    },
-    {
-      "n": 2,
-      "date": "Wednesday, August 26, 2026",
-      "title": "Fixed action patterns & sign stimuli — Lorenz and Tinbergen's stickleback and graylag goose work"
-    },
-    {
-      "n": 3,
-      "date": "Friday, August 28, 2026",
-      "title": "Cockroach escape: the cercal system and giant interneurons (Camhi)"
-    },
-    {
-      "n": 4,
-      "date": "Monday, August 31, 2026",
-      "title": "Crayfish tail-flip: lateral and medial giant fiber circuits (Wine & Krasne)"
-    },
-    {
-      "n": 5,
-      "date": "Wednesday, September 2, 2026",
-      "title": "Fish startle: the Mauthner cell and the C-start response (Eaton & Faber)"
-    },
-    {
-      "n": 6,
-      "date": "Friday, September 4, 2026",
-      "title": "Central pattern generators I: leech swimming and crawling (Kristan)"
-    },
-    {
-      "n": 7,
-      "date": "Wednesday, September 9, 2026",
-      "title": "Central pattern generators II: the lobster/crab stomatogastric ganglion (Marder & Selverston)"
-    },
-    {
-      "n": 8,
-      "date": "Friday, September 11, 2026",
-      "title": "Locust flight: wind-sensitive interneurons and the flight CPG"
-    },
-    {
-      "n": 9,
-      "date": "Monday, September 14, 2026",
-      "title": "Amphibian prey capture I: toad visual prey-catching and tectal feature detectors (Ewert)"
-    },
-    {
-      "n": 10,
-      "date": "Wednesday, September 16, 2026",
-      "title": "Amphibian prey capture II: pretectal predator-avoidance circuits"
-    },
-    {
-      "n": 11,
-      "date": "Friday, September 18, 2026",
-      "title": "Insect vision I: the fly optomotor response and the Reichardt elementary motion detector"
-    },
-    {
-      "n": 12,
-      "date": "Monday, September 21, 2026",
-      "title": "Insect vision II: jumping spider eyes and predatory tracking (Land)"
-    },
-    {
-      "n": 13,
-      "date": "Wednesday, September 23, 2026",
-      "title": "Mantis shrimp vision: hyperspectral and polarization sensing"
-    },
-    {
-      "n": 14,
-      "date": "Friday, September 25, 2026",
-      "title": "Insect hearing I: cricket phonotaxis and song recognition (Hoy)"
-    },
-    {
-      "n": 15,
-      "date": "Monday, September 28, 2026",
-      "title": "Insect hearing II: moth ears and bat-evasion behavior (Roeder)"
-    },
-    {
-      "n": 16,
-      "date": "Wednesday, September 30, 2026",
-      "title": "Bat echolocation I: CF-FM bats and Doppler-shift compensation (Suga)"
-    },
-    {
-      "n": 17,
-      "date": "Friday, October 2, 2026",
-      "title": "Bat echolocation II: FM bats, target-range computation, clutter rejection"
-    },
-    {
-      "n": 18,
-      "date": "Monday, October 5, 2026",
-      "title": "Owl sound localization I: ITD/ILD maps in the inferior colliculus (Konishi & Knudsen)"
-    },
-    {
-      "n": 19,
-      "date": "Wednesday, October 7, 2026",
-      "title": "Owl sound localization II: developmental plasticity of the auditory map"
-    },
-    {
-      "n": 20,
-      "date": "Monday, October 12, 2026",
-      "title": "Electroreception I: passive sensing in sharks and rays (ampullae of Lorenzini)"
-    },
-    {
-      "n": 21,
-      "date": "Wednesday, October 14, 2026",
-      "title": "Electroreception II: active electrolocation in weakly electric fish (Bullock)"
-    },
-    {
-      "n": 22,
-      "date": "Friday, October 16, 2026",
-      "title": "Electroreception III: the jamming avoidance response (Heiligenberg)"
-    },
-    {
-      "n": 23,
-      "date": "Monday, October 19, 2026",
-      "title": "Magnetoreception: sea turtle and migratory bird magnetic compasses"
-    },
-    {
-      "n": 24,
-      "date": "Wednesday, October 21, 2026",
-      "title": "Chemoreception I: silkmoth pheromone plume-tracking (Kramer & Cardé)"
-    },
-    {
-      "n": 25,
-      "date": "Friday, October 23, 2026",
-      "title": "Chemoreception II: lobster olfactory search behavior"
-    },
-    {
-      "n": 26,
-      "date": "Monday, October 26, 2026",
-      "title": "Tactile specialization: the star-nosed mole's tactile fovea (Catania)"
-    },
-    {
-      "n": 27,
-      "date": "Wednesday, October 28, 2026",
-      "title": "Archerfish: predictive aiming and ballistic prey capture"
-    },
-    {
-      "n": 28,
-      "date": "Friday, October 30, 2026",
-      "title": "Navigation I: desert ant path integration (Wehner)"
-    },
-    {
-      "n": 29,
-      "date": "Monday, November 2, 2026",
-      "title": "Navigation II: honeybee waggle dance and sun-compass navigation (von Frisch)"
-    },
-    {
-      "n": 30,
-      "date": "Wednesday, November 4, 2026",
-      "title": "Navigation III: monarch butterfly migration and the circadian sun compass"
-    },
-    {
-      "n": 31,
-      "date": "Friday, November 6, 2026",
-      "title": "Navigation IV: homing pigeon multimodal navigation"
-    },
-    {
-      "n": 32,
-      "date": "Monday, November 9, 2026",
-      "title": "Vocal communication I: songbird song-system anatomy — HVC–RA–Area X (Nottebohm)"
-    },
-    {
-      "n": 33,
-      "date": "Friday, November 13, 2026",
-      "title": "Vocal communication II: song learning, sensitive periods, the template model (Marler & Konishi)"
-    },
-    {
-      "n": 34,
-      "date": "Monday, November 16, 2026",
-      "title": "Vocal communication III: Drosophila courtship song and the fruitless circuit"
-    },
-    {
-      "n": 35,
-      "date": "Wednesday, November 18, 2026",
-      "title": "Social behavior: crayfish dominance and serotonergic modulation of escape"
-    },
-    {
-      "n": 36,
-      "date": "Friday, November 20, 2026",
-      "title": "Simple learning circuits: Aplysia gill-withdrawal habituation and sensitization (Kandel)"
-    },
-    {
-      "n": 37,
-      "date": "Monday, November 23, 2026",
-      "title": "Spatial cognition: hippocampal place cells and grid cells (O'Keefe & Moser)"
-    },
-    {
-      "n": 38,
-      "date": "Monday, November 30, 2026",
-      "title": "Primate communication: vervet monkey alarm calls and referential signaling (Seyfarth & Cheney)"
-    },
-    {
-      "n": 39,
-      "date": "Wednesday, December 2, 2026",
-      "title": "Hormones and behavior: the ring dove reproductive cycle (Lehrman) and seasonal song plasticity"
-    },
-    {
-      "n": 40,
-      "date": "Friday, December 4, 2026",
-      "title": "Frontiers: optogenetics, wireless-recording tools in emerging neuroethology systems, and casual tests of neural circuits underlying natural behavior"
-    }
+    {"n": 1,  "date": "Monday, August 24, 2026",     "title": "Introduction to neuroethology: Tinbergen's four questions, proximate vs. ultimate causation"},
+    {"n": 2,  "date": "Wednesday, August 26, 2026",  "title": "Fixed action patterns & sign stimuli — Lorenz and Tinbergen's stickleback and graylag goose work"},
+    {"n": 3,  "date": "Friday, August 28, 2026",     "title": "Cockroach escape: the cercal system and giant interneurons (Camhi)"},
+    {"n": 4,  "date": "Monday, August 31, 2026",     "title": "Crayfish tail-flip: lateral and medial giant fiber circuits (Wine & Krasne)"},
+    {"n": 5,  "date": "Wednesday, September 2, 2026","title": "Fish startle: the Mauthner cell and the C-start response (Eaton & Faber)"},
+    {"n": 6,  "date": "Friday, September 4, 2026",   "title": "Central pattern generators I: leech swimming and crawling (Kristan)"},
+    {"n": 7,  "date": "Wednesday, September 9, 2026","title": "Central pattern generators II: the lobster/crab stomatogastric ganglion (Marder & Selverston)"},
+    {"n": 8,  "date": "Friday, September 11, 2026",  "title": "Locust flight: wind-sensitive interneurons and the flight CPG"},
+    {"n": 9,  "date": "Monday, September 14, 2026",  "title": "Amphibian prey capture I: toad visual prey-catching and tectal feature detectors (Ewert)"},
+    {"n": 10, "date": "Wednesday, September 16, 2026","title": "Amphibian prey capture II: pretectal predator-avoidance circuits"},
+    {"n": 11, "date": "Friday, September 18, 2026",  "title": "Insect vision I: the fly optomotor response and the Reichardt elementary motion detector"},
+    {"n": 12, "date": "Monday, September 21, 2026",  "title": "Insect vision II: jumping spider eyes and predatory tracking (Land)"},
+    {"n": 13, "date": "Wednesday, September 23, 2026","title": "Mantis shrimp vision: hyperspectral and polarization sensing"},
+    {"n": 14, "date": "Friday, September 25, 2026",  "title": "Insect hearing I: cricket phonotaxis and song recognition (Hoy)"},
+    {"n": 15, "date": "Monday, September 28, 2026",  "title": "Insect hearing II: moth ears and bat-evasion behavior (Roeder)"},
+    {"n": 16, "date": "Wednesday, September 30, 2026","title": "Bat echolocation I: CF-FM bats and Doppler-shift compensation (Suga)"},
+    {"n": 17, "date": "Friday, October 2, 2026",     "title": "Bat echolocation II: FM bats, target-range computation, clutter rejection"},
+    {"n": 18, "date": "Monday, October 5, 2026",     "title": "Owl sound localization I: ITD/ILD maps in the inferior colliculus (Konishi & Knudsen)"},
+    {"n": 19, "date": "Wednesday, October 7, 2026",  "title": "Owl sound localization II: developmental plasticity of the auditory map"},
+    {"n": 20, "date": "Monday, October 12, 2026",    "title": "Electroreception I: passive sensing in sharks and rays (ampullae of Lorenzini)"},
+    {"n": 21, "date": "Wednesday, October 14, 2026", "title": "Electroreception II: active electrolocation in weakly electric fish (Bullock)"},
+    {"n": 22, "date": "Friday, October 16, 2026",    "title": "Electroreception III: the jamming avoidance response (Heiligenberg)"},
+    {"n": 23, "date": "Monday, October 19, 2026",    "title": "Magnetoreception: sea turtle and migratory bird magnetic compasses"},
+    {"n": 24, "date": "Wednesday, October 21, 2026", "title": "Chemoreception I: silkmoth pheromone plume-tracking (Kramer & Cardé)"},
+    {"n": 25, "date": "Friday, October 23, 2026",    "title": "Chemoreception II: lobster olfactory search behavior"},
+    {"n": 26, "date": "Monday, October 26, 2026",    "title": "Tactile specialization: the star-nosed mole's tactile fovea (Catania)"},
+    {"n": 27, "date": "Wednesday, October 28, 2026", "title": "Archerfish: predictive aiming and ballistic prey capture"},
+    {"n": 28, "date": "Friday, October 30, 2026",    "title": "Navigation I: desert ant path integration (Wehner)"},
+    {"n": 29, "date": "Monday, November 2, 2026",    "title": "Navigation II: honeybee waggle dance and sun-compass navigation (von Frisch)"},
+    {"n": 30, "date": "Wednesday, November 4, 2026", "title": "Navigation III: monarch butterfly migration and the circadian sun compass"},
+    {"n": 31, "date": "Friday, November 6, 2026",    "title": "Navigation IV: homing pigeon multimodal navigation"},
+    {"n": 32, "date": "Monday, November 9, 2026",    "title": "Vocal communication I: songbird song-system anatomy — HVC–RA–Area X (Nottebohm)"},
+    {"n": 33, "date": "Friday, November 13, 2026",   "title": "Vocal communication II: song learning, sensitive periods, the template model (Marler & Konishi)"},
+    {"n": 34, "date": "Monday, November 16, 2026",   "title": "Vocal communication III: Drosophila courtship song and the fruitless circuit"},
+    {"n": 35, "date": "Wednesday, November 18, 2026","title": "Social behavior: crayfish dominance and serotonergic modulation of escape"},
+    {"n": 36, "date": "Friday, November 20, 2026",   "title": "Simple learning circuits: Aplysia gill-withdrawal habituation and sensitization (Kandel)"},
+    {"n": 37, "date": "Monday, November 23, 2026",   "title": "Spatial cognition: hippocampal place cells and grid cells (O'Keefe & Moser)"},
+    {"n": 38, "date": "Monday, November 30, 2026",   "title": "Primate communication: vervet monkey alarm calls and referential signaling (Seyfarth & Cheney)"},
+    {"n": 39, "date": "Wednesday, December 2, 2026", "title": "Hormones and behavior: the ring dove reproductive cycle (Lehrman) and seasonal song plasticity"},
+    {"n": 40, "date": "Friday, December 4, 2026",    "title": "Frontiers: optogenetics, wireless-recording tools in emerging neuroethology systems, and casual tests of neural circuits underlying natural behavior"}
   ],
   "_special_topics_note": "Unit 4 — Special topics: lectures 41 and higher, given only when the instructor swaps one in for a scheduled lecture (e.g. by student demand). Title them in the same style as the lectures above; the date is always \"Date TBD\". Add each one here as {\"n\": 41, \"date\": \"Date TBD\", \"title\": \"...\"} when the instructor names it. Relaxed source rule: see the neuroethology-lecture skill.",
   "special_topics": [
