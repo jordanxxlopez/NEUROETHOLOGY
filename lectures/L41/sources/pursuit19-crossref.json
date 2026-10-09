@@ -1,0 +1,859 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        20
+      ]
+    ],
+    "date-time": "2026-09-20T14:20:46Z",
+    "timestamp": 1789914046166,
+    "version": "4.0.1"
+  },
+  "reference-count": 50,
+  "publisher": "The Company of Biologists",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2018-01-01T00:00:00Z",
+        "timestamp": 1514764800000
+      },
+      "content-version": "am",
+      "delay-in-days": 0,
+      "URL": "http://www.biologists.com/user-licence-1-1/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100000006",
+      "name": "Office of Naval Research",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/100000006",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100002808",
+      "name": "Carlsberg Foundation",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100002808",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100004954",
+      "name": "Augustinus Fonden",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100004954",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "Dansk Akustisk Selskab"
+    },
+    {
+      "DOI": "10.13039/100011102",
+      "name": "Seventh Framework Programme",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/100011102",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100004836",
+      "name": "Det Frie Forskningsr\u00e5d",
+      "doi-asserted-by": "crossref",
+      "id": [
+        {
+          "id": "10.13039/501100004836",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "abstract": "<jats:p>Echolocating toothed whales generally adjust click intensities and rates according to target range to ensure that echoes from targets of interest arrive before a subsequent click is produced, presumably facilitating range estimation from the delay between clicks and returning echoes. However, this click-echo-click paradigm for dolphin biosonar is mostly based on experiments with stationary animals echolocating fixed targets at ranges below \u223c120 m. Therefore, we trained two bottlenose dolphins instrumented with a sound recording tag to approach a target from ranges up to 400 m and either touch the target (subject TRO) or detect a target orientation change (subject SAY). We show that free-swimming dolphins dynamically increase interclick interval (ICI) out to target ranges of \u223c100 m. TRO consistently kept ICIs above the two-way travel-time (TWTT) for target ranges shorter than \u223c100 m, whereas SAY switched between clicking at ICIs above and below the TWTT for target ranges down to \u223c25 m. Source levels changed on average by 17log10(target range), but with considerable variation for individual slopes (4.1 standard deviations for by-trial random effects), demonstrating that dolphins do not adopt a fixed automatic-gain-control matched to target range. At target ranges exceeding \u223c100 m, both dolphins frequently switched to click packet production in which interpacket intervals exceeded the TWTT, but ICIs were shorter than the TWTT. This study shows that echolocation following the click-echo-click paradigm is not a fixed echolocation strategy in dolphins, and we demonstrate the first use of click packets for free-swimming dolphins when solving an echolocation task.</jats:p>",
+  "DOI": "10.1242/jeb.189217",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        11,
+        27
+      ]
+    ],
+    "date-time": "2018-11-27T10:33:27Z",
+    "timestamp": 1543314807000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 38,
+  "title": [
+    "Dolphin echolocation behaviour during active long-range target approaches"
+  ],
+  "prefix": "10.1242",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-7559-9271",
+      "authenticated-orcid": false,
+      "given": "Michael",
+      "family": "Ladegaard",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Zoophysiology, Department of Bioscience, Aarhus University, 8000 Aarhus, Denmark"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jason",
+      "family": "Mulsow",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "National Marine Mammal Foundation, 2240 Shelter Island Drive, Suite 200, San Diego, California 92106, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Dorian S.",
+      "family": "Houser",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "National Marine Mammal Foundation, 2240 Shelter Island Drive, Suite 200, San Diego, California 92106, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8776-3606",
+      "authenticated-orcid": false,
+      "given": "Frants Havmand",
+      "family": "Jensen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Aarhus Institute of Advanced Studies, Aarhus University, 8000 Aarhus, Denmark"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8424-3197",
+      "authenticated-orcid": false,
+      "given": "Mark",
+      "family": "Johnson",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Zoophysiology, Department of Bioscience, Aarhus University, 8000 Aarhus, Denmark"
+        },
+        {
+          "name": "Sea Mammal Research Unit, St. Andrews, KY16 8LB, Scotland, UK"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5208-5259",
+      "authenticated-orcid": false,
+      "given": "Peter Teglberg",
+      "family": "Madsen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Zoophysiology, Department of Bioscience, Aarhus University, 8000 Aarhus, Denmark"
+        },
+        {
+          "name": "Aarhus Institute of Advanced Studies, Aarhus University, 8000 Aarhus, Denmark"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "James J.",
+      "family": "Finneran",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "United States Navy Marine Mammal Program, Space and Naval Warfare Systems Center Pacific, Code 71510, 53560 Hull Street, San Diego, California 92152, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "237",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        1,
+        1
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "2021042500395084100_JEB189217C1",
+      "doi-asserted-by": "publisher",
+      "first-page": "1671",
+      "DOI": "10.1121/1.421258",
+      "article-title": "A simplified formula for viscous and chemical absorption in sea water",
+      "volume": "103",
+      "author": "Ainslie",
+      "year": "1998",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C2",
+      "doi-asserted-by": "publisher",
+      "first-page": "797",
+      "DOI": "10.1098/rspb.2004.3024",
+      "article-title": "Biosonar behaviour of free-ranging porpoises",
+      "volume": "272",
+      "author": "Akamatsu",
+      "year": "2005",
+      "journal-title": "Proc. R. Soc. Lond. Ser. B Biol. Sci."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C3",
+      "doi-asserted-by": "publisher",
+      "first-page": "1155",
+      "DOI": "10.1121/1.1590969",
+      "article-title": "Multiecho processing by an echolocating dolphin",
+      "volume": "114",
+      "author": "Altes",
+      "year": "2003",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C4",
+      "doi-asserted-by": "crossref",
+      "first-page": "251",
+      "DOI": "10.1007/978-1-4684-7254-7_10",
+      "article-title": "Echolocation signals of the Atlantic bottlenose dolphin (Tursiops truncatus) in open waters",
+      "volume-title": "Animal Sonar Systems",
+      "author": "Au",
+      "year": "1980"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C5",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1007/978-1-4612-4356-4",
+      "author": "Au",
+      "year": "1993",
+      "journal-title": "The Sonar of Dolphins"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C6",
+      "doi-asserted-by": "publisher",
+      "first-page": "861",
+      "DOI": "10.1038/nature01727",
+      "article-title": "Automatic gain control in the echolocation system of dolphins",
+      "volume": "423",
+      "author": "Au",
+      "year": "2003",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C7",
+      "doi-asserted-by": "publisher",
+      "first-page": "598",
+      "DOI": "10.1121/1.1518980",
+      "article-title": "Echolocation signals of wild Atlantic spotted dolphin (Stenella frontalis)",
+      "volume": "113",
+      "author": "Au",
+      "year": "2003",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C8",
+      "doi-asserted-by": "publisher",
+      "first-page": "1077",
+      "DOI": "10.1121/1.384993",
+      "article-title": "Long-range target detection in open waters by an echolocating Atlantic Bottlenose dolphin (Tursiops truncatus)",
+      "volume": "68",
+      "author": "Au",
+      "year": "1980",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C9",
+      "doi-asserted-by": "publisher",
+      "first-page": "1280",
+      "DOI": "10.1121/1.1903419",
+      "article-title": "Measurement of echolocation signals of the Atlantic bottlenose dolphin, Tursiops truncatus Montagu, in open waters",
+      "volume": "56",
+      "author": "Au",
+      "year": "1974",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C10",
+      "doi-asserted-by": "publisher",
+      "first-page": "1269",
+      "DOI": "10.1121/1.387733",
+      "article-title": "Acoustic behavior of echolocating Atlantic bottlenose dolphins",
+      "volume": "71",
+      "author": "Au",
+      "year": "1982",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C11",
+      "doi-asserted-by": "publisher",
+      "first-page": "807",
+      "DOI": "10.1121/1.395278",
+      "article-title": "Propagation of beluga echolocation signals",
+      "volume": "82",
+      "author": "Au",
+      "year": "1987",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C12",
+      "author": "Bar-Shalom",
+      "year": "2004",
+      "journal-title": "Estimation with Applications to Tracking and Navigation: Theory Algorithms and Software"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C13",
+      "doi-asserted-by": "publisher",
+      "first-page": "69",
+      "DOI": "10.1578/AM.33.1.2007.69",
+      "article-title": "Automatic gain control in harbor porpoises (Phocoena phocoena)? Central versus peripheral mechanisms",
+      "volume": "33",
+      "author": "Beedholm",
+      "year": "2007",
+      "journal-title": "Aquat. Mamm."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C14",
+      "first-page": "363",
+      "article-title": "Discrimination of different metallic plates by an echolocating delphinid",
+      "volume-title": "Animal Sonar Systems: Biology and Bionics",
+      "author": "Evans",
+      "year": "1967"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C15",
+      "doi-asserted-by": "publisher",
+      "first-page": "1796",
+      "DOI": "10.1121/1.4788997",
+      "article-title": "Dolphin \u201cpacket\u201d use during long-range echolocation tasks",
+      "volume": "133",
+      "author": "Finneran",
+      "year": "2013",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C16",
+      "doi-asserted-by": "publisher",
+      "first-page": "4532",
+      "DOI": "10.1121/1.4826179",
+      "article-title": "Auditory evoked potentials in a bottlenose dolphin during moderate-range echolocation tasks",
+      "volume": "134",
+      "author": "Finneran",
+      "year": "2013",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C17",
+      "doi-asserted-by": "publisher",
+      "first-page": "2876",
+      "DOI": "10.1121/1.4898043",
+      "article-title": "Multi-echo processing by a bottlenose dolphin operating in \u201cpacket\u201d transmission mode at long range",
+      "volume": "136",
+      "author": "Finneran",
+      "year": "2014",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C18",
+      "doi-asserted-by": "publisher",
+      "first-page": "296",
+      "DOI": "10.1121/1.4955093",
+      "article-title": "Short-term enhancement and suppression of dolphin auditory evoked responses following echolocation click emission",
+      "volume": "140",
+      "author": "Finneran",
+      "year": "2016",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C19",
+      "doi-asserted-by": "publisher",
+      "first-page": "2593",
+      "DOI": "10.1121/1.4964274",
+      "article-title": "Place specificity of the click-evoked auditory brainstem response in the bottlenose dolphin (Tursiops truncatus)",
+      "volume": "140",
+      "author": "Finneran",
+      "year": "2016",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C20",
+      "volume-title": "Listening in the Dark",
+      "author": "Griffin",
+      "year": "1958"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C21",
+      "doi-asserted-by": "publisher",
+      "first-page": "141",
+      "DOI": "10.1016/0003-3472(60)90022-1",
+      "article-title": "The echolocation of flying insects by bats",
+      "volume": "8",
+      "author": "Griffin",
+      "year": "1960",
+      "journal-title": "Anim. Behav."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C22",
+      "doi-asserted-by": "publisher",
+      "first-page": "34",
+      "DOI": "10.1578/AM.33.1.2007.34",
+      "article-title": "Middle-and long-latency auditory evoked potentials in bottlenose dolphins (Tursiops truncatus) resulting from frequent and oddball stimuli",
+      "volume": "33",
+      "author": "Hernandez",
+      "year": "2007",
+      "journal-title": "Aquat. Mamm."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C23",
+      "doi-asserted-by": "publisher",
+      "first-page": "469",
+      "DOI": "10.1134/1.1776226",
+      "article-title": "Dolphin's echolocation signals in a complicated acoustic environment",
+      "volume": "50",
+      "author": "Ivanov",
+      "year": "2004",
+      "journal-title": "Acoust. Phys."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C24",
+      "first-page": "141",
+      "article-title": "Characteristics of the dolphin s sonar emission in detection of various types of submerged objects at limiting distances",
+      "author": "Ivanov",
+      "year": "1978",
+      "journal-title": "Marine Mammals: Abstracts of Reports of the 7th All Union Conference"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C25",
+      "doi-asserted-by": "publisher",
+      "first-page": "1078",
+      "DOI": "10.1242/jeb.025619",
+      "article-title": "Biosonar adjustments to target range of echolocating bottlenose dolphins (Tursiops sp.) in the wild",
+      "volume": "212",
+      "author": "Jensen",
+      "year": "2009",
+      "journal-title": "J. Exp. Biol."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C26",
+      "doi-asserted-by": "publisher",
+      "first-page": "3878",
+      "DOI": "10.1016/j.cub.2018.10.037",
+      "article-title": "Narrow acoustic field of view drives frequency scaling in toothed whale biosonars",
+      "volume-title": "Curr. Biol",
+      "author": "Jensen",
+      "year": "2018"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C27",
+      "doi-asserted-by": "publisher",
+      "first-page": "S383",
+      "DOI": "10.1098/rsbl.2004.0208",
+      "article-title": "Beaked whales echolocate on prey",
+      "volume": "271",
+      "author": "Johnson",
+      "year": "2004",
+      "journal-title": "Proc. R. Soc. Lond. Ser. B Biol. Sci."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C28",
+      "doi-asserted-by": "publisher",
+      "first-page": "5038",
+      "DOI": "10.1242/jeb.02596",
+      "article-title": "Foraging Blainville's beaked whales (Mesoplodon densirostris) produce distinct click types matched to different phases of echolocation",
+      "volume": "209",
+      "author": "Johnson",
+      "year": "2006",
+      "journal-title": "J. Exp. Biol."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C29",
+      "doi-asserted-by": "publisher",
+      "first-page": "2654",
+      "DOI": "10.1242/jeb.159913",
+      "article-title": "Amazon river dolphins (Inia geoffrensis) modify biosonar output level and directivity during prey interception in the wild",
+      "volume": "220",
+      "author": "Ladegaard",
+      "year": "2017",
+      "journal-title": "J. Exp. Biol."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C30",
+      "doi-asserted-by": "publisher",
+      "first-page": "276",
+      "DOI": "10.1152/physiol.00008.2013",
+      "article-title": "Functional convergence in bat and toothed whale biosonars",
+      "volume": "28",
+      "author": "Madsen",
+      "year": "2013",
+      "journal-title": "Physiology"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C32",
+      "doi-asserted-by": "publisher",
+      "first-page": "1811",
+      "DOI": "10.1242/jeb.00966",
+      "article-title": "Echolocation clicks of two free-ranging, oceanic delphinids with different food preferences: false killer whales Pseudorca crassidens and Risso's dolphins Grampus griseus",
+      "volume": "207",
+      "author": "Madsen",
+      "year": "2004",
+      "journal-title": "J. Exp. Biol."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C33",
+      "doi-asserted-by": "publisher",
+      "first-page": "1318",
+      "DOI": "10.1121/1.380790",
+      "article-title": "Speed of sound in water: a simple equation for realistic parameters",
+      "volume": "58",
+      "author": "Medwin",
+      "year": "1975",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C34",
+      "doi-asserted-by": "crossref",
+      "first-page": "435",
+      "DOI": "10.1007/978-1-4684-7493-0_43",
+      "article-title": "Target detection by echolocating bats",
+      "volume-title": "Animal Sonar",
+      "author": "M\u00f8hl",
+      "year": "1988"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C35",
+      "doi-asserted-by": "publisher",
+      "first-page": "1143",
+      "DOI": "10.1121/1.1586258",
+      "article-title": "The monopulsed nature of sperm whale clicks",
+      "volume": "114",
+      "author": "M\u00f8hl",
+      "year": "2003",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C36",
+      "first-page": "145",
+      "article-title": "Tracking frequency of the location signals of dolphins as a function of distance to the target",
+      "volume": "17",
+      "author": "Morozov",
+      "year": "1972",
+      "journal-title": "Biofizika"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C37",
+      "doi-asserted-by": "crossref",
+      "first-page": "707",
+      "DOI": "10.1007/978-1-4684-7493-0_76",
+      "article-title": "Attention and detection in dolphin echolocation",
+      "author": "Penner",
+      "year": "1988",
+      "journal-title": "Animal Sonar"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C38",
+      "doi-asserted-by": "publisher",
+      "first-page": "1538",
+      "DOI": "10.1111/mms.12226",
+      "article-title": "Vocalizations of the rough-toothed dolphin, Steno bredanensis, in the Pacific Ocean",
+      "volume": "31",
+      "author": "Rankin",
+      "year": "2015",
+      "journal-title": "Mar. Mamm. Sci"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C39",
+      "doi-asserted-by": "publisher",
+      "first-page": "1122",
+      "DOI": "10.1121/1.1433814",
+      "article-title": "Source levels of clicks from free-ranging white-beaked dolphins (Lagenorhynchus albirostris Gray 1846) recorded in Icelandic waters",
+      "volume": "111",
+      "author": "Rasmussen",
+      "year": "2002",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C40",
+      "doi-asserted-by": "publisher",
+      "first-page": "bio031625",
+      "DOI": "10.1242/bio.031625",
+      "article-title": "Timing and context of dolphin clicks during and after mine simulator detection and marking in the open ocean",
+      "volume": "7",
+      "author": "Ridgway",
+      "year": "2018",
+      "journal-title": "Biol. Open"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C41",
+      "doi-asserted-by": "publisher",
+      "first-page": "471",
+      "DOI": "10.1007/s00359-012-0773-7",
+      "article-title": "Gain control in the sonar of odontocetes",
+      "volume": "199",
+      "author": "Supin",
+      "year": "2013",
+      "journal-title": "J. Comp. Physiol., A"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C42",
+      "doi-asserted-by": "publisher",
+      "first-page": "2512",
+      "DOI": "10.1121/1.4919300",
+      "article-title": "Evoked-potential recovery during double click stimulation in a beluga whale: implications for biosonar gain control",
+      "volume": "137",
+      "author": "Supin",
+      "year": "2015",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C43",
+      "doi-asserted-by": "publisher",
+      "first-page": "618",
+      "DOI": "10.1121/1.2382343",
+      "article-title": "Evoked-potential recovery during double click stimulation in a whale: a possibility of biosonar automatic gain control",
+      "volume": "121",
+      "author": "Supin",
+      "year": "2007",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C44",
+      "first-page": "268",
+      "article-title": "The relationship of detection thresholds to the number of echoes in the big brown bat, Eptesicus fuscus",
+      "author": "Surlykke",
+      "year": "2004",
+      "journal-title": "Echolocation in Bats and Dolphins"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C45",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1007/978-1-4614-9146-0",
+      "author": "Surlykke",
+      "year": "2014",
+      "journal-title": "Biosonar"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C46",
+      "doi-asserted-by": "publisher",
+      "first-page": "497",
+      "DOI": "10.1121/1.398229",
+      "article-title": "Differences in echolocation click patterns of the beluga (Delphinapterus leucas) and the bottlenose dolphin (Tursiops truncatus)",
+      "volume": "86",
+      "author": "Turl",
+      "year": "1989",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C47",
+      "volume-title": "Principles of Underwater Sound",
+      "author": "Urick",
+      "year": "1983"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C48",
+      "first-page": "22",
+      "article-title": "Sensory-motor behavior of free-flying FM bats during target capture",
+      "author": "Wilson",
+      "year": "2004",
+      "journal-title": "Echolocation in Bats and Dolphins"
+    },
+    {
+      "key": "2021042500395084100_JEB189217C49",
+      "doi-asserted-by": "publisher",
+      "first-page": "4358",
+      "DOI": "10.1242/jeb.074013",
+      "article-title": "Acoustic gaze adjustments during active target selection in echolocating porpoises",
+      "volume": "215",
+      "author": "Wisniewska",
+      "year": "2012",
+      "journal-title": "J. Exp. Biol."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C50",
+      "doi-asserted-by": "publisher",
+      "first-page": "1441",
+      "DOI": "10.1016/j.cub.2016.03.069",
+      "article-title": "Ultra-high foraging rates of harbor porpoises make them vulnerable to anthropogenic disturbance",
+      "volume": "26",
+      "author": "Wisniewska",
+      "year": "2016",
+      "journal-title": "Curr. Biol."
+    },
+    {
+      "key": "2021042500395084100_JEB189217C51",
+      "first-page": "61",
+      "article-title": "Middle-and long-latency auditory event-related potentials in dolphins",
+      "volume-title": "Dolphin Cognition and Behavior: A Comparative Approach",
+      "author": "Woods",
+      "year": "1986"
+    }
+  ],
+  "container-title": [
+    "Journal of Experimental Biology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://syndication.highwire.org/content/doi/10.1242/jeb.189217",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.189217/1919516/jeb189217.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.189217/2042157/jeb_189217v1.pdf",
+      "content-type": "application/pdf",
+      "content-version": "am",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.189217/2042157/jeb_189217v1.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        9,
+        7
+      ]
+    ],
+    "date-time": "2023-09-07T15:28:49Z",
+    "timestamp": 1694100529000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://journals.biologists.com/jeb/article/doi/10.1242/jeb.189217/259487/Dolphin-echolocation-behaviour-during-active-long"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        1,
+        1
+      ]
+    ]
+  },
+  "references-count": 50,
+  "URL": "https://doi.org/10.1242/jeb.189217",
+  "relation": {},
+  "ISSN": [
+    "1477-9145",
+    "0022-0949"
+  ],
+  "issn-type": [
+    {
+      "value": "1477-9145",
+      "type": "electronic"
+    },
+    {
+      "value": "0022-0949",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        1,
+        1
+      ]
+    ]
+  },
+  "article-number": "jeb.189217"
+}

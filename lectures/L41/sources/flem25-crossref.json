@@ -1,0 +1,2104 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        7
+      ]
+    ],
+    "date-time": "2026-10-07T04:11:49Z",
+    "timestamp": 1791346309187,
+    "version": "4.3.1"
+  },
+  "reference-count": 158,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2025-06-06T00:00:00Z",
+        "timestamp": 1749168000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "name": "Human Frontiers Science Program",
+      "award": [
+        "RGP0019/2022"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RGP0019/2022"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000854",
+      "name": "Human Frontier Science Program",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "RGP0019/2022"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RGP0019/2022"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100000854",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000006",
+      "name": "Office of Naval Research",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "N00014-23-1-2065"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "N00014-23-1-2065"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000006",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "www.plosone.org"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "PLoS One"
+  ],
+  "abstract": "<jats:p>We report the first application of diffusion tractography to a mysticete, which was analyzed alongside three odontocete brains, allowing the first direct comparison of strength and laterality of auditory pathways in echolocating and non-echolocating whales. Brains were imaged post-mortem at high resolution with a specialized steady state free precession diffusion sequence optimized for dead tissue. We conducted probabilistic tractography to compare the qualitative features, tract strength, and lateralization of potential ascending and descending auditory paths in the mysticete versus odontocetes. Tracts were seeded in the inferior colliculi (IC), a nexus for ascending auditory information, and the cerebellum, a center for sensorimotor integration. Direct IC to temporal lobe pathways were found in all animals, replicating previous cetacean tractography and suggesting conservation of the primary auditory projection path in the cetacean clade. Additionally, odontocete IC-cerebellum pathways exhibited higher overall tract strength than in the mysticete, suggesting they may play a role in supporting the rapid sensorimotor integration demands of echolocation. Further, in the mysticete, contralateral right IC to left cerebellum pathways were 17x stronger than those between left IC and right cerebellum, while in odontocetes, the laterality was reversed, and left IC to right cerebellum pathways were 2-4x stronger than those between right IC and left cerebellum. This lateralization may also relate to echolocation. Right cerebellum is responsible for integrating sensory and motor signals from the left cortical hemisphere, and in odontocetes, this hemisphere likely controls the contralateral right-side phonic lips, which have been empirically implicated in the production of echolocation clicks. We also found differences in the specific subregions of cerebellum targeted by the IC between the mysticete and odontocetes, some of which may also bear on hearing and vocal production. This study establishes foundational knowledge on mysticete brain connectivity and extends knowledge on pathways supporting hearing and auditory-motor integration across the order Cetacea.</jats:p>",
+  "DOI": "10.1371/journal.pone.0323617",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        6
+      ]
+    ],
+    "date-time": "2025-06-06T13:32:03Z",
+    "timestamp": 1749216723000
+  },
+  "page": "e0323617",
+  "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 5,
+  "title": [
+    "Lateralized cerebellar connectivity differentiates auditory pathways in echolocating and non-echolocating whales"
+  ],
+  "prefix": "10.1371",
+  "volume": "20",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0001-9605-1202",
+      "authenticated-orcid": true,
+      "given": "Sophie",
+      "family": "Flem",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Gregory",
+      "family": "Berns",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ben",
+      "family": "Inglis",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9995-4378",
+      "authenticated-orcid": true,
+      "given": "Dillon",
+      "family": "Niederhut",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Eric",
+      "family": "Montie",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Terrence",
+      "family": "Deacon",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Karla L.",
+      "family": "Miller",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter",
+      "family": "Tyack",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter F.",
+      "family": "Cook",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "340",
+  "published-online": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        6
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref001",
+      "doi-asserted-by": "crossref",
+      "first-page": "479",
+      "DOI": "10.1016/j.ympev.2012.10.012",
+      "article-title": "A phylogenetic blueprint for a modern whale",
+      "volume": "66",
+      "author": "J Gatesy",
+      "year": "2013",
+      "journal-title": "Mol Phylogenet Evol"
+    },
+    {
+      "issue": "5",
+      "key": "pone.0323617.ref002",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1371/journal.pbio.0050139",
+      "article-title": "Cetaceans have complex brains for complex cognition",
+      "volume": "5",
+      "author": "L Marino",
+      "year": "2007",
+      "journal-title": "PLoS Biol"
+    },
+    {
+      "issue": "21",
+      "key": "pone.0323617.ref003",
+      "doi-asserted-by": "crossref",
+      "first-page": "8293",
+      "DOI": "10.1073/pnas.0509918103",
+      "article-title": "Signature whistle shape conveys identity information to bottlenose dolphins",
+      "volume": "103",
+      "author": "VM Janik",
+      "year": "2006",
+      "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+      "issue": "11",
+      "key": "pone.0323617.ref004",
+      "doi-asserted-by": "crossref",
+      "first-page": "1699",
+      "DOI": "10.1038/s41559-017-0336-y",
+      "article-title": "The social and cultural roots of whale and dolphin brains",
+      "volume": "1",
+      "author": "KCR Fox",
+      "year": "2017",
+      "journal-title": "Nat Ecol Evol"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref005",
+      "doi-asserted-by": "crossref",
+      "first-page": "109",
+      "DOI": "10.1163/25889567-bja10033",
+      "article-title": "Odontocetes (\u2018Toothed Whales\u2019): cognitive science and moral standing \u2013 are dolphins persons?",
+      "volume": "5",
+      "author": "SG Pettit",
+      "year": "2023",
+      "journal-title": "J Appl Anim Ethics Res"
+    },
+    {
+      "key": "pone.0323617.ref006",
+      "doi-asserted-by": "crossref",
+      "first-page": "235",
+      "DOI": "10.1159/000454797",
+      "article-title": "Comparison of dolphins\u2019 body and brain measurements with four other groups of cetaceans reveals great diversity",
+      "volume": "88",
+      "author": "SH Ridgway",
+      "year": "2016",
+      "journal-title": "Brain Behav Evol"
+    },
+    {
+      "key": "pone.0323617.ref007",
+      "volume-title": "List of marine mammal species and subspecies",
+      "author": "Committee on Taxonomy",
+      "year": "2023"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref008",
+      "doi-asserted-by": "crossref",
+      "first-page": "140434",
+      "DOI": "10.1098/rsos.140434",
+      "article-title": "Baleen boom and bust: a synthesis of mysticete phylogeny, diversity and disparity",
+      "volume": "2",
+      "author": "FG Marx",
+      "year": "2015",
+      "journal-title": "R Soc Open Sci"
+    },
+    {
+      "issue": "12",
+      "key": "pone.0323617.ref009",
+      "doi-asserted-by": "crossref",
+      "first-page": "692",
+      "DOI": "10.3390/vetsci9120692",
+      "article-title": "Multimodal assessment of bottlenose dolphin auditory nuclei using 7-Tesla MRI, immunohistochemistry and stereology",
+      "volume": "9",
+      "author": "K Orekhova",
+      "year": "2022",
+      "journal-title": "Vet Sci"
+    },
+    {
+      "issue": "5",
+      "key": "pone.0323617.ref010",
+      "doi-asserted-by": "crossref",
+      "first-page": "745",
+      "DOI": "10.1002/ar.23991",
+      "article-title": "A comparison of the cortical structure of the Bowhead Whale (Balaena mysticetus), a basal mysticete, with other cetaceans",
+      "volume": "302",
+      "author": "MA Raghanti",
+      "year": "2019",
+      "journal-title": "Anat Rec (Hoboken)"
+    },
+    {
+      "issue": "6",
+      "key": "pone.0323617.ref011",
+      "first-page": "712",
+      "article-title": "Localization of the sensory projection areas in the cerebral cortex of the dolphin, Tursiops truncatus",
+      "volume": "13",
+      "author": "TF Ladygina",
+      "year": "1977",
+      "journal-title": "Zh Evol Biokhim Fiziol"
+    },
+    {
+      "issue": "5",
+      "key": "pone.0323617.ref012",
+      "doi-asserted-by": "crossref",
+      "first-page": "495",
+      "DOI": "10.3171/jns.1968.29.5.0495",
+      "article-title": "Motor field in cerebral cortex of the bottlenose dolphin",
+      "volume": "29",
+      "author": "RA Lende",
+      "year": "1968",
+      "journal-title": "J Neurosurg"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref013",
+      "doi-asserted-by": "crossref",
+      "first-page": "555",
+      "DOI": "10.1016/0006-8993(72)90482-9",
+      "article-title": "An unusual sensory area in the cerebral neocortex of the bottlenose dolphin, Tursiops truncatus",
+      "volume": "45",
+      "author": "RA Lende",
+      "year": "1972",
+      "journal-title": "Brain Res"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref014",
+      "first-page": "490",
+      "article-title": "Localization of sensory zones in the dolphin cerebral cortex",
+      "volume": "202",
+      "author": "VE Sokolov",
+      "year": "1972",
+      "journal-title": "Dokl Akad Nauk SSSR"
+    },
+    {
+      "key": "pone.0323617.ref015",
+      "doi-asserted-by": "crossref",
+      "first-page": "163",
+      "DOI": "10.1016/B978-0-323-90516-9.00008-7",
+      "volume-title": "Neurophysiology. In: The physiology of dolphins",
+      "author": "PF Cook",
+      "year": "2024"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref016",
+      "doi-asserted-by": "crossref",
+      "first-page": "66",
+      "DOI": "10.3390/ani14010066",
+      "article-title": "Neuroanatomy of the cetacean sensory systems",
+      "volume": "14",
+      "author": "S De Vreese",
+      "year": "2023",
+      "journal-title": "Animals (Basel)"
+    },
+    {
+      "key": "pone.0323617.ref017",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1007/978-1-4899-0858-2_2",
+      "article-title": "Structure and thalamocortical relations of the cetacean sensory cortex: histological, tracer and immunocytochemical studies",
+      "volume-title": "Sensory Abilities of Cetaceans NATO ASI Series",
+      "author": "L Garey",
+      "year": "1990"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref018",
+      "doi-asserted-by": "crossref",
+      "first-page": "1142",
+      "DOI": "10.1002/ar.a.20258",
+      "article-title": "Cortical complexity in cetacean brains",
+      "volume": "287",
+      "author": "PR Hof",
+      "year": "2005",
+      "journal-title": "Anat Rec A Discov Mol Cell Evol Biol"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref019",
+      "doi-asserted-by": "crossref",
+      "first-page": "411",
+      "DOI": "10.1002/ar.10181",
+      "article-title": "Neuroanatomy of the common dolphin (Delphinus delphis) as revealed by magnetic resonance imaging (MRI)",
+      "volume": "268",
+      "author": "L Marino",
+      "year": "2002",
+      "journal-title": "Anat Rec"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref020",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/0361-9230(80)90272-5",
+      "article-title": "The anatomy of the brain of the bottlenose dolphin (Tursiops truncatus). Surface configurations of the telencephalon of the bottlenose dolphin with comparative anatomical observations in four other cetacean species",
+      "volume": "5",
+      "author": "P Morgane",
+      "year": "1980",
+      "journal-title": "Brain Res Bull"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref021",
+      "doi-asserted-by": "crossref",
+      "first-page": "68",
+      "DOI": "10.1159/000110495",
+      "article-title": "Morphology and evolutionary biology of the dolphin (Delphinus sp.) brain--MR imaging and conventional histology",
+      "volume": "71",
+      "author": "HHA Oelschl\u00e4ger",
+      "year": "2008",
+      "journal-title": "Brain Behav Evol"
+    },
+    {
+      "issue": "7001",
+      "key": "pone.0323617.ref022",
+      "doi-asserted-by": "crossref",
+      "first-page": "776",
+      "DOI": "10.1038/nature02720",
+      "article-title": "Eocene evolution of whale hearing",
+      "volume": "430",
+      "author": "S Nummela",
+      "year": "2004",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "pone.0323617.ref023",
+      "doi-asserted-by": "crossref",
+      "first-page": "69",
+      "DOI": "10.1016/B978-0-12-440280-5.50008-1",
+      "article-title": "The central nervous system of the bottlenose dolphin",
+      "volume-title": "The bottlenose dolphin",
+      "author": "S. Ridgway",
+      "year": "1990"
+    },
+    {
+      "key": "pone.0323617.ref024",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.3389/fevo.2016.00049",
+      "article-title": "Sensory perception in cetaceans: part I\u2014current knowledge about dolphin senses as a representative species",
+      "volume": "4",
+      "author": "D Kremers",
+      "year": "2016",
+      "journal-title": "Front Ecol Evol"
+    },
+    {
+      "key": "pone.0323617.ref025",
+      "volume-title": "The sonar of dolphins",
+      "author": "WWL Au",
+      "year": "1993"
+    },
+    {
+      "issue": "9",
+      "key": "pone.0323617.ref026",
+      "article-title": "Adaptive echolocation behavior of bats and toothed whales in dynamic soundscapes",
+      "volume": "226",
+      "author": "CF Moss",
+      "year": "2023",
+      "journal-title": "J Exp Biol"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref027",
+      "doi-asserted-by": "crossref",
+      "first-page": "20160060",
+      "DOI": "10.1098/rsbl.2016.0060",
+      "article-title": "Ultrasonic hearing and echolocation in the earliest toothed whales",
+      "volume": "12",
+      "author": "T Park",
+      "year": "2016",
+      "journal-title": "Biol Lett"
+    },
+    {
+      "issue": "10",
+      "key": "pone.0323617.ref028",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.cub.2022.04.060",
+      "article-title": "The tempo of cetacean cranial evolution",
+      "volume": "32",
+      "author": "EJ Coombs",
+      "year": "2022",
+      "journal-title": "Curr Biol"
+    },
+    {
+      "key": "pone.0323617.ref029",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1002/9781118561546",
+      "volume-title": "Cetacean paleobiology",
+      "author": "F Marx",
+      "year": "2016"
+    },
+    {
+      "key": "pone.0323617.ref030",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/S0378-5955(01)00296-9",
+      "article-title": "Subcortical neural coding mechanisms for auditory temporal processing",
+      "volume": "158",
+      "author": "RD Frisina",
+      "year": "2001",
+      "journal-title": "Hear Res"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref031",
+      "doi-asserted-by": "crossref",
+      "first-page": "86",
+      "DOI": "10.1186/s12915-020-00805-4",
+      "article-title": "Wonky whales: the evolution of cranial asymmetry in cetaceans",
+      "volume": "18",
+      "author": "EJ Coombs",
+      "year": "2020",
+      "journal-title": "BMC Biol"
+    },
+    {
+      "key": "pone.0323617.ref032",
+      "doi-asserted-by": "crossref",
+      "first-page": "126108",
+      "DOI": "10.1016/j.zool.2023.126108",
+      "article-title": "Cranial asymmetry in odontocetes: a facilitator of sonic exploration?",
+      "volume": "160",
+      "author": "M Laeta",
+      "year": "2023",
+      "journal-title": "Zoology (Jena)"
+    },
+    {
+      "issue": "12",
+      "key": "pone.0323617.ref033",
+      "doi-asserted-by": "crossref",
+      "first-page": "1459",
+      "DOI": "10.1002/ar.20612",
+      "article-title": "Neuroanatomy of the subadult and fetal brain of the Atlantic white-sided dolphin (Lagenorhynchus acutus) from in situ magnetic resonance images",
+      "volume": "290",
+      "author": "EW Montie",
+      "year": "2007",
+      "journal-title": "Anat Rec (Hoboken)"
+    },
+    {
+      "key": "pone.0323617.ref034",
+      "doi-asserted-by": "crossref",
+      "first-page": "47",
+      "DOI": "10.1016/S0074-7742(08)60637-6",
+      "article-title": "Soviet literature on the nervous system and psychobiology of Cetacea",
+      "volume": "21",
+      "author": "TH Bullock",
+      "year": "1979",
+      "journal-title": "Int Rev Neurobiol"
+    },
+    {
+      "key": "pone.0323617.ref035",
+      "doi-asserted-by": "crossref",
+      "first-page": "197",
+      "DOI": "10.1016/B978-0-12-407229-9.00006-3",
+      "article-title": "Brain, spinal cord, and cranial nerves",
+      "volume-title": "Anatomy of dolphins: insights into body structure and function",
+      "author": "B Cozzi",
+      "year": "2017"
+    },
+    {
+      "issue": "5",
+      "key": "pone.0323617.ref036",
+      "first-page": "1047",
+      "article-title": "Multiple sensory projections in the dolphin cerebral cortex",
+      "volume": "28",
+      "author": "TF Ladygina",
+      "year": "1978",
+      "journal-title": "Zh Vyssh Nerv Deiat Im I P Pavlova"
+    },
+    {
+      "key": "pone.0323617.ref037",
+      "volume-title": "Electrophysiological studies of the brain of dolphins",
+      "author": "AY Supin",
+      "year": "1978"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref038",
+      "doi-asserted-by": "crossref",
+      "first-page": "79",
+      "DOI": "10.1002/neu.480030107",
+      "article-title": "Evoked potentials in the central auditory system of alert porpoises to their own and artificial sounds",
+      "volume": "3",
+      "author": "TH Bullock",
+      "year": "1972",
+      "journal-title": "J Neurobiol"
+    },
+    {
+      "key": "pone.0323617.ref039",
+      "first-page": "85",
+      "article-title": "The thalamic projection to the sensory neocortex of the porpoise, Phocoena phocoena",
+      "volume": "169",
+      "author": "AV Revishchin",
+      "year": "1990",
+      "journal-title": "J Anat"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref040",
+      "doi-asserted-by": "crossref",
+      "first-page": "3",
+      "DOI": "10.1002/cne.902730103",
+      "article-title": "Visual cortex of the dolphin: an image analysis study",
+      "volume": "273",
+      "author": "PJ Morgane",
+      "year": "1988",
+      "journal-title": "J Comp Neurol"
+    },
+    {
+      "issue": "1811",
+      "key": "pone.0323617.ref041",
+      "first-page": "20151203",
+      "article-title": "Diffusion tensor imaging of dolphin brains reveals direct auditory pathway to temporal lobe",
+      "volume": "282",
+      "author": "GS Berns",
+      "year": "2015",
+      "journal-title": "Proc Biol Sci"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref042",
+      "doi-asserted-by": "crossref",
+      "first-page": "1697",
+      "DOI": "10.1007/s00429-017-1525-9",
+      "article-title": "Diffusion tractography reveals pervasive asymmetry of cerebral white matter tracts in the bottlenose dolphin (Tursiops truncatus)",
+      "volume": "223",
+      "author": "AK Wright",
+      "year": "2018",
+      "journal-title": "Brain Struct Funct"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref043",
+      "doi-asserted-by": "crossref",
+      "first-page": "2284",
+      "DOI": "10.1016/j.neuroimage.2011.09.054",
+      "article-title": "Diffusion tractography of post-mortem human brains: optimization and comparison of spin echo and steady-state free precession techniques",
+      "volume": "59",
+      "author": "KL Miller",
+      "year": "2012",
+      "journal-title": "Neuroimage"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref044",
+      "doi-asserted-by": "crossref",
+      "first-page": "625",
+      "DOI": "10.1002/1522-2594(200010)44:4<625::AID-MRM17>3.0.CO;2-O",
+      "article-title": "In vivo fiber tractography using DT-MRI data",
+      "volume": "44",
+      "author": "PJ Basser",
+      "year": "2000",
+      "journal-title": "Magn Reson Med"
+    },
+    {
+      "issue": "15",
+      "key": "pone.0323617.ref045",
+      "doi-asserted-by": "crossref",
+      "first-page": "6169",
+      "DOI": "10.1073/pnas.1219562110",
+      "article-title": "Structural foundations of resting-state and task-based functional connectivity in the human brain",
+      "volume": "110",
+      "author": "AM Hermundstad",
+      "year": "2013",
+      "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+      "key": "pone.0323617.ref046",
+      "article-title": "Understanding the relationship between functional and structural connectivity of brain networks",
+      "volume": "21",
+      "author": "SJ Reddi",
+      "year": "2017",
+      "journal-title": "Neuroscientist"
+    },
+    {
+      "key": "pone.0323617.ref047",
+      "doi-asserted-by": "crossref",
+      "first-page": "209926",
+      "DOI": "10.1109/ACCESS.2020.3039837",
+      "article-title": "Understanding the relationship between human brain structure and function by predicting the structural connectivity from functional connectivity",
+      "volume": "8",
+      "author": "Y Wang",
+      "year": "2020",
+      "journal-title": "IEEE Access"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref048",
+      "doi-asserted-by": "crossref",
+      "first-page": "68",
+      "DOI": "10.1016/j.conb.2013.08.016",
+      "article-title": "Neural maps for target range in the auditory cortex of echolocating bats",
+      "volume": "24",
+      "author": "M K\u00f6ssl",
+      "year": "2014",
+      "journal-title": "Curr Opin Neurobiol"
+    },
+    {
+      "key": "pone.0323617.ref049",
+      "doi-asserted-by": "crossref",
+      "first-page": "125",
+      "DOI": "10.1016/S0166-4328(01)00346-1",
+      "article-title": "Unihemispheric slow wave sleep and the state of the eyes in a white whale",
+      "volume": "129",
+      "author": "OI Lyamin",
+      "year": "2002",
+      "journal-title": "Behav Brain Res"
+    },
+    {
+      "issue": "8",
+      "key": "pone.0323617.ref050",
+      "doi-asserted-by": "crossref",
+      "first-page": "1451",
+      "DOI": "10.1016/j.neubiorev.2008.05.023",
+      "article-title": "Cetacean sleep: an unusual form of mammalian sleep",
+      "volume": "32",
+      "author": "OI Lyamin",
+      "year": "2008",
+      "journal-title": "Neurosci Biobehav Rev"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref051",
+      "doi-asserted-by": "crossref",
+      "first-page": "156",
+      "DOI": "10.1159/000113587",
+      "article-title": "Corpus callosum size in delphinid cetaceans",
+      "volume": "44",
+      "author": "RJ Tarpley",
+      "year": "1994",
+      "journal-title": "Brain Behav Evol"
+    },
+    {
+      "key": "pone.0323617.ref052",
+      "article-title": "Lateralized sound production in the beluga whale (Delphinapterus leucas)",
+      "volume": "223",
+      "author": "AE Ames",
+      "year": "2020",
+      "journal-title": "J Exp Biol"
+    },
+    {
+      "key": "pone.0323617.ref053",
+      "doi-asserted-by": "crossref",
+      "first-page": "4091",
+      "DOI": "10.1242/jeb.091306",
+      "article-title": "Nasal sound production in echolocating delphinids (Tursiops truncatus and Pseudorca crassidens) is dynamic, but unilateral: clicking on the right side and whistling on the left side",
+      "volume": "216",
+      "author": "PT Madsen",
+      "year": "2013",
+      "journal-title": "J Exp Biol"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref054",
+      "doi-asserted-by": "crossref",
+      "first-page": "325",
+      "DOI": "10.1080/1357650X.2013.824461",
+      "article-title": "The evolution of contralateral control of the body by the brain: is it a protective mechanism?",
+      "volume": "19",
+      "author": "L Whitehead",
+      "year": "2014",
+      "journal-title": "Laterality"
+    },
+    {
+      "key": "pone.0323617.ref055",
+      "volume-title": "Early vertebrates",
+      "author": "P Janvier",
+      "year": "2002"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref056",
+      "doi-asserted-by": "crossref",
+      "first-page": "235",
+      "DOI": "10.1016/S0149-7634(01)00068-9",
+      "article-title": "Neural pathways underlying vocal control",
+      "volume": "26",
+      "author": "U J\u00fcrgens",
+      "year": "2002",
+      "journal-title": "Neurosci Biobehav Rev"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref057",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.jvoice.2007.07.005",
+      "article-title": "The neural control of vocalization in mammals: a review",
+      "volume": "23",
+      "author": "U J\u00fcrgens",
+      "year": "2009",
+      "journal-title": "J Voice"
+    },
+    {
+      "key": "pone.0323617.ref058",
+      "doi-asserted-by": "crossref",
+      "first-page": "2053",
+      "DOI": "10.3389/fpsyg.2020.02053",
+      "article-title": "The relevance of ecological transitions to intelligence in marine mammals",
+      "volume": "11",
+      "author": "GB Bauer",
+      "year": "2020",
+      "journal-title": "Front Psychol"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref059",
+      "doi-asserted-by": "crossref",
+      "first-page": "295",
+      "DOI": "10.1016/0165-0173(90)90005-9",
+      "article-title": "The descending auditory pathway and acousticomotor systems: connections with the inferior colliculus",
+      "volume": "15",
+      "author": "RF Huffman",
+      "year": "1990",
+      "journal-title": "Brain Res Brain Res Rev"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref060",
+      "doi-asserted-by": "crossref",
+      "first-page": "215",
+      "DOI": "10.1159/000096799",
+      "article-title": "The inferior colliculus: a center for convergence of ascending and descending auditory information",
+      "volume": "3",
+      "author": "MS Malmierca",
+      "year": "2004",
+      "journal-title": "Neuroembryol Aging"
+    },
+    {
+      "issue": "5",
+      "key": "pone.0323617.ref061",
+      "doi-asserted-by": "crossref",
+      "first-page": "1899",
+      "DOI": "10.1523/JNEUROSCI.13-05-01899.1993",
+      "article-title": "An audio-vocal interface in echolocating horseshoe bats",
+      "volume": "13",
+      "author": "W Metzner",
+      "year": "1993",
+      "journal-title": "J Neurosci"
+    },
+    {
+      "key": "pone.0323617.ref062",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1093/oxfordhb/9780199233281.013.0003",
+      "article-title": "Structural organization of the descending auditory pathway",
+      "volume-title": "The Oxford Handbook of Auditory Science: the Auditory Brain [Internet]Available from",
+      "author": "BR. Schofield",
+      "year": "2010"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref063",
+      "doi-asserted-by": "crossref",
+      "first-page": "183",
+      "DOI": "10.1002/cne.901360205",
+      "article-title": "Projections of the inferior colliculus in cat",
+      "volume": "136",
+      "author": "EW Powell",
+      "year": "1969",
+      "journal-title": "J Comp Neurol"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref064",
+      "doi-asserted-by": "crossref",
+      "first-page": "417",
+      "DOI": "10.1002/cne.903190308",
+      "article-title": "Intrinsic and commissural connections of the rat inferior colliculus",
+      "volume": "319",
+      "author": "E Salda\u00f1a",
+      "year": "1992",
+      "journal-title": "J Comp Neurol"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref065",
+      "doi-asserted-by": "crossref",
+      "first-page": "583",
+      "DOI": "10.1007/s12311-008-0059-3",
+      "article-title": "Cerebellum predicts the future motor state",
+      "volume": "7",
+      "author": "TJ Ebner",
+      "year": "2008",
+      "journal-title": "Cerebellum"
+    },
+    {
+      "issue": "9",
+      "key": "pone.0323617.ref066",
+      "first-page": "813",
+      "article-title": "Corollary discharge signals in the cerebellum",
+      "volume": "4",
+      "author": "AL Person",
+      "year": "2019",
+      "journal-title": "Biol Psychiatry Cogn Neurosci Neuroimaging"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref067",
+      "doi-asserted-by": "crossref",
+      "first-page": "795",
+      "DOI": "10.1162/nol_a_00148",
+      "article-title": "Dissociating cerebellar regions involved in formulating and articulating words and sentences",
+      "volume": "5",
+      "author": "O Parker Jones",
+      "year": "2024",
+      "journal-title": "Neurobiol Lang (Camb)"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref068",
+      "first-page": "386",
+      "article-title": "Consensus paper: Language and the cerebellum: an ongoing enigma",
+      "volume": "13",
+      "author": "P Mari\u00ebn",
+      "year": "2014",
+      "journal-title": "Cerebellum"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref069",
+      "doi-asserted-by": "crossref",
+      "first-page": "197",
+      "DOI": "10.1007/s12311-014-0627-7",
+      "article-title": "Consensus paper: the role of the cerebellum in perceptual processes",
+      "volume": "14",
+      "author": "O Baumann",
+      "year": "2015",
+      "journal-title": "Cerebellum"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref070",
+      "doi-asserted-by": "crossref",
+      "first-page": "359",
+      "DOI": "10.3109/13682829609031327",
+      "article-title": "Speech, language, and the cerebellum",
+      "volume": "31",
+      "author": "N Gordon",
+      "year": "1996",
+      "journal-title": "Eur J Disord Commun"
+    },
+    {
+      "key": "pone.0323617.ref071",
+      "doi-asserted-by": "crossref",
+      "first-page": "265",
+      "DOI": "10.3389/fpsyg.2017.00265",
+      "article-title": "The contribution of brainstem and cerebellar pathways to auditory recognition",
+      "volume": "8",
+      "author": "NM McLachlan",
+      "year": "2017",
+      "journal-title": "Front Psychol"
+    },
+    {
+      "key": "pone.0323617.ref072",
+      "doi-asserted-by": "crossref",
+      "first-page": "19",
+      "DOI": "10.3389/fnsys.2020.00019",
+      "article-title": "The cerebro-cerebellum as a locus of forward model: a review",
+      "volume": "14",
+      "author": "H Tanaka",
+      "year": "2020",
+      "journal-title": "Front Syst Neurosci"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref073",
+      "doi-asserted-by": "crossref",
+      "first-page": "204",
+      "DOI": "10.1159/000047205",
+      "article-title": "Relative volume of the cerebellum in dolphins and comparison with anthropoid primates",
+      "volume": "56",
+      "author": "L Marino",
+      "year": "2000",
+      "journal-title": "Brain Behav Evol"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref074",
+      "doi-asserted-by": "crossref",
+      "first-page": "263",
+      "DOI": "10.1002/ar.20654",
+      "article-title": "Volumetric neuroimaging of the atlantic white-sided dolphin (Lagenorhynchus acutus) brain from in situ magnetic resonance images",
+      "volume": "291",
+      "author": "EW Montie",
+      "year": "2008",
+      "journal-title": "Anat Rec (Hoboken)"
+    },
+    {
+      "key": "pone.0323617.ref075",
+      "doi-asserted-by": "crossref",
+      "first-page": "450",
+      "DOI": "10.1016/j.brainresbull.2007.10.051",
+      "article-title": "The dolphin brain--a challenge for synthetic neurobiology",
+      "volume": "75",
+      "author": "HHA Oelschl\u00e4ger",
+      "year": "2008",
+      "journal-title": "Brain Res Bull"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref076",
+      "article-title": "Morphological diversity in the brains of 12 neotropical bat species",
+      "volume": "25",
+      "author": "I Alvarez van Tussenbroek",
+      "year": "2024",
+      "journal-title": "Acta Chiropterologica"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref077",
+      "doi-asserted-by": "crossref",
+      "first-page": "502",
+      "DOI": "10.1016/0006-8993(80)90415-1",
+      "article-title": "Neurons in the cerebellum of echolocating bats respond to acoustic signals",
+      "volume": "196",
+      "author": "PH Jen",
+      "year": "1980",
+      "journal-title": "Brain Res"
+    },
+    {
+      "issue": "10",
+      "key": "pone.0323617.ref078",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1371/journal.pone.0047478",
+      "article-title": "Dolphins can maintain vigilant behavior through echolocation for 15 days without interruption or cognitive impairment",
+      "volume": "7",
+      "author": "BK Branstetter",
+      "year": "2012",
+      "journal-title": "PLoS One"
+    },
+    {
+      "key": "pone.0323617.ref079",
+      "first-page": "3987",
+      "article-title": "On doing two things at once: dolphin brain and nose coordinate sonar clicks, buzzes and emotional squeals with social sounds during fish capture",
+      "volume": "218",
+      "author": "S Ridgway",
+      "year": "2015",
+      "journal-title": "J Exp Biol"
+    },
+    {
+      "issue": "8002",
+      "key": "pone.0323617.ref080",
+      "doi-asserted-by": "crossref",
+      "first-page": "123",
+      "DOI": "10.1038/s41586-024-07080-1",
+      "article-title": "Evolutionary novelties underlie sound production in baleen whales",
+      "volume": "627",
+      "author": "CPH Elemans",
+      "year": "2024",
+      "journal-title": "Nature"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref081",
+      "doi-asserted-by": "crossref",
+      "first-page": "223",
+      "DOI": "10.1002/(SICI)1097-4687(199606)228:3<223::AID-JMOR1>3.0.CO;2-3",
+      "article-title": "Functional morphology and homology in the odontocete nasal complex: implications for sound generation",
+      "volume": "228",
+      "author": "TW Cranford",
+      "year": "1996",
+      "journal-title": "J Morphol"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref082",
+      "doi-asserted-by": "crossref",
+      "first-page": "1064",
+      "DOI": "10.1016/j.neuroimage.2006.12.041",
+      "article-title": "Fiber density asymmetry of the arcuate fasciculus in relation to functional hemispheric language lateralization in both right- and left-handed healthy subjects: a combined fMRI and DTI study",
+      "volume": "35",
+      "author": "MW Vernooij",
+      "year": "2007",
+      "journal-title": "Neuroimage"
+    },
+    {
+      "issue": "8",
+      "key": "pone.0323617.ref083",
+      "doi-asserted-by": "crossref",
+      "first-page": "1215",
+      "DOI": "10.1002/ar.22726",
+      "article-title": "Quantitative examination of the bottlenose dolphin cerebellum",
+      "volume": "296",
+      "author": "A Hanson",
+      "year": "2013",
+      "journal-title": "Anat Rec (Hoboken)"
+    },
+    {
+      "issue": "6",
+      "key": "pone.0323617.ref084",
+      "doi-asserted-by": "crossref",
+      "first-page": "331",
+      "DOI": "10.1152/jn.1944.7.6.331",
+      "article-title": "Receiving areas of the tactile, auditory, and visual systems in the cerebellum",
+      "volume": "7",
+      "author": "RS Snider",
+      "year": "1944",
+      "journal-title": "Journal of Neurophysiology"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref085",
+      "doi-asserted-by": "crossref",
+      "first-page": "36",
+      "DOI": "10.1007/BF00237663",
+      "article-title": "The auditory corticopontocerebellar projection in the rat: inputs to the paraflocculus and midvermis. An anatomical and physiological study",
+      "volume": "59",
+      "author": "SA Azizi",
+      "year": "1985",
+      "journal-title": "Exp Brain Res"
+    },
+    {
+      "issue": "21",
+      "key": "pone.0323617.ref086",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.cub.2018.08.059",
+      "article-title": "Topographic cortico-cerebellar networks revealed by visual attention and working memory",
+      "volume": "28",
+      "author": "JA Brissenden",
+      "year": "2018",
+      "journal-title": "Curr Biol"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref087",
+      "doi-asserted-by": "crossref",
+      "first-page": "55",
+      "DOI": "10.1007/BF00235541",
+      "article-title": "Visual cortical projections to the paraflocculus in the rat. An electrophysiologic study",
+      "volume": "49",
+      "author": "RA Burne",
+      "year": "1983",
+      "journal-title": "Exp Brain Res"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref088",
+      "doi-asserted-by": "crossref",
+      "first-page": "776",
+      "DOI": "10.1152/jn.1986.55.4.776",
+      "article-title": "Multiple time axes for representation of echo delays in the auditory cortex of the mustached bat",
+      "volume": "55",
+      "author": "N Suga",
+      "year": "1986",
+      "journal-title": "J Neurophysiol"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref089",
+      "doi-asserted-by": "crossref",
+      "first-page": "953",
+      "DOI": "10.1093/cercor/bhp157",
+      "article-title": "Distinct and overlapping functional zones in the cerebellum defined by resting state functional connectivity",
+      "volume": "20",
+      "author": "JX O\u2019Reilly",
+      "year": "2010",
+      "journal-title": "Cereb Cortex"
+    },
+    {
+      "key": "pone.0323617.ref090",
+      "doi-asserted-by": "crossref",
+      "first-page": "51",
+      "DOI": "10.1155/2010/587450",
+      "article-title": "Modality specific cerebro-cerebellar activations in verbal working memory: an fMRI study",
+      "volume": "23",
+      "author": "MP Kirschen",
+      "year": "2010",
+      "journal-title": "Behav Neurol"
+    },
+    {
+      "issue": "6",
+      "key": "pone.0323617.ref091",
+      "doi-asserted-by": "crossref",
+      "first-page": "1005",
+      "DOI": "10.3174/ajnr.A4720",
+      "article-title": "Nonmotor functions of the cerebellum: an introduction",
+      "volume": "37",
+      "author": "AP Klein",
+      "year": "2016",
+      "journal-title": "AJNR Am J Neuroradiol"
+    },
+    {
+      "issue": "5",
+      "key": "pone.0323617.ref092",
+      "doi-asserted-by": "crossref",
+      "first-page": "987",
+      "DOI": "10.1093/cercor/bhab260",
+      "article-title": "The social cerebellum: a large-scale investigation of functional and structural specificity and connectivity",
+      "volume": "32",
+      "author": "A Metoki",
+      "year": "2022",
+      "journal-title": "Cereb Cortex"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref093",
+      "doi-asserted-by": "crossref",
+      "first-page": "739",
+      "DOI": "10.1007/s12311-022-01451-y",
+      "article-title": "Respective involvement of the right cerebellar crus i and ii in syntactic and semantic processing for comprehension of language",
+      "volume": "22",
+      "author": "H Nakatani",
+      "year": "2023",
+      "journal-title": "Cerebellum"
+    },
+    {
+      "issue": "9",
+      "key": "pone.0323617.ref094",
+      "doi-asserted-by": "crossref",
+      "first-page": "905",
+      "DOI": "10.1093/scan/nsaa124",
+      "article-title": "The posterior crus II cerebellum is specialized for social mentalizing and emotional self-experiences: a meta-analysis",
+      "volume": "15",
+      "author": "F Van Overwalle",
+      "year": "2020",
+      "journal-title": "Soc Cogn Affect Neurosci"
+    },
+    {
+      "key": "pone.0323617.ref095",
+      "doi-asserted-by": "crossref",
+      "first-page": "233",
+      "DOI": "10.1006/nimg.1999.0459",
+      "article-title": "Three-dimensional MRI atlas of the human cerebellum in proportional stereotaxic space",
+      "volume": "10",
+      "author": "JD Schmahmann",
+      "year": "1999",
+      "journal-title": "Neuroimage"
+    },
+    {
+      "issue": "5",
+      "key": "pone.0323617.ref096",
+      "doi-asserted-by": "crossref",
+      "first-page": "2322",
+      "DOI": "10.1152/jn.00339.2011",
+      "article-title": "The organization of the human cerebellum estimated by intrinsic functional connectivity",
+      "volume": "106",
+      "author": "RL Buckner",
+      "year": "2011",
+      "journal-title": "J Neurophysiol"
+    },
+    {
+      "issue": "7",
+      "key": "pone.0323617.ref097",
+      "doi-asserted-by": "crossref",
+      "first-page": "1827",
+      "DOI": "10.1093/cercor/bht422",
+      "article-title": "Laterality differences in cerebellar-motor cortex connectivity",
+      "volume": "25",
+      "author": "JE Schlerf",
+      "year": "2015",
+      "journal-title": "Cereb Cortex"
+    },
+    {
+      "key": "pone.0323617.ref098",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.7554/eLife.35696",
+      "article-title": "A cerebellar substrate for cognition evolved multiple times independently in mammals",
+      "volume": "7",
+      "author": "JB Smaers",
+      "year": "2018",
+      "journal-title": "Elife"
+    },
+    {
+      "key": "pone.0323617.ref099",
+      "author": "R Toro",
+      "year": "2015"
+    },
+    {
+      "key": "pone.0323617.ref100",
+      "author": "A Cohen-Gadol",
+      "year": "2024"
+    },
+    {
+      "issue": "7",
+      "key": "pone.0323617.ref101",
+      "doi-asserted-by": "crossref",
+      "first-page": "820",
+      "DOI": "10.1002/jmor.10628",
+      "article-title": "Morphology of the melon and its tendinous connections to the facial muscles in bottlenose dolphins (Tursiops truncatus)",
+      "volume": "269",
+      "author": "CJ Harper",
+      "year": "2008",
+      "journal-title": "J Morphol"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref102",
+      "doi-asserted-by": "crossref",
+      "first-page": "690",
+      "DOI": "10.1111/j.1748-7692.2011.00526.x",
+      "article-title": "Morphology of the odontocete melon and its implications for acoustic function",
+      "volume": "28",
+      "author": "MF McKenna",
+      "year": "2011",
+      "journal-title": "Marine Mammal Science"
+    },
+    {
+      "key": "pone.0323617.ref103",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.5479/si.00810282.207",
+      "article-title": "Anatomy of the external nasal passages and facial complex in the delphinidae (mammalia: cetacea)",
+      "volume": "207",
+      "author": "JG Mead",
+      "year": "1975",
+      "journal-title": "Smithson Contrib Zool"
+    },
+    {
+      "issue": "5",
+      "key": "pone.0323617.ref104",
+      "doi-asserted-by": "crossref",
+      "first-page": "705",
+      "DOI": "10.1007/BF00603828",
+      "article-title": "Evoked potentials of the auditory cortex of the porpoise, Phocoena phocoena",
+      "volume": "158",
+      "author": "VV Popov",
+      "year": "1986",
+      "journal-title": "J Comp Physiol A"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref105",
+      "doi-asserted-by": "crossref",
+      "first-page": "1339",
+      "DOI": "10.1121/1.2945155",
+      "article-title": "Low frequency vocalizations attributed to sei whales (Balaenoptera borealis)",
+      "volume": "124",
+      "author": "MF Baumgartner",
+      "year": "2008",
+      "journal-title": "J Acoust Soc Am"
+    },
+    {
+      "key": "pone.0323617.ref106",
+      "doi-asserted-by": "crossref",
+      "first-page": "201",
+      "DOI": "10.3354/meps08402",
+      "article-title": "Acoustic masking in marine ecosystems: intuitions, analysis, and implication",
+      "volume": "395",
+      "author": "C Clark",
+      "year": "2009",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref107",
+      "doi-asserted-by": "crossref",
+      "first-page": "820",
+      "DOI": "10.1016/j.neuroimage.2008.09.054",
+      "article-title": "Postmortem interval alters the water relaxation and diffusion properties of rat nervous tissue--implications for MRI studies of human autopsy samples",
+      "volume": "44",
+      "author": "TM Shepherd",
+      "year": "2009",
+      "journal-title": "Neuroimage"
+    },
+    {
+      "key": "pone.0323617.ref108",
+      "doi-asserted-by": "crossref",
+      "first-page": "117744",
+      "DOI": "10.1016/j.neuroimage.2021.117744",
+      "article-title": "Can MRI measure myelin? Systematic review, qualitative assessment, and meta-analysis of studies validating microstructural imaging with myelin histology",
+      "volume": "230",
+      "author": "A Lazari",
+      "year": "2021",
+      "journal-title": "Neuroimage"
+    },
+    {
+      "key": "pone.0323617.ref109",
+      "doi-asserted-by": "crossref",
+      "first-page": "435",
+      "DOI": "10.1002/nbm.782",
+      "article-title": "The basis of anisotropic water diffusion in the nervous system - a technical review",
+      "volume": "15",
+      "author": "C Beaulieu",
+      "year": "2002",
+      "journal-title": "NMR Biomed"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref110",
+      "doi-asserted-by": "crossref",
+      "first-page": "89",
+      "DOI": "10.1093/brain/66.2.89",
+      "article-title": "Afferent areas in the brain of ungulates",
+      "volume": "66",
+      "author": "Ed Adrian",
+      "year": "1943",
+      "journal-title": "Brain"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref111",
+      "doi-asserted-by": "crossref",
+      "first-page": "27",
+      "DOI": "10.1016/0304-3940(90)90423-7",
+      "article-title": "Evoked potential mapping of auditory and somatosensory cortices in the miniature swine",
+      "volume": "114",
+      "author": "RJ Andrews",
+      "year": "1990",
+      "journal-title": "Neurosci Lett"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref112",
+      "doi-asserted-by": "crossref",
+      "first-page": "146",
+      "DOI": "10.1159/000115863",
+      "article-title": "Volumetric comparison of auditory structures in the brains of European wild boars (Sus scrofa) and domestic pigs (Sus scrofa f. dom.)",
+      "volume": "35",
+      "author": "D Plogmann",
+      "year": "1990",
+      "journal-title": "Brain Behav Evol"
+    },
+    {
+      "issue": "7",
+      "key": "pone.0323617.ref113",
+      "doi-asserted-by": "crossref",
+      "first-page": "075001",
+      "DOI": "10.1117/1.JBO.28.7.075001",
+      "article-title": "Evaluating feasibility of functional near-infrared spectroscopy in dolphins",
+      "volume": "28",
+      "author": "A Ruesch",
+      "year": "2023",
+      "journal-title": "J Biomed Opt"
+    },
+    {
+      "key": "pone.0323617.ref114",
+      "doi-asserted-by": "crossref",
+      "first-page": "2902",
+      "DOI": "10.1242/jeb.02348",
+      "article-title": "Functional imaging of dolphin brain metabolism and blood flow",
+      "volume": "209",
+      "author": "S Ridgway",
+      "year": "2006",
+      "journal-title": "J Exp Biol"
+    },
+    {
+      "key": "pone.0323617.ref115",
+      "doi-asserted-by": "crossref",
+      "first-page": "1330384",
+      "DOI": "10.3389/fnana.2023.1330384",
+      "article-title": "Age-related changes in the primary auditory cortex of newborn, adults and aging bottlenose dolphins (Tursiops truncatus) are located in the upper cortical layers",
+      "volume": "17",
+      "author": "J-M Gra\u00efc",
+      "year": "2024",
+      "journal-title": "Front Neuroanat"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref116",
+      "doi-asserted-by": "crossref",
+      "first-page": "93",
+      "DOI": "10.1007/s10071-004-0238-7",
+      "article-title": "Song copying by humpback whales: themes and variations",
+      "volume": "8",
+      "author": "E Mercado",
+      "year": "2004",
+      "journal-title": "Anim Cogn"
+    },
+    {
+      "key": "pone.0323617.ref117",
+      "doi-asserted-by": "crossref",
+      "first-page": "60",
+      "DOI": "10.1016/j.conb.2014.06.010",
+      "article-title": "Cetacean vocal learning and communication",
+      "volume": "28",
+      "author": "VM Janik",
+      "year": "2014",
+      "journal-title": "Curr Opin Neurobiol"
+    },
+    {
+      "issue": "1836",
+      "key": "pone.0323617.ref118",
+      "doi-asserted-by": "crossref",
+      "first-page": "20200244",
+      "DOI": "10.1098/rstb.2020.0244",
+      "article-title": "Vocal production learning in mammals revisited",
+      "volume": "376",
+      "author": "VM Janik",
+      "year": "2021",
+      "journal-title": "Philos Trans R Soc Lond B Biol Sci"
+    },
+    {
+      "issue": "1836",
+      "key": "pone.0323617.ref119",
+      "doi-asserted-by": "crossref",
+      "first-page": "20200234",
+      "DOI": "10.1098/rstb.2020.0234",
+      "article-title": "Vocal learning in animals and humans",
+      "volume": "376",
+      "author": "SC Vernes",
+      "year": "2021",
+      "journal-title": "Philos Trans R Soc Lond B Biol Sci"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref120",
+      "doi-asserted-by": "crossref",
+      "first-page": "173",
+      "DOI": "10.1002/jmor.11013",
+      "article-title": "The dolphin cochlear nucleus: topography, histology and functional implications",
+      "volume": "273",
+      "author": "EP Malkemper",
+      "year": "2012",
+      "journal-title": "J Morphol"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref121",
+      "doi-asserted-by": "crossref",
+      "first-page": "1943",
+      "DOI": "10.1073/pnas.78.3.1943",
+      "article-title": "Auditory brainstem response in dolphins",
+      "volume": "78",
+      "author": "SH Ridgway",
+      "year": "1981",
+      "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+      "key": "pone.0323617.ref122",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.1080/10292380009380554",
+      "article-title": "Specialized sound reception in dolphins\u2014A hint for the function of the dorsal cochlear nucleus in mammals",
+      "volume": "14",
+      "author": "FJ Schulmeyer",
+      "year": "2000",
+      "journal-title": "Hist Biol"
+    },
+    {
+      "key": "pone.0323617.ref123",
+      "doi-asserted-by": "crossref",
+      "first-page": "311",
+      "DOI": "10.1007/978-1-4684-7493-0_33",
+      "article-title": "Some comparative aspects of auditory brainstem cytoarchitecture in echolocating mammals: speculations on the morphological basis of time-domain signal processing",
+      "volume-title": "Animal sonar",
+      "author": "JM Zook",
+      "year": "1988"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref124",
+      "doi-asserted-by": "crossref",
+      "first-page": "222",
+      "DOI": "10.1016/S0166-2236(03)00054-7",
+      "article-title": "What the cerebellum computes",
+      "volume": "26",
+      "author": "T Ohyama",
+      "year": "2003",
+      "journal-title": "Trends Neurosci"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref125",
+      "doi-asserted-by": "crossref",
+      "first-page": "952",
+      "DOI": "10.1121/10.0017163",
+      "article-title": "Latencies of click-evoked auditory responses in a harbor porpoise exceed the time interval between subsequent echolocation clicks",
+      "volume": "153",
+      "author": "K Beedholm",
+      "year": "2023",
+      "journal-title": "J Acoust Soc Am"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref126",
+      "doi-asserted-by": "crossref",
+      "first-page": "698",
+      "DOI": "10.1162/jocn_a_00167",
+      "article-title": "The cerebellum generates motor-to-auditory predictions: ERP lesion evidence",
+      "volume": "24",
+      "author": "F Knolle",
+      "year": "2012",
+      "journal-title": "J Cogn Neurosci"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0323617.ref127",
+      "doi-asserted-by": "crossref",
+      "first-page": "266",
+      "DOI": "10.1159/000360519",
+      "article-title": "Sperm whales and killer whales with the largest brains of all toothed whales show extreme differences in cerebellum",
+      "volume": "83",
+      "author": "SH Ridgway",
+      "year": "2014",
+      "journal-title": "Brain Behav Evol"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref128",
+      "doi-asserted-by": "crossref",
+      "first-page": "39",
+      "DOI": "10.1159/000113822",
+      "article-title": "The role of the cerebellum in motor control and perception",
+      "volume": "41",
+      "author": "MG Paulin",
+      "year": "1993",
+      "journal-title": "Brain Behav Evol"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref129",
+      "doi-asserted-by": "crossref",
+      "first-page": "1103",
+      "DOI": "10.1002/ar.a.20254",
+      "article-title": "Neurobiological specializations in echolocating bats",
+      "volume": "287",
+      "author": "E Covey",
+      "year": "2005",
+      "journal-title": "Anat Rec A Discov Mol Cell Evol Biol"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref130",
+      "doi-asserted-by": "crossref",
+      "first-page": "162",
+      "DOI": "10.1016/0006-8993(83)91378-1",
+      "article-title": "Mapping of the auditory area in the cerebellar vermis and hemispheres of the mustache bat, Pteronotus parnellii parnellii",
+      "volume": "271",
+      "author": "X Sun",
+      "year": "1983",
+      "journal-title": "Brain Res"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref131",
+      "doi-asserted-by": "crossref",
+      "first-page": "123",
+      "DOI": "10.1016/0006-8993(90)90203-N",
+      "article-title": "Auditory response properties and directional sensitivity of cerebellar neurons of the echolocating bat, Eptesicus fuscus",
+      "volume": "528",
+      "author": "T Kamada",
+      "year": "1990",
+      "journal-title": "Brain Res"
+    },
+    {
+      "key": "pone.0323617.ref132",
+      "doi-asserted-by": "crossref",
+      "first-page": "901",
+      "DOI": "10.1016/j.anbehav.2011.07.031",
+      "article-title": "Population-level lateralized feeding behaviour in North Atlantic humpback whales, Megaptera novaeangliae",
+      "volume": "82",
+      "author": "C Canning",
+      "year": "2011",
+      "journal-title": "Anim Behav"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref133",
+      "doi-asserted-by": "crossref",
+      "first-page": "239",
+      "DOI": "10.1007/s10071-015-0899-4",
+      "article-title": "Evidence for the perceptual origin of right-sided feeding biases in cetaceans",
+      "volume": "19",
+      "author": "K Karenina",
+      "year": "2016",
+      "journal-title": "Anim Cogn"
+    },
+    {
+      "key": "pone.0323617.ref134",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.7554/eLife.32167",
+      "article-title": "A subcortical circuit linking the cerebellum to the basal ganglia engaged in vocal learning",
+      "volume": "7",
+      "author": "L Pidoux",
+      "year": "2018",
+      "journal-title": "Elife"
+    },
+    {
+      "issue": "7",
+      "key": "pone.0323617.ref135",
+      "doi-asserted-by": "crossref",
+      "first-page": "858",
+      "DOI": "10.1016/j.cortex.2009.07.018",
+      "article-title": "The cerebellum and language: historical perspective and review",
+      "volume": "46",
+      "author": "BE Murdoch",
+      "year": "2010",
+      "journal-title": "Cortex"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref136",
+      "doi-asserted-by": "crossref",
+      "first-page": "210",
+      "DOI": "10.1007/s12311-022-01499-w",
+      "article-title": "A systematic review of direct outputs from the cerebellum to the brainstem and diencephalon in mammals",
+      "volume": "23",
+      "author": "M Novello",
+      "year": "2024",
+      "journal-title": "Cerebellum"
+    },
+    {
+      "issue": "9",
+      "key": "pone.0323617.ref137",
+      "doi-asserted-by": "crossref",
+      "first-page": "1157",
+      "DOI": "10.3390/sym11091157",
+      "article-title": "From science to practice: a review of laterality research on ungulate livestock",
+      "volume": "11",
+      "author": "LMC Leliveld",
+      "year": "2019",
+      "journal-title": "Symmetry"
+    },
+    {
+      "key": "pone.0323617.ref138",
+      "first-page": "105",
+      "article-title": "Cerebellar motor and cognitive functions",
+      "volume-title": "Higher order motor disorders: From neuroanatomy and neurobiology to clinical neurology",
+      "author": "J. Schmahmann",
+      "year": "2005"
+    },
+    {
+      "issue": "6",
+      "key": "pone.0323617.ref139",
+      "doi-asserted-by": "crossref",
+      "first-page": "1005",
+      "DOI": "10.3174/ajnr.A4720",
+      "article-title": "Nonmotor functions of the cerebellum: an introduction",
+      "volume": "37",
+      "author": "AP Klein",
+      "year": "2016",
+      "journal-title": "AJNR Am J Neuroradiol"
+    },
+    {
+      "key": "pone.0323617.ref140",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.heares.2015.12.021",
+      "article-title": "Influence of the paraflocculus on normal and abnormal spontaneous firing rates in the inferior colliculus",
+      "volume": "333",
+      "author": "DP Vogler",
+      "year": "2016",
+      "journal-title": "Hear Res"
+    },
+    {
+      "key": "pone.0323617.ref141",
+      "doi-asserted-by": "crossref",
+      "first-page": "108081",
+      "DOI": "10.1016/j.heares.2020.108081",
+      "article-title": "The cerebellar (para)flocculus: a review on its auditory function and a possible role in tinnitus",
+      "volume": "398",
+      "author": "LM Mennink",
+      "year": "2020",
+      "journal-title": "Hear Res"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref142",
+      "doi-asserted-by": "crossref",
+      "first-page": "257",
+      "DOI": "10.1111/j.1460-9568.2011.07951.x",
+      "article-title": "Right-left asymmetry in the cortical processing of sounds for social communication vs. navigation in mustached bats",
+      "volume": "35",
+      "author": "JS Kanwal",
+      "year": "2012",
+      "journal-title": "Eur J Neurosci"
+    },
+    {
+      "key": "pone.0323617.ref143",
+      "doi-asserted-by": "crossref",
+      "first-page": "139",
+      "DOI": "10.7551/mitpress/9939.003.0009",
+      "article-title": "Making sense of it all: multimodal dolphin communication.",
+      "volume-title": "Dolphin Communication and Cognition: Past, Present, and Future",
+      "author": "DL Herzing",
+      "year": "2015"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref144",
+      "doi-asserted-by": "crossref",
+      "first-page": "119",
+      "DOI": "10.1134/S1063771022060112",
+      "article-title": "The role of asymmetry of the left and right external ear of bottlenose dolphin (Tursiops truncatus) in the spatial localization of sound",
+      "volume": "69",
+      "author": "VA Ryabov",
+      "year": "2023",
+      "journal-title": "Acoust Phys"
+    },
+    {
+      "key": "pone.0323617.ref145",
+      "doi-asserted-by": "crossref",
+      "first-page": "194",
+      "DOI": "10.1016/j.mri.2018.11.014",
+      "article-title": "Challenges in diffusion MRI tractography - Lessons learned from international benchmark competitions",
+      "volume": "57",
+      "author": "KG Schilling",
+      "year": "2019",
+      "journal-title": "Magn Reson Imaging"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref146",
+      "doi-asserted-by": "crossref",
+      "first-page": "775",
+      "DOI": "10.1016/j.neuroimage.2009.01.008",
+      "article-title": "High resolution diffusion-weighted imaging in fixed human brain using diffusion-weighted steady state free precession",
+      "volume": "46",
+      "author": "JA McNab",
+      "year": "2009",
+      "journal-title": "Neuroimage"
+    },
+    {
+      "issue": "1",
+      "key": "pone.0323617.ref147",
+      "doi-asserted-by": "crossref",
+      "first-page": "249",
+      "DOI": "10.1016/j.neuroimage.2009.08.039",
+      "article-title": "Crossing fibres in tract-based spatial statistics",
+      "volume": "49",
+      "author": "S Jbabdi",
+      "year": "2010",
+      "journal-title": "Neuroimage"
+    },
+    {
+      "issue": "7",
+      "key": "pone.0323617.ref148",
+      "doi-asserted-by": "crossref",
+      "first-page": "1301",
+      "DOI": "10.1002/ar.23168",
+      "article-title": "Morphology of the Nasal Apparatus in Pygmy (Kogia Breviceps) and Dwarf (K. Sima) Sperm Whales",
+      "volume": "298",
+      "author": "SW Thornton",
+      "year": "2015",
+      "journal-title": "Anat Rec (Hoboken)"
+    },
+    {
+      "key": "pone.0323617.ref149",
+      "doi-asserted-by": "crossref",
+      "first-page": "59",
+      "DOI": "10.1016/S0065-3454(08)60377-0",
+      "article-title": "Vocal learning in mammals",
+      "volume": "26",
+      "author": "V Janik",
+      "year": "1997",
+      "journal-title": "Adv Stud Behav"
+    },
+    {
+      "key": "pone.0323617.ref150",
+      "doi-asserted-by": "crossref",
+      "first-page": "208",
+      "DOI": "10.1017/CBO9780511758843.011",
+      "article-title": "Vocal learning in cetaceans",
+      "volume-title": "Social influences on vocal development [Internet]Available from",
+      "author": "PL Tyack",
+      "year": "1997"
+    },
+    {
+      "key": "pone.0323617.ref151",
+      "volume-title": "Marine mammals ashore: a field guide for strandings",
+      "author": "JR Geraci",
+      "year": "2005"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref152",
+      "doi-asserted-by": "crossref",
+      "first-page": "553",
+      "DOI": "10.1016/j.neuroimage.2006.12.028",
+      "article-title": "An approach to high resolution diffusion tensor imaging in fixed primate brain",
+      "volume": "35",
+      "author": "HE D\u2019Arceuil",
+      "year": "2007",
+      "journal-title": "Neuroimage"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref153",
+      "doi-asserted-by": "crossref",
+      "first-page": "235",
+      "DOI": "10.1002/mrm.1910290212",
+      "article-title": "The diffusion sensitivity of fast steady-state free precession imaging",
+      "volume": "29",
+      "author": "RB Buxton",
+      "year": "1993",
+      "journal-title": "Magn Reson Med"
+    },
+    {
+      "key": "pone.0323617.ref154",
+      "doi-asserted-by": "crossref",
+      "first-page": "751595",
+      "DOI": "10.3389/fnins.2022.751595",
+      "article-title": "Structural connectivity of human inferior colliculus subdivisions using in vivo and post mortem diffusion MRI tractography",
+      "volume": "16",
+      "author": "KR Sitek",
+      "year": "2022",
+      "journal-title": "Front Neurosci"
+    },
+    {
+      "key": "pone.0323617.ref155",
+      "doi-asserted-by": "crossref",
+      "first-page": "119518",
+      "DOI": "10.1016/j.neuroimage.2022.119518",
+      "article-title": "Tractography indicates lateralized differences between trigeminal and olfactory pathways",
+      "volume": "261",
+      "author": "D Thaploo",
+      "year": "2022",
+      "journal-title": "Neuroimage"
+    },
+    {
+      "issue": "2",
+      "key": "pone.0323617.ref156",
+      "doi-asserted-by": "crossref",
+      "first-page": "216",
+      "DOI": "10.1002/cne.24317",
+      "article-title": "Postmortem DTI reveals altered hippocampal connectivity in wild sea lions diagnosed with chronic toxicosis from algal exposure",
+      "volume": "526",
+      "author": "PF Cook",
+      "year": "2018",
+      "journal-title": "J Comp Neurol"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref157",
+      "doi-asserted-by": "crossref",
+      "first-page": "243",
+      "DOI": "10.3354/dao02259",
+      "article-title": "Magnetic resonance imaging quality and volumes of brain structures from live and postmortem imaging of California sea lions with clinical signs of domoic acid toxicosis",
+      "volume": "91",
+      "author": "EW Montie",
+      "year": "2010",
+      "journal-title": "Dis Aquat Organ"
+    },
+    {
+      "issue": "3",
+      "key": "pone.0323617.ref158",
+      "doi-asserted-by": "crossref",
+      "first-page": "725",
+      "DOI": "10.1111/j.1748-7692.2008.00279.x",
+      "article-title": "Guidelines for the treatment of marine mammals in field research",
+      "volume": "25",
+      "author": "NJ Gales",
+      "year": "2009",
+      "journal-title": "Mar Mamm Sci"
+    }
+  ],
+  "container-title": [
+    "PLOS One"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dx.plos.org/10.1371/journal.pone.0323617",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        6
+      ]
+    ],
+    "date-time": "2025-06-06T13:32:36Z",
+    "timestamp": 1749216756000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dx.plos.org/10.1371/journal.pone.0323617"
+    }
+  },
+  "subtitle": [],
+  "editor": [
+    {
+      "given": "James J",
+      "family": "Cray Jr.",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "editor"
+        }
+      ]
+    }
+  ],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        6
+      ]
+    ]
+  },
+  "references-count": 158,
+  "journal-issue": {
+    "issue": "6",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          6
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1371/journal.pone.0323617",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.1101/2024.09.18.609772",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1932-6203"
+  ],
+  "issn-type": [
+    {
+      "value": "1932-6203",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        6
+      ]
+    ]
+  }
+}
