@@ -1,0 +1,149 @@
+{
+  "publisher_attempts": {
+    "munz82": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/0304394082902166/pdfft?isDTMRedir=true&download=true",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      }
+    ],
+    "north92": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/cne.903250109",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "claas90": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/BF00192570.pdf",
+        "bytes": 292018,
+        "pdf": false
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/BF00192570",
+        "bytes": 291984,
+        "pdf": false
+      }
+    ],
+    "effer91": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/BF00197658.pdf",
+        "bytes": 267625,
+        "pdf": false
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/BF00197658",
+        "bytes": 267625,
+        "pdf": false
+      }
+    ],
+    "wang26": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S1095643326000615/pdfft?isDTMRedir=true&download=true",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      }
+    ],
+    "rupp26": [
+      {
+        "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718269v1.full.pdf",
+        "error": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "maex16": [
+      {
+        "url": "https://www.nature.com/articles/srep20184.pdf",
+        "bytes": 1201302,
+        "pdf": true
+      }
+    ],
+    "hall16": [
+      {
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0146851&type=printable",
+        "bytes": 2503843,
+        "pdf": true
+      }
+    ],
+    "modrell12": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4224121/pdf/nihms-615767.pdf",
+        "bytes": 21360,
+        "pdf": false
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1525-142X.2012.00544.x",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "fritzsch05": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3918876/pdf/nihms548839.pdf",
+        "bytes": 21358,
+        "pdf": false
+      }
+    ]
+  },
+  "alternate_attempts": {
+    "modrell12": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4224121/fullTextXML",
+        "error": "HTTP Error 500: Internal Server Error"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC4224121",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://europepmc.org/articles/PMC4224121?pdf=render",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "fritzsch05": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3918876/fullTextXML",
+        "error": "HTTP Error 500: Internal Server Error"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC3918876",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://europepmc.org/articles/PMC3918876?pdf=render",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "wang26": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S1095643326000875/pdfft?isDTMRedir=true&download=true",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      }
+    ],
+    "rupp26": [
+      {
+        "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.04.13.718269",
+        "bytes": 2638,
+        "pdf": false
+      }
+    ],
+    "claas90": [
+      {
+        "url": "https://link.springer.com/article/10.1007/BF00192570",
+        "bytes": 292018,
+        "pdf": false
+      }
+    ],
+    "effer91": [
+      {
+        "url": "https://link.springer.com/article/10.1007/BF00197658",
+        "bytes": 267659,
+        "pdf": false
+      }
+    ]
+  },
+  "preprint_latest_attempt": {
+    "url": "https://www.biorxiv.org/content/early/2026/04/14/2026.04.13.718269.full.pdf",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "downloaded": [
+    "maex16.pdf",
+    "hall16.pdf"
+  ]
+}
