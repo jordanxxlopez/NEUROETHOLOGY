@@ -1,0 +1,179 @@
+{
+  "poole": {
+    "downloaded": false,
+    "attempts": [
+      {
+        "url": "https://www.nature.com/articles/434455a.pdf",
+        "status": 200,
+        "pdf": false
+      }
+    ]
+  },
+  "stoeger": {
+    "downloaded": false,
+    "attempts": [
+      {
+        "url": "http://www.cell.com/article/S096098221201086X/pdf",
+        "status": 403,
+        "pdf": false
+      },
+      {
+        "url": "https://europepmc.org/articles/PMC3548412?pdf=render",
+        "status": 404,
+        "pdf": false
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3548412/pdf/",
+        "status": 404,
+        "pdf": false
+      }
+    ]
+  },
+  "mirror": {
+    "downloaded": true,
+    "url": "https://europepmc.org/articles/PMC1636577?pdf=render",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC1636577?pdf=render",
+        "status": 200,
+        "pdf": true
+      }
+    ]
+  },
+  "cooperation": {
+    "downloaded": true,
+    "url": "https://europepmc.org/articles/PMC3064331?pdf=render",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC3064331?pdf=render",
+        "status": 200,
+        "pdf": true
+      }
+    ]
+  },
+  "matriarch": {
+    "downloaded": false,
+    "attempts": [
+      {
+        "url": "https://www.science.org/doi/pdf/10.1126/science.1057895",
+        "status": 403,
+        "pdf": false
+      }
+    ]
+  },
+  "leadership": {
+    "downloaded": true,
+    "url": "https://europepmc.org/articles/PMC3169024?pdf=render",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC3169024?pdf=render",
+        "status": 200,
+        "pdf": true
+      }
+    ]
+  },
+  "voices": {
+    "downloaded": true,
+    "url": "https://europepmc.org/articles/PMC3986134?pdf=render",
+    "attempts": [
+      {
+        "url": "https://www.pnas.org/content/pnas/111/14/5433.full.pdf",
+        "status": 403,
+        "pdf": false
+      },
+      {
+        "url": "http://sro.sussex.ac.uk/id/eprint/49595/1/McCombShannonetal_2014_copy.pdf",
+        "status": 403,
+        "pdf": false
+      },
+      {
+        "url": "https://europepmc.org/articles/PMC3986134?pdf=render",
+        "status": 200,
+        "pdf": true
+      }
+    ]
+  },
+  "disruption": {
+    "downloaded": true,
+    "url": "https://frontiersinzoology.biomedcentral.com/counter/pdf/10.1186/1742-9994-10-62",
+    "attempts": [
+      {
+        "url": "https://frontiersinzoology.biomedcentral.com/counter/pdf/10.1186/1742-9994-10-62",
+        "status": 200,
+        "pdf": true
+      }
+    ]
+  },
+  "reassurance": {
+    "downloaded": true,
+    "url": "https://europepmc.org/articles/PMC3932735?pdf=render",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC3932735?pdf=render",
+        "status": 200,
+        "pdf": true
+      }
+    ]
+  },
+  "family": {
+    "error": "wrong DOI excluded"
+  },
+  "body": {
+    "downloaded": true,
+    "url": "https://europepmc.org/articles/PMC5389349?pdf=render",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC5389349?pdf=render",
+        "status": 200,
+        "pdf": true
+      }
+    ]
+  },
+  "insight": {
+    "downloaded": true,
+    "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0023251&type=printable",
+    "attempts": [
+      {
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0023251&type=printable",
+        "status": 200,
+        "pdf": true
+      }
+    ]
+  },
+  "quantity": {
+    "downloaded": true,
+    "url": "https://europepmc.org/articles/PMC6591706?pdf=render",
+    "attempts": [
+      {
+        "url": "https://europepmc.org/articles/PMC6591706?pdf=render",
+        "status": 200,
+        "pdf": true
+      }
+    ]
+  },
+  "ven": {
+    "downloaded": false,
+    "attempts": [
+      {
+        "url": "https://anatomypubs.onlinelibrary.wiley.com/doi/pdf/10.1002/ar.20829",
+        "status": 403,
+        "pdf": false
+      }
+    ]
+  },
+  "neurons": {
+    "downloaded": false,
+    "attempts": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s00429-010-0288-3.pdf",
+        "status": 200,
+        "pdf": false
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s00429-010-0288-3",
+        "status": 200,
+        "pdf": false
+      }
+    ]
+  }
+}
