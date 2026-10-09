@@ -362,7 +362,7 @@
       }
     },
     {
-      "layout": "figure-right",
+      "layout": "figures-right",
       "title": "Self-similarity does not explain the kin preference",
       "body": [
         "One alternative explanation is that dolphins prefer contours resembling their own signature whistle, rather than recognize particular companions. Janik and colleagues compared spectrogram similarity between each recipient’s whistle and the two synthetic playback contours.",
@@ -377,14 +377,22 @@
         "One alternative explanation is that dolphins prefer contours resembling their own signature whistle, rather than recognize particular companions. Janik and colleagues compared spectrogram similarity between each recipient’s whistle and the two synthetic playback contours.",
         "They found no consistent tendency for the relative’s contour to resemble the recipient’s own whistle more closely. Response preferences also did not follow whether a playback contour was more or less similar to the recipient’s signature.",
         "The illustrated example makes the logic visible: the recipient’s contour resembles the unrelated stimulus more closely, yet its response favored the relative. This control weakens a simple acoustic-self-matching account. It does not establish the detailed neural representation of a familiar individual.",
-        "The three original–synthetic pairs in the full published figure correspond to recipient, kin, and nonkin. The displayed top pair shows the recipient example; the explanation refers to the comparison reported in the paper. Similarity analysis constrains a specific alternative rather than proving every feature of recognition."
+        "The two displayed original–synthetic pairs show the recipient and unrelated familiar individual. The full published figure also includes the kin stimulus. The behavioral preference is the result reported in the paper. Similarity analysis constrains a specific alternative rather than proving every feature of recognition."
       ],
-      "figure": {
-        "path": "figures/J1a.png",
-        "caption": "Janik et al. (2006), Fig. 1 (top pair). Original and synthetic whistles preserve the same frequency contour.",
-        "source_url": "https://doi.org/10.1073/pnas.0509918103",
-        "kind": "article"
-      }
+      "figures": [
+        {
+          "path": "figures/J1a.png",
+          "caption": "Janik et al. (2006), Fig. 1 (top pair). Original and synthetic whistles preserve the same frequency contour.",
+          "source_url": "https://doi.org/10.1073/pnas.0509918103",
+          "kind": "article"
+        },
+        {
+          "path": "figures/J1c.png",
+          "caption": "Janik et al. (2006), Fig. 1 (bottom pair). An unrelated familiar whistle is synthesized for the control playback.",
+          "source_url": "https://doi.org/10.1073/pnas.0509918103",
+          "kind": "article"
+        }
+      ]
     },
     {
       "layout": "figure-right",

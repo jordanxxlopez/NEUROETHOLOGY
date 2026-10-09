@@ -154,13 +154,13 @@ Recipients turned toward related individuals’ synthetic whistles more often th
 
 The plotted counts therefore support an identity-sensitive orienting response, rather than a universal increase in all behavior. A dolphin can recognize a signal without producing more whistles. Conversely, a high whistle rate alone would not establish that the caller was identified.
 ""","The paired lines connect two conditions for the same recipient. They show individual variation as well as the overall tendency. Counts of head turns are not a direct measure of subjective certainty or the strength of a stored identity representation.")
-add('Self-similarity does not explain the kin preference','J','J1a',"""
+add('Self-similarity does not explain the kin preference','J','J1a J1c',"""
 One alternative explanation is that dolphins prefer contours resembling their own signature whistle, rather than recognize particular companions. Janik and colleagues compared spectrogram similarity between each recipient’s whistle and the two synthetic playback contours.
 
 They found no consistent tendency for the relative’s contour to resemble the recipient’s own whistle more closely. Response preferences also did not follow whether a playback contour was more or less similar to the recipient’s signature.
 
 The illustrated example makes the logic visible: the recipient’s contour resembles the unrelated stimulus more closely, yet its response favored the relative. This control weakens a simple acoustic-self-matching account. It does not establish the detailed neural representation of a familiar individual.
-""","The three original–synthetic pairs in the full published figure correspond to recipient, kin, and nonkin. The displayed top pair shows the recipient example; the explanation refers to the comparison reported in the paper. Similarity analysis constrains a specific alternative rather than proving every feature of recognition.")
+""","The two displayed original–synthetic pairs show the recipient and unrelated familiar individual. The full published figure also includes the kin stimulus. The behavioral preference is the result reported in the paper. Similarity analysis constrains a specific alternative rather than proving every feature of recognition.")
 add('Recognition requires a link to prior experience','J','J2',"""
 **Discrimination** is detecting a difference between stimuli; **recognition** links a current stimulus to something previously encountered. Janik and colleagues used familiar animals’ signature contours to ask whether contour discrimination had socially meaningful consequences.
 
