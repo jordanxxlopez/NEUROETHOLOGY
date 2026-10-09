@@ -45,4 +45,3 @@ All selected source PDFs were downloaded. No PDF uploads are needed. Original pa
 11. Steinworth BM, Martindale MQ (2025). Embryonic and planula development in the upside-down jellyfish Cassiopea xamachana. EvoDevo 16: 14. https://doi.org/10.1186/s13227-025-00250-w
    PDF: https://europepmc.org/articles/PMC12335117?pdf=render
    Verified: Downloaded article PDF and Europe PMC JATS metadata
-
