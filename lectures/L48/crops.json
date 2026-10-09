@@ -1,0 +1,479 @@
+{
+  "papers": {
+    "seismic21": "papers/seismic21.pdf",
+    "brain14": "papers/brain14.pdf",
+    "motor22": "papers/motor22.pdf",
+    "noise21": "papers/noise21.pdf",
+    "hearing82": "papers/hearing82.pdf",
+    "rumble26": "papers/rumble26.pdf",
+    "bone26": "papers/bone26.pdf",
+    "playback06": "papers/playback06.pdf",
+    "trigeminal24": "papers/trigeminal24.pdf",
+    "alarm07": "papers/alarm07.pdf",
+    "foot07": "papers/foot07.pdf",
+    "brain25": "papers/brain25.pdf"
+  },
+  "dpi": 200,
+  "crops": {
+    "title_elephants": [
+      "motor22",
+      5,
+      [
+        0.507,
+        0.075,
+        0.943,
+        0.203
+      ]
+    ],
+    "rumble_signals": [
+      "rumble26",
+      4,
+      [
+        0.076,
+        0.039,
+        0.924,
+        0.403
+      ]
+    ],
+    "brains_photo": [
+      "brain25",
+      4,
+      [
+        0.068,
+        0.059,
+        0.929,
+        0.319
+      ]
+    ],
+    "brains_mass": [
+      "brain25",
+      4,
+      [
+        0.068,
+        0.322,
+        0.93,
+        0.742
+      ]
+    ],
+    "brain_mri": [
+      "brain25",
+      5,
+      [
+        0.079,
+        0.065,
+        0.93,
+        0.408
+      ]
+    ],
+    "brain_scale": [
+      "brain14",
+      3,
+      [
+        0.09,
+        0.078,
+        0.48,
+        0.2842
+      ]
+    ],
+    "brain_cerebellar": [
+      "brain14",
+      6,
+      [
+        0.087,
+        0.083,
+        0.476,
+        0.303
+      ]
+    ],
+    "brain_cb_mri": [
+      "brain25",
+      6,
+      [
+        0.075,
+        0.058,
+        0.93,
+        0.293
+      ]
+    ],
+    "trig_gross": [
+      "trigeminal24",
+      5,
+      [
+        0.32,
+        0.086,
+        0.68,
+        0.479
+      ]
+    ],
+    "trig_tract": [
+      "trigeminal24",
+      6,
+      [
+        0.279,
+        0.078,
+        0.721,
+        0.473
+      ]
+    ],
+    "trig_serial": [
+      "trigeminal24",
+      8,
+      [
+        0.236,
+        0.078,
+        0.764,
+        0.657
+      ]
+    ],
+    "trig_cells": [
+      "trigeminal24",
+      10,
+      [
+        0.304,
+        0.086,
+        0.696,
+        0.508
+      ]
+    ],
+    "trig_folds": [
+      "trigeminal24",
+      11,
+      [
+        0.204,
+        0.084,
+        0.796,
+        0.638
+      ]
+    ],
+    "trig_species": [
+      "trigeminal24",
+      16,
+      [
+        0.229,
+        0.088,
+        0.771,
+        0.506
+      ]
+    ],
+    "motor_nucleus": [
+      "motor22",
+      3,
+      [
+        0.187,
+        0.073,
+        0.81,
+        0.722
+      ]
+    ],
+    "motor_ears": [
+      "motor22",
+      5,
+      [
+        0.509,
+        0.075,
+        0.941,
+        0.564
+      ]
+    ],
+    "motor_gradient": [
+      "motor22",
+      6,
+      [
+        0.184,
+        0.07,
+        0.808,
+        0.745
+      ]
+    ],
+    "motor_tips": [
+      "motor22",
+      8,
+      [
+        0.193,
+        0.103,
+        0.807,
+        0.785
+      ]
+    ],
+    "foot_gross": [
+      "foot07",
+      2,
+      [
+        0.096,
+        0.224,
+        0.901,
+        0.472
+      ]
+    ],
+    "foot_sections": [
+      "foot07",
+      3,
+      [
+        0.098,
+        0.073,
+        0.63,
+        0.419
+      ]
+    ],
+    "foot_corpuscle": [
+      "foot07",
+      4,
+      [
+        0.096,
+        0.073,
+        0.487,
+        0.36
+      ]
+    ],
+    "foot_cluster": [
+      "foot07",
+      5,
+      [
+        0.175,
+        0.073,
+        0.825,
+        0.865
+      ]
+    ],
+    "foot_3d": [
+      "foot07",
+      6,
+      [
+        0.378,
+        0.694,
+        0.91,
+        0.916
+      ]
+    ],
+    "foot_posture": [
+      "foot07",
+      7,
+      [
+        0.511,
+        0.073,
+        0.902,
+        0.485
+      ]
+    ],
+    "hearing_task": [
+      "hearing82",
+      2,
+      [
+        0.508,
+        0.12,
+        0.832,
+        0.33
+      ]
+    ],
+    "hearing_audiogram": [
+      "hearing82",
+      4,
+      [
+        0.177,
+        0.521,
+        0.837,
+        0.843
+      ]
+    ],
+    "hearing_discrimination": [
+      "hearing82",
+      8,
+      [
+        0.207,
+        0.126,
+        0.463,
+        0.299
+      ]
+    ],
+    "hearing_noise": [
+      "hearing82",
+      9,
+      [
+        0.245,
+        0.577,
+        0.827,
+        0.854
+      ]
+    ],
+    "hearing_tones": [
+      "hearing82",
+      10,
+      [
+        0.503,
+        0.127,
+        0.837,
+        0.308
+      ]
+    ],
+    "hearing_phase": [
+      "hearing82",
+      11,
+      [
+        0.177,
+        0.564,
+        0.493,
+        0.762
+      ]
+    ],
+    "hearing_filter": [
+      "hearing82",
+      12,
+      [
+        0.177,
+        0.124,
+        0.837,
+        0.519
+      ]
+    ],
+    "bone_setup": [
+      "bone26",
+      19,
+      [
+        0.134,
+        0.074,
+        0.964,
+        0.479
+      ]
+    ],
+    "bone_elephant": [
+      "bone26",
+      20,
+      [
+        0.133,
+        0.074,
+        0.56,
+        0.488
+      ]
+    ],
+    "bone_resonance": [
+      "bone26",
+      21,
+      [
+        0.133,
+        0.074,
+        0.965,
+        0.287
+      ]
+    ],
+    "bone_lowfreq": [
+      "bone26",
+      21,
+      [
+        0.133,
+        0.074,
+        0.965,
+        0.49
+      ]
+    ],
+    "playback_setup": [
+      "playback06",
+      3,
+      [
+        0.077,
+        0.061,
+        0.495,
+        0.333
+      ]
+    ],
+    "playback_controls": [
+      "playback06",
+      6,
+      [
+        0.506,
+        0.176,
+        0.923,
+        0.658
+      ]
+    ],
+    "playback_response": [
+      "playback06",
+      5,
+      [
+        0.139,
+        0.061,
+        0.861,
+        0.453
+      ]
+    ],
+    "alarm_stimuli": [
+      "alarm07",
+      4,
+      [
+        0.513,
+        0.037,
+        0.913,
+        0.595
+      ]
+    ],
+    "alarm_controls": [
+      "alarm07",
+      5,
+      [
+        0.513,
+        0.037,
+        0.913,
+        0.245
+      ]
+    ],
+    "alarm_response": [
+      "alarm07",
+      6,
+      [
+        0.513,
+        0.037,
+        0.913,
+        0.277
+      ]
+    ],
+    "alarm_contours": [
+      "alarm07",
+      7,
+      [
+        0.078,
+        0.037,
+        0.674,
+        0.37
+      ]
+    ],
+    "noise_stimuli": [
+      "noise21",
+      2,
+      [
+        0.143,
+        0.048,
+        0.856,
+        0.36
+      ]
+    ],
+    "noise_retreat": [
+      "noise21",
+      3,
+      [
+        0.204,
+        0.15,
+        0.851,
+        0.314
+      ]
+    ],
+    "noise_vigilance": [
+      "noise21",
+      5,
+      [
+        0.163,
+        0.05,
+        0.851,
+        0.237
+      ]
+    ],
+    "seismic_locations": [
+      "seismic21",
+      9,
+      [
+        0.09,
+        0.059,
+        0.91,
+        0.433
+      ]
+    ]
+  }
+}
