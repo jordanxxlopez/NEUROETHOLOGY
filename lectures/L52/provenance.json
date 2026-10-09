@@ -1,0 +1,55 @@
+{
+  "authority_commit": "392e085",
+  "authority_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
+  "search": "European PMC full-text searches; Crossref DOI metadata; publisher PDFs; Wikimedia Commons licensed photos",
+  "papers": [
+    {
+      "file": "R.pdf",
+      "sha256": "c6dc6e922d2a1cca4950513f53fa541cba88b343948062eac1fde54cabbef552"
+    },
+    {
+      "file": "T.pdf",
+      "sha256": "1712f965ab55c9e4947e4a30982a9fb26d3d2c09ebf2ce6a08b0094ae1a096a7"
+    },
+    {
+      "file": "G.pdf",
+      "sha256": "590d97e94a355debf3344893e57b913a184fbe324977795be6482a6da2c393ef"
+    },
+    {
+      "file": "W.pdf",
+      "sha256": "26476e563d0f18fd40a69ed2f1179330a0ee61b400faf20d34d0ed574601c765"
+    },
+    {
+      "file": "N.pdf",
+      "sha256": "8f19706e65a650d831fd909962cbc436b3d450675b606b447975a3e1ca62ac8d"
+    },
+    {
+      "file": "F.pdf",
+      "sha256": "c361ef9b94c5d912e1f8d1f19626ece5af0d23e65e884dc208632e3fab3e8aa0"
+    },
+    {
+      "file": "S.pdf",
+      "sha256": "57b789840c9e45077e020a9754dee00b0dff3922e69014d4f52536dba4032a52"
+    }
+  ],
+  "photos": {
+    "african": {
+      "path": "photos/african.jpg",
+      "kind": "web",
+      "caption": "Photo: African elephant.",
+      "credit": "Bijay Chaurasia",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:African_Elephant_at_Amboseli_National_Park-070A5584.jpg"
+    },
+    "asian": {
+      "path": "photos/asian.jpg",
+      "kind": "web",
+      "caption": "Photo: Asian elephant.",
+      "credit": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sri_Lankan_elephant_(Elephas_maximus_maximus)_female_and_young_6.jpg"
+    }
+  },
+  "figure_processing": "Original panels cropped with tools/crop_panels.py and tools/crop_figure.py. No scientific edits, recoloring, replotting, or generated images.",
+  "evidence_scope": "Elephant behavior, physiology and anatomy; neural injury and psychiatric diagnoses are not inferred from behavior alone."
+}
