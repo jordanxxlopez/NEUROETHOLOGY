@@ -5,8 +5,8 @@
   "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
   "authoritative_commit": "9da8853a42489ca33b314611e264fcc3eb06a226",
   "special_topic": true,
-  "status": "awaiting_two_original_PDFs",
-  "available_primary_PDFs": 16,
+  "status": "completed_and_native_deck_validated",
+  "available_primary_PDFs": 18,
   "sources": [
     {
       "id": "berns15",
@@ -185,16 +185,17 @@
         "Cozzi B",
         "Peruffo A"
       ],
-      "year": 2023,
+      "year": 2024,
       "journal": "Frontiers in neuroanatomy",
       "volume": "17",
       "issue": "",
       "pages": "1330384",
-      "reference": "Graïc JM; Corain L; Finos L; Vadori V; Grisan E; Gerussi T; Orekhova K; Centelleghe C; Cozzi B; Peruffo A (2023). Age-related changes in the primary auditory cortex of newborn, adults and aging bottlenose dolphins (Tursiops truncatus) are located in the upper cortical layers. Frontiers in neuroanatomy 17: 1330384. https://doi.org/10.3389/fnana.2023.1330384",
+      "reference": "Graïc JM; Corain L; Finos L; Vadori V; Grisan E; Gerussi T; Orekhova K; Centelleghe C; Cozzi B; Peruffo A (2024). Age-related changes in the primary auditory cortex of newborn, adults and aging bottlenose dolphins (Tursiops truncatus) are located in the upper cortical layers. Frontiers in neuroanatomy 17: 1330384. https://doi.org/10.3389/fnana.2023.1330384",
       "pdf_available": true,
       "local_pdf": "papers/cortex23.pdf",
       "pdf_sha256": "7870da5fa9712b1c487ab70571d3e5163088e75c666f4e2665275df2342a42cc",
-      "pdf_pages": 13
+      "pdf_pages": 13,
+      "metadata_note": "The article PDF explicitly cites 2024 and was published 5 January 2024; volume 17 and DOI retain 2023."
     },
     {
       "id": "ear26",
@@ -243,7 +244,11 @@
       "issue": "5",
       "pages": "1109-1131",
       "reference": "Harley HE; Fellner W; Frances C; Thomas A; Losch B; Newton K; Feuerbach D (2022). Information-seeking across auditory scenes by an echolocating dolphin. Animal cognition 25(5): 1109-1131. https://doi.org/10.1007/s10071-022-01679-5",
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_pages": 23,
+      "pdf_sha256": "cd0ae921e532d20b7d8415d60aea28f03b8433abc67290552b181494b414f987",
+      "local_pdf": "papers/harley22.pdf",
+      "access_source": "user_uploaded_original"
     },
     {
       "id": "pursuit19",
@@ -289,7 +294,11 @@
       "issue": "Pt 21",
       "pages": "3657-3665",
       "reference": "Houser DS; Finneran J; Carder D; Van Bonn W; Smith C; Hoh C; Mattrey R; Ridgway S (2004). Structural and functional imaging of bottlenose dolphin (Tursiops truncatus) cranial anatomy. The Journal of experimental biology 207(Pt 21): 3657-3665. https://doi.org/10.1242/jeb.01207",
-      "pdf_available": false
+      "pdf_available": true,
+      "pdf_pages": 9,
+      "pdf_sha256": "7f8d8d0b0d825cb3f8c1c23bdfe9548e78d3ec907392261c32ab9b3fb773b0e6",
+      "local_pdf": "papers/cranial04.pdf",
+      "access_source": "user_uploaded_original"
     },
     {
       "id": "madsen13",
@@ -419,5 +428,6 @@
       "pdf_sha256": "c50c7d73c909c2ae8e8c0923e6fa1ac6dce5643648f78b34eb01fe60b5ae0def",
       "pdf_pages": 27
     }
-  ]
+  ],
+  "missing_papers": []
 }

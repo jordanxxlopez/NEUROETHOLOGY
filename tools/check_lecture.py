@@ -67,7 +67,8 @@ def main():
     first = re.sub(r"\s+", " ", slide_text(slides[0]))
     if re.sub(r"\s+", " ", meta["title"]) not in first:
         errs.append(f"title slide does not contain the exact schedule title: {meta['title']!r}")
-    month_day = meta["date"].split(", ")[1]  # e.g. "September 18"
+    # Special-topic lectures may deliberately have an unscheduled date (TBD).
+    month_day = meta["date"].split(", ", 1)[-1]  # e.g. "September 18" or "TBD"
     if month_day not in first:
         errs.append(f"title slide missing date {meta['date']!r}")
 
@@ -87,6 +88,9 @@ def main():
                 if re.search(pat, line, re.I):
                     errs.append(f"slide {i}: {why}: {line.strip()[:80]!r}")
         for where, text in (("slide", teach), ("notes", transcript)):
+            # The exact unscheduled date is authorized metadata, not unfinished content.
+            if i == 1 and meta["date"] == "TBD":
+                text = re.sub(r"\bTBD\b", "", text)
             for why, hit in framing_problems(text):
                 errs.append(f"slide {i} {where}: {why}: {hit!r}")
             for hit in stats_problems(text):

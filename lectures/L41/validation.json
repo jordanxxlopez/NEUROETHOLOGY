@@ -1,0 +1,786 @@
+{
+  "slides": 46,
+  "content_slides": 44,
+  "article_figure_slides": 44,
+  "color_image_slides_checker": 37,
+  "body_paragraphs_per_slide": 3,
+  "body_word_range": [
+    130,
+    148
+  ],
+  "primary_papers": 18,
+  "unique_original_crops": 46,
+  "web_photos": 1,
+  "exact_title": "Dolphins I: anatomy/neural pathways supporting echolocation & biosonar, auditory scene analysis during prey tracking and hunting strategies",
+  "exact_date": "TBD",
+  "font": "Arial",
+  "figures": [
+    {
+      "slide": 2,
+      "file": "figures/buzz14_1B.png",
+      "image_sha256": "3b11526311ac4c4fa761206b8be55dfe3b5409e3f13a8c0e9fadba72f1a67437",
+      "paper": "buzz14",
+      "pdf_page": 2,
+      "crop_box": [
+        0.072,
+        0.342,
+        0.612,
+        0.636
+      ],
+      "caption": "Wisniewska et al. (2014), Fig. 1(D–F). Bottlenose dolphin clicks and echoes during fish capture.",
+      "doi": "10.1242/jeb.113415"
+    },
+    {
+      "slide": 3,
+      "file": "figures/pursuit19_3.png",
+      "image_sha256": "924d81c6833c2f1d01d5d3165c208204e49d4363ceb7d8a0ae0afe0483f21fad",
+      "paper": "pursuit19",
+      "pdf_page": 7,
+      "crop_box": [
+        0.172,
+        0.065,
+        0.84,
+        0.438
+      ],
+      "caption": "Ladegaard et al. (2019), Fig. 3. Recorded click timing and estimated target range during approach.",
+      "doi": "10.1242/jeb.189217"
+    },
+    {
+      "slide": 4,
+      "file": "figures/voice23_1AB.png",
+      "image_sha256": "cff09470147cff13fea1a4db5db79ebf8ebbe63cc4d8c4b104444569c4320813",
+      "paper": "voice23",
+      "pdf_page": 2,
+      "crop_box": [
+        0.348,
+        0.075,
+        0.939,
+        0.259
+      ],
+      "caption": "Madsen et al. (2023), Fig. 1(AB). Published anatomy and instruments for nasal sound production.",
+      "doi": "10.1126/science.adc9570"
+    },
+    {
+      "slide": 5,
+      "file": "figures/voice23_1C_I.png",
+      "image_sha256": "3d7c5c160bdba2af0374d965e7b90312bb5982a46388628e67515de92a4c2a94",
+      "paper": "voice23",
+      "pdf_page": 2,
+      "crop_box": [
+        0.348,
+        0.272,
+        0.939,
+        0.703
+      ],
+      "caption": "Madsen et al. (2023), Fig. 1(C–I). Nasal pressure, endoscopy and motion aligned with emitted clicks.",
+      "doi": "10.1126/science.adc9570"
+    },
+    {
+      "slide": 6,
+      "file": "figures/madsen13_2AB.png",
+      "image_sha256": "511de73cc208e0450e815821b37dab96381ef743b95447603dc710b761cd6418",
+      "paper": "madsen13",
+      "pdf_page": 5,
+      "crop_box": [
+        0.073,
+        0.075,
+        0.578,
+        0.525
+      ],
+      "caption": "Madsen et al. (2013), Fig. 2(AB). On-animal and far-field recordings localize bottlenose dolphin clicks.",
+      "doi": "10.1242/jeb.091306"
+    },
+    {
+      "slide": 7,
+      "file": "figures/voice23_3B_C.png",
+      "image_sha256": "0e738532938175a33e85c738718035c82fb5b0a9e6ee5ea70067bffb405b85e9",
+      "paper": "voice23",
+      "pdf_page": 4,
+      "crop_box": [
+        0.348,
+        0.224,
+        0.938,
+        0.507
+      ],
+      "caption": "Madsen et al. (2023), Fig. 3(B–C). Original anatomy and dolphin click, burst-pulse and whistle recordings.",
+      "doi": "10.1126/science.adc9570"
+    },
+    {
+      "slide": 8,
+      "file": "figures/cranial04_2.png",
+      "image_sha256": "2fb84361875056607282385a42649ee6c4cf8668e4e0ed77ce580be6aa260fa2",
+      "paper": "cranial04",
+      "pdf_page": 4,
+      "crop_box": [
+        0.5252,
+        0.5681,
+        0.8998,
+        0.8586
+      ],
+      "caption": "Houser et al. (2004), Fig. 2. CT reconstruction relates the melon to cranial air spaces.",
+      "doi": "10.1242/jeb.01207"
+    },
+    {
+      "slide": 9,
+      "file": "figures/cranial04_6.png",
+      "image_sha256": "a176455e361eacae13457f3fe539a5672dce098be3cb20ba57c91796039b06f7",
+      "paper": "cranial04",
+      "pdf_page": 6,
+      "crop_box": [
+        0.12,
+        0.642,
+        0.428,
+        0.86
+      ],
+      "caption": "Houser et al. (2004), Fig. 6. Published SPECT distribution of tracer uptake in the melon.",
+      "doi": "10.1242/jeb.01207"
+    },
+    {
+      "slide": 10,
+      "file": "figures/cranford10_2.png",
+      "image_sha256": "7a7127388f1f40c04d9eb18dc538573e59051947672d5c387c29b14d9f5e33b2",
+      "paper": "cranford10",
+      "pdf_page": 2,
+      "crop_box": [
+        0.1085,
+        0.6288,
+        0.4765,
+        0.8575
+      ],
+      "caption": "Cranford et al. (2010), Fig. 2. Ventral anatomy of the bottlenose dolphin sound-reception pathway.",
+      "doi": "10.1371/journal.pone.0011927"
+    },
+    {
+      "slide": 11,
+      "file": "figures/cranford10_6.png",
+      "image_sha256": "a48103fb1a8d7326e3d35f67f98d6073060dc82d41c11b4c25b6c25add08159b",
+      "paper": "cranford10",
+      "pdf_page": 3,
+      "crop_box": [
+        0.52,
+        0.078,
+        0.88,
+        0.307
+      ],
+      "caption": "Cranford et al. (2010), Fig. 6. Labeled bottlenose dolphin tympanoperiotic complex and landmarks.",
+      "doi": "10.1371/journal.pone.0011927"
+    },
+    {
+      "slide": 12,
+      "file": "figures/cranford10_8.png",
+      "image_sha256": "2a1d05d2694cd93f5e62fd90207737fa99e35e28b6d89e799e2b54b9937154e4",
+      "paper": "cranford10",
+      "pdf_page": 5,
+      "crop_box": [
+        0.095,
+        0.089,
+        0.758,
+        0.351
+      ],
+      "caption": "Cranford et al. (2010), Fig. 8. Tympanic bone and ossicles reconstructed from dolphin CT.",
+      "doi": "10.1371/journal.pone.0011927"
+    },
+    {
+      "slide": 13,
+      "file": "figures/vascular12_11.png",
+      "image_sha256": "fa255493dae62d5abee828d5b894bb34d7dafcefefaa64f7dd89af7109623264",
+      "paper": "vascular12",
+      "pdf_page": 13,
+      "crop_box": [
+        0.163,
+        0.13574611410041693,
+        0.838,
+        0.45519064960980654
+      ],
+      "caption": "Costidis & Rommel (2012), Fig. 11. Cross-sections of bottlenose dolphin intramandibular fat vasculature.",
+      "doi": "10.3389/fphys.2012.00243"
+    },
+    {
+      "slide": 14,
+      "file": "figures/ear26_8A_F.png",
+      "image_sha256": "e19e7d2e8a7641761a9f8aa5e2433d1048445219f824b99bc9f64728a1894bce",
+      "paper": "ear26",
+      "pdf_page": 11,
+      "crop_box": [
+        0.055799999999999995,
+        0.11989999999999999,
+        0.5912,
+        0.3583
+      ],
+      "caption": "De Vreese et al. (2026), Fig. 8(A–F). Original confocal sections through a lamellar corpuscle.",
+      "doi": "10.1371/journal.pone.0350484"
+    },
+    {
+      "slide": 15,
+      "file": "figures/prestin20_6e.png",
+      "image_sha256": "05f86d96d434cf056e2ae2b5e41771660da826eef9df3ba681aa989d06a2af35",
+      "paper": "prestin20",
+      "pdf_page": 11,
+      "crop_box": [
+        0.174,
+        0.666,
+        0.528,
+        0.819
+      ],
+      "caption": "Morell et al. (2020), Fig. 6(e). Bottlenose dolphin organ of Corti with labeled hair cells and neurites.",
+      "doi": "10.3389/fvets.2020.00429"
+    },
+    {
+      "slide": 15,
+      "file": "figures/cranford10_12.png",
+      "image_sha256": "e7f68d0d0d58132b6d5b5ccd38ccdcacec26b0906be7e4d80a13311feeb031c9",
+      "paper": "cranford10",
+      "pdf_page": 7,
+      "crop_box": [
+        0.1,
+        0.528,
+        0.49,
+        0.766
+      ],
+      "caption": "Cranford et al. (2010), Fig. 12. Original anatomy of the structure discussed.",
+      "doi": "10.1371/journal.pone.0011927"
+    },
+    {
+      "slide": 16,
+      "file": "figures/prestin20_4a.png",
+      "image_sha256": "ff2291a9f7f29aef43a703e974a3e57897e288e997fc2f8dbe211cc6ff3c3cda",
+      "paper": "prestin20",
+      "pdf_page": 8,
+      "crop_box": [
+        0.185,
+        0.087,
+        0.816,
+        0.665
+      ],
+      "caption": "Morell et al. (2020), Fig. 4(a). Prestin labeling in the bottlenose dolphin middle cochlear turn.",
+      "doi": "10.3389/fvets.2020.00429"
+    },
+    {
+      "slide": 17,
+      "file": "figures/prestin20_4b.png",
+      "image_sha256": "8f2e57802f6e9ad0e8e07a4ab07ecfa767d24f97ce8daf7d6168603ba0605839",
+      "paper": "prestin20",
+      "pdf_page": 8,
+      "crop_box": [
+        0.185,
+        0.668,
+        0.816,
+        0.812
+      ],
+      "caption": "Morell et al. (2020), Fig. 4(b). Specificity, secondary-antibody and autofluorescence controls.",
+      "doi": "10.3389/fvets.2020.00429"
+    },
+    {
+      "slide": 17,
+      "file": "figures/prestin20_4a.png",
+      "image_sha256": "ff2291a9f7f29aef43a703e974a3e57897e288e997fc2f8dbe211cc6ff3c3cda",
+      "paper": "prestin20",
+      "pdf_page": 8,
+      "crop_box": [
+        0.185,
+        0.087,
+        0.816,
+        0.665
+      ],
+      "caption": "Morell et al. (2020), Fig. 4. Original anatomy of the structure discussed.",
+      "doi": "10.3389/fvets.2020.00429"
+    },
+    {
+      "slide": 18,
+      "file": "figures/berns15_1.png",
+      "image_sha256": "4bd2b690b5b76aba5b105939ad740b86998669897e89d5ebb33ec81edf2ff68e",
+      "paper": "berns15",
+      "pdf_page": 4,
+      "crop_box": [
+        0.1779,
+        0.0475,
+        0.8222,
+        0.3819
+      ],
+      "caption": "Berns et al. (2015), Fig. 1. Original inferior-colliculus tractography and anatomical landmarks.",
+      "doi": "10.1098/rspb.2015.1203"
+    },
+    {
+      "slide": 19,
+      "file": "figures/berns15_2.png",
+      "image_sha256": "17fec5199fcaecc2720d7c9b35f7e975453c0d8fcb23e41b39cdd8e79ebdfd02",
+      "paper": "berns15",
+      "pdf_page": 4,
+      "crop_box": [
+        0.1779,
+        0.4942,
+        0.8222,
+        0.7658
+      ],
+      "caption": "Berns et al. (2015), Fig. 2. Thalamic parcellation relative to temporal and suprasylvian targets.",
+      "doi": "10.1098/rspb.2015.1203"
+    },
+    {
+      "slide": 20,
+      "file": "figures/berns15_3.png",
+      "image_sha256": "cd07d90a89fc592fb27ef342533d6c2a4465760bf8b3f579028d530078fcd005",
+      "paper": "berns15",
+      "pdf_page": 5,
+      "crop_box": [
+        0.1779,
+        0.0475,
+        0.8222,
+        0.3987
+      ],
+      "caption": "Berns et al. (2015), Fig. 3. Estimated paths from temporal targets toward suprasylvian cortex.",
+      "doi": "10.1098/rspb.2015.1203"
+    },
+    {
+      "slide": 21,
+      "file": "figures/flem25_5A_D.png",
+      "image_sha256": "02856cdd04e4066835390d800e5fc793fcf6a5d27ffc38614a23b5c9bbe32e21",
+      "paper": "flem25",
+      "pdf_page": 14,
+      "crop_box": [
+        0.055799999999999995,
+        0.2546,
+        0.9084,
+        0.6533
+      ],
+      "caption": "Flem et al. (2025), Fig. 5(A–D). Original auditory tract reconstructions across whale species.",
+      "doi": "10.1371/journal.pone.0323617"
+    },
+    {
+      "slide": 22,
+      "file": "figures/flem25_4a_d.png",
+      "image_sha256": "f1d8af053260e39c58b7dadee6c162c8f24bcc2a3fbb2d6714fc76c0d2fa3ce2",
+      "paper": "flem25",
+      "pdf_page": 13,
+      "crop_box": [
+        0.0556,
+        0.11989999999999999,
+        0.944,
+        0.8469
+      ],
+      "caption": "Flem et al. (2025), Fig. 4(a–d). Cortical targets and laterality of estimated auditory pathways.",
+      "doi": "10.1371/journal.pone.0323617"
+    },
+    {
+      "slide": 23,
+      "file": "figures/flem25_7a_c.png",
+      "image_sha256": "2429aa4638212d0913c742168f261da48826a69e6eccb6be2aba9e79f7acb9b0",
+      "paper": "flem25",
+      "pdf_page": 16,
+      "crop_box": [
+        0.055799999999999995,
+        0.11989999999999999,
+        0.9442,
+        0.7191
+      ],
+      "caption": "Flem et al. (2025), Fig. 7(a–c). Inferior-colliculus to cerebellar pathways in three odontocetes.",
+      "doi": "10.1371/journal.pone.0323617"
+    },
+    {
+      "slide": 24,
+      "file": "figures/cortex23_1.png",
+      "image_sha256": "82dc6d7293b398787225d8460fd65c54c5bd68f30b838be4ac07dfaf552dab54",
+      "paper": "cortex23",
+      "pdf_page": 4,
+      "crop_box": [
+        0.1877,
+        0.1047,
+        0.8127,
+        0.44580000000000003
+      ],
+      "caption": "Graïc et al. (2024), Fig. 1. Original cortical sections and neuronal morphologies across ages.",
+      "doi": "10.3389/fnana.2023.1330384"
+    },
+    {
+      "slide": 25,
+      "file": "figures/finneran17_1abc.png",
+      "image_sha256": "a97cd8628ef38ea4cd8b2ffd205374177277b3bf3ed4d197a77db3415f1a0d3d",
+      "paper": "finneran17",
+      "pdf_page": 3,
+      "crop_box": [
+        0.078,
+        0.052,
+        0.69,
+        0.554
+      ],
+      "caption": "Finneran et al. (2017), Fig. 1(abc). Bottlenose dolphin stationing and physical biosonar target.",
+      "doi": "10.1121/1.4983191"
+    },
+    {
+      "slide": 25,
+      "file": "figures/cranford10_12.png",
+      "image_sha256": "e7f68d0d0d58132b6d5b5ccd38ccdcacec26b0906be7e4d80a13311feeb031c9",
+      "paper": "cranford10",
+      "pdf_page": 7,
+      "crop_box": [
+        0.1,
+        0.528,
+        0.49,
+        0.766
+      ],
+      "caption": "Cranford et al. (2010), Fig. 12. Original anatomy of the structure discussed.",
+      "doi": "10.1371/journal.pone.0011927"
+    },
+    {
+      "slide": 26,
+      "file": "figures/finneran17_5ab.png",
+      "image_sha256": "d79b67e0f6cab6fd91c71d4d74794275e8362cb1fe3623371c75aebe20447de1",
+      "paper": "finneran17",
+      "pdf_page": 7,
+      "crop_box": [
+        0.11309999999999999,
+        0.052599999999999994,
+        0.8871,
+        0.4944
+      ],
+      "caption": "Finneran et al. (2017), Fig. 5(ab). Derived-band responses to dolphins’ own emitted clicks.",
+      "doi": "10.1121/1.4983191"
+    },
+    {
+      "slide": 26,
+      "file": "figures/cranford10_12.png",
+      "image_sha256": "e7f68d0d0d58132b6d5b5ccd38ccdcacec26b0906be7e4d80a13311feeb031c9",
+      "paper": "cranford10",
+      "pdf_page": 7,
+      "crop_box": [
+        0.1,
+        0.528,
+        0.49,
+        0.766
+      ],
+      "caption": "Cranford et al. (2010), Fig. 12. Original anatomy of the structure discussed.",
+      "doi": "10.1371/journal.pone.0011927"
+    },
+    {
+      "slide": 27,
+      "file": "figures/finneran17_6.png",
+      "image_sha256": "8057ae071d49bad1575fb1374e3756445316bfd451aa558c089e09d497a5e15f",
+      "paper": "finneran17",
+      "pdf_page": 8,
+      "crop_box": [
+        0.07,
+        0.045,
+        0.51,
+        0.335
+      ],
+      "caption": "Finneran et al. (2017), Fig. 6. Measured ABR amplitudes and latencies across derived frequency bands.",
+      "doi": "10.1121/1.4983191"
+    },
+    {
+      "slide": 27,
+      "file": "figures/cranford10_12.png",
+      "image_sha256": "e7f68d0d0d58132b6d5b5ccd38ccdcacec26b0906be7e4d80a13311feeb031c9",
+      "paper": "cranford10",
+      "pdf_page": 7,
+      "crop_box": [
+        0.1,
+        0.528,
+        0.49,
+        0.766
+      ],
+      "caption": "Cranford et al. (2010), Fig. 12. Original anatomy of the structure discussed.",
+      "doi": "10.1371/journal.pone.0011927"
+    },
+    {
+      "slide": 28,
+      "file": "figures/finneran18_5.png",
+      "image_sha256": "fc098c5cfa3675a98c09547d3f5d40f9193020328da96ec95be2eb08e685b76b",
+      "paper": "finneran18",
+      "pdf_page": 7,
+      "crop_box": [
+        0.1946,
+        0.4919,
+        0.8054,
+        0.8021
+      ],
+      "caption": "Finneran et al. (2018), Fig. 5. Electrode-position dependence of the pre-auditory wave and ABR.",
+      "doi": "10.1007/s00359-017-1234-0"
+    },
+    {
+      "slide": 28,
+      "file": "figures/finneran18_9ab.png",
+      "image_sha256": "98ab20df248264d078a011d58fc678e51d8945bfecedd1eeeec9f7c89bbe8595",
+      "paper": "finneran18",
+      "pdf_page": 10,
+      "crop_box": [
+        0.515,
+        0.069,
+        0.91,
+        0.483
+      ],
+      "caption": "Finneran et al. (2018), Fig. 9. Original anatomy of the structure discussed.",
+      "doi": "10.1007/s00359-017-1234-0"
+    },
+    {
+      "slide": 29,
+      "file": "figures/finneran18_8.png",
+      "image_sha256": "101ae48dbd75a79191feef5ad2d53d428a2268b8495190ba8c6e96ea4738aaf2",
+      "paper": "finneran18",
+      "pdf_page": 10,
+      "crop_box": [
+        0.075,
+        0.069,
+        0.49,
+        0.527
+      ],
+      "caption": "Finneran et al. (2018), Fig. 8. Masking changes the ABR but leaves the pre-auditory wave intact.",
+      "doi": "10.1007/s00359-017-1234-0"
+    },
+    {
+      "slide": 29,
+      "file": "figures/finneran18_9ab.png",
+      "image_sha256": "98ab20df248264d078a011d58fc678e51d8945bfecedd1eeeec9f7c89bbe8595",
+      "paper": "finneran18",
+      "pdf_page": 10,
+      "crop_box": [
+        0.515,
+        0.069,
+        0.91,
+        0.483
+      ],
+      "caption": "Finneran et al. (2018), Fig. 9. Original anatomy of the structure discussed.",
+      "doi": "10.1007/s00359-017-1234-0"
+    },
+    {
+      "slide": 30,
+      "file": "figures/gain14_1.png",
+      "image_sha256": "5f08fb2f9107fa7c207ee0c6b9bf000cc19ede876fbbbf7d4b404799429c49a6",
+      "paper": "gain14",
+      "pdf_page": 3,
+      "crop_box": [
+        0.0931,
+        0.07379999999999999,
+        0.9068,
+        0.335
+      ],
+      "caption": "Kloepper et al. (2014), Fig. 1. Published apparatus with targets at 2.5, 4 and 7 m.",
+      "doi": "10.1371/journal.pone.0105938"
+    },
+    {
+      "slide": 31,
+      "file": "figures/gain14_3AB.png",
+      "image_sha256": "f94a72352bbfc2f482d974f536b23d1522c973282e6d20948d39ebf2a3b4a1b4",
+      "paper": "gain14",
+      "pdf_page": 6,
+      "crop_box": [
+        0.2549,
+        0.07379999999999999,
+        0.7451,
+        0.5054
+      ],
+      "caption": "Kloepper et al. (2014), Fig. 3(AB). Click source-level sequences for randomized and predictable distances.",
+      "doi": "10.1371/journal.pone.0105938"
+    },
+    {
+      "slide": 32,
+      "file": "figures/gain14_4.png",
+      "image_sha256": "a57dfcfc10f57bbb88b852709bfdedba4e3c515052dc3dfe8f34617010b8e5cf",
+      "paper": "gain14",
+      "pdf_page": 8,
+      "crop_box": [
+        0.0934,
+        0.07379999999999999,
+        0.9066,
+        0.4476
+      ],
+      "caption": "Kloepper et al. (2014), Fig. 4. First-click source levels early and late in predictable-distance sessions.",
+      "doi": "10.1371/journal.pone.0105938"
+    },
+    {
+      "slide": 33,
+      "file": "figures/pursuit19_1A_F.png",
+      "image_sha256": "c1112d98291a808cb83c51e4c6582872bd490d74f29bfe903025fe5d9fab713f",
+      "paper": "pursuit19",
+      "pdf_page": 5,
+      "crop_box": [
+        0.13,
+        0.368,
+        0.919,
+        0.855
+      ],
+      "caption": "Ladegaard et al. (2019), Fig. 1(A–F). Interclick intervals plotted against target range for two dolphins.",
+      "doi": "10.1242/jeb.189217"
+    },
+    {
+      "slide": 34,
+      "file": "figures/pursuit19_2A_F.png",
+      "image_sha256": "c054bf30cd73e11858ac962f862575e6dd70768dd344dda5af9257fd72c3e79c",
+      "paper": "pursuit19",
+      "pdf_page": 6,
+      "crop_box": [
+        0.1,
+        0.07,
+        0.928,
+        0.554
+      ],
+      "caption": "Ladegaard et al. (2019), Fig. 2(A–F). Within-packet timing and packet prevalence across target distances.",
+      "doi": "10.1242/jeb.189217"
+    },
+    {
+      "slide": 35,
+      "file": "figures/pursuit19_4AB.png",
+      "image_sha256": "600cf66714bc20d6588a6b6c4c3f5fd85d73f01b2aa8f74a7489f04ffe76f680",
+      "paper": "pursuit19",
+      "pdf_page": 8,
+      "crop_box": [
+        0.12,
+        0.069,
+        0.921,
+        0.392
+      ],
+      "caption": "Ladegaard et al. (2019), Fig. 4(AB). Measured on-axis source level as a function of target range.",
+      "doi": "10.1242/jeb.189217"
+    },
+    {
+      "slide": 36,
+      "file": "figures/harley22_1.png",
+      "image_sha256": "122592d69f0415649e9f413d0c381275a8a27697981f6992c62bf85b48e7796a",
+      "paper": "harley22",
+      "pdf_page": 6,
+      "crop_box": [
+        0.1399,
+        0.06999999999999999,
+        0.8601,
+        0.4535
+      ],
+      "caption": "Harley et al. (2022), Fig. 1. Original three-alternative echolocation matching preparation.",
+      "doi": "10.1007/s10071-022-01679-5"
+    },
+    {
+      "slide": 37,
+      "file": "figures/harley22_6.png",
+      "image_sha256": "4ceb9ecbd0e3f54043485c0d20f93962a7f6d6ce9e9748b3a0601d637625f7fd",
+      "paper": "harley22",
+      "pdf_page": 12,
+      "crop_box": [
+        0.3,
+        0.461,
+        0.92,
+        0.795
+      ],
+      "caption": "Harley et al. (2022), Fig. 6. Accuracy and investigation-click counts across repeated sessions.",
+      "doi": "10.1007/s10071-022-01679-5"
+    },
+    {
+      "slide": 38,
+      "file": "figures/harley22_7ab.png",
+      "image_sha256": "51960dfd5aa175ecbf8022d15759ff97a5c4a446d28c31ecea5debfd877f12f2",
+      "paper": "harley22",
+      "pdf_page": 13,
+      "crop_box": [
+        0.301,
+        0.07,
+        0.92,
+        0.778
+      ],
+      "caption": "Harley et al. (2022), Fig. 7(ab). Published accuracy and click-count comparisons across trials.",
+      "doi": "10.1007/s10071-022-01679-5"
+    },
+    {
+      "slide": 39,
+      "file": "figures/harley22_3.png",
+      "image_sha256": "fa0a5c9cc2b41d63a4a3f5c65c65ce7deb1fc7e26ea1f411138a0087e1bf22c3",
+      "paper": "harley22",
+      "pdf_page": 7,
+      "crop_box": [
+        0.1399,
+        0.4022,
+        0.8601,
+        0.7554
+      ],
+      "caption": "Harley et al. (2022), Fig. 3. Original scene-shift stimuli preserve a sample while changing alternatives.",
+      "doi": "10.1007/s10071-022-01679-5"
+    },
+    {
+      "slide": 40,
+      "file": "figures/river13_1ABC.png",
+      "image_sha256": "a0b1870072171ae53445544f3f55f2ecfaa4dd58121c633220ba0a0132b1286c",
+      "paper": "river13",
+      "pdf_page": 2,
+      "crop_box": [
+        0.09179999999999999,
+        0.264,
+        0.668,
+        0.8705
+      ],
+      "caption": "Jensen et al. (2013), Fig. 1(ABC). Original field locations and study animals in the Sundarbans.",
+      "doi": "10.1371/journal.pone.0059284"
+    },
+    {
+      "slide": 41,
+      "file": "figures/river13_3ABCD.png",
+      "image_sha256": "eaa12b675019f212780050d407983cead11105e8828ea84e3857f8a39e4fc9e9",
+      "paper": "river13",
+      "pdf_page": 4,
+      "crop_box": [
+        0.09179999999999999,
+        0.07379999999999999,
+        0.7495,
+        0.3774
+      ],
+      "caption": "Jensen et al. (2013), Fig. 3(ABCD). Recorded Ganges and Irrawaddy dolphin waveforms and spectra.",
+      "doi": "10.1371/journal.pone.0059284"
+    },
+    {
+      "slide": 42,
+      "file": "figures/buzz14_1A.png",
+      "image_sha256": "9d72aca88889d816f3e6dbe5ba339ea91e3ba0ae4c983e0f5bf83e9fedbf3a5b",
+      "paper": "buzz14",
+      "pdf_page": 2,
+      "crop_box": [
+        0.072,
+        0.072,
+        0.612,
+        0.344
+      ],
+      "caption": "Wisniewska et al. (2014), Fig. 1(A–C). False killer whale echogram and click timing during fish capture.",
+      "doi": "10.1242/jeb.113415"
+    },
+    {
+      "slide": 43,
+      "file": "figures/buzz14_2ABC.png",
+      "image_sha256": "a7e0b4f70d93b7b1b6abcf250b6a4586db1783893b596b8e06e3bb4d0c477f64",
+      "paper": "buzz14",
+      "pdf_page": 3,
+      "crop_box": [
+        0.073,
+        0.075,
+        0.495,
+        0.699
+      ],
+      "caption": "Wisniewska et al. (2014), Fig. 2(ABC). Published click timing, received level and range near interception.",
+      "doi": "10.1242/jeb.113415"
+    },
+    {
+      "slide": 44,
+      "file": "figures/cooperate23_1B.png",
+      "image_sha256": "1d4817965b24c395f8617783fc296ba4d450d2e3a8b6c18e53ce4f1820f1d5a6",
+      "paper": "cooperate23",
+      "pdf_page": 2,
+      "crop_box": [
+        0.073,
+        0.437,
+        0.925,
+        0.682
+      ],
+      "caption": "Cantor et al. (2023), Fig. 1(B). Study location and genuine dolphin–fisher interaction in Laguna.",
+      "doi": "10.1073/pnas.2207739120"
+    },
+    {
+      "slide": 45,
+      "file": "figures/cooperate23_3A_C.png",
+      "image_sha256": "1e5771748e4aae31bd45cd0dc73055861bfa877a7e84dd87d20ce3b625d98de9",
+      "paper": "cooperate23",
+      "pdf_page": 4,
+      "crop_box": [
+        0.07,
+        0.354,
+        0.505,
+        0.785
+      ],
+      "caption": "Cantor et al. (2023), Fig. 3(A–C). Drone, underwater sonar and original acoustic capture records.",
+      "doi": "10.1073/pnas.2207739120"
+    }
+  ],
+  "scientific_image_creation": false,
+  "native_pptx_sha256": "734f9d9458ea1c650d496e25557dd3e2db127ed1176f72d94ca3230378c05dfd"
+}
