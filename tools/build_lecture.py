@@ -239,7 +239,7 @@ class Deck:
         sched = json.loads((ROOT / "course/schedule.json").read_text())
         self.course = sched
         n = spec["lecture"]
-        match = [l for l in sched["lectures"] if l["n"] == n]
+        match = [l for l in sched["lectures"] + sched.get("special_topics", []) if l["n"] == n]
         if not match:
             raise SpecError(f"Lecture {n} not in course/schedule.json")
         self.meta = match[0]
