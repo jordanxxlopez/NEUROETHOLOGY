@@ -9,8 +9,10 @@ from style_rules import is_color_image
 H=Path(__file__).resolve().parent;ROOT=H.parents[1]
 spec=json.loads((H/'lecture.json').read_text());meta=next(x for x in json.loads((ROOT/'course/schedule.json').read_text())['lectures']if x['n']==36);prs=Presentation(H/'Neuroethology_Lecture36_FA2026.pptx');assert len(prs.slides)==46
 assert next(sh.text for sh in prs.slides[0].shapes if sh.name=='Lecture title')==meta['title'];assert meta['date']in '\n'.join(sh.text for sh in prs.slides[0].shapes if sh.has_text_frame)
+counts=[len(' '.join(sl['body']).split())for sl in spec['slides']];assert all(len(sl['body'])==3 for sl in spec['slides']);assert min(counts)>=90 and max(counts)<=170
 imgs=colors=0;bodyfonts=[];hashes={hashlib.sha256(p.read_bytes()).hexdigest():p.name for p in (H/'figures').iterdir()if p.is_file()}
 for i,sl in enumerate(prs.slides):
+ assert any(r.hyperlink.address and r.hyperlink.address.startswith('https://doi.org/')for p in sl.notes_slide.notes_text_frame.paragraphs for r in p.runs)
  notes=sl.notes_slide.notes_text_frame.text;assert 'References:'in notes and 'https://doi.org/'in notes
  pics=[x for x in sl.shapes if x.shape_type==MSO_SHAPE_TYPE.PICTURE]
  if 0<i<45:
