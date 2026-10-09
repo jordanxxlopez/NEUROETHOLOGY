@@ -1,0 +1,41 @@
+{
+  "pdf_access": [
+    {
+      "paper": "lehrman1955",
+      "url": "https://brill.com/downloadpdf/journals/beh/7/1/article-p241_9.xml",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "paper": "cheng1986",
+      "url": "https://www.sciencedirect.com/science/article/pii/0031938486902489/pdfft",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "cheng1975",
+      "url": "https://psycnet.apa.org/journals/com/88/1/256.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "paper": "nottebohm1981",
+      "url": "https://www.science.org/doi/pdf/10.1126/science.7313697",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "paper": "tramontin2000",
+      "url": "https://www.jneurosci.org/content/jneuro/20/2/854.full.pdf",
+      "status": 200,
+      "pdf": true,
+      "bytes": 148274
+    },
+    {
+      "paper": "tramontin2000PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6772392/pdf/",
+      "status": 200,
+      "pdf": false,
+      "bytes": 21320
+    }
+  ],
+  "references": "bibliographic_checks.json",
+  "reference_decks": "Instructor supplied Lectures 30,31,32,33,34: each 46 slides,44 content image slides,16:9,Arial; first content notes149\u2013209words",
+  "status": "Awaiting four source PDFs before deck creation"
+}
