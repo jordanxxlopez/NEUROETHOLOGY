@@ -1,18 +1,10 @@
 # Lecture 45 — verified primary papers
 
-Exact title: Killer whales: brain organization and auditory specializations, vocal traditions, social learning, and coordination of cooperative hunting
+All required original PDFs are available and analyzed. No papers remain to be uploaded. The supplied hearing paper completed the auditory-specialization section.
 
-Date: Date TBD
+Ford’s publication year is 1991, regardless of the uploaded filename. Pitman and Durban is cited as 2012, the final journal issue year. Abramson et al.’s correction (10.1098/rspb.2018.0287) changes affiliations only; the original data figures are unchanged.
 
-## Original PDF needed for the expanded auditory section
-
-1. Michael D. Szymanski; David E. Bain; Kent Kiehl; Scott Pennington; Scott Wong; Kenneth R. Henry (1999). Killer whale (Orcinus orca) hearing: Auditory brainstem response and behavioral audiograms. The Journal of the Acoustical Society of America 106(2): 1134-1141. https://doi.org/10.1121/1.427121
-
-Direct killer-whale auditory brainstem responses and behavioral audiograms are required for the newly added auditory-specialization section. An abstract cannot supply the original data figures or full methods.
-
-The two earlier requested originals have been uploaded and incorporated. The instructor explicitly requires stopping for a necessary inaccessible paper rather than substituting or reconstructing its figures. No completed PPTX has been delivered.
-
-## Available originals
+## Sources used
 
 - José Z. Abramson; Mª Victoria Hernández-Lloreda; Lino García; Fernando Colmenares; Francisco Aboitiz; Josep Call (2018). Imitation of novel conspecific and human speech sounds in the killer whale ( Orcinus orca ). Proceedings of the Royal Society B: Biological Sciences 285(1871): 20172171. https://doi.org/10.1098/rspb.2017.2171
 
@@ -28,8 +20,6 @@ The two earlier requested originals have been uploaded and incorporated. The ins
 
 - Eve Jourdain; Richard Karoliussen; Sarah L. Fordyce Martin; Øystein Langangen; Todd Robeck; Katrine Borgå; Anders Ruus; Andrew D. Foote (2024). Social and genetic connectivity despite ecological variation in a killer whale network. Proceedings of the Royal Society B: Biological Sciences 291(2021): 20240524. https://doi.org/10.1098/rspb.2024.0524
 
-- Fannie W. Shabangu; Robyn Daniels; Rowan K. Jordaan; P. J. Nico de Bruyn; Marcel A. van den Berg; Tarron Lamont (2024). Killer whale acoustic patterns respond to prey abundance and environmental variability around the Prince Edward Islands, Southern Ocean. Royal Society Open Science 11(1): 230903. https://doi.org/10.1098/rsos.230903
-
 - Heather Manitzas Hill; Myriam Weiss; Isabelle Brasseur; Alexander Manibusan; Irene R. Sandoval; Todd Robeck; Julie Sigman; Kristen Werner; Kathleen M. Dudzinski (2022). Killer whale innovation: teaching animals to use their creativity upon request. Animal Cognition 25(5): 1091-1108. https://doi.org/10.1007/s10071-022-01635-3
 
 - Anna Selbmann; Filipa I. P. Samarra; Lucie Barluet de Beauchesne; Tatiana M. J. Marchon; Ellen Hayward; Jörundur Svavarsson; Patrick J. O. Miller; Paul J. Wensveen; Charlotte Curé (2026). Aversive behavioural responses of killer whales to sounds of long-finned pilot whales. Scientific Reports 16(1): 4716. https://doi.org/10.1038/s41598-026-35574-7
@@ -42,4 +32,10 @@ The two earlier requested originals have been uploaded and incorporated. The ins
 
 - Lori Marino; Chet C. Sherwood; Bradley N. Delman; Cheuk Y. Tang; Thomas P. Naidich; Patrick R. Hof (2004). Neuroanatomy of the killer whale (Orcinus orca) from magnetic resonance images. The Anatomical Record Part A: Discoveries in Molecular, Cellular, and Evolutionary Biology 281A(2): 1256-1263. https://doi.org/10.1002/ar.a.20075
 
-Source URLs, citation metadata and PDF hashes are recorded in sources/available-pdfs.json. Original PDFs remain uncommitted in papers/.
+- Michael D. Szymanski; David E. Bain; Kent Kiehl; Scott Pennington; Scott Wong; Kenneth R. Henry (1999). Killer whale (Orcinus orca) hearing: Auditory brainstem response and behavioral audiograms. Journal of the Acoustical Society of America 106(2): 1134–1141. https://doi.org/10.1121/1.427121
+
+- Venkatesh, A., McClain, A. M., Le-Bert, C. R., Musser, W. B., & Ridgway, S. H. (2025). Astrocyte properties in cetacean cortices. Physiological Reports, 13(21), e70651. https://doi.org/10.14814/phy2.70651
+
+## Additional paper reviewed
+
+- Fannie W. Shabangu; Robyn Daniels; Rowan K. Jordaan; P. J. Nico de Bruyn; Marcel A. van den Berg; Tarron Lamont (2024). Killer whale acoustic patterns respond to prey abundance and environmental variability around the Prince Edward Islands, Southern Ocean. Royal Society Open Science 11(1): 230903. https://doi.org/10.1098/rsos.230903
