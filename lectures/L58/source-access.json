@@ -1,0 +1,48 @@
+{
+  "missing_papers": [
+    "classic",
+    "oxytocin",
+    "motherhood",
+    "transcript"
+  ],
+  "available_pdf_count": 9,
+  "checks": [
+    {
+      "paper": "classic",
+      "url": "http://www.nature.com/articles/nn1613.pdf",
+      "status": 200,
+      "pdf": false
+    },
+    {
+      "paper": "oxytocin",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8930613/pdf/nihms-1772433.pdf",
+      "status": 200,
+      "pdf": false
+    },
+    {
+      "paper": "oxytocin",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8930613/bin/NIHMS1772433-supplement-Supplemental.pdf",
+      "status": 200,
+      "pdf": false
+    },
+    {
+      "paper": "motherhood",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10133177/pdf/nihms-1891309.pdf",
+      "status": 200,
+      "pdf": false
+    },
+    {
+      "paper": "transcript",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8187463/pdf/nihms-1653495.pdf",
+      "status": 200,
+      "pdf": false
+    },
+    {
+      "paper": "transcript",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8187463/bin/NIHMS1653495-supplement-1.pdf",
+      "status": 200,
+      "pdf": false
+    }
+  ],
+  "status": "Awaiting required original article PDFs; no PPTX produced"
+}
