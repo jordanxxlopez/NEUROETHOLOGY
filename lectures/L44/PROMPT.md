@@ -1,0 +1,9 @@
+Make Lecture 44 for NEUR 411 Neuroethology (Fall 2026) as a downloadable PPTX.
+
+Use the current default branch of jordanxxlopez/NEUROETHOLOGY as authority, its AGENTS.md, neuroethology-lecture skill, schedule, themes, templates, and tools/build_lecture.py. Preserve the exact scheduled title and Date TBD.
+
+46 slides: title, 44 content slides, Key takeaways with 5–6 bold lead phrases. Arial throughout; unused theme excluding yellow, orange, gold, purple, and green. No agenda, objectives, next-lecture framing, continued splits, or lecture metacommentary. Each content slide: 3–5 academic paragraphs grounded in verified primary studies, methods, controls, meaningful measured results and limitations. Define terms and explain circuit mechanisms without inventing evidence. Full teaching transcript and verified references with DOI in notes; short citations in footers.
+
+Never create, generate, draw, redraw, recolor, tint, or replot an image, graph, schematic, illustration, diagram, icon, or model curve. Scientific figures must be original published PDF panels cropped with tools/crop_figure.py, preserving axes, units, scale bars and panel letters. Caption Author (year), Fig. N(panel). What it shows. Use DOI source_url. At least 40 of 44 content slides have images, mostly primary-paper panels; aim for naturally colored figures on at least half of image slides. Up to 10 real credited photos are permitted. Include a real credited ferret photo on the title slide. Do not pad with meaningless repetitions.
+
+If a needed PDF cannot be downloaded, STOP and provide numbered DOI links for upload; do not substitute sources or create replacement figures. This explicit instruction overrides the special-topic exception. Use past approved lectures for density and image placement. Build, check, and visually inspect every slide. Record theme only after completion. Deliver an HTTPS downloadable PPTX and viewable preview, avoiding computer-connected-only links.
