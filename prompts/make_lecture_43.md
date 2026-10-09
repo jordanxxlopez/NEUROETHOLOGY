@@ -112,3 +112,5 @@ FINISH
 - If a required PDF cannot be downloaded, stop and provide a numbered DOI list. Do not use the special-topic substitution exception for this request.
 - Keep every image original: published PDF crops, or at most 10 real credited photographs where useful. Never create or redraw any figure. At least 40 of 44 content slides have images, at least 34 have primary-paper figures; aim for published color on half the image slides.
 - Clearly label Rupp et al. (2026) as a preprint. Do not conflate demonstrated electroreception with evidence that courtship is electrically signaled.
+
+Instructor update: Include real, credited axolotl photographs where they identify the study animal, developmental preparation or relevant anatomy. Use original article figures for experimental evidence; never generate or redraw an image.

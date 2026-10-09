@@ -1,0 +1,1476 @@
+{
+  "lecture": 43,
+  "theme": "mink-paper",
+  "content_slides": 44,
+  "title_height": 2.8,
+  "title_image": {
+    "path": "figures/axolotl.jpg",
+    "kind": "web",
+    "caption": "Photo: Aquatic axolotl, Ambystoma mexicanum. LoKiLeCh; CC BY-SA 3.0.",
+    "credit": "LoKiLeCh",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Axolotl_ganz.jpg"
+  },
+  "title_refs": [
+    "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051",
+    "Northcutt RG (1992). Distribution and innervation of lateral line organs in the axolotl. Journal of Comparative Neurology 325:95–123. https://doi.org/10.1002/cne.903250109"
+  ],
+  "slides": [
+    {
+      "title": "An aquatic salamander samples several physical worlds",
+      "body": [
+        "The axolotl, _Ambystoma mexicanum_, retains an aquatic body form as a reproductive adult. **Mechanoreception** detects mechanical disturbances, whereas **electroreception** detects electric fields. These capacities depend on different sensory organs distributed across the skin, rather than on the conspicuous external gills.",
+        "Wang and colleagues compared fluorescently labeled organs in 3-month juveniles and 12-month adults. Neuromasts occurred on the head and trunk, while ampullary organs were restricted to the head. Electric stimulation at 5 or 10 Hz changed locomotion under particular experimental conditions.",
+        "Sensory function requires calibrated stimulation rather than inference from the animal’s external appearance. Anatomical localization, nerve recordings and controlled behavioral stimulation provide different evidence for sensory function; none alone identifies every receptor-to-behavior connection."
+      ],
+      "cite": "Wang et al. (2026)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "The axolotl, _Ambystoma mexicanum_, retains an aquatic body form as a reproductive adult. **Mechanoreception** detects mechanical disturbances, whereas **electroreception** detects electric fields. These capacities depend on different sensory organs distributed across the skin, rather than on the conspicuous external gills.",
+        [
+          "Wang and colleagues compared fluorescently labeled organs in 3-month juveniles and 12-month adults. Neuromasts occurred on the head and trunk, while ampullary organs were restricted to the head. Electric stimulation at 5 or 10 Hz changed locomotion under particular experimental conditions.",
+          [
+            "The external gills are readily recognizable in a living axolotl, but the relevant lateral-line receptors are small skin organs. Keeping these structures distinct prevents attributing electrical detection to the most visually prominent anatomy."
+          ]
+        ],
+        "Sensory function requires calibrated stimulation rather than inference from the animal’s external appearance. Anatomical localization, nerve recordings and controlled behavioral stimulation provide different evidence for sensory function; none alone identifies every receptor-to-behavior connection."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/wildtype.jpg",
+        "kind": "web",
+        "caption": "Photo: Axolotl with pigmented skin. Stan Shebs; CC BY-SA 3.0.",
+        "credit": "Stan Shebs",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ambystoma_mexicanum_1.jpg"
+      }
+    },
+    {
+      "title": "Water movement and electric fields use different organs",
+      "body": [
+        "The **lateral-line system** comprises skin receptors and their nerves that sample the nearby aquatic environment. A **neuromast** is a cluster of mechanosensory receptor cells. An **ampullary organ** contains electrosensory cells recessed beneath a skin opening; the two organ types are anatomically distinguishable.",
+        "Wang and colleagues used DASPEI, a fluorescent dye that labels metabolically active receptor regions, to identify organs on juvenile axolotls. Larger neuromasts formed conspicuous groups, whereas smaller ampullary organs occurred around them. Tissue sections independently checked their different internal arrangements.",
+        "Fluorescence locates candidate receptors rather than measuring their sensory thresholds. Calling an organ electrosensory requires physiological evidence of responses to weak electric fields, with mechanical stimulation used to distinguish electric sensitivity from water-movement sensitivity."
+      ],
+      "cite": "Wang et al. (2026); Northcutt (1992)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051",
+        "Northcutt RG (1992). Distribution and innervation of lateral line organs in the axolotl. Journal of Comparative Neurology 325:95–123. https://doi.org/10.1002/cne.903250109"
+      ],
+      "transcript": [
+        "The **lateral-line system** comprises skin receptors and their nerves that sample the nearby aquatic environment. A **neuromast** is a cluster of mechanosensory receptor cells. An **ampullary organ** contains electrosensory cells recessed beneath a skin opening; the two organ types are anatomically distinguishable.",
+        [
+          "Wang and colleagues used DASPEI, a fluorescent dye that labels metabolically active receptor regions, to identify organs on juvenile axolotls. Larger neuromasts formed conspicuous groups, whereas smaller ampullary organs occurred around them. Tissue sections independently checked their different internal arrangements.",
+          [
+            "The dye is an anatomical locator. The electric and mechanical stimuli are separate physical interventions; a bright spot does not reveal the stimulus needed to excite the cells within it."
+          ]
+        ],
+        "Fluorescence locates candidate receptors rather than measuring their sensory thresholds. Calling an organ electrosensory requires physiological evidence of responses to weak electric fields, with mechanical stimulation used to distinguish electric sensitivity from water-movement sensitivity."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w1.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 1(A–E). Fluorescent receptor distribution on the head and trunk.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Tail movements accompany changes in female behavior",
+      "body": [
+        "**Hulaing** is the courtship movement in which an axolotl undulates its posterior body and tail. Male movements occur near females and at greater distances. A **spermatophore** is a deposited sperm package that a female can collect through her cloacal opening during internal fertilization.",
+        "Rupp and colleagues recorded live pairs overnight and analyzed the first 150 min after darkness. Females had shorter walking bouts and switched more frequently among walking, swimming and pausing while males hulaed. These findings come from a 2026 preprint that has not been peer reviewed.",
+        "The live-pair comparison associates male behavior with female activity but does not isolate water movement from odor, touch or other cues. Controlled artificial-tail stimulation and peripheral recordings test narrower parts of the proposed communication mechanism."
+      ],
+      "cite": "Rupp et al. (2026), preprint; Maex et al. (2016)",
+      "refs": [
+        "Rupp TM, McGuire JM, Eisthen HL (2026). Mechanosensory Signaling in Axolotl Courtship and Evolution of Communication. bioRxiv, version 1 posted April 14, 2026. PREPRINT: not peer reviewed. https://doi.org/10.64898/2026.04.13.718269",
+        "Maex M, Van Bocxlaer I, Mortier A, Proost P, Bossuyt F (2016). Courtship Pheromone Use in a Model Urodele, the Mexican Axolotl (Ambystoma mexicanum). Scientific Reports 6:20184. https://doi.org/10.1038/srep20184"
+      ],
+      "transcript": [
+        "**Hulaing** is the courtship movement in which an axolotl undulates its posterior body and tail. Male movements occur near females and at greater distances. A **spermatophore** is a deposited sperm package that a female can collect through her cloacal opening during internal fertilization.",
+        [
+          "Rupp and colleagues recorded live pairs overnight and analyzed the first 150 min after darkness. Females had shorter walking bouts and switched more frequently among walking, swimming and pausing while males hulaed. These findings come from a 2026 preprint that has not been peer reviewed.",
+          [
+            "Female activity is not synonymous with successful fertilization. The videos did not resolve spermatophore uptake, so state changes cannot be treated as direct measurements of mating success."
+          ]
+        ],
+        "The live-pair comparison associates male behavior with female activity but does not isolate water movement from odor, touch or other cues. Controlled artificial-tail stimulation and peripheral recordings test narrower parts of the proposed communication mechanism."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/r3.png",
+        "kind": "article",
+        "caption": "Rupp et al. (2026), Fig. 3(A–I). Female walking bouts, locomotor transitions and proximity measures. Preprint; not peer reviewed.",
+        "source_url": "https://doi.org/10.64898/2026.04.13.718269"
+      }
+    },
+    {
+      "title": "Three skin-organ classes can be distinguished",
+      "body": [
+        "**Pit organs** are a third lateral-line organ category described in the axolotl, alongside neuromasts and ampullary organs. They must not be confused with every recessed receptor casually described as a pit. Historical anatomical terminology is less specific than the later three-category classification.",
+        "Wang and colleagues magnified the mandibular region of 3-month juveniles. Neuromasts produced relatively large fluorescent clusters, ampullary organs appeared as smaller ring-like structures, and pit organs appeared small and comparatively dark. Northcutt independently classified organ architecture with tissue sections and surface preparations.",
+        "These distinctions establish recognizable structures, rather than three experimentally proven courtship channels. An organ’s position and staining pattern do not identify its transmitter, behavioral role or electrical threshold. The classification requires morphology together with the physiological literature."
+      ],
+      "cite": "Wang et al. (2026); Northcutt (1992)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051",
+        "Northcutt RG (1992). Distribution and innervation of lateral line organs in the axolotl. Journal of Comparative Neurology 325:95–123. https://doi.org/10.1002/cne.903250109"
+      ],
+      "transcript": [
+        "**Pit organs** are a third lateral-line organ category described in the axolotl, alongside neuromasts and ampullary organs. They must not be confused with every recessed receptor casually described as a pit. Historical anatomical terminology is less specific than the later three-category classification.",
+        [
+          "Wang and colleagues magnified the mandibular region of 3-month juveniles. Neuromasts produced relatively large fluorescent clusters, ampullary organs appeared as smaller ring-like structures, and pit organs appeared small and comparatively dark. Northcutt independently classified organ architecture with tissue sections and surface preparations.",
+          [
+            "The 1982 paper called its small candidate electroreceptor a pit organ. Later work distinguishes ampullary electroreceptors from the separate pit-organ class, so historical wording must not erase the modern distinction."
+          ]
+        ],
+        "These distinctions establish recognizable structures, rather than three experimentally proven courtship channels. An organ’s position and staining pattern do not identify its transmitter, behavioral role or electrical threshold. The classification requires morphology together with the physiological literature."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w1a.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 1(A). Neuromasts, ampullary organs and pit organs in mandibular skin.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Head and trunk contain different receptor mixtures",
+      "body": [
+        "The head and trunk do not provide equivalent sampling surfaces. Ampullary organs occur around head neuromast lines, while trunk skin carries neuromasts without the same ampullary population. This regional difference matters whenever tissue from one body region is compared with another.",
+        "Wang and colleagues imaged dorsal, lateral and ventral head surfaces using fluorescent labeling. Their 3-month juveniles had ampullary organs in head regions including the snout and jaws, but not on the imaged trunk. Northcutt’s anatomical preparations also separated head receptor fields from trunk lines.",
+        "A regional expression difference may reflect different receptor populations or other skin cells. It cannot automatically be assigned to an ampullary receptor cell. Head-versus-trunk comparisons therefore constrain localization without providing the cellular specificity of an isolated-receptor experiment."
+      ],
+      "cite": "Wang et al. (2026); Northcutt (1992)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051",
+        "Northcutt RG (1992). Distribution and innervation of lateral line organs in the axolotl. Journal of Comparative Neurology 325:95–123. https://doi.org/10.1002/cne.903250109"
+      ],
+      "transcript": [
+        "The head and trunk do not provide equivalent sampling surfaces. Ampullary organs occur around head neuromast lines, while trunk skin carries neuromasts without the same ampullary population. This regional difference matters whenever tissue from one body region is compared with another.",
+        [
+          "Wang and colleagues imaged dorsal, lateral and ventral head surfaces using fluorescent labeling. Their 3-month juveniles had ampullary organs in head regions including the snout and jaws, but not on the imaged trunk. Northcutt’s anatomical preparations also separated head receptor fields from trunk lines.",
+          [
+            "The same head field can contain multiple receptor classes. A fluorescent overview and a tissue RNA sample operate at different spatial resolutions, even when both come from a region called the head."
+          ]
+        ],
+        "A regional expression difference may reflect different receptor populations or other skin cells. It cannot automatically be assigned to an ampullary receptor cell. Head-versus-trunk comparisons therefore constrain localization without providing the cellular specificity of an isolated-receptor experiment."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w1cde.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 1(C–E). Ampullary receptor fields across dorsal, lateral and ventral head views.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Sensory epithelia contain receptors and support cells",
+      "body": [
+        "A **sensory epithelium** is an organized cell layer containing receptor cells and associated supporting cells. Northcutt examined axolotl neuromasts and pit organs in sections and surface preparations, distinguishing sensory cells from the surrounding tissue rather than classifying organs by external appearance alone.",
+        "Microscopic sections reveal organized receptor groups and different relationships to the skin surface. Neuromast sensory cells carry apical specializations, meaning specializations at their water-facing ends. The cellular arrangement is therefore more informative than the simple presence of a skin opening.",
+        "Histology, the microscopic study of tissue structure, identifies the location and arrangement of cells. It does not measure how a membrane channel opens or how rapidly a nerve fires. Those mechanisms require physiological recordings or interventions in an appropriately identified preparation."
+      ],
+      "cite": "Northcutt (1992)",
+      "refs": [
+        "Northcutt RG (1992). Distribution and innervation of lateral line organs in the axolotl. Journal of Comparative Neurology 325:95–123. https://doi.org/10.1002/cne.903250109"
+      ],
+      "transcript": [
+        "A **sensory epithelium** is an organized cell layer containing receptor cells and associated supporting cells. Northcutt examined axolotl neuromasts and pit organs in sections and surface preparations, distinguishing sensory cells from the surrounding tissue rather than classifying organs by external appearance alone.",
+        [
+          "Microscopic sections reveal organized receptor groups and different relationships to the skin surface. Neuromast sensory cells carry apical specializations, meaning specializations at their water-facing ends. The cellular arrangement is therefore more informative than the simple presence of a skin opening.",
+          [
+            "Supporting cells contribute to the organization of a sensory organ but should not be counted as receptor neurons. A stained cell boundary alone does not identify a functional synapse."
+          ]
+        ],
+        "Histology, the microscopic study of tissue structure, identifies the location and arrangement of cells. It does not measure how a membrane channel opens or how rapidly a nerve fires. Those mechanisms require physiological recordings or interventions in an appropriately identified preparation."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/n2.png",
+        "kind": "article",
+        "caption": "Northcutt (1992), Fig. 2(A–F). Neuromast and pit-organ sensory epithelia in tissue sections.",
+        "source_url": "https://doi.org/10.1002/cne.903250109"
+      }
+    },
+    {
+      "title": "An ampullary canal links water to recessed receptors",
+      "body": [
+        "An ampullary organ contains receptor cells below the epidermal surface, connected to the environment through a canal. The **epidermis** is the outer skin layer. This arrangement differs from an exposed mechanosensory cluster, even though both belong to the lateral-line system.",
+        "Wang and colleagues examined juvenile head skin in vertical and horizontal sections stained with hematoxylin and eosin. Ampullary organs appeared as rounded compact groups; vertical sections located the pore and recessed cavity, while horizontal sections distinguished the clustered receptor region from surrounding skin.",
+        "The canal provides an anatomical route between water and sensory tissue. The sections do not directly measure canal resistance, receptor current or channel identity. Their mechanistic contribution is to locate the specialized cells that electrical recordings and molecular assays must subsequently interrogate."
+      ],
+      "cite": "Wang et al. (2026)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "An ampullary organ contains receptor cells below the epidermal surface, connected to the environment through a canal. The **epidermis** is the outer skin layer. This arrangement differs from an exposed mechanosensory cluster, even though both belong to the lateral-line system.",
+        [
+          "Wang and colleagues examined juvenile head skin in vertical and horizontal sections stained with hematoxylin and eosin. Ampullary organs appeared as rounded compact groups; vertical sections located the pore and recessed cavity, while horizontal sections distinguished the clustered receptor region from surrounding skin.",
+          [
+            "Vertical and horizontal sections answer different geometric questions. The canal opening and receptor chamber are features of the organ, not evidence that every cell bordering the canal is electrically sensitive."
+          ]
+        ],
+        "The canal provides an anatomical route between water and sensory tissue. The sections do not directly measure canal resistance, receptor current or channel identity. Their mechanistic contribution is to locate the specialized cells that electrical recordings and molecular assays must subsequently interrogate."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w2ao.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 2(B,E). Vertical and horizontal sections of ampullary organs.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Neuromasts place mechanical receptors near the surface",
+      "body": [
+        "Neuromasts organize **hair cells**, sensory cells with apical projections responsive to mechanical input, in clusters close to the skin surface. Their name refers to these cellular specializations rather than mammalian hair. They are structurally distinct from the compact recessed ampullary organs.",
+        "Wang and colleagues compared matched head-skin sections. Neuromasts formed larger spindle-shaped receptor clusters in horizontal sections and had sensory projections extending outward in vertical sections. Using the same staining and tissue-processing methods limited procedural differences between the two organ categories.",
+        "Water displacement can be converted into a change in receptor activity and then into nerve impulses. These sections establish where that conversion occurs, but do not identify every mechanotransduction channel. Mechanical sensitivity must be supported by recordings during calibrated water-motion stimulation."
+      ],
+      "cite": "Wang et al. (2026); Northcutt (1992)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051",
+        "Northcutt RG (1992). Distribution and innervation of lateral line organs in the axolotl. Journal of Comparative Neurology 325:95–123. https://doi.org/10.1002/cne.903250109"
+      ],
+      "transcript": [
+        "Neuromasts organize **hair cells**, sensory cells with apical projections responsive to mechanical input, in clusters close to the skin surface. Their name refers to these cellular specializations rather than mammalian hair. They are structurally distinct from the compact recessed ampullary organs.",
+        [
+          "Wang and colleagues compared matched head-skin sections. Neuromasts formed larger spindle-shaped receptor clusters in horizontal sections and had sensory projections extending outward in vertical sections. Using the same staining and tissue-processing methods limited procedural differences between the two organ categories.",
+          [
+            "An external projection is a mechanical interface, whereas an ion channel is a molecular component of a cell membrane. The present histology resolves the former without directly identifying the latter."
+          ]
+        ],
+        "Water displacement can be converted into a change in receptor activity and then into nerve impulses. These sections establish where that conversion occurs, but do not identify every mechanotransduction channel. Mechanical sensitivity must be supported by recordings during calibrated water-motion stimulation."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w2nm.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 2(C,F). Vertical and horizontal neuromast sections.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Peripheral nerves connect distinct receptor fields",
+      "body": [
+        "An **afferent** carries sensory information toward the central nervous system. Northcutt traced lateral-line nerves and their terminal fields in axolotl skin, linking receptor positions to identifiable nerve branches rather than assuming that adjacent receptors share identical innervation.",
+        "Whole-mount preparations preserve branching relationships across the head. The anterodorsal and anteroventral lateral-line nerves supply different territories, including receptor groups around the snout and jaws. Tissue anatomy distinguishes these sensory pathways from other cranial nerves passing through nearby regions.",
+        "A nerve recording samples only the receptors served by the recorded branch. Responses from a dorsal snout branch cannot be generalized to every neuromast or ampullary organ on the animal. The anatomical field establishes the spatial meaning of the physiological signal without specifying its behavioral interpretation."
+      ],
+      "cite": "Northcutt (1992)",
+      "refs": [
+        "Northcutt RG (1992). Distribution and innervation of lateral line organs in the axolotl. Journal of Comparative Neurology 325:95–123. https://doi.org/10.1002/cne.903250109"
+      ],
+      "transcript": [
+        "An **afferent** carries sensory information toward the central nervous system. Northcutt traced lateral-line nerves and their terminal fields in axolotl skin, linking receptor positions to identifiable nerve branches rather than assuming that adjacent receptors share identical innervation.",
+        [
+          "Whole-mount preparations preserve branching relationships across the head. The anterodorsal and anteroventral lateral-line nerves supply different territories, including receptor groups around the snout and jaws. Tissue anatomy distinguishes these sensory pathways from other cranial nerves passing through nearby regions.",
+          [
+            "Afferents from nearby receptor types can travel through related peripheral pathways. Anatomical tracing identifies access routes, but separating receptor classes in a mixed nerve still requires stimulus sensitivity or selective labeling."
+          ]
+        ],
+        "A nerve recording samples only the receptors served by the recorded branch. Responses from a dorsal snout branch cannot be generalized to every neuromast or ampullary organ on the animal. The anatomical field establishes the spatial meaning of the physiological signal without specifying its behavioral interpretation."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/n9.png",
+        "kind": "article",
+        "caption": "Northcutt (1992), Fig. 9. Original anatomical tracing of head sensory nerve territories.",
+        "source_url": "https://doi.org/10.1002/cne.903250109"
+      }
+    },
+    {
+      "title": "Receptor maturation can be followed across development",
+      "body": [
+        "A **developmental stage** describes anatomical maturity rather than a fixed number of days. Modrell and Baker labeled living axolotl embryos with DASPEI and examined receptor cells at stages 40, 42 and 44. Neuromasts were already visible at stage 40 and became more extensive thereafter.",
+        "The authors also used antibodies against **parvalbumin-3**, a calcium-binding protein expressed in sensory hair cells. Neuromasts contained more labeled receptor cells than individual ampullary organs in their examples. The complementary stains separated organ appearance from receptor-cell identity.",
+        "DASPEI did not label ampullary organs under that study’s short-incubation conditions, although later protocols detected their fluorescence. Failure of one stain is therefore not evidence that the organ is absent. Neither labeling method directly measures the developmental onset of a complete courtship response."
+      ],
+      "cite": "Modrell & Baker (2012)",
+      "refs": [
+        "Modrell MS, Baker CVH (2012). Evolution of electrosensory ampullary organs: conservation of Eya4 expression during lateral line development in jawed vertebrates. Evolution & Development 14:277–285. https://doi.org/10.1111/j.1525-142X.2012.00544.x"
+      ],
+      "transcript": [
+        "A **developmental stage** describes anatomical maturity rather than a fixed number of days. Modrell and Baker labeled living axolotl embryos with DASPEI and examined receptor cells at stages 40, 42 and 44. Neuromasts were already visible at stage 40 and became more extensive thereafter.",
+        [
+          "The authors also used antibodies against **parvalbumin-3**, a calcium-binding protein expressed in sensory hair cells. Neuromasts contained more labeled receptor cells than individual ampullary organs in their examples. The complementary stains separated organ appearance from receptor-cell identity.",
+          [
+            "The embryonic animal photo supplies organismal context. The published stained preparations provide the actual receptor evidence; the photographed egg is not an experimental subject from the paper."
+          ]
+        ],
+        "DASPEI did not label ampullary organs under that study’s short-incubation conditions, although later protocols detected their fluorescence. Failure of one stain is therefore not evidence that the organ is absent. Neither labeling method directly measures the developmental onset of a complete courtship response."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/d2.png",
+          "kind": "article",
+          "caption": "Modrell & Baker (2012), Fig. 2(A–I). Developing neuromasts and parvalbumin-positive receptor cells.",
+          "source_url": "https://doi.org/10.1111/j.1525-142X.2012.00544.x"
+        },
+        {
+          "path": "figures/egg_display.jpg",
+          "kind": "web",
+          "caption": "Photo: Axolotl larva within its egg. Brandon Antonio Segura Torres & Priscilla Vieto Bonilla; CC BY-SA 4.0.",
+          "credit": "Brandon Antonio Segura Torres & Priscilla Vieto Bonilla",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Detalle_a_larva_de_axolote_Ambystoma_mexicanum_dentro_del_huevo.jpg"
+        }
+      ],
+      "primary_figure_height": 3.0
+    },
+    {
+      "title": "Eya4 marks both mechanical and electrical receptor cells",
+      "body": [
+        "**Eya4** is a gene encoding a transcriptional coactivator, a protein that helps regulate gene expression. Modrell and Baker used **in situ hybridization**, a method that locates a selected RNA within tissue, to identify Eya4-expressing cells in larval axolotl sensory organs.",
+        "Eya4 signal occurred in both neuromasts and ampullary organs. Combining RNA localization with parvalbumin-3 labeling and nuclear staining restricted the signal to receptor cells rather than the surrounding support-cell population. Sections provided an independent view of this cellular localization.",
+        "A shared developmental marker is compatible with related cellular origins. It does not make the two receptor types functionally interchangeable. Eya4 is not an electrical transduction channel, and expression alone does not establish that the gene is necessary for sensory activity in either organ."
+      ],
+      "cite": "Modrell & Baker (2012)",
+      "refs": [
+        "Modrell MS, Baker CVH (2012). Evolution of electrosensory ampullary organs: conservation of Eya4 expression during lateral line development in jawed vertebrates. Evolution & Development 14:277–285. https://doi.org/10.1111/j.1525-142X.2012.00544.x"
+      ],
+      "transcript": [
+        "**Eya4** is a gene encoding a transcriptional coactivator, a protein that helps regulate gene expression. Modrell and Baker used **in situ hybridization**, a method that locates a selected RNA within tissue, to identify Eya4-expressing cells in larval axolotl sensory organs.",
+        [
+          "Eya4 signal occurred in both neuromasts and ampullary organs. Combining RNA localization with parvalbumin-3 labeling and nuclear staining restricted the signal to receptor cells rather than the surrounding support-cell population. Sections provided an independent view of this cellular localization.",
+          [
+            "RNA detection identifies cells expressing the selected gene. Necessity would require an intervention that changes Eya4 function and then tests receptor development or activity, rather than inferring causation from co-localized stains."
+          ]
+        ],
+        "A shared developmental marker is compatible with related cellular origins. It does not make the two receptor types functionally interchangeable. Eya4 is not an electrical transduction channel, and expression alone does not establish that the gene is necessary for sensory activity in either organ."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/d4.png",
+        "kind": "article",
+        "caption": "Modrell & Baker (2012), Fig. 4(A–C′). Eya4 localization and receptor-cell labeling in mature sensory organs.",
+        "source_url": "https://doi.org/10.1111/j.1525-142X.2012.00544.x"
+      }
+    },
+    {
+      "title": "Lateral-line placodes establish sensory territories",
+      "body": [
+        "A **placode** is a localized thickening of embryonic surface tissue that contributes to a sensory organ or its associated neurons. Modrell and Baker followed Eya4 expression as the axolotl lateral-line placodes, receptor lines and sensory ganglia developed.",
+        "At stage 28, prominent expression occurred in the developing ear region. By stage 33, lateral-line placodes also expressed Eya4; stages 38–39 included receptor lines and their ganglia. A **ganglion** is a collection of neuronal cell bodies outside the central nervous system.",
+        "The facial-nerve ganglion beside a lateral-line ganglion did not share the same Eya4 signal. This spatial comparison supports selective localization, rather than indiscriminate neuronal staining. Developmental expression maps constrain tissue identity but do not prove how mature electrical or mechanical signals are processed."
+      ],
+      "cite": "Modrell & Baker (2012)",
+      "refs": [
+        "Modrell MS, Baker CVH (2012). Evolution of electrosensory ampullary organs: conservation of Eya4 expression during lateral line development in jawed vertebrates. Evolution & Development 14:277–285. https://doi.org/10.1111/j.1525-142X.2012.00544.x"
+      ],
+      "transcript": [
+        "A **placode** is a localized thickening of embryonic surface tissue that contributes to a sensory organ or its associated neurons. Modrell and Baker followed Eya4 expression as the axolotl lateral-line placodes, receptor lines and sensory ganglia developed.",
+        [
+          "At stage 28, prominent expression occurred in the developing ear region. By stage 33, lateral-line placodes also expressed Eya4; stages 38–39 included receptor lines and their ganglia. A **ganglion** is a collection of neuronal cell bodies outside the central nervous system.",
+          [
+            "The neuronal stain HuC/D identifies neuronal tissue more broadly than Eya4. Their comparison distinguishes a general neuronal marker from the restricted expression pattern attributed to developing lateral-line structures."
+          ]
+        ],
+        "The facial-nerve ganglion beside a lateral-line ganglion did not share the same Eya4 signal. This spatial comparison supports selective localization, rather than indiscriminate neuronal staining. Developmental expression maps constrain tissue identity but do not prove how mature electrical or mechanical signals are processed."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/d3.png",
+        "kind": "article",
+        "caption": "Modrell & Baker (2012), Fig. 3(A–H). Eya4 expression in placodes, ganglia and developing receptor lines.",
+        "source_url": "https://doi.org/10.1111/j.1525-142X.2012.00544.x"
+      }
+    },
+    {
+      "title": "Sensory afferents occupy ordered hindbrain territories",
+      "body": [
+        "The **hindbrain** is the posterior brain region that receives several cranial sensory inputs. Fritzsch and colleagues labeled different axolotl sensory nerves with distinguishable dyes, identifying the central territories reached by the ear, mechanosensory lateral line and ampullary organs.",
+        "The adult organization placed inner-ear afferents more ventrally, mechanosensory lateral-line afferents above them, and ampullary projections most dorsally. **Dorsal** and **ventral** specify anatomical directions. The dye combinations provided direct anatomical comparisons between pathways within a preparation.",
+        "Spatial segregation establishes distinct central input territories, not a complete wiring diagram for behavior. A dye-labeled projection does not reveal the transmitter at every synapse or which downstream cells cause orientation. The developmental sequence provides a separate test of how the ordered arrangement emerges."
+      ],
+      "cite": "Fritzsch et al. (2005)",
+      "refs": [
+        "Fritzsch B, Gregory D, Rosa-Molinar E (2005). The development of the hindbrain afferent projections in the axolotl: evidence for timing as a specific mechanism of afferent fiber sorting. Zoology 108:297–306. https://doi.org/10.1016/j.zool.2005.08.003"
+      ],
+      "transcript": [
+        "The **hindbrain** is the posterior brain region that receives several cranial sensory inputs. Fritzsch and colleagues labeled different axolotl sensory nerves with distinguishable dyes, identifying the central territories reached by the ear, mechanosensory lateral line and ampullary organs.",
+        [
+          "The adult organization placed inner-ear afferents more ventrally, mechanosensory lateral-line afferents above them, and ampullary projections most dorsally. **Dorsal** and **ventral** specify anatomical directions. The dye combinations provided direct anatomical comparisons between pathways within a preparation.",
+          [
+            "The comparative plate includes axolotl as well as other species. The axolotl panels must remain distinguishable from the Xenopus comparison, which lacks the same complement of ampullary receptors."
+          ]
+        ],
+        "Spatial segregation establishes distinct central input territories, not a complete wiring diagram for behavior. A dye-labeled projection does not reveal the transmitter at every synapse or which downstream cells cause orientation. The developmental sequence provides a separate test of how the ordered arrangement emerges."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/f1.png",
+        "kind": "article",
+        "caption": "Fritzsch et al. (2005), Fig. 1(a–d). Published comparative dye labeling of octavolateral projections.",
+        "source_url": "https://doi.org/10.1016/j.zool.2005.08.003"
+      }
+    },
+    {
+      "title": "Central pathways appear in a developmental sequence",
+      "body": [
+        "Fritzsch and colleagues traced central sensory projections in axolotl embryos at successive stages. A **fascicle** is a bundle of nerve fibers. Comparing the bundles at matched developmental stages tested whether sensory pathways initially overlap or instead occupy distinct territories as they appear.",
+        "Trigeminal projections were detectable at stage 32, inner-ear projections at stage 34, and additional mechanosensory lateral-line bundles at stage 36. Later bundles lay more dorsally. Dye tracing preserved their entry sites and extensions within the hindbrain, rather than inferring position from peripheral receptor anatomy.",
+        "The temporal sequence is consistent with later afferents entering still-unoccupied dorsal territory. It does not establish that timing alone determines projection identity. Molecular recognition and other developmental processes remain possible contributors because the study did not experimentally exchange the arrival times of different pathways."
+      ],
+      "cite": "Fritzsch et al. (2005)",
+      "refs": [
+        "Fritzsch B, Gregory D, Rosa-Molinar E (2005). The development of the hindbrain afferent projections in the axolotl: evidence for timing as a specific mechanism of afferent fiber sorting. Zoology 108:297–306. https://doi.org/10.1016/j.zool.2005.08.003"
+      ],
+      "transcript": [
+        "Fritzsch and colleagues traced central sensory projections in axolotl embryos at successive stages. A **fascicle** is a bundle of nerve fibers. Comparing the bundles at matched developmental stages tested whether sensory pathways initially overlap or instead occupy distinct territories as they appear.",
+        [
+          "Trigeminal projections were detectable at stage 32, inner-ear projections at stage 34, and additional mechanosensory lateral-line bundles at stage 36. Later bundles lay more dorsally. Dye tracing preserved their entry sites and extensions within the hindbrain, rather than inferring position from peripheral receptor anatomy.",
+          [
+            "The trigeminal nerve carries other head sensory information and is not a lateral-line nerve. Its earlier projection provides a temporal and anatomical reference for the later octavolateral pathways."
+          ]
+        ],
+        "The temporal sequence is consistent with later afferents entering still-unoccupied dorsal territory. It does not establish that timing alone determines projection identity. Molecular recognition and other developmental processes remain possible contributors because the study did not experimentally exchange the arrival times of different pathways."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/f2.png",
+        "kind": "article",
+        "caption": "Fritzsch et al. (2005), Fig. 2(a–f). Successive central sensory projections from stages 32–36.",
+        "source_url": "https://doi.org/10.1016/j.zool.2005.08.003"
+      }
+    },
+    {
+      "title": "Electrical responsiveness emerges with later projections",
+      "body": [
+        "An anatomical pathway can develop before a complete sensory behavior is measurable. Fritzsch and colleagues combined dye tracing with preliminary responses to brief electric stimulation in developing axolotls, distinguishing early and late animals within stage 38.",
+        "Stage 37 and younger embryos lacked the tested curling response. Early stage-38 animals had mechanosensory projections but no additional traced ampullary projection; late stage-38 animals exhibited a more dorsal fiber population and responded with a lateral flexion progressing into a head-to-tail curl.",
+        "The correspondence supports coordinated peripheral and central maturation. It does not identify the exact field threshold or prove that the newly traced fibers alone generate curling. The developmental association is stronger than anatomy alone, but remains different from selectively removing the ampullary pathway and testing the response."
+      ],
+      "cite": "Fritzsch et al. (2005)",
+      "refs": [
+        "Fritzsch B, Gregory D, Rosa-Molinar E (2005). The development of the hindbrain afferent projections in the axolotl: evidence for timing as a specific mechanism of afferent fiber sorting. Zoology 108:297–306. https://doi.org/10.1016/j.zool.2005.08.003"
+      ],
+      "transcript": [
+        "An anatomical pathway can develop before a complete sensory behavior is measurable. Fritzsch and colleagues combined dye tracing with preliminary responses to brief electric stimulation in developing axolotls, distinguishing early and late animals within stage 38.",
+        [
+          "Stage 37 and younger embryos lacked the tested curling response. Early stage-38 animals had mechanosensory projections but no additional traced ampullary projection; late stage-38 animals exhibited a more dorsal fiber population and responded with a lateral flexion progressing into a head-to-tail curl.",
+          [
+            "The authors interpreted the additional dorsal fibers through their correspondence with adult organization. This is an anatomical identification supported by developmental timing, rather than direct recording of each labeled axon’s electric response."
+          ]
+        ],
+        "The correspondence supports coordinated peripheral and central maturation. It does not identify the exact field threshold or prove that the newly traced fibers alone generate curling. The developmental association is stronger than anatomy alone, but remains different from selectively removing the ampullary pathway and testing the response."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/f3.png",
+        "kind": "article",
+        "caption": "Fritzsch et al. (2005), Fig. 3(a–f). Later ampullary afferents and spatially separated hindbrain projections.",
+        "source_url": "https://doi.org/10.1016/j.zool.2005.08.003"
+      }
+    },
+    {
+      "title": "Single ampullary afferents branch within an organ",
+      "body": [
+        "Peripheral wiring limits what a nerve impulse represents. Fritzsch and colleagues filled fibers in the superficial ophthalmic branch at stage 40, when the axolotl projection pattern was more adult-like. The preparation linked individual peripheral axons to the receptor organs they supplied.",
+        "Larger neuromasts received multiple afferents, whereas an individual ampullary organ received a single branching afferent reaching its sensory cells. **Branching** allows one axon to contact more than one receptor cell. The dye fills retained these contacts and the surrounding peripheral nerve course.",
+        "This difference suggests different degrees of convergence before signals reach the brain. It does not specify how many synapses are functionally active or the electrical gain of each contact. A single afferent’s discharge reflects its connected receptor population, rather than providing separate measurements from every receptor cell."
+      ],
+      "cite": "Fritzsch et al. (2005)",
+      "refs": [
+        "Fritzsch B, Gregory D, Rosa-Molinar E (2005). The development of the hindbrain afferent projections in the axolotl: evidence for timing as a specific mechanism of afferent fiber sorting. Zoology 108:297–306. https://doi.org/10.1016/j.zool.2005.08.003"
+      ],
+      "transcript": [
+        "Peripheral wiring limits what a nerve impulse represents. Fritzsch and colleagues filled fibers in the superficial ophthalmic branch at stage 40, when the axolotl projection pattern was more adult-like. The preparation linked individual peripheral axons to the receptor organs they supplied.",
+        [
+          "Larger neuromasts received multiple afferents, whereas an individual ampullary organ received a single branching afferent reaching its sensory cells. **Branching** allows one axon to contact more than one receptor cell. The dye fills retained these contacts and the surrounding peripheral nerve course.",
+          [
+            "The traced ampullary afferent branches within a single receptor organ. A neuromast with several afferents has a different wiring organization, so equal organ counts need not imply equal numbers of outgoing sensory fibers."
+          ]
+        ],
+        "This difference suggests different degrees of convergence before signals reach the brain. It does not specify how many synapses are functionally active or the electrical gain of each contact. A single afferent’s discharge reflects its connected receptor population, rather than providing separate measurements from every receptor cell."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/f4.png",
+        "kind": "article",
+        "caption": "Fritzsch et al. (2005), Fig. 4(a–c). Adult-like projections and peripheral receptor innervation at stage 40.",
+        "source_url": "https://doi.org/10.1016/j.zool.2005.08.003"
+      }
+    },
+    {
+      "title": "Weak-field thresholds separate sensory fiber classes",
+      "body": [
+        "Münz and colleagues recorded impulses from an axolotl head lateral-line nerve while applying calibrated electric fields. A **threshold** is the smallest tested stimulus sufficient to produce the defined response. Their square pulses lasted 500 ms, allowing response changes to be compared with baseline discharge.",
+        "One class of units responded below approximately 100 µV/cm. Other units required fields above 3 mV/cm and were mechanically sensitive. The large difference separates specialized weak-field detection from activation by much stronger electrical stimulation; electric responsiveness alone is insufficient to classify a receptor.",
+        "The units came from a nerve containing multiple sensory fibers. The recordings establish peripheral electroreception but did not directly label each recorded ending. Later anatomical classifications identify ampullary organs more specifically than the historical description of small head pit organs."
+      ],
+      "cite": "Münz et al. (1982); Northcutt (1992)",
+      "refs": [
+        "Münz H, Claas B, Fritzsch B (1982). Electrophysiological evidence of electroreception in the axolotl Siredon mexicanum. Neuroscience Letters 28:107–111. https://doi.org/10.1016/0304-3940(82)90216-6",
+        "Northcutt RG (1992). Distribution and innervation of lateral line organs in the axolotl. Journal of Comparative Neurology 325:95–123. https://doi.org/10.1002/cne.903250109"
+      ],
+      "transcript": [
+        "Münz and colleagues recorded impulses from an axolotl head lateral-line nerve while applying calibrated electric fields. A **threshold** is the smallest tested stimulus sufficient to produce the defined response. Their square pulses lasted 500 ms, allowing response changes to be compared with baseline discharge.",
+        [
+          "One class of units responded below approximately 100 µV/cm. Other units required fields above 3 mV/cm and were mechanically sensitive. The large difference separates specialized weak-field detection from activation by much stronger electrical stimulation; electric responsiveness alone is insufficient to classify a receptor.",
+          [
+            "A unit is a discriminated source of spikes in the recording. The electric field is reported per unit distance in the water, unlike the total voltage imposed between tank electrodes."
+          ]
+        ],
+        "The units came from a nerve containing multiple sensory fibers. The recordings establish peripheral electroreception but did not directly label each recorded ending. Later anatomical classifications identify ampullary organs more specifically than the historical description of small head pit organs."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a12.png",
+        "kind": "article",
+        "caption": "Münz et al. (1982), Fig. 1–2. Historical receptor section and distribution of electric thresholds.",
+        "source_url": "https://doi.org/10.1016/0304-3940(82)90216-6"
+      }
+    },
+    {
+      "title": "Electric polarity changes the direction of discharge",
+      "body": [
+        "A peripheral electroreceptor can encode electric-field direction through an increase or decrease in ongoing activity. Münz and colleagues compared the same recorded unit during electric square pulses with opposite polarities, using prestimulus discharge as its reference condition.",
+        "When the electrode near the snout became negative, electrosensory discharge increased. Reversing the field reduced discharge. Responses to 500-ms pulses varied with field strength, so a change in impulse rate carried information about both stimulus polarity and magnitude within the tested range.",
+        "A decrease in firing is a sensory response rather than a failure to detect the stimulus. These nerve recordings do not identify the receptor’s membrane current or distinguish every synaptic step. They describe the output signal already transmitted through the afferent pathway."
+      ],
+      "cite": "Münz et al. (1982)",
+      "refs": [
+        "Münz H, Claas B, Fritzsch B (1982). Electrophysiological evidence of electroreception in the axolotl Siredon mexicanum. Neuroscience Letters 28:107–111. https://doi.org/10.1016/0304-3940(82)90216-6"
+      ],
+      "transcript": [
+        "A peripheral electroreceptor can encode electric-field direction through an increase or decrease in ongoing activity. Münz and colleagues compared the same recorded unit during electric square pulses with opposite polarities, using prestimulus discharge as its reference condition.",
+        [
+          "When the electrode near the snout became negative, electrosensory discharge increased. Reversing the field reduced discharge. Responses to 500-ms pulses varied with field strength, so a change in impulse rate carried information about both stimulus polarity and magnitude within the tested range.",
+          [
+            "Baseline impulses allow a stimulus to reduce activity as well as increase it. The direction of change must be interpreted relative to electrode polarity and the animal’s position, rather than called generic excitation."
+          ]
+        ],
+        "A decrease in firing is a sensory response rather than a failure to detect the stimulus. These nerve recordings do not identify the receptor’s membrane current or distinguish every synaptic step. They describe the output signal already transmitted through the afferent pathway."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a3.png",
+        "kind": "article",
+        "caption": "Münz et al. (1982), Fig. 3. Polarity-dependent spike accumulation during 500-ms electric pulses.",
+        "source_url": "https://doi.org/10.1016/0304-3940(82)90216-6"
+      }
+    },
+    {
+      "title": "Slow electric oscillations modulate afferent firing",
+      "body": [
+        "**Phase locking** means that impulses occur at a reproducible part of a repeating stimulus cycle. Münz and colleagues applied sinusoidal electric fields, smoothly alternating fields whose frequency is measured in hertz, or cycles per second, to peripheral axolotl nerve units.",
+        "Electrosensory impulses followed low-frequency stimulation from approximately 0.1 to 7 Hz. Above 7 Hz, impulses no longer accompanied every cycle, although overall activity could remain modulated up to 25 Hz. Mechanical stimulation at tested water-displacement amplitudes did not reproduce this weak-field response pattern.",
+        "The decline in cycle-by-cycle following separates timing precision from the continued detection of stimulation. The preparation establishes peripheral frequency dependence, not a behavioral preference for a particular frequency. A female’s response to a moving courtship tail also cannot be inferred from electrical tuning."
+      ],
+      "cite": "Münz et al. (1982)",
+      "refs": [
+        "Münz H, Claas B, Fritzsch B (1982). Electrophysiological evidence of electroreception in the axolotl Siredon mexicanum. Neuroscience Letters 28:107–111. https://doi.org/10.1016/0304-3940(82)90216-6"
+      ],
+      "transcript": [
+        "**Phase locking** means that impulses occur at a reproducible part of a repeating stimulus cycle. Münz and colleagues applied sinusoidal electric fields, smoothly alternating fields whose frequency is measured in hertz, or cycles per second, to peripheral axolotl nerve units.",
+        [
+          "Electrosensory impulses followed low-frequency stimulation from approximately 0.1 to 7 Hz. Above 7 Hz, impulses no longer accompanied every cycle, although overall activity could remain modulated up to 25 Hz. Mechanical stimulation at tested water-displacement amplitudes did not reproduce this weak-field response pattern.",
+          [
+            "The published examples include 0.25, 1 and 7 Hz at 160 µV/cm peak-to-peak. These values refer to electric modulation, whereas the Robotail frequencies describe physical tail movement."
+          ]
+        ],
+        "The decline in cycle-by-cycle following separates timing precision from the continued detection of stimulation. The preparation establishes peripheral frequency dependence, not a behavioral preference for a particular frequency. A female’s response to a moving courtship tail also cannot be inferred from electrical tuning."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a4.png",
+        "kind": "article",
+        "caption": "Münz et al. (1982), Fig. 4. Spike trains during sinusoidal electric stimulation at several frequencies.",
+        "source_url": "https://doi.org/10.1016/0304-3940(82)90216-6"
+      }
+    },
+    {
+      "title": "Juveniles increase movement under a tested electric field",
+      "body": [
+        "Wang and colleagues tested freely moving 3-month axolotls in a tank containing a dipole electrode pair, two nearby electrodes generating a spatially varying electric field. Opaque barriers limited visual cues, and trials without stimulation provided the basal behavioral comparison.",
+        "With an applied electrode voltage of 2 V at 5 Hz, juveniles traveled farther and occupied a broader region than during basal trials. Their mean distance from the electrode pair did not show the corresponding directional reduction observed in the adult comparison.",
+        "Increased locomotion establishes an electric-stimulation-associated behavioral change under these conditions. It does not by itself establish attraction to the source. Total path length and position relative to the electrodes answer different questions, and electrode voltage is not the field strength at the animal’s receptor surface."
+      ],
+      "cite": "Wang et al. (2026)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "Wang and colleagues tested freely moving 3-month axolotls in a tank containing a dipole electrode pair, two nearby electrodes generating a spatially varying electric field. Opaque barriers limited visual cues, and trials without stimulation provided the basal behavioral comparison.",
+        [
+          "With an applied electrode voltage of 2 V at 5 Hz, juveniles traveled farther and occupied a broader region than during basal trials. Their mean distance from the electrode pair did not show the corresponding directional reduction observed in the adult comparison.",
+          [
+            "The occupancy heat maps summarize where animals spent time; the reported path-length and radius measures distinguish extra movement from movement toward the source. Neither measure is a direct sensory threshold."
+          ]
+        ],
+        "Increased locomotion establishes an electric-stimulation-associated behavioral change under these conditions. It does not by itself establish attraction to the source. Total path length and position relative to the electrodes answer different questions, and electrode voltage is not the field strength at the animal’s receptor surface."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w5b.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 5(B). Juvenile occupancy maps and locomotor measures before and after stimulation.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Adults move closer to the electric source",
+      "body": [
+        "**Electrotaxis** is directional movement in relation to an electric field. Wang and colleagues compared basal behavior with electric stimulation in 12-month axolotls, using the same positional measurements applied to juveniles. The adult test included a 1-V, 10-Hz electrode stimulus.",
+        "Adults increased total travel distance and reduced their average distance from the electrode pair. The combination indicates more locomotion together with movement toward the region of stronger field. It differs from the juvenile 2-V, 5-Hz condition, which primarily increased locomotion without a detected decrease in radius.",
+        "The comparison does not isolate age as the sole causal factor because stimulus parameters also differed. It supports source-directed behavior in the adult preparation, rather than a universal developmental rule or evidence that natural courtship involves electric-field attraction."
+      ],
+      "cite": "Wang et al. (2026)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "**Electrotaxis** is directional movement in relation to an electric field. Wang and colleagues compared basal behavior with electric stimulation in 12-month axolotls, using the same positional measurements applied to juveniles. The adult test included a 1-V, 10-Hz electrode stimulus.",
+        [
+          "Adults increased total travel distance and reduced their average distance from the electrode pair. The combination indicates more locomotion together with movement toward the region of stronger field. It differs from the juvenile 2-V, 5-Hz condition, which primarily increased locomotion without a detected decrease in radius.",
+          [
+            "The study reports both greater movement and a smaller radius in adults. The radius is the animal’s distance to the electrode region, not the radius of an electrical receptive field."
+          ]
+        ],
+        "The comparison does not isolate age as the sole causal factor because stimulus parameters also differed. It supports source-directed behavior in the adult preparation, rather than a universal developmental rule or evidence that natural courtship involves electric-field attraction."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w5c.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 5(C). Adult occupancy maps, path length and distance to the electrode source.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Electrode voltage is not a receptor threshold",
+      "body": [
+        "An **electric-field gradient** describes spatial variation in voltage per unit distance. A generator voltage specifies the difference across electrodes; the field at an axolotl depends on electrode geometry, water conductivity and the animal’s position. These quantities have different units and meanings.",
+        "Wang and colleagues calibrated the tank field with recording electrodes separated by 1 cm. Field intensity declined with distance from the stimulating pair. Their 5-Hz juvenile and 10-Hz adult assays tracked movement through this nonuniform environment rather than holding receptor stimulation constant.",
+        "The 2-V behavioral condition cannot be numerically equated with the approximately 100-µV/cm peripheral thresholds in the earlier nerve study. A controlled threshold requires a known field at the receptor and a defined response criterion; free movement changes both stimulus exposure and behavioral measurement."
+      ],
+      "cite": "Wang et al. (2026); Münz et al. (1982)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051",
+        "Münz H, Claas B, Fritzsch B (1982). Electrophysiological evidence of electroreception in the axolotl Siredon mexicanum. Neuroscience Letters 28:107–111. https://doi.org/10.1016/0304-3940(82)90216-6"
+      ],
+      "transcript": [
+        "An **electric-field gradient** describes spatial variation in voltage per unit distance. A generator voltage specifies the difference across electrodes; the field at an axolotl depends on electrode geometry, water conductivity and the animal’s position. These quantities have different units and meanings.",
+        [
+          "Wang and colleagues calibrated the tank field with recording electrodes separated by 1 cm. Field intensity declined with distance from the stimulating pair. Their 5-Hz juvenile and 10-Hz adult assays tracked movement through this nonuniform environment rather than holding receptor stimulation constant.",
+          [
+            "A whole-tank voltage can produce markedly different local fields at different positions. The animals are allowed to move, which is essential for the behavioral assay but prevents treating applied voltage as a uniform dose."
+          ]
+        ],
+        "The 2-V behavioral condition cannot be numerically equated with the approximately 100-µV/cm peripheral thresholds in the earlier nerve study. A controlled threshold requires a known field at the receptor and a defined response criterion; free movement changes both stimulus exposure and behavioral measurement."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w5b.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 5(B). Spatial occupancy during the juvenile dipole-field behavioral test.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Regional transcriptomes remain mixtures of cell types",
+      "body": [
+        "A **transcriptome** is the set of RNA transcripts recovered from a tissue. Wang and colleagues compared head skin containing ampullary organs and neuromasts, trunk skin containing neuromasts, and fin tissue without the sampled lateral-line receptors. These were regional tissue preparations rather than isolated receptor cells.",
+        "**Principal-component analysis** summarizes major patterns of variation across measured genes. The three tissue groups separated in the reported analysis, indicating systematic differences in their RNA profiles. Matched processing and biological replication supported the reproducibility of this regional contrast.",
+        "Separation does not identify the cell type responsible for a particular transcript. Skin regions differ in many components besides sensory receptors. An ampullary-enriched candidate therefore requires cellular localization or functional recording before its expression can be assigned specifically to electric transduction."
+      ],
+      "cite": "Wang et al. (2026)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "A **transcriptome** is the set of RNA transcripts recovered from a tissue. Wang and colleagues compared head skin containing ampullary organs and neuromasts, trunk skin containing neuromasts, and fin tissue without the sampled lateral-line receptors. These were regional tissue preparations rather than isolated receptor cells.",
+        [
+          "**Principal-component analysis** summarizes major patterns of variation across measured genes. The three tissue groups separated in the reported analysis, indicating systematic differences in their RNA profiles. Matched processing and biological replication supported the reproducibility of this regional contrast.",
+          [
+            "The head sample is labeled AO+NM because it contains both organ types. Subtracting a trunk sample conceptually narrows a candidate set but does not purify ampullary cells or eliminate other regional tissue differences."
+          ]
+        ],
+        "Separation does not identify the cell type responsible for a particular transcript. Skin regions differ in many components besides sensory receptors. An ampullary-enriched candidate therefore requires cellular localization or functional recording before its expression can be assigned specifically to electric transduction."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w3bfinal.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 3(B). Principal-component separation of mixed head, trunk and fin tissues.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Receptor-associated genes enrich sensory skin regions",
+      "body": [
+        "A **marker gene** is a gene whose expression helps identify a tissue or cell population. Wang and colleagues measured previously reported sensory-associated genes across head skin, trunk skin and fin. Their marker panel included Eya4 and genes associated with receptor development or synaptic function.",
+        "The published heat map represents relative expression within each gene, with head and trunk receptor-containing tissues generally differing from fin. Some genes were especially enriched in head skin, while others favored neuromast-containing trunk tissue. This patterned distribution is more specific than an overall RNA abundance difference.",
+        "A marker panel supports the presence of sensory tissue in the preparation. It does not establish that every enriched gene is an electroreceptor transduction molecule. The head sample includes neuromasts, ampullary organs and nonsensory cells, so physiological attribution remains a separate problem."
+      ],
+      "cite": "Wang et al. (2026); Modrell & Baker (2012)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051",
+        "Modrell MS, Baker CVH (2012). Evolution of electrosensory ampullary organs: conservation of Eya4 expression during lateral line development in jawed vertebrates. Evolution & Development 14:277–285. https://doi.org/10.1111/j.1525-142X.2012.00544.x"
+      ],
+      "transcript": [
+        "A **marker gene** is a gene whose expression helps identify a tissue or cell population. Wang and colleagues measured previously reported sensory-associated genes across head skin, trunk skin and fin. Their marker panel included Eya4 and genes associated with receptor development or synaptic function.",
+        [
+          "The published heat map represents relative expression within each gene, with head and trunk receptor-containing tissues generally differing from fin. Some genes were especially enriched in head skin, while others favored neuromast-containing trunk tissue. This patterned distribution is more specific than an overall RNA abundance difference.",
+          [
+            "A row-normalized heat map compares tissues for a single gene. Its color scale must not be interpreted as an absolute comparison of transcript number between unrelated genes."
+          ]
+        ],
+        "A marker panel supports the presence of sensory tissue in the preparation. It does not establish that every enriched gene is an electroreceptor transduction molecule. The head sample includes neuromasts, ampullary organs and nonsensory cells, so physiological attribution remains a separate problem."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w3c.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 3(C). Relative expression of sensory-receptor-associated markers across tissue groups.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Vesicular glutamate machinery is a synaptic candidate",
+      "body": [
+        "**Glutamate** is a neurotransmitter, a chemical used in communication between cells. The gene **Slc17a8** encodes VGLUT3, a transporter that packages glutamate into synaptic vesicles. A **vesicle** is a membrane-bound compartment that can release its contents at a synapse.",
+        "Wang and colleagues found Slc17a8 enrichment in receptor-containing tissues and checked selected marker differences using **quantitative PCR**, a method estimating the abundance of selected RNA-derived sequences. Head skin had particularly high expression of Slc17a8 within the reported regional comparison.",
+        "The finding is consistent with glutamatergic machinery in sensory tissue, but does not directly measure transmitter release. It also does not identify the postsynaptic glutamate receptor or its current. Assigning a specific receptor-to-afferent synapse requires cell-resolved localization and physiological tests beyond tissue RNA."
+      ],
+      "cite": "Wang et al. (2026)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "**Glutamate** is a neurotransmitter, a chemical used in communication between cells. The gene **Slc17a8** encodes VGLUT3, a transporter that packages glutamate into synaptic vesicles. A **vesicle** is a membrane-bound compartment that can release its contents at a synapse.",
+        [
+          "Wang and colleagues found Slc17a8 enrichment in receptor-containing tissues and checked selected marker differences using **quantitative PCR**, a method estimating the abundance of selected RNA-derived sequences. Head skin had particularly high expression of Slc17a8 within the reported regional comparison.",
+          [
+            "VGLUT3 transports glutamate into vesicles; it is not the ion channel opened by glutamate on a receiving cell. The paper supplies a candidate presynaptic component without a complete synaptic mechanism."
+          ]
+        ],
+        "The finding is consistent with glutamatergic machinery in sensory tissue, but does not directly measure transmitter release. It also does not identify the postsynaptic glutamate receptor or its current. Assigning a specific receptor-to-afferent synapse requires cell-resolved localization and physiological tests beyond tissue RNA."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/w3d.png",
+          "kind": "article",
+          "caption": "Wang et al. (2026), Fig. 3(D). PCR validation of selected receptor-associated transcripts.",
+          "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+        },
+        {
+          "path": "figures/w2ao.png",
+          "kind": "article",
+          "caption": "Wang et al. (2026), Fig. 2(B,E). Ampullary receptor-cell anatomy corresponding to the sensory region.",
+          "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+        }
+      ],
+      "primary_figure_height": 3.0
+    },
+    {
+      "title": "Kv transcripts nominate membrane mechanisms",
+      "body": [
+        "A **voltage-gated potassium channel**, abbreviated Kv, changes its probability of opening with membrane voltage and permits potassium-ion movement. Such channels can shape the electrical response of a cell. Identifying a channel transcript is therefore relevant to excitability, but is not itself a recording of channel activity.",
+        "Wang and colleagues compared potassium-channel-related gene expression across mixed head, trunk and fin tissues. Several Kv-associated transcripts were enriched in the head sample. Kcna5, encoding the Kv1.5 channel, was particularly elevated relative to the other sampled regions.",
+        "These findings nominate molecular candidates for electroreceptor physiology. They do not prove that Kv1.5 produces electric sensitivity or that its current has a specific magnitude in an ampullary cell. The mixed-tissue assay cannot exclude contributions from neighboring cells or other excitable structures."
+      ],
+      "cite": "Wang et al. (2026)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "A **voltage-gated potassium channel**, abbreviated Kv, changes its probability of opening with membrane voltage and permits potassium-ion movement. Such channels can shape the electrical response of a cell. Identifying a channel transcript is therefore relevant to excitability, but is not itself a recording of channel activity.",
+        [
+          "Wang and colleagues compared potassium-channel-related gene expression across mixed head, trunk and fin tissues. Several Kv-associated transcripts were enriched in the head sample. Kcna5, encoding the Kv1.5 channel, was particularly elevated relative to the other sampled regions.",
+          [
+            "Potassium-channel alpha subunits and auxiliary subunits are different molecular categories. The present claim is confined to Kcna5/Kv1.5 and the reported tissue enrichment, without equating similarly named genes with identical channel types."
+          ]
+        ],
+        "These findings nominate molecular candidates for electroreceptor physiology. They do not prove that Kv1.5 produces electric sensitivity or that its current has a specific magnitude in an ampullary cell. The mixed-tissue assay cannot exclude contributions from neighboring cells or other excitable structures."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/w4bfinal.png",
+          "kind": "article",
+          "caption": "Wang et al. (2026), Fig. 4(B). Relative potassium-channel transcript expression across sensory and control regions.",
+          "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+        },
+        {
+          "path": "figures/w2ao.png",
+          "kind": "article",
+          "caption": "Wang et al. (2026), Fig. 2(B,E). Ampullary organ sections.",
+          "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+        }
+      ],
+      "primary_figure_height": 3.0
+    },
+    {
+      "title": "Broad potassium-channel inhibition changes behavior",
+      "body": [
+        "**4-Aminopyridine**, or 4-AP, inhibits multiple voltage-gated potassium channels. Wang and colleagues immersed juvenile axolotls in 100 µM 4-AP for 30 min, then tested their behavior in fresh water. The comparison used basal and electric-stimulation trials rather than assuming that the drug itself was a sensory stimulus.",
+        "Untreated juveniles increased path length during the 2-V, 5-Hz stimulus. The corresponding increase was absent after 4-AP exposure. Position maps and movement measurements therefore linked a broad channel intervention to the electrically evoked locomotor effect.",
+        "The intervention supports a potassium-channel contribution somewhere in the tested pathway. Whole-animal exposure cannot localize the effect to ampullary cells or select Kv1.5 alone. Changes in peripheral, central or motor excitability remain alternatives even when baseline behavior appears broadly preserved."
+      ],
+      "cite": "Wang et al. (2026)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "**4-Aminopyridine**, or 4-AP, inhibits multiple voltage-gated potassium channels. Wang and colleagues immersed juvenile axolotls in 100 µM 4-AP for 30 min, then tested their behavior in fresh water. The comparison used basal and electric-stimulation trials rather than assuming that the drug itself was a sensory stimulus.",
+        [
+          "Untreated juveniles increased path length during the 2-V, 5-Hz stimulus. The corresponding increase was absent after 4-AP exposure. Position maps and movement measurements therefore linked a broad channel intervention to the electrically evoked locomotor effect.",
+          [
+            "The units µM specify bath concentration, not a measured concentration at a receptor membrane. The manipulation acts across accessible tissues, so its anatomical scope is broader than the proposed sensory mechanism."
+          ]
+        ],
+        "The intervention supports a potassium-channel contribution somewhere in the tested pathway. Whole-animal exposure cannot localize the effect to ampullary cells or select Kv1.5 alone. Changes in peripheral, central or motor excitability remain alternatives even when baseline behavior appears broadly preserved."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w5b.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 5(B). Juvenile behavioral responses with and without 100-µM 4-AP.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Baseline behavior constrains drug interpretations",
+      "body": [
+        "A pharmacological effect on sensory behavior can reflect impaired detection, altered processing or a general motor deficit. Wang and colleagues tested adult axolotls after 30-min exposure to 200 µM 4-AP, comparing their electric-stimulation responses with untreated adults and basal behavior.",
+        "After treatment, the 1-V, 10-Hz stimulus no longer produced the detected increase in path length or reduction in distance to the electrode source. The authors reported no obvious changes in basic physiological activity, survival or feeding under the tested exposure conditions.",
+        "Those observations argue against gross incapacitation, but do not establish complete motor equivalence or receptor-specific inhibition. A selective ampullary intervention and direct receptor recording would be required to assign the behavioral effect to one channel subtype at one cellular site."
+      ],
+      "cite": "Wang et al. (2026)",
+      "refs": [
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "A pharmacological effect on sensory behavior can reflect impaired detection, altered processing or a general motor deficit. Wang and colleagues tested adult axolotls after 30-min exposure to 200 µM 4-AP, comparing their electric-stimulation responses with untreated adults and basal behavior.",
+        [
+          "After treatment, the 1-V, 10-Hz stimulus no longer produced the detected increase in path length or reduction in distance to the electrode source. The authors reported no obvious changes in basic physiological activity, survival or feeding under the tested exposure conditions.",
+          [
+            "Preserved feeding is a useful broad comparison behavior, but it is not a measurement of every movement used in source approach. Behavioral selectivity and molecular selectivity must therefore remain distinct claims."
+          ]
+        ],
+        "Those observations argue against gross incapacitation, but do not establish complete motor equivalence or receptor-specific inhibition. A selective ampullary intervention and direct receptor recording would be required to assign the behavioral effect to one channel subtype at one cellular site."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/w5c.png",
+        "kind": "article",
+        "caption": "Wang et al. (2026), Fig. 5(C). Adult stimulation responses before and after 200-µM 4-AP exposure.",
+        "source_url": "https://doi.org/10.1016/j.cbpa.2026.112051"
+      }
+    },
+    {
+      "title": "Midbrain units receive more than one sensory modality",
+      "body": [
+        "The **optic tectum** is a midbrain structure receiving sensory information relevant to spatial behavior. Bartels and colleagues recorded axolotl units during mechanical water displacement, weak electric fields, visual stimulation and acoustic or vibrational stimulation. Electrode positions were verified with anatomical measurements and histology.",
+        "Many units responded to more than one modality, while other units responded to only one tested stimulus category. **Multimodal** means responsive to multiple kinds of sensory input; it does not imply that all inputs have identical sensitivity or identical response timing.",
+        "Convergence provides a physiological substrate for comparing aquatic cues. It does not demonstrate that every responsive unit controls prey capture or courtship. The recording identifies sensory access to a central population, rather than a complete causal chain from a particular natural signal to an action."
+      ],
+      "cite": "Bartels et al. (1990)",
+      "refs": [
+        "Bartels M, Münz H, Claas B (1990). Representation of lateral line and electrosensory systems in the midbrain of the axolotl, Ambystoma mexicanum. Journal of Comparative Physiology A 167:347–356. https://doi.org/10.1007/BF00192570"
+      ],
+      "transcript": [
+        "The **optic tectum** is a midbrain structure receiving sensory information relevant to spatial behavior. Bartels and colleagues recorded axolotl units during mechanical water displacement, weak electric fields, visual stimulation and acoustic or vibrational stimulation. Electrode positions were verified with anatomical measurements and histology.",
+        [
+          "Many units responded to more than one modality, while other units responded to only one tested stimulus category. **Multimodal** means responsive to multiple kinds of sensory input; it does not imply that all inputs have identical sensitivity or identical response timing.",
+          [
+            "The tectal histology supplies the anatomical identity of the recording region. A behavioral role cannot be assigned merely because this region receives several inputs; the study did not selectively remove a courtship circuit."
+          ]
+        ],
+        "Convergence provides a physiological substrate for comparing aquatic cues. It does not demonstrate that every responsive unit controls prey capture or courtship. The recording identifies sensory access to a central population, rather than a complete causal chain from a particular natural signal to an action."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/b2.png",
+          "kind": "article",
+          "caption": "Bartels et al. (1990), Fig. 2. Histological localization of a tectal recording position.",
+          "source_url": "https://doi.org/10.1007/BF00192570"
+        },
+        {
+          "path": "figures/b5.png",
+          "kind": "article",
+          "caption": "Bartels et al. (1990), Fig. 5. Directional responses to water-surface and electric stimulation.",
+          "source_url": "https://doi.org/10.1007/BF00192570"
+        }
+      ],
+      "primary_figure_height": 3.0
+    },
+    {
+      "title": "Different modalities reach units with different latencies",
+      "body": [
+        "**Response latency** is the interval between stimulus onset and the measured neuronal response. Bartels and colleagues compared axolotl midbrain responses to several sensory modalities while maintaining defined stimulation and recording conditions. The comparison separates rapid access to a unit from the total strength of its response.",
+        "The shortest visual latencies were approximately 8–17 ms. Lateral-line and vestibular responses occurred after approximately 35–58 ms, while electrosensory responses occurred after approximately 79–150 ms. **Vestibular** inputs concern the inner-ear system associated with bodily movement and orientation.",
+        "These preparation-specific ranges indicate unequal response timing. They do not measure behavioral reaction time or the number of synapses in each pathway. Differences in receptor dynamics, stimulus delivery and central processing can all contribute, so latency alone cannot reconstruct the intervening circuit."
+      ],
+      "cite": "Bartels et al. (1990)",
+      "refs": [
+        "Bartels M, Münz H, Claas B (1990). Representation of lateral line and electrosensory systems in the midbrain of the axolotl, Ambystoma mexicanum. Journal of Comparative Physiology A 167:347–356. https://doi.org/10.1007/BF00192570"
+      ],
+      "transcript": [
+        "**Response latency** is the interval between stimulus onset and the measured neuronal response. Bartels and colleagues compared axolotl midbrain responses to several sensory modalities while maintaining defined stimulation and recording conditions. The comparison separates rapid access to a unit from the total strength of its response.",
+        [
+          "The shortest visual latencies were approximately 8–17 ms. Lateral-line and vestibular responses occurred after approximately 35–58 ms, while electrosensory responses occurred after approximately 79–150 ms. **Vestibular** inputs concern the inner-ear system associated with bodily movement and orientation.",
+          [
+            "A longer response latency need not imply weaker detection. The source reports timing of central unit responses, not the time required for the whole animal to execute an orienting movement."
+          ]
+        ],
+        "These preparation-specific ranges indicate unequal response timing. They do not measure behavioral reaction time or the number of synapses in each pathway. Differences in receptor dynamics, stimulus delivery and central processing can all contribute, so latency alone cannot reconstruct the intervening circuit."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/b2.png",
+          "kind": "article",
+          "caption": "Bartels et al. (1990), Fig. 2. Recorded midbrain region verified histologically.",
+          "source_url": "https://doi.org/10.1007/BF00192570"
+        },
+        {
+          "path": "figures/b8.png",
+          "kind": "article",
+          "caption": "Bartels et al. (1990), Fig. 8. Relation between stimulus direction and tectal recording position.",
+          "source_url": "https://doi.org/10.1007/BF00192570"
+        }
+      ],
+      "primary_figure_height": 3.0
+    },
+    {
+      "title": "Spatial maps overlap incompletely across modalities",
+      "body": [
+        "A **topographic map** preserves a systematic relationship between stimulus position and neuronal position. Bartels and colleagues varied the direction of water-surface and electric-field stimulation while recording at different locations in the axolotl tectum. Histological verification connected response properties to the sampled anatomy.",
+        "Electrical units and many mechanical units were direction-selective, responding preferentially to particular stimulus directions. Each tectal hemisphere represented the opposite side of surrounding space. The electrosensory, mechanosensory and visual maps aligned only partly, with poorer correspondence in caudal regions.",
+        "Partial registration permits spatial convergence without establishing a single perfectly matched coordinate system. The maps do not specify how conflicting cues are resolved during natural behavior. Direction-selective activity is a measurable neural property, while cue selection and motor guidance require additional behavioral and circuit tests."
+      ],
+      "cite": "Bartels et al. (1990)",
+      "refs": [
+        "Bartels M, Münz H, Claas B (1990). Representation of lateral line and electrosensory systems in the midbrain of the axolotl, Ambystoma mexicanum. Journal of Comparative Physiology A 167:347–356. https://doi.org/10.1007/BF00192570"
+      ],
+      "transcript": [
+        "A **topographic map** preserves a systematic relationship between stimulus position and neuronal position. Bartels and colleagues varied the direction of water-surface and electric-field stimulation while recording at different locations in the axolotl tectum. Histological verification connected response properties to the sampled anatomy.",
+        [
+          "Electrical units and many mechanical units were direction-selective, responding preferentially to particular stimulus directions. Each tectal hemisphere represented the opposite side of surrounding space. The electrosensory, mechanosensory and visual maps aligned only partly, with poorer correspondence in caudal regions.",
+          [
+            "Contralateral representation means that one tectal hemisphere receives information about the opposite side. Imperfect alignment is an empirical property of the measured maps, not an error to be repaired by redrawing them."
+          ]
+        ],
+        "Partial registration permits spatial convergence without establishing a single perfectly matched coordinate system. The maps do not specify how conflicting cues are resolved during natural behavior. Direction-selective activity is a measurable neural property, while cue selection and motor guidance require additional behavioral and circuit tests."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/b2.png",
+          "kind": "article",
+          "caption": "Bartels et al. (1990), Fig. 2. Histological tectal localization.",
+          "source_url": "https://doi.org/10.1007/BF00192570"
+        },
+        {
+          "path": "figures/b6.png",
+          "kind": "article",
+          "caption": "Bartels et al. (1990), Fig. 7(a–d). Published sensory-map locations and directional organization.",
+          "source_url": "https://doi.org/10.1007/BF00192570"
+        }
+      ],
+      "primary_figure_height": 3.0
+    },
+    {
+      "title": "Efferent fibers carry signals back toward sensory organs",
+      "body": [
+        "An **efferent** carries signals away from the central nervous system toward peripheral targets. Münz and Claas recorded lateral-line efferents in head and trunk nerve branches, separating these outgoing fibers from sensory afferents. They analyzed baseline discharge and responses to controlled stimulation.",
+        "Individual efferents discharged irregularly, and bursting was common. **Bursting** means groups of impulses separated by quieter intervals. Units within the same nerve branch differed in their baseline patterns, so the peripheral pathway did not receive one uniform ongoing command.",
+        "The recordings establish active central feedback to the lateral-line periphery. They do not directly measure the effect at a receptor synapse or identify its transmitter and receptor molecules. A discharge pattern in an outgoing axon must be distinguished from the resulting change in sensory-cell gain."
+      ],
+      "cite": "Münz & Claas (1991)",
+      "refs": [
+        "Münz H, Claas B (1991). Activity of lateral line efferents in the axolotl (Ambystoma mexicanum). Journal of Comparative Physiology A 169:461–469. https://doi.org/10.1007/BF00197658"
+      ],
+      "transcript": [
+        "An **efferent** carries signals away from the central nervous system toward peripheral targets. Münz and Claas recorded lateral-line efferents in head and trunk nerve branches, separating these outgoing fibers from sensory afferents. They analyzed baseline discharge and responses to controlled stimulation.",
+        [
+          "Individual efferents discharged irregularly, and bursting was common. **Bursting** means groups of impulses separated by quieter intervals. Units within the same nerve branch differed in their baseline patterns, so the peripheral pathway did not receive one uniform ongoing command.",
+          [
+            "An afferent recording measures outgoing sensory information from an organ; an efferent recording measures central input directed back toward it. The terminology refers to signal direction, not simply whether firing increases or decreases."
+          ]
+        ],
+        "The recordings establish active central feedback to the lateral-line periphery. They do not directly measure the effect at a receptor synapse or identify its transmitter and receptor molecules. A discharge pattern in an outgoing axon must be distinguished from the resulting change in sensory-cell gain."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/e3.png",
+        "kind": "article",
+        "caption": "Münz & Claas (1991), Fig. 3. Irregular baseline efferent firing with associated rate changes.",
+        "source_url": "https://doi.org/10.1007/BF00197658"
+      }
+    },
+    {
+      "title": "Movement coincides with recruitment of efferent activity",
+      "body": [
+        "An animal’s movement produces water disturbances that can stimulate its own lateral line. **Reafference** is sensory input generated by the animal’s own action. Münz and Claas examined whether lateral-line efferent activity changed during axolotl movements in their recording preparation.",
+        "Movements were accompanied by recruitment of additional efferent units and altered discharge patterns. The authors monitored movement alongside nerve impulses, retaining the timing relationship rather than inferring motor association from baseline activity alone. Multiple units could participate within a single peripheral branch.",
+        "This association is compatible with regulation of self-generated sensory input. It does not prove subtraction of reafference, nor identify a motor-command copy at a particular synapse. Directly measuring afferent consequences during controlled efferent manipulation would be required to establish that specific computational mechanism."
+      ],
+      "cite": "Münz & Claas (1991)",
+      "refs": [
+        "Münz H, Claas B (1991). Activity of lateral line efferents in the axolotl (Ambystoma mexicanum). Journal of Comparative Physiology A 169:461–469. https://doi.org/10.1007/BF00197658"
+      ],
+      "transcript": [
+        "An animal’s movement produces water disturbances that can stimulate its own lateral line. **Reafference** is sensory input generated by the animal’s own action. Münz and Claas examined whether lateral-line efferent activity changed during axolotl movements in their recording preparation.",
+        [
+          "Movements were accompanied by recruitment of additional efferent units and altered discharge patterns. The authors monitored movement alongside nerve impulses, retaining the timing relationship rather than inferring motor association from baseline activity alone. Multiple units could participate within a single peripheral branch.",
+          [
+            "A motor-associated efferent signal could change sensitivity without fully canceling sensory feedback. The present experiment establishes temporal association with movement, while the proposed suppression mechanism requires a different measurement."
+          ]
+        ],
+        "This association is compatible with regulation of self-generated sensory input. It does not prove subtraction of reafference, nor identify a motor-command copy at a particular synapse. Directly measuring afferent consequences during controlled efferent manipulation would be required to establish that specific computational mechanism."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/e8.png",
+        "kind": "article",
+        "caption": "Münz & Claas (1991), Fig. 10. Movement-related efferent discharge and monitored movement.",
+        "source_url": "https://doi.org/10.1007/BF00197658"
+      }
+    },
+    {
+      "title": "Several sensory inputs modulate central feedback",
+      "body": [
+        "Münz and Claas stimulated different sensory systems while recording axolotl lateral-line efferents. Visual, labyrinthine, somatosensory and mechanical lateral-line stimulation could change outgoing activity. **Somatosensory** input concerns bodily touch or related stimulation; labyrinthine input arises from inner-ear sensory structures.",
+        "Visual stimulation could produce strong changes when illumination was switched on or off. By contrast, tested electrosensory stimulation did not alter efferent firing. Comparing modalities within the preparation limits the assumption that every detected environmental event automatically recruits the same feedback pathway.",
+        "The results support selective sensory access to efferent control. A null response under tested electric conditions does not exclude every possible electric influence. Neither the visual nor mechanical effects identify the neurotransmitter responsible at the peripheral target, which was not assayed in these recordings."
+      ],
+      "cite": "Münz & Claas (1991)",
+      "refs": [
+        "Münz H, Claas B (1991). Activity of lateral line efferents in the axolotl (Ambystoma mexicanum). Journal of Comparative Physiology A 169:461–469. https://doi.org/10.1007/BF00197658"
+      ],
+      "transcript": [
+        "Münz and Claas stimulated different sensory systems while recording axolotl lateral-line efferents. Visual, labyrinthine, somatosensory and mechanical lateral-line stimulation could change outgoing activity. **Somatosensory** input concerns bodily touch or related stimulation; labyrinthine input arises from inner-ear sensory structures.",
+        [
+          "Visual stimulation could produce strong changes when illumination was switched on or off. By contrast, tested electrosensory stimulation did not alter efferent firing. Comparing modalities within the preparation limits the assumption that every detected environmental event automatically recruits the same feedback pathway.",
+          [
+            "The distinction between mechanical and electrical access is especially relevant because both receptor systems are present in the animal. Sharing an aquatic environment does not require identical central feedback organization."
+          ]
+        ],
+        "The results support selective sensory access to efferent control. A null response under tested electric conditions does not exclude every possible electric influence. Neither the visual nor mechanical effects identify the neurotransmitter responsible at the peripheral target, which was not assayed in these recordings."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/e9.png",
+        "kind": "article",
+        "caption": "Münz & Claas (1991), Fig. 9. Efferent discharge during changes in optical stimulation.",
+        "source_url": "https://doi.org/10.1007/BF00197658"
+      }
+    },
+    {
+      "title": "Lesions separate distributed inputs from local pathways",
+      "body": [
+        "A **lesion** is a localized interruption or removal of neural tissue. Münz and Claas made lesions at different central levels while monitoring axolotl efferent activity. This approach tested which regions were required for particular inputs to continue reaching the outgoing lateral-line pathway.",
+        "Baseline activity depended on inputs distributed across multiple brain levels, extending to the diencephalon. Mechanosensory input could be mediated at the medullary level, a hindbrain region. Individual efferent fibers also supplied different peripheral fields and conducted impulses at approximately 5–12 m/s.",
+        "Retained activity after a lesion establishes that the remaining tissue can support the measured response. It does not identify every neuron within that tissue or exclude compensation within the preparation. The results define pathway constraints without supplying a molecular account of efferent action at hair cells."
+      ],
+      "cite": "Münz & Claas (1991)",
+      "refs": [
+        "Münz H, Claas B (1991). Activity of lateral line efferents in the axolotl (Ambystoma mexicanum). Journal of Comparative Physiology A 169:461–469. https://doi.org/10.1007/BF00197658"
+      ],
+      "transcript": [
+        "A **lesion** is a localized interruption or removal of neural tissue. Münz and Claas made lesions at different central levels while monitoring axolotl efferent activity. This approach tested which regions were required for particular inputs to continue reaching the outgoing lateral-line pathway.",
+        [
+          "Baseline activity depended on inputs distributed across multiple brain levels, extending to the diencephalon. Mechanosensory input could be mediated at the medullary level, a hindbrain region. Individual efferent fibers also supplied different peripheral fields and conducted impulses at approximately 5–12 m/s.",
+          [
+            "Conduction velocity describes propagation along the axon, whereas response latency also includes receptor and central processing. Those measurements must not be treated as interchangeable descriptions of the feedback circuit."
+          ]
+        ],
+        "Retained activity after a lesion establishes that the remaining tissue can support the measured response. It does not identify every neuron within that tissue or exclude compensation within the preparation. The results define pathway constraints without supplying a molecular account of efferent action at hair cells."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/e10.png",
+          "kind": "article",
+          "caption": "Münz & Claas (1991), Fig. 11. Mechanosensory efferent responses before and after central lesions.",
+          "source_url": "https://doi.org/10.1007/BF00197658"
+        },
+        {
+          "path": "figures/f1.png",
+          "kind": "article",
+          "caption": "Fritzsch et al. (2005), Fig. 1(a–d). Comparative anatomy of sensory hindbrain projections.",
+          "source_url": "https://doi.org/10.1016/j.zool.2005.08.003"
+        }
+      ],
+      "primary_figure_height": 3.0
+    },
+    {
+      "title": "A physical Robotail isolates courtship motion parameters",
+      "body": [
+        "Rupp and colleagues constructed a **Robotail**, a physical model driven to reproduce male axolotl tail movements. The model separated sweep angle, elevation and movement speed, variables that naturally change together during courtship. This study is a 2026 preprint and has not been peer reviewed.",
+        "Behavioral tests included sweeps of 10°, 30° and 90° and speeds of 0.5, 1.0 and 1.5 Hz, with elevation varied separately. The apparatus used a tail shape derived from measured animals rather than treating every water disturbance as an equivalent courtship signal.",
+        "The manipulation provides control over physical movement while retaining a simplified sender. It does not reproduce all cues of a live male or establish that females recognize the model as a conspecific. Behavioral responses must therefore be interpreted with the chemical context and the measured response category specified."
+      ],
+      "cite": "Rupp et al. (2026), preprint",
+      "refs": [
+        "Rupp TM, McGuire JM, Eisthen HL (2026). Mechanosensory Signaling in Axolotl Courtship and Evolution of Communication. bioRxiv, version 1 posted April 14, 2026. PREPRINT: not peer reviewed. https://doi.org/10.64898/2026.04.13.718269"
+      ],
+      "transcript": [
+        "Rupp and colleagues constructed a **Robotail**, a physical model driven to reproduce male axolotl tail movements. The model separated sweep angle, elevation and movement speed, variables that naturally change together during courtship. This study is a 2026 preprint and has not been peer reviewed.",
+        [
+          "Behavioral tests included sweeps of 10°, 30° and 90° and speeds of 0.5, 1.0 and 1.5 Hz, with elevation varied separately. The apparatus used a tail shape derived from measured animals rather than treating every water disturbance as an equivalent courtship signal.",
+          [
+            "The photographs are published images of an actual experimental device, not a generated illustration. Sweep changes lateral excursion, elevation changes posture, and frequency changes how quickly movement repeats."
+          ]
+        ],
+        "The manipulation provides control over physical movement while retaining a simplified sender. It does not reproduce all cues of a live male or establish that females recognize the model as a conspecific. Behavioral responses must therefore be interpreted with the chemical context and the measured response category specified."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/r2.png",
+        "kind": "article",
+        "caption": "Rupp et al. (2026), Fig. 2(A–D). Measured tail geometry and photographs of the physical Robotail. Preprint; not peer reviewed.",
+        "source_url": "https://doi.org/10.64898/2026.04.13.718269"
+      }
+    },
+    {
+      "title": "Chemical context changes responses to a moving tail",
+      "body": [
+        "A moving object can carry different biological meanings depending on accompanying cues. In the Rupp preprint, females initially attacked the Robotail as if it were prey. The investigators added **whole-body odorants**, a mixture collected from male-conditioned water, to provide a chemical context.",
+        "Male odorants reduced attacks and nipping but did not eliminate all aggressive contacts. Under that context, females also nudged the tail and changed walking bouts, proximity and locomotor transitions as physical movement parameters varied. The observations separate specific interaction measures from undifferentiated activity.",
+        "The manipulation does not identify which molecule changed behavior, nor prove that a single pheromone was necessary. Because the odor stimulus was a mixture, the inference concerns chemical context accompanying mechanical motion. The findings remain preliminary because the source has not been peer reviewed."
+      ],
+      "cite": "Rupp et al. (2026), preprint",
+      "refs": [
+        "Rupp TM, McGuire JM, Eisthen HL (2026). Mechanosensory Signaling in Axolotl Courtship and Evolution of Communication. bioRxiv, version 1 posted April 14, 2026. PREPRINT: not peer reviewed. https://doi.org/10.64898/2026.04.13.718269"
+      ],
+      "transcript": [
+        "A moving object can carry different biological meanings depending on accompanying cues. In the Rupp preprint, females initially attacked the Robotail as if it were prey. The investigators added **whole-body odorants**, a mixture collected from male-conditioned water, to provide a chemical context.",
+        [
+          "Male odorants reduced attacks and nipping but did not eliminate all aggressive contacts. Under that context, females also nudged the tail and changed walking bouts, proximity and locomotor transitions as physical movement parameters varied. The observations separate specific interaction measures from undifferentiated activity.",
+          [
+            "Attacks and nudges are distinct scored actions. Reducing attacks does not automatically prove sexual attraction, and the male-water preparation cannot be equated with one purified SPF protein."
+          ]
+        ],
+        "The manipulation does not identify which molecule changed behavior, nor prove that a single pheromone was necessary. Because the odor stimulus was a mixture, the inference concerns chemical context accompanying mechanical motion. The findings remain preliminary because the source has not been peer reviewed."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/r3.png",
+        "kind": "article",
+        "caption": "Rupp et al. (2026), Fig. 3(A–I). Behavioral responses to live males and the Robotail under the tested context. Preprint; not peer reviewed.",
+        "source_url": "https://doi.org/10.64898/2026.04.13.718269"
+      }
+    },
+    {
+      "title": "A snout nerve records responses to physical tail motion",
+      "body": [
+        "The **anterodorsal lateral-line nerve**, or ADLLn, serves receptors on the dorsal snout. Rupp and colleagues recorded this nerve in a female axolotl preparation placed beneath the Robotail, approximating the snout-to-tail arrangement during following. The report is a preprint, not a peer-reviewed finding.",
+        "A suction electrode collected **multiunit** activity, impulses from more than one fiber. Each test included a 15-s preparation period and 30-s stimulation period, with 2 min between trials. The authors rotated stimulus order and held tail elevation near 45° during these recordings.",
+        "The activity establishes peripheral access to movement-related stimulation in the sampled nerve. The preparation did not perform courtship behavior during recording, and the mixed signal does not identify a complete central decision circuit. Anatomical targeting and response timing constrain the sensory interpretation without proving behavioral necessity."
+      ],
+      "cite": "Rupp et al. (2026), preprint; Northcutt (1992)",
+      "refs": [
+        "Rupp TM, McGuire JM, Eisthen HL (2026). Mechanosensory Signaling in Axolotl Courtship and Evolution of Communication. bioRxiv, version 1 posted April 14, 2026. PREPRINT: not peer reviewed. https://doi.org/10.64898/2026.04.13.718269",
+        "Northcutt RG (1992). Distribution and innervation of lateral line organs in the axolotl. Journal of Comparative Neurology 325:95–123. https://doi.org/10.1002/cne.903250109"
+      ],
+      "transcript": [
+        "The **anterodorsal lateral-line nerve**, or ADLLn, serves receptors on the dorsal snout. Rupp and colleagues recorded this nerve in a female axolotl preparation placed beneath the Robotail, approximating the snout-to-tail arrangement during following. The report is a preprint, not a peer-reviewed finding.",
+        [
+          "A suction electrode collected **multiunit** activity, impulses from more than one fiber. Each test included a 15-s preparation period and 30-s stimulation period, with 2 min between trials. The authors rotated stimulus order and held tail elevation near 45° during these recordings.",
+          [
+            "The electrophysiological preparation was decapitated and therefore cannot report a conscious choice or intact social behavior. The signal is peripheral responsiveness, interpreted alongside separate behavioral assays."
+          ]
+        ],
+        "The activity establishes peripheral access to movement-related stimulation in the sampled nerve. The preparation did not perform courtship behavior during recording, and the mixed signal does not identify a complete central decision circuit. Anatomical targeting and response timing constrain the sensory interpretation without proving behavioral necessity."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/r4bc.png",
+          "kind": "article",
+          "caption": "Rupp et al. (2026), Fig. 4(B,C). Female and male extracellular nerve recordings during Robotail stimulation. Preprint; not peer reviewed.",
+          "source_url": "https://doi.org/10.64898/2026.04.13.718269"
+        },
+        {
+          "path": "figures/n9.png",
+          "kind": "article",
+          "caption": "Northcutt (1992), Fig. 9. Original anatomical tracing including the dorsal snout nerve territory.",
+          "source_url": "https://doi.org/10.1002/cne.903250109"
+        }
+      ],
+      "primary_figure_height": 3.0
+    },
+    {
+      "title": "Sweep angle changes the peripheral response",
+      "body": [
+        "Rupp and colleagues measured **firing rate**, the number of detected nerve impulses per second, before and during Robotail movement. They expressed stimulation responses relative to each preparation’s baseline. This normalization compared response changes rather than assuming identical baseline firing across animals.",
+        "Female ADLLn activity increased during all three tested sweep angles. A 30° sweep produced a stronger relative response than a 10° sweep, while the 90° comparison did not establish a corresponding reliable increase. Speeds of 0.5, 1.0 and 1.5 Hz all evoked activity.",
+        "The peripheral response was not a simple monotonic function of movement width. Neither normalized firing nor one response maximum is a direct measure of attractiveness. The source is a preprint, and its nerve-level measurements must remain distinct from females’ locomotor choices in intact behavioral trials."
+      ],
+      "cite": "Rupp et al. (2026), preprint",
+      "refs": [
+        "Rupp TM, McGuire JM, Eisthen HL (2026). Mechanosensory Signaling in Axolotl Courtship and Evolution of Communication. bioRxiv, version 1 posted April 14, 2026. PREPRINT: not peer reviewed. https://doi.org/10.64898/2026.04.13.718269"
+      ],
+      "transcript": [
+        "Rupp and colleagues measured **firing rate**, the number of detected nerve impulses per second, before and during Robotail movement. They expressed stimulation responses relative to each preparation’s baseline. This normalization compared response changes rather than assuming identical baseline firing across animals.",
+        [
+          "Female ADLLn activity increased during all three tested sweep angles. A 30° sweep produced a stronger relative response than a 10° sweep, while the 90° comparison did not establish a corresponding reliable increase. Speeds of 0.5, 1.0 and 1.5 Hz all evoked activity.",
+          [
+            "Baseline normalization can make a large percentage change when resting firing is low. The published response comparisons concern the sampled preparation and cannot be turned into a universal tuning curve without additional measurements."
+          ]
+        ],
+        "The peripheral response was not a simple monotonic function of movement width. Neither normalized firing nor one response maximum is a direct measure of attractiveness. The source is a preprint, and its nerve-level measurements must remain distinct from females’ locomotor choices in intact behavioral trials."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/r4defg.png",
+        "kind": "article",
+        "caption": "Rupp et al. (2026), Fig. 4(D–G). Relative nerve responses across sweep angles and movement frequencies. Preprint; not peer reviewed.",
+        "source_url": "https://doi.org/10.64898/2026.04.13.718269"
+      }
+    },
+    {
+      "title": "Behavior and nerve responses favor different motions",
+      "body": [
+        "**Sender–receiver matching** proposes that signal production and receiver sensitivity become aligned. **Receiver bias** proposes that pre-existing sensory or behavioral preferences influence signal evolution. Rupp and colleagues compared natural male motions with female behavioral and nerve responses to the Robotail in a non-peer-reviewed preprint.",
+        "A 30° sweep at 1.0 Hz was common in male production and produced a stronger female nerve response than the narrow, slow 10°/0.5-Hz reference. Female locomotor transitions increased more clearly for combinations including 30°/1.5 Hz, 90°/1.0 Hz and 90°/1.5 Hz.",
+        "Peripheral sensitivity and behavioral responsiveness therefore emphasized different combinations. This is compatible with different processing stages rather than a contradiction. The experiment does not establish the historical evolutionary origin of the signal, and strong state switching is not equivalent to enhanced mating success."
+      ],
+      "cite": "Rupp et al. (2026), preprint",
+      "refs": [
+        "Rupp TM, McGuire JM, Eisthen HL (2026). Mechanosensory Signaling in Axolotl Courtship and Evolution of Communication. bioRxiv, version 1 posted April 14, 2026. PREPRINT: not peer reviewed. https://doi.org/10.64898/2026.04.13.718269"
+      ],
+      "transcript": [
+        "**Sender–receiver matching** proposes that signal production and receiver sensitivity become aligned. **Receiver bias** proposes that pre-existing sensory or behavioral preferences influence signal evolution. Rupp and colleagues compared natural male motions with female behavioral and nerve responses to the Robotail in a non-peer-reviewed preprint.",
+        [
+          "A 30° sweep at 1.0 Hz was common in male production and produced a stronger female nerve response than the narrow, slow 10°/0.5-Hz reference. Female locomotor transitions increased more clearly for combinations including 30°/1.5 Hz, 90°/1.0 Hz and 90°/1.5 Hz.",
+          [
+            "The colored cells are the authors’ own published comparison and have not been recolored or replotted. Production frequencies, locomotor transitions and neural firing changes are different dependent variables."
+          ]
+        ],
+        "Peripheral sensitivity and behavioral responsiveness therefore emphasized different combinations. This is compatible with different processing stages rather than a contradiction. The experiment does not establish the historical evolutionary origin of the signal, and strong state switching is not equivalent to enhanced mating success."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/r5.png",
+        "kind": "article",
+        "caption": "Rupp et al. (2026), Fig. 5. Published comparison of male motion, female behavior and nerve responses. Preprint; not peer reviewed.",
+        "source_url": "https://doi.org/10.64898/2026.04.13.718269"
+      }
+    },
+    {
+      "title": "Courtship water contains distinctive secreted proteins",
+      "body": [
+        "A **pheromone** is a chemical signal exchanged between members of the same species that changes physiology or behavior. Maex and colleagues analyzed water from courting axolotl pairs and compared it with water from noncourting males and noncourting females, controlling for ordinary animal-conditioned water.",
+        "**Chromatography** separates molecules according to their interactions with a column and solvent. Courtship water contained distinctive protein peaks. Gel separation identified multiple proteins near 20–25 kDa, where a kilodalton is a unit of molecular mass. Protein sequencing associated these bands with sodefrin precursor-like factors.",
+        "The study establishes secretion of candidate signaling proteins during courtship. It did not test each purified axolotl protein in a female behavioral assay. Courtship-associated release and molecular identification support a pheromone hypothesis without independently proving the behavioral function of every component."
+      ],
+      "cite": "Maex et al. (2016)",
+      "refs": [
+        "Maex M, Van Bocxlaer I, Mortier A, Proost P, Bossuyt F (2016). Courtship Pheromone Use in a Model Urodele, the Mexican Axolotl (Ambystoma mexicanum). Scientific Reports 6:20184. https://doi.org/10.1038/srep20184"
+      ],
+      "transcript": [
+        "A **pheromone** is a chemical signal exchanged between members of the same species that changes physiology or behavior. Maex and colleagues analyzed water from courting axolotl pairs and compared it with water from noncourting males and noncourting females, controlling for ordinary animal-conditioned water.",
+        [
+          "**Chromatography** separates molecules according to their interactions with a column and solvent. Courtship water contained distinctive protein peaks. Gel separation identified multiple proteins near 20–25 kDa, where a kilodalton is a unit of molecular mass. Protein sequencing associated these bands with sodefrin precursor-like factors.",
+          [
+            "Comparing courtship water with both male and female control water distinguishes release associated with courtship from material present whenever an animal occupies the tank. The controls remain mixtures rather than purified molecules."
+          ]
+        ],
+        "The study establishes secretion of candidate signaling proteins during courtship. It did not test each purified axolotl protein in a female behavioral assay. Courtship-associated release and molecular identification support a pheromone hypothesis without independently proving the behavioral function of every component."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/m1.png",
+        "kind": "article",
+        "caption": "Maex et al. (2016), Fig. 1(a–c). Protein chromatography and gels for courtship, male and female water.",
+        "source_url": "https://doi.org/10.1038/srep20184"
+      }
+    },
+    {
+      "title": "SPF proteins retain conserved sequence features",
+      "body": [
+        "**Sodefrin precursor-like factor**, or SPF, names a family of candidate courtship proteins related by sequence and ancestry. Maex and colleagues combined cloacal RNA sequences with proteins recovered from axolotl courtship water, connecting predicted products with material actually secreted during the display.",
+        "Thirteen precursor sequences encoded twelve unique mature SPF proteins. Their **signal peptides**, short initial sequences associated with secretion, contained 20 amino acids. Conserved cysteine patterns distinguished alpha and beta SPF groups, while sequence differences identified multiple molecular variants.",
+        "A shared protein family does not guarantee identical behavioral action across salamander species. The sequence and secretion evidence establish candidate identity, not a purified-protein receptor response in a female axolotl. Conservation supports a comparative hypothesis while leaving species-specific function and effective concentration unresolved."
+      ],
+      "cite": "Maex et al. (2016)",
+      "refs": [
+        "Maex M, Van Bocxlaer I, Mortier A, Proost P, Bossuyt F (2016). Courtship Pheromone Use in a Model Urodele, the Mexican Axolotl (Ambystoma mexicanum). Scientific Reports 6:20184. https://doi.org/10.1038/srep20184"
+      ],
+      "transcript": [
+        "**Sodefrin precursor-like factor**, or SPF, names a family of candidate courtship proteins related by sequence and ancestry. Maex and colleagues combined cloacal RNA sequences with proteins recovered from axolotl courtship water, connecting predicted products with material actually secreted during the display.",
+        [
+          "Thirteen precursor sequences encoded twelve unique mature SPF proteins. Their **signal peptides**, short initial sequences associated with secretion, contained 20 amino acids. Conserved cysteine patterns distinguished alpha and beta SPF groups, while sequence differences identified multiple molecular variants.",
+          [
+            "A precursor includes portions that can be removed during processing, so precursor identity and mature secreted product are related but different descriptions. The mature-protein comparison depends on combining RNA and protein measurements."
+          ]
+        ],
+        "A shared protein family does not guarantee identical behavioral action across salamander species. The sequence and secretion evidence establish candidate identity, not a purified-protein receptor response in a female axolotl. Conservation supports a comparative hypothesis while leaving species-specific function and effective concentration unresolved."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/m2.png",
+        "kind": "article",
+        "caption": "Maex et al. (2016), Fig. 2. Original sequence alignment of axolotl SPF precursors.",
+        "source_url": "https://doi.org/10.1038/srep20184"
+      }
+    },
+    {
+      "title": "A gland transcriptome identifies candidates for secretion",
+      "body": [
+        "Hall and colleagues sequenced RNA from the cloacal gland of a male axolotl. A **homolog** is a sequence related to another through shared ancestry; an **ortholog** is a homolog separated by species divergence. Sequence comparisons identified candidates related to known salamander courtship-protein families.",
+        "The gland contained alpha and beta SPF transcripts and a candidate related to plethodontid modulating factor. Conserved amino-acid motifs supported these assignments. Beta SPF and the modulating-factor candidate had high transcript abundance within the sampled gland, but the analysis came from one individual.",
+        "RNA abundance does not directly establish secreted concentration, female receptor activation or a behavioral effect. The individual preparation also limits claims about population-wide variation. Protein recovery from water supplies complementary evidence of secretion, whereas purified-molecule behavioral assays would test the candidates’ specific signaling functions."
+      ],
+      "cite": "Hall et al. (2016); Maex et al. (2016)",
+      "refs": [
+        "Hall KW, Eisthen HL, Williams BL (2016). Proteinaceous Pheromone Homologs Identified from the Cloacal Gland Transcriptome of a Male Axolotl, Ambystoma mexicanum. PLOS ONE 11:e0146851. https://doi.org/10.1371/journal.pone.0146851",
+        "Maex M, Van Bocxlaer I, Mortier A, Proost P, Bossuyt F (2016). Courtship Pheromone Use in a Model Urodele, the Mexican Axolotl (Ambystoma mexicanum). Scientific Reports 6:20184. https://doi.org/10.1038/srep20184"
+      ],
+      "transcript": [
+        "Hall and colleagues sequenced RNA from the cloacal gland of a male axolotl. A **homolog** is a sequence related to another through shared ancestry; an **ortholog** is a homolog separated by species divergence. Sequence comparisons identified candidates related to known salamander courtship-protein families.",
+        [
+          "The gland contained alpha and beta SPF transcripts and a candidate related to plethodontid modulating factor. Conserved amino-acid motifs supported these assignments. Beta SPF and the modulating-factor candidate had high transcript abundance within the sampled gland, but the analysis came from one individual.",
+          [
+            "The important limitation is biological scope rather than sample-count bookkeeping. A single gland can establish the presence of a candidate transcript in that preparation but cannot establish a species-wide distribution of expression."
+          ]
+        ],
+        "RNA abundance does not directly establish secreted concentration, female receptor activation or a behavioral effect. The individual preparation also limits claims about population-wide variation. Protein recovery from water supplies complementary evidence of secretion, whereas purified-molecule behavioral assays would test the candidates’ specific signaling functions."
+      ],
+      "figure_width": 6.0,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/h5.png",
+        "kind": "article",
+        "caption": "Hall et al. (2016), Fig. 6. Original alignment of candidate axolotl and other salamander pheromone homologs.",
+        "source_url": "https://doi.org/10.1371/journal.pone.0146851"
+      }
+    },
+    {
+      "title": "Courtship modalities have different causal evidence",
+      "body": [
+        "Axolotl courtship combines tail motion, proximity, contact and released chemicals. Mechanical nerve responses and courtship-water protein assays address different links in that interaction. Weak-field electroreception is established separately, but the cited studies do not demonstrate an electrical courtship signal.",
+        "Maex and colleagues detected 20–25-kDa SPF candidates in courtship water relative to noncourting controls. The Rupp preprint manipulated tail sweeps and speeds while providing male odorants, and recorded peripheral responses in a separate preparation. Its neural and behavioral findings have not been peer reviewed.",
+        "Together these results constrain a multimodal mechanism without identifying every channel, receptor or central integration site. Secretion is not equivalent to a purified pheromone effect, peripheral responsiveness is not behavioral necessity, and electrical detection is not evidence of social electrical communication. Each claim requires its own experimentally matched measurement."
+      ],
+      "cite": "Maex et al. (2016); Rupp et al. (2026), preprint; Münz et al. (1982); Wang et al. (2026)",
+      "refs": [
+        "Maex M, Van Bocxlaer I, Mortier A, Proost P, Bossuyt F (2016). Courtship Pheromone Use in a Model Urodele, the Mexican Axolotl (Ambystoma mexicanum). Scientific Reports 6:20184. https://doi.org/10.1038/srep20184",
+        "Rupp TM, McGuire JM, Eisthen HL (2026). Mechanosensory Signaling in Axolotl Courtship and Evolution of Communication. bioRxiv, version 1 posted April 14, 2026. PREPRINT: not peer reviewed. https://doi.org/10.64898/2026.04.13.718269",
+        "Münz H, Claas B, Fritzsch B (1982). Electrophysiological evidence of electroreception in the axolotl Siredon mexicanum. Neuroscience Letters 28:107–111. https://doi.org/10.1016/0304-3940(82)90216-6",
+        "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051"
+      ],
+      "transcript": [
+        "Axolotl courtship combines tail motion, proximity, contact and released chemicals. Mechanical nerve responses and courtship-water protein assays address different links in that interaction. Weak-field electroreception is established separately, but the cited studies do not demonstrate an electrical courtship signal.",
+        [
+          "Maex and colleagues detected 20–25-kDa SPF candidates in courtship water relative to noncourting controls. The Rupp preprint manipulated tail sweeps and speeds while providing male odorants, and recorded peripheral responses in a separate preparation. Its neural and behavioral findings have not been peer reviewed.",
+          [
+            "The strongest integration preserves the distinction between what was manipulated and what was measured. No cited experiment simultaneously isolated chemical, mechanical and electrical cues while testing a complete central courtship circuit."
+          ]
+        ],
+        "Together these results constrain a multimodal mechanism without identifying every channel, receptor or central integration site. Secretion is not equivalent to a purified pheromone effect, peripheral responsiveness is not behavioral necessity, and electrical detection is not evidence of social electrical communication. Each claim requires its own experimentally matched measurement."
+      ],
+      "figure_width": 6.0,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/m1.png",
+          "kind": "article",
+          "caption": "Maex et al. (2016), Fig. 1(a–c). Courtship-associated protein release with male and female controls.",
+          "source_url": "https://doi.org/10.1038/srep20184"
+        },
+        {
+          "path": "figures/r5.png",
+          "kind": "article",
+          "caption": "Rupp et al. (2026), Fig. 5. Comparison of natural motion, behavior and peripheral responses. Preprint; not peer reviewed.",
+          "source_url": "https://doi.org/10.64898/2026.04.13.718269"
+        }
+      ],
+      "primary_figure_height": 3.0
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Distinct receptor organs:",
+        "text": "Neuromasts detect water movement; ampullary organs support weak-field electroreception. Morphology, staining and physiological sensitivity provide complementary evidence."
+      },
+      {
+        "lead": "Developmental segregation:",
+        "text": "Ear, mechanosensory and ampullary afferents appear in sequence and occupy ordered hindbrain territories. Timing is supported as a contributor, rather than proven as the sole sorting mechanism."
+      },
+      {
+        "lead": "Electrical coding:",
+        "text": "Weak-field afferents encode polarity and slow oscillations. Electrode voltage and local field strength are different quantities; increased locomotion alone is not source attraction."
+      },
+      {
+        "lead": "Channel evidence:",
+        "text": "Regional Kv expression and broad 4-AP effects support candidate mechanisms. They do not identify a subtype-specific current or prove an ampullary-cell-specific behavioral requirement."
+      },
+      {
+        "lead": "Central and efferent processing:",
+        "text": "Tectal sensory maps align only partly. Movement and several sensory inputs modulate outgoing lateral-line activity, without establishing a complete molecular feedback circuit."
+      },
+      {
+        "lead": "Courtship evidence:",
+        "text": "SPF secretion and mechanical signaling have distinct experimental support. The Robotail findings are a preprint; electrical courtship signaling and individual SPF behavioral effects remain unestablished."
+      }
+    ],
+    "cite": "Münz et al. (1982); Fritzsch et al. (2005); Wang et al. (2026); Maex et al. (2016); Rupp et al. (2026), preprint",
+    "refs": [
+      "Münz H, Claas B, Fritzsch B (1982). Electrophysiological evidence of electroreception in the axolotl Siredon mexicanum. Neuroscience Letters 28:107–111. https://doi.org/10.1016/0304-3940(82)90216-6",
+      "Wang Y, Pan Y, Liu X, Zhang X, Fan C, Wang J (2026). Characterization of the electrosensory receptor in axolotl and the role of voltage-gated potassium channels in electrosensitivity. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology 319:112051. https://doi.org/10.1016/j.cbpa.2026.112051",
+      "Fritzsch B, Gregory D, Rosa-Molinar E (2005). The development of the hindbrain afferent projections in the axolotl: evidence for timing as a specific mechanism of afferent fiber sorting. Zoology 108:297–306. https://doi.org/10.1016/j.zool.2005.08.003",
+      "Bartels M, Münz H, Claas B (1990). Representation of lateral line and electrosensory systems in the midbrain of the axolotl, Ambystoma mexicanum. Journal of Comparative Physiology A 167:347–356. https://doi.org/10.1007/BF00192570",
+      "Münz H, Claas B (1991). Activity of lateral line efferents in the axolotl (Ambystoma mexicanum). Journal of Comparative Physiology A 169:461–469. https://doi.org/10.1007/BF00197658",
+      "Maex M, Van Bocxlaer I, Mortier A, Proost P, Bossuyt F (2016). Courtship Pheromone Use in a Model Urodele, the Mexican Axolotl (Ambystoma mexicanum). Scientific Reports 6:20184. https://doi.org/10.1038/srep20184",
+      "Rupp TM, McGuire JM, Eisthen HL (2026). Mechanosensory Signaling in Axolotl Courtship and Evolution of Communication. bioRxiv, version 1 posted April 14, 2026. PREPRINT: not peer reviewed. https://doi.org/10.64898/2026.04.13.718269"
+    ]
+  }
+}
