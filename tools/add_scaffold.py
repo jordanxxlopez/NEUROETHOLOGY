@@ -11,7 +11,9 @@ them in <p:sldIdLst>). Original slide parts, their notes and their media are nev
 Each new slide is a clone of `template_slide` (same deck): its title, body, citation and
 slide-number boxes keep their XML formatting; only the text runs are replaced. The template's
 own picture(s) and caption(s) are dropped, and the named picture from `figure.from_slide` is
-copied in with its original placement and its original caption shape.
+copied in with its original placement and its original caption shape. Optional
+`extra_figures` (same keys as `figure`) copy further pictures the same way, e.g. the anatomy
+panel that a run of the deck's own slides carries beside the main figure.
 """
 import argparse
 import copy
@@ -192,8 +194,8 @@ def line_spacing(sp):
 
 
 def estimate_lines(text, width_emu, pt):
-    """Lines a paragraph wraps to: Arial averages ~0.5 em per character."""
-    chars_per_line = max(1, int(width_emu / EMU_PER_PT / (pt * 0.5)))
+    """Lines a paragraph wraps to: rendered Arial body text averages ~0.44 em (0.46 leaves a margin) per character."""
+    chars_per_line = max(1, int(width_emu / EMU_PER_PT / (pt * 0.46)))
     words, lines, cur = strip_markup(text).split(), 1, 0
     for w in words:
         add = len(w) + (1 if cur else 0)
@@ -211,9 +213,22 @@ def default_font_pt(pkg):
     return int(d.get("sz")) / 100 if d is not None and d.get("sz") else 18.0
 
 
-def build_slide(pkg, spec_slide, slide_w, default_pt):
+def deck_body_bottom(pkg):
+    """Lowest body-text edge used on the deck's own content slides (title and takeaways excluded)."""
+    bottoms = []
+    for part in pkg.slides[1:-1]:
+        try:
+            c = classify(pkg.xml(part))
+        except (ValueError, AttributeError):
+            continue
+        footer_top = c["geom"](c["number"])[1]
+        bottoms += [c["geom"](b)[1] + c["geom"](b)[3] for b in c["body"]
+                    if c["geom"](b)[1] + c["geom"](b)[3] < footer_top]
+    return max(bottoms) if bottoms else None
+
+
+def build_slide(pkg, spec_slide, slide_w, default_pt, body_floor=None):
     tpart = pkg.slides[spec_slide["template_slide"] - 1]
-    fpart = pkg.slides[spec_slide["figure"]["from_slide"] - 1]
     root = copy.deepcopy(pkg.xml(tpart))
     parts = classify(root)
     geom = parts["geom"]
@@ -230,6 +245,9 @@ def build_slide(pkg, spec_slide, slide_w, default_pt):
                          f"slide {spec_slide['template_slide']} has {len(boxes)} body boxes")
     top = geom(boxes[0])[1]
     bottom = max(geom(b)[1] + geom(b)[3] for b in boxes)
+    if body_floor:  # body text may extend as low as the deck's own content slides place it,
+        # keeping a quarter inch clear of the footer
+        bottom = max(bottom, min(body_floor, geom(parts["number"])[1] - 228600))
     for extra in boxes[len(paras):]:
         tree.remove(extra)
     boxes = boxes[:len(paras)]
@@ -239,6 +257,7 @@ def build_slide(pkg, spec_slide, slide_w, default_pt):
         n = estimate_lines(text, geom(b)[2], pt)
         heights.append(int(math.ceil(n * pt * 1.2 * line_spacing(b) * EMU_PER_PT)))
     free = bottom - top - sum(heights)
+    print(f"  {spec_slide['footer_number']:>4}: body {sum(heights) / 914400:.2f} of {(bottom - top) / 914400:.2f} in")
     if free < 0:
         raise SystemExit(f"slide {spec_slide['footer_number']}: body text does not fit "
                          f"({-free / 914400:.2f} in over); shorten it")
@@ -251,28 +270,28 @@ def build_slide(pkg, spec_slide, slide_w, default_pt):
         b.find(".//a:xfrm/a:ext", NS).set("cy", str(h))
         y += h + gap
 
-    # figure: drop the template's pictures and captions, copy the named picture and its caption
+    # figures: drop the template's pictures and captions, copy the named picture(s) with their captions
     for el in parts["pics"] + parts["captions"]:
         tree.remove(el)
-    froot = pkg.xml(fpart)
-    fparts = classify(froot)
-    want = spec_slide["figure"]["picture"]
-    pic = next((e for e in fparts["pics"] if e.find(".//p:cNvPr", NS).get("name") == want), None)
-    if pic is None:
-        raise SystemExit(f"picture '{want}' not on slide {spec_slide['figure']['from_slide']}")
-    cap = next((e for e in fparts["captions"] if shape_text(e) == spec_slide["figure"]["caption"]), None)
-    if cap is None:
-        raise SystemExit(f"caption not found on slide {spec_slide['figure']['from_slide']}: "
-                         f"{spec_slide['figure']['caption']!r}")
-    pic, cap = copy.deepcopy(pic), copy.deepcopy(cap)
     anchor = parts["cite"] if parts["cite"] is not None else parts["number"]
-    anchor.addprevious(pic)
-    anchor.addprevious(cap)
-    frels = pkg.rels(fpart)
-    images = {}
-    for blip in pic.iter(A + "blip"):
-        rid = blip.get(R + "embed")
-        images[rid] = frels[rid][1]
+    images = {}  # temporary rId -> media part
+    for k, fig in enumerate([spec_slide["figure"]] + spec_slide.get("extra_figures", [])):
+        src_part = pkg.slides[fig["from_slide"] - 1]
+        fparts = classify(pkg.xml(src_part))
+        pic = next((e for e in fparts["pics"] if e.find(".//p:cNvPr", NS).get("name") == fig["picture"]), None)
+        if pic is None:
+            raise SystemExit(f"picture '{fig['picture']}' not on slide {fig['from_slide']}")
+        cap = next((e for e in fparts["captions"] if shape_text(e) == fig["caption"]), None)
+        if cap is None:
+            raise SystemExit(f"caption not found on slide {fig['from_slide']}: {fig['caption']!r}")
+        pic, cap = copy.deepcopy(pic), copy.deepcopy(cap)
+        frels = pkg.rels(src_part)
+        for blip in pic.iter(A + "blip"):
+            tmp = f"tmp{k}_{blip.get(R + 'embed')}"
+            images[tmp] = frels[blip.get(R + "embed")][1]
+            blip.set(R + "embed", tmp)
+        anchor.addprevious(pic)
+        anchor.addprevious(cap)
 
     # footer: citation and "24a" slide number; widen boxes leftward/rightward as the text needs
     def footer_text(sp, text):
@@ -373,6 +392,7 @@ def build(input_path, spec_path, out_path):
     default_pt = default_font_pt(pkg)
     pres = pkg.xml("ppt/presentation.xml")
     slide_w = int(pres.find("p:sldSz", NS).get("cx"))
+    floor = deck_body_bottom(pkg)
 
     new_parts = {}
     existing = set(pkg.parts)
@@ -393,7 +413,7 @@ def build(input_path, spec_path, out_path):
     inserted = {}  # original position -> [new sldId elements in spec order]
 
     for s in slides:
-        root, images, trels = build_slide(pkg, s, slide_w, default_pt)
+        root, images, trels = build_slide(pkg, s, slide_w, default_pt, floor)
         slide_part = free_name("ppt/slides/slide", ".xml")
         new_parts[slide_part] = None
         notes_part = free_name("ppt/notesSlides/notesSlide", ".xml")

@@ -286,21 +286,28 @@ def main():
         if not re.fullmatch(rf"{s['after']}[a-z]", tag):
             fail(f"FORMAT {tag}: footer number must be the original slide number plus a letter ({s['after']}a)")
         fig = s["figure"]
-        if fig["from_slide"] == 1:
-            fail(f"FORMAT {tag}: title-slide photo reused")
-        if fig["caption"] not in orig_captions:
-            fail(f"FORMAT {tag}: caption is not an original caption, character for character")
-        key = (fig["from_slide"], fig["picture"])
-        if key in used_figures:
-            fail(f"FORMAT {tag}: figure already used on scaffold slide {used_figures[key]}")
-        used_figures[key] = tag
+        for f in [fig] + s.get("extra_figures", []):
+            if f["from_slide"] == 1:
+                fail(f"FORMAT {tag}: title-slide photo reused")
+            if f["caption"] not in orig_captions:
+                fail(f"FORMAT {tag}: caption is not an original caption, character for character")
+            fpart = src.slides[f["from_slide"] - 1]
+            fpic = next((e for e in classify(src.xml(fpart))["pics"]
+                         if e.find(".//p:cNvPr", NS).get("name") == f["picture"]), None)
+            key = (f["from_slide"], f["picture"])
+            if fpic is not None:  # the same image file reused by several original slides counts as one figure
+                rid = next(fpic.iter(A + "blip")).get(R + "embed")
+                key = src.parts.get(src.rels(fpart)[rid][1], key)
+            if key in used_figures:
+                fail(f"FORMAT {tag}: figure already used on scaffold slide {used_figures[key]}")
+            used_figures[key] = tag
         opart = new_parts.get(id(s))
         if opart:
             root = out.xml(opart)
             parts = classify(root)
             if not parts["pics"]:
                 fail(f"FORMAT {tag}: no figure on the slide")
-            if [shape_text(c) for c in parts["captions"]] != [fig["caption"]]:
+            if [shape_text(c) for c in parts["captions"]] != [f["caption"] for f in [fig] + s.get("extra_figures", [])]:
                 fail(f"FORMAT {tag}: slide caption does not match the spec caption")
             if shape_text(parts["number"]) != tag:
                 fail(f"FORMAT {tag}: footer number box reads {shape_text(parts['number'])!r}")

@@ -1,0 +1,933 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture1_FA2026_V2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture1_FA2026_V2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "wasp",
+  "wasps",
+  "nest",
+  "burrow",
+  "landmark",
+  "landmarks",
+  "panorama",
+  "digging",
+  "dig",
+  "cork",
+  "corks",
+  "cubes",
+  "barrier",
+  "sodium",
+  "potassium",
+  "conductance",
+  "membrane",
+  "voltage",
+  "depolarization",
+  "depolarizes",
+  "spike",
+  "axon",
+  "squid",
+  "current",
+  "FoxP2",
+  "Area X",
+  "knockdown",
+  "tutor",
+  "pupil",
+  "pupils",
+  "song",
+  "syllable",
+  "syllables",
+  "zebra finch",
+  "isolate",
+  "moth",
+  "moths",
+  "bat",
+  "bats",
+  "ultrasound",
+  "sonar",
+  "palatable",
+  "unpalatable",
+  "egg",
+  "eggs",
+  "object",
+  "objects",
+  "removal",
+  "incubation",
+  "laying",
+  "Hodgkin",
+  "Huxley",
+  "Haesler",
+  "Fehér",
+  "Cormons",
+  "Zeil",
+  "Barber",
+  "Poláček",
+  "Tinbergen",
+  "hairpin",
+  "wild type",
+  "tree sparrow",
+  "click",
+  "clicks"
+ ],
+ "new_slides": [
+  {
+   "after": 7,
+   "footer_number": "7a",
+   "template_slide": 45,
+   "title": "Moth ears answer bats now but arose for another use",
+   "body": [
+    "A moth can answer a bat only after it detects the sonar. Barber and colleagues report ears in about 85% of Macroheterocera species and propose that these organs began as general monitors of environmental sound, later **co-opted**, or recruited to a new use, for detecting bat cries.",
+    "The anti-bat click thus relies on a sense organ whose present survival value differs from the reason it evolved. Its use against bats is measured in living moths, whereas its origin is inferred from how ears are distributed across lineages, the split Tinbergen drew between survival value and evolution.",
+    "The receiver shapes the signal too. Clicks centered near 65 kHz fall where most bats hear best. Three subfamilies clicked only when handled; such a click can still act during capture, since bats often strike prey with a wing and pass it toward the mouth before biting."
+   ],
+   "figure": {
+    "from_slide": 43,
+    "picture": "Google Shape;538;p43",
+    "caption": "Barber et al. (2022), Fig. 2(A–D). A moth, tegular structures, modified scales, and emitted ultrasound."
+   },
+   "cite": "Barber et al. (2022); Tinbergen (1963)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    6,
+    7,
+    43,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1073/pnas.2117485119",
+    "10.1111/j.1439-0310.1963.tb01161.x"
+   ],
+   "transcript": [
+    "Every acoustic defense in this deck begins with detection. A moth with no ear has no in-flight cue to trigger its click, which is why the high-duty-cycle group on slide 45 that lacks ears cannot deploy its sound against an approaching bat, even though the sound itself has the structure needed for jamming.",
+    [
+     "Barber and colleagues place the origin of moth ears before their use against bats.",
+     [
+      "Hearing organs sit on many different body regions across the order; in hawkmoths the mouthparts carry the hearing organs, so the playback speaker was placed in front of hawkmoths instead of behind them.",
+      "If ears first served general listening, their bat-detecting role is a later change of use. The present function then cannot be read back as the reason the organ arose, which is the distinction between slides 6 and 7 applied to a sense organ."
+     ]
+    ],
+    [
+     "The 65 kHz figure on slide 6 gains meaning once the bat is treated as a receiver.",
+     [
+      "Bat hearing is most sensitive in roughly this band, so a click there is likely to be heard by the attacker.",
+      "Matching the receiver's hearing is necessary for any of the proposed functions, so it does not decide between warning, mimicry and jamming."
+     ]
+    ],
+    [
+     "Touch-evoked clicking fits the way bats handle prey.",
+     [
+      "Bats usually make first contact with a wing or the tail membrane and only then move the insect to the mouth, which leaves a short interval in which a sound could still change the outcome.",
+      "The authors stress that experiments pitting bats against touch-only clickers have not been done, so this function remains a proposal."
+     ]
+    ]
+   ],
+   "refs": [
+    "J.R. Barber; D. Plotkin; J.J. Rubin; N.T. Homziak; B.C. Leavell; P.R. Houlihan; K.A. Miner; J.W. Breinholt; B. Quirk-Royal; P.S. Padrón; M. Nunez; A.Y. Kawahara (2022). Anti-bat ultrasound production in moths is globally and phylogenetically widespread. Proceedings of the National Academy of Sciences 119(25):e2117485119. https://doi.org/10.1073/pnas.2117485119",
+    "N. Tinbergen (1963). On aims and methods of Ethology. Zeitschrift für Tierpsychologie 20:410–433. https://doi.org/10.1111/j.1439-0310.1963.tb01161.x"
+   ],
+   "paper_numbers": {
+    "85": "Barber et al. 2022, introduction"
+   }
+  },
+  {
+   "after": 12,
+   "footer_number": "12a",
+   "template_slide": 12,
+   "title": "Wasps search where the current view best matches a stored view",
+   "body": [
+    "The **snapshot model**, discussed by Cormons and Zeil, proposes that an insect stores the view seen from its goal and, on return, moves so as to shrink the mismatch between that stored view and its current view. Image difference grows steadily with distance from the goal, so reducing it step by step leads the insect to the spot where the views agree.",
+    "Shifting the corks moves the place where the nearby part of the scene matches, which accounts for the misplaced first dig. The stored view is relational: it specifies where the entrance lies relative to visible objects and contains no direct image of the entrance, which the wasp had buried under sand.",
+    "The same account predicts the later correction. The distant scene did not move, so after the first failed dig the remaining mismatch in the wider panorama still points to the true entrance. Matching the whole scene, without singling out individual landmarks, is consistent with both effects."
+   ],
+   "figure": {
+    "from_slide": 12,
+    "picture": "Google Shape;154;p12",
+    "caption": "Cormons & Zeil (2023), Fig. 4(A). Sequential training, landmark shifts, and digging attempts."
+   },
+   "cite": "Cormons & Zeil (2023)",
+   "moves": [
+    "mechanism",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    2,
+    4,
+    12,
+    13
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0282144"
+   ],
+   "transcript": [
+    "The cork experiment on slide 12 is easiest to explain with a concrete idea of what the wasp stores. The snapshot model that Cormons and Zeil build on treats the stored memory as a picture of the surroundings taken at the goal.",
+    [
+     "The homing rule is a move-and-compare process.",
+     [
+      "In the original version, the insect first turns to reduce errors in the bearing of each object and then moves toward objects that look smaller than stored and away from objects that look larger.",
+      "Later versions drop the need to pick out separate objects and compare whole images, which matters in cluttered natural scenes where segmenting landmarks is difficult."
+     ]
+    ],
+    [
+     "The key property is that image difference forms a smooth slope around the goal.",
+     [
+      "Close to the nest, nearby objects dominate how the scene changes as the wasp moves, since their images sweep across the eye faster than distant ones; that gives local landmarks strong leverage on where the match is best.",
+      "When the corks are displaced, the best local match moves with them, so the first dig on slide 12 lands at the shifted spot."
+     ]
+    ],
+    [
+     "Correction after two to three minutes of flying fits a whole-scene match.",
+     [
+      "Only the corks moved, so the mismatch from distant features keeps pulling the search back toward the true burrow.",
+      "The paper also notes that wasps searching in front of their burrows tend to stop slightly short, which the authors read as a possible guard against overshooting the goal."
+     ]
+    ]
+   ],
+   "refs": [
+    "M.J. Cormons; J. Zeil (2023). Digger wasps Microbembex monodonta SAY (Hymenoptera, Crabronidae) rely exclusively on visual cues when pinpointing their nest entrances. PLOS ONE 18(3):e0282144. https://doi.org/10.1371/journal.pone.0282144"
+   ]
+  },
+  {
+   "after": 14,
+   "footer_number": "14a",
+   "template_slide": 13,
+   "title": "Panorama and local landmarks are used at the same time",
+   "body": [
+    "Two models describe how distant and nearby cues could share the work of homing. In a **sequential** model, the distant scene guides the wasp into the nest area and local landmarks take over for the final approach. In a **simultaneous** model, both belong to one stored scene that must match as a whole.",
+    "The barrier test discriminates between them. With the far scene blocked, the wasps still reached the nest area, so the first stage of a sequential scheme was complete, and the learned cubes stood in plain view. A sequential model predicts digging guided by the cubes; none occurred, the outcome a simultaneous model predicts.",
+    "For the animal, a local landmark therefore carries no meaning on its own: its position specifies a goal only within the scene where it was learned. The authors also describe wasps after heavy rain had pitted the sand, digging persistently over a broad area defined only by the distant cues that remained."
+   ],
+   "figure": {
+    "from_slide": 13,
+    "picture": "Google Shape;166;p13",
+    "caption": "Cormons & Zeil (2023), Fig. 5(A–B). Barrier geometry and the sequence of landmark manipulations."
+   },
+   "cite": "Cormons & Zeil (2023)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    12,
+    13,
+    14
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0282144"
+   ],
+   "transcript": [
+    "Slides 12 to 14 present three results that together decide between two models of how insects combine near and far information. The sequential view holds that the distant panorama only brings the insect close and that nearby landmarks then guide the last few centimeters on their own.",
+    [
+     "The barrier result is the decisive one.",
+     [
+      "Every barrier-tested wasp reached the nest area, so whatever brought it close was still working.",
+      "The cubes were visible, and the same wasps had followed them in the previous trial, yet none dug or hovered at the cube center; a stage-by-stage scheme cannot produce that combination."
+     ]
+    ],
+    [
+     "The simultaneous account also explains the reversal on slide 14.",
+     [
+      "Removing the barrier restored the stored scene, so the cubes again marked a place where the whole view matched, and nine of the returning wasps pinpointed the nest at once.",
+      "Cormons and Zeil present this as support for an earlier proposal, made for a related digger wasp, that homing wasps use distant and local cues together."
+     ]
+    ],
+    [
+     "Field observations in the paper fit the same picture from the other direction.",
+     [
+      "Rain that pockmarks the sand changes the local features but not the distant scene, and wasps then dig repeatedly over a wide area that the distant cues still define, eventually finding the burrow by trial and error.",
+      "Distant cues alone narrow the search to a region; local cues within an intact scene narrow it to a point."
+     ]
+    ]
+   ],
+   "refs": [
+    "M.J. Cormons; J. Zeil (2023). Digger wasps Microbembex monodonta SAY (Hymenoptera, Crabronidae) rely exclusively on visual cues when pinpointing their nest entrances. PLOS ONE 18(3):e0282144. https://doi.org/10.1371/journal.pone.0282144"
+   ]
+  },
+  {
+   "after": 16,
+   "footer_number": "16a",
+   "template_slide": 13,
+   "title": "The panorama is necessary; vision alone is sufficient locally",
+   "body": [
+    "A cue is **necessary** if removing it abolishes a behavior and **sufficient** if the behavior survives when only that cue remains. The two claims require opposite manipulations, and the wasp work supplies both: the barrier removed part of the visual scene, while the covers and sealed tray removed nonvisual local information and spared vision.",
+    "Blocking the far scene ended landmark use; masking smell, sand relief, sound and airflow left accuracy unchanged. Only together do these results support the claim that the final approach depends on vision alone, and only under the tested conditions.",
+    "The authors propose an ultimate reason for this proximate arrangement. A scent mark at the entrance could guide parasites to the hidden brood, whereas a memorized view is private information, and wind-shifted sand would quickly degrade chemical marks. This functional account was not tested and remains a hypothesis."
+   ],
+   "figure": {
+    "from_slide": 15,
+    "picture": "Google Shape;190;p15",
+    "caption": "Cormons & Zeil (2023), Fig. 6(A–B). Search distributions when local nonvisual cues were masked."
+   },
+   "cite": "Cormons & Zeil (2023); Tinbergen (1963)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    8,
+    13,
+    14,
+    15,
+    16
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0282144",
+    "10.1111/j.1439-0310.1963.tb01161.x"
+   ],
+   "transcript": [
+    "Necessity and sufficiency are often confused, and the wasp experiments separate them cleanly. Slides 13 and 14 test necessity by taking part of the visual scene away; slides 15 and 16 test sufficiency by taking everything except vision away.",
+    [
+     "Each design alone leaves a gap.",
+     [
+      "A barrier result by itself would leave open whether smell or sand texture also contributes near the entrance.",
+      "A masking result by itself would leave open whether vision is needed at all, since an animal could also succeed by some unmasked cue."
+     ]
+    ],
+    [
+     "The tray experiment closes specific loopholes that earlier work had raised.",
+     [
+      "Earlier authors had suggested that wasps feel the looser sand over the burrow, and the paper considers that a wasp might even detect changes in air flow or wing-beat echoes over the hollow burrow.",
+      "Sealing the surface under a transparent tray removes all of these, so digging centered over the entrance cannot depend on them."
+     ]
+    ],
+    [
+     "The functional proposal links the proximate result to the ultimate questions on slides 6 and 9.",
+     [
+      "Burrow entrances in this species are closed and camouflaged, which already points to pressure from parasites and predators; an odor trail would undo that concealment.",
+      "Like the moth mimicry proposal, this is an inference about consequences that would need its own test, for example measuring parasitism of nests marked by scent."
+     ]
+    ]
+   ],
+   "refs": [
+    "M.J. Cormons; J. Zeil (2023). Digger wasps Microbembex monodonta SAY (Hymenoptera, Crabronidae) rely exclusively on visual cues when pinpointing their nest entrances. PLOS ONE 18(3):e0282144. https://doi.org/10.1371/journal.pone.0282144",
+    "N. Tinbergen (1963). On aims and methods of Ethology. Zeitschrift für Tierpsychologie 20:410–433. https://doi.org/10.1111/j.1439-0310.1963.tb01161.x"
+   ]
+  },
+  {
+   "after": 19,
+   "footer_number": "19a",
+   "template_slide": 18,
+   "title": "Clamping voltage breaks the loop between current and voltage",
+   "body": [
+    "In a free membrane, voltage and ionic current drive each other: a voltage change alters conductances, the altered conductances change the current, and that current shifts the voltage again. Any single record is then a product of the whole loop, so the separate contribution of each conductance cannot be read from it.",
+    "The **voltage clamp** opens this loop. A feedback amplifier compares the membrane voltage with a command value and injects whatever current cancels the difference. Once a voltage step is complete, no further current is needed to charge the membrane capacitance, so the injected current equals the ionic current crossing the membrane.",
+    "Holding voltage fixed also fixes the electrical driving force on each ion. Any change in current over time at a constant voltage must then come from a change in conductance, which is how the time courses of sodium and potassium conductance were extracted from current records instead of assumed."
+   ],
+   "figure": {
+    "from_slide": 18,
+    "picture": "Google Shape;226;p18",
+    "caption": "Hodgkin & Huxley (1952), Fig. 1. The authors’ equivalent circuit for membrane currents."
+   },
+   "cite": "Hodgkin & Huxley (1952)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "mechanism",
+    "integration"
+   ],
+   "integrates": [
+    18,
+    19,
+    20,
+    22
+   ],
+   "cited_papers_used": [
+    "10.1113/jphysiol.1952.sp004764"
+   ],
+   "transcript": [
+    "Slides 18 and 19 introduce the equivalent circuit and the clamp records; the reason the clamp was needed follows from the circuit itself. Capacitance and the ionic conductances are connected in parallel across the membrane, so any current that changes voltage also changes the state of the voltage-dependent conductances.",
+    [
+     "Without the clamp, cause and effect are tangled.",
+     [
+      "During a natural spike, sodium conductance changes because voltage changes, and voltage changes because sodium conductance changes; a recording captures only the combined result.",
+      "With voltage held, the experimenter decides the voltage, and the conductances reveal how they respond to it over time."
+     ]
+    ],
+    [
+     "The capacitive current is a brief transient at the start of each step.",
+     [
+      "Charging the membrane to its new voltage takes a short pulse of current, after which capacitive current falls to zero while the voltage stays constant.",
+      "Everything after that pulse in the clamp record is ionic current, which is what the comparisons on slide 19 use."
+     ]
+    ],
+    [
+     "Conductance follows from current once the driving force is known.",
+     [
+      "At a fixed voltage the distance from each ion's equilibrium potential is constant, so a rising current means more open pathway, not a stronger push.",
+      "This is the step that turns the clamp currents into the conductance curves shown on slides 20 to 22."
+     ]
+    ]
+   ],
+   "refs": [
+    "A.L. Hodgkin; A.F. Huxley (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. Journal of Physiology 117(4):500–544. https://doi.org/10.1113/jphysiol.1952.sp004764",
+    "A.L. Hodgkin; A.F. Huxley (1990). A quantitative description of membrane current and its application to conduction and excitation in nerve. Bulletin of Mathematical Biology 52(1–2):25–71. Reprint of the 1952 article. https://doi.org/10.1016/S0092-8240(05)80004-7"
+   ]
+  },
+  {
+   "after": 20,
+   "footer_number": "20a",
+   "template_slide": 20,
+   "title": "Ion gradients make sodium current inward and potassium outward",
+   "body": [
+    "Ions cross an open pathway down their **electrochemical gradient**, the combined push of concentration difference and voltage. Sodium is more concentrated outside the axon and potassium inside, so at the resting voltage sodium flows inward and depolarizes, whereas potassium flows outward and drives the membrane toward a more negative potential.",
+    "Each ion has an **equilibrium potential**, the voltage at which its electrical and concentration forces balance and net flow stops. The **driving force** is the distance between the membrane voltage and that value, and the current through a conductance grows with both the conductance and the driving force.",
+    "Replacing external sodium with choline, a cation that does not pass through the sodium pathway, removes the inward sodium current while leaving the potassium gradient intact. The current that remains during a step is then carried mainly by potassium, so the delayed potassium conductance can be measured on its own."
+   ],
+   "figure": {
+    "from_slide": 20,
+    "picture": "Google Shape;250;p20",
+    "caption": "Hodgkin & Huxley (1952), Fig. 2(a–b). Potassium conductance during depolarization and repolarization."
+   },
+   "cite": "Hodgkin & Huxley (1952)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "method_logic",
+    "integration"
+   ],
+   "integrates": [
+    18,
+    20,
+    22,
+    23
+   ],
+   "cited_papers_used": [
+    "10.1113/jphysiol.1952.sp004764"
+   ],
+   "transcript": [
+    "The conductance curves on slides 20 to 22 describe how open each pathway is, but the direction and size of the resulting current depend on the ion gradients. Sodium and potassium are distributed unequally across the axon membrane, and that asymmetry is the energy source the spike spends.",
+    [
+     "Equilibrium potentials sit on opposite sides of rest.",
+     [
+      "Sodium's equilibrium potential is strongly positive and potassium's is negative, so opening sodium pathways pushes voltage up and opening potassium pathways pulls it down.",
+      "The same conductance change can therefore have opposite effects on voltage depending on which ion it admits."
+     ]
+    ],
+    [
+     "Driving force changes during a spike.",
+     [
+      "As the membrane depolarizes toward sodium's equilibrium potential, the push on sodium shrinks, while the push on potassium grows; this is one reason the peak of the spike stops short of the sodium equilibrium potential.",
+      "Slide 18's equivalent circuit captures this by giving each conductance its own battery, the equilibrium potential of its ion."
+     ]
+    ],
+    [
+     "Choline substitution on slide 20 is an ion-replacement control.",
+     [
+      "Choline keeps the external solution's ionic strength while removing the ion that carries the early inward current.",
+      "Comparing currents with and without external sodium is what allowed the total current to be split into its sodium and potassium parts."
+     ]
+    ]
+   ],
+   "refs": [
+    "A.L. Hodgkin; A.F. Huxley (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. Journal of Physiology 117(4):500–544. https://doi.org/10.1113/jphysiol.1952.sp004764",
+    "A.L. Hodgkin; A.F. Huxley (1990). A quantitative description of membrane current and its application to conduction and excitation in nerve. Bulletin of Mathematical Biology 52(1–2):25–71. Reprint of the 1952 article. https://doi.org/10.1016/S0092-8240(05)80004-7"
+   ]
+  },
+  {
+   "after": 23,
+   "footer_number": "23a",
+   "template_slide": 23,
+   "title": "Threshold is where sodium inflow outruns outward current",
+   "body": [
+    "A small depolarization opens some sodium conductance, and sodium entry depolarizes the membrane further, opening still more. This **positive feedback**, in which an effect strengthens its own cause, drives the rising phase, but only while inward sodium current exceeds the outward potassium and leak currents opposing it.",
+    "**Threshold** is the voltage at which that balance tips. Just below it, outward current wins and the membrane returns to rest; just above it, inward current wins and the rise runs to completion. A tiny difference in starting voltage can therefore produce an all-or-none difference in outcome, as with the 6 and 7 mV stimuli.",
+    "Two slower processes end the spike: sodium inactivation removes the inward drive while the membrane stays depolarized, and delayed potassium activation increases outward current. The spike emerges from three time courses acting together, and none of them alone produces it."
+   ],
+   "figure": {
+    "from_slide": 22,
+    "picture": "Google Shape;274;p22",
+    "caption": "Hodgkin & Huxley (1952), Fig. 6(A–L). Transient sodium conductance across depolarization levels."
+   },
+   "cite": "Hodgkin & Huxley (1952)",
+   "moves": [
+    "mechanism",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    20,
+    21,
+    22,
+    23,
+    25
+   ],
+   "cited_papers_used": [
+    "10.1113/jphysiol.1952.sp004764"
+   ],
+   "transcript": [
+    "Slides 20, 22 and 23 give the three ingredients of excitation separately: a fast sodium activation, a slower sodium inactivation, and a delayed potassium activation. Threshold appears only when they are placed in competition.",
+    [
+     "Positive feedback is the core of the rising phase.",
+     [
+      "Each increment of depolarization recruits more sodium conductance, and each increment of sodium current produces more depolarization, so the process accelerates once started.",
+      "The same loop is what the voltage clamp prevents, which is why clamp records show smooth conductance curves instead of spikes."
+     ]
+    ],
+    [
+     "Threshold is a property of the balance, not a fixed number written into the membrane.",
+     [
+      "Anything that increases outward current or reduces available sodium conductance raises the voltage needed to win the competition.",
+      "That is why a partly recovered membrane on slide 25 needs a stronger stimulus: inactivated sodium pathways and lingering potassium conductance both favor the outward side."
+     ]
+    ],
+    [
+     "The timing differences explain the shape of the spike.",
+     [
+      "Sodium activation is fast enough to produce the rise before the slower processes catch up.",
+      "Inactivation and potassium activation then turn the net current outward and bring the membrane back down, so the spike is brief even though no external signal ends it."
+     ]
+    ]
+   ],
+   "refs": [
+    "A.L. Hodgkin; A.F. Huxley (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. Journal of Physiology 117(4):500–544. https://doi.org/10.1113/jphysiol.1952.sp004764",
+    "A.L. Hodgkin; A.F. Huxley (1990). A quantitative description of membrane current and its application to conduction and excitation in nerve. Bulletin of Mathematical Biology 52(1–2):25–71. Reprint of the 1952 article. https://doi.org/10.1016/S0092-8240(05)80004-7"
+   ]
+  },
+  {
+   "after": 25,
+   "footer_number": "25a",
+   "template_slide": 25,
+   "title": "Refractoriness keeps a propagating impulse moving forward",
+   "body": [
+    "During propagation, current from an active region spreads along the axon in both directions. Ahead of the impulse the membrane is rested, so it reaches threshold and fires. Behind it, sodium conductance is still inactivated and potassium conductance still elevated, so the same current cannot start a new spike there.",
+    "Recovery from a spike therefore sets the direction of conduction. The impulse leaves a stretch of refractory membrane in its wake and cannot reverse, so a spike started at one end of a fiber travels to the other as a single event without echoing back and forth.",
+    "Refractoriness also caps how often an axon can fire, since each spike waits for sodium availability to recover. A nerve fiber transmits trains of separate, similar impulses, and stimulus strength is carried by their number and timing instead of the size of each impulse."
+   ],
+   "figure": {
+    "from_slide": 24,
+    "picture": "Google Shape;298;p24",
+    "caption": "Hodgkin & Huxley (1952), Fig. 15(a–d). Predicted and recorded propagated action potentials."
+   },
+   "cite": "Hodgkin & Huxley (1952)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence",
+    "foundation"
+   ],
+   "integrates": [
+    22,
+    23,
+    24,
+    25
+   ],
+   "cited_papers_used": [
+    "10.1113/jphysiol.1952.sp004764"
+   ],
+   "transcript": [
+    "Slides 24 and 25 present propagation and refractoriness as separate results, but each needs the other. Local circuit current flows symmetrically from an active region, so something other than the current itself must decide which way the impulse travels.",
+    [
+     "The refractory wake supplies the asymmetry.",
+     [
+      "Membrane that has just fired has inactivated sodium pathways and open potassium pathways, the same two states that slide 25 links to weak second responses.",
+      "Fresh membrane ahead has neither, so it is the only place where the spreading current can cross threshold."
+     ]
+    ],
+    [
+     "An axon stimulated in the middle sends impulses both ways.",
+     [
+      "Nothing in the membrane is polarized from end to end; the direction comes entirely from where the impulse has already been.",
+      "In the intact animal, impulses usually start at one end, such as a sensory ending or the initial segment of a neuron, so they travel in one direction."
+     ]
+    ],
+    [
+     "The limit on firing rate shapes neural coding.",
+     [
+      "Since every impulse in a fiber has nearly the same size, a stronger input can only be signaled by more impulses, closer together, up to the rate refractoriness allows.",
+      "Refractoriness therefore sets an upper limit on how much information a single fiber can carry per unit time."
+     ]
+    ]
+   ],
+   "refs": [
+    "A.L. Hodgkin; A.F. Huxley (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. Journal of Physiology 117(4):500–544. https://doi.org/10.1113/jphysiol.1952.sp004764",
+    "A.L. Hodgkin; A.F. Huxley (1990). A quantitative description of membrane current and its application to conduction and excitation in nerve. Bulletin of Mathematical Biology 52(1–2):25–71. Reprint of the 1952 article. https://doi.org/10.1016/S0092-8240(05)80004-7"
+   ]
+  },
+  {
+   "after": 29,
+   "footer_number": "29a",
+   "template_slide": 27,
+   "title": "Copying bias, not copying error, pulls song toward wild type",
+   "body": [
+    "Imperfect copying can go wrong in two ways. **Random error** scatters copies around the model in no particular direction, so over generations a song drifts without limit. A **copying bias** alters copies in a consistent direction, so repeated learning moves song toward the range the bias favors.",
+    "Fehér and colleagues found the second kind. Pupils matched tutor syllable durations within roughly the wild-type range, whose middle half spans about 67–180 ms, and shortened only longer syllables. Abundance followed the same rule: copied when typical, reduced when one syllable dominated.",
+    "A bias that acts only outside the typical range works like a restoring force, sparing normal features and pushing extreme ones back. It accounts for isolate lineages converging on wild-type song and for song cultures staying within species-typical bounds despite constant copying errors."
+   ],
+   "figure": {
+    "from_slide": 28,
+    "picture": "Google Shape;346;p28",
+    "caption": "Fehér et al. (2009), Fig. 2(g–j). Tutor–pupil spectrograms and the relationship of syllable durations."
+   },
+   "cite": "Fehér et al. (2009)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    27,
+    28,
+    29,
+    30
+   ],
+   "cited_papers_used": [
+    "10.1038/nature07994"
+   ],
+   "transcript": [
+    "Slides 28 and 29 report how individual pupils altered their tutors' songs; the question they leave open is why such alterations add up across generations instead of cancelling out. The answer lies in the difference between error and bias.",
+    [
+     "Unbiased error produces drift.",
+     [
+      "If each pupil copied its tutor with random mistakes, pupils would scatter around their tutors, and over many generations a lineage could wander anywhere.",
+      "The authors point out that unbiased but inaccurate imitation would only have widened the spread of pupils around the line of perfect copying; instead the whole relationship was shifted."
+     ]
+    ],
+    [
+     "The bias is targeted at atypical features.",
+     [
+      "Syllables shorter than about 230 ms on slide 28 were copied almost exactly, and that range overlaps the durations found in wild-type song.",
+      "Only features outside the typical range were changed, and the changes always pointed back toward it."
+     ]
+    ],
+    [
+     "The restoring-force picture explains the lineage results on slide 30.",
+     [
+      "Large deviations are corrected strongly, small ones weakly, so the largest change comes in the first generation and later generations change less, which matches the reported trajectories.",
+      "The same property would hold song cultures within species-typical limits in nature, where copying errors arise in every generation."
+     ]
+    ]
+   ],
+   "refs": [
+    "O. Fehér; H. Wang; S. Saar; P.P. Mitra; O. Tchernichovski (2009). De novo establishment of wild-type song culture in the zebra finch. Nature 459(7246):564–568. https://doi.org/10.1038/nature07994"
+   ],
+   "paper_numbers": {
+    "67": "Fehér et al. 2009, wild-type syllable durations",
+    "180": "Fehér et al. 2009, wild-type syllable durations"
+   }
+  },
+  {
+   "after": 31,
+   "footer_number": "31a",
+   "template_slide": 26,
+   "title": "Genes set the learning bias; generations build the song",
+   "body": [
+    "Isolate song is not a genetic song uncovered by deprivation; it is the output of an inherited learning system that received no model. The genome supplies copying biases and a range of acceptable features, and species-typical song appears only when those biases act repeatedly on song material.",
+    "Fehér and colleagues call wild-type song a **multigenerational phenotype**: partly encoded in the founders' genes, partly in the social environment, and needing several learning generations to be expressed. Pupils were unrelated to their tutors, so no genes passed along a lineage; learning carried the change, and biases shared by all the birds set its endpoint.",
+    "Ontogeny can thus extend beyond one lifetime: birds with the same inherited predispositions sing isolate song in one generation and near wild-type song a few generations later, so a bird's song depends on the learning history of earlier birds."
+   ],
+   "figure": {
+    "from_slide": 31,
+    "picture": "Google Shape;382;p31",
+    "caption": "Fehér et al. (2009), Fig. 4(a–e). Relationships and song change in the isolated colony."
+   },
+   "cite": "Fehér et al. (2009); Tinbergen (1963)",
+   "moves": [
+    "distinction",
+    "consequence",
+    "integration",
+    "foundation"
+   ],
+   "integrates": [
+    5,
+    26,
+    30,
+    31
+   ],
+   "cited_papers_used": [
+    "10.1038/nature07994",
+    "10.1111/j.1439-0310.1963.tb01161.x"
+   ],
+   "transcript": [
+    "Slide 5 warns against dividing song into wholly learned and wholly experience-independent parts, and the lineage and colony results on slides 30 and 31 explain what replaces that division. Genes and learning act at different points of one process.",
+    [
+     "The inherited part is a learning rule.",
+     [
+      "Isolates still sing, so the capacity to produce song does not require a model; what changes is the form the song takes.",
+      "The pupils' systematic edits on slides 28 and 29 reveal the rule, since they appear even when the only available model is abnormal."
+     ]
+    ],
+    [
+     "The cultural part is the accumulated material.",
+     [
+      "Each generation hands the following one a song that has passed once more through the same biases, so the song improves stepwise even though no genes pass from tutor to pupil.",
+      "The colony result on slide 31 matters here: the same endpoint emerged with many models and female listeners present, so the process is not an artifact of one-to-one housing."
+     ]
+    ],
+    [
+     "This changes how Tinbergen's ontogeny question is answered for learned traits.",
+     [
+      "The development of a single bird's song depends on what its tutor learned, which depended in turn on the tutor's own tutor.",
+      "The authors suggest testing whether gene expression or neuronal reorganization tied to song development also changes in an orderly way across such generations, which has not yet been shown."
+     ]
+    ]
+   ],
+   "refs": [
+    "O. Fehér; H. Wang; S. Saar; P.P. Mitra; O. Tchernichovski (2009). De novo establishment of wild-type song culture in the zebra finch. Nature 459(7246):564–568. https://doi.org/10.1038/nature07994",
+    "N. Tinbergen (1963). On aims and methods of Ethology. Zeitschrift für Tierpsychologie 20:410–433. https://doi.org/10.1111/j.1439-0310.1963.tb01161.x"
+   ]
+  },
+  {
+   "after": 34,
+   "footer_number": "34a",
+   "template_slide": 34,
+   "title": "Each control rules out a different nonspecific explanation",
+   "body": [
+    "RNA interference could alter song for reasons unrelated to FoxP2: viral infection, activation of the cell's silencing machinery, injection damage, or neuron loss. The **shGFP** hairpin targets the viral reporter, not a finch gene, so it engages RNA silencing without reducing any native protein.",
+    "The nontargeting hairpin controls for infection itself, and the infected volume, about one fifth of Area X, was similar across groups. Staining found no added cell death and no change in neuron density, so knockdown did not act by removing cells.",
+    "Juvenile Area X lesions produce a different song, with unusually long syllables and inconsistent syllable order, neither of which followed knockdown. A distinct phenotype argues that reduced FoxP2 changes how surviving neurons work, instead of reproducing the effect of damage."
+   ],
+   "figure": {
+    "from_slide": 34,
+    "picture": "Google Shape;420;p34",
+    "caption": "Haesler et al. (2007), Fig. 1(G). FoxP2 and reporter labeling in control and knockdown tissue."
+   },
+   "cite": "Haesler et al. (2007)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    32,
+    33,
+    34,
+    35
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pbio.0050321"
+   ],
+   "transcript": [
+    "Slides 32 to 35 describe the manipulation, its molecular specificity and its tissue verification. What ties them together is that each control answers a specific alternative explanation for the song deficit.",
+    [
+     "Two different control viruses address two different worries.",
+     [
+      "The nontargeting hairpin matches the knockdown virus in everything except a target, so it controls for infection and for expressing a foreign hairpin.",
+      "The shGFP hairpin goes further: it actually silences something, the reporter, so any song effect of running the silencing machinery itself would appear in this group too, and none did."
+     ]
+    ],
+    [
+     "Cell counts address whether knockdown simply killed neurons.",
+     [
+      "The authors stained for neurons and for dying cells and found neither a loss of neurons nor extra cell death in Area X.",
+      "Most infected cells were neurons, so the manipulation acted mainly on the cell type that expresses FoxP2 in this nucleus."
+     ]
+    ],
+    [
+     "The lesion comparison separates knockdown from destruction.",
+     [
+      "If knockdown worked by damaging Area X, it should reproduce the lesion phenotype; it produced a different pattern of omitted and imprecise syllables.",
+      "The study also reused the same tutors across treatment groups, which removes tutor song quality as an explanation, as slide 35 notes."
+     ]
+    ]
+   ],
+   "refs": [
+    "S. Haesler; C. Rochefort; B. Georgi; P. Licznerski; P. Osten; C. Scharff (2007). Incomplete and inaccurate vocal imitation after knockdown of FoxP2 in songbird basal ganglia nucleus Area X. PLOS Biology 5(12):e321. https://doi.org/10.1371/journal.pbio.0050321"
+   ]
+  },
+  {
+   "after": 38,
+   "footer_number": "38a",
+   "template_slide": 38,
+   "title": "Song learning varies output, then keeps the better matches",
+   "body": [
+    "Song learning has two overlapping phases. In the **sensory phase**, from about day 25, a young male memorizes the tutor song. In the **sensorimotor phase**, he practices, from quiet subsong through plastic song, matching his own song to the memorized model until it stabilizes near day 90.",
+    "A reinforcement account proposes that variable renditions are produced and those closer to the model are strengthened. In Area X, FoxP2-expressing spiny neurons receive glutamate input from the song nucleus HVC, active during singing, and midbrain dopamine input, a candidate reinforcement signal.",
+    "A learner can then fail by producing too little variation or by failing to keep the right variants. Knockdown pupils were as variable as controls at day 65 yet already less accurate, so variation was not the limit, and their later excess variability arose too late to cause the deficit."
+   ],
+   "figure": {
+    "from_slide": 38,
+    "picture": "Google Shape;476;p38",
+    "caption": "Haesler et al. (2007), Fig. 5(A–B). Imitation accuracy and variability across pupil age."
+   },
+   "cite": "Haesler et al. (2007)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "distinction",
+    "integration"
+   ],
+   "integrates": [
+    35,
+    37,
+    38
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pbio.0050321"
+   ],
+   "transcript": [
+    "Slide 38 states that impaired adjustment toward the tutor model was the authors' proposed explanation; the learning process it refers to can be laid out step by step.",
+    [
+     "Learning depends on hearing one's own voice.",
+     [
+      "The bird's practice songs are compared against the memorized tutor song through auditory feedback, so deafening or disrupting feedback in juveniles produces abnormal song.",
+      "The knockdown phenotype overlaps with these feedback deficits, which is one reason the authors favor a problem in auditory-guided motor learning over a pure motor problem."
+     ]
+    ],
+    [
+     "Area X sits where the relevant signals meet.",
+     [
+      "HVC input carries information about the song being sung, and dopamine input could signal whether a rendition was better or worse than expected.",
+      "FoxP2 is a transcription factor, so it could tune the plasticity of spiny neurons by regulating many downstream genes, which have not yet been identified."
+     ]
+    ],
+    [
+     "The paper notes a puzzle the account does not resolve.",
+     [
+      "If FoxP2 promotes plasticity, knockdown birds should learn less and sing more rigidly; the omitted syllables fit this, but the excess variability does not.",
+      "If FoxP2 restricts plasticity, the variability fits but the omissions do not, so the cellular role of FoxP2 remains open."
+     ]
+    ]
+   ],
+   "refs": [
+    "S. Haesler; C. Rochefort; B. Georgi; P. Licznerski; P. Osten; C. Scharff (2007). Incomplete and inaccurate vocal imitation after knockdown of FoxP2 in songbird basal ganglia nucleus Area X. PLOS Biology 5(12):e321. https://doi.org/10.1371/journal.pbio.0050321"
+   ],
+   "paper_numbers": {
+    "25": "Haesler et al. 2007, onset of sensory phase"
+   },
+   "extra_figures": [
+    {
+     "from_slide": 38,
+     "picture": "Google Shape;478;p38",
+     "caption": "Haesler et al. (2007), Fig. 1(A). Area X in a sagittal brain section; original scale bar 1 mm."
+    }
+   ]
+  },
+  {
+   "after": 42,
+   "footer_number": "42a",
+   "template_slide": 40,
+   "title": "Failure to eject can reflect ability, not recognition",
+   "body": [
+    "A bird that keeps a foreign egg may have failed to detect it, lacked the motivation to remove it, or been unable to remove it. Counting ejections of real eggs cannot separate these causes, since all three end in the same outcome.",
+    "Poláček and colleagues approached the problem from both sides. Real tree sparrow eggs added to nests were ejected in only 2 of 19 cases, yet 81.7% of the light, flat objects were removed within an hour. Removal was common when the object was easy to carry and rare for a real egg, which the authors take to identify the difficulty of grasping an egg, rather than weak motivation, as a major limit.",
+    "Breeding stage changed which features mattered. Size affected removal mainly during laying, when a parasitic egg could still hatch with the clutch, whereas white objects resembling shell fragments or faecal sacs went fastest during incubation, matching parasite defense and nest cleaning respectively."
+   ],
+   "figure": {
+    "from_slide": 39,
+    "picture": "Google Shape;490;p39",
+    "caption": "Poláček et al. (2013), Fig. 1. Flat objects differing in size, color, and shape."
+   },
+   "cite": "Poláček et al. (2013)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    39,
+    40,
+    41,
+    42
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0078771"
+   ],
+   "transcript": [
+    "Slides 39 to 42 use flat objects, and the reason for that design choice becomes clear once the possible causes of acceptance are listed. A parasitic egg left in the nest is the outcome of a chain of steps, and failure at any step looks identical from outside.",
+    [
+     "The two experiments bracket the motor step.",
+     [
+      "With real eggs, birds must detect the egg and then grasp or puncture a rounded shell, and most accepted the added egg and kept incubating it.",
+      "With flat cardboard objects, the motor step is easy, and most objects were removed, so the gap between the two experiments locates much of the limit in the act of removal."
+     ]
+    ],
+    [
+     "The stage effects tie each removal tendency to a likely task.",
+     [
+      "During laying, a foreign egg can still hatch alongside the host's own, so sensitivity to egg-like features such as size makes sense then.",
+      "Late in incubation and after hatching, parents remove eggshell and nestling faecal sacs, which are pale; the faster removal of white objects during incubation fits that cleaning task."
+     ]
+    ],
+    [
+     "The sexes also differed.",
+     [
+      "Females removed objects in 21 of 22 opportunities, males in 4 of 11, so most removal was done by females.",
+      "These functional readings are the authors' interpretations; the hormonal and neural basis of the stage change was not measured."
+     ]
+    ]
+   ],
+   "refs": [
+    "M. Poláček; M. Griggio; M. Bartíková; H. Hoi (2013). Nest sanitation as the evolutionary background for egg ejection behaviour and the role of motivation for object removal. PLOS ONE 8(11):e78771. https://doi.org/10.1371/journal.pone.0078771"
+   ],
+   "paper_numbers": {
+    "2": "Poláček et al. 2013, real-egg ejection",
+    "19": "Poláček et al. 2013, real-egg ejection",
+    "81.7": "Poláček et al. 2013, flat-object removal",
+    "21": "Poláček et al. 2013, removal by sex",
+    "22": "Poláček et al. 2013, removal by sex",
+    "4": "Poláček et al. 2013, removal by sex",
+    "11": "Poláček et al. 2013, removal by sex"
+   }
+  },
+  {
+   "after": 44,
+   "footer_number": "44a",
+   "template_slide": 44,
+   "title": "Palatability tests separate honest warnings from bluffs",
+   "body": [
+    "A warning sound is **honest** when the prey is defended and a bluff when a palatable moth copies the warning of a defended one. In **Batesian mimicry**, a palatable mimic exploits the bats' learned avoidance of a defended model; in **Müllerian mimicry**, defended species share one signal, so a bat learns one lesson that protects all of them.",
+    "Telling these apart requires knowing how bats treat each moth. Barber and colleagues disabled the sound-producing structures before offering a moth, so rejection had to come from taste and not from the click. A trial counted only if the bat ate a known palatable moth both before and after, which excludes rejection by a bat that was not hungry.",
+    "On that measure, palatable calpines and sphingids shared a cluster with an unpalatable dalcerid, a candidate Batesian group, while geometrids grouped with a tiger moth, a candidate Müllerian group."
+   ],
+   "figure": {
+    "from_slide": 44,
+    "picture": "Google Shape;550;p44",
+    "caption": "Barber et al. (2022), Fig. 3. Clusters of moth signals, taxa, and palatability categories."
+   },
+   "cite": "Barber et al. (2022)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    6,
+    9,
+    44
+   ],
+   "cited_papers_used": [
+    "10.1073/pnas.2117485119"
+   ],
+   "transcript": [
+    "Slides 9 and 44 describe acoustic clusters that mix palatable and unpalatable moths; the two classic forms of mimicry give those mixtures different meanings, and a careful palatability test is what assigns each moth its role.",
+    [
+     "The two kinds of mimicry have opposite consequences for the model species.",
+     [
+      "A Batesian mimic is a cost to its defended model, since bats that catch the tasty mimic learn that the sound predicts food.",
+      "Müllerian co-mimics share the cost of educating predators, so each defended species benefits from the others."
+     ]
+    ],
+    [
+     "The palatability procedure removes two confounds.",
+     [
+      "Ablating the sound structures prevents a bat from rejecting a moth because its click startled or warned it, which would make a tasty moth look distasteful.",
+      "Requiring the bat to accept a palatable control moth before and after each test separates distaste from loss of appetite."
+     ]
+    ],
+    [
+     "The scoring also allowed partial rejection.",
+     [
+      "The moth's body was divided into head, thorax and abdomen with different weights, so a bat that ate only part of a moth produced an intermediate score instead of a simple yes or no.",
+      "The authors present the mimicry assignments as preliminary, since the dynamics of bat learning in this community were not measured."
+     ]
+    ]
+   ],
+   "refs": [
+    "J.R. Barber; D. Plotkin; J.J. Rubin; N.T. Homziak; B.C. Leavell; P.R. Houlihan; K.A. Miner; J.W. Breinholt; B. Quirk-Royal; P.S. Padrón; M. Nunez; A.Y. Kawahara (2022). Anti-bat ultrasound production in moths is globally and phylogenetically widespread. Proceedings of the National Academy of Sciences 119(25):e2117485119. https://doi.org/10.1073/pnas.2117485119"
+   ]
+  }
+ ]
+}
