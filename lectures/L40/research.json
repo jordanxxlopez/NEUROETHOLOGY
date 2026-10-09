@@ -5,13 +5,8 @@
   "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
   "authoritative_commit": "9da8853a42489ca33b314611e264fcc3eb06a226",
   "searched_on": "2026-10-08",
-  "status": "awaiting four original PDFs",
-  "required_pdf_ids": [
-    "govorunova15",
-    "inagaki14",
-    "szuts11",
-    "montgomery15"
-  ],
+  "status": "complete source verification and lecture build",
+  "required_pdf_ids": [],
   "sources": [
     {
       "id": "nagel03",
@@ -1033,7 +1028,9 @@
       "pdf_pages": 6,
       "sha256": "694ceea0a2c2842a206389b62cd882b0ea941e8581a5f588c00bee90f60d5b97",
       "title_page_text": "Channelrhodopsin-2, a directly light-gated\ncation-selective membrane channel\nGeorg Nagel†‡, Tanjef Szellas†§, Wolfram Huhn†, Suneel Kateriya¶, Nona Adeishvili†, Peter Berthold¶, Doris Ollig†,\nPeter Hegemann¶, and Ernst Bamberg†\u0001\n†Max-Planck-Institut fu¨ r Biophysik, Marie-Curie-Strasse 15, 60439 Frankfurt, Germany; ¶Institut fu¨ r Biochemie, Universita¨t Regensburg; Universita¨tsstrasse 31,\n93040 Regensburg, Germany; and \u0001Institut fu¨ r Biophysikalische Chemie, Johann Wolfgang Goethe-Universita¨t, Biozentrum, D-60439 Frankfurt, Germany\nCommunicated by Walther Stoeckenius, University of California, San Francisco, CA, September 25, 2003 (received for review April 28, 2003)\nMicrobial-type rhodopsins are found in archaea, prokaryotes, and\neukaryotes. Some of them represent membrane ion transport\nproteins such as bacteriorhodopsin, a light-driven proton pump, or\nchannelrhodopsin-1 (ChR1), a recently identiﬁed light-gated pro-\nton channel from the green alga Chlamydomonas reinhardtii. ChR1\nand ChR2, a related microbial-type rhodopsin from C. reinhardtii,\nwere shown to be involved in generation of photocurrents of this\ngreen alga. We demonstrate by functional expression, both in\noocytes of Xenopus laevis and mammalian cells, that ChR2 is a\ndirectly light-switched cation-selective ion channel. This channel\nopens rapidly after absorption of a photon to generate a large\npermeability for monovalent and divalent cations. ChR2 desensi-\ntizes in continuous light to a smaller steady-state conductance.\nRecovery from desensitization is accelerated by extracellular H\u0001\nand negative membrane potential, whereas closing of the ChR2 ion\nchannel is decelerated by intracellular H\u0001. ChR2 is expressed mainly\nin C. reinhardtii under low-light conditions, suggesting involve-\nment in photoreception ",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_sha256": "694ceea0a2c2842a206389b62cd882b0ea941e8581a5f588c00bee90f60d5b97"
     },
     {
       "id": "govorunova15",
@@ -2011,7 +2008,11 @@
         }
       ],
       "status": "PDF needed",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_pages": 5,
+      "pdf_sha256": "0ce9243fc30022ae364890b09d8b81c0b53f6030bf12e34bec538b3eb0dec228",
+      "pdf_origin": "Instructor-uploaded original PDF"
     },
     {
       "id": "boyden05",
@@ -3170,7 +3171,9 @@
       "pdf_pages": 6,
       "sha256": "967541d26df6a32eb288baf348f6e698342e16609d7f2fd5092d3754d41c4b87",
       "title_page_text": "Millisecond-timescale, genetically targeted optical control\nof neural activity\nEdward S Boyden1, Feng Zhang1, Ernst Bamberg2,3, Georg Nagel2,5 & Karl Deisseroth1,4\nTemporally precise, noninvasive control of activity in well-\ndeﬁned neuronal populations is a long-sought goal of systems\nneuroscience. We adapted for this purpose the naturally\noccurring algal protein Channelrhodopsin-2, a rapidly gated\nlight-sensitive cation channel, by using lentiviral gene delivery in\ncombination with high-speed optical switching to photostimulate\nmammalian neurons. We demonstrate reliable, millisecond-\ntimescale control of neuronal spiking, as well as control of\nexcitatory and inhibitory synaptic transmission. This technology\nallows the use of light to alter neural processing at the level of\nsingle spikes and synaptic events, yielding a widely applicable\ntool for neuroscientists and biomedical engineers.\nNeural computation depends on the temporally diverse spiking pat-\nterns of different classes of neurons that express unique genetic markers\nand demonstrate heterogeneous wiring properties within neural net-\nworks. Although direct electrical stimulation and recording of neurons\nin intact brain tissue have provided many insights into the function of\ncircuit subﬁelds (for example, see refs. 1–3), neurons belonging to a\nspeciﬁc class are often sparsely embedded within tissue, posing funda-\nmental challenges for resolving the role of particular neuron types in\ninformation processing. A high–temporal resolution, noninvasive,\ngenetically based method to control neural activity would enable\nelucidation of the temporal activity patterns in speciﬁc neurons that\ndrive circuit dynamics, plasticity and behavior.\nDespite substantial progress made in the analysis of neural network\ngeometry by means of ",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_sha256": "967541d26df6a32eb288baf348f6e698342e16609d7f2fd5092d3754d41c4b87"
     },
     {
       "id": "inagaki14",
@@ -4389,7 +4392,11 @@
         }
       ],
       "status": "PDF needed",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_pages": 11,
+      "pdf_sha256": "8d228ad74642c619ab5c74497cfb3ae2b5883e7524dc9ba787543f763bd738c8",
+      "pdf_origin": "Instructor-uploaded original PDF"
     },
     {
       "id": "cande18",
@@ -5857,7 +5864,9 @@
       "pdf_pages": 23,
       "sha256": "0bcfd00a7f478d82a59e0fe28ec6534187d0565ff1cae420625fe9e35f54537a",
       "title_page_text": "*For correspondence:\nsternd@janelia.hhmi.org (DLS);\ngordon.berman@emory.edu (GJB)\nCompeting interests: The\nauthors declare that no\ncompeting interests exist.\nFunding: See page 20\nReceived: 12 December 2017\nAccepted: 03 June 2018\nPublished: 26 June 2018\nReviewing editor: Kristin Scott,\nUniversity of California, Berkeley,\nBerkeley, United States\nCopyright Cande et al. This\narticle is distributed under the\nterms of the Creative Commons\nAttribution License, which\npermits unrestricted use and\nredistribution provided that the\noriginal author and source are\ncredited.\nOptogenetic dissection of descending\nbehavioral control in Drosophila\nJessica Cande1, Shigehiro Namiki1,2, Jirui Qiu3, Wyatt Korff1, Gwyneth M Card1,\nJoshua W Shaevitz4,5, David L Stern1*, Gordon J Berman3,6*\n1Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, United\nStates; 2Research Center for Advanced Science and Technology, University of\nTokyo, Tokyo, Japan; 3Department of Physics, Emory University, Atlanta, Georgia;\n4The Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton,\nUnited States; 5Department of Physics, Princeton University, Princeton, United\nStates; 6Department of Biology, Emory University, Atlanta, Georgia\nAbstract In most animals, the brain makes behavioral decisions that are transmitted by\ndescending neurons to the nerve cord circuitry that produces behaviors. In insects, only a few\ndescending neurons have been associated with specific behaviors. To explore how descending\nneurons control an insect’s movements, we developed a novel method to systematically assay the\nbehavioral effects of activating individual neurons on freely behaving terrestrial D. melanogaster.\nWe calculated a two-dimensional representation of the entire behavior space explored by the",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_sha256": "0bcfd00a7f478d82a59e0fe28ec6534187d0565ff1cae420625fe9e35f54537a"
     },
     {
       "id": "veraszto17",
@@ -7581,7 +7590,9 @@
       "pdf_pages": 25,
       "sha256": "c527753847ccdc93ff4c96df4eef765da3417bbd7419d1e24821250f51ea3158",
       "title_page_text": "*For correspondence: gaspar.\njekely@tuebingen.mpg.de\nCompeting interests: The\nauthors declare that no\ncompeting interests exist.\nFunding: See page 21\nReceived: 13 February 2017\nAccepted: 14 May 2017\nPublished: 16 May 2017\nReviewing editor: Piali\nSengupta, Brandeis University,\nUnited States\nCopyright Veraszto´ et al. This\narticle is distributed under the\nterms of the Creative Commons\nAttribution License, which\npermits unrestricted use and\nredistribution provided that the\noriginal author and source are\ncredited.\nCiliomotor circuitry underlying whole-\nbody coordination of ciliary activity in the\nPlatynereis larva\nCsaba Veraszto´ , Nobuo Ueda, Luis A Bezares-Caldero´ n, Aurora Panzera,\nElizabeth A Williams, Re´ za Shahidi, Ga´spa´r Je´ kely*\nMax Planck Institute for Developmental Biology, Tu¨ bingen, Germany\nAbstract Ciliated surfaces harbouring synchronously beating cilia can generate fluid flow or\ndrive locomotion. In ciliary swimmers, ciliary beating, arrests, and changes in beat frequency are\noften coordinated across extended or discontinuous surfaces. To understand how such\ncoordination is achieved, we studied the ciliated larvae of Platynereis dumerilii, a marine annelid.\nPlatynereis larvae have segmental multiciliated cells that regularly display spontaneous coordinated\nciliary arrests. We used whole-body connectomics, activity imaging, transgenesis, and neuron\nablation to characterize the ciliomotor circuitry. We identified cholinergic, serotonergic, and\ncatecholaminergic ciliomotor neurons. The synchronous rhythmic activation of cholinergic cells\ndrives the coordinated arrests of all cilia. The serotonergic cells are active when cilia are beating.\nSerotonin inhibits the cholinergic rhythm, and increases ciliary beat frequency. Based on their\nconnectivity and altern",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_sha256": "c527753847ccdc93ff4c96df4eef765da3417bbd7419d1e24821250f51ea3158"
     },
     {
       "id": "bezares18",
@@ -9553,7 +9564,9 @@
       "pdf_pages": 28,
       "sha256": "f666d089a5b0b22aea4a2914cb2f76524fe35f3b0bb8aadabc6f04f4a1c0e68a",
       "title_page_text": "*For correspondence:\ng.jekely@exeter.ac.uk\nCompeting interests: The\nauthors declare that no\ncompeting interests exist.\nFunding: See page 23\nReceived: 27 February 2018\nAccepted: 16 November 2018\nPublished: 14 December 2018\nReviewing editor: Ronald L\nCalabrese, Emory University,\nUnited States\nCopyright Bezares-Caldero´ n\net al. This article is distributed\nunder the terms of the Creative\nCommons Attribution License,\nwhich permits unrestricted use\nand redistribution provided that\nthe original author and source are\ncredited.\nNeural circuitry of a polycystin-mediated\nhydrodynamic startle response for\npredator avoidance\nLuis A Bezares-Caldero´ n1,2, Ju¨ rgen Berger2, Sanja Jasek1,2, Csaba Veraszto´ 1,2,\nSara Mendes2, Martin Gu¨ hmann2, Rodrigo Almeda3, Re´ za Shahidi1,2,\nGa´spa´r Je´ kely1,2*\n1Living Systems Institute, University of Exeter, Exeter, United Kingdom; 2Max\nPlanck Institute for Developmental Biology, Tu¨ bingen, Germany; 3Centre for Ocean\nLife, Technical University of Denmark, Denmark, Kingdom of Denmark\nAbstract Startle responses triggered by aversive stimuli including predators are widespread\nacross animals. These coordinated whole-body actions require the rapid and simultaneous\nactivation of a large number of muscles. Here we study a startle response in a planktonic larva to\nunderstand the whole-body circuit implementation of the behaviour. Upon encountering water\nvibrations, larvae of the annelid Platynereis close their locomotor cilia and simultaneously raise the\nparapodia. The response is mediated by collar receptor neurons expressing the polycystins PKD1-1\nand PKD2-1. CRISPR-generated PKD1-1 and PKD2-1 mutant larvae do not startle and fall prey to a\ncopepod predator at a higher rate. Reconstruction of the whole-body connectome of the collar-\nreceptor-cell ci",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_sha256": "f666d089a5b0b22aea4a2914cb2f76524fe35f3b0bb8aadabc6f04f4a1c0e68a"
     },
     {
       "id": "antinucci19",
@@ -10963,7 +10976,9 @@
       "pdf_pages": 34,
       "sha256": "7904420dd3f59b1f84ea0c5e11739ef2a9afe9b0e979308be476aeba655ab0f2",
       "title_page_text": "*For correspondence:\ni.bianco@ucl.ac.uk\nCompeting interests: The\nauthors declare that no\ncompeting interests exist.\nFunding: See page 30\nReceived: 01 May 2019\nAccepted: 30 August 2019\nPublished: 08 October 2019\nReviewing editor: Vatsala\nThirumalai, National Centre for\nBiological Sciences, India\nCopyright Antinucci et al. This\narticle is distributed under the\nterms of the Creative Commons\nAttribution License, which\npermits unrestricted use and\nredistribution provided that the\noriginal author and source are\ncredited.\nPretectal neurons control hunting\nbehaviour\nParide Antinucci1, Mo´ nica Folgueira2,3, Isaac H Bianco1*\n1Department of Neuroscience, Physiology & Pharmacology, UCL, London, United\nKingdom; 2Department of Biology, Faculty of Sciences, University of A Corun˜ a, A\nCorun˜ a, Spain; 3Centro de Investigaciones Cienti\u0013ficas Avanzadas (CICA), University\nof A Corun˜ a, A Corun˜ a, Spain\nAbstract For many species, hunting is an innate behaviour that is crucial for survival, yet the\ncircuits that control predatory action sequences are poorly understood. We used larval zebrafish to\nidentify a population of pretectal neurons that control hunting. By combining calcium imaging with\na virtual hunting assay, we identified a discrete pretectal region that is selectively active when\nanimals initiate hunting. Targeted genetic labelling allowed us to examine the function and\nmorphology of individual cells and identify two classes of pretectal neuron that project to ipsilateral\noptic tectum or the contralateral tegmentum. Optogenetic stimulation of single neurons of either\nclass was able to induce sustained hunting sequences, in the absence of prey. Furthermore, laser\nablation of these neurons impaired prey-catching and prevented induction of hunting by\noptogenetic stimulation of t",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_sha256": "7904420dd3f59b1f84ea0c5e11739ef2a9afe9b0e979308be476aeba655ab0f2"
     },
     {
       "id": "grover20",
@@ -11918,7 +11933,9 @@
       "pdf_pages": 10,
       "sha256": "9b886a116f55ca866c6c4d985f0170db5d5c807cb4a14f15d43bf0cfdb0252aa",
       "title_page_text": "ARTICLE\nImaging brain activity during complex social\nbehaviors in Drosophila with Flyception2\nDhruv Grover\n1,5*, Takeo Katsuki\n1,5, Jinfang Li1, Thomas J. Dawkins1,2 & Ralph J. Greenspan1,3,4\nOptical in vivo recordings from freely walking Drosophila are currently possible only for limited\nbehaviors. Here, we expand the range of accessible behaviors with a retroreﬂective marker-\nbased tracking and ratiometric brain imaging system, permitting brain activity imaging even\nin copulating male ﬂies. We discover that P1 neurons, active during courtship, are inactive\nduring copulation, whereas GABAergic mAL neurons remain active during copulation, sug-\ngesting a countervailing role of mAL in opposing P1 activity during mating.\nhttps://doi.org/10.1038/s41467-020-14487-7\nOPEN\n1 Kavli Institute for Brain and Mind, University of California, San Diego, La Jolla, CA, USA. 2 Department of Electrical and Computer Engineering, University of\nCalifornia, San Diego, La Jolla, CA, USA. 3 Division of Biological Sciences, University of California, San Diego, La Jolla, CA, USA. 4 Department of Cognitive\nScience, University of California, San Diego, La Jolla, CA, USA. 5These authors contributed equally: Dhruv Grover and Takeo Katsuki. *email: dhgrover@ucsd.edu\nNATURE COMMUNICATIONS | (2020) 11:623 | https://doi.org/10.1038/s41467-020-14487-7 | www.nature.com/naturecommunications\n1\n1234567890():,;\n",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_sha256": "9b886a116f55ca866c6c4d985f0170db5d5c807cb4a14f15d43bf0cfdb0252aa"
     },
     {
       "id": "szuts11",
@@ -12937,7 +12954,11 @@
         }
       ],
       "status": "PDF needed",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_pages": 8,
+      "pdf_sha256": "2ae94c550f33d712100e0e7fc639c88bfccb1c44a37a01bf93e083b5d990c21d",
+      "pdf_origin": "Instructor-uploaded original PDF"
     },
     {
       "id": "montgomery15",
@@ -14174,7 +14195,11 @@
         }
       ],
       "status": "PDF needed",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_pages": 10,
+      "pdf_sha256": "7c039b13b1c7f3d94504280206d0d2ed8165527f14aef7e82fb3923400cb4362",
+      "pdf_origin": "Instructor-uploaded original PDF"
     },
     {
       "id": "zhang24",
@@ -15139,7 +15164,9 @@
       "pdf_pages": 25,
       "sha256": "55f96e64224c7b3e2f81f20f53b348e617b18445f6198803025ccbf2872bf454",
       "title_page_text": "Nature Neuroscience | Volume 27 | September 2024 | 1675–1679\n1675\nnature neuroscience\nhttps://doi.org/10.1038/s41593-024-01690-8\nBrief Communication\nNeural representation of human \nexperimenters in the bat hippocampus\nMadeleine C. Snyder1, Kevin K. Qi \n  2 & Michael M. Yartsev \n  1,2,3 \nHere we conducted wireless electrophysiological recording of hippocampal \nneurons from Egyptian fruit bats in the presence of human experimenters. \nIn flying bats, many neurons modulated their activity depending on the \nidentity of the human at the landing target. In stationary bats, many neurons \ncarried significant spatial information about the position and identity of \nhumans traversing the environment. Our results reveal that hippocampal \nactivity is robustly modulated by the presence, movement and identity of \nhuman experimenters.\nHuman experimenters are commonly present in laboratory environ-\nments, where they move and interact with subject animals during \nexperiments. Yet, the behavior of humans in such settings is rarely \nmonitored or reported. Studies have shown that the presence, actions \nand sex of humans can influence the animal’s behavior1–5, as well as \nvolume-averaged and time-averaged neural responses such as local \nfield potentials2 or immediate early gene expression6. However, the \nimpact of human experimenters on the neural dynamics of single neu-\nrons in behaving animals remains entirely unknown. To address this, \nwe focused on the dorsal hippocampus, a region known to encode \npositional information and environmental factors7–9, and the study \nof which often involves humans actively interacting with the animal \nsubjects7,10–18. We explicitly tested whether and how neural dynamics \nof hippocampal neurons are influenced by the presence and actions of \nhuman experimenter",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_sha256": "55f96e64224c7b3e2f81f20f53b348e617b18445f6198803025ccbf2872bf454"
     },
     {
       "id": "forli25",
@@ -16481,7 +16508,9 @@
       "pdf_pages": 30,
       "sha256": "2095c6622de305a42d8becabf7a094789bfbaa00064316f0d08bc8b3d0e9d26b",
       "title_page_text": "974  |  Nature  |  Vol 645  |  25 September 2025\nArticle\nReplay and representation dynamics in the \nhippocampus of freely flying bats\nAngelo Forli1,2,6, Wudi Fan1,2,6, Kevin K. Qi2,3,6 & Michael M. Yartsev1,2,3,4,5 ✉\nCognitive functions for navigation and memory rely on emergent properties of neural \nensembles in the hippocampus, such as activity replay1–5 and theta sequences6–9. \nHowever, whether and how these phenomena generalize across species with distinct \nnavigational demands and neurophysiological properties remains unclear. Here  \nwe wirelessly recorded neural activity from large populations of cells and local field \npotentials from the hippocampus of freely flying Egyptian fruit bats (Rousettus \naegyptiacus) engaged in free, spontaneous foraging behaviour. During rest, we \nidentified time-compressed forward and reverse replays of multiple flight trajectories \ncoinciding with sharp-wave ripples. Notably, replays occurred predominantly at \nlocations that were both spatially and temporally distant from the replayed behaviour, \nand their speed scaled with trajectory length, challenging present models of replay \nmechanisms. During flight, neural ensembles exhibited fast representational sweeps, \nin which the decoded location moved ahead of the bat’s position cyclically. In contrast \nto reports in rodents, sweeps occurred in the absence of theta oscillations, and were \ninstead phase locked to a prominent motor behavioural rhythm—the bat’s wing-beat \ncycle. This suggests that behaviourally relevant sensorimotor rhythms can interact \nwith hippocampal ensemble dynamics in a highly structured manner. Combined,  \nour findings challenge existing models of ensemble dynamics in the mammalian \nhippocampus, and highlight the importance of comparative studies in ethologically \n",
-      "use": "primary research"
+      "use": "primary research",
+      "pdf_available": true,
+      "pdf_sha256": "2095c6622de305a42d8becabf7a094789bfbaa00064316f0d08bc8b3d0e9d26b"
     }
   ],
   "repository_verification": {

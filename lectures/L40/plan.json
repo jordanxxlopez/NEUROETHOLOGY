@@ -1,317 +1,603 @@
 {
   "lecture": 40,
-  "status": "source-selection plan; detailed findings and crop assignments require all original PDFs",
+  "status": "final evidence allocation; all original PDFs available",
   "slides": [
     {
       "content_number": 1,
-      "planned_topic": "Optical activation links descending input to behavior",
+      "slide_number": 2,
+      "title": "Optical activation can recruit a specific action",
       "source_ids": [
-        "cande18"
-      ]
+        "cande18",
+        "inagaki14"
+      ],
+      "original_figure_crops": [
+        "cande2",
+        "inag3b"
+      ],
+      "body_words": 135,
+      "body_paragraphs": 3
     },
     {
       "content_number": 2,
-      "planned_topic": "Channelrhodopsin converts illumination into ionic current",
+      "slide_number": 3,
+      "title": "A microbial channel directly couples light to current",
       "source_ids": [
         "nagel03"
-      ]
+      ],
+      "original_figure_crops": [
+        "nagel1"
+      ],
+      "body_words": 134,
+      "body_paragraphs": 3
     },
     {
       "content_number": 3,
-      "planned_topic": "Cation selectivity determines the effect of illumination",
+      "slide_number": 4,
+      "title": "Ion substitution identifies the channel’s selectivity",
       "source_ids": [
         "nagel03"
-      ]
+      ],
+      "original_figure_crops": [
+        "nagel1b"
+      ],
+      "body_words": 136,
+      "body_paragraphs": 3
     },
     {
       "content_number": 4,
-      "planned_topic": "Light pulses control the timing of membrane excitation",
+      "slide_number": 5,
+      "title": "Excised membranes retain rapid light gating",
       "source_ids": [
-        "nagel03",
-        "boyden05"
-      ]
+        "nagel03"
+      ],
+      "original_figure_crops": [
+        "nagel3"
+      ],
+      "body_words": 129,
+      "body_paragraphs": 3
     },
     {
       "content_number": 5,
-      "planned_topic": "Genetic targeting confines optical drive to selected cells",
+      "slide_number": 6,
+      "title": "Membrane expression enables optical drive of neurons",
       "source_ids": [
         "boyden05"
-      ]
+      ],
+      "original_figure_crops": [
+        "boyden1"
+      ],
+      "body_words": 129,
+      "body_paragraphs": 3
     },
     {
       "content_number": 6,
-      "planned_topic": "Millisecond pulses can evoke and time action potentials",
+      "slide_number": 7,
+      "title": "Pulse timing controls spikes with finite reliability",
       "source_ids": [
         "boyden05"
-      ]
+      ],
+      "original_figure_crops": [
+        "boyden2",
+        "boyden1a"
+      ],
+      "body_words": 129,
+      "body_paragraphs": 3
     },
     {
       "content_number": 7,
-      "planned_topic": "Anion channels require a different electrical interpretation",
+      "slide_number": 8,
+      "title": "Anion channels conduct a different class of ions",
       "source_ids": [
         "govorunova15"
-      ]
+      ],
+      "original_figure_crops": [
+        "gov2",
+        "gov3"
+      ],
+      "body_words": 128,
+      "body_paragraphs": 3
     },
     {
       "content_number": 8,
-      "planned_topic": "The chloride gradient constrains optical inhibition",
+      "slide_number": 9,
+      "title": "Optical silencing depends on the chloride gradient",
       "source_ids": [
-        "govorunova15"
-      ]
+        "govorunova15",
+        "boyden05"
+      ],
+      "original_figure_crops": [
+        "gov4",
+        "boyden1a"
+      ],
+      "body_words": 131,
+      "body_paragraphs": 3
     },
     {
       "content_number": 9,
-      "planned_topic": "Red-shifted activation permits tests in intact flies",
+      "slide_number": 10,
+      "title": "Red-shifted activation reaches neurons in intact flies",
       "source_ids": [
-        "inagaki14"
-      ]
+        "inagaki14",
+        "grover20"
+      ],
+      "original_figure_crops": [
+        "inag1",
+        "gro1c"
+      ],
+      "body_words": 119,
+      "body_paragraphs": 3
     },
     {
       "content_number": 10,
-      "planned_topic": "Light-only and expression controls constrain interpretation",
+      "slide_number": 11,
+      "title": "Matched light controls separate activation from sensation",
       "source_ids": [
         "inagaki14"
-      ]
+      ],
+      "original_figure_crops": [
+        "inag2"
+      ],
+      "body_words": 131,
+      "body_paragraphs": 3
     },
     {
       "content_number": 11,
-      "planned_topic": "Experience changes the consequence of neuronal activation",
+      "slide_number": 12,
+      "title": "Social history changes the effect of P1 activation",
       "source_ids": [
         "inagaki14"
-      ]
+      ],
+      "original_figure_crops": [
+        "inag4",
+        "inag3b"
+      ],
+      "body_words": 129,
+      "body_paragraphs": 3
     },
     {
       "content_number": 12,
-      "planned_topic": "Descending-neuron targeting separates behavioral pathways",
+      "slide_number": 13,
+      "title": "Intersectional targeting restricts descending-cell drive",
       "source_ids": [
-        "cande18"
-      ]
+        "cande18",
+        "inagaki14"
+      ],
+      "original_figure_crops": [
+        "cande1",
+        "inag3b"
+      ],
+      "body_words": 140,
+      "body_paragraphs": 3
     },
     {
       "content_number": 13,
-      "planned_topic": "Behavioral measurements resolve more than locomotor speed",
+      "slide_number": 14,
+      "title": "Posture dynamics resolve a broad behavioral repertoire",
       "source_ids": [
         "cande18"
-      ]
+      ],
+      "original_figure_crops": [
+        "cande1bc"
+      ],
+      "body_words": 132,
+      "body_paragraphs": 3
     },
     {
       "content_number": 14,
-      "planned_topic": "Anatomy distinguishes parallel descending pathways",
+      "slide_number": 15,
+      "title": "Descending activation often favors one motor module",
       "source_ids": [
-        "cande18"
-      ]
+        "cande18",
+        "inagaki14"
+      ],
+      "original_figure_crops": [
+        "cande3",
+        "inag3b"
+      ],
+      "body_words": 129,
+      "body_paragraphs": 3
     },
     {
       "content_number": 15,
-      "planned_topic": "Activation depends on the animal\u2019s behavioral state",
+      "slide_number": 16,
+      "title": "The preceding action constrains the activated response",
       "source_ids": [
-        "cande18"
-      ]
+        "cande18",
+        "inagaki14"
+      ],
+      "original_figure_crops": [
+        "cande5",
+        "inag3b"
+      ],
+      "body_words": 128,
+      "body_paragraphs": 3
     },
     {
       "content_number": 16,
-      "planned_topic": "Ciliary coordination controls larval locomotion",
+      "slide_number": 17,
+      "title": "Ciliary arrests coordinate an entire larval body",
       "source_ids": [
         "veraszto17"
-      ]
+      ],
+      "original_figure_crops": [
+        "ver1"
+      ],
+      "body_words": 123,
+      "body_paragraphs": 3
     },
     {
       "content_number": 17,
-      "planned_topic": "Serial reconstruction defines the ciliomotor network",
+      "slide_number": 18,
+      "title": "Serial reconstruction locates ciliomotor connections",
       "source_ids": [
         "veraszto17"
-      ]
+      ],
+      "original_figure_crops": [
+        "ver2"
+      ],
+      "body_words": 132,
+      "body_paragraphs": 3
     },
     {
       "content_number": 18,
-      "planned_topic": "Calcium activity relates network recruitment to movement",
+      "slide_number": 19,
+      "title": "Identified ciliomotor cells occupy different phases",
       "source_ids": [
         "veraszto17"
-      ]
+      ],
+      "original_figure_crops": [
+        "ver6"
+      ],
+      "body_words": 128,
+      "body_paragraphs": 3
     },
     {
       "content_number": 19,
-      "planned_topic": "Cell-targeted activation tests ciliomotor function",
+      "slide_number": 20,
+      "title": "Ablation separates rhythm generation from its output",
       "source_ids": [
         "veraszto17"
-      ]
+      ],
+      "original_figure_crops": [
+        "ver7"
+      ],
+      "body_words": 132,
+      "body_paragraphs": 3
     },
     {
       "content_number": 20,
-      "planned_topic": "A hydrodynamic stimulus recruits a startle response",
+      "slide_number": 21,
+      "title": "Water disturbance recruits coordinated larval defense",
       "source_ids": [
         "bezares18"
-      ]
+      ],
+      "original_figure_crops": [
+        "bez1"
+      ],
+      "body_words": 127,
+      "body_paragraphs": 3
     },
     {
       "content_number": 21,
-      "planned_topic": "Polycystin-bearing sensory cells define a candidate input",
+      "slide_number": 22,
+      "title": "Collar receptors respond to local water movement",
       "source_ids": [
         "bezares18"
-      ]
+      ],
+      "original_figure_crops": [
+        "bez2"
+      ],
+      "body_words": 130,
+      "body_paragraphs": 3
     },
     {
       "content_number": 22,
-      "planned_topic": "Genetic disruption tests sensory-channel dependence",
+      "slide_number": 23,
+      "title": "Polycystin mutations disrupt startle and protection",
       "source_ids": [
         "bezares18"
-      ]
+      ],
+      "original_figure_crops": [
+        "bez4",
+        "bez3"
+      ],
+      "body_words": 121,
+      "body_paragraphs": 3
     },
     {
       "content_number": 23,
-      "planned_topic": "Larval hunting includes a coordinated orienting sequence",
+      "slide_number": 24,
+      "title": "Hunting begins with coordinated eye and tail movements",
       "source_ids": [
         "antinucci19"
-      ]
+      ],
+      "original_figure_crops": [
+        "ant1"
+      ],
+      "body_words": 129,
+      "body_paragraphs": 3
     },
     {
       "content_number": 24,
-      "planned_topic": "Identified pretectal cells participate in prey responses",
+      "slide_number": 25,
+      "title": "Pretectal populations separate prey input from action",
       "source_ids": [
         "antinucci19"
-      ]
+      ],
+      "original_figure_crops": [
+        "ant2ab"
+      ],
+      "body_words": 138,
+      "body_paragraphs": 3
     },
     {
       "content_number": 25,
-      "planned_topic": "Optical activation tests initiation of hunting behavior",
+      "slide_number": 26,
+      "title": "Activating one pretectal cell can recruit hunting",
       "source_ids": [
         "antinucci19"
-      ]
+      ],
+      "original_figure_crops": [
+        "ant5",
+        "ant3"
+      ],
+      "body_words": 125,
+      "body_paragraphs": 3
     },
     {
       "content_number": 26,
-      "planned_topic": "Cell ablation tests contribution to natural hunting",
+      "slide_number": 27,
+      "title": "Pretectal ablation impairs hunting selectively",
       "source_ids": [
         "antinucci19"
-      ]
+      ],
+      "original_figure_crops": [
+        "ant6"
+      ],
+      "body_words": 127,
+      "body_paragraphs": 3
     },
     {
       "content_number": 27,
-      "planned_topic": "Connectivity constrains the interpretation of activation",
+      "slide_number": 28,
+      "title": "Tectal activation can recruit hunting without retinal input",
       "source_ids": [
         "antinucci19"
-      ]
+      ],
+      "original_figure_crops": [
+        "ant7"
+      ],
+      "body_words": 134,
+      "body_paragraphs": 3
     },
     {
       "content_number": 28,
-      "planned_topic": "Untethered imaging retains interaction between animals",
+      "slide_number": 29,
+      "title": "Tracking optics retain contact between untethered flies",
       "source_ids": [
         "grover20"
-      ]
+      ],
+      "original_figure_crops": [
+        "gro1"
+      ],
+      "body_words": 133,
+      "body_paragraphs": 3
     },
     {
       "content_number": 29,
-      "planned_topic": "Motion correction separates movement from fluorescence",
+      "slide_number": 30,
+      "title": "Two-color imaging constrains movement artifacts",
       "source_ids": [
         "grover20"
-      ]
+      ],
+      "original_figure_crops": [
+        "gro2"
+      ],
+      "body_words": 128,
+      "body_paragraphs": 3
     },
     {
       "content_number": 30,
-      "planned_topic": "Activity during social behavior remains correlational",
+      "slide_number": 31,
+      "title": "Courtship-related activity changes during copulation",
       "source_ids": [
         "grover20"
-      ]
+      ],
+      "original_figure_crops": [
+        "gro2",
+        "gro3"
+      ],
+      "body_words": 132,
+      "body_paragraphs": 3
     },
     {
       "content_number": 31,
-      "planned_topic": "Wireless amplification removes the recording tether",
+      "slide_number": 32,
+      "title": "Wireless telemetry removes the external recording tether",
       "source_ids": [
         "szuts11"
-      ]
+      ],
+      "original_figure_crops": [
+        "sz1"
+      ],
+      "body_words": 140,
+      "body_paragraphs": 3
     },
     {
       "content_number": 32,
-      "planned_topic": "Bandwidth and sampling constrain the recorded signal",
+      "slide_number": 33,
+      "title": "Sampling and bandwidth define the observable signal",
       "source_ids": [
         "szuts11"
-      ]
+      ],
+      "original_figure_crops": [
+        "sz2"
+      ],
+      "body_words": 129,
+      "body_paragraphs": 3
     },
     {
       "content_number": 33,
-      "planned_topic": "Recording quality must be tested during movement",
+      "slide_number": 34,
+      "title": "Transmission quality is tested against a wired signal",
       "source_ids": [
         "szuts11"
-      ]
+      ],
+      "original_figure_crops": [
+        "sz4"
+      ],
+      "body_words": 130,
+      "body_paragraphs": 3
     },
     {
       "content_number": 34,
-      "planned_topic": "Wireless logging allows behavior during free flight",
+      "slide_number": 35,
+      "title": "Wireless recordings retain three-dimensional flight",
       "source_ids": [
         "zhang24"
-      ]
+      ],
+      "original_figure_crops": [
+        "sny1"
+      ],
+      "body_words": 125,
+      "body_paragraphs": 3
     },
     {
       "content_number": 35,
-      "planned_topic": "Synchronized trajectories relate spikes to external events",
+      "slide_number": 36,
+      "title": "Neural and positional clocks require synchronization",
       "source_ids": [
         "zhang24"
-      ]
+      ],
+      "original_figure_crops": [
+        "sny1"
+      ],
+      "body_words": 131,
+      "body_paragraphs": 3
     },
     {
       "content_number": 36,
-      "planned_topic": "Experimenter identity can influence neural recordings",
+      "slide_number": 37,
+      "title": "Experimenter identity modulates hippocampal firing",
       "source_ids": [
         "zhang24"
-      ]
+      ],
+      "original_figure_crops": [
+        "sny1"
+      ],
+      "body_words": 125,
+      "body_paragraphs": 3
     },
     {
       "content_number": 37,
-      "planned_topic": "Cue controls constrain an interpretation of social coding",
+      "slide_number": 38,
+      "title": "Matched behavior constrains experimenter-related coding",
       "source_ids": [
         "zhang24"
-      ]
+      ],
+      "original_figure_crops": [
+        "sny2",
+        "sny1d"
+      ],
+      "body_words": 135,
+      "body_paragraphs": 3
     },
     {
       "content_number": 38,
-      "planned_topic": "Repeated flights permit comparisons across natural episodes",
+      "slide_number": 39,
+      "title": "Large ensembles can be recorded during aerial foraging",
       "source_ids": [
         "forli25"
-      ]
+      ],
+      "original_figure_crops": [
+        "for1"
+      ],
+      "body_words": 129,
+      "body_paragraphs": 3
     },
     {
       "content_number": 39,
-      "planned_topic": "Activity after flight can retain structured temporal patterns",
+      "slide_number": 40,
+      "title": "Rest events replay compressed flight sequences",
       "source_ids": [
-        "forli25"
-      ]
+        "forli25",
+        "zhang24"
+      ],
+      "original_figure_crops": [
+        "for2",
+        "sny1d"
+      ],
+      "body_words": 128,
+      "body_paragraphs": 3
     },
     {
       "content_number": 40,
-      "planned_topic": "Representation stability differs from a causal intervention",
+      "slide_number": 41,
+      "title": "Flight-related representations track a motor rhythm",
       "source_ids": [
-        "forli25"
-      ]
+        "forli25",
+        "zhang24"
+      ],
+      "original_figure_crops": [
+        "for3",
+        "sny1d"
+      ],
+      "body_words": 126,
+      "body_paragraphs": 3
     },
     {
       "content_number": 41,
-      "planned_topic": "Wireless power supplies an implanted light source",
+      "slide_number": 42,
+      "title": "An internal implant can receive wireless optical power",
       "source_ids": [
         "montgomery15"
-      ]
+      ],
+      "original_figure_crops": [
+        "mon1"
+      ],
+      "body_words": 130,
+      "body_paragraphs": 3
     },
     {
       "content_number": 42,
-      "planned_topic": "Power delivery depends on position and device geometry",
+      "slide_number": 43,
+      "title": "Position, pulse duty and heating constrain stimulation",
       "source_ids": [
         "montgomery15"
-      ]
+      ],
+      "original_figure_crops": [
+        "mon2"
+      ],
+      "body_words": 132,
+      "body_paragraphs": 3
     },
     {
       "content_number": 43,
-      "planned_topic": "Implanted stimulation must retain behavioral controls",
+      "slide_number": 44,
+      "title": "Wireless cortical stimulation changes turning behavior",
       "source_ids": [
         "montgomery15"
-      ]
+      ],
+      "original_figure_crops": [
+        "mon3"
+      ],
+      "body_words": 124,
+      "body_paragraphs": 3
     },
     {
       "content_number": 44,
-      "planned_topic": "Causal claims require matched perturbation and behavior",
+      "slide_number": 45,
+      "title": "Causal claims need matched behavioral controls",
       "source_ids": [
-        "cande18",
-        "antinucci19",
-        "montgomery15"
-      ]
+        "montgomery15",
+        "antinucci19"
+      ],
+      "original_figure_crops": [
+        "mon5",
+        "ant6"
+      ],
+      "body_words": 131,
+      "body_paragraphs": 3
     }
   ]
 }
