@@ -1,16 +1,19 @@
 {
   "poole": {
-    "downloaded": false,
+    "downloaded": true,
     "attempts": [
       {
         "url": "https://www.nature.com/articles/434455a.pdf",
         "status": 200,
         "pdf": false
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/poole.pdf",
+    "source": "Instructor-uploaded PDF"
   },
   "stoeger": {
-    "downloaded": false,
+    "downloaded": true,
     "attempts": [
       {
         "url": "http://www.cell.com/article/S096098221201086X/pdf",
@@ -27,7 +30,10 @@
         "status": 404,
         "pdf": false
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/stoeger.pdf",
+    "source": "Instructor-uploaded PDF"
   },
   "mirror": {
     "downloaded": true,
@@ -38,7 +44,9 @@
         "status": 200,
         "pdf": true
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/mirror.pdf"
   },
   "cooperation": {
     "downloaded": true,
@@ -49,17 +57,22 @@
         "status": 200,
         "pdf": true
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/cooperation.pdf"
   },
   "matriarch": {
-    "downloaded": false,
+    "downloaded": true,
     "attempts": [
       {
         "url": "https://www.science.org/doi/pdf/10.1126/science.1057895",
         "status": 403,
         "pdf": false
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/matriarch.pdf",
+    "source": "Instructor-uploaded PDF"
   },
   "leadership": {
     "downloaded": true,
@@ -70,7 +83,9 @@
         "status": 200,
         "pdf": true
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/leadership.pdf"
   },
   "voices": {
     "downloaded": true,
@@ -91,7 +106,9 @@
         "status": 200,
         "pdf": true
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/voices.pdf"
   },
   "disruption": {
     "downloaded": true,
@@ -102,7 +119,9 @@
         "status": 200,
         "pdf": true
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/disruption.pdf"
   },
   "reassurance": {
     "downloaded": true,
@@ -113,10 +132,9 @@
         "status": 200,
         "pdf": true
       }
-    ]
-  },
-  "family": {
-    "error": "wrong DOI excluded"
+    ],
+    "available": true,
+    "file": "papers/reassurance.pdf"
   },
   "body": {
     "downloaded": true,
@@ -127,7 +145,9 @@
         "status": 200,
         "pdf": true
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/body.pdf"
   },
   "insight": {
     "downloaded": true,
@@ -138,7 +158,9 @@
         "status": 200,
         "pdf": true
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/insight.pdf"
   },
   "quantity": {
     "downloaded": true,
@@ -149,31 +171,27 @@
         "status": 200,
         "pdf": true
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/quantity.pdf"
   },
   "ven": {
-    "downloaded": false,
+    "downloaded": true,
     "attempts": [
       {
         "url": "https://anatomypubs.onlinelibrary.wiley.com/doi/pdf/10.1002/ar.20829",
         "status": 403,
         "pdf": false
       }
-    ]
+    ],
+    "available": true,
+    "file": "papers/ven.pdf",
+    "source": "Instructor-uploaded PDF"
   },
-  "neurons": {
-    "downloaded": false,
-    "attempts": [
-      {
-        "url": "https://link.springer.com/content/pdf/10.1007/s00429-010-0288-3.pdf",
-        "status": 200,
-        "pdf": false
-      },
-      {
-        "url": "https://link.springer.com/content/pdf/10.1007/s00429-010-0288-3",
-        "status": 200,
-        "pdf": false
-      }
-    ]
+  "newborn": {
+    "available": true,
+    "downloaded": true,
+    "file": "papers/giraffe.pdf",
+    "source": "Instructor-uploaded PDF"
   }
 }

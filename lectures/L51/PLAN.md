@@ -1,27 +1,21 @@
-# Lecture 51 preparation
+# Lecture 51 build record
 
-Authoritative default-branch revision: 392e085 (refreshed from origin for this request).
+Authoritative default-branch revision: 392e085, refreshed for this request.
 Exact title: Elephants II: Comparative Cognition, Vocal Learning, and Social Neurobiology
 Exact date: Date TBD
 
-Status: research paused at the instructor's missing-PDF gate. Do not export a partial deck.
+46 slides: title, 44 content slides, six-point Key takeaways. Three academic paragraphs per content slide, complete teaching transcripts and DOI references. All 44 content slides carry original article figures drawn from 14 primary papers. Arial throughout; new glacier-blue-paper theme. The color preference remains a warning because many foundational sources are grayscale; published figures were never recolored.
 
-## Content allocation to develop after source analysis
+The narrative connects sensory-appropriate cognitive tests, neuronal morphology, vocal imitation, social knowledge and affiliative behavior. Controlled findings are separated from hypotheses. Morphology does not establish empathy circuits; behavioral tasks do not identify elephant-specific transmitters, channels, or causal circuitry.
 
-44 content slides: comparative cognition and sensory/task controls (12); cortical organization, neuron morphology, and limits of anatomical inference (8); vocal production learning and imitation controls (8); social recognition, leadership, disruption, and reassurance (12); comparative interpretation and unresolved neural mechanisms (4). One title slide and one six-point Key takeaways slide bring the total to 46.
+Build with:
+```sh
+python lectures/L51/write_spec.py
+python tools/build_lecture.py lectures/L51/lecture.json
+python lectures/L51/finalize.py
+python tools/check_lecture.py lectures/L51/Neuroethology_Lecture51_FA2026.pptx --lecture 51
+```
 
-This allocation is provisional, not a final slide outline or a completed scientific analysis. Claims and figure selections must be checked in the source PDFs before writing slides. Do not infer an elephant-specific transmitter, receptor, ion channel, or causal social circuit from a behavioral result or a neuronal shape.
+The finalizer sets the exact title as one editable Arial paragraph and adds complete DOI links to notes. Native output passes the repository checker with zero failures and the color preference warning. All 46 rendered slides were inspected for text fit, original labels and caption readability. Sources/validation.json and figure-provenance.json record the checks. Public Presenton delivery uses fresh validated HTML translated from the verified native deck, preserving source image assets and speaker notes.
 
-## Remaining work
-
-1. Receive the five source PDFs listed in PAPERS.md and verify their complete bibliographic details against the papers.
-2. Analyze all original papers, including preparation, controls, measured findings, and limits. Compare against earlier elephant content to avoid repetition.
-3. Select and visually inspect original PDF crops using tools/crop_figure.py or tools/crop_panels.py. Preserve source colors, panel letters, axes, units, and scale bars. Provide anatomy images whenever anatomy is discussed.
-4. Choose a new allowed palette and record it in course/themes.json only after final validation. Do not reuse prior Atlantic ink / pearl or rosewood themes.
-5. Write the 44-slide spec with 3–5 paragraphs, teaching transcripts, DOI references, and source-caption provenance. At least 40 content slides need images, at least 34 primary-paper figures, and color is sought on at least half.
-6. Build with tools/build_lecture.py, run tools/check_lecture.py, and render and inspect every slide. Audit exact title/date, slide count, Arial, notes, source provenance, and figure readability.
-7. Export once through Presenton, obtain a fresh public PPTX URL and browser preview, and verify both links before delivery.
-
-## Setup evidence
-
-Git fetch and default-branch refresh succeeded without discarding user changes. Existing Python virtual environment can open all nine downloaded PDFs. The repository's crop_figure.py rendered a source PDF successfully through pdftoppm. No extra package installation or environment configuration was needed for this preparation. No final lecture build, full slide QA, or public export has run.
+Environment setup: runtime and onboarding skills applied; network access, Git fetch, Python, source PDF opening, Poppler cropping, LibreOffice rendering, and repository build/check tools verified. No new packages or environment configuration were required.

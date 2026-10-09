@@ -1,0 +1,441 @@
+{
+  "papers": {
+    "mirror": "papers/mirror.pdf",
+    "quantity": "papers/quantity.pdf",
+    "cooperation": "papers/cooperation.pdf",
+    "voices": "papers/voices.pdf",
+    "stoeger": "papers/stoeger.pdf",
+    "reassurance": "papers/reassurance.pdf",
+    "insight": "papers/insight.pdf",
+    "disruption": "papers/disruption.pdf",
+    "giraffe": "papers/giraffe.pdf",
+    "body": "papers/body.pdf",
+    "poole": "papers/poole.pdf",
+    "matriarch": "papers/matriarch.pdf",
+    "ven": "papers/ven.pdf",
+    "leadership": "papers/leadership.pdf"
+  },
+  "dpi": 200,
+  "crops": {
+    "quantity_setup": [
+      "quantity",
+      2,
+      [
+        0.064,
+        0.536,
+        0.49,
+        0.77
+      ]
+    ],
+    "quantity_ratio": [
+      "quantity",
+      3,
+      [
+        0.515,
+        0.626,
+        0.931,
+        0.848
+      ]
+    ],
+    "quantity_disparity": [
+      "quantity",
+      4,
+      [
+        0.07,
+        0.065,
+        0.489,
+        0.319
+      ]
+    ],
+    "insight_setup": [
+      "insight",
+      2,
+      [
+        0.095,
+        0.077,
+        0.386,
+        0.349
+      ]
+    ],
+    "insight_cube": [
+      "insight",
+      2,
+      [
+        0.402,
+        0.077,
+        0.675,
+        0.349
+      ]
+    ],
+    "insight_learning": [
+      "insight",
+      3,
+      [
+        0.095,
+        0.077,
+        0.617,
+        0.543
+      ]
+    ],
+    "cooperation_setup": [
+      "cooperation",
+      2,
+      [
+        0.066,
+        0.067,
+        0.928,
+        0.495
+      ]
+    ],
+    "cooperation_delay": [
+      "cooperation",
+      3,
+      [
+        0.1,
+        0.065,
+        0.465,
+        0.302
+      ]
+    ],
+    "cooperation_control": [
+      "cooperation",
+      3,
+      [
+        0.515,
+        0.065,
+        0.937,
+        0.45
+      ]
+    ],
+    "mirror_setup": [
+      "mirror",
+      2,
+      [
+        0.07,
+        0.065,
+        0.49,
+        0.317
+      ]
+    ],
+    "mirror_mark": [
+      "mirror",
+      2,
+      [
+        0.515,
+        0.065,
+        0.931,
+        0.514
+      ]
+    ],
+    "mirror_rates": [
+      "mirror",
+      3,
+      [
+        0.096,
+        0.065,
+        0.464,
+        0.341
+      ]
+    ],
+    "body_setup": [
+      "body",
+      3,
+      [
+        0.258,
+        0.056,
+        0.808,
+        0.49
+      ]
+    ],
+    "body_control": [
+      "body",
+      8,
+      [
+        0.258,
+        0.056,
+        0.808,
+        0.402
+      ]
+    ],
+    "body_results": [
+      "body",
+      4,
+      [
+        0.258,
+        0.516,
+        0.607,
+        0.767
+      ]
+    ],
+    "ven_cells": [
+      "ven",
+      2,
+      [
+        0.102,
+        0.12,
+        0.892,
+        0.832
+      ]
+    ],
+    "ven_fi": [
+      "ven",
+      3,
+      [
+        0.102,
+        0.103,
+        0.892,
+        0.533
+      ]
+    ],
+    "ven_regions": [
+      "ven",
+      4,
+      [
+        0.51,
+        0.103,
+        0.903,
+        0.634
+      ]
+    ],
+    "ven_layers": [
+      "ven",
+      5,
+      [
+        0.102,
+        0.103,
+        0.894,
+        0.481
+      ]
+    ],
+    "newborn_brain": [
+      "giraffe",
+      3,
+      [
+        0.112,
+        0.092,
+        0.472,
+        0.501
+      ]
+    ],
+    "newborn_motor_cells": [
+      "giraffe",
+      8,
+      [
+        0.128,
+        0.091,
+        0.873,
+        0.851
+      ]
+    ],
+    "newborn_frontal_cells": [
+      "giraffe",
+      9,
+      [
+        0.128,
+        0.091,
+        0.877,
+        0.853
+      ]
+    ],
+    "newborn_motor": [
+      "giraffe",
+      13,
+      [
+        0.11,
+        0.091,
+        0.892,
+        0.793
+      ]
+    ],
+    "newborn_frontal": [
+      "giraffe",
+      14,
+      [
+        0.11,
+        0.091,
+        0.892,
+        0.593
+      ]
+    ],
+    "newborn_occipital": [
+      "giraffe",
+      15,
+      [
+        0.11,
+        0.091,
+        0.892,
+        0.695
+      ]
+    ],
+    "newborn_development": [
+      "giraffe",
+      23,
+      [
+        0.21,
+        0.091,
+        0.79,
+        0.676
+      ]
+    ],
+    "newborn_spines": [
+      "giraffe",
+      24,
+      [
+        0.182,
+        0.091,
+        0.818,
+        0.755
+      ]
+    ],
+    "poole_spectra": [
+      "poole",
+      1,
+      [
+        0.11955705705705706,
+        0.536,
+        0.36524024024024027,
+        0.8359953216374268
+      ]
+    ],
+    "poole_comparison": [
+      "poole",
+      1,
+      [
+        0.3786411411411411,
+        0.536,
+        0.8843018018018018,
+        0.8378245614035088
+      ]
+    ],
+    "koshik_spectra": [
+      "stoeger",
+      2,
+      [
+        0.092,
+        0.104,
+        0.631,
+        0.334
+      ]
+    ],
+    "koshik_comparison": [
+      "stoeger",
+      3,
+      [
+        0.092,
+        0.104,
+        0.491,
+        0.264
+      ]
+    ],
+    "koshik_production": [
+      "stoeger",
+      4,
+      [
+        0.092,
+        0.104,
+        0.632,
+        0.64
+      ]
+    ],
+    "matriarch_results": [
+      "matriarch",
+      2,
+      [
+        0.218,
+        0.638,
+        0.934,
+        0.909
+      ]
+    ],
+    "leader_results": [
+      "leadership",
+      5,
+      [
+        0.102,
+        0.366,
+        0.932,
+        0.675
+      ]
+    ],
+    "voices_results": [
+      "voices",
+      3,
+      [
+        0.063,
+        0.064,
+        0.936,
+        0.629
+      ]
+    ],
+    "disruption_familiarity": [
+      "disruption",
+      5,
+      [
+        0.211,
+        0.119,
+        0.79,
+        0.42
+      ]
+    ],
+    "disruption_dominance": [
+      "disruption",
+      6,
+      [
+        0.211,
+        0.119,
+        0.79,
+        0.43
+      ]
+    ],
+    "reassurance_contact": [
+      "reassurance",
+      8,
+      [
+        0.3,
+        0.116,
+        0.77,
+        0.359
+      ]
+    ],
+    "reassurance_timing": [
+      "reassurance",
+      8,
+      [
+        0.3,
+        0.464,
+        0.907,
+        0.787
+      ]
+    ],
+    "reassurance_types": [
+      "reassurance",
+      10,
+      [
+        0.3,
+        0.11,
+        0.907,
+        0.429
+      ]
+    ],
+    "ven_acc": [
+      "ven",
+      2,
+      [
+        0.645,
+        0.12,
+        0.894,
+        0.424
+      ]
+    ],
+    "newborn_spine_micro": [
+      "giraffe",
+      8,
+      [
+        0.401,
+        0.092,
+        0.569,
+        0.326
+      ]
+    ]
+  }
+}
