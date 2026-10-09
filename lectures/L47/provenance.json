@@ -1,0 +1,33 @@
+{
+  "authoritative_repository": "jordanxxlopez/NEUROETHOLOGY",
+  "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
+  "default_commit": "0611c459a36727ac4eac43703243addde2a97af4",
+  "sources": [
+    {
+      "reference": "Nath RD, Bedbrook CN, Abrams MJ, Basinger T, Bois JS, Prober DA, Sternberg PW, Gradinaru V, Goentoro L (2017). The Jellyfish Cassiopea Exhibits a Sleep-like State. Current Biology 27(19): 2984–2990.e3. https://doi.org/10.1016/j.cub.2017.08.014",
+      "pdf_url": "https://authors.library.caltech.edu/records/psp7j-nmv35/files/nihms907190.pdf",
+      "pdf_sha256": "3c6605f2ed5302820489a13afc2753643c21b632ea8cb1adcb994fade7e35e66",
+      "metadata_verified": "Crossref DOI endpoint and article front matter"
+    },
+    {
+      "reference": "Abrams MJ, Ohdera A, Francis DA, Donayre O, Chen H, Lu K, Hsu CY, Zeigler H, Harland RM (2025). Sleeping upside-down: Knockdown of a sleep-associated gene induces daytime sleep in the jellyfish Cassiopea. Proceedings of the National Academy of Sciences 122(29): e2505074122. https://doi.org/10.1073/pnas.2505074122",
+      "pdf_url": "https://europepmc.org/articles/PMC12305049?pdf=render",
+      "pdf_sha256": "a54e52ef3e882e438d38c59836ae300c347f6900c9e6894be43551658f3dd9d0",
+      "metadata_verified": "Crossref DOI endpoint and article front matter"
+    },
+    {
+      "reference": "Aguillon R, Harduf A, Sagi D, Simon-Blecher N, Levy O, Appelbaum L (2026). DNA damage modulates sleep drive in basal cnidarians with divergent chronotypes. Nature Communications 17: 3. https://doi.org/10.1038/s41467-025-67400-5",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-67400-5.pdf",
+      "pdf_sha256": "55ea16ca9b9dcf9fefe72f5a6b08b26cdafe641a1709993a10072ee88f47e527",
+      "metadata_verified": "Crossref DOI endpoint and article front matter"
+    }
+  ],
+  "web_searches": [
+    "https://api.crossref.org/works?query.title=jellyfish%20sleep%20like%20state&rows=6",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3Ajellyfish%20AND%20TITLE_ABS%3Asleep&format=json",
+    "https://api.openalex.org/works/https://doi.org/10.1016/j.cub.2017.08.014"
+  ],
+  "figures": "Original published panels cropped using repository tools. No figures generated, redrawn, recolored, or replotted.",
+  "document_handling": "Academic documents are evidence; task instructions come from the user and refreshed repository.",
+  "date": "Date TBD, as prescribed for special topics in the repository schedule."
+}

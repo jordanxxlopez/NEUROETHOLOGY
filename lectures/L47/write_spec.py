@@ -1,0 +1,250 @@
+from pathlib import Path
+import json,re
+root=Path(__file__).resolve().parent
+R={
+'N':'Nath RD, Bedbrook CN, Abrams MJ, Basinger T, Bois JS, Prober DA, Sternberg PW, Gradinaru V, Goentoro L (2017). The Jellyfish Cassiopea Exhibits a Sleep-like State. Current Biology 27(19): 2984–2990.e3. https://doi.org/10.1016/j.cub.2017.08.014',
+'G':'Abrams MJ, Ohdera A, Francis DA, Donayre O, Chen H, Lu K, Hsu CY, Zeigler H, Harland RM (2025). Sleeping upside-down: Knockdown of a sleep-associated gene induces daytime sleep in the jellyfish Cassiopea. Proceedings of the National Academy of Sciences 122(29): e2505074122. https://doi.org/10.1073/pnas.2505074122',
+'D':'Aguillon R, Harduf A, Sagi D, Simon-Blecher N, Levy O, Appelbaum L (2026). DNA damage modulates sleep drive in basal cnidarians with divergent chronotypes. Nature Communications 17: 3. https://doi.org/10.1038/s41467-025-67400-5'}
+C={'N':'Nath et al. (2017)','G':'Abrams et al. (2025)','D':'Aguillon et al. (2026)'}
+F={}
+def fig(k,ref,num,desc):F[k]={'path':'figures/'+k+'.png','kind':'article','caption':C[ref].replace(' et al.','')+', Fig. '+num+'. '+desc,'source_url':R[ref].split()[-1]}
+for args in [
+('n1b','N','1(B)','The upside-down jellyfish and its bell'),('n1c','N','1(C)','Rhopalium and symbiotic algae in stained bell tissue'),('n1d','N','1(D)','Bell contractions and intensity-based pulse traces'),('n2ab','N','2(A–B)','Day and night traces and inter-pulse intervals'),('n2cd','N','2(C–D)','Individual and normalized activity over six days'),('n2efg','N','2(E–G)','Day–night activity with and without feeding'),('n3a','N','3(A)','The published water-column drop-test preparation'),('n3bc','N','3(B–C)','Latency to first pulse and return to the bottom'),('n3de','N','3(D–E)','Rapid recovery of responsiveness after repeated drops'),('n4abc','N','4(A–C)','Six-hour deprivation and daytime perturbation controls'),('n4def','N','4(D–F)','Twelve-hour deprivation and daytime perturbation controls'),
+('g1bc','G','1(B–C)','Cassiopea and the radially distributed rhopalia'),('g1de','G','1(D–E)','Pulse tracking and state-dependent drop-test responses'),('g1g','G','1(G)','Sleep rebound after light-based deprivation'),('g2bg','G','2(A–G)','Published transcriptomic comparisons and gene-expression heat maps'),('g3a','G','3(A)','Published receptor-like protein predictions and charged residues'),('g3b','G','3(B)','Rhopalial electrophysiology and cholinergic drug responses'),('g3c','G','3(C)','Rhopalial anatomy and chrnal-E transcript localization'),('g3c2','G','3(C,c2)','Brightfield rhopalium with labeled segments and scale bar'),('g4ab','G','4(A–B)','Reduced transcript staining and RNAi expression validation'),('g4c','G','4(C)','Daily sleep redistribution after chrnal-E knockdown'),('g4de','G','4(D–E)','Knockdown under deprivation and field expression rhythms'),
+('d1ab','D','1(a–d)','Cassiopea recording preparation and detected contractions'),('d1efgh','D','1(e–k)','Light-response latency and the pulse-rate sleep threshold'),('d1ijk','D','1(e–k)','Slow-pulsing bout duration and stimulus responsiveness'),('d1lmn','D','1(l–n)','Daily sleep percentages and rhythm'),('d1op','D','1(o–s)','Sleep rebound after nighttime turbulence'),('d1qrs','D','1(o–s)','Wild jellyfish size, activity, and estimated sleep timing'),('d3a','D','3(a–e)','Total daily sleep across species and Clock genotype'),('d3pqr','D','3(p–u)','Melatonin-induced sleep during the jellyfish active phase'),('d3mno','D','3(j–o)','Melatonin-induced sleep during the anemone active phase'),('d4ab','D','4(a–b)','Sleep time preceding cell-sampling intervals'),('d4e','D','4(e)','Neuron-enriched peri-rhopalial tissue and algal fluorescence'),('d4f','D','4(f)','Genetically labeled neurons in Nematostella'),('d4gh','D','4(a–l)','Nuclear DNA-damage-response staining in both cnidarians'),('d4ik','D','4(i,k)','Cassiopea DNA-damage-response foci across sleep and deprivation'),('d4jl','D','4(j,l)','Anemone DNA-damage-response foci across sleep and deprivation'),('d5af','D','5(a–p)','Jellyfish nuclear staining and damage response after ultraviolet exposure'),('d5kl','D','5(a–p)','Jellyfish sleep after ultraviolet exposure'),('d5gh','D','5(g–h)','Anemone damage responses after ultraviolet radiation or etoposide'),('d5mnop','D','5(m–p)','Anemone sleep after ultraviolet radiation or etoposide'),('d5ij','D','5(i–j)','Lower damage-response foci after melatonin treatment'),('d5de','D','5(d–e)','Nuclear staining after melatonin treatment')]:fig(*args)
+S=[]
+def add(title,key,ref,text,extra=None,second=None):
+ body=text.strip().split('\n\n');refs=[R[ref]]
+ if second and R[second[1]] not in refs:refs.append(R[second[1]])
+ slide={'layout':'figures-right' if second else 'figure-right','title':title,'body':body,'cite':C[ref],'refs':refs,'transcript':[[re.sub(r'\*\*|_', '',p),[extra]] if i==0 and extra else re.sub(r'\*\*|_', '',p) for i,p in enumerate(body)]}
+ if second:slide['figures']=[F[key],F[second[0]]]
+ else:slide['figure']=F[key]
+ S.append(slide)
+add('Cassiopea sleeps while its bell keeps pulsing','n1b','N','''The upside-down jellyfish _Cassiopea_ rests with its bell against the substrate and its oral arms facing the water. It inhabits shallow tropical waters and contains photosynthetic symbionts, organisms living within its tissues that obtain energy from light.
+
+Its bell contracts rhythmically rather than remaining motionless. Nath and colleagues tracked these contractions across repeated 12-hour light and 12-hour dark periods, allowing activity to be measured without requiring the animal to swim through an arena.
+
+A nighttime reduction in pulsing suggested a **sleep-like state**, but inactivity alone could also reflect environmental effects. The investigators therefore measured responsiveness, rapid recovery after stimulation, and compensation after disturbed rest before identifying the behavior as sleep.''',extra='Sleep is identified from a coordinated set of behavioral properties; a low movement rate by itself is insufficient.')
+add('Sleep requires more than low activity','n3bc','N','''**Behavioral sleep** is a reversible state of reduced activity and reduced responsiveness that is regulated by prior sleep loss. These criteria allow sleep to be assessed in animals for which mammalian brain-wave measurements are unavailable.
+
+Nath and colleagues combined continuous pulse tracking with a controlled drop into the water column. The response measures were the delay until the first bell contraction and the time required to return to the supporting surface.
+
+The first-pulse delay averaged 2.1 seconds during the day and 5.9 seconds at night. Longer response latency distinguishes the nighttime condition from equally stationary but responsive wakefulness; repeated stimulation and deprivation experiments were required to establish reversibility and homeostasis.''')
+add('Rhopalia couple sensory input to bell activity','n1c','N','''A **rhopalium** is a marginal sensory organ involved in detecting light and orientation relative to gravity. Rhopalia are distributed around the bell rather than assembled into a centralized brain, and their activity controls the rhythmic pulsing used to quantify behavior.
+
+Nath and colleagues stained bell tissue with phalloidin, which labels actin-rich structures, while the symbiotic algae produced their own fluorescence. The preparation distinguished the rhopalial region from the surrounding symbiont-containing tissue.
+
+The existence of distributed sensory organs prevents absence of a brain from being confused with absence of neural organization. Pulse tracking measures the motor consequence of this system; it does not identify which rhopalial cells initiate or terminate a sleep bout.''')
+add('Bell movement provides a continuous behavioral record','n1d','N','''A **pulse trace** records changes in image intensity as the bell relaxes and contracts. Nath and colleagues selected a region containing one jellyfish and measured its average pixel intensity in each frame, producing repeated peaks associated with bell movement.
+
+The **inter-pulse interval** is the time between successive pulse events. Recording this interval separates frequent rhythmic contractions from prolonged pauses, even when the animal remains in the same position throughout the experiment.
+
+A representative ten-second trace resolved individual pulses rather than only a daily activity average. This method measures movement, not action potentials, so changes in the trace cannot by themselves locate the altered activity within a sensory organ, nerve net, or muscle.''')
+add('Nighttime pulsing declines across individual animals','n2cd','N','''Nath and colleagues counted pulses during the first 20 minutes of each hour over six consecutive days and nights. This sampling retained an hourly view of behavior while comparing the same jellyfish repeatedly across the light–dark cycle.
+
+Mean activity fell from 1,155 pulses per 20 minutes during daytime to 781 pulses per 20 minutes at night, a decrease of about 32 percent. Individual animals differed in their baseline pulse rates but shared the nighttime reduction.
+
+Normalizing each animal to its own daytime activity preserved the common pattern. The result establishes a reproducible daily change in motor output; it does not establish that every nighttime minute is sleep or that pulse rates can be compared across body sizes without adjustment.''')
+add('Nighttime pauses lengthen the inter-pulse interval','n2ab','N','''Nighttime slowing contains two components: a longer typical interval between contractions and more frequent prolonged pauses. Nath and colleagues compared daytime and nighttime interval distributions rather than treating the reduction in pulse counts as a uniform change in rhythm.
+
+In the representative distribution, the 95th percentile of the inter-pulse interval was 2.5 seconds during daytime and 13.9 seconds at night. This percentile describes the long-interval tail, where sustained pauses become especially apparent.
+
+Long pauses are compatible with deeper quiescence, meaning reduced behavioral activity, but interval duration is still a motor measurement. Stimulus-response tests must connect slow pulsing to diminished responsiveness before those intervals can be used as a practical sleep classifier.''')
+add('Feeding does not explain the daily activity difference','n2efg','N','''Feeding transiently increased pulsing and occurred during daytime in the initial recordings. A daily food response could therefore inflate daytime activity and produce an apparent day–night difference without a distinct resting state.
+
+Nath and colleagues repeated tracking over three consecutive days and nights without feeding. Nighttime activity remained lower, including after normalization to each animal’s daytime pulse rate, so the scheduled feeding event was not necessary for the daily difference.
+
+Food delivered at night could nevertheless transiently increase activity toward daytime levels. The combination separates a persistent daily reduction from an acute food response and supports rapid reversibility, while leaving open whether light and internal physiological signals jointly set the baseline activity.''')
+add('The drop test standardizes an arousing disturbance','n3a','N','''An **arousing stimulus** is an environmental disturbance that increases behavioral responsiveness. Cassiopea normally rests on a supporting surface; releasing it into the water column induces reorientation and pulsing toward the bottom.
+
+The published apparatus used a short pipe with a screened bottom. Animals were lifted to a fixed height, allowed five minutes to acclimate, and then released by rapidly lowering the supporting screen, producing the same type of disturbance during day and night.
+
+Investigators measured the time to first pulse and the time to regain the screened bottom. The assay links state to a controlled sensorimotor response, but cannot separately measure sensory detection, neural processing, and muscle activation within the observed latency.''')
+add('Nighttime animals respond more slowly to displacement','n3bc','N','''The drop test produced a first-pulse latency of 2.1 seconds during daytime and 5.9 seconds at night. The same displacement therefore elicited a slower initial motor response during the quiescent nighttime condition.
+
+Return to the screened bottom also took longer: 8.6 seconds during daytime compared with 12.0 seconds at night. This second endpoint includes the contractions and movement needed to complete the response, rather than only its initiation.
+
+The agreement between the two endpoints supports reduced responsiveness during nighttime rest. Neither endpoint directly measures conscious perception or a particular receptor’s sensitivity; the operational conclusion is that the animal’s sensorimotor response to the same external disturbance depends on behavioral state.''')
+add('A second disturbance restores rapid responsiveness','n3de','N','''**Reversibility** distinguishes sleep from a persistent inability to move or respond. Nath and colleagues repeated the drop within 30 seconds of the first disturbance, after the initial stimulus had already aroused the animal.
+
+At night, the second drop sharply reduced both the first-pulse delay and the time to reach the supporting surface. Responses after the repeated disturbance became comparable during daytime and nighttime rather than retaining the slow initial nighttime response.
+
+The animal could therefore produce a rapid response at night when recently aroused. This control argues against an unavoidable nighttime loss of motor capacity, while not resolving whether the restored responsiveness arises from sensory adaptation, pacemaker modulation, or other state-dependent neural processes.''')
+add('Water pulses interrupt nighttime quiescence','n4abc','N','''**Sleep deprivation** prevents an animal from maintaining its usual resting state. Nath and colleagues applied a ten-second water pulse every 20 minutes during a defined portion of the night, using an external mechanical disturbance rather than removing a neural structure.
+
+Each disturbance increased jellyfish pulsing for approximately five minutes. The protocol therefore disrupted quiescence during roughly one-quarter of the perturbation period, while allowing intervening rest between water pulses.
+
+A six-hour nighttime treatment was followed by reduced activity during the next daytime period. The manipulation changed prior rest history; whether the subsequent decrease represented compensatory sleep required comparison with daytime perturbation and evidence of reduced responsiveness during recovery.''')
+add('Six hours of lost rest produce daytime rebound','n4abc','N','''**Sleep homeostasis** is the regulation that increases sleep drive after sleep has been lost. Following perturbation during the last six hours of the night, Cassiopea reduced activity during the first four hours of the next day.
+
+Mean activity decreased from 1,146 to 1,008 pulses per 20 minutes, approximately 12 percent. The recovery period contained both slower rhythmic pulsing and longer pauses, rather than a single permanent reduction in the animal’s ability to contract.
+
+Day and night activity subsequently returned toward baseline. This temporal compensation is consistent with homeostatic sleep regulation, but mechanical disturbance also causes stress, so the interpretation depends on controls that expose animals to similar perturbations during their ordinarily active phase.''')
+add('Longer deprivation produces a larger recovery response','n4def','N','''Extending mechanical perturbation across the full 12-hour night produced a larger daytime activity reduction than the six-hour protocol. Nath and colleagues compared the recovery period with the same animals’ activity before deprivation.
+
+Mean daytime activity fell from 1,361 to 1,132 pulses per 20 minutes, about 17 percent. Reduced activity persisted across the following day, rather than being confined to the first four hours as in the shorter treatment.
+
+The dependence on disturbance duration supports a graded homeostatic response: greater disruption of normal rest increases subsequent sleep drive. It does not establish a precise conversion between disturbed minutes and recovered sleep because pulse counts are an activity measure rather than a complete minute-by-minute sleep classification.''')
+add('Daytime perturbation tests the muscle-fatigue explanation','n4def','N','''The same water pulses could conceivably reduce subsequent activity by tiring the bell musculature. Nath and colleagues therefore applied six-hour and 12-hour perturbations during daytime, when the animals were usually more active and less quiescent.
+
+Daytime perturbation did not produce the comparable subsequent reduction in activity observed after nighttime disruption. This **active-phase control** exposed animals to the mechanical treatment while changing whether the treatment interrupted their normal resting period.
+
+The contrast argues against general exercise or muscle fatigue as a sufficient explanation for recovery slowing. It supports a consequence of lost nighttime rest, although it does not exclude every stress response that might interact specifically with the animal’s resting phase.''')
+add('Slow pulsing predicts sleep beyond the light condition','g1de','G','''Abrams and colleagues tested whether pre-stimulus pulse intervals predicted responsiveness independently of whether the lights were on. They averaged three inter-pulse intervals before a drop and normalized each animal’s activity to its own baseline.
+
+Slow-pulsing animals responded more slowly after five minutes of acclimation in both daytime and nighttime conditions. A repeated drop after two minutes of post-disturbance arousal removed the relationship between slow pulsing and delayed response.
+
+This analysis connects a motor threshold to independently measured responsiveness. It supports using pulse intervals to distinguish sleep from wakefulness within either lighting condition, while emphasizing that immediately post-arousal motor activity cannot be classified with the same assumptions as an undisturbed baseline.''')
+add('Light-based deprivation provides an independent treatment','g1g','G','''Abrams and colleagues interrupted nighttime rest with five minutes of light every 25 minutes. This **light-based sleep deprivation** provides a different disturbance from the repeated water pulses used in the original behavioral study.
+
+Animals were recorded before treatment and after two nights of light-based disruption. Sleep increased during the subsequent daytime period, producing a compensatory response even though the deprivation stimulus did not require repeated water turbulence.
+
+Concordant rebound after light and mechanical disturbance strengthens the identification of a regulated resting state. Light can also directly affect sensory activity and gene expression, so comparisons between deprivation methods are especially useful when selecting molecular changes that may reflect prolonged wakefulness rather than one particular stimulus.''')
+add('A light stimulus calibrates a pulse-rate threshold','d1efgh','D','''Aguillon and colleagues measured Cassiopea andromeda pulsing under 12-hour light and 12-hour dark conditions. They then delivered a brief light stimulus at night and measured the delay until a behavioral response.
+
+Animals pulsing below 37 contractions per minute responded more slowly than animals above that rate. A threshold-selection analysis used the response latencies to identify a pulse rate that separated relatively slow and rapid responses under the study conditions.
+
+The threshold is grounded in responsiveness rather than chosen from darkness alone. It is specific to the preparation and animals measured; the earlier Cassiopea studies used different species or normalization procedures, so their absolute pulse rates should not be treated as interchangeable sleep thresholds.''')
+add('Three minutes of slow pulsing distinguish sustained sleep','d1ijk','D','''A short drop in pulse rate might reflect an isolated pause rather than a stable sleep state. Aguillon and colleagues therefore related light-response latency to the duration spent below 37 pulses per minute before stimulation.
+
+Animals below that rate for more than three minutes responded more slowly than those with shorter low-activity periods. The investigators combined the rate and duration requirements to quantify sleep continuously across their subsequent experiments.
+
+This **sleep-bout criterion** identifies sustained slow activity associated with elevated response latency. It allows sleep percentage and bout length to be measured, while remaining a behavioral definition rather than evidence for mammalian rapid-eye-movement sleep or an identical neural activity pattern across species.''')
+add('Sleep timing includes nighttime rest and midday naps','d1lmn','D','''Using the pulse-rate and duration criteria, Aguillon and colleagues quantified Cassiopea sleep over repeated daily cycles. Sleep occupied more time during the dark interval but also appeared during the daytime, including a recurring midday increase.
+
+Under their laboratory conditions, classified sleep occupied 63.7 percent of nighttime and 45.3 percent of daytime. These percentages describe threshold-defined sleep in this experiment, rather than values obtained by simply counting all darkness as sleep.
+
+The daily pattern had a period near 24.2 hours under a light–dark cycle. Such a rhythm documents daily organization but does not by itself establish an internal circadian oscillator; persistence without cyclic lighting is needed to separate internal timing from a direct environmental response.''')
+add('Body size changes the meaning of a pulse rate','d1qrs','D','''Aguillon and colleagues recorded wild Cassiopea in shallow water near Key Largo, Florida. Larger animals pulsed more slowly, creating a strong relationship between bell diameter and the absolute rate of contractions.
+
+The researchers adjusted daytime activity for bell size before estimating sleep timing in the field. Wild animals retained greater daytime activity and an estimated pattern of nighttime rest with a midday nap, resembling the laboratory organization.
+
+The field sleep estimate used size-adjusted activity as a proxy rather than individually testing light-response latency for every animal. Agreement across habitats broadens the behavioral finding, but uncertainty in the classifier must remain separate from the directly measured relationship between animal size and pulse frequency.''')
+add('New sleep scoring reproduces homeostatic rebound','d1op','D','''Aguillon and colleagues disrupted nighttime sleep for six hours with computer-controlled water turbulence. Because their classifier required sustained slow pulsing, the recovery response could be measured as sleep time rather than inferred solely from a reduction in activity.
+
+After nighttime deprivation, daytime sleep was about 1.5 times that of control animals. A corresponding active-phase treatment did not induce the same compensatory sleep response, preserving the distinction between perturbation and interruption of normal sleep.
+
+The result agrees with the original pulse-counting evidence for homeostasis while using a different quantitative definition. It supports increased sleep drive after lost rest, but neither study directly identifies the cellular sensor that tracks accumulated wakefulness or the complete circuit that produces the rebound.''')
+add('Marginal ganglia organize a distributed nervous system','g3c','G','''A **ganglion** is a local grouping of neural cells. Cassiopea contains ganglionic pacemakers within radially spaced rhopalia, creating organized neural centers without a single centralized brain that integrates the entire animal.
+
+Abrams and colleagues distinguished terminal, intermediate, and basal rhopalial segments. The terminal region contains a lithocyst involved in balance, while the pigmented spot ocellus lies near the terminal–intermediate boundary and participates in light sensing.
+
+The sensory organ connects to the rest of the body through its basal region. This anatomical organization provides sites where sensory input and pacemaker output can interact; the observed sleep behavior does not imply that all cells in the nerve net change state identically or simultaneously.''')
+add('Ganglionic transcripts change after sleep deprivation','g2bg','G','''**RNA sequencing** measures the abundance of RNA transcripts, allowing comparisons of gene expression between experimental conditions. Abrams and colleagues collected rhopalial ganglia near the end of the day after control conditions or two nights of light-based deprivation.
+
+Sleep-deprived ganglia expressed altered levels of several genes associated with neural signaling, including receptor-like components. Individual responses varied, and some affected transcripts had no established function, limiting direct interpretation of the expression profile.
+
+A transcript change identifies a molecular association with treatment history, not a demonstrated cause of sleep. Ganglionic sampling improves anatomical specificity compared with whole-animal measurements, but does not establish which cell type changed expression or whether RNA abundance translated into more functional receptor protein.''',second=('g3c2','G'))
+add('Two deprivation methods converge on chrnal-E','g2bg','G','''Abrams and colleagues compared transcript profiles after both light-based and mechanical deprivation. They used a combined analysis to identify changes shared across treatments rather than accepting every light-responsive transcript as a sleep-regulatory gene.
+
+A nicotinic acetylcholine receptor alpha-subunit-like gene, **chrnal-E**, emerged as a strongly altered candidate in both comparisons. Its sequence relationship to receptor-like genes suggested a potential link between deprivation and regulation of neural excitability.
+
+Convergence across two treatments reduces dependence on one stimulus-specific explanation. The analysis still combines effects of lost sleep, stimulation, and recovery, so functional experiments were needed to test whether changing chrnal-E could alter behavior rather than merely accompany deprivation.''',second=('g3c2','G'))
+add('Receptor-like structure suggests an ion-channel mechanism','g3a','G','''A **nicotinic acetylcholine receptor** is a ligand-gated ion-channel receptor in established cholinergic systems: binding of a signaling molecule regulates ion movement across the membrane. Abrams and colleagues compared the predicted structure of Chrnal-E with human alpha-subunit receptors.
+
+The published predictions retained receptor-associated features, including the extracellular ligand-binding region and Cys-loop architecture. Charged residues associated with calcium permeation in human alpha-7 receptors were also present in the Chrnal-E prediction.
+
+These similarities support a receptor-like channel hypothesis, not a measurement of jellyfish ion selectivity or channel conductance. The paper did not establish the endogenous ligand or document acetylcholine synthesis in Cassiopea, so the proposed mechanism must remain distinct from the demonstrated behavioral effects.''',second=('g3c2','G'))
+add('Isolated rhopalia permit direct pacemaker recordings','g3b','G','''An **action potential** is a brief electrical event generated by an excitable cell. Abrams and colleagues used suction electrodes to record such events from amputated rhopalial ganglia, isolating neural activity from movement of the whole bell.
+
+The preparation allowed the interval between recorded events to be measured before and during drug exposure in artificial seawater. This **interspike interval** is a neural timing measurement, whereas the inter-pulse interval measures visible contractions of the intact animal.
+
+Drug-induced changes in isolated ganglia localize a physiological response to the pacemaker-containing sensory organ. They do not identify the exact recorded cell or demonstrate that an equivalent concentration reaches those cells during intact-animal behavior, but they connect receptor-directed pharmacology with neural activity.''')
+add('Tubocurarine slows rhopalial electrical activity','g3b','G','''An **antagonist** interferes with receptor activation. Abrams and colleagues exposed isolated rhopalial ganglia to tubocurarine, a competitive antagonist of nicotinic acetylcholine receptors in characterized cholinergic systems.
+
+At 500 and 600 micromolar, tubocurarine lengthened the interval between recorded action potentials; the larger concentration produced a stronger slowing. The result is consistent with receptor-like signaling contributing to the normal frequency of pacemaker activity.
+
+The artificial-seawater control establishes that the change followed addition of the compound rather than the recording setup alone. Pharmacological specificity remains incomplete because the preparation may contain several receptor-like proteins, and blockade does not establish that endogenous acetylcholine normally supplies the relevant activating signal.''')
+add('Nicotine accelerates rhopalial electrical activity','g3b','G','''An **agonist** activates a receptor or receptor-associated response. Abrams and colleagues applied nicotine to isolated Cassiopea ganglia while measuring the time between action potentials with a suction electrode.
+
+Nicotine at 50 and 75 micromolar shortened interspike intervals, with the stronger effect at the higher concentration. Its effect opposed tubocurarine-induced slowing, providing complementary evidence that nicotinic receptor-directed compounds modulate rhopalial pacemaker output.
+
+This response supports a pharmacologically sensitive pathway from receptor-like signaling to neural activity. It does not prove that nicotine mimics the natural transmitter in Cassiopea, that Chrnal-E alone carries the response, or that an increase in pacemaker frequency is sufficient to reproduce every aspect of behavioral wakefulness.''')
+add('chrnal-E transcripts localize within rhopalial ganglia','g3c','G','''**In situ hybridization** uses a complementary probe to locate a specific RNA transcript within tissue. Abrams and colleagues developed this method for Cassiopea and detected chrnal-E RNA mainly on the oral side of the rhopalial ganglia.
+
+Expression was prominent in intermediate and basal segments, but its distribution varied between sensory organs and between animals. The transcript was not restricted to one sharply defined anatomical pattern shared by every rhopalium.
+
+Localization links the candidate gene to an organ already associated with pulse generation and sensory processing. RNA staining does not directly reveal membrane-localized receptor protein, the identity of every expressing cell, or the direction of signaling between those cells and the neurons generating the recorded pacemaker events.''')
+add('Deprivation broadens ganglionic transcript staining','g3c','G','''After light-based deprivation, chrnal-E staining occupied a broader fraction of the rhopalial ganglion. Abrams and colleagues quantified the proportion of stained pixels within the selected ganglionic region rather than interpreting visual staining intensity alone as receptor abundance.
+
+The change connected treatment history to the spatial extent of detectable transcript expression. Control and sleep-deprived organs retained variable patterns, making the distribution across preparations more informative than an isolated strongly stained specimen.
+
+A larger stained area can reflect altered transcript abundance or altered detection within expressing cells, but it does not directly count functional channels. The result strengthens the molecular association with deprivation and motivates knockdown, while leaving the receptor’s cellular localization and circuit connections unresolved.''')
+add('RNA interference tests the candidate gene function','g4ab','G','''**RNA interference**, or RNAi, reduces expression of a targeted RNA through sequence-directed silencing. Abrams and colleagues introduced a 387-base-pair chrnal-E fragment into a feeding vector and developed a delivery method for Cassiopea.
+
+They compared animals receiving the chrnal-E construct with empty-vector controls and a minicollagen-targeting construct. These controls helped distinguish the targeted treatment from the effects of feeding the vector or introducing an unrelated sequence.
+
+After two weeks, chrnal-E transcript staining occupied less ganglionic area, and subsequent expression measurements supported reduced target RNA. This intervention tests gene function more directly than deprivation-associated expression alone, but partial silencing differs from complete gene deletion and cannot identify a single responsible neural cell type.''')
+add('chrnal-E knockdown increases daytime sleep','g4c','G','''Abrams and colleagues recorded pulse-derived sleep during three weeks of RNAi feeding. By the second week, animals receiving the chrnal-E construct developed more daytime sleep and less nighttime sleep than the control groups.
+
+Because daytime is the usual active phase, increased daytime sleep supports a **wake-promoting role** for Chrnal-E. The phenotype redistributed sleep across the daily cycle rather than simply eliminating the animal’s ability to enter a resting state.
+
+The interpretation is strengthened by reduced target RNA and vector controls. It remains narrower than a complete receptor mechanism: the knockdown does not establish endogenous ligand identity, ion permeability, or whether the affected gene changes wake maintenance directly or alters another process that influences behavioral sleep timing.''',second=('g3c2','G'))
+add('Wild-animal expression changes with sustained arousal','g4de','G','''Abrams and colleagues sampled wild Cassiopea at several times from evening through the next morning. **Quantitative PCR** measured chrnal-E RNA relative to reference transcripts, allowing expression to be compared across times and deprivation conditions.
+
+Control expression declined late at night and rose again in the morning. After seven hours of light-based deprivation, expression at the middle-of-night sampling point was about threefold higher than in controls, then returned toward control levels by morning.
+
+The delayed increase is consistent with a response to sustained externally induced arousal. Morning expression also recovered in animals kept dark, suggesting internal timing, but expression rhythms alone do not establish a complete circadian sleep mechanism or prove that transcriptional change generates the homeostatic sleep rebound.''',second=('g3c2','G'))
+add('Light and homeostasis can dominate jellyfish sleep timing','d1lmn','D','''A **circadian rhythm** is an internally generated rhythm with a period near one day that can persist without a repeating environmental cue. A daily activity pattern under light–dark conditions is insufficient by itself to establish this property.
+
+Aguillon and colleagues found that Cassiopea activity rhythms disappeared in constant darkness and weakened strongly in constant light. With alternating six-hour light and dark intervals, activity followed a rhythm near 12.1 hours rather than maintaining its usual daily pattern.
+
+These experiments support strong control by the light environment in this preparation, alongside independently demonstrated homeostasis. Earlier expression evidence for internal timing need not imply a robust free-running behavioral sleep rhythm; transcript regulation and whole-animal sleep timing are different levels of measurement.''')
+add('A brain is unnecessary for sleep in two cnidarian forms','d3a','D','''Aguillon and colleagues compared the jellyfish Cassiopea andromeda with the starlet sea anemone _Nematostella vectensis_. Both lack a centralized brain, but their body plans and daily activity patterns differ substantially.
+
+The anemone’s sleep classifier required at least eight minutes of quiescence associated with delayed responses to light and food. This criterion differs from the jellyfish classifier, which permits continuous slow pulsing during a sleep bout.
+
+Both species devoted substantial daily time to behaviorally defined sleep, despite different movement patterns and timing. The comparison broadens evidence beyond one medusa form, while preventing a single absolute activity threshold or sleep posture from being treated as a universal signature of sleep throughout Cnidaria.''')
+add('Melatonin increases jellyfish sleep during the active phase','d3pqr','D','''**Melatonin** is a signaling molecule that can modulate sleep in diverse animals. Aguillon and colleagues treated Cassiopea with 100 micromolar melatonin and compared behavior with an ethanol vehicle control, accounting for the solvent used to deliver the compound.
+
+During the active daytime phase, melatonin increased sleep time, sleep-bout duration, and the number of bouts. The same treatment during the usual resting phase did not produce a comparable additional increase, indicating dependence on baseline state or time.
+
+This intervention establishes pharmacological modulation of jellyfish sleep, not the identity of an endogenous sleep hormone circuit. The study did not identify a specific Cassiopea receptor or directly measure a downstream potassium-channel mechanism, so those possible pathways remain proposed explanations.''')
+add('Melatonin modulation extends across opposite chronotypes','d3mno','D','''A **chronotype** describes an animal’s characteristic timing of activity and rest. Cassiopea is primarily active during daytime, whereas Nematostella in the comparative study was most active around dusk and rested more toward dawn.
+
+Aguillon and colleagues found that melatonin increased anemone sleep time, bout length, and bout number when administered during its active phase. The effect therefore did not require the active phase to coincide with daylight.
+
+Concordant responses in the two cnidarians support conserved pharmacological sensitivity despite different daily schedules. Exogenous melatonin can have additional cellular effects, including antioxidant actions, so increased sleep after treatment does not alone establish how natural melatonin production, receptor signaling, and cellular repair are linked in either species.''')
+add('Peri-rhopalial tissue provides a cellular sleep readout','d4e','D','''The **peri-rhopalial region** is tissue adjacent to a rhopalium. Aguillon and colleagues sampled its neuron-enriched mesogleal surface to assess cellular changes associated with wakefulness and sleep in Cassiopea.
+
+They stained nuclei with DAPI, a DNA-binding fluorescent dye, and used immunohistochemistry to detect phosphorylated histone H2AX. The preparation also retained autofluorescence from symbiotic algae, which must be distinguished from the nuclear signal used for damage-response measurements.
+
+Sampling a defined sensory-organ-associated region connects sleep history with a localized cellular readout. The tissue is neuron-enriched rather than genetically restricted to neurons, so cell identity in Cassiopea is less selectively established than in the complementary anemone experiment using a neuron-specific fluorescent reporter.''')
+add('Nuclear H2AX phosphorylation reports a damage response','d4gh','D','''**Histones** are proteins associated with DNA in chromosomes. The phosphorylated form of histone H2AX, called gamma-H2AX, accumulates at nuclear sites associated with a cellular response to DNA damage.
+
+Aguillon and colleagues used antibodies to count gamma-H2AX foci, discrete stained sites within a nucleus, after defined periods of sleep, wakefulness, or deprivation. Cassiopea nuclei were examined in peri-rhopalial tissue, while anemone neurons were identified with a fluorescent reporter.
+
+The assay provides a quantitative damage-response marker rather than a direct count of every DNA lesion or every repair event. Changes in foci support altered genomic stress, but conclusions about sleep-mediated maintenance require timing controls and experimental manipulations beyond one stained nucleus.''')
+add('Sleep deprivation raises jellyfish nuclear damage markers','d4ik','D','''Aguillon and colleagues sampled Cassiopea at the end of its wake and sleep phases. Gamma-H2AX foci were more numerous after accumulated wakefulness and less numerous after the usual sleep period, linking cellular state to preceding behavior.
+
+Nighttime sleep deprivation increased the number of foci at the time when resting controls normally had a reduced signal. The comparison tested whether the daily decrease required undisturbed rest rather than occurring solely because the sampling time changed.
+
+The pattern supports sleep-associated relief of nuclear damage responses. It does not identify a particular repair enzyme or establish that sleep is the only process responsible, because deprivation also changes stimulation and physiological activity alongside the amount of rest.''',second=('d4e','D'))
+add('Labeled anemone neurons show a parallel damage pattern','d4jl','D','''Aguillon and colleagues expressed a fluorescent neuronal reporter in Nematostella to distinguish neurons from neighboring cell types. Gamma-H2AX staining could then be counted specifically within reporter-positive neural cells.
+
+As in Cassiopea, damage-response foci rose after extended wakefulness and fell after the normal resting period. Depriving the anemone during its usual sleep interval increased the neural nuclear signal relative to undisturbed controls.
+
+The anemone’s resting phase differs from the jellyfish’s, so the parallel relation follows behavioral history rather than one shared clock time. This comparison strengthens the association between sleep and neural genome maintenance while leaving open whether identical signaling pathways couple cellular damage to sleep drive in the two species.''',second=('d4f','D'))
+add('Ultraviolet exposure increases damage and jellyfish sleep','d5kl','D','''**Ultraviolet-B radiation** can damage DNA and induce cellular stress. Aguillon and colleagues exposed Cassiopea to 312-nanometer ultraviolet light for 15 minutes during daytime, then followed sleep and nuclear damage-response markers.
+
+Gamma-H2AX foci increased one hour after exposure, and subsequent nighttime and daytime sleep increased relative to controls. Over the later recovery interval, the nuclear marker declined, producing a sequence of induced damage response, increased sleep, and reduced damage signal.
+
+The manipulation supports a contribution of cellular damage to sleep pressure, meaning the drive to sleep. Ultraviolet radiation also affects other cellular pathways, so the experiment does not isolate DNA damage as the only relevant signal or identify the sensory-to-pacemaker pathway carrying that signal.''',second=('d5af','D'))
+add('A second damaging treatment broadens the causal evidence','d5mnop','D','''**Etoposide** interferes with topoisomerase II, an enzyme involved in managing DNA structure, and can cause DNA double-strand breaks. Aguillon and colleagues used this compound in Nematostella as a second way to induce cellular damage without ultraviolet illumination.
+
+Etoposide increased gamma-H2AX foci and was followed by increased sleep. Ultraviolet exposure also increased anemone sleep, providing two distinct damaging treatments with a common behavioral direction rather than relying solely on a light-induced disturbance.
+
+The convergence supports cellular stress as a contributor to sleep drive, but the chemical experiment was performed in the anemone and must not be presented as a direct etoposide result in Cassiopea. Neither treatment uniquely identifies the molecular damage sensor that signals increased sleep need.''',second=('d5gh','D'))
+add('Sleep-promoting treatment lowers damage-response foci','d5ij','D','''Aguillon and colleagues measured nuclear damage-response markers after melatonin treatment, which also promoted sleep during the active phase. Both Cassiopea and Nematostella displayed fewer gamma-H2AX foci than their respective vehicle-treated controls.
+
+The combination of spontaneous sleep, deprivation, damage induction, and pharmacologically promoted sleep links behavior and cellular maintenance through several experimental directions. It is stronger evidence than a simple correlation between nighttime and low nuclear staining.
+
+Melatonin may directly influence oxidative stress or repair-related processes as well as sleep. The reduction therefore supports a relationship between sleep promotion and genome stability, while additional interventions that separate melatonin’s cellular actions from its behavioral effect would be needed to assign the entire reduction specifically to sleep.''',second=('d5de','D'))
+for slide in S:
+ if slide['figure']['path'].startswith(('figures/d4','figures/d5')) if 'figure' in slide else slide['figures'][0]['path'].startswith(('figures/d4','figures/d5')):
+  if 'figures' in slide: slide['figure']=slide.pop('figures')[0];slide['layout']='figure-right'
+assert len(S)==44,len(S)
+T=[('**Behavioral criteria:**','Cassiopea sleep combines reversible quiescence, reduced responsiveness, and compensatory rebound after deprivation.'),('**Distributed control:**','Radial rhopalia and ganglionic pacemakers organize sleep-related activity without a centralized brain.'),('**State-dependent responses:**','Slow pulsing predicts delayed arousal; light condition and movement rate alone are insufficient sleep definitions.'),('**Wake-promoting gene:**','chrnal-E knockdown increases daytime sleep, while receptor-directed drugs alter rhopalial electrical activity.'),('**Mechanistic limits:**','Endogenous ligand identity, ion selectivity, and the complete sleep-regulatory circuit remain unresolved.'),('**Cellular maintenance:**','Sleep history and damage induction link sleep drive with nuclear damage responses; the ancestral function remains a hypothesis.')]
+spec={'lecture':47,'theme':'mineral-blue-paper','content_slides':44,'title_height':3.2,'title_refs':[R['N']],'title_image':F['n1b'],'slides':S,'takeaways':{'cite':'Nath et al. (2017); Abrams et al. (2025); Aguillon et al. (2026)','items':[{'lead':a.replace('**',''),'text':b} for a,b in T],'refs':list(R.values()),'transcript':[a.replace('**','')+' '+b for a,b in T]}}
+(root/'lecture.json').write_text(json.dumps(spec,indent=2,ensure_ascii=False)+'\n');(root/'references.json').write_text(json.dumps(R,indent=2,ensure_ascii=False)+'\n')
+print('Slides',len(S),'word range',min(len(' '.join(x['body']).split()) for x in S),max(len(' '.join(x['body']).split()) for x in S))
