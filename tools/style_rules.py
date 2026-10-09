@@ -29,7 +29,7 @@ FRAMING = [
      "no figure-reading narration"),
     (r"\bwhy this matters\b|\bthis matters because\b|\bwhy (this|the) topic\b|\bto set the stage\b",
      "no explanation of why a topic is introduced"),
-    (r"lorem|ipsum|\bTODO\b|\bTBD\b|\[insert", "placeholder text left in"),
+    (r"lorem|ipsum|\bTODO\b|(?<!Date )\bTBD\b|\[insert", "placeholder text left in"),
 ]
 FRAMING_RE = [(re.compile(p, re.I), why) for p, why in FRAMING]
 

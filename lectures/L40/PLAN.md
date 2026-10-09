@@ -6,7 +6,7 @@ Exact date: Friday, December 4, 2026
 
 The instructor’s new title, including the literal wording `casual tests`, is preserved in the authoritative schedule and delivered files. The scientific material distinguishes causal interventions from observational recording.
 
-The connected repository’s current default branch (`claude/neuroethology-fa2026-schedule-2lgmmr`) was fetched and verified against `9da8853a42489ca33b314611e264fcc3eb06a226`. Earlier lectures are unchanged. No ZIP or outdated branch was used.
+The connected repository’s current default branch (`claude/neuroethology-fa2026-schedule-2lgmmr`) was fetched and verified against `9da8853a42489ca33b314611e264fcc3eb06a226` and refreshed against `9cd700618873a75325dd8af5f5c144ea58814cf1` before publication. The new optional-lecture rules for lectures 41+ were retained; they do not change Lecture 40 requirements. Earlier lectures are unchanged. No ZIP or outdated branch was used.
 
 ## Evidence and presentation
 

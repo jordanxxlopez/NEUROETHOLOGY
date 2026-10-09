@@ -55,7 +55,7 @@ def main():
     a = ap.parse_args()
 
     sched = json.loads((ROOT / "course/schedule.json").read_text())
-    meta = next(l for l in sched["lectures"] if l["n"] == a.lecture)
+    meta = next(l for l in sched["lectures"] + sched.get("special_topics", []) if l["n"] == a.lecture)
     prs = Presentation(a.deck)
     slides = list(prs.slides)
     errs, warns = [], []
@@ -67,7 +67,8 @@ def main():
     first = re.sub(r"\s+", " ", slide_text(slides[0]))
     if re.sub(r"\s+", " ", meta["title"]) not in first:
         errs.append(f"title slide does not contain the exact schedule title: {meta['title']!r}")
-    month_day = meta["date"].split(", ")[1]  # e.g. "September 18"
+    # e.g. "September 18"; special topics carry "Date TBD"
+    month_day = meta["date"].split(", ")[1] if ", " in meta["date"] else meta["date"]
     if month_day not in first:
         errs.append(f"title slide missing date {meta['date']!r}")
 
