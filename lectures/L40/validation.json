@@ -26,15 +26,31 @@
   "PDF_preserves_every_body_paragraph": true,
   "created_scientific_images": 0,
   "source_crop_backend": "tools/crop_panels.py; original PDF rendering and cropping only",
-  "authoritative_branch_refreshed_to": "9cd700618873a75325dd8af5f5c144ea58814cf1",
+  "authoritative_branch_refreshed_to": "6f2b8f334201f9adfd417be850f62ea7f576db70",
   "files": {
     "Neuroethology_Lecture40_FA2026.pptx": {
-      "bytes": 23669014,
-      "sha256": "e8792c70c2deef64611806933042d2322818b0ffe3a203c11e7bdd2abbd673b6"
+      "bytes": 23668983,
+      "sha256": "1c9c3236b6cdec6e2f693a0556695372a8a8d7a2ec8fc8f0e8f8ec160c8833f3"
     },
     "Neuroethology_Lecture40_FA2026.pdf": {
-      "bytes": 8206195,
-      "sha256": "78d8d417ff05894c012711c4f7b30abef99db1183893a6c8bbdd5545a09adb63"
+      "bytes": 8205966,
+      "sha256": "4f635cfc78edb860d89398b1ddfeec04579258a9ea1c85954705c818b41809fa"
     }
+  },
+  "revision": {
+    "request": "Dark blue titles and bold terms, black body text; replace title image with supplied mouse photograph",
+    "style_completed": true,
+    "title_image_replacement_completed": false,
+    "title_image_blocker": "Inline mouse photograph has no downloadable file identifier or local attachment; original image URL requested",
+    "theme": "optical-blue-paper",
+    "heading_and_bold": "1E3B7B",
+    "body_caption_footer": "000000",
+    "unchanged_text_notes_layout_and_scientific_images_verified": true,
+    "visually_inspected_changed_style_slides": [
+      1,
+      2,
+      3,
+      46
+    ]
   }
 }
