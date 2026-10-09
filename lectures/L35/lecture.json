@@ -1,0 +1,1747 @@
+{
+  "lecture": 35,
+  "theme": "dove-oyster",
+  "content_slides": 44,
+  "title_image": {
+    "path": "figures/animal.png",
+    "kind": "article",
+    "caption": "Herberholz et al. (2011), Fig. 1(B). Juvenile Procambarus clarkii beside a coin.",
+    "source_url": "https://doi.org/10.3389/fnbeh.2011.00016"
+  },
+  "title_refs": [
+    "Jens Herberholz; Subrata H. Mishra; Divya Uma; Markus W. Germann; Donald H. Edwards; Kimberlee Potter (2011). Non-Invasive Imaging of Neuroanatomical Structures and Neural Activation with High-Resolution MRI. Frontiers in Behavioral Neuroscience 5:16. https://doi.org/10.3389/fnbeh.2011.00016"
+  ],
+  "slides": [
+    {
+      "title": "Dominance emerges from changes in social behavior",
+      "layout": "figure-right",
+      "body": [
+        "Crayfish _Procambarus clarkii_ establish **dominance**, a relationship in which one animal persistently attacks or approaches while the other withdraws. **Agonistic behavior** comprises conflict-related actions, including threats, grappling, attacks, retreats and escapes. Rank is assigned from these interactions rather than from posture alone.",
+        "Herberholz and colleagues paired previously isolated juveniles of similar size for 30 min. Synchronized recordings identified an abrupt transition: the future subordinate stopped repeated offensive actions and began retreating or escaping from its opponent.",
+        "A hierarchy therefore changes the selection of actions within an encounter. The behavioral transition establishes which animal yields under these conditions, but it does not identify the transmitter or neuronal change responsible. Animals could occasionally reengage after the initial decision, so dominance was assessed across the interaction."
+      ],
+      "cite": "Herberholz et al. (2001)",
+      "refs": [
+        "Jens Herberholz; Fadi A. Issa; Donald H. Edwards (2001). Patterns of Neural Circuit Activation and Behavior during Dominance Hierarchy Formation in Freely Behaving Crayfish. The Journal of Neuroscience, 21(8): 2759-2767. https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+      ],
+      "transcript": [
+        "Crayfish _Procambarus clarkii_ establish **dominance**, a relationship in which one animal persistently attacks or approaches while the other withdraws. **Agonistic behavior** comprises conflict-related actions, including threats, grappling, attacks, retreats and escapes. Rank is assigned from these interactions rather than from posture alone.",
+        [
+          "Herberholz and colleagues paired previously isolated juveniles of similar size for 30 min. Synchronized recordings identified an abrupt transition: the future subordinate stopped repeated offensive actions and began retreating or escaping from its opponent.",
+          [
+            "An attack leads to contact and a response from the other animal. An approach provokes a response without contact, whereas a retreat is locomotion away from the opponent. These operational definitions let the researchers classify behavior without assigning an unmeasured internal intention."
+          ]
+        ],
+        "A hierarchy therefore changes the selection of actions within an encounter. The behavioral transition establishes which animal yields under these conditions, but it does not identify the transmitter or neuronal change responsible. Animals could occasionally reengage after the initial decision, so dominance was assessed across the interaction."
+      ],
+      "figure_width": 6.0,
+      "figure": {
+        "path": "figures/h01_f4.png",
+        "kind": "article",
+        "caption": "Herberholz et al. (2001), Fig. 4(A–B). Behavioral sequences around hierarchy formation.",
+        "source_url": "https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+      }
+    },
+    {
+      "title": "Electrical fields identify activity during free movement",
+      "layout": "figure-right",
+      "body": [
+        "Herberholz and colleagues recorded **field potentials**, changes in voltage in the water surrounding freely moving crayfish. Large, coordinated neuronal and muscle currents generate these signals, allowing neural pathway activation to be associated with observed behavior.",
+        "Bath electrodes at opposite ends of a 9.5 cm aquarium recorded activity while high-speed video sampled movement every 5 ms. Preliminary recordings compared the bath signal with signals from implanted electrodes in the same animal. Corresponding waveforms supported identification without retaining electrode leads during paired encounters.",
+        "The method preserved movement and contact between opponents. Waveform similarity validates particular escape signatures; it does not resolve every small neuron contributing to a field potential. Video supplied the animal’s identity and movement trajectory, preventing a voltage event from being classified solely by amplitude."
+      ],
+      "cite": "Herberholz et al. (2001)",
+      "refs": [
+        "Jens Herberholz; Fadi A. Issa; Donald H. Edwards (2001). Patterns of Neural Circuit Activation and Behavior during Dominance Hierarchy Formation in Freely Behaving Crayfish. The Journal of Neuroscience, 21(8): 2759-2767. https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+      ],
+      "transcript": [
+        "Herberholz and colleagues recorded **field potentials**, changes in voltage in the water surrounding freely moving crayfish. Large, coordinated neuronal and muscle currents generate these signals, allowing neural pathway activation to be associated with observed behavior.",
+        [
+          "Bath electrodes at opposite ends of a 9.5 cm aquarium recorded activity while high-speed video sampled movement every 5 ms. Preliminary recordings compared the bath signal with signals from implanted electrodes in the same animal. Corresponding waveforms supported identification without retaining electrode leads during paired encounters.",
+          [
+            "A field recording sums currents rather than measuring the membrane potential of one cell. Synchronizing video and voltage allows a tail flip to be attributed to the animal performing it. The authors did not observe simultaneous tail flips that would prevent this attribution in their paired recordings."
+          ]
+        ],
+        "The method preserved movement and contact between opponents. Waveform similarity validates particular escape signatures; it does not resolve every small neuron contributing to a field potential. Video supplied the animal’s identity and movement trajectory, preventing a voltage event from being classified solely by amplitude."
+      ],
+      "figure_width": 6.0,
+      "figure": {
+        "path": "figures/h01_f1a.png",
+        "kind": "article",
+        "caption": "Herberholz et al. (2001), Fig. 1(A). Bath electrodes and high-speed video recording.",
+        "source_url": "https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+      }
+    },
+    {
+      "title": "Offensive tail flips prolong contact with an opponent",
+      "layout": "figure-right",
+      "body": [
+        "A **tail flip** is rapid abdominal flexion that moves a crayfish through water. During escape it separates the animal from a threat; during an **offensive tail flip**, the animal maintains its grip on the opponent and pulls it upward or over.",
+        "Herberholz and colleagues identified offensive movements using synchronized video and electrical recordings during juvenile encounters. Their abdominal movements began more slowly than ordinary escape flexion and were resolved across successive 5-ms video frames. These events were common during vigorous grappling.",
+        "An offensive movement therefore cannot be assigned an escape function merely because the abdomen flexes. Its electrical signature lacked the large initial giant-pathway response. The authors proposed a distinct motor circuit, but did not identify all of its neurons or prove that it was completely independent of nongiant escape circuitry."
+      ],
+      "cite": "Herberholz et al. (2001)",
+      "refs": [
+        "Jens Herberholz; Fadi A. Issa; Donald H. Edwards (2001). Patterns of Neural Circuit Activation and Behavior during Dominance Hierarchy Formation in Freely Behaving Crayfish. The Journal of Neuroscience, 21(8): 2759-2767. https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+      ],
+      "transcript": [
+        "A **tail flip** is rapid abdominal flexion that moves a crayfish through water. During escape it separates the animal from a threat; during an **offensive tail flip**, the animal maintains its grip on the opponent and pulls it upward or over.",
+        [
+          "Herberholz and colleagues identified offensive movements using synchronized video and electrical recordings during juvenile encounters. Their abdominal movements began more slowly than ordinary escape flexion and were resolved across successive 5-ms video frames. These events were common during vigorous grappling.",
+          [
+            "Maintaining claw contact changes the behavioral consequence of the movement. Slow flexion beginning while the animals remain linked differs from rapidly releasing an escape movement. The absence of a giant signature excludes the usual giant-driven response but does not identify every interneuron in the offensive pathway."
+          ]
+        ],
+        "An offensive movement therefore cannot be assigned an escape function merely because the abdomen flexes. Its electrical signature lacked the large initial giant-pathway response. The authors proposed a distinct motor circuit, but did not identify all of its neurons or prove that it was completely independent of nongiant escape circuitry."
+      ],
+      "figure_width": 6.0,
+      "figure": {
+        "path": "figures/h01_f3.png",
+        "kind": "article",
+        "caption": "Herberholz et al. (2001), Fig. 3(A–C). Escape and offensive tail-flip recordings during encounters.",
+        "source_url": "https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+      }
+    },
+    {
+      "title": "Retreat increases after the hierarchy is decided",
+      "layout": "figure-right",
+      "body": [
+        "The transition to subordinate status redistributes behavior rather than simply reducing all movement. Herberholz and colleagues aligned paired encounters to the first tail flip and counted attacks, approaches and retreats in successive 5-min periods.",
+        "Dominants maintained attacks and approaches while subordinates produced repeated retreats and escapes. Aggressive activity then declined across the 30-min observation, reaching roughly 15% of its initial level. Defensive actions fell as approaches and attacks became less frequent.",
+        "The temporal association links defensive behavior to the opponent’s actions and the established relationship. It does not establish that a fall in one escape reflex caused retreat, because retreat and different forms of escape recruit different circuits. An animal can suppress one stereotyped response while increasing another defensive action, especially when threats remain predictable during repeated encounters."
+      ],
+      "cite": "Herberholz et al. (2001)",
+      "refs": [
+        "Jens Herberholz; Fadi A. Issa; Donald H. Edwards (2001). Patterns of Neural Circuit Activation and Behavior during Dominance Hierarchy Formation in Freely Behaving Crayfish. The Journal of Neuroscience, 21(8): 2759-2767. https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+      ],
+      "transcript": [
+        "The transition to subordinate status redistributes behavior rather than simply reducing all movement. Herberholz and colleagues aligned paired encounters to the first tail flip and counted attacks, approaches and retreats in successive 5-min periods.",
+        [
+          "Dominants maintained attacks and approaches while subordinates produced repeated retreats and escapes. Aggressive activity then declined across the 30-min observation, reaching roughly 15% of its initial level. Defensive actions fell as approaches and attacks became less frequent.",
+          [
+            "The measurements concern the frequency of defined actions, not a global measure of fear or motor capacity. Less fighting after rank determination can coexist with continuing approaches by the dominant. A subordinate’s withdrawal is therefore evaluated in the context of the opportunities for interaction."
+          ]
+        ],
+        "The temporal association links defensive behavior to the opponent’s actions and the established relationship. It does not establish that a fall in one escape reflex caused retreat, because retreat and different forms of escape recruit different circuits. An animal can suppress one stereotyped response while increasing another defensive action, especially when threats remain predictable during repeated encounters."
+      ],
+      "figure_width": 6.0,
+      "figure": {
+        "path": "figures/h01_f5a.png",
+        "kind": "article",
+        "caption": "Herberholz et al. (2001), Fig. 5(A). Attacks, approaches and retreats across 5-min periods.",
+        "source_url": "https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+      }
+    },
+    {
+      "title": "Serotonin prolongs fighting in an established subordinate",
+      "layout": "figure-right",
+      "body": [
+        "**Serotonin**, or 5-hydroxytryptamine (5-HT), is a monoamine, a small amine-containing signaling molecule that can change neuronal responsiveness. A **neuromodulator** alters how a circuit responds to its inputs rather than necessarily triggering one fixed action. Huber and colleagues infused serotonin into freely moving _Astacus astacus_.",
+        "The treated subordinate was about 30% smaller than its opponent. After rank formation, 30 min of saline infusion preceded 60 min of serotonin delivery. Estimated circulating serotonin approached 10 µM. Fight duration and intensity increased to approximately three times their pretreatment levels.",
+        "Fighting returned toward baseline within 30 min after infusion ended. The saline phase controlled for infusion and time in the apparatus. These results establish a pharmacological increase in fighting persistence, but not that endogenous serotonin concentration alone determines rank or reverses physical superiority."
+      ],
+      "cite": "Huber et al. (1997)",
+      "refs": [
+        "Robert Huber; Kalim Smith; Antonia Delago; Karin Isaksson; Edward A. Kravitz (1997). Serotonin and aggressive motivation in crustaceans: Altering the decision to retreat. Proceedings of the National Academy of Sciences, 94(11): 5939-5942. https://doi.org/10.1073/pnas.94.11.5939"
+      ],
+      "transcript": [
+        "**Serotonin**, or 5-hydroxytryptamine (5-HT), is a monoamine, a small amine-containing signaling molecule that can change neuronal responsiveness. A **neuromodulator** alters how a circuit responds to its inputs rather than necessarily triggering one fixed action. Huber and colleagues infused serotonin into freely moving _Astacus astacus_.",
+        [
+          "The treated subordinate was about 30% smaller than its opponent. After rank formation, 30 min of saline infusion preceded 60 min of serotonin delivery. Estimated circulating serotonin approached 10 µM. Fight duration and intensity increased to approximately three times their pretreatment levels.",
+          [
+            "The hemolymph is the circulating fluid of the open circulatory system. Delivery into that fluid exposes multiple tissues, so the experiment cannot assign the behavioral change to one receptor or neuron. The estimated concentration describes circulation during infusion, not a measured concentration at a central synapse."
+          ]
+        ],
+        "Fighting returned toward baseline within 30 min after infusion ended. The saline phase controlled for infusion and time in the apparatus. These results establish a pharmacological increase in fighting persistence, but not that endogenous serotonin concentration alone determines rank or reverses physical superiority."
+      ],
+      "figure_width": 6.0,
+      "figure": {
+        "path": "figures/hub_f1.png",
+        "kind": "article",
+        "caption": "Huber et al. (1997), Fig. 1. Fighting during saline, serotonin and octopamine infusion.",
+        "source_url": "https://doi.org/10.1073/pnas.94.11.5939"
+      }
+    },
+    {
+      "title": "Longer fighting reflects a reduced tendency to withdraw",
+      "layout": "figure-right",
+      "body": [
+        "Fighting intensity and duration are coupled: encounters that continue longer have more opportunity to escalate. Huber and colleagues therefore separated persistence from which animal initiated an encounter, the escalation sequence and which animal ultimately retreated.",
+        "During the 60-min serotonin infusion, duration accounted for most of the behavioral change. Subordinates continued contesting interactions longer, while the original opponent usually retained the eventual advantage. The saline and postinfusion periods provided within-pair comparisons.",
+        "The result supports a reduced likelihood of withdrawal during an ongoing interaction. It does not establish increased muscular strength, a reversal of hierarchy or a single general aggression pathway. Applied serotonin changed one component of the animal’s behavior under a particular asymmetry of body size, and that component must be distinguished from the final outcome."
+      ],
+      "cite": "Huber et al. (1997)",
+      "refs": [
+        "Robert Huber; Kalim Smith; Antonia Delago; Karin Isaksson; Edward A. Kravitz (1997). Serotonin and aggressive motivation in crustaceans: Altering the decision to retreat. Proceedings of the National Academy of Sciences, 94(11): 5939-5942. https://doi.org/10.1073/pnas.94.11.5939"
+      ],
+      "transcript": [
+        "Fighting intensity and duration are coupled: encounters that continue longer have more opportunity to escalate. Huber and colleagues therefore separated persistence from which animal initiated an encounter, the escalation sequence and which animal ultimately retreated.",
+        [
+          "During the 60-min serotonin infusion, duration accounted for most of the behavioral change. Subordinates continued contesting interactions longer, while the original opponent usually retained the eventual advantage. The saline and postinfusion periods provided within-pair comparisons.",
+          [
+            "Persistence means that withdrawal is delayed after an encounter begins. The authors did not find a corresponding change in which animal initiated interactions or a new rule for escalation. Their interpretation of willingness to fight is grounded in this specific behavioral dissociation rather than a direct measure of motivation."
+          ]
+        ],
+        "The result supports a reduced likelihood of withdrawal during an ongoing interaction. It does not establish increased muscular strength, a reversal of hierarchy or a single general aggression pathway. Applied serotonin changed one component of the animal’s behavior under a particular asymmetry of body size, and that component must be distinguished from the final outcome."
+      ],
+      "figure_width": 6.0,
+      "figure": {
+        "path": "figures/hub_f2.png",
+        "kind": "article",
+        "caption": "Huber et al. (1997), Fig. 2(A–B). Duration-related changes during serotonin treatment.",
+        "source_url": "https://doi.org/10.1073/pnas.94.11.5939"
+      }
+    },
+    {
+      "title": "Giant pathways generate different escape trajectories",
+      "layout": "figures-right",
+      "body": [
+        "The **lateral giant** (LG) and **medial giant** (MG) are large interneurons that recruit stereotyped escape movements. An **interneuron** connects neurons within the nervous system; a **command neuron** can trigger an organized action when it fires. LG responds chiefly to abrupt abdominal input, whereas MG responds to anterior stimulation.",
+        "Herberholz and colleagues compared sharp mechanical stimuli with synchronized recordings. At 25 ms after movement onset, LG tail flips averaged about 99° relative to the animal’s forward axis, whereas MG movements averaged about 155°.",
+        "Both pathways produced a giant spike followed about 1.4 ms later by a large motor-related field potential. Their distinct trajectories and electrical signatures supported classification. These calibrated responses identify pathway recruitment, but the threshold for releasing a movement can still depend on ongoing behavior and social experience."
+      ],
+      "cite": "Herberholz et al. (2001); Yeh et al. (1997)",
+      "refs": [
+        "Jens Herberholz; Fadi A. Issa; Donald H. Edwards (2001). Patterns of Neural Circuit Activation and Behavior during Dominance Hierarchy Formation in Freely Behaving Crayfish. The Journal of Neuroscience, 21(8): 2759-2767. https://doi.org/10.1523/jneurosci.21-08-02759.2001",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "The **lateral giant** (LG) and **medial giant** (MG) are large interneurons that recruit stereotyped escape movements. An **interneuron** connects neurons within the nervous system; a **command neuron** can trigger an organized action when it fires. LG responds chiefly to abrupt abdominal input, whereas MG responds to anterior stimulation.",
+        [
+          "Herberholz and colleagues compared sharp mechanical stimuli with synchronized recordings. At 25 ms after movement onset, LG tail flips averaged about 99° relative to the animal’s forward axis, whereas MG movements averaged about 155°.",
+          [
+            "An action potential is a brief regenerative electrical impulse. LG bends mainly anterior abdominal segments and pitches the animal upward, whereas MG recruits abdominal flexion more broadly and drives a rearward movement. The larger field event includes coordinated motor-neuron and muscle activity rather than an additional LG spike."
+          ]
+        ],
+        "Both pathways produced a giant spike followed about 1.4 ms later by a large motor-related field potential. Their distinct trajectories and electrical signatures supported classification. These calibrated responses identify pathway recruitment, but the threshold for releasing a movement can still depend on ongoing behavior and social experience."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/h01_f2.png",
+          "kind": "article",
+          "caption": "Herberholz et al. (2001), Fig. 2(A–C). Recorded giant and nongiant tail flips with synchronized video.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+        },
+        {
+          "path": "figures/h01_f1b.png",
+          "kind": "article",
+          "caption": "Herberholz et al. (2001), Fig. 1(B). Published anatomy of giant and nongiant escape pathways.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.8
+    },
+    {
+      "title": "Most social escapes recruit nongiant circuitry",
+      "layout": "figures-right",
+      "body": [
+        "**Nongiant escape** recruits interneurons and motor neurons without firing the giant command pathways. It produces more variable movements and also contributes to repeated swimming tail flips after an initial escape. A motor neuron carries neural output to muscle.",
+        "During 30-min juvenile encounters, Herberholz and colleagues observed extensive nongiant escape and swimming in the new subordinate. LG firing occurred only once across their paired encounters, when an opponent directly struck the subordinate’s abdomen. MG responses were concentrated during vigorous interaction.",
+        "Frequent defensive movement therefore does not imply frequent LG activation. Field potentials lacking the giant spike and large initial motor signature distinguished nongiant responses. The observed recruitment pattern supports selective control of escape pathways, but it cannot by itself determine whether serotonergic modulation or another signal changed their excitability."
+      ],
+      "cite": "Herberholz et al. (2001); Yeh et al. (1997)",
+      "refs": [
+        "Jens Herberholz; Fadi A. Issa; Donald H. Edwards (2001). Patterns of Neural Circuit Activation and Behavior during Dominance Hierarchy Formation in Freely Behaving Crayfish. The Journal of Neuroscience, 21(8): 2759-2767. https://doi.org/10.1523/jneurosci.21-08-02759.2001",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "**Nongiant escape** recruits interneurons and motor neurons without firing the giant command pathways. It produces more variable movements and also contributes to repeated swimming tail flips after an initial escape. A motor neuron carries neural output to muscle.",
+        [
+          "During 30-min juvenile encounters, Herberholz and colleagues observed extensive nongiant escape and swimming in the new subordinate. LG firing occurred only once across their paired encounters, when an opponent directly struck the subordinate’s abdomen. MG responses were concentrated during vigorous interaction.",
+          [
+            "Excitability describes how readily a neuron or circuit responds to stimulation. A change in the frequency of natural responses can reflect changes in sensory input as well as circuit threshold. The rarity of LG activation is therefore a pathway-specific observation, not a direct measurement of serotonin release."
+          ]
+        ],
+        "Frequent defensive movement therefore does not imply frequent LG activation. Field potentials lacking the giant spike and large initial motor signature distinguished nongiant responses. The observed recruitment pattern supports selective control of escape pathways, but it cannot by itself determine whether serotonergic modulation or another signal changed their excitability."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/h01_f5b.png",
+          "kind": "article",
+          "caption": "Herberholz et al. (2001), Fig. 5(B). Tail-flip pathway recruitment across 5-min periods.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-08-02759.2001"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "A stimulus threshold measures reflex availability",
+      "layout": "figures-right",
+      "body": [
+        "A **stimulus threshold** is the smallest input sufficient to elicit a specified response. Krasne and colleagues repeatedly stimulated an abdominal sensory nerve while recording LG-related activity in adult _Procambarus clarkii_ during rest and paired interaction.",
+        "Test shocks lasted 0.2 ms. The researchers varied shock strength to estimate the level needed to trigger LG, while also monitoring upstream sensory interneuron activity. This separated availability of the giant reflex from the number of spontaneous escapes during an encounter.",
+        "LG thresholds increased during agonistic activity, especially in subordinates. A higher threshold means stronger experimental input was needed to release the stereotyped reflex. Electrical nerve stimulation bypasses part of natural stimulus transduction, so its voltage does not directly specify the force of an opponent’s contact or the probability of every escape type."
+      ],
+      "cite": "Krasne et al. (1997); Yeh et al. (1997)",
+      "refs": [
+        "Franklin B. Krasne; Ashkan Shamsian; Raghavendra Kulkarni (1997). Altered Excitability of the Crayfish Lateral Giant Escape Reflex during Agonistic Encounters. The Journal of Neuroscience, 17(2): 709-716. https://doi.org/10.1523/jneurosci.17-02-00709.1997",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "A **stimulus threshold** is the smallest input sufficient to elicit a specified response. Krasne and colleagues repeatedly stimulated an abdominal sensory nerve while recording LG-related activity in adult _Procambarus clarkii_ during rest and paired interaction.",
+        [
+          "Test shocks lasted 0.2 ms. The researchers varied shock strength to estimate the level needed to trigger LG, while also monitoring upstream sensory interneuron activity. This separated availability of the giant reflex from the number of spontaneous escapes during an encounter.",
+          [
+            "A sensory afferent carries information from a receptor toward the central nervous system. Stimulating its nerve activates an input pathway under controlled conditions. Comparing LG with an upstream interneuron helps locate a change after sensory recruitment rather than treating all failures as loss of afferent excitation."
+          ]
+        ],
+        "LG thresholds increased during agonistic activity, especially in subordinates. A higher threshold means stronger experimental input was needed to release the stereotyped reflex. Electrical nerve stimulation bypasses part of natural stimulus transduction, so its voltage does not directly specify the force of an opponent’s contact or the probability of every escape type."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/k97_f2.png",
+          "kind": "article",
+          "caption": "Krasne et al. (1997), Fig. 2. LG threshold estimates during rest and social interaction.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00709.1997"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Interaction suppresses LG more strongly in subordinates",
+      "layout": "figures-right",
+      "body": [
+        "Krasne and colleagues compared each animal before, during and after social interaction. Thresholds were normalized to the animal’s own resting value, allowing the effect of an encounter to be distinguished from stable differences in electrode placement or stimulus recruitment.",
+        "LG thresholds rose markedly in subordinates during interaction and less in dominants. At rest, reflex excitability did not consistently separate the two ranks. Some subordinate thresholds approached several times baseline, then fell after interaction ended.",
+        "The same subordinate can consequently retain an available LG reflex while resting and suppress it during a predictable social threat. This context dependence differs from a permanent loss of the neuron. The experiment established modulation during encounters, but did not measure serotonin release or prove that serotonin produced the observed suppression."
+      ],
+      "cite": "Krasne et al. (1997); Yeh et al. (1997)",
+      "refs": [
+        "Franklin B. Krasne; Ashkan Shamsian; Raghavendra Kulkarni (1997). Altered Excitability of the Crayfish Lateral Giant Escape Reflex during Agonistic Encounters. The Journal of Neuroscience, 17(2): 709-716. https://doi.org/10.1523/jneurosci.17-02-00709.1997",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Krasne and colleagues compared each animal before, during and after social interaction. Thresholds were normalized to the animal’s own resting value, allowing the effect of an encounter to be distinguished from stable differences in electrode placement or stimulus recruitment.",
+        [
+          "LG thresholds rose markedly in subordinates during interaction and less in dominants. At rest, reflex excitability did not consistently separate the two ranks. Some subordinate thresholds approached several times baseline, then fell after interaction ended.",
+          [
+            "Normalizing a threshold to the resting value expresses the change relative to the same preparation. It avoids assuming that equal absolute stimulus voltages recruit identical sensory input in different animals. Social rank and current behavioral context are therefore separate experimental variables."
+          ]
+        ],
+        "The same subordinate can consequently retain an available LG reflex while resting and suppress it during a predictable social threat. This context dependence differs from a permanent loss of the neuron. The experiment established modulation during encounters, but did not measure serotonin release or prove that serotonin produced the observed suppression."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/k97_f3.png",
+          "kind": "article",
+          "caption": "Krasne et al. (1997), Fig. 3(A–B). Normalized LG thresholds in dominant and subordinate animals.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00709.1997"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Sensory excitation reaches LG by converging pathways",
+      "layout": "figures-right",
+      "body": [
+        "Abdominal mechanosensory afferents excite LG directly and through sensory interneurons. A **monosynaptic** pathway contains one synaptic connection; a **disynaptic** pathway contains two. A synapse is a site of signal transfer between neurons.",
+        "Edwards and colleagues combined identified-cell recordings with stained-neuron reconstructions in adult crayfish. **Interneuron A** overlaps the LG dendritic region and contributes sensory excitation. Nerve shocks produce an early α depolarization followed by a later β component reflecting interneuronal recruitment.",
+        "An **excitatory postsynaptic potential** (EPSP) is an input-evoked voltage change favoring neuronal firing. Responses are calibrated in mV and ms, separating signal size from timing. Convergence permits multiple inputs to approach LG firing threshold, but anatomical overlap alone cannot establish a functional synapse or determine which input controls behavior in every context."
+      ],
+      "cite": "Edwards et al. (1991); Yeh et al. (1997)",
+      "refs": [
+        "DH Edwards; WJ Heitler; EM Leise; RA Fricke (1991). Postsynaptic modulation of rectifying electrical synaptic inputs to the LG escape command neuron in crayfish. The Journal of Neuroscience, 11(7): 2117-2129. https://doi.org/10.1523/jneurosci.11-07-02117.1991",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Abdominal mechanosensory afferents excite LG directly and through sensory interneurons. A **monosynaptic** pathway contains one synaptic connection; a **disynaptic** pathway contains two. A synapse is a site of signal transfer between neurons.",
+        [
+          "Edwards and colleagues combined identified-cell recordings with stained-neuron reconstructions in adult crayfish. **Interneuron A** overlaps the LG dendritic region and contributes sensory excitation. Nerve shocks produce an early α depolarization followed by a later β component reflecting interneuronal recruitment.",
+          [
+            "Dendrites are neuronal processes that receive and integrate inputs, whereas an axon carries output toward other targets. The anatomical reconstruction and the physiological recordings provide complementary evidence: identified processes establish where cells overlap, while electrical coupling establishes that a signal can pass between them."
+          ]
+        ],
+        "An **excitatory postsynaptic potential** (EPSP) is an input-evoked voltage change favoring neuronal firing. Responses are calibrated in mV and ms, separating signal size from timing. Convergence permits multiple inputs to approach LG firing threshold, but anatomical overlap alone cannot establish a functional synapse or determine which input controls behavior in every context."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/e91_f2.png",
+          "kind": "article",
+          "caption": "Edwards et al. (1991), Fig. 2. Original stained-neuron reconstruction of interneuron A and LG.",
+          "source_url": "https://doi.org/10.1523/jneurosci.11-07-02117.1991"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.8
+    },
+    {
+      "title": "Electrical synapses depend on the voltage difference",
+      "layout": "figures-right",
+      "body": [
+        "An **electrical synapse** passes current between coupled neurons. **Rectification** means that transmission depends on the direction and voltage difference across the connection. It permits strong forward transmission without equivalent transfer in the opposite direction.",
+        "Edwards and colleagues recorded LG and identified sensory interneurons while injecting current to change membrane potential. Shifting postsynaptic LG voltage altered the transmitted response even when the presynaptic stimulus was retained. Their recordings resolved transferred signals on millisecond time scales.",
+        "Postsynaptic voltage therefore changes the effectiveness of incoming electrical excitation. This is distinct from changing transmitter release at a chemical synapse. The measured rectification constrains how neuromodulation can alter sensory gain, but it does not identify a serotonin receptor or a particular molecular gap-junction protein responsible for the social-status effect."
+      ],
+      "cite": "Edwards et al. (1991); Yeh et al. (1997)",
+      "refs": [
+        "DH Edwards; WJ Heitler; EM Leise; RA Fricke (1991). Postsynaptic modulation of rectifying electrical synaptic inputs to the LG escape command neuron in crayfish. The Journal of Neuroscience, 11(7): 2117-2129. https://doi.org/10.1523/jneurosci.11-07-02117.1991",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "An **electrical synapse** passes current between coupled neurons. **Rectification** means that transmission depends on the direction and voltage difference across the connection. It permits strong forward transmission without equivalent transfer in the opposite direction.",
+        [
+          "Edwards and colleagues recorded LG and identified sensory interneurons while injecting current to change membrane potential. Shifting postsynaptic LG voltage altered the transmitted response even when the presynaptic stimulus was retained. Their recordings resolved transferred signals on millisecond time scales.",
+          [
+            "Depolarization makes a cell’s internal voltage less negative, while hyperpolarization makes it more negative. At a rectifying contact, changing one cell’s voltage changes the driving conditions across the connection. The resulting change in coupling can coexist with changes in the cell’s distance from firing threshold."
+          ]
+        ],
+        "Postsynaptic voltage therefore changes the effectiveness of incoming electrical excitation. This is distinct from changing transmitter release at a chemical synapse. The measured rectification constrains how neuromodulation can alter sensory gain, but it does not identify a serotonin receptor or a particular molecular gap-junction protein responsible for the social-status effect."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/e91_f4.png",
+          "kind": "article",
+          "caption": "Edwards et al. (1991), Fig. 4(A,C). Electrical coupling changes with postsynaptic polarization.",
+          "source_url": "https://doi.org/10.1523/jneurosci.11-07-02117.1991"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Postsynaptic depolarization can reduce incoming EPSPs",
+      "layout": "figures-right",
+      "body": [
+        "A cell’s **membrane potential** is the voltage inside relative to outside. Its effect on firing depends both on proximity to spike threshold and on the transmission of its inputs. Depolarization does not necessarily enlarge every incoming synaptic response.",
+        "Edwards and colleagues shifted LG voltage by intracellular current injection while retaining sensory nerve stimulation. Across α, β and later components, hyperpolarizing LG increased EPSP amplitude, whereas depolarizing it reduced amplitude. The plotted membrane shifts span tens of mV relative to rest.",
+        "Rectifying electrical contacts provide a mechanism for this postsynaptic control of input effectiveness. The result cautions against equating depolarization with enhanced sensory gain. It establishes voltage-dependent transmission in this preparation, but the total effect on escape also depends on spike threshold, inhibition and the actual pattern of afferent excitation."
+      ],
+      "cite": "Edwards et al. (1991); Yeh et al. (1997)",
+      "refs": [
+        "DH Edwards; WJ Heitler; EM Leise; RA Fricke (1991). Postsynaptic modulation of rectifying electrical synaptic inputs to the LG escape command neuron in crayfish. The Journal of Neuroscience, 11(7): 2117-2129. https://doi.org/10.1523/jneurosci.11-07-02117.1991",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "A cell’s **membrane potential** is the voltage inside relative to outside. Its effect on firing depends both on proximity to spike threshold and on the transmission of its inputs. Depolarization does not necessarily enlarge every incoming synaptic response.",
+        [
+          "Edwards and colleagues shifted LG voltage by intracellular current injection while retaining sensory nerve stimulation. Across α, β and later components, hyperpolarizing LG increased EPSP amplitude, whereas depolarizing it reduced amplitude. The plotted membrane shifts span tens of mV relative to rest.",
+          [
+            "Sensory gain describes how strongly a specified input affects the postsynaptic neuron. Increasing an EPSP and moving the resting potential closer to threshold are different changes, and they can act in opposite directions. Their combined effect must be measured rather than inferred from one voltage shift."
+          ]
+        ],
+        "Rectifying electrical contacts provide a mechanism for this postsynaptic control of input effectiveness. The result cautions against equating depolarization with enhanced sensory gain. It establishes voltage-dependent transmission in this preparation, but the total effect on escape also depends on spike threshold, inhibition and the actual pattern of afferent excitation."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/e91_f8.png",
+          "kind": "article",
+          "caption": "Edwards et al. (1991), Fig. 8(A–C). Sensory EPSPs depend on the LG membrane potential.",
+          "source_url": "https://doi.org/10.1523/jneurosci.11-07-02117.1991"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Descending inhibition can suppress escape selectively",
+      "layout": "figures-right",
+      "body": [
+        "**Tonic inhibition** is sustained suppression of a circuit, distinct from the brief inhibition accompanying one response. A **descending input** travels from more anterior nervous-system regions toward abdominal circuits. Vu and colleagues examined this control of LG in restrained crayfish.",
+        "They interrupted transmission through a thoracic-abdominal connective with sucrose and then severed it. Sensory-evoked LG EPSPs increased during the reversible block; after severing, another sucrose application produced little additional increase. Voltage responses were compared within the same preparation.",
+        "The controls locate sustained suppression in an influence carried through the connective. The inhibition increased membrane conductance: incoming current could leave through additional pathways, reducing excitation even though LG was slightly depolarized. Further measurements supported action on distal input regions rather than only near spike initiation. They did not establish that this descending system was the sole cause of social inhibition or that every modulatory effect of serotonin used the same pathway."
+      ],
+      "cite": "Vu et al. (1993); Yeh et al. (1997)",
+      "refs": [
+        "ET Vu; SC Lee; FB Krasne (1993). The mechanism of tonic inhibition of crayfish escape behavior: distal inhibition and its functional significance. The Journal of Neuroscience, 13(10): 4379-4393. https://doi.org/10.1523/jneurosci.13-10-04379.1993",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "**Tonic inhibition** is sustained suppression of a circuit, distinct from the brief inhibition accompanying one response. A **descending input** travels from more anterior nervous-system regions toward abdominal circuits. Vu and colleagues examined this control of LG in restrained crayfish.",
+        [
+          "They interrupted transmission through a thoracic-abdominal connective with sucrose and then severed it. Sensory-evoked LG EPSPs increased during the reversible block; after severing, another sucrose application produced little additional increase. Voltage responses were compared within the same preparation.",
+          [
+            "Distal dendritic inhibition can reduce the contribution of selected inputs before their signals reach the spike-initiation region. The proposed selective function differs from recurrent inhibition that prevents another escape from beginning during an ongoing one. The connective block tests the descending source of the suppression, while its spatial location requires additional electrical comparisons."
+          ]
+        ],
+        "The controls locate sustained suppression in an influence carried through the connective. The inhibition increased membrane conductance: incoming current could leave through additional pathways, reducing excitation even though LG was slightly depolarized. Further measurements supported action on distal input regions rather than only near spike initiation. They did not establish that this descending system was the sole cause of social inhibition or that every modulatory effect of serotonin used the same pathway."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/vu_f3.png",
+          "kind": "article",
+          "caption": "Vu et al. (1993), Fig. 3(A–C). Sensory EPSPs before and after descending input is interrupted.",
+          "source_url": "https://doi.org/10.1523/jneurosci.13-10-04379.1993"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Early serotonin perfusion depressed the giant response",
+      "layout": "figures-right",
+      "body": [
+        "Glanzman and Krasne applied serotonin through the ventral arterial supply while recording sensory responses in LG. Their study established an inhibitory effect under its delivery conditions, preceding the discovery that social experience and application schedule could alter the sign.",
+        "With 1 mM serotonin perfusion, repeated stimuli delivered every 15 s evoked smaller LG responses and lost their ability to produce spikes. During normal saline, early trials could still fire LG; washing out serotonin restored responsiveness. The original recordings retain mV and ms calibration.",
+        "The comparison establishes reversible pharmacological suppression, rather than an irreversible loss of the preparation. Its concentration and route differ from later bath applications. An inhibitory result in this experiment therefore cannot be generalized to every crayfish or taken as a contradiction of facilitation under other exposure conditions."
+      ],
+      "cite": "Glanzman & Krasne (1983); Yeh et al. (1997)",
+      "refs": [
+        "DL Glanzman; FB Krasne (1983). Serotonin and octopamine have opposite modulatory effects on the crayfish's lateral giant escape reaction. The Journal of Neuroscience, 3(11): 2263-2269. https://doi.org/10.1523/jneurosci.03-11-02263.1983",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Glanzman and Krasne applied serotonin through the ventral arterial supply while recording sensory responses in LG. Their study established an inhibitory effect under its delivery conditions, preceding the discovery that social experience and application schedule could alter the sign.",
+        [
+          "With 1 mM serotonin perfusion, repeated stimuli delivered every 15 s evoked smaller LG responses and lost their ability to produce spikes. During normal saline, early trials could still fire LG; washing out serotonin restored responsiveness. The original recordings retain mV and ms calibration.",
+          [
+            "Perfusion through an artery distributes the agent differently from bathing an exposed nerve cord. The concentration in the perfusate is not automatically the concentration at LG receptors. Delivery conditions and social history must therefore be recorded before comparisons between experiments are assigned a biological explanation."
+          ]
+        ],
+        "The comparison establishes reversible pharmacological suppression, rather than an irreversible loss of the preparation. Its concentration and route differ from later bath applications. An inhibitory result in this experiment therefore cannot be generalized to every crayfish or taken as a contradiction of facilitation under other exposure conditions."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/g83_f2.png",
+          "kind": "article",
+          "caption": "Glanzman & Krasne (1983), Fig. 2. LG responses during saline, serotonin and washout.",
+          "source_url": "https://doi.org/10.1523/jneurosci.03-11-02263.1983"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Octopamine enhanced a later component of excitation",
+      "layout": "figures-right",
+      "body": [
+        "**Octopamine** is another monoamine neuromodulator in arthropods. Glanzman and Krasne compared its effect with serotonin using controlled sensory stimulation and arterial delivery in crayfish. Both compounds acted on the escape system, but their effects were not interchangeable.",
+        "During 2 mM octopamine perfusion, the later β component increased and stimuli that previously produced subthreshold responses could trigger LG spikes. The early α component changed less. Saline periods before and after treatment provided comparisons within the same preparation.",
+        "Additional recordings supported facilitation of the afferent-to-interneuron-A connection, whereas serotonin did not produce an equivalent effect there. A larger β response may consequently reflect modulation before LG as well as at LG. The opposite amine effects establish specific physiological actions under these conditions, not universal behavioral identities such as dominance and submission."
+      ],
+      "cite": "Glanzman & Krasne (1983); Yeh et al. (1997)",
+      "refs": [
+        "DL Glanzman; FB Krasne (1983). Serotonin and octopamine have opposite modulatory effects on the crayfish's lateral giant escape reaction. The Journal of Neuroscience, 3(11): 2263-2269. https://doi.org/10.1523/jneurosci.03-11-02263.1983",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "**Octopamine** is another monoamine neuromodulator in arthropods. Glanzman and Krasne compared its effect with serotonin using controlled sensory stimulation and arterial delivery in crayfish. Both compounds acted on the escape system, but their effects were not interchangeable.",
+        [
+          "During 2 mM octopamine perfusion, the later β component increased and stimuli that previously produced subthreshold responses could trigger LG spikes. The early α component changed less. Saline periods before and after treatment provided comparisons within the same preparation.",
+          [
+            "The β response contains activity that has passed through a sensory interneuron, so it can change when either stage of that pathway is modulated. Comparing the earliest direct component with the later component helps distinguish these possibilities. An escape result cannot be used to assign the same sign to octopamine in every motor network."
+          ]
+        ],
+        "Additional recordings supported facilitation of the afferent-to-interneuron-A connection, whereas serotonin did not produce an equivalent effect there. A larger β response may consequently reflect modulation before LG as well as at LG. The opposite amine effects establish specific physiological actions under these conditions, not universal behavioral identities such as dominance and submission."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/g83_f6.png",
+          "kind": "article",
+          "caption": "Glanzman & Krasne (1983), Fig. 6. Octopamine increases the later LG response.",
+          "source_url": "https://doi.org/10.1523/jneurosci.03-11-02263.1983"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Serotonin dose does not determine its effect alone",
+      "layout": "figures-right",
+      "body": [
+        "Teshiba and colleagues systematically varied serotonin concentration, onset rate and exposure duration in crayfish isolated for at least two weeks. These controls tested why different laboratories had reported opposite effects on LG.",
+        "Rapid high-concentration exposure inhibited sensory EPSPs, whereas lower concentrations facilitated them. Juvenile bath concentrations were 5 µM for the low condition and 100 µM for the high condition. Adult arterial concentrations differed because the route of application differed.",
+        "Thus the measured sign depends on the preparation and exposure schedule as well as the drug’s identity. The experiments establish that an isolated animal has both facilitatory and inhibitory capabilities. They do not provide direct measurements of the receptor occupancy or intracellular molecules mediating each component, and they cannot specify the natural serotonin waveform during an encounter."
+      ],
+      "cite": "Teshiba et al. (2001); Yeh et al. (1997)",
+      "refs": [
+        "Terri Teshiba; Ashkan Shamsian; Bahram Yashar; Shih-Rung Yeh; Donald H. Edwards; Franklin B. Krasne (2001). Dual and Opposing Modulatory Effects of Serotonin on Crayfish Lateral Giant Escape Command Neurons. The Journal of Neuroscience, 21(12): 4523-4529. https://doi.org/10.1523/jneurosci.21-12-04523.2001",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Teshiba and colleagues systematically varied serotonin concentration, onset rate and exposure duration in crayfish isolated for at least two weeks. These controls tested why different laboratories had reported opposite effects on LG.",
+        [
+          "Rapid high-concentration exposure inhibited sensory EPSPs, whereas lower concentrations facilitated them. Juvenile bath concentrations were 5 µM for the low condition and 100 µM for the high condition. Adult arterial concentrations differed because the route of application differed.",
+          [
+            "A bath concentration specifies the solution contacting the exposed tissue, whereas arterial delivery specifies an upstream solution. The study used different nominal concentrations for these routes and compared their qualitative effects. Social isolation did not eliminate inhibitory modulation when serotonin arrived rapidly at a sufficiently high level."
+          ]
+        ],
+        "Thus the measured sign depends on the preparation and exposure schedule as well as the drug’s identity. The experiments establish that an isolated animal has both facilitatory and inhibitory capabilities. They do not provide direct measurements of the receptor occupancy or intracellular molecules mediating each component, and they cannot specify the natural serotonin waveform during an encounter."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/t01_f3.png",
+          "kind": "article",
+          "caption": "Teshiba et al. (2001), Fig. 3(A–D). Effects of serotonin dose, onset rate and exposure duration.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-12-04523.2001"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Slow onset favors facilitation at a high concentration",
+      "layout": "figures-right",
+      "body": [
+        "**Onset rate** describes how rapidly exposure reaches its final level. Teshiba and colleagues compared a rapid serotonin increase with a gradual rise to the same high condition while repeatedly measuring LG sensory EPSPs.",
+        "Fast delivery reached full exposure within roughly 1–2 min. Slow delivery took about 20–30 min. The slow, prolonged high exposure facilitated LG instead of producing the inhibition characteristic of a rapid rise. Exposure duration and washout were tracked independently.",
+        "The result supports parallel modulatory processes whose net influence depends on timing. A slowly developing facilitatory effect can dominate before a higher-threshold inhibitory action becomes substantial. This is a mechanistic interpretation constrained by the recordings; the experiments did not directly identify the proposed interacting signaling molecules or prove their precise biochemical sequence."
+      ],
+      "cite": "Teshiba et al. (2001); Yeh et al. (1997)",
+      "refs": [
+        "Terri Teshiba; Ashkan Shamsian; Bahram Yashar; Shih-Rung Yeh; Donald H. Edwards; Franklin B. Krasne (2001). Dual and Opposing Modulatory Effects of Serotonin on Crayfish Lateral Giant Escape Command Neurons. The Journal of Neuroscience, 21(12): 4523-4529. https://doi.org/10.1523/jneurosci.21-12-04523.2001",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "**Onset rate** describes how rapidly exposure reaches its final level. Teshiba and colleagues compared a rapid serotonin increase with a gradual rise to the same high condition while repeatedly measuring LG sensory EPSPs.",
+        [
+          "Fast delivery reached full exposure within roughly 1–2 min. Slow delivery took about 20–30 min. The slow, prolonged high exposure facilitated LG instead of producing the inhibition characteristic of a rapid rise. Exposure duration and washout were tracked independently.",
+          [
+            "The final concentration alone omits the tissue’s exposure history. Two preparations can receive the same final solution yet arrive there after different periods of receptor activation and downstream signaling. The source’s mathematical models explored possible interactions, but a successful model is not a molecular identification."
+          ]
+        ],
+        "The result supports parallel modulatory processes whose net influence depends on timing. A slowly developing facilitatory effect can dominate before a higher-threshold inhibitory action becomes substantial. This is a mechanistic interpretation constrained by the recordings; the experiments did not directly identify the proposed interacting signaling molecules or prove their precise biochemical sequence."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/t01_f1b.png",
+          "kind": "article",
+          "caption": "Teshiba et al. (2001), Fig. 1(B1–B4). Recorded LG responses under different serotonin schedules.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-12-04523.2001"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Social experience can reverse serotonin’s effect",
+      "layout": "figures-right",
+      "body": [
+        "Yeh, Fricke and Edwards compared socially isolated, dominant and subordinate crayfish using bath-applied serotonin. Animals were assigned rank from repeated social behavior and paired for at least 12 days before mature status-dependent responses were evaluated.",
+        "Serotonin at 50 µM enhanced LG sensory responses in isolates and dominants, but reduced them in subordinates. Saline wash removed the effect in paired animals, whereas facilitation in isolates could persist for hours. The same identified neuron and input pathway were tested across social conditions.",
+        "A transmitter’s action therefore depends on the animal’s prior social experience. The study measured responses to experimentally supplied serotonin; it did not measure endogenous release during fighting. It supports plasticity in serotonergic modulation without establishing that this plasticity alone causes the immediate behavioral decision to withdraw."
+      ],
+      "cite": "Yeh et al. (1996); Yeh et al. (1997)",
+      "refs": [
+        "Shih-Rung Yeh; Russell A. Fricke; Donald H. Edwards (1996). The Effect of Social Experience on Serotonergic Modulation of the Escape Circuit of Crayfish. Science, 271(5247): 366-369. https://doi.org/10.1126/science.271.5247.366",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Yeh, Fricke and Edwards compared socially isolated, dominant and subordinate crayfish using bath-applied serotonin. Animals were assigned rank from repeated social behavior and paired for at least 12 days before mature status-dependent responses were evaluated.",
+        [
+          "Serotonin at 50 µM enhanced LG sensory responses in isolates and dominants, but reduced them in subordinates. Saline wash removed the effect in paired animals, whereas facilitation in isolates could persist for hours. The same identified neuron and input pathway were tested across social conditions.",
+          [
+            "Plasticity is a lasting change in nervous-system function associated with experience. Comparing bath responses after the animals’ histories have differed isolates a property retained by the preparation. The experiment does not require that rank be maintained by a continuously elevated circulating serotonin concentration."
+          ]
+        ],
+        "A transmitter’s action therefore depends on the animal’s prior social experience. The study measured responses to experimentally supplied serotonin; it did not measure endogenous release during fighting. It supports plasticity in serotonergic modulation without establishing that this plasticity alone causes the immediate behavioral decision to withdraw."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/y96_f2.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1996), Fig. 2(A–C). Serotonin and agonist effects depend on social experience.",
+          "source_url": "https://doi.org/10.1126/science.271.5247.366"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.8
+    },
+    {
+      "title": "Equal serotonin treatment yields opposite sensory gains",
+      "layout": "figures-right",
+      "body": [
+        "Yeh and colleagues expanded the social-history comparison using identified LG recordings across a range of sensory shock strengths. **Subthreshold input** evokes a response without a spike; **suprathreshold input** is sufficient to initiate firing.",
+        "After 45 min of 50 µM serotonin superfusion, LG EPSPs increased across stimulus levels in isolates and dominants and decreased in established subordinates. Representative stimulus-response relations changed by about +117%, +39% and −37%, respectively. These are individual examples, not universal effect sizes.",
+        "The stimulus needed to fire LG consequently fell with facilitation and rose with inhibition. A 1-h saline wash restored paired animals toward baseline. This links synaptic gain to reflex availability, while the controlled shock assay remains distinct from the frequency of natural escapes or the outcome of a social fight."
+      ],
+      "cite": "Yeh et al. (1997)",
+      "refs": [
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Yeh and colleagues expanded the social-history comparison using identified LG recordings across a range of sensory shock strengths. **Subthreshold input** evokes a response without a spike; **suprathreshold input** is sufficient to initiate firing.",
+        [
+          "After 45 min of 50 µM serotonin superfusion, LG EPSPs increased across stimulus levels in isolates and dominants and decreased in established subordinates. Representative stimulus-response relations changed by about +117%, +39% and −37%, respectively. These are individual examples, not universal effect sizes.",
+          [
+            "Testing a range of shocks prevents a change at one selected stimulus level from being mistaken for a general gain change. When an EPSP grows enough to cross threshold, the same physical input can now recruit the giant pathway. Conversely, inhibition can turn a formerly effective stimulus into a subthreshold response."
+          ]
+        ],
+        "The stimulus needed to fire LG consequently fell with facilitation and rose with inhibition. A 1-h saline wash restored paired animals toward baseline. This links synaptic gain to reflex availability, while the controlled shock assay remains distinct from the frequency of natural escapes or the outcome of a social fight."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/y97_f2.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 2. LG responses and stimulus-response relations by social status.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 3.0
+    },
+    {
+      "title": "Input resistance changes accompany social modulation",
+      "layout": "figures-right",
+      "body": [
+        "**Input resistance** describes the voltage change produced by an injected current. Ion channels are membrane proteins that provide paths for ionic current. Higher resistance can permit a given input current to produce a larger voltage response; lower resistance permits more current to leave the membrane locally.",
+        "Yeh and colleagues measured LG at its initial axon segment before serotonin, during exposure and after a 1-h wash. Isolates and dominants displayed small depolarizations and increased input resistance; subordinates displayed hyperpolarization and reduced resistance. The changes accompanied their opposite EPSP responses.",
+        "The association supports modulation of LG membrane properties, rather than only changing sensory recruitment. Measurement at the axon segment does not fully reveal conductance distribution across all dendrites. These recordings also do not identify the ion-channel species responsible or prove that one resistance change explains every effect on electrical synaptic input."
+      ],
+      "cite": "Yeh et al. (1997)",
+      "refs": [
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "**Input resistance** describes the voltage change produced by an injected current. Ion channels are membrane proteins that provide paths for ionic current. Higher resistance can permit a given input current to produce a larger voltage response; lower resistance permits more current to leave the membrane locally.",
+        [
+          "Yeh and colleagues measured LG at its initial axon segment before serotonin, during exposure and after a 1-h wash. Isolates and dominants displayed small depolarizations and increased input resistance; subordinates displayed hyperpolarization and reduced resistance. The changes accompanied their opposite EPSP responses.",
+          [
+            "Hyperpolarization makes the cell’s internal voltage more negative. A conductance is the ease with which current passes through a pathway, and increased conductance lowers resistance. The recording location matters because a distal conductance change can affect sensory inputs differently from a change near the electrode."
+          ]
+        ],
+        "The association supports modulation of LG membrane properties, rather than only changing sensory recruitment. Measurement at the axon segment does not fully reveal conductance distribution across all dendrites. These recordings also do not identify the ion-channel species responsible or prove that one resistance change explains every effect on electrical synaptic input."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/y97_f3b.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 3(B). Membrane potential and input-resistance changes by social status.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Subordinate modulation develops over days and reverses",
+      "layout": "figures-right",
+      "body": [
+        "The behavioral decision to yield can occur during an early encounter, while serotonin’s effect on LG changes more slowly. Yeh and colleagues tested new dominants and subordinates at different times after pairing previously isolated crayfish.",
+        "New subordinates initially retained serotonergic facilitation. It declined during the first week and became increasingly inhibitory during the second week. After 12 days of pairing followed by 8 days of renewed isolation, facilitation returned in the former subordinates.",
+        "This time course separates acquisition of rank from acquisition of the mature cellular response. Reversal after isolation supports an experience-dependent process maintained by continued social conditions. The measurements do not identify the signal that communicates rank to abdominal circuitry or establish that the initial hierarchy decision requires the later inhibitory serotonin response."
+      ],
+      "cite": "Yeh et al. (1997)",
+      "refs": [
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "The behavioral decision to yield can occur during an early encounter, while serotonin’s effect on LG changes more slowly. Yeh and colleagues tested new dominants and subordinates at different times after pairing previously isolated crayfish.",
+        [
+          "New subordinates initially retained serotonergic facilitation. It declined during the first week and became increasingly inhibitory during the second week. After 12 days of pairing followed by 8 days of renewed isolation, facilitation returned in the former subordinates.",
+          [
+            "The preparation retains consequences of prior housing and interaction after removal for recording. Because early subordinate behavior precedes the mature inhibitory response, that inhibitory response cannot be treated as the complete explanation for the first decision to retreat. The reversal establishes plasticity rather than permanent damage."
+          ]
+        ],
+        "This time course separates acquisition of rank from acquisition of the mature cellular response. Reversal after isolation supports an experience-dependent process maintained by continued social conditions. The measurements do not identify the signal that communicates rank to abdominal circuitry or establish that the initial hierarchy decision requires the later inhibitory serotonin response."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/y97_f6.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 6. Serotonin effects after pairing and subsequent isolation.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Promotion changes the previously subordinate response",
+      "layout": "figures-right",
+      "body": [
+        "Yeh and colleagues paired former subordinates with one another, allowing one member to acquire dominant status. This manipulation tested whether a retained inhibitory serotonin response could change after a new social relationship developed.",
+        "The newly dominant animal’s LG response shifted gradually from serotonin-induced inhibition toward facilitation over about two weeks. The comparison distinguished these animals from new dominants generated by pairing isolates, which already had a facilitatory response.",
+        "Promotion therefore changes an experienced subordinate’s cellular modulation on a multi-day time scale. The persistence of an older response early after promotion indicates that current behavior and cellular history need not coincide immediately. The experiment establishes adaptation after a status transition, but cannot assign it specifically to receptor abundance, receptor localization or downstream signaling without additional molecular measurements."
+      ],
+      "cite": "Yeh et al. (1997)",
+      "refs": [
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Yeh and colleagues paired former subordinates with one another, allowing one member to acquire dominant status. This manipulation tested whether a retained inhibitory serotonin response could change after a new social relationship developed.",
+        [
+          "The newly dominant animal’s LG response shifted gradually from serotonin-induced inhibition toward facilitation over about two weeks. The comparison distinguished these animals from new dominants generated by pairing isolates, which already had a facilitatory response.",
+          [
+            "A previous subordinate and a previous isolate can both become dominant while beginning from different modulatory states. Their eventual similarity does not imply identical rates of adaptation. The relevant variable is the sequence of social experiences, not merely the label assigned on the recording day."
+          ]
+        ],
+        "Promotion therefore changes an experienced subordinate’s cellular modulation on a multi-day time scale. The persistence of an older response early after promotion indicates that current behavior and cellular history need not coincide immediately. The experiment establishes adaptation after a status transition, but cannot assign it specifically to receptor abundance, receptor localization or downstream signaling without additional molecular measurements."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/y97_f7.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 7. Former subordinates adapt after becoming dominant.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.8
+    },
+    {
+      "title": "Demotion can leave a long-lasting dominant-like response",
+      "layout": "figures-right",
+      "body": [
+        "Social history can persist after current rank changes. Yeh and colleagues paired former dominants with one another and subsequently measured serotonin’s effect in the animal that had become subordinate. Its behavior was monitored independently of the later neuronal assay.",
+        "These new subordinates continued to avoid the dominant and to retreat or tail flip on approach. Nevertheless, serotonin still enhanced their LG responses after as much as 38 days of pairing, unlike subordinates produced from initially isolated animals.",
+        "The dissociation prevents a one-to-one mapping from current rank to serotonin’s cellular sign. Prior dominance left a modulatory state resistant to reversal under these conditions. It also limits causal claims: dominant-like facilitation of LG is insufficient to guarantee dominant behavior, because the animals expressing it nevertheless behaved as subordinates in their new relationship."
+      ],
+      "cite": "Yeh et al. (1997)",
+      "refs": [
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Social history can persist after current rank changes. Yeh and colleagues paired former dominants with one another and subsequently measured serotonin’s effect in the animal that had become subordinate. Its behavior was monitored independently of the later neuronal assay.",
+        [
+          "These new subordinates continued to avoid the dominant and to retreat or tail flip on approach. Nevertheless, serotonin still enhanced their LG responses after as much as 38 days of pairing, unlike subordinates produced from initially isolated animals.",
+          [
+            "The same current subordinate category contains animals with different histories and different serotonergic responses. A mechanistic explanation must therefore account for both experience and its order. The persistence was measured in surviving paired animals, so it does not establish that every demoted dominant follows an identical trajectory."
+          ]
+        ],
+        "The dissociation prevents a one-to-one mapping from current rank to serotonin’s cellular sign. Prior dominance left a modulatory state resistant to reversal under these conditions. It also limits causal claims: dominant-like facilitation of LG is insufficient to guarantee dominant behavior, because the animals expressing it nevertheless behaved as subordinates in their new relationship."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/y97_f8.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 8. Former dominants retain facilitation after becoming subordinate.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.8
+    },
+    {
+      "title": "Agonist effects distinguish competing modulatory actions",
+      "layout": "figures-right",
+      "body": [
+        "An **agonist** activates a receptor-mediated response. Yeh and colleagues substituted drugs historically classified as vertebrate type-1 or type-2 serotonin agonists while retaining LG recording and sensory stimulation. Their classifications were pharmacological hypotheses, not direct molecular identifications in crayfish.",
+        "At 50 µM, mCPP reduced LG responses in paired animals but had little effect in isolates. α-Methylserotonin enhanced responses in all three social conditions. Facilitation could persist after a 1-h wash in isolates, whereas paired animals generally recovered toward baseline.",
+        "Opposing drug effects support multiple modulatory actions rather than one obligatory response to serotonin. Crayfish receptors can have different drug selectivity from vertebrate receptors. These experiments therefore cannot establish that the named vertebrate receptor subtype is the molecular receptor responsible for LG inhibition or facilitation."
+      ],
+      "cite": "Yeh et al. (1997)",
+      "refs": [
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "An **agonist** activates a receptor-mediated response. Yeh and colleagues substituted drugs historically classified as vertebrate type-1 or type-2 serotonin agonists while retaining LG recording and sensory stimulation. Their classifications were pharmacological hypotheses, not direct molecular identifications in crayfish.",
+        [
+          "At 50 µM, mCPP reduced LG responses in paired animals but had little effect in isolates. α-Methylserotonin enhanced responses in all three social conditions. Facilitation could persist after a 1-h wash in isolates, whereas paired animals generally recovered toward baseline.",
+          [
+            "Drug selectivity is the relative strength of its action at different targets. A compound named for a vertebrate receptor can activate a different combination of crustacean targets. Identifying a subtype requires cloned receptors, signaling measurements and localization in addition to the physiological drug response."
+          ]
+        ],
+        "Opposing drug effects support multiple modulatory actions rather than one obligatory response to serotonin. Crayfish receptors can have different drug selectivity from vertebrate receptors. These experiments therefore cannot establish that the named vertebrate receptor subtype is the molecular receptor responsible for LG inhibition or facilitation."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/y97_f9.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 9. Responses to the historically designated type-1 agonist.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.55
+    },
+    {
+      "title": "Receptor immunostaining identifies candidate locations",
+      "layout": "figure-right",
+      "body": [
+        "**Immunocytochemistry** uses antibodies to locate a target molecule in cells. Spitzer and colleagues mapped a putative crustacean type-1 serotonin receptor, designated 5-HT1crust, with fluorescence microscopy and compared receptor labeling with serotonin labeling.",
+        "Receptor-associated puncta occurred around neuronal somata (cell bodies) and within their cytoplasm. In cluster 10 brain cells, optical sections separated labeled material from nuclear staining; source panels include 5-µm and 50-µm calibration. Antibody preabsorption controls reduced the specific labeling pattern.",
+        "The map identifies candidate locations for serotonergic signaling, but immunoreactivity is not a direct measurement of receptor activation. Cytoplasmic labeling may reflect intracellular receptor pools as well as membrane-associated protein. Neither proximity to serotonin-containing fibers nor a bright signal establishes that the receptor is necessary for social dominance or a particular escape response."
+      ],
+      "cite": "Spitzer et al. (2005)",
+      "refs": [
+        "Nadja Spitzer; Brian L. Antonsen; Donald H. Edwards (2005). Immunocytochemical mapping and quantification of expression of a putative type 1 serotonin receptor in the crayfish nervous system. The Journal of Comparative Neurology, 484(3): 261-282. https://doi.org/10.1002/cne.20456"
+      ],
+      "transcript": [
+        "**Immunocytochemistry** uses antibodies to locate a target molecule in cells. Spitzer and colleagues mapped a putative crustacean type-1 serotonin receptor, designated 5-HT1crust, with fluorescence microscopy and compared receptor labeling with serotonin labeling.",
+        [
+          "Receptor-associated puncta occurred around neuronal somata (cell bodies) and within their cytoplasm. In cluster 10 brain cells, optical sections separated labeled material from nuclear staining; source panels include 5-µm and 50-µm calibration. Antibody preabsorption controls reduced the specific labeling pattern.",
+          [
+            "A soma is a neuron’s cell body, and a punctum is a small localized region of label. Antibody preabsorption tests whether binding depends on the recognized antigen. Even specific molecular recognition does not measure receptor coupling, current flow or the consequence of activating the labeled cell."
+          ]
+        ],
+        "The map identifies candidate locations for serotonergic signaling, but immunoreactivity is not a direct measurement of receptor activation. Cytoplasmic labeling may reflect intracellular receptor pools as well as membrane-associated protein. Neither proximity to serotonin-containing fibers nor a bright signal establishes that the receptor is necessary for social dominance or a particular escape response."
+      ],
+      "figure_width": 6.0,
+      "figure": {
+        "path": "figures/s05_f3.png",
+        "kind": "article",
+        "caption": "Spitzer et al. (2005), Fig. 3(A–I). Putative type-1 receptor labeling and nuclear counterstaining.",
+        "source_url": "https://doi.org/10.1002/cne.20456"
+      }
+    },
+    {
+      "title": "The mapped type-1 receptor was not detected on LG",
+      "layout": "figures-right",
+      "body": [
+        "Spitzer and colleagues found putative type-1 receptor immunoreactivity in cell clusters and neuropil throughout abdominal ganglia, segmental concentrations of neuronal cell bodies and their connections. **Neuropil** is a region rich in neuronal processes and synaptic connections. The terminal ganglion retained the pattern expected from its fused organization.",
+        "The mapped receptor was not detected on LG or on the thin serotonin-containing fiber associated with it. Independent dye filling and serotonin immunostaining by Yeh and colleagues identified LG axons and nearby serotonergic varicosities; these measurements concern different molecular targets.",
+        "Consequently, the receptor map does not confirm a direct type-1 receptor mechanism in LG. Receptor-mediated modulation could occur elsewhere in the circuit, or another subtype could be involved. Failure to detect staining also has sensitivity limits, so it should not be treated as proof that every type-1-related action is impossible in the giant neuron."
+      ],
+      "cite": "Spitzer et al. (2005); Yeh et al. (1997)",
+      "refs": [
+        "Nadja Spitzer; Brian L. Antonsen; Donald H. Edwards (2005). Immunocytochemical mapping and quantification of expression of a putative type 1 serotonin receptor in the crayfish nervous system. The Journal of Comparative Neurology, 484(3): 261-282. https://doi.org/10.1002/cne.20456",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Spitzer and colleagues found putative type-1 receptor immunoreactivity in cell clusters and neuropil throughout abdominal ganglia, segmental concentrations of neuronal cell bodies and their connections. **Neuropil** is a region rich in neuronal processes and synaptic connections. The terminal ganglion retained the pattern expected from its fused organization.",
+        [
+          "The mapped receptor was not detected on LG or on the thin serotonin-containing fiber associated with it. Independent dye filling and serotonin immunostaining by Yeh and colleagues identified LG axons and nearby serotonergic varicosities; these measurements concern different molecular targets.",
+          [
+            "A varicosity is a swelling along a neuronal process that can contain release machinery. Detecting serotonin near an LG axon establishes anatomical proximity, while failing to label a receptor establishes only the result of that receptor assay. Combining the two does not identify the functional postsynaptic target."
+          ]
+        ],
+        "Consequently, the receptor map does not confirm a direct type-1 receptor mechanism in LG. Receptor-mediated modulation could occur elsewhere in the circuit, or another subtype could be involved. Failure to detect staining also has sensitivity limits, so it should not be treated as proof that every type-1-related action is impossible in the giant neuron."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/s05_f9.png",
+          "kind": "article",
+          "caption": "Spitzer et al. (2005), Fig. 9(A–F). Receptor labeling across abdominal ganglia.",
+          "source_url": "https://doi.org/10.1002/cne.20456"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 3.2
+    },
+    {
+      "title": "A cloned type-1 receptor suppresses cAMP accumulation",
+      "layout": "figures-right",
+      "body": [
+        "A **G-protein-coupled receptor** transmits extracellular ligand binding into intracellular signaling through a G protein. A ligand is a receptor-binding molecule. **Cyclic AMP** (cAMP) is an intracellular second messenger, a molecule relaying receptor activation to cellular processes. Spitzer and colleagues expressed cloned crustacean receptors in mammalian cells.",
+        "Activating crayfish 5-HT1α reduced forskolin-stimulated cAMP accumulation. **Forskolin** activates adenylyl cyclase, the enzyme producing cAMP. After accounting for background cellular responses, serotonin’s half-maximal effective concentration was about 31 nM. Non-induced cells controlled for responses unrelated to the introduced receptor.",
+        "These assays establish receptor-dependent signaling consistent with cyclase inhibition by Gi/o, an inhibitory G-protein family. They do not establish that this receptor is located on LG or mediates its social-history-dependent inhibition. A second-messenger decrease in an expression system is distinct from a demonstrated behavioral action in crayfish."
+      ],
+      "cite": "Spitzer et al. (2008); Spitzer et al. (2005)",
+      "refs": [
+        "Nadja Spitzer; Donald H. Edwards; Deborah J. Baro (2008). Conservation of structure, signaling and pharmacology between two serotonin receptor subtypes from decapod crustaceans, Panulirus interruptus and Procambarus clarkii. Journal of Experimental Biology, 211(1): 92-105. https://doi.org/10.1242/jeb.012450",
+        "Nadja Spitzer; Brian L. Antonsen; Donald H. Edwards (2005). Immunocytochemical mapping and quantification of expression of a putative type 1 serotonin receptor in the crayfish nervous system. The Journal of Comparative Neurology, 484(3): 261-282. https://doi.org/10.1002/cne.20456"
+      ],
+      "transcript": [
+        "A **G-protein-coupled receptor** transmits extracellular ligand binding into intracellular signaling through a G protein. A ligand is a receptor-binding molecule. **Cyclic AMP** (cAMP) is an intracellular second messenger, a molecule relaying receptor activation to cellular processes. Spitzer and colleagues expressed cloned crustacean receptors in mammalian cells.",
+        [
+          "Activating crayfish 5-HT1α reduced forskolin-stimulated cAMP accumulation. **Forskolin** activates adenylyl cyclase, the enzyme producing cAMP. After accounting for background cellular responses, serotonin’s half-maximal effective concentration was about 31 nM. Non-induced cells controlled for responses unrelated to the introduced receptor.",
+          [
+            "The half-maximal effective concentration is the concentration producing half of the measured maximal response under the assay conditions. It is a functional potency measure rather than a direct binding affinity. The cellular host can itself respond at high serotonin concentrations, which is why the matched non-induced comparison is necessary."
+          ]
+        ],
+        "These assays establish receptor-dependent signaling consistent with cyclase inhibition by Gi/o, an inhibitory G-protein family. They do not establish that this receptor is located on LG or mediates its social-history-dependent inhibition. A second-messenger decrease in an expression system is distinct from a demonstrated behavioral action in crayfish."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/s08_f5.png",
+          "kind": "article",
+          "caption": "Spitzer et al. (2008), Fig. 5(A–D). Cloned type-1 receptors suppress stimulated cAMP accumulation.",
+          "source_url": "https://doi.org/10.1242/jeb.012450"
+        },
+        {
+          "path": "figures/s05_f3.png",
+          "kind": "article",
+          "caption": "Spitzer et al. (2005), Fig. 3(A–I). Putative type-1 receptor labeling and nuclear counterstaining.",
+          "source_url": "https://doi.org/10.1002/cne.20456"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "title": "A cloned type-2 receptor activates a different messenger",
+      "layout": "figures-right",
+      "body": [
+        "Spitzer and colleagues expressed the crayfish 5-HT2β receptor in HEK cells, a mammalian cell line used to test an introduced protein. They measured **inositol phosphates**, intracellular products generated when phospholipase C cleaves membrane phosphoinositides, a lipid family.",
+        "Serotonin increased inositol-phosphate accumulation in receptor-expressing cells, with a half-maximal effective concentration near 270 nM. Matched non-transfected cells did not produce the same receptor-associated response. Other tested monoamines required much higher concentrations or had little activity.",
+        "The assay separates two cloned serotonin receptors by their signaling and pharmacology. It supports a type-2-associated phosphoinositide pathway, but does not assign that cloned receptor to LG facilitation. Published receptor staining supplies anatomical context for candidate signaling sites; the molecular subtype producing the cAMP-dependent giant-neuron effect remains a separate question."
+      ],
+      "cite": "Spitzer et al. (2008); Spitzer et al. (2005)",
+      "refs": [
+        "Nadja Spitzer; Donald H. Edwards; Deborah J. Baro (2008). Conservation of structure, signaling and pharmacology between two serotonin receptor subtypes from decapod crustaceans, Panulirus interruptus and Procambarus clarkii. Journal of Experimental Biology, 211(1): 92-105. https://doi.org/10.1242/jeb.012450",
+        "Nadja Spitzer; Brian L. Antonsen; Donald H. Edwards (2005). Immunocytochemical mapping and quantification of expression of a putative type 1 serotonin receptor in the crayfish nervous system. The Journal of Comparative Neurology, 484(3): 261-282. https://doi.org/10.1002/cne.20456"
+      ],
+      "transcript": [
+        "Spitzer and colleagues expressed the crayfish 5-HT2β receptor in HEK cells, a mammalian cell line used to test an introduced protein. They measured **inositol phosphates**, intracellular products generated when phospholipase C cleaves membrane phosphoinositides, a lipid family.",
+        [
+          "Serotonin increased inositol-phosphate accumulation in receptor-expressing cells, with a half-maximal effective concentration near 270 nM. Matched non-transfected cells did not produce the same receptor-associated response. Other tested monoamines required much higher concentrations or had little activity.",
+          [
+            "A heterologous system expresses a protein outside its original tissue. It permits controlled comparison of receptor responses while leaving the native network absent. Receptor classification, molecular coupling and behavioral function are therefore distinct levels of evidence that require different experiments."
+          ]
+        ],
+        "The assay separates two cloned serotonin receptors by their signaling and pharmacology. It supports a type-2-associated phosphoinositide pathway, but does not assign that cloned receptor to LG facilitation. Published receptor staining supplies anatomical context for candidate signaling sites; the molecular subtype producing the cAMP-dependent giant-neuron effect remains a separate question."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/s08_f4.png",
+          "kind": "article",
+          "caption": "Spitzer et al. (2008), Fig. 4(A–E). Cloned type-2 receptors activate inositol-phosphate signaling.",
+          "source_url": "https://doi.org/10.1242/jeb.012450"
+        },
+        {
+          "path": "figures/s05_f4.png",
+          "kind": "article",
+          "caption": "Spitzer et al. (2005), Fig. 4(A–D). Receptor and serotonin labeling in brain neuropil.",
+          "source_url": "https://doi.org/10.1002/cne.20456"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "title": "Repeated input habituates the LG response",
+      "layout": "figures-right",
+      "body": [
+        "**Habituation** is a decline in response during repeated stimulation. Araki and colleagues tested isolated abdominal nerve cords from adult crayfish, stimulating sensory roots while recording whether LG produced an action potential. The preparation preserved the local sensory pathway while removing ongoing social interaction.",
+        "Just-suprathreshold shocks were delivered every 5 s. In control saline, response probability fell rapidly, with roughly half the preparations failing within the first five trials. Pretreatment with 10 µM serotonin or octopamine slowed the decline.",
+        "The amines increased the number of stimuli needed to lose reliable LG firing. This establishes modulation of repeated-input responsiveness, rather than a measured change in free-animal retreat or fighting. Because the initial stimulus was selected near threshold, a modest increase in sensory gain can strongly affect whether a repeated trial still recruits the giant neuron."
+      ],
+      "cite": "Araki et al. (2005); Yeh et al. (1997)",
+      "refs": [
+        "Makoto Araki; Toshiki Nagayama; Jordanna Sprayberry (2005). Cyclic AMP Mediates Serotonin-Induced Synaptic Enhancement of Lateral Giant Interneuron of the Crayfish. Journal of Neurophysiology, 94(4): 2644-2652. https://doi.org/10.1152/jn.00502.2005",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "**Habituation** is a decline in response during repeated stimulation. Araki and colleagues tested isolated abdominal nerve cords from adult crayfish, stimulating sensory roots while recording whether LG produced an action potential. The preparation preserved the local sensory pathway while removing ongoing social interaction.",
+        [
+          "Just-suprathreshold shocks were delivered every 5 s. In control saline, response probability fell rapidly, with roughly half the preparations failing within the first five trials. Pretreatment with 10 µM serotonin or octopamine slowed the decline.",
+          [
+            "The investigators required five consecutive failures to classify a preparation as habituated. This criterion avoids treating one intermittent failure as a lasting loss of response. The declining probability across preparations is not a firing-rate recording from one neuron and should not be interpreted as spikes per second."
+          ]
+        ],
+        "The amines increased the number of stimuli needed to lose reliable LG firing. This establishes modulation of repeated-input responsiveness, rather than a measured change in free-animal retreat or fighting. Because the initial stimulus was selected near threshold, a modest increase in sensory gain can strongly affect whether a repeated trial still recruits the giant neuron."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/a05_f1.png",
+          "kind": "article",
+          "caption": "Araki et al. (2005), Fig. 1. Amines slow loss of LG firing during 5-s stimulation intervals.",
+          "source_url": "https://doi.org/10.1152/jn.00502.2005"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "A cAMP analogue reproduces resistance to habituation",
+      "layout": "figures-right",
+      "body": [
+        "A **second-messenger analogue** is a compound designed to activate or mimic part of an intracellular signaling pathway. Araki and colleagues compared cyclic-nucleotide analogues after establishing a near-threshold stimulus to the LG sensory pathway.",
+        "Combining 50 µM CPT-cAMP with 50 µM IBMX slowed habituation during 5-s stimulus intervals. **IBMX** inhibits phosphodiesterases, enzymes that break down cyclic nucleotides. A 100 µM cGMP analogue did not reproduce this effect; the control curve declined more rapidly than the cAMP-treated curve.",
+        "The comparison supports a cAMP-sensitive facilitatory mechanism and distinguishes it from the tested cGMP manipulation. Bath delivery can act on several cells within the ganglion, so this experiment alone does not place the relevant second messenger inside LG or establish that serotonin normally produces exactly the same intracellular concentration."
+      ],
+      "cite": "Araki et al. (2005); Yeh et al. (1997)",
+      "refs": [
+        "Makoto Araki; Toshiki Nagayama; Jordanna Sprayberry (2005). Cyclic AMP Mediates Serotonin-Induced Synaptic Enhancement of Lateral Giant Interneuron of the Crayfish. Journal of Neurophysiology, 94(4): 2644-2652. https://doi.org/10.1152/jn.00502.2005",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "A **second-messenger analogue** is a compound designed to activate or mimic part of an intracellular signaling pathway. Araki and colleagues compared cyclic-nucleotide analogues after establishing a near-threshold stimulus to the LG sensory pathway.",
+        [
+          "Combining 50 µM CPT-cAMP with 50 µM IBMX slowed habituation during 5-s stimulus intervals. **IBMX** inhibits phosphodiesterases, enzymes that break down cyclic nucleotides. A 100 µM cGMP analogue did not reproduce this effect; the control curve declined more rapidly than the cAMP-treated curve.",
+          [
+            "Cyclic GMP is another cyclic-nucleotide messenger with signaling actions distinct from cAMP. An analogue mimicking facilitation supplies evidence of pathway sufficiency under treatment conditions. Locating the action requires a more selective intervention than exposing the entire ganglion to the compound."
+          ]
+        ],
+        "The comparison supports a cAMP-sensitive facilitatory mechanism and distinguishes it from the tested cGMP manipulation. Bath delivery can act on several cells within the ganglion, so this experiment alone does not place the relevant second messenger inside LG or establish that serotonin normally produces exactly the same intracellular concentration."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/a05_f2.png",
+          "kind": "article",
+          "caption": "Araki et al. (2005), Fig. 2. cAMP and cGMP analogue effects on LG habituation.",
+          "source_url": "https://doi.org/10.1152/jn.00502.2005"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Cyclase inhibition removes serotonin’s facilitatory effect",
+      "layout": "figures-right",
+      "body": [
+        "**Adenylyl cyclase** produces cAMP, so inhibiting this enzyme tests whether serotonin’s facilitation requires cyclic-nucleotide synthesis. Araki and colleagues pretreated isolated abdominal preparations with 100 µM SQ22536 before adding 10 µM serotonin.",
+        "With serotonin alone, the median stimulus number before habituation was 12.5, compared with 3 in controls. With cyclase inhibition and serotonin, the median was 6 and later response loss approached the control pattern. The inhibitor alone did not appreciably change the initial shock threshold.",
+        "This pharmacological interaction supports a cyclase-dependent component of serotonin-induced facilitation. The preserved initial threshold reduces an explanation based on general failure of the preparation. It does not identify the upstream receptor or prove that the same pathway accounts for serotonergic inhibition in experienced subordinates, which was not the preparation tested."
+      ],
+      "cite": "Araki et al. (2005); Yeh et al. (1997)",
+      "refs": [
+        "Makoto Araki; Toshiki Nagayama; Jordanna Sprayberry (2005). Cyclic AMP Mediates Serotonin-Induced Synaptic Enhancement of Lateral Giant Interneuron of the Crayfish. Journal of Neurophysiology, 94(4): 2644-2652. https://doi.org/10.1152/jn.00502.2005",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "**Adenylyl cyclase** produces cAMP, so inhibiting this enzyme tests whether serotonin’s facilitation requires cyclic-nucleotide synthesis. Araki and colleagues pretreated isolated abdominal preparations with 100 µM SQ22536 before adding 10 µM serotonin.",
+        [
+          "With serotonin alone, the median stimulus number before habituation was 12.5, compared with 3 in controls. With cyclase inhibition and serotonin, the median was 6 and later response loss approached the control pattern. The inhibitor alone did not appreciably change the initial shock threshold.",
+          [
+            "A pathway inhibitor tests dependence rather than simple correlation. Its interpretation still depends on drug specificity and on the controls for baseline responsiveness. In this study, octopamine facilitation persisted during cyclase inhibition, indicating that similar behavioral-direction effects can arise through different intracellular mechanisms."
+          ]
+        ],
+        "This pharmacological interaction supports a cyclase-dependent component of serotonin-induced facilitation. The preserved initial threshold reduces an explanation based on general failure of the preparation. It does not identify the upstream receptor or prove that the same pathway accounts for serotonergic inhibition in experienced subordinates, which was not the preparation tested."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/a05_f3ab.png",
+          "kind": "article",
+          "caption": "Araki et al. (2005), Fig. 3(A–B). Cyclase inhibition reduces serotonin-dependent facilitation.",
+          "source_url": "https://doi.org/10.1152/jn.00502.2005"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Intracellular cAMP action can enhance LG directly",
+      "layout": "figures-right",
+      "body": [
+        "Bath application cannot locate a messenger’s cellular target. Araki and colleagues therefore injected **Sp-cAMPS**, a phosphodiesterase-resistant cAMP analogue, directly into the recorded LG neuron while testing sensory responses. The electrode solution contained 50 mM analogue.",
+        "After 5 min of injection, early EPSPs increased by about 19% and later EPSPs by about 20%. Current injection through an electrode containing only the carrier solution controlled for the injection procedure. The analogue also caused a small depolarization, approximately 5.4 mV.",
+        "Direct intracellular action supports LG as a site capable of cAMP-dependent sensory enhancement. The electrode concentration is not a measured final intracellular concentration. The result does not identify a particular kinase, channel or receptor, nor establish that intracellular cAMP enhancement alone is sufficient to change social dominance in a freely behaving animal."
+      ],
+      "cite": "Araki et al. (2005); Yeh et al. (1997)",
+      "refs": [
+        "Makoto Araki; Toshiki Nagayama; Jordanna Sprayberry (2005). Cyclic AMP Mediates Serotonin-Induced Synaptic Enhancement of Lateral Giant Interneuron of the Crayfish. Journal of Neurophysiology, 94(4): 2644-2652. https://doi.org/10.1152/jn.00502.2005",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Bath application cannot locate a messenger’s cellular target. Araki and colleagues therefore injected **Sp-cAMPS**, a phosphodiesterase-resistant cAMP analogue, directly into the recorded LG neuron while testing sensory responses. The electrode solution contained 50 mM analogue.",
+        [
+          "After 5 min of injection, early EPSPs increased by about 19% and later EPSPs by about 20%. Current injection through an electrode containing only the carrier solution controlled for the injection procedure. The analogue also caused a small depolarization, approximately 5.4 mV.",
+          [
+            "Iontophoretic injection uses electrical current to move the charged compound out of an electrode into the cell. The carrier-current control tests whether the current itself accounts for the voltage change. Increasing both response components is consistent with a postsynaptic contribution, although it does not exclude additional effects elsewhere during normal serotonin exposure."
+          ]
+        ],
+        "Direct intracellular action supports LG as a site capable of cAMP-dependent sensory enhancement. The electrode concentration is not a measured final intracellular concentration. The result does not identify a particular kinase, channel or receptor, nor establish that intracellular cAMP enhancement alone is sufficient to change social dominance in a freely behaving animal."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/a05_f6.png",
+          "kind": "article",
+          "caption": "Araki et al. (2005), Fig. 6(A–C). Bath and intracellular cAMP analogue effects on LG.",
+          "source_url": "https://doi.org/10.1152/jn.00502.2005"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Serotonin enhances EPSPs without a large voltage shift",
+      "layout": "figures-right",
+      "body": [
+        "Araki and colleagues compared sensory EPSPs before and after 5 min of 5 µM serotonin in isolated abdominal nerve cords. Their early response combined direct electrical and chemical contributions; the later response included an intervening sensory interneuron.",
+        "The early EPSP increased by about 8% and the later EPSP by about 18%. Resting LG voltage changed little, while cyclase inhibition largely removed both increases. Saline controls did not produce the same enhancement, and washout partially restored the original response.",
+        "Facilitation therefore need not be explained by a large tonic depolarization. Its relation to cyclase activity supports second-messenger modulation of sensory responsiveness. These measurements identify a physiological effect and a pharmacological dependence, but they do not determine which membrane conductance or electrical-synapse property carries the enhancement at the molecular level."
+      ],
+      "cite": "Araki et al. (2005); Yeh et al. (1997)",
+      "refs": [
+        "Makoto Araki; Toshiki Nagayama; Jordanna Sprayberry (2005). Cyclic AMP Mediates Serotonin-Induced Synaptic Enhancement of Lateral Giant Interneuron of the Crayfish. Journal of Neurophysiology, 94(4): 2644-2652. https://doi.org/10.1152/jn.00502.2005",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Araki and colleagues compared sensory EPSPs before and after 5 min of 5 µM serotonin in isolated abdominal nerve cords. Their early response combined direct electrical and chemical contributions; the later response included an intervening sensory interneuron.",
+        [
+          "The early EPSP increased by about 8% and the later EPSP by about 18%. Resting LG voltage changed little, while cyclase inhibition largely removed both increases. Saline controls did not produce the same enhancement, and washout partially restored the original response.",
+          [
+            "The early component in this preparation was measured as α plus α-prime because its direct electrical and chemical peaks were difficult to separate in time. It should not be equated without qualification with a purely electrical α measurement in another preparation. Preserving these component definitions avoids assigning every effect to one synapse."
+          ]
+        ],
+        "Facilitation therefore need not be explained by a large tonic depolarization. Its relation to cyclase activity supports second-messenger modulation of sensory responsiveness. These measurements identify a physiological effect and a pharmacological dependence, but they do not determine which membrane conductance or electrical-synapse property carries the enhancement at the molecular level."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/a05_f4.png",
+          "kind": "article",
+          "caption": "Araki et al. (2005), Fig. 4(A–C). Sensory EPSPs during serotonin and cyclase-inhibitor treatment.",
+          "source_url": "https://doi.org/10.1152/jn.00502.2005"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Long exposure leaves facilitation after serotonin removal",
+      "layout": "figures-right",
+      "body": [
+        "Exposure duration changes the persistence of serotonergic modulation. Teshiba and colleagues compared brief application, approximately 10 min, with longer exposures near 45 min, then followed sensory EPSPs during saline washout.",
+        "Brief high exposure produced inhibition that reversed relatively rapidly. Longer exposure could be followed by persistent facilitation, even after an inhibitory phase during rapid high delivery. Facilitated responses remained above baseline during the 30-min wash comparison and could persist for hours.",
+        "The result separates the immediate sign during drug presence from the state retained after exposure. It supports intracellular processes with different activation and decay rates. Proposed interacting signaling cascades can account for these time courses, but the recordings alone do not identify their molecular components or establish an enduring memory of dominance from a single serotonin treatment."
+      ],
+      "cite": "Teshiba et al. (2001); Yeh et al. (1997)",
+      "refs": [
+        "Terri Teshiba; Ashkan Shamsian; Bahram Yashar; Shih-Rung Yeh; Donald H. Edwards; Franklin B. Krasne (2001). Dual and Opposing Modulatory Effects of Serotonin on Crayfish Lateral Giant Escape Command Neurons. The Journal of Neuroscience, 21(12): 4523-4529. https://doi.org/10.1523/jneurosci.21-12-04523.2001",
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Exposure duration changes the persistence of serotonergic modulation. Teshiba and colleagues compared brief application, approximately 10 min, with longer exposures near 45 min, then followed sensory EPSPs during saline washout.",
+        [
+          "Brief high exposure produced inhibition that reversed relatively rapidly. Longer exposure could be followed by persistent facilitation, even after an inhibitory phase during rapid high delivery. Facilitated responses remained above baseline during the 30-min wash comparison and could persist for hours.",
+          [
+            "Removing serotonin from the bathing solution ends further delivery without forcing every downstream cellular process to return immediately to baseline. The source distinguished short-lived inhibition from more persistent facilitation. Persistence after wash therefore provides information about the time course of modulation rather than a direct assay of retained receptor occupancy."
+          ]
+        ],
+        "The result separates the immediate sign during drug presence from the state retained after exposure. It supports intracellular processes with different activation and decay rates. Proposed interacting signaling cascades can account for these time courses, but the recordings alone do not identify their molecular components or establish an enduring memory of dominance from a single serotonin treatment."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/t01_f2.png",
+          "kind": "article",
+          "caption": "Teshiba et al. (2001), Fig. 2. Exposure-dependent changes during application and washout.",
+          "source_url": "https://doi.org/10.1523/jneurosci.21-12-04523.2001"
+        },
+        {
+          "path": "figures/y97_f13ac.png",
+          "kind": "article",
+          "caption": "Yeh et al. (1997), Fig. 13(A,C). Dye-filled LG neurons and nearby serotonin-immunoreactive fibers.",
+          "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Serotonin-containing fibers lie near LG axons",
+      "layout": "figure-right",
+      "body": [
+        "Yeh and colleagues combined dye filling of identified LG neurons with serotonin immunostaining. **Varicosities** are swellings along neuronal processes that may participate in transmitter release. Confocal imaging related labeled fibers to the known giant-neuron anatomy.",
+        "In abdominal ganglion A5, serotonin-immunoreactive terminals lay near LG axons around the septate junction, the connection between successive segmental giant axons. The source includes a 50-µm scale bar. Similar labeling was associated with proximal portions of the terminal-ganglion LG neurons.",
+        "This anatomical proximity supplies candidate sites for local modulation, but it does not prove release onto LG or identify a functional receptor there. Sparse labeling near distal LG dendrites also leaves circulating serotonin as a possible influence. Local and humoral explanations require functional tests beyond the spatial association."
+      ],
+      "cite": "Yeh et al. (1997)",
+      "refs": [
+        "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      ],
+      "transcript": [
+        "Yeh and colleagues combined dye filling of identified LG neurons with serotonin immunostaining. **Varicosities** are swellings along neuronal processes that may participate in transmitter release. Confocal imaging related labeled fibers to the known giant-neuron anatomy.",
+        [
+          "In abdominal ganglion A5, serotonin-immunoreactive terminals lay near LG axons around the septate junction, the connection between successive segmental giant axons. The source includes a 50-µm scale bar. Similar labeling was associated with proximal portions of the terminal-ganglion LG neurons.",
+          [
+            "The serotonin signal is immunoreactivity, not a measurement of transmitter released during fighting. A labeled swelling next to an axon may affect that axon, an adjacent neuron or another target. The anatomical map constrains possible arrangements without deciding which arrangement generates the measured modulation."
+          ]
+        ],
+        "This anatomical proximity supplies candidate sites for local modulation, but it does not prove release onto LG or identify a functional receptor there. Sparse labeling near distal LG dendrites also leaves circulating serotonin as a possible influence. Local and humoral explanations require functional tests beyond the spatial association."
+      ],
+      "figure_width": 6.0,
+      "figure": {
+        "path": "figures/y97_f13ab.png",
+        "kind": "article",
+        "caption": "Yeh et al. (1997), Fig. 13(A–B). LG axons and nearby serotonin labeling in abdominal ganglion A5.",
+        "source_url": "https://doi.org/10.1523/jneurosci.17-02-00697.1997"
+      }
+    },
+    {
+      "title": "Social rank changes orientation to an unexpected touch",
+      "layout": "figures-right",
+      "body": [
+        "Social modulation extends beyond giant escape. Issa and colleagues tested adult crayfish after isolation or at least two weeks of paired housing, brushing fringe hairs on one side of the anterior abdomen while recording walking-leg muscle activity.",
+        "Isolates and dominants turned toward the stimulated side and raised their posture. Subordinates instead pushed backward or flexed the abdomen and lowered their posture. **Depressor muscles** move the legs downward, and their electrical activity differed with these behavioral responses over the first 0.6 s.",
+        "The same tactile event therefore recruits different postural actions according to social experience. This is an orienting and walking-leg system, distinct from LG tail-flip escape. Muscle recordings establish a relation between neural output and movement, but do not determine every synaptic connection responsible for selecting the status-dependent response."
+      ],
+      "cite": "Issa et al. (2012)",
+      "refs": [
+        "Fadi A. Issa; Joanne Drummond; Daniel Cattaert; Donald H. Edwards (2012). Neural Circuit Reconfiguration by Social Status. The Journal of Neuroscience, 32(16): 5638-5645. https://doi.org/10.1523/jneurosci.5668-11.2012"
+      ],
+      "transcript": [
+        "Social modulation extends beyond giant escape. Issa and colleagues tested adult crayfish after isolation or at least two weeks of paired housing, brushing fringe hairs on one side of the anterior abdomen while recording walking-leg muscle activity.",
+        [
+          "Isolates and dominants turned toward the stimulated side and raised their posture. Subordinates instead pushed backward or flexed the abdomen and lowered their posture. **Depressor muscles** move the legs downward, and their electrical activity differed with these behavioral responses over the first 0.6 s.",
+          [
+            "Ipsilateral means on the same side as the stimulus; contralateral means on the opposite side. Turning requires asymmetric leg activation, whereas pushing and lowering can use more symmetric activation. Comparing the two sides distinguishes a change in motor organization from a general reduction in responsiveness."
+          ]
+        ],
+        "The same tactile event therefore recruits different postural actions according to social experience. This is an orienting and walking-leg system, distinct from LG tail-flip escape. Muscle recordings establish a relation between neural output and movement, but do not determine every synaptic connection responsible for selecting the status-dependent response."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/i12_f2.png",
+          "kind": "article",
+          "caption": "Issa et al. (2012), Fig. 2(A–D). Status-dependent turning, pushing and dropping responses.",
+          "source_url": "https://doi.org/10.1523/jneurosci.5668-11.2012"
+        },
+        {
+          "path": "figures/i12_f1.png",
+          "kind": "article",
+          "caption": "Issa et al. (2012), Fig. 1(A–C). Leg depressor anatomy and intact, isolated and semi-intact preparations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.5668-11.2012"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "title": "Status-dependent motor organization persists locally",
+      "layout": "figures-right",
+      "body": [
+        "Issa and colleagues recorded intact-animal responses and then isolated thoracic and abdominal ganglia with walking-leg nerves. A **ganglion** is a local concentration of neuronal cell bodies and their connections. Removing anterior centers tested whether continuing descending signals were required.",
+        "Electrical stimulation of an abdominal sensory nerve retained the status-related pattern. Preparations from isolates and dominants favored ipsilateral depressor activity; subordinate preparations produced more symmetric responses. Activity was compared in the same animals before and after circuit isolation.",
+        "The retained difference supports a local functional reconfiguration induced by social experience. It does not show that higher centers were irrelevant when the change originally developed. Nor does it establish that this local walking circuit uses the same receptors or intracellular mechanism that modulate the LG escape command neuron."
+      ],
+      "cite": "Issa et al. (2012); Bacqué-Cazenave et al. (2019)",
+      "refs": [
+        "Fadi A. Issa; Joanne Drummond; Daniel Cattaert; Donald H. Edwards (2012). Neural Circuit Reconfiguration by Social Status. The Journal of Neuroscience, 32(16): 5638-5645. https://doi.org/10.1523/jneurosci.5668-11.2012",
+        "Julien Bacqué-Cazenave; Pascal Fossat; Fadi A. Issa; Donald H. Edwards; Jean Paul Delbecque; Daniel Cattaert (2019). Duality of 5-HT Effects on Crayfish Motoneurons. Frontiers in Physiology, 10: 1280. https://doi.org/10.3389/fphys.2019.01280"
+      ],
+      "transcript": [
+        "Issa and colleagues recorded intact-animal responses and then isolated thoracic and abdominal ganglia with walking-leg nerves. A **ganglion** is a local concentration of neuronal cell bodies and their connections. Removing anterior centers tested whether continuing descending signals were required.",
+        [
+          "Electrical stimulation of an abdominal sensory nerve retained the status-related pattern. Preparations from isolates and dominants favored ipsilateral depressor activity; subordinate preparations produced more symmetric responses. Activity was compared in the same animals before and after circuit isolation.",
+          [
+            "The isolated preparation has no continuing connection to the brain, but it still contains interneurons, sensory inputs and local modulatory cells. Persistence therefore places a maintained difference within the retained tissue. A proposed circuit model can reproduce the pattern without proving that each modeled connection exists biologically."
+          ]
+        ],
+        "The retained difference supports a local functional reconfiguration induced by social experience. It does not show that higher centers were irrelevant when the change originally developed. Nor does it establish that this local walking circuit uses the same receptors or intracellular mechanism that modulate the LG escape command neuron."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/i12_f3.png",
+          "kind": "article",
+          "caption": "Issa et al. (2012), Fig. 3(A–H). Status differences persist in isolated sensorimotor preparations.",
+          "source_url": "https://doi.org/10.1523/jneurosci.5668-11.2012"
+        },
+        {
+          "path": "figures/b19_f1.png",
+          "kind": "article",
+          "caption": "Bacqué-Cazenave et al. (2019), Fig. 1(A–B). Walking-leg preparation and an identified abdominal serotonin neuron.",
+          "source_url": "https://doi.org/10.3389/fphys.2019.01280"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.8
+    },
+    {
+      "title": "Serotonergic neurons also retain status-dependent input",
+      "layout": "figures-right",
+      "body": [
+        "A **serotonergic neuron** contains and can signal through serotonin. Issa and colleagues recorded identified serotonin cells in the first abdominal ganglion during unilateral fringe-hair stimulation in semi-intact preparations from animals of known social history.",
+        "Cells in isolates and dominants responded differently to ipsilateral and contralateral touch. Subordinate responses were more bilaterally similar, matching the shift in walking-leg organization. Responses were quantified in 1-s time bins around the precisely timed stimulus.",
+        "Social status therefore changes how an intrinsic modulatory neuron participates in sensory processing, not only how downstream neurons respond to applied serotonin. Identification by morphology and serotonin labeling strengthens the cell assignment. The recordings do not directly measure transmitter release or establish that this neuron causes the entire postural response on every trial."
+      ],
+      "cite": "Issa et al. (2012); Bacqué-Cazenave et al. (2019)",
+      "refs": [
+        "Fadi A. Issa; Joanne Drummond; Daniel Cattaert; Donald H. Edwards (2012). Neural Circuit Reconfiguration by Social Status. The Journal of Neuroscience, 32(16): 5638-5645. https://doi.org/10.1523/jneurosci.5668-11.2012",
+        "Julien Bacqué-Cazenave; Pascal Fossat; Fadi A. Issa; Donald H. Edwards; Jean Paul Delbecque; Daniel Cattaert (2019). Duality of 5-HT Effects on Crayfish Motoneurons. Frontiers in Physiology, 10: 1280. https://doi.org/10.3389/fphys.2019.01280"
+      ],
+      "transcript": [
+        "A **serotonergic neuron** contains and can signal through serotonin. Issa and colleagues recorded identified serotonin cells in the first abdominal ganglion during unilateral fringe-hair stimulation in semi-intact preparations from animals of known social history.",
+        [
+          "Cells in isolates and dominants responded differently to ipsilateral and contralateral touch. Subordinate responses were more bilaterally similar, matching the shift in walking-leg organization. Responses were quantified in 1-s time bins around the precisely timed stimulus.",
+          [
+            "The colored cell-identification panels come from Bacqué-Cazenave and colleagues’ separate study, in which a recorded cell was filled with neurobiotin and then tested for serotonin immunoreactivity. They support the anatomy and identification procedure, while the status-dependent physiological evidence comes from Issa and colleagues."
+          ]
+        ],
+        "Social status therefore changes how an intrinsic modulatory neuron participates in sensory processing, not only how downstream neurons respond to applied serotonin. Identification by morphology and serotonin labeling strengthens the cell assignment. The recordings do not directly measure transmitter release or establish that this neuron causes the entire postural response on every trial."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/i12_f4.png",
+          "kind": "article",
+          "caption": "Issa et al. (2012), Fig. 4(A–D). Sensory responses of abdominal serotonin neurons depend on status.",
+          "source_url": "https://doi.org/10.1523/jneurosci.5668-11.2012"
+        },
+        {
+          "path": "figures/b19_f2c.png",
+          "kind": "article",
+          "caption": "Bacqué-Cazenave et al. (2019), Fig. 2(C1–C3). Neurobiotin-filled cell verified by serotonin immunostaining.",
+          "source_url": "https://doi.org/10.3389/fphys.2019.01280"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.8
+    },
+    {
+      "title": "One serotonin neuron produces mixed motor effects",
+      "layout": "figures-right",
+      "body": [
+        "Bacqué-Cazenave and colleagues activated an identified serotonin neuron in the first abdominal ganglion of socially isolated adult crayfish. Intracellular current pulses drove the cell while the researchers recorded individual walking-leg motor units and motor-neuron voltage.",
+        "A 10-s activation produced excitation in some units, inhibition in others and little change in others. In the same recording, one depressor neuron depolarized while another unit in its nerve reduced its discharge. Changes in the average nerve activity could conceal these opposing effects.",
+        "Activation of an endogenous modulatory cell therefore does not impose one uniform sign on its targets. The result extends beyond experiments applying serotonin to a bath. It concerns the walking-leg network in isolated animals and does not prove that the same neuron generates status-dependent LG inhibition or controls the decision to retreat during fighting."
+      ],
+      "cite": "Bacqué-Cazenave et al. (2019)",
+      "refs": [
+        "Julien Bacqué-Cazenave; Pascal Fossat; Fadi A. Issa; Donald H. Edwards; Jean Paul Delbecque; Daniel Cattaert (2019). Duality of 5-HT Effects on Crayfish Motoneurons. Frontiers in Physiology, 10: 1280. https://doi.org/10.3389/fphys.2019.01280"
+      ],
+      "transcript": [
+        "Bacqué-Cazenave and colleagues activated an identified serotonin neuron in the first abdominal ganglion of socially isolated adult crayfish. Intracellular current pulses drove the cell while the researchers recorded individual walking-leg motor units and motor-neuron voltage.",
+        [
+          "A 10-s activation produced excitation in some units, inhibition in others and little change in others. In the same recording, one depressor neuron depolarized while another unit in its nerve reduced its discharge. Changes in the average nerve activity could conceal these opposing effects.",
+          [
+            "A motor unit is identified here by a distinguishable discharge in the recorded motor nerve. Summing the activity across units can hide simultaneous excitation and inhibition. The intracellular recording and the nerve-unit recording therefore provide information that an average whole-nerve response would lose."
+          ]
+        ],
+        "Activation of an endogenous modulatory cell therefore does not impose one uniform sign on its targets. The result extends beyond experiments applying serotonin to a bath. It concerns the walking-leg network in isolated animals and does not prove that the same neuron generates status-dependent LG inhibition or controls the decision to retreat during fighting."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/b19_f3.png",
+          "kind": "article",
+          "caption": "Bacqué-Cazenave et al. (2019), Fig. 3(A–C). One serotonin neuron changes different motor units in opposite directions.",
+          "source_url": "https://doi.org/10.3389/fphys.2019.01280"
+        },
+        {
+          "path": "figures/b19_f1.png",
+          "kind": "article",
+          "caption": "Bacqué-Cazenave et al. (2019), Fig. 1(A–B). Walking-leg preparation and an identified abdominal serotonin neuron.",
+          "source_url": "https://doi.org/10.3389/fphys.2019.01280"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "title": "Motor modulation changes resistance and EPSPs",
+      "layout": "figures-right",
+      "body": [
+        "The effect of serotonin-cell activation can be examined at a single postsynaptic motor neuron. Bacqué-Cazenave and colleagues combined current injection with controlled movement of the **coxo-basal chordotonal organ**, a proprioceptor that senses movement at a walking-leg joint.",
+        "Excited depressor neurons depolarized and increased input resistance, while inhibited neurons hyperpolarized and decreased resistance. Sensory EPSPs became larger or smaller accordingly. The recordings retained mV calibration and included current pulses of known amplitude to estimate resistance.",
+        "Opposing membrane and synaptic effects connect modulation to sensory-motor output at identified targets. They are consistent with different receptor actions or receptor distributions, but do not by themselves identify the molecular subtype on each cell. These motor-neuron measurements also cannot replace direct tests of the giant escape system or of fighting behavior."
+      ],
+      "cite": "Bacqué-Cazenave et al. (2019)",
+      "refs": [
+        "Julien Bacqué-Cazenave; Pascal Fossat; Fadi A. Issa; Donald H. Edwards; Jean Paul Delbecque; Daniel Cattaert (2019). Duality of 5-HT Effects on Crayfish Motoneurons. Frontiers in Physiology, 10: 1280. https://doi.org/10.3389/fphys.2019.01280"
+      ],
+      "transcript": [
+        "The effect of serotonin-cell activation can be examined at a single postsynaptic motor neuron. Bacqué-Cazenave and colleagues combined current injection with controlled movement of the **coxo-basal chordotonal organ**, a proprioceptor that senses movement at a walking-leg joint.",
+        [
+          "Excited depressor neurons depolarized and increased input resistance, while inhibited neurons hyperpolarized and decreased resistance. Sensory EPSPs became larger or smaller accordingly. The recordings retained mV calibration and included current pulses of known amplitude to estimate resistance.",
+          [
+            "A proprioceptor reports the position or movement of the animal’s own body. Its stimulation supplies a controlled sensory input while the modulatory neuron is activated separately. A changed EPSP can reflect both membrane resistance and other synaptic changes, so the two measurements are interpreted together rather than assigned to one mechanism automatically."
+          ]
+        ],
+        "Opposing membrane and synaptic effects connect modulation to sensory-motor output at identified targets. They are consistent with different receptor actions or receptor distributions, but do not by themselves identify the molecular subtype on each cell. These motor-neuron measurements also cannot replace direct tests of the giant escape system or of fighting behavior."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/b19_f4.png",
+          "kind": "article",
+          "caption": "Bacqué-Cazenave et al. (2019), Fig. 4(A1–C3). Excited depressor neuron: resistance and sensory EPSP changes.",
+          "source_url": "https://doi.org/10.3389/fphys.2019.01280"
+        },
+        {
+          "path": "figures/b19_f5.png",
+          "kind": "article",
+          "caption": "Bacqué-Cazenave et al. (2019), Fig. 5(A1–C3). Inhibited depressor neuron: resistance and sensory EPSP changes.",
+          "source_url": "https://doi.org/10.3389/fphys.2019.01280"
+        }
+      ],
+      "primary_figure_height": 2.6,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.0
+    },
+    {
+      "title": "Previous success and amines alter later contest outcomes",
+      "layout": "figures-right",
+      "body": [
+        "A **winner effect** is increased success after a previous victory; a **loser effect** is reduced success after defeat. Momohara and colleagues paired adult male crayfish with modest size differences, then tested experienced animals against unfamiliar opponents on the following day.",
+        "Previously successful smaller animals won about 70% of later pairings against larger naive opponents. Previously defeated larger animals won only about 6% against smaller naive animals. Serotonin injection into naive smaller animals also increased winning to over 60% under the tested conditions.",
+        "Experience and pharmacological treatment can therefore outweigh a modest physical advantage. The injected serotonin solution was 1–2 µM, distinct from a measured tissue concentration. These outcomes do not identify the LG circuit as the cause of winning or establish that endogenous serotonin alone carries the full memory of victory."
+      ],
+      "cite": "Momohara et al. (2013)",
+      "refs": [
+        "Yuto Momohara; Akihiro Kanai; Toshiki Nagayama (2013). Aminergic Control of Social Status in Crayfish Agonistic Encounters. PLoS ONE, 8(9): e74489. https://doi.org/10.1371/journal.pone.0074489"
+      ],
+      "transcript": [
+        "A **winner effect** is increased success after a previous victory; a **loser effect** is reduced success after defeat. Momohara and colleagues paired adult male crayfish with modest size differences, then tested experienced animals against unfamiliar opponents on the following day.",
+        [
+          "Previously successful smaller animals won about 70% of later pairings against larger naive opponents. Previously defeated larger animals won only about 6% against smaller naive animals. Serotonin injection into naive smaller animals also increased winning to over 60% under the tested conditions.",
+          [
+            "Naive denotes an animal without the prior pairing used to assign winner or loser experience. Size differences were small enough for experience to influence the outcome, unlike the large asymmetry used in Huber and colleagues’ persistence experiments. The final winner and the length of an encounter are therefore separate experimental outcomes."
+          ]
+        ],
+        "Experience and pharmacological treatment can therefore outweigh a modest physical advantage. The injected serotonin solution was 1–2 µM, distinct from a measured tissue concentration. These outcomes do not identify the LG circuit as the cause of winning or establish that endogenous serotonin alone carries the full memory of victory."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/m13_f2.png",
+          "kind": "article",
+          "caption": "Momohara et al. (2013), Fig. 2(A–C). Previous winning and losing alter subsequent encounters.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0074489"
+        },
+        {
+          "path": "figures/m13_f3.png",
+          "kind": "article",
+          "caption": "Momohara et al. (2013), Fig. 3(A). Serotonin injection changes winning probability.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0074489"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.8
+    },
+    {
+      "title": "Drug effects depend on social history and treatment timing",
+      "layout": "figures-right",
+      "body": [
+        "**Fluoxetine** inhibits serotonin uptake, reducing its removal into cells. Huber and colleagues found that co-treatment with fluoxetine reduced the fighting-duration increase caused by infused serotonin in established subordinates. Acute fluoxetine alone did not produce the same persistence increase.",
+        "Momohara and colleagues instead treated animals after they acquired dominance and tested a new encounter on the following day. Fluoxetine reinforced the winner effect, whereas the serotonin antagonist mianserin reduced it. These protocols differed in species, previous rank and timing.",
+        "The outcomes are not interchangeable measures of a universal aggression mechanism. One tested an acute serotonin-dependent change during an ongoing size-asymmetric relationship; the other tested subsequent contest success after experience. Uptake-related pharmacology supports serotonin involvement, but neither experiment identifies every affected receptor or the relevant circuit."
+      ],
+      "cite": "Huber et al. (1997); Momohara et al. (2013)",
+      "refs": [
+        "Robert Huber; Kalim Smith; Antonia Delago; Karin Isaksson; Edward A. Kravitz (1997). Serotonin and aggressive motivation in crustaceans: Altering the decision to retreat. Proceedings of the National Academy of Sciences, 94(11): 5939-5942. https://doi.org/10.1073/pnas.94.11.5939",
+        "Yuto Momohara; Akihiro Kanai; Toshiki Nagayama (2013). Aminergic Control of Social Status in Crayfish Agonistic Encounters. PLoS ONE, 8(9): e74489. https://doi.org/10.1371/journal.pone.0074489"
+      ],
+      "transcript": [
+        "**Fluoxetine** inhibits serotonin uptake, reducing its removal into cells. Huber and colleagues found that co-treatment with fluoxetine reduced the fighting-duration increase caused by infused serotonin in established subordinates. Acute fluoxetine alone did not produce the same persistence increase.",
+        [
+          "Momohara and colleagues instead treated animals after they acquired dominance and tested a new encounter on the following day. Fluoxetine reinforced the winner effect, whereas the serotonin antagonist mianserin reduced it. These protocols differed in species, previous rank and timing.",
+          [
+            "An antagonist reduces a receptor-mediated response, but drug specificity can differ among species and receptor subtypes. Mianserin-sensitive winning and fluoxetine-sensitive persistence remain behavioral pharmacological results. The studies must be compared using their actual treatment sequence rather than assuming that more extracellular serotonin always produces the same outcome."
+          ]
+        ],
+        "The outcomes are not interchangeable measures of a universal aggression mechanism. One tested an acute serotonin-dependent change during an ongoing size-asymmetric relationship; the other tested subsequent contest success after experience. Uptake-related pharmacology supports serotonin involvement, but neither experiment identifies every affected receptor or the relevant circuit."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/hub_f3.png",
+          "kind": "article",
+          "caption": "Huber et al. (1997), Fig. 3. Fight duration after serotonin and fluoxetine treatment.",
+          "source_url": "https://doi.org/10.1073/pnas.94.11.5939"
+        },
+        {
+          "path": "figures/m13_f4.png",
+          "kind": "article",
+          "caption": "Momohara et al. (2013), Fig. 4(A–E). Pharmacological effects on previously dominant animals.",
+          "source_url": "https://doi.org/10.1371/journal.pone.0074489"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.0
+    },
+    {
+      "title": "Defeat can increase avoidance after the encounter",
+      "layout": "figures-right",
+      "body": [
+        "Bacqué-Cazenave and colleagues tested **anxiety-like behavior**, operationally defined as increased avoidance of illuminated maze arms and more retreats at dark-light boundaries. Male crayfish were paired for 20 min, then tested individually rather than measuring escape during the fight.",
+        "Losers avoided light more than winners and isolated controls. Continued attacks after defeat predicted avoidance more closely than fight duration. Pretreatment with methysergide, a serotonin antagonist, increased time in light arms from roughly 20% to 40% in subsequent losers while reducing boundary retreats.",
+        "The drug-treated animals could still lose and withdraw, separating later avoidance from the initial decision to retreat. The assay supports a serotonin-associated effect of social stress, but does not identify a giant escape-neuron mechanism or establish a human subjective emotional state from behavior alone."
+      ],
+      "cite": "Bacqué-Cazenave et al. (2017)",
+      "refs": [
+        "Julien Bacqué-Cazenave; Daniel Cattaert; Jean-Paul Delbecque; Pascal Fossat (2017). Social harassment induces anxiety-like behaviour in crayfish. Scientific Reports, 7(1): 39935. https://doi.org/10.1038/srep39935"
+      ],
+      "transcript": [
+        "Bacqué-Cazenave and colleagues tested **anxiety-like behavior**, operationally defined as increased avoidance of illuminated maze arms and more retreats at dark-light boundaries. Male crayfish were paired for 20 min, then tested individually rather than measuring escape during the fight.",
+        [
+          "Losers avoided light more than winners and isolated controls. Continued attacks after defeat predicted avoidance more closely than fight duration. Pretreatment with methysergide, a serotonin antagonist, increased time in light arms from roughly 20% to 40% in subsequent losers while reducing boundary retreats.",
+          [
+            "Anxiolytic treatment with chlordiazepoxide also reduced the loser’s avoidance, supporting the authors’ anxiety-like behavioral classification. Serotonin was measured in tissue extracts as an additional association, but pharmacology and avoidance do not localize the relevant circuit. Continued attacks after defeat are a different exposure from the contest that established rank."
+          ]
+        ],
+        "The drug-treated animals could still lose and withdraw, separating later avoidance from the initial decision to retreat. The assay supports a serotonin-associated effect of social stress, but does not identify a giant escape-neuron mechanism or establish a human subjective emotional state from behavior alone."
+      ],
+      "figure_width": 6.0,
+      "figures": [
+        {
+          "path": "figures/har_f2.png",
+          "kind": "article",
+          "caption": "Bacqué-Cazenave et al. (2017), Fig. 2(A–D). Maze behavior after winning or losing, with anxiolytic treatment.",
+          "source_url": "https://doi.org/10.1038/srep39935"
+        },
+        {
+          "path": "figures/har_f4.png",
+          "kind": "article",
+          "caption": "Bacqué-Cazenave et al. (2017), Fig. 4(A–C). Serotonin measurements and antagonist effects on avoidance.",
+          "source_url": "https://doi.org/10.1038/srep39935"
+        }
+      ],
+      "primary_figure_height": 2.7,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 3.8
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Circuit selection:",
+        "text": "Dominance changes the balance of attacks, retreats and escape types. Frequent subordinate escape does not imply frequent lateral giant activation."
+      },
+      {
+        "lead": "Context and history:",
+        "text": "LG excitability during interaction differs from excitability at rest. Serotonin’s effect depends on past rank, current experience and drug-delivery conditions."
+      },
+      {
+        "lead": "Plasticity over days:",
+        "text": "Subordinate serotonin inhibition develops after the initial behavioral decision and can reverse after isolation. Previous dominance can persist in LG modulation after demotion."
+      },
+      {
+        "lead": "Synaptic and cellular gain:",
+        "text": "Rectifying electrical inputs and membrane conductance contribute to LG responsiveness. cAMP interventions support a postsynaptic facilitatory pathway in the tested preparation."
+      },
+      {
+        "lead": "Receptor evidence:",
+        "text": "Agonist effects, cloned-receptor signaling and immunostaining answer different questions. The mapped type-1 receptor was not detected on LG; its direct role there is unproven."
+      },
+      {
+        "lead": "Behavioral specificity:",
+        "text": "Fighting persistence, contest success, walking-leg orientation and post-defeat avoidance are distinct outcomes. Serotonin does not impose a single sign across all cells or behaviors."
+      }
+    ],
+    "cite": "Herberholz et al. (2001); Yeh et al. (1997); Araki et al. (2005); Spitzer et al. (2005, 2008)",
+    "refs": [
+      "References:",
+      "Jens Herberholz; Fadi A. Issa; Donald H. Edwards (2001). Patterns of Neural Circuit Activation and Behavior during Dominance Hierarchy Formation in Freely Behaving Crayfish. The Journal of Neuroscience, 21(8): 2759-2767. https://doi.org/10.1523/jneurosci.21-08-02759.2001",
+      "Franklin B. Krasne; Ashkan Shamsian; Raghavendra Kulkarni (1997). Altered Excitability of the Crayfish Lateral Giant Escape Reflex during Agonistic Encounters. The Journal of Neuroscience, 17(2): 709-716. https://doi.org/10.1523/jneurosci.17-02-00709.1997",
+      "Shih-Rung Yeh; Barbara E. Musolf; Donald H. Edwards (1997). Neuronal Adaptations to Changes in the Social Dominance Status of Crayfish. The Journal of Neuroscience, 17(2): 697-708. https://doi.org/10.1523/jneurosci.17-02-00697.1997",
+      "Makoto Araki; Toshiki Nagayama; Jordanna Sprayberry (2005). Cyclic AMP Mediates Serotonin-Induced Synaptic Enhancement of Lateral Giant Interneuron of the Crayfish. Journal of Neurophysiology, 94(4): 2644-2652. https://doi.org/10.1152/jn.00502.2005",
+      "Nadja Spitzer; Brian L. Antonsen; Donald H. Edwards (2005). Immunocytochemical mapping and quantification of expression of a putative type 1 serotonin receptor in the crayfish nervous system. The Journal of Comparative Neurology, 484(3): 261-282. https://doi.org/10.1002/cne.20456",
+      "Nadja Spitzer; Donald H. Edwards; Deborah J. Baro (2008). Conservation of structure, signaling and pharmacology between two serotonin receptor subtypes from decapod crustaceans, Panulirus interruptus and Procambarus clarkii. Journal of Experimental Biology, 211(1): 92-105. https://doi.org/10.1242/jeb.012450",
+      "Julien Bacqué-Cazenave; Pascal Fossat; Fadi A. Issa; Donald H. Edwards; Jean Paul Delbecque; Daniel Cattaert (2019). Duality of 5-HT Effects on Crayfish Motoneurons. Frontiers in Physiology, 10: 1280. https://doi.org/10.3389/fphys.2019.01280",
+      "Julien Bacqué-Cazenave; Daniel Cattaert; Jean-Paul Delbecque; Pascal Fossat (2017). Social harassment induces anxiety-like behaviour in crayfish. Scientific Reports, 7(1): 39935. https://doi.org/10.1038/srep39935"
+    ]
+  }
+}

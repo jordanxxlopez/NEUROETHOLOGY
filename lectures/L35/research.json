@@ -5,7 +5,7 @@
   "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
   "authoritative_commit": "6f7bedf791dfe8e2b9de85bf2292817eef0e178b",
   "searched_on": "2026-10-08",
-  "status": "awaiting_five_original_PDFs",
+  "status": "complete",
   "sources": [
     {
       "id": "yeh96",
@@ -36,8 +36,10 @@
         }
       ],
       "use": "primary research",
-      "status": "original PDF required",
-      "pdf_path": null
+      "status": "PDF supplied by instructor",
+      "pdf_path": "papers/yeh96.pdf",
+      "sha256": "d5e3d8040752a704bd47e170cf1a2142496caf927730857ddcf362d18b3f3749",
+      "pdf_pages": 4
     },
     {
       "id": "yeh97",
@@ -237,8 +239,10 @@
         }
       ],
       "use": "primary research",
-      "status": "original PDF required",
-      "pdf_path": null
+      "status": "PDF supplied by instructor",
+      "pdf_path": "papers/araki05.pdf",
+      "sha256": "21c58adc1e26a8e75476ac253c10b93a913d0009bf6cb3f743108d1e8716b4a1",
+      "pdf_pages": 9
     },
     {
       "id": "momohara13",
@@ -271,7 +275,11 @@
       "pdf_path": "papers/momohara13.pdf",
       "pdf_pages": 12,
       "sha256": "52e837cb1ed7a479458b27cd2977974a17bf4d63539a3c40abe8622eba0c3e51",
-      "title_page_text": "Aminergic Control of Social Status in Crayfish Agonistic\nEncounters\nYuto Momohara1, Akihiro Kanai1, Toshiki Nagayama2*\n1 Division of Biology, Graduate School of Science and Engineering, Yamagata University, Yamagata, Japan, 2 Department of Biology, Faculty of Science, Yamagata\nUniversity, Yamagata, Japan\nAbstract\nUsing pairings of male crayfish Procambarus clarkii with a 3–7% difference in size, we confirmed that physically larger\ncrayfish were more likely to win encounters (winning probability of over 80%). Despite a physical disadvantage, small\nwinners of the first pairings were more likely to win their subsequent conflicts with larger naive animals (winning probability\nwas about 70%). By contrast, the losers of the first pairings rarely "
+      "title_page_text": "Aminergic Control of Social Status in Crayfish Agonistic\nEncounters\nYuto Momohara1, Akihiro Kanai1, Toshiki Nagayama2*\n1 Division of Biology, Graduate School of Science and Engineering, Yamagata University, Yamagata, Japan, 2 Department of Biology, Faculty of Science, Yamagata\nUniversity, Yamagata, Japan\nAbstract\nUsing pairings of male crayfish Procambarus clarkii with a 3–7% difference in size, we confirmed that physically larger\ncrayfish were more likely to win encounters (winning probability of over 80%). Despite a physical disadvantage, small\nwinners of the first pairings were more likely to win their subsequent conflicts with larger naive animals (winning probability\nwas about 70%). By contrast, the losers of the first pairings rarely ",
+      "unit_verification": {
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0074489",
+        "result": "Journal HTML and original Fig. 3(A) confirm 1–2 µM serotonin. PDF text extraction maps the µ glyph to m; do not infer units from the extracted text. Injection volume is 1 ml, not 1 µl."
+      }
     },
     {
       "id": "harassment17",
@@ -442,8 +450,10 @@
         }
       ],
       "use": "primary research",
-      "status": "original PDF required",
-      "pdf_path": null
+      "status": "PDF supplied by instructor",
+      "pdf_path": "papers/huber97.pdf",
+      "sha256": "4bc83e32895fdc1495838cb3407c3c62d9a47ed1271b730c29f33e0ce243bffd",
+      "pdf_pages": 4
     },
     {
       "id": "spitzer08",
@@ -482,8 +492,10 @@
         }
       ],
       "use": "primary research",
-      "status": "original PDF required",
-      "pdf_path": null
+      "status": "PDF supplied by instructor",
+      "pdf_path": "papers/spitzer08.pdf",
+      "sha256": "bb6173140780ff2332a417cb3df3999cc74d6fa5943510f3af883ee779a06b79",
+      "pdf_pages": 14
     },
     {
       "id": "spitzer05",
@@ -514,8 +526,10 @@
         }
       ],
       "use": "primary research",
-      "status": "original PDF required",
-      "pdf_path": null
+      "status": "PDF supplied by instructor",
+      "pdf_path": "papers/spitzer05.pdf",
+      "sha256": "9a9fb55eecace82084d105885192feb7955b0ad01cd7ec6ada792e7155369a24",
+      "pdf_pages": 22
     },
     {
       "id": "vu93",
@@ -600,15 +614,24 @@
       "pdf_pages": 13,
       "sha256": "264181abd3c045b14226e1de50551f9644b6542b5dcabdd7ad9f77a5d1c1b33a",
       "title_page_text": "The Journal \nof Neuroscience, \nJuly \n1991, \n17(7): \n2117-2129 \nPostsynaptic \nModulation \nof Rectifying \nElectrical \nSynaptic \nInputs to \nthe LG Escape Command \nNeuron in Crayfish \nDonald \nH. Edwards,’ \nWilliam \nJ. Heitler,lsa \nEsther \nM. Leise,lvb \nand \nRussell \nA. Frickezsc \n‘Department \nof Biology, Georgia \nState University, \nAtlanta, Georgia \n30303 and 2Department \nof Anatomy \nand Cell Biology, \nEmory University \nSchool of Medicine, \nAtlanta, Georgia \n30322 \nThe \nlateral \ngiant \n(LG) tail-flip \nescape \nsystem \nof crayfish \nis \norganized \nto provide \na massive \nconvergence \nof mechano- \nsensory \ninputs \nonto \nthe LG command \nneuron \nthrough \nelec- \ntrical \nsynapses \nfrom \nboth \nmechanosensory \nafferents \nand \ninterneurons. \nWe \nused \nelec"
+    },
+    {
+      "id": "herberholz11",
+      "doi": "10.3389/fnbeh.2011.00016",
+      "title": "Non-Invasive Imaging of Neuroanatomical Structures and Neural Activation with High-Resolution MRI",
+      "reference": "Jens Herberholz; Subrata H. Mishra; Divya Uma; Markus W. Germann; Donald H. Edwards; Kimberlee Potter (2011). Non-Invasive Imaging of Neuroanatomical Structures and Neural Activation with High-Resolution MRI. Frontiers in Behavioral Neuroscience 5:16. https://doi.org/10.3389/fnbeh.2011.00016",
+      "status": "PDF available",
+      "pdf_path": "papers/herberholz11.pdf",
+      "sha256": "61148a478a6ddf8acb2f7e8c4bf24ab2453c0c59cc7d10090dce09891d8cf2ce",
+      "pdf_pages": 9,
+      "verified_metadata": [
+        "Crossref DOI record",
+        "Original PDF figure 1 caption"
+      ],
+      "use": "Original animal photograph on title slide"
     }
   ],
-  "required_pdf_ids": [
-    "yeh96",
-    "huber97",
-    "araki05",
-    "spitzer05",
-    "spitzer08"
-  ],
+  "required_pdf_ids": [],
   "reference_decks": [
     {
       "file": "Neuroethology_Lecture17_FA2026_NEW.pptx",
@@ -696,5 +719,10 @@
     "Semantic Scholar open-access metadata",
     "NCBI PMC archive pages (some returned reCAPTCHA rather than article content)",
     "OpenAlex metadata requests (HTTP 429)"
-  ]
+  ],
+  "completed_on": "2026-10-09",
+  "build_tool": "tools/build_lecture.py",
+  "crop_tool": "tools/crop_panels.py using its PyMuPDF renderer through crop_originals.py",
+  "final_spec": "lecture.json",
+  "publication_base_commit": "442ec1cdf95c13d05f4a7ac7d6a4f0673d789ecd"
 }
