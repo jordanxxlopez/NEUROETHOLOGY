@@ -1,0 +1,57 @@
+# Lecture 36 — original PDFs required
+
+Simple learning circuits: Aplysia gill-withdrawal habituation and sensitization (Kandel)
+
+Friday, November 20, 2026
+
+15 original primary-study PDFs have been downloaded and retained. Five required originals remain inaccessible; publisher PDF requests return HTTP 403, and archive metadata provides no usable public PDF. No PowerPoint or scientific image has been created, and no theme has been marked used.
+
+The instructor and repository rules require stopping before deck delivery when a needed original PDF is unavailable. Figures will be cropped from the originals without redrawing, generating, recoloring or reconstructing scientific content.
+
+## Please upload these five original PDFs
+
+1. Pinsker H; Kupfermann I; Castellucci V; Kandel E (1970). Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1740-1742. https://doi.org/10.1126/science.167.3926.1740
+   - Needed for: Behavioral habituation, recovery and dishabituation of the gill-withdrawal reflex.
+2. Castellucci V; Pinsker H; Kupfermann I; Kandel ER (1970). Neuronal Mechanisms of Habituation and Dishabituation of the Gill-Withdrawal Reflex in Aplysia. Science, 167(3926): 1745-1748. https://doi.org/10.1126/science.167.3926.1745
+   - Needed for: Identified sensory–motor recordings establishing synaptic depression and heterosynaptic facilitation.
+3. Carew TJ; Pinsker HM; Kandel ER (1972). Long-Term Habituation of a Defensive Withdrawal Reflex in Aplysia. Science, 175(4020): 451-454. https://doi.org/10.1126/science.175.4020.451
+   - Needed for: Training-spacing and retention experiments establishing long-term habituation.
+4. Brunelli M; Castellucci V; Kandel ER (1976). Synaptic Facilitation and Behavioral Sensitization in Aplysia : Possible Role of Serotonin and Cyclic AMP. Science, 194(4270): 1178-1181. https://doi.org/10.1126/science.186870
+   - Needed for: Classic serotonin and cyclic-AMP interventions underlying sensitization.
+5. Montarolo PG; Goelet P; Castellucci VF; Morgan J; Kandel ER; Schacher S (1986). A Critical Period for Macromolecular Synthesis in Long-Term Heterosynaptic Facilitation in Aplysia. Science, 234(4781): 1249-1254. https://doi.org/10.1126/science.3775383
+   - Needed for: Protein-synthesis timing and repeated-serotonin protocols establishing long-term facilitation.
+
+## Available primary papers
+
+- Castellucci VF; Kandel ER (1974). A Quantal Analysis of the Synaptic Depression Underlying Habituation of the Gill-Withdrawal Reflex in Aplysia. Proceedings of the National Academy of Sciences, 71(12): 5004-5008. https://doi.org/10.1073/pnas.71.12.5004
+  - Original PDF: 5 pages.
+- Frost WN; Castellucci VF; Hawkins RD; Kandel ER (1985). Monosynaptic connections made by the sensory neurons of the gill- and siphon-withdrawal reflex in Aplysia participate in the storage of long-term memory for sensitization. Proceedings of the National Academy of Sciences, 82(23): 8266-8269. https://doi.org/10.1073/pnas.82.23.8266
+  - Original PDF: 4 pages.
+- Bailey CH; Chen M (1988). Long-term memory in Aplysia modulates the total number of varicosities of single identified sensory neurons.. Proceedings of the National Academy of Sciences, 85(7): 2373-2377. https://doi.org/10.1073/pnas.85.7.2373
+  - Original PDF: 5 pages.
+- Bailey CH; Chen M (1988). Long-term sensitization in Aplysia increases the number of presynaptic contacts onto the identified gill motor neuron L7.. Proceedings of the National Academy of Sciences, 85(23): 9356-9359. https://doi.org/10.1073/pnas.85.23.9356
+  - Original PDF: 4 pages.
+- Dale N; Kandel ER (1993). L-glutamate may be the fast excitatory transmitter of Aplysia sensory neurons.. Proceedings of the National Academy of Sciences, 90(15): 7163-7167. https://doi.org/10.1073/pnas.90.15.7163
+  - Original PDF: 5 pages.
+- Antonov I; Kandel ER; Hawkins RD (1999). The Contribution of Facilitation of Monosynaptic PSPs to Dishabituation and Sensitization of the Aplysia Siphon Withdrawal Reflex. The Journal of Neuroscience, 19(23): 10438-10450. https://doi.org/10.1523/jneurosci.19-23-10438.1999
+  - Original PDF: 13 pages.
+- Gover TD; Jiang XY; Abrams TW (2002). Persistent, Exocytosis-Independent Silencing of Release Sites Underlies Homosynaptic Depression at Sensory Synapses inAplysia. The Journal of Neuroscience, 22(5): 1942-1955. https://doi.org/10.1523/jneurosci.22-05-01942.2002
+  - Original PDF: 14 pages.
+- Li Q; Roberts AC; Glanzman DL (2005). Synaptic Facilitation and Behavioral Dishabituation in Aplysia: Dependence on Release of Ca2+ from Postsynaptic Intracellular Stores, Postsynaptic Exocytosis, and Modulation of Postsynaptic AMPA Receptor Efficacy. Journal of Neuroscience, 25(23): 5623-5637. https://doi.org/10.1523/jneurosci.5305-04.2005
+  - Original PDF: 15 pages.
+- Liu J; Hu JY; Schacher S; Schwartz JH (2004). The Two Regulatory Subunits ofAplysiacAMP-Dependent Protein Kinase Mediate Distinct Functions in Producing Synaptic Plasticity. The Journal of Neuroscience, 24(10): 2465-2474. https://doi.org/10.1523/jneurosci.4331-03.2004
+  - Original PDF: 10 pages.
+- Hart AK; Fioravante D; Liu RY; Phares GA; Cleary LJ; Byrne JH (2011). Serotonin-Mediated Synapsin Expression Is Necessary for Long-Term Facilitation of theAplysiaSensorimotor Synapse. The Journal of Neuroscience, 31(50): 18401-18411. https://doi.org/10.1523/jneurosci.2816-11.2011
+  - Original PDF: 11 pages.
+- Lee SH; Shim J; Cheong YH; Choi SL; Jun YW; Lee SH; Chae YS; Han JH; Lee YS; Lee JA; Lim CS; Si K; Kassabov S; Antonov I; Kandel ER; Kaang BK; Jang DJ (2016). ApCPEB4, a non-prion domain containing homolog of ApCPEB, is involved in the initiation of long-term facilitation. Molecular Brain, 9(1): 91. https://doi.org/10.1186/s13041-016-0271-x
+  - Original PDF: 12 pages.
+- Chen S; Cai D; Pearce K; Sun PY; Roberts AC; Glanzman DL (2014). Reinstatement of long-term memory following erasure of its behavioral and synaptic expression in Aplysia. eLife, 3(): e03896. https://doi.org/10.7554/elife.03896
+  - Original PDF: 21 pages.
+- Pearce K; Cai D; Roberts AC; Glanzman DL (2017). Role of protein synthesis and DNA methylation in the consolidation and maintenance of long-term memory in Aplysia. eLife, 6(): e18299. https://doi.org/10.7554/elife.18299
+  - Original PDF: 20 pages.
+- Kassabov SR; Choi YB; Karl KA; Vishwasrao HD; Bailey CH; Kandel ER (2013). A Single Aplysia Neurotrophin Mediates Synaptic Facilitation via Differentially Processed Isoforms. Cell Reports, 3(4): 1213-1227. https://doi.org/10.1016/j.celrep.2013.03.008
+  - Original PDF: 28 pages.
+- Zhou L; Zhang Y; Liu RY; Smolen P; Cleary LJ; Byrne JH (2015). Rescue of Impaired Long-Term Facilitation at Sensorimotor Synapses ofAplysiafollowing siRNA Knockdown of CREB1. The Journal of Neuroscience, 35(4): 1617-1626. https://doi.org/10.1523/jneurosci.3330-14.2015
+  - Original PDF: 10 pages.
+
+Verified bibliographic metadata, PDF SHA-256 hashes and access checks are saved in research.json and sources/. PDFs are retained under papers/ and excluded from Git.
