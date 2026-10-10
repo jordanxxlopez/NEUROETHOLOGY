@@ -17,6 +17,9 @@ slide) and never paraphrases or repeats an original slide. Scaffold slides clone
 deck's own layout, reuse only figures already in the deck, are numbered after the slide
 they follow (24a), and never contain created images, diagrams, checkpoints, questions to
 students, roadmaps, figure-reading guides, summaries or references to other lectures.
+Every paragraph teaches; the last paragraph of a scaffold slide is never a caveat ("does
+not establish", "cannot separate", "remains unknown"). Older icon-plus-text decks
+(Lectures 1–7 style) get text-only scaffold clones (GUIDELINE section 6).
 All writing rules below apply. The 46-slide rule below applies to building new lectures,
 not to this task.
 

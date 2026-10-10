@@ -478,7 +478,7 @@
    "body": [
     "Photoinactivation relies on a dye injected into one identified neuron. Intense light excites the dye, which transfers energy to oxygen and produces reactive molecules that damage nearby membranes and proteins. Damage is confined to the filled cell, so neighbors in the same ganglion are spared although the whole region is illuminated.",
     "Progressive damage is consistent with the stages seen in SG. Spikes broaden as repolarization fails, the cell sits on a long depolarized plateau, and it finally loses electrical responsiveness as membrane function collapses.",
-    "The method answers a question that cutting a connective cannot: what remains when one identified relay neuron is removed from an otherwise intact circuit. Its limitation is the plateau stage, when a depolarized SG can still pass current to electrically coupled partners."
+    "Removing one relay neuron answers a question that cutting a connective cannot: what the rest of the circuit does without that single cell. Once SG had lost responsiveness, the giant fibers still drove flexor motor neurons through their own direct connections, which is how a pathway hidden behind the dominant relay came to light."
    ],
    "figure": {
     "from_slide": 31,
@@ -719,7 +719,7 @@
    "body": [
     "Ethanol acts on several transmitter systems and produces biphasic effects in many animals: initial hyperexcitability and disinhibition, then incoordination and sedation. In crayfish placed in ethanol, early intoxication included spontaneous tail flips without any threat.",
     "An enhanced early MG potential fits that early phase, since a larger sensory potential brings the escape neuron closer to threshold. The concentration used, 100 mM, is well above the roughly 17 mM matching the United States legal driving limit, though within the range used in alcohol research.",
-    "The enhancement outlasted an hour of saline washout. The authors suggest strong binding to postsynaptic receptors or sustained facilitation of the synapses producing the early potential; how ethanol raises the potential remains unknown."
+    "The enhancement outlasted an hour of saline washout, so it did not depend on ethanol remaining at the synapse. Swierzbinski and Herberholz suggest strong binding to postsynaptic receptors or sustained facilitation of the synapses producing the early potential, either of which would leave the escape neuron more excitable after the drug is gone."
    ],
    "figure": {
     "from_slide": 38,
@@ -781,7 +781,7 @@
    "body": [
     "If two treatments act through the same target, applying one first can **occlude** the other: the target is already occupied or altered, so the second adds little. If they act through different targets, their effects should combine. Giving ethanol after muscimol applies this logic to the MG pathway.",
     "Ethanol interacts with GABA receptors in many systems, and muscimol activates ionotropic GABA receptors directly. After muscimol, ethanol no longer produced its clear enhancement, consistent with the two treatments converging on GABA-related signaling in this pathway.",
-    "Occlusion is consistent with a shared mechanism but does not prove it. Muscimol's own effects changed the state of the preparation, so ethanol acted from a different starting point than in the ethanol-alone experiment, and either explanation can produce a missing response."
+    "Together with picrotoxin and muscimol, which probed inhibitory signaling in the MG pathway from opposite directions, occlusion places GABA-related signaling at the center of how ethanol changes the escape circuit. That link connects the cellular result to the early, disinhibited phase of intoxication, when spontaneous tail flips appear without any threat."
    ],
    "figure": {
     "from_slide": 41,
@@ -840,7 +840,7 @@
    "body": [
     "Manganese ions resemble calcium closely enough to pass through the voltage-gated calcium channels that open when a neuron is depolarized, so active neurons take up more of them. Manganese is also carried along axons and slowly across synapses, and it clears slowly, so it accumulates where and downstream of where activity occurred.",
     "Manganese shortens the T1 relaxation time of nearby water, which makes tissue containing it brighter in T1-weighted images. The image records how much manganese accumulated over the stimulation period, not the moment-to-moment firing of neurons.",
-    "Accumulation favors regions active repeatedly, which is why the escape protocol delivered many shocks before imaging. Transport across synapses and uptake by every active neuron also mean that bright regions include cells beyond the stimulated pathway, which the unstimulated control helps to bound."
+    "Accumulation favors regions active repeatedly, which is why the escape protocol delivered many shocks before imaging. The brighter side of the brain in stimulated animals therefore marks where activity was repeated most over the session, and comparison with an unstimulated animal sets the baseline uptake against which that excess is measured."
    ],
    "figure": {
     "from_slide": 42,

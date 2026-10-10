@@ -20,7 +20,8 @@ from lxml import etree
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from add_scaffold import NS, A, P, R, Package, classify, notes_lines, shape_text  # noqa: E402
-from style_rules import framing_problems, stats_problems  # noqa: E402
+from style_rules import EM_DASH, LIMITATION, framing_problems, stats_problems  # noqa: E402
+from add_scaffold import strip_markup  # noqa: E402
 
 MOVES = {"mechanism", "consequence", "integration", "method_logic", "distinction", "foundation"}
 STOP = set("""a about above after again against all also am an and any are as at be been before being below between
@@ -79,6 +80,12 @@ def canon(xml_bytes):
 def slide_text(pkg, part):
     root = pkg.xml(part)
     return [shape_text(sp) for sp in root.iter(P + "sp") if sp.find(".//p:txBody", NS) is not None]
+
+
+# closing-caveat phrasings beyond style_rules.LIMITATION: the last body paragraph must teach
+CAVEAT = re.compile(r"\b(?:cannot (?:tell|say|decide|know)|has (?:its )?limits|(?:is|remains?) (?:only )?a hypothesis|"
+                    r"is not (?:by itself )?evidence|not by itself|lies outside what|no (?:neural|direct) (?:data|evidence|recording)|"
+                    r"(?:would|could) not (?:separate|distinguish))\b", re.I)
 
 
 def main():
@@ -180,8 +187,12 @@ def main():
     for part in src.slides:
         orig_captions.update(shape_text(c) for c in classify(src.xml(part))["captions"])
     orig_refs = set()
-    for o in orig:
+    for o in orig:  # full references live in the notes, or (older decks) in a reference line on the slide
         orig_refs.update(o["lines"])
+        orig_refs.update(line for line in o["text"].split("\n") if re.search(r"\((?:19|20)\d{2}[a-z]?\)", line))
+    # older decks whose content slides mostly carry no captioned figure allow text-only scaffold slides
+    content_parts = src.slides[1:-1]
+    figure_sparse = sum(1 for part in content_parts if classify(src.xml(part))["captions"]) < len(content_parts) / 2
     deck_cites = {m.group(0) for m in CITE_RX.finditer(all_orig)}
     deck_numbers = set(NUM_RX.findall(all_orig))
 
@@ -248,7 +259,7 @@ def main():
         for num in NUM_RX.findall(plain_body + " " + notes + " " + s["title"]):
             if num not in allowed_nums:
                 fail(f"SOURCE {tag}: number {num} is not in the deck (list it in 'paper_numbers' with its source)")
-        for m in CITE_RX.finditer(plain_body + " " + notes + " " + s["cite"]):
+        for m in CITE_RX.finditer(plain_body + " " + notes + " " + (s.get("cite") or "")):
             if m.group(0) not in deck_cites:
                 fail(f"SOURCE {tag}: citation {m.group(0)!r} is not in the deck")
         if re.search(r"(?<![<>≤≥])=|\b[a-z]\s*[\^]\s*\d", plain_body + notes):
@@ -270,6 +281,12 @@ def main():
             for sent in sentences(text):
                 if re.match(r"[\"“(]?because\b", sent, re.I):
                     fail(f"LANGUAGE {tag} {where}: sentence begins with 'Because': {sent[:50]!r}")
+        closing = LIMITATION.search(strip_markup(s["body"][-1])) or CAVEAT.search(strip_markup(s["body"][-1]))
+        if closing:
+            fail(f"LANGUAGE {tag}: last paragraph is a caveat ({closing.group(0)!r}); "
+                 "it must teach (mechanism, consequence, follow-up result, behavioral link)")
+        if EM_DASH in s["title"] + plain_body:
+            fail(f"LANGUAGE {tag}: em dash in slide text")
         if notes_items and re.match(r"teaching transcript", notes_items[0], re.I):
             fail(f"LANGUAGE {tag}: notes start with a label")
 
@@ -286,7 +303,10 @@ def main():
         if not re.fullmatch(rf"0*{s['after']}[a-z]", tag):
             fail(f"FORMAT {tag}: footer number must be the original slide number plus a letter ({s['after']}a)")
         fig = s["figure"]
-        for f in [fig] + s.get("extra_figures", []):
+        if fig is None and not figure_sparse:
+            fail(f"FORMAT {tag}: no figure; only decks whose content slides mostly carry no figure allow text-only slides")
+        figs = ([fig] if fig else []) + s.get("extra_figures", [])
+        for f in figs:
             if f["from_slide"] == 1:
                 fail(f"FORMAT {tag}: title-slide photo reused")
             if f["caption"] not in orig_captions:
@@ -305,16 +325,17 @@ def main():
         if opart:
             root = out.xml(opart)
             parts = classify(root)
-            if not parts["pics"]:
+            if fig is not None and not parts["pics"]:
                 fail(f"FORMAT {tag}: no figure on the slide")
-            if [shape_text(c) for c in parts["captions"]] != [f["caption"] for f in [fig] + s.get("extra_figures", [])]:
+            if [shape_text(c) for c in parts["captions"]] != [f["caption"] for f in figs]:
                 fail(f"FORMAT {tag}: slide caption does not match the spec caption")
             if shape_text(parts["number"]) != tag:
                 fail(f"FORMAT {tag}: footer number box reads {shape_text(parts['number'])!r}")
             if shape_text(parts["title"]) != s["title"]:
                 fail(f"FORMAT {tag}: title text mismatch")
             for rpr in root.iter(A + "rPr"):
-                if rpr.get("sz") and int(rpr.get("sz")) < 1300 and any(rpr in b.iter(A + "rPr") for b in parts["body"]):
+                if rpr.get("sz") and int(rpr.get("sz")) < 1300 and any(
+                        rpr in b.iter(A + "rPr") for b in parts["body"] if shape_text(b) != s.get("source_line")):
                     fail(f"FORMAT {tag}: body text below 13 pt")
             ol = notes_lines(out, opart)
             if not ol or "References:" not in ol:

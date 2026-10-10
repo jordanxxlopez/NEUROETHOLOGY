@@ -17,7 +17,9 @@ Read scaffold/GUIDELINE.md completely before starting and follow every rule in i
 4. Sources: the deck, the full text of papers the deck already cites, and textbook-level principles. No new studies,
    species, data, citations or numbers; no statistics clutter; no math unless visible in the deck; no other lectures.
 5. Looks like the deck: clone a content slide of the same deck; claim-sentence title ≤ 62 characters; 3–5 paragraphs
-   (90–170 words); a reused figure with its original caption on every scaffold slide; footer number like "24a".
+   (90–170 words); a reused figure with its original caption on every scaffold slide (older icon-plus-text decks:
+   text-only clones, GUIDELINE section 6); footer number like "24a". Every paragraph teaches; the last paragraph is
+   never a caveat ("does not establish", "cannot separate", "remains unknown"); no em dashes in slide text.
 6. Never: created images or diagrams, checkpoints, questions to students, roadmaps, figure-reading guides, summaries,
    "putting it together" titles.
 7. Notes: teaching transcript that goes further than the slide, never copies it, no "Teaching transcript:" label, ends

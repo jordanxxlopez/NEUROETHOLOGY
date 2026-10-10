@@ -185,8 +185,8 @@ def set_shape_text(sp, paragraphs, plain_rpr=None, bold_fallback=None):
             bold.insert(0, copy.deepcopy(fill))
     for extra in paras:
         body.remove(extra)
-    for text in paragraphs:
-        p = copy.deepcopy(first)
+    for k, text in enumerate(paragraphs):  # paragraph k reuses the template's paragraph k (spacing before/after)
+        p = copy.deepcopy(paras[min(k, len(paras) - 1)] if k else first)
         set_paragraph(p, text, rpr, bold)
         body.append(p)
 
@@ -274,6 +274,9 @@ def build_slide(pkg, spec_slide, slide_w, default_pt, body_floor=None):
     # keeps all paragraphs in one box, every paragraph in that box with its own paragraph spacing
     boxes = parts["body"]
     paras = spec_slide["body"]
+    if spec_slide.get("source_line"):  # older decks print the full reference in a line under the title
+        set_shape_text(boxes[0], [spec_slide["source_line"]])
+        boxes = boxes[1:]
     top = geom(boxes[0])[1]
     bottom = max(geom(b)[1] + geom(b)[3] for b in boxes)
     if body_floor:  # body text may extend as low as the deck's own content slides place it,
@@ -284,6 +287,9 @@ def build_slide(pkg, spec_slide, slide_w, default_pt, body_floor=None):
         pt = body_font_pt(b, default_pt)
         aft = b.find(".//a:pPr/a:spcAft/a:spcPts", NS)
         after = int(aft.get("val")) / 100 * EMU_PER_PT if aft is not None else 0
+        tparas = list(b.iter(A + "p"))
+        bef = tparas[1].find("./a:pPr/a:spcBef/a:spcPts", NS) if len(tparas) > 1 else None
+        after += int(bef.get("val")) / 100 * EMU_PER_PT if bef is not None else 0
         h = sum(int(math.ceil(estimate_lines(t, geom(b)[2], pt) * line_height_pt(b, pt) * EMU_PER_PT)) for t in paras)
         h += int(after * (len(paras) - 1))
         print(f"  {spec_slide['footer_number']:>4}: body {h / 914400:.2f} of {(bottom - top) / 914400:.2f} in")
@@ -318,12 +324,23 @@ def build_slide(pkg, spec_slide, slide_w, default_pt, body_floor=None):
             b.find(".//a:xfrm/a:ext", NS).set("cy", str(h))
             y += h + gap
 
-    # figures: drop the template's pictures and captions, copy the named picture(s) with their captions
-    for el in parts["pics"] + parts["captions"]:
-        tree.remove(el)
+    # figures: drop the template's pictures and captions, copy the named picture(s) with their captions;
+    # a text-only slide (figure null, for decks whose content slides carry no figures) keeps the
+    # template's own decorative icon, exactly as the deck's text slides do
+    figs = ([spec_slide["figure"]] if spec_slide.get("figure") else []) + spec_slide.get("extra_figures", [])
+    if figs:
+        for el in parts["pics"] + parts["captions"]:
+            tree.remove(el)
     anchor = parts["cite"] if parts["cite"] is not None else parts["number"]
     images = {}  # temporary rId -> media part
-    for k, fig in enumerate([spec_slide["figure"]] + spec_slide.get("extra_figures", [])):
+    if not figs:  # kept template icons point at the template's own relationships
+        trels_ = pkg.rels(tpart)
+        for pic in parts["pics"]:
+            for blip in pic.iter(A + "blip"):
+                tmp = f"keep_{blip.get(R + 'embed')}"
+                images[tmp] = trels_[blip.get(R + "embed")][1]
+                blip.set(R + "embed", tmp)
+    for k, fig in enumerate(figs):
         src_part = pkg.slides[fig["from_slide"] - 1]
         fparts = classify(pkg.xml(src_part))
         pic = next((e for e in fparts["pics"] if e.find(".//p:cNvPr", NS).get("name") == fig["picture"]), None)
@@ -354,7 +371,7 @@ def build_slide(pkg, spec_slide, slide_w, default_pt, body_floor=None):
                 off.set("x", str(x + w - need))
             ext.set("cx", str(need))
 
-    if parts["cite"] is not None:
+    if parts["cite"] is not None and spec_slide.get("cite"):  # null keeps the deck's own footer label
         footer_text(parts["cite"], spec_slide["cite"])
     footer_text(parts["number"], spec_slide["footer_number"])
 

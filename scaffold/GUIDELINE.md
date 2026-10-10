@@ -166,8 +166,19 @@ from another deck.
   period, formatted exactly like the deck's content titles.
 - BODY: 3–5 full explanatory paragraphs, about 90–170 words, never below 13 pt, with the
   deck's own font, size, color, paragraph spacing, bold key terms and italic species names.
+- EVERY PARAGRAPH TEACHES, the last one included: no fixed paragraph template, and the
+  closing paragraph is teaching content (a mechanism, a consequence for the animal, a
+  follow-up result, a behavioral link, a comparison), never a caveat paragraph ("does not
+  establish/prove…", "cannot separate…", "remains unknown", "is a hypothesis"). A limitation
+  earns a sentence only when it changes what students should conclude, stated as a fact
+  inside a teaching paragraph; routine caveats go in the speaker notes or nowhere. No em
+  dashes in slide text. tools/check_scaffold.py fails a closing caveat paragraph.
 - FIGURE (required): every scaffold slide carries a figure, because nearly every slide in
-  these decks carries one. Copy a figure that is already in the deck and carries the
+  these decks carries one. Exception: in an older-format deck whose content slides mostly
+  carry no captioned figure (Lectures 1–7 style, icon plus text), a scaffold slide clones
+  a text slide of that deck, keeps its icon and reference line under the title, and carries
+  no figure, exactly like its neighbours; any captioned figure the deck does have is reused
+  at most once. Copy a figure that is already in the deck and carries the
   evidence the slide explains, with its original caption character for character, placed
   and sized the way the deck places figures (text and figure side by side). Never move,
   crop, recolor or alter it. Never reuse a decorative photo. Do not use the same figure on

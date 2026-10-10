@@ -1,0 +1,900 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture6_FA2026_2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture6_FA2026_2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "leech",
+  "swim",
+  "swimming",
+  "crawl",
+  "crawling",
+  "oscillator",
+  "oscillators",
+  "cell",
+  "cells",
+  "neuron",
+  "neurons",
+  "ganglion",
+  "ganglia",
+  "segment",
+  "segments",
+  "phase",
+  "lag",
+  "lags",
+  "cycle",
+  "inhibition",
+  "inhibitory",
+  "excitation",
+  "motor",
+  "rhythm",
+  "stretch",
+  "receptor",
+  "receptors",
+  "204",
+  "208",
+  "serotonin",
+  "habituation",
+  "dye",
+  "dyes",
+  "Lamb",
+  "Calabrese",
+  "Friesen",
+  "Kristan",
+  "Briggman",
+  "Debski",
+  "Nusbaum",
+  "Cacciatore",
+  "Baca",
+  "Stent",
+  "colleagues",
+  "muscle",
+  "muscles",
+  "longitudinal",
+  "circular",
+  "dorsal",
+  "ventral",
+  "wave",
+  "body",
+  "fictive",
+  "network",
+  "gating"
+ ],
+ "new_slides": [
+  {
+   "after": 4,
+   "footer_number": "4a",
+   "template_slide": 4,
+   "title": "A rearward body wave pushes water back and the leech forward",
+   "body": [
+    "When swimming begins, dorsoventral flattener muscles contract along the whole body, turning the leech into a thin ribbon with a broad posterior sucker that acts as a paddle. A flat body presents a large surface to the water in the plane of bending, so each bend pushes water instead of slipping through it.",
+    "As a bend travels rearward, the body surface moving backward pushes water behind the animal, and the water pushes back on the body with an equal and opposite force, driving the leech forward. The faster the wave travels relative to the water, the greater this backward push.",
+    "The wave spans about one body length, so at any moment the leech holds roughly one full cycle of bending from head to tail. Each segment begins its cycle slightly after the segment in front, and the size of that delay sets how many bends fit along the body, which is why intersegmental timing shapes the swimming wave itself."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "mechanism",
+    "foundation",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    4,
+    14,
+    15,
+    16
+   ],
+   "cited_papers_used": [
+    "10.1186/2042-1001-1-13",
+    "10.1126/science.663615"
+   ],
+   "transcript": [
+    "Slide 4 describes the rearward-traveling wave and notes that its relation to forward movement must be explained; body shape and the physics of pushing against water supply that explanation.",
+    [
+     "Flattening prepares the body to push water.",
+     [
+      "Lamb and Calabrese describe the flattener muscles contracting at swim onset, giving the body a ribbon shape with a flared posterior paddle.",
+      "A cylinder bending in water would move a small volume of fluid; a ribbon bending perpendicular to its flat face moves much more."
+     ]
+    ],
+    [
+     "Thrust comes from the rearward motion of the wave.",
+     [
+      "Every point on the body moves up and down in turn, but because the bend travels backward, the surfaces facing rearward sweep water toward the tail.",
+      "The reaction force from that accelerated water is the propulsive thrust, the same principle that propels other undulating swimmers."
+     ]
+    ],
+    [
+     "Phase lag determines wave shape.",
+     [
+      "Stent and colleagues describe the segmental rhythms as forming a rostrocaudal phase progression, with dorsal and ventral sectors of each segment contracting in antiphase.",
+      "Slide 14 attributes the progression to intersegmental connections, and the about one-wavelength body form follows from the size of the per-segment delay they impose."
+     ]
+    ]
+   ],
+   "refs": [
+    "Lamb, D. G., & Calabrese, R. L. (2011). Neural circuits controlling behavior and autonomic functions in medicinal leeches. Neural Systems & Circuits, 1, 13.",
+    "Stent, G. S., Kristan, W. B., Jr., Friesen, W. O., Ort, C. A., Poon, M., & Calabrese, R. L. (1978). Neuronal generation of the leech swimming movement. Science, 200, 1348–1357."
+   ]
+  },
+  {
+   "after": 8,
+   "footer_number": "8a",
+   "template_slide": 8,
+   "title": "Resetting the rhythm separates oscillator cells from followers",
+   "body": [
+    "A current pulse injected into a cell that belongs to the oscillator changes when the following cycles occur, and the shift persists: every later burst arrives earlier or later by the same amount. The rhythm has been reset because the perturbed cell feeds back onto the cells that generate the timing.",
+    "A follower, such as a motor neuron driven by the oscillator with no connections back to it, can be made to fire early or late during the pulse, yet once the pulse ends the rhythm resumes on its original schedule. Its activity is rhythmic but has no influence on the clock.",
+    "The test placed some cells first classified as motor neurons inside the oscillator. Lamb and Calabrese list dorsal and ventral inhibitory motor neurons, such as DI-28, DI-102 and VI-2, among the phase groups, so the same cells both relax muscles and help generate the rhythm. Membership is defined by influence on timing, not by where a cell sends its axon."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "method_logic",
+    "distinction",
+    "mechanism",
+    "integration"
+   ],
+   "integrates": [
+    8,
+    9,
+    10,
+    16
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.75.1.25",
+    "10.1186/2042-1001-1-13"
+   ],
+   "transcript": [
+    "Slide 8 states the phase-shifting criterion used to identify oscillator cells; the logic of resetting explains why that criterion separates generators from followers.",
+    [
+     "A lasting shift requires feedback.",
+     [
+      "An oscillator keeps track of time through its own state; changing that state moves all subsequent cycles.",
+      "Friesen, Poon and Stent found that passing current into any of the interneurons they identified could shift the phase of the swim rhythm."
+     ]
+    ],
+    [
+     "Followers can be rhythmic without being generators.",
+     [
+      "Rhythmic activity alone does not distinguish a generator from a cell that is merely driven, since both fire in time with the cycle.",
+      "The perturbation test asks a causal question instead: whether changing the cell changes the clock."
+     ]
+    ],
+    [
+     "Output neurons can be part of the clock.",
+     [
+      "Slide 16 describes excitor and inhibitor motor neurons as the output layer of the circuit.",
+      "The phase-group lists in Lamb and Calabrese's review place several inhibitory motor neurons in the oscillator itself, so in the leech the boundary between pattern generation and motor output is not a separate layer."
+     ]
+    ]
+   ],
+   "refs": [
+    "Friesen, W. O., Poon, M., & Stent, G. S. (1978). Neuronal control of swimming in the medicinal leech. IV. Identification of a network of oscillatory interneurones. Journal of Experimental Biology, 75, 25–43.",
+    "Lamb, D. G., & Calabrese, R. L. (2011). Neural circuits controlling behavior and autonomic functions in medicinal leeches. Neural Systems & Circuits, 1, 13."
+   ],
+   "source_line": "Friesen, W. O., Poon, M., & Stent, G. S. (1978). Neuronal control of swimming in the medicinal leech. IV. Identification of a network of oscillatory interneurones. Journal of Experimental Biology, 75, 25–43."
+  },
+  {
+   "after": 11,
+   "footer_number": "11a",
+   "template_slide": 11,
+   "title": "Leech oscillator cells are not pacemakers; the network is",
+   "body": [
+    "A rhythm can arise in two ways. In a pacemaker design, individual neurons burst on their own through their intrinsic membrane currents and impose their rhythm on others; in a network oscillator, no cell bursts in isolation, and the rhythm emerges from the pattern of synaptic connections.",
+    "In a network built on mutual inhibition, the switch between active groups happens by release or by escape. Release occurs when the active group's firing or transmitter output declines, freeing the inhibited group; escape occurs when the inhibited group depolarizes despite ongoing inhibition, often through a slowly activating inward current or rebound excitation.",
+    "The leech swim oscillator is a network oscillator: its member cells are not thought to be intrinsic bursters, and few pairs of them are reciprocally connected. Its timing comes from inhibition passing around rings of cells combined with excitation, so the rhythm survives the loss of single members, as when swimming continues without cell 208 oscillating."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "distinction",
+    "foundation",
+    "mechanism",
+    "integration"
+   ],
+   "integrates": [
+    9,
+    11,
+    12,
+    13
+   ],
+   "cited_papers_used": [
+    "10.1016/0149-7634(94)90010-8",
+    "10.1186/2042-1001-1-13"
+   ],
+   "transcript": [
+    "Slide 11 presents the half-center idea; distinguishing pacemaker and network oscillators, and the two ways a half-center can switch, places the leech circuit within that framework.",
+    [
+     "Two sources of rhythm.",
+     [
+      "Pacemaker neurons contain membrane currents that make them oscillate even when isolated from all synaptic input.",
+      "Network oscillators need their connections; a single member removed from the network falls silent or fires tonically."
+     ]
+    ],
+    [
+     "Release and escape.",
+     [
+      "Synaptic depression or adaptation in the active group produces release, while a hyperpolarization-activated or persistent inward current in the inhibited group produces escape.",
+      "Which mechanism dominates affects how the rhythm responds to excitatory drive, since drive acts differently on the active and the inhibited group."
+     ]
+    ],
+    [
+     "The leech circuit as a network.",
+     [
+      "Lamb and Calabrese describe the segmental oscillators as accurately modeled by recurrent cyclic inhibition among three members, while noting that the real network combines inhibition and excitation.",
+      "Friesen's review points out that apparent redundancy in identified circuits adds robustness but makes critical elements harder to identify, which fits the uncertain status of cell 208 on slide 9."
+     ]
+    ]
+   ],
+   "refs": [
+    "Friesen, W. O. (1994). Reciprocal inhibition: A mechanism underlying oscillatory animal movements. Neuroscience and Biobehavioral Reviews, 18, 547–553.",
+    "Lamb, D. G., & Calabrese, R. L. (2011). Neural circuits controlling behavior and autonomic functions in medicinal leeches. Neural Systems & Circuits, 1, 13."
+   ],
+   "source_line": "Friesen, W. O. (1994). Reciprocal inhibition: A mechanism underlying oscillatory animal movements. Neuroscience and Biobehavioral Reviews, 18, 547–553."
+  },
+  {
+   "after": 12,
+   "footer_number": "12a",
+   "template_slide": 12,
+   "title": "Inhibition passed around a three-group ring sets phase order",
+   "body": [
+    "In recurrent cyclic inhibition, each of three groups inhibits one neighbor around a loop. While one group fires, it silences the group it inhibits; the third group, now free of inhibition, starts firing and shuts the first group down, which in turn releases the silenced group. Activity therefore circulates around the ring, each group taking one turn per cycle.",
+    "With three groups of similar strength, the turns divide the cycle into thirds, matching the measured phases of 0, 0.33 and 0.67. Friesen, Poon and Stent showed that a network of this kind is inherently oscillatory and produces cycle periods and phase relations suited to the swimming body wave.",
+    "The phase groups map directly onto muscle control. The group at phase 0.33 contains dorsal inhibitory motor neurons, DI-1, DI-28 and DI-102, which relax the dorsal longitudinal muscles, while the phase 0 group contains ventral inhibitors, so the ring's timing reaches the body wall as alternating relaxation of the two muscle sectors."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "mechanism",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    10,
+    11,
+    12,
+    16
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.75.1.25",
+    "10.1186/2042-1001-1-13",
+    "10.1126/science.663615"
+   ],
+   "transcript": [
+    "Slides 10 and 12 describe three phase groups and a ring architecture separately; following inhibition around the ring explains why that architecture yields three evenly spaced phases.",
+    [
+     "Cyclic inhibition creates a sequence.",
+     [
+      "In a two-cell half-center, each cell can only alternate with one partner, giving two phases.",
+      "In a three-member ring, the release of each group depends on the activity of a different group, which forces a fixed order of firing around the loop."
+     ]
+    ],
+    [
+     "The model matches the measured phases.",
+     [
+      "Lamb and Calabrese list phase 0 cells as VI-2, 115, VI-119, VI-123 and the unpaired cell 208, phase 0.33 cells as DI-102, DI-28 and DI-1, and phase 0.67 cells as 60, 27 and 33.",
+      "Friesen, Poon and Stent used theoretical analysis and electronic analogue models to establish that the network's structure produces appropriate intra- and intersegmental phase relations."
+     ]
+    ],
+    [
+     "Timing becomes movement.",
+     [
+      "Stent and colleagues describe dorsal and ventral body wall sectors of each segment undergoing an antiphasic contractile rhythm.",
+      "Placing inhibitory motor neurons of opposite sectors in different phase groups is one way the ring imposes that antiphase on the muscles."
+     ]
+    ]
+   ],
+   "refs": [
+    "Friesen, W. O., Poon, M., & Stent, G. S. (1978). Neuronal control of swimming in the medicinal leech. IV. Identification of a network of oscillatory interneurones. Journal of Experimental Biology, 75, 25–43.",
+    "Lamb, D. G., & Calabrese, R. L. (2011). Neural circuits controlling behavior and autonomic functions in medicinal leeches. Neural Systems & Circuits, 1, 13.",
+    "Stent, G. S., Kristan, W. B., Jr., Friesen, W. O., Ort, C. A., Poon, M., & Calabrese, R. L. (1978). Neuronal generation of the leech swimming movement. Science, 200, 1348–1357."
+   ],
+   "source_line": "Stent, G. S., Kristan, W. B., Jr., Friesen, W. O., Ort, C. A., Poon, M., & Calabrese, R. L. (1978). Neuronal generation of the leech swimming movement. Science, 200, 1348–1357.",
+   "paper_numbers": [
+    "0.33",
+    "0.67",
+    "0",
+    "119",
+    "123"
+   ]
+  },
+  {
+   "after": 15,
+   "footer_number": "15a",
+   "template_slide": 15,
+   "title": "Asymmetric coupling and feedback set the intersegmental lag",
+   "body": [
+    "The delay between neighboring segments, expressed as a fraction of the cycle, is the phase lag. In swimming leeches it ranges from about 0.044 to 0.1 of a cycle per segment while the cycle period ranges from 0.3 to 1.0 second; expressing the lag as a fraction of the cycle keeps the wave's length on the body similar at slow and fast swimming.",
+    "Two features set the lag. Oscillator connections between ganglia are asymmetric, with three of the identified interneurons projecting forward and one rearward, and this imbalance gives anterior segments a lead. Stretch receptors in the longitudinal muscles adjust the lags further in the intact animal.",
+    "Cutting the chain reveals how collective the lag is: as fewer ganglia remain in an isolated cord, the phase lag between them increases. The lag is therefore a property of the whole coupled chain, which is how coupling weaker than the within-segment connections can still impose a smooth rearward wave across many ganglia."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "mechanism",
+    "consequence",
+    "integration",
+    "foundation"
+   ],
+   "integrates": [
+    9,
+    13,
+    14,
+    15,
+    17
+   ],
+   "cited_papers_used": [
+    "10.1186/2042-1001-1-13",
+    "10.1242/jeb.75.1.25",
+    "10.1016/j.conb.2008.01.006"
+   ],
+   "transcript": [
+    "Slides 14 and 15 explain why segments must be coupled and why coupling must be weak; the measured lags and their dependence on asymmetry, feedback and cord length explain how the coupling sets the wave.",
+    [
+     "Lag as a fraction of the cycle.",
+     [
+      "Lamb and Calabrese give swim periods of 0.3 to 1.0 second and phase lags of 0.044 to 0.1 per segment.",
+      "A lag fixed in milliseconds would put more waves on the body as swimming sped up; a lag fixed as a fraction of the cycle keeps the body form similar."
+     ]
+    ],
+    [
+     "Projection direction biases the lead.",
+     [
+      "Friesen, Poon and Stent found that one of the four oscillatory interneurons projects its axon rearward and the other three frontward.",
+      "Slide 9 describes this directional bias, and the asymmetric influence between neighboring ganglia is what gives anterior segments their phase lead."
+     ]
+    ],
+    [
+     "Lag depends on the whole chain.",
+     [
+      "Isolated ganglia produce only rudimentary, short-lived rhythms, and shortening the cord lengthens the lags, so each segment's timing depends on many others.",
+      "Friesen and Kristan's review identifies weak intersegmental coupling relative to intraganglionic interactions as a requirement from theoretical analysis, consistent with this collective, distributed timing."
+     ]
+    ]
+   ],
+   "refs": [
+    "Lamb, D. G., & Calabrese, R. L. (2011). Neural circuits controlling behavior and autonomic functions in medicinal leeches. Neural Systems & Circuits, 1, 13.",
+    "Friesen, W. O., Poon, M., & Stent, G. S. (1978). Neuronal control of swimming in the medicinal leech. IV. Identification of a network of oscillatory interneurones. Journal of Experimental Biology, 75, 25–43.",
+    "Friesen, W. O., & Kristan, W. B. (2007). Leech locomotion: Swimming, crawling, and decisions. Current Opinion in Neurobiology, 17, 704–711."
+   ],
+   "source_line": "Friesen, W. O., & Kristan, W. B. (2007). Leech locomotion: Swimming, crawling, and decisions. Current Opinion in Neurobiology, 17, 704–711.",
+   "paper_numbers": [
+    "0.044",
+    "0.1",
+    "0.3",
+    "1.0"
+   ]
+  },
+  {
+   "after": 17,
+   "footer_number": "17a",
+   "template_slide": 17,
+   "title": "Stretch feedback entrains the swim rhythm to the moving body",
+   "body": [
+    "Entrainment occurs when a periodic input pulls an oscillator to run at the input's frequency instead of its own. Rhythmic stimulation of the ventral stretch receptors can entrain the leech swim rhythm, so feedback from the bending body can set the pace of the central oscillator over a range of frequencies.",
+    "The anatomy supports direct access. The ventral stretch receptor is electrically coupled to oscillator cell 33 and connects through intervening synapses to cells 28, 115 and 208. Without this feedback, fictive swimming has a longer cycle period and shorter intersegmental lags than swimming in the intact animal.",
+    "Swimming in the intact leech therefore settles at a balance between the cord's intrinsic period and lags and the timing imposed by the body. As water resistance and body movement change, the stretch signals change with them, allowing the rhythm to adapt continually to the fluid dynamics of each stroke."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    9,
+    15,
+    17,
+    18
+   ],
+   "cited_papers_used": [
+    "Blackshaw & Kristan (1990)",
+    "10.1186/2042-1001-1-13"
+   ],
+   "transcript": [
+    "Slides 17 and 18 establish that stretch receptors contact the oscillator and can shift its timing; entrainment and the measured differences between fictive and intact swimming show what this feedback does in the behaving animal.",
+    [
+     "Shifting versus entraining.",
+     [
+      "A single perturbation that shifts the phase of a rhythm reveals a connection to the oscillator.",
+      "Entrainment is a stronger effect: repeated input locks the rhythm to the input's frequency, so the body's mechanics can impose their own timing."
+     ]
+    ],
+    [
+     "Which oscillator cells receive the feedback.",
+     [
+      "Lamb and Calabrese describe the ventral stretch receptor's electrical connection to cell 33 and polysynaptic connections to cells 28, 115 and 208.",
+      "Feedback entering at several phase groups of the ring can adjust timing at more than one point in the cycle."
+     ]
+    ],
+    [
+     "Central and peripheral timing combine.",
+     [
+      "The isolated cord's longer period and shorter lags reveal the oscillator's intrinsic tendencies.",
+      "In the intact animal the observed pattern lies between these intrinsic values and those favored by the body's movement, which is why slide 18 separates what the cord generates from what feedback adds."
+     ]
+    ]
+   ],
+   "refs": [
+    "Blackshaw, S. E., & Kristan, W. B., Jr. (1990). Input from single stretch receptor neurones influences the centrally generated swim motor pattern in the leech. Journal of Physiology, 425, 93–107.",
+    "Lamb, D. G., & Calabrese, R. L. (2011). Neural circuits controlling behavior and autonomic functions in medicinal leeches. Neural Systems & Circuits, 1, 13."
+   ],
+   "source_line": "Blackshaw, S. E., & Kristan, W. B., Jr. (1990). Input from single stretch receptor neurones influences the centrally generated swim motor pattern in the leech. Journal of Physiology, 425, 93–107.",
+   "paper_numbers": [
+    "33",
+    "28",
+    "115"
+   ]
+  },
+  {
+   "after": 22,
+   "footer_number": "22a",
+   "template_slide": 22,
+   "title": "Serotonin turns cell 204 into a lasting source of drive",
+   "body": [
+    "Nusbaum and colleagues traced most of serotonin's effects on cell 204 to two sodium-dependent conductances. One is a hyperpolarization-activated cation conductance, gh, which opens when the cell is hyperpolarized and pulls it back toward depolarization; the other is a persistent sodium conductance that stays open while the cell is depolarized and helps keep it there.",
+    "Together these conductances depolarize the resting cell and enlarge its rebound after inhibition. A cell with stronger rebound and persistent inward current keeps firing after a brief trigger has ended, which is the property a gating neuron needs to turn a short command into a swim episode lasting many cycles.",
+    "The firing rate of cell 204 also sets swimming tempo: Debski and Friesen found that higher cell 204 impulse frequency during an episode accompanied shorter swim cycles, both within episodes and across trials. Serotonin's boost to cell 204 therefore acts on a cell that controls both the start of swimming and its speed."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "mechanism",
+    "foundation",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    20,
+    22,
+    23
+   ],
+   "cited_papers_used": [
+    "10.1007/BF00189399",
+    "10.1152/jn.1986.55.5.977"
+   ],
+   "transcript": [
+    "Slides 20 and 22 describe cell 204's gating role and its modulation by serotonin; the conductances serotonin enhances explain how a brief trigger becomes sustained drive.",
+    [
+     "Two inward currents with different voltage ranges.",
+     [
+      "The hyperpolarization-activated conductance produces a sag back toward rest during hyperpolarizing current pulses, and serotonin induced this sag in cell 204.",
+      "The persistent sodium conductance acts at depolarized potentials, so the two together oppose movement away from an excited state in both directions."
+     ]
+    ],
+    [
+     "Rebound sustains activity after inhibition.",
+     [
+      "Serotonin enlarged postinhibitory rebound responses in cell 204, and both enhanced conductances contribute to that rebound.",
+      "In an oscillating circuit that inhibits and releases its members every cycle, stronger rebound helps the gating cell keep driving the oscillator through each cycle."
+     ]
+    ],
+    [
+     "Gating and tempo.",
+     [
+      "Debski and Friesen report a negative correlation between cell 204 impulse frequency and swim cycle period.",
+      "A gating neuron whose firing rate scales cycle speed links the level of modulation to how vigorously the leech swims."
+     ]
+    ]
+   ],
+   "refs": [
+    "Nusbaum, M. P., Friesen, W. O., Kristan, W. B., Jr., & Pearce, R. A. (1987). Modulation of swimming behavior in the medicinal leech. II. Ionic conductances underlying serotonergic modulation of swim-gating cell 204. Journal of Comparative Physiology A, 161, 355–366.",
+    "Debski, E. A., & Friesen, W. O. (1986). Role of central interneurons in habituation of swimming activity in the medicinal leech. Journal of Neurophysiology, 55, 977–994."
+   ],
+   "source_line": "Nusbaum, M. P., Friesen, W. O., Kristan, W. B., Jr., & Pearce, R. A. (1987). Modulation of swimming behavior in the medicinal leech. II. Ionic conductances underlying serotonergic modulation of swim-gating cell 204. Journal of Comparative Physiology A, 161, 355–366.",
+   "paper_numbers": [
+    "204"
+   ]
+  },
+  {
+   "after": 23,
+   "footer_number": "23a",
+   "template_slide": 23,
+   "title": "Bypassing the sensory path locates where habituation happens",
+   "body": [
+    "Debski and Friesen compared two ways of starting swimming. Stroking the body wall stopped evoking swimming after about 6 trials, yet direct current pulses into cell 204 evoked swimming reliably for an average of 72 trials, so the connection from cell 204 to the oscillator, and the oscillator itself, stayed effective while the behavior habituated.",
+    "Recording along the pathway narrowed the site further. The excitatory response of cell 204 to stroking declined over trials, and so did the firing of the S cell, a large interneuron that responds to touch, whereas the response of oscillator cell 208 varied without tracking habituation.",
+    "Habituation therefore arises at least partly upstream of the gating neurons, in the sensory input and the interneurons that relay it, while the swim-generating machinery stays fully available. Ignoring a repeated harmless touch thus leaves the circuit ready to drive a full swim when a different stimulus arrives."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "method_logic",
+    "integration",
+    "consequence",
+    "mechanism"
+   ],
+   "integrates": [
+    19,
+    20,
+    23
+   ],
+   "cited_papers_used": [
+    "10.1152/jn.1986.55.5.977"
+   ],
+   "transcript": [
+    "Slide 23 reports that habituation of swimming has a central locus; the design of Debski and Friesen's experiment explains how they excluded the downstream stages.",
+    [
+     "Stimulating downstream tests the rest of the pathway.",
+     [
+      "If habituation lay in the link from cell 204 to the oscillator, direct stimulation of cell 204 should have stopped working at about the same time as stroking did.",
+      "It kept working for many more trials, which rules out the downstream stages as the site of the decline."
+     ]
+    ],
+    [
+     "Recording upstream finds the change.",
+     [
+      "The S cell responded to light touch with repeated firing that declined across trials, and intense S cell stimulation could start swimming in some preparations, though only with excitation far beyond that produced by stroking.",
+      "Cell 204's early response to touch also declined, consistent with reduced sensory input reaching the gating neurons."
+     ]
+    ],
+    [
+     "Gating cells set tempo, not habituation.",
+     [
+      "Cell 204's firing early in a trial did not predict the duration of the following swim episode, but its firing during swimming correlated with cycle period.",
+      "The gating neuron is therefore a site where excitation is converted into swimming, while the plastic change lies before it."
+     ]
+    ]
+   ],
+   "refs": [
+    "Debski, E. A., & Friesen, W. O. (1986). Role of central interneurons in habituation of swimming activity in the medicinal leech. Journal of Neurophysiology, 55, 977–994."
+   ],
+   "source_line": "Debski, E. A., & Friesen, W. O. (1986). Role of central interneurons in habituation of swimming activity in the medicinal leech. Journal of Neurophysiology, 55, 977–994.",
+   "paper_numbers": [
+    "72"
+   ]
+  },
+  {
+   "after": 28,
+   "footer_number": "28a",
+   "template_slide": 28,
+   "title": "Crawl steps travel as excitation waves, not locked oscillators",
+   "body": [
+    "In swimming, each segment oscillates and neighboring oscillators are phase-locked, so the lag between segments is a fixed fraction of the cycle. In Cacciatore and colleagues' crawling model, one oscillator starts each step, and the step travels down chains of excitatory neurons from segment to segment, so the delay between segments depends on how fast that excitation propagates.",
+    "The kinematics favored the propagating design. Within a segment, elongation and contraction ran at nearly constant rates whatever the step duration, while coordination between segments changed with step duration, the signature of a wave whose speed can vary.",
+    "Imposed stretch greatly lengthened the transitions between elongation and contraction, revealing a sensory route into the step generator. A design that launches each step separately suits crawling, which must adjust to the substrate step by step, whereas phase-locked segmental oscillators suit the steady undulation of swimming."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "distinction",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    12,
+    14,
+    25,
+    28,
+    29
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.20-04-01643.2000",
+    "10.1186/2042-1001-1-13"
+   ],
+   "transcript": [
+    "Slide 28 states that the crawling model uses a propagating wave of excitation; contrasting it with the swim oscillator explains what each design predicts and why the data favored propagation.",
+    [
+     "Two ways to make a traveling wave.",
+     [
+      "Coupled oscillators produce a wave because each segment oscillates and the coupling sets their relative phase.",
+      "A propagating chain produces a wave because activity started at the front travels backward through excitatory connections, with no need for each segment to oscillate on its own."
+     ]
+    ],
+    [
+     "What the kinematics showed.",
+     [
+      "Cacciatore and colleagues found constant within-segment rates but variable intersegmental coordination across steps of different duration.",
+      "Their simple model, an oscillator launching propagating waves plus a parallel descending projection, reproduced the observed lags, phase coordination and step durations."
+     ]
+    ],
+    [
+     "Crawling is built for flexibility.",
+     [
+      "The authors describe crawling as a behavior whose success depends more on flexibility than on precise coordination.",
+      "Lamb and Calabrese add that crawl unit burst generators project to neighboring ganglia and that rearward projections reach farther and have more influence, consistent with front-to-back propagation."
+     ]
+    ]
+   ],
+   "refs": [
+    "Cacciatore, T. W., Rozenshteyn, R., & Kristan, W. B., Jr. (2000). Kinematics and modeling of leech crawling: Evidence for an oscillatory behavior produced by propagating waves of excitation. Journal of Neuroscience, 20, 1643–1655.",
+    "Lamb, D. G., & Calabrese, R. L. (2011). Neural circuits controlling behavior and autonomic functions in medicinal leeches. Neural Systems & Circuits, 1, 13."
+   ],
+   "source_line": "Cacciatore, T. W., Rozenshteyn, R., & Kristan, W. B., Jr. (2000). Kinematics and modeling of leech crawling: Evidence for an oscillatory behavior produced by propagating waves of excitation. Journal of Neuroscience, 20, 1643–1655."
+  },
+  {
+   "after": 31,
+   "footer_number": "31a",
+   "template_slide": 31,
+   "title": "Voltage-sensitive dyes report inhibition as well as excitation",
+   "body": [
+    "A voltage-sensitive dye sits in the cell membrane and changes its fluorescence as membrane potential changes, so a camera imaging many cells at once records a voltage trace from each. The FRET-based dyes used in leech ganglia pair two molecules whose energy transfer depends on membrane voltage, giving a two-color signal.",
+    "Calcium indicators report the calcium entry that accompanies spiking, whereas a voltage dye follows subthreshold changes in both directions. Marin-Burgin, Kristan and French emphasize that voltage dyes reveal inhibition as well as excitation, which matters in circuits like the swim oscillator, whose timing depends on inhibitory synapses.",
+    "Briggman and Kristan classified each imaged neuron by whether its voltage oscillated at a consistent phase relative to the motor rhythm, and from about 80% of the ganglion's neurons they identified the cells taking part in swimming, crawling or both. Coverage on this scale turned the dedicated-versus-multifunctional question into a count of cells."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "foundation",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    11,
+    31,
+    32,
+    41
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.3265-06.2006",
+    "10.1002/dneu.20551"
+   ],
+   "transcript": [
+    "Slide 31 describes imaging hundreds of neurons with voltage-sensitive dye; how the dye works explains both what it can record and why it suited this question.",
+    [
+     "Fluorescence as a voltmeter.",
+     [
+      "In a FRET pair, energy passes from a donor molecule to an acceptor, and the voltage across the membrane changes how much is transferred.",
+      "Reading the two colors together gives a measure of voltage that is less sensitive to how much dye a cell contains."
+     ]
+    ],
+    [
+     "Seeing inhibition.",
+     [
+      "Inhibitory synaptic potentials hyperpolarize cells without producing spikes, so methods that only detect spiking miss them.",
+      "Marin-Burgin and colleagues used this capability to follow how inhibitory connections appear during development, after early electrical connections."
+     ]
+    ],
+    [
+     "From traces to classification.",
+     [
+      "Briggman and Kristan's abstract reports recording from approximately 80% of the roughly 400 neurons in a ganglion.",
+      "Cells whose voltage oscillated in phase with crawling numbered 188 and with swimming 90, and these counts are what slide 32 compares."
+     ]
+    ]
+   ],
+   "refs": [
+    "Briggman, K. L., & Kristan, W. B., Jr. (2006). Imaging dedicated and multifunctional neural circuits generating distinct behaviors. Journal of Neuroscience, 26, 10925–10933.",
+    "Marin-Burgin, A., Kristan, W. B., Jr., & French, K. A. (2008). From synapses to behavior: Development of a sensory-motor circuit in the leech. Developmental Neurobiology, 68, 779–787."
+   ],
+   "source_line": "Briggman, K. L., & Kristan, W. B., Jr. (2006). Imaging dedicated and multifunctional neural circuits generating distinct behaviors. Journal of Neuroscience, 26, 10925–10933.",
+   "paper_numbers": [
+    "80"
+   ]
+  },
+  {
+   "after": 35,
+   "footer_number": "35a",
+   "template_slide": 35,
+   "title": "Early discriminators decide; cell 204 carries out the swim",
+   "body": [
+    "Briggman and colleagues measured, for each neuron, the time at which its activity first differed between trials that ended in swimming and trials that ended in crawling. A small set of neurons with covarying activity discriminated the outcome on average 290 milliseconds earlier than the neurons that diverged later.",
+    "Cell 204 was among the late discriminators. A swim-gating neuron that diverges only after the early group behaves as the executor of a choice already taking shape upstream, consistent with its role in sustaining swimming once swimming is chosen.",
+    "Cell 208 was among the early discriminators and changes sides with the outcome: it appears to push toward crawling during the decision, then joins the crawling network if crawling wins or the swimming network if swimming wins. One identified cell thus takes part in choosing a behavior and then in producing whichever behavior is chosen."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "integration",
+    "mechanism",
+    "consequence",
+    "distinction"
+   ],
+   "integrates": [
+    20,
+    33,
+    35,
+    36
+   ],
+   "cited_papers_used": [
+    "10.1126/science.1103736",
+    "10.1186/2042-1001-1-13"
+   ],
+   "transcript": [
+    "Slide 35 describes the swim-or-crawl decision experiment; ordering neurons by when they discriminate the outcome separates cells that make the choice from cells that carry it out.",
+    [
+     "Discrimination time as a measure.",
+     [
+      "For each neuron, the discrimination time is the earliest point after the stimulus at which its activity reliably differs between the two outcomes.",
+      "Lamb and Calabrese summarize the early group as discriminating 290 milliseconds, on average, before any later, individually discriminating neurons."
+     ]
+    ],
+    [
+     "Command versus decision.",
+     [
+      "Cell 204's late discrimination fits the description of a command neuron that implements a decision made by the earlier group.",
+      "Slide 20 describes cell 204 as sustaining swimming once triggered, the role expected of an executor."
+     ]
+    ],
+    [
+     "A cell that changes networks.",
+     [
+      "Originally identified as a swim oscillator member, cell 208 was later found to oscillate with both behaviors.",
+      "Hyperpolarizing it biased preparations toward swimming and depolarizing it toward crawling, the bidirectional test on slide 33 that confirmed its role in the choice."
+     ]
+    ]
+   ],
+   "refs": [
+    "Briggman, K. L., Abarbanel, H. D. I., & Kristan, W. B., Jr. (2005). Optical imaging of neuronal populations during decision-making. Science, 307, 896–901.",
+    "Lamb, D. G., & Calabrese, R. L. (2011). Neural circuits controlling behavior and autonomic functions in medicinal leeches. Neural Systems & Circuits, 1, 13."
+   ],
+   "source_line": "Briggman, K. L., Abarbanel, H. D. I., & Kristan, W. B., Jr. (2005). Optical imaging of neuronal populations during decision-making. Science, 307, 896–901.",
+   "paper_numbers": [
+    "290"
+   ]
+  },
+  {
+   "after": 36,
+   "footer_number": "36a",
+   "template_slide": 36,
+   "title": "Combining neurons reveals a decision no single cell shows",
+   "body": [
+    "Principal component analysis finds the few combinations of neurons whose activities vary together most strongly across trials, compressing many cells into a small number of composite signals. Linear discriminant analysis then finds the weighted combination of those signals that best separates trials ending in swimming from trials ending in crawling.",
+    "Each neuron alone is a noisy indicator: small differences between swim and crawl trials are buried in trial-to-trial variability. Weighting and adding many cells averages away independent noise while the shared signal accumulates, so a population can separate the outcomes earlier than any of its members.",
+    "The weights also rank cells by how much decision information they carry, and this ranking pointed the authors to cell 208 for direct testing. The analysis converted imaging data into a specific cellular hypothesis, which current injection into cell 208 then confirmed by biasing the choice."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "foundation",
+    "method_logic",
+    "mechanism",
+    "integration"
+   ],
+   "integrates": [
+    33,
+    35,
+    36,
+    37
+   ],
+   "cited_papers_used": [
+    "10.1126/science.1103736"
+   ],
+   "transcript": [
+    "Slide 36 names principal component and linear discriminant analysis; what each method does explains why the population could predict the choice earlier than any single neuron.",
+    [
+     "Compressing the population.",
+     [
+      "Activity in a ganglion is highly correlated, so many neurons rise and fall together.",
+      "Principal component analysis replaces those correlated cells with a few independent composite dimensions that keep most of the variation."
+     ]
+    ],
+    [
+     "Separating the outcomes.",
+     [
+      "Linear discriminant analysis searches for the direction in that reduced space along which swim trials and crawl trials lie farthest apart relative to their spread.",
+      "Slide 37 adds that reliable prediction required combining six or more neurons, which is what the weighted combination supplies."
+     ]
+    ],
+    [
+     "From statistics to a testable cell.",
+     [
+      "The abstract states that the analysis highlighted cell 208.",
+      "Manipulating that one cell then tested causally what the population analysis had only predicted."
+     ]
+    ]
+   ],
+   "refs": [
+    "Briggman, K. L., Abarbanel, H. D. I., & Kristan, W. B., Jr. (2005). Optical imaging of neuronal populations during decision-making. Science, 307, 896–901."
+   ]
+  },
+  {
+   "after": 38,
+   "footer_number": "38a",
+   "template_slide": 38,
+   "title": "A fluid-filled body turns muscle tension into shape changes",
+   "body": [
+    "The leech body is a hydrostatic skeleton: a fluid-filled cavity enclosed by muscle, whose volume stays nearly constant. Contracting circular muscles squeezes a segment narrower, and since its volume cannot shrink, the segment lengthens; contracting longitudinal muscles shortens a segment, which therefore widens.",
+    "This one principle connects both modes of locomotion. Crawling alternates circular and longitudinal contraction to elongate and shorten segments in sequence, while swimming alternates dorsal and ventral longitudinal muscles to bend the body, and both require the body wall to hold pressure so that muscle forces are transmitted rather than absorbed.",
+    "Flatteners follow the same logic: contracting dorsoventral muscles in a constant-volume body widens it into the ribbon that pushes water. A shared hydraulic body helps explain why the same motor neurons and muscles can serve two locomotor patterns, with the difference lying in the order in which muscle groups are activated."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    25,
+    27,
+    32,
+    38
+   ],
+   "cited_papers_used": [
+    "10.1186/2042-1001-1-13",
+    "10.1016/j.conb.2008.01.006"
+   ],
+   "transcript": [
+    "Slides 25, 27 and 38 refer to circular and longitudinal muscles, elongation and contraction, and hydrostatic pressure; the hydrostatic skeleton is the principle that links them.",
+    [
+     "Constant volume converts one dimension into another.",
+     [
+      "Fluid is nearly incompressible, so any decrease in a segment's diameter must be matched by an increase in its length, and the reverse.",
+      "Muscles that can only pull therefore produce both elongation and shortening, depending on which set contracts."
+     ]
+    ],
+    [
+     "Crawling and swimming use the same body differently.",
+     [
+      "Lamb and Calabrese describe crawling as a front-to-rear wave of circular contraction followed by a wave of longitudinal contraction, with the two muscle sets contracting in antiphase within each segment.",
+      "Swimming instead pairs the dorsal and ventral longitudinal muscles in antiphase, bending rather than lengthening the segment."
+     ]
+    ],
+    [
+     "Shared hardware, different sequences.",
+     [
+      "Slide 32 reports that most swim-phased neurons also oscillate with crawling.",
+      "A body in which the same muscles produce different movements depending on their timing is well matched to a nervous system that reuses the same neurons in different temporal patterns."
+     ]
+    ]
+   ],
+   "refs": [
+    "Lamb, D. G., & Calabrese, R. L. (2011). Neural circuits controlling behavior and autonomic functions in medicinal leeches. Neural Systems & Circuits, 1, 13.",
+    "Friesen, W. O., & Kristan, W. B. (2007). Leech locomotion: Swimming, crawling, and decisions. Current Opinion in Neurobiology, 17, 704–711."
+   ],
+   "source_line": "Friesen, W. O., & Kristan, W. B. (2007). Leech locomotion: Swimming, crawling, and decisions. Current Opinion in Neurobiology, 17, 704–711."
+  },
+  {
+   "after": 40,
+   "footer_number": "40a",
+   "template_slide": 40,
+   "title": "Inhibition that grows with input changes the circuit's gain",
+   "body": [
+    "Gain is how much a circuit's output changes for a given change in input. Baca and colleagues studied it in the local bending circuit, which bends the body away from a touch, and compared blocking only the known lateral inhibition with blocking all GABAergic inhibition.",
+    "Blocking all GABA receptors uncovered an additional inhibition that was widespread and increased in proportion to stimulus intensity. In a model of the three-layered local bending network, inhibiting every interneuron in proportion to stimulus strength reproduced the observed change in gain.",
+    "Inhibition that scales with excitation acts like a divisor: stronger stimuli recruit more excitation and proportionally more inhibition, so output grows more gently with input. A compressed input-output relation keeps responses graded over a wide range of touch intensities instead of saturating at moderate stimuli."
+   ],
+   "figure": null,
+   "cite": null,
+   "moves": [
+    "foundation",
+    "method_logic",
+    "mechanism",
+    "consequence"
+   ],
+   "integrates": [
+    11,
+    31,
+    40
+   ],
+   "cited_papers_used": [
+    "10.1016/j.neuron.2007.11.028"
+   ],
+   "transcript": [
+    "Slide 40 reports widespread inhibition proportional to excitation; the comparison of two pharmacological blocks and the meaning of gain explain how that conclusion was reached and why it matters.",
+    [
+     "Gain as a slope.",
+     [
+      "Plotting behavioral output against stimulus strength gives a curve, and gain is how steeply that curve rises.",
+      "Lowering gain allows a circuit to respond differently to weak and strong stimuli across a broader range before reaching its maximum."
+     ]
+    ],
+    [
+     "Two blocks isolate a hidden inhibition.",
+     [
+      "Blocking only the lateral inhibition already known in the circuit left part of the inhibition intact.",
+      "Blocking all GABAergic inhibition revealed the remainder, which scaled with stimulus intensity rather than acting at a fixed strength."
+     ]
+    ],
+    [
+     "Imaging and modeling together.",
+     [
+      "Baca and colleagues combined behavioral analysis, intracellular recordings and voltage-sensitive dye imaging, the same population imaging approach described on slide 31.",
+      "Their model showed that proportional inhibition of all interneurons is sufficient to produce the observed gain change, without invoking more specialized mechanisms."
+     ]
+    ]
+   ],
+   "refs": [
+    "Baca, S. M., Marin-Burgin, A., Wagenaar, D. A., & Kristan, W. B., Jr. (2008). Widespread inhibition proportional to excitation controls the gain of a leech behavioral circuit. Neuron, 57, 276–289."
+   ],
+   "source_line": "Baca, S. M., Marin-Burgin, A., Wagenaar, D. A., & Kristan, W. B., Jr. (2008). Widespread inhibition proportional to excitation controls the gain of a leech behavioral circuit. Neuron, 57, 276–289."
+  }
+ ]
+}

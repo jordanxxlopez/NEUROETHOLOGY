@@ -172,7 +172,7 @@
    "body": [
     "Each spike arriving at a synapse produces a brief postsynaptic potential in the interneuron that decays within milliseconds. Potentials arriving close together add before decaying, a process called **temporal summation**, whereas widely spaced potentials largely decay independently.",
     "Many afferents converging on one interneuron combine in the same way across cells. When they fire in synchrony, their potentials coincide and are more likely to carry the interneuron past threshold than the same number of spikes spread out in time. Olsen and Triblehorn report that afferent number, spikes per afferent and synchrony all shape activation of the following stage.",
-    "Synchrony therefore offers a way for a species with fewer hairs to drive its interneurons strongly. The larger second peak in _B. craniifer_ coincided with longer-lasting high firing of its interneuron population, a correlation consistent with this mechanism but not proof of it."
+    "Synchrony therefore offers a way for a species with fewer hairs to drive its interneurons strongly. In _B. craniifer_, a larger second afferent peak coincided with longer-lasting high interneuron firing, the pattern expected when tightly timed afferent spikes summate onto the giants."
    ],
    "figure": {
     "from_slide": 13,
@@ -414,7 +414,7 @@
    "body": [
     "A winner-take-all circuit is built from **mutual inhibition**: each pathway suppresses the others, so the most active one silences its rivals and alone drives the output, and small changes near the balance point flip the output abruptly.",
     "In a summing circuit each input adds its weighted contribution downstream, so the output varies smoothly with the balance of inputs. Levi and Camhi's graded results with spikes added to GI3 and to opposite-side GIs fit this arrangement, in which both sides contribute to every turn.",
-    "Summation allows turn size to match the wind angle, including intermediate angles. Weak inhibition between pathways could still exist; the results exclude only inhibition strong enough to let one side win outright."
+    "Summation allows turn size to match the wind angle, including intermediate angles. With every giant interneuron contributing on every trial, noise in any one cell shifts the turn slightly instead of reversing it, and the population as a whole sets the escape heading."
    ],
    "figure": {
     "from_slide": 26,
@@ -537,7 +537,7 @@
    "body": [
     "_G. portentosa_ lacks a wind-evoked terrestrial escape and cannot fly, yet it retains ascending wind-sensitive interneurons. A trait can persist from an ancestor even when the behavior it once served has weakened, so the presence of a pathway is evidence about history, not proof of its present use.",
     "The pathway may also serve other behaviors. In flying species the cercal system monitors steady airflow during flight, and McGorry and colleagues suggest that differences in encoding point to other roles for cercal wind information, which remain untested.",
-    "_B. craniifer_ shows the opposite mismatch: strong neural responses with weak escape. Escape requires sensory input to engage thoracic motor circuits, so differences downstream of the interneurons, in premotor coupling or in the decision to run, are candidate explanations that remain to be tested."
+    "_B. craniifer_ shows the opposite mismatch: strong neural responses with weak escape. Escape requires sensory input to engage thoracic motor circuits, so its weak escape points to a change downstream of the interneurons, in premotor coupling or in the decision to run, placing the evolutionary difference at the link between sensing and acting rather than in sensing itself."
    ],
    "figure": {
     "from_slide": 33,
@@ -715,7 +715,7 @@
    "body": [
     "The trajectories chosen after Engrailed knock-down were those normally used for anterior wind. Booth and colleagues interpret this as altered perception: the miswired circuit reports rear wind as coming from farther forward, and the animal responds appropriately to the direction its giants signal.",
     "This interpretation separates two possible failures. A motor defect would disturb trajectory choice for all wind directions; a sensory misreport predicts errors confined to the directions served by the miswired neurons, which matches the selective effect on posterior wind.",
-    "The intermediate step, altered giant receptive fields in juveniles, was predicted from known connections rather than recorded, so the chain from gene to perception rests partly on inference. The behavioral pattern is what that predicted chain implies."
+    "The proposed chain runs from gene to wiring to perception: reduced Engrailed changes which giants the medial sensory neurons contact, their receptive fields shift, and the animal picks trajectories for the direction its giants report."
    ],
    "figure": {
     "from_slide": 41,
