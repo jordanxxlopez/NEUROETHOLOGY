@@ -1,14 +1,13 @@
-# Lecture 72 status
+# Lecture 72 completed
 
-Paused for the one required PDF listed in PAPERS.md. No PPTX or hosted preview has been built.
+Built with the current repository tools and teaching-first rules, using the connected default branch and the uploaded Brainoware paper. The exact registered title and Date TBD are preserved.
 
-- Refreshed from the connected repository current default branch, commit 4bbfe33174a13aafd88216aceea93edd65fcdb2c. No ZIP or older checkout.
-- Registered the exact instructor title and Date TBD, matching other special topics.
-- Saved a provisional 44-content-slide allocation. Figures, scientific claims, paragraphs, and transcripts still require full review.
-- Obtained and validated six published PDFs: Shahaf and Marom 2001, Kagan et al. 2022, Watmuff et al. 2025, Khajehnejad et al. 2025, Playing Brains 2023, and the cybernetic framework perspective 2026. Copies are retained in ignored papers/; hashes and access outcomes are recorded.
-- The 2026 perspective mentions Doom but cites the 2022 Pong paper for that statement. No primary Doom protocol or performance dataset was located in this search. Do not report Doom learning numbers or treat that perspective as experimental evidence.
-- Current teaching-first, selective-caveat, and original-image requirements are retained in PROMPT.md. Exact title preservation overrides the em-dash ban only for the supplied course title.
-- Python PPTX/PDF dependencies, LibreOffice, and Poppler are available in the prepared environment.
-- Theme selection and used-theme registration await the final deck.
+- 46 slides: title, 44 content slides, and six bold-lead key takeaways.
+- 41 content slides with original article images, including 39 primary-study slides and two clearly identified perspective figures; 31 image slides use original published color.
+- Three teaching paragraphs per content slide; full references and teaching transcripts in speaker notes.
+- Arial, new slate-indigo/paper-white theme recorded as used.
+- Repository checker: zero failures and zero warnings. All native and browser slides visually reviewed; no text overflow detected.
+- Seven verified published sources. Ethics and perspective material are identified by evidence type. No primary Doom performance dataset is claimed.
+- No figures, graphs or illustrations were created. Published author schematics retain their original form and attribution.
 
-After the PDF arrives, verify its published version and figures, finalize the sources and all 44 content slides, crop panels with the repository tools, write teaching transcripts and full references, build with tools/build_lecture.py, run the checker, inspect all rendered slides, and provide a downloadable PPTX and Presenton browser preview.
+See REFERENCES.md, SOURCE_NOTES.md, figure_sources.json and qa.json for provenance and validation. The native PPTX is included here. Hosted delivery links are recorded in delivery.json when export finishes.

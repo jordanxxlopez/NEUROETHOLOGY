@@ -1,5 +1,5 @@
 {
-  "default_commit": "4bbfe33174a13aafd88216aceea93edd65fcdb2c",
+  "default_commit": "212ba2e7c5a02c55e81cfebaaac3c06820196885",
   "available_pdfs": [
     {
       "key": "shahaf",
@@ -42,6 +42,14 @@
       "pages": 8,
       "sha256": "74959df5ba713b780ca0ec6078208d4eefe7baa89dc5e8b594fc86d7da0b6297",
       "path": "papers/framework.pdf"
+    },
+    {
+      "key": "brainoware",
+      "doi": "10.1038/s41928-023-01069-w",
+      "pages": 11,
+      "sha256": "8e5de4d51eb9917500f77d87cbe7790859987a504d3cbcbf45a09587cb430d4d",
+      "path": "papers/brainoware.pdf",
+      "origin": "instructor upload file_000000006bb481fd9fa861e60f82f66e"
     }
   ],
   "access_attempts": [
@@ -108,16 +116,5 @@
       "is_pdf": true
     }
   ],
-  "missing": {
-    "brainoware": {
-      "authors": "Cai H, Ao Z, Tian C, Wu Z, Liu H, Tchieu J, Gu M, Mackie K, Guo F",
-      "year": 2023,
-      "title": "Brain organoid reservoir computing for artificial intelligence",
-      "journal": "Nature Electronics",
-      "volume": 6,
-      "issue": 12,
-      "pages": "1032\u20131039",
-      "doi": "10.1038/s41928-023-01069-w"
-    }
-  }
+  "source_status": "All seven selected published PDFs available"
 }

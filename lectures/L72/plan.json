@@ -2,404 +2,714 @@
   "lecture": 72,
   "title": "Biocomputing II: From Pong to Doom — sensory encoding, feedback, adaptive behavior, and neuroethical questions of sentience and welfare",
   "date": "Date TBD",
-  "status": "Awaiting one published PDF; not a final lecture spec",
+  "status": "Final: built and checked, 44 content slides",
   "content_slides": 44,
   "slides": [
     {
       "slide": 2,
-      "provisional_title": "Activity-contingent stimulation changes network responses",
-      "source": "shahaf",
-      "source_doi": "10.1523/JNEUROSCI.21-22-08782.2001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Contingent stimulation trains a neural response",
+      "sources": [
+        "Shahaf G; Marom S (2001). Learning in networks of cortical neurons. Journal of Neuroscience 21(22):8782–8788. https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/s6.png",
+          "caption": "Shahaf & Marom (2001), Fig. 6. Response acquisition with and without contingent stimulus removal.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+        }
+      ]
     },
     {
       "slide": 3,
-      "provisional_title": "Electrical pulses recruit cortical network responses",
-      "source": "shahaf",
-      "source_doi": "10.1523/JNEUROSCI.21-22-08782.2001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Interconnected neurons support conditioning",
+      "sources": [
+        "Shahaf G; Marom S (2001). Learning in networks of cortical neurons. Journal of Neuroscience 21(22):8782–8788. https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/s1a.png",
+          "caption": "Shahaf & Marom (2001), Fig. 1A. Cortical neurons growing across recording electrodes.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+        }
+      ]
     },
     {
       "slide": 4,
-      "provisional_title": "Response timing defines a conditioning target",
-      "source": "shahaf",
-      "source_doi": "10.1523/JNEUROSCI.21-22-08782.2001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "A pulse evokes immediate and delayed activity",
+      "sources": [
+        "Shahaf G; Marom S (2001). Learning in networks of cortical neurons. Journal of Neuroscience 21(22):8782–8788. https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/s1de.png",
+          "caption": "Shahaf & Marom (2001), Fig. 1D–E. Evoked traces and the post-stimulus response distribution.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+        }
+      ]
     },
     {
       "slide": 5,
-      "provisional_title": "Stopping stimulation makes feedback contingent",
-      "source": "shahaf",
-      "source_doi": "10.1523/JNEUROSCI.21-22-08782.2001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "The target is activity within a defined time window",
+      "sources": [
+        "Shahaf G; Marom S (2001). Learning in networks of cortical neurons. Journal of Neuroscience 21(22):8782–8788. https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/s2.png",
+          "caption": "Shahaf & Marom (2001), Fig. 2. Responses before and after conditioning.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+        }
+      ]
     },
     {
       "slide": 6,
-      "provisional_title": "Repeated cycles shorten acquisition of a target response",
-      "source": "shahaf",
-      "source_doi": "10.1523/JNEUROSCI.21-22-08782.2001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Training shortens acquisition time",
+      "sources": [
+        "Shahaf G; Marom S (2001). Learning in networks of cortical neurons. Journal of Neuroscience 21(22):8782–8788. https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/s3.png",
+          "caption": "Shahaf & Marom (2001), Fig. 3A–B. Learning curves and response-independent controls.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.21-22-08782.2001"
+        }
+      ]
     },
     {
       "slide": 7,
-      "provisional_title": "Pong couples neural activity to environmental feedback",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "A feedback loop makes action change subsequent input",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p6a.png",
+          "caption": "Kagan et al. (2022), Fig. 6A. Outcome-dependent stimulation during gameplay.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 8,
-      "provisional_title": "Cultured neurons form an electrically active preparation",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Human neurons supply the biological controller",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p2b.png",
+          "caption": "Kagan et al. (2022), Fig. 2B. Immunostained human cortical neurons and their processes.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 9,
-      "provisional_title": "Electrode arrays connect a network to a game",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Place coding represents the ball's vertical position",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p4d.png",
+          "caption": "Kagan et al. (2022), Fig. 4D. Sensory and motor electrode assignments.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 10,
-      "provisional_title": "Ball location becomes patterned electrical input",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Rate coding represents ball approach",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p4e.png",
+          "caption": "Kagan et al. (2022), Fig. 4E. Performance across progressively richer input encodings.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 11,
-      "provisional_title": "Input timing encodes distance from the paddle",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Motor-zone activity becomes paddle displacement",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p4d.png",
+          "caption": "Kagan et al. (2022), Fig. 4D. Assigned sensory and opposing motor electrode regions.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 12,
-      "provisional_title": "Motor-zone activity controls paddle movement",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Rally length measures sustained successful control",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p5bcd.png",
+          "caption": "Kagan et al. (2022), Fig. 5B–D. Rally length, missed first returns, and long rallies.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 13,
-      "provisional_title": "Successful rallies define task performance",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Controls distinguish adaptation from movement",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p5f.png",
+          "caption": "Kagan et al. (2022), Fig. 5F. Distribution of return counts across gameplay time.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 14,
-      "provisional_title": "Human and mouse cultures adapt during gameplay",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Hits and misses change stimulation",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p6a.png",
+          "caption": "Kagan et al. (2022), Fig. 6A. Outcome-dependent stimulation across three feedback conditions.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 15,
-      "provisional_title": "Feedback contingency changes learning",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Feedback changes the learning outcome",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p6c.png",
+          "caption": "Kagan et al. (2022), Fig. 6C. Changes in rally length under feedback manipulations.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 16,
-      "provisional_title": "Unpredictable stimulation follows missed returns",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Gameplay separates opposing output activity",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p7ef.png",
+          "caption": "Kagan et al. (2022), Fig. 7E–F. Sensory-motor correlation and mutually exclusive output activity.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 17,
-      "provisional_title": "Rest and gameplay produce different network dynamics",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Coordination changes without increased firing",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p7ghi.png",
+          "caption": "Kagan et al. (2022), Fig. 7G–H. Time-dependent correlation between opposing motor regions.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 18,
-      "provisional_title": "Closed-loop action changes subsequent sensory input",
-      "source": "pong",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Feedback changes activity entropy",
+      "sources": [
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/p7j.png",
+          "caption": "Kagan et al. (2022), Fig. 7A–L. Activity entropy before and after feedback.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ]
     },
     {
       "slide": 19,
-      "provisional_title": "Neural differentiation shapes baseline network activity",
-      "source": "drug",
-      "source_doi": "10.1038/s42003-025-08194-6",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "NGN2 creates an excitatory preparation",
+      "sources": [
+        "Watmuff B; Habibollahi F; Desouza C; Khajehnejad M; Loeffler A; Baranes K; Poulin N; Kotter M; Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/d1b.png",
+          "caption": "Watmuff et al. (2025), Fig. 1A–B. Neuronal and synaptic markers in the NGN2 culture.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        }
+      ]
     },
     {
       "slide": 20,
-      "provisional_title": "Hyperactivity changes the operating state of a culture",
-      "source": "drug",
-      "source_doi": "10.1038/s42003-025-08194-6",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Hyperactivity changes the network's operating state",
+      "sources": [
+        "Watmuff B; Habibollahi F; Desouza C; Khajehnejad M; Loeffler A; Baranes K; Poulin N; Kotter M; Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/d1c.png",
+          "caption": "Watmuff et al. (2025), Fig. 1C. Population firing before and after carbamazepine.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        }
+      ]
     },
     {
       "slide": 21,
-      "provisional_title": "Anti-seizure drugs alter spontaneous firing",
-      "source": "drug",
-      "source_doi": "10.1038/s42003-025-08194-6",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Anti-seizure drugs alter firing differently",
+      "sources": [
+        "Watmuff B; Habibollahi F; Desouza C; Khajehnejad M; Loeffler A; Baranes K; Poulin N; Kotter M; Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/d2a.png",
+          "caption": "Watmuff et al. (2025), Fig. 2A. Firing-rate distributions at rest and during gameplay.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        }
+      ]
     },
     {
       "slide": 22,
-      "provisional_title": "Sodium-channel blockade changes electrical excitability",
-      "source": "drug",
-      "source_doi": "10.1038/s42003-025-08194-6",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Sodium-channel blockade changes spike generation",
+      "sources": [
+        "Watmuff B; Habibollahi F; Desouza C; Khajehnejad M; Loeffler A; Baranes K; Poulin N; Kotter M; Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figures-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/d1de.png",
+          "caption": "Watmuff et al. (2025), Fig. 1D–E. Carbamazepine dose response and treatment firing rates.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        },
+        {
+          "kind": "article",
+          "path": "figures/d1b.png",
+          "caption": "Watmuff et al. (2025), Fig. 1A–B. Differentiation and neuronal tissue markers.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        }
+      ]
     },
     {
       "slide": 23,
-      "provisional_title": "AMPA receptor blockade alters excitatory transmission",
-      "source": "drug",
-      "source_doi": "10.1038/s42003-025-08194-6",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "AMPA blockade alters synaptic recruitment",
+      "sources": [
+        "Watmuff B; Habibollahi F; Desouza C; Khajehnejad M; Loeffler A; Baranes K; Poulin N; Kotter M; Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figures-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/d3ac.png",
+          "caption": "Watmuff et al. (2025), Fig. 3A,C. Rally-length and hit-to-miss distributions.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        },
+        {
+          "kind": "article",
+          "path": "figures/d1b.png",
+          "caption": "Watmuff et al. (2025), Fig. 1A–B. Differentiation and neuronal tissue markers.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        }
+      ]
     },
     {
       "slide": 24,
-      "provisional_title": "Drug dose changes the balance of network activity",
-      "source": "drug",
-      "source_doi": "10.1038/s42003-025-08194-6",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Carbamazepine changes burst structure",
+      "sources": [
+        "Watmuff B; Habibollahi F; Desouza C; Khajehnejad M; Loeffler A; Baranes K; Poulin N; Kotter M; Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/d4ghi.png",
+          "caption": "Watmuff et al. (2025), Fig. 4G–I. Small, medium, and large bursts across carbamazepine doses.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        }
+      ]
     },
     {
       "slide": 25,
-      "provisional_title": "Carbamazepine improves performance in this preparation",
-      "source": "drug",
-      "source_doi": "10.1038/s42003-025-08194-6",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Carbamazepine improves task performance",
+      "sources": [
+        "Watmuff B; Habibollahi F; Desouza C; Khajehnejad M; Loeffler A; Baranes K; Poulin N; Kotter M; Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/d3g.png",
+          "caption": "Watmuff et al. (2025), Fig. 3G. Within-session rally changes under carbamazepine.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        }
+      ]
     },
     {
       "slide": 26,
-      "provisional_title": "Task activity and spontaneous activity respond differently",
-      "source": "drug",
-      "source_doi": "10.1038/s42003-025-08194-6",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Drug effects depend on network state",
+      "sources": [
+        "Watmuff B; Habibollahi F; Desouza C; Khajehnejad M; Loeffler A; Baranes K; Poulin N; Kotter M; Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/d6ab.png",
+          "caption": "Watmuff et al. (2025), Fig. 6A. Population activity embeddings at rest and during gameplay.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        }
+      ]
     },
     {
       "slide": 27,
-      "provisional_title": "Neural activity occupies a changing population state",
-      "source": "efficiency",
-      "source_doi": "10.34133/cbsystems.0336",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Connectivity summarizes coordinated activity",
+      "sources": [
+        "Khajehnejad M; Habibollahi F; Loeffler A; Paul A; Razi A; Kagan BJ (2025). Dynamic Network Plasticity and Sample Efficiency in Biological Neural Cultures: A Comparative Study with Deep Reinforcement Learning. Cyborg and Bionic Systems 6:0336. https://doi.org/10.34133/cbsystems.0336"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/e4ab.png",
+          "caption": "Khajehnejad et al. (2025), Fig. 4A–B. Changes in inferred connectivity during gameplay and rest.",
+          "source_url": "https://doi.org/10.34133/cbsystems.0336"
+        }
+      ]
     },
     {
       "slide": 28,
-      "provisional_title": "Population trajectories differ between rest and gameplay",
-      "source": "efficiency",
-      "source_doi": "10.34133/cbsystems.0336",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Embeddings distinguish early and late gameplay",
+      "sources": [
+        "Khajehnejad M; Habibollahi F; Loeffler A; Paul A; Razi A; Kagan BJ (2025). Dynamic Network Plasticity and Sample Efficiency in Biological Neural Cultures: A Comparative Study with Deep Reinforcement Learning. Cyborg and Bionic Systems 6:0336. https://doi.org/10.34133/cbsystems.0336"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/e3.png",
+          "caption": "Khajehnejad et al. (2025), Fig. 3A–D. Reduced-dimensional representations of gameplay and rest.",
+          "source_url": "https://doi.org/10.34133/cbsystems.0336"
+        }
+      ]
     },
     {
       "slide": 29,
-      "provisional_title": "Functional connectivity describes coordinated activity",
-      "source": "efficiency",
-      "source_doi": "10.34133/cbsystems.0336",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Graphs describe population organization",
+      "sources": [
+        "Khajehnejad M; Habibollahi F; Loeffler A; Paul A; Razi A; Kagan BJ (2025). Dynamic Network Plasticity and Sample Efficiency in Biological Neural Cultures: A Comparative Study with Deep Reinforcement Learning. Cyborg and Bionic Systems 6:0336. https://doi.org/10.34133/cbsystems.0336"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/e2.png",
+          "caption": "Khajehnejad et al. (2025), Fig. 2A–I. Network summary measures during rest and gameplay.",
+          "source_url": "https://doi.org/10.34133/cbsystems.0336"
+        }
+      ]
     },
     {
       "slide": 30,
-      "provisional_title": "Network organization changes during task engagement",
-      "source": "efficiency",
-      "source_doi": "10.34133/cbsystems.0336",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Task-associated links reorganize over time",
+      "sources": [
+        "Khajehnejad M; Habibollahi F; Loeffler A; Paul A; Razi A; Kagan BJ (2025). Dynamic Network Plasticity and Sample Efficiency in Biological Neural Cultures: A Comparative Study with Deep Reinforcement Learning. Cyborg and Bionic Systems 6:0336. https://doi.org/10.34133/cbsystems.0336"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/e4cg.png",
+          "caption": "Khajehnejad et al. (2025), Fig. 4A–G. Network properties across successive recording intervals.",
+          "source_url": "https://doi.org/10.34133/cbsystems.0336"
+        }
+      ]
     },
     {
       "slide": 31,
-      "provisional_title": "Deep reinforcement learning provides a comparison",
-      "source": "efficiency",
-      "source_doi": "10.34133/cbsystems.0336",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Comparisons match limited training experience",
+      "sources": [
+        "Khajehnejad M; Habibollahi F; Loeffler A; Paul A; Razi A; Kagan BJ (2025). Dynamic Network Plasticity and Sample Efficiency in Biological Neural Cultures: A Comparative Study with Deep Reinforcement Learning. Cyborg and Bionic Systems 6:0336. https://doi.org/10.34133/cbsystems.0336"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/e5bcd.png",
+          "caption": "Khajehnejad et al. (2025), Fig. 5B–D. Performance trajectories with image-based algorithm input.",
+          "source_url": "https://doi.org/10.34133/cbsystems.0336"
+        }
+      ]
     },
     {
       "slide": 32,
-      "provisional_title": "Limited experience constrains performance comparisons",
-      "source": "efficiency",
-      "source_doi": "10.34133/cbsystems.0336",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Input representation changes the artificial task",
+      "sources": [
+        "Khajehnejad M; Habibollahi F; Loeffler A; Paul A; Razi A; Kagan BJ (2025). Dynamic Network Plasticity and Sample Efficiency in Biological Neural Cultures: A Comparative Study with Deep Reinforcement Learning. Cyborg and Bionic Systems 6:0336. https://doi.org/10.34133/cbsystems.0336"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/e6a.png",
+          "caption": "Khajehnejad et al. (2025), Fig. 6A. Biological input and numerical paddle-and-ball input.",
+          "source_url": "https://doi.org/10.34133/cbsystems.0336"
+        }
+      ]
     },
     {
       "slide": 33,
-      "provisional_title": "Biological and artificial networks learn differently",
-      "source": "efficiency",
-      "source_doi": "10.34133/cbsystems.0336",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Performance gains persist across input designs",
+      "sources": [
+        "Khajehnejad M; Habibollahi F; Loeffler A; Paul A; Razi A; Kagan BJ (2025). Dynamic Network Plasticity and Sample Efficiency in Biological Neural Cultures: A Comparative Study with Deep Reinforcement Learning. Cyborg and Bionic Systems 6:0336. https://doi.org/10.34133/cbsystems.0336"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/e6bcd.png",
+          "caption": "Khajehnejad et al. (2025), Fig. 6B–D. Performance with numerical paddle-and-ball input.",
+          "source_url": "https://doi.org/10.34133/cbsystems.0336"
+        }
+      ]
     },
     {
       "slide": 34,
-      "provisional_title": "Adaptive behavior depends on the full feedback loop",
-      "source": "efficiency",
-      "source_doi": "10.34133/cbsystems.0336",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Movement and success are different measures",
+      "sources": [
+        "Khajehnejad M; Habibollahi F; Loeffler A; Paul A; Razi A; Kagan BJ (2025). Dynamic Network Plasticity and Sample Efficiency in Biological Neural Cultures: A Comparative Study with Deep Reinforcement Learning. Cyborg and Bionic Systems 6:0336. https://doi.org/10.34133/cbsystems.0336"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/e8ad.png",
+          "caption": "Khajehnejad et al. (2025), Fig. 8A–F. Paddle movement and change in task performance.",
+          "source_url": "https://doi.org/10.34133/cbsystems.0336"
+        }
+      ]
     },
     {
       "slide": 35,
-      "provisional_title": "A reservoir transforms temporally patterned input",
-      "source": "brainoware",
-      "source_doi": "10.1038/s41928-023-01069-w",
-      "pdf_available": false,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "An organoid acts as an adaptive reservoir",
+      "sources": [
+        "Cai H; Ao Z; Tian C; Wu Z; Liu H; Tchieu J; Gu M; Mackie K; Guo F (2023). Brain organoid reservoir computing for artificial intelligence. Nature Electronics 6(12):1032–1039. https://doi.org/10.1038/s41928-023-01069-w"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/b1bc.png",
+          "caption": "Cai et al. (2023), Fig. 1B–C. Organoid-electrode arrangement and neuronal tissue markers.",
+          "source_url": "https://doi.org/10.1038/s41928-023-01069-w"
+        }
+      ]
     },
     {
       "slide": 36,
-      "provisional_title": "Three-dimensional neural tissue supports computation",
-      "source": "brainoware",
-      "source_doi": "10.1038/s41928-023-01069-w",
-      "pdf_available": false,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Pulse parameters produce nonlinear responses",
+      "sources": [
+        "Cai H; Ao Z; Tian C; Wu Z; Liu H; Tchieu J; Gu M; Mackie K; Guo F (2023). Brain organoid reservoir computing for artificial intelligence. Nature Electronics 6(12):1032–1039. https://doi.org/10.1038/s41928-023-01069-w"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/b2bc.png",
+          "caption": "Cai et al. (2023), Fig. 2B–C. Voltage dependence and fading of evoked responses.",
+          "source_url": "https://doi.org/10.1038/s41928-023-01069-w"
+        }
+      ]
     },
     {
       "slide": 37,
-      "provisional_title": "Electrical stimulation encodes a speech task",
-      "source": "brainoware",
-      "source_doi": "10.1038/s41928-023-01069-w",
-      "pdf_available": false,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Fading activity retains a short input history",
+      "sources": [
+        "Cai H; Ao Z; Tian C; Wu Z; Liu H; Tchieu J; Gu M; Mackie K; Guo F (2023). Brain organoid reservoir computing for artificial intelligence. Nature Electronics 6(12):1032–1039. https://doi.org/10.1038/s41928-023-01069-w"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/b2de.png",
+          "caption": "Cai et al. (2023), Fig. 2D–E. Accumulating responses and spatially distinct input patterns.",
+          "source_url": "https://doi.org/10.1038/s41928-023-01069-w"
+        }
+      ]
     },
     {
       "slide": 38,
-      "provisional_title": "A trained readout classifies network responses",
-      "source": "brainoware",
-      "source_doi": "10.1038/s41928-023-01069-w",
-      "pdf_available": false,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Speech classification uses a trained readout",
+      "sources": [
+        "Cai H; Ao Z; Tian C; Wu Z; Liu H; Tchieu J; Gu M; Mackie K; Guo F (2023). Brain organoid reservoir computing for artificial intelligence. Nature Electronics 6(12):1032–1039. https://doi.org/10.1038/s41928-023-01069-w"
+      ],
+      "layout": "figures-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/b3cd.png",
+          "caption": "Cai et al. (2023), Fig. 3C. Speaker classification before and after training.",
+          "source_url": "https://doi.org/10.1038/s41928-023-01069-w"
+        },
+        {
+          "kind": "article",
+          "path": "figures/b3d.png",
+          "caption": "Cai et al. (2023), Fig. 3D. Classification accuracy across training epochs.",
+          "source_url": "https://doi.org/10.1038/s41928-023-01069-w"
+        }
+      ]
     },
     {
       "slide": 39,
-      "provisional_title": "Reservoir dynamics support prediction",
-      "source": "brainoware",
-      "source_doi": "10.1038/s41928-023-01069-w",
-      "pdf_available": false,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Training changes organoid activity relationships",
+      "sources": [
+        "Cai H; Ao Z; Tian C; Wu Z; Liu H; Tchieu J; Gu M; Mackie K; Guo F (2023). Brain organoid reservoir computing for artificial intelligence. Nature Electronics 6(12):1032–1039. https://doi.org/10.1038/s41928-023-01069-w"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/b3ef.png",
+          "caption": "Cai et al. (2023), Fig. 3E. Functional-connectivity changes during repeated speech inputs.",
+          "source_url": "https://doi.org/10.1038/s41928-023-01069-w"
+        }
+      ]
     },
     {
       "slide": 40,
-      "provisional_title": "Readout training differs from embodied task learning",
-      "source": "brainoware",
-      "source_doi": "10.1038/s41928-023-01069-w",
-      "pdf_available": false,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "primary experiment"
+      "title": "Prediction combines tissue and readout",
+      "sources": [
+        "Cai H; Ao Z; Tian C; Wu Z; Liu H; Tchieu J; Gu M; Mackie K; Guo F (2023). Brain organoid reservoir computing for artificial intelligence. Nature Electronics 6(12):1032–1039. https://doi.org/10.1038/s41928-023-01069-w"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/b4de.png",
+          "caption": "Cai et al. (2023), Fig. 4D–E. Prediction improvement and plasticity-blocker comparison.",
+          "source_url": "https://doi.org/10.1038/s41928-023-01069-w"
+        }
+      ]
     },
     {
       "slide": 41,
-      "provisional_title": "Sentience concerns the capacity for subjective experience",
-      "source": "ethics",
-      "source_doi": "10.1007/s11948-023-00457-x",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "ethical analysis"
+      "title": "Sentience requires a definition of experience",
+      "sources": [
+        "Milford SR; Shaw D; Starke G (2023). Playing Brains: The Ethical Challenges Posed by Silicon Sentience and Hybrid Intelligence in DishBrain. Science and Engineering Ethics 29(6):38. https://doi.org/10.1007/s11948-023-00457-x",
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "text",
+      "figures": []
     },
     {
       "slide": 42,
-      "provisional_title": "Welfare assessment requires more than task performance",
-      "source": "ethics",
-      "source_doi": "10.1007/s11948-023-00457-x",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "ethical analysis"
+      "title": "Feedback and experienced valence differ",
+      "sources": [
+        "Milford SR; Shaw D; Starke G (2023). Playing Brains: The Ethical Challenges Posed by Silicon Sentience and Hybrid Intelligence in DishBrain. Science and Engineering Ethics 29(6):38. https://doi.org/10.1007/s11948-023-00457-x",
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "text",
+      "figures": []
     },
     {
       "slide": 43,
-      "provisional_title": "Precaution connects uncertainty to experimental practice",
-      "source": "ethics",
-      "source_doi": "10.1007/s11948-023-00457-x",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "ethical analysis"
+      "title": "Precaution informs choices under uncertainty",
+      "sources": [
+        "Milford SR; Shaw D; Starke G (2023). Playing Brains: The Ethical Challenges Posed by Silicon Sentience and Hybrid Intelligence in DishBrain. Science and Engineering Ethics 29(6):38. https://doi.org/10.1007/s11948-023-00457-x"
+      ],
+      "layout": "text",
+      "figures": []
     },
     {
       "slide": 44,
-      "provisional_title": "Doom is a reported extension of game embodiment",
-      "source": "framework",
-      "source_doi": "10.1038/s44335-026-00077-1",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "perspective, not primary Doom performance data"
+      "title": "Doom is a reported extension of embodiment",
+      "sources": [
+        "Sellar EP; Rouleau N (2026). A cybernetic framework for synthetic biological intelligence in the era of neural tissue engineering. npj Unconventional Computing 3:31. https://doi.org/10.1038/s44335-026-00077-1",
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/f1c.png",
+          "caption": "Sellar & Rouleau (2026), Fig. 1C. Published comparison of virtual and physical embodiments.",
+          "source_url": "https://doi.org/10.1038/s44335-026-00077-1"
+        }
+      ]
     },
     {
       "slide": 45,
-      "provisional_title": "Interface design determines available action and feedback",
-      "source": "framework",
-      "source_doi": "10.1038/s44335-026-00077-1",
-      "pdf_available": true,
-      "verification": "Provisional allocation; full-text claims and exact figure panels require review before final writing.",
-      "evidence_type": "perspective, not primary Doom performance data"
+      "title": "The interface defines sensing and action",
+      "sources": [
+        "Sellar EP; Rouleau N (2026). A cybernetic framework for synthetic biological intelligence in the era of neural tissue engineering. npj Unconventional Computing 3:31. https://doi.org/10.1038/s44335-026-00077-1",
+        "Kagan BJ; Kitchen AC; Tran NT; Habibollahi F; Khajehnejad M; Parker BJ; Bhat A; Rollo B; Razi A; Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110(23):3952–3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001",
+        "Cai H; Ao Z; Tian C; Wu Z; Liu H; Tchieu J; Gu M; Mackie K; Guo F (2023). Brain organoid reservoir computing for artificial intelligence. Nature Electronics 6(12):1032–1039. https://doi.org/10.1038/s41928-023-01069-w"
+      ],
+      "layout": "figure-right",
+      "figures": [
+        {
+          "kind": "article",
+          "path": "figures/f1a.png",
+          "caption": "Sellar & Rouleau (2026), Fig. 1A. Published sensor-controller-actuator feedback loop.",
+          "source_url": "https://doi.org/10.1038/s44335-026-00077-1"
+        }
+      ]
     }
   ]
 }
