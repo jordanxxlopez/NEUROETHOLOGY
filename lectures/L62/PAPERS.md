@@ -1,4 +1,6 @@
-# Lecture 62: required PDF upload
+# Lecture 62: source PDF status
+
+Resolved: the instructor uploaded the original Baratta PDF. Its figures have now been cropped directly for the deck.
 
 1. Baratta, M. V., Zarza, C. M., Gomez, D. M., Campeau, S., Watkins, L. R., & Maier, S. F. (2009). Selective activation of dorsal raphe nucleus-projecting neurons in the ventral medial prefrontal cortex by controllable stress. *European Journal of Neuroscience*, **30**, 1111–1116. https://doi.org/10.1111/j.1460-9568.2009.06867.x
 

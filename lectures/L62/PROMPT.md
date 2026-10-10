@@ -3,7 +3,7 @@ Make Lecture 62 for NEUR 411 Neuroethology (Fall 2026) as a downloadable PPTX.
 Use the refreshed default branch of jordanxxlopez/NEUROETHOLOGY, its AGENTS.md, lecture skill, schedule, themes and tools/build_lecture.py. Never use a ZIP or stale checkout.
 
 Exact instructor title: Animal Behavior in Managed Environments I: Zoos — sensory ecology, neural mechanisms of stress, social behavior, enrichment, and neuroethical considerations of captivity
-Date: Date TBD, pending the special-topic schedule entry. Preserve the title character for character. Its em dash is an explicit instructor-supplied title exception; do not introduce em dashes elsewhere.
+Date: Date TBD, exactly as recorded in the special-topic schedule entry. Preserve the title character for character. Its em dash is an explicit instructor-supplied title exception; do not introduce em dashes elsewhere.
 
 Create 46 slides: title, 44 content slides, Key takeaways with 5–6 bold lead phrases. Arial; a fresh subdued unused palette, recorded only after final delivery. No agenda, objectives, previews or lecture commentary.
 
@@ -16,3 +16,5 @@ If any needed original PDF is inaccessible, save PAPERS.md and request that PDF 
 Keep zoo behavioral/endocrine observations distinct in attribution from experimental cellular mechanisms in laboratory species. Teach neuroethical reasoning using observed welfare findings, with normative judgments explicitly identified as judgments.
 
 Build with repository tools, check every rule, visually inspect all slides, and export through Presenton with a working download and preview.
+
+Exclude all Required Field Experience: Fall Recess material, per the instructor’s latest instruction.

@@ -1,9 +1,7 @@
-# Lecture 62 preparation
+# Lecture 62 completed
 
-Authoritative checkout: refreshed default branch at 2159c81. Working branch: lecture62.
+The supplied Baratta paper is incorporated as a scientific source, with original projection micrographs and activation plots. The exact title and Date TBD are in course/schedule.json. The harbor ink / pearl palette is recorded as used for Lecture 62.
 
-Research underway; no PPTX built or delivered. Waiting for the one required original neural-circuit PDF in PAPERS.md. Source search records and access evidence are saved in research/.
+Native deck: 46 slides; all 44 content slides have primary article images; 41 have source color; zero checker failures and warnings. All native and browser slides were visually reviewed. Title positioning and GPS panel letters were corrected. Required Field Experience: Fall Recess is excluded.
 
-Content progression: sensory ecology and visitor exposure; behavioral and endocrine responses; stress regulation and controllability; social housing and species-specific needs; experimentally evaluated enrichment; evidence-based welfare and neuroethical decisions. Avoid inferring brain lesions or psychiatric diagnoses from zoo stereotypies alone. Additional primary sources must be read and verified before slide writing.
-
-The default schedule does not yet contain Lecture 62. The exact instructor title and Date TBD are recorded in PROMPT.md for adding the entry during the build. The exact title contains an em dash; the explicit title-preservation instruction takes precedence for that one title. No broad relaxation of style checks is authorized.
+Public Presenton PPTX and preview are verified. Links and expiration information are in DELIVERY.md. The native repository build remains available as a permanent backup. Original PDFs are retained locally in papers/ and ignored by Git; cropped figures, the build specification, sources and QA evidence are tracked.
