@@ -30,7 +30,7 @@ for record in sources:
     sar = probe.get('sample_aspect_ratio', '1:1')
     sar = 1 if sar in ('N/A', '0:1') else float(sar.split(':')[0]) / float(sar.split(':')[1])
     ratio = probe['width'] * sar / probe['height']
-    captions = [shape for shape in slide.shapes if shape.has_text_frame and any(shape.text.startswith(x) for x in ['Somppi et al.', 'Quaranta et al.', 'Salonen et al.']) and shape.top < Inches(7)]
+    captions = [shape for shape in slide.shapes if shape.has_text_frame and any(shape.text.startswith(x) for x in ['Somppi et al.', 'Quaranta et al.', 'Salonen et al.', 'Lu et al.', 'Bhatt et al.']) and shape.top < Inches(7)]
     def fit(shape, x, y, w, h):
         r = shape.width / shape.height
         nw, nh = min(w, h*r), min(h, w/r)
@@ -70,8 +70,8 @@ for record in sources:
     paragraph.font.size = Pt(8)
     paragraph.font.color.rgb = RGBColor(0, 0, 0)
     slide.notes_slide.notes_text_frame.text += (
-        '\n\nArticle-provided recording:\n' + record['caption'] + '\n' + record['teaching_context'] +
-        '\nReferences:\n' + record['reference'] + '\nArticle DOI: https://doi.org/' + record['doi'] +
+        '\n\nSource-provided recording:\n' + record['caption'] + '\n' + record['teaching_context'] +
+        '\nReferences:\n' + record['reference'] + ('\nArticle DOI: https://doi.org/' + record['doi'] if record.get('doi') else '\nResearch-film catalogue: ' + record['catalogue_url']) +
         '\nOriginal media URL: ' + record['original_url'] + '\nCredit: ' + record['credit'] +
         '\nLicense: ' + record['license'] + '\nConversion: ' + record['conversion'] +
         '\nClick the separate video during Slide Show for full-screen playback. Its poster is an unedited frame from the recording. Original article figures remain separately visible. PowerPoint GUI playback was unavailable for testing. Google Slides imports may omit embedded media: upload the supplied MP4s to Drive and insert them as Google Slides videos.\n')
