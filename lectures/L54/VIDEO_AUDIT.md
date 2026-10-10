@@ -1,6 +1,6 @@
 # Lecture 54 article-video revision
 
-The user-uploaded 46-slide deck is preserved in baseline commit `06cccc7`. All original slide shape XML, text, figures, positions, fonts and original notes are retained. This revision adds six click-to-play movies and short credits to existing slides, with full references, sources, licenses and context appended to notes. It does not rebuild or rewrite the older lecture.
+The user-uploaded 46-slide deck is preserved in baseline commit `06cccc7`. All original slide text, scientific image pixels and original notes are retained. On the six video slides only, article figures are resized proportionally and repositioned, and their captions moved (two-figure captions use 8.5-point text to fit). Other slides are unchanged. This revision adds six click-to-play movies and separate correctly proportioned video objects, original-video-frame posters and short credits to existing slides, with full references, sources, licenses and context appended to notes. It does not rebuild or rewrite the older lecture.
 
 | Slide | Primary article supplement | Teaching use |
 |---|---|---|
@@ -25,6 +25,9 @@ Sources are the original PLOS supplementary downloads and the Springer Nature pl
 
 ## Reproduction and verification
 
-Run `/workspace/lecture-venv/bin/python lectures/L54/embed_video.py` from the repository with baseline commit and media files available. The script verifies 46 slides, byte-equivalent original shape XML, original notes retained, six actual embedded MP4 payloads, hashes and video relationships. All six media files were completely decoded with FFmpeg. The original article figure is the movie poster and remains intact underneath as a static fallback. Click the figure in PowerPoint Slide Show for full-screen playback. Actual PowerPoint GUI playback was unavailable for testing.
+Run `/workspace/lecture-venv/bin/python lectures/L54/embed_video.py` from the repository with baseline commit and media files available. The script verifies 46 slides, original text and image preservation, byte-equivalent original shapes on the other 40 slides, original notes retained, six actual embedded MP4 payloads, hashes and video relationships. All six media files were completely decoded with FFmpeg. An unedited video frame is the movie poster and a separately visible static fallback. Scientific figures are separate from the movie. Click the video in PowerPoint Slide Show for full-screen playback. Actual PowerPoint GUI playback was unavailable for testing.
 
 This preservation-only edit does not assert that the historical slide prose passes the newer caveat-ending or em-dash rules. A content rewrite would be a separate task.
+
+
+The revised layout preserves each movie's native display aspect ratio, without stretching, cropping or letterboxing added by this edit. Original letterboxing within a publisher video is retained. Google Slides import is not guaranteed to carry embedded movies: `Lecture54_GoogleSlides_Videos.zip` includes all six MP4s and exact placement instructions to insert them from Drive as real video objects. A Drive account/Slides editing connector was not available in this session, so this manual Google Slides insertion remains necessary.
