@@ -1,0 +1,92 @@
+{
+  "lecture": 71,
+  "source_deck": "Biocomputing I.pptx",
+  "source_deck_sha256": "2a9c0b6ae223b847818298de85509f36e865c4ca7b618e610b05428f0f01abf7",
+  "embedded": [
+    {
+      "path": "media/lancaster_video_2.mp4",
+      "poster": "media/lancaster_figure_poster.png",
+      "caption": "Lancaster et al. (2013), Supplementary Video 2. Calcium surges.",
+      "doi": "10.1038/nature12517",
+      "original_media_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature12517/MediaObjects/41586_2013_BFnature12517_MOESM72_ESM.mov",
+      "retrieved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature12517/MediaObjects/41586_2013_BFnature12517_MOESM72_ESM.mov",
+      "credit": "Madeline A. Lancaster, Magdalena Renner, Carol-Anne Martin, Daniel Wenzel, Louise S. Bicknell, Matthew E. Hurles, Tessa Homfray, Josef M. Penninger, Andrew P. Jackson, and Juergen A. Knoblich; original Nature supplementary recording",
+      "license": "Copyright Nature Publishing Group 2013; no separate open license supplied on the article page.",
+      "conversion": "MOV to MP4 remux with original H.264 video stream copied. No frame, speed, or scientific-content edits. No audio stream in the original.",
+      "teaching_note": "The Fluo-4 live recording contains spontaneous calcium surges in individual human cerebral-organoid neurons, with the authors’ original arrows and min:sec time labels. Fluorescence follows intracellular calcium; the accompanying unchanged glutamate and tetrodotoxin results connect calcium activity to excitability. The existing credited Fig. 4(a–f) panel is the click-to-play poster and static fallback.",
+      "slide": 18,
+      "caption_placement": [
+        6.91,
+        6.78,
+        5.8,
+        0.17
+      ],
+      "caption_font_pt": 8.5,
+      "overlay_shape_id": 4,
+      "sha256": "121b08b43805a1ecace5449c9e0552ad20e6d66393bf0542b22aa82c7a6d5921",
+      "original_sha256": "aabbbd84d28e426456e905b4bcc1cfb068c079d264c72a8dcc101547de8c1685",
+      "compatibility_verification": "Original and remuxed compressed H.264 stream SHA256 matches: ac97bde1e13b0d7d1f500291c78dfa6405af76e6cb2d6e3f8dac8adcf840d3a2. All 599 frames retained."
+    },
+    {
+      "path": "media/kagan_video_s1.mp4",
+      "poster": "media/kagan_video_s1_poster.png",
+      "caption": "Kagan et al. (2022), Video S1. Neural control of a Pong paddle.",
+      "doi": "10.1016/j.neuron.2022.09.001",
+      "original_media_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0896627322008066-mmc2.mp4",
+      "retrieved_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9747182.1/mmc2.mp4",
+      "credit": "Brett J. Kagan, Andy C. Kitchen, Nhi T. Tran, Forough Habibollahi, Moein Khajehnejad, Bradyn J. Parker, Anjali Bhat, Ben Rollo, Adeel Razi, and Karl J. Friston; original article Video S1",
+      "license": "CC BY 4.0, as supplied with the article; no separate video restriction stated.",
+      "conversion": "Original MP4, byte-for-byte unchanged.",
+      "teaching_note": "The original representative recording contains a paddle controlled by living neuronal activity. Its motion changes the ball outcome, which determines subsequent electrical feedback. Individual paddle trajectories are observations from this recording, while learning across conditions is assessed by the unchanged published performance figures.",
+      "slide": 28,
+      "caption_placement": [
+        6.91,
+        6.7,
+        5.8,
+        0.2
+      ],
+      "caption_font_pt": 9,
+      "placement": [
+        9.02,
+        5.04,
+        1.58,
+        1.58
+      ],
+      "sha256": "5ffae1c1efc0abe18e981bfa90834efc8e29321c6070c869a4c8415fb3618201",
+      "original_sha256": "5ffae1c1efc0abe18e981bfa90834efc8e29321c6070c869a4c8415fb3618201"
+    },
+    {
+      "path": "media/kagan_video_s2.mp4",
+      "poster": "media/kagan_video_s2_poster.png",
+      "caption": "Kagan et al. (2022), Video S2. SpikeStream activity and Pong control.",
+      "doi": "10.1016/j.neuron.2022.09.001",
+      "original_media_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0896627322008066-mmc3.mp4",
+      "retrieved_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9747182.1/mmc3.mp4",
+      "credit": "Brett J. Kagan and coauthors; original article Video S2, interactive SpikeStream visualizer and system overview",
+      "license": "CC BY 4.0, as supplied with the article; no separate video restriction stated.",
+      "conversion": "H.264 compatibility re-encoding at original resolution, frame rate, frame count, and duration. No scene, speed, overlay, or scientific-content edits. Original recording has no audio stream.",
+      "teaching_note": "The authors’ SpikeStream recording connects spatially distributed electrical activity with the game visualizer. The sensory stimulation and motor decoding assignments join the culture to the simulated task. The complete original system-overview sequence is retained, including the authors’ own descriptions and visual displays.",
+      "slide": 31,
+      "caption_placement": [
+        6.91,
+        6.71,
+        5.8,
+        0.2
+      ],
+      "caption_font_pt": 9,
+      "placement": [
+        8.3,
+        4.95,
+        3.02,
+        1.7
+      ],
+      "sha256": "afaca7b05a21ff60b3546fb15d005105d9f3da672e70c5924b15b1c9d6028e37",
+      "original_sha256": "a68f77f8d0269ac428d4d7cdcb256f3ccc2ff557c7f108c4266f703f0ac13ba5",
+      "compatibility_verification": "Original and delivered video both have 3123 frames, 48 frames/s, 1920×1080 pixels, and 65.062500 s duration."
+    }
+  ],
+  "playback_limitation": "Interactive PowerPoint Slide Show playback unavailable in this environment. Complete media decode and package relationships checked.",
+  "preservation": "Original slide elements, formatting, text, figures, positions, and existing note paragraphs retained. Videos, credits, and source notes appended; slide count unchanged.",
+  "complete_decode_verified": true,
+  "source_authorship_verification": "Nature citation_author metadata and the Kagan publisher-deposited full-text XML."
+}
