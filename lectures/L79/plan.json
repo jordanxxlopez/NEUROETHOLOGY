@@ -1,0 +1,266 @@
+[
+  {
+    "slide": 2,
+    "claim": "Swimming actions control terrestrial displacement",
+    "source": "Givon et al. (2022); Liu et al. (2025)",
+    "figure": "Givon et al. (2022), Fig. 1(A–E). The vehicle, camera detection, arena and command conditions."
+  },
+  {
+    "slide": 3,
+    "claim": "The animal stays in a shallow mobile tank",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 1(A). The goldfish and the instrumented vehicle."
+  },
+  {
+    "slide": 4,
+    "claim": "Omni wheels translate the tank without steering it",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 1(A–E). The vehicle, camera detection, arena and command conditions."
+  },
+  {
+    "slide": 5,
+    "claim": "Computer vision extracts a directional command",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 1(B). Computer-vision extraction of fish contour and orientation."
+  },
+  {
+    "slide": 6,
+    "claim": "Near-wall posture gates vehicle movement",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 1(A–E). The vehicle, camera detection, arena and command conditions."
+  },
+  {
+    "slide": 7,
+    "claim": "Obstacle proximity overrides the fish command",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 1(A–E). The vehicle, camera detection, arena and command conditions."
+  },
+  {
+    "slide": 8,
+    "claim": "Fish position and vehicle position are separate records",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 1(A–C). Vehicle hardware, fish-to-vehicle mapping and arena."
+  },
+  {
+    "slide": 9,
+    "claim": "Vehicle movement builds after a step command",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 2(A–C). Vehicle acceleration and directional calibration."
+  },
+  {
+    "slide": 10,
+    "claim": "Calibration separates motor accuracy from learning",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 2(A–C). Vehicle acceleration and directional calibration."
+  },
+  {
+    "slide": 11,
+    "claim": "The target supplies an external visual destination",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 1(C). The terrestrial arena and rewarded target."
+  },
+  {
+    "slide": 12,
+    "claim": "Covering the tank removes feedback during return",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 1(A–C). Vehicle hardware, fish-to-vehicle mapping and arena."
+  },
+  {
+    "slide": 13,
+    "claim": "Learning replaces wandering with targeted routes",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 3(A–D). Early and late navigation trajectories."
+  },
+  {
+    "slide": 14,
+    "claim": "Changed starting points require new routes",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 5(A–F). Changed starting points, colored decoys and target relocation."
+  },
+  {
+    "slide": 15,
+    "claim": "Decoys and relocation distinguish target cues",
+    "source": "Givon et al. (2022)",
+    "figure": "Givon et al. (2022), Fig. 5(A–F). Changed starting points, colored decoys and target relocation."
+  },
+  {
+    "slide": 16,
+    "claim": "Software rotates the action-to-movement mapping",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 1(B). Fish orientation and vehicle direction under normal and rotated mappings."
+  },
+  {
+    "slide": 17,
+    "claim": "Camera sampling and control updates have different rates",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 1(A–C). Vehicle hardware, fish-to-vehicle mapping and arena."
+  },
+  {
+    "slide": 18,
+    "claim": "Feedback depends on the current steering relationship",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 1(B). Fish orientation and vehicle direction under normal and rotated mappings."
+  },
+  {
+    "slide": 19,
+    "claim": "The five stages separate acquisition and readaptation",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 1(D). The authors’ predicted early and late behavior in the five training stages."
+  },
+  {
+    "slide": 20,
+    "claim": "Success counts completed arrivals rather than precision",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 2. Definitions of success, endpoint angular error and adjusted route length."
+  },
+  {
+    "slide": 21,
+    "claim": "Angular error describes start-to-end direction",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 2. Definitions of success, endpoint angular error and adjusted route length."
+  },
+  {
+    "slide": 22,
+    "claim": "Failed trials receive an adjusted distance estimate",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 2. Definitions of success, endpoint angular error and adjusted route length."
+  },
+  {
+    "slide": 23,
+    "claim": "Baseline training establishes a usable interface",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 3(A–B). Early and late baseline trajectories with the published legend."
+  },
+  {
+    "slide": 24,
+    "claim": "Baseline routes become shorter with experience",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 3(F,J,K). Baseline adjusted distance and fitted performance parameters."
+  },
+  {
+    "slide": 25,
+    "claim": "Arrival and endpoint consistency improve together",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 3(C–E). Baseline target success and fitted performance parameters."
+  },
+  {
+    "slide": 26,
+    "claim": "Early rotation disrupts a previously effective route",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 4(A). Early and late trajectories before, during and after rotation."
+  },
+  {
+    "slide": 27,
+    "claim": "Directional recovery occurs within the rotated mapping",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 4(C). Endpoint angular error across baseline, rotation and washout."
+  },
+  {
+    "slide": 28,
+    "claim": "Adaptation reduces excess movement in an example fish",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 4(D). Adjusted distance across baseline, rotation and washout."
+  },
+  {
+    "slide": 29,
+    "claim": "More trials reach the target during 45° adaptation",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 5(A). Target success during 45° adaptation and washout."
+  },
+  {
+    "slide": 30,
+    "claim": "The 45° condition loses its directional bias",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 5(B). Angular errors during 45° adaptation and washout."
+  },
+  {
+    "slide": 31,
+    "claim": "Late rotated routes approach trained efficiency",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 5(C). Adjusted distances during 45° adaptation and washout."
+  },
+  {
+    "slide": 32,
+    "claim": "Removing rotation exposes an opposite-direction error",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 5(B). Angular errors during 45° adaptation and washout."
+  },
+  {
+    "slide": 33,
+    "claim": "Washout relearns the restored command relationship",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 4(A). Early and late trajectories before, during and after rotation."
+  },
+  {
+    "slide": 34,
+    "claim": "A 90° perturbation produces larger directional errors",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 6(B). Angular errors during 90° adaptation and washout."
+  },
+  {
+    "slide": 35,
+    "claim": "Directional adaptation can coexist with few arrivals",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 6(A). Target success during 90° adaptation and washout."
+  },
+  {
+    "slide": 36,
+    "claim": "The 90° condition retains an efficiency cost",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 6(C). Adjusted distances during 90° adaptation and washout."
+  },
+  {
+    "slide": 37,
+    "claim": "Re-exposure tests the history of a learned perturbation",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 7(A). Early and late trajectories during re-exposure and final washout."
+  },
+  {
+    "slide": 38,
+    "claim": "Second exposure improves the achieved performance",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 7(B). Target success during re-exposure and final washout."
+  },
+  {
+    "slide": 39,
+    "claim": "Re-exposure again corrects endpoint direction",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 7(C). Angular error during re-exposure and final washout."
+  },
+  {
+    "slide": 40,
+    "claim": "Repeated exposure reduces adjusted route length",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 7(D). Adjusted distance during re-exposure and final washout."
+  },
+  {
+    "slide": 41,
+    "claim": "Faster relearning is distinct from better performance",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 8(C–D). Initial angular error, late angular error and initial learning rates."
+  },
+  {
+    "slide": 42,
+    "claim": "Route improvement rate also falls on re-exposure",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 8(E–F). Initial adjusted distance, late distance and initial learning rates."
+  },
+  {
+    "slide": 43,
+    "claim": "Initial and late success answer different questions",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 8(A–B). Initial success, late success and initial learning rates on two exposures."
+  },
+  {
+    "slide": 44,
+    "claim": "The trial endpoint reflects an experimental boundary",
+    "source": "Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 2. Definitions of success, endpoint angular error and adjusted route length."
+  },
+  {
+    "slide": 45,
+    "claim": "Navigation transfer and motor adaptation are separable",
+    "source": "Givon et al. (2022); Liu et al. (2025)",
+    "figure": "Liu et al. (2025), Fig. 1(A–C). Vehicle hardware, fish-to-vehicle mapping and arena."
+  }
+]

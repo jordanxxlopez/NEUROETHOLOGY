@@ -1,0 +1,30 @@
+{
+  "authoritative_default_commit": "cf90984b1afe5d7905aaae6bfa999bb138c9e0e7",
+  "papers": [
+    {
+      "key": "givon",
+      "doi": "10.1016/j.bbr.2021.113711",
+      "url": "https://gwern.net/doc/psychology/neuroscience/2022-givon.pdf",
+      "pages": 8,
+      "sha256": "be5f3b268624d9af8860759c7573cd54a1198f9e1d5d3067055306db84e78c64"
+    },
+    {
+      "key": "liu",
+      "doi": "10.1111/ejn.70241",
+      "url": "https://europepmc.org/articles/PMC12404787?pdf=render",
+      "pages": 15,
+      "sha256": "77ef5de43bf9e13922dc591c5281a7de8497134933076b2b8465e3f4dedf40fd"
+    },
+    {
+      "key": "liu_supp",
+      "doi": "10.1111/ejn.70241",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12404787/supplementaryFiles",
+      "pages": 20,
+      "used_for_figures": false,
+      "sha256": "8abbe445afbafbea6313c8b00dfafd2cd31b804d3717dc7e242c8aed855948af"
+    }
+  ],
+  "verification": "Author lists, publication year, journal, volume, article number and DOI verified against article first pages and Crossref. DOI 10.1101/2021.03.26.437104 was an unrelated initial candidate, rejected and not used.",
+  "comparison": "Lecture 74 was consulted to focus Lecture 79 on control sensing, coordinate frames, performance measures and rotation constraints, rather than repeating pallial navigation physiology.",
+  "neural_scope": "These vehicle studies measure behavior and controller movement. No specific neural circuit or transmitter is asserted. Internal-model explanation is explicitly labeled as the authors\u2019 hypothesis."
+}
