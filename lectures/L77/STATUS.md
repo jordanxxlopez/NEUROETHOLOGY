@@ -1,13 +1,14 @@
 # Lecture 77 status
 
-Paused for six original PDFs listed in PAPERS.md, under the instructor and current repository image-access rule. No final slide specification, deck, generated images or hosted export has been produced.
+Complete: built, checked, visually reviewed and exported as a hosted editable PPTX with a shareable preview.
 
-- Refreshed the connected default branch, commit 5f5efe80f76dad8bd2a3d897c4efbaf54773cc7b. No ZIP or older checkout used.
-- Registered the instructor's exact title, with Date TBD following the default-branch special-topic convention. No Lecture 76 specification is present.
-- Read current AGENTS.md and the lecture skill. Saved the current reusable prompt with teaching-first prose, selective caveats, no em dashes and no created images.
-- Searched primary literature and verified eight complete references against Crossref; checked relevant biomedical records in Europe PMC.
-- Obtained two original readable PDFs, with page counts and hashes recorded. Other publisher and institutional requests returned access pages, denials or unavailable PDF records.
-- Saved a provisional 44-content-slide plan covering imprinting cues, thyroid and forebrain mechanisms, robot attachment, surrogate comfort, olfactory conditioning, maternal regulation, cross-fostering and rearing outcomes. Exact claims and figures require full-paper review before drafting.
-- Existing Python presentation/PDF tools, LibreOffice and Poppler are available; no new setup configuration is required. Theme selection and registration await the completed deck.
+- Current connected default branch cf90984b1afe5d7905aaae6bfa999bb138c9e0e7 safely merged into lecture77.
+- Exact registered title retained, with Date TBD for this supplemental topic.
+- All six requested PDFs received and inspected, plus two publisher PDFs and an original supplement.
+- 46 slides: title, 44 content slides, six exam-level takeaways. All 44 content slides carry primary-paper figures; 24 carry original color imagery. No created images.
+- Three teaching paragraphs per content slide; full teaching transcripts and DOI references in notes. No em dashes or routine caveat endings.
+- Arial, new muted garnet / chalk white palette recorded as used.
+- Repository builder and checker: zero failures and zero warnings. All 46 native and all 46 HTML slides visually reviewed; no out-of-bounds text or HTML overflow.
+- Reusable current prompt saved in PROMPT.md. Original PDF crop provenance and a reproduction script retained.
 
-After the six uploads arrive, inspect each source, crop only original published panels, write the slide paragraphs and teaching transcripts, build with tools/build_lecture.py, run the checker and review all rendered slides, then export a hosted PPTX and preview.
+Delivery links are recorded in delivery.json; the local repository-built PPTX is the persistent copy.
