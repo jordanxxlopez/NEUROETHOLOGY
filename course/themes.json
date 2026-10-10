@@ -3,7 +3,7 @@
     "Every lecture gets its own palette. Never reuse a palette that appears in 'used'.",
     "Never use yellow, orange, gold, mustard or other loud/ugly colors.",
     "One color per lecture: slide titles, bold terms and takeaway lead phrases use a darker shade of the title-slide color; all other text (body, captions, footers) is black #000000. The builder derives heading/tint/rule from title_bg (or the title text when the panel is pale) via tools/theme_colors.py, so palette 'heading', 'text' and 'muted' values are overridden.",
-    "Purple and green have already been used — do not use them again.",
+    "Purple and green have already been used \u2014 do not use them again.",
     "Font is always Arial.",
     "After building a lecture, move its theme key into 'used' with the lecture number."
   ],
@@ -47,7 +47,8 @@
     "49": "rosewood / paper white",
     "53": "blue gray / chalk",
     "55": "stone brown / porcelain",
-    "53_previous": "faded bordeaux / paper white"
+    "53_previous": "faded bordeaux / paper white",
+    "58": "storm blue / chalk"
   },
   "palettes": {
     "midnight-silver": {
@@ -491,6 +492,19 @@
       "tint": "F0F2F4",
       "accent": "4B5966",
       "rule": "CED4DA"
+    },
+    "storm-chalk": {
+      "label": "storm blue / chalk",
+      "title_bg": "546A80",
+      "title_text": "FFFFFF",
+      "title_muted": "DEE6ED",
+      "bg": "FFFFFF",
+      "heading": "364657",
+      "text": "000000",
+      "muted": "000000",
+      "tint": "EFF2F5",
+      "accent": "546A80",
+      "rule": "CAD3DC"
     }
   }
 }

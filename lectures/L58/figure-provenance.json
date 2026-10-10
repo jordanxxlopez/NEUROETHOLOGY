@@ -1,0 +1,934 @@
+[
+  {
+    "image": "figures/title_pair.png",
+    "paper": "papers/kappa.pdf",
+    "page": 5,
+    "normalized_crop_box": [
+      0.518,
+      0.191,
+      0.694,
+      0.309
+    ],
+    "pdf_sha256": "e2e1a93d8d11cc9ca2a885524ce951d2a12570ec0a604d54dc84d0a1bd16cf20",
+    "image_sha256": "e4b02a9319c8b78a04eea4a87f2199671ec013e536fead3e2eb2d220aaff6003",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2012), Fig. 2(C). Affiliative contact between prairie voles.",
+        "doi": "https://doi.org/10.1523/JNEUROSCI.5779-11.2012"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/classic_preference.png",
+    "paper": "papers/classic.pdf",
+    "page": 2,
+    "normalized_crop_box": [
+      0.075,
+      0.079,
+      0.475,
+      0.385
+    ],
+    "pdf_sha256": "b331b515afa642554a4c7ae95b58dd88acdcbe9880c7cd5b8f17072fc06d2423",
+    "image_sha256": "5b78ec7065f68aeb8c75b43595085f6c4f518bc0a47c21842badb704d630eee6",
+    "credits": [
+      {
+        "caption": "Aragona et al. (2006), Fig. 1(a,b). Partner-contact time after shell or core injections.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/classic_anatomy.png",
+    "paper": "papers/classic.pdf",
+    "page": 2,
+    "normalized_crop_box": [
+      0.535,
+      0.604,
+      0.935,
+      0.918
+    ],
+    "pdf_sha256": "b331b515afa642554a4c7ae95b58dd88acdcbe9880c7cd5b8f17072fc06d2423",
+    "image_sha256": "a83074262a75ed80365c823aecc7c83bdabce861d2f783fd4bb0ce89b2133feb",
+    "credits": [
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a\u2013d). Histological locations of accumbens injections.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/classic_receptors.png",
+    "paper": "papers/classic.pdf",
+    "page": 3,
+    "normalized_crop_box": [
+      0.07,
+      0.085,
+      0.48,
+      0.258
+    ],
+    "pdf_sha256": "b331b515afa642554a4c7ae95b58dd88acdcbe9880c7cd5b8f17072fc06d2423",
+    "image_sha256": "06165566540c45ceded03d256462325f8de8d467b5826850809fe5094449f36c",
+    "credits": [
+      {
+        "caption": "Aragona et al. (2006), Fig. 3(a,b). Opposing receptor manipulations during preference formation.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/classic_binding.png",
+    "paper": "papers/classic.pdf",
+    "page": 3,
+    "normalized_crop_box": [
+      0.36,
+      0.625,
+      0.935,
+      0.817
+    ],
+    "pdf_sha256": "b331b515afa642554a4c7ae95b58dd88acdcbe9880c7cd5b8f17072fc06d2423",
+    "image_sha256": "4b8d3243c02dc2ff413457dae675b6e4dcce835b62ca185b42082a35ddf753aa",
+    "credits": [
+      {
+        "caption": "Aragona et al. (2006), Fig. 4(a\u2013c). Receptor autoradiography after two weeks of pairing.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/classic_aggression.png",
+    "paper": "papers/classic.pdf",
+    "page": 4,
+    "normalized_crop_box": [
+      0.5,
+      0.083,
+      0.94,
+      0.219
+    ],
+    "pdf_sha256": "b331b515afa642554a4c7ae95b58dd88acdcbe9880c7cd5b8f17072fc06d2423",
+    "image_sha256": "acf48dcf090be3dff791cdff6fbf1303bb4b4c3b8bd40a00f8499aa669e92509",
+    "credits": [
+      {
+        "caption": "Aragona et al. (2006), Fig. 5(a,b). Aggression and affiliation toward partner and stranger.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 5(a,b). Receptor blockade during a resident-intruder test.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/kappa_photo.png",
+    "paper": "papers/kappa.pdf",
+    "page": 5,
+    "normalized_crop_box": [
+      0.526,
+      0.08,
+      0.92,
+      0.313
+    ],
+    "pdf_sha256": "e2e1a93d8d11cc9ca2a885524ce951d2a12570ec0a604d54dc84d0a1bd16cf20",
+    "image_sha256": "2bc2dc8c31ebb8e2e77ff0ae88c6265aa7ef2850ea4afd0030be7ba8b97b388d",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2012), Fig. 2(A\u2013D). Published photographs of aggression and affiliation.",
+        "doi": "https://doi.org/10.1523/JNEUROSCI.5779-11.2012"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/kappa_sites.png",
+    "paper": "papers/kappa.pdf",
+    "page": 8,
+    "normalized_crop_box": [
+      0.098,
+      0.087,
+      0.615,
+      0.862
+    ],
+    "pdf_sha256": "e2e1a93d8d11cc9ca2a885524ce951d2a12570ec0a604d54dc84d0a1bd16cf20",
+    "image_sha256": "309fca0becea49d6a8b6531f858296c078b806c2a539f585a15a406a964f7de3",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2012), Fig. 6(A\u2013G). Verified positions of shell, core and pallidal injections.",
+        "doi": "https://doi.org/10.1523/JNEUROSCI.5779-11.2012"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/kappa_behavior.png",
+    "paper": "papers/kappa.pdf",
+    "page": 9,
+    "normalized_crop_box": [
+      0.074,
+      0.08,
+      0.63,
+      0.63
+    ],
+    "pdf_sha256": "e2e1a93d8d11cc9ca2a885524ce951d2a12570ec0a604d54dc84d0a1bd16cf20",
+    "image_sha256": "c21ae9939339836e27526a21dfa0e5e3625c8ea9d9d3b5d7d26894dd8a986645",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2012), Fig. 7(A\u2013H). Site-specific kappa blockade and social behavior.",
+        "doi": "https://doi.org/10.1523/JNEUROSCI.5779-11.2012"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/interact_aversion.png",
+    "paper": "papers/interact.pdf",
+    "page": 3,
+    "normalized_crop_box": [
+      0.19,
+      0.078,
+      0.94,
+      0.474
+    ],
+    "pdf_sha256": "87f127adde6d76a0d0e3c92df402024725ccd0e9f29cde5d3c5c4090076f4198",
+    "image_sha256": "465ed148e5829038351eaf50de6d5eb27951b06030522607382ff748ac1f5c41",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2016), Fig. 1(a\u2013e). Social pairing with local KOR activation.",
+        "doi": "https://doi.org/10.7554/eLife.15325"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/interact_genes.png",
+    "paper": "papers/interact.pdf",
+    "page": 5,
+    "normalized_crop_box": [
+      0.078,
+      0.078,
+      0.85,
+      0.647
+    ],
+    "pdf_sha256": "87f127adde6d76a0d0e3c92df402024725ccd0e9f29cde5d3c5c4090076f4198",
+    "image_sha256": "ce8703e0b1dd21e97bc08b210ff350beb375e30b3b34193bc6435e9e032013e4",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2016), Fig. 2(a\u2013d). Regional dopamine and opioid gene expression.",
+        "doi": "https://doi.org/10.7554/eLife.15325"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/interact_binding.png",
+    "paper": "papers/interact.pdf",
+    "page": 7,
+    "normalized_crop_box": [
+      0.295,
+      0.078,
+      0.83,
+      0.448
+    ],
+    "pdf_sha256": "87f127adde6d76a0d0e3c92df402024725ccd0e9f29cde5d3c5c4090076f4198",
+    "image_sha256": "87c78590dff6a140bcd21db9345a4d58027d6e7ea03fd77c8eec0fee8499845e",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2016), Fig. 3(a\u2013d). Original striatal KOR autoradiographs and binding values.",
+        "doi": "https://doi.org/10.7554/eLife.15325"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/interact_dynamics.png",
+    "paper": "papers/interact.pdf",
+    "page": 8,
+    "normalized_crop_box": [
+      0.077,
+      0.078,
+      0.94,
+      0.598
+    ],
+    "pdf_sha256": "87f127adde6d76a0d0e3c92df402024725ccd0e9f29cde5d3c5c4090076f4198",
+    "image_sha256": "465f224f77470c8b97776f0c25c78b9d827bdd9d5ef77d8b727f6248d94b13b1",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2016), Fig. 4(a\u2013i). Original voltammetric maps and striatal release measurements.",
+        "doi": "https://doi.org/10.7554/eLife.15325"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/interact_release.png",
+    "paper": "papers/interact.pdf",
+    "page": 9,
+    "normalized_crop_box": [
+      0.078,
+      0.329,
+      0.852,
+      0.68
+    ],
+    "pdf_sha256": "87f127adde6d76a0d0e3c92df402024725ccd0e9f29cde5d3c5c4090076f4198",
+    "image_sha256": "2d3c7ecb2db258047e433c32d81cd495218b8547c19b0412cf477f4ce0e92fb3",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2016), Fig. 5(a\u2013h). Dopamine release in nonpaired and pair-bonded slices.",
+        "doi": "https://doi.org/10.7554/eLife.15325"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/interact_reproduction.png",
+    "paper": "papers/interact.pdf",
+    "page": 11,
+    "normalized_crop_box": [
+      0.285,
+      0.085,
+      0.634,
+      0.643
+    ],
+    "pdf_sha256": "87f127adde6d76a0d0e3c92df402024725ccd0e9f29cde5d3c5c4090076f4198",
+    "image_sha256": "54999ea36ff6adbd792e61b4e177a54b73e8b56fe007f5c1aa026b8ba148d328",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2016), Fig. 6(a\u2013h). Fecundity, selective aggression and shell dopamine release.",
+        "doi": "https://doi.org/10.7554/eLife.15325"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/interact_feedback.png",
+    "paper": "papers/interact.pdf",
+    "page": 13,
+    "normalized_crop_box": [
+      0.3,
+      0.087,
+      0.849,
+      0.796
+    ],
+    "pdf_sha256": "87f127adde6d76a0d0e3c92df402024725ccd0e9f29cde5d3c5c4090076f4198",
+    "image_sha256": "fcf1fb7a6cf2bbe98c5af888be58c2153596f9268e89aa45e2028542c462caa7",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2016), Fig. 7(a\u2013j). KOR agonist effects on evoked shell dopamine.",
+        "doi": "https://doi.org/10.7554/eLife.15325"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/interact_male.png",
+    "paper": "papers/interact.pdf",
+    "page": 17,
+    "normalized_crop_box": [
+      0.078,
+      0.255,
+      0.485,
+      0.71
+    ],
+    "pdf_sha256": "87f127adde6d76a0d0e3c92df402024725ccd0e9f29cde5d3c5c4090076f4198",
+    "image_sha256": "e236264fdc67e60003d7095fcca1bae5cbfa1a85823b1139c27f85192c256d91",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2016), Fig. 9(b,d,e). Male injection sites, attacks and attack latency.",
+        "doi": "https://doi.org/10.7554/eLife.15325"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/interact_female.png",
+    "paper": "papers/interact.pdf",
+    "page": 17,
+    "normalized_crop_box": [
+      0.493,
+      0.255,
+      0.898,
+      0.71
+    ],
+    "pdf_sha256": "87f127adde6d76a0d0e3c92df402024725ccd0e9f29cde5d3c5c4090076f4198",
+    "image_sha256": "05e426308e58a457377eb9f84bbd9561010d86455ef264a876886115e22d9f56",
+    "credits": [
+      {
+        "caption": "Resendez et al. (2016), Fig. 9(c,f,g). Female injection sites and combined receptor manipulations.",
+        "doi": "https://doi.org/10.7554/eLife.15325"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/vaso_release.png",
+    "paper": "papers/vasopressin.pdf",
+    "page": 2,
+    "normalized_crop_box": [
+      0.183,
+      0.064,
+      0.818,
+      0.54
+    ],
+    "pdf_sha256": "4d09d4d610662d3c33546055e8e4f9931954109fea8f086251e719dcb7b315e2",
+    "image_sha256": "ab4338fb2411c02883e5aecfcd36c10ea7446aebbf66c8d7f354411aab30bcde",
+    "credits": [
+      {
+        "caption": "Gobrogge et al. (2009), Fig. 1(A\u2013H). Microdialysis results and local receptor interventions.",
+        "doi": "https://doi.org/10.1073/pnas.0908620106"
+      },
+      {
+        "caption": "Gobrogge et al. (2009), Fig. 1(G,H). Aggression and affiliation during V1a receptor blockade.",
+        "doi": "https://doi.org/10.1073/pnas.0908620106"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/vaso_binding.png",
+    "paper": "papers/vasopressin.pdf",
+    "page": 3,
+    "normalized_crop_box": [
+      0.07,
+      0.064,
+      0.62,
+      0.35
+    ],
+    "pdf_sha256": "4d09d4d610662d3c33546055e8e4f9931954109fea8f086251e719dcb7b315e2",
+    "image_sha256": "c2a8b5867d592032d9a911c497f83e573a8832755d39622473cf96d2dc360902",
+    "credits": [
+      {
+        "caption": "Gobrogge et al. (2009), Fig. 2(A\u2013D). V1a and oxytocin receptor binding in original brain sections.",
+        "doi": "https://doi.org/10.1073/pnas.0908620106"
+      },
+      {
+        "caption": "Gobrogge et al. (2009), Fig. 2(A\u2013D). Hypothalamic receptor-binding anatomy.",
+        "doi": "https://doi.org/10.1073/pnas.0908620106"
+      },
+      {
+        "caption": "Gobrogge et al. (2009), Fig. 2(A\u2013D). Hypothalamic receptor-binding anatomy.",
+        "doi": "https://doi.org/10.1073/pnas.0908620106"
+      },
+      {
+        "caption": "Gobrogge et al. (2009), Fig. 2(A\u2013D). Region- and receptor-specific changes after pairing.",
+        "doi": "https://doi.org/10.1073/pnas.0908620106"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/vaso_gene.png",
+    "paper": "papers/vasopressin.pdf",
+    "page": 4,
+    "normalized_crop_box": [
+      0.07,
+      0.063,
+      0.68,
+      0.346
+    ],
+    "pdf_sha256": "4d09d4d610662d3c33546055e8e4f9931954109fea8f086251e719dcb7b315e2",
+    "image_sha256": "bd803fd2f6d0a01e7b4e79858f9d5860eb3b16585ac5803da9daa1ca7a7c5582",
+    "credits": [
+      {
+        "caption": "Gobrogge et al. (2009), Fig. 3(A\u2013E). Viral receptor expression, receptor maps and aggression.",
+        "doi": "https://doi.org/10.1073/pnas.0908620106"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/oxy_spontaneous.png",
+    "paper": "papers/oxytocin.pdf",
+    "page": 4,
+    "normalized_crop_box": [
+      0.16,
+      0.12,
+      0.846,
+      0.612
+    ],
+    "pdf_sha256": "41c9327faf144b03f2f96b90e33dc3bedfc97f579cb97043db2858f5c45ad646",
+    "image_sha256": "b92abba6df8ccc36dc06e2ed8e89eeed00e891a9f9d2b224644668860565a19b",
+    "credits": [
+      {
+        "caption": "Borie et al. (2022), Fig. 1(A\u2013G). Whole-cell recordings in virgin and paired female voles.",
+        "doi": "https://doi.org/10.1016/j.cub.2022.01.014"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/oxy_preference.png",
+    "paper": "papers/oxytocin.pdf",
+    "page": 5,
+    "normalized_crop_box": [
+      0.141,
+      0.12,
+      0.846,
+      0.655
+    ],
+    "pdf_sha256": "41c9327faf144b03f2f96b90e33dc3bedfc97f579cb97043db2858f5c45ad646",
+    "image_sha256": "fc7e95fae7d7aa2a0faa6e2358625fb8021005ebcebcbe1e7ad1895c6c59d267",
+    "credits": [
+      {
+        "caption": "Borie et al. (2022), Fig. 2(A\u2013G). Social preference and glutamatergic field responses.",
+        "doi": "https://doi.org/10.1016/j.cub.2022.01.014"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/oxy_genome.png",
+    "paper": "papers/oxytocin.pdf",
+    "page": 6,
+    "normalized_crop_box": [
+      0.155,
+      0.12,
+      0.857,
+      0.587
+    ],
+    "pdf_sha256": "41c9327faf144b03f2f96b90e33dc3bedfc97f579cb97043db2858f5c45ad646",
+    "image_sha256": "359e13f1b7667439b8fa878b6fc131863b224ab7b6984b39ab4a47f72e583d52",
+    "credits": [
+      {
+        "caption": "Borie et al. (2022), Fig. 3(A\u2013I). Paired-pulse physiology and local receptor knockdown.",
+        "doi": "https://doi.org/10.1016/j.cub.2022.01.014"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/oxy_cb1.png",
+    "paper": "papers/oxytocin.pdf",
+    "page": 7,
+    "normalized_crop_box": [
+      0.143,
+      0.12,
+      0.847,
+      0.444
+    ],
+    "pdf_sha256": "41c9327faf144b03f2f96b90e33dc3bedfc97f579cb97043db2858f5c45ad646",
+    "image_sha256": "5771d2375625754a1bf3db8bcfabd72065b9ee31aa54bf77277413263beefc51",
+    "credits": [
+      {
+        "caption": "Borie et al. (2022), Fig. 4(A\u2013G). CB1 antagonism and agonism during field recordings.",
+        "doi": "https://doi.org/10.1016/j.cub.2022.01.014"
+      },
+      {
+        "caption": "Borie et al. (2022), Fig. 4(D\u2013G). Direct CB1 stimulation and comparison with TGOT.",
+        "doi": "https://doi.org/10.1016/j.cub.2022.01.014"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/oxy_behavior.png",
+    "paper": "papers/oxytocin.pdf",
+    "page": 8,
+    "normalized_crop_box": [
+      0.09,
+      0.12,
+      0.63,
+      0.815
+    ],
+    "pdf_sha256": "41c9327faf144b03f2f96b90e33dc3bedfc97f579cb97043db2858f5c45ad646",
+    "image_sha256": "4f4f7ac1b18581c2f154f288ae88e0def987ba34b2d8547a2cbc36de4762765e",
+    "credits": [
+      {
+        "caption": "Borie et al. (2022), Fig. 5(A\u2013G). Partner preference and intruder responses after CB1 blockade.",
+        "doi": "https://doi.org/10.1016/j.cub.2022.01.014"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/dopamine_preference.png",
+    "paper": "papers/dopamine.pdf",
+    "page": 23,
+    "normalized_crop_box": [
+      0.132,
+      0.074,
+      0.965,
+      0.446
+    ],
+    "pdf_sha256": "37e86b049c99e6d8b3ce616775e91ac5caf9757d6735b4fb9fb68ebada849b87",
+    "image_sha256": "a79f8f3e45fe0b2083567664bbef3967336673397ca6540698fdc0b0814900fa",
+    "credits": [
+      {
+        "caption": "Pierce et al. (2024), Fig. 1(A\u2013H). Systemic antagonism during established partner preferences.",
+        "doi": "https://doi.org/10.1016/j.cub.2023.12.041"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/dopamine_work.png",
+    "paper": "papers/dopamine.pdf",
+    "page": 24,
+    "normalized_crop_box": [
+      0.29,
+      0.074,
+      0.805,
+      0.72
+    ],
+    "pdf_sha256": "37e86b049c99e6d8b3ce616775e91ac5caf9757d6735b4fb9fb68ebada849b87",
+    "image_sha256": "a8564fa028b55a458fec08748eeed2d2bdbb66eeb1b52e1242f51e30c75650e0",
+    "credits": [
+      {
+        "caption": "Pierce et al. (2024), Fig. 2(A\u2013N). Lever pressing, barrier climbing and receptor blockade.",
+        "doi": "https://doi.org/10.1016/j.cub.2023.12.041"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/dopamine_sensor.png",
+    "paper": "papers/dopamine.pdf",
+    "page": 26,
+    "normalized_crop_box": [
+      0.26,
+      0.074,
+      0.84,
+      0.72
+    ],
+    "pdf_sha256": "37e86b049c99e6d8b3ce616775e91ac5caf9757d6735b4fb9fb68ebada849b87",
+    "image_sha256": "9dca816b47155ce3721620bece8618c1464aef649c14424b1f6d4b30f1f62eb7",
+    "credits": [
+      {
+        "caption": "Pierce et al. (2024), Fig. 3(A\u2013K). GRABDA sensor placement and social operant recording.",
+        "doi": "https://doi.org/10.1016/j.cub.2023.12.041"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/dopamine_partner.png",
+    "paper": "papers/dopamine.pdf",
+    "page": 28,
+    "normalized_crop_box": [
+      0.245,
+      0.074,
+      0.854,
+      0.72
+    ],
+    "pdf_sha256": "37e86b049c99e6d8b3ce616775e91ac5caf9757d6735b4fb9fb68ebada849b87",
+    "image_sha256": "fd58a6b4a48f30dc3e5c67781c55e9c02a12f7fe9721c688bc471afa5bafef3f",
+    "credits": [
+      {
+        "caption": "Pierce et al. (2024), Fig. 4(A\u2013N). Partner- and novel-directed seeking signals before separation.",
+        "doi": "https://doi.org/10.1016/j.cub.2023.12.041"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/dopamine_social.png",
+    "paper": "papers/dopamine.pdf",
+    "page": 30,
+    "normalized_crop_box": [
+      0.133,
+      0.074,
+      0.965,
+      0.48
+    ],
+    "pdf_sha256": "37e86b049c99e6d8b3ce616775e91ac5caf9757d6735b4fb9fb68ebada849b87",
+    "image_sha256": "4d23cd83e2777ad27eacb4c14d6be79b9801eba5ef293a0e8daca857f48b899d",
+    "credits": [
+      {
+        "caption": "Pierce et al. (2024), Fig. 5(A\u2013M). Social behavior and dopamine before and after separation.",
+        "doi": "https://doi.org/10.1016/j.cub.2023.12.041"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/septum_design.png",
+    "paper": "papers/septum.pdf",
+    "page": 3,
+    "normalized_crop_box": [
+      0.19,
+      0.062,
+      0.807,
+      0.63
+    ],
+    "pdf_sha256": "43a1e5f5443fbead9227b87d11e068e52fd470e5a00e32f21671ff4599b865ef",
+    "image_sha256": "e39ef66f571b5dbdcde56312d885c5fa1a08f7c928dd86c40c69c4e6498eb6fa",
+    "credits": [
+      {
+        "caption": "Sailer et al. (2022), Fig. 1(a,b). Published lateral-septum manipulation and test timeline.",
+        "doi": "https://doi.org/10.1038/s42003-022-04274-z"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/septum_behavior.png",
+    "paper": "papers/septum.pdf",
+    "page": 5,
+    "normalized_crop_box": [
+      0.09,
+      0.058,
+      0.866,
+      0.467
+    ],
+    "pdf_sha256": "43a1e5f5443fbead9227b87d11e068e52fd470e5a00e32f21671ff4599b865ef",
+    "image_sha256": "97955911436c89ad27e9608949b9ce0ebc5f95ec2e6bb1aeecb5770a7abe926a",
+    "credits": [
+      {
+        "caption": "Sailer et al. (2022), Fig. 4(a\u2013f). Aggressive and affiliative actions before and after bonding.",
+        "doi": "https://doi.org/10.1038/s42003-022-04274-z"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/mother_inhibit.png",
+    "paper": "papers/motherhood.pdf",
+    "page": 5,
+    "normalized_crop_box": [
+      0.139,
+      0.066,
+      0.875,
+      0.412
+    ],
+    "pdf_sha256": "c6c1fc392a6413b219d225d2d298ef22564fa3fdc0bad2748c5669c98d9eceed",
+    "image_sha256": "aa08dd298399c7e2ae44c5aea819582bad2d819906e402512111d10ee311a479",
+    "credits": [
+      {
+        "caption": "Forero et al. (2023), Fig. 1(A\u2013C). Inhibitory DREADD effects before and after parturition.",
+        "doi": "https://doi.org/10.1016/j.yhbeh.2023.105351"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/mother_excite.png",
+    "paper": "papers/motherhood.pdf",
+    "page": 5,
+    "normalized_crop_box": [
+      0.139,
+      0.526,
+      0.862,
+      0.872
+    ],
+    "pdf_sha256": "c6c1fc392a6413b219d225d2d298ef22564fa3fdc0bad2748c5669c98d9eceed",
+    "image_sha256": "cfe75dd91fcceac0bd1f99a99efe9473e83ce84899593f50c5fb6a67d37ea254",
+    "credits": [
+      {
+        "caption": "Forero et al. (2023), Fig. 2(A\u2013C). Excitatory DREADD effects on established partner contact.",
+        "doi": "https://doi.org/10.1016/j.yhbeh.2023.105351"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/mother_vasectomy.png",
+    "paper": "papers/motherhood.pdf",
+    "page": 7,
+    "normalized_crop_box": [
+      0.139,
+      0.527,
+      0.862,
+      0.872
+    ],
+    "pdf_sha256": "c6c1fc392a6413b219d225d2d298ef22564fa3fdc0bad2748c5669c98d9eceed",
+    "image_sha256": "a382687981f76d99d228fd5301d2afa06d6bc08f39d5e1c800766d7cd792e7cb",
+    "credits": [
+      {
+        "caption": "Forero et al. (2023), Fig. 4(A\u2013C). Partner contact when pregnancy was prevented.",
+        "doi": "https://doi.org/10.1016/j.yhbeh.2023.105351"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/transcript_genes.png",
+    "paper": "papers/transcript.pdf",
+    "page": 4,
+    "normalized_crop_box": [
+      0.088,
+      0.122,
+      0.925,
+      0.604
+    ],
+    "pdf_sha256": "597138aec7fbe8cbb96ec962a4305df40b73cbeba12a79be09d0e2a8fc53667f",
+    "image_sha256": "ca59edb310b0c9a42a290c1c300889aa21b87d4a45e0ddf0c7d6d3dcbfa0120a",
+    "credits": [
+      {
+        "caption": "Duclot et al. (2022), Fig. 2(A\u2013F). Accumbens gene-expression comparisons across bonding stages.",
+        "doi": "https://doi.org/10.1016/j.biopsych.2020.11.022"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/transcript_mito.png",
+    "paper": "papers/transcript.pdf",
+    "page": 8,
+    "normalized_crop_box": [
+      0.089,
+      0.124,
+      0.624,
+      0.6
+    ],
+    "pdf_sha256": "597138aec7fbe8cbb96ec962a4305df40b73cbeba12a79be09d0e2a8fc53667f",
+    "image_sha256": "04674fc2ca279dd2e5480ac3323e2fcee2dd771ee792b2d8994e5c1c176b799e",
+    "credits": [
+      {
+        "caption": "Duclot et al. (2022), Fig. 6(A\u2013F). Mitochondrial regulatory proteins across cohabitation conditions.",
+        "doi": "https://doi.org/10.1016/j.biopsych.2020.11.022"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/separation_behavior.png",
+    "paper": "papers/separation.pdf",
+    "page": 4,
+    "normalized_crop_box": [
+      0.065,
+      0.075,
+      0.94,
+      0.83
+    ],
+    "pdf_sha256": "a3679714b4cd276ce3063643b26ea48536a8a8ad217cc98fe7238abbd5f85de5",
+    "image_sha256": "56634349b75899399b38f1cd8e7810d21e839c6b62de708340e8de9aaf067802",
+    "credits": [
+      {
+        "caption": "Sadino et al. (2023), Fig. 1(A\u2013E). Huddling preferences before and after partner separation.",
+        "doi": "https://doi.org/10.7554/eLife.80517"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/separation_erosion.png",
+    "paper": "papers/separation.pdf",
+    "page": 10,
+    "normalized_crop_box": [
+      0.065,
+      0.075,
+      0.945,
+      0.83
+    ],
+    "pdf_sha256": "a3679714b4cd276ce3063643b26ea48536a8a8ad217cc98fe7238abbd5f85de5",
+    "image_sha256": "42bb12db117fa05739140921244f56db26921d7868bf430538fe6c2313221496",
+    "credits": [
+      {
+        "caption": "Sadino et al. (2023), Fig. 3(A\u2013K). Bond-associated transcription before and after separation.",
+        "doi": "https://doi.org/10.7554/eLife.80517"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/separation_neurons.png",
+    "paper": "papers/separation.pdf",
+    "page": 13,
+    "normalized_crop_box": [
+      0.065,
+      0.075,
+      0.938,
+      0.83
+    ],
+    "pdf_sha256": "a3679714b4cd276ce3063643b26ea48536a8a8ad217cc98fe7238abbd5f85de5",
+    "image_sha256": "3a5c67d7f6f050e1374a4c405070dd27ed39bced82f37befa928134ad293f46e",
+    "credits": [
+      {
+        "caption": "Sadino et al. (2023), Fig. 4(A\u2013G). Neuron-enriched transcripts and separation-related clusters.",
+        "doi": "https://doi.org/10.7554/eLife.80517"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  },
+  {
+    "image": "figures/classic_anatomy_top.png",
+    "paper": "papers/classic.pdf",
+    "page": 2,
+    "normalized_crop_box": [
+      0.535,
+      0.604,
+      0.935,
+      0.75
+    ],
+    "pdf_sha256": "b331b515afa642554a4c7ae95b58dd88acdcbe9880c7cd5b8f17072fc06d2423",
+    "image_sha256": "85ec0286bddeadb4f7230dc2eb63112959ad38a03ccd787ba34a20ca4be59893",
+    "credits": [
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      },
+      {
+        "caption": "Aragona et al. (2006), Fig. 2(a,b). Rostral accumbens core and shell landmarks.",
+        "doi": "https://doi.org/10.1038/nn1613"
+      }
+    ],
+    "crop_tool": "tools/crop_panels.py using tools/crop_figure.py"
+  }
+]

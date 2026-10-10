@@ -1,11 +1,6 @@
 {
-  "missing_papers": [
-    "classic",
-    "oxytocin",
-    "motherhood",
-    "transcript"
-  ],
-  "available_pdf_count": 9,
+  "missing_papers": [],
+  "available_pdf_count": 13,
   "checks": [
     {
       "paper": "classic",
@@ -44,5 +39,11 @@
       "pdf": false
     }
   ],
-  "status": "Awaiting required original article PDFs; no PPTX produced"
+  "status": "Awaiting required original article PDFs; no PPTX produced",
+  "resolved_by_uploads": {
+    "classic": "file_000000009a2881fdaef496fd15dea3b0",
+    "motherhood": "file_00000000b9b481fd8beb4d2e31ef0fe9",
+    "transcript": "file_00000000aad881fda1c9b627a06abd19",
+    "oxytocin": "file_000000007b3081fda345bef28030a2e1"
+  }
 }

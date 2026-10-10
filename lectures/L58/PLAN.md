@@ -1,9 +1,7 @@
-# Lecture 58 preparation
+# Lecture 58
 
-Authoritative checkout: default branch claude/neuroethology-fa2026-schedule-2lgmmr, refreshed to afdc99f. The exact user title was added as special topic 58 with Date TBD because it was absent from the refreshed schedule.
+Authoritative default branch refreshed to afdc99f. The exact user-authorized title was added to the special-topic schedule as Lecture 58, Date TBD.
 
-Research separates partner preference, stranger-directed aggression and maintenance during prolonged separation. The planned source sequence covers field reproductive tactics; dopamine receptor changes after bonding; nucleus accumbens shell kappa-opioid signaling; hypothalamic vasopressin and selective aggression; in-vivo partner-evoked dopamine; experience-dependent oxytocin physiology; septal manipulations; motherhood; and molecular changes during separation.
+The lecture distinguishes partner preference, work for contact, partner acceptance and selective aggression. Primary sources teach accumbens dopamine and kappa-opioid signaling, hypothalamic vasopressin, oxytocin–CB1 synaptic coupling, septal activity, motherhood and adaptation to prolonged separation.
 
-Final build requirements: title plus 44 content slides plus six exam takeaways; 3–5 teaching paragraphs per content slide; no routine caveat endings or em dashes; Arial and an unused allowed palette; at least 40 image slides and at least 34 original primary-paper figure slides. Aim for original source color on half of the image slides. Use tools/crop_figure.py, tools/build_lecture.py and all-slide rendered QA. Source references and teaching transcripts go in notes.
-
-Four PDFs in PAPERS.md are required before the original scientific figures and completed deck can be prepared. No substitutions or generated visuals are authorized.
+All 44 content slides contain original published article figures; 36 have source color. Three teaching paragraphs per slide, 114–133 words, with varied paragraph order. No em dashes, generated visuals or routine caveat endings. Arial throughout. Six exam takeaways, full DOI references and complete teaching transcripts in notes. Figure provenance records source PDFs, pages, crop coordinates and checksums.
