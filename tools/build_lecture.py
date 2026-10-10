@@ -44,6 +44,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from style_rules import (ARTICLE_CAPTION, MADE_IMAGE_WORDS, MAX_WEB_IMAGES, MIN_ARTICLE_FIGURE_SLIDES,  # noqa: E402
                          MIN_IMAGE_SLIDES, WEB_CAPTION,
                          framing_problems, stats_problems)
+from style_rules import EM_DASH, MAX_LIMITATION_SHARE, ends_with_limitation  # noqa: E402
 from theme_colors import aligned_palette  # noqa: E402
 
 
@@ -260,6 +261,7 @@ class Deck:
         self.web_images = 0
         self.image_slides = 0
         self.article_slides = 0
+        self.caveat_endings = []
 
     def path(self, p):
         q = (self.dir / p).resolve()
@@ -375,6 +377,11 @@ class Deck:
             raise SpecError(f"{where}: missing 'transcript' (speaker notes written as a natural teaching transcript)")
         _, ttexts = flatten_transcript(sd["transcript"])
         check_writing(sd["body"] + ttexts + [sd["title"]], where)
+        for t in sd["body"] + [sd["title"]]:
+            if EM_DASH in t:
+                raise SpecError(f"{where}: em dash in slide text: {t[:60]!r}. Use a comma, semicolon, colon or new sentence.")
+        if ends_with_limitation(sd["body"]):
+            self.caveat_endings.append(self.num)
         imgs = [sd["figure"]] if "figure" in sd else sd.get("figures", [])
         for f in imgs:
             check_image(f, where)
@@ -503,6 +510,9 @@ class Deck:
             self.content_slide(sd)
         tk = self.spec["takeaways"]
         check_writing([f"{i['lead']} {i['text']}" for i in tk["items"]], "key takeaways")
+        for i in tk["items"]:
+            if EM_DASH in f"{i['lead']} {i['text']}":
+                raise SpecError(f"key takeaways: em dash in {i['lead']!r}. Use a comma, semicolon, colon or new sentence.")
         self.takeaways_slide(tk)
         n = len(self.spec["slides"])
         need_img = round(MIN_IMAGE_SLIDES * n / DEFAULT_CONTENT_SLIDES)
@@ -516,6 +526,11 @@ class Deck:
         if self.web_images > MAX_WEB_IMAGES:
             raise SpecError(f"{self.web_images} web photos; at most {MAX_WEB_IMAGES}. Decorative/general images only where needed — "
                             "give priority to primary-article figures.")
+        if len(self.caveat_endings) > MAX_LIMITATION_SHARE * n:
+            raise SpecError(f"{len(self.caveat_endings)} of {n} slides end on a caveat paragraph (slides "
+                            f"{self.caveat_endings[:12]}); at most {int(MAX_LIMITATION_SHARE * n)}. Make the last paragraph "
+                            "teaching content (mechanism, follow-up result, behavior); keep a limitation only when it "
+                            "changes what students should conclude.")
         self.prs.core_properties.title = self.meta["title"]
         self.prs.core_properties.author = self.course["instructor"]
         self.prs.save(out)

@@ -8,7 +8,7 @@ FORMAT
 - Deliver a downloadable .pptx.
 
 CONTENT
-- Use web search and the primary academic literature. Each slide is built on real studies: preparation, methods, controls, findings, and what a result does and does not show. Verify every citation (authors, year, journal, volume, pages, DOI). Short citation in the slide footer; full reference with DOI in the speaker notes.
+- Use web search and the primary academic literature. Each slide is built on real studies: preparation, methods, controls, findings, and how it works (mechanism, circuit, link to behavior). Verify every citation (authors, year, journal, volume, pages, DOI). Short citation in the slide footer; full reference with DOI in the speaker notes.
 - Teach concepts, not statistics. Keep numbers only when they carry the concept (ms latencies, pulse rates, frequencies, firing rates, angles, sizes). No p-values, test names, ± errors, SD/SEM, confidence intervals, sample-size bookkeeping.
 - Slides: 3–5 full paragraphs, academic register. Speaker notes: a teaching transcript in bullets and sub-bullets, complete natural sentences the instructor can read aloud, then the references.
 - Define each term when it first appears. Explain circuits, transmitters, receptors and ion channels step by step, connected to neuronal activity and behavior. Separate established findings from proposed explanations.

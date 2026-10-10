@@ -87,3 +87,22 @@ def is_color_image(blob):
     colored = sum(1 for i in range(0, len(hsv), 3) if hsv[i + 1] > 80 and hsv[i + 2] > 35)
     ink = sum(1 for i in range(0, len(rgb), 3) if min(rgb[i:i + 3]) < 235)
     return colored >= 0.002 * (len(hsv) / 3) and colored >= 0.03 * max(ink, 1)
+
+
+# ------------------------------------------------------------------ caveats and dashes
+# A limitation earns a sentence only when it changes what students should conclude; a deck
+# whose slides routinely close on "does not establish..." is disclaimer filler.
+LIMITATION = re.compile(
+    r"\b(?:does|do|did) not (?:establish|identify|show|prove|demonstrate|determine|reveal|isolate|specify|"
+    r"mean|imply|address|exclude|rule out|explain|indicate)\b|"
+    r"\bcannot (?:be )?(?:establish|exclude|excluded|determine|identify|distinguish|separate|rule out|explain)|"
+    r"\b(?:has|have) not been (?:established|shown|tested|identified|demonstrated)\b|"
+    r"\bremains? (?:unknown|unresolved|untested|unclear|unidentified|unproven|open)\b", re.I)
+MAX_LIMITATION_SHARE = 0.2   # at most 1 in 5 content slides may end on a caveat paragraph
+EM_DASH = "—"
+
+
+def ends_with_limitation(paragraphs):
+    """True when the slide's last paragraph is a caveat ("does not establish...", "remains unknown")."""
+    paras = [p for p in paragraphs if p and p.strip()]
+    return bool(paras) and bool(LIMITATION.search(paras[-1]))
