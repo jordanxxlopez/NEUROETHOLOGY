@@ -104,6 +104,7 @@ def notes_lines(pkg, slide_part):
                     lines.append(cur)
                     cur = ""
             lines.append(cur)
+    lines = [part for l in lines for part in l.split("\n")]
     return [l.strip() for l in lines if l.strip()]
 
 
@@ -135,7 +136,7 @@ def classify(slide_root):
 MARK = re.compile(r"(\*\*.+?\*\*|_[^_]+?_)")
 
 
-def set_paragraph(p, text, base_rpr):
+def set_paragraph(p, text, base_rpr, bold_rpr=None):
     """Replace the runs of paragraph p with text; **bold** and _italic_ markup become run attributes."""
     for r in p.findall(A + "r") + p.findall(A + "br") + p.findall(A + "fld"):
         p.remove(r)
@@ -149,7 +150,7 @@ def set_paragraph(p, text, base_rpr):
         elif piece.startswith("_") and piece.endswith("_") and len(piece) > 2:
             piece, i = piece[1:-1], "1"
         r = etree.Element(A + "r")
-        rpr = copy.deepcopy(base_rpr)
+        rpr = copy.deepcopy(bold_rpr if (b == "1" and bold_rpr is not None and base_rpr.get("b") != "1") else base_rpr)
         rpr.set("b", b)
         rpr.set("i", i)
         r.append(rpr)
@@ -161,19 +162,32 @@ def set_paragraph(p, text, base_rpr):
             p.append(r)
 
 
-def set_shape_text(sp, paragraphs, plain_rpr=None):
+def set_shape_text(sp, paragraphs, plain_rpr=None, bold_fallback=None):
     """Write paragraphs into a text shape, reusing its first paragraph's pPr and its plain run rPr."""
     body = sp.find(".//p:txBody", NS)
     paras = body.findall(A + "p")
     first = paras[0]
     runs = first.findall(A + "r")
-    plain = next((r for r in runs if r.find(A + "rPr") is not None and r.find(A + "rPr").get("b") != "1"), runs[0])
+    rprs = [r.find(A + "rPr") for r in body.iter(A + "r") if r.find(A + "rPr") is not None]
+    plain_rprs = [x for x in rprs if x.get("b") != "1" and x.get("i") != "1"] or [x for x in rprs if x.get("b") != "1"]
+    plain = plain_rprs[0].getparent() if plain_rprs else runs[0]
     rpr = copy.deepcopy(plain_rpr if plain_rpr is not None else plain.find(A + "rPr"))
+    bold = next((r for r in body.iter(A + "rPr") if r.get("b") == "1"), None)
+    if bold is not None:
+        bold = copy.deepcopy(bold)
+    elif bold_fallback is not None:  # template has no bold run: plain formatting in the deck's bold color
+        bold = copy.deepcopy(rpr)
+        bold.set("b", "1")
+        fill = bold_fallback.find(A + "solidFill")
+        if fill is not None:
+            for old_fill in bold.findall(A + "solidFill"):
+                bold.remove(old_fill)
+            bold.insert(0, copy.deepcopy(fill))
     for extra in paras:
         body.remove(extra)
     for text in paragraphs:
         p = copy.deepcopy(first)
-        set_paragraph(p, text, rpr)
+        set_paragraph(p, text, rpr, bold)
         body.append(p)
 
 
@@ -191,6 +205,14 @@ def body_font_pt(sp, default_pt):
 def line_spacing(sp):
     v = sp.find(".//a:lnSpc/a:spcPct", NS)
     return int(v.get("val")) / 100000 if v is not None else 1.0
+
+
+def line_height_pt(sp, pt):
+    """Height of one text line: an exact spacing (spcPts) if the box sets one, else 1.2 x size x percentage."""
+    exact = sp.find(".//a:lnSpc/a:spcPts", NS)
+    if exact is not None:
+        return int(exact.get("val")) / 100
+    return pt * 1.2 * line_spacing(sp)
 
 
 def estimate_lines(text, width_emu, pt):
@@ -237,38 +259,64 @@ def build_slide(pkg, spec_slide, slide_w, default_pt, body_floor=None):
     # title
     set_shape_text(parts["title"], [spec_slide["title"]])
 
-    # body: one paragraph per template body box; boxes are restacked to fit the new text
+    deck_bold = None
+    for part in pkg.slides[1:-1]:
+        try:
+            for bx in classify(pkg.xml(part))["body"]:
+                deck_bold = next((r for r in bx.iter(A + "rPr") if r.get("b") == "1"), None)
+                if deck_bold is not None:
+                    break
+        except (ValueError, AttributeError):
+            continue
+        if deck_bold is not None:
+            break
+    # body: one paragraph per template body box (boxes restacked to fit), or, when the template
+    # keeps all paragraphs in one box, every paragraph in that box with its own paragraph spacing
     boxes = parts["body"]
     paras = spec_slide["body"]
-    if len(paras) > len(boxes):
-        raise SystemExit(f"slide {spec_slide['footer_number']}: {len(paras)} paragraphs but template "
-                         f"slide {spec_slide['template_slide']} has {len(boxes)} body boxes")
     top = geom(boxes[0])[1]
     bottom = max(geom(b)[1] + geom(b)[3] for b in boxes)
     if body_floor:  # body text may extend as low as the deck's own content slides place it,
         # keeping a quarter inch clear of the footer
         bottom = max(bottom, min(body_floor, geom(parts["number"])[1] - 228600))
-    for extra in boxes[len(paras):]:
-        tree.remove(extra)
-    boxes = boxes[:len(paras)]
-    heights = []
-    for b, text in zip(boxes, paras):
+    if len(boxes) == 1 and len(paras) > 1:
+        b = boxes[0]
         pt = body_font_pt(b, default_pt)
-        n = estimate_lines(text, geom(b)[2], pt)
-        heights.append(int(math.ceil(n * pt * 1.2 * line_spacing(b) * EMU_PER_PT)))
-    free = bottom - top - sum(heights)
-    print(f"  {spec_slide['footer_number']:>4}: body {sum(heights) / 914400:.2f} of {(bottom - top) / 914400:.2f} in")
-    if free < 0:
-        raise SystemExit(f"slide {spec_slide['footer_number']}: body text does not fit "
-                         f"({-free / 914400:.2f} in over); shorten it")
-    gap = free / max(1, len(boxes) - 1) if len(boxes) > 1 else 0
-    gap = min(gap, 0.45 * 914400)
-    y = top
-    for b, text, h in zip(boxes, paras, heights):
-        set_shape_text(b, [text])
-        b.find(".//a:xfrm/a:off", NS).set("y", str(int(y)))
+        aft = b.find(".//a:pPr/a:spcAft/a:spcPts", NS)
+        after = int(aft.get("val")) / 100 * EMU_PER_PT if aft is not None else 0
+        h = sum(int(math.ceil(estimate_lines(t, geom(b)[2], pt) * line_height_pt(b, pt) * EMU_PER_PT)) for t in paras)
+        h += int(after * (len(paras) - 1))
+        print(f"  {spec_slide['footer_number']:>4}: body {h / 914400:.2f} of {(bottom - top) / 914400:.2f} in")
+        if h > bottom - top:
+            raise SystemExit(f"slide {spec_slide['footer_number']}: body text does not fit "
+                             f"({(h - bottom + top) / 914400:.2f} in over); shorten it")
+        set_shape_text(b, paras, bold_fallback=deck_bold)
         b.find(".//a:xfrm/a:ext", NS).set("cy", str(h))
-        y += h + gap
+    else:
+        if len(paras) > len(boxes):
+            raise SystemExit(f"slide {spec_slide['footer_number']}: {len(paras)} paragraphs but template "
+                             f"slide {spec_slide['template_slide']} has {len(boxes)} body boxes")
+        for extra in boxes[len(paras):]:
+            tree.remove(extra)
+        boxes = boxes[:len(paras)]
+        heights = []
+        for b, text in zip(boxes, paras):
+            pt = body_font_pt(b, default_pt)
+            n = estimate_lines(text, geom(b)[2], pt)
+            heights.append(int(math.ceil(n * line_height_pt(b, pt) * EMU_PER_PT)))
+        free = bottom - top - sum(heights)
+        print(f"  {spec_slide['footer_number']:>4}: body {sum(heights) / 914400:.2f} of {(bottom - top) / 914400:.2f} in")
+        if free < 0:
+            raise SystemExit(f"slide {spec_slide['footer_number']}: body text does not fit "
+                             f"({-free / 914400:.2f} in over); shorten it")
+        gap = free / max(1, len(boxes) - 1) if len(boxes) > 1 else 0
+        gap = min(gap, 0.45 * 914400)
+        y = top
+        for b, text, h in zip(boxes, paras, heights):
+            set_shape_text(b, [text], bold_fallback=deck_bold)
+            b.find(".//a:xfrm/a:off", NS).set("y", str(int(y)))
+            b.find(".//a:xfrm/a:ext", NS).set("cy", str(h))
+            y += h + gap
 
     # figures: drop the template's pictures and captions, copy the named picture(s) with their captions
     for el in parts["pics"] + parts["captions"]:
@@ -325,12 +373,21 @@ def notes_xml(pkg, template_slide_part, spec_slide):
         if ph is not None and ph.get("type") == "body":
             body = sp.find(".//p:txBody", NS)
     paras = body.findall(A + "p")
-    rpr = copy.deepcopy(next(paras[0].iter(A + "rPr")))
+    first_rpr = next(body.iter(A + "rPr"), None)
+    rpr = copy.deepcopy(first_rpr) if first_rpr is not None else etree.Element(A + "rPr", lang="en-US")
     ppr = paras[0].find(A + "pPr")
+    typed_bullets = any("".join(t.text or "" for t in p.iter(A + "t")).startswith(("• ", "– ")) for p in paras)
     for p in paras:
         body.remove(p)
 
     def para(text, lvl=None):
+        if typed_bullets:  # the deck writes "• " and "– " as text in plain paragraphs
+            p = etree.SubElement(body, A + "p")
+            if text:
+                r = etree.SubElement(p, A + "r")
+                r.append(copy.deepcopy(rpr))
+                etree.SubElement(r, A + "t").text = ({0: "• ", 1: "– "}.get(lvl, "")) + strip_markup(text)
+            return
         p = etree.SubElement(body, A + "p")
         pp = copy.deepcopy(ppr) if ppr is not None else etree.Element(A + "pPr")
         for child in list(pp):

@@ -283,7 +283,7 @@ def main():
             fail(f"FORMAT {tag}: {len(s['body'])} paragraphs (3-5 required)")
         if not 90 <= nwords <= 170:
             fail(f"FORMAT {tag}: {nwords} body words (90-170 required)")
-        if not re.fullmatch(rf"{s['after']}[a-z]", tag):
+        if not re.fullmatch(rf"0*{s['after']}[a-z]", tag):
             fail(f"FORMAT {tag}: footer number must be the original slide number plus a letter ({s['after']}a)")
         fig = s["figure"]
         for f in [fig] + s.get("extra_figures", []):

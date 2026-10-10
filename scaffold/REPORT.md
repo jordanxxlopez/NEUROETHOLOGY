@@ -67,3 +67,64 @@ Run = longest word run shared with any original slide or its notes (fail at 8); 
 - 35a also carries the dorsal brain anatomy panel (James & Bell 2021, Fig. 2(C)) that the deck's own slides 33–39 place beside their main figure.
 - 35a reports a result the deck does not mention: in James & Bell (2021), a single vasotocin injection decreased charging at the highest dose, opposite to the increase after viral AVP expression; the slide gives the authors' timing explanation and marks it as untested.
 - Numbers taken from the cited papers rather than the deck: 76 intrusions per hour in natural stickleback populations (41a, Bukhari et al. 2017).
+
+## Neuroethology_Lecture3_FA2026_V2.pptx
+
+- Output: Neuroethology_Lecture3_FA2026_V2_SCAFFOLDED.pptx / .pdf — 60 slides, PDF 60 pages
+- Integrity: all 46 original slides identical to the input (slide XML, relationships, media, notes)
+- Checker: PASS; every scaffold slide inspected in the rendered PDF.
+
+| # | Title | After | Reused figure (slide: caption) | Integrates | Cited papers used | Moves | Run | Sim | Overlap |
+|---|---|---|---|---|---|---|---|---|---|
+| 06a | Air pushed ahead of a predator reaches the cerci first | 6 | 6: Camhi et al. (1978), Fig. 3(B). Wind trace near the behavioral response threshold. | 2, 6, 11, 33 | 10.1007/BF00656853, 10.1016/j.jinsphys.2014.07.002, 10.1016/j.jinsphys.2014.05.017 | foundation, mechanism, integration, consequence | 7 | 0.31 | 0.12 |
+| 10a | Each hair moves in one plane, giving it a preferred wind axis | 10 | 10: Camhi & Tom (1978), Fig. 10. Turning after clockwise cercal rotation. | 8, 9, 10, 17 | 10.1007/BF00656852, 10.1038/s41598-021-85341-z | foundation, mechanism, integration, consequence | 5 | 0.26 | 0.14 |
+| 13a | Synchronous input spikes sum more effectively downstream | 13 | 13: Olsen & Triblehorn (2014), Fig. 4(A–C). Species differences in wind-response timing. | 11, 13, 14, 15 | 10.1016/j.jinsphys.2014.07.002, 10.1016/j.jinsphys.2014.05.017 | foundation, mechanism, integration, consequence | 4 | 0.29 | 0.13 |
+| 14a | Detecting wind and measuring its speed are different jobs | 14 | 12: Olsen & Triblehorn (2014), Fig. 5(A–D). Early and later afferent stimulus–response curves. | 12, 14, 33, 34 | 10.1016/j.jinsphys.2014.07.002, 10.1016/j.jinsphys.2014.05.017 | distinction, foundation, consequence, integration | 4 | 0.26 | 0.13 |
+| 16a | Wide axons carry the warning to the thorax faster | 16 | 15: Booth et al. (2009), Fig. 1(A,B). Second-instar animal and its cercal sensory circuit. | 6, 15, 16, 33 | 10.1523/JNEUROSCI.1374-09.2009, 10.1016/j.jinsphys.2014.05.017 | foundation, mechanism, consequence, integration | 4 | 0.20 | 0.17 |
+| 18a | A single GI's firing is ambiguous about wind direction | 18 | 17: Levi & Camhi (2000b), Fig. 1(A). Adult GI directional profiles used as model inputs. | 17, 18, 27, 30 | 10.1523/JNEUROSCI.20-10-03822.2000 | foundation, distinction, mechanism, integration | 4 | 0.20 | 0.18 |
+| 26a | Winner-take-all requires strong mutual inhibition | 26 | 26: Levi & Camhi (2000a), Fig. 8(A,B). Turning changes after adding left-side GI spikes. | 23, 25, 26 | 10.1523/JNEUROSCI.20-10-03814.2000 | mechanism, distinction, integration, consequence | 6 | 0.29 | 0.21 |
+| 32a | Adding, removing and replacing activity test different claims | 32 | 32: Levi & Camhi (2000b), Fig. 7(A,B). Natural GI2 firing and partial behavioral rescue. | 5, 9, 23, 26, 29, 31 | 10.1007/BF00656852, 10.1523/JNEUROSCI.20-10-03814.2000, 10.1523/JNEUROSCI.20-10-03822.2000 | distinction, method_logic, integration, consequence | 5 | 0.27 | 0.14 |
+| 34a | Keeping a sensor does not mean using it for escape | 34 | 33: McGorry et al. (2014), Fig. 4. Ascending wind responses in four cockroach species. | 14, 33, 34 | 10.1016/j.jinsphys.2014.07.002, 10.1016/j.jinsphys.2014.05.017 | distinction, consequence, integration | 4 | 0.40 | 0.25 |
+| 36a | Several preferred trajectories keep escape unpredictable | 36 | 35: Booth et al. (2009), Fig. 5(C–H). Juvenile trajectories by wind direction and En treatment. | 3, 4, 35, 36, 40 | 10.1523/JNEUROSCI.1374-09.2009 | consequence, integration, mechanism | 4 | 0.26 | 0.14 |
+| 37a | Engrailed tells a sensory neuron which giants to contact | 37 | 37: Booth et al. (2009), Fig. 2(A,B). Second-instar En staining before and after RNAi. | 8, 10, 17, 37, 38 | 10.1523/JNEUROSCI.1374-09.2009 | mechanism, foundation, consequence, integration | 3 | 0.21 | 0.28 |
+| 40a | Knock-down animals act as if rear wind came from the front | 40 | 41: Booth et al. (2009), Fig. 6(A–F). Third-instar trajectories after En reduction. | 35, 36, 37, 40, 41 | 10.1523/JNEUROSCI.1374-09.2009 | distinction, method_logic, integration, consequence | 7 | 0.42 | 0.20 |
+| 43a | Deprived giants may strengthen the surviving cercal input | 43 | 43: Jankowska et al. (2021), Fig. 2(a,b). Left-cercal nerve responses over three weeks after injury. | 42, 43, 44 | 10.1038/s41598-021-85341-z | mechanism, foundation, integration, method_logic | 4 | 0.22 | 0.19 |
+| 45a | Left-right decisions rely on comparing the two cerci | 45 | 44: Jankowska et al. (2021), Fig. 3(a–d). Peripheral and central responses with field exposure. | 10, 26, 43, 45 | 10.1007/BF00656852, 10.1523/JNEUROSCI.20-10-03814.2000, 10.1038/s41598-021-85341-z | mechanism, consequence, integration | 5 | 0.25 | 0.23 |
+
+### For the instructor's attention
+
+- Uploaded as `Neuroethology_Lecture3_FA2026_V2.pptx`; saved under the same name in `scaffold/input/`.
+- Full text read: Olsen & Triblehorn 2014, McGorry et al. 2014, Jankowska et al. 2021. Camhi & Tom 1978, Camhi et al. 1978, Levi & Camhi 2000a,b and Booth et al. 2009 were not retrievable in full text (publisher pages blocked; PMC had abstracts only); slides drawing on them use the deck, the abstracts and textbook principles.
+- This deck keeps all body paragraphs in one text box and zero-pads slide numbers, so scaffold numbers are written 06a, 10a, etc.; notes use the deck's typed •/– bullets.
+- Bold key terms use the deck's dark-red bold style; slides cloned from templates without bold text borrow only that color.
+- 37a summarizes the earlier Engrailed wiring result as Booth et al. (2009) describe it; it is not a separate citation.
+
+## Neuroethology_Lecture4_FA2026_V2.pptx
+
+- Output: Neuroethology_Lecture4_FA2026_V2_SCAFFOLDED.pptx / .pdf — 60 slides, PDF 60 pages
+- Integrity: all 46 original slides identical to the input (slide XML, relationships, media, notes)
+- Checker: PASS; every scaffold slide inspected in the rendered PDF.
+
+| # | Title | After | Reused figure (slide: caption) | Integrates | Cited papers used | Moves | Run | Sim | Overlap |
+|---|---|---|---|---|---|---|---|---|---|
+| 3a | A single LG spike is enough to command a tail flip | 3 | 3: Wine & Krasne (1972), Fig. 2. Simultaneous connective and abdominal recordings of giant-fiber activity. | 3, 12, 16, 31 | 10.1242/jeb.56.1.1, 10.1523/JNEUROSCI.22-20-09078.2002, 10.1523/JNEUROSCI.11-01-00059.1991 | foundation, mechanism, integration, distinction | 4 | 0.29 | 0.12 |
+| 5a | Giant circuits trade sensory guidance for speed | 5 | 5: Wine & Krasne (1972), Fig. 3(A,B). Giant-mediated initial responses followed by nongiant swimming. | 2, 4, 5, 6, 26 | 10.1242/jeb.56.1.1, 10.1523/JNEUROSCI.17-22-08867.1997 | distinction, integration, consequence, mechanism | 5 | 0.37 | 0.15 |
+| 11a | Gap junctions pass both current and small molecules | 11 | 11: Herberholz et al. (2002), Fig. 2(A). LG and dye-coupled neurons in the terminal ganglion. | 9, 11, 13, 14, 20 | 10.1523/JNEUROSCI.22-20-09078.2002, 10.1523/JNEUROSCI.11-07-02117.1991 | foundation, mechanism, method_logic, integration | 6 | 0.25 | 0.20 |
+| 18a | Lateral excitation makes LG recruitment self-reinforcing | 18 | 15: Herberholz et al. (2002), Fig. 4(A,B). Increasing nerve shocks recruit sensory EPSPs and afferent spikes. | 13, 14, 15, 16, 17, 18 | 10.1523/JNEUROSCI.22-20-09078.2002 | mechanism, consequence, integration, foundation | 4 | 0.22 | 0.18 |
+| 21a | Rectifying junctions weaken inputs after LG depolarizes | 21 | 20: Edwards et al. (1991), Fig. 3(A–D). Interneuron A transmission and voltage-dependent LG responses. | 20, 21, 22, 25 | 10.1523/JNEUROSCI.11-07-02117.1991 | foundation, mechanism, consequence, integration | 4 | 0.29 | 0.12 |
+| 28a | Shunting inhibition opens a leak that excitation must fill | 28 | 29: Vu et al. (1997), Fig. 6(A,B). Reduced attenuation of injected-current responses during picrotoxin. | 27, 28, 29, 30 | 10.1523/JNEUROSCI.17-22-08867.1997 | foundation, mechanism, integration, consequence | 4 | 0.21 | 0.21 |
+| 30a | Three timing filters let only abrupt stimuli fire LG | 30 | 22: Edwards et al. (1998), Fig. 3(B). LG EPSP amplitude as a function of sensory-input delay. | 4, 15, 22, 25, 26, 28 | 10.1242/jeb.56.1.1, 10.1073/pnas.95.12.7145, 10.1523/JNEUROSCI.17-22-08867.1997, 10.1523/JNEUROSCI.22-20-09078.2002 | integration, mechanism, consequence | 3 | 0.20 | 0.18 |
+| 31a | Light and a dye fill silence only the filled neuron | 31 | 31: Fraser & Heitler (1991), Fig. 1(A–C). Recordings before and during dye-mediated segmental-giant inactivation. | 7, 31, 32, 33 | 10.1523/JNEUROSCI.11-01-00059.1991 | foundation, mechanism, method_logic, integration | 4 | 0.22 | 0.22 |
+| 33a | Removing a dominant pathway can unmask a hidden one | 33 | 33: Fraser & Heitler (1991), Fig. 4(A,B). Comparisons of LG and MG input after SG removal. | 31, 32, 33, 34 | 10.1523/JNEUROSCI.11-01-00059.1991 | method_logic, integration, consequence | 4 | 0.32 | 0.29 |
+| 35a | Chemical synapses slow more on cooling than electrical ones | 35 | 35: Fraser & Heitler (1991), Fig. 10(A–C). Residual motor EPSPs at 20°C, 7°C, and with cadmium. | 34, 35 | 10.1523/JNEUROSCI.11-01-00059.1991 | foundation, mechanism, method_logic, integration | 3 | 0.23 | 0.20 |
+| 36a | MG integrates several inputs before it commits to escape | 36 | 36: Swierzbinski & Herberholz (2018), Fig. 1(B). Antenna II-evoked connective activity and intracellular MG potentials.; 36: Swierzbinski & Herberholz (2018), Fig. 1(A). Published anatomical arrangement of antenna II input and the MG neuron. | 2, 8, 36 | 10.3389/fphys.2018.00448, 10.1242/jeb.56.1.1 | integration, mechanism, consequence, distinction | 3 | 0.25 | 0.12 |
+| 38a | Early ethanol effects disinhibit escape before sedation | 38 | 38: Swierzbinski & Herberholz (2018), Fig. 3. MG potential amplitudes before, during, and after ethanol exposure. | 36, 37, 38, 39 | 10.3389/fphys.2018.00448 | integration, consequence, foundation, mechanism | 4 | 0.38 | 0.22 |
+| 41a | Pretreatment tests whether two drugs share a target | 41 | 41: Swierzbinski & Herberholz (2018), Fig. 5. MG responses to muscimol followed by ethanol. | 38, 39, 40, 41 | 10.3389/fphys.2018.00448 | method_logic, foundation, integration, distinction | 4 | 0.33 | 0.15 |
+| 43a | Manganese brightens images where calcium channels opened | 43 | 42: Herberholz et al. (2011), Fig. 3(A,B). Axial brain sections after antenna II stimulation and manganese injection. | 10, 42, 43, 44 | 10.3389/fnbeh.2011.00016 | foundation, mechanism, integration, consequence | 4 | 0.35 | 0.30 |
+
+### For the instructor's attention
+
+- Uploaded as `Neuroethology_Lecture4_FA2026_V2.pptx`; saved under the same name in `scaffold/input/`.
+- Full text read: Swierzbinski & Herberholz 2018, Herberholz et al. 2011. Wine & Krasne 1972, Herberholz et al. 2002, Edwards et al. 1991 and 1998, Vu et al. 1997 and Fraser & Heitler 1991 were available as abstracts only; slides drawing on them use the deck, those abstracts and textbook principles.
+- Number from a cited paper rather than the deck: about 17 mM for the US legal driving limit (38a, Swierzbinski & Herberholz 2018).
+- 36a also carries the MG anatomy panel (Swierzbinski & Herberholz 2018, Fig. 1(A)) that the deck's slides 36–41 place beside their main figure.
