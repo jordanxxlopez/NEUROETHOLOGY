@@ -1,0 +1,1235 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture11_FA2026_V2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture11_FA2026_V2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "T4",
+  "T5",
+  "L1",
+  "L2",
+  "L3",
+  "Mi1",
+  "Mi4",
+  "Mi9",
+  "Tm1",
+  "Tm2",
+  "Tm3",
+  "Tm4",
+  "Tm9",
+  "CT1",
+  "C3",
+  "HS",
+  "VS",
+  "CH",
+  "LPTC",
+  "LPTCs",
+  "tangential",
+  "lobula",
+  "plate",
+  "medulla",
+  "lamina",
+  "dendrite",
+  "dendrites",
+  "detector",
+  "detectors",
+  "Reichardt",
+  "correlator",
+  "motion",
+  "direction",
+  "directional",
+  "preferred",
+  "null",
+  "enhancement",
+  "suppression",
+  "selectivity",
+  "selective",
+  "ON",
+  "OFF",
+  "edge",
+  "edges",
+  "bright",
+  "dark",
+  "contrast",
+  "flicker",
+  "reverse-phi",
+  "phi",
+  "turning",
+  "optomotor",
+  "steering",
+  "expansion",
+  "rotation",
+  "delay",
+  "delayed",
+  "arm",
+  "arms",
+  "calcium",
+  "voltage",
+  "inhibition",
+  "inhibitory",
+  "excitation",
+  "excitatory",
+  "GluClα",
+  "glutamate",
+  "GABA",
+  "acetylcholine",
+  "cholinergic",
+  "subtraction",
+  "receptive",
+  "field",
+  "column",
+  "columns",
+  "ommatidium",
+  "temporal",
+  "frequency",
+  "flies",
+  "fly",
+  "Drosophila",
+  "Haag",
+  "Clark",
+  "Mano",
+  "Mauss",
+  "Mishra",
+  "Leonhardt",
+  "Schnell",
+  "Shinomiya",
+  "Takemura",
+  "Pankova",
+  "Borst",
+  "Duistermars",
+  "shibire",
+  "Kir",
+  "silencing",
+  "input",
+  "inputs",
+  "signal",
+  "signals",
+  "response",
+  "responses",
+  "neuron",
+  "neurons",
+  "layer",
+  "layers",
+  "pathway",
+  "pathways",
+  "rectified",
+  "rectification"
+ ],
+ "new_slides": [
+  {
+   "after": 3,
+   "footer_number": "03a",
+   "template_slide": 3,
+   "title": "Closed-loop feedback cancels the slip it responds to",
+   "body": [
+    "**Negative feedback** is a control arrangement in which an output acts to reduce the signal that produced it. In free behavior the optomotor turn forms such a loop: image drift drives a turn in the same direction, and the turn shrinks the drift toward zero.",
+    "That cancellation makes the loop hard to measure, since a well-working reflex erases its own stimulus. In **open loop** the experimenter fixes the image motion and steering no longer changes it, so ball rotation or ΔWBA reports how strongly a given motion drives the motor system, the gain of the reflex.",
+    "Closed loop serves a different purpose in the same rig. When the wingbeat difference steers a single stripe, the fly holds the stripe in front of it and stays engaged in active flight between probes. Alternating the two modes yields a motivated animal and a test stimulus its own behavior cannot alter."
+   ],
+   "figure": {
+    "from_slide": 3,
+    "picture": "Picture 3",
+    "caption": "Duistermars et al. (2007), Fig. 1. Tethered-flight apparatus and two panoramic flow fields."
+   },
+   "cite": "Mano et al. (2023); Duistermars et al. (2007)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    2,
+    3
+   ],
+   "cited_papers_used": [
+    "10.7554/elife.86076",
+    "10.1242/jeb.007807"
+   ],
+   "transcript": [
+    "The optomotor response is a feedback controller, and the two recording modes on slides 2 and 3 exist because of that feedback.",
+    [
+     "In the free animal, the response works to remove its own input.",
+     [
+      "Retinal slip produces a turn, and a turn in the slip direction moves the eye with the image, so the drift that started the turn gets smaller.",
+      "A perfect stabilizer would leave almost no slip to measure, which is the practical problem every optomotor study has to solve."
+     ]
+    ],
+    [
+     "Open loop exposes the strength of the reflex.",
+     [
+      "When the panorama moves independently of steering, the stimulus stays constant however hard the fly turns.",
+      "The ball-walking measurement on slide 2 and the wingbeat analyzer on slide 3 then read out the motor output produced per unit of imposed motion."
+     ]
+    ],
+    [
+     "Closed-loop epochs keep the preparation in a natural behavioral state.",
+     [
+      "Duistermars and colleagues let the fly control a stripe between open-loop tests, a task tethered flies perform readily.",
+      "The fly is therefore actively steering when each open-loop probe begins, and the probe itself remains fully under experimental control."
+     ]
+    ]
+   ],
+   "refs": [
+    "Mano O, Choi M, Tanaka R, Creamer MS, Matos NCB, Shomar JW, Badwan BA, Clandinin TR, Clark DA (2023). Long-timescale anti-directional rotation in <i>Drosophila</i> optomotor behavior. eLife 12:e86076. https://doi.org/10.7554/elife.86076",
+    "Duistermars BJ, Chow DM, Condro M, Frye MA (2007). The spatial, temporal and contrast properties of expansion and rotation flight optomotor responses in Drosophila. Journal of Experimental Biology 210:3218-3227. https://doi.org/10.1242/jeb.007807"
+   ]
+  },
+  {
+   "after": 5,
+   "footer_number": "05a",
+   "template_slide": 4,
+   "title": "Shared detectors feed two separate steering reflexes",
+   "body": [
+    "Temporal-frequency tuning is set early, where local detectors compare neighboring inputs; response amplitude, contrast saturation and time course can be set later, where pooled motion signals are converted into wing commands.",
+    "Expansion and rotation steering peaked in the same temporal-frequency band, which places both on one population of **elementary motion detectors**. They differed in amplitude, contrast saturation and time course, properties the authors assigned to separate **premotor circuits** with different spatial integration and low-pass filtering.",
+    "One sensor array thus serves two tasks. Rotation corrects unintended body turns, whereas expansion accompanies forward translation, and each correction needs its own gain and speed."
+   ],
+   "figure": {
+    "from_slide": 4,
+    "picture": "Picture 3",
+    "caption": "Duistermars et al. (2007), Fig. 3. Expansion and rotation share similar temporal tuning."
+   },
+   "cite": "Duistermars et al. (2007)",
+   "moves": [
+    "method_logic",
+    "integration",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    3,
+    4,
+    5
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.007807"
+   ],
+   "transcript": [
+    "Slides 3, 4 and 5 report three properties of the same two flow fields; the question is which stage of the pathway each property reflects.",
+    [
+     "Tuning and gain come from different stages.",
+     [
+      "A local correlation detector fixes the temporal frequency at which motion is most effective, and that preference is inherited by everything downstream.",
+      "Amplitude, contrast sensitivity and response speed can still be changed by the circuits that pool detector outputs and drive the wings."
+     ]
+    ],
+    [
+     "The flight data separate the two stages.",
+     [
+      "Matching temporal optima on slide 4 point to shared detectors, whereas the different saturation on slide 5 and the different amplitudes point to separate downstream circuits.",
+      "Duistermars and colleagues concluded that expansion and rotation responses are two reflexes drawing on one detector system, not a single response stimulated in two ways."
+     ]
+    ],
+    [
+     "The design matches two behavioral needs.",
+     [
+      "Body rotation during hovering and body translation during straight flight call for different corrective maneuvers.",
+      "Giving each maneuver its own premotor circuit allows the fly to tune collision-related steering separately from gaze stabilization."
+     ]
+    ]
+   ],
+   "refs": [
+    "Duistermars BJ, Chow DM, Condro M, Frye MA (2007). The spatial, temporal and contrast properties of expansion and rotation flight optomotor responses in Drosophila. Journal of Experimental Biology 210:3218-3227. https://doi.org/10.1242/jeb.007807"
+   ]
+  },
+  {
+   "after": 8,
+   "footer_number": "08a",
+   "template_slide": 8,
+   "title": "Delay matching converts travel order into a sign",
+   "body": [
+    "When an edge crosses input A and then input B, the arm that delays A carries A's slowed signal while B's fast signal begins, so their product is large. In the mirror arm, B is the delayed input, but B was activated last; its slowed signal meets an A signal that has already faded, and that product stays small.",
+    "Subtracting the mirror arm leaves a positive output for A-to-B motion. Reversing the edge moves the overlap into the other arm and turns the output negative. A flash brightening A and B together drives both products equally, so subtraction cancels it.",
+    "The overlap is greatest when the edge's travel time between inputs matches the delay, near 25 ms in Clark's behavioral fit. Much faster motion brings B's signal before A's delayed signal has risen, and much slower motion allows that signal to decay first, so output falls on both sides of an optimum."
+   ],
+   "figure": {
+    "from_slide": 8,
+    "picture": "Picture 3",
+    "caption": "Clark et al. (2011), Fig. 2(A, B). The published correlation detector and its visual inputs."
+   },
+   "cite": "Hassenstein & Reichardt (1956); Clark et al. (2011)",
+   "moves": [
+    "mechanism",
+    "consequence",
+    "integration",
+    "foundation"
+   ],
+   "integrates": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "cited_papers_used": [
+    "10.1016/j.neuron.2011.05.023"
+   ],
+   "transcript": [
+    "Slide 8 lists the correlator's parts; following one edge through those parts explains where the sign and the speed preference come from.",
+    [
+     "The overlap of a slowed and a fast signal decides each arm's output.",
+     [
+      "A multiplier responds only when both of its inputs are active at the same moment, so it acts as a coincidence detector.",
+      "Delaying the input that the edge reaches first makes the two signals coincide, which is why only one arm responds strongly to a given direction."
+     ]
+    ],
+    [
+     "Opponent subtraction converts two unsigned products into a signed output.",
+     [
+      "This is the operation that slide 9 measured in the fitted kernel, where turning followed the imbalance between arms.",
+      "Stimuli without spatial order, such as uniform flicker, produce equal products in both arms and disappear in the subtraction."
+     ]
+    ],
+    [
+     "The same timing rule produces tuning.",
+     [
+      "Travel time between neighboring inputs depends on speed and spacing together, which is why slide 10 found tuning tied to temporal frequency.",
+      "Clark's fitted delay of about twenty-five milliseconds sets the travel time at which the overlap peaks."
+     ]
+    ]
+   ],
+   "refs": [
+    "Hassenstein B, Reichardt W (1956). Systemtheoretische Analyse der Zeit-, Reihenfolgen- und Vorzeichenauswertung bei der Bewegungsperzeption des Rüsselkäfers Chlorophanus. Zeitschrift für Naturforschung B 11:513–524. https://doi.org/10.1515/znb-1956-9-1004",
+    "Clark DA, Bursztyn L, Horowitz MA, Schnitzer MJ, Clandinin TR (2011). Defining the computational structure of the motion detector in Drosophila. Neuron 70:1165-1177. https://doi.org/10.1016/j.neuron.2011.05.023"
+   ]
+  },
+  {
+   "after": 14,
+   "footer_number": "14a",
+   "template_slide": 14,
+   "title": "Lamina signals split into fast and slow relays",
+   "body": [
+    "Each lamina neuron feeds its own set of medulla cells, and those cells differ in timing as well as polarity. In the ON route, L1 drives **Mi1** and **Tm3**, which respond transiently; in the OFF route, L2 drives **Tm1** and **Tm2**. **L3** adds a third stream, relayed by **Mi9** to T4 and by **Tm9** to T5, and both relays respond slowly and persistently.",
+    "The split supplies a correlator's ingredients from one photoreceptor array. A transient relay marks the moment an edge arrives, whereas a sustained relay keeps reporting it afterwards and so serves as the slowed input. Silencing L1 or L2 removes a whole family of relays at once, shifting the balance of bright-edge and dark-edge motion processing.",
+    "Polarity does not seal the routes. Mi9 is excited by darkening yet contacts the ON detector T4, so a cell named for bright edges receives a slow signal that rises when a neighboring column dims, one entry point for opposite-polarity information."
+   ],
+   "figure": {
+    "from_slide": 14,
+    "picture": "Picture 3",
+    "caption": "Clark et al. (2011), Fig. 3. Silencing L1 or L2 changes edge-polarity steering."
+   },
+   "cite": "Clark et al. (2011); Schnell et al. (2012); Shinomiya et al. (2019); Haag et al. (2017)",
+   "moves": [
+    "foundation",
+    "integration",
+    "mechanism",
+    "consequence"
+   ],
+   "integrates": [
+    14,
+    16,
+    26,
+    27,
+    28
+   ],
+   "cited_papers_used": [
+    "10.1016/j.neuron.2011.05.023",
+    "10.7554/elife.40025",
+    "10.7554/elife.29044",
+    "10.1007/s00359-012-0716-3"
+   ],
+   "transcript": [
+    "Slide 14 treats L1 and L2 as the two inputs to motion vision; slides 16, 26, 27 and 28 name the medulla cells that sit between them and T4 or T5.",
+    [
+     "Three lamina streams reach the detectors.",
+     [
+      "Schnell and colleagues summarize the anatomical routes as L1 to Mi1 to T4 and L2 to Tm1 to T5, and Shinomiya and colleagues add that L3 feeds the OFF side.",
+      "Mi9 and Tm9 both carry L3 signals to the tips of the T4 and T5 dendrites."
+     ]
+    ],
+    [
+     "Timing differences supply the delay line.",
+     [
+      "Haag and colleagues report that Mi9, Mi4 and Tm9 behave as low-pass filters, whereas Mi1, Tm3, Tm1, Tm2 and Tm4 behave as band-pass filters.",
+      "A slow and a fast relay from neighboring columns are exactly the pair of signals the correlator on slide 8 needs."
+     ]
+    ],
+    [
+     "The ON pathway still hears about darkness.",
+     [
+      "Mi9 responds to light decrements, so its input to T4 brings OFF information into the ON detector.",
+      "This anatomical fact fits slide 12, where opposite-polarity pairs still influenced turning."
+     ]
+    ]
+   ],
+   "refs": [
+    "Clark DA, Bursztyn L, Horowitz MA, Schnitzer MJ, Clandinin TR (2011). Defining the computational structure of the motion detector in Drosophila. Neuron 70:1165-1177. https://doi.org/10.1016/j.neuron.2011.05.023",
+    "Shinomiya K, Huang G, Lu Z, Parag T, Xu CS, Aniceto R, Ansari N, Cheatham N, Lauchie S, Neace E, Ogundeyi O, Ordish C, Peel D, Shinomiya A, Smith C, Takemura S, Talebi I, Rivlin PK, Nern A, Scheffer LK, Plaza SM, Meinertzhagen IA (2019). Comparisons between the ON- and OFF-edge motion pathways in the Drosophila brain. eLife 8:e40025. https://doi.org/10.7554/elife.40025",
+    "Haag J, Mishra A, Borst A (2017). A common directional tuning mechanism of Drosophila motion-sensing neurons in the ON and in the OFF pathway. eLife 6:e29044. https://doi.org/10.7554/elife.29044",
+    "Schnell B, Raghu SV, Nern A, Borst A (2012). Columnar cells necessary for motion responses of wide-field visual interneurons in Drosophila. Journal of Comparative Physiology A 198:389-395. https://doi.org/10.1007/s00359-012-0716-3"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 14,
+     "picture": "Picture 5",
+     "caption": "Clark et al. (2011), Fig. 4(A, B). L1/L2 terminals."
+    }
+   ]
+  },
+  {
+   "after": 15,
+   "footer_number": "15a",
+   "template_slide": 15,
+   "title": "Flicker responses travel a route that bypasses T4/T5",
+   "body": [
+    "In a Reichardt array, a uniform brightness change drives both mirror arms equally, so subtraction should leave a tangential cell nearly silent. One account therefore treated tangential-cell **flicker** responses as a small imbalance between the excitatory and inhibitory detector inputs.",
+    "That account predicts that blocking T4 and T5, which supply both detector polarities, should erase flicker responses along with motion responses. Schnell and colleagues found flicker responses only slightly reduced, so most of the flicker signal reaches horizontal- and vertical-system cells through a third input pathway.",
+    "Two silencing tools with different weaknesses support the conclusion. **Kir**, an inwardly rectifying potassium channel that holds neurons hyperpolarized, acts chronically and was confirmed to be confined to T4 and T5; shibire acts within minutes, excluding developmental compensation. Both removed depolarizing and hyperpolarizing motion responses, so all four directions rely on T4 and T5."
+   ],
+   "figure": {
+    "from_slide": 15,
+    "picture": "Picture 3",
+    "caption": "Schnell et al. (2012), Fig. 2(a–d). Motion responses disappear while flicker responses persist."
+   },
+   "cite": "Schnell et al. (2012)",
+   "moves": [
+    "method_logic",
+    "integration",
+    "consequence",
+    "mechanism"
+   ],
+   "integrates": [
+    8,
+    9,
+    15,
+    37
+   ],
+   "cited_papers_used": [
+    "10.1007/s00359-012-0716-3"
+   ],
+   "transcript": [
+    "The opponent subtraction on slides 8 and 9 makes a prediction about flicker that the block experiment on slide 15 can test.",
+    [
+     "Subtraction should cancel spatially uniform stimuli.",
+     [
+      "A flicker stimulates neighboring inputs at the same moment, so both mirror arms see the same coincidence and their difference vanishes.",
+      "Any flicker response left in a tangential cell therefore needs a separate explanation."
+     ]
+    ],
+    [
+     "The block experiment chose between two explanations.",
+     [
+      "If flicker responses were simply an imbalance between T4/T5 inputs, silencing T4 and T5 would have abolished them.",
+      "Their survival points instead to an unidentified input that carries brightness changes without direction, a result that also matters for apparent-motion experiments built from flashes."
+     ]
+    ],
+    [
+     "Two genetic tools reached the same answer.",
+     [
+      "Kir hyperpolarizes neurons throughout development, while temperature-sensitive shibire blocks vesicle recycling only when the fly is warmed.",
+      "Agreement between a chronic and an acute block means the loss of motion responses on slides 15 and 37 does not depend on either tool's side effects."
+     ]
+    ]
+   ],
+   "refs": [
+    "Schnell B, Raghu SV, Nern A, Borst A (2012). Columnar cells necessary for motion responses of wide-field visual interneurons in Drosophila. Journal of Comparative Physiology A 198:389-395. https://doi.org/10.1007/s00359-012-0716-3"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 15,
+     "picture": "Picture 5",
+     "caption": "Schnell et al. (2012), Fig. 1(a, b). T4/T5 anatomy."
+    }
+   ]
+  },
+  {
+   "after": 18,
+   "footer_number": "18a",
+   "template_slide": 18,
+   "title": "Single-column flashes separate sequence from sum",
+   "body": [
+    "Each **ommatidium** views the world along its own optical axis, and lighting the eye through the microscope objective reveals the mosaic of those axes. Haag and colleagues aligned each spot to one axis, so a flash reached a single column's photoreceptors.",
+    "Flash positions were randomized and each was repeated three times, so slow drift in the preparation could not mimic receptive-field structure. The same single-position flashes then supplied the components of every sequence test: each flash response, shifted to its time in the sequence and summed, gives the prediction for the measured response.",
+    "Simultaneous flashes at two spots mix lateral inhibition, adaptation and null-direction suppression into one combined response, whereas ordered sequences around the mapped center tie an excess or deficit to one side of the receptive field."
+   ],
+   "figure": {
+    "from_slide": 18,
+    "picture": "Picture 3",
+    "caption": "Haag et al. (2016), Fig. 1(f). Single-ommatidium stimulation optics."
+   },
+   "cite": "Haag et al. (2016)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "cited_papers_used": [
+    "10.7554/elife.17421"
+   ],
+   "transcript": [
+    "Slide 18 maps a receptive field, and slides 19 to 22 depend on that map; the method details explain why the later sequence results can be trusted.",
+    [
+     "Optical alignment gives column-level control.",
+     [
+      "The far-field pattern of the ommatidial axes appears when the eye is lit antidromically, and the stimulus display was projected onto that pattern.",
+      "That alignment allows the experimenters to claim that a given flash stimulated one cartridge rather than spreading over the eye."
+     ]
+    ],
+    [
+     "Randomized, repeated flashes give a clean baseline.",
+     [
+      "Responses to the individual positions were averaged over repetitions, and the peak of the average defined each position's strength.",
+      "Those same responses, time-shifted and added, become the linear prediction used on slides 19 to 21."
+     ]
+    ],
+    [
+     "Sequences in both directions are what distinguish the mechanisms.",
+     [
+      "A two-spot simultaneous design cannot tell which side of the field inhibits or enhances, because the stimulus contains no order.",
+      "Ordered sequences on each side of the center are what allowed slide 22 to place enhancement and suppression on opposite sides."
+     ]
+    ]
+   ],
+   "refs": [
+    "Haag J, Arenz A, Serbe E, Gabbiani F, Borst A (2016). Complementary mechanisms create direction selectivity in the fly. eLife 5:e17421. https://doi.org/10.7554/elife.17421"
+   ],
+   "paper_numbers": [
+    "three"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 18,
+     "picture": "Picture 5",
+     "caption": "Haag et al. (2016), Fig. 2(b). Measured T4 receptive field and local calcium responses."
+    }
+   ]
+  },
+  {
+   "after": 21,
+   "footer_number": "21a",
+   "template_slide": 21,
+   "title": "Two mechanisms make T4 sharply selective and robust",
+   "body": [
+    "A Reichardt **half-detector**, one arm before subtraction, responds to its preferred direction but substantially to the reverse as well. T4 and T5 recordings instead find large preferred-direction responses and near-zero null responses, before any subtraction downstream.",
+    "Enhancement alone raises the preferred response but leaves much null activity; suppression alone removes null activity but adds nothing to the preferred response. An enhancing input on one side and a suppressing input on the other produce both effects in one neuron, accounting for high selectivity at the first directional stage.",
+    "The combination also protects against noise. Subtracting two large, poorly tuned signals downstream would leave a small difference easily swamped by fluctuations. Sharpening each detector first keeps the direction signal large, and may also save energy."
+   ],
+   "figure": {
+    "from_slide": 21,
+    "picture": "Picture 3",
+    "caption": "Haag et al. (2016), Fig. 4. Sequential bars produce below-linear null-direction responses."
+   },
+   "cite": "Haag et al. (2016); Haag et al. (2017)",
+   "moves": [
+    "mechanism",
+    "consequence",
+    "integration",
+    "distinction"
+   ],
+   "integrates": [
+    9,
+    19,
+    20,
+    21
+   ],
+   "cited_papers_used": [
+    "10.7554/elife.17421",
+    "10.7554/elife.29044"
+   ],
+   "transcript": [
+    "Slides 20 and 21 present enhancement and suppression separately; the reason a neuron uses both concerns how selective and how reliable its output must be.",
+    [
+     "The classical model predicts weak selectivity in each arm.",
+     [
+      "In the Hassenstein–Reichardt scheme on slide 9, each arm still responds to null-direction motion, and only the subtraction makes the output clean.",
+      "Measured T4 and T5 responses are already highly selective, which the classical arm alone cannot explain."
+     ]
+    ],
+    [
+     "Each mechanism fixes a different part of the tuning curve.",
+     [
+      "Enhancement increases the response to the preferred sequence, as on slide 20.",
+      "Suppression drives the null response toward zero, as on slide 21, and the two together give both a large preferred response and a negligible null response."
+     ]
+    ],
+    [
+     "Selectivity before subtraction protects against noise.",
+     [
+      "Haag and colleagues point out that relying on subtraction of two large, poorly tuned signals would make the direction signal fragile.",
+      "Sharpening the local detector first keeps the direction signal large relative to the noise in each input."
+     ]
+    ]
+   ],
+   "refs": [
+    "Haag J, Arenz A, Serbe E, Gabbiani F, Borst A (2016). Complementary mechanisms create direction selectivity in the fly. eLife 5:e17421. https://doi.org/10.7554/elife.17421",
+    "Haag J, Mishra A, Borst A (2017). A common directional tuning mechanism of Drosophila motion-sensing neurons in the ON and in the OFF pathway. eLife 6:e29044. https://doi.org/10.7554/elife.29044"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 21,
+     "picture": "Picture 5",
+     "caption": "Haag et al. (2016), Fig. 1(b). T4/T5 anatomical compartments."
+    }
+   ]
+  },
+  {
+   "after": 27,
+   "footer_number": "27a",
+   "template_slide": 27,
+   "title": "Mi9 may enhance T4 by withdrawing inhibition",
+   "body": [
+    "**Disinhibition** is excitation produced by removing an inhibitory input. A chloride conductance pulls membrane voltage toward chloride's reversal potential, so while inhibition is active, excitatory input yields a smaller depolarization; once it switches off, the same input yields a larger one.",
+    "Mi9 fits this role at the T4 dendrite tip. It is excited by darkness, responds slowly and releases glutamate, and T4/T5 express GluClα. A bright edge moving in the preferred direction first brightens Mi9's column; Mi9 activity declines, and T4 is released from inhibition as the edge reaches the central Mi1 and Tm3 inputs.",
+    "Blocking Mi9 should abolish preferred-direction enhancement in T4, whereas blocking Mi4, the GABAergic input on the opposite side, should abolish null-direction suppression."
+   ],
+   "figure": {
+    "from_slide": 27,
+    "picture": "Picture 3",
+    "caption": "Takemura et al. (2017), Fig. 5. Transmitter markers in identified T4 input neurons."
+   },
+   "cite": "Haag et al. (2017); Takemura et al. (2017); Pankova & Borst (2016)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    20,
+    22,
+    26,
+    27,
+    31
+   ],
+   "cited_papers_used": [
+    "10.7554/elife.29044",
+    "10.7554/elife.24394",
+    "10.1371/journal.pone.0163986"
+   ],
+   "transcript": [
+    "Slide 27 establishes that Mi9 is glutamatergic and that T4/T5 express a glutamate-gated chloride channel; slide 20 shows enhancement on the preferred side. Haag and colleagues connect these facts.",
+    [
+     "Inhibition changes how much excitation achieves.",
+     [
+      "An open chloride channel clamps the membrane near chloride's reversal potential and lowers the input resistance, so excitatory current produces less depolarization.",
+      "Removing that conductance makes the dendrite more responsive at exactly the moment it is withdrawn."
+     ]
+    ],
+    [
+     "Mi9's properties match the timing requirement.",
+     [
+      "Mi9 sits at the dendrite tip, responds to darkening and acts as a low-pass filter, so its activity changes slowly after a bright edge passes its column.",
+      "If its glutamate acts through GluClα, a bright edge reduces ongoing inhibition just before the central inputs fire, producing a supralinear preferred-direction response."
+     ]
+    ],
+    [
+     "The idea can be tested input by input.",
+     [
+      "Haag and colleagues predict that silencing Mi9 would remove enhancement, whereas silencing Mi4 would remove null-direction suppression.",
+      "Such effects would be clearest in T4 itself, since downstream subtraction on tangential cells could hide them in behavior."
+     ]
+    ]
+   ],
+   "refs": [
+    "Haag J, Mishra A, Borst A (2017). A common directional tuning mechanism of Drosophila motion-sensing neurons in the ON and in the OFF pathway. eLife 6:e29044. https://doi.org/10.7554/elife.29044",
+    "Takemura SY, Nern A, Chklovskii DB, Scheffer LK, Rubin GM, Meinertzhagen IA (2017). The comprehensive connectome of a neural substrate for 'ON' motion detection in Drosophila. eLife 6:e24394. https://doi.org/10.7554/elife.24394",
+    "Pankova K, Borst A (2016). RNA-Seq Transcriptome Analysis of Direction-Selective T4/T5 Neurons in Drosophila. PLoS ONE 11:e0163986. https://doi.org/10.1371/journal.pone.0163986"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 27,
+     "picture": "Picture 5",
+     "caption": "Takemura et al. (2017), Fig. 2(A–D). T4 inputs."
+    }
+   ]
+  },
+  {
+   "after": 29,
+   "footer_number": "29a",
+   "template_slide": 29,
+   "title": "Input timing assigns each partner to a detector arm",
+   "body": [
+    "An input's time course decides its role. Mi9 and Mi4 are **low-pass**, responding slowly and persistently, whereas Mi1 and Tm3 are **band-pass**, responding quickly and briefly to change. The slow cells occupy the dendrite's ends and the fast cells its center, the layout a three-input detector requires.",
+    "For T5, Tm9 is the only low-pass input, while Tm1, Tm2 and Tm4 are band-pass filters with different time constants. A model placing the two slowest cells, Tm1 and Tm9, on the outer arms and the fast Tm2 at the center matched both the high direction selectivity and the temporal-frequency optimum of real T5 cells.",
+    "Function can also revise an anatomical label. Tm9 sits at the T5 dendrite tip, an enhancer location, yet silencing it impaired dark-edge detection more than silencing Tm1 and Tm2 together, so Tm9 carries a large share of the OFF signal itself."
+   ],
+   "figure": {
+    "from_slide": 29,
+    "picture": "Picture 3",
+    "caption": "Shinomiya et al. (2019), Fig. 4. ON and OFF synapses occupy comparable dendritic zones."
+   },
+   "cite": "Haag et al. (2017); Shinomiya et al. (2019)",
+   "moves": [
+    "integration",
+    "mechanism",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    16,
+    22,
+    24,
+    26,
+    28,
+    29
+   ],
+   "cited_papers_used": [
+    "10.7554/elife.29044",
+    "10.7554/elife.40025"
+   ],
+   "transcript": [
+    "Slides 25 to 29 locate the inputs, and slides 20 to 24 describe the operations; the response timing of each input is what links the two.",
+    [
+     "Slow inputs at the ends, fast inputs in the middle.",
+     [
+      "Haag and colleagues report that Mi9 and Mi4 show the low-pass properties expected of the enhancing and suppressing arms, while Mi1 and Tm3 show the fast band-pass properties of the central arm.",
+      "That correspondence turns the reconstruction on slide 26 and slide 27 into a circuit hypothesis with a timing logic."
+     ]
+    ],
+    [
+     "The same rule works for the OFF detector.",
+     [
+      "Placing Tm1 and Tm9 on the outer arms with Tm2 central reproduced the selectivity and temporal optimum of T5 cells.",
+      "The match extends the shared organization of slide 29 from geometry to timing."
+     ]
+    ],
+    [
+     "Location alone can mislead.",
+     [
+      "Shinomiya and colleagues caution that Tm9's large contribution to dark-edge detection makes it more than a simple enhancer.",
+      "An input at an enhancer location can therefore also supply much of the main signal."
+     ]
+    ]
+   ],
+   "refs": [
+    "Haag J, Mishra A, Borst A (2017). A common directional tuning mechanism of Drosophila motion-sensing neurons in the ON and in the OFF pathway. eLife 6:e29044. https://doi.org/10.7554/elife.29044",
+    "Shinomiya K, Huang G, Lu Z, Parag T, Xu CS, Aniceto R, Ansari N, Cheatham N, Lauchie S, Neace E, Ogundeyi O, Ordish C, Peel D, Shinomiya A, Smith C, Takemura S, Talebi I, Rivlin PK, Nern A, Scheffer LK, Plaza SM, Meinertzhagen IA (2019). Comparisons between the ON- and OFF-edge motion pathways in the Drosophila brain. eLife 8:e40025. https://doi.org/10.7554/elife.40025"
+   ]
+  },
+  {
+   "after": 33,
+   "footer_number": "33a",
+   "template_slide": 33,
+   "title": "Expression patterns narrow where the delay can arise",
+   "body": [
+    "A correlator needs a delay and a supralinear interaction. If slow and fast presynaptic cells create the delay, the dendrite only has to combine coincident inputs supralinearly. Inside T4/T5, two inputs could instead act through receptors of different speeds: **ionotropic** receptors open within milliseconds, whereas **metabotropic** receptors act through slower intracellular cascades.",
+    "Pankova and Borst used missing transcripts to remove candidates. Neither innexin gap-junction proteins nor inwardly rectifying potassium channels were detected, ruling out rectifying electrical synapses and Kir deactivation as amplifiers. Low expression of functional NMDA receptor subunits and weak KCNQ expression made those amplification mechanisms unlikely.",
+    "Elimination leaves voltage-gated sodium and calcium channels as the leading amplifiers of coincident input, and receptor kinetics as one candidate delay source. The GABA receptors and GluClα in the same cells supply a substrate for null-direction suppression."
+   ],
+   "figure": {
+    "from_slide": 33,
+    "picture": "Picture 3",
+    "caption": "Pankova & Borst (2016), Fig. 5. Potassium-channel transcripts on the original RPKM scale."
+   },
+   "cite": "Pankova & Borst (2016)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "integration",
+    "mechanism"
+   ],
+   "integrates": [
+    20,
+    21,
+    31,
+    32,
+    33
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0163986"
+   ],
+   "transcript": [
+    "Slides 31 to 33 list what T4/T5 express; Pankova and Borst used the list to ask where the Reichardt delay and multiplication could be implemented.",
+    [
+     "Two places for the delay.",
+     [
+      "The delay could be built before T4/T5 by inputs with different dynamics, or inside T4/T5 by receptors with different activation speeds.",
+      "Ionotropic receptors gate a channel directly, whereas metabotropic receptors act through G proteins, so the same transmitter can produce fast or slow effects."
+     ]
+    ],
+    [
+     "Absence of a transcript is informative.",
+     [
+      "No innexins means no electrical synapses onto T4/T5, and no Kir channels removes a mechanism in which closing a potassium conductance amplifies coincident input.",
+      "NMDA receptors and KCNQ channels, both proposed amplifiers in other systems, were expressed too weakly to be likely contributors."
+     ]
+    ],
+    [
+     "What remains links molecules to the measured operations.",
+     [
+      "Voltage-gated sodium and calcium channels on slide 32 are the remaining candidates for amplifying coincident inputs, which is what preferred-direction enhancement requires.",
+      "Inhibitory receptors from slide 31 provide a route for the suppression measured on slide 21."
+     ]
+    ]
+   ],
+   "refs": [
+    "Pankova K, Borst A (2016). RNA-Seq Transcriptome Analysis of Direction-Selective T4/T5 Neurons in Drosophila. PLoS ONE 11:e0163986. https://doi.org/10.1371/journal.pone.0163986"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 33,
+     "picture": "Picture 5",
+     "caption": "Pankova & Borst (2016), Fig. 2(A, B). Labeled T4/T5 neurons and isolated nuclei."
+    }
+   ]
+  },
+  {
+   "after": 35,
+   "footer_number": "35a",
+   "template_slide": 35,
+   "title": "A calcium threshold discards small null responses",
+   "body": [
+    "Voltage-gated calcium channels open appreciably only once the membrane is depolarized past a certain level, and above that level calcium entry rises steeply. A voltage response that stays below the level adds almost no calcium, however long it lasts.",
+    "Dendritic enhancement and suppression leave T4 with a large preferred-direction depolarization and a smaller but real null-direction depolarization. Passing both through the steep voltage-to-calcium step keeps most of the large response and removes most of the small one, so the ratio between them grows and selectivity rises at a second stage.",
+    "The calcium measurements of enhancement and suppression in T4 and T5 were taken after this second step. The nonlinear components they report can therefore include the threshold's contribution as well as the dendritic interactions between inputs."
+   ],
+   "figure": {
+    "from_slide": 35,
+    "picture": "Picture 3",
+    "caption": "Mishra et al. (2023), Fig. 2(A, B). ArcLight and GCaMP motion responses and their speed dependence."
+   },
+   "cite": "Mishra et al. (2023); Haag et al. (2016)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    19,
+    20,
+    21,
+    32,
+    35
+   ],
+   "cited_papers_used": [
+    "10.1523/jneurosci.2297-22.2023",
+    "10.7554/elife.17421"
+   ],
+   "transcript": [
+    "Slide 35 compares voltage and calcium in the same subtype; a threshold-like step between them explains why the two readouts differ.",
+    [
+     "Calcium channels convert voltage nonlinearly.",
+     [
+      "Slide 32 established that T4/T5 express voltage-gated calcium channels, which open increasingly steeply as the membrane depolarizes.",
+      "Small depolarizations therefore generate little calcium, while large ones generate much more."
+     ]
+    ],
+    [
+     "The step sharpens tuning.",
+     [
+      "Null-direction voltage on slide 35 was clearly present, but much of it falls in the range where calcium entry is minimal.",
+      "Mishra and colleagues modeled this with thresholding, temporal filtering and a static nonlinearity, and the cascade reproduced calcium responses across stimuli."
+     ]
+    ],
+    [
+     "Earlier calcium data include this step.",
+     [
+      "The enhancement and suppression on slides 19 to 21 were measured with a calcium indicator.",
+      "Part of the nonlinearity seen there can arise between voltage and calcium rather than between synaptic inputs."
+     ]
+    ]
+   ],
+   "refs": [
+    "Mishra A, Serbe-Kamp E, Borst A, Haag J (2023). Voltage to Calcium Transformation Enhances Direction Selectivity in Drosophila T4 Neurons. Journal of Neuroscience 43:2497-2514. https://doi.org/10.1523/jneurosci.2297-22.2023",
+    "Haag J, Arenz A, Serbe E, Gabbiani F, Borst A (2016). Complementary mechanisms create direction selectivity in the fly. eLife 5:e17421. https://doi.org/10.7554/elife.17421"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 35,
+     "picture": "Picture 5",
+     "caption": "Mishra et al. (2023), Fig. 1(A, B). T4c anatomy."
+    }
+   ]
+  },
+  {
+   "after": 39,
+   "footer_number": "39a",
+   "template_slide": 39,
+   "title": "Opposite layers drive tangential cells both ways",
+   "body": [
+    "Each lobula plate layer holds the T4 and T5 terminals of one preferred direction. A tangential cell's dendrite spreads through the layer whose terminals share its preferred direction, and those cholinergic terminals excite it directly, so motion in that direction depolarizes the cell.",
+    "Motion the other way activates the T4/T5 subtype in the layer tuned to the opposite direction. Being cholinergic, those terminals excite inhibitory interneurons, which then hyperpolarize the tangential cell. The cell thus subtracts oppositely tuned detectors, the opponent stage of the Reichardt model built from two transmitter systems.",
+    "The result is a signed voltage able to drive turning either way. This downstream subtraction repeats, across the population, the null-direction suppression already present on T4 and T5 dendrites, so direction is sharpened both in each local detector and in the wide-field cell pooling them."
+   ],
+   "figure": {
+    "from_slide": 39,
+    "picture": "Picture 3",
+    "caption": "Mauss et al. (2014), Fig. 5(A–F). Pharmacology and the published feedforward circuit."
+   },
+   "cite": "Mauss et al. (2014); Haag et al. (2017)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence",
+    "foundation"
+   ],
+   "integrates": [
+    9,
+    17,
+    21,
+    37,
+    38,
+    39
+   ],
+   "cited_papers_used": [
+    "10.1523/jneurosci.3938-13.2014",
+    "10.7554/elife.29044"
+   ],
+   "transcript": [
+    "T4/T5 excite tangential cells directly and inhibit them indirectly, according to slides 37 to 39; the four layers on slide 17 explain how one cell receives both.",
+    [
+     "Matching layer, direct excitation.",
+     [
+      "Mauss and colleagues describe tangential cells as depolarized during preferred-direction and hyperpolarized during null-direction motion.",
+      "The depolarizing input comes from the T4/T5 subtype whose preferred direction matches the cell's."
+     ]
+    ],
+    [
+     "Opposite layer, relayed inhibition.",
+     [
+      "Since T4/T5 are cholinergic, opposite-direction detectors can reduce the tangential cell's voltage only through inhibitory interneurons, consistent with the feedforward circuit on slide 39.",
+      "The tangential-cell dendrite is therefore where the two mirror-symmetric detector outputs of slide 9 are subtracted."
+     ]
+    ],
+    [
+     "Two subtractions in series.",
+     [
+      "Haag and colleagues point out that this population subtraction replicates, one stage later, the null-direction suppression measured on slide 21.",
+      "The fly therefore sharpens direction twice, once within each local detector and once in the wide-field neuron."
+     ]
+    ]
+   ],
+   "refs": [
+    "Mauss AS, Meier M, Serbe E, Borst A (2014). Optogenetic and pharmacologic dissection of feedforward inhibition in Drosophila motion vision. Journal of Neuroscience 34:2254-2263. https://doi.org/10.1523/jneurosci.3938-13.2014",
+    "Haag J, Mishra A, Borst A (2017). A common directional tuning mechanism of Drosophila motion-sensing neurons in the ON and in the OFF pathway. eLife 6:e29044. https://doi.org/10.7554/elife.29044"
+   ]
+  },
+  {
+   "after": 42,
+   "footer_number": "42a",
+   "template_slide": 42,
+   "title": "A small steady signal couples ON and OFF paths",
+   "body": [
+    "A **DC component** is the part of a neuron's signal that tracks steady light level rather than its changes. In a rectified ON channel, an input that reports only change drops to zero after a dark step; an input that also carries a steady offset keeps a nonzero value, so a contrast-reversing pair can still interact in a channel built for bright edges.",
+    "Medulla recordings support such offsets. Mi1 and Tm3 retain steady components of roughly 10–20% of their transient peaks, and Mi4, Mi9 and Tm9 respond almost purely to steady light. Leonhardt's fit gave the OFF pathway a negative offset, which predicts the weaker reverse-phi responses of T5 compared with T4 dendrites.",
+    "Four-quadrant correlators multiply every ON and OFF pairing with the correct sign, an operation that appears biophysically prohibitive, whereas each two-quadrant subunit maps onto T4 or T5. Cross-polarity sensitivity may also reduce noise, suppressing spurious fluctuations that multiplication would amplify."
+   ],
+   "figure": {
+    "from_slide": 42,
+    "picture": "Picture 3",
+    "caption": "Leonhardt et al. (2017), Fig. 9. Measured responses and published detector predictions."
+   },
+   "cite": "Leonhardt et al. (2017)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "distinction"
+   ],
+   "integrates": [
+    11,
+    12,
+    16,
+    41,
+    42
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0189019"
+   ],
+   "transcript": [
+    "Slide 42 introduces a constant-luminance term in the two-quadrant model; the medulla data explain where such a term could come from and why the model is preferred.",
+    [
+     "A steady offset survives rectification.",
+     [
+      "Rectification discards negative values, so a purely transient ON input is silent after darkening.",
+      "With a steady offset, the signal remains above zero and can still enter the multiplication, which gives the ON detector limited sensitivity to dark events."
+     ]
+    ],
+    [
+     "The offsets are measurable in the inputs.",
+     [
+      "Leonhardt and colleagues cite recordings showing steady components in Mi1 and Tm3 and purely sustained signals in Mi4, Mi9 and Tm9.",
+      "Their fitted negative offset for the OFF pathway matches the smaller T5 reverse-phi responses on slide 41."
+     ]
+    ],
+    [
+     "The two-quadrant design is easier to build.",
+     [
+      "Sign-correct multiplication of every polarity pairing is hard to implement with neurons, whereas the two-quadrant model needs only T4 and T5.",
+      "The authors also raise the possibility that limited cross-polarity sensitivity helps suppress noise in motion signals."
+     ]
+    ]
+   ],
+   "refs": [
+    "Leonhardt A, Meier M, Serbe E, Eichner H, Borst A (2017). Neural mechanisms underlying sensitivity to reverse-phi motion in the fly. PLoS ONE 12:e0189019. https://doi.org/10.1371/journal.pone.0189019",
+    "Clark DA, Bursztyn L, Horowitz MA, Schnitzer MJ, Clandinin TR (2011). Defining the computational structure of the motion detector in Drosophila. Neuron 70:1165-1177. https://doi.org/10.1016/j.neuron.2011.05.023"
+   ],
+   "paper_numbers": [
+    "10–20%"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 42,
+     "picture": "Picture 5",
+     "caption": "Leonhardt et al. (2017), Fig. 6. Published four- and two-quadrant computational accounts."
+    }
+   ]
+  },
+  {
+   "after": 44,
+   "footer_number": "44a",
+   "template_slide": 44,
+   "title": "A subtractive circuit can overturn optomotor turning",
+   "body": [
+    "Reducing the gain of the ordinary reflex only weakens turning with the pattern; it never reverses it. Reversal needs a second signal of opposite sign that grows over seconds until it outweighs the syn-directional drive, an antagonistic, subtractive operation downstream of the detectors.",
+    "Blocking HS cells slightly reduced ordinary turning but left anti-directional turning intact, whereas blocking **CH cells** increased turning with the stimulus and reduced turning against it. CH cells, which responded faster than HS cells and lowered their calcium for null-direction motion, take part in the antagonistic drive.",
+    "The opposing process follows motion direction, not contrast alone. Adapting with front-to-back or back-to-front motion of identical contrast produced different later turning, and the 1–2 s needed for reversal is slower than the fly's contrast adaptation."
+   ],
+   "figure": {
+    "from_slide": 44,
+    "picture": "Picture 3",
+    "caption": "Mano et al. (2023), Fig. 5(a–e). T4, T5, HS and CH responses during sustained motion."
+   },
+   "cite": "Mano et al. (2023)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "method_logic",
+    "consequence"
+   ],
+   "integrates": [
+    2,
+    43,
+    44,
+    45
+   ],
+   "cited_papers_used": [
+    "10.7554/elife.86076"
+   ],
+   "transcript": [
+    "Slides 43 and 44 show a reversal that T4/T5 are needed for but do not themselves express; Mano and colleagues argue for an opposing circuit downstream.",
+    [
+     "Gain changes cannot produce a reversal.",
+     [
+      "Adaptation that scales the optomotor signal could bring turning toward zero, but turning against the stimulus requires an opposite-signed contribution.",
+      "The authors therefore infer a subtractive operation that dominates on long timescales."
+     ]
+    ],
+    [
+     "Silencing identifies a participating cell class.",
+     [
+      "HS-cell block affected only ordinary turning, so HS output is not specifically required for the anti-directional response.",
+      "CH-cell block shifted flies toward turning with the stimulus, implicating CH cells in the opposing pathway."
+     ]
+    ],
+    [
+     "Direction-specific adaptation rules out a pure contrast account.",
+     [
+      "Front-to-back and back-to-front adapters contain the same contrast, yet they produced different turning afterwards.",
+      "The slow timing, about one to two seconds before the switch on slide 43, also exceeds the speed of known contrast adaptation in the fly visual system."
+     ]
+    ]
+   ],
+   "refs": [
+    "Mano O, Choi M, Tanaka R, Creamer MS, Matos NCB, Shomar JW, Badwan BA, Clandinin TR, Clark DA (2023). Long-timescale anti-directional rotation in <i>Drosophila</i> optomotor behavior. eLife 12:e86076. https://doi.org/10.7554/elife.86076"
+   ],
+   "paper_numbers": [
+    "1–2"
+   ]
+  }
+ ],
+ "original_edits": [
+  {
+   "slide": 3,
+   "old": "Each 3-s test followed closed-loop control of a vertical stripe. The expansion stimulus was an approximation to translation, with an abrupt velocity reversal between hemispheres, rather than the smooth flow field of natural forward flight.",
+   "new": "Each 3-s test followed closed-loop control of a vertical stripe. In free flight, expansion arises from translation during straight flight and rotation from body turns while hovering, so each stimulus imitates a different maneuver."
+  },
+  {
+   "slide": 4,
+   "old": "Expansion generally elicited stronger steering than rotation, but both responses plateaued at approximately 3–10 Hz and declined near 30 Hz. Comparable temporal tuning is consistent with shared elementary motion processing; different response magnitudes do not establish separate local detectors.",
+   "new": "Expansion generally elicited stronger steering than rotation, but both responses plateaued at approximately 3–10 Hz and declined near 30 Hz. Expansion steering was directed away from the focus of expansion, the turn that avoids collisions and maintains an upwind flight posture."
+  },
+  {
+   "slide": 6,
+   "old": "The elementary motion detector is a local computation comparing signals from different visual positions over time. Its historical derivation described operations sufficient to explain behavior. Later fly experiments tested that computation and investigated its neural implementation; the beetle experiments did not identify T4 or T5 neurons.",
+   "new": "The elementary motion detector is a local computation comparing signals from different visual positions over time. Many such detectors tile the eye, and summing their outputs around the drum yields the wide-field turning signal the weevil expressed. In flies, T4 and T5 neurons later proved to carry these local signals."
+  },
+  {
+   "slide": 8,
+   "old": "Clark's random-bar experiments supported this correlation structure in fly turning, with a fitted delay filter peaking near 25 ms. The diagram is a computational model. A delay box and multiplier do not, by themselves, identify particular neurons, channels or synapses that implement those operations.",
+   "new": "Clark's random-bar experiments supported this correlation structure in fly turning, with a fitted delay filter peaking near 25 ms. Clark and colleagues then traced two critical inputs of the correlator to lamina pathways favoring light-edge and dark-edge motion, linking the model to identified cells."
+  },
+  {
+   "slide": 9,
+   "old": "The fit accounted for only a small fraction of the variability under this weak random-bar stimulus. Agreement with the average directional interaction supports the model's computational structure while leaving substantial behavioral fluctuations and downstream response dynamics unexplained.",
+   "new": "Averaging many trials isolates this directional interaction from turns unrelated to the stimulus. The fitted model then passes the detector output through a separate behavioral filter, representing the slower dynamics of steering that follow local motion detection."
+  },
+  {
+   "slide": 10,
+   "old": "Changing wavelength changes the time between neighboring contrast events at a fixed speed. A detector can therefore respond differently to two patterns moving at the same velocity. Behavioral tuning constrains the overall computation, but it also includes spatial pooling, adaptation and the dynamics of the motor response.",
+   "new": "Changing wavelength changes the time between neighboring contrast events at a fixed speed. A detector can therefore respond differently to two patterns moving at the same velocity. A fly estimating its own rotation from such signals obtains a reliable direction but a speed reading that depends on the scene's spatial structure."
+  },
+  {
+   "slide": 11,
+   "old": "Contrast inversion changes the sign of interactions between neighboring signals in a correlation computation. Reverse-phi therefore probes the detector's operations, rather than simply testing whether the fly can track an identifiable object. The illusion's dependence on velocity limits a single universal prediction of opposite-direction turning.",
+   "new": "Contrast inversion changes the sign of interactions between neighboring signals in a correlation computation. Reverse-phi therefore probes the detector's operations, rather than simply testing whether the fly can track an identifiable object. Walking flies reproduced the reversal and re-inversion reported in flight, placing the mechanism in shared sensory processing."
+  },
+  {
+   "slide": 12,
+   "old": "These results constrain how ON and OFF pathways can implement the correlation computation. Processing bright and dark events separately cannot mean that all opposite-polarity influences are absent. Behavioral sensitivity identifies effective operations, but it does not establish the membrane mechanism or exact synaptic site of each interaction.",
+   "new": "These results constrain how ON and OFF pathways can implement the correlation computation. Opposite-polarity pairs still influence turning, so some interaction between bright and dark signals survives in the circuit. The L1 and L2 pathways differ most in their sensitivity to these contrast-reversing correlations, which underlie reverse phi."
+  },
+  {
+   "slide": 13,
+   "old": "Shinomiya and colleagues reconstructed neurons and synapses with focused-ion-beam scanning electron microscopy. T4 dendrites occupy medulla layer M10, whereas T5 dendrites occupy lobula layer Lo1. Their axons converge in the lobula plate. Anatomical position distinguishes the two processing routes but does not establish their temporal response properties.",
+   "new": "Shinomiya and colleagues reconstructed neurons and synapses with focused-ion-beam scanning electron microscopy. T4 dendrites occupy medulla layer M10, whereas T5 dendrites occupy lobula layer Lo1. Their axons converge in the lobula plate. Each dendrite spans roughly three columns, enough to compare neighboring points in space."
+  },
+  {
+   "slide": 14,
+   "old": "L1-associated processing favored light-edge motion, whereas L2-associated processing favored dark-edge motion. Both pathways retained overlapping computations, and their terminal calcium signals were not simply opposite-polarity channels. The behavioral division cannot be inferred solely from the sign of a lamina neuron's response to light.",
+   "new": "L1-associated processing favored light-edge motion, whereas L2-associated processing favored dark-edge motion. Both pathways retained overlapping computations, and their terminal calcium signals were not simply opposite-polarity channels. A model weighting their shared operations differently reproduced the observed edge preferences."
+  },
+  {
+   "slide": 16,
+   "old": "Haag and colleagues measured direction-dependent calcium responses in both pathways. Parallel organization refers to different input populations and edge preferences, not to completely isolated computations. Opposite-polarity influences and baseline signals can still contribute to a neuron preferentially driven by one edge sign.",
+   "new": "Haag and colleagues measured direction-dependent calcium responses in both pathways. ON and OFF pathways appear adapted to the asymmetric statistics of bright and dark in natural scenes, differing in quantities such as time constants while computing direction the same way."
+  },
+  {
+   "slide": 18,
+   "old": "T4 neurons responded most strongly near the receptive-field center and less strongly at neighboring positions. Mapping isolated local responses established a reference for sequence experiments. Calcium fluorescence reports a consequence of cellular activity; it is not a direct measurement of membrane voltage or synaptic current.",
+   "new": "T4 neurons responded most strongly near the receptive-field center and less strongly at neighboring positions. Mapping isolated local responses established a reference for sequence experiments. T4 cells were identified by their responses to light onset, since T5 cells respond instead to light offset."
+  },
+  {
+   "slide": 19,
+   "old": "Subtracting the linear prediction from the measured response separated enhancement from suppression. The experiment locates direction-dependent computation at or before T4 output, but calcium imaging alone cannot identify the exact synaptic conductance generating the nonlinear component.",
+   "new": "Subtracting the linear prediction from the measured response separated enhancement from suppression. Directional responses first appear at this stage: T4 and T5 are the earliest neurons along the optic-lobe processing chain with direction-selective activity."
+  },
+  {
+   "slide": 20,
+   "old": "A delayed excitatory interaction is consistent with a Reichardt-like enhancement mechanism. The response excess does not prove that two neurons perform a literal arithmetic multiplication, nor does the effective stimulus interval identify a single channel's opening time.",
+   "new": "A delayed excitatory interaction is consistent with a Reichardt-like enhancement mechanism. The earlier input's slow signal persists until the stimulus reaches the center, where it amplifies the fast central response."
+  },
+  {
+   "slide": 21,
+   "old": "Suppression is compatible with an inhibitory or divisive interaction, but the calcium response alone does not distinguish those biophysical possibilities. It complements preferred-direction enhancement: directional tuning can reflect both an increased response to one sequence and a reduced response to its reverse.",
+   "new": "Suppression fits an inhibitory input whose delayed signal arrives from the null side and cancels the following central excitation. It complements preferred-direction enhancement: directional tuning can reflect both an increased response to one sequence and a reduced response to its reverse."
+  },
+  {
+   "slide": 22,
+   "old": "The studies used different measurements and preparations. Correspondence between displaced inputs and nonlinear response regions constrains candidate mechanisms; it does not assign every physiological component to one identified synapse or directly measure transmission delays in the reconstructed neurons.",
+   "new": "Offset enhancement and suppression zones require each T4 to collect input from more than two neighboring image points and from more than two cell types. The connectome meets both requirements, sorting T4 inputs into three spatially separate groups."
+  },
+  {
+   "slide": 23,
+   "old": "The same classes of nonlinear operation can therefore occur in both ON and OFF pathways despite different input neurons and dendritic locations. A shared computation does not require identical receptive-field size, synaptic chemistry or temporal filtering in T4 and T5.",
+   "new": "The same classes of nonlinear operation can therefore occur in both ON and OFF pathways despite different input neurons and dendritic locations. Photoreceptor optics blur each spot over about 5°, so a larger spot raises intensity in the central column and recruits neighbors."
+  },
+  {
+   "slide": 24,
+   "old": "Enhancement and suppression therefore form a common functional organization across the tested ON and OFF subtypes. The subtype comparisons establish the generality of these operations under the experimental conditions; they do not establish that every input weight, channel complement or adaptation response is identical.",
+   "new": "Enhancement and suppression therefore form a common functional organization across the tested ON and OFF subtypes. Every subtype can be described by a delayed, low-pass input on the preferred side enhancing a fast central input, followed by suppression from a low-pass input on the null side."
+  },
+  {
+   "slide": 25,
+   "old": "Input position constrains which spatial signals can interact within T4. Synapse number measures anatomical connectivity, not physiological strength. The reconstruction does not directly establish receptor density, release probability or the response kinetics of an individual connection.",
+   "new": "Input position constrains which spatial signals can interact within T4. Putatively excitatory inputs cluster along the shafts, whereas inhibitory inputs gather at the bases, so excitation and inhibition reach separate dendritic regions."
+  },
+  {
+   "slide": 26,
+   "old": "The expanded reconstruction did not reproduce a consistent Mi1–Tm3 spatial offset proposed from an earlier volume. Strong central input alone therefore does not identify the complete Reichardt detector. Additional displaced inputs and their functional time courses must be considered when interpreting directional computation.",
+   "new": "The expanded reconstruction did not reproduce a consistent Mi1–Tm3 spatial offset proposed from an earlier volume. Mi1 and Tm3 instead act together as the central input, and the spatial offset needed for direction selectivity comes from inputs at the dendrite tip and base."
+  },
+  {
+   "slide": 27,
+   "old": "Glutamate is not necessarily excitatory in the fly. T4/T5 transcriptomics detected GluClα, a glutamate-gated chloride channel associated with hyperpolarizing responses. Input chemistry, receptor identity and membrane conditions jointly determine response sign; a transmitter marker alone does not measure the current at a T4 synapse.",
+   "new": "Glutamate is not necessarily excitatory in the fly. T4/T5 transcriptomics detected GluClα, a glutamate-gated chloride channel associated with hyperpolarizing responses. C3 and CT1 also labeled for GAD1, so every input at the T4 dendrite base appears GABAergic and inhibitory."
+  },
+  {
+   "slide": 28,
+   "old": "These spatial relationships resemble the differentiated input zones of T4 while using a different set of relay neurons. Electron microscopy establishes connection geometry. The temporal ordering of those input signals and the nonlinear interaction producing an OFF-motion response require separate functional evidence.",
+   "new": "These spatial relationships resemble the differentiated input zones of T4 while using a different set of relay neurons. CT1 is the only inhibitory columnar input to T5 and the only one displaced from the two excitatory groups, making it the candidate suppressor."
+  },
+  {
+   "slide": 29,
+   "old": "The shared pattern is a repeated organizational principle, not identical wiring. Additional partners and local outputs differ between the pathways. A circuit comparison therefore supports common computational constraints while preserving pathway-specific opportunities for timing, feedback and contrast dependence.",
+   "new": "The shared pattern is a repeated organizational principle with pathway-specific partners. Both dendrites also receive input at their tips from other T4 or T5 cells of the same subtype, an excitatory link among detectors sharing one preferred direction."
+  },
+  {
+   "slide": 30,
+   "old": "A longer anatomical route need not have a uniquely determined delay, and a large contact count need not imply a fixed response weight. Physiology, receptor measurements and selective perturbation must establish those functional properties. The Reichardt algorithm and connectome can be consistent without identifying a single two-neuron implementation.",
+   "new": "Route length still offers a timing clue: Mi4, C3 and CT1 receive no direct lamina input, so their inhibition reaches the dendrite base one synapse later than the central signals. The connectome thus holds substrates for both enhancement-based and suppression-based detectors, matching T4 recordings of both operations."
+  },
+  {
+   "slide": 31,
+   "old": "The published heat map reports RPKM, reads per kilobase of transcript per million mapped reads, on a 0–100 color scale. The assay pooled T4 and T5 and measured RNA. It did not establish protein abundance, receptor location or functional responses separately in each cell class.",
+   "new": "The published heat map reports RPKM, reads per kilobase of transcript per million mapped reads, on a 0–100 color scale. Both ionotropic and G-protein-coupled receptors were found for acetylcholine, glutamate and GABA."
+  },
+  {
+   "slide": 32,
+   "old": "Channel expression provides molecular candidates for active processing and calcium entry in T4/T5. The transcriptome does not establish that these neurons fire sodium action potentials, identify the channels carrying a recorded calcium signal, or prove that one channel implements the detector's effective temporal delay.",
+   "new": "Channel expression provides molecular candidates for active processing and calcium entry in T4/T5. Calcium entering through voltage-gated channels is the step that triggers transmitter release, linking dendritic voltage to the signal T4/T5 pass to tangential cells."
+  },
+  {
+   "slide": 33,
+   "old": "The authors proposed that active membrane conductances could contribute to delays and nonlinear interactions within motion detectors. This is a mechanistic possibility supported by molecular capacity, not a demonstration that a named potassium channel generates preferred-direction enhancement or null-direction suppression. Channel-specific causal experiments are required.",
+   "new": "The authors proposed that active membrane conductances could contribute to delays and nonlinear interactions within motion detectors. Leak channels such as Task7 and CG1688, the hyperpolarization-activated channel Ih, and low-threshold channels such as Shab and Shaw, if unevenly distributed, could filter inputs differently in separate dendritic regions."
+  },
+  {
+   "slide": 34,
+   "old": "The transcriptome also detected vesicular GABA-transporter expression, creating a molecular question about additional signaling. Expression alone does not establish functional GABA release. The physiological and pharmacological results support a primarily cholinergic output with an indirect inhibitory route rather than direct inhibitory transmission from every T4/T5 terminal.",
+   "new": "The transcriptome also detected vesicular GABA-transporter expression, while Gad1, the usual GABA-synthesis enzyme in flies, was expressed only weakly. The physiological and pharmacological results support a primarily cholinergic output, with inhibition of tangential cells routed through intervening neurons."
+  },
+  {
+   "slide": 35,
+   "old": "The voltage-to-calcium transformation therefore contributes to measured direction selectivity rather than simply copying membrane voltage. Calcium-based estimates of the circuit's selectivity can exceed voltage-based estimates. The comparison used different labeled preparations for the two indicators, so it does not amount to simultaneous voltage and calcium recording from one neuron.",
+   "new": "The voltage-to-calcium transformation therefore contributes to measured direction selectivity rather than simply copying membrane voltage. Calcium-based estimates of the circuit's selectivity can exceed voltage-based estimates. Tangential-cell recordings with other inputs blocked matched the calcium tuning of T4, so downstream neurons receive the sharpened signal."
+  },
+  {
+   "slide": 36,
+   "old": "The authors compared published filtering and nonlinear-transform models with the measurements. A successful model describes the relationship between indicators; it does not identify a unique channel or synaptic receptor. Synaptic direction computation and the later voltage-to-calcium transformation are distinct contributions that can coexist within T4.",
+   "new": "The authors compared published filtering and nonlinear-transform models with the measurements. Their model passed voltage through a threshold, a temporal filter and a static nonlinearity in sequence, reproducing calcium responses across stimuli. Synaptic direction computation and the later voltage-to-calcium transformation are distinct contributions that can coexist within T4."
+  },
+  {
+   "slide": 37,
+   "old": "Mauss and colleagues labeled T4/T5 terminals together with recorded LPTCs, relating the input population to its downstream targets. Pooling explains a change in spatial scale; its anatomical presence does not specify the complete transformation from lobula plate activity to steering torque or walking turns.",
+   "new": "Mauss and colleagues labeled T4/T5 terminals together with recorded LPTCs, relating the input population to its downstream targets. Pooling many detectors averages away the local fluctuations of single detectors, so the wide-field response follows the global motion of the panorama."
+  },
+  {
+   "slide": 38,
+   "old": "Flies lacking channelrhodopsin provided a light-stimulation control, and visually blind norpA preparations reduced contamination from ordinary retinal responses. The experiments establish a rapid excitatory route from T4/T5 to LPTCs; the later inhibitory component requires an additional explanation rather than a second assumed direct transmitter action.",
+   "new": "Flies lacking channelrhodopsin provided a light-stimulation control, and visually blind norpA preparations reduced contamination from ordinary retinal responses. The several milliseconds separating the excitatory peak from the inhibitory trough fit an extra synaptic step, the signature of inhibition relayed through intervening neurons."
+  },
+  {
+   "slide": 39,
+   "old": "Picrotoxin at 25 µM also reduced responses to pressure-applied GABA and glutamate, so it did not uniquely identify GABA transmission. The intermediate inhibitory cell was not identified in this study. Receptor pharmacology constrains circuit organization without proving one exclusive inhibitory transmitter or a complete cell-by-cell pathway.",
+   "new": "Picrotoxin at 25 µM also reduced responses to pressure-applied GABA and glutamate, so the inhibitory relay could use either transmitter. The null-direction hyperpolarization of tangential cells arises from this feedforward inhibition through intervening neurons, while T4/T5 terminals themselves provide excitation."
+  },
+  {
+   "slide": 40,
+   "old": "Forward walking speed remained comparable across the tested genotypes. The behavioral deficit therefore was not explained by an inability to walk. T4/T5 are necessary for these directional responses, but joint silencing does not establish which pathway or synaptic interaction generates each component of the illusion.",
+   "new": "Forward walking speed remained comparable across the tested genotypes. The behavioral deficit therefore was not explained by an inability to walk. One detector population produces both the ordinary response and its contrast-dependent reversal, so no separate ON–OFF crossover pathway is needed."
+  },
+  {
+   "slide": 41,
+   "old": "The neuronal response therefore partially inverted with the illusion rather than simply reproducing every behavioral response symmetrically. Direct voltage recordings distinguish hyperpolarization from a fluorescence signal near zero. Agreement between neural and behavioral direction supports an early sensory contribution without proving a complete one-to-one mapping onto turning.",
+   "new": "The neuronal response therefore partially inverted with the illusion rather than simply reproducing every behavioral response symmetrically. Direct voltage recordings distinguish hyperpolarization from a fluorescence signal near zero. Calcium imaging in T4 and, more weakly, T5 dendrites reproduced the bilobed velocity tuning of reverse-phi responses."
+  },
+  {
+   "slide": 42,
+   "old": "The model offers an account of effective pathway interactions, not a uniquely established receptor mechanism. Clark's polarity tests and Leonhardt's dissociated stimuli both require sensitivity beyond two isolated, perfectly rectified streams. Anatomical ON/OFF separation remains compatible with functional influence from both contrast signs.",
+   "new": "Removing either the constant-luminance component or the rectification abolished parts of the response, so the two features together produce both the reversal and the high-velocity re-inversion. Clark's polarity tests and Leonhardt's dissociated stimuli both require sensitivity beyond two isolated, perfectly rectified streams."
+  },
+  {
+   "slide": 43,
+   "old": "Spatial and temporal tuning also differed between the initial 0.5-s response and the later 1–4-s response. A fixed mapping from local motion direction to stabilizing turns cannot explain the full time course. Downstream dynamics or adaptation are required, but the behavioral timing alone does not identify their circuit location.",
+   "new": "Spatial and temporal tuning also differed between the initial 0.5-s response and the later 1–4-s response. Aliasing is excluded: the most effective grating, at 1/60 cycles per degree, lies well below the eye's resolution limit near 1/10 cycles per degree, and reversal persisted with stimuli only in the frontal 90°."
+  },
+  {
+   "slide": 44,
+   "old": "The results support a transformation downstream of the sampled lobula plate signals. They do not prove that every early neuron lacks relevant dynamics, because the recordings sampled selected populations and calcium activity. Necessity of T4/T5 and localization of the slow behavioral reversal are different experimental conclusions.",
+   "new": "The results support a transformation downstream of the sampled lobula plate signals. Anti-directional turning is tuned to 0.5–4 Hz, matching T4, T5 and HS neurons, whereas ordinary optomotor turning peaks near 8–22 Hz, so the same detectors feed behaviors with different temporal tuning."
+  },
+  {
+   "slide": 45,
+   "old": "The finding supports visual-experience-dependent maturation of sensorimotor responses. It does not identify the altered synapse or prove a single learning mechanism. The same article found different age dependence in Drosophila yakuba, so plasticity cannot be assumed identical even among closely related fly species.",
+   "new": "The finding supports visual-experience-dependent maturation of sensorimotor responses. Rearing temperature also mattered: flies raised at 25°C showed less anti-directional turning than flies raised at 20°C. Adult _Drosophila yakuba_ lacked this age-dependent change."
+  }
+ ]
+}

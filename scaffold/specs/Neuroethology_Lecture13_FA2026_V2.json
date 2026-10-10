@@ -1,0 +1,1285 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture13_FA2026_V2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture13_FA2026_V2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "mantis",
+  "shrimp",
+  "stomatopod",
+  "stomatopods",
+  "Haptosquilla",
+  "trispinosa",
+  "Gonodactylus",
+  "smithii",
+  "Odontodactylus",
+  "scyllarus",
+  "midband",
+  "row",
+  "rows",
+  "hemisphere",
+  "hemispheres",
+  "hemispheric",
+  "dorsal",
+  "ventral",
+  "ommatidium",
+  "ommatidia",
+  "rhabdom",
+  "rhabdomere",
+  "microvilli",
+  "microvillar",
+  "R8",
+  "R1",
+  "R1–R7",
+  "tier",
+  "tiers",
+  "distal",
+  "proximal",
+  "receptor",
+  "receptors",
+  "photoreceptor",
+  "photoreceptors",
+  "pigment",
+  "pigments",
+  "filter",
+  "filters",
+  "filtering",
+  "spectral",
+  "spectrum",
+  "wavelength",
+  "wavelengths",
+  "ultraviolet",
+  "UV",
+  "UVA",
+  "UVB",
+  "visible",
+  "nm",
+  "color",
+  "colors",
+  "grey",
+  "opponent",
+  "opponency",
+  "binning",
+  "channel",
+  "channels",
+  "discrimination",
+  "threshold",
+  "thresholds",
+  "polarization",
+  "polarized",
+  "linear",
+  "circular",
+  "handedness",
+  "e-vector",
+  "orthogonal",
+  "retarder",
+  "retardance",
+  "quarter-wave",
+  "birefringence",
+  "torsion",
+  "torsional",
+  "rotation",
+  "rotations",
+  "eye",
+  "eyes",
+  "lamina",
+  "cartridge",
+  "cartridges",
+  "layer",
+  "layers",
+  "LMC",
+  "LMC1",
+  "LMC2",
+  "LMC3",
+  "LMC3o",
+  "LMC3i",
+  "monopolar",
+  "tangential",
+  "interneuron",
+  "interneurons",
+  "terminal",
+  "terminals",
+  "intensity",
+  "brightness",
+  "light",
+  "illumination",
+  "contrast",
+  "signal",
+  "signals",
+  "response",
+  "responses",
+  "voltage",
+  "depolarize",
+  "hyperpolarize",
+  "Stokes",
+  "Thoen",
+  "Wang",
+  "Marshall",
+  "Bok",
+  "Chiou",
+  "Kleinlogel",
+  "White",
+  "Daly",
+  "Streets",
+  "Cronin",
+  "Roberts",
+  "cone",
+  "cones",
+  "opsin",
+  "scan",
+  "scanning",
+  "column",
+  "recognition",
+  "trained",
+  "choice",
+  "choices",
+  "animal",
+  "animals",
+  "cell",
+  "cells"
+ ],
+ "new_slides": [
+  {
+   "after": 4,
+   "footer_number": "04a",
+   "template_slide": 4,
+   "title": "Discrimination minima count paired spectral channels",
+   "body": [
+    "A **wavelength-discrimination function** plots the smallest detectable wavelength step at each point of the spectrum. Its minima fall where two overlapping receptor classes change their relative output most steeply, so each minimum marks one channel-pair comparison: a dichromat has one, a trichromat two.",
+    "_Haptosquilla trispinosa_ has eight visible-range classes in the R1–R7 tiers of rows 1–4, yet its function showed four minima between 400 and 750 nm. Wang and Marshall noted that these minima align with the spectral windows of the four color rows, each holding a short- and a long-wavelength tier.",
+    "Four minima therefore fit four parallel two-tier comparisons, one inside each row, instead of comparisons among all channels at once. Receptor number sets spectral sampling; compared pairs set discrimination dimensions."
+   ],
+   "figure": {
+    "from_slide": 4,
+    "picture": "Picture 3",
+    "caption": "Thoen et al. (2014), Fig. 3. Measured wavelength thresholds and the authors’ opponent-model prediction."
+   },
+   "cite": "Thoen et al. (2014); Wang & Marshall (2025)",
+   "moves": [
+    "foundation",
+    "integration",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    3,
+    4,
+    8,
+    9,
+    15
+   ],
+   "cited_papers_used": [
+    "10.1126/science.1245824",
+    "10.1242/jeb.247952"
+   ],
+   "transcript": [
+    "Slides 3 and 4 give the thresholds and slides 8 and 9 give the row anatomy; the shape of the threshold curve connects them.",
+    [
+     "Why minima appear.",
+     [
+      "Discrimination is best where a small change in wavelength produces a large change in the ratio between two receptor classes.",
+      "That happens on the flanks between two overlapping sensitivity curves, so the number of minima tracks the number of channel pairs being compared."
+     ]
+    ],
+    [
+     "What the stomatopod curve contains.",
+     [
+      "Wang and Marshall point out that the Thoen curve has four minima within the visible range, even though eight R1–R7 sensitivities are present.",
+      "Each minimum sits where one color row's distal and proximal tiers overlap, which is what a set of four within-row comparisons would produce."
+     ]
+    ],
+    [
+     "What this does to the twelve-channel puzzle.",
+     [
+      "Sampling and dimensionality are separate properties of a color system.",
+      "Many narrow channels can coexist with only a few comparison pairs, which is one way to reconcile rich receptor diversity with coarse thresholds."
+     ]
+    ]
+   ],
+   "refs": [
+    "Thoen HH, How MJ, Chiou TH, Marshall J (2014). A Different Form of Color Vision in Mantis Shrimp. Science 343: 411-413. https://doi.org/10.1126/science.1245824",
+    "Wang CWJ, Marshall NJ (2025). Behavioural evidence of spectral opponent processing in the visual system of stomatopod crustaceans. Journal of Experimental Biology 228: jeb247952. https://doi.org/10.1242/jeb.247952"
+   ],
+   "paper_numbers": {
+    "750": "Wang & Marshall (2025), Discussion: four minima within 400–750 nm"
+   },
+   "extra_figures": [
+    {
+     "from_slide": 4,
+     "picture": "Picture 5",
+     "caption": "Thoen et al. (2014), Fig. 1(A, B). Recorded receptor sensitivities normalized to their peaks."
+    }
+   ]
+  },
+  {
+   "after": 6,
+   "footer_number": "06a",
+   "template_slide": 5,
+   "title": "Colored light defeats a winner-take-all color code",
+   "body": [
+    "A **binning code** names a color by which spectral channel responds most strongly. Under a colored tent every surface reflects mainly the transmitted band, so a colored target and a grey distractor drive the same channels hardest and a winner-take-all readout labels both alike.",
+    "Inside one midband row, the two R1–R7 tiers sample neighboring wavelength ranges. A colored target and a grey card tip the balance between those tiers in different directions even when one channel leads for both, so comparing the tiers, an opponent operation, keeps them apart.",
+    "Red illumination fully excited only row 3, yet red-trained animals still chose correctly, so comparison within one row can support color vision. Under blue light, modeled color-versus-grey contrast was low in every row, matching the collapse of blue choices to chance."
+   ],
+   "figure": {
+    "from_slide": 5,
+    "picture": "Picture 3",
+    "caption": "Wang & Marshall (2025), Fig. 3(A–C). Three-choice chamber, illumination and stimulus reflectance spectra."
+   },
+   "cite": "Wang & Marshall (2025)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "method_logic",
+    "consequence"
+   ],
+   "integrates": [
+    5,
+    6,
+    16,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.247952"
+   ],
+   "transcript": [
+    "Slides 5 and 6 describe the grey-card test and its outcome. The prediction behind the test comes from how each coding scheme would read the same light.",
+    [
+     "The binning prediction.",
+     [
+      "Wang and Marshall reasoned that a code relying only on the strongest channel would confuse color with grey once the illumination narrowed the spectrum.",
+      "Their colored tents shifted the hue of the grey cards toward the illumination, so the spectral cues of target and distractor became very similar."
+     ]
+    ],
+    [
+     "The opponent prediction.",
+     [
+      "A within-row comparison uses the relative catch of the distal and proximal tiers, which still differs between a colored surface and a grey one.",
+      "The neutral-density greys at 0.15 to 0.9 meant that matching brightness could never stand in for color."
+     ]
+    ],
+    [
+     "What the colors revealed.",
+     [
+      "Under red light only row 3 was fully activated, and the authors took success there as evidence that a single row may be enough.",
+      "Their multi-dichromatic model gave high contrast in two or three rows for green and red targets but uniformly low contrast for blue under blue light."
+     ]
+    ]
+   ],
+   "refs": [
+    "Wang CWJ, Marshall NJ (2025). Behavioural evidence of spectral opponent processing in the visual system of stomatopod crustaceans. Journal of Experimental Biology 228: jeb247952. https://doi.org/10.1242/jeb.247952"
+   ],
+   "paper_numbers": {
+    "0.15": "Wang & Marshall (2025), Methods: ND grey levels",
+    "0.9": "Wang & Marshall (2025), Methods: ND grey levels"
+   }
+  },
+  {
+   "after": 11,
+   "footer_number": "11a",
+   "template_slide": 11,
+   "title": "Two tiers feed two layers for within-row comparison",
+   "body": [
+    "In a color row, the R1–R7 cells form two tiers with different spectral sensitivities, and those same two groups end in separate lamina layers. Each layer therefore receives one tier's signal, so a cell branching in one layer carries one tier's input.",
+    "The hemispheres use identical wiring for a different variable: their two groups have orthogonal microvilli, and the layer split keeps two polarization axes apart. Wang and Marshall proposed that color processing in rows 1–4 adopted this polarization circuit.",
+    "One cartridge design can thus serve color or polarization depending only on what the receptors above it detect. Their model treats each tier's response as growing with the logarithm of its photon catch, so the comparison reports the ratio of two catches, which stays steady when overall light dims."
+   ],
+   "figure": {
+    "from_slide": 11,
+    "picture": "Picture 3",
+    "caption": "Streets et al. (2025), Fig. 2(A, B). Original reconstruction-based layout of receptor terminals and monopolar cells."
+   },
+   "cite": "Streets et al. (2025); Wang & Marshall (2025)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    9,
+    11,
+    24,
+    43
+   ],
+   "cited_papers_used": [
+    "10.1002/cne.70063",
+    "10.1242/jeb.247952"
+   ],
+   "transcript": [
+    "Slide 9 places the two R1–R7 tiers one above the other, and slide 11 places their terminals in two lamina layers. Joining those facts gives a circuit for comparison.",
+    [
+     "From tier to layer.",
+     [
+      "Streets and colleagues traced every R1–R7 axon and found the same two-group termination pattern in every cartridge type, color rows included.",
+      "A cell confined to one layer, such as LMC3o or LMC3i, therefore samples one tier, while the other LMC3 samples the other."
+     ]
+    ],
+    [
+     "Borrowed wiring.",
+     [
+      "In the hemispheres the two groups differ in microvillar direction, and the same layered cartridge separates two polarization angles.",
+      "Wang and Marshall argued that the color rows reuse this arrangement, so the wiring for comparing e-vector angles becomes wiring for comparing wavelengths."
+     ]
+    ],
+    [
+     "Why a ratio helps.",
+     [
+      "Receptor potential rises roughly with the logarithm of photon catch, so a difference between two such signals behaves like a ratio of catches.",
+      "Dimming the light lowers both catches by the same factor, which leaves the ratio, and hence the color signal, largely intact."
+     ]
+    ]
+   ],
+   "refs": [
+    "Streets A, England H, Marshall J (2025). Neural Repertoire Behind the World's Most Complex Retina: Neuroanatomy of the Stomatopod Lamina. Journal of Comparative Neurology 533: e70063. https://doi.org/10.1002/cne.70063",
+    "Wang CWJ, Marshall NJ (2025). Behavioural evidence of spectral opponent processing in the visual system of stomatopod crustaceans. Journal of Experimental Biology 228: jeb247952. https://doi.org/10.1242/jeb.247952"
+   ]
+  },
+  {
+   "after": 14,
+   "footer_number": "14a",
+   "template_slide": 14,
+   "title": "Each filter adds selectivity by discarding photons",
+   "body": [
+    "A filter sharpens a receptor's tuning only by absorbing photons that would otherwise reach its pigment. In rows 2 and 3, light reaching the deepest tier has crossed two filters and the receptors above, so it catches fewer photons from a narrower band.",
+    "Tiering and filtering work as one chain. The distal tier absorbs part of the spectrum for its own signal, and the filter beneath removes more, so successive receptors receive progressively different spectra. Streets and colleagues also found larger pigment reservoirs in proximal-tier axons of the color rows, proposed to screen long wavelengths.",
+    "Less overlap between tiers enlarges the signal difference that a within-row comparison uses, and the cost is sensitivity. Screening pigment in these reservoirs moves distally by day to shield the rhabdom and withdraws at night, shifting the balance with ambient light."
+   ],
+   "figure": {
+    "from_slide": 14,
+    "picture": "Picture 3",
+    "caption": "Cronin & Marshall (1989), Fig. 3. Published calculations of sensitivity after serial filtering."
+   },
+   "cite": "Cronin & Marshall (1989); Streets et al. (2025)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    9,
+    12,
+    13,
+    14
+   ],
+   "cited_papers_used": [
+    "10.1038/339137a0",
+    "10.1002/cne.70063"
+   ],
+   "transcript": [
+    "Slides 9, 13 and 14 describe the filters and tiers one by one. The common principle is that every gain in selectivity is paid for in photons.",
+    [
+     "The cost of a filter.",
+     [
+      "A filter removes light; it never adds any. A receptor behind it can only become more selective by absorbing less in total.",
+      "In the deepest tier of rows 2 and 3, the overlying receptor and two filters each subtract part of the spectrum before the pigment sees it."
+     ]
+    ],
+    [
+     "A chain of subtractions.",
+     [
+      "The upper receptor uses the photons it absorbs for vision, so its absorption both serves its own signal and shapes the spectrum below.",
+      "In rows 1, 3 and 4 the enlarged reservoirs sit in the R2, R3, R6 and R7 axons, and in row 2, whose tiers are inverted, in R1, R4 and R5, always on the lower tier."
+     ]
+    ],
+    [
+     "Living with the trade.",
+     [
+      "Narrow, separated channels make the difference between neighboring tiers large, which helps any comparison between them.",
+      "These reservoirs work like an adjustable shade, so protection in bright sun and sensitivity in dim light trade off over the course of a day."
+     ]
+    ]
+   ],
+   "refs": [
+    "Cronin TW, Marshall NJ (1989). A retina with at least ten spectral types of photoreceptors in a mantis shrimp. Nature 339: 137-140. https://doi.org/10.1038/339137a0",
+    "Streets A, England H, Marshall J (2025). Neural Repertoire Behind the World's Most Complex Retina: Neuroanatomy of the Stomatopod Lamina. Journal of Comparative Neurology 533: e70063. https://doi.org/10.1002/cne.70063"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 14,
+     "picture": "Picture 5",
+     "caption": "Cronin & Marshall (1989), Fig. 2(a). Distal and proximal filter spectra in rows 2 and 3."
+    }
+   ]
+  },
+  {
+   "after": 16,
+   "footer_number": "16a",
+   "template_slide": 16,
+   "title": "Recognizing colors differs from discriminating them",
+   "body": [
+    "**Discrimination** asks whether two similar stimuli differ; **recognition** asks which category a single stimulus belongs to. A system can identify important colors reliably while confusing neighboring wavelengths.",
+    "Thoen and colleagues likened the proposed binning system to the cochlea, which spreads sound frequencies along its length so that the place of strongest activation identifies a tone. Twelve narrow channels spread from 300 to 720 nm would likewise give each color a characteristic place of activation.",
+    "A place code resolves only as finely as its channel spacing, which matches thresholds of roughly 12–25 nm. Opponent comparisons inside each row add a second route, letting the animal tell a color from grey when illumination leaves only a few channels active."
+   ],
+   "figure": {
+    "from_slide": 16,
+    "picture": "Picture 3",
+    "caption": "Thoen et al. (2014), Fig. 4(A–D). The authors’ published proposal for spectral-channel recognition."
+   },
+   "cite": "Thoen et al. (2014); Wang & Marshall (2025)",
+   "moves": [
+    "distinction",
+    "foundation",
+    "mechanism",
+    "integration"
+   ],
+   "integrates": [
+    2,
+    4,
+    6,
+    15,
+    16
+   ],
+   "cited_papers_used": [
+    "10.1126/science.1245824",
+    "10.1242/jeb.247952"
+   ],
+   "transcript": [
+    "Slides 2 to 4 measured how finely the animal separates wavelengths, while slide 16 proposes a code built for something else. The difference between the two tasks resolves the apparent contradiction.",
+    [
+     "Two questions about color.",
+     [
+      "Telling two neighboring wavelengths apart is a discrimination problem, whereas deciding that a target is the blue of a conspecific's appendage is a recognition problem.",
+      "A system optimized for one need not excel at the other."
+     ]
+    ],
+    [
+     "The cochlear analogy.",
+     [
+      "In the inner ear, each place along the basilar membrane responds best to one frequency, so which place is active names the tone.",
+      "Twelve narrow spectral channels spanning 300 to 720 nm would work the same way, with the identity of the active channel naming the color."
+     ]
+    ],
+    [
+     "Where opponency enters.",
+     [
+      "A pure place code cannot separate stimuli that fall within one channel's band, which fits thresholds of 12 to 25 nm.",
+      "The color-versus-grey results of slide 6 require an additional comparison within rows, so both mechanisms appear to operate together."
+     ]
+    ]
+   ],
+   "refs": [
+    "Thoen HH, How MJ, Chiou TH, Marshall J (2014). A Different Form of Color Vision in Mantis Shrimp. Science 343: 411-413. https://doi.org/10.1126/science.1245824",
+    "Wang CWJ, Marshall NJ (2025). Behavioural evidence of spectral opponent processing in the visual system of stomatopod crustaceans. Journal of Experimental Biology 228: jeb247952. https://doi.org/10.1242/jeb.247952"
+   ],
+   "paper_numbers": {
+    "300": "Thoen et al. (2014), abstract: 300 to 720 nm",
+    "720": "Thoen et al. (2014), abstract: 300 to 720 nm"
+   },
+   "extra_figures": [
+    {
+     "from_slide": 16,
+     "picture": "Picture 5",
+     "caption": "Wang & Marshall (2025), Fig. 7. Later color-versus-grey behavior under restricted illumination."
+    }
+   ]
+  },
+  {
+   "after": 21,
+   "footer_number": "21a",
+   "template_slide": 21,
+   "title": "Filter-tuned R8 cells support UV wavelength choices",
+   "body": [
+    "The trained ultraviolet choices rest on receptors built from only two pigments. Cone filters give R8 cells in different rows peaks at different ultraviolet wavelengths, so lights at 378.3 and 351.1 nm excite those classes in different proportions.",
+    "Comparing two differently filtered R8 classes yields a signal that changes with wavelength, while each cell alone reports only its photon catch. Making one light brighter raises both classes' outputs together and leaves their proportion, so choices that depend on wavelength survive brightness changes.",
+    "With up to six narrowly tuned ultraviolet types, the ultraviolet is sampled almost as densely as the visible range, and discrimination there was comparable to visible performance."
+   ],
+   "figure": {
+    "from_slide": 21,
+    "picture": "Picture 3",
+    "caption": "Bok et al. (2018), Fig. 1(e, f). Original trained-choice apparatus, LED spectra and responses."
+   },
+   "cite": "Bok et al. (2014); Bok et al. (2018)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "method_logic",
+    "consequence"
+   ],
+   "integrates": [
+    17,
+    19,
+    20,
+    21,
+    22
+   ],
+   "cited_papers_used": [
+    "10.1016/j.cub.2014.05.071",
+    "10.1098/rspb.2018.1384"
+   ],
+   "transcript": [
+    "Slide 21 shows the behavior and slides 17 to 20 the receptor machinery. Linking them explains how two pigments yield wavelength choices.",
+    [
+     "Many classes from two pigments.",
+     [
+      "Bok and colleagues found that five of the six ultraviolet receptor types share one pigment and differ only in the cone filters above them.",
+      "Each filtered class therefore covers its own slice of the ultraviolet, and two lights a few tens of nanometers apart stimulate those slices unequally."
+     ]
+    ],
+    [
+     "Why brightness does not mislead.",
+     [
+      "A single receptor confuses a dim light at its peak with a bright light on its flank.",
+      "Two receptors read together escape that confusion, because intensity scales both outputs while wavelength changes their proportion; the brightness manipulations in the 2018 tests target exactly this point."
+     ]
+    ],
+    [
+     "Behavioral meaning.",
+     [
+      "Bok and colleagues judged ultraviolet discrimination comparable to the animal's performance in the human-visible range.",
+      "The untrained avoidance of UVB, absent for UVA, suggests that the bands are not only distinguishable but also carry different significance."
+     ]
+    ]
+   ],
+   "refs": [
+    "Bok MJ, Porter ML, Place AR, Cronin TW (2014). Biological Sunscreens Tune Polychromatic Ultraviolet Vision in Mantis Shrimp. Current Biology 24: 1636-1642. https://doi.org/10.1016/j.cub.2014.05.071",
+    "Bok MJ, Roberts NW, Cronin TW (2018). Behavioural evidence for polychromatic ultraviolet sensitivity in mantis shrimp. Proceedings of the Royal Society B: Biological Sciences 285: 20181384. https://doi.org/10.1098/rspb.2018.1384"
+   ]
+  },
+  {
+   "after": 26,
+   "footer_number": "26a",
+   "template_slide": 26,
+   "title": "Comparing orthogonal receptors cancels intensity",
+   "body": [
+    "Under the **principle of univariance**, a photoreceptor's voltage depends only on how many photons its pigment absorbs. A larger response can come from brighter light or from better-aligned polarization, so one receptor's output mixes the two.",
+    "Kleinlogel and White analyzed only intensity-response curves that ran roughly parallel, where a polarization change acts like a fixed shift in effective intensity. Subtracting the outputs of two orthogonal receptor groups cancels the shared intensity term: brightening the scene raises both responses alike, while rotating the e-vector raises one and lowers the other.",
+    "Opponent pairs of this kind make polarization signals stable across light levels, and the linear-polarization systems known in other animals combine their channels in such pairs. In the lamina, layer-restricted monopolar cells, each contacting one orthogonal group, are candidate sites for the subtraction."
+   ],
+   "figure": {
+    "from_slide": 26,
+    "picture": "Picture 3",
+    "caption": "Kleinlogel & White (2008), Fig. 4(E, F). Intensity-response functions for preferred and orthogonal linear states."
+   },
+   "cite": "Kleinlogel & White (2008); Streets et al. (2025)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    24,
+    26,
+    29,
+    43
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0002190",
+    "10.1002/cne.70063"
+   ],
+   "transcript": [
+    "In slides 24 and 26, each receptor favors one orientation but also responds to intensity. A comparison between receptors separates the two.",
+    [
+     "Univariance.",
+     [
+      "Once a photon is absorbed, the receptor keeps no record of its wavelength or its polarization; it only counts absorptions.",
+      "Kleinlogel and White relied on this principle when they accepted only approximately parallel intensity-response curves for analysis."
+     ]
+    ],
+    [
+     "Subtraction removes intensity.",
+     [
+      "Picture the two orthogonal groups of one ommatidium: a brighter flash raises both, and a rotated e-vector shifts the balance between them.",
+      "The difference between their signals therefore tracks orientation while the common intensity change drops out, which is the logic of an opponent pair."
+     ]
+    ],
+    [
+     "Where it could happen.",
+     [
+      "Kleinlogel and White describe opponent circuitry between orthogonal channels as the standard arrangement in polarization vision.",
+      "Streets and colleagues found LMC3o and LMC3i confined to the layers of the two receptor groups, the anatomical arrangement such a subtraction would need."
+     ]
+    ]
+   ],
+   "refs": [
+    "Kleinlogel S, White AG (2008). The Secret World of Shrimps: Polarisation Vision at Its Best. PLoS ONE 3: e2190. https://doi.org/10.1371/journal.pone.0002190",
+    "Streets A, England H, Marshall J (2025). Neural Repertoire Behind the World's Most Complex Retina: Neuroanatomy of the Stomatopod Lamina. Journal of Comparative Neurology 533: e70063. https://doi.org/10.1002/cne.70063"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 26,
+     "picture": "Picture 5",
+     "caption": "Kleinlogel & White (2008), Fig. 4(G, H). Circular-state preference and weak residual linear preference in midband cells."
+    }
+   ]
+  },
+  {
+   "after": 28,
+   "footer_number": "28a",
+   "template_slide": 28,
+   "title": "Four independent tests converge on circular vision",
+   "body": [
+    "Each kind of evidence for circular-polarization vision closes a gap the others leave open. Behavior establishes that the animal acts on handedness, but a learned choice alone places that ability nowhere inside the animal.",
+    "Receptor recordings locate the distinction in the retina: a single row 5 cell gave different voltages to left and right circular flashes, so the information exists before any learning or central decision. The R8 optics then supply the mechanism, explaining how receptors with ordinary linear tuning acquire handedness sensitivity.",
+    "The telson reflections add a signal the animals themselves produce, giving the sense a plausible use. Sensor, mechanism, behavior and signal together make circular polarization a fourth visual modality, alongside intensity, color and linear polarization."
+   ],
+   "figure": {
+    "from_slide": 28,
+    "picture": "Picture 3",
+    "caption": "Chiou et al. (2008), Fig. 5(A, B). Published feeding-tube construction and opposite-analyzer photographs."
+   },
+   "cite": "Chiou et al. (2008); Kleinlogel & White (2008)",
+   "moves": [
+    "method_logic",
+    "integration",
+    "mechanism",
+    "consequence"
+   ],
+   "integrates": [
+    25,
+    27,
+    28,
+    29
+   ],
+   "cited_papers_used": [
+    "10.1016/j.cub.2008.02.066",
+    "10.1371/journal.pone.0002190"
+   ],
+   "transcript": [
+    "Slides 25 to 29 present circular-polarization vision through several separate methods. Each method answers a question the others cannot.",
+    [
+     "What behavior contributes.",
+     [
+      "Trained choices tell us the animal can use handedness to guide an action, the decisive test of vision rather than mere sensitivity.",
+      "On their own they leave open where in the nervous system the distinction is first made."
+     ]
+    ],
+    [
+     "What recordings and optics contribute.",
+     [
+      "The receptor recordings show the difference already present in single retinal cells, and dye filling tied the response to an identified row 5 cell.",
+      "The quarter-wave R8 explains why those receptors, which carry only linear-polarization machinery, can still respond to handedness."
+     ]
+    ],
+    [
+     "What the signal contributes.",
+     [
+      "Chiou and colleagues described four lines of evidence: behavior, electrophysiology, optical anatomy and signal design.",
+      "Finding circularly polarized reflections on the animals' own bodies gives the visual ability a likely biological purpose."
+     ]
+    ]
+   ],
+   "refs": [
+    "Chiou TH, Kleinlogel S, Cronin T, Caldwell R, Loeffler B, Siddiqi A, Goldizen A, Marshall J (2008). Circular Polarization Vision in a Stomatopod Crustacean. Current Biology 18: 429-434. https://doi.org/10.1016/j.cub.2008.02.066",
+    "Kleinlogel S, White AG (2008). The Secret World of Shrimps: Polarisation Vision at Its Best. PLoS ONE 3: e2190. https://doi.org/10.1371/journal.pone.0002190"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 28,
+     "picture": "Picture 5",
+     "caption": "Chiou et al. (2008), Fig. 5(C). Individual tube choices after training to circular handedness."
+    }
+   ]
+  },
+  {
+   "after": 29,
+   "footer_number": "29a",
+   "template_slide": 24,
+   "title": "Six channels capture the complete polarization state",
+   "body": [
+    "Any polarization state can be specified by three **Stokes parameters**: horizontal versus vertical, diagonal versus antidiagonal, and right versus left circular. Measuring all three requires six channels, one for each end of every axis.",
+    "The ventral hemisphere's orthogonal receptor groups supply the horizontal-vertical pair, the dorsal groups, offset by 45°, supply the diagonal pair, and rows 5 and 6, beneath their R8 retarders, supply the circular pair. Measured R1 cells from each region were almost blind to the other two axes.",
+    "With all six channels sharing one visual field, the eye can register any change in the degree or type of polarization without confusion states. _Gonodactylus smithii_ reflects no polarized light from its carapace, so this capacity likely serves contrast, prey detection or orientation in a partially polarized habitat."
+   ],
+   "figure": {
+    "from_slide": 24,
+    "picture": "Picture 3",
+    "caption": "Kleinlogel & White (2008), Fig. 4(C, D). Dorsal and ventral receptor voltage as the polarizer angle changes."
+   },
+   "cite": "Kleinlogel & White (2008); Daly et al. (2016)",
+   "moves": [
+    "foundation",
+    "integration",
+    "consequence",
+    "distinction"
+   ],
+   "integrates": [
+    7,
+    23,
+    24,
+    25,
+    29
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0002190",
+    "10.1038/ncomms12140"
+   ],
+   "transcript": [
+    "Slides 23 to 29 describe hemispheric and midband polarization receptors separately. Together they form a complete polarization sensor.",
+    [
+     "The Stokes description.",
+     [
+      "Physicists describe polarization with a point on a sphere whose three axes are the linear horizontal-vertical, linear diagonal and circular directions.",
+      "Kleinlogel and White treat each end of those axes as a separate channel, which gives six channels for a full measurement."
+     ]
+    ],
+    [
+     "Matching regions to axes.",
+     [
+      "Polarization tomography presented all six states to single R1 cells and found each cell aligned with one Stokes axis: dorsal with diagonal, ventral with horizontal and row 5 with circular.",
+      "The 45° offset between hemispheres in Daly's geometry is what separates the two linear axes."
+     ]
+    ],
+    [
+     "Why measure everything.",
+     [
+      "Kleinlogel and White called this arrangement optimal polarization vision, with no neutral points where a polarization change goes undetected.",
+      "Since the species' own body carries no polarized signal, they suggest uses such as detecting prey that alter polarization or orientation in a polarized background."
+     ]
+    ]
+   ],
+   "refs": [
+    "Kleinlogel S, White AG (2008). The Secret World of Shrimps: Polarisation Vision at Its Best. PLoS ONE 3: e2190. https://doi.org/10.1371/journal.pone.0002190",
+    "Daly IM, How MJ, Partridge JC, Temple SE, Marshall NJ, Cronin TW, Roberts NW (2016). Dynamic polarization vision in mantis shrimps. Nature Communications 7: 12140. https://doi.org/10.1038/ncomms12140"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 24,
+     "picture": "Picture 5",
+     "caption": "Daly et al. (2016), Fig. 2(a–f). Original geometry of alternating microvillar directions."
+    }
+   ]
+  },
+  {
+   "after": 35,
+   "footer_number": "35a",
+   "template_slide": 33,
+   "title": "A 45° offset caps the rotation alignment needs",
+   "body": [
+    "Each hemisphere holds two orthogonal microvillar sets, and the 45° offset between hemispheres gives the eye four directions spaced 45° apart. Any e-vector angle therefore lies within 22.5° of one set, so a torsion of at most 22.5° brings some receptor group into alignment.",
+    "An eye with only two orthogonal directions, as in other crustaceans, would sometimes need twice that rotation and would meet orientations where both sets sit equally off-axis, a **null point** with no polarization contrast. With four directions, at least one receptor pair always detects some contrast.",
+    "Torsion still reaches 90°, far beyond what alignment requires, and Daly and colleagues proposed that it also orients the midband before slow scanning movements. When one hemisphere is aligned, the other is maximally misaligned and could carry intensity information free of polarization."
+   ],
+   "figure": {
+    "from_slide": 33,
+    "picture": "Picture 3",
+    "caption": "Daly et al. (2016), Fig. 1(b–d). Published eye rotation axes and successive torsional positions."
+   },
+   "cite": "Daly et al. (2016)",
+   "moves": [
+    "mechanism",
+    "consequence",
+    "integration",
+    "distinction"
+   ],
+   "integrates": [
+    24,
+    33,
+    34,
+    35,
+    37
+   ],
+   "cited_papers_used": [
+    "10.1038/ncomms12140"
+   ],
+   "transcript": [
+    "On slides 33 to 35 the eye rolls to align receptors. The anatomy of slide 24 explains why the rolls can be small.",
+    [
+     "The geometry.",
+     [
+      "Two hemispheres, each with two orthogonal directions, offset by 45° from each other, yield four directions at 0, 45, 90 and 135°.",
+      "The largest possible misalignment is halfway between neighbors, 22.5°, which Daly and colleagues call perfect misalignment."
+     ]
+    ],
+    [
+     "Null points.",
+     [
+      "In a two-direction eye, a stimulus at 45° to both axes excites them equally, and the opponent difference vanishes.",
+      "Adding the offset hemisphere guarantees that some pair is never at that balance point, so the animal can find the best angle quickly."
+     ]
+    ],
+    [
+     "The surplus range.",
+     [
+      "Rotations up to 90° exceed the 22.5° needed, so the authors suggest torsion also sets the orientation of later yaw and pitch scans.",
+      "Their other suggestion is that the misaligned hemisphere acts as an intensity channel, keeping polarization and brightness information apart."
+     ]
+    ]
+   ],
+   "refs": [
+    "Daly IM, How MJ, Partridge JC, Temple SE, Marshall NJ, Cronin TW, Roberts NW (2016). Dynamic polarization vision in mantis shrimps. Nature Communications 7: 12140. https://doi.org/10.1038/ncomms12140"
+   ],
+   "paper_numbers": {
+    "22.5": "Daly et al. (2016), Results: eye never more than 22.5° from alignment"
+   }
+  },
+  {
+   "after": 40,
+   "footer_number": "40a",
+   "template_slide": 40,
+   "title": "Two orthogonal inputs double the lamina response",
+   "body": [
+    "A photoreceptor's response to a rotating linear polarizer rises and falls once in each 180° of rotation, since orientations 180° apart are identical. Its orthogonal partner peaks 90° later in the same cycle.",
+    "**Rectification** keeps the size of a signal's change while discarding its sign. A lamina cell that sums the rectified changes of both groups peaks whenever either preferred axis passes, giving two episodes per half-turn; Chiou and Wang found that the lamina responses resembled exactly such a rectified sum of two orthogonal channels.",
+    "Rectified summation differs from opponent subtraction. Subtraction reports which axis dominates, while a rectified sum reports how strongly either axis is favored, without its sign. The monopolar cells that branch across both layers, contacting both receptor groups, are anatomical candidates for this summation."
+   ],
+   "figure": {
+    "from_slide": 40,
+    "picture": "Picture 3",
+    "caption": "Chiou & Wang (2020), Fig. 3(D–F). Monopolar-cell-like voltage responses to flashes and reversed polarization sequences."
+   },
+   "cite": "Chiou & Wang (2020); Streets et al. (2025)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "distinction",
+    "integration"
+   ],
+   "integrates": [
+    24,
+    39,
+    40,
+    43
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.219832",
+    "10.1002/cne.70063"
+   ],
+   "transcript": [
+    "Slide 40 shows two response episodes per half-turn in lamina cells. The receptor tuning of slides 24 and 39 explains where the second episode comes from.",
+    [
+     "One cycle per half-turn.",
+     [
+      "Linear polarization has no direction along its axis, so 0° and 180° are the same stimulus, and a receptor's response repeats every 180°.",
+      "Chiou and Wang found that most photoreceptors produced this concordant sinusoidal response."
+     ]
+    ],
+    [
+     "Doubling by rectification.",
+     [
+      "The orthogonal group peaks a quarter cycle later, so the two groups take turns being strongly stimulated.",
+      "A cell that responds to the magnitude of either group's change responds twice per half-turn, which is the frequency doubling the authors recorded."
+     ]
+    ],
+    [
+     "A different computation.",
+     [
+      "Subtraction gives a signal whose sign names the dominant axis; rectified summation gives a signal that rises for either axis.",
+      "Streets and colleagues found that LMC1 and LMC2 branch across both layers, so they meet both groups, unlike the layer-restricted LMC3 cells."
+     ]
+    ]
+   ],
+   "refs": [
+    "Chiou TH, Wang CW (2020). Neural processing of linearly and circularly polarized light signal in a mantis shrimp Haptosquilla pulchella (Miers, 1880). Journal of Experimental Biology 223: jeb219832. https://doi.org/10.1242/jeb.219832",
+    "Streets A, England H, Marshall J (2025). Neural Repertoire Behind the World's Most Complex Retina: Neuroanatomy of the Stomatopod Lamina. Journal of Comparative Neurology 533: e70063. https://doi.org/10.1002/cne.70063"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 40,
+     "picture": "Picture 5",
+     "caption": "Streets et al. (2025), Fig. 5(A). Published monopolar-cell and neighboring interneuron reconstructions."
+    }
+   ]
+  },
+  {
+   "after": 41,
+   "footer_number": "41a",
+   "template_slide": 38,
+   "title": "Response sign separates receptor and lamina cells",
+   "body": [
+    "Photoreceptors and lamina cells in arthropods signal with **graded potentials**, continuous voltage changes instead of spikes. Light opens cation channels in photoreceptor microvilli, so receptors depolarize, and in the arthropods studied their transmitter hyperpolarizes monopolar cells by opening chloride channels.",
+    "That sign inversion fits the monopolar-cell-like responses, which hyperpolarized to a white flash. The circular-sensitive lamina cells instead depolarized to the same flash, so they form a different class, or receive photoreceptor input through an additional stage.",
+    "Their transient drop during right-circular light then carries the information: a cell held depolarized by general illumination signals one handedness by a brief decrease while responding steadily to every other state. Handedness is encoded by departures from an ongoing level, a format distinct from receptor tuning."
+   ],
+   "figure": {
+    "from_slide": 38,
+    "picture": "Picture 3",
+    "caption": "Chiou & Wang (2020), Fig. 1(A–D). Original recording chamber, eyestalk access and lamina section."
+   },
+   "cite": "Chiou & Wang (2020)",
+   "moves": [
+    "foundation",
+    "integration",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    25,
+    38,
+    40,
+    41
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.219832"
+   ],
+   "transcript": [
+    "Slides 38 to 41 report lamina responses of two signs. General principles of arthropod phototransduction and synaptic transmission explain why the sign identifies the cell type.",
+    [
+     "Graded signaling.",
+     [
+      "Short-distance visual neurons need no spikes; their membrane voltage itself is the signal, which a sharp electrode records directly.",
+      "Receptor depolarization comes from cation channels opened by the phototransduction cascade in the microvilli."
+     ]
+    ],
+    [
+     "Sign inversion at the first synapse.",
+     [
+      "In insects and other arthropods, the photoreceptor transmitter opens chloride channels on monopolar cells, so they hyperpolarize when light depolarizes the receptor.",
+      "A lamina cell that depolarizes to light, like the circular-sensitive cells of slide 41, cannot be a simple direct follower of that synapse."
+     ]
+    ],
+    [
+     "Signaling by a dip.",
+     [
+      "Chiou and Wang describe these cells as holding a steady depolarization to all stimuli except right-handed circular light.",
+      "A brief dip against a steady background is an unambiguous marker for one state, which separates circular from linear information early in the pathway."
+     ]
+    ]
+   ],
+   "refs": [
+    "Chiou TH, Wang CW (2020). Neural processing of linearly and circularly polarized light signal in a mantis shrimp Haptosquilla pulchella (Miers, 1880). Journal of Experimental Biology 223: jeb219832. https://doi.org/10.1242/jeb.219832"
+   ]
+  },
+  {
+   "after": 43,
+   "footer_number": "43a",
+   "template_slide": 43,
+   "title": "Layer-spanning cells likely carry brightness",
+   "body": [
+    "Monopolar cells fall into two branching classes with different likely roles. LMC3 cells confined to one layer receive one receptor group and can oppose spectral or polarization signals, whereas LMC1 and LMC2, branching across both layers, mix the groups so their differences cancel and overall brightness remains.",
+    "Streets and colleagues compared LMC2 with the insect L2 cell, which receives photoreceptor input and feeds back onto the receptors; LMC2 had putative contacts with every photoreceptor and most interneurons in hemisphere cartridges. Each smaller LMC1 samples one side of the cartridge and would receive about half LMC2's input.",
+    "The outer layer also splits into R2/7 and R3/6 sublayers, giving three layers. R1 and the R3/6 sublayer overlapped most with LMC2, so the authors proposed a middle brightness layer flanked by layers used for opponent comparison."
+   ],
+   "figure": {
+    "from_slide": 43,
+    "picture": "Picture 3",
+    "caption": "Streets et al. (2025), Fig. 5(A–F). Comparative Alachosquilla interneuron reconstructions."
+   },
+   "cite": "Streets et al. (2025)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "foundation",
+    "integration"
+   ],
+   "integrates": [
+    11,
+    40,
+    42,
+    43,
+    44
+   ],
+   "cited_papers_used": [
+    "10.1002/cne.70063"
+   ],
+   "transcript": [
+    "Slide 43 separates layer-restricted from layer-spanning monopolar cells. What each class can compute follows from which receptors it contacts.",
+    [
+     "Two classes, two jobs.",
+     [
+      "A cell sampling only one receptor group can compare that group against another cell's group, the raw material of opponency.",
+      "A cell sampling both groups sums signals that differ in wavelength or polarization, so its output tracks overall light level instead."
+     ]
+    ],
+    [
+     "Insect counterparts.",
+     [
+      "Streets and colleagues match LMC1 and LMC2 to the insect L1 and L2 cells, which belong to brightness and motion pathways.",
+      "In their overlap matrices LMC2 had the most contact with other interneurons, and tangential cells, which spread across cartridges, likely join it in a wider intensity circuit."
+     ]
+    ],
+    [
+     "Three layers.",
+     [
+      "Within the outer layer, R2 and R7 end above R3 and R6, which gives the cartridge a middle stratum.",
+      "Streets and colleagues suggest that this middle stratum, together with R1, feeds brightness signals, leaving the upper and lower strata for comparisons."
+     ]
+    ]
+   ],
+   "refs": [
+    "Streets A, England H, Marshall J (2025). Neural Repertoire Behind the World's Most Complex Retina: Neuroanatomy of the Stomatopod Lamina. Journal of Comparative Neurology 533: e70063. https://doi.org/10.1002/cne.70063"
+   ]
+  },
+  {
+   "after": 44,
+   "footer_number": "44a",
+   "template_slide": 44,
+   "title": "Column wiring suits the midband to line scanning",
+   "body": [
+    "Each midband column contains one ommatidium from every row, and these ommatidia view nearly the same point in space. Branches joining cartridges along a column therefore combine signals about one location sampled at different wavelengths and polarization types.",
+    "Stomatopods sweep the midband with slow pitch rotations of about 40° per second, roughly perpendicular to the band and distinct from rapid saccades. During a sweep each column traces a line across the scene, so the rows report one strip of space at a time, like a push-broom spectral sensor building an image line by line.",
+    "Cross-row branches within a column provide an anatomical route for combining the channel signals from one point during a scan, the input that serial color recognition would require. Torsion can set the scan's direction beforehand, linking polarization-driven eye roll to color sampling."
+   ],
+   "figure": {
+    "from_slide": 44,
+    "picture": "Picture 3",
+    "caption": "Streets et al. (2025), Fig. 6(C, D). The authors’ maps of branches extending into neighboring cartridges."
+   },
+   "cite": "Streets et al. (2025); Daly et al. (2016)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence",
+    "foundation"
+   ],
+   "integrates": [
+    8,
+    16,
+    33,
+    44
+   ],
+   "cited_papers_used": [
+    "10.1002/cne.70063",
+    "10.1038/ncomms12140"
+   ],
+   "transcript": [
+    "Slide 44 shows midband branches that run along columns, slide 16 proposes serial recognition during scanning, and slide 33 shows the eye's rotations. They describe parts of one sampling strategy.",
+    [
+     "Rows within a column see one place.",
+     [
+      "According to Streets and colleagues, inter-ommatidial angles place the six rows of a column on nearly the same direction in space.",
+      "Connections along the column therefore unite information about one point, whereas connections along a row would unite neighboring points."
+     ]
+    ],
+    [
+     "Scanning.",
+     [
+      "Daly and colleagues describe slow pitch scans at roughly 40 degrees per second, perpendicular to the midband, which differ from fast saccades.",
+      "A one-dimensional strip moved across a scene builds a two-dimensional picture over time, the principle of push-broom spectral sensors."
+     ]
+    ],
+    [
+     "Putting torsion to use.",
+     [
+      "The direction of a scan depends on the eye's torsional position, so a roll before scanning chooses which way the strip sweeps.",
+      "Daly and colleagues suggest this as a role for the large torsional range beyond what polarization alignment requires."
+     ]
+    ]
+   ],
+   "refs": [
+    "Streets A, England H, Marshall J (2025). Neural Repertoire Behind the World's Most Complex Retina: Neuroanatomy of the Stomatopod Lamina. Journal of Comparative Neurology 533: e70063. https://doi.org/10.1002/cne.70063",
+    "Daly IM, How MJ, Partridge JC, Temple SE, Marshall NJ, Cronin TW, Roberts NW (2016). Dynamic polarization vision in mantis shrimps. Nature Communications 7: 12140. https://doi.org/10.1038/ncomms12140"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 44,
+     "picture": "Picture 5",
+     "caption": "Streets et al. (2025), Fig. 6(A, B). Original proximity-derived overlap matrices, not verified synaptic connections."
+    }
+   ]
+  }
+ ],
+ "original_edits": [
+  {
+   "slide": 2,
+   "old": "Widely separated wavelengths supported successful choices. The assay measures a learned visual decision in a controlled feeding context, rather than the number of colors experienced subjectively or performance in every natural hunting task.",
+   "new": "Widely separated wavelengths supported successful choices. Each choice links a spectral difference to a food-seeking action, so the separation at which choices fall to chance sets how finely spectral information can steer behavior."
+  },
+  {
+   "slide": 3,
+   "old": "Testing multiple trained wavelengths prevents one exceptionally easy color pair from defining the whole visual system. The response remains a food-associated choice; it does not reveal which receptor channel, interneuron or synapse supplied the decision signal.",
+   "new": "Testing multiple trained wavelengths prevents one exceptionally easy color pair from defining the whole visual system. Thresholds from several spectral regions combine into one discrimination function across the visible range, the measure receptor-noise models try to predict."
+  },
+  {
+   "slide": 4,
+   "old": "The mismatch challenges that specific efficient opponent-model account. It does not establish that every spectral comparison is absent: later behavioral evidence supports some opponent processing. Receptor tuning, model assumptions and measured discrimination are separate levels of evidence.",
+   "new": "The mismatch challenges that specific efficient opponent-model account. Most animals discriminate wavelengths finely with only two to four spectral classes, so coarse thresholds from twelve classes pointed to a different use of the channels: recognizing colors from the activation pattern across them."
+  },
+  {
+   "slide": 5,
+   "old": "Animals could approach and inspect the stimuli before grasping or tapping one. This design separates a spectral choice from a fixed side or simple brightness preference. It does not isolate the eyes from all movements or record the neurons that compare spectral inputs.",
+   "new": "Animals could approach and inspect the stimuli before grasping or tapping one. This design separates a spectral choice from a fixed side or simple brightness preference. Each target head was sized like prey the animal could carry back to its burrow, engaging natural predatory behavior."
+  },
+  {
+   "slide": 6,
+   "old": "The authors interpret preserved green and red discrimination as evidence for opponent processing when only a restricted receptor subset receives substantial light. This supports spectral comparison, but neither identifies its neurons nor establishes the proposed hybrid system's complete mechanism.",
+   "new": "The authors interpret preserved green and red discrimination as evidence for opponent processing when only a restricted receptor subset receives substantial light. Only animals that kept choosing correctly under natural light were analyzed, so failures under colored light reflect the illumination and not a forgotten task."
+  },
+  {
+   "slide": 7,
+   "old": "Overlap permits different receptor populations to sample related directions while supplying distinct spectral or polarization signals. The optical arrangement is anatomical evidence; it does not establish that every downstream neuron combines all three regions or that all stomatopod species share identical specialization.",
+   "new": "Overlap permits different receptor populations to sample related directions while supplying distinct spectral or polarization signals. A single fixation can thus deliver color, linear-polarization and circular-polarization information about the same equatorial strip of space at the same moment."
+  },
+  {
+   "slide": 8,
+   "old": "Anatomical row identity and recorded sensitivity are complementary measurements. Twelve potential spectral channels in the color rows do not imply twelve independently established perceptual dimensions. Functional assignments also require species-specific evidence rather than assuming that every mantis shrimp has the same six-row system.",
+   "new": "Anatomical row identity and recorded sensitivity are complementary measurements. The enlarged midband ommatidia also give higher spatial resolution than the hemispheres, so the rows specialized for color and circular polarization sample the finest spatial detail as well. Rows 5 and 6 sense polarization at wavelengths near 500 nm."
+  },
+  {
+   "slide": 9,
+   "old": "Tiering therefore changes both receptor position and the available spectrum. The published sensitivity curves combine measured absorption with optical assumptions; they are not direct recordings of every receptor's voltage response.",
+   "new": "Tiering therefore changes both receptor position and the available spectrum. Each of rows 1–4 thereby holds three spectral classes in series, R8 plus two R1–R7 tiers, making the dorsal four rows an array of twelve channels."
+  },
+  {
+   "slide": 10,
+   "old": "A rhabdomere is one cell's contribution to the light-sensitive rhabdom. R8 ultraviolet sensitivity and visible-light retardance are different properties of that structure. Neither implies that an ultraviolet electrical response is required for every visible circular-polarization signal.",
+   "new": "A rhabdomere is one cell's contribution to the light-sensitive rhabdom. R8 ultraviolet sensitivity and visible-light retardance are different properties of that structure. In rows 5 and 6, R8 occupies about 22% of the rhabdom, and its absorption may suppress the ultraviolet response of the receptors beneath it."
+  },
+  {
+   "slide": 11,
+   "old": "Layer separation preserves distinct input populations and supplies candidate sites for comparison. Terminal position alone does not establish synaptic direction, transmitter identity or an excitatory-versus-inhibitory response.",
+   "new": "Layer separation preserves distinct input populations and supplies candidate sites for comparison. Terminals entering the lamina rotate about 180° from their basement-membrane positions, and R2 and R7 form bulbs above R3 and R6."
+  },
+  {
+   "slide": 12,
+   "old": "This procedure distinguishes pigment absorption from an intact cell's effective spectral sensitivity, which also depends on optical filtering and receptor length. The ultraviolet-sensitive R8 pigment was not characterized by this visible-range measurement, so its absence from these curves is not evidence that ultraviolet reception is absent.",
+   "new": "This procedure distinguishes pigment absorption from an intact cell's effective spectral sensitivity, which also depends on optical filtering and receptor length. Distinct pigments in each main-rhabdom tier of rows 1–4, together with the other retinal regions, gave this retina at least ten spectral types of photoreceptors."
+  },
+  {
+   "slide": 13,
+   "old": "Pigment diversity and filter diversity must not be treated as interchangeable counts. Filtering can produce different effective sensitivities without adding a new functional opsin, while separate visual pigments can also contribute distinct spectral channels.",
+   "new": "Filtering can produce different effective sensitivities without adding a new functional opsin, while separate visual pigments add further channels. Combining both mechanisms builds many narrow channels from a limited opsin set."
+  },
+  {
+   "slide": 14,
+   "old": "The resulting predicted sensitivity functions were narrower than the pigment absorption curves alone. This optical mechanism supplies selective spectral inputs; it does not establish the downstream comparison rule or prove that behavior uses every distinction available at the receptor level.",
+   "new": "The resulting predicted sensitivity functions were narrower than the pigment absorption curves alone. Narrower curves overlap less with neighboring channels, so each deep tier answers a smaller wavelength band and its signal departs more sharply from the tier above it."
+  },
+  {
+   "slide": 15,
+   "old": "These measurements include the consequences of the intact receptor's optical environment. They establish multiple effective spectral inputs, while leaving unresolved how channel signals are weighted, compared or recognized during a behavioral decision.",
+   "new": "These measurements include the consequences of the intact receptor's optical environment. The same curves supplied the 1–5 nm receptor-noise prediction, so the gap between that prediction and behavior places the coarse resolution in how receptor signals are read downstream."
+  },
+  {
+   "slide": 16,
+   "old": "Wang and Marshall's later color-versus-grey results support spectral comparison under restricted illumination. A hybrid of channel recognition and opponency is therefore plausible, but its architecture and temporal computations remain unresolved. Coarse discrimination does not justify excluding every opponent mechanism.",
+   "new": "Wang and Marshall's later color-versus-grey results support spectral comparison under restricted illumination, so the two accounts are now combined into a hybrid model. Such a hybrid would explain how the animal pairs an extensive spectral range with relatively poor spectral discrimination."
+  },
+  {
+   "slide": 17,
+   "old": "The two functional pigments were insufficient by themselves to explain the receptor-class diversity. Different filters acting on the same pigment supply additional tuning. Transcript detection, pigment absorption and electrical sensitivity are distinct measurements rather than equivalent evidence of a complete sensory channel.",
+   "new": "Five of the six ultraviolet receptor types contain the same visual pigment. Different filters acting on that pigment supply the additional tuning, so filtering, more than opsin number, generates the ultraviolet receptor diversity. Each measurement captures a different stage of one channel."
+  },
+  {
+   "slide": 18,
+   "old": "Fluorescence provided a localization clue rather than a direct measure of receptor voltage. Absorption spectra and tissue position together support an optical-filter function; the visible fluorescent hue is not the wavelength that the underlying ultraviolet receptor necessarily detects.",
+   "new": "Fluorescence provided a localization clue, while absorption spectra and tissue position together support an optical-filter function. The cones hold a novel set of four short- and long-pass ultraviolet filters, each tuning the R8 cell directly beneath it."
+  },
+  {
+   "slide": 19,
+   "old": "Most predictions agreed with earlier electrophysiology, but row 2 differed markedly. The authors proposed an earlier row-identification error because that recorded cell lacked histological confirmation. The discrepancy remains a qualification, not a measured reassignment of the original cell.",
+   "new": "Most predictions agreed with earlier electrophysiology, but row 2 differed markedly. The authors attributed that difference to a row-identification error, since the recorded cell lacked histological confirmation. Overall agreement places the main source of ultraviolet receptor diversity in the cone filters."
+  },
+  {
+   "slide": 20,
+   "old": "Molecules associated with sunscreen protection can thus contribute to spectral tuning when positioned before a receptor. The proposed dietary acquisition and subsequent modification of these compounds were not directly established. The study identifies optical and chemical components without explaining every step of pigment transport or biosynthesis.",
+   "new": "Molecules associated with sunscreen protection can thus contribute to spectral tuning when positioned before a receptor. Placing these pigments in the crystalline cones turns a protective chemical class into a set of tuning filters, extending the narrowly tuned ultraviolet receptor types to as many as six. Mantis shrimp are the only animals known to use them this way."
+  },
+  {
+   "slide": 21,
+   "old": "Wavelength-dependent choices persisted despite the brightness manipulations, supporting ultraviolet spectral discrimination. Training to the short-wavelength ultraviolet target was much less successful, so the results do not imply symmetric learning or equal behavioral value across every ultraviolet channel.",
+   "new": "Wavelength-dependent choices persisted despite the brightness manipulations, supporting ultraviolet spectral discrimination. Training to the short-wavelength ultraviolet target was much less successful, matching the aversive response to UVB in untrained animals, so the two bands carry different behavioral value."
+  },
+  {
+   "slide": 22,
+   "old": "Trained approach and untrained shelter selection therefore have different outcomes. Reduced participation, especially with UVB present, further separates willingness to respond from discrimination accuracy. The results support stimulus-dependent avoidance without identifying a neural aversion pathway or proving a particular natural communication function.",
+   "new": "Trained approach and untrained shelter selection therefore have different outcomes. Reduced participation, especially with UVB present, further separates willingness to respond from discrimination accuracy. Segregated responses within the ultraviolet suggest that UVB may act as a warning or species-recognition signal."
+  },
+  {
+   "slide": 23,
+   "old": "Polarization sensing is therefore distinct from spectral discrimination. A visual response to orientation requires the appropriate receptor geometry and subsequent signal processing; it must not be inferred simply from the presence of many color-sensitive receptor classes.",
+   "new": "Polarization sensing is therefore distinct from spectral discrimination. Underwater space light is often 10–50% linearly polarized while the seafloor reflects little polarized light, so polarization can reveal transparent prey or signals that intensity and color miss."
+  },
+  {
+   "slide": 24,
+   "old": "The tuning curves establish directional receptor sensitivity under controlled stimulation. The plotted angles depend on eye and apparatus orientation; they are not universal horizontal and vertical preferences fixed to the world. Nonzero responses at unfavorable angles also limit any claim of perfect polarization selectivity.",
+   "new": "The tuning curves establish directional receptor sensitivity under controlled stimulation. Measured polarization sensitivities of about 9 to 11 matched values in crabs and crayfish, placing these receptors among strongly polarization-sensitive crustacean photoreceptors. Group II cells responded best 90° away from group I cells."
+  },
+  {
+   "slide": 25,
+   "old": "The voltage difference establishes receptor-level sensitivity, not a behavioral choice or an independently isolated circular-polarization receptor molecule. The incident light is transformed by the overlying R8 structure before reaching the main rhabdom, so the measured response belongs to the combined optical and receptor system.",
+   "new": "The voltage difference establishes receptor-level circular-polarization sensitivity, the first reported in any animal. The incident light is transformed by the overlying R8 structure before reaching the main rhabdom, so the measured response belongs to the combined optical and receptor system."
+  },
+  {
+   "slide": 26,
+   "old": "A shifted curve reflects differential sensitivity, whereas increasing voltage within either curve reflects intensity dependence. These measurements constrain the inputs available for neural comparison. They do not directly establish an opponent interneuron, its synapses or the animal's threshold for a behavioral polarization choice.",
+   "new": "A shifted curve reflects differential sensitivity, whereas increasing voltage within either curve reflects intensity dependence. Midband receptors also gave a stronger signal for fully polarized light than hemispheric cells, consistent with their thinner, more ordered microvillar layers."
+  },
+  {
+   "slide": 27,
+   "old": "This optical measurement identifies a potential circular-polarization signal on the animal. It does not establish which social decision the signal controls. The proposed private communication role remains an ecological interpretation, whereas the state-dependent reflected contrast is measured evidence.",
+   "new": "This optical measurement identifies a potential circular-polarization signal on the animal. No other visual system was known to detect circular handedness, so the signal could serve as a private channel among mantis shrimps; the authors proposed a role in sexual signaling and mate choice."
+  },
+  {
+   "slide": 28,
+   "old": "The choices establish behavioral discrimination of circular handedness in this task. They go beyond receptor sensitivity while remaining distinct from a demonstration of natural mate recognition, signaling function or the complete neural pathway producing the choice.",
+   "new": "The choices establish behavioral discrimination of circular handedness in this task, the first behavioral evidence of it in any animal. Without a circular analyzer the two tube ends looked alike, so handedness alone separated rewarded from unrewarded targets during the test."
+  },
+  {
+   "slide": 29,
+   "old": "The mechanism links tissue geometry to receptor voltage without requiring a circular-selective pigment. Its optical effectiveness depends on retardance and wavelength. Similar-looking R8 structures in other stomatopods must not be assumed to provide identical conversion without species-specific optical or physiological measurements.",
+   "new": "The mechanism links tissue geometry to receptor voltage without requiring a circular-selective pigment. Its optical effectiveness depends on retardance and wavelength. In _Gonodactylus smithii_, group II receptors beneath R8 in rows 5 and 6 favor left-circular light, and group I receptors favor right-circular light."
+  },
+  {
+   "slide": 30,
+   "old": "An orientation-dependent bright region between crossed polarizers supports birefringence rather than simple depolarization. It does not by itself prove a quarter-wave phase delay. Quantitative transmission measurements and receptor recordings are needed to connect the microscopic architecture with circular-state discrimination.",
+   "new": "An orientation-dependent bright region between crossed polarizers supports birefringence over simple depolarization. The phase delay a birefringent structure produces grows with its length, so the unusually long R8 rhabdomere of rows 5 and 6 can accumulate the quarter-wave delay that conversion requires."
+  },
+  {
+   "slide": 31,
+   "old": "Broadband conversion helps preserve opposite circular-state signals across the broad absorption spectrum of the underlying receptors. The curve describes optical transmission, not a receptor firing rate or measured behavioral threshold at each wavelength.",
+   "new": "Broadband conversion helps preserve opposite circular-state signals across the broad absorption spectrum of the underlying receptors. Rows 5 and 6 receptors respond across the visible spectrum, so a narrow-band retarder would leave many photons unconverted."
+  },
+  {
+   "slide": 32,
+   "old": "Agreement between model and transmission supports this biophysical account of the optic. It does not identify a dedicated neurotransmitter, ion channel or central comparator: the modeled operation transforms light before the downstream electrical signal is generated.",
+   "new": "Agreement between model and transmission supports this biophysical account of the optic. Retardance grows with birefringence and path length, so the 150-µm receptor length and wavelength-dependent membrane birefringence hold the delay near one quarter wave across the visible range."
+  },
+  {
+   "slide": 33,
+   "old": "The movement geometry makes active polarization sampling possible. Spontaneous rotation alone does not prove that the animal maximizes a particular visual signal; controlled stimuli and measurements of the resulting receptor alignment are required to test that function.",
+   "new": "The movement geometry makes active polarization sampling possible. Unlike the reflexive torsion that stabilizes gaze in most animals, these rotations occur proactively during visual search, much as a photographer turns a polarizing filter to find the angle that best cuts glare."
+  },
+  {
+   "slide": 34,
+   "old": "This experiment links a controlled polarized cue to measured motor output. It does not directly record the oculomotor command or identify the neurons causing the rotation. The resulting receptor alignment is derived from anatomical geometry and measured eye position.",
+   "new": "This experiment links a controlled polarized cue to measured motor output. The resulting receptor alignment is derived from anatomical geometry and measured eye position. Aligning the nearest receptor set requires the least torsion, and most presentations evoked such a rotation."
+  },
+  {
+   "slide": 35,
+   "old": "These results support active enhancement of a hemispheric signal. The contrast values are calculations constrained by measurements, rather than recorded interneuron voltage or proof that the animal explicitly computes the same quantity.",
+   "new": "These results support active enhancement of a hemispheric signal. The LED appeared against a dark, unpolarized background, so aligning one receptor set with the LED's own polarization angle was also the contrast-maximizing position."
+  },
+  {
+   "slide": 36,
+   "old": "The result supports a motor response to a polarization-defined object under controlled conditions. It does not demonstrate an unrestricted predator-avoidance trajectory, and the reconstructed contrast still depends on the receptor model rather than a simultaneously recorded central signal.",
+   "new": "The result supports a motor response to a polarization-defined object under controlled conditions. Every animal responded to the loom, and the ventral hemisphere carried the maximized contrast in most trials, so one hemisphere usually led the alignment."
+  },
+  {
+   "slide": 37,
+   "old": "Torsion therefore supports context-dependent active sampling rather than a fixed rule to point one axis at every polarized object. The comparison tests optical consequences of movement; the neuronal representation of the background and the motor computation selecting an orientation remain unresolved.",
+   "new": "Torsion therefore supports context-dependent active sampling rather than a fixed rule to point one axis at every polarized object. Natural signals are viewed against unpolarized substrate or partially polarized open water, so the best eye angle shifts with where a signal appears."
+  },
+  {
+   "slide": 38,
+   "old": "The preparation links specified polarization states to activity beyond the receptor layer. Cell categories were assigned partly from recording location and response profile, so physiological labels must not be treated as fully traced anatomical identities or identified transmitter classes.",
+   "new": "The preparation links specified polarization states to activity beyond the receptor layer. Recording photoreceptors and lamina neurons in an intact animal with the same rotating sequence allows their responses to be compared directly, locating where polarization signals are first transformed."
+  },
+  {
+   "slide": 39,
+   "old": "Combined sensitivity supports receptors tuned to elliptical rather than perfectly circular states. It prevents transferring ideal circular selectivity from Odontodactylus directly to Haptosquilla. The inferred row assignments were based on function and access geometry, leaving the exact identified-cell correspondence less secure than a dye-filled recording.",
+   "new": "Combined sensitivity supports receptors tuned to elliptical rather than perfectly circular states. In _Gonodactylus smithii_, a row 5 receptor showed nearly zero linear-polarization sensitivity, so the purity of circular tuning differs between species. When the e-vector rotated, most receptors produced a smooth sinusoidal response."
+  },
+  {
+   "slide": 40,
+   "old": "The responses support convergence from differently oriented inputs. They do not establish every synaptic sign or prove that these physiological cells are a particular reconstructed monopolar subtype. Their voltage pattern differs from the single preferred-axis response of a photoreceptor.",
+   "new": "The responses support convergence from differently oriented inputs. Their voltage pattern differs from the single preferred-axis response of a photoreceptor, so polarization information is already transformed at or before the first optic neuropil."
+  },
+  {
+   "slide": 41,
+   "old": "Selectivity beyond the retina supports separation of linear and circular signal components in early visual processing. The cells were not fully morphologically identified, and the recording does not reveal a complete opponent circuit, its transmitter or its contribution to the learned feeding-tube choice.",
+   "new": "Selectivity beyond the retina supports separation of linear and circular signal components in early visual processing. Linear and circular polarization therefore appear to travel in parallel pathways that are processed differently between photoreceptors and lamina neurons."
+  },
+  {
+   "slide": 42,
+   "old": "The volumes establish spatial relationships and branching patterns at finer resolution than conventional tissue staining. They were insufficient to identify all synapses in these preparations, so reconstructed proximity remains distinct from a directly measured connection, response sign or synaptic strength.",
+   "new": "The volumes establish spatial relationships and branching patterns at finer resolution than conventional tissue staining. Separate transmission electron microscopy revealed invaginating photoreceptor synapses, with interneuron processes inserted into the terminals, as in other crustaceans and insects."
+  },
+  {
+   "slide": 43,
+   "old": "Opponency requires more than separated inputs: one stimulus must affect the output differently from another through a defined interaction. Morphology supports candidate circuitry but does not establish inhibitory synapses, the transmitter involved or the precise correspondence with physiologically classified cells.",
+   "new": "Opponency requires more than separated inputs: one stimulus must affect the output differently from another through a defined interaction. A row 1 LMC3o would, for example, hyperpolarize near 420 nm yet depolarize near 470 nm, and so the sign of a single cell's response would report which side of its spectral boundary a light falls on."
+  },
+  {
+   "slide": 44,
+   "old": "These are candidate integration routes. Geometric overlap is a necessary spatial opportunity for many synapses but is not proof of a synapse, its direction or its strength. The heat-map values therefore must not be relabeled as measured synaptic weights or confirmed physiological connectivity.",
+   "new": "These are candidate integration routes. Amacrine cells, local interneurons without an axon, also reached an adjacent cartridge in the same row or the nearest row, adding shorter lateral links. Overlap values therefore map where contacts can occur."
+  },
+  {
+   "slide": 45,
+   "old": "A hybrid account of spectral recognition and opponency remains supported as a proposal, not a completed circuit. The comparing neurons, transmitter identities, postsynaptic receptors, ion channels and causal links to particular color decisions have not been established by these experiments.",
+   "new": "A hybrid account of spectral recognition and opponency links these levels. Behavior reveals that one or a few rows can support color-versus-grey choices, and every lamina cartridge contains the layer-restricted monopolar cells that such within-row comparisons would require."
+  }
+ ]
+}
