@@ -6,4 +6,4 @@ Use 46 slides: one title, 44 content, one Key takeaways with six bold-led exam f
 
 Never create, generate, draw, recolor, redraw or replot any image. Crop original academic PDFs with repository tools and retain axes, units, scale bars and panel letters. Caption Author (year), Fig. N(panel). What it shows; source_url is the DOI. At most ten genuinely useful credited licensed web photographs. If a needed paper cannot be downloaded, stop and request its PDF with a numbered DOI list. Build, check, render and inspect all slides before recording the theme and delivering working download and preview links.
 
-Research is saved in PAPERS.md; two original spatial-learning PDFs are required before building.
+All five original source PDFs have been acquired. Research and source access are recorded in PAPERS.md.
