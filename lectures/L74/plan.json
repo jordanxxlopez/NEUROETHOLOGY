@@ -1,370 +1,814 @@
 {
   "lecture": 74,
-  "status": "provisional; awaiting required geometry PDF",
+  "status": "complete",
   "title": "Goldfish behind the wheel: spatial cognition, visual guidance, and transfer of navigation skills across environments",
   "date": "Date TBD",
-  "format": {
-    "total_slides": 46,
-    "content_slides": 44,
-    "content_paragraphs": "3–5 teaching paragraphs per slide",
-    "takeaways": "5–6 bold-lead exam-level statements",
-    "image_target": 44,
-    "minimum_article_figure_slides": 34,
-    "minimum_image_slides": 40,
-    "color_goal": "Original source color on at least half of image slides"
-  },
   "content_slides": [
     {
       "slide": 2,
-      "provisional_title": "Goldfish drive toward a terrestrial visual target",
-      "source": "vehicle",
-      "doi": "10.1016/j.bbr.2021.113711",
-      "candidate_figure": "1, 3",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Goldfish drive toward a terrestrial visual target",
+      "paragraphs": 3,
+      "words": 125,
+      "figures": [
+        {
+          "path": "figures/vehicle_setup.png",
+          "caption": "Givon et al. (2022), Fig. 1(A–E). The fish-operated vehicle and its control mapping.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2021.113711"
+        }
+      ],
+      "references": [
+        "Givon S, Samina M, Ben-Shahar O, Segev R (2022). From fish out of water to new insights on navigation mechanisms in animals. Behavioural brain research 419:113711. https://doi.org/10.1016/j.bbr.2021.113711"
+      ]
     },
     {
       "slide": 3,
-      "provisional_title": "Tracking links fish position to vehicle movement",
-      "source": "vehicle",
-      "doi": "10.1016/j.bbr.2021.113711",
-      "candidate_figure": "1",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Tracking links fish position to vehicle movement",
+      "paragraphs": 3,
+      "words": 131,
+      "figures": [
+        {
+          "path": "figures/vehicle_setup.png",
+          "caption": "Givon et al. (2022), Fig. 1(A–E). The fish-operated vehicle and its control mapping.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2021.113711"
+        }
+      ],
+      "references": [
+        "Givon S, Samina M, Ben-Shahar O, Segev R (2022). From fish out of water to new insights on navigation mechanisms in animals. Behavioural brain research 419:113711. https://doi.org/10.1016/j.bbr.2021.113711"
+      ]
     },
     {
       "slide": 4,
-      "provisional_title": "Orientation and tank position control the wheels",
-      "source": "vehicle",
-      "doi": "10.1016/j.bbr.2021.113711",
-      "candidate_figure": "1, 2",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Orientation and tank position control the wheels",
+      "paragraphs": 3,
+      "words": 131,
+      "figures": [
+        {
+          "path": "figures/vehicle_response.png",
+          "caption": "Givon et al. (2022), Fig. 2(A–C). Motor delay and directional response of the vehicle.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2021.113711"
+        },
+        {
+          "path": "figures/vehicle_setup.png",
+          "caption": "Givon et al. (2022), Fig. 1(A–E). The fish-operated vehicle and its control mapping.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2021.113711"
+        }
+      ],
+      "references": [
+        "Givon S, Samina M, Ben-Shahar O, Segev R (2022). From fish out of water to new insights on navigation mechanisms in animals. Behavioural brain research 419:113711. https://doi.org/10.1016/j.bbr.2021.113711"
+      ]
     },
     {
       "slide": 5,
-      "provisional_title": "Rewarded training produces more direct routes",
-      "source": "vehicle",
-      "doi": "10.1016/j.bbr.2021.113711",
-      "candidate_figure": "3, 4",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Rewarded training produces more direct routes",
+      "paragraphs": 3,
+      "words": 133,
+      "figures": [
+        {
+          "path": "figures/vehicle_paths.png",
+          "caption": "Givon et al. (2022), Fig. 3(A–D). Routes become more direct with training.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2021.113711"
+        },
+        {
+          "path": "figures/vehicle_learning.png",
+          "caption": "Givon et al. (2022), Fig. 4(A–D). Training improves target arrivals, travel time, and path length.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2021.113711"
+        }
+      ],
+      "references": [
+        "Givon S, Samina M, Ben-Shahar O, Segev R (2022). From fish out of water to new insights on navigation mechanisms in animals. Behavioural brain research 419:113711. https://doi.org/10.1016/j.bbr.2021.113711"
+      ]
     },
     {
       "slide": 6,
-      "provisional_title": "Changed starting positions test route flexibility",
-      "source": "vehicle",
-      "doi": "10.1016/j.bbr.2021.113711",
-      "candidate_figure": "5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Changed starting positions test route flexibility",
+      "paragraphs": 3,
+      "words": 138,
+      "figures": [
+        {
+          "path": "figures/vehicle_controls.png",
+          "caption": "Givon et al. (2022), Fig. 5(A–F). Changing starts, decoys, and relocated targets tests navigation.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2021.113711"
+        }
+      ],
+      "references": [
+        "Givon S, Samina M, Ben-Shahar O, Segev R (2022). From fish out of water to new insights on navigation mechanisms in animals. Behavioural brain research 419:113711. https://doi.org/10.1016/j.bbr.2021.113711"
+      ]
     },
     {
       "slide": 7,
-      "provisional_title": "Decoys and target relocation test visual guidance",
-      "source": "vehicle",
-      "doi": "10.1016/j.bbr.2021.113711",
-      "candidate_figure": "5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Decoys and target relocation test visual guidance",
+      "paragraphs": 3,
+      "words": 134,
+      "figures": [
+        {
+          "path": "figures/vehicle_controls.png",
+          "caption": "Givon et al. (2022), Fig. 5(A–F). Changing starts, decoys, and relocated targets tests navigation.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2021.113711"
+        }
+      ],
+      "references": [
+        "Givon S, Samina M, Ben-Shahar O, Segev R (2022). From fish out of water to new insights on navigation mechanisms in animals. Behavioural brain research 419:113711. https://doi.org/10.1016/j.bbr.2021.113711"
+      ]
     },
     {
       "slide": 8,
-      "provisional_title": "Goldfish learn a travelled-distance stopping rule",
-      "source": "distance",
-      "doi": "10.1098/rspb.2022.1220",
-      "candidate_figure": "1, 2",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Goldfish learn a travelled-distance stopping rule",
+      "paragraphs": 3,
+      "words": 133,
+      "figures": [
+        {
+          "path": "figures/distance_setup.png",
+          "caption": "Sibeaux et al. (2022), Fig. 1. The tunnel and movable starts used to train a 70 cm return rule.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        },
+        {
+          "path": "figures/distance_turn.png",
+          "caption": "Sibeaux et al. (2022), Fig. 2. Goldfish turn near the learned travel distance.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        }
+      ],
+      "references": [
+        "Sibeaux A, Karlsson C, Newport C, Burt de Perera T (2022). Distance estimation in the goldfish (Carassius auratus). Proceedings. Biological sciences 289:20221220. https://doi.org/10.1098/rspb.2022.1220"
+      ]
     },
     {
       "slide": 9,
-      "provisional_title": "Visual motion supplies an odometric cue",
-      "source": "distance",
-      "doi": "10.1098/rspb.2022.1220",
-      "candidate_figure": "1, 5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Visual motion supplies an odometric cue",
+      "paragraphs": 3,
+      "words": 133,
+      "figures": [
+        {
+          "path": "figures/distance_setup.png",
+          "caption": "Sibeaux et al. (2022), Fig. 1. The tunnel and movable starts used to train a 70 cm return rule.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        },
+        {
+          "path": "figures/distance_pattern.png",
+          "caption": "Sibeaux et al. (2022), Fig. 5. Visual pattern changes alter the estimated travel distance.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        }
+      ],
+      "references": [
+        "Sibeaux A, Karlsson C, Newport C, Burt de Perera T (2022). Distance estimation in the goldfish (Carassius auratus). Proceedings. Biological sciences 289:20221220. https://doi.org/10.1098/rspb.2022.1220"
+      ]
     },
     {
       "slide": 10,
-      "provisional_title": "Stripe spacing changes estimated travel distance",
-      "source": "distance",
-      "doi": "10.1098/rspb.2022.1220",
-      "candidate_figure": "5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Stripe spacing changes estimated travel distance",
+      "paragraphs": 3,
+      "words": 132,
+      "figures": [
+        {
+          "path": "figures/distance_pattern.png",
+          "caption": "Sibeaux et al. (2022), Fig. 5. Visual pattern changes alter the estimated travel distance.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        }
+      ],
+      "references": [
+        "Sibeaux A, Karlsson C, Newport C, Burt de Perera T (2022). Distance estimation in the goldfish (Carassius auratus). Proceedings. Biological sciences 289:20221220. https://doi.org/10.1098/rspb.2022.1220"
+      ]
     },
     {
       "slide": 11,
-      "provisional_title": "Stripe orientation changes distance information",
-      "source": "distance",
-      "doi": "10.1098/rspb.2022.1220",
-      "candidate_figure": "5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Stripe orientation changes distance information",
+      "paragraphs": 3,
+      "words": 135,
+      "figures": [
+        {
+          "path": "figures/distance_pattern.png",
+          "caption": "Sibeaux et al. (2022), Fig. 5. Visual pattern changes alter the estimated travel distance.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        },
+        {
+          "path": "figures/distance_setup.png",
+          "caption": "Sibeaux et al. (2022), Fig. 1. The tunnel and movable starts used to train a 70 cm return rule.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        }
+      ],
+      "references": [
+        "Sibeaux A, Karlsson C, Newport C, Burt de Perera T (2022). Distance estimation in the goldfish (Carassius auratus). Proceedings. Biological sciences 289:20221220. https://doi.org/10.1098/rspb.2022.1220"
+      ]
     },
     {
       "slide": 12,
-      "provisional_title": "Starting-point shifts test distance versus place",
-      "source": "distance",
-      "doi": "10.1098/rspb.2022.1220",
-      "candidate_figure": "3",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Starting-point shifts test distance versus place",
+      "paragraphs": 3,
+      "words": 137,
+      "figures": [
+        {
+          "path": "figures/distance_start.png",
+          "caption": "Sibeaux et al. (2022), Fig. 3(a–b). Absolute turning position changes when the start moves.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        }
+      ],
+      "references": [
+        "Sibeaux A, Karlsson C, Newport C, Burt de Perera T (2022). Distance estimation in the goldfish (Carassius auratus). Proceedings. Biological sciences 289:20221220. https://doi.org/10.1098/rspb.2022.1220"
+      ]
     },
     {
       "slide": 13,
-      "provisional_title": "Fin beats and swim speed test alternative cues",
-      "source": "distance",
-      "doi": "10.1098/rspb.2022.1220",
-      "candidate_figure": "4, 6",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Fin beats and swim speed test alternative cues",
+      "paragraphs": 3,
+      "words": 134,
+      "figures": [
+        {
+          "path": "figures/distance_fin.png",
+          "caption": "Sibeaux et al. (2022), Fig. 4. Travel distance increases with the number of caudal fin beats.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        },
+        {
+          "path": "figures/distance_speed.png",
+          "caption": "Sibeaux et al. (2022), Fig. 6. Swimming speed changes with the visual background.",
+          "source_url": "https://doi.org/10.1098/rspb.2022.1220"
+        }
+      ],
+      "references": [
+        "Sibeaux A, Karlsson C, Newport C, Burt de Perera T (2022). Distance estimation in the goldfish (Carassius auratus). Proceedings. Biological sciences 289:20221220. https://doi.org/10.1098/rspb.2022.1220"
+      ]
     },
     {
       "slide": 14,
-      "provisional_title": "Pallial anatomy distinguishes spatial-memory regions",
-      "source": "lesion",
-      "doi": "10.1523/JNEUROSCI.22-07-02894.2002",
-      "candidate_figure": "4",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Pallial anatomy distinguishes spatial-memory regions",
+      "paragraphs": 3,
+      "words": 129,
+      "figures": [
+        {
+          "path": "figures/pallial_eversion.png",
+          "caption": "Rodríguez et al. (2002), Fig. 1. Eversion changes the topological positions of pallial divisions.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        },
+        {
+          "path": "figures/pallial_histology.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 6(a–d). Histology localizes spatially tuned neurons in the pallium.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        }
+      ],
+      "references": [
+        "Rodríguez F, López JC, Vargas JP, Gómez Y, Broglio C, Salas C (2002). Conservation of spatial memory function in the pallial forebrain of reptiles and ray-finned fishes. The Journal of neuroscience : the official journal of the Society for Neuroscience 22:2894-2903. https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002",
+        "Vinepinsky E, Cohen L, Perchik S, Ben-Shahar O, Donchin O, Segev R (2020). Representation of edges, head direction, and swimming kinematics in the brain of freely-navigating fish. Scientific reports 10:14762. https://doi.org/10.1038/s41598-020-71217-1"
+      ]
     },
     {
       "slide": 15,
-      "provisional_title": "Place and cue tasks require different strategies",
-      "source": "lesion",
-      "doi": "10.1523/JNEUROSCI.22-07-02894.2002",
-      "candidate_figure": "1, 4",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Place and cue tasks require different strategies",
+      "paragraphs": 3,
+      "words": 132,
+      "figures": [
+        {
+          "path": "figures/fish_memory.png",
+          "caption": "Rodríguez et al. (2002), Fig. 5(A–B). Lateral-pallium lesions disrupt place learning while sparing cue learning.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        }
+      ],
+      "references": [
+        "Rodríguez F, López JC, Vargas JP, Gómez Y, Broglio C, Salas C (2002). Conservation of spatial memory function in the pallial forebrain of reptiles and ray-finned fishes. The Journal of neuroscience : the official journal of the Society for Neuroscience 22:2894-2903. https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+      ]
     },
     {
       "slide": 16,
-      "provisional_title": "Regional lesions separate competing explanations",
-      "source": "lesion",
-      "doi": "10.1523/JNEUROSCI.22-07-02894.2002",
-      "candidate_figure": "4",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Regional lesions separate competing explanations",
+      "paragraphs": 3,
+      "words": 136,
+      "figures": [
+        {
+          "path": "figures/fish_lesions.png",
+          "caption": "Rodríguez et al. (2002), Fig. 7. Original reconstructions of lateral, dorsal, and medial pallial lesions.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        }
+      ],
+      "references": [
+        "Rodríguez F, López JC, Vargas JP, Gómez Y, Broglio C, Salas C (2002). Conservation of spatial memory function in the pallial forebrain of reptiles and ray-finned fishes. The Journal of neuroscience : the official journal of the Society for Neuroscience 22:2894-2903. https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+      ]
     },
     {
       "slide": 17,
-      "provisional_title": "Place learning depends on lateral pallial integrity",
-      "source": "lesion",
-      "doi": "10.1523/JNEUROSCI.22-07-02894.2002",
-      "candidate_figure": "5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Place learning depends on lateral pallial integrity",
+      "paragraphs": 3,
+      "words": 126,
+      "figures": [
+        {
+          "path": "figures/fish_memory.png",
+          "caption": "Rodríguez et al. (2002), Fig. 5(A–B). Lateral-pallium lesions disrupt place learning while sparing cue learning.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        },
+        {
+          "path": "figures/fish_lesions.png",
+          "caption": "Rodríguez et al. (2002), Fig. 7. Original reconstructions of lateral, dorsal, and medial pallial lesions.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        }
+      ],
+      "references": [
+        "Rodríguez F, López JC, Vargas JP, Gómez Y, Broglio C, Salas C (2002). Conservation of spatial memory function in the pallial forebrain of reptiles and ray-finned fishes. The Journal of neuroscience : the official journal of the Society for Neuroscience 22:2894-2903. https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+      ]
     },
     {
       "slide": 18,
-      "provisional_title": "Novel starts test flexible spatial representations",
-      "source": "lesion",
-      "doi": "10.1523/JNEUROSCI.22-07-02894.2002",
-      "candidate_figure": "6",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Novel starts test flexible spatial representations",
+      "paragraphs": 3,
+      "words": 133,
+      "figures": [
+        {
+          "path": "figures/fish_routes.png",
+          "caption": "Rodríguez et al. (2002), Fig. 6(A–B). Sham and lateral-pallium-lesioned fish choose different transfer routes.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        },
+        {
+          "path": "figures/fish_lesions.png",
+          "caption": "Rodríguez et al. (2002), Fig. 7. Original reconstructions of lateral, dorsal, and medial pallial lesions.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        }
+      ],
+      "references": [
+        "Rodríguez F, López JC, Vargas JP, Gómez Y, Broglio C, Salas C (2002). Conservation of spatial memory function in the pallial forebrain of reptiles and ray-finned fishes. The Journal of neuroscience : the official journal of the Society for Neuroscience 22:2894-2903. https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+      ]
     },
     {
       "slide": 19,
-      "provisional_title": "Visible-cue navigation survives spatial disruption",
-      "source": "lesion",
-      "doi": "10.1523/JNEUROSCI.22-07-02894.2002",
-      "candidate_figure": "7",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Visible-cue navigation survives spatial disruption",
+      "paragraphs": 3,
+      "words": 131,
+      "figures": [
+        {
+          "path": "figures/fish_memory.png",
+          "caption": "Rodríguez et al. (2002), Fig. 5(A–B). Lateral-pallium lesions disrupt place learning while sparing cue learning.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        },
+        {
+          "path": "figures/fish_lesions.png",
+          "caption": "Rodríguez et al. (2002), Fig. 7. Original reconstructions of lateral, dorsal, and medial pallial lesions.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        }
+      ],
+      "references": [
+        "Rodríguez F, López JC, Vargas JP, Gómez Y, Broglio C, Salas C (2002). Conservation of spatial memory function in the pallial forebrain of reptiles and ray-finned fishes. The Journal of neuroscience : the official journal of the Society for Neuroscience 22:2894-2903. https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+      ]
     },
     {
       "slide": 20,
-      "provisional_title": "Matched lesion comparisons localize the deficit",
-      "source": "lesion",
-      "doi": "10.1523/JNEUROSCI.22-07-02894.2002",
-      "candidate_figure": "4–7",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Matched lesion comparisons localize the deficit",
+      "paragraphs": 3,
+      "words": 126,
+      "figures": [
+        {
+          "path": "figures/fish_lesions.png",
+          "caption": "Rodríguez et al. (2002), Fig. 7. Original reconstructions of lateral, dorsal, and medial pallial lesions.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        },
+        {
+          "path": "figures/fish_memory.png",
+          "caption": "Rodríguez et al. (2002), Fig. 5(A–B). Lateral-pallium lesions disrupt place learning while sparing cue learning.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        }
+      ],
+      "references": [
+        "Rodríguez F, López JC, Vargas JP, Gómez Y, Broglio C, Salas C (2002). Conservation of spatial memory function in the pallial forebrain of reptiles and ray-finned fishes. The Journal of neuroscience : the official journal of the Society for Neuroscience 22:2894-2903. https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+      ]
     },
     {
       "slide": 21,
-      "provisional_title": "Fish and reptile lesions reveal shared memory roles",
-      "source": "lesion",
-      "doi": "10.1523/JNEUROSCI.22-07-02894.2002",
-      "candidate_figure": "1–7",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Fish and reptile lesions reveal shared memory roles",
+      "paragraphs": 3,
+      "words": 132,
+      "figures": [
+        {
+          "path": "figures/turtle_memory.png",
+          "caption": "Rodríguez et al. (2002), Fig. 2(A–B). Medial-cortex lesions distinguish place memory from cue guidance.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        },
+        {
+          "path": "figures/turtle_lesions.png",
+          "caption": "Rodríguez et al. (2002), Fig. 4. Original reconstructions of medial-cortex lesions in turtles.",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+        }
+      ],
+      "references": [
+        "Rodríguez F, López JC, Vargas JP, Gómez Y, Broglio C, Salas C (2002). Conservation of spatial memory function in the pallial forebrain of reptiles and ray-finned fishes. The Journal of neuroscience : the official journal of the Society for Neuroscience 22:2894-2903. https://doi.org/10.1523/JNEUROSCI.22-07-02894.2002"
+      ]
     },
     {
       "slide": 22,
-      "provisional_title": "Wireless recording links spikes to free swimming",
-      "source": "edges",
-      "doi": "10.1038/s41598-020-71217-1",
-      "candidate_figure": "1",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Wireless recording links spikes to free swimming",
+      "paragraphs": 3,
+      "words": 129,
+      "figures": [
+        {
+          "path": "figures/neural_setup.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 1(a–e). Wireless recordings and spike sorting in freely swimming fish.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        }
+      ],
+      "references": [
+        "Vinepinsky E, Cohen L, Perchik S, Ben-Shahar O, Donchin O, Segev R (2020). Representation of edges, head direction, and swimming kinematics in the brain of freely-navigating fish. Scientific reports 10:14762. https://doi.org/10.1038/s41598-020-71217-1"
+      ]
     },
     {
       "slide": 23,
-      "provisional_title": "Recording locations identify the lateral pallium",
-      "source": "edges",
-      "doi": "10.1038/s41598-020-71217-1",
-      "candidate_figure": "6",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Histology locates spatially tuned pallial neurons",
+      "paragraphs": 3,
+      "words": 123,
+      "figures": [
+        {
+          "path": "figures/pallial_histology.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 6(a–d). Histology localizes spatially tuned neurons in the pallium.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        }
+      ],
+      "references": [
+        "Vinepinsky E, Cohen L, Perchik S, Ben-Shahar O, Donchin O, Segev R (2020). Representation of edges, head direction, and swimming kinematics in the brain of freely-navigating fish. Scientific reports 10:14762. https://doi.org/10.1038/s41598-020-71217-1"
+      ]
     },
     {
       "slide": 24,
-      "provisional_title": "Edge cells encode environmental boundaries",
-      "source": "edges",
-      "doi": "10.1038/s41598-020-71217-1",
-      "candidate_figure": "2",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Edge cells encode environmental boundaries",
+      "paragraphs": 3,
+      "words": 133,
+      "figures": [
+        {
+          "path": "figures/edge_cells.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 2(a–o). Edge cells fire near tank boundaries.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        }
+      ],
+      "references": [
+        "Vinepinsky E, Cohen L, Perchik S, Ben-Shahar O, Donchin O, Segev R (2020). Representation of edges, head direction, and swimming kinematics in the brain of freely-navigating fish. Scientific reports 10:14762. https://doi.org/10.1038/s41598-020-71217-1"
+      ]
     },
     {
       "slide": 25,
-      "provisional_title": "Wall changes test the reference frame of edge firing",
-      "source": "edges",
-      "doi": "10.1038/s41598-020-71217-1",
-      "candidate_figure": "2",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Edge signals differ from a single fixed place",
+      "paragraphs": 3,
+      "words": 134,
+      "figures": [
+        {
+          "path": "figures/edge_cells.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 2(a–o). Edge cells fire near tank boundaries.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        }
+      ],
+      "references": [
+        "Vinepinsky E, Cohen L, Perchik S, Ben-Shahar O, Donchin O, Segev R (2020). Representation of edges, head direction, and swimming kinematics in the brain of freely-navigating fish. Scientific reports 10:14762. https://doi.org/10.1038/s41598-020-71217-1"
+      ]
     },
     {
       "slide": 26,
-      "provisional_title": "Head-direction cells encode the fish heading",
-      "source": "edges",
-      "doi": "10.1038/s41598-020-71217-1",
-      "candidate_figure": "3",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Head-direction cells encode the fish heading",
+      "paragraphs": 3,
+      "words": 131,
+      "figures": [
+        {
+          "path": "figures/heading_cells.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 3(a–l). Head-direction cells fire preferentially at particular orientations.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        }
+      ],
+      "references": [
+        "Vinepinsky E, Cohen L, Perchik S, Ben-Shahar O, Donchin O, Segev R (2020). Representation of edges, head direction, and swimming kinematics in the brain of freely-navigating fish. Scientific reports 10:14762. https://doi.org/10.1038/s41598-020-71217-1"
+      ]
     },
     {
       "slide": 27,
-      "provisional_title": "Speed-correlated firing tracks swimming motion",
-      "source": "edges",
-      "doi": "10.1038/s41598-020-71217-1",
-      "candidate_figure": "4",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Speed-correlated firing tracks swimming motion",
+      "paragraphs": 3,
+      "words": 133,
+      "figures": [
+        {
+          "path": "figures/speed_cells.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 4(a–l). Speed-correlated cells increase activity with swimming speed.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        }
+      ],
+      "references": [
+        "Vinepinsky E, Cohen L, Perchik S, Ben-Shahar O, Donchin O, Segev R (2020). Representation of edges, head direction, and swimming kinematics in the brain of freely-navigating fish. Scientific reports 10:14762. https://doi.org/10.1038/s41598-020-71217-1"
+      ]
     },
     {
       "slide": 28,
-      "provisional_title": "Velocity-vector cells combine speed and direction",
-      "source": "edges",
-      "doi": "10.1038/s41598-020-71217-1",
-      "candidate_figure": "5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Velocity-vector cells combine speed and direction",
+      "paragraphs": 3,
+      "words": 131,
+      "figures": [
+        {
+          "path": "figures/velocity_cells.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 5(a–l). Velocity-vector cells combine direction and speed tuning.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        }
+      ],
+      "references": [
+        "Vinepinsky E, Cohen L, Perchik S, Ben-Shahar O, Donchin O, Segev R (2020). Representation of edges, head direction, and swimming kinematics in the brain of freely-navigating fish. Scientific reports 10:14762. https://doi.org/10.1038/s41598-020-71217-1"
+      ]
     },
     {
       "slide": 29,
-      "provisional_title": "Different cell classes carry complementary signals",
-      "source": "edges",
-      "doi": "10.1038/s41598-020-71217-1",
-      "candidate_figure": "2–6",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Different cell classes carry complementary signals",
+      "paragraphs": 3,
+      "words": 131,
+      "figures": [
+        {
+          "path": "figures/pallial_histology.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 6(a–d). Histology localizes spatially tuned neurons in the pallium.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        },
+        {
+          "path": "figures/velocity_cells.png",
+          "caption": "Vinepinsky et al. (2020), Fig. 5(a–l). Velocity-vector cells combine direction and speed tuning.",
+          "source_url": "https://doi.org/10.1038/s41598-020-71217-1"
+        }
+      ],
+      "references": [
+        "Vinepinsky E, Cohen L, Perchik S, Ben-Shahar O, Donchin O, Segev R (2020). Representation of edges, head direction, and swimming kinematics in the brain of freely-navigating fish. Scientific reports 10:14762. https://doi.org/10.1038/s41598-020-71217-1"
+      ]
     },
     {
       "slide": 30,
-      "provisional_title": "Central telencephalic recordings reveal boundary codes",
-      "source": "boundary",
-      "doi": "10.1371/journal.pbio.3001747",
-      "candidate_figure": "1",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Central recordings reveal another boundary code",
+      "paragraphs": 3,
+      "words": 129,
+      "figures": [
+        {
+          "path": "figures/boundary_setup.png",
+          "caption": "Cohen et al. (2023), Fig. 1(A–E). Central telencephalic recordings in a vertical navigation tank.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.3001747"
+        }
+      ],
+      "references": [
+        "Cohen L, Vinepinsky E, Donchin O, Segev R (2023). Boundary vector cells in the goldfish central telencephalon encode spatial information. PLoS biology 21:e3001747. https://doi.org/10.1371/journal.pbio.3001747"
+      ]
     },
     {
       "slide": 31,
-      "provisional_title": "Boundary-vector firing varies with wall distance",
-      "source": "boundary",
-      "doi": "10.1371/journal.pbio.3001747",
-      "candidate_figure": "2, 3",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Boundary-vector firing varies with wall distance",
+      "paragraphs": 3,
+      "words": 137,
+      "figures": [
+        {
+          "path": "figures/boundary_cells.png",
+          "caption": "Cohen et al. (2023), Fig. 2(A–P). Firing decreases with distance from preferred walls or corners.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.3001747"
+        }
+      ],
+      "references": [
+        "Cohen L, Vinepinsky E, Donchin O, Segev R (2023). Boundary vector cells in the goldfish central telencephalon encode spatial information. PLoS biology 21:e3001747. https://doi.org/10.1371/journal.pbio.3001747"
+      ]
     },
     {
       "slide": 32,
-      "provisional_title": "Preferred boundary directions are allocentric",
-      "source": "boundary",
-      "doi": "10.1371/journal.pbio.3001747",
-      "candidate_figure": "4",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Boundary directions use an environmental reference",
+      "paragraphs": 3,
+      "words": 137,
+      "figures": [
+        {
+          "path": "figures/boundary_direction.png",
+          "caption": "Cohen et al. (2023), Fig. 4(A–N). Boundary tuning is compared across swimming directions.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.3001747"
+        }
+      ],
+      "references": [
+        "Cohen L, Vinepinsky E, Donchin O, Segev R (2023). Boundary vector cells in the goldfish central telencephalon encode spatial information. PLoS biology 21:e3001747. https://doi.org/10.1371/journal.pbio.3001747"
+      ]
     },
     {
       "slide": 33,
-      "provisional_title": "Boundary tuning spans different spatial ranges",
-      "source": "boundary",
-      "doi": "10.1371/journal.pbio.3001747",
-      "candidate_figure": "6",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Boundary tuning spans different spatial ranges",
+      "paragraphs": 3,
+      "words": 135,
+      "figures": [
+        {
+          "path": "figures/boundary_range.png",
+          "caption": "Cohen et al. (2023), Fig. 6(A–I). Boundary cells span different spatial receptive-field widths.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.3001747"
+        },
+        {
+          "path": "figures/boundary_tuning.png",
+          "caption": "Cohen et al. (2023), Fig. 3(A–L). Preferred-boundary distance predicts graded neural firing.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.3001747"
+        }
+      ],
+      "references": [
+        "Cohen L, Vinepinsky E, Donchin O, Segev R (2023). Boundary vector cells in the goldfish central telencephalon encode spatial information. PLoS biology 21:e3001747. https://doi.org/10.1371/journal.pbio.3001747"
+      ]
     },
     {
       "slide": 34,
-      "provisional_title": "Added walls test responses to new boundaries",
-      "source": "boundary",
-      "doi": "10.1371/journal.pbio.3001747",
-      "candidate_figure": "5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "An inserted shelf creates a new neural boundary",
+      "paragraphs": 3,
+      "words": 138,
+      "figures": [
+        {
+          "path": "figures/boundary_newwall.png",
+          "caption": "Cohen et al. (2023), Fig. 5(A–H). An inserted shelf adds a boundary represented by the same neurons.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.3001747"
+        }
+      ],
+      "references": [
+        "Cohen L, Vinepinsky E, Donchin O, Segev R (2023). Boundary vector cells in the goldfish central telencephalon encode spatial information. PLoS biology 21:e3001747. https://doi.org/10.1371/journal.pbio.3001747"
+      ]
     },
     {
       "slide": 35,
-      "provisional_title": "Beta-period firing accompanies spatial modulation",
-      "source": "boundary",
-      "doi": "10.1371/journal.pbio.3001747",
-      "candidate_figure": "7",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Beta-period firing accompanies spatial modulation",
+      "paragraphs": 3,
+      "words": 132,
+      "figures": [
+        {
+          "path": "figures/boundary_beta.png",
+          "caption": "Cohen et al. (2023), Fig. 7(A–H). Some boundary-vector neurons have beta-period spike intervals.",
+          "source_url": "https://doi.org/10.1371/journal.pbio.3001747"
+        }
+      ],
+      "references": [
+        "Cohen L, Vinepinsky E, Donchin O, Segev R (2023). Boundary vector cells in the goldfish central telencephalon encode spatial information. PLoS biology 21:e3001747. https://doi.org/10.1371/journal.pbio.3001747"
+      ]
     },
     {
       "slide": 36,
-      "provisional_title": "Enclosure geometry supplies relational spatial cues",
-      "source": "geometry",
-      "doi": "10.1016/j.bbr.2011.07.027",
-      "candidate_figure": "Pending required PDF",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Rectangle geometry supplies equivalent corner cues",
+      "paragraphs": 3,
+      "words": 132,
+      "figures": [
+        {
+          "path": "figures/geometry_setup.png",
+          "caption": "Vargas et al. (2011), Fig. 1. A rectangular enclosure offers geometrically equivalent exits.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2011.07.027"
+        }
+      ],
+      "references": [
+        "Vargas JP, Portavella M, Quintero E, López JC (2011). Neural basis of the spatial navigation based on geometric cues. Behavioural brain research 225:367-372. https://doi.org/10.1016/j.bbr.2011.07.027"
+      ]
     },
     {
       "slide": 37,
-      "provisional_title": "Pallial lesions test geometric navigation mechanisms",
-      "source": "geometry",
-      "doi": "10.1016/j.bbr.2011.07.027",
-      "candidate_figure": "Pending required PDF",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "One-exit retention depends on the lateral pallium",
+      "paragraphs": 3,
+      "words": 118,
+      "figures": [
+        {
+          "path": "figures/geometry_one.png",
+          "caption": "Vargas et al. (2011), Fig. 3. Lateral-pallium lesions impair retention with one rewarded exit.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2011.07.027"
+        },
+        {
+          "path": "figures/geometry_lesions.png",
+          "caption": "Vargas et al. (2011), Fig. 2. Original lateral and medial pallial lesion reconstructions.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2011.07.027"
+        }
+      ],
+      "references": [
+        "Vargas JP, Portavella M, Quintero E, López JC (2011). Neural basis of the spatial navigation based on geometric cues. Behavioural brain research 225:367-372. https://doi.org/10.1016/j.bbr.2011.07.027"
+      ]
     },
     {
       "slide": 38,
-      "provisional_title": "Reorientation tests the use of geometric relationships",
-      "source": "geometry",
-      "doi": "10.1016/j.bbr.2011.07.027",
-      "candidate_figure": "Pending required PDF",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Rewarding equivalent exits preserves geometric guidance",
+      "paragraphs": 3,
+      "words": 132,
+      "figures": [
+        {
+          "path": "figures/geometry_two.png",
+          "caption": "Vargas et al. (2011), Fig. 5. Retention is preserved when both equivalent exits are rewarded.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2011.07.027"
+        },
+        {
+          "path": "figures/geometry_lesions.png",
+          "caption": "Vargas et al. (2011), Fig. 2. Original lateral and medial pallial lesion reconstructions.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2011.07.027"
+        }
+      ],
+      "references": [
+        "Vargas JP, Portavella M, Quintero E, López JC (2011). Neural basis of the spatial navigation based on geometric cues. Behavioural brain research 225:367-372. https://doi.org/10.1016/j.bbr.2011.07.027"
+      ]
     },
     {
       "slide": 39,
-      "provisional_title": "Geometry and local cues can support distinct strategies",
-      "source": "geometry",
-      "doi": "10.1016/j.bbr.2011.07.027",
-      "candidate_figure": "Pending required PDF",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Local geometric guidance differs from a global map",
+      "paragraphs": 3,
+      "words": 136,
+      "figures": [
+        {
+          "path": "figures/geometry_setup.png",
+          "caption": "Vargas et al. (2011), Fig. 1. A rectangular enclosure offers geometrically equivalent exits.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2011.07.027"
+        },
+        {
+          "path": "figures/geometry_two.png",
+          "caption": "Vargas et al. (2011), Fig. 5. Retention is preserved when both equivalent exits are rewarded.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2011.07.027"
+        }
+      ],
+      "references": [
+        "Vargas JP, Portavella M, Quintero E, López JC (2011). Neural basis of the spatial navigation based on geometric cues. Behavioural brain research 225:367-372. https://doi.org/10.1016/j.bbr.2011.07.027"
+      ]
     },
     {
       "slide": 40,
-      "provisional_title": "Rotated control mappings create directional errors",
-      "source": "adaptation",
-      "doi": "10.1111/ejn.70241",
-      "candidate_figure": "1, 4",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Rotated control mappings create directional errors",
+      "paragraphs": 3,
+      "words": 133,
+      "figures": [
+        {
+          "path": "figures/adaptation_setup.png",
+          "caption": "Liu et al. (2025), Fig. 1(A–D). Vehicle mappings impose a rotation between fish and vehicle directions.",
+          "source_url": "https://doi.org/10.1111/ejn.70241"
+        }
+      ],
+      "references": [
+        "Liu Z, Givon S, Segev R, Donchin O (2025). Whole Body Motor Adaptation in Goldfish Using Fish Operated Vehicle. The European journal of neuroscience 62:e70241. https://doi.org/10.1111/ejn.70241"
+      ]
     },
     {
       "slide": 41,
-      "provisional_title": "Repeated experience reduces perturbation errors",
-      "source": "adaptation",
-      "doi": "10.1111/ejn.70241",
-      "candidate_figure": "4, 5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Repeated experience reduces perturbation errors",
+      "paragraphs": 3,
+      "words": 135,
+      "figures": [
+        {
+          "path": "figures/adaptation_rotation.png",
+          "caption": "Liu et al. (2025), Fig. 5(A–C). Performance recovers during a 45° control rotation.",
+          "source_url": "https://doi.org/10.1111/ejn.70241"
+        }
+      ],
+      "references": [
+        "Liu Z, Givon S, Segev R, Donchin O (2025). Whole Body Motor Adaptation in Goldfish Using Fish Operated Vehicle. The European journal of neuroscience 62:e70241. https://doi.org/10.1111/ejn.70241"
+      ]
     },
     {
       "slide": 42,
-      "provisional_title": "Washout reveals motor-adaptation aftereffects",
-      "source": "adaptation",
-      "doi": "10.1111/ejn.70241",
-      "candidate_figure": "5",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Washout reveals motor-adaptation aftereffects",
+      "paragraphs": 3,
+      "words": 128,
+      "figures": [
+        {
+          "path": "figures/adaptation_example.png",
+          "caption": "Liu et al. (2025), Fig. 4(A–D). An example fish compensates for rotated control and has aftereffects.",
+          "source_url": "https://doi.org/10.1111/ejn.70241"
+        },
+        {
+          "path": "figures/adaptation_rotation.png",
+          "caption": "Liu et al. (2025), Fig. 5(A–C). Performance recovers during a 45° control rotation.",
+          "source_url": "https://doi.org/10.1111/ejn.70241"
+        }
+      ],
+      "references": [
+        "Liu Z, Givon S, Segev R, Donchin O (2025). Whole Body Motor Adaptation in Goldfish Using Fish Operated Vehicle. The European journal of neuroscience 62:e70241. https://doi.org/10.1111/ejn.70241"
+      ]
     },
     {
       "slide": 43,
-      "provisional_title": "Different rotation magnitudes challenge compensation",
-      "source": "adaptation",
-      "doi": "10.1111/ejn.70241",
-      "candidate_figure": "6",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Larger rotations demand larger compensation",
+      "paragraphs": 3,
+      "words": 131,
+      "figures": [
+        {
+          "path": "figures/adaptation_large.png",
+          "caption": "Liu et al. (2025), Fig. 6(A–C). Goldfish compensate for a 90° control rotation.",
+          "source_url": "https://doi.org/10.1111/ejn.70241"
+        }
+      ],
+      "references": [
+        "Liu Z, Givon S, Segev R, Donchin O (2025). Whole Body Motor Adaptation in Goldfish Using Fish Operated Vehicle. The European journal of neuroscience 62:e70241. https://doi.org/10.1111/ejn.70241"
+      ]
     },
     {
       "slide": 44,
-      "provisional_title": "Re-exposure separates improved performance from rate",
-      "source": "adaptation",
-      "doi": "10.1111/ejn.70241",
-      "candidate_figure": "7, 8",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Re-exposure separates performance from learning rate",
+      "paragraphs": 3,
+      "words": 134,
+      "figures": [
+        {
+          "path": "figures/adaptation_rates.png",
+          "caption": "Liu et al. (2025), Fig. 8(A–F). Re-exposure performance and learning rates differ from first exposure.",
+          "source_url": "https://doi.org/10.1111/ejn.70241"
+        },
+        {
+          "path": "figures/adaptation_reexposure.png",
+          "caption": "Liu et al. (2025), Fig. 7(A–D). Performance improves during a second exposure to rotation.",
+          "source_url": "https://doi.org/10.1111/ejn.70241"
+        }
+      ],
+      "references": [
+        "Liu Z, Givon S, Segev R, Donchin O (2025). Whole Body Motor Adaptation in Goldfish Using Fish Operated Vehicle. The European journal of neuroscience 62:e70241. https://doi.org/10.1111/ejn.70241"
+      ]
     },
     {
       "slide": 45,
-      "provisional_title": "Navigation transfer combines perception and adaptation",
-      "source": "adaptation",
-      "doi": "10.1111/ejn.70241",
-      "candidate_figure": "4, 7",
-      "crop_status": "Exact panels and crops require full visual review"
+      "title": "Navigation transfer combines guidance and adaptation",
+      "paragraphs": 3,
+      "words": 129,
+      "figures": [
+        {
+          "path": "figures/adaptation_example.png",
+          "caption": "Liu et al. (2025), Fig. 4(A–D). An example fish compensates for rotated control and has aftereffects.",
+          "source_url": "https://doi.org/10.1111/ejn.70241"
+        },
+        {
+          "path": "figures/vehicle_controls.png",
+          "caption": "Givon et al. (2022), Fig. 5(A–F). Changing starts, decoys, and relocated targets tests navigation.",
+          "source_url": "https://doi.org/10.1016/j.bbr.2021.113711"
+        }
+      ],
+      "references": [
+        "Liu Z, Givon S, Segev R, Donchin O (2025). Whole Body Motor Adaptation in Goldfish Using Fish Operated Vehicle. The European journal of neuroscience 62:e70241. https://doi.org/10.1111/ejn.70241",
+        "Givon S, Samina M, Ben-Shahar O, Segev R (2022). From fish out of water to new insights on navigation mechanisms in animals. Behavioural brain research 419:113711. https://doi.org/10.1016/j.bbr.2021.113711"
+      ]
     }
   ]
 }

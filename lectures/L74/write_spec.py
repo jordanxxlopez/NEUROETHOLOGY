@@ -1,0 +1,336 @@
+"""Source-based Lecture 74 with original article figures and teaching transcripts."""
+from pathlib import Path
+import json,re
+B=Path(__file__).resolve().parent
+R=json.loads((B/'research.json').read_text());F=json.loads((B/'figure_sources.json').read_text());S=[]
+AUTH={'vehicle':'Givon et al.','distance':'Sibeaux et al.','lesion':'Rodríguez et al.','edges':'Vinepinsky et al.','boundary':'Cohen et al.','geometry':'Vargas et al.','adaptation':'Liu et al.'}
+YEAR={'vehicle':2022,'distance':2022,'lesion':2002,'edges':2020,'boundary':2023,'geometry':2011,'adaptation':2025}
+def short(k):return AUTH[k]+' ('+str(YEAR[k])+')'
+def fig(n):
+ x=F[n];return {'path':'figures/'+n+'.png','kind':'article','caption':short(x['paper'])+', Fig. '+x['figure']+'. '+x['description'],'source_url':'https://doi.org/'+R[x['paper']]['doi']}
+def add(title,k,imgs,text,note):
+ body=text.strip().split('\n\n');assert len(body)==3;assert len(title)<=62,title
+ keys=list(dict.fromkeys([k]+[F[n]['paper'] for n in imgs]));z={'title':title,'body':body,'transcript':[re.sub(r'\*\*','',p) for p in body]+[note],'cite':'; '.join(short(x) for x in keys),'refs':[R[x]['reference'] for x in keys],'figure_width':5.8}
+ if len(imgs)==1:z.update(layout='figure-right',figure=fig(imgs[0]))
+ else:z.update(layout='figures-right',figures=[fig(n) for n in imgs],figure_arrangement='side-by-side',primary_figure_width=3.9)
+ S.append(z)
+add('Goldfish drive toward a terrestrial visual target','vehicle',['vehicle_setup'],'''
+Goldfish can control a wheeled platform while remaining in water. Givon and colleagues placed a water tank on a **fish-operated vehicle**, or FOV, whose movement depended on the fish’s position and orientation. The animal’s swimming actions displaced its tank through a room.
+
+A pink board marked the rewarded destination in a 3 × 4 m arena. Reaching it produced a food pellet. With training, fish reached the target more often and followed more direct routes, combining control of an unfamiliar device with visual guidance toward a goal.
+
+**Domain transfer** means performing a familiar class of task in a different environmental setting. Here, aquatic movements controlled terrestrial translation. Successful navigation required learning how movements inside the tank changed the animal’s position relative to objects outside it.
+''','The animal remained submerged throughout the experiment. The transferred behavior was navigation through an external terrestrial arena, rather than unsupported movement on land.')
+add('Tracking links fish position to vehicle movement','vehicle',['vehicle_setup'],'''
+The vehicle’s camera viewed the goldfish from above and continuously recorded its location inside the tank. A computer-vision algorithm separated the fish from the background, identified its body contour, and estimated the direction it faced. These measurements supplied the commands sent to the wheel motors.
+
+The control arrangement made the fish’s body position behaviorally relevant. Swimming toward a tank wall while facing outward could move the entire platform in that direction. The same movement therefore changed both the fish’s local position and its relationship to a distant target.
+
+The investigators recorded the fish’s tank position separately from the vehicle’s room position. This separation distinguished the animal’s controlling actions from the path those actions produced. Learning could consequently be assessed through target arrivals, movement duration, and the vehicle’s route through the arena.
+''','The tracking algorithm extracted the contour, tail location, and direction vector from the original camera image. Its output controlled the platform; it was not a measurement of neural activity.')
+add('Orientation and tank position control the wheels','vehicle',['vehicle_response','vehicle_setup'],'''
+Vehicle movement depended on a conjunction of location and orientation. The goldfish had to approach a tank boundary and face outward before its action produced translation. Facing inward or remaining away from the boundary could leave the platform stationary, so swimming alone did not guarantee progress toward the target.
+
+Motor measurements established how commands changed vehicle motion. The response developed over approximately one second, rather than instantly. The fish therefore experienced a delay between changing its controlling position and observing the resulting displacement through the room.
+
+A laser-ranging system also prevented the platform from moving closer than 20 cm to an obstacle. Collision prevention was part of the device’s control system. The learned task combined fish-directed movement with mechanical delay and automatic restrictions near walls, which together shaped the available routes.
+''','The laser-ranging system measured external obstacles and could override the fish command. Avoidance of a collision therefore included machine assistance rather than relying entirely on an animal’s decision.')
+add('Rewarded training produces more direct routes','vehicle',['vehicle_paths','vehicle_learning'],'''
+**Operant learning** changes behavior through its consequences. In the vehicle task, a food pellet followed arrival at the pink target board. The experimenters returned the covered tank to the starting position, then allowed another attempt, linking successful vehicle control with a repeated reward.
+
+Early routes wandered through the arena and often failed to reach the destination. Later routes were more direct. Training increased successful target arrivals while reducing travel time and path length, so the improvement concerned both obtaining reward and organizing movement toward its location.
+
+Sessions lasted up to 30 minutes and ended after the trial limit was reached. Comparing routes across sessions tracked acquisition of the action-to-motion relationship. More efficient navigation emerged after repeated experience with the same device and visual goal, rather than from an immediately available terrestrial motor repertoire.
+''','The fish first received a brief opportunity to explore control of the vehicle. Session records then separated learning across days from the trajectory of any individual trial.')
+add('Changed starting positions test route flexibility','vehicle',['vehicle_controls'],'''
+A fixed starting position permits a repeated sequence of movements to reach a goal. Givon and colleagues moved the vehicle to different starting locations after training, changing the route required to reach the same target. Successful transfer therefore required adapting the trajectory to the current situation.
+
+Fish reached the destination from the new positions. The researchers compared route efficiency relative to the shortest path from each starting point, because raw travel distance necessarily changes when a start moves. Performance was compatible with continued goal-directed navigation under the altered starting conditions.
+
+A **reference frame** specifies the coordinates used to describe a location or movement. A learned route tied only to the original start would become inappropriate after displacement. The new-start trials instead required the fish to relate the vehicle’s present position to the target visible in the surrounding arena.
+''','Different starting positions test flexibility of a learned navigation behavior. They do not by themselves distinguish every possible representation, because visual guidance can also support flexible approach to a target.')
+add('Decoys and target relocation test visual guidance','vehicle',['vehicle_controls'],'''
+The target board had both a distinctive appearance and a stable location during training. Same-shaped boards of other colors acted as **decoys**, competing objects that resembled the target without carrying its reward. Fish continued toward the pink destination rather than treating every rectangular board as equivalent.
+
+Moving the pink board to the opposite wall separated its appearance from its original place. In the reported first encounter, the fish repeatedly approached the old location before reaching the relocated board. By the third trial, the route went directly toward the new target position.
+
+A combined test changed the target location while retaining decoys. Successful approach under this arrangement linked target identity with an updated destination. The sequence of old-place visits and subsequent redirection indicates that learned place information and current visual information both contributed to behavior.
+''','The target relocation changed the relation between the pink board and its previously rewarded location. The animal’s route changed with experience of that altered relation.')
+add('Goldfish learn a travelled-distance stopping rule','distance',['distance_setup','distance_turn'],'''
+Goldfish can learn a distance even when no visible object marks the endpoint during testing. Sibeaux and colleagues trained fish to swim 70 cm down a narrow tunnel, turn, and return to the start for food. The training signal and physical barriers were gradually reduced as the behavior developed.
+
+The final training stage used an experimenter’s wave to signal the turn. Testing removed that signal and placed the fish at different starting positions. The animals still travelled approximately the learned distance before returning, with the pooled mean near 74 cm.
+
+An **odometer** is a system that estimates distance travelled. Reproducing an outward distance after removal of the turn signal requires information about the journey itself. The task therefore separated a learned travel metric from a simple immediate response to the experimenter’s visible instruction.
+''','During test trials, reward was provided regardless of the measured distance. This prevented selective reinforcement of particular test distances from supplying the result being measured.')
+add('Visual motion supplies an odometric cue','distance',['distance_setup','distance_pattern'],'''
+**Optic flow** is the pattern of visual change caused by movement through an environment. As a fish advances beside striped walls, the background passes across its visual field. Sibeaux and colleagues tested whether this self-generated visual information contributed to the learned 70 cm journey.
+
+The tunnel initially carried vertical black-and-white stripes 2 cm wide. Changing the pattern while retaining the same task changed how far fish swam before turning. The endpoint therefore depended on properties of the visual background as well as on the previously learned target distance.
+
+The source distinguishes angular image motion from the spatiotemporal frequency of repeated visual features. The authors’ hypothesis is that goldfish odometry draws on the latter kind of information. Repeated contrast changes encountered during travel could supply a distance cue whose calibration depends on background spacing.
+''','The pattern experiment manipulated the visual information available during swimming without moving the learned distance criterion. It tests a sensory contribution to behavior rather than recording an odometer neuron.')
+add('Stripe spacing changes estimated travel distance','distance',['distance_pattern'],'''
+**Spatial frequency** describes how densely visual features repeat across a surface. Reducing stripe width from 2 cm to 1 cm increased the frequency of contrasts encountered along the tunnel. The learned target remained 70 cm, so only the background spacing was altered during this test.
+
+Fish turned after approximately 47 cm with the denser stripe pattern, compared with approximately 74 cm under the original pattern. They therefore behaved as though the shorter journey had already supplied the learned distance information. Background density changed the calibration of their estimate.
+
+A checkerboard with the original pattern’s spatial frequency produced travel distances near 75 cm. Changing visual geometry alone therefore did not reproduce the short-distance response. The contrast between checkerboard and denser stripes ties the behavioral change specifically to the frequency of the background features.
+''','The shorter physical journey is an overestimate of distance already travelled, not an underestimate. Fish reached their internal stopping criterion too soon under the denser pattern.')
+add('Stripe orientation changes distance information','distance',['distance_pattern','distance_setup'],'''
+Vertical stripes generate repeated contrast changes as a fish moves forward along the tunnel. Horizontal stripes running in the direction of travel substantially reduce that periodic visual signal. Sibeaux and colleagues used this orientation change to test the importance of translational optic-flow information.
+
+With horizontal stripes, turning distances became much less consistent than under the trained vertical pattern. The mean journey was approximately 65 cm, and individual trials covered a much broader range of endpoints. A visually patterned environment therefore supplied weaker odometric information when its features aligned with forward motion.
+
+The result connects sensory structure with behavioral precision. The trained stopping rule persisted, but its implementation was less reliable when the background supplied fewer repeated changes along the path. Distance estimation depends on which visual features movement brings through the fish’s field of view.
+''','Horizontal stripes still provide visible contrast. The manipulation reduces periodic modulation during forward translation rather than making the tunnel entirely visually empty.')
+add('Starting-point shifts test distance versus place','distance',['distance_start'],'''
+A fish might turn at a familiar place in a tank rather than after a learned distance. To separate those strategies, the odometry experiment used movable start areas. Test positions differed from training positions, so an identical outward journey ended at different absolute locations.
+
+As the start moved farther along the tunnel, the absolute turning position also moved farther along it. The mean outward journeys were approximately 79, 75, and 68 cm across the three test starts. Performance was therefore not perfect invariance, but it followed the displacement of the origin.
+
+**Absolute position** refers to location within the fixed apparatus, whereas travelled distance measures displacement from the current origin. Their separation is essential in this task. Changing the origin reveals whether the fish uses journey information or an endpoint associated with a particular part of the environment.
+''','Start positions were spaced 20 cm apart. The pattern of shifting endpoints supports a travel-distance rule, while the shorter journey from the final start identifies a remaining effect of position on accuracy.')
+add('Fin beats and swim speed test alternative cues','distance',['distance_fin','distance_speed'],'''
+A visual estimate of distance can coexist with information from movement itself. Sibeaux and colleagues counted **caudal fin beats**, oscillations of the tail fin that contribute to propulsion, and measured travel time. More fin beats accompanied longer journeys, so motor activity contained information related to distance.
+
+Elapsed time was less consistent than travelled distance across trials and did not explain the endpoint pattern in the same way. This comparison weakens a simple fixed-duration rule. Fin-beat counting remains a possible additional contribution because movement and distance naturally covary during swimming.
+
+The visual-pattern manipulations also changed swimming speed. Fish swam more slowly with denser or horizontal stripes than with the trained pattern and checkerboard. The background therefore affected both locomotion and the stopping estimate, connecting visual information with the control and evaluation of an ongoing journey.
+''','A correlation between tail beats and travel does not isolate a counting mechanism. The direct visual manipulation provides the separate evidence that background information changes the distance estimate.')
+add('Pallial anatomy distinguishes spatial-memory regions','lesion',['pallial_eversion','pallial_histology'],'''
+The **telencephalon** is the forebrain region containing the pallium, a set of dorsal neural divisions involved in several kinds of information processing. In ray-finned fish, development includes **eversion**, an outward bending of the pallial wall that changes the relative positions of its divisions.
+
+Rodríguez and colleagues compared the goldfish lateral, medial, and dorsal pallium. The lateral pallium has been proposed as a hippocampal homolog on anatomical grounds. A **homolog** is a structure related through evolutionary ancestry, rather than merely one occupying the same adult position in different species.
+
+The experiment tested that proposal functionally by removing particular regions and measuring place and cue learning. Later recordings localized spatially tuned neurons in lateral pallial areas. Anatomical organization and behavioral perturbation therefore supply complementary ways of relating forebrain divisions to navigation.
+''','The vertebrate comparison depends on developmental topology as well as adult location. Eversion makes a simple comparison of medial versus lateral position across species misleading.')
+add('Place and cue tasks require different strategies','lesion',['fish_memory'],'''
+**Allocentric navigation** represents spatial relationships relative to the environment. **Egocentric navigation** specifies movements relative to the animal’s body, such as a left turn. Rodríguez and colleagues trained goldfish in a maze where the correct turn changed with the starting arm but the rewarded place remained fixed.
+
+This **place task** made a repeated body-centered turn inadequate. The animal had to reach the same room location from opposite approaches. A separate **cue task** instead marked the rewarded arm directly with a conspicuous visual signal whose location varied across trials.
+
+The cue task could be solved by approaching the visible marker, whereas the place task required information about the surrounding arrangement. Comparing the two procedures distinguished relational spatial memory from direct guidance to a beacon, while retaining the basic requirement to swim toward a reward.
+''','The maze was rotated between sessions to reduce the usefulness of unnoticed cues attached to a particular arm. Extramaze visual information supplied the stable room-centered reference for the place task.')
+add('Regional lesions separate competing explanations','lesion',['fish_lesions'],'''
+A **lesion** removes or damages neural tissue so that its contribution to behavior can be tested. Rodríguez and colleagues made bilateral lesions of the lateral, medial, or dorsal pallium and compared them with complete telencephalic removal and sham operations. Sham surgery matched the procedure while preserving the tissue.
+
+Fish first learned the place task, then resumed training after surgery. This sequence assessed retention and expression of an established spatial behavior. Histological reconstruction identified which forebrain regions had actually been removed, linking the behavioral comparison to the anatomical intervention.
+
+The regional groups provided controls for interpreting a deficit. Impairment after lateral removal alongside preserved performance after other pallial lesions would indicate a specific contribution rather than an inevitable consequence of any forebrain surgery. Comparing cue learning further separated spatial-memory disruption from a general inability to obtain reward.
+''','Histology showed extensive removal in the targeted divisions and little or no injury to several neighboring regions. The anatomical reconstruction is necessary because the causal intervention is defined by tissue loss, not only by its intended surgical label.')
+add('Place learning depends on lateral pallial integrity','lesion',['fish_memory','fish_lesions'],'''
+Goldfish learned to locate the stable rewarded place before surgery. After lateral-pallium removal, their accuracy fell sharply and remained low during retraining. Complete telencephalic removal produced a similarly severe deficit, while medial and dorsal pallial lesions preserved the learned place response.
+
+The impairment concerned a relation between the goal and the surrounding environment. The same animals could still perform a later visible-cue task. Lateral-pallium loss therefore disrupted the behavior requiring place information while leaving direct approach to a rewarded marker available.
+
+The result connects a forebrain division with use of a learned spatial representation. A map-like memory relates a goal to several environmental features rather than to one fixed body turn. Removing the lateral pallium interfered with the expression of that relational information in the maze.
+''','Postsurgery retraining continued for twelve sessions. Persistently poor place performance contrasted with the acquisition of a different task based on direct cue guidance.')
+add('Novel starts test flexible spatial representations','lesion',['fish_routes','fish_lesions'],'''
+A learned spatial representation should support a route that was not practiced during training. Rodríguez and colleagues displaced the maze so that fish started from unfamiliar positions while the goal remained at its learned room location. Transfer trials removed reward, preventing food at the destination from guiding the choice.
+
+Before surgery, fish selected routes toward the goal from the new starts. After lateral-pallium lesions, this flexible response was strongly disrupted. Sham-operated animals and fish with medial or dorsal pallial lesions continued to navigate appropriately under the changed starting conditions.
+
+The transfer result distinguishes knowledge of a place from repetition of an original route. A new approach changes which arm and turn lead to the goal. Preserved transfer requires using the environment-to-goal relationship when the familiar sequence of controlling movements is no longer sufficient.
+''','The transferred routes were not trained separately. Their spontaneous use connects the learned place representation with the ability to choose a new path after displacement.')
+add('Visible-cue navigation survives spatial disruption','lesion',['fish_memory','fish_lesions'],'''
+A **beacon** is a visible cue that directly marks a destination. In the cue-learning phase, the goal changed positions but remained signaled by the intramaze marker. The fish could solve the task by approaching that cue instead of recovering a stable place from the room’s layout.
+
+All surgical groups learned this procedure, including animals with lateral-pallium lesions or complete telencephalic removal. Removing the marker then disrupted performance. The cue was therefore the relevant guide, rather than an unnoticed fixed property of the maze or a visible barrier blocking an incorrect arm.
+
+The preserved behavior specifies what the lesion spared. Fish could perceive the useful marker, swim toward it, and obtain reward. Their place-task impairment consequently concerns relational spatial memory rather than a complete loss of vision, locomotion, motivation, or learning ability.
+''','The visible-cue task was conducted after place-task retraining in a different maze and room. It tested a new guidance rule rather than simply repeating the original place association.')
+add('Matched lesion comparisons localize the deficit','lesion',['fish_lesions','fish_memory'],'''
+Lateral, medial, and dorsal pallial lesions produced different consequences in the same place-learning procedure. The lateral lesion severely reduced performance, whereas the medial and dorsal lesions preserved accuracy. Complete telencephalic removal yielded a deficit comparable to the lateral intervention.
+
+These comparisons localize a necessary contribution within the tested forebrain system. The lateral pallium was especially important for reaching a remembered place from environmental relationships. Preserved behavior after the other lesions indicates that damage to any pallial region was not sufficient to produce the same result.
+
+The cue task added a functional comparison within the affected animals. Direct visual guidance remained possible even when place memory failed. Anatomically matched interventions and behaviorally distinct tasks therefore separate regional specialization from a broad surgical or sensorimotor disturbance in navigation.
+''','The lateral lesions primarily involved the ventral part of the lateral pallial division. The published reconstructions also document variation in involvement of adjoining tissue, which defines the anatomical scope of the result.')
+add('Fish and reptile lesions reveal shared memory roles','lesion',['turtle_memory','turtle_lesions'],'''
+Rodríguez and colleagues tested a comparable place-memory problem in turtles as well as goldfish. In turtles, the proposed hippocampal homolog is the **medial cortex**, a pallial region with a different adult location from the fish lateral pallium. The comparison followed anatomical homology rather than matching position alone.
+
+Medial-cortex-lesioned turtles could acquire a practiced route, but they failed when reaching the goal required unfamiliar paths. Sham animals used the changed starts successfully. Direct approach to a visible cue remained available, separating flexible place memory from cue-guided movement in the reptile preparation.
+
+The shared distinction concerns how a destination is represented. Both preparations dissociated relational place information from direct guidance to a marker. The converging anatomical and functional evidence supports the authors’ hypothesis that a hippocampal-like spatial-memory system was conserved across these vertebrate lineages.
+''','The turtle result was especially clear in transfer and probe trials. Acquisition of a familiar route alone would have concealed the deficit in flexible use of place information.')
+add('Wireless recording links spikes to free swimming','edges',['neural_setup'],'''
+A neuron communicates through **action potentials**, brief electrical impulses whose timing can be recorded extracellularly. Vinepinsky and colleagues used a waterproof data logger and implanted electrodes to record goldfish neurons while the animals explored a shallow 60 × 60 cm tank without a tether.
+
+A camera simultaneously tracked position and head orientation. Matching spike times to these behavioral measurements allowed the researchers to ask whether a cell’s firing depended on distance to an edge, heading, swimming speed, or a combination of direction and speed.
+
+A **tetrode** contains four nearby recording contacts. Differences in the spike waveforms across contacts help separate the activity of individual neurons, a process called **spike sorting**. Distinguishing cells matters because different units recorded at the same location can encode different components of movement and space.
+''','Recording and behavioral tracking were synchronized so that neural impulses could be associated with the fish’s state at the time they occurred. Extracellular recordings measure output spikes rather than the intracellular events producing each impulse.')
+add('Histology locates spatially tuned pallial neurons','edges',['pallial_histology'],'''
+After recording, Vinepinsky and colleagues examined the brain tissue to locate the electrode tracks. **Histology** studies tissue organization in sections. Combining stained sections with anatomical reference drawings placed the recordings mainly within lateral regions of the goldfish pallium, including neighboring named subdivisions.
+
+The recorded cells did not all encode the same variable. Edge-related, head-direction, speed-correlated, and velocity-vector responses appeared within the sampled pallial areas. Neural specialization was therefore expressed across a population rather than through one uniform response associated with the entire region.
+
+The anatomical localization connects the electrophysiology with the lesion literature. Lateral pallial tissue participates in place-memory behavior, and neurons sampled there carry information related to boundaries and locomotion. These are distinct forms of evidence linking forebrain anatomy with navigation-relevant information.
+''','A histological track localizes the sampled neurons but does not establish their synaptic connections. The recording identifies what varies with cell firing, while the lesion experiment identifies a necessary contribution to the tested behavior.')
+add('Edge cells encode environmental boundaries','edges',['edge_cells'],'''
+An **edge-encoding cell** fires preferentially when the fish is near the boundaries of its tank. Vinepinsky and colleagues compared spike locations with the animal’s complete swimming trajectory. Edge-associated firing appeared beside multiple walls rather than at only one narrowly defined point in the environment.
+
+The researchers corrected firing maps for how long the fish occupied each location. This **occupancy correction** separates frequent spikes caused by frequent visits from an actual increase in firing rate. Boundary-related activity remained after accounting for the animal’s uneven use of the tank.
+
+The reported edge activity layers ranged from approximately 4 to 14 cm from the walls. This describes a spatial band in which activity was concentrated. Such neurons provide information about proximity to the enclosure’s limits while the fish continues moving through different parts of the arena.
+''','The edge activity layer was defined using the distance enclosing most of a cell’s spikes. It describes the width of boundary-associated firing rather than the size of a sharply isolated place field.')
+add('Edge signals differ from a single fixed place','edges',['edge_cells'],'''
+A position-sensitive neuron can encode either a localized place or a relation to a boundary. In Vinepinsky and colleagues’ recordings, edge cells were active near several tank walls. Their response therefore followed the fish’s relationship to environmental edges rather than one unique destination.
+
+The authors also rotated the tank and its covering enclosure by 180° while masking distant visual cues. In the reported control, firing remained associated with the edges. This manipulation tested whether the response depended on a particular unchanged feature of the external room.
+
+Most tested edge cells showed no strong preference for a wall lying on one body side rather than the other. That comparison distinguishes general edge proximity from a purely left-wall or right-wall signal. Boundary relationships can therefore be represented separately from the immediate side of the fish’s body.
+''','The rotation and body-side controls are reported in the source text and supplement. The main figure supplies the original trajectories, rate maps, and distance-to-edge analyses supporting the boundary relation.')
+add('Head-direction cells encode the fish heading','edges',['heading_cells'],'''
+A **head-direction cell** changes its firing rate with the orientation of the animal’s head. Vinepinsky and colleagues combined camera-derived heading with spike timing to identify neurons that were more active at particular orientations while the goldfish swam through the tank.
+
+Direction-sensitive activity could occur at different positions. The relevant variable was which way the fish faced, rather than simply where it was located. Preferred directions remained reasonably stable within recording sessions, supporting an orientation signal available during continued exploration.
+
+Rotating the tank and its visual cues by 180° changed the preferred orientation of a tested cell by approximately 130°. The response remained directional but followed the altered visual environment incompletely. This control connects the heading representation with external cues instead of treating it as an absolute compass independent of the scene.
+''','The preferred direction is the orientation associated with higher average firing. Directional tuning is a graded response, not a claim that a neuron fires exclusively at one angle.')
+add('Speed-correlated firing tracks swimming motion','edges',['speed_cells'],'''
+**Speed** describes how quickly an animal moves without specifying the direction. Vinepinsky and colleagues identified neurons whose firing increased with swimming speed across different headings. These cells separated the magnitude of locomotion from the orientation signal carried by head-direction neurons.
+
+The comparison used the camera-derived velocity and the cell’s spike train. Activity during faster movement exceeded that expected after shuffling spike timing relative to behavior. The relationship therefore reflected coordinated neural and locomotor variation rather than only an overall tendency for an active fish to generate many spikes.
+
+The reported speed-correlated population covered swimming speeds on the order of 6–24 cm/s. A graded motion signal could supply information about ongoing displacement during navigation. The study measured the relationship between speed and firing; its behavioral role can be considered alongside the separate odometry evidence.
+''','The source distinguishes correlations with speed in an environmental frame from velocity expressed relative to the fish’s own body. Speed tuning was not restricted to one allocentric heading.')
+add('Velocity-vector cells combine speed and direction','edges',['velocity_cells'],'''
+**Velocity** combines movement speed with movement direction. A velocity-vector neuron therefore carries more specific information than a speed-correlated neuron. Vinepinsky and colleagues found cells that fired more during faster swimming in a preferred direction, while similar speeds in other directions produced less activity.
+
+The researchers compared firing across the two-dimensional velocity space. A cell’s response depended on both components of the movement vector. This **conjunctive coding**, a response sensitive to a combination of variables, integrates orientation and locomotor magnitude within the output of a single neuron.
+
+Changing the visual environment shifted preferred directions in the reported controls while preserving velocity-related tuning. A direction-and-speed representation can therefore be recalibrated to the current arena. The fish’s neural coordinate system relates ongoing movement to environmental information rather than requiring an unchanged universal direction label.
+''','The source reports a preferred-direction shift after rotating visual cues and after moving between differently shaped tanks. The full response remains velocity-sensitive despite the changed directional reference.')
+add('Different cell classes carry complementary signals','edges',['pallial_histology','velocity_cells'],'''
+Navigation requires information about location, heading, and movement. Vinepinsky and colleagues found that different pallial neurons represented edge proximity, head direction, speed, or the combination of speed and direction. Each response class supplied a different component of the animal’s changing spatial state.
+
+Some cells met the criteria for more than one encoding property. A population can therefore contain both relatively specialized responses and mixed tuning. **Population coding** refers to information represented across the activities of several neurons, whose combined responses distinguish states that no single response describes completely.
+
+The authors’ hypothesis is that these signals form building blocks of the goldfish navigation system. Edge information supplies a boundary relation, heading supplies orientation, and motion signals describe displacement. Their coexistence connects the lateral pallium’s place-memory contribution with measurements of navigation-related neuronal activity.
+''','The recordings sampled a limited set of pallial sites. The four observed response classes define the measured neural information and do not require a claim that every spatial variable has already been identified.')
+add('Central recordings reveal another boundary code','boundary',['boundary_setup'],'''
+Cohen and colleagues sampled the central telencephalic region while goldfish explored a vertical navigation tank. The main dimensions were 70 cm horizontally and 70 cm vertically, with a narrow 20 cm depth. This arrangement allowed movement in height as well as along the horizontal axis.
+
+Wireless recording was combined with video tracking and spike sorting. Tissue sections localized the recording sites in the central pallial area. The experiment therefore sampled a different anatomical region and movement plane from the earlier shallow-tank recordings of lateral pallial neurons.
+
+The investigators found **boundary-vector cells**, neurons whose firing decreased with distance from a boundary in a preferred direction. A left-wall-sensitive cell and a bottom-sensitive cell can distinguish different spatial relationships. Vertical movement made floor, surface-side, and corner relationships accessible to the neural analysis.
+''','The tank permitted exploration of a quasi-two-dimensional vertical plane embedded in a three-dimensional environment. Its narrow third dimension limits direct conclusions about unrestricted volumetric navigation.')
+add('Boundary-vector firing varies with wall distance','boundary',['boundary_cells'],'''
+A boundary-vector response combines the direction of an environmental boundary with its distance from the animal. Cohen and colleagues recorded cells whose firing was highest near a particular wall or corner and declined as the fish moved farther away along that preferred direction.
+
+A cell responding to the left boundary differed from one responding to the bottom or a corner. Occupancy-corrected maps showed graded responses extending across the tank, rather than isolated islands of activity at one small location. The source related these patterns to the distance between fish and preferred boundary.
+
+**Tuning** is the systematic relationship between a measured variable and a neuron’s firing. Here, tuning depended on a directional spatial relation. The fish could move along the wall while retaining a similar boundary distance, separating that relation from a single fixed coordinate in the arena.
+''','The boundary relation can be directional without requiring the fish to face the wall. Position relative to a preferred environmental boundary and the animal’s swimming heading are distinct measured variables.')
+add('Boundary directions use an environmental reference','boundary',['boundary_direction'],'''
+A preferred boundary direction is defined relative to the tank, such as toward its left side or bottom. It differs from a body-centered statement such as a wall being immediately to the fish’s left. Cohen and colleagues analyzed the recorded responses in an allocentric spatial frame.
+
+They separated periods when fish swam toward a cell’s preferred boundary from periods when they swam away. Boundary-related spatial tuning remained recognizable in both directions, although some cells had different firing magnitudes. The distance relationship and the current movement direction could therefore influence the same neuron differently.
+
+Comparing swimming speeds across those conditions helped evaluate movement-related explanations for the rate difference. Position was the stronger encoded variable in the reported population. The boundary representation supplies a relation to the environment while locomotor state can modulate how strongly that relation is expressed.
+''','For several example cells, firing was greater while moving away from the preferred boundary. The authors state that direction cannot be cleanly separated from every correlated behavioral variable in these observations.')
+add('Boundary tuning spans different spatial ranges','boundary',['boundary_range','boundary_tuning'],'''
+Different boundary-vector cells respond across different distance ranges. Cohen and colleagues measured the width of each spatial response, describing how far the graded firing pattern extended from its preferred boundary. A narrow response emphasizes nearby limits, whereas a broad response remains informative farther into the tank.
+
+The population contained a range of receptive-field widths. A **receptive field** is the set of conditions or locations associated with a neuron’s response. In this experiment, the spatial field was defined by a boundary relation and could extend across much of the 70 cm arena.
+
+The same position can therefore activate several cells with different preferred boundaries and distance sensitivities. Their combined responses distinguish spatial relationships at multiple scales. The observed gradients describe a distributed distance code rather than requiring every neuron to mark one small, sharply localized place.
+''','The authors fitted graded spatial responses and compared them with localized alternatives. The measured tuning generally favored extended boundary-distance patterns over narrow fields centered near a wall.')
+add('An inserted shelf creates a new neural boundary','boundary',['boundary_newwall'],'''
+A response related to a boundary should change when a new physical boundary appears. Cohen and colleagues recorded a cell during one session, inserted a horizontal Perspex shelf, then recorded again. The shelf changed the geometry while leaving the outer tank boundaries in place.
+
+In the reported bottom-sensitive example, firing after insertion was elevated near both the tank bottom and the new shelf. Other cells also changed their spatial maps in relation to the added surface. The same neuron could therefore respond to more than one boundary with the appropriate spatial relationship.
+
+This manipulation separates a boundary-distance code from a fixed patch of external space. A shelf creates a new reference surface at a different height. Neural activity following that surface indicates that environmental geometry helps determine the response, rather than activity remaining confined to its original coordinates.
+''','The fish was blindfolded while the shelf was inserted, then released for the second recording session. The comparison followed the same cells across the geometry change.')
+add('Beta-period firing accompanies spatial modulation','boundary',['boundary_beta'],'''
+Neural activity can contain a temporal pattern as well as a spatial one. Cohen and colleagues examined **interspike intervals**, the durations between successive action potentials, in boundary-vector cells. Some neurons had regularly spaced interval peaks, indicating a rhythmic component in their firing.
+
+A frequency analysis revealed an example peak near 16 Hz. The source identifies this as a **beta rhythm**, within the approximately 12.5–30 Hz range used in its analysis. Rhythmic interval patterns were present in roughly half of the identified boundary-vector population and uncommon among the other recorded cells.
+
+The result links spatial modulation with patterned neural timing. A cell can vary its firing with boundary distance while also producing preferred temporal intervals. These are complementary properties of its output, connecting where activity occurs with how impulses are organized during navigation.
+''','The analysis used single-neuron spike intervals. It is evidence for rhythmic cellular firing and should not be equated automatically with a synchronized oscillation across an entire brain region.')
+add('Rectangle geometry supplies equivalent corner cues','geometry',['geometry_setup'],'''
+A rectangle contains two pairs of geometrically equivalent corners. Within each pair, the arrangement of a long wall and a short wall has the same orientation. Vargas and colleagues used a 70 × 35 cm enclosure with a possible exit in each corner to study navigation from geometry alone.
+
+The enclosure had homogeneous walls and was rotated between trials. These choices reduced the usefulness of fixed room cues and conspicuous local features. Fish started from the center, then selected a corner to leave the enclosure and reach the larger surrounding aquarium.
+
+In the first experiment, only one exit was open. Its diagonally opposite equivalent corner therefore offered similar geometric information but no escape. The task required retaining a rewarded choice despite ambiguity between corners that shared the same long-wall and short-wall relationship.
+''','Three transparent barriers blocked the other openings. Choices at the geometrically equivalent blocked corner were informative because they indicated use of enclosure geometry rather than direct detection of the barrier.')
+add('One-exit retention depends on the lateral pallium','geometry',['geometry_one','geometry_lesions'],'''
+Vargas and colleagues trained fish with one rewarded exit, then made lateral-pallium, medial-pallium, or sham lesions. Histological reconstruction identified the affected tissue. Testing resumed after a four-day recovery period, assessing retention of the previously acquired geometric navigation behavior.
+
+The groups reached similar performance before surgery. Afterwards, lateral-pallium-lesioned fish chose accurately less often than medial-pallium-lesioned and sham animals. The deficit therefore appeared after removal of the lateral region rather than reflecting a difference in initial learning of the task.
+
+The one-exit procedure made geometrically equivalent corners unequally rewarding. Losing the lateral pallium interfered with maintaining performance under that arrangement. The result links this forebrain region with a geometric task that includes ambiguous local information and an asymmetry in reinforcement.
+''','The intervention primarily damaged the ventral lateral pallial division. Similar anatomical interventions were compared in the second experiment while changing which geometric corners produced successful escape.')
+add('Rewarding equivalent exits preserves geometric guidance','geometry',['geometry_two','geometry_lesions'],'''
+In the second experiment, Vargas and colleagues rewarded both diagonally opposite, geometrically equivalent corners. The enclosure and swimming requirements remained similar to the first experiment, but the local long-wall and short-wall relationship now identified a successful exit without conflicting reinforcement.
+
+Lateral-pallium lesions preserved retention in this arrangement, as did medial-pallium lesions and sham surgery. Fish could therefore still use geometric information after the lateral intervention when either equivalent corner led to escape. This directly changes the conclusion that geometry must always depend on intact lateral pallium.
+
+A probe randomly changed which equivalent corners were blocked. Accuracy then fell to chance, indicating that the fish had been guided by learned geometry rather than directly seeing the glass barriers. The available geometric cue and the task’s reinforcement structure jointly determined the lesion’s behavioral consequence.
+''','The contrast between the two experiments concerns one versus two successful exits, not a replacement of geometric information with a colored beacon. Geometry remained relevant in both preparations.')
+add('Local geometric guidance differs from a global map','geometry',['geometry_setup','geometry_two'],'''
+A **taxon strategy** guides movement through cues associated with a destination, whereas a map-like strategy represents broader spatial relationships. The authors’ hypothesis is that the two-exit geometric task could be solved using local corner information, making its neural requirements different from an ambiguous one-exit task.
+
+Lateral-pallium-lesioned goldfish retained geometric guidance when both equivalent corners were rewarded. They also retained the basic sensory and swimming capacities needed for escape. Their one-exit deficit therefore reflects a change in the use of spatial information rather than a universal loss of access to geometry.
+
+The same rectangular enclosure can support different solutions depending on which choices succeed. A long-wall and short-wall arrangement can function as a locally learned destination cue without necessarily requiring a global representation of the entire space. Task structure determines which spatial relationship an animal must recover.
+''','The local-view and taxon interpretations are hypotheses offered by the authors. The measured finding is the different retention outcome after similar lateral lesions under the one-exit and two-exit reward structures.')
+add('Rotated control mappings create directional errors','adaptation',['adaptation_setup'],'''
+**Motor adaptation** adjusts an established movement policy when the relationship between action and outcome changes. Liu and colleagues first trained goldfish to reach a target using the FOV, then rotated the mapping between the fish’s controlling direction and the vehicle’s movement by 45°.
+
+A fish pointing directly toward the target now produced vehicle motion offset from that direction. The target remained in the arena, but its previously successful controlling action became inaccurate. This perturbation separated the destination from the sensorimotor transformation needed to reach it.
+
+Baseline, rotation, washout, and re-exposure separated acquisition of compensation from its persistence when the original mapping returned. The experimenters could change how fish orientation controlled external movement without physically forcing the animal to turn. The platform therefore made the action-to-motion relationship adjustable while the fish remained freely swimming.
+''','The perturbation was a software transformation of vehicle direction. It did not require generating a current inside the water tank or mechanically forcing the animal’s body to turn.')
+add('Repeated experience reduces perturbation errors','adaptation',['adaptation_rotation'],'''
+Fish initially made larger directional errors when their learned control mapping was rotated. Across repeated sessions, target arrivals improved and directional errors declined. Liu and colleagues also measured adjusted travel length, so successful compensation could be distinguished from merely exploring until a target was eventually reached.
+
+For the 45° condition, the source’s fitted median angular error changed from approximately 11° early in rotation to near zero later. Compensating behavior therefore moved the vehicle more nearly toward the desired destination despite the mismatch between fish direction and vehicle direction.
+
+The animal had to alter its controlling orientation rather than simply maintain its previous response. Improved trajectories under the unchanged perturbation connect repeated outcome experience with a revised movement policy. The visual goal was stable while the transformation from swimming posture to external displacement was learned anew.
+''','The numerical values are source-model summaries of the recorded behavioral data. Original individual session trajectories and the model fit are retained in the published figure rather than reconstructed from reported values.')
+add('Washout reveals motor-adaptation aftereffects','adaptation',['adaptation_example','adaptation_rotation'],'''
+**Washout** tests behavior after an experimental perturbation is removed. Liu and colleagues returned the vehicle to its original control mapping following training with a rotation. The fish’s previously useful compensation now produced a directional bias because the device no longer imposed the offset.
+
+An **aftereffect** is a residual change in behavior expressed under restored conditions. The source reports aftereffects in direction, target success, and adjusted travel length. Performance subsequently returned toward baseline as the fish experienced the original mapping again.
+
+Persistence of a compensating response connects adaptation with a learned action-to-outcome relationship. The authors’ hypothesis is that the aftereffects reflect an internal model of the rotation. An **internal model** is a learned prediction of how an action will affect movement, which must be recalibrated when that relationship changes.
+''','The reported directional aftereffect was opposite the imposed rotation. The interpretation concerns a behavioral internal model; the experiment did not directly identify its neurons or synaptic implementation.')
+add('Larger rotations demand larger compensation','adaptation',['adaptation_large'],'''
+A 90° rotation makes vehicle displacement perpendicular to the goldfish’s controlling direction. Liu and colleagues used this larger perturbation to test whether adaptation was limited to a modest change in the action-to-motion mapping. The rewarded destination remained the same throughout the manipulation.
+
+Fish improved across rotation sessions. The source’s fitted median angular error declined from approximately 57° to 7°, while adjusted travel length declined from approximately 11.6 m to 4.6 m. The improvement therefore included both direction and the amount of travel associated with reaching the goal.
+
+The required movement policy differs substantially from simply facing the target. Compensating for a perpendicular mapping requires selecting a controlling orientation that initially appears misaligned with the destination. Continued success connects experience of the resulting displacement with increasingly appropriate control of the external vehicle.
+''','The larger-rotation result was measured in a separate group from the main 45° protocol. It extends the observed range of compensable transformations without making every individual’s learning trajectory identical.')
+add('Re-exposure separates performance from learning rate','adaptation',['adaptation_rates','adaptation_reexposure'],'''
+**Savings** refers to improved or faster relearning after previous experience of a motor perturbation. Liu and colleagues reintroduced the 45° rotation after washout and compared the second exposure with the first. Target success, directional error, and adjusted travel length measured different aspects of performance.
+
+Fish adapted again and began the second exposure with somewhat better performance across those measures. However, the estimated initial learning rates were slower rather than faster. Better initial control and a steeper improvement rate therefore did not occur together in this preparation.
+
+The result distinguishes retained task experience from classical acceleration of relearning. Prior exposure affected the starting performance, but the subsequent adjustment progressed differently from the first adaptation phase. Learning history can change the state from which an animal begins without increasing the speed of its next behavioral change.
+''','The authors emphasize the absence of classical faster savings despite improved re-exposure performance. The two quantities are distinct: initial performance describes the starting state, while learning rate describes how rapidly that state changes.')
+add('Navigation transfer combines guidance and adaptation','adaptation',['adaptation_example','vehicle_controls'],'''
+The goldfish vehicle experiments manipulate different components of navigation. Givon and colleagues changed starting positions, target identity, and target location. Liu and colleagues instead changed the transformation between the fish’s controlling direction and the motion of the same external platform.
+
+Target relocation requires changing where the vehicle should go. A rotated control mapping changes which action moves it there. These are separate problems: selecting a destination from visual and remembered information, and producing the movement needed to approach that destination under the current mapping.
+
+Both experiments measured flexible behavior through actual routes and outcomes. Fish updated their approach after target relocation and adjusted their controlling orientation under rotation. Transfer across environments therefore includes perceptual guidance, spatial memory, and learned control of the relationship between aquatic actions and terrestrial displacement.
+''','The pallial recordings were made in separate freely swimming preparations, not during vehicle operation. They identify navigation-related signals, while the vehicle studies measure flexibility of spatially guided and adapted behavior.')
+items=[
+'**Vehicle transfer** Goldfish learn to use aquatic movements to control a terrestrial platform and reach a visual target from changed starts.',
+'**Visual odometry** Goldfish reproduce a learned travel distance, and denser visual stripes make them reach the stopping estimate after a shorter journey.',
+'**Pallial memory** Lateral-pallium lesions disrupt relational place navigation and novel-route transfer while sparing direct visible-cue guidance.',
+'**Spatial coding** Pallial neurons encode edges, head direction, speed, velocity vectors, and preferred-boundary distance as distinct or combined signals.',
+'**Task-dependent geometry** Lateral lesions impair one-exit geometric retention but spare guidance when both geometrically equivalent exits are rewarded.',
+'**Motor adaptation** Rotated vehicle control produces compensation and aftereffects; improved re-exposure performance differs from faster relearning.'
+]
+assert len(S)==44,len(S)
+spec={'lecture':74,'content_slides':44,'theme':'blue-steel-paper','title_height':2.7,'title_min_pt':22,'title_image':fig('vehicle_setup'),'title_refs':[R['vehicle']['reference']],'slides':S,'takeaways':{'items':[{'lead':re.match(r'\*\*(.*?)\*\*', t)[1], 'text':re.sub(r'^\*\*.*?\*\* ', '', t)} for t in items],'cite':'; '.join(short(k) for k in ['vehicle','distance','lesion','edges','boundary','geometry','adaptation']),'refs':[x['reference'] for x in R.values()]}}
+(B/'lecture.json').write_text(json.dumps(spec,indent=2,ensure_ascii=False)+'\n')
+wc=[len(re.sub(r'\*\*','', ' '.join(z['body'])).split()) for z in S];print('Slides',len(S),'words',min(wc),max(wc));print([(i+2,n) for i,n in enumerate(wc) if not 90<=n<=170])

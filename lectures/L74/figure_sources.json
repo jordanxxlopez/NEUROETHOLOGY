@@ -1,0 +1,282 @@
+{
+  "vehicle_setup": {
+    "paper": "vehicle",
+    "figure": "1(A–E)",
+    "description": "The fish-operated vehicle and its control mapping.",
+    "original_color": true,
+    "pdf_page": 2
+  },
+  "vehicle_response": {
+    "paper": "vehicle",
+    "figure": "2(A–C)",
+    "description": "Motor delay and directional response of the vehicle.",
+    "original_color": true,
+    "pdf_page": 3
+  },
+  "vehicle_paths": {
+    "paper": "vehicle",
+    "figure": "3(A–D)",
+    "description": "Routes become more direct with training.",
+    "original_color": true,
+    "pdf_page": 4
+  },
+  "vehicle_learning": {
+    "paper": "vehicle",
+    "figure": "4(A–D)",
+    "description": "Training improves target arrivals, travel time, and path length.",
+    "original_color": true,
+    "pdf_page": 5
+  },
+  "vehicle_controls": {
+    "paper": "vehicle",
+    "figure": "5(A–F)",
+    "description": "Changing starts, decoys, and relocated targets tests navigation.",
+    "original_color": true,
+    "pdf_page": 6
+  },
+  "distance_setup": {
+    "paper": "distance",
+    "figure": "1",
+    "description": "The tunnel and movable starts used to train a 70 cm return rule.",
+    "original_color": true,
+    "pdf_page": 3
+  },
+  "distance_turn": {
+    "paper": "distance",
+    "figure": "2",
+    "description": "Goldfish turn near the learned travel distance.",
+    "original_color": true,
+    "pdf_page": 5
+  },
+  "distance_start": {
+    "paper": "distance",
+    "figure": "3(a–b)",
+    "description": "Absolute turning position changes when the start moves.",
+    "original_color": true,
+    "pdf_page": 6
+  },
+  "distance_fin": {
+    "paper": "distance",
+    "figure": "4",
+    "description": "Travel distance increases with the number of caudal fin beats.",
+    "original_color": true,
+    "pdf_page": 7
+  },
+  "distance_pattern": {
+    "paper": "distance",
+    "figure": "5",
+    "description": "Visual pattern changes alter the estimated travel distance.",
+    "original_color": true,
+    "pdf_page": 7
+  },
+  "distance_speed": {
+    "paper": "distance",
+    "figure": "6",
+    "description": "Swimming speed changes with the visual background.",
+    "original_color": true,
+    "pdf_page": 8
+  },
+  "pallial_eversion": {
+    "paper": "lesion",
+    "figure": "1",
+    "description": "Eversion changes the topological positions of pallial divisions.",
+    "original_color": false,
+    "pdf_page": 3
+  },
+  "turtle_memory": {
+    "paper": "lesion",
+    "figure": "2(A–B)",
+    "description": "Medial-cortex lesions distinguish place memory from cue guidance.",
+    "original_color": false,
+    "pdf_page": 4
+  },
+  "turtle_lesions": {
+    "paper": "lesion",
+    "figure": "4",
+    "description": "Original reconstructions of medial-cortex lesions in turtles.",
+    "original_color": false,
+    "pdf_page": 6
+  },
+  "fish_memory": {
+    "paper": "lesion",
+    "figure": "5(A–B)",
+    "description": "Lateral-pallium lesions disrupt place learning while sparing cue learning.",
+    "original_color": false,
+    "pdf_page": 7
+  },
+  "fish_routes": {
+    "paper": "lesion",
+    "figure": "6(A–B)",
+    "description": "Sham and lateral-pallium-lesioned fish choose different transfer routes.",
+    "original_color": false,
+    "pdf_page": 7
+  },
+  "fish_lesions": {
+    "paper": "lesion",
+    "figure": "7",
+    "description": "Original reconstructions of lateral, dorsal, and medial pallial lesions.",
+    "original_color": false,
+    "pdf_page": 8
+  },
+  "neural_setup": {
+    "paper": "edges",
+    "figure": "1(a–e)",
+    "description": "Wireless recordings and spike sorting in freely swimming fish.",
+    "original_color": true,
+    "pdf_page": 3
+  },
+  "edge_cells": {
+    "paper": "edges",
+    "figure": "2(a–o)",
+    "description": "Edge cells fire near tank boundaries.",
+    "original_color": true,
+    "pdf_page": 4
+  },
+  "heading_cells": {
+    "paper": "edges",
+    "figure": "3(a–l)",
+    "description": "Head-direction cells fire preferentially at particular orientations.",
+    "original_color": true,
+    "pdf_page": 6
+  },
+  "speed_cells": {
+    "paper": "edges",
+    "figure": "4(a–l)",
+    "description": "Speed-correlated cells increase activity with swimming speed.",
+    "original_color": true,
+    "pdf_page": 8
+  },
+  "velocity_cells": {
+    "paper": "edges",
+    "figure": "5(a–l)",
+    "description": "Velocity-vector cells combine direction and speed tuning.",
+    "original_color": true,
+    "pdf_page": 9
+  },
+  "pallial_histology": {
+    "paper": "edges",
+    "figure": "6(a–d)",
+    "description": "Histology localizes spatially tuned neurons in the pallium.",
+    "original_color": true,
+    "pdf_page": 10
+  },
+  "boundary_setup": {
+    "paper": "boundary",
+    "figure": "1(A–E)",
+    "description": "Central telencephalic recordings in a vertical navigation tank.",
+    "original_color": true,
+    "pdf_page": 3
+  },
+  "boundary_cells": {
+    "paper": "boundary",
+    "figure": "2(A–P)",
+    "description": "Firing decreases with distance from preferred walls or corners.",
+    "original_color": true,
+    "pdf_page": 4
+  },
+  "boundary_tuning": {
+    "paper": "boundary",
+    "figure": "3(A–L)",
+    "description": "Preferred-boundary distance predicts graded neural firing.",
+    "original_color": true,
+    "pdf_page": 6
+  },
+  "boundary_direction": {
+    "paper": "boundary",
+    "figure": "4(A–N)",
+    "description": "Boundary tuning is compared across swimming directions.",
+    "original_color": true,
+    "pdf_page": 7
+  },
+  "boundary_newwall": {
+    "paper": "boundary",
+    "figure": "5(A–H)",
+    "description": "An inserted shelf adds a boundary represented by the same neurons.",
+    "original_color": true,
+    "pdf_page": 9
+  },
+  "boundary_range": {
+    "paper": "boundary",
+    "figure": "6(A–I)",
+    "description": "Boundary cells span different spatial receptive-field widths.",
+    "original_color": true,
+    "pdf_page": 11
+  },
+  "boundary_beta": {
+    "paper": "boundary",
+    "figure": "7(A–H)",
+    "description": "Some boundary-vector neurons have beta-period spike intervals.",
+    "original_color": true,
+    "pdf_page": 13
+  },
+  "geometry_setup": {
+    "paper": "geometry",
+    "figure": "1",
+    "description": "A rectangular enclosure offers geometrically equivalent exits.",
+    "original_color": false,
+    "pdf_page": 2
+  },
+  "geometry_lesions": {
+    "paper": "geometry",
+    "figure": "2",
+    "description": "Original lateral and medial pallial lesion reconstructions.",
+    "original_color": false,
+    "pdf_page": 3
+  },
+  "geometry_one": {
+    "paper": "geometry",
+    "figure": "3",
+    "description": "Lateral-pallium lesions impair retention with one rewarded exit.",
+    "original_color": false,
+    "pdf_page": 3
+  },
+  "geometry_two": {
+    "paper": "geometry",
+    "figure": "5",
+    "description": "Retention is preserved when both equivalent exits are rewarded.",
+    "original_color": false,
+    "pdf_page": 4
+  },
+  "adaptation_setup": {
+    "paper": "adaptation",
+    "figure": "1(A–D)",
+    "description": "Vehicle mappings impose a rotation between fish and vehicle directions.",
+    "original_color": true,
+    "pdf_page": 3
+  },
+  "adaptation_example": {
+    "paper": "adaptation",
+    "figure": "4(A–D)",
+    "description": "An example fish compensates for rotated control and has aftereffects.",
+    "original_color": true,
+    "pdf_page": 9
+  },
+  "adaptation_rotation": {
+    "paper": "adaptation",
+    "figure": "5(A–C)",
+    "description": "Performance recovers during a 45° control rotation.",
+    "original_color": true,
+    "pdf_page": 10
+  },
+  "adaptation_large": {
+    "paper": "adaptation",
+    "figure": "6(A–C)",
+    "description": "Goldfish compensate for a 90° control rotation.",
+    "original_color": true,
+    "pdf_page": 11
+  },
+  "adaptation_reexposure": {
+    "paper": "adaptation",
+    "figure": "7(A–D)",
+    "description": "Performance improves during a second exposure to rotation.",
+    "original_color": true,
+    "pdf_page": 12
+  },
+  "adaptation_rates": {
+    "paper": "adaptation",
+    "figure": "8(A–F)",
+    "description": "Re-exposure performance and learning rates differ from first exposure.",
+    "original_color": true,
+    "pdf_page": 13
+  }
+}

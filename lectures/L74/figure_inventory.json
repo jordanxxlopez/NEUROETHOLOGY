@@ -1,292 +1,336 @@
 {
   "vehicle": [
     {
+      "crop": "vehicle_setup",
       "pdf_page": 2,
-      "caption_starts": [
-        "Fig. 1. The fish operated vehicle. A. The fish operated vehicle is composed of a "
-      ]
+      "figure": "1(A–E)",
+      "description": "The fish-operated vehicle and its control mapping.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "vehicle_response",
       "pdf_page": 3,
-      "caption_starts": [
-        "Fig. 2. Vehicle motor response characteristics. A. Dynamic profile in response to step motor command to move forward. B. Velocity profile following a step motor "
-      ]
+      "figure": "2(A–C)",
+      "description": "Motor delay and directional response of the vehicle.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "vehicle_paths",
       "pdf_page": 4,
-      "caption_starts": [
-        "Fig. 3A and C show the trajectories on the first session of training of ",
-        "Fig. 3B and D show the fish trajectories during the best session, near the ",
-        "Fig. 3. View of trajectories from two sessions of two fish. A. Trajectories of fish 1 on the first session, starting point (red dot), finish point (green dot), target (pink "
-      ]
+      "figure": "3(A–D)",
+      "description": "Routes become more direct with training.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "vehicle_learning",
       "pdf_page": 5,
-      "caption_starts": [
-        "Fig. 5A. ",
-        "Fig. 4. Learning curves of six fish show improved performance over sessions. A. Number of successful trials per session. B. Mean trial time per session. C. Mean "
-      ]
+      "figure": "4(A–D)",
+      "description": "Training improves target arrivals, travel time, and path length.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "vehicle_controls",
       "pdf_page": 6,
-      "caption_starts": [
-        "Fig. 5F shows a fish that reached the target when the target location ",
-        "Fig. 5. Results of behavioral arena controls. A. "
-      ]
+      "figure": "5(A–F)",
+      "description": "Changing starts, decoys, and relocated targets tests navigation.",
+      "original_color": true,
+      "visually_reviewed": true
     }
   ],
   "edges": [
     {
-      "pdf_page": 2,
-      "caption_starts": [
-        "Fig. 2d). After implementing an ISI shuffling procedure (see “Methods”), we obtained 5,000 shuffled spike trains "
-      ]
-    },
-    {
+      "crop": "neural_setup",
       "pdf_page": 3,
-      "caption_starts": [
-        "Figure 1.   The experimental setup. (a) Schematic overview of the experimental setup: a fish swims freely in a "
-      ]
+      "figure": "1(a–e)",
+      "description": "Wireless recordings and spike sorting in freely swimming fish.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
-      "pdf_page": 5,
-      "caption_starts": [
-        "Fig. 4b,h). In addition, we calculated the spike triggered average of the fish swimming speed and compared it ",
-        "Figure 2.   Edge encoding cells in the goldfish lateral pallium. (a) An example of an edge encoding cell. The "
-      ]
+      "crop": "edge_cells",
+      "pdf_page": 4,
+      "figure": "2(a–o)",
+      "description": "Edge cells fire near tank boundaries.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
-      "pdf_page": 7,
-      "caption_starts": [
-        "Figure 3.   Head direction encoding cells in the goldfish lateral pallium. (a) Top Panel. Average firing rate as "
-      ]
+      "crop": "heading_cells",
+      "pdf_page": 6,
+      "figure": "3(a–l)",
+      "description": "Head-direction cells fire preferentially at particular orientations.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "speed_cells",
       "pdf_page": 8,
-      "caption_starts": [
-        "Figure 4.   Speed correlated cells in the goldfish lateral pallium. (a–f) An example of a speed correlated cell. "
-      ]
+      "figure": "4(a–l)",
+      "description": "Speed-correlated cells increase activity with swimming speed.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "velocity_cells",
       "pdf_page": 9,
-      "caption_starts": [
-        "Figure 5.   Velocity-vector cells in the goldfish lateral pallium. (a) Firing rate as a function of speed and direction "
-      ]
+      "figure": "5(a–l)",
+      "description": "Velocity-vector cells combine direction and speed tuning.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "pallial_histology",
       "pdf_page": 10,
-      "caption_starts": [
-        "Figure 6.   Distribution of cells in the goldfish brain. (a,b) Two examples of recording locations and cell "
-      ]
+      "figure": "6(a–d)",
+      "description": "Histology localizes spatially tuned neurons in the pallium.",
+      "original_color": true,
+      "visually_reviewed": true
     }
   ],
   "boundary": [
     {
+      "crop": "boundary_setup",
       "pdf_page": 3,
-      "caption_starts": [
-        "Fig 1. Experimental setup and spike sorting. (A) Schematic overview of the experimental setup: A fish swims freely"
-      ]
+      "figure": "1(A–E)",
+      "description": "Central telencephalic recordings in a vertical navigation tank.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "boundary_cells",
       "pdf_page": 4,
-      "caption_starts": [
-        "Fig 2. Boundary vector cells in the goldfish brain. (A-D) An example of a boundary vector cell tuned to distance"
-      ]
+      "figure": "2(A–P)",
+      "description": "Firing decreases with distance from preferred walls or corners.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
-      "pdf_page": 5,
-      "caption_starts": [
-        "Fig 2A–2D and S1 Video show an example of this type of cell whose firing rate gradually",
-        "Fig 4A, 4D, 4G and 4J, left panels, see Materials and methods) or away from its preferred"
-      ]
-    },
-    {
+      "crop": "boundary_tuning",
       "pdf_page": 6,
-      "caption_starts": [
-        "Fig 3. Spatial characteristics of boundary vector cells. (A-C) Spatial tuning properties of the cell presented in Fig 2A-"
-      ]
+      "figure": "3(A–L)",
+      "description": "Preferred-boundary distance predicts graded neural firing.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "boundary_direction",
       "pdf_page": 7,
-      "caption_starts": [
-        "Fig 4. Boundary vector cells tuning to allocentric swimming direction. (A) Rate maps of the cell in Fig 2A–2D"
-      ]
+      "figure": "4(A–N)",
+      "description": "Boundary tuning is compared across swimming directions.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
-      "pdf_page": 8,
-      "caption_starts": [
-        "Fig 5D), the cell’s rate map (Fig 5D) shows it responded to both the bottom of the water tank"
-      ]
+      "crop": "boundary_newwall",
+      "pdf_page": 9,
+      "figure": "5(A–H)",
+      "description": "An inserted shelf adds a boundary represented by the same neurons.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
-      "pdf_page": 10,
-      "caption_starts": [
-        "Fig 5. Changing environmental geometry. (A) The first session was recorded in the main experimental water tank."
-      ]
-    },
-    {
+      "crop": "boundary_range",
       "pdf_page": 11,
-      "caption_starts": [
-        "Fig 6. Population analysis of boundary vector cells. (A) Distribution of receptive field widths (i.e., the width of the sigmoid curves"
-      ]
+      "figure": "6(A–I)",
+      "description": "Boundary cells span different spatial receptive-field widths.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "boundary_beta",
       "pdf_page": 13,
-      "caption_starts": [
-        "Fig 7. Beta oscillations in boundary vector cells. (A-C) Example of a boundary vector cell with a periodic interspike"
-      ]
-    },
-    {
-      "pdf_page": 19,
-      "caption_starts": [
-        "Fig 5B for schematics of the altered environment). This manipulation was done between two"
-      ]
+      "figure": "7(A–H)",
+      "description": "Some boundary-vector neurons have beta-period spike intervals.",
+      "original_color": true,
+      "visually_reviewed": true
     }
   ],
   "distance": [
     {
+      "crop": "distance_setup",
       "pdf_page": 3,
-      "caption_starts": [
-        "Figure 1. Experimental set-up to test distance estimation in the goldfish. Black and white striped panels (width 2 cm) covered the tank walls and floor providing"
-      ]
+      "figure": "1",
+      "description": "The tunnel and movable starts used to train a 70 cm return rule.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "distance_turn",
       "pdf_page": 5,
-      "caption_starts": [
-        "Figure 2. Distance estimated for the nine goldfish tested with the 2 cm pat-"
-      ]
+      "figure": "2",
+      "description": "Goldfish turn near the learned travel distance.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "distance_start",
       "pdf_page": 6,
-      "caption_starts": [
-        "Figure 3. Goldfish distance estimation accuracy as a function of start distance with the 2 cm pattern. Raw data are represented by the grey dots. (a) Absolute"
-      ]
+      "figure": "3(a–b)",
+      "description": "Absolute turning position changes when the start moves.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "distance_fin",
       "pdf_page": 7,
-      "caption_starts": [
-        "Figure 4. Effect of the number of caudal fin beats on the travelled distance. The black line and grey shading represent the linear regression ± s.e. The positive slope",
-        "Figure 5. Goldfish estimated distance following visual background alteration."
-      ]
+      "figure": "4",
+      "description": "Travel distance increases with the number of caudal fin beats.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "distance_pattern",
+      "pdf_page": 7,
+      "figure": "5",
+      "description": "Visual pattern changes alter the estimated travel distance.",
+      "original_color": true,
+      "visually_reviewed": true
+    },
+    {
+      "crop": "distance_speed",
       "pdf_page": 8,
-      "caption_starts": [
-        "Figure 6. Goldfish swimming speed following alteration of their visual back-"
-      ]
+      "figure": "6",
+      "description": "Swimming speed changes with the visual background.",
+      "original_color": true,
+      "visually_reviewed": true
     }
   ],
   "lesion": [
     {
+      "crop": "pallial_eversion",
       "pdf_page": 3,
-      "caption_starts": [
-        "Figure 1."
-      ]
+      "figure": "1",
+      "description": "Eversion changes the topological positions of pallial divisions.",
+      "original_color": false,
+      "visually_reviewed": true
     },
     {
+      "crop": "turtle_memory",
       "pdf_page": 4,
-      "caption_starts": [
-        "Figure 2A shows the learning curve of the turtles trained in the",
-        "Fig. 2), which were trained in a control procedure to ﬁnd reward",
-        "Figure 2."
-      ]
+      "figure": "2(A–B)",
+      "description": "Medial-cortex lesions distinguish place memory from cue guidance.",
+      "original_color": false,
+      "visually_reviewed": true
     },
     {
-      "pdf_page": 5,
-      "caption_starts": [
-        "Figure 3 shows the trajectories chosen by Sh and MC turtles in the",
-        "Figure 2B shows the learning curve of the turtles trained in the",
-        "Figure 3."
-      ]
-    },
-    {
+      "crop": "turtle_lesions",
       "pdf_page": 6,
-      "caption_starts": [
-        "Figure 4."
-      ]
+      "figure": "4",
+      "description": "Original reconstructions of medial-cortex lesions in turtles.",
+      "original_color": false,
+      "visually_reviewed": true
     },
     {
+      "crop": "fish_memory",
       "pdf_page": 7,
-      "caption_starts": [
-        "Figure 5.",
-        "Figure 6."
-      ]
+      "figure": "5(A–B)",
+      "description": "Lateral-pallium lesions disrupt place learning while sparing cue learning.",
+      "original_color": false,
+      "visually_reviewed": true
     },
     {
+      "crop": "fish_routes",
+      "pdf_page": 7,
+      "figure": "6(A–B)",
+      "description": "Sham and lateral-pallium-lesioned fish choose different transfer routes.",
+      "original_color": false,
+      "visually_reviewed": true
+    },
+    {
+      "crop": "fish_lesions",
       "pdf_page": 8,
-      "caption_starts": [
-        "Figure 7."
-      ]
+      "figure": "7",
+      "description": "Original reconstructions of lateral, dorsal, and medial pallial lesions.",
+      "original_color": false,
+      "visually_reviewed": true
     }
   ],
   "adaptation": [
     {
+      "crop": "adaptation_setup",
       "pdf_page": 3,
-      "caption_starts": [
-        "FIGURE 1    |     Legend on next page."
-      ]
+      "figure": "1(A–D)",
+      "description": "Vehicle mappings impose a rotation between fish and vehicle directions.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
-      "pdf_page": 4,
-      "caption_starts": [
-        "FIGURE 1    |    Experimental setup and working hypothesis. (A) The fish operated vehicle is composed of a chassis with four electric motors equipped "
-      ]
-    },
-    {
-      "pdf_page": 5,
-      "caption_starts": [
-        "FIGURE 2    |    Measures of performance. For each trial, success is "
-      ]
-    },
-    {
-      "pdf_page": 6,
-      "caption_starts": [
-        "Figure 3A, initial baseline movements of the example fish can be ",
-        "Figure 3C shows the success of the fish over all baseline trials. We "
-      ]
-    },
-    {
-      "pdf_page": 7,
-      "caption_starts": [
-        "FIGURE 3    |     Legend on next page."
-      ]
-    },
-    {
-      "pdf_page": 8,
-      "caption_starts": [
-        "Figure 5 also shows after-­effects in all measures across all fish. ",
-        "FIGURE 3    |    Goldfish can operate the vehicle. (A, B) The trace plots of the example fish. (C–E) Data and model parameters of success/session. (H, "
-      ]
-    },
-    {
+      "crop": "adaptation_example",
       "pdf_page": 9,
-      "caption_starts": [
-        "FIGURE 4    |    Goldfish can adapt to rotation. (A) The trace plots of the example fish. (B–D) The colorful lines are the raw median data in one session "
-      ]
+      "figure": "4(A–D)",
+      "description": "An example fish compensates for rotated control and has aftereffects.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "adaptation_rotation",
       "pdf_page": 10,
-      "caption_starts": [
-        "FIGURE 5    |    Goldfish can adapt to 45° rotation. (A–C) The colorful lines are the raw median data in one session of the performance of across fish. "
-      ]
+      "figure": "5(A–C)",
+      "description": "Performance recovers during a 45° control rotation.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "adaptation_large",
       "pdf_page": 11,
-      "caption_starts": [
-        "FIGURE 6    |    Goldfish can adapt to 90° rotation. (A–C) The colorful lines are the raw median data in one session of the performance of across fish. "
-      ]
+      "figure": "6(A–C)",
+      "description": "Goldfish compensate for a 90° control rotation.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "adaptation_reexposure",
       "pdf_page": 12,
-      "caption_starts": [
-        "FIGURE 7    |    Slight improvement in performance in saving stage. (A) The trace plots of the example fish. (B–D) The sky blue lines are the median "
-      ]
+      "figure": "7(A–D)",
+      "description": "Performance improves during a second exposure to rotation.",
+      "original_color": true,
+      "visually_reviewed": true
     },
     {
+      "crop": "adaptation_rates",
       "pdf_page": 13,
-      "caption_starts": [
-        "FIGURE 8    |    Slight improvement in performance in saving stage. (A,B) The parameters of success/session model. (C,D) The parameters of angular "
-      ]
+      "figure": "8(A–F)",
+      "description": "Re-exposure performance and learning rates differ from first exposure.",
+      "original_color": true,
+      "visually_reviewed": true
+    }
+  ],
+  "geometry": [
+    {
+      "crop": "geometry_setup",
+      "pdf_page": 2,
+      "figure": "1",
+      "description": "A rectangular enclosure offers geometrically equivalent exits.",
+      "original_color": false,
+      "visually_reviewed": true
+    },
+    {
+      "crop": "geometry_lesions",
+      "pdf_page": 3,
+      "figure": "2",
+      "description": "Original lateral and medial pallial lesion reconstructions.",
+      "original_color": false,
+      "visually_reviewed": true
+    },
+    {
+      "crop": "geometry_one",
+      "pdf_page": 3,
+      "figure": "3",
+      "description": "Lateral-pallium lesions impair retention with one rewarded exit.",
+      "original_color": false,
+      "visually_reviewed": true
+    },
+    {
+      "crop": "geometry_two",
+      "pdf_page": 4,
+      "figure": "5",
+      "description": "Retention is preserved when both equivalent exits are rewarded.",
+      "original_color": false,
+      "visually_reviewed": true
     }
   ]
 }
