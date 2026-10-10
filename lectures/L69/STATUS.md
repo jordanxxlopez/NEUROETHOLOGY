@@ -1,9 +1,9 @@
-# Lecture 69: awaiting original PDFs
+# Lecture 69: complete
 
 Authority: freshly fetched current default branch claude/neuroethology-fa2026-schedule-2lgmmr at 0f5acdcc4b40653fdbd6e8d8e2709fd22fe419cb. Existing Lecture 68 is preserved on its own branch. No ZIP was used.
 
-The exact instructor title is registered as Lecture 69 with Date TBD. PROMPT.md uses the current teaching-first guidelines, including the original-figure restriction, no em dashes, and meaningful caveats only. No theme has been marked used and no deck has been delivered.
+The exact title and Date TBD were retained. The native builder produced 46 slides and passed all required checks: 44 content slides with article figures, teaching transcripts, verified references, and no em dashes or routine caveat endings. The color warning remains: the automatic threshold recognizes 14 color slides, while 23 carry original published color material (including predominantly grayscale MRI with colored connections and softly colored survival plots). No scientific figure was created, reconstructed, or recolored.
 
-Research covers stress controllability circuitry, sea-lion hippocampal injury and spatial memory, predator training with post-release survival, orphaned polecat rehabilitation, and monk-seal captive care with post-release tracking. Full-text access is required before completing the 44-slide content sequence, verifying measured findings, or extracting figures. See PAPERS.md for the four uploads needed and source_access.json for access results.
+All original PDFs are available. The instructor’s latest uploads resolved the four missing papers; the two polecat uploads are identical. Published figure crops were made with repository crop tools and visually reviewed. Arial is used throughout, with the new storm-blue-paper theme recorded as used.
 
-Next: examine uploaded original PDFs; finish primary-literature coverage of human habituation and functional recovery; select and visually inspect original published panels; build 46 slides with the native builder, run all checks, inspect every rendered slide, and export a fresh Presenton PPTX and browser preview.
+All 46 slides were rendered and visually reviewed in native and browser formats. Native text bounds and browser overflow checks pass. No Required Field Experience material is included. Presenton export and preview links are recorded in DELIVERY.json after export.
