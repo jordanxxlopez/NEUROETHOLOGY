@@ -1,0 +1,1300 @@
+{
+  "lecture": 71,
+  "content_slides": 44,
+  "theme": "iron-blue-chalk",
+  "title_height": 2.7,
+  "title_min_pt": 21,
+  "title_image": {
+    "path": "figures/culture_cells.png",
+    "kind": "article",
+    "caption": "Kagan et al. (2022), Fig. 2(A–H). Neurons, neurites, astrocytes, and glutamatergic markers in cortical cultures.",
+    "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+  },
+  "title_refs": [
+    "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+  ],
+  "slides": [
+    {
+      "title": "Living cortical cultures form interconnected networks",
+      "body": [
+        "Living neurons can form electrically active networks outside the body. Kagan and colleagues cultured cells from embryonic mouse cortex and from human induced pluripotent stem cells, then connected these preparations to an electronic interface.",
+        "The **cortex** is the layered outer region of the cerebral hemispheres. In these dissociated cultures, cells were dispersed onto a surface rather than maintained as intact cortical layers. Fluorescent labeling identified neuronal cell bodies, axonal and dendritic processes, and supporting astrocytes, a type of glial cell.",
+        "The resulting networks provided the living component of DishBrain. Signals traveling through their processes could reach different recording sites, while external stimulation could influence subsequent activity. The study linked this neural activity to movement of a virtual Pong paddle, giving cultured networks an experimentally controlled relationship with an external task."
+      ],
+      "transcript": [
+        "Living neurons can form electrically active networks outside the body. Kagan and colleagues cultured cells from embryonic mouse cortex and from human induced pluripotent stem cells, then connected these preparations to an electronic interface.",
+        "The cortex is the layered outer region of the cerebral hemispheres. In these dissociated cultures, cells were dispersed onto a surface rather than maintained as intact cortical layers. Fluorescent labeling identified neuronal cell bodies, axonal and dendritic processes, and supporting astrocytes, a type of glial cell.",
+        "The resulting networks provided the living component of DishBrain. Signals traveling through their processes could reach different recording sites, while external stimulation could influence subsequent activity. The study linked this neural activity to movement of a virtual Pong paddle, giving cultured networks an experimentally controlled relationship with an external task.",
+        "The mouse preparation used embryonic cortical tissue, whereas the human preparation used differentiated stem cells. Neither preparation was a three-dimensional cerebral organoid. The difference in preparation matters when interpreting the later organoid studies."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/culture_cells.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 2(A–H). Neurons, neurites, astrocytes, and glutamatergic markers in cortical cultures.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Electrode arrays connect neural signals with electronics",
+      "body": [
+        "A **microelectrode array**, or MEA, contains many small conducting sites that record voltages near cells and deliver electrical pulses. DishBrain used a high-density array on which neuronal processes extended across multiple electrodes.",
+        "An **action potential** is a rapid electrical event that propagates along a neuron. An extracellular electrode measures voltage changes outside the cell as this activity passes nearby. It therefore samples local activity without placing a recording pipette inside each neuron.",
+        "Scanning electron microscopy resolved dense cellular coverage over the array after prolonged culture. Dendritic and axonal connections spanned the recording surface rather than forming one neuron for each electrode. This geometry allows electronics to interact with distributed neural tissue: an input at one location can affect activity detected elsewhere through the living network."
+      ],
+      "transcript": [
+        "A microelectrode array, or MEA, contains many small conducting sites that record voltages near cells and deliver electrical pulses. DishBrain used a high-density array on which neuronal processes extended across multiple electrodes.",
+        "An action potential is a rapid electrical event that propagates along a neuron. An extracellular electrode measures voltage changes outside the cell as this activity passes nearby. It therefore samples local activity without placing a recording pipette inside each neuron.",
+        "Scanning electron microscopy resolved dense cellular coverage over the array after prolonged culture. Dendritic and axonal connections spanned the recording surface rather than forming one neuron for each electrode. This geometry allows electronics to interact with distributed neural tissue: an input at one location can affect activity detected elsewhere through the living network.",
+        "A recorded channel is an electrode location and is not automatically one identified neuron. The published electron micrographs preserve the electrode surface beneath the culture. Electrical recording and anatomical imaging address complementary properties of the interface."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/culture_sem.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 2(E–H). Cultured neurons and processes span the electrode surface.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Network bursts coordinate spikes across recording sites",
+      "body": [
+        "A **network burst** is a period in which many recording sites become active within a short interval. Kagan and colleagues observed these coordinated events in both mouse-derived and human-derived cortical cultures after their activity matured.",
+        "A **raster plot** records the times of detected spikes separately for different channels. Dense bands across channels therefore indicate coordinated population events, while scattered events indicate less synchronized activity. The reported recordings follow activity over a 50 s interval.",
+        "Bursting links local electrical events with the state of the population. Many channels can participate in an event while retaining different firing patterns between events. A neural interface must therefore measure the spatial distribution and timing of activity, because a shared burst and a region-specific change can produce different outputs despite similar overall spike counts."
+      ],
+      "transcript": [
+        "A network burst is a period in which many recording sites become active within a short interval. Kagan and colleagues observed these coordinated events in both mouse-derived and human-derived cortical cultures after their activity matured.",
+        "A raster plot records the times of detected spikes separately for different channels. Dense bands across channels therefore indicate coordinated population events, while scattered events indicate less synchronized activity. The reported recordings follow activity over a 50 s interval.",
+        "Bursting links local electrical events with the state of the population. Many channels can participate in an event while retaining different firing patterns between events. A neural interface must therefore measure the spatial distribution and timing of activity, because a shared burst and a region-specific change can produce different outputs despite similar overall spike counts.",
+        "The rasters include the three culture preparations used in the study. Synchronized bursting is a property of spontaneous network activity, not itself a measurement of task learning. Subsequent experiments measured changes during actual gameplay."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/culture_rasters.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 3(E–G). Spikes and synchronized bursts in three culture preparations.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Patterned activation can alter spike propagation timing",
+      "body": [
+        "**Plasticity** is a lasting change in neural function following activity or another intervention. Bakkum and colleagues stimulated cultured cortical networks and measured the delay and amplitude of directly evoked action potentials at other array electrodes.",
+        "These direct responses persisted when fast synaptic transmission was blocked, but disappeared with tetrodotoxin, a sodium-channel blocker. This separated propagation along neurons from responses transmitted through synapses, the specialized junctions through which neurons influence one another.",
+        "Patterned activation changed propagation delays by several milliseconds, with larger changes after longer interventions. Synaptic activity was required to induce the reported plasticity, yet the altered direct responses persisted when synaptic activity was subsequently blocked. Activity can therefore modify the timing of signals within the network as well as transmission between its cells."
+      ],
+      "transcript": [
+        "Plasticity is a lasting change in neural function following activity or another intervention. Bakkum and colleagues stimulated cultured cortical networks and measured the delay and amplitude of directly evoked action potentials at other array electrodes.",
+        "These direct responses persisted when fast synaptic transmission was blocked, but disappeared with tetrodotoxin, a sodium-channel blocker. This separated propagation along neurons from responses transmitted through synapses, the specialized junctions through which neurons influence one another.",
+        "Patterned activation changed propagation delays by several milliseconds, with larger changes after longer interventions. Synaptic activity was required to induce the reported plasticity, yet the altered direct responses persisted when synaptic activity was subsequently blocked. Activity can therefore modify the timing of signals within the network as well as transmission between its cells.",
+        "The study reported changes up to 4 ms after minutes and up to 13 ms after hours. Induction and expression are different stages: synaptic activity contributed to establishing changes, while their later expression was detected in directly evoked propagation."
+      ],
+      "cite": "Bakkum et al. (2008)",
+      "refs": [
+        "Bakkum DJ, Chao ZC, Potter SM (2008). Long-Term Activity-Dependent Plasticity of Action Potential Propagation Delay and Amplitude in Cortical Networks. PLoS ONE 3:e2088. https://doi.org/10.1371/journal.pone.0002088"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/plastic_delays.png",
+        "kind": "article",
+        "caption": "Bakkum et al. (2008), Fig. 3(A–D). Patterned activation changes directly evoked spike timing and amplitude.",
+        "source_url": "https://doi.org/10.1371/journal.pone.0002088"
+      }
+    },
+    {
+      "title": "Four factors can reprogram a fibroblast into an iPS cell",
+      "body": [
+        "A **fibroblast** is a connective-tissue cell, and **pluripotency** is the capacity to generate cell types from all three embryonic germ layers. Takahashi and Yamanaka introduced selected genes into mouse fibroblasts to test whether differentiated identity could be changed.",
+        "Their four-factor combination was Oct3/4, Sox2, Klf4, and c-Myc. Each encodes a **transcription factor**, a protein that regulates gene expression. Introducing them together produced colonies with embryonic stem-cell-like growth and expression of genes associated with pluripotency.",
+        "The resulting **induced pluripotent stem cells**, or iPS cells, could be expanded and differentiated into other lineages. Reprogramming therefore changes the developmental state from which subsequent cell production begins. Making a neuron involves a further differentiation step; the four-factor treatment first creates a pluripotent starting population rather than an electrically mature neural network."
+      ],
+      "transcript": [
+        "A fibroblast is a connective-tissue cell, and pluripotency is the capacity to generate cell types from all three embryonic germ layers. Takahashi and Yamanaka introduced selected genes into mouse fibroblasts to test whether differentiated identity could be changed.",
+        "Their four-factor combination was Oct3/4, Sox2, Klf4, and c-Myc. Each encodes a transcription factor, a protein that regulates gene expression. Introducing them together produced colonies with embryonic stem-cell-like growth and expression of genes associated with pluripotency.",
+        "The resulting induced pluripotent stem cells, or iPS cells, could be expanded and differentiated into other lineages. Reprogramming therefore changes the developmental state from which subsequent cell production begins. Making a neuron involves a further differentiation step; the four-factor treatment first creates a pluripotent starting population rather than an electrically mature neural network.",
+        "The four factors are commonly called the Yamanaka factors. The original study used retroviral delivery under embryonic stem-cell culture conditions. Reprogramming and neural differentiation are distinct biological processes."
+      ],
+      "cite": "Takahashi & Yamanaka (2006)",
+      "refs": [
+        "Takahashi K, Yamanaka S (2006). Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures by Defined Factors. Cell 126:663-676. https://doi.org/10.1016/j.cell.2006.07.024"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/mouse_epigen.png",
+        "kind": "article",
+        "caption": "Takahashi & Yamanaka (2006), Fig. 3(A–D). Gene expression, promoter methylation, and alkaline phosphatase in mouse iPS cells.",
+        "source_url": "https://doi.org/10.1016/j.cell.2006.07.024"
+      }
+    },
+    {
+      "title": "Factor removal identifies a cooperative combination",
+      "body": [
+        "The original reprogramming experiment began with a set of 24 candidate genes associated with embryonic stem-cell identity or growth. Introducing a single candidate failed to produce the selected colonies, while introducing the combined set yielded colonies.",
+        "The researchers removed candidates from the mixture and tested which omissions prevented colony formation. This narrowed the effective combination to Oct3/4, Sox2, Klf4, and c-Myc. A **factor-removal experiment** asks which components are required within the tested combination by comparing it with mixtures lacking each component.",
+        "The result makes reprogramming a cooperative intervention in gene regulation. The genes were tested through a cellular outcome, colony formation under selection, rather than assumed effective because they were expressed in stem cells. Nanog, another pluripotency-associated factor considered in the initial screen, was dispensable for this particular induction protocol."
+      ],
+      "transcript": [
+        "The original reprogramming experiment began with a set of 24 candidate genes associated with embryonic stem-cell identity or growth. Introducing a single candidate failed to produce the selected colonies, while introducing the combined set yielded colonies.",
+        "The researchers removed candidates from the mixture and tested which omissions prevented colony formation. This narrowed the effective combination to Oct3/4, Sox2, Klf4, and c-Myc. A factor-removal experiment asks which components are required within the tested combination by comparing it with mixtures lacking each component.",
+        "The result makes reprogramming a cooperative intervention in gene regulation. The genes were tested through a cellular outcome, colony formation under selection, rather than assumed effective because they were expressed in stem cells. Nanog, another pluripotency-associated factor considered in the initial screen, was dispensable for this particular induction protocol.",
+        "The selection assay monitored activation of the Fbx15 locus. Fbx15 activation was useful for detecting colonies but did not alone establish complete embryonic stem-cell equivalence. The article also evaluated expression, methylation, and differentiation."
+      ],
+      "cite": "Takahashi & Yamanaka (2006)",
+      "refs": [
+        "Takahashi K, Yamanaka S (2006). Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures by Defined Factors. Cell 126:663-676. https://doi.org/10.1016/j.cell.2006.07.024"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/mouse_select.png",
+        "kind": "article",
+        "caption": "Takahashi & Yamanaka (2006), Fig. 2(A–C). Factor-removal experiments identify the four-factor combination.",
+        "source_url": "https://doi.org/10.1016/j.cell.2006.07.024"
+      }
+    },
+    {
+      "title": "Reprogramming changes gene expression and methylation",
+      "body": [
+        "Cells with the same genome can maintain different identities through different patterns of gene expression. Takahashi and Yamanaka compared fibroblasts, induced pluripotent colonies, and embryonic stem cells to evaluate this change in cellular state.",
+        "**DNA methylation** is the addition of methyl groups to DNA; the study examined promoter regions associated with Oct3/4, Nanog, and Fbx15. A **promoter** is a regulatory DNA region involved in initiating gene transcription. The investigators combined these measurements with assays of pluripotency-associated gene expression.",
+        "The induced colonies acquired stem-cell-associated expression, but their expression and methylation profiles retained differences from embryonic stem cells. Reprogramming therefore involved a substantial shift in gene regulation with incomplete equivalence in these early lines. Assessing several molecular properties distinguishes a change in cell identity from the activation of one selectable marker."
+      ],
+      "transcript": [
+        "Cells with the same genome can maintain different identities through different patterns of gene expression. Takahashi and Yamanaka compared fibroblasts, induced pluripotent colonies, and embryonic stem cells to evaluate this change in cellular state.",
+        "DNA methylation is the addition of methyl groups to DNA; the study examined promoter regions associated with Oct3/4, Nanog, and Fbx15. A promoter is a regulatory DNA region involved in initiating gene transcription. The investigators combined these measurements with assays of pluripotency-associated gene expression.",
+        "The induced colonies acquired stem-cell-associated expression, but their expression and methylation profiles retained differences from embryonic stem cells. Reprogramming therefore involved a substantial shift in gene regulation with incomplete equivalence in these early lines. Assessing several molecular properties distinguishes a change in cell identity from the activation of one selectable marker.",
+        "The differences are material to interpreting the early 2006 lines and were discussed in the original paper. The methylation assay used bisulfite sequencing, which distinguished methylated and unmethylated DNA positions. The visible measurements concern regulatory state rather than a changed DNA sequence."
+      ],
+      "cite": "Takahashi & Yamanaka (2006)",
+      "refs": [
+        "Takahashi K, Yamanaka S (2006). Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures by Defined Factors. Cell 126:663-676. https://doi.org/10.1016/j.cell.2006.07.024"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/mouse_epigen.png",
+        "kind": "article",
+        "caption": "Takahashi & Yamanaka (2006), Fig. 3(A–D). Gene expression, promoter methylation, and alkaline phosphatase in mouse iPS cells.",
+        "source_url": "https://doi.org/10.1016/j.cell.2006.07.024"
+      }
+    },
+    {
+      "title": "Differentiation tests assess multiple developmental fates",
+      "body": [
+        "Pluripotent cells must produce differentiated lineages rather than merely express stem-cell-associated markers. The 2006 study evaluated this capacity by allowing mouse iPS cells to differentiate in culture and after transplantation.",
+        "A **teratoma** is a growth containing tissues of multiple developmental origins. Histological examination identified tissues representing ectoderm, mesoderm, and endoderm, the three embryonic germ layers. **Ectoderm** contributes neural and surface tissues; the other layers contribute different internal tissues and supporting structures.",
+        "Differentiated cultures also contained cells expressing neuronal markers. These outcomes connect reprogrammed identity with the ability to produce neural material alongside other lineages. A single pluripotent population therefore offers several possible developmental routes, while the differentiation conditions determine which routes are favored in a particular preparation."
+      ],
+      "transcript": [
+        "Pluripotent cells must produce differentiated lineages rather than merely express stem-cell-associated markers. The 2006 study evaluated this capacity by allowing mouse iPS cells to differentiate in culture and after transplantation.",
+        "A teratoma is a growth containing tissues of multiple developmental origins. Histological examination identified tissues representing ectoderm, mesoderm, and endoderm, the three embryonic germ layers. Ectoderm contributes neural and surface tissues; the other layers contribute different internal tissues and supporting structures.",
+        "Differentiated cultures also contained cells expressing neuronal markers. These outcomes connect reprogrammed identity with the ability to produce neural material alongside other lineages. A single pluripotent population therefore offers several possible developmental routes, while the differentiation conditions determine which routes are favored in a particular preparation.",
+        "Histology examines the microscopic organization of tissues. The same study assessed embryonic contribution after blastocyst injection. Its differentiation results provide stronger evidence of developmental potential than colony morphology alone."
+      ],
+      "cite": "Takahashi & Yamanaka (2006)",
+      "refs": [
+        "Takahashi K, Yamanaka S (2006). Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures by Defined Factors. Cell 126:663-676. https://doi.org/10.1016/j.cell.2006.07.024"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/mouse_lineages.png",
+        "kind": "article",
+        "caption": "Takahashi & Yamanaka (2006), Fig. 5(A–D). Mouse iPS cells generate differentiated tissues and neuronal markers.",
+        "source_url": "https://doi.org/10.1016/j.cell.2006.07.024"
+      }
+    },
+    {
+      "title": "Adult human fibroblasts acquire pluripotent properties",
+      "body": [
+        "Takahashi and colleagues extended four-factor reprogramming to adult human dermal fibroblasts in 2007. **Dermal** refers to the connective-tissue layer of skin. The cells received human OCT3/4, SOX2, KLF4, and c-MYC and were transferred to conditions supporting human stem-cell growth.",
+        "Colonies resembling human embryonic stem cells emerged after approximately three weeks. They had tightly packed cells and expressed multiple stem-cell-associated surface antigens and proteins. An **antigen** is a molecular feature recognized by an antibody, allowing cell identity to be examined through labeling.",
+        "The investigators expanded selected colonies and evaluated their molecular and differentiation properties. Human somatic cells could therefore supply a renewable pluripotent population. This creates a route from a donor-derived starting culture to specialized neural preparations, linking adult-cell sampling with later experiments on human neurons."
+      ],
+      "transcript": [
+        "Takahashi and colleagues extended four-factor reprogramming to adult human dermal fibroblasts in 2007. Dermal refers to the connective-tissue layer of skin. The cells received human OCT3/4, SOX2, KLF4, and c-MYC and were transferred to conditions supporting human stem-cell growth.",
+        "Colonies resembling human embryonic stem cells emerged after approximately three weeks. They had tightly packed cells and expressed multiple stem-cell-associated surface antigens and proteins. An antigen is a molecular feature recognized by an antibody, allowing cell identity to be examined through labeling.",
+        "The investigators expanded selected colonies and evaluated their molecular and differentiation properties. Human somatic cells could therefore supply a renewable pluripotent population. This creates a route from a donor-derived starting culture to specialized neural preparations, linking adult-cell sampling with later experiments on human neurons.",
+        "Somatic refers to body cells other than germ cells. The adult fibroblast experiment establishes the source of the pluripotent population. Neuronal activity was not the endpoint of the colony-generation assay."
+      ],
+      "cite": "Takahashi et al. (2007)",
+      "refs": [
+        "Takahashi K, Tanabe K, Ohnuki M, Narita M, Ichisaka T, Tomoda K, Yamanaka S (2007). Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors. Cell 131:861-872. https://doi.org/10.1016/j.cell.2007.11.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/human_colonies.png",
+        "kind": "article",
+        "caption": "Takahashi et al. (2007), Fig. 1(A–N). Human fibroblasts acquire iPS colony morphology and stem-cell markers.",
+        "source_url": "https://doi.org/10.1016/j.cell.2007.11.019"
+      }
+    },
+    {
+      "title": "Endogenous expression supports a new cellular state",
+      "body": [
+        "Reprogramming vectors introduce transcription factors from outside the cell, but a stable pluripotent state also involves the cell’s own regulatory machinery. The human study distinguished expression from introduced genes and expression from endogenous loci.",
+        "**Endogenous** means produced from the cell’s own genes. Human iPS colonies expressed endogenous OCT3/4, SOX2, and other embryonic stem-cell-associated genes, while expression of retroviral transgenes was reduced. The comparison included parental fibroblasts and human embryonic stem cells.",
+        "The resulting state was therefore supported by more than persistent high expression from the delivery vectors. Coordinated activation of endogenous genes accompanied the stem-cell-like phenotype. The comparison separates the intervention used to initiate reprogramming from the regulatory state maintained by the expanded cell population after colonies had been established."
+      ],
+      "transcript": [
+        "Reprogramming vectors introduce transcription factors from outside the cell, but a stable pluripotent state also involves the cell’s own regulatory machinery. The human study distinguished expression from introduced genes and expression from endogenous loci.",
+        "Endogenous means produced from the cell’s own genes. Human iPS colonies expressed endogenous OCT3/4, SOX2, and other embryonic stem-cell-associated genes, while expression of retroviral transgenes was reduced. The comparison included parental fibroblasts and human embryonic stem cells.",
+        "The resulting state was therefore supported by more than persistent high expression from the delivery vectors. Coordinated activation of endogenous genes accompanied the stem-cell-like phenotype. The comparison separates the intervention used to initiate reprogramming from the regulatory state maintained by the expanded cell population after colonies had been established.",
+        "A transgene is an introduced gene sequence. The source used primer sets distinguishing endogenous and introduced transcripts. Reduced vector-derived expression and activated endogenous markers were evaluated together, rather than treating either as the sole criterion."
+      ],
+      "cite": "Takahashi et al. (2007)",
+      "refs": [
+        "Takahashi K, Tanabe K, Ohnuki M, Narita M, Ichisaka T, Tomoda K, Yamanaka S (2007). Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors. Cell 131:861-872. https://doi.org/10.1016/j.cell.2007.11.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/human_expression.png",
+        "kind": "article",
+        "caption": "Takahashi et al. (2007), Fig. 2(A–D). Human iPS cells express endogenous pluripotency-associated genes.",
+        "source_url": "https://doi.org/10.1016/j.cell.2007.11.019"
+      }
+    },
+    {
+      "title": "Human reprogramming alters promoter methylation",
+      "body": [
+        "The human reprogramming study examined epigenetic state in addition to visible colony properties. **Epigenetic** refers here to regulatory features such as DNA methylation that affect cellular state without replacing the underlying genomic sequence.",
+        "Promoter regions of OCT3/4 and NANOG were highly methylated in parental fibroblasts and largely unmethylated in human iPS cells. Genome-wide expression comparisons also placed the induced cells closer to embryonic stem cells than to their parental fibroblasts.",
+        "These two measurements connect promoter regulation with the broader expression program associated with pluripotency. Individual genes are components of a coordinated cellular state rather than isolated indicators. Their regulatory changes explain how donor-derived cells can enter a developmental program that permits later neural differentiation while retaining a donor-derived genome."
+      ],
+      "transcript": [
+        "The human reprogramming study examined epigenetic state in addition to visible colony properties. Epigenetic refers here to regulatory features such as DNA methylation that affect cellular state without replacing the underlying genomic sequence.",
+        "Promoter regions of OCT3/4 and NANOG were highly methylated in parental fibroblasts and largely unmethylated in human iPS cells. Genome-wide expression comparisons also placed the induced cells closer to embryonic stem cells than to their parental fibroblasts.",
+        "These two measurements connect promoter regulation with the broader expression program associated with pluripotency. Individual genes are components of a coordinated cellular state rather than isolated indicators. Their regulatory changes explain how donor-derived cells can enter a developmental program that permits later neural differentiation while retaining a donor-derived genome.",
+        "The study confirmed donor identity with short tandem repeat analysis and assessed karyotypes. A short tandem repeat is a repeated DNA sequence used for identity comparison. Such tests distinguish reprogrammed donor cells from contamination by an unrelated stem-cell line."
+      ],
+      "cite": "Takahashi et al. (2007)",
+      "refs": [
+        "Takahashi K, Tanabe K, Ohnuki M, Narita M, Ichisaka T, Tomoda K, Yamanaka S (2007). Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors. Cell 131:861-872. https://doi.org/10.1016/j.cell.2007.11.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/human_methylation.png",
+        "kind": "article",
+        "caption": "Takahashi et al. (2007), Fig. 3(A–C). Promoter methylation and genome-wide expression change after reprogramming.",
+        "source_url": "https://doi.org/10.1016/j.cell.2007.11.019"
+      }
+    },
+    {
+      "title": "Directed differentiation produces human neural cells",
+      "body": [
+        "Human iPS cells can be guided toward neural differentiation rather than left to produce a mixture of developmental lineages. Takahashi and colleagues tested **directed differentiation**, conditions chosen to favor particular cell types, in their established human iPS lines.",
+        "Differentiated cells acquired neuronal morphology and expressed neuronal markers, including βIII-tubulin and tyrosine hydroxylase under the reported dopaminergic differentiation conditions. **Tyrosine hydroxylase** is an enzyme involved in catecholamine synthesis and was used as a marker in this experiment.",
+        "The result connects a reprogrammed human starting population with specialized neural material. Morphology and marker expression establish differentiation outcomes in this study. Subsequent neural-interface experiments require additional measurements of electrical activity and functional connectivity, because the capacity to produce labeled neural cells and the behavior of an active network are different experimental endpoints."
+      ],
+      "transcript": [
+        "Human iPS cells can be guided toward neural differentiation rather than left to produce a mixture of developmental lineages. Takahashi and colleagues tested directed differentiation, conditions chosen to favor particular cell types, in their established human iPS lines.",
+        "Differentiated cells acquired neuronal morphology and expressed neuronal markers, including βIII-tubulin and tyrosine hydroxylase under the reported dopaminergic differentiation conditions. Tyrosine hydroxylase is an enzyme involved in catecholamine synthesis and was used as a marker in this experiment.",
+        "The result connects a reprogrammed human starting population with specialized neural material. Morphology and marker expression establish differentiation outcomes in this study. Subsequent neural-interface experiments require additional measurements of electrical activity and functional connectivity, because the capacity to produce labeled neural cells and the behavior of an active network are different experimental endpoints.",
+        "The study also performed directed cardiac differentiation. Its neuronal tests were not a Pong experiment. The later DishBrain work independently verified activity after producing cortical neural cultures from human pluripotent cells."
+      ],
+      "cite": "Takahashi et al. (2007)",
+      "refs": [
+        "Takahashi K, Tanabe K, Ohnuki M, Narita M, Ichisaka T, Tomoda K, Yamanaka S (2007). Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors. Cell 131:861-872. https://doi.org/10.1016/j.cell.2007.11.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/human_neurons.png",
+        "kind": "article",
+        "caption": "Takahashi et al. (2007), Fig. 6(A–C). Directed differentiation produces neuronal morphology and marker expression.",
+        "source_url": "https://doi.org/10.1016/j.cell.2007.11.019"
+      }
+    },
+    {
+      "title": "Three-dimensional culture permits organoid organization",
+      "body": [
+        "A **cerebral organoid** is a three-dimensional cultured tissue that reproduces selected features of developing brain organization. Lancaster and colleagues generated these tissues from human pluripotent cells using sequential culture conditions rather than preserving a dissected brain.",
+        "Early aggregates were directed toward **neuroectoderm**, the embryonic tissue associated with nervous-system development. Embedding them in Matrigel, an extracellular matrix preparation, supported expansion of neural epithelium. A spinning culture system improved nutrient exchange around the growing tissues.",
+        "The developing structures contained fluid-filled cavities and adjacent neural tissue rather than a uniform sheet of cells. Three-dimensional organization changes the relationships among progenitors, newly generated neurons, and local tissue boundaries. These features provide a developmental preparation different from the dispersed cortical monolayers used in the original DishBrain experiments."
+      ],
+      "transcript": [
+        "A cerebral organoid is a three-dimensional cultured tissue that reproduces selected features of developing brain organization. Lancaster and colleagues generated these tissues from human pluripotent cells using sequential culture conditions rather than preserving a dissected brain.",
+        "Early aggregates were directed toward neuroectoderm, the embryonic tissue associated with nervous-system development. Embedding them in Matrigel, an extracellular matrix preparation, supported expansion of neural epithelium. A spinning culture system improved nutrient exchange around the growing tissues.",
+        "The developing structures contained fluid-filled cavities and adjacent neural tissue rather than a uniform sheet of cells. Three-dimensional organization changes the relationships among progenitors, newly generated neurons, and local tissue boundaries. These features provide a developmental preparation different from the dispersed cortical monolayers used in the original DishBrain experiments.",
+        "An epithelium is an organized cellular sheet with an apical and basal orientation. The organoid method promoted tissue self-organization through culture conditions. Matrigel-supported growth was compared with stationary suspension conditions without the same support."
+      ],
+      "cite": "Lancaster et al. (2013)",
+      "refs": [
+        "Lancaster MA, Renner M, Martin CA, Wenzel D, Bicknell LS, Hurles ME, Homfray T, Penninger JM, Jackson AP, Knoblich JA (2013). Cerebral organoids model human brain development and microcephaly. Nature 501:373-379. https://doi.org/10.1038/nature12517"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/organoid_growth.png",
+        "kind": "article",
+        "caption": "Lancaster et al. (2013), Fig. 1(a–d). Culture stages, matrix-supported expansion, and neural tissue organization.",
+        "source_url": "https://doi.org/10.1038/nature12517"
+      }
+    },
+    {
+      "title": "Ventricular zones contain proliferating progenitors",
+      "body": [
+        "A **neural progenitor** is a cell capable of producing neural descendants. Cerebral organoids contained progenitor-rich zones around internal cavities, resembling the ventricular arrangement of developing cerebral tissue.",
+        "**Radial glia** are progenitor cells with elongated processes that also provide a structural route for neuronal movement. Lancaster and colleagues identified cells expressing the progenitor marker PAX6 and examined division and cell position around the cavity-facing surface.",
+        "Proliferative cells and more differentiated neuronal cells occupied different local regions. This spatial organization connects cell production with the architecture of developing tissue: progenitors maintain a generating zone while descendants populate tissue beyond it. Three-dimensional culture therefore preserves some relationships between cell state and position that are lost when all cells are dispersed onto a flat surface."
+      ],
+      "transcript": [
+        "A neural progenitor is a cell capable of producing neural descendants. Cerebral organoids contained progenitor-rich zones around internal cavities, resembling the ventricular arrangement of developing cerebral tissue.",
+        "Radial glia are progenitor cells with elongated processes that also provide a structural route for neuronal movement. Lancaster and colleagues identified cells expressing the progenitor marker PAX6 and examined division and cell position around the cavity-facing surface.",
+        "Proliferative cells and more differentiated neuronal cells occupied different local regions. This spatial organization connects cell production with the architecture of developing tissue: progenitors maintain a generating zone while descendants populate tissue beyond it. Three-dimensional culture therefore preserves some relationships between cell state and position that are lost when all cells are dispersed onto a flat surface.",
+        "The ventricular zone is named for its relationship to a ventricle-like cavity. PAX6 labeling identified a progenitor population in the source preparation. Position, markers, and division behavior were evaluated together."
+      ],
+      "cite": "Lancaster et al. (2013)",
+      "refs": [
+        "Lancaster MA, Renner M, Martin CA, Wenzel D, Bicknell LS, Hurles ME, Homfray T, Penninger JM, Jackson AP, Knoblich JA (2013). Cerebral organoids model human brain development and microcephaly. Nature 501:373-379. https://doi.org/10.1038/nature12517"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/organoid_radial.png",
+        "kind": "article",
+        "caption": "Lancaster et al. (2013), Fig. 3(a–i). Radial glia, dividing progenitors, and migrating neurons.",
+        "source_url": "https://doi.org/10.1038/nature12517"
+      }
+    },
+    {
+      "title": "Radial processes guide developing neurons",
+      "body": [
+        "Neurons generated near a ventricular surface must move into the surrounding tissue. Lancaster and colleagues examined radial glial morphology and the position of dividing and migrating cells in human cerebral organoids.",
+        "The preparations contained elongated radial processes, dividing progenitors near the apical surface, and cells at more basal locations. **Apical** denotes the cavity-facing side in this tissue; **basal** denotes the side extending away from that surface. Observations of labeled cells linked these positions to developmental behavior.",
+        "The resulting arrangement joins cell generation with movement and tissue expansion. A neuron’s position changes as it differentiates and enters tissue outside its original proliferative zone. The developmental circuit substrate therefore emerges from coordinated production and spatial organization, before the electrophysiological experiments used to examine network computation."
+      ],
+      "transcript": [
+        "Neurons generated near a ventricular surface must move into the surrounding tissue. Lancaster and colleagues examined radial glial morphology and the position of dividing and migrating cells in human cerebral organoids.",
+        "The preparations contained elongated radial processes, dividing progenitors near the apical surface, and cells at more basal locations. Apical denotes the cavity-facing side in this tissue; basal denotes the side extending away from that surface. Observations of labeled cells linked these positions to developmental behavior.",
+        "The resulting arrangement joins cell generation with movement and tissue expansion. A neuron’s position changes as it differentiates and enters tissue outside its original proliferative zone. The developmental circuit substrate therefore emerges from coordinated production and spatial organization, before the electrophysiological experiments used to examine network computation.",
+        "The original work included live imaging of radial glial behavior. Migrating neurons and dividing progenitors are different functional populations. The source labels and morphological observations establish local developmental relationships rather than a complete mature cortical circuit."
+      ],
+      "cite": "Lancaster et al. (2013)",
+      "refs": [
+        "Lancaster MA, Renner M, Martin CA, Wenzel D, Bicknell LS, Hurles ME, Homfray T, Penninger JM, Jackson AP, Knoblich JA (2013). Cerebral organoids model human brain development and microcephaly. Nature 501:373-379. https://doi.org/10.1038/nature12517"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/organoid_radial.png",
+        "kind": "article",
+        "caption": "Lancaster et al. (2013), Fig. 3(a–i). Radial glia, dividing progenitors, and migrating neurons.",
+        "source_url": "https://doi.org/10.1038/nature12517"
+      }
+    },
+    {
+      "title": "Regional markers identify heterogeneous neural tissue",
+      "body": [
+        "The Lancaster organoids contained multiple regional identities rather than one uniform cortical cell population. **Regional identity** refers to the developmental character associated with a particular part of the nervous system, assessed through markers and tissue organization.",
+        "The investigators detected forebrain markers such as FOXG1 and dorsal cortical markers such as EMX1 in organized regions. Other labeled regions included tissues with hippocampal, ventral forebrain, and retinal characteristics. Marker-positive populations were examined in their anatomical context rather than averaged across the whole organoid.",
+        "The result connects three-dimensional self-organization with local differentiation into several neural territories. Their presence changes which cellular interactions can develop inside one preparation. Culture conditions can therefore yield tissue heterogeneity as well as growth, and an organoid’s functional interpretation depends on the identities and organization actually measured in that model."
+      ],
+      "transcript": [
+        "The Lancaster organoids contained multiple regional identities rather than one uniform cortical cell population. Regional identity refers to the developmental character associated with a particular part of the nervous system, assessed through markers and tissue organization.",
+        "The investigators detected forebrain markers such as FOXG1 and dorsal cortical markers such as EMX1 in organized regions. Other labeled regions included tissues with hippocampal, ventral forebrain, and retinal characteristics. Marker-positive populations were examined in their anatomical context rather than averaged across the whole organoid.",
+        "The result connects three-dimensional self-organization with local differentiation into several neural territories. Their presence changes which cellular interactions can develop inside one preparation. Culture conditions can therefore yield tissue heterogeneity as well as growth, and an organoid’s functional interpretation depends on the identities and organization actually measured in that model.",
+        "These are regional features within cultured tissue, not a fully organized miniature adult brain. The same article used expression measurements and histology to assess regional specification. Several identities can occur together in an individual preparation."
+      ],
+      "cite": "Lancaster et al. (2013)",
+      "refs": [
+        "Lancaster MA, Renner M, Martin CA, Wenzel D, Bicknell LS, Hurles ME, Homfray T, Penninger JM, Jackson AP, Knoblich JA (2013). Cerebral organoids model human brain development and microcephaly. Nature 501:373-379. https://doi.org/10.1038/nature12517"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/organoid_regions.png",
+        "kind": "article",
+        "caption": "Lancaster et al. (2013), Fig. 2(a–j). Regional identity markers in human cerebral organoids.",
+        "source_url": "https://doi.org/10.1038/nature12517"
+      }
+    },
+    {
+      "title": "Organoid neurons show calcium responses and activity",
+      "body": [
+        "**Calcium imaging** follows changes in intracellular calcium using a fluorescent indicator. Lancaster and colleagues used this method to examine neurons within their developing organoids, complementing anatomical labeling of cortical tissue.",
+        "Recorded cells exhibited spontaneous calcium changes and responded to glutamate, an excitatory neurotransmitter. A **neurotransmitter** is a chemical signal released by neurons that influences other cells through receptors. Tetrodotoxin reduced the reported spontaneous activity, connecting these signals with sodium-channel-dependent neural excitation.",
+        "The physiological measurements establish activity within tissue that also has developmental organization. Calcium signals integrate changes over time and do not provide the same temporal readout as an extracellular spike recording. Combining anatomy with functional measurements connects the presence of differentiated neurons to their ability to participate in activity rather than relying on markers alone."
+      ],
+      "transcript": [
+        "Calcium imaging follows changes in intracellular calcium using a fluorescent indicator. Lancaster and colleagues used this method to examine neurons within their developing organoids, complementing anatomical labeling of cortical tissue.",
+        "Recorded cells exhibited spontaneous calcium changes and responded to glutamate, an excitatory neurotransmitter. A neurotransmitter is a chemical signal released by neurons that influences other cells through receptors. Tetrodotoxin reduced the reported spontaneous activity, connecting these signals with sodium-channel-dependent neural excitation.",
+        "The physiological measurements establish activity within tissue that also has developmental organization. Calcium signals integrate changes over time and do not provide the same temporal readout as an extracellular spike recording. Combining anatomy with functional measurements connects the presence of differentiated neurons to their ability to participate in activity rather than relying on markers alone.",
+        "Glutamate application and sodium-channel blockade served different experimental purposes. The former tested responsiveness to an excitatory transmitter; the latter tested a contribution of action-potential-dependent activity. Calcium imaging is slower than direct voltage recording."
+      ],
+      "cite": "Lancaster et al. (2013)",
+      "refs": [
+        "Lancaster MA, Renner M, Martin CA, Wenzel D, Bicknell LS, Hurles ME, Homfray T, Penninger JM, Jackson AP, Knoblich JA (2013). Cerebral organoids model human brain development and microcephaly. Nature 501:373-379. https://doi.org/10.1038/nature12517"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/organoid_calcium.png",
+        "kind": "article",
+        "caption": "Lancaster et al. (2013), Fig. 4(a–f). Cortical organization and calcium activity in organoid neurons.",
+        "source_url": "https://doi.org/10.1038/nature12517"
+      }
+    },
+    {
+      "title": "Patient organoids reveal altered progenitor development",
+      "body": [
+        "**Microcephaly** is a condition of unusually small brain and head size. Lancaster and colleagues generated organoids from a patient carrying damaging variants in CDK5RAP2, a gene associated with centrosomal function and neural progenitor development.",
+        "Patient-derived organoids developed smaller progenitor zones and increased early neuronal differentiation compared with control tissues. A **centrosome** is a cellular structure involved in organizing microtubules and cell division. The study connected the patient genotype with altered developmental behavior inside cultured neural tissue.",
+        "Reintroducing CDK5RAP2 increased progenitor regions, while reducing its expression in control tissue produced related developmental changes. These interventions join the genetic difference to the balance between continued progenitor production and neuronal differentiation. Donor-derived organoids therefore provide a way to examine how cellular development changes the tissue available for later circuit formation."
+      ],
+      "transcript": [
+        "Microcephaly is a condition of unusually small brain and head size. Lancaster and colleagues generated organoids from a patient carrying damaging variants in CDK5RAP2, a gene associated with centrosomal function and neural progenitor development.",
+        "Patient-derived organoids developed smaller progenitor zones and increased early neuronal differentiation compared with control tissues. A centrosome is a cellular structure involved in organizing microtubules and cell division. The study connected the patient genotype with altered developmental behavior inside cultured neural tissue.",
+        "Reintroducing CDK5RAP2 increased progenitor regions, while reducing its expression in control tissue produced related developmental changes. These interventions join the genetic difference to the balance between continued progenitor production and neuronal differentiation. Donor-derived organoids therefore provide a way to examine how cellular development changes the tissue available for later circuit formation.",
+        "The rescue and knockdown experiments strengthened the link between CDK5RAP2 and the observed developmental phenotype. Knockdown reduces expression of a selected gene. The measured endpoint was tissue development, not task performance or an intelligence score."
+      ],
+      "cite": "Lancaster et al. (2013)",
+      "refs": [
+        "Lancaster MA, Renner M, Martin CA, Wenzel D, Bicknell LS, Hurles ME, Homfray T, Penninger JM, Jackson AP, Knoblich JA (2013). Cerebral organoids model human brain development and microcephaly. Nature 501:373-379. https://doi.org/10.1038/nature12517"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/organoid_patient.png",
+        "kind": "article",
+        "caption": "Lancaster et al. (2013), Fig. 6(a–i). CDK5RAP2-associated microcephaly and altered progenitor development.",
+        "source_url": "https://doi.org/10.1038/nature12517"
+      }
+    },
+    {
+      "title": "Organoid maturation adds excitatory and inhibitory cells",
+      "body": [
+        "Trujillo and colleagues followed cortical organoids over months to examine how cellular development relates to network activity. Early tissues contained many progenitors, while later preparations contained increasing proportions of differentiated neurons and glial cells.",
+        "**Glutamatergic neurons** use glutamate for synaptic signaling, while **GABAergic neurons** use γ-aminobutyric acid, or GABA. Glutamatergic populations were prominent earlier, and GABAergic neurons became more apparent in later organoids, reaching approximately 15% of neurons after 10 months.",
+        "Microscopy resolved dendritic processes and synaptic ultrastructure alongside these molecular identities. A **synapse** contains a transmitting presynaptic component and a receiving postsynaptic component. Changes in the mixture of cells and their connections supply a biological basis for the developing network dynamics measured on electrode arrays across the same prolonged culture period."
+      ],
+      "transcript": [
+        "Trujillo and colleagues followed cortical organoids over months to examine how cellular development relates to network activity. Early tissues contained many progenitors, while later preparations contained increasing proportions of differentiated neurons and glial cells.",
+        "Glutamatergic neurons use glutamate for synaptic signaling, while GABAergic neurons use γ-aminobutyric acid, or GABA. Glutamatergic populations were prominent earlier, and GABAergic neurons became more apparent in later organoids, reaching approximately 15% of neurons after 10 months.",
+        "Microscopy resolved dendritic processes and synaptic ultrastructure alongside these molecular identities. A synapse contains a transmitting presynaptic component and a receiving postsynaptic component. Changes in the mixture of cells and their connections supply a biological basis for the developing network dynamics measured on electrode arrays across the same prolonged culture period.",
+        "GABA-associated cell identities became prominent in the six-to-ten-month period. The paper also detected GABA in the culture medium after six months. Cell composition and electrical function were assessed with distinct measurements."
+      ],
+      "cite": "Trujillo et al. (2019)",
+      "refs": [
+        "Trujillo CA, Gao R, Negraes PD, Gu J, Buchanan J, Preissl S, Wang A, Wu W, Haddad GG, Chaim IA, Domissy A, Vandenberghe M, Devor A, Yeo GW, Voytek B, Muotri AR (2019). Complex Oscillatory Waves Emerging from Cortical Organoids Model Early Human Brain Network Development. Cell Stem Cell 25:558-569.e7. https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/osc_cells.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 1(D). Neuronal and inhibitory-cell markers during organoid maturation.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        },
+        {
+          "path": "figures/osc_synapses.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 1(G). Synaptic ultrastructure and vesicles in cortical organoids.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        }
+      ],
+      "primary_figure_height": 2.25
+    },
+    {
+      "title": "Glutamate receptor blockade suppresses network events",
+      "body": [
+        "Glutamate acts through multiple receptor types to influence neuronal excitation. **AMPA receptors** and **NMDA receptors** are glutamate-activated ion channels that contribute to excitatory synaptic transmission, allowing signals to pass between connected neurons.",
+        "Trujillo and colleagues applied CNQX, which blocks AMPA/kainate receptors, together with AP5, which blocks NMDA receptors. The treatment extinguished synchronized network bursts in six-month cortical organoids. The perturbation directly tested whether these coordinated events depended on glutamatergic transmission.",
+        "A population burst therefore requires more than the independent capacity of individual neurons to fire. Synaptic excitation links activity across cells so that a local event can recruit a broader population. Blocking this route interrupts the network event, connecting a receptor-level intervention with the coordination measured at many extracellular recording sites."
+      ],
+      "transcript": [
+        "Glutamate acts through multiple receptor types to influence neuronal excitation. AMPA receptors and NMDA receptors are glutamate-activated ion channels that contribute to excitatory synaptic transmission, allowing signals to pass between connected neurons.",
+        "Trujillo and colleagues applied CNQX, which blocks AMPA/kainate receptors, together with AP5, which blocks NMDA receptors. The treatment extinguished synchronized network bursts in six-month cortical organoids. The perturbation directly tested whether these coordinated events depended on glutamatergic transmission.",
+        "A population burst therefore requires more than the independent capacity of individual neurons to fire. Synaptic excitation links activity across cells so that a local event can recruit a broader population. Blocking this route interrupts the network event, connecting a receptor-level intervention with the coordination measured at many extracellular recording sites.",
+        "An antagonist reduces receptor activation; an agonist activates a receptor. The combined blockade tested dependence on excitatory transmission but did not isolate the relative contribution of AMPA and NMDA receptors in that combined condition."
+      ],
+      "cite": "Trujillo et al. (2019)",
+      "refs": [
+        "Trujillo CA, Gao R, Negraes PD, Gu J, Buchanan J, Preissl S, Wang A, Wu W, Haddad GG, Chaim IA, Domissy A, Vandenberghe M, Devor A, Yeo GW, Voytek B, Muotri AR (2019). Complex Oscillatory Waves Emerging from Cortical Organoids Model Early Human Brain Network Development. Cell Stem Cell 25:558-569.e7. https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/osc_pharma.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 3(D–F). Receptor and sodium-channel perturbations change network events.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        },
+        {
+          "path": "figures/osc_synapses.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 1(G). Synaptic ultrastructure and vesicles in cortical organoids.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        }
+      ],
+      "primary_figure_height": 2.25,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "GABAergic transmission shapes nested oscillations",
+      "body": [
+        "**Oscillation** describes activity that varies repeatedly over time. In developing cortical organoids, Trujillo and colleagues observed network events containing slower repeated components rather than a single rise followed by uninterrupted decay.",
+        "GABA receptor perturbations changed this organization. Activating GABA receptors with muscimol or baclofen suppressed synchronized bursts, while blocking GABAergic transmission with bicuculline increased the occurrence of network events and erased the subsequent peaks of nested activity near 2 Hz.",
+        "This separates the number of events from their internal temporal structure. Excitatory recruitment can generate a population event, while GABAergic signaling contributes to how activity reverberates within it. Removing one form of transmission can increase event occurrence yet reduce organized oscillatory structure, so greater activity and more structured activity are different properties of the network."
+      ],
+      "transcript": [
+        "Oscillation describes activity that varies repeatedly over time. In developing cortical organoids, Trujillo and colleagues observed network events containing slower repeated components rather than a single rise followed by uninterrupted decay.",
+        "GABA receptor perturbations changed this organization. Activating GABA receptors with muscimol or baclofen suppressed synchronized bursts, while blocking GABAergic transmission with bicuculline increased the occurrence of network events and erased the subsequent peaks of nested activity near 2 Hz.",
+        "This separates the number of events from their internal temporal structure. Excitatory recruitment can generate a population event, while GABAergic signaling contributes to how activity reverberates within it. Removing one form of transmission can increase event occurrence yet reduce organized oscillatory structure, so greater activity and more structured activity are different properties of the network.",
+        "Muscimol acts at GABA-A receptors and baclofen at GABA-B receptors. GABA-A receptors are transmitter-gated ion channels, whereas GABA-B receptors signal through G proteins. The source perturbations distinguish their functional contributions to organoid activity."
+      ],
+      "cite": "Trujillo et al. (2019)",
+      "refs": [
+        "Trujillo CA, Gao R, Negraes PD, Gu J, Buchanan J, Preissl S, Wang A, Wu W, Haddad GG, Chaim IA, Domissy A, Vandenberghe M, Devor A, Yeo GW, Voytek B, Muotri AR (2019). Complex Oscillatory Waves Emerging from Cortical Organoids Model Early Human Brain Network Development. Cell Stem Cell 25:558-569.e7. https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/osc_pharma.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 3(D–F). Receptor and sodium-channel perturbations change network events.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        },
+        {
+          "path": "figures/osc_cells.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 1(D). Neuronal and inhibitory-cell markers during organoid maturation.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        }
+      ],
+      "primary_figure_height": 2.25,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Sodium-channel blockade abolishes organoid activity",
+      "body": [
+        "**Voltage-gated sodium channels** open in response to changes in membrane voltage and support the rapid inward current of an action potential. Tetrodotoxin, or TTX, blocks these channels and can test whether recorded events depend on neuronal spikes.",
+        "Trujillo and colleagues recorded sodium currents and action potentials in organoid neurons using whole-cell patch clamp, a method in which a pipette gains electrical access to a cell. TTX suppressed those sodium-dependent signals, and array-level electrical activity was abolished during the reported TTX treatment.",
+        "The result connects channel function in individual neurons with population signals recorded outside them. A network event requires both excitable cells and routes by which those cells interact. Sodium-channel blockade interrupts spike generation itself, while glutamate receptor blockade interrupts excitatory synaptic communication between cells that may otherwise remain electrically excitable."
+      ],
+      "transcript": [
+        "Voltage-gated sodium channels open in response to changes in membrane voltage and support the rapid inward current of an action potential. Tetrodotoxin, or TTX, blocks these channels and can test whether recorded events depend on neuronal spikes.",
+        "Trujillo and colleagues recorded sodium currents and action potentials in organoid neurons using whole-cell patch clamp, a method in which a pipette gains electrical access to a cell. TTX suppressed those sodium-dependent signals, and array-level electrical activity was abolished during the reported TTX treatment.",
+        "The result connects channel function in individual neurons with population signals recorded outside them. A network event requires both excitable cells and routes by which those cells interact. Sodium-channel blockade interrupts spike generation itself, while glutamate receptor blockade interrupts excitatory synaptic communication between cells that may otherwise remain electrically excitable.",
+        "The patch-clamp sodium-current results appear in the source supplement; the displayed main-paper pharmacology includes network effects. Electrical activity, synaptic recruitment, and oscillatory timing are separate mechanistic levels. TTX tests spike-dependent activity at the channel level."
+      ],
+      "cite": "Trujillo et al. (2019)",
+      "refs": [
+        "Trujillo CA, Gao R, Negraes PD, Gu J, Buchanan J, Preissl S, Wang A, Wu W, Haddad GG, Chaim IA, Domissy A, Vandenberghe M, Devor A, Yeo GW, Voytek B, Muotri AR (2019). Complex Oscillatory Waves Emerging from Cortical Organoids Model Early Human Brain Network Development. Cell Stem Cell 25:558-569.e7. https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/osc_pharma.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 3(D–F). Receptor and sodium-channel perturbations change network events.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        },
+        {
+          "path": "figures/osc_synapses.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 1(G). Synaptic ultrastructure and vesicles in cortical organoids.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        }
+      ],
+      "primary_figure_height": 2.25,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 4.0
+    },
+    {
+      "title": "Developing network activity shares selected EEG features",
+      "body": [
+        "An **electroencephalogram**, or EEG, records population-related electrical signals from the head. Trujillo and colleagues compared selected features of organoid recordings with recordings from preterm infants to examine developmental similarities in network dynamics.",
+        "Early organoid events alternated with periods of low activity. With maturation, event timing and internal oscillatory structure became more complex. A model trained on features of preterm EEG estimated increasing developmental age from later organoid activity.",
+        "The comparison concerns selected signal features rather than equivalence between an organoid and an infant brain. Both preparations can produce intermittent coordinated activity during development, making timing a useful comparative measurement. The experimentally accessible organoids allow receptor and channel perturbations that connect the emergence of those temporal patterns with cellular and synaptic mechanisms."
+      ],
+      "transcript": [
+        "An electroencephalogram, or EEG, records population-related electrical signals from the head. Trujillo and colleagues compared selected features of organoid recordings with recordings from preterm infants to examine developmental similarities in network dynamics.",
+        "Early organoid events alternated with periods of low activity. With maturation, event timing and internal oscillatory structure became more complex. A model trained on features of preterm EEG estimated increasing developmental age from later organoid activity.",
+        "The comparison concerns selected signal features rather than equivalence between an organoid and an infant brain. Both preparations can produce intermittent coordinated activity during development, making timing a useful comparative measurement. The experimentally accessible organoids allow receptor and channel perturbations that connect the emergence of those temporal patterns with cellular and synaptic mechanisms.",
+        "The source comparison was cross-validated and concerned developmental EEG features. Organoids lacked the full adult temporal complexity. Similarities in population signals do not establish sensory experience or consciousness."
+      ],
+      "cite": "Trujillo et al. (2019)",
+      "refs": [
+        "Trujillo CA, Gao R, Negraes PD, Gu J, Buchanan J, Preissl S, Wang A, Wu W, Haddad GG, Chaim IA, Domissy A, Vandenberghe M, Devor A, Yeo GW, Voytek B, Muotri AR (2019). Complex Oscillatory Waves Emerging from Cortical Organoids Model Early Human Brain Network Development. Cell Stem Cell 25:558-569.e7. https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/osc_eeg.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 4(A–B). Organoid network activity and selected preterm EEG features.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        },
+        {
+          "path": "figures/osc_network.png",
+          "kind": "article",
+          "caption": "Trujillo et al. (2019), Fig. 2(A–J). Developing network events, oscillations, and frequency-resolved activity.",
+          "source_url": "https://doi.org/10.1016/j.stem.2019.08.002"
+        }
+      ],
+      "primary_figure_height": 2.25
+    },
+    {
+      "title": "DishBrain uses distinct routes to active cortical cultures",
+      "body": [
+        "The DishBrain study used embryonic mouse cortical cells and two methods for producing human neural cultures. These preparations shared an electronic task but began from different biological starting points and developed on different timescales.",
+        "**Dual SMAD inhibition** is a differentiation method that inhibits selected developmental signaling pathways to favor neural identity. The alternative human method used NGN2, a transcription factor associated with neuronal differentiation, to drive a relatively high-yield excitatory neuronal population from pluripotent cells.",
+        "The differentiation route therefore changes the material supplied to the interface. Supporting astrocytes, cortical markers, and glutamatergic expression were measured rather than assumed identical across cultures. Comparing preparations in the same game requires attention to the cells and maturity that generate the recorded activity, because the software receives their functional output rather than their developmental history."
+      ],
+      "transcript": [
+        "The DishBrain study used embryonic mouse cortical cells and two methods for producing human neural cultures. These preparations shared an electronic task but began from different biological starting points and developed on different timescales.",
+        "Dual SMAD inhibition is a differentiation method that inhibits selected developmental signaling pathways to favor neural identity. The alternative human method used NGN2, a transcription factor associated with neuronal differentiation, to drive a relatively high-yield excitatory neuronal population from pluripotent cells.",
+        "The differentiation route therefore changes the material supplied to the interface. Supporting astrocytes, cortical markers, and glutamatergic expression were measured rather than assumed identical across cultures. Comparing preparations in the same game requires attention to the cells and maturity that generate the recorded activity, because the software receives their functional output rather than their developmental history.",
+        "SMAD proteins participate in intracellular signaling associated with developmental pathways. The source used immunolabeling and gene-expression measurements to characterize the resulting cultures. NGN2 neuronal programming is distinct from the earlier four-factor induction of pluripotency."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/culture_cells.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 2(A–H). Neurons, neurites, astrocytes, and glutamatergic markers in cortical cultures.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Culture preparation changes the time to robust activity",
+      "body": [
+        "Electrical maturity did not occur at the same culture age in all DishBrain preparations. Kagan and colleagues monitored activity during development instead of assuming that cells became functionally comparable immediately after they were plated.",
+        "Mouse-derived cortical cultures displayed robust activity around day 14 in vitro. Human cortical cultures produced by dual SMAD inhibition developed synchronized bursting around day 73, while NGN2-derived human cultures typically became active between days 14 and 24.",
+        "These differences link developmental method with the timing of usable network function. **Days in vitro** counts time maintained in the culture preparation. A culture suitable for marker analysis can precede one suitable for closed-loop task testing, so physiological readiness depends on the emergence of activity and coordination measured in that preparation rather than one universal number of days."
+      ],
+      "transcript": [
+        "Electrical maturity did not occur at the same culture age in all DishBrain preparations. Kagan and colleagues monitored activity during development instead of assuming that cells became functionally comparable immediately after they were plated.",
+        "Mouse-derived cortical cultures displayed robust activity around day 14 in vitro. Human cortical cultures produced by dual SMAD inhibition developed synchronized bursting around day 73, while NGN2-derived human cultures typically became active between days 14 and 24.",
+        "These differences link developmental method with the timing of usable network function. Days in vitro counts time maintained in the culture preparation. A culture suitable for marker analysis can precede one suitable for closed-loop task testing, so physiological readiness depends on the emergence of activity and coordination measured in that preparation rather than one universal number of days.",
+        "The maps follow recording locations across maturation, and the companion plots quantify changing firing properties. The reported times concern the cultures and methods used in this study. They are not general maturation deadlines for every human neuronal protocol."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/culture_maps.png",
+          "kind": "article",
+          "caption": "Kagan et al. (2022), Fig. 3(A). Activity maps across maturation of mouse and human cultures.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        },
+        {
+          "path": "figures/culture_rates.png",
+          "kind": "article",
+          "caption": "Kagan et al. (2022), Fig. 3(B–D). Firing-rate development differs among preparations.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ],
+      "primary_figure_height": 2.25
+    },
+    {
+      "title": "Place and rate codes convey the virtual ball position",
+      "body": [
+        "The virtual Pong ball was converted into stimulation delivered to eight predefined sensory electrodes. A **place code** represents a variable through the location of input; the active electrode corresponded to the ball’s position along the game’s vertical axis.",
+        "A **rate code** represents information through how frequently events occur. The refined protocol combined place coding with stimulation rates from 4–40 Hz to convey additional ball information. The researchers compared this richer input with earlier pilot configurations using less detailed sensory stimulation.",
+        "Gameplay performance improved across the refined encoding designs. The relationship connects the electronic representation of the environment with what the living network can use to guide an output. Information arrives as timed pulses at specific sites, making input design a functional part of the biological task rather than simply a display of a game on a screen."
+      ],
+      "transcript": [
+        "The virtual Pong ball was converted into stimulation delivered to eight predefined sensory electrodes. A place code represents a variable through the location of input; the active electrode corresponded to the ball’s position along the game’s vertical axis.",
+        "A rate code represents information through how frequently events occur. The refined protocol combined place coding with stimulation rates from 4–40 Hz to convey additional ball information. The researchers compared this richer input with earlier pilot configurations using less detailed sensory stimulation.",
+        "Gameplay performance improved across the refined encoding designs. The relationship connects the electronic representation of the environment with what the living network can use to guide an output. Information arrives as timed pulses at specific sites, making input design a functional part of the biological task rather than simply a display of a game on a screen.",
+        "Hz means events per second. The initial pilot used 4 Hz place-coded stimulation. The later pilot changed multiple encoding and configuration details, so the comparison supports the refined interface without isolating one molecular learning mechanism."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/dish_layout.png",
+          "kind": "article",
+          "caption": "Kagan et al. (2022), Fig. 4(D). Electrode positions assigned to sensory and motor functions.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        },
+        {
+          "path": "figures/dish_pilot.png",
+          "kind": "article",
+          "caption": "Kagan et al. (2022), Fig. 4(E). Gameplay performance changes across sensory-encoding designs.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ],
+      "primary_figure_height": 2.25,
+      "figure_arrangement": "side-by-side",
+      "primary_figure_width": 2.9
+    },
+    {
+      "title": "A closed loop links neural output to subsequent input",
+      "body": [
+        "A **closed-loop system** uses its measured output to determine later input. DishBrain recorded neural activity, used that activity to move a virtual paddle, and delivered electrical stimulation based on the resulting state of the game.",
+        "The software exchanged data with the electrode hardware at low latency. The reported packet-processing latency was typically below 50 ms. **Latency** is the delay between an event and the processing or response associated with it; short delays maintain the temporal relationship between output and its consequences.",
+        "The loop therefore creates a causal interaction between cultured tissue and the virtual environment. Activity changes the paddle, paddle movement changes whether the ball is intercepted, and that outcome changes stimulation. Repeated interaction gives the network input contingent on its own output rather than a sequence of stimuli that proceeds independently of neural activity."
+      ],
+      "transcript": [
+        "A closed-loop system uses its measured output to determine later input. DishBrain recorded neural activity, used that activity to move a virtual paddle, and delivered electrical stimulation based on the resulting state of the game.",
+        "The software exchanged data with the electrode hardware at low latency. The reported packet-processing latency was typically below 50 ms. Latency is the delay between an event and the processing or response associated with it; short delays maintain the temporal relationship between output and its consequences.",
+        "The loop therefore creates a causal interaction between cultured tissue and the virtual environment. Activity changes the paddle, paddle movement changes whether the ball is intercepted, and that outcome changes stimulation. Repeated interaction gives the network input contingent on its own output rather than a sequence of stimuli that proceeds independently of neural activity.",
+        "The processing-time measure is a software latency, not a measured synaptic delay. Electrical cultures and software together form the experimental loop. The virtual environment was controlled through specified input and output mappings."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/dish_software.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 4(B). Published data paths connecting neural activity and the game.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Motor-region activity determines paddle movement",
+      "body": [
+        "DishBrain assigned different groups of recording electrodes to two motor functions. **Motor region** here means a software-defined portion of the array whose recorded activity moves the paddle, rather than an anatomically identified motor cortex.",
+        "Activity in one region moved the paddle upward, while activity in the other moved it downward. The researchers tested configurations and used weighting to account for differences in regional activity. The final layout separated sensory inputs from the counterbalanced motor assignments used to evaluate output.",
+        "Successful control therefore depends on the balance and timing of regional activity rather than merely producing spikes somewhere in the culture. The assignment converts distributed neural signals into a measurable action. Because cells were not organized according to that software label before testing, the task probes how an existing living network changes its activity when that activity acquires external consequences."
+      ],
+      "transcript": [
+        "DishBrain assigned different groups of recording electrodes to two motor functions. Motor region here means a software-defined portion of the array whose recorded activity moves the paddle, rather than an anatomically identified motor cortex.",
+        "Activity in one region moved the paddle upward, while activity in the other moved it downward. The researchers tested configurations and used weighting to account for differences in regional activity. The final layout separated sensory inputs from the counterbalanced motor assignments used to evaluate output.",
+        "Successful control therefore depends on the balance and timing of regional activity rather than merely producing spikes somewhere in the culture. The assignment converts distributed neural signals into a measurable action. Because cells were not organized according to that software label before testing, the task probes how an existing living network changes its activity when that activity acquires external consequences.",
+        "The cells formed a monolayer with an initially arbitrary relationship to the motor mapping. Electrode layout and output decoding were experimentally specified. A motor label in this assay denotes functional decoding rather than preserved anatomical circuitry."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/dish_layout.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 4(D). Electrode positions assigned to sensory and motor functions.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Hits and misses lead to different feedback patterns",
+      "body": [
+        "A successful interception and a missed ball produced different stimulation in the original DishBrain protocol. The feedback carried information about the consequences of the paddle movement generated by the culture’s recorded activity.",
+        "A hit triggered a predictable pulse pattern at 100 Hz for 100 ms. A miss triggered unpredictable stimulation at 5 Hz for 4 s, followed by a restarted ball trajectory. These outcome-dependent signals interrupted or altered the regular sensory input that described the ball’s position.",
+        "The experiment therefore coupled task outcome with distinct neural input patterns. The authors’ active-inference hypothesis proposed that networks would change activity to avoid unpredictable input. That hypothesis supplied a reason to test the feedback design; learning was assessed through actual changes in rally performance and neural activity under the defined experimental conditions."
+      ],
+      "transcript": [
+        "A successful interception and a missed ball produced different stimulation in the original DishBrain protocol. The feedback carried information about the consequences of the paddle movement generated by the culture’s recorded activity.",
+        "A hit triggered a predictable pulse pattern at 100 Hz for 100 ms. A miss triggered unpredictable stimulation at 5 Hz for 4 s, followed by a restarted ball trajectory. These outcome-dependent signals interrupted or altered the regular sensory input that described the ball’s position.",
+        "The experiment therefore coupled task outcome with distinct neural input patterns. The authors’ active-inference hypothesis proposed that networks would change activity to avoid unpredictable input. That hypothesis supplied a reason to test the feedback design; learning was assessed through actual changes in rally performance and neural activity under the defined experimental conditions.",
+        "The paper used active inference as a theoretical framework, not a directly measured molecular pathway. Predictability and timing distinguished the outcome signals. The task did not use verbal instructions or a conventional food reward."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/dish_coding.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 4(C). Sensory inputs, feedback events, and recorded activity during gameplay.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Mouse and human cultures improve during gameplay",
+      "body": [
+        "**Average rally length** measures how many consecutive successful interceptions occur before a miss. Kagan and colleagues compared performance during the first 0–5 min of a session with performance during minutes 6–20.",
+        "Both mouse and human cortical cultures increased rally length over time under the feedback-enabled task. They also reduced immediate misses, called **aces**, and increased the occurrence of longer rallies. These complementary measures connect successful interception with persistence across successive ball returns.",
+        "The resulting improvement depended on interactions during the task rather than simply on the presence of active cells. The same interface measured performance from biological and nonbiological controls. Multiple gameplay outcomes therefore supplied converging behavioral readouts of adaptation within this defined virtual environment, while retaining separate measures of what happened in the neural recordings."
+      ],
+      "transcript": [
+        "Average rally length measures how many consecutive successful interceptions occur before a miss. Kagan and colleagues compared performance during the first 0–5 min of a session with performance during minutes 6–20.",
+        "Both mouse and human cortical cultures increased rally length over time under the feedback-enabled task. They also reduced immediate misses, called aces, and increased the occurrence of longer rallies. These complementary measures connect successful interception with persistence across successive ball returns.",
+        "The resulting improvement depended on interactions during the task rather than simply on the presence of active cells. The same interface measured performance from biological and nonbiological controls. Multiple gameplay outcomes therefore supplied converging behavioral readouts of adaptation within this defined virtual environment, while retaining separate measures of what happened in the neural recordings.",
+        "A long rally in this analysis involved more than three consecutive hits. The reported comparison is within sessions, and later tests examined multiple days separately. The measured adaptation does not imply competence at unrelated tasks."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/dish_performance.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 5(B–F). Gameplay improvement, paddle movement, and hit distributions in experimental and control groups.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Control outputs separate learning from paddle movement",
+      "body": [
+        "Moving a paddle frequently can produce some accidental interceptions even without adaptive control. The DishBrain study therefore compared neural cultures with media-only arrays, unstimulated rest outputs, and a software control whose movements were driven by random noise.",
+        "The random-noise control moved the paddle more than the experimental cultures but did not acquire their performance improvement. Mouse and human cultures improved across the session, whereas the tested control outputs lacked the same pattern. Paddle distance and rally success were measured separately.",
+        "This comparison changes the interpretation of the task outcome. Greater movement alone was insufficient to explain improved interception, so performance depended on how outputs related to the evolving game. The control design separates nonspecific output magnitude from the temporal and spatial organization needed to keep returning the ball."
+      ],
+      "transcript": [
+        "Moving a paddle frequently can produce some accidental interceptions even without adaptive control. The DishBrain study therefore compared neural cultures with media-only arrays, unstimulated rest outputs, and a software control whose movements were driven by random noise.",
+        "The random-noise control moved the paddle more than the experimental cultures but did not acquire their performance improvement. Mouse and human cultures improved across the session, whereas the tested control outputs lacked the same pattern. Paddle distance and rally success were measured separately.",
+        "This comparison changes the interpretation of the task outcome. Greater movement alone was insufficient to explain improved interception, so performance depended on how outputs related to the evolving game. The control design separates nonspecific output magnitude from the temporal and spatial organization needed to keep returning the ball.",
+        "The source also tested electrically inactive non-neural cells. Those supplementary controls did not exhibit a learning effect. The displayed main-paper panels include media, rest, random-output, and neural groups."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/dish_performance.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 5(B–F). Gameplay improvement, paddle movement, and hit distributions in experimental and control groups.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Sensory input without outcome feedback is insufficient",
+      "body": [
+        "The investigators tested whether ball-position stimulation alone could produce the gameplay improvement. In the **no-feedback condition**, a missed ball bounced and continued without the normal restart or outcome-dependent interruption, while sensory information remained available.",
+        "A **silent-feedback condition** replaced stimulation after outcomes with matched periods without stimulation. The stimulus-feedback condition retained predictable and unpredictable outcome signals. These manipulations changed the information about consequences while keeping the cultures connected to the virtual environment.",
+        "Only the stimulus condition produced the reported clear within-session increase in rally length in this comparison. Silent feedback performed better than no feedback but showed a smaller effect. The results connect outcome contingency with adaptation: representing the current external state and signaling what an action caused supply different kinds of information to the living network."
+      ],
+      "transcript": [
+        "The investigators tested whether ball-position stimulation alone could produce the gameplay improvement. In the no-feedback condition, a missed ball bounced and continued without the normal restart or outcome-dependent interruption, while sensory information remained available.",
+        "A silent-feedback condition replaced stimulation after outcomes with matched periods without stimulation. The stimulus-feedback condition retained predictable and unpredictable outcome signals. These manipulations changed the information about consequences while keeping the cultures connected to the virtual environment.",
+        "Only the stimulus condition produced the reported clear within-session increase in rally length in this comparison. Silent feedback performed better than no feedback but showed a smaller effect. The results connect outcome contingency with adaptation: representing the current external state and signaling what an action caused supply different kinds of information to the living network.",
+        "Silent feedback removed stimulation for a matching duration and then restarted the game. No feedback preserved ongoing ball-position input without the outcome interruption. The distinction makes simple sensory exposure different from a fully contingent learning loop."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/dish_feedback.png",
+          "kind": "article",
+          "caption": "Kagan et al. (2022), Fig. 6(A). Stimulation patterns under stimulus, silent, and no-feedback conditions.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        },
+        {
+          "path": "figures/dish_feedback_results.png",
+          "kind": "article",
+          "caption": "Kagan et al. (2022), Fig. 6(C–D). Feedback-dependent rally improvement within sessions and across days.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+        }
+      ],
+      "primary_figure_height": 2.25
+    },
+    {
+      "title": "Gameplay reorganizes motor-output relationships",
+      "body": [
+        "Two neural regions can generate different actions while sharing activity from a broader network. Kagan and colleagues compared the relationship between their software-defined motor regions during gameplay and unstimulated rest.",
+        "A **correlation** describes how two measured quantities vary together. The study evaluated correlated firing between motor regions and changes in their output relationships during the task. This measured coordination in addition to the number of spikes recorded from each region.",
+        "The analysis connects task engagement with reorganization of population output. If the two regions always behave identically, their opposing paddle commands convey little differentiated control. Changing their relationship can alter the action generated by the decoder without requiring a uniform increase in every cell’s firing rate. Organized neural output therefore concerns relations among regions as well as individual activity levels."
+      ],
+      "transcript": [
+        "Two neural regions can generate different actions while sharing activity from a broader network. Kagan and colleagues compared the relationship between their software-defined motor regions during gameplay and unstimulated rest.",
+        "A correlation describes how two measured quantities vary together. The study evaluated correlated firing between motor regions and changes in their output relationships during the task. This measured coordination in addition to the number of spikes recorded from each region.",
+        "The analysis connects task engagement with reorganization of population output. If the two regions always behave identically, their opposing paddle commands convey little differentiated control. Changing their relationship can alter the action generated by the decoder without requiring a uniform increase in every cell’s firing rate. Organized neural output therefore concerns relations among regions as well as individual activity levels.",
+        "The relationship was evaluated from recorded activity in the defined array regions. These analyses concern functional coordination rather than proof of newly formed anatomical synapses. The task and rest comparison provided different input-output contexts for the same cultures."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/dish_motor.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 7(A–H). Motor-region activity relationships during rest and gameplay.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Firing magnitude alone does not explain task performance",
+      "body": [
+        "A neural culture’s activity can be summarized by overall firing rate, but task performance depends on how activity is organized and used. Kagan and colleagues compared average rally length with several electrophysiological properties rather than treating more spikes as automatically better control.",
+        "Mean and maximal firing metrics had weaker relationships with rally length than measures of spatial and temporal activity organization. The study also examined **entropy**, a measure of variability in the recorded signal, and correlations among defined regions.",
+        "The result connects behavioral output with the structure of neural activity. A population can be highly active yet generate poorly differentiated paddle commands, while a change in pattern can improve output with a smaller change in total firing. Interface measurements therefore retain timing, location, and interregional relationships alongside overall activity to assess how the tissue contributes to the task."
+      ],
+      "transcript": [
+        "A neural culture’s activity can be summarized by overall firing rate, but task performance depends on how activity is organized and used. Kagan and colleagues compared average rally length with several electrophysiological properties rather than treating more spikes as automatically better control.",
+        "Mean and maximal firing metrics had weaker relationships with rally length than measures of spatial and temporal activity organization. The study also examined entropy, a measure of variability in the recorded signal, and correlations among defined regions.",
+        "The result connects behavioral output with the structure of neural activity. A population can be highly active yet generate poorly differentiated paddle commands, while a change in pattern can improve output with a smaller change in total firing. Interface measurements therefore retain timing, location, and interregional relationships alongside overall activity to assess how the tissue contributes to the task.",
+        "The source compares several correlates rather than identifying one sufficient cellular mechanism for learning. Entropy was calculated from specified recorded signal representations. The relevant endpoint was average rally length in the same experimental environment."
+      ],
+      "cite": "Kagan et al. (2022)",
+      "refs": [
+        "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/dish_correlates.png",
+        "kind": "article",
+        "caption": "Kagan et al. (2022), Fig. 8(A–E). Firing metrics and entropy in relation to average rally length.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2022.09.001"
+      }
+    },
+    {
+      "title": "Neuronal avalanches quantify propagating network activity",
+      "body": [
+        "A **neuronal avalanche** is a cascade of population activity grouped across consecutive time intervals. Habibollahi and colleagues analyzed DishBrain recordings in 50 ms bins to examine how activity propagated during rest and gameplay.",
+        "They measured avalanche sizes and durations alongside several indicators of **criticality**, a dynamical regime between activity that rapidly dies out and activity that expands without restraint. The **branching ratio** describes propagation from one activity interval to the next; values near 1 characterize balanced propagation in this analysis.",
+        "These measurements connect local spiking with larger cascades across the network. They provide a way to compare how far activity spreads and how its scale changes between conditions. Criticality is therefore a quantified population-dynamics description in this study, rather than a synonym for intelligence or a label inferred merely from the presence of active neurons."
+      ],
+      "transcript": [
+        "A neuronal avalanche is a cascade of population activity grouped across consecutive time intervals. Habibollahi and colleagues analyzed DishBrain recordings in 50 ms bins to examine how activity propagated during rest and gameplay.",
+        "They measured avalanche sizes and durations alongside several indicators of criticality, a dynamical regime between activity that rapidly dies out and activity that expands without restraint. The branching ratio describes propagation from one activity interval to the next; values near 1 characterize balanced propagation in this analysis.",
+        "These measurements connect local spiking with larger cascades across the network. They provide a way to compare how far activity spreads and how its scale changes between conditions. Criticality is therefore a quantified population-dynamics description in this study, rather than a synonym for intelligence or a label inferred merely from the presence of active neurons.",
+        "The study also measured deviation from criticality and shape-collapse error. Several metrics were examined because one power-law fit alone is insufficient to characterize the complete dynamical regime. The displayed panels compare measured conditions rather than newly drawn model curves."
+      ],
+      "cite": "Habibollahi et al. (2023)",
+      "refs": [
+        "Habibollahi F, Kagan BJ, Burkitt AN, French C (2023). Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks. Nature Communications 14:5287. https://doi.org/10.1038/s41467-023-41020-3"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/critical_metrics.png",
+        "kind": "article",
+        "caption": "Habibollahi et al. (2023), Fig. 3(d–j). Rest and gameplay differ in criticality metrics and performance.",
+        "source_url": "https://doi.org/10.1038/s41467-023-41020-3"
+      }
+    },
+    {
+      "title": "Structured input shifts networks toward critical dynamics",
+      "body": [
+        "Habibollahi and colleagues compared neuronal dynamics during gameplay with matched rest periods in which neural output could move the paddle but no task-related sensory input was delivered. The analysis asked how receiving structured information changed network activity.",
+        "During gameplay, the recorded cultures moved closer to the study’s criticality criteria. Their branching ratios and avalanche-related measurements differed from rest. Better task performance was associated with closer proximity to the measured critical regime.",
+        "The result joins environmental coupling with the network’s propagation state. Input related to a changing task reorganized activity across the living population rather than merely adding isolated stimulus responses. The performance association connects that state with successful output, while the feedback experiments separately determine which task conditions produce learning across time."
+      ],
+      "transcript": [
+        "Habibollahi and colleagues compared neuronal dynamics during gameplay with matched rest periods in which neural output could move the paddle but no task-related sensory input was delivered. The analysis asked how receiving structured information changed network activity.",
+        "During gameplay, the recorded cultures moved closer to the study’s criticality criteria. Their branching ratios and avalanche-related measurements differed from rest. Better task performance was associated with closer proximity to the measured critical regime.",
+        "The result joins environmental coupling with the network’s propagation state. Input related to a changing task reorganized activity across the living population rather than merely adding isolated stimulus responses. The performance association connects that state with successful output, while the feedback experiments separately determine which task conditions produce learning across time.",
+        "Association with performance does not make criticality a complete explanation of learning. The source compared multiple neural subpopulations and conditions. Proximity to the critical criteria was assessed from recorded activity rather than from a subjective assessment of the cultures."
+      ],
+      "cite": "Habibollahi et al. (2023)",
+      "refs": [
+        "Habibollahi F, Kagan BJ, Burkitt AN, French C (2023). Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks. Nature Communications 14:5287. https://doi.org/10.1038/s41467-023-41020-3"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/critical_metrics.png",
+        "kind": "article",
+        "caption": "Habibollahi et al. (2023), Fig. 3(d–j). Rest and gameplay differ in criticality metrics and performance.",
+        "source_url": "https://doi.org/10.1038/s41467-023-41020-3"
+      }
+    },
+    {
+      "title": "Criticality and feedback-dependent learning are distinct",
+      "body": [
+        "A network can receive structured information without receiving useful signals about the consequences of its actions. Habibollahi and colleagues analyzed sensory and motor subpopulations under different DishBrain feedback conditions to separate these relationships.",
+        "Near-critical dynamics arose with structured sensory input even when learning-related outcome information was reduced. Feedback conditions nevertheless differed in task performance and adaptation. The presence of a criticality signature therefore did not replace the requirement for a suitable input-output contingency in the learning assay.",
+        "This distinction links two levels of explanation. Population dynamics describe how activity propagates through the cultured network; task feedback describes the causal information available to guide future output. A preparation may exhibit one property without the full behavioral outcome associated with the other, making their joint measurement more informative than either label alone."
+      ],
+      "transcript": [
+        "A network can receive structured information without receiving useful signals about the consequences of its actions. Habibollahi and colleagues analyzed sensory and motor subpopulations under different DishBrain feedback conditions to separate these relationships.",
+        "Near-critical dynamics arose with structured sensory input even when learning-related outcome information was reduced. Feedback conditions nevertheless differed in task performance and adaptation. The presence of a criticality signature therefore did not replace the requirement for a suitable input-output contingency in the learning assay.",
+        "This distinction links two levels of explanation. Population dynamics describe how activity propagates through the cultured network; task feedback describes the causal information available to guide future output. A preparation may exhibit one property without the full behavioral outcome associated with the other, making their joint measurement more informative than either label alone.",
+        "The source concluded that criticality alone was insufficient for learning without additional information about consequences. That limitation changes the causal interpretation and is therefore included in the teaching material. Criticality is not evidence of consciousness in this assay."
+      ],
+      "cite": "Habibollahi et al. (2023)",
+      "refs": [
+        "Habibollahi F, Kagan BJ, Burkitt AN, French C (2023). Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks. Nature Communications 14:5287. https://doi.org/10.1038/s41467-023-41020-3"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/critical_feedback.png",
+        "kind": "article",
+        "caption": "Habibollahi et al. (2023), Fig. 4(a–e). Criticality comparisons across motor and sensory subpopulations and feedback conditions.",
+        "source_url": "https://doi.org/10.1038/s41467-023-41020-3"
+      }
+    },
+    {
+      "title": "NGN2 cultures permit pharmacological tests during Pong",
+      "body": [
+        "Watmuff and colleagues used NGN2-programmed human neurons to test how drugs affected both spontaneous activity and DishBrain gameplay. Their cultures contained neuronal and synaptic markers together with strong expression of glutamatergic markers.",
+        "The preparation exhibited hyperactive glutamatergic activity. **Hyperactivity** here describes the measured neural firing and bursting phenotype, not a diagnosis in a behaving person. The investigators applied the anti-seizure medications carbamazepine, phenytoin, and perampanel and compared doses with untreated controls.",
+        "Testing within the interface linked pharmacological changes to information-processing performance. A compound could change spontaneous firing, the structure of stimulated activity, or the success of paddle control, and these endpoints need not move together. The assay therefore measured how a defined biological preparation acted on task information after an intervention, extending the original interface beyond a baseline learning demonstration."
+      ],
+      "transcript": [
+        "Watmuff and colleagues used NGN2-programmed human neurons to test how drugs affected both spontaneous activity and DishBrain gameplay. Their cultures contained neuronal and synaptic markers together with strong expression of glutamatergic markers.",
+        "The preparation exhibited hyperactive glutamatergic activity. Hyperactivity here describes the measured neural firing and bursting phenotype, not a diagnosis in a behaving person. The investigators applied the anti-seizure medications carbamazepine, phenytoin, and perampanel and compared doses with untreated controls.",
+        "Testing within the interface linked pharmacological changes to information-processing performance. A compound could change spontaneous firing, the structure of stimulated activity, or the success of paddle control, and these endpoints need not move together. The assay therefore measured how a defined biological preparation acted on task information after an intervention, extending the original interface beyond a baseline learning demonstration.",
+        "The cultures were grown on an astrocyte layer and characterized with neuronal, synaptic, and glutamatergic markers. Their hyperactivity was used as an in vitro model feature. Task outcomes do not directly establish clinical efficacy in epilepsy."
+      ],
+      "cite": "Watmuff et al. (2025)",
+      "refs": [
+        "Watmuff B, Habibollahi F, Desouza C, Khajehnejad M, Loeffler A, Baranes K, Poulin N, Kotter M, Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/drug_cells.png",
+        "kind": "article",
+        "caption": "Watmuff et al. (2025), Fig. 1(b). Neuronal, synaptic, and glutamatergic markers in NGN2 cultures.",
+        "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+      }
+    },
+    {
+      "title": "Carbamazepine reduces firing with increasing dose",
+      "body": [
+        "**Carbamazepine** is an anti-seizure medication associated with reduced sodium-channel-dependent repetitive firing. Watmuff and colleagues examined its effects in hyperactive NGN2-derived neuronal cultures before relating activity to task output.",
+        "Increasing carbamazepine concentration reduced mean firing rate after a 1 h treatment. At 200 µM, the reported reduction was clear in the tested preparation. A **dose response** is a relationship between the amount of an intervention and the measured biological effect; µM specifies micromoles per liter of solution.",
+        "The result connects a channel-related pharmacological intervention with population activity. Reducing repetitive firing changes the signals available to the electrode decoder and the network responding to stimulation. The study then measured gameplay independently, allowing the consequences of activity suppression for useful output to be evaluated instead of assuming that lower firing must either help or impair performance."
+      ],
+      "transcript": [
+        "Carbamazepine is an anti-seizure medication associated with reduced sodium-channel-dependent repetitive firing. Watmuff and colleagues examined its effects in hyperactive NGN2-derived neuronal cultures before relating activity to task output.",
+        "Increasing carbamazepine concentration reduced mean firing rate after a 1 h treatment. At 200 µM, the reported reduction was clear in the tested preparation. A dose response is a relationship between the amount of an intervention and the measured biological effect; µM specifies micromoles per liter of solution.",
+        "The result connects a channel-related pharmacological intervention with population activity. Reducing repetitive firing changes the signals available to the electrode decoder and the network responding to stimulation. The study then measured gameplay independently, allowing the consequences of activity suppression for useful output to be evaluated instead of assuming that lower firing must either help or impair performance.",
+        "The source discusses sodium-channel mechanisms as drug pharmacology; it did not record channel gating directly in this assay. Phenytoin and perampanel were also tested. The doses and outcomes refer to the in vitro preparation."
+      ],
+      "cite": "Watmuff et al. (2025)",
+      "refs": [
+        "Watmuff B, Habibollahi F, Desouza C, Khajehnejad M, Loeffler A, Baranes K, Poulin N, Kotter M, Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/drug_firing.png",
+          "kind": "article",
+          "caption": "Watmuff et al. (2025), Fig. 1(c–e). Activity and carbamazepine concentration-dependent firing changes.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        },
+        {
+          "path": "figures/drug_cells.png",
+          "kind": "article",
+          "caption": "Watmuff et al. (2025), Fig. 1(b). Neuronal, synaptic, and glutamatergic markers in NGN2 cultures.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+        }
+      ],
+      "primary_figure_height": 2.25
+    },
+    {
+      "title": "Drug effects require firing and gameplay readouts",
+      "body": [
+        "The drug study quantified rally length, the ratio of hits to misses, and the proportion of games ending in an immediate miss. These task measurements were compared with spontaneous firing and stimulated-network activity under the same pharmacological conditions.",
+        "Carbamazepine at 200 µM improved the reported gameplay metrics and produced a within-session increase in average rally length. Other tested treatments did not reproduce the same pattern of improved performance, even though electrophysiological measurements captured compound-dependent changes.",
+        "The result connects attenuation of dysregulated activity with improved output in this particular preparation. It also makes task performance a separate experimental endpoint from firing suppression. A neural interface can therefore reveal whether a pharmacological change permits more effective use of incoming information, rather than treating one activity measurement as a complete measure of biological function."
+      ],
+      "transcript": [
+        "The drug study quantified rally length, the ratio of hits to misses, and the proportion of games ending in an immediate miss. These task measurements were compared with spontaneous firing and stimulated-network activity under the same pharmacological conditions.",
+        "Carbamazepine at 200 µM improved the reported gameplay metrics and produced a within-session increase in average rally length. Other tested treatments did not reproduce the same pattern of improved performance, even though electrophysiological measurements captured compound-dependent changes.",
+        "The result connects attenuation of dysregulated activity with improved output in this particular preparation. It also makes task performance a separate experimental endpoint from firing suppression. A neural interface can therefore reveal whether a pharmacological change permits more effective use of incoming information, rather than treating one activity measurement as a complete measure of biological function.",
+        "The sessions were 15 min long, with performance evaluated across their first and second halves. The source tested multiple drug concentrations and compared untreated cultures. These observations do not establish a clinical therapeutic dose."
+      ],
+      "cite": "Watmuff et al. (2025)",
+      "refs": [
+        "Watmuff B, Habibollahi F, Desouza C, Khajehnejad M, Loeffler A, Baranes K, Poulin N, Kotter M, Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/drug_performance.png",
+        "kind": "article",
+        "caption": "Watmuff et al. (2025), Fig. 3(g–i). Drug and dose effects on Pong performance metrics.",
+        "source_url": "https://doi.org/10.1038/s42003-025-08194-6"
+      }
+    },
+    {
+      "title": "Neural organoids contain synaptic and receptor machinery",
+      "body": [
+        "Alam El Din and colleagues examined the cellular components supporting activity-dependent changes in human neural organoids. Their preparations were differentiated from induced-pluripotent-cell-derived neural progenitors and followed across developmental weeks.",
+        "The tissues contained presynaptic synaptophysin and postsynaptic HOMER1 labeling, together with expression of glutamatergic and GABAergic receptors. **Synaptophysin** is associated with presynaptic vesicles, while **HOMER1** is a postsynaptic scaffolding protein. The study examined these features alongside neural and glial markers.",
+        "The measurements locate candidate machinery for communication within developing three-dimensional tissue. Components on the sending and receiving sides of a synapse connect cell identity with possible signaling routes. Functional experiments then tested responses to chemical and electrical interventions, joining molecular and anatomical observations with changes in recorded network activity rather than treating marker presence as proof of learned behavior."
+      ],
+      "transcript": [
+        "Alam El Din and colleagues examined the cellular components supporting activity-dependent changes in human neural organoids. Their preparations were differentiated from induced-pluripotent-cell-derived neural progenitors and followed across developmental weeks.",
+        "The tissues contained presynaptic synaptophysin and postsynaptic HOMER1 labeling, together with expression of glutamatergic and GABAergic receptors. Synaptophysin is associated with presynaptic vesicles, while HOMER1 is a postsynaptic scaffolding protein. The study examined these features alongside neural and glial markers.",
+        "The measurements locate candidate machinery for communication within developing three-dimensional tissue. Components on the sending and receiving sides of a synapse connect cell identity with possible signaling routes. Functional experiments then tested responses to chemical and electrical interventions, joining molecular and anatomical observations with changes in recorded network activity rather than treating marker presence as proof of learned behavior.",
+        "The paper compared organoids at different developmental times, including weeks 8 and 12. This was a neural-organoid study with Cortical Labs collaborators, not the original planar DishBrain preparation. Its learning-related measurements concern molecular responses and plasticity."
+      ],
+      "cite": "Alam El Din et al. (2025)",
+      "refs": [
+        "Alam El Din DM, Moenkemoeller L, Loeffler A, Habibollahi F, Schenkman J, Mitra A, van der Molen T, Ding L, Laird J, Schenke M, Johnson EC, Kagan BJ, Hartung T, Smirnova L (2025). Human neural organoid microphysiological systems show the building blocks necessary for basic learning and memory. Communications Biology 8:1237. https://doi.org/10.1038/s42003-025-08632-5"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/learning_synapses.png",
+        "kind": "article",
+        "caption": "Alam El Din et al. (2025), Fig. 2(a–b). Pre- and postsynaptic markers in developing neural organoids.",
+        "source_url": "https://doi.org/10.1038/s42003-025-08632-5"
+      }
+    },
+    {
+      "title": "Chemical modulation recruits activity-responsive genes",
+      "body": [
+        "**Immediate early genes** are genes whose expression can change rapidly after cellular stimulation. Alam El Din and colleagues measured activity-responsive genes in neural organoids after pharmacological modulation, connecting altered transmission with a molecular response.",
+        "The study measured genes including ARC, FOS, BDNF, and NPAS4 after interventions affecting neuronal activity. For example, 4-aminopyridine blocks potassium-channel-dependent repolarization and can increase excitability, while bicuculline reduces GABA-A receptor-mediated inhibition. Gene expression was measured 2 h after exposure.",
+        "These changes connect electrical and synaptic state with transcription inside the cells. They supply a molecular level of activity-dependent response alongside electrode recordings. Different genes responded differently across age and treatment conditions, so the biological outcome was a pattern of regulated responses rather than one universal increase in every marker associated with plasticity."
+      ],
+      "transcript": [
+        "Immediate early genes are genes whose expression can change rapidly after cellular stimulation. Alam El Din and colleagues measured activity-responsive genes in neural organoids after pharmacological modulation, connecting altered transmission with a molecular response.",
+        "The study measured genes including ARC, FOS, BDNF, and NPAS4 after interventions affecting neuronal activity. For example, 4-aminopyridine blocks potassium-channel-dependent repolarization and can increase excitability, while bicuculline reduces GABA-A receptor-mediated inhibition. Gene expression was measured 2 h after exposure.",
+        "These changes connect electrical and synaptic state with transcription inside the cells. They supply a molecular level of activity-dependent response alongside electrode recordings. Different genes responded differently across age and treatment conditions, so the biological outcome was a pattern of regulated responses rather than one universal increase in every marker associated with plasticity.",
+        "ARC participates in activity-dependent synaptic regulation, and BDNF is a neurotrophic signaling factor. The source also examined glutamate-receptor blockade. Gene-expression changes are molecular responses, not a direct measurement of an organoid remembering a behavioral event."
+      ],
+      "cite": "Alam El Din et al. (2025)",
+      "refs": [
+        "Alam El Din DM, Moenkemoeller L, Loeffler A, Habibollahi F, Schenkman J, Mitra A, van der Molen T, Ding L, Laird J, Schenke M, Johnson EC, Kagan BJ, Hartung T, Smirnova L (2025). Human neural organoid microphysiological systems show the building blocks necessary for basic learning and memory. Communications Biology 8:1237. https://doi.org/10.1038/s42003-025-08632-5"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/learning_genes.png",
+          "kind": "article",
+          "caption": "Alam El Din et al. (2025), Fig. 6(a–b). Activity-modulated immediate early and plasticity-related gene expression.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08632-5"
+        },
+        {
+          "path": "figures/learning_synapses.png",
+          "kind": "article",
+          "caption": "Alam El Din et al. (2025), Fig. 2(a–b). Pre- and postsynaptic markers in developing neural organoids.",
+          "source_url": "https://doi.org/10.1038/s42003-025-08632-5"
+        }
+      ],
+      "primary_figure_height": 3.1
+    },
+    {
+      "title": "Input-specific stimulation produces short-term potentiation",
+      "body": [
+        "**Potentiation** is an increase in a measured neural response after an intervention. Alam El Din and colleagues used theta-burst stimulation to ask whether neural organoids could increase responses following structured input to a selected neuronal footprint.",
+        "The protocol used brief pulse trains and delivered four stimulation sets separated by 13 min. A **neuronal footprint** is the spatial pattern of extracellular signals associated with an identified unit across the array. Recorded responses were compared with baseline and with a glutamate-receptor-blocked condition.",
+        "Some organoid wells showed increased evoked activity, active area, and spikes after stimulation, while low-baseline wells showed little response. The result connects input-specific electrical activation with subsequent responsiveness. The preparation’s initial activity and connectivity influenced whether stimulation recruited a larger responding network, making baseline state part of the plasticity experiment rather than a dispensable preliminary measurement."
+      ],
+      "transcript": [
+        "Potentiation is an increase in a measured neural response after an intervention. Alam El Din and colleagues used theta-burst stimulation to ask whether neural organoids could increase responses following structured input to a selected neuronal footprint.",
+        "The protocol used brief pulse trains and delivered four stimulation sets separated by 13 min. A neuronal footprint is the spatial pattern of extracellular signals associated with an identified unit across the array. Recorded responses were compared with baseline and with a glutamate-receptor-blocked condition.",
+        "Some organoid wells showed increased evoked activity, active area, and spikes after stimulation, while low-baseline wells showed little response. The result connects input-specific electrical activation with subsequent responsiveness. The preparation’s initial activity and connectivity influenced whether stimulation recruited a larger responding network, making baseline state part of the plasticity experiment rather than a dispensable preliminary measurement.",
+        "The source used 100 µs pulse phases and 800 mV amplitude in its stimulation protocol. These are hardware stimulation parameters, not intracellular membrane voltages. Glutamate-receptor antagonists NBQX and AP5 supplied a comparison for synaptic response dependence."
+      ],
+      "cite": "Alam El Din et al. (2025)",
+      "refs": [
+        "Alam El Din DM, Moenkemoeller L, Loeffler A, Habibollahi F, Schenkman J, Mitra A, van der Molen T, Ding L, Laird J, Schenke M, Johnson EC, Kagan BJ, Hartung T, Smirnova L (2025). Human neural organoid microphysiological systems show the building blocks necessary for basic learning and memory. Communications Biology 8:1237. https://doi.org/10.1038/s42003-025-08632-5"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/learning_tbs.png",
+        "kind": "article",
+        "caption": "Alam El Din et al. (2025), Fig. 7(a–e). Input-specific stimulation, evoked activity, and potentiation across organoid wells.",
+        "source_url": "https://doi.org/10.1038/s42003-025-08632-5"
+      }
+    },
+    {
+      "title": "Local persistent changes can differ from network averages",
+      "body": [
+        "Short-term stimulation increased the number of inferred network nodes and connections in responsive organoid wells. **Functional connectivity** describes relationships inferred from recorded activity; it does not directly count anatomical synapses between cells.",
+        "The researchers also followed identified units for 60–180 min after stimulation. Individual units showed persistent increases or decreases in firing, interpreted as potentiation or depression, while overall network-level firing and several connectivity measures lacked consistent long-term shifts.",
+        "Local changes can therefore persist without a uniform change in the population average. Increased activity in some units and decreased activity in others can coexist inside the same preparation. The distinction connects the scale of measurement with the biological conclusion: these organoids contained input-dependent plasticity-related responses, while their tested network aggregates followed a different temporal pattern from individual units."
+      ],
+      "transcript": [
+        "Short-term stimulation increased the number of inferred network nodes and connections in responsive organoid wells. Functional connectivity describes relationships inferred from recorded activity; it does not directly count anatomical synapses between cells.",
+        "The researchers also followed identified units for 60–180 min after stimulation. Individual units showed persistent increases or decreases in firing, interpreted as potentiation or depression, while overall network-level firing and several connectivity measures lacked consistent long-term shifts.",
+        "Local changes can therefore persist without a uniform change in the population average. Increased activity in some units and decreased activity in others can coexist inside the same preparation. The distinction connects the scale of measurement with the biological conclusion: these organoids contained input-dependent plasticity-related responses, while their tested network aggregates followed a different temporal pattern from individual units.",
+        "The displayed main-paper connectivity panels show the short-term changes; the source supplement reports the persistent unit-level responses. Depression means a reduced response after stimulation. Neither endpoint by itself establishes learned task behavior or conscious experience."
+      ],
+      "cite": "Alam El Din et al. (2025)",
+      "refs": [
+        "Alam El Din DM, Moenkemoeller L, Loeffler A, Habibollahi F, Schenkman J, Mitra A, van der Molen T, Ding L, Laird J, Schenke M, Johnson EC, Kagan BJ, Hartung T, Smirnova L (2025). Human neural organoid microphysiological systems show the building blocks necessary for basic learning and memory. Communications Biology 8:1237. https://doi.org/10.1038/s42003-025-08632-5"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/learning_connectivity.png",
+        "kind": "article",
+        "caption": "Alam El Din et al. (2025), Fig. 8(a–d). Network connectivity, criticality, and persistent potentiation or depression of neuronal units.",
+        "source_url": "https://doi.org/10.1038/s42003-025-08632-5"
+      }
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Reprogramming",
+        "text": "Oct3/4, Sox2, Klf4, and c-Myc induce pluripotency; neural differentiation is a subsequent process."
+      },
+      {
+        "lead": "Preparation",
+        "text": "Planar cortical cultures and three-dimensional organoids differ in organization, cell composition, and developmental timing."
+      },
+      {
+        "lead": "Neural mechanisms",
+        "text": "Sodium-channel-dependent spikes and glutamatergic transmission support network events; GABAergic signaling shapes their temporal structure."
+      },
+      {
+        "lead": "Contingent learning",
+        "text": "DishBrain maps ball state to stimulation and neural output to paddle movement; outcome feedback enables within-session adaptation."
+      },
+      {
+        "lead": "Population dynamics",
+        "text": "Criticality and firing magnitude are distinct from learned performance and must be measured alongside task outcomes."
+      },
+      {
+        "lead": "Functional interventions",
+        "text": "Drug treatment and input-specific stimulation can change useful output, local responsiveness, and network activity in different ways."
+      }
+    ],
+    "cite": "Takahashi & Yamanaka (2006); Kagan et al. (2022); Habibollahi et al. (2023); Watmuff et al. (2025)",
+    "refs": [
+      "Kagan BJ, Kitchen AC, Tran NT, Habibollahi F, Khajehnejad M, Parker BJ, Bhat A, Rollo B, Razi A, Friston KJ (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. Neuron 110:3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001",
+      "Bakkum DJ, Chao ZC, Potter SM (2008). Long-Term Activity-Dependent Plasticity of Action Potential Propagation Delay and Amplitude in Cortical Networks. PLoS ONE 3:e2088. https://doi.org/10.1371/journal.pone.0002088",
+      "Takahashi K, Yamanaka S (2006). Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures by Defined Factors. Cell 126:663-676. https://doi.org/10.1016/j.cell.2006.07.024",
+      "Takahashi K, Tanabe K, Ohnuki M, Narita M, Ichisaka T, Tomoda K, Yamanaka S (2007). Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors. Cell 131:861-872. https://doi.org/10.1016/j.cell.2007.11.019",
+      "Lancaster MA, Renner M, Martin CA, Wenzel D, Bicknell LS, Hurles ME, Homfray T, Penninger JM, Jackson AP, Knoblich JA (2013). Cerebral organoids model human brain development and microcephaly. Nature 501:373-379. https://doi.org/10.1038/nature12517",
+      "Trujillo CA, Gao R, Negraes PD, Gu J, Buchanan J, Preissl S, Wang A, Wu W, Haddad GG, Chaim IA, Domissy A, Vandenberghe M, Devor A, Yeo GW, Voytek B, Muotri AR (2019). Complex Oscillatory Waves Emerging from Cortical Organoids Model Early Human Brain Network Development. Cell Stem Cell 25:558-569.e7. https://doi.org/10.1016/j.stem.2019.08.002",
+      "Habibollahi F, Kagan BJ, Burkitt AN, French C (2023). Critical dynamics arise during structured information presentation within embodied in vitro neuronal networks. Nature Communications 14:5287. https://doi.org/10.1038/s41467-023-41020-3",
+      "Watmuff B, Habibollahi F, Desouza C, Khajehnejad M, Loeffler A, Baranes K, Poulin N, Kotter M, Kagan BJ (2025). Drug treatment alters performance in a neural microphysiological system of information processing. Communications Biology 8:916. https://doi.org/10.1038/s42003-025-08194-6",
+      "Alam El Din DM, Moenkemoeller L, Loeffler A, Habibollahi F, Schenkman J, Mitra A, van der Molen T, Ding L, Laird J, Schenke M, Johnson EC, Kagan BJ, Hartung T, Smirnova L (2025). Human neural organoid microphysiological systems show the building blocks necessary for basic learning and memory. Communications Biology 8:1237. https://doi.org/10.1038/s42003-025-08632-5"
+    ]
+  }
+}

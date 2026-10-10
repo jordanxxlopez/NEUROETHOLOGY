@@ -1,361 +1,368 @@
 {
   "lecture": 71,
-  "title": "Biocomputing I: Living neural networks, Yamanaka factors and cellular reprogramming, brain organoids, and biological learning — Cortical Labs, neural interfaces, and playing Pong",
-  "date": "Date TBD",
-  "status": "provisional; awaiting four required PDFs before final writing and figure selection",
-  "content_slides": 44,
-  "slides": [
+  "status": "final",
+  "content_slides": [
     {
       "slide": 2,
-      "provisional_title": "Cortical neurons self-organize into active networks",
-      "source": "networks",
-      "source_doi": "10.1186/1471-2202-7-11",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Living cortical cultures form interconnected networks",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 3,
-      "provisional_title": "Electrode arrays sample extracellular action potentials",
-      "source": "networks",
-      "source_doi": "10.1186/1471-2202-7-11",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Electrode arrays connect neural signals with electronics",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 4,
-      "provisional_title": "Network bursts recruit many recording sites",
-      "source": "networks",
-      "source_doi": "10.1186/1471-2202-7-11",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Network bursts coordinate spikes across recording sites",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 5,
-      "provisional_title": "Culture age changes the repertoire of bursting",
-      "source": "networks",
-      "source_doi": "10.1186/1471-2202-7-11",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Patterned activation can alter spike propagation timing",
+      "source_dois": [
+        "https://doi.org/10.1371/journal.pone.0002088"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 6,
-      "provisional_title": "Distributed activity contains reproducible spatial structure",
-      "source": "networks",
-      "source_doi": "10.1186/1471-2202-7-11",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Four factors can reprogram a fibroblast into an iPS cell",
+      "source_dois": [
+        "https://doi.org/10.1016/j.cell.2006.07.024"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 7,
-      "provisional_title": "Four transcription factors can reprogram fibroblasts",
-      "source": "mouse",
-      "source_doi": "10.1016/j.cell.2006.07.024",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Factor removal identifies a cooperative combination",
+      "source_dois": [
+        "https://doi.org/10.1016/j.cell.2006.07.024"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 8,
-      "provisional_title": "Oct4 and Sox2 alter transcriptional cell identity",
-      "source": "mouse",
-      "source_doi": "10.1016/j.cell.2006.07.024",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Reprogramming changes gene expression and methylation",
+      "source_dois": [
+        "https://doi.org/10.1016/j.cell.2006.07.024"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 9,
-      "provisional_title": "Klf4 and c-Myc contribute to reprogramming conditions",
-      "source": "mouse",
-      "source_doi": "10.1016/j.cell.2006.07.024",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Differentiation tests assess multiple developmental fates",
+      "source_dois": [
+        "https://doi.org/10.1016/j.cell.2006.07.024"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 10,
-      "provisional_title": "Factor removal identifies the minimal combination",
-      "source": "mouse",
-      "source_doi": "10.1016/j.cell.2006.07.024",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Adult human fibroblasts acquire pluripotent properties",
+      "source_dois": [
+        "https://doi.org/10.1016/j.cell.2007.11.019"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 11,
-      "provisional_title": "Reprogrammed colonies acquire stem-cell properties",
-      "source": "mouse",
-      "source_doi": "10.1016/j.cell.2006.07.024",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Endogenous expression supports a new cellular state",
+      "source_dois": [
+        "https://doi.org/10.1016/j.cell.2007.11.019"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 12,
-      "provisional_title": "Gene expression connects colonies with pluripotency",
-      "source": "mouse",
-      "source_doi": "10.1016/j.cell.2006.07.024",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Human reprogramming alters promoter methylation",
+      "source_dois": [
+        "https://doi.org/10.1016/j.cell.2007.11.019"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 13,
-      "provisional_title": "Differentiation tests reveal multiple cell lineages",
-      "source": "mouse",
-      "source_doi": "10.1016/j.cell.2006.07.024",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Directed differentiation produces human neural cells",
+      "source_dois": [
+        "https://doi.org/10.1016/j.cell.2007.11.019"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 14,
-      "provisional_title": "Adult human fibroblasts can become pluripotent",
-      "source": "human",
-      "source_doi": "10.1016/j.cell.2007.11.019",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Three-dimensional culture permits organoid organization",
+      "source_dois": [
+        "https://doi.org/10.1038/nature12517"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 15,
-      "provisional_title": "Human colonies express stem-cell-associated markers",
-      "source": "human",
-      "source_doi": "10.1016/j.cell.2007.11.019",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Ventricular zones contain proliferating progenitors",
+      "source_dois": [
+        "https://doi.org/10.1038/nature12517"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 16,
-      "provisional_title": "Promoter methylation changes during reprogramming",
-      "source": "human",
-      "source_doi": "10.1016/j.cell.2007.11.019",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Radial processes guide developing neurons",
+      "source_dois": [
+        "https://doi.org/10.1038/nature12517"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 17,
-      "provisional_title": "Reprogrammed cells retain their donor genome",
-      "source": "human",
-      "source_doi": "10.1016/j.cell.2007.11.019",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Regional markers identify heterogeneous neural tissue",
+      "source_dois": [
+        "https://doi.org/10.1038/nature12517"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 18,
-      "provisional_title": "Embryoid bodies generate differentiated tissues",
-      "source": "human",
-      "source_doi": "10.1016/j.cell.2007.11.019",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Organoid neurons show calcium responses and activity",
+      "source_dois": [
+        "https://doi.org/10.1038/nature12517"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 19,
-      "provisional_title": "Pluripotency makes donor-derived neural cultures possible",
-      "source": "human",
-      "source_doi": "10.1016/j.cell.2007.11.019",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Patient organoids reveal altered progenitor development",
+      "source_dois": [
+        "https://doi.org/10.1038/nature12517"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 20,
-      "provisional_title": "Three-dimensional cultures organize neural tissue",
-      "source": "organoid",
-      "source_doi": "10.1038/nature12517",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Organoid maturation adds excitatory and inhibitory cells",
+      "source_dois": [
+        "https://doi.org/10.1016/j.stem.2019.08.002",
+        "https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 21,
-      "provisional_title": "Matrix embedding permits neuroepithelial expansion",
-      "source": "organoid",
-      "source_doi": "10.1038/nature12517",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Glutamate receptor blockade suppresses network events",
+      "source_dois": [
+        "https://doi.org/10.1016/j.stem.2019.08.002",
+        "https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 22,
-      "provisional_title": "Ventricular zones contain proliferating progenitors",
-      "source": "organoid",
-      "source_doi": "10.1038/nature12517",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "GABAergic transmission shapes nested oscillations",
+      "source_dois": [
+        "https://doi.org/10.1016/j.stem.2019.08.002",
+        "https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 23,
-      "provisional_title": "Radial organization connects progenitors and neurons",
-      "source": "organoid",
-      "source_doi": "10.1038/nature12517",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Sodium-channel blockade abolishes organoid activity",
+      "source_dois": [
+        "https://doi.org/10.1016/j.stem.2019.08.002",
+        "https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 24,
-      "provisional_title": "Regional identities emerge within cerebral organoids",
-      "source": "organoid",
-      "source_doi": "10.1038/nature12517",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Developing network activity shares selected EEG features",
+      "source_dois": [
+        "https://doi.org/10.1016/j.stem.2019.08.002",
+        "https://doi.org/10.1016/j.stem.2019.08.002"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 25,
-      "provisional_title": "Cortical neurons exhibit physiological activity",
-      "source": "organoid",
-      "source_doi": "10.1038/nature12517",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "DishBrain uses distinct routes to active cortical cultures",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 26,
-      "provisional_title": "Patient-derived organoids model microcephaly",
-      "source": "organoid",
-      "source_doi": "10.1038/nature12517",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Culture preparation changes the time to robust activity",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001",
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 27,
-      "provisional_title": "Rescue experiments connect genotype with development",
-      "source": "organoid",
-      "source_doi": "10.1038/nature12517",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Place and rate codes convey the virtual ball position",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001",
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 28,
-      "provisional_title": "Long-term organoid culture develops active circuits",
-      "source": "oscillations",
-      "source_doi": "10.1016/j.stem.2019.08.002",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "A closed loop links neural output to subsequent input",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 29,
-      "provisional_title": "Electrophysiology resolves membrane and network activity",
-      "source": "oscillations",
-      "source_doi": "10.1016/j.stem.2019.08.002",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Motor-region activity determines paddle movement",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 30,
-      "provisional_title": "Glutamatergic excitation recruits local neurons",
-      "source": "oscillations",
-      "source_doi": "10.1016/j.stem.2019.08.002",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Hits and misses lead to different feedback patterns",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 31,
-      "provisional_title": "GABAergic signaling changes developing network dynamics",
-      "source": "oscillations",
-      "source_doi": "10.1016/j.stem.2019.08.002",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Mouse and human cultures improve during gameplay",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 32,
-      "provisional_title": "Periodic population events acquire complex structure",
-      "source": "oscillations",
-      "source_doi": "10.1016/j.stem.2019.08.002",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Control outputs separate learning from paddle movement",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 33,
-      "provisional_title": "Receptor blockade identifies contributions to oscillations",
-      "source": "oscillations",
-      "source_doi": "10.1016/j.stem.2019.08.002",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Sensory input without outcome feedback is insufficient",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001",
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 34,
-      "provisional_title": "Organoid activity can be compared with developmental EEG",
-      "source": "oscillations",
-      "source_doi": "10.1016/j.stem.2019.08.002",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Gameplay reorganizes motor-output relationships",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 35,
-      "provisional_title": "Repeated activation changes propagation timing",
-      "source": "plasticity",
-      "source_doi": "10.1371/journal.pone.0002088",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Firing magnitude alone does not explain task performance",
+      "source_dois": [
+        "https://doi.org/10.1016/j.neuron.2022.09.001"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 36,
-      "provisional_title": "Direct and synaptic responses follow different paths",
-      "source": "plasticity",
-      "source_doi": "10.1371/journal.pone.0002088",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Neuronal avalanches quantify propagating network activity",
+      "source_dois": [
+        "https://doi.org/10.1038/s41467-023-41020-3"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 37,
-      "provisional_title": "Persistent delay changes reshape neural signal arrival",
-      "source": "plasticity",
-      "source_doi": "10.1371/journal.pone.0002088",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Structured input shifts networks toward critical dynamics",
+      "source_dois": [
+        "https://doi.org/10.1038/s41467-023-41020-3"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 38,
-      "provisional_title": "Activity-dependent plasticity includes axonal properties",
-      "source": "plasticity",
-      "source_doi": "10.1371/journal.pone.0002088",
-      "pdf_available": true,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Criticality and feedback-dependent learning are distinct",
+      "source_dois": [
+        "https://doi.org/10.1038/s41467-023-41020-3"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 39,
-      "provisional_title": "Living neural cultures control a virtual paddle",
-      "source": "dishbrain",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "NGN2 cultures permit pharmacological tests during Pong",
+      "source_dois": [
+        "https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 40,
-      "provisional_title": "DishBrain couples stimulation and electrode recording",
-      "source": "dishbrain",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Carbamazepine reduces firing with increasing dose",
+      "source_dois": [
+        "https://doi.org/10.1038/s42003-025-08194-6",
+        "https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 41,
-      "provisional_title": "Sensory stimulation encodes the virtual ball position",
-      "source": "dishbrain",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Drug effects require firing and gameplay readouts",
+      "source_dois": [
+        "https://doi.org/10.1038/s42003-025-08194-6"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 42,
-      "provisional_title": "Recorded activity determines movement of the paddle",
-      "source": "dishbrain",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Neural organoids contain synaptic and receptor machinery",
+      "source_dois": [
+        "https://doi.org/10.1038/s42003-025-08632-5"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 43,
-      "provisional_title": "Feedback contingency changes game performance",
-      "source": "dishbrain",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Chemical modulation recruits activity-responsive genes",
+      "source_dois": [
+        "https://doi.org/10.1038/s42003-025-08632-5",
+        "https://doi.org/10.1038/s42003-025-08632-5"
+      ],
+      "layout": "figures-right"
     },
     {
       "slide": 44,
-      "provisional_title": "Control conditions distinguish feedback from stimulation",
-      "source": "dishbrain",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Input-specific stimulation produces short-term potentiation",
+      "source_dois": [
+        "https://doi.org/10.1038/s42003-025-08632-5"
+      ],
+      "layout": "figure-right"
     },
     {
       "slide": 45,
-      "provisional_title": "Biological adaptation joins neural tissue and software",
-      "source": "dishbrain",
-      "source_doi": "10.1016/j.neuron.2022.09.001",
-      "pdf_available": false,
-      "verification": "Full source and exact-panel review required before writing; allocation may change with source findings."
+      "title": "Local persistent changes can differ from network averages",
+      "source_dois": [
+        "https://doi.org/10.1038/s42003-025-08632-5"
+      ],
+      "layout": "figure-right"
     }
   ]
 }

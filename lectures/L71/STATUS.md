@@ -1,15 +1,13 @@
 # Lecture 71 status
 
-Paused for four required source PDFs listed in `PAPERS.md`. No PPTX has been built.
+Completed as `Neuroethology_Lecture71_FA2026.pptx` using the current connected repository default branch and `tools/build_lecture.py`.
 
-- Refreshed the connected repository from its current default branch. No ZIP or older checkout was used.
-- Recorded the exact instructor title in `course/schedule.json`; date is `Date TBD`. Its supplied em dash is preserved as part of the sacred title; content text must have no em dashes.
-- Performed web and scholarly-index searches; verified bibliographic metadata against Crossref.
-- Obtained three relevant full-paper PDFs: Wagenaar 2006, Bakkum 2008, and Trujillo 2019. Source hashes and download outcomes are recorded.
-- Checked publisher and repository routes for the remaining reprogramming, cerebral-organoid, and DishBrain papers; full PDFs remain unavailable.
-- Saved a provisional 44-content-slide source allocation in `plan.json`. Titles and scientific claims require full source review before writing.
-- `PROMPT.md` preserves the instructor's original-source-image rule, current teaching paragraphs, selective caveats, and no-em-dash rule.
-- Python PowerPoint/PDF libraries, LibreOffice, and Poppler are present. Existing Lecture 67 passes the repository checker in this environment.
-- Theme selection and registration await the completed deck.
+- Exact scheduled title and `Date TBD` preserved. The em dash in the sacred scheduled title is retained; content slides and takeaways contain none.
+- 46 slides: title, 44 content slides, and six exam-level key takeaways with bold lead phrases. Each content slide contains three teaching paragraphs, with a complete teaching transcript and full DOI references in speaker notes.
+- All 44 content slides carry original primary-paper figures. No images, diagrams, or plots were created, redrawn, recolored, or generated. Published panels that contain diagrams remain the authors’ original figures.
+- Nine primary papers include the original DishBrain study and three additional Cortical Labs-associated studies on criticality, drug response, and neural organoid plasticity. Claims distinguish planar DishBrain cultures from organoids and performance from consciousness.
+- Scholarly and web searches, source metadata, PDF provenance, and exact panel crops are saved. All requested source PDFs have been received.
+- New iron blue / chalk white theme, Arial throughout. Title uses a 21 pt lower fit bound to keep its full long wording and the instructor attribution inside the slide. The builder’s new optional `title_min_pt` leaves existing decks’ default at 22 pt.
+- Automated validation and visual review results are recorded in `qa.json`.
 
-After the four PDFs are supplied, verify the papers and panels, write the teaching paragraphs and notes, crop original figures, build with `tools/build_lecture.py`, inspect every rendered slide, and deliver the PPTX. Require at least 40 image content slides and 34 primary article figure slides, with original color on at least half the image slides. Do not interpret improved task performance as proof of consciousness or invent neural mechanisms not measured by the cited experiments.
+Rebuild: `python lectures/L71/write_spec.py` then `python tools/build_lecture.py lectures/L71/lecture.json`. With source PDFs available, regenerate original panels using `python lectures/L71/prepare_figures.py` and `python tools/crop_panels.py lectures/L71/crops.json`.
