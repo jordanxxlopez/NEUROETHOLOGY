@@ -1,0 +1,83 @@
+{
+  "embedded": [
+    {
+      "slide": 39,
+      "paper": "elephants",
+      "path": "media/elephant_s1.mp4",
+      "doi": "https://doi.org/10.1038/s41598-025-01067-2",
+      "identifier": "Video S1",
+      "original_filename": "41598_2025_1067_MOESM1_ESM.mp4",
+      "original_media_url": "https://e.video-cdn.net/watch?video-id=ATF6ctzE3Nw7x_Y7tDNfCZ&player-id=-qZL2aSgACrhe2fEUstC_v&channel-id=86512",
+      "article_media_anchor": "https://www.nature.com/articles/s41598-025-01067-2#MOESM1",
+      "caption": "Cordoni et al. (2025), Video S1. Trunk and head matching during play.",
+      "credit": "Cordoni, Hecker, Crippa, Gallego Aldama, Borragán Santos and Norscia",
+      "license": "Article CC BY 4.0; no separate movie license stated on the article player",
+      "sha256": "36d483da9f38de57771baed0bf2dea5144ccf67c1c392190a3acafc079d3bbc9",
+      "duration_seconds": 11.84,
+      "codec": "H.264",
+      "resolution": [
+        1280,
+        720
+      ],
+      "modifications": "None. Original publisher-hosted MP4. Poster is an unedited frame at 2 seconds.",
+      "teaching_note": "The recording shows elephant partners exchanging playful trunk and head movements. Track the actor’s movement and the partner’s rapidly repeated action; movement timing is the behavioral basis for the study’s comparison with matched control periods. The clip illustrates a measured motor sequence rather than direct tickling.",
+      "playback_validation": "Complete decode validated; PPTX bytes and relationships checked; interactive PowerPoint playback not tested."
+    }
+  ],
+  "checked_papers": {
+    "somatosensory": "Article and available supplementary-material listings inspected",
+    "pag": "Article and available supplementary-material listings inspected",
+    "apes": "Article and available supplementary-material listings inspected",
+    "classic": "Article and available supplementary-material listings inspected",
+    "mice_hamsters": "Article and available supplementary-material listings inspected",
+    "bonobo_tickling": "Article and available supplementary-material listings inspected",
+    "dog_horse": "Article and available supplementary-material listings inspected",
+    "dolphins": "Article and available supplementary-material listings inspected",
+    "kea": "Article and available supplementary-material listings inspected",
+    "dogs": "Article and available supplementary-material listings inspected",
+    "wolves": "Article and available supplementary-material listings inspected",
+    "elephants": "Article and available supplementary-material listings inspected",
+    "bonobo_optimism": "Article and available supplementary-material listings inspected"
+  },
+  "unavailable_useful_recordings": [
+    {
+      "paper": "bonobo_tickling",
+      "identifier": "Supplementary Video: AJP-87-e23723-s003.mov",
+      "original_article_media_link": "https://onlinelibrary.wiley.com/doi/suppl/10.1002/ajp.23723/supinfo/AJP-87-e23723-s003.mov",
+      "status": "Publisher blocked; PMC CDN returned 404; Europe PMC supplementary archive stalled"
+    },
+    {
+      "paper": "dolphins",
+      "identifier": "Videos S1–S6",
+      "original_article_media_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519433/#mmc6",
+      "status": "Publisher media returned 403; PMC CDN returned 404; Europe PMC archive stalled"
+    },
+    {
+      "paper": "mice_hamsters",
+      "identifier": "Supplementary Videos 1–9",
+      "original_article_media_link": "https://doi.org/10.1016/j.bbr.2025.115849",
+      "status": "Publisher article and media routes blocked"
+    },
+    {
+      "paper": "kea",
+      "identifier": "Supplemental Movie",
+      "original_article_media_link": "https://doi.org/10.1016/j.cub.2017.02.020",
+      "status": "Publisher article and media routes blocked"
+    },
+    {
+      "paper": "somatosensory",
+      "identifier": "Movies S1–S3",
+      "original_article_media_link": "https://www.science.org/doi/suppl/10.1126/science.aah5114",
+      "status": "Publisher supplementary source inaccessible"
+    }
+  ],
+  "excluded": {
+    "dog_horse": "The article’s external YouTube recordings are excluded by the current repository rule",
+    "classic": "No article-provided movie identified",
+    "apes": "No article-provided movie identified",
+    "dogs": "Supplement lists data tables, no useful downloadable study movie identified",
+    "wolves": "Video database described but no downloadable supplemental recording identified",
+    "bonobo_optimism": "Decision recordings described but no useful downloadable article movie identified",
+    "pag": "Behavioral recordings referred to earlier article; current relevant recordings inaccessible"
+  }
+}

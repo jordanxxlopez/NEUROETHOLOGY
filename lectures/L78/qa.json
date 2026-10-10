@@ -1,30 +1,57 @@
 {
   "lecture": 78,
   "status": "complete",
-  "checked_at": "2026-10-10T20:21:21.248588+00:00",
+  "checked_at": "2026-10-10T21:01:30.053276+00:00",
   "slides": 46,
   "content_slides": 44,
   "article_figure_slides": 44,
-  "color_image_slides": 32,
-  "primary_papers": 7,
-  "unique_article_crops": 48,
-  "unchanged_credited_atlas_images": 1,
-  "atlas_slide_uses": 5,
+  "color_image_slides": 22,
+  "primary_papers": 13,
+  "unique_article_crops": 43,
+  "web_images": 0,
+  "animal_groups": [
+    "rats",
+    "tame and unselected mice",
+    "golden hamsters",
+    "orangutans",
+    "gorillas",
+    "chimpanzees",
+    "bonobos",
+    "humans",
+    "dogs",
+    "wolves",
+    "horses",
+    "bottlenose dolphins",
+    "African savanna elephants",
+    "kea"
+  ],
+  "rat_focused_content_slides": [
+    4,
+    5,
+    6
+  ],
   "checker_failures": 0,
   "checker_warnings": 0,
   "body_paragraphs_per_content_slide": 3,
   "body_word_count_range": [
-    111,
-    135
+    113,
+    132
   ],
-  "speaker_notes": "Teaching transcripts and full DOI references on all content slides",
-  "visual_review": "All 46 rendered slides reviewed; final revised crops and captions rechecked. No body/footer collisions.",
+  "speaker_notes": "Teaching transcripts and full DOI references on every content slide",
+  "visual_review": "All 46 final rendered slides reviewed; complete source axes, units, legends and panel labels; no body/footer collisions",
   "em_dashes_in_slide_text": 0,
-  "theme": "smoke-rose-paper",
+  "theme": "umber-stone-paper",
   "title": "Tickling across species: play, positive affect, and laughter-like vocalizations in animals",
   "date": "Date TBD",
-  "pptx_sha256": "53b6d97348694c683b1928cea6e5108273a3a2caab02a881400f0954f216ceec",
+  "pptx_sha256": "c71b69cdd680887819a51b383debba2f66e98e52f2fe62c3fc0d6faee8557acc",
   "rendered_pdf_pages": 46,
-  "images": "Unchanged article crops plus a credited original Allen Mouse Brain Atlas plate; no generated, redrawn, or recolored images",
-  "outstanding_pdfs": []
+  "images": "Unchanged primary-article PDF crops only; no generated, redrawn or recolored images",
+  "outstanding_pdfs": [],
+  "embedded_article_videos": 1,
+  "video_slides": [
+    39
+  ],
+  "video_validation": "H.264 MP4 fully decoded; embedded bytes and slide relationships verified; interactive PowerPoint playback not tested",
+  "poster": "Unedited frame from the article-provided recording; published static figure retained",
+  "authoritative_default_head": "de8ce008c19fa2726b6bf9ab3a2eb564a3e06335"
 }
