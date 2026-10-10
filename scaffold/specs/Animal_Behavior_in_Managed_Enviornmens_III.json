@@ -1,0 +1,968 @@
+{
+ "input": "scaffold/input/Animal_Behavior_in_Managed_Enviornmens_III.pptx",
+ "output": "scaffold/output/Animal_Behavior_in_Managed_Enviornmens_III_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "corticosterone",
+  "thyroxine",
+  "turtle",
+  "turtles",
+  "possum",
+  "possums",
+  "seal",
+  "seals",
+  "pup",
+  "pups",
+  "sea",
+  "lion",
+  "lions",
+  "hippocampus",
+  "hippocampal",
+  "EEG",
+  "glucocorticoid",
+  "glucocorticoids",
+  "fecal",
+  "metabolites",
+  "assay",
+  "enrichment",
+  "anticipatory",
+  "rehabilitation",
+  "release",
+  "released",
+  "survival",
+  "fox",
+  "foxes",
+  "training",
+  "monkeys",
+  "woolly",
+  "satellite",
+  "range",
+  "home",
+  "ACTH",
+  "domoic",
+  "acid",
+  "Hunt",
+  "Cope",
+  "Wilson",
+  "Alger",
+  "Chudeau",
+  "Cook",
+  "Williams",
+  "Corsetti",
+  "Gómez",
+  "Muñoz",
+  "Robinson",
+  "transport",
+  "stress",
+  "hormone",
+  "care"
+ ],
+ "new_slides": [
+  {
+   "after": 4,
+   "footer_number": "04a",
+   "template_slide": 4,
+   "title": "Brief stress surges help; lingering ones stall growth",
+   "body": [
+    "Corticosterone reallocates energy during an emergency. It raises available fuel through **gluconeogenesis**, the liver's production of glucose from noncarbohydrate sources, and through fat release, while temporarily suppressing costly processes such as growth and digestion.",
+    "Duration matters more than peak size. Concentrations peaked around day 3, far above the presumed-normal range, without predicting death; a milder elevation persisting to day 18 did predict it, matching the vertebrate pattern in which sustained exposure carries the long-term costs.",
+    "Elsewhere in vertebrates, sustained corticosterone suppresses growth hormone, insulin-like growth factor 1 and thyroid activity, fitting the paired high-corticosterone, low-thyroxine profile. The turtle data remain correlational: poor clinical condition could raise corticosterone and slow growth independently."
+   ],
+   "figure": {
+    "from_slide": 4,
+    "picture": "Picture 3",
+    "caption": "Hunt et al. (2025), Fig. 4. Day-18 hormones and later mass gain."
+   },
+   "cite": "Hunt et al. (2025)",
+   "moves": [
+    "mechanism",
+    "distinction",
+    "integration",
+    "method_logic"
+   ],
+   "integrates": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0325265"
+   ],
+   "transcript": [
+    "Slides 02 to 05 report that persistent corticosterone, low thyroxine, poor feeding and slow mass gain travel together in cold-stunned Kemp's ridleys; the physiology of the glucocorticoid stress response explains why a hormone that rescues an animal in the short term can hold back its recovery later.",
+    [
+     "The acute response is adaptive.",
+     [
+      "Hunt and colleagues describe corticosterone as coordinating a systemic stress response that increases fuel availability, alters behavior and suspends nonessential processes such as growth and digestion.",
+      "During stranding and rewarming, those effects keep glucose available to tissues while the turtle cannot feed."
+     ]
+    ],
+    [
+     "The surprising result was the day-3 peak.",
+     [
+      "Corticosterone rose further after admission, probably as turtles warmed and became alert to an unfamiliar clinical environment, but survivors and non-survivors could not be separated by those enormous early values.",
+      "What separated them on slide 03 was the moderate concentration still present at day 18, after most turtles had settled below about 5 ng/mL."
+     ]
+    ],
+    [
+     "Growth links the hormone to life after release.",
+     [
+      "Even within the presumed-normal range, turtles at the higher end gained mass more slowly, which led the authors to argue that normal is not necessarily optimal.",
+      "Their predation argument on slide 04 rests on gape-limited marine predators, which preferentially take prey small enough to swallow, so a juvenile that grows slowly stays vulnerable for longer."
+     ]
+    ],
+    [
+     "Causation is still open.",
+     [
+      "The study could not induce cold-stunning or give corticosterone experimentally, so a sick turtle could have high hormone and low growth for a shared underlying reason.",
+      "Controlled experiments in other vertebrates supply the mechanism, while the turtle cohort supplies the clinical association."
+     ]
+    ]
+   ],
+   "refs": [
+    "Hunt KE, Burgess EA, Merigo C, Kennedy AE, Dillon D, Buck CL, Treloar J, Graham K, Chambers S, Tinuviel T, Rolland RM, Innis C (2025). Relationships of corticosterone and thyroxine with mortality, mass gain, feeding and activity in Kemp's ridley sea turtles (Lepidochelys kempii) recovering from cold-stunning. PLOS ONE 20: e0325265. https://doi.org/10.1371/journal.pone.0325265"
+   ],
+   "paper_numbers": {
+    "5": "Hunt et al. 2025, Discussion: presumed-normal corticosterone below 5 ng/mL"
+   }
+  },
+  {
+   "after": 6,
+   "footer_number": "06a",
+   "template_slide": 7,
+   "title": "ACTH challenges test whether an assay sees secretion",
+   "body": [
+    "The stress cascade begins in the brain: the hypothalamus releases corticotropin-releasing hormone, the anterior pituitary responds with ACTH, and ACTH drives adrenal glucocorticoid secretion. The liver and gut then convert those hormones into a mixture of metabolites before excretion.",
+    "Injecting ACTH switches on the final step at a known moment. An assay that then registers a clear rise tracks adrenal output; a flat assay is unusable, since a flat profile in a rehabilitating possum could mean a calm animal or an antibody blind to possum metabolites.",
+    "The 72a assay is **group-specific**: its antibody binds a family of related metabolites rather than one hormone, yielding a stronger signal from mixed breakdown products. A separate check, **parallelism**, confirmed that diluted possum extracts behaved like the assay's standards, so other fecal substances were not distorting binding."
+   ],
+   "figure": {
+    "from_slide": 7,
+    "picture": "Picture 3",
+    "caption": "Cope et al. (2022), Fig. 2. Fecal hormone responses following an ACTH challenge."
+   },
+   "cite": "Cope et al. (2022)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "mechanism",
+    "integration"
+   ],
+   "integrates": [
+    6,
+    7,
+    8
+   ],
+   "cited_papers_used": [
+    "10.3390/ani12131627"
+   ],
+   "transcript": [
+    "Slides 06 and 07 compare assays after an ACTH injection; the logic of that comparison comes from the hypothalamic-pituitary-adrenal axis and from what an antibody can and cannot recognize.",
+    [
+     "The challenge bypasses the brain but not the adrenal gland.",
+     [
+      "Synthetic ACTH acts directly on the adrenal cortex, so it produces a glucocorticoid surge whether or not the possum perceives anything as threatening.",
+      "That gives the investigators a known input against which each assay's output can be judged."
+     ]
+    ],
+    [
+     "Metabolism explains why blood assays do not transfer automatically.",
+     [
+      "Cope and colleagues describe circulating glucocorticoids being converted in the liver and gut into a range of molecules, and which molecules dominate differs among species.",
+      "An antibody raised against intact cortisol or corticosterone may bind only a minor fraction of those products, which is why four of the five assays gave weaker or less consistent responses."
+     ]
+    ],
+    [
+     "Two kinds of validation answer different questions.",
+     [
+      "Parallelism is an analytical check: if the extract is diluted step by step, measured values should fall in proportion, as the standards do.",
+      "The ACTH response is a biological check: the measured signal must rise when adrenal secretion rises, which is the property needed to interpret the care events on slide 08."
+     ]
+    ]
+   ],
+   "refs": [
+    "Cope HR, Keeley T, Keong J, Smith D, Silva FRO, McArthur C, Webster KN, Mella VSA, Herbert CA (2022). Validation of an Enzyme Immunoassay to Measure Faecal Glucocorticoid Metabolites in Common Brushtail Possums (Trichosurus vulpecula) to Evaluate Responses to Rehabilitation. Animals 12: 1627. https://doi.org/10.3390/ani12131627"
+   ]
+  },
+  {
+   "after": 8,
+   "footer_number": "08a",
+   "template_slide": 8,
+   "title": "A missing hormone peak does not mean no stress",
+   "body": [
+    "Peaks were defined against each animal's own profile: repeated calculation removed unusually high values until the remaining samples formed a stable baseline, and only values well above that baseline counted as responses. The five-day window after each event came from the excretion delay measured in the ACTH challenge.",
+    "Several processes can hide a real response. Sampling less often than daily can miss a peak present in a single scat. Illness before rescue may already raise an animal's baseline, shrinking the apparent change. Prolonged stress can blunt the adrenal response, and some chronically stressed animals show abnormally low glucocorticoids.",
+    "A response can also be genuinely absent when an animal does not perceive an event as threatening, which depends on temperament and prior experience. The increases that did occur were transient and returned to baseline, so the data gave no sign that care itself produced sustained elevation in these possums."
+   ],
+   "figure": {
+    "from_slide": 8,
+    "picture": "Picture 3",
+    "caption": "Cope et al. (2022), Fig. 4. Fecal hormone trajectories and recorded care events."
+   },
+   "cite": "Cope et al. (2022)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    6,
+    7,
+    8
+   ],
+   "cited_papers_used": [
+    "10.3390/ani12131627"
+   ],
+   "transcript": [
+    "Slide 08 reports that roughly half of the recorded care events were followed by a hormone peak; interpreting the other half requires separating a missed or masked response from a true absence of stress.",
+    [
+     "The baseline method makes each possum its own control.",
+     [
+      "Cope and colleagues used an iterative procedure that repeatedly discarded the highest values and recalculated until only baseline samples remained, so a possum with naturally high metabolites was not mistaken for a stressed one.",
+      "The window for counting a peak was borrowed from the lag on slide 07, which links the validation study directly to the monitoring of animals in care."
+     ]
+    ],
+    [
+     "Measurement limits explain some missing peaks.",
+     [
+      "The authors point out that peaks can occur in a single sample, so a rehabilitator who collected scats only once or twice a week could miss them entirely.",
+      "Animals with eye ulcers, leg injuries or dermatitis had been ill for unknown periods before rescue, which could already have raised their baselines."
+     ]
+    ],
+    [
+     "Physiology explains others.",
+     [
+      "Chronic stress can impair the feedback that normally regulates the axis, and in some species it leads to hypocortisolism, an inability to mount a normal response.",
+      "The authors also suggest that a modest amount of mild stimulation in care might help animals keep normal acute stress responses for life after release."
+     ]
+    ]
+   ],
+   "refs": [
+    "Cope HR, Keeley T, Keong J, Smith D, Silva FRO, McArthur C, Webster KN, Mella VSA, Herbert CA (2022). Validation of an Enzyme Immunoassay to Measure Faecal Glucocorticoid Metabolites in Common Brushtail Possums (Trichosurus vulpecula) to Evaluate Responses to Rehabilitation. Animals 12: 1627. https://doi.org/10.3390/ani12131627"
+   ]
+  },
+  {
+   "after": 11,
+   "footer_number": "11a",
+   "template_slide": 11,
+   "title": "Stress effects recover on separate clocks after transport",
+   "body": [
+    "Each measured change reflects a different downstream process. Adrenal hormones raise **blood glucose** by stimulating gluconeogenesis and altering insulin responses, so glucose follows ongoing hormone action and falls quickly once it eases. The related adrenal hormone **aldosterone** promotes potassium loss, and fasting without seawater ingestion during a dry journey may also lower plasma potassium.",
+    "Glucocorticoids also shift white blood cells between the bloodstream and the tissues, as if deploying defenses against possible wounds. Redistributing cells reverses more slowly than adjusting a metabolite, which fits the persistent white-cell count and heterophil-to-lymphocyte ratio after pool recovery.",
+    "The unfamiliar Georgia pools were themselves a new environment, which may explain why corticosterone plateaued above its starting level. Hunt and colleagues add that the best physiological state for release is unknown: mild corticosterone elevation promotes foraging and movement in many species, which need not harm a newly released turtle."
+   ],
+   "figure": {
+    "from_slide": 11,
+    "picture": "Picture 3",
+    "caption": "Hunt et al. (2019), Fig. 1C–D. White blood cells and heterophil-to-lymphocyte ratio."
+   },
+   "cite": "Hunt et al. (2019)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence",
+    "distinction"
+   ],
+   "integrates": [
+    9,
+    10,
+    11
+   ],
+   "cited_papers_used": [
+    "10.1093/conphys/coy065"
+   ],
+   "transcript": [
+    "Slides 09 to 11 report that glucose and potassium normalized within hours while corticosterone and the immune measures lagged; tracing each variable back to the adrenal response explains the order.",
+    [
+     "Glucose is a fast readout of hormone action.",
+     [
+      "Hunt and colleagues describe stress hyperglycemia as one of the most consistent responses to transport across vertebrates, produced by increased gluconeogenesis and altered insulin responses.",
+      "Once the turtles were back in water and resting, that drive weakened and glucose returned to its pre-transport level within the first recovery interval."
+     ]
+    ],
+    [
+     "Potassium has several possible causes.",
+     [
+      "Aldosterone, released alongside corticosterone in many stress responses, lowers plasma potassium, but the authors also list fasting, the absence of seawater drinking and fluid loss.",
+      "The decline was small and the values stayed within a normal range, so potassium is best read as a sensitive marker rather than a clinical problem."
+     ]
+    ],
+    [
+     "White cells move rather than appear.",
+     [
+      "The authors describe corticosterone shifting certain classes of white blood cells out of the circulation into tissues, which raises the heterophil-to-lymphocyte ratio and often total counts.",
+      "Total white-cell count showed no recovery at all in the pools, and the ratio began to fall only in the longer group, consistent with a cellular process that takes longer to reverse."
+     ]
+    ],
+    [
+     "Baseline may not be the target.",
+     [
+      "The authors observed most turtles resting quietly on the pool floor before the final sample, suggesting that recovery from fatigue contributed to the improvements.",
+      "Whether a slightly elevated hormone state at release helps or harms a turtle could only be tested by tracking released animals."
+     ]
+    ]
+   ],
+   "refs": [
+    "Hunt KE, Innis C, Merigo C, Burgess EA, Norton T, Davis D, Kennedy AE, Buck CL (2019). Ameliorating transport-related stress in endangered Kemp's ridley sea turtles (Lepidochelys kempii) with a recovery period in saltwater pools. Conservation Physiology 7: coy065. https://doi.org/10.1093/conphys/coy065"
+   ]
+  },
+  {
+   "after": 14,
+   "footer_number": "14a",
+   "template_slide": 14,
+   "title": "Wet skin may make partner contact more rewarding",
+   "body": [
+    "Gentle touch on hairy skin activates **C-tactile low-threshold mechanoreceptors**, slow-conducting fibers tuned to soft stroking. Wilson and Alger report that these receptors are thought to grow more sensitive when skin and hair are wet, which may help explain why contact play occurred only in water or at its edge, in wild pups as well as orphans.",
+    "Signals from social touch are thought to engage opioid, dopamine, noradrenaline and oxytocin systems that convey attachment and security. Partner contact may therefore supply part of the neurochemical reward a mother normally provides, not only warmth.",
+    "Timing raises the stakes. The weeks before harbor seal pups disperse likely form a **sensitive period** for primary socialization, when social experience shapes later brain development and behavior. Weeks of isolation in quarantine pens remove contact during that window."
+   ],
+   "figure": {
+    "from_slide": 14,
+    "picture": "Picture 3",
+    "caption": "Wilson & Alger (2024), Fig. 3(e–j). Nosing, underwater contact, and play in paired orphan pups."
+   },
+   "cite": "Wilson & Alger (2024)",
+   "moves": [
+    "mechanism",
+    "foundation",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "cited_papers_used": [
+    "10.3390/ani14223264"
+   ],
+   "transcript": [
+    "Slides 12 to 15 describe what paired orphan pups did; the sensory physiology of touch and the developmental timing of seal socialization explain why contact in water may matter for them.",
+    [
+     "A touch receptor with an affective role.",
+     [
+      "C-tactile fibers conduct slowly and respond best to gentle, slow stroking, a pattern typical of social grooming and maternal contact rather than of exploring objects.",
+      "Wilson and Alger link the heightened sensitivity of wet skin to their observation that wild adult harbor seals are far more tactile when wet than when dry."
+     ]
+    ],
+    [
+     "Contact as a substitute for maternal reward.",
+     [
+      "The authors interpret the high levels of body contact and nosing, even on dry ground, as compensation for the mother's absence, consistent with the comparison on slide 15.",
+      "When pups were separated by a barrier in preliminary tests, they worked hard to regain contact, which the authors take as evidence that partners act as mutual mother substitutes."
+     ]
+    ],
+    [
+     "The developmental window.",
+     [
+      "Wild pups stay with their mothers through a three-to-four-week nursing period and then interact with other pups before dispersing to forage.",
+      "Maternal separation and isolation in infant mammals are associated with lasting changes in brain development and later social and cognitive deficits, which is the concern that standard quarantine raises."
+     ]
+    ],
+    [
+     "A practical consequence.",
+     [
+      "The authors argue that quarantine should be applied flexibly, keeping sick pups separate but pairing healthy neonates with water access from the start."
+     ]
+    ]
+   ],
+   "refs": [
+    "Wilson SC, Alger R (2024). Mitigating the Effects of Maternal Loss on Harbour Seal Pups in Captive Care. Animals 14: 3264. https://doi.org/10.3390/ani14223264"
+   ]
+  },
+  {
+   "after": 19,
+   "footer_number": "19a",
+   "template_slide": 19,
+   "title": "Anticipation gauges how much a pup values a meal",
+   "body": [
+    "A feeding sequence has an **appetitive phase**, searching for and approaching a resource, and a **consummatory phase**, consuming it. Anticipation belongs to the appetitive phase: once the shower cue predicted fish, scanning toward the door, spyhopping and water entry occurred before any reward was present.",
+    "The intensity of that response reflects **reward sensitivity**, the value an animal places on an upcoming reward relative to its other rewards. An animal with few other rewards invests heavily in the one it can predict, so weaker anticipation signals better welfare.",
+    "Other welfare measures fit rehabilitation poorly: cognitive bias tests need extensive caretaker training, which would habituate pups to people, and stereotypies signal only poor welfare. Anticipation can be evoked on schedule with little human contact and varies along a continuum."
+   ],
+   "figure": {
+    "from_slide": 19,
+    "picture": "Picture 3",
+    "caption": "Chudeau et al. (2025), Fig. 6(b). Anticipatory behavior duration and enrichment dose."
+   },
+   "cite": "Chudeau et al. (2025)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "method_logic",
+    "integration"
+   ],
+   "integrates": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "cited_papers_used": [
+    "10.3390/ani15223237"
+   ],
+   "transcript": [
+    "Slides 16 to 19 measure anticipatory behavior and relate it to enrichment; the reason anticipation counts as a welfare measure at all comes from the structure of motivated behavior and from the constraints of a rehabilitation setting.",
+    [
+     "Anticipation is learned prediction.",
+     [
+      "Chudeau and colleagues found that alert behavior toward the door was several times more frequent and much longer before fish arrived than afterward, because the door is where crews enter to feed.",
+      "Galumphing and water entry also rose before feeding, even though fish were always delivered into the pool, which fits seals moving to where they expected the reward."
+     ]
+    ],
+    [
+     "Reward sensitivity links anticipation to welfare.",
+     [
+      "The authors describe anticipatory behavior as a kind of self-report: it reveals how much the animal treats the upcoming meal as needed, given the other rewards in its environment.",
+      "Work in other managed settings shows stronger anticipation in barren housing than in enriched housing, which is the comparison the seal study extends to two kinds of enrichment."
+     ]
+    ],
+    [
+     "The design was deliberately conservative.",
+     [
+      "An earlier study at the same center had already shown enrichment improving welfare over a no-enrichment control, so withholding enrichment was considered unethical.",
+      "Comparing cognitive with structural enrichment can only reveal a smaller difference, which is part of why the result on slide 19 remained a tentative trend."
+     ]
+    ],
+    [
+     "Cues were not perfectly controlled.",
+     [
+      "Staff activity, food buckets and penmates may also have signaled feeding, and the one-minute shower sometimes produced a burst of activity when it ended, as if the end of the cue were a second signal."
+     ]
+    ]
+   ],
+   "refs": [
+    "Chudeau KR, Guarasci S, Krebs B, Field C, Watters JV (2025). Anticipatory Behavior and Enrichment: Insights into Assessing and Managing Harbor Seal (<i>Phoca vitulina richardii</i>) Pup Welfare in a Wildlife Rehabilitation Setting. Animals 15: 3237. https://doi.org/10.3390/ani15223237"
+   ]
+  },
+  {
+   "after": 22,
+   "footer_number": "22a",
+   "template_slide": 22,
+   "title": "Kainate receptor density makes the hippocampus vulnerable",
+   "body": [
+    "Domoic acid acts like glutamate at **kainate receptors**, which are especially dense in the CA3 region of the hippocampus. Overstimulation allows calcium to accumulate inside neurons, and sustained calcium overload kills cells and provokes glial scarring. Receptor-rich regions suffer most, so exposure shrinks the hippocampus instead of damaging the brain uniformly.",
+    "The hippocampus supports spatial memory and is also a frequent origin of seizures. Williams and colleagues describe a latent period in which initial injury goes clinically unnoticed before recurrent seizures emerge, and repeated seizures may add further damage.",
+    "Exposure also follows behavior. Most sea lions in the suspected toxicosis group were females, which the authors attribute to females foraging near rookeries year round, where contaminated fish are eaten more often."
+   ],
+   "figure": {
+    "from_slide": 22,
+    "picture": "Picture 3",
+    "caption": "Cook et al. (2015), Fig. S1(A–I). MRI tracing of the sea lion hippocampus."
+   },
+   "cite": "Cook et al. (2015); Williams et al. (2023)",
+   "moves": [
+    "mechanism",
+    "foundation",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    22,
+    23,
+    28,
+    29
+   ],
+   "cited_papers_used": [
+    "10.1126/science.aac5675",
+    "10.3389/fvets.2023.1040125"
+   ],
+   "transcript": [
+    "Slide 22 measures hippocampal volume and slide 28 introduces kainate receptors; the uneven distribution of those receptors explains why a toxin that circulates through the whole brain produces a focal lesion.",
+    [
+     "Receptor distribution determines where injury falls.",
+     [
+      "Williams and colleagues state that domoic acid preferentially binds the kainate subtype of glutamate receptor, which is prevalent in CA3, and that the resulting calcium elevation leads to neuronal loss and astrocytosis.",
+      "The atrophied section on this slide is the end point of that process, compared with a normal hippocampus at the same scale."
+     ]
+    ],
+    [
+     "Injury and seizures can feed each other.",
+     [
+      "The hippocampus is involved in the development of some forms of epilepsy in cats, humans and sea lions, so a damaged hippocampus is a plausible source of the discharges recorded on slides 28 and 29.",
+      "An imaging study discussed by Williams and colleagues found more severe hippocampal loss in adult sea lions, which they attribute partly to damage accumulated through recurrent seizures."
+     ]
+    ],
+    [
+     "Behavior links exposure to the lesion and back to behavior.",
+     [
+      "Females feeding near rookeries throughout the year are exposed repeatedly during algal blooms, and the resulting hippocampal damage then impairs the spatial memory measured on slides 23 to 25.",
+      "That sequence makes a foraging habit both a cause of exposure and a casualty of it."
+     ]
+    ]
+   ],
+   "refs": [
+    "Cook PF, Reichmuth C, Rouse AA, Libby LA, Dennison SE, Carmichael OT, Kruse-Elliott KT, Bloom J, Singh B, Fravel VA, Barbosa L, Stuppino JJ, Van Bonn WG, Gulland FMD, Ranganath C (2015). Algal toxin impairs sea lion memory and hippocampal connectivity, with implications for strandings. Science 350: 1545-1547. https://doi.org/10.1126/science.aac5675",
+    "Williams DC, Haulena M, Dennison S, Waugh L, Goldstein T, Nutter F, Bonn BV, Hoard V, Laxer KD, Buckmaster PS, Gulland FMD, Tharp B (2023). Pinniped electroencephalography: Methodology and findings in California sea lions (Zalophus californianus). Frontiers in Veterinary Science 10: 1040125. https://doi.org/10.3389/fvets.2023.1040125"
+   ]
+  },
+  {
+   "after": 26,
+   "footer_number": "26a",
+   "template_slide": 26,
+   "title": "Coupled signal fluctuations define functional connectivity",
+   "body": [
+    "Functional MRI detects the **BOLD signal**, a blood-oxygen-level-dependent change in the MRI signal. Active neurons increase local blood flow, which raises the proportion of oxygenated hemoglobin and alters the signal from that tissue, so the BOLD signal tracks neural activity indirectly and with a delay of seconds.",
+    "Even without a task, each region's signal fluctuates slowly. Two regions whose fluctuations rise and fall together are called functionally connected, usually reflecting shared input or direct communication. Lesioned hippocampal tissue contributes less coordinated activity, so its coupling with partner regions weakens.",
+    "The hippocampus and the anterior thalamus belong to a memory circuit linked through the **fornix**, the main fiber bundle leaving the hippocampus. Weaker hippocampal–thalamic coupling on both sides suggests that a lesion concentrated on one side alters a wider network, one route from local cell loss to the spatial memory deficits in the maze and bucket tasks."
+   ],
+   "figure": {
+    "from_slide": 26,
+    "picture": "Picture 3",
+    "caption": "Cook et al. (2015), Fig. 3. Hippocampal–thalamic connectivity with and without lesions."
+   },
+   "cite": "Cook et al. (2015)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    22,
+    23,
+    24,
+    26
+   ],
+   "cited_papers_used": [
+    "10.1126/science.aac5675",
+    "10.3389/fvets.2023.1040125"
+   ],
+   "transcript": [
+    "Slide 26 reports reduced hippocampal–thalamic connectivity after domoic acid lesions; the measurement rests on the physiology of the BOLD signal and on the anatomy of the hippocampal memory circuit.",
+    [
+     "From neural activity to an MRI signal.",
+     [
+      "Neural activity consumes energy, and the local increase in blood flow overshoots the extra oxygen use, so active tissue ends up with relatively more oxygenated hemoglobin.",
+      "Deoxygenated hemoglobin distorts the local magnetic field, so this shift changes the MRI signal, which is what the BOLD measurement detects."
+     ]
+    ],
+    [
+     "From signals to connectivity.",
+     [
+      "Connectivity is computed by comparing the time courses of two regions; a high value means they tend to become active and quiet at the same times.",
+      "The structural volumes on slide 22 and the connectivity values on slide 26 come from the same imaging sessions, which is how Cook and colleagues relate cell loss to network change."
+     ]
+    ],
+    [
+     "Why the thalamus.",
+     [
+      "Hippocampal output travels through the fornix toward the mammillary bodies and anterior thalamic nuclei, a pathway long associated with memory.",
+      "Williams and colleagues report white matter pathology in the fornix of sea lions with domoic acid toxicosis, which fits a disrupted hippocampal–thalamic pathway."
+     ]
+    ],
+    [
+     "Laterality.",
+     [
+      "Behavior on slides 23 and 24 tracked right hippocampal volume, yet connectivity fell on both sides, showing that network measures and local volume can diverge."
+     ]
+    ]
+   ],
+   "refs": [
+    "Cook PF, Reichmuth C, Rouse AA, Libby LA, Dennison SE, Carmichael OT, Kruse-Elliott KT, Bloom J, Singh B, Fravel VA, Barbosa L, Stuppino JJ, Van Bonn WG, Gulland FMD, Ranganath C (2015). Algal toxin impairs sea lion memory and hippocampal connectivity, with implications for strandings. Science 350: 1545-1547. https://doi.org/10.1126/science.aac5675",
+    "Williams DC, Haulena M, Dennison S, Waugh L, Goldstein T, Nutter F, Bonn BV, Hoard V, Laxer KD, Buckmaster PS, Gulland FMD, Tharp B (2023). Pinniped electroencephalography: Methodology and findings in California sea lions (Zalophus californianus). Frontiers in Veterinary Science 10: 1040125. https://doi.org/10.3389/fvets.2023.1040125"
+   ]
+  },
+  {
+   "after": 29,
+   "footer_number": "29a",
+   "template_slide": 29,
+   "title": "Sleep exposes discharges that wakefulness can hide",
+   "body": [
+    "Sedation with alpha-2 agonists produced slow-wave sleep with the same background rhythms and transient events as natural sleep. Slow-wave sleep makes abnormal discharges more likely to appear in an EEG across species, and the sea lions followed that rule: when an animal was woken at the end of a session, epileptiform activity decreased or disappeared.",
+    "Drug state could change a recording within minutes. Isoflurane anesthesia produced large slow waves and spikes even in neurologically normal animals and made focal discharges appear generalized, whereas benzodiazepines removed spikes and sharp waves but not slow waves.",
+    "Change after weeks of treatment was small by contrast: repeat recordings after phenobarbital courses improved by at most one step on the severity scale. EEG was also sensitive but not specific, with similar abnormalities in animals with cancer or white matter lesions, so a recording complements imaging rather than diagnosing toxicosis alone."
+   ],
+   "figure": {
+    "from_slide": 29,
+    "picture": "Picture 3",
+    "caption": "Williams et al. (2023), Fig. 10(A–B). An abnormal recording and the same animal’s later recording."
+   },
+   "cite": "Williams et al. (2023)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "foundation",
+    "integration"
+   ],
+   "integrates": [
+    27,
+    28,
+    29
+   ],
+   "cited_papers_used": [
+    "10.3389/fvets.2023.1040125"
+   ],
+   "transcript": [
+    "Slides 27 to 29 describe normal and abnormal sea lion EEG and changes between recordings; the recording state, set by sleep and by drugs, is the main variable that must be matched before any two recordings can be compared.",
+    [
+     "Sleep is a provocation, not a nuisance.",
+     [
+      "During slow-wave sleep, large populations of cortical neurons fire in synchrony, which lowers the threshold for abnormal synchronous discharges to appear in the scalp record.",
+      "Williams and colleagues point out that clinicians deliberately record sleep in epilepsy for the same reason, and that the right-sided discharges in one animal gave way to normal waking activity when it was roused."
+     ]
+    ],
+    [
+     "Drugs reshape the record.",
+     [
+      "Isoflurane recordings were excluded from scoring, since even a normal animal could show burst suppression and sharp waves under that anesthetic.",
+      "Benzodiazepines selectively removed fast abnormal events, so a recording made after such a drug could look improved without any change in the underlying lesion."
+     ]
+    ],
+    [
+     "Slow change and fast change differ.",
+     [
+      "Repeat recordings after phenobarbital treatment shifted little, whereas state changes within a single session altered the record dramatically.",
+      "The difference matters for slide 29: an apparent improvement is meaningful only when both recordings were made in the same state."
+     ]
+    ],
+    [
+     "Sensitivity without specificity.",
+     [
+      "One sea lion with severe abnormalities had a grossly normal brain and widespread carcinoma, and another had white matter lesions with normal hippocampi.",
+      "EEG therefore detects disordered neural activity well, but its cause must come from imaging, history or pathology."
+     ]
+    ]
+   ],
+   "refs": [
+    "Williams DC, Haulena M, Dennison S, Waugh L, Goldstein T, Nutter F, Bonn BV, Hoard V, Laxer KD, Buckmaster PS, Gulland FMD, Tharp B (2023). Pinniped electroencephalography: Methodology and findings in California sea lions (Zalophus californianus). Frontiers in Veterinary Science 10: 1040125. https://doi.org/10.3389/fvets.2023.1040125"
+   ]
+  },
+  {
+   "after": 32,
+   "footer_number": "32a",
+   "template_slide": 30,
+   "title": "Mortality-sensing collars separate death from lost contact",
+   "body": [
+    "A survival estimate depends on knowing each animal's fate. The possum collars switched to a mortality signal after 4 hours without movement, so trackers could home in on a motionless animal and recover the body or collar. Swabs of wounds and tooth marks detected fox DNA from predator saliva.",
+    "Animals whose collars fell off or could not be heard were excluded, since a vanished signal cannot separate death from dispersal or equipment failure. Counting them as deaths would have inflated mortality; counting them as survivors would have hidden it.",
+    "Recovered remains still leave uncertainty: fox DNA establishes only that a fox handled the remains, which scavenging of an animal dead from another cause would also produce. Likewise, a satellite tag that stops transmitting is not by itself evidence of a turtle's death."
+   ],
+   "figure": {
+    "from_slide": 30,
+    "picture": "Picture 3",
+    "caption": "Corsetti et al. (2024), Fig. 1(a). Post-release survival of bold and shy possums."
+   },
+   "cite": "Corsetti et al. (2024); Corsetti et al. (2025)",
+   "moves": [
+    "method_logic",
+    "integration",
+    "distinction",
+    "foundation"
+   ],
+   "integrates": [
+    30,
+    31,
+    32,
+    35,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1038/s41598-024-67726-y",
+    "10.1038/s41598-025-22596-w",
+    "10.1371/journal.pone.0184286"
+   ],
+   "transcript": [
+    "Slides 30 to 32 rest on survival curves built from radio tracking; the curves are only as good as the procedures that assign each tracked possum a fate.",
+    [
+     "How a fate is assigned.",
+     [
+      "Corsetti and colleagues used light drop-off VHF collars with a mortality function, tracked animals daily during the first week and less often afterward, and homed in whenever a collar switched modes.",
+      "Carcasses were necropsied when possible, and swabs were analyzed by a melt-curve method that distinguishes the DNA of different predators by the temperature at which it separates."
+     ]
+    ],
+    [
+     "Why unknown fates are removed.",
+     [
+      "In the personality study, a dozen animals lost collars or had signal interference, so they were dropped from the survival analysis rather than guessed at.",
+      "Excluding them keeps the comparison between bold and shy animals restricted to cases where the outcome is actually known."
+     ]
+    ],
+    [
+     "Why predation evidence is cautious.",
+     [
+      "The authors point out that some deaths in the predator-proof area had unknown causes unrelated to predation, and that a fox could scavenge such an animal and leave DNA on it.",
+      "In the training study, warm summer conditions may have degraded DNA, so fur, gut remains and tooth-marked collars were also used as signs of fox predation, as on slide 35."
+     ]
+    ],
+    [
+     "The turtle parallel.",
+     [
+      "Slide 45 makes the same point for satellite tags: transmission can stop through battery failure or detachment, so only a recovered animal confirms a death."
+     ]
+    ]
+   ],
+   "refs": [
+    "Corsetti S, Chambers B, Blache D, Bencini R (2024). Captive-raised western ringtail possum (Pseudocheirus occidentalis) with a bold personality have higher survival rates when released into the wild. Scientific Reports 14: 20110. https://doi.org/10.1038/s41598-024-67726-y",
+    "Corsetti S, Chambers B, Blache D, Bencini R (2025). Predator awareness training improves survival of released critically endangered western ringtail possums, pseudocheirus occidentalis. Scientific Reports 15: 38549. https://doi.org/10.1038/s41598-025-22596-w",
+    "Robinson DP, Jabado RW, Rohner CA, Pierce SJ, Hyland KP, Baverstock WR (2017). Satellite tagging of rehabilitated green sea turtles Chelonia mydas from the United Arab Emirates, including the longest tracked journey for the species. PLOS ONE 12: e0184286. https://doi.org/10.1371/journal.pone.0184286"
+   ],
+   "paper_numbers": {
+    "4": "Corsetti et al. 2024 and 2025, Methods: collar mortality function activated after 4 h of inactivity"
+   }
+  },
+  {
+   "after": 35,
+   "footer_number": "35a",
+   "template_slide": 35,
+   "title": "Fox cues gain meaning by predicting a frightening event",
+   "body": [
+    "In **classical conditioning**, a neutral stimulus comes to evoke a response after it repeatedly predicts a biologically significant event. The fox's appearance and urine odor served as the conditioned stimuli, and the sudden loud sound served as the unconditioned stimulus that produced fright; after pairing, fox cues alone should evoke wariness.",
+    "Foxes reached Australia recently, so these possums show **prey naïveté**, an evolutionary failure to recognize an unfamiliar predator. The authors suggest that training may tap an inherited template for canid predators, letting a learned response generalize to living foxes.",
+    "Observers stayed hidden so that people could not become the cue that predicted fright, since a stimulus that already predicts an event can block learning about a second one. The protocol cannot separate fox-specific learning from **sensitization**, a general rise in wariness toward any stimulus."
+   ],
+   "figure": {
+    "from_slide": 35,
+    "picture": "Picture 3",
+    "caption": "Corsetti et al. (2025), Fig. 2. Post-release survival after fox-awareness training."
+   },
+   "cite": "Corsetti et al. (2025)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "method_logic",
+    "distinction",
+    "integration"
+   ],
+   "integrates": [
+    32,
+    34,
+    35,
+    36,
+    37
+   ],
+   "cited_papers_used": [
+    "10.1038/s41598-025-22596-w"
+   ],
+   "transcript": [
+    "Slide 34 describes the training protocol and slides 35 and 36 its survival effect; the principles of associative learning explain both why the protocol was built as it was and what its result can and cannot tell us.",
+    [
+     "The pairing structure.",
+     [
+      "Each of the three sessions revealed the fox and immediately delivered an aversive sound, first a barking dog, then a slammed chain, then a stadium trumpet with the fox moving toward the possum.",
+      "Varying the aversive sound while keeping the fox cues constant makes the fox, rather than any single noise, the consistent predictor of fright."
+     ]
+    ],
+    [
+     "Naïveté and archetypes.",
+     [
+      "Western ringtail possums did not evolve alongside foxes, and earlier releases by the same group lost most animals to fox predation, which shows how poorly captive-raised possums respond to this predator without help.",
+      "On this account, possums may carry an inherited template for the shape and odor of native canid predators, and training reactivates it for the fox."
+     ]
+    ],
+    [
+     "Controlling for alternative explanations.",
+     [
+      "Untrained possums were placed once in the empty arena, which matches exposure to handling and a novel space without the fox or the noise.",
+      "Hiding the observers addressed blocking, which the authors cite as a reason earlier marsupial training with a visible human failed to produce fox-specific responses."
+     ]
+    ],
+    [
+     "What remains unknown.",
+     [
+      "With several cues combined across three sessions, the study cannot say which sense carried the learning or whether one session would have sufficed.",
+      "Learned avoidance is also not inherited, so the benefit applies to the released founders and not automatically to their offspring."
+     ]
+    ]
+   ],
+   "refs": [
+    "Corsetti S, Chambers B, Blache D, Bencini R (2025). Predator awareness training improves survival of released critically endangered western ringtail possums, pseudocheirus occidentalis. Scientific Reports 15: 38549. https://doi.org/10.1038/s41598-025-22596-w"
+   ]
+  },
+  {
+   "after": 39,
+   "footer_number": "39a",
+   "template_slide": 39,
+   "title": "Following experienced monkeys reveals food trees",
+   "body": [
+    "Fruit is patchy in space and time, so a broad fruit diet requires knowing which trees to visit and when. Newly released monkeys were repeatedly seen following experienced individuals and feeding only after those individuals had found a fruiting tree and begun to eat, which brings a naive animal to resources it cannot yet locate alone.",
+    "Opportunity for such learning differed between groups. Monkeys released with two experienced companions spent about a quarter of early samples within 5 m of one, compared with about 8% for the group with a single companion, matching the order of their dietary richness.",
+    "Other differences limit the inference: release years differed, the later groups spent time in an acclimatization enclosure at the site, and temperament varied. Gradually reduced provisioning also pushed every group toward wild foods."
+   ],
+   "figure": {
+    "from_slide": 39,
+    "picture": "Picture 3",
+    "caption": "Gómez-Muñoz et al. (2025), Fig. 2. Fruit-species richness across months after release."
+   },
+   "cite": "Gómez-Muñoz et al. (2025)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "method_logic",
+    "consequence"
+   ],
+   "integrates": [
+    38,
+    39,
+    40,
+    41
+   ],
+   "cited_papers_used": [
+    "10.1007/s10329-024-01156-2"
+   ],
+   "transcript": [
+    "Slides 38 to 40 associate experienced companions with faster dietary and spatial adjustment; field observations in the paper show how that influence could operate and why the comparison cannot isolate it.",
+    [
+     "Following as a learning route.",
+     [
+      "Gómez-Muñoz and colleagues describe newly released monkeys following experienced ones, consistent with a copy-successful-individuals strategy, and woolly monkeys normally move as cohesive groups guided by social cues.",
+      "Primates can retain the locations of food trees, so a single guided visit can turn into a lasting part of the individual's foraging route."
+     ]
+    ],
+    [
+     "Proximity tracks opportunity.",
+     [
+      "The proximity measure counted how often a focal animal was within a few meters of an experienced individual, a rough index of how much it could observe and follow.",
+      "The group with the closest early association also used the most fruit species on slide 39 and established the largest early range on slide 40."
+     ]
+    ],
+    [
+     "Why fruit diversity matters.",
+     [
+      "A wider fruit diet buffers the animal against seasonal gaps in any one species and supports nutrient balance.",
+      "The first group initially relied mainly on platform food and even ate items wild woolly monkeys avoid, such as fern leaves."
+     ]
+    ],
+    [
+     "Confounds in a sequential design.",
+     [
+      "Each release was a single group in a different year, so differences in composition, age and history accompany the presence of experienced companions.",
+      "Diets converged over six months, which the authors attribute to all groups gaining experience as provisioning was reduced."
+     ]
+    ]
+   ],
+   "refs": [
+    "Gómez-Muñoz M, Ramírez MA, Pérez-Torres J, Stevenson PR (2025). The presence of experienced individuals enhance the behavior and survival of reintroduced woolly monkeys in Colombia. Primates 66: 103-115. https://doi.org/10.1007/s10329-024-01156-2"
+   ],
+   "paper_numbers": {
+    "5": "Gómez-Muñoz et al. 2025, Methods/Results: proximity defined as <5 m",
+    "8": "Gómez-Muñoz et al. 2025, Results: Group B within 5 m of an experienced conspecific in 8% of samples (first 2 months)"
+   }
+  },
+  {
+   "after": 43,
+   "footer_number": "43a",
+   "template_slide": 43,
+   "title": "Argos fixes are approximate, so home ranges are estimates",
+   "body": [
+    "Satellite tags transmit only while the turtle is at the surface, and the Argos system estimates each position from the Doppler shift in signals received by passing satellites. Each fix is assigned an accuracy class, and the least accurate classes carry errors of a kilometer or more.",
+    "Robinson and colleagues filtered each track, removing positions that would require implausibly fast swimming or abrupt reversals. **Kernel density estimation** then turned the remaining points into a smooth surface of use; the contour enclosing 95% of that surface defines the home range, and the 50% contour defines the core habitat.",
+    "Location error scatters points outward and enlarges home range estimates, one reason the authors give for Gulf ranges appearing larger than ranges reported elsewhere. Core contours depend on where fixes cluster rather than on scattered outliers, which makes their overlap with seagrass beds the firmer evidence of foraging."
+   ],
+   "figure": {
+    "from_slide": 43,
+    "picture": "Picture 3",
+    "caption": "Robinson et al. (2017), Fig. 3. Overlap of post-release green turtle home ranges."
+   },
+   "cite": "Robinson et al. (2017)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    42,
+    43,
+    44,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0184286"
+   ],
+   "transcript": [
+    "Slides 42 and 43 present home ranges and core habitats of released green turtles; both are statistical estimates built from imprecise satellite positions, and the method determines how far they can be trusted.",
+    [
+     "How Argos locates a turtle.",
+     [
+      "As a satellite passes overhead, the frequency of the tag's signal appears to shift depending on whether the satellite is approaching or receding, and the pattern of that shift fixes the transmitter's position.",
+      "A turtle that surfaces briefly yields only a few messages per pass, which is why many fixes fall into the poorer accuracy classes."
+     ]
+    ],
+    [
+     "Filtering removes the impossible.",
+     [
+      "The authors used a filter that discards positions requiring a turtle to swim faster than a realistic speed or to turn sharply back on itself, which removed a small fraction of the data.",
+      "Without filtering, a single erroneous fix far from the true track would stretch both the route and the home range."
+     ]
+    ],
+    [
+     "From points to ranges.",
+     [
+      "A kernel estimate places a small mound of probability over each fix and sums the mounds, so dense clusters of fixes produce peaks that define where the animal spends most of its time.",
+      "The broad contour on slide 43 is therefore more sensitive to error than the core contour, and comparisons with studies using more precise tracking need caution."
+     ]
+    ]
+   ],
+   "refs": [
+    "Robinson DP, Jabado RW, Rohner CA, Pierce SJ, Hyland KP, Baverstock WR (2017). Satellite tagging of rehabilitated green sea turtles Chelonia mydas from the United Arab Emirates, including the longest tracked journey for the species. PLOS ONE 12: e0184286. https://doi.org/10.1371/journal.pone.0184286"
+   ],
+   "paper_numbers": {
+    "95": "Robinson et al. 2017, Methods: 95% percentage volume contour = home range",
+    "50": "Robinson et al. 2017, Methods: 50% percentage volume contour = core habitat"
+   }
+  },
+  {
+   "after": 44,
+   "footer_number": "44a",
+   "template_slide": 44,
+   "title": "Long journeys may resume interrupted migrations",
+   "body": [
+    "Rescued turtles arrive with unknown birthplaces, nesting beaches and migration routes. A turtle injured while passing through UAE waters on a longer migration would be expected to resume that journey once healthy, so a transient track can reflect its earlier life rather than disorientation after care.",
+    "The authors propose that Gulf foraging grounds are shared by turtles from distant populations and judge Dibba's route toward the Andaman Sea unrelated to her injury. Resident adult females may also leave briefly to nest, as one did when she crossed to an Iranian island and returned to her core area.",
+    "Tracks also carry health information: turtles moved slowly near the release point for about three days before traveling in a focused direction, and irregular transmissions of varying accuracy fit a turtle diving routinely and surfacing only intermittently."
+   ],
+   "figure": {
+    "from_slide": 44,
+    "picture": "Picture 3",
+    "caption": "Robinson et al. (2017), Fig. 2. Dibba’s 8,283 km post-release track."
+   },
+   "cite": "Robinson et al. (2017)",
+   "moves": [
+    "distinction",
+    "consequence",
+    "integration",
+    "method_logic"
+   ],
+   "integrates": [
+    42,
+    43,
+    44,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pone.0184286"
+   ],
+   "transcript": [
+    "Slides 42 to 44 show both resident and transient turtles after release; the turtles' unknown life histories explain why a long journey is not a sign of failed rehabilitation.",
+    [
+     "Origin is the missing variable.",
+     [
+      "Unlike nesting females tagged on a known beach, rehabilitated turtles come from unknown origins and life stages, which the authors suggest explains why some became residents and others left UAE waters.",
+      "Long-distance travel is normal for green turtles, which migrate between distant feeding and nesting areas throughout their lives."
+     ]
+    ],
+    [
+     "A resident's short excursion.",
+     [
+      "The adult female Jade crossed the Gulf in a highly directional movement, stayed about two weeks near Qeshm Island in the summer nesting season, and returned to her small core area.",
+      "The timing fits two clutches separated by a typical internesting interval, although the tag could not record haul-out to confirm nesting."
+     ]
+    ],
+    [
+     "Signals as indirect evidence of condition.",
+     [
+      "The authors read Dibba's intermittent messages as evidence of a healthy turtle making dives and traveling independently, and they attribute the end of transmission to battery exhaustion.",
+      "Resident turtles also stayed in shallow coastal water through the hottest months rather than moving deeper, indicating tolerance of very warm water in this population."
+     ]
+    ]
+   ],
+   "refs": [
+    "Robinson DP, Jabado RW, Rohner CA, Pierce SJ, Hyland KP, Baverstock WR (2017). Satellite tagging of rehabilitated green sea turtles Chelonia mydas from the United Arab Emirates, including the longest tracked journey for the species. PLOS ONE 12: e0184286. https://doi.org/10.1371/journal.pone.0184286"
+   ]
+  }
+ ]
+}
