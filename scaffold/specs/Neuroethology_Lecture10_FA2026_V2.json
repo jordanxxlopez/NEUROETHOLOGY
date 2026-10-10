@@ -1,0 +1,1191 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture10_FA2026_V2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture10_FA2026_V2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "tectum",
+  "tectal",
+  "pretectal",
+  "pretectum",
+  "toad",
+  "toads",
+  "frog",
+  "frogs",
+  "orienting",
+  "avoidance",
+  "lesion",
+  "lesions",
+  "receptive",
+  "field",
+  "fields",
+  "NPY",
+  "Ewert",
+  "Ingle",
+  "Laming",
+  "Schwippert",
+  "McConville",
+  "worm",
+  "antiworm",
+  "worm-like",
+  "prey",
+  "catching",
+  "stimulation",
+  "current",
+  "DC",
+  "approach",
+  "retreat",
+  "crouching",
+  "arousal",
+  "inhibition",
+  "inhibitory",
+  "restraint",
+  "optic",
+  "nerve",
+  "retinal",
+  "unit",
+  "units",
+  "potential",
+  "potentials",
+  "negative",
+  "positive",
+  "wave",
+  "N1",
+  "habituation",
+  "configuration",
+  "thalamic",
+  "caudal",
+  "Lpd",
+  "peptide",
+  "μA",
+  "ms",
+  "selectivity",
+  "excitability",
+  "T5(2)",
+  "TH3",
+  "EEG",
+  "sustained",
+  "shift",
+  "shifts",
+  "duration",
+  "conditioning",
+  "disc",
+  "discs",
+  "angular",
+  "elongation",
+  "rectangle"
+ ],
+ "new_slides": [
+  {
+   "after": 2,
+   "footer_number": "02a",
+   "template_slide": 2,
+   "title": "Angular size merges object size with distance",
+   "body": [
+    "**Angular size** depends on how large an object is and how far it lies from the eye. Doubling an object's width or halving its distance gives nearly the same angle, so an 8° disc could be a small object close by or a larger one farther away.",
+    "Ewert's discs circled the toad at a constant distance, so each angular diameter stood for one physical size, and the orienting and avoidance curves describe how the toad sorts retinal images. A toad sorting only by angle would treat a nearby beetle and a distant heron alike whenever their images matched.",
+    "An approaching animal enlarges its retinal image as the gap closes, so one object can move from the 4–8° prey range into the avoidance range above 30° during a single approach. McConville and Laming specified their worm-like object in centimeters, so its angular size depended on how far the toad sat from it."
+   ],
+   "figure": {
+    "from_slide": 2,
+    "picture": "Google Shape;35;p2",
+    "caption": "Ewert (1970), Fig. 2(a–b). Disc diameter in degrees separates orienting and avoidance."
+   },
+   "cite": "Ewert (1970); McConville & Laming (2007)",
+   "moves": [
+    "foundation",
+    "distinction",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    2,
+    3,
+    40
+   ],
+   "cited_papers_used": [
+    "10.1159/000125462",
+    "10.1002/dneu.20390"
+   ],
+   "transcript": [
+    "Angular size is the only size the eye receives directly, and it is fixed jointly by the object and the viewing distance. Slide 2 reports every stimulus in degrees, which only becomes a statement about real objects once that geometry is clear.",
+    [
+     "Two quantities in one number.",
+     [
+      "An object twice as wide at twice the distance covers about the same part of the retina, so the image alone is ambiguous about size.",
+      "For the small angles used in these experiments, the angle grows almost in proportion to width and shrinks almost in proportion to distance."
+     ]
+    ],
+    [
+     "What the chamber fixes.",
+     [
+      "Slide 3 describes the object circling the toad inside a glass cylinder, which holds viewing distance steady during a test.",
+      "With distance held constant, Ewert's degree values can be read as object sizes, and the toad's curves become curves of retinal image size."
+     ]
+    ],
+    [
+     "Why distance matters in natural encounters.",
+     [
+      "A predator walking toward a toad starts as a small image and grows steadily, so the same animal can fall inside the prey window early and inside the avoidance window later.",
+      "Slide 40 uses lengths in centimeters, and the speaker notes there warn against turning them into angles without knowing the viewing geometry; the angle depends on the toad's distance from the moving object."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462",
+    "McConville J, Laming PR (2007). DC electrical stimulation of the pretectal thalamus and its effects on the feeding behavior of the toad (Bufo bufo). Developmental Neurobiology 67(7):875–883. https://doi.org/10.1002/dneu.20390"
+   ]
+  },
+  {
+   "after": 4,
+   "footer_number": "04a",
+   "template_slide": 4,
+   "title": "Length and width pull prey value in opposite ways",
+   "body": [
+    "Ewert's rectangle curves behave as if prey value combined two opposing contributions: extent along the direction of motion raises it, extent across the motion lowers it, and each rectangle's response reflects the balance.",
+    "A square enlarges both dimensions together. At small sizes the gain from added length outweighs the loss from added height, so orienting rises; beyond about 8°, the cross-motion contribution comes to dominate and the square loses prey value. One curve that rises and then falls thus follows from two simpler relations acting at once.",
+    "Opposing contributions also predict what a lesion of the subtractive part would do: every enlargement would then raise orienting, with no new detector required. Pretectal and caudal thalamic damage produced exactly that pattern, which places the cross-motion penalty in the damaged pathway while the length benefit survives."
+   ],
+   "figure": {
+    "from_slide": 4,
+    "picture": "Google Shape;61;p4",
+    "caption": "Ewert (1970), Fig. 3(Aa–Ab). Intact toads respond differently to rectangle elongation along and across motion."
+   },
+   "cite": "Ewert (1970)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence",
+    "distinction"
+   ],
+   "integrates": [
+    4,
+    11,
+    2
+   ],
+   "cited_papers_used": [
+    "10.1159/000125462"
+   ],
+   "transcript": [
+    "The three curves on slide 4 look like three separate findings, but one rule with an adding part and a subtracting part produces all of them.",
+    [
+     "Two contributions, opposite signs.",
+     [
+      "Lengthening a bar along its path makes it more worm-like and more effective, up to a point.",
+      "Widening it across its path makes it less effective even though the visible dark area increases."
+     ]
+    ],
+    [
+     "The square as a test of the rule.",
+     [
+      "A square grows in both directions at once, so both contributions change together.",
+      "While the square is small, the benefit of extra length wins, and orienting increases; once it passes roughly 8°, the penalty for extra height outweighs that benefit and prey value falls.",
+      "The square curve is therefore not a third preference but the sum of the first two."
+     ]
+    ],
+    [
+     "The lesion prediction.",
+     [
+      "Removing only the subtracting part should leave a system in which any enlargement helps.",
+      "Slide 11 reports that after effective lesions orienting increased with enlargement along either axis, which is the predicted outcome and locates the penalty in the damaged pretectal and caudal thalamic tissue."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462"
+   ]
+  },
+  {
+   "after": 5,
+   "footer_number": "05a",
+   "template_slide": 5,
+   "title": "Mutual inhibition aims orienting at one target",
+   "body": [
+    "**Lateral inhibition** is suppression of a neuron's response by activity at neighboring positions of a sensory map. When two moving objects fall close together, each excites its own map position and suppresses the other's, so the stronger or earlier signal can dominate while the weaker one drops out.",
+    "Tectal stimulation turns the toad toward the sector represented at the stimulated site, so tectal activity is an aiming signal. Two nearby targets driving the map without competition could aim a turn between them, at a point holding no prey.",
+    "Frog tectal newness cells have receptive fields of about 15–20°, wider than the 8° separation of strongest suppression, so two items at that spacing can fall inside one cell's field. Wider spacing places them in different cells' fields, where mutual suppression weakens and each item can attract its own turn."
+   ],
+   "figure": {
+    "from_slide": 5,
+    "picture": "Google Shape;74;p5",
+    "caption": "Ewert (1970), Fig. 4(a–b). Paired moving objects inhibit orienting most strongly at 8° separation."
+   },
+   "cite": "Ewert (1970); Ingle (1973)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    5,
+    7,
+    12,
+    15
+   ],
+   "cited_papers_used": [
+    "10.1159/000125462",
+    "10.1126/science.180.4084.422"
+   ],
+   "transcript": [
+    "The paired-object result on slide 5 reflects a general property of sensory maps, competition between neighboring locations, and that competition has a clear payoff for an animal that must aim a strike.",
+    [
+     "Competition on a map.",
+     [
+      "In lateral inhibition, active map positions suppress their neighbors, which sharpens the difference between a strong input and a weak one nearby.",
+      "Applied to two moving bars, the arrangement favors one bar over the other instead of letting both drive orienting equally."
+     ]
+    ],
+    [
+     "Why one target matters.",
+     [
+      "Slide 7 establishes that tectal sites direct turns and snaps toward particular sectors of visual space.",
+      "A map that merged two nearby inputs into one broad patch of activity would point the snap at the middle of the patch, which could fall in empty space between two insects.",
+      "Selecting a single winner keeps the aiming signal centered on a real object."
+     ]
+    ],
+    [
+     "The spatial scale.",
+     [
+      "Slide 15 gives normal newness-cell fields of about 15 to 20 degrees, so objects 8 degrees apart can share a single field, while widely separated objects fall in different fields.",
+      "After pretectal lesions, slide 12 reports summation instead of suppression, so the competition depends on the same region that restrains catching."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462",
+    "Ingle D (1973). Disinhibition of tectal neurons by pretectal lesions in the frog. Science 180(4084):422–424. https://doi.org/10.1126/science.180.4084.422"
+   ]
+  },
+  {
+   "after": 8,
+   "footer_number": "08a",
+   "template_slide": 8,
+   "title": "Sustained stimulation turns activation into silencing",
+   "body": [
+    "Electrical stimulation and lesions answer different questions. Activating a region tests whether its activity is **sufficient** to produce a behavior; removing it tests whether the region is **necessary** for behavior to stay normal. Brief pretectal stimulation answered the first question with ducking and turning away.",
+    "Prolonged 60 Hz stimulation turned one experiment into both tests. At first the driven region evoked avoidance; once the tissue stopped answering, it acted as a temporary lesion, and the toad snapped at large objects as lesioned toads did.",
+    "Agreement between the two phases gives stronger evidence than either alone. A region that only generated avoidance would leave catching untouched when silenced, and a region that only blocked catching would not evoke ducking when driven. The pretectal and caudal thalamic region did both, within one animal and one electrode site."
+   ],
+   "figure": {
+    "from_slide": 8,
+    "picture": "Google Shape;113;p8",
+    "caption": "Ewert (1970), Fig. 8(a–c). Prolonged stimulation changes ducking to mixed responses and snapping."
+   },
+   "cite": "Ewert (1970)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    6,
+    8,
+    9
+   ],
+   "cited_papers_used": [
+    "10.1159/000125462"
+   ],
+   "transcript": [
+    "Slide 8 can be read as a curiosity of long stimulation, but it combines the logic of slide 6 and slide 9 in a single preparation.",
+    [
+     "Two experimental questions.",
+     [
+      "Driving a region asks what its activity can produce, and the answer on slide 6 is defensive movement.",
+      "Removing a region asks what behavior needs it, and the answer on slide 9 is normal restriction of catching to suitable targets."
+     ]
+    ],
+    [
+     "One electrode, both answers.",
+     [
+      "At the start of prolonged stimulation the pretectal site behaved as in the brief-stimulation maps and evoked ducking.",
+      "As the stimulation continued and the tissue became unresponsive, the toad snapped at large objects it would normally avoid, which is the lesion syndrome without a lesion.",
+      "Since the electrode never moved, the same tissue produced both effects."
+     ]
+    ],
+    [
+     "What the agreement rules out.",
+     [
+      "If avoidance and restraint of catching lived in separate tissue, silencing the avoidance site would not release catching.",
+      "The reversal at a single site therefore ties escape and the restraint of prey capture to one region."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462"
+   ],
+   "paper_numbers": [
+    "60"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 8,
+     "picture": "Google Shape;115;p8",
+     "caption": "Ewert (1970), Fig. 7(d–f). Catching and avoidance stimulation sites."
+    }
+   ]
+  },
+  {
+   "after": 10,
+   "footer_number": "10a",
+   "template_slide": 10,
+   "title": "Crossed optic projections explain one-sided release",
+   "body": [
+    "In frogs and toads nearly all optic nerve fibers cross to the opposite side of the brain, so each eye projects to the tectum and pretectum of the other hemisphere. The left eye's visual field is mapped in the right tectum, where the right pretectum can act on it.",
+    "A right pretectal lesion removes restraint from the right tectum only, which serves the left eye, so catching is released through the eye opposite the damage. Sector-limited effects of small lesions mean each part of the pretectum restrains the tectal region serving the same part of visual space.",
+    "Ipsilateral pretectal stimulation produced its largest negative wave at particular rostral dorsomedial tectal sites, a physiological counterpart of this point-to-point arrangement. Topographic restraint would allow a toad to reject a large object on one side while still catching prey on the other."
+   ],
+   "figure": {
+    "from_slide": 10,
+    "picture": "Google Shape;143;p10",
+    "caption": "Ewert (1970), Fig. 10(A–D). Lesion maps and visual fields."
+   },
+   "cite": "Ewert (1970); Schwippert et al. (1995)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    7,
+    10,
+    26,
+    29
+   ],
+   "cited_papers_used": [
+    "10.1159/000125462",
+    "10.1007/BF00239921"
+   ],
+   "transcript": [
+    "The side and sector rules on slide 10 follow directly from how the eyes connect to the midbrain.",
+    [
+     "The crossing.",
+     [
+      "In anuran amphibians the optic nerves cross almost completely, so each tectum and each pretectum receive the opposite eye.",
+      "Slide 26 relies on this arrangement when the contralateral optic nerve is stimulated to drive the recorded tectum."
+     ]
+    ],
+    [
+     "Matching restraint to the map.",
+     [
+      "Damage on one side removes restraint only from the tectum on that side, and that tectum represents the opposite eye's field.",
+      "Small lesions altered orienting only in restricted sectors, which requires the restraint to be delivered region by region rather than as one signal for the whole tectum.",
+      "Slide 7 supplies the motor half of the arrangement: each tectal location aims movements at its own sector."
+     ]
+    ],
+    [
+     "Physiological support and behavioral meaning.",
+     [
+      "On slide 29 the pretectal effect is concentrated at rostral dorsomedial recording sites, consistent with a mapped projection.",
+      "A restraint organized by location would let decisions about suitability be made separately for different parts of the visual field."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462",
+    "Schwippert WW, Beneke TW, Ewert JP (1995). Pretecto-tectal influences. II. How retinal and pretectal inputs to the toad’s superficial tectum interact: a study of electrically evoked field potentials. Journal of Comparative Physiology A 176(2):181–192. https://doi.org/10.1007/BF00239921"
+   ]
+  },
+  {
+   "after": 11,
+   "footer_number": "11a",
+   "template_slide": 11,
+   "title": "Restraint must carry information about object shape",
+   "body": [
+    "A lesion can remove a configuration-specific penalty only if the removed tissue carried configuration information. Uniform inhibition would lower responses to worm and antiworm bars alike and preserve the difference between them; the selective loss means the restraint was strongest for objects extended across their motion.",
+    "Pretectal TH3 cells are tuned to big moving objects and to nonprey shapes. Inhibition from such cells onto prey-related tectal units would subtract most for the shapes the toad should reject, producing antiworm suppression in the intact animal.",
+    "Single tectal units support this arrangement at the cellular level: T5(2) units that separated worm from antiworm before a pretectal cut lost that distinction after it. Part of the configuration filter therefore lies in the input tectal neurons receive from the pretectum, not only in their retinal input."
+   ],
+   "figure": {
+    "from_slide": 11,
+    "picture": "Google Shape;156;p11",
+    "caption": "Ewert (1970), Fig. 3(Ba–Bb). Lesioned toads lose the usual inhibition by vertical elongation."
+   },
+   "cite": "Ewert (1970); Laming & Ewert (1983); McConville & Laming (2007)",
+   "moves": [
+    "method_logic",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    4,
+    11,
+    19,
+    24,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1159/000125462",
+    "10.1016/0300-9629(83)90322-5",
+    "10.1002/dneu.20390"
+   ],
+   "transcript": [
+    "Slide 11 shows a lost distinction, and the form of that loss says something about what the missing tissue was doing.",
+    [
+     "Uniform versus selective restraint.",
+     [
+      "If the pretectal region simply turned all tectal activity down, removing it would raise responses to every bar by a similar amount and keep the worm-like preference intact.",
+      "Instead the antiworm penalty disappeared, so the removed restraint had to depend on object configuration."
+     ]
+    ],
+    [
+     "A candidate source.",
+     [
+      "The speaker notes on slide 45 define TH3 as a pretectal class tuned to big moving objects and nonprey shapes.",
+      "Cells tuned that way, if they inhibit tectal prey-related units, would remove the most activity for antiworm and large objects and the least for worm-like ones."
+     ]
+    ],
+    [
+     "The cellular test.",
+     [
+      "Laming and Ewert held individual T5(2) units before and after a pretectal cut, as described on slide 19.",
+      "On slide 24 those units lost their worm versus antiworm distinction, the single-cell counterpart of the behavioral loss on slide 11."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462",
+    "Laming PR, Ewert JP (1983). The effects of pretectal lesions on neuronal, sustained potential shift and electroencephalographic responses of the toad tectum to presentation of a visual stimulus. Comparative Biochemistry and Physiology Part A: Physiology 76(2):247–252. https://doi.org/10.1016/0300-9629(83)90322-5",
+    "McConville J, Laming PR (2007). DC electrical stimulation of the pretectal thalamus and its effects on the feeding behavior of the toad (Bufo bufo). Developmental Neurobiology 67(7):875–883. https://doi.org/10.1002/dneu.20390"
+   ]
+  },
+  {
+   "after": 13,
+   "footer_number": "13a",
+   "template_slide": 13,
+   "title": "Habituation is not fatigue or retinal adaptation",
+   "body": [
+    "Three processes can make a repeated stimulus less effective. **Sensory adaptation** lowers the receptor or retinal response, **motor fatigue** lowers the capacity to move, and habituation weakens the central link between an intact sensory signal and an intact movement. Each predicts a different pattern of recovery and transfer.",
+    "Location specificity argues against fatigue. Newness cells that stop responding to an object crossing one region still respond when it enters another, so the output pathway stays available for a new target.",
+    "The two timescales in Ewert's toads carry different consequences. Within-series decline allows a toad to stop following one persistent object within a session, whereas suppression carried across series keeps it from resuming the same pursuit later. Pretectal damage weakened mainly the carried-over component."
+   ],
+   "figure": {
+    "from_slide": 13,
+    "picture": "Google Shape;186;p13",
+    "caption": "Ewert (1970), Fig. 5(A–B). Orienting declines with repetition and recovers after a pause."
+   },
+   "cite": "Ewert (1970); Ingle (1973)",
+   "moves": [
+    "distinction",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    13,
+    15,
+    18
+   ],
+   "cited_papers_used": [
+    "10.1159/000125462",
+    "10.1126/science.180.4084.422"
+   ],
+   "transcript": [
+    "Habituation on slide 13 is measured as fewer turns, and several different processes could reduce turning; separating them clarifies what the pretectal lesion changed.",
+    [
+     "Three candidate processes.",
+     [
+      "Adaptation acts at the sense organ or retina, fatigue acts at the muscles or motor output, and habituation acts on the central connection between them.",
+      "Each can be recognized by where the decrement transfers: fatigue would spread to every target, and adaptation would appear in the retinal signal itself."
+     ]
+    ],
+    [
+     "Evidence from tectal cells.",
+     [
+      "Slide 15 defines newness cells by their decline when an object repeatedly crosses the same region, which means a new region still evokes a response.",
+      "A decrement tied to location cannot come from exhausted motor output, since the same output would serve the new location too."
+     ]
+    ],
+    [
+     "Short and long components.",
+     [
+      "Ewert separated a decline within one series from a suppression that builds across series.",
+      "After lesions, recovery came within about 5 to 10 minutes and the build-up across series was much weaker, so the region contributes most to the lasting part of habituation."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462",
+    "Ingle D (1973). Disinhibition of tectal neurons by pretectal lesions in the frog. Science 180(4084):422–424. https://doi.org/10.1126/science.180.4084.422"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 13,
+     "picture": "Google Shape;188;p13",
+     "caption": "Ewert (1970), Fig. 5(Ca–Cb). Repeated habituation series suppress intact responses more than lesioned responses."
+    }
+   ]
+  },
+  {
+   "after": 17,
+   "footer_number": "17a",
+   "template_slide": 17,
+   "title": "Surround inhibition makes large objects weak stimuli",
+   "body": [
+    "A receptive field's edge marks where excitation from a stimulus stops outweighing inhibition. Input beyond the edge still reaches the cell but stays below spike threshold, and a large object covering center and surround recruits that inhibition strongly.",
+    "Removing the pretectal contribution shifts this balance at every point. Weak peripheral inputs now cross threshold, so the effective field widens, and a large object no longer engages a suppressing surround. In toads, Laming and Ewert measured fields growing from about 20–25° to 40–60° after pretectal and dorsal thalamic cuts.",
+    "Field organization therefore sets which objects count as prey for a tectal cell. A hand or a shoe box covers a broad region and, in an intact animal, drives inhibition along with excitation; after the lesion the same object excites over a wide area, matching attacks on large, inappropriate targets."
+   ],
+   "figure": {
+    "from_slide": 17,
+    "picture": "Google Shape;244;p17",
+    "caption": "Ingle (1973), Fig. 1. A lesion-side tectal unit fires persistently to a moving and stopped object."
+   },
+   "cite": "Ingle (1973); Laming & Ewert (1983); Ewert (1970)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    2,
+    9,
+    17,
+    21
+   ],
+   "cited_papers_used": [
+    "10.1126/science.180.4084.422",
+    "10.1016/0300-9629(83)90322-5",
+    "10.1159/000125462"
+   ],
+   "transcript": [
+    "Slide 17 reports that pretectal damage enlarges tectal fields; the balance of excitation and inhibition explains both the enlargement and its behavioral effect.",
+    [
+     "Where a field ends.",
+     [
+      "A field boundary is functional: inputs from farther out still arrive, but they are outweighed by inhibition and produce no spikes.",
+      "This view predicts that weakening inhibition should move the boundary outward without any new anatomical connection."
+     ]
+    ],
+    [
+     "The same change in two species.",
+     [
+      "Ingle saw frog fields grow from the usual 15 to 20 degrees to 30 degrees or more.",
+      "Slide 21 adds the toad measurement, with some fields expanding from about 20 to 25 degrees to 40 to 60 degrees after the cut."
+     ]
+    ],
+    [
+     "Consequence for target choice.",
+     [
+      "A large object normally recruits inhibition from a wide surround, which keeps its excitatory effect small and fits the low prey value of large discs on slide 2.",
+      "Without that surround the large object becomes an effective stimulus, consistent with the snapping at hands and boxes on slide 9."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ingle D (1973). Disinhibition of tectal neurons by pretectal lesions in the frog. Science 180(4084):422–424. https://doi.org/10.1126/science.180.4084.422",
+    "Laming PR, Ewert JP (1983). The effects of pretectal lesions on neuronal, sustained potential shift and electroencephalographic responses of the toad tectum to presentation of a visual stimulus. Comparative Biochemistry and Physiology Part A: Physiology 76(2):247–252. https://doi.org/10.1016/0300-9629(83)90322-5",
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 17,
+     "picture": "Google Shape;246;p17",
+     "caption": "McConville & Laming (2007), Fig. 3. Lpd electrodes."
+    }
+   ]
+  },
+  {
+   "after": 22,
+   "footer_number": "22a",
+   "template_slide": 22,
+   "title": "Field amplitude depends on synchrony across cells",
+   "body": [
+    "An extracellular field becomes large only when many cells pass current in the same direction at the same moment. If their synaptic currents are spread out in time, contributions overlap and partly cancel, so the summed voltage stays small even when each cell is active.",
+    "Inhibitory networks commonly impose shared timing, silencing many targets together and releasing them together. Removing pretectal restraint could free tectal neurons to fire longer and more independently, raising unit discharge while weakening the coordinated currents behind sustained shifts and EEG responses.",
+    "The durations measured in the same preparations fit this reading. A unit response stretched from about 0.96 to 1.54 seconds spreads its currents over a longer window, so greater total activity can still produce a smaller peak in the population field."
+   ],
+   "figure": {
+    "from_slide": 22,
+    "picture": "Google Shape;319;p22",
+    "caption": "Laming & Ewert (1983), Fig. 2(A–B). Unit, EEG and slow potentials before and after lesion."
+   },
+   "cite": "Laming & Ewert (1983)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "distinction"
+   ],
+   "integrates": [
+    20,
+    21,
+    22
+   ],
+   "cited_papers_used": [
+    "10.1016/0300-9629(83)90322-5"
+   ],
+   "transcript": [
+    "Slide 22 reports opposite changes in spikes and fields; the principle that field size depends on synchronous current offers a mechanism for that divergence.",
+    [
+     "What makes a field large.",
+     [
+      "Field potentials are dominated by synaptic currents in many cells, and they add up only when those currents line up in time and orientation.",
+      "Two cells with opposite or staggered currents largely cancel at the electrode, even though each is active."
+     ]
+    ],
+    [
+     "How inhibition can synchronize.",
+     [
+      "An inhibitory input that reaches many neurons at once tends to align when they stop and restart firing.",
+      "Losing such an input could leave each tectal neuron freer to fire on its own schedule, which raises spike counts in single units while reducing coordination across the population.",
+      "This is a proposed explanation consistent with the recordings, not a measured change in synchrony."
+     ]
+    ],
+    [
+     "The duration evidence.",
+     [
+      "Slide 21 reports longer unit responses after the cut in the immobilized toads.",
+      "Activity spread over a longer time produces a lower peak in a summed signal, which fits the smaller sustained shifts on slide 22."
+     ]
+    ]
+   ],
+   "refs": [
+    "Laming PR, Ewert JP (1983). The effects of pretectal lesions on neuronal, sustained potential shift and electroencephalographic responses of the toad tectum to presentation of a visual stimulus. Comparative Biochemistry and Physiology Part A: Physiology 76(2):247–252. https://doi.org/10.1016/0300-9629(83)90322-5"
+   ]
+  },
+  {
+   "after": 25,
+   "footer_number": "25a",
+   "template_slide": 25,
+   "title": "Delayed inhibition keeps tectal responses brief",
+   "body": [
+    "Inhibition that arrives after excitation shapes the duration of a response more than its onset. The first spikes to a moving object escape suppression, and an inhibitory input arriving one or more synaptic steps later ends the discharge. Remove that input and onset is unchanged while firing continues.",
+    "Pretectal conditioning suppressed the optic-nerve-evoked wave most strongly at a lead of about 17–25 ms, so pretectal inhibition reaches the tectum tens of milliseconds late, a timing suited to ending responses rather than preventing them.",
+    "Prolonged discharge was the lesion effect shared across species and preparations: 5–10 second discharges in frog tectal cells, and worm-like response durations rising from about 0.41 to 1.24 seconds in freely moving toads whose firing rate barely changed. Duration is the variable a delayed inhibitory input controls."
+   ],
+   "figure": {
+    "from_slide": 25,
+    "picture": "Google Shape;364;p25",
+    "caption": "Laming & Ewert (1983), Fig. 3(A–C). Lesion sites (1 mm)."
+   },
+   "cite": "Ingle (1973); Laming & Ewert (1983); Schwippert et al. (1995)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "foundation",
+    "consequence"
+   ],
+   "integrates": [
+    16,
+    21,
+    23,
+    31
+   ],
+   "cited_papers_used": [
+    "10.1126/science.180.4084.422",
+    "10.1016/0300-9629(83)90322-5",
+    "10.1007/BF00239921"
+   ],
+   "transcript": [
+    "Several slides report longer tectal responses after pretectal damage; the timing of pretectal inhibition explains why duration, more than onset or peak rate, is the consistent change.",
+    [
+     "Timing decides what inhibition controls.",
+     [
+      "Excitation from the retina reaches tectal cells first, so the beginning of a response is set before any later-arriving inhibition can act.",
+      "An inhibitory signal that comes later can only shorten the response, and its loss can only lengthen it."
+     ]
+    ],
+    [
+     "Evidence for a delay.",
+     [
+      "Slide 31 shows the strongest suppression when the pretectal pulse comes about 17 to 25 milliseconds ahead of the optic-nerve pulse.",
+      "A pretectal effect that needs that much lead time fits a pathway with at least one intervening step."
+     ]
+    ],
+    [
+     "The common lesion effect.",
+     [
+      "Ingle's frog units on slide 16 discharged for 5 to 10 seconds after a spot stopped.",
+      "In Laming and Ewert's freely moving toads on slide 23, durations rose while firing rate stayed similar, and the immobilized toads on slide 21 also showed longer responses.",
+      "A missing late inhibitory signal accounts for all three without requiring a stronger initial excitation."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ingle D (1973). Disinhibition of tectal neurons by pretectal lesions in the frog. Science 180(4084):422–424. https://doi.org/10.1126/science.180.4084.422",
+    "Laming PR, Ewert JP (1983). The effects of pretectal lesions on neuronal, sustained potential shift and electroencephalographic responses of the toad tectum to presentation of a visual stimulus. Comparative Biochemistry and Physiology Part A: Physiology 76(2):247–252. https://doi.org/10.1016/0300-9629(83)90322-5",
+    "Schwippert WW, Beneke TW, Ewert JP (1995). Pretecto-tectal influences. II. How retinal and pretectal inputs to the toad’s superficial tectum interact: a study of electrically evoked field potentials. Journal of Comparative Physiology A 176(2):181–192. https://doi.org/10.1007/BF00239921"
+   ]
+  },
+  {
+   "after": 31,
+   "footer_number": "31a",
+   "template_slide": 31,
+   "title": "The suppression window matches the pretectal wave",
+   "body": [
+    "Ipsilateral pretectal stimulation alone evokes a negative tectal wave peaking near 20 ms and a positive wave peaking around 40–45 ms. Schwippert and Ewert interpreted negative tectal waves as resembling excitatory postsynaptic processes and later positive waves as resembling inhibitory ones.",
+    "The two delays combine to explain the effective lead. With the pretectal pulse about 20 ms ahead, the retinal N1, which peaks near 18.7 ms after its own pulse, arrives roughly when the pretectal positive wave peaks. Retinal excitation then reaches tectal tissue at the height of the inhibitory-like phase.",
+    "At leads of 30–100 ms the retinal wave arrives after that phase has passed, and suppression fades. A large moving object that drives pretectal cells repeatedly would renew the window, holding retinal input down while the object moves."
+   ],
+   "figure": {
+    "from_slide": 31,
+    "picture": "Google Shape;442;p31",
+    "caption": "Schwippert et al. (1995), Fig. 6. Paired pretectal and optic-nerve stimuli separated by 10–100 ms."
+   },
+   "cite": "Schwippert et al. (1995); Schwippert & Ewert (1995)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "foundation",
+    "consequence"
+   ],
+   "integrates": [
+    27,
+    29,
+    31,
+    33
+   ],
+   "cited_papers_used": [
+    "10.1007/BF00239921",
+    "10.1016/0006-8993(94)01260-O"
+   ],
+   "transcript": [
+    "The narrow 17 to 25 millisecond window on slide 31 can be predicted from latencies measured on two other slides.",
+    [
+     "The pretectal response on its own.",
+     [
+      "Slide 29 gives the time course of the tectal response to an ipsilateral pretectal pulse: an early negative wave and a later positive wave peaking around 40 to 45 milliseconds.",
+      "In the neuropeptide paper, Schwippert and Ewert describe the negative wave as resembling excitatory postsynaptic activity and the positive wave as resembling inhibitory postsynaptic activity."
+     ]
+    ],
+    [
+     "Lining up two latencies.",
+     [
+      "Slide 27 places the N1 peak at about 18.7 milliseconds after an optic-nerve pulse.",
+      "If the pretectal pulse comes about 20 milliseconds first, N1 lands near the peak of the pretectal positive wave, which is when the test response should be most reduced."
+     ]
+    ],
+    [
+     "Outside the window.",
+     [
+      "With a much longer lead, the pretectal positive phase is over by the time retinal input arrives, matching the weak effect at 30 to 100 milliseconds.",
+      "On slide 33 a large moving object can suppress the optic-nerve response and that the effect can last beyond the stimulus, as repeated pretectal activation would predict."
+     ]
+    ]
+   ],
+   "refs": [
+    "Schwippert WW, Beneke TW, Ewert JP (1995). Pretecto-tectal influences. II. How retinal and pretectal inputs to the toad’s superficial tectum interact: a study of electrically evoked field potentials. Journal of Comparative Physiology A 176(2):181–192. https://doi.org/10.1007/BF00239921",
+    "Schwippert WW, Ewert JP (1995). Effect of neuropeptide-Y on tectal field potentials in the toad. Brain Research 669(1):150–152. https://doi.org/10.1016/0006-8993(94)01260-O"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 31,
+     "picture": "Google Shape;444;p31",
+     "caption": "Schwippert et al. (1995), Fig. 4 (histology). Marked Lpd site (250 μm)."
+    }
+   ]
+  },
+  {
+   "after": 38,
+   "footer_number": "38a",
+   "template_slide": 38,
+   "title": "Peptides add slow suppression to fast inhibition",
+   "body": [
+    "**Neuropeptides** are stored in dense-core vesicles and are typically released when a neuron fires repeatedly or at high frequency, unlike small-molecule transmitters released by single spikes. Most act through G-protein-coupled receptors, changing excitability over seconds to minutes.",
+    "Pretectal stimulation at 10 Hz for about 1 second attenuated the negative tectal components as a large visual object did, and the suppression could persist afterward. Repetitive activation of that kind favors release from NPY-containing pretectal terminals, and minute-scale NPY action fits suppression that outlasts its trigger.",
+    "The two mechanisms would divide the work. A fast inhibitory link limits each retinal volley within tens of milliseconds, while peptide signaling, recruited only by sustained pretectal activity, keeps tectal input reduced for minutes."
+   ],
+   "figure": {
+    "from_slide": 38,
+    "picture": "Google Shape;545;p38",
+    "caption": "Schwippert & Ewert (1995), Fig. 1(A–B). Pretectal stimulation arrangement and delay-dependent suppression of the negative wave."
+   },
+   "cite": "Schwippert & Ewert (1995); Schwippert et al. (1995)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    31,
+    33,
+    36,
+    38,
+    39
+   ],
+   "cited_papers_used": [
+    "10.1016/0006-8993(94)01260-O",
+    "10.1007/BF00239921"
+   ],
+   "transcript": [
+    "Slide 38 contrasts a millisecond electrical effect with a minute-scale peptide effect; the biology of peptide release explains how both could belong to one pretectal output.",
+    [
+     "How peptides are released and act.",
+     [
+      "Dense-core vesicles sit away from the active zone, so a single spike rarely releases them, while trains of spikes raise calcium enough to do so.",
+      "Receptors coupled to G proteins act through intracellular signaling, which is slower to start and slower to stop than ion-channel receptors."
+     ]
+    ],
+    [
+     "Matching the tectal results.",
+     [
+      "On slide 33 a brief 10 hertz pretectal train and a large moving object both reduced the negative components, and the suppression could continue after the conditioning ended.",
+      "Slide 39 notes NPY-containing pretectal projections near retinal terminals, and slide 36 shows the peptide reduces the same negative wave."
+     ]
+    ],
+    [
+     "Two timescales from one region.",
+     [
+      "The paired-pulse window on slide 31 matches a fast synaptic step, while the peptide's minutes-long action matches lasting suppression.",
+      "This division is a proposal built from the deck's results; the peptide's release during visual stimulation was not measured."
+     ]
+    ]
+   ],
+   "refs": [
+    "Schwippert WW, Ewert JP (1995). Effect of neuropeptide-Y on tectal field potentials in the toad. Brain Research 669(1):150–152. https://doi.org/10.1016/0006-8993(94)01260-O",
+    "Schwippert WW, Beneke TW, Ewert JP (1995). Pretecto-tectal influences. II. How retinal and pretectal inputs to the toad’s superficial tectum interact: a study of electrically evoked field potentials. Journal of Comparative Physiology A 176(2):181–192. https://doi.org/10.1007/BF00239921"
+   ]
+  },
+  {
+   "after": 40,
+   "footer_number": "40a",
+   "template_slide": 40,
+   "title": "DC biases excitability instead of timing spikes",
+   "body": [
+    "Pulse stimulation and direct current act on tissue differently. Ewert's 60 Hz trains and the 0.1 ms optic-nerve pulses imposed spikes at chosen moments, whereas a sustained current shifts the membrane potential of nearby neurons and glia slowly, making cells more or less likely to fire without dictating when.",
+    "McConville and Laming linked DC effects to **slow potential shifts**, sustained changes in extracellular voltage. The tectal shifts that accompany visual stimulation, and that pretectal lesions reduce, place slow potentials within normal visual processing in this circuit as well as in imposed current.",
+    "A biasing current suits the behavioral test. The worm-like object still supplied the timed visual input, so a change in the toad's choice reflects altered processing of a natural stimulus rather than an artificial movement command."
+   ],
+   "figure": {
+    "from_slide": 40,
+    "picture": "Google Shape;573;p40",
+    "caption": "McConville & Laming (2007), Fig. 1. Original colored behavioral chamber for visual and electrical stimulation."
+   },
+   "cite": "McConville & Laming (2007); Laming & Ewert (1983); Ewert (1970)",
+   "moves": [
+    "distinction",
+    "foundation",
+    "integration",
+    "method_logic"
+   ],
+   "integrates": [
+    8,
+    20,
+    22,
+    26,
+    40
+   ],
+   "cited_papers_used": [
+    "10.1002/dneu.20390",
+    "10.1016/0300-9629(83)90322-5",
+    "10.1159/000125462"
+   ],
+   "transcript": [
+    "The DC experiments on slide 40 differ from every earlier stimulation in the deck, and the difference shapes what the behavioral results can mean.",
+    [
+     "Pulses versus steady current.",
+     [
+      "A short pulse forces axons near the electrode to fire together at a known instant, which is why it was used to time tectal field components on slide 26.",
+      "A steady current polarizes membranes for as long as it flows, nudging cells toward or away from threshold while their spikes remain driven by other inputs."
+     ]
+    ],
+    [
+     "Slow potentials in both settings.",
+     [
+      "Slides 20 and 22 describe sustained potential shifts in the tectum during visual stimulation and their reduction after pretectal lesions.",
+      "McConville and Laming proposed that surface DC acts by generating comparable slow shifts, so the experiment manipulates a kind of signal the circuit already produces."
+     ]
+    ],
+    [
+     "What the behavioral test gains.",
+     [
+      "Prolonged 60 hertz stimulation on slide 8 evoked movements directly, so the stimulus itself became the trigger.",
+      "With DC, the trigger remains the moving prey-like object, and the measurement asks how pretectal bias changes the response to it."
+     ]
+    ]
+   ],
+   "refs": [
+    "McConville J, Laming PR (2007). DC electrical stimulation of the pretectal thalamus and its effects on the feeding behavior of the toad (Bufo bufo). Developmental Neurobiology 67(7):875–883. https://doi.org/10.1002/dneu.20390",
+    "Laming PR, Ewert JP (1983). The effects of pretectal lesions on neuronal, sustained potential shift and electroencephalographic responses of the toad tectum to presentation of a visual stimulus. Comparative Biochemistry and Physiology Part A: Physiology 76(2):247–252. https://doi.org/10.1016/0300-9629(83)90322-5",
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462"
+   ],
+   "paper_numbers": [
+    "60",
+    "0.1"
+   ]
+  },
+  {
+   "after": 44,
+   "footer_number": "44a",
+   "template_slide": 44,
+   "title": "Defense needs more current than feeding restraint",
+   "body": [
+    "Approach fell across a wide range of DC currents, while retreat and crouching appeared only at 100 μA and above. Two processes with different thresholds can produce this pattern: one that withholds feeding at modest pretectal activation, and one that releases defensive movement only when activation is strong.",
+    "Between the two thresholds lies a state in which the toad neither approaches nor escapes while arousal persists. Ewert's disc experiments contain a matching zone in stimulus space: orienting was nearly absent at 20°, yet avoidance became prominent only above 30°, leaving intermediate objects to release little of either.",
+    "Graded pretectal activity could therefore sort objects into three outcomes: catch, ignore and escape. A small prey object barely engages the restraint, an intermediate one withholds feeding, and a large one crosses the defensive threshold."
+   ],
+   "figure": {
+    "from_slide": 44,
+    "picture": "Google Shape;633;p44",
+    "caption": "McConville & Laming (2007), Fig. 7. Crouch responses emerge at high DC currents."
+   },
+   "cite": "McConville & Laming (2007); Ewert (1970)",
+   "moves": [
+    "mechanism",
+    "distinction",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    2,
+    41,
+    42,
+    43,
+    44
+   ],
+   "cited_papers_used": [
+    "10.1002/dneu.20390",
+    "10.1159/000125462"
+   ],
+   "transcript": [
+    "Slides 41 to 44 report four behavioral components across the same current range; their thresholds differ, and that difference separates restraint of feeding from recruitment of defense.",
+    [
+     "Two thresholds.",
+     [
+      "Approach declined well below 100 microamperes, whereas retreat and crouching were absent until that current was reached.",
+      "If one process did both jobs, the loss of approach and the appearance of defense should begin together; their separation points to two steps."
+     ]
+    ],
+    [
+     "A neutral zone.",
+     [
+      "On slide 42 arousal stays fairly constant, so in the intermediate current range the toad detects the object but neither approaches nor retreats.",
+      "Slide 2 contains a parallel in stimulus size: discs near 20 degrees released almost no orienting, while avoidance became prominent only above 30 degrees."
+     ]
+    ],
+    [
+     "Three outcomes.",
+     [
+      "A graded pretectal signal with two thresholds would give feeding for weak activation, inaction for moderate activation and defense for strong activation.",
+      "This sorting is an interpretation that joins the DC and disc results; neither study recorded pretectal activity during these choices."
+     ]
+    ]
+   ],
+   "refs": [
+    "McConville J, Laming PR (2007). DC electrical stimulation of the pretectal thalamus and its effects on the feeding behavior of the toad (Bufo bufo). Developmental Neurobiology 67(7):875–883. https://doi.org/10.1002/dneu.20390",
+    "Ewert JP (1970). Neural mechanisms of prey-catching and avoidance behavior in the toad (Bufo bufo L.). Brain, Behavior and Evolution 3(1–4):36–56. https://doi.org/10.1159/000125462"
+   ]
+  }
+ ],
+ "original_edits": [
+  {
+   "slide": 2,
+   "old": "The controlled objects separate stimulus size from actual predator identity. These responses establish a size-dependent behavioral distinction; they do not imply that every large object is recognized as a particular predator.",
+   "new": "The controlled objects separate stimulus size from actual predator identity. A single visual dimension is enough to switch the same moving disc from releasing prey capture to releasing escape, with the change occurring between about 20° and 30°."
+  },
+  {
+   "slide": 4,
+   "old": "The opposite effects of elongation require a relation between object dimensions and movement direction. Area alone cannot explain intact behavior, and the behavioral curves do not themselves identify the inhibitory neurons.",
+   "new": "The opposite effects of elongation require a relation between object dimensions and movement direction. Two bars of equal area can carry opposite prey value; the preferred one matches a crawling worm, whose body extends along its path."
+  },
+  {
+   "slide": 5,
+   "old": "The manipulation supplies a behavioral constraint on visual processing: nearby signals interact before the final movement is selected. It does not localize the interaction exclusively to retina, pretectum or tectum without a separate intervention.",
+   "new": "The manipulation supplies a behavioral constraint on visual processing: nearby signals interact before the final movement is selected. After pretectal and caudal thalamic lesions the same pairs summed instead, tying the interaction to the region that restrains catching."
+  },
+  {
+   "slide": 6,
+   "old": "Electrical stimulation establishes that activity introduced near these regions can recruit defensive motor behavior. Current can activate axons as well as nearby neurons, so a behavioral stimulation map does not identify a single specialized predator neuron.",
+   "new": "Electrical stimulation establishes that activity introduced near these regions can recruit defensive motor behavior. Each movement led away from the opposite side, so the avoidance region carries information about where a threat lies, as the tectum does for prey."
+  },
+  {
+   "slide": 7,
+   "old": "The stimulation bypasses normal stimulus classification but preserves a relation between brain location and movement direction. It supports a tectal contribution to visuomotor output; it does not establish that the tectum operates independently of pretectal inhibition or other brain regions.",
+   "new": "The stimulation bypasses normal stimulus classification but preserves a relation between brain location and movement direction. The tectum therefore holds the motor map that aims each catching act, and pretectal lesions later released these same turning and snapping movements toward unsuitable objects."
+  },
+  {
+   "slide": 8,
+   "old": "This reversible sequence is consistent with temporary loss of a restraining influence on prey capture. It does not establish whether the loss results from adaptation, transmitter depletion, altered ionic conditions or another consequence of sustained electrical activation.",
+   "new": "This reversible sequence is consistent with temporary loss of a restraining influence on prey capture. Behavior passed through the same mixed orienting and avoidance movements evoked at boundary stimulation sites, so catching and avoidance compete continuously rather than switching all at once."
+  },
+  {
+   "slide": 9,
+   "old": "The animals retained the motor capacity to orient and snap but lost normal restrictions on suitable targets. Because the lesions affected tissue and passing connections, they establish a regional contribution rather than the necessity of one transmitter or cell class.",
+   "new": "The animals retained the motor capacity to orient and snap but lost normal restrictions on suitable targets. Snapping at their own legs means the lesioned toads no longer excluded even their own moving body parts, a restriction the intact pretectal region normally supplies."
+  },
+  {
+   "slide": 10,
+   "old": "The spatial correspondence supports organized pretectal–tectal regulation rather than a completely uniform increase in movement. Extensive lesions nevertheless combine loss of inputs, local neurons and connections, limiting assignment of the effect to an isolated synapse.",
+   "new": "The spatial correspondence supports organized pretectal–tectal regulation rather than a completely uniform increase in movement. Large rostral thalamic lesions did not produce the same syndrome, so the release depends on where the damage lies and not on brain surgery as such."
+  },
+  {
+   "slide": 11,
+   "old": "The lost distinction supports a contribution of the damaged pathway to rejecting unsuitable configurations. It does not mean that the retina has ceased detecting motion or that every surviving tectal neuron has become equally responsive to all stimuli.",
+   "new": "The lost distinction supports a contribution of the damaged pathway to rejecting unsuitable configurations. Without it, a bar elongated across its motion became more attractive as it grew, so the lesioned toad treated larger moving objects as better prey."
+  },
+  {
+   "slide": 12,
+   "old": "The lesion changed how multiple visible targets competed for behavior. The result supports a central inhibitory contribution to spatial filtering, but it does not determine whether the relevant normal interaction is carried by a direct pretectal projection or by an intervening network.",
+   "new": "The lesion changed how multiple visible targets competed for behavior. The same lesions also removed suppression by vertical elongation, so one damaged region released two separate restrictions on what the toad attacks: object configuration and nearby competing objects."
+  },
+  {
+   "slide": 13,
+   "old": "The behavioral change connects the lesioned region to the time-dependent regulation of prey-catching. Habituation measured as turning behavior does not by itself distinguish retinal adaptation, tectal response changes, motivational changes and pretectal inhibition.",
+   "new": "The behavioral change connects the lesioned region to the time-dependent regulation of prey-catching. An intact toad stops orienting toward a dummy that keeps moving without being caught, whereas the lesioned toad keeps returning to it."
+  },
+  {
+   "slide": 14,
+   "old": "The sequential interventions support regulation through an inhibitory intermediate, but the full lesion sequence also indicated additional forebrain influences. These regional operations cannot establish a complete two-node circuit or identify the transmitter linking forebrain activity to pretectal restraint.",
+   "new": "The sequential interventions support regulation through an inhibitory intermediate, but the full lesion sequence also indicated additional forebrain influences. Forebrain activity normally restrains the pretectal region, so its removal leaves pretectal restraint of catching and pretectal drive of avoidance unopposed."
+  },
+  {
+   "slide": 15,
+   "old": "Ingle compared these responses after pretectal lesions associated with disinhibited pursuit. The category describes measured visual response properties, not a molecularly defined cell type or a demonstrated neurotransmitter identity shared by every cell.",
+   "new": "Ingle compared these responses after pretectal lesions associated with disinhibited pursuit. He proposed that the rapid habituation of these tectal cells underlies the frog's behavioral habituation when the same prey object moves repeatedly."
+  },
+  {
+   "slide": 16,
+   "old": "The persistence separates response regulation from simple tracking of instantaneous motion. The lesion results support a normal pretectal restraint on tectal responsiveness, but they do not identify whether the long discharge is generated by intrinsic currents or recurrent network activity.",
+   "new": "The persistence separates response regulation from simple tracking of instantaneous motion. In the lesioned frog a bug-like object no longer fades from the tectal response, paralleling the frog's failure to ignore moving prey-like stimuli after the operation."
+  },
+  {
+   "slide": 17,
+   "old": "Receptive-field enlargement is consistent with removal of inhibition that normally limits effective visual input. Extracellular spike recordings, which detect neuronal action potentials outside the cell, do not establish the membrane conductance or circuit connection responsible for the enlargement.",
+   "new": "Receptive-field enlargement is consistent with removal of inhibition that normally limits effective visual input. A wider field allows each cell to respond to objects across more of visual space, so a single moving stimulus can drive a larger set of tectal neurons."
+  },
+  {
+   "slide": 18,
+   "old": "The retinal comparison argues against a purely peripheral explanation for the loss of tectal habituation. It supports central regulation of responsiveness, while leaving open the contributions of different pretectal connections and local tectal inhibitory circuitry.",
+   "new": "The retinal comparison argues against a purely peripheral explanation for the loss of tectal habituation. The suppression that normally makes tectal cells ignore a repeated object is therefore added centrally, between the retinal input and the tectal output."
+  },
+  {
+   "slide": 19,
+   "old": "Maintaining the unit provides a stronger comparison than replacing it with an unrelated post-lesion cell. Only preparations retaining suitable recordings support that comparison, and the knife cut still affects a regional set of connections.",
+   "new": "Maintaining the unit provides a stronger comparison than replacing it with an unrelated post-lesion cell. Each recorded neuron serves as its own control, so a change in its response to the same three objects reflects the cut rather than differences between cells."
+  },
+  {
+   "slide": 20,
+   "old": "These signals depend on different spatial and temporal properties of electrical activity. A stronger single-unit discharge can coexist with a smaller population field; field amplitude cannot be read as the firing rate of every neuron in the region.",
+   "new": "These signals depend on different spatial and temporal properties of electrical activity. Spikes report the output of one neuron, whereas slow fields sum synaptic currents across many cells, so a stronger single-unit discharge can coexist with a smaller population field."
+  },
+  {
+   "slide": 21,
+   "old": "These measurements support removal of a restraining influence on tectal responsiveness. Because the toad was immobilized, the increases are not simply the consequence of additional prey-catching movements during the recording, but the precise inhibitory connection remains unresolved.",
+   "new": "These measurements support removal of a restraining influence on tectal responsiveness. With the toad immobilized, the increases arise within the visual pathway itself and not from additional prey-catching movements during the recording."
+  },
+  {
+   "slide": 22,
+   "old": "The experiment rejects a simple equivalence between field amplitude and neuronal excitation. It does not independently establish which changes in synchrony, current geometry or ionic redistribution caused the reduced population signals.",
+   "new": "The experiment rejects a simple equivalence between field amplitude and neuronal excitation. For prey capture the unit discharge is the more relevant measure, since tectal spikes travel to the motor circuits that aim orienting and snapping."
+  },
+  {
+   "slide": 23,
+   "old": "The common lesion effect was a longer period of responsiveness, while firing-rate effects depended on preparation. Sustained activity can therefore contribute to inappropriate catching without requiring the same increase in spikes/s reported in immobilized animals; correlation with movement alone does not prove a unit commands the response.",
+   "new": "The common lesion effect was a longer period of responsiveness, while firing-rate effects depended on preparation. Sustained activity can therefore contribute to inappropriate catching without requiring the same increase in spikes/s reported in immobilized animals."
+  },
+  {
+   "slide": 24,
+   "old": "The neuronal and behavioral changes support a contribution of pretectal connections to selective response restriction. An increased EEG frequency is a population rhythm measurement, distinct from spikes/s, and it does not identify a particular inhibitory transmitter or direct pretectal synapse.",
+   "new": "The neuronal and behavioral changes support a contribution of pretectal connections to selective response restriction. Once antiworm bars drive tectal units as worm-like bars do, the toad's catching circuits receive no signal that separates prey from nonprey configurations."
+  },
+  {
+   "slide": 25,
+   "old": "Excitability, the tendency to produce spikes, and selectivity, the distinction between stimulus configurations, are different properties. A regional increase in responsiveness does not establish that a neuron has lost the filtering necessary to reject nonprey.",
+   "new": "Excitability, the tendency to produce spikes, and selectivity, the distinction between stimulus configurations, are different properties. Cuts that raised firing but kept selectivity did not release catching, so target choice follows the tectal distinction between configurations."
+  },
+  {
+   "slide": 26,
+   "old": "Bypassing the retinal image permits an analysis of input timing and interactions without changing object size or shape. Electrical activation does not reproduce a natural visual spike pattern, and a surface field potential reports population currents rather than one identified neuron’s membrane voltage.",
+   "new": "Bypassing the retinal image permits an analysis of input timing and interactions without changing object size or shape. A single pulse fires many optic axons at the same instant, producing a synchronized volley whose tectal effects can be timed to the millisecond."
+  },
+  {
+   "slide": 27,
+   "old": "The timing permits selective comparison of an early retinotectal response with later activity. These wave labels describe measured extracellular polarities and latencies; they are not names of receptor types, channels or single identified synaptic connections.",
+   "new": "The timing permits selective comparison of an early retinotectal response with later activity. The interval between the presynaptic deflection and N1 onset includes synaptic delay, so N1 is the first wave generated by tectal cells receiving retinal input."
+  },
+  {
+   "slide": 28,
+   "old": "A current sink is a region where extracellular current enters cells; a source is a region where it returns outward. The depth dependence prevents equating a negative extracellular wave directly with membrane inhibition, excitation or a particular ionic conductance without additional physiological evidence.",
+   "new": "A current sink is a region where extracellular current enters cells; a source is a region where it returns outward. Excitatory synapses on superficial dendrites form a sink near the surface while current returns through deeper parts of the same cells, so one synaptic event yields opposite polarities at different depths."
+  },
+  {
+   "slide": 29,
+   "old": "The spatial distribution supports an organized pretectal influence on the tectal map. Activation of tissue near the marked site does not by itself distinguish a direct inhibitory projection from recruitment of an excitatory input that activates a tectal inhibitory relay.",
+   "new": "The spatial distribution supports an organized pretectal influence on the tectal map. Recording on the same nine-site grid used for optic-nerve responses allows pretectal and retinal effects to be compared at matching map positions, the arrangement needed to test how the inputs interact."
+  },
+  {
+   "slide": 30,
+   "old": "The side-dependent difference is consistent with different routes or local circuit recruitment by the two inputs. Extracellular polarity alone cannot establish a particular inhibitory receptor, prove that no excitatory cells are involved, or identify a single commissural connection as the entire pathway.",
+   "new": "The side-dependent difference is consistent with different routes or local circuit recruitment by the two inputs. Each pretectum therefore acts on the two tecta in different ways, so pretectal activity on one side shapes tectal responses on both sides of the brain."
+  },
+  {
+   "slide": 31,
+   "old": "The narrow effective interval supports a timed neural interaction rather than a permanent loss of retinal input. It does not mean that visual avoidance starts exactly 20 ms after a predator appears or that a single inhibitory synapse accounts for the population effect.",
+   "new": "The narrow effective interval supports a timed neural interaction rather than a permanent loss of retinal input. Pretectal activity suppresses retinal input to the tectum most strongly during a brief period after it begins, an inhibitory window measured in tens of milliseconds."
+  },
+  {
+   "slide": 32,
+   "old": "The interaction therefore depends on both the timing and the recruited input population. Selective attenuation supports circuit regulation rather than uniform elimination of all tectal activity, but the recordings cannot assign each component to one chemically identified neuron class.",
+   "new": "The interaction therefore depends on both the timing and the recruited input population. Selective attenuation supports circuit regulation rather than uniform elimination of all tectal activity: a strong retinal input recruits later components that become further targets of pretectal suppression."
+  },
+  {
+   "slide": 33,
+   "old": "The visual effect links the electrical interaction to a natural route of sensory activation. A large moving object can recruit several retinal and central pathways, so similar field suppression does not prove that visual and electrical conditioning use exactly the same cells.",
+   "new": "The visual effect links the electrical interaction to a natural route of sensory activation. Large moving objects, the stimuli that release avoidance, thereby reduce the tectal signal on which prey-catching depends, as pretectal stimulation does."
+  },
+  {
+   "slide": 34,
+   "old": "The controls weaken a simple shared-pathway adaptation explanation and the possibility that pretectal current merely spreads to the adjacent optic tract. They support a pathway-specific interaction without excluding every possible form of network adaptation.",
+   "new": "The controls weaken a simple shared-pathway adaptation explanation and the possibility that pretectal current merely spreads to the adjacent optic tract. Suppression of N1 therefore depends on activity arriving from the pretectum, not on prior use of the retinotectal pathway."
+  },
+  {
+   "slide": 35,
+   "old": "The population recordings support an inhibitory influence at the network level. They do not distinguish every synaptic step, establish which interneuron releases a transmitter, or directly measure an identified receptor-mediated inhibitory current.",
+   "new": "The population recordings support an inhibitory influence at the network level. Anatomy fits a presynaptic route for one candidate signal: NPY-containing pretectal projections reach the superficial tectum near retinal terminals."
+  },
+  {
+   "slide": 36,
+   "old": "Local NPY is therefore sufficient to attenuate a measured retinotectal population response under these conditions. Its effect does not establish that endogenous NPY is necessary for prey rejection or that a physiological release event reaches the applied concentration.",
+   "new": "Local NPY is therefore sufficient to attenuate a measured retinotectal population response under these conditions. The peptide reduced the same negative component that pretectal electrical conditioning suppresses, linking a pretectal transmitter candidate to the timed interaction."
+  },
+  {
+   "slide": 37,
+   "old": "The comparisons support a reversible peptide-dependent effect rather than irreversible destruction of the retinal input. They do not identify a receptor subtype, measure peptide clearance directly, or establish that the partial recovery corresponds to a normal behavioral recovery process.",
+   "new": "The comparisons support a reversible peptide-dependent effect rather than irreversible destruction of the retinal input. The Ringer comparison places the cause in the NPY molecule rather than in pressure, flow or dilution from the pipette."
+  },
+  {
+   "slide": 38,
+   "old": "Similarity of the affected component supports a possible relation between peptide modulation and pretectal regulation. Different delivery conditions prevent equating the pharmacological time course with the latency of a naturally occurring synaptic inhibitory event.",
+   "new": "Similarity of the affected component supports a possible relation between peptide modulation and pretectal regulation. Both interventions reduced the negative wave while leaving positive components less affected, so they act on the same stage of retinotectal transmission."
+  },
+  {
+   "slide": 39,
+   "old": "The study did not establish a particular NPY receptor subtype, demonstrate endogenous peptide release during avoidance, or block an identified ion channel to test its necessity. A candidate transmitter and a demonstrated complete synaptic mechanism are different levels of explanation.",
+   "new": "Presynaptic inhibition at retinal terminals would reduce transmitter release from optic axons, shrinking the negative wave generated by tectal cells while leaving the incoming axonal volley intact. The initial component, which NPY affected much less, fits that account."
+  },
+  {
+   "slide": 40,
+   "old": "The experiment tested whether stimulation could bias an intact behaving animal away from prey approach and toward defensive actions. Surface current is not selective for one neuron class, and changes in behavior cannot alone establish whether a particular pretectal cell population increased its firing.",
+   "new": "The experiment tested whether stimulation could bias an intact behaving animal away from prey approach and toward defensive actions. Lesions had removed pretectal restraint; added current tests the converse prediction, that raising pretectal activity should strengthen restraint of feeding."
+  },
+  {
+   "slide": 41,
+   "old": "The overall reduction is consistent with a pretectal influence that restrains feeding-related actions. The nonmonotonic endpoint prevents describing the relation as a perfectly graded suppression, and an approach movement by itself does not establish the animal’s recognition of the object as edible.",
+   "new": "The overall reduction is consistent with a pretectal influence that restrains feeding-related actions. The authors attributed the small rise at 300 μA to movement accompanying a defensive stance, the current at which retreat and crouching were most frequent."
+  },
+  {
+   "slide": 42,
+   "old": "The dissociation argues against treating reduced approach as complete visual unresponsiveness or generalized paralysis. It does not prove that sensation was unchanged in every respect, and it does not establish whether current altered perception, action selection, motivation or several processes together.",
+   "new": "The dissociation argues against treating reduced approach as complete visual unresponsiveness or generalized paralysis. Arousal opens the feeding sequence of arousal, orientation, approach, fixation and snapping, so pretectal current acts after detection, at the step that commits the toad to pursuit."
+  },
+  {
+   "slide": 43,
+   "old": "The result supports a stimulation-dependent change in the action released by a constant visual stimulus. It does not show that the toad recognized an actual predator, and the current threshold should not be treated as a natural pretectal firing threshold.",
+   "new": "The result supports a stimulation-dependent change in the action released by a constant visual stimulus. A prey-sized object that normally draws the toad forward instead drove it backward, the response Ewert's toads gave to large moving discs."
+  },
+  {
+   "slide": 44,
+   "old": "The coordinated behavioral changes support a shift toward defensive responding rather than a simple uniform reduction of all movement. They do not establish that the pretectal Lpd region contains a single command neuron for crouching or that current selectively activated a naturally defined predator pathway.",
+   "new": "The coordinated behavioral changes support a shift toward defensive responding rather than a simple uniform reduction of all movement. Crouching resembles the ducking that Ewert evoked by electrically stimulating pretectal and caudal thalamic sites."
+  },
+  {
+   "slide": 45,
+   "old": "The experiment did not directly measure potassium redistribution, glial currents, TH3-cell firing or a particular potassium channel. The ion-based account is an explanatory hypothesis for a measured behavioral change, rather than an established molecular sequence for predator avoidance.",
+   "new": "In potassium spatial buffering, glial cells take up potassium where neurons release it and discharge it elsewhere through their processes. Altering that redistribution would change how readily pretectal neurons reach threshold, and with it their restraint of tectal feeding activity."
+  }
+ ]
+}
