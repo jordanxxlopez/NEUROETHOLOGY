@@ -1,27 +1,44 @@
 {
-  "adult": {
-    "pages": 22,
-    "sha256": "0c2fd8152532159af9bfb5afa04ac2633fbfcfa0f599a29cb9f19f93c579983f",
-    "reference": "Bob Jacobs, Tessa Harland, Deborah Kennedy, Matthew Schall, Bridget Wicinski, Camilla Butti, Patrick R. Hof, Chet C. Sherwood, Paul R. Manger (2015). The neocortex of cetartiodactyls. II. Neuronal morphology of the visual and motor cortices in the giraffe (Giraffa camelopardalis). Brain Structure and Function 220: 2851-2872. https://doi.org/10.1007/s00429-014-0830-9"
-  },
-  "retina": {
-    "pages": 16,
-    "sha256": "c8093410c36a196fc55383dfb759e905a8cca92c70edcc519c9038310c2105ca",
-    "reference": "João Paulo Coimbra, Nathan S. Hart, Shaun P. Collin, Paul R. Manger (2013). Scene from above: Retinal ganglion cell topography and spatial resolving power in the giraffe (Giraffa camelopardalis). Journal of Comparative Neurology 521: 2042-2057. https://doi.org/10.1002/cne.23271"
-  },
-  "mobility": {
-    "pages": 25,
-    "sha256": "4a49972b79b1226d3497378077a5bd04363ce8f189f069cb0acff2aebe080980",
-    "reference": "Daniel Vidal, Pedro Mocho, Adrián Páramo, José Luis Sanz, Francisco Ortega (2020). Ontogenetic similarities between giraffe and sauropod neck osteological mobility. PLOS ONE 15: e0227537. https://doi.org/10.1371/journal.pone.0227537"
-  },
-  "newborn": {
-    "pages": 31,
-    "sha256": "531a5a50fa8efe2ce379c4f91ee7826414f87a213364c5b623713bae0b28b17f",
-    "reference": "Bob Jacobs, Laura Lee, Matthew Schall, Mary Ann Raghanti, Albert H. Lewandowski, Jack J. Kottwitz, John F. Roberts, Patrick R. Hof, Chet C. Sherwood (2016). Neocortical neuronal morphology in the newborn giraffe (Giraffa camelopardalis tippelskirchi) and African elephant (Loxodonta africana). Journal of Comparative Neurology 524: 257-287. https://doi.org/10.1002/cne.23841"
-  },
   "brain": {
+    "doi": "10.1002/ar.23593",
     "pages": 10,
     "sha256": "b0b0126c795059f91e39ba89bb0685d2afd1526fb1e2b8e1a9e0efbf1d6695d1",
-    "reference": "Jean‐Marie Graïc, Antonella Peruffo, Cristina Ballarin, Bruno Cozzi (2017). The Brain of the Giraffe ( Giraffa Camelopardalis ): Surface Configuration, Encephalization Quotient, and Analysis of the Existing Literature. The Anatomical Record 300: 1502-1511. https://doi.org/10.1002/ar.23593"
+    "origin": "instructor upload"
+  },
+  "adult": {
+    "doi": "10.1007/s00429-014-0830-9",
+    "pages": 22,
+    "sha256": "0c2fd8152532159af9bfb5afa04ac2633fbfcfa0f599a29cb9f19f93c579983f",
+    "origin": "instructor upload"
+  },
+  "newborn": {
+    "doi": "10.1002/cne.23841",
+    "pages": 31,
+    "sha256": "531a5a50fa8efe2ce379c4f91ee7826414f87a213364c5b623713bae0b28b17f",
+    "origin": "instructor upload"
+  },
+  "retina": {
+    "doi": "10.1002/cne.23271",
+    "pages": 16,
+    "sha256": "c8093410c36a196fc55383dfb759e905a8cca92c70edcc519c9038310c2105ca",
+    "origin": "instructor upload"
+  },
+  "mobility": {
+    "doi": "10.1371/journal.pone.0227537",
+    "pages": 25,
+    "sha256": "4a49972b79b1226d3497378077a5bd04363ce8f189f069cb0acff2aebe080980",
+    "origin": "open-access journal download"
+  },
+  "spinal": {
+    "doi": "10.1016/j.neuroscience.2007.06.005",
+    "pages": 13,
+    "sha256": "95025d50d62c26846cf673c279f25c1823000934400de4bcb651cc69af0b85ec",
+    "origin": "instructor upload"
+  },
+  "muscle": {
+    "doi": "10.1016/s0940-9602(97)80055-6",
+    "pages": 5,
+    "sha256": "eda2f089f885373d91e9c3d173659d80959ef1d5b1fb575a03fd543c6cadacf3",
+    "origin": "instructor upload"
   }
 }
