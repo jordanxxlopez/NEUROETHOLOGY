@@ -1,0 +1,1238 @@
+{
+  "lecture": 66,
+  "theme": "dusty-red-paper",
+  "content_slides": 44,
+  "title_height": 2.8,
+  "title_image": {
+    "path": "figures/panda.png",
+    "kind": "article",
+    "caption": "Zhou et al. (2023), Fig. 1(a). Giant panda feeding on bamboo; original photograph by Bo Luo",
+    "source_url": "https://doi.org/10.3390/ani13060979"
+  },
+  "title_refs": [
+    "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979"
+  ],
+  "slides": [
+    {
+      "title": "Solitary pandas exchange information through scent",
+      "layout": "figure-right",
+      "body": [
+        "Giant pandas, _Ailuropoda melanoleuca_, live largely apart, yet neighboring animals can use the same scent-marking sites. **Chemical communication** occurs when substances deposited by one animal influence another animal's behavior. A marked tree can retain information after the sender leaves.",
+        "Camera traps in Wolong recorded gland marking, urine marking, and subsequent olfactory investigation at the same site. These actions connect signal production with active sampling by a receiver, rather than requiring the two pandas to meet face to face.",
+        "Controlled odor presentations complement these field observations. Pandas repeatedly inspected conspecific scents and changed their investigation after encountering a different donor's secretion. Persistent environmental odors therefore support social assessment within a largely solitary lifestyle."
+      ],
+      "cite": "Hou et al. (2024); Swaisgood et al. (1999)",
+      "refs": [
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051",
+        "Swaisgood RR, Lindburg DG, Zhou X (1999). Giant pandas discriminate individual differences in conspecific scent. Animal Behaviour 57: 1045–1053. https://doi.org/10.1006/anbe.1998.1070"
+      ],
+      "transcript": [
+        "Giant pandas, Ailuropoda melanoleuca, live largely apart, yet neighboring animals can use the same scent-marking sites. Chemical communication occurs when substances deposited by one animal influence another animal's behavior. A marked tree can retain information after the sender leaves.",
+        "Camera traps in Wolong recorded gland marking, urine marking, and subsequent olfactory investigation at the same site. These actions connect signal production with active sampling by a receiver, rather than requiring the two pandas to meet face to face.",
+        "Controlled odor presentations complement these field observations. Pandas repeatedly inspected conspecific scents and changed their investigation after encountering a different donor's secretion. Persistent environmental odors therefore support social assessment within a largely solitary lifestyle.",
+        "The sender leaves material on a surface, and the receiver later investigates that surface. The behavioral experiments tested whether this information differed between donors. The response was measured as time spent investigating an odor, making chemical communication measurable without requiring direct contact between animals."
+      ],
+      "figure": {
+        "path": "figures/field_photos.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 1(A–C). Gland marking, urine marking, and investigation at the same tree",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Gland secretions and urine mix at shared marking sites",
+      "layout": "figure-right",
+      "body": [
+        "**Anogenital gland secretions** are substances released from glands near the anus and genital region. Pandas place these secretions on surfaces by rubbing the gland area against them. Urine provides another source of chemical information at many of the same locations.",
+        "Hou and colleagues sampled marked tree bark during the mating season in Wolong. Camera recordings documented different deposition postures at a shared tree, including gland contact and raised urine marking. The receiver encounters the resulting surface mixture.",
+        "Laboratory odor tests can separate urine from gland secretions, whereas wild bark contains their combined products plus environmental contributions. This difference connects a controlled response to a single scent type with the richer chemical substrate encountered during natural social investigation."
+      ],
+      "cite": "Hou et al. (2024); White et al. (2002)",
+      "refs": [
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051",
+        "White AM, Swaisgood RR, Zhang H (2002). The highs and lows of chemical communication in giant pandas (Ailuropoda melanoleuca): effect of scent deposition height on signal discrimination. Behavioral Ecology and Sociobiology 51: 519–529. https://doi.org/10.1007/s00265-002-0473-3"
+      ],
+      "transcript": [
+        "Anogenital gland secretions are substances released from glands near the anus and genital region. Pandas place these secretions on surfaces by rubbing the gland area against them. Urine provides another source of chemical information at many of the same locations.",
+        "Hou and colleagues sampled marked tree bark during the mating season in Wolong. Camera recordings documented different deposition postures at a shared tree, including gland contact and raised urine marking. The receiver encounters the resulting surface mixture.",
+        "Laboratory odor tests can separate urine from gland secretions, whereas wild bark contains their combined products plus environmental contributions. This difference connects a controlled response to a single scent type with the richer chemical substrate encountered during natural social investigation.",
+        "White and colleagues mimicked deposition by placing male urine at ground level or 1.0 m above it, and gland secretions at ground level or 0.5 m. Those heights corresponded to observed postures. A field sample represents the accumulated material at the site rather than a purified gland secretion."
+      ],
+      "figure": {
+        "path": "figures/field.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 1(A–C). Wild scent marking and investigation at a Wolong marking site",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Olfactory receptors span the membrane seven times",
+      "layout": "figure-right",
+      "body": [
+        "An **olfactory receptor** is a membrane protein involved in detecting odor molecules. Mammalian olfactory receptors belong to the G protein-coupled receptor family, whose proteins cross the cell membrane seven times and communicate with intracellular signaling proteins.",
+        "Zhou and colleagues searched the chromosome-level panda genome for receptor sequences and predicted their structural features. Transmembrane helices, segments that pass through the membrane, were among the features used to characterize these receptor proteins.",
+        "Receptor diversity provides a molecular basis for recognizing chemically varied stimuli. A single odor molecule can interact with several receptor types, and a receptor can respond to several molecules. Odor identity consequently depends on combinations of receptor interactions rather than one receptor representing one social message."
+      ],
+      "cite": "Zhou et al. (2023)",
+      "refs": [
+        "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979"
+      ],
+      "transcript": [
+        "An olfactory receptor is a membrane protein involved in detecting odor molecules. Mammalian olfactory receptors belong to the G protein-coupled receptor family, whose proteins cross the cell membrane seven times and communicate with intracellular signaling proteins.",
+        "Zhou and colleagues searched the chromosome-level panda genome for receptor sequences and predicted their structural features. Transmembrane helices, segments that pass through the membrane, were among the features used to characterize these receptor proteins.",
+        "Receptor diversity provides a molecular basis for recognizing chemically varied stimuli. A single odor molecule can interact with several receptor types, and a receptor can respond to several molecules. Odor identity consequently depends on combinations of receptor interactions rather than one receptor representing one social message.",
+        "A G protein-coupled receptor connects molecular recognition at the membrane with signaling inside the sensory cell. The panda study analyzed sequences and predicted structural features, rather than recording odor-evoked currents. Its receptor classification supplies the molecular inventory for subsequent functional tests."
+      ],
+      "figure": {
+        "path": "figures/protein.png",
+        "kind": "article",
+        "caption": "Zhou et al. (2023), Fig. 2. Predicted receptor helices, accessibility, and sequence features",
+        "source_url": "https://doi.org/10.3390/ani13060979"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "The receptor repertoire contains intact and disrupted genes",
+      "layout": "figure-right",
+      "body": [
+        "The panda genome search identified 639 olfactory receptor sequences. Of these, 408 were classified as functional genes, 94 as partial genes, and 137 as **pseudogenes**, sequences disrupted by premature stop codons or shifts in the reading frame.",
+        "A reading frame determines how groups of nucleotide bases encode amino acids. A frameshift changes those groups, while a premature stop interrupts protein synthesis. The authors used these sequence features to distinguish disrupted genes from predicted full-length receptor genes.",
+        "The intact repertoire retains many potential receptor proteins despite the panda's specialized bamboo diet. Its mixture of conserved receptors and disrupted sequences records evolutionary change within the sensory system. Genomic classification identifies candidate proteins for testing how pandas detect food odors and social secretions."
+      ],
+      "cite": "Zhou et al. (2023)",
+      "refs": [
+        "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979"
+      ],
+      "transcript": [
+        "The panda genome search identified 639 olfactory receptor sequences. Of these, 408 were classified as functional genes, 94 as partial genes, and 137 as pseudogenes, sequences disrupted by premature stop codons or shifts in the reading frame.",
+        "A reading frame determines how groups of nucleotide bases encode amino acids. A frameshift changes those groups, while a premature stop interrupts protein synthesis. The authors used these sequence features to distinguish disrupted genes from predicted full-length receptor genes.",
+        "The intact repertoire retains many potential receptor proteins despite the panda's specialized bamboo diet. Its mixture of conserved receptors and disrupted sequences records evolutionary change within the sensory system. Genomic classification identifies candidate proteins for testing how pandas detect food odors and social secretions.",
+        "The word functional here is the authors' sequence-based classification. It means the sequence met their criteria for an intact receptor, including sufficient length. The study did not experimentally measure every receptor. Partial sequences were treated separately because assembly or gene fragmentation can complicate their interpretation."
+      ],
+      "figure": {
+        "path": "figures/protein.png",
+        "kind": "article",
+        "caption": "Zhou et al. (2023), Fig. 2. Predicted receptor helices, accessibility, and sequence features",
+        "source_url": "https://doi.org/10.3390/ani13060979"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Class II receptors dominate the panda repertoire",
+      "layout": "figure-right",
+      "body": [
+        "A **phylogenetic tree** groups sequences according to their evolutionary relationships. Zhou and colleagues compared panda receptor proteins and assigned 345 functional sequences to Class II and 63 to Class I.",
+        "Class I and Class II are major evolutionary branches of vertebrate olfactory receptors. Class II receptors are particularly prominent in terrestrial mammals, whose olfactory systems sample molecules carried in air. The panda's receptor repertoire shares this terrestrial organization.",
+        "A scent mark contains multiple volatile compounds, molecules capable of entering the surrounding air. The predominance of Class II sequences is consistent with this chemical environment. Receptor class describes evolutionary affinity; precise sensitivity to a panda scent compound requires an odor-response measurement."
+      ],
+      "cite": "Zhou et al. (2023)",
+      "refs": [
+        "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979"
+      ],
+      "transcript": [
+        "A phylogenetic tree groups sequences according to their evolutionary relationships. Zhou and colleagues compared panda receptor proteins and assigned 345 functional sequences to Class II and 63 to Class I.",
+        "Class I and Class II are major evolutionary branches of vertebrate olfactory receptors. Class II receptors are particularly prominent in terrestrial mammals, whose olfactory systems sample molecules carried in air. The panda's receptor repertoire shares this terrestrial organization.",
+        "A scent mark contains multiple volatile compounds, molecules capable of entering the surrounding air. The predominance of Class II sequences is consistent with this chemical environment. Receptor class describes evolutionary affinity; precise sensitivity to a panda scent compound requires an odor-response measurement.",
+        "The blue and green branches are original colors in the published sequence tree. Class membership was derived from protein relationships. The study connects this classification to the general terrestrial distribution of receptor classes, while recognizing that individual receptor ligands need separate experimental characterization."
+      ],
+      "figure": {
+        "path": "figures/receptor_tree.png",
+        "kind": "article",
+        "caption": "Zhou et al. (2023), Fig. 4. Class I and Class II receptor sequence relationships",
+        "source_url": "https://doi.org/10.3390/ani13060979"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Receptor genes occupy clusters across chromosomes",
+      "layout": "figure-right",
+      "body": [
+        "A **chromosome** is a long DNA molecule carrying genes. Functional olfactory receptor genes in the panda occur at multiple chromosomal locations, often in neighboring groups. Such a group is a gene cluster, rather than a distinct brain region.",
+        "Zhou and colleagues mapped receptor positions using the chromosome-level assembly. Among the chromosomally assigned sequences, chromosomes 8 and 16 contained especially dense receptor distributions. The map preserves both gene position and chromosome scale in megabases, where 1 megabase is one million DNA bases.",
+        "Clustered organization provides genomic context for receptor diversification. Related receptors can occupy neighboring positions while differing in protein sequence. This distributed gene inventory supports a diverse sensory repertoire through changes in genes, not through a single chromosome acting as an odor detector."
+      ],
+      "cite": "Zhou et al. (2023)",
+      "refs": [
+        "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979"
+      ],
+      "transcript": [
+        "A chromosome is a long DNA molecule carrying genes. Functional olfactory receptor genes in the panda occur at multiple chromosomal locations, often in neighboring groups. Such a group is a gene cluster, rather than a distinct brain region.",
+        "Zhou and colleagues mapped receptor positions using the chromosome-level assembly. Among the chromosomally assigned sequences, chromosomes 8 and 16 contained especially dense receptor distributions. The map preserves both gene position and chromosome scale in megabases, where 1 megabase is one million DNA bases.",
+        "Clustered organization provides genomic context for receptor diversification. Related receptors can occupy neighboring positions while differing in protein sequence. This distributed gene inventory supports a diverse sensory repertoire through changes in genes, not through a single chromosome acting as an odor detector.",
+        "The chromosome table distinguishes functional receptor genes from total receptor sequences at each position. Unassigned genomic fragments also contain receptor sequences, so the chromosomally mapped subset and the complete inventory are different quantities. The map locates neighboring genes along the chromosome rather than identifying where their receptor proteins operate in the brain."
+      ],
+      "figure": {
+        "path": "figures/chromosomes.png",
+        "kind": "article",
+        "caption": "Zhou et al. (2023), Fig. 3. Chromosomal positions of functional olfactory receptor genes",
+        "source_url": "https://doi.org/10.3390/ani13060979"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Pandas retain shared and lineage-specific receptor families",
+      "layout": "figure-right",
+      "body": [
+        "A receptor **gene family** groups related sequences that descended from common ancestral genes. Zhou and colleagues clustered receptor proteins from pandas and other bears according to amino acid similarity, comparing shared groups with groups restricted to particular lineages.",
+        "The panda retained many receptor clusters shared with other bears and also had 31 clusters classified as unique in this comparison. Thus, dietary specialization coexists with both conserved and lineage-specific elements of the olfactory repertoire.",
+        "Shared sequences can preserve common molecular functions, while sequence divergence provides candidates for changed odor recognition. The observed combination supports studying both general bear olfaction and panda-specific chemical ecology. A lineage-specific sequence cluster is a genetic category, rather than proof of a receptor for a particular reproductive signal."
+      ],
+      "cite": "Zhou et al. (2023)",
+      "refs": [
+        "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979"
+      ],
+      "transcript": [
+        "A receptor gene family groups related sequences that descended from common ancestral genes. Zhou and colleagues clustered receptor proteins from pandas and other bears according to amino acid similarity, comparing shared groups with groups restricted to particular lineages.",
+        "The panda retained many receptor clusters shared with other bears and also had 31 clusters classified as unique in this comparison. Thus, dietary specialization coexists with both conserved and lineage-specific elements of the olfactory repertoire.",
+        "Shared sequences can preserve common molecular functions, while sequence divergence provides candidates for changed odor recognition. The observed combination supports studying both general bear olfaction and panda-specific chemical ecology. A lineage-specific sequence cluster is a genetic category, rather than proof of a receptor for a particular reproductive signal.",
+        "The comparison included the giant panda, spectacled bear, and four species in the genus Ursus. Sequence similarity determined cluster membership. Shared clusters reflect evolutionary conservation, whereas the panda-specific clusters provide candidate targets for future ligand tests without already assigning them to particular scents."
+      ],
+      "figure": {
+        "path": "figures/receptor_overlap.png",
+        "kind": "article",
+        "caption": "Zhou et al. (2023), Fig. 5(a–b). Shared and lineage-specific receptor gene clusters in bears",
+        "source_url": "https://doi.org/10.3390/ani13060979"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Conserved motifs preserve receptor protein organization",
+      "layout": "figure-right",
+      "body": [
+        "A **motif** is a recurring pattern within a protein sequence. Conserved motifs remain similar across related species, suggesting that these portions of the protein retain constraints associated with their molecular organization.",
+        "Zhou and colleagues identified five strongly conserved motifs in functional olfactory receptor proteins across six bear species. Their sequence analysis also predicted an N-linked glycosylation site, a location where a sugar group can be attached to an asparagine residue.",
+        "These shared features occur alongside variation in receptor number and sequence. Panda specialization therefore involves changes within a recognizable mammalian receptor architecture. Conserved protein regions maintain similarities across the family, while more variable regions supply molecular diversity relevant to recognizing a broad mixture of environmental odors."
+      ],
+      "cite": "Zhou et al. (2023)",
+      "refs": [
+        "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979"
+      ],
+      "transcript": [
+        "A motif is a recurring pattern within a protein sequence. Conserved motifs remain similar across related species, suggesting that these portions of the protein retain constraints associated with their molecular organization.",
+        "Zhou and colleagues identified five strongly conserved motifs in functional olfactory receptor proteins across six bear species. Their sequence analysis also predicted an N-linked glycosylation site, a location where a sugar group can be attached to an asparagine residue.",
+        "These shared features occur alongside variation in receptor number and sequence. Panda specialization therefore involves changes within a recognizable mammalian receptor architecture. Conserved protein regions maintain similarities across the family, while more variable regions supply molecular diversity relevant to recognizing a broad mixture of environmental odors.",
+        "In the published sequence logos, amino acid letters represent the positions in a motif. Their relative heights encode how strongly a residue is conserved. Conserved positions have similar amino acids across many receptor sequences, whereas variable positions admit a wider range of residues. These conserved features accompany variation in the receptor inventory across bear species."
+      ],
+      "figure": {
+        "path": "figures/motifs.png",
+        "kind": "article",
+        "caption": "Zhou et al. (2023), Fig. 6. Conserved amino acid motifs in bear olfactory receptors",
+        "source_url": "https://doi.org/10.3390/ani13060979"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Human receptor matches generate testable odor hypotheses",
+      "layout": "figure-right",
+      "body": [
+        "**Sequence homology** is similarity arising from shared ancestry. Zhou and colleagues compared panda receptor proteins with human receptors whose responses to odor molecules had been studied. Some panda sequences were similar enough to suggest candidate odor sensitivities.",
+        "These comparisons generate hypotheses about ligand recognition, where a ligand is a molecule that interacts with a receptor. The hypothesis is that related receptor sequences may recognize similar molecules; direct panda receptor assays are required to assign a particular ligand.",
+        "This distinction matters for scent chemistry. Hou and colleagues detected compounds such as nonanal and vanillin at wild marking sites. Detecting a compound in a mark and finding a related receptor sequence are complementary observations. They provide candidates for connecting signal chemistry with sensory responses."
+      ],
+      "cite": "Zhou et al. (2023); Hou et al. (2024)",
+      "refs": [
+        "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979",
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "Sequence homology is similarity arising from shared ancestry. Zhou and colleagues compared panda receptor proteins with human receptors whose responses to odor molecules had been studied. Some panda sequences were similar enough to suggest candidate odor sensitivities.",
+        "These comparisons generate hypotheses about ligand recognition, where a ligand is a molecule that interacts with a receptor. The hypothesis is that related receptor sequences may recognize similar molecules; direct panda receptor assays are required to assign a particular ligand.",
+        "This distinction matters for scent chemistry. Hou and colleagues detected compounds such as nonanal and vanillin at wild marking sites. Detecting a compound in a mark and finding a related receptor sequence are complementary observations. They provide candidates for connecting signal chemistry with sensory responses.",
+        "The receptor paper discusses human-derived odor associations as potential specificity, not demonstrated panda receptor responses. A receptor sequence match and the presence of a metabolite can motivate an assay, but they do not identify the molecule responsible for individual discrimination. The wild samples contained mixtures of many compounds."
+      ],
+      "figure": {
+        "path": "figures/receptor_overlap.png",
+        "kind": "article",
+        "caption": "Zhou et al. (2023), Fig. 5(a–b). Shared and lineage-specific receptor gene clusters in bears",
+        "source_url": "https://doi.org/10.3390/ani13060979"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Serial sections reveal the panda olfactory forebrain",
+      "layout": "figure-right",
+      "body": [
+        "**Histology** examines tissue structure in thin sections. Lauer studied an adult female panda brain using 30 µm sections, with alternating stains for cell bodies and fiber tracts. This preparation distinguished neuronal groups from the pathways passing among them.",
+        "Cresyl violet emphasized cellular organization, while the Weil stain emphasized nerve fibers. Serial sections allowed the position and continuity of a structure to be followed from the front of the forebrain toward its posterior regions.",
+        "The study identified a differentiated anterior olfactory nucleus, olfactory tubercle, septal nuclei, and amygdaloid subdivisions. These structures establish anatomical locations for studying chemical sensory processing. Their boundaries are based on cell arrangement and fiber relationships within the panda brain, rather than behavioral labels assigned to a single undivided olfactory center."
+      ],
+      "cite": "Lauer (1949)",
+      "refs": [
+        "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205"
+      ],
+      "transcript": [
+        "Histology examines tissue structure in thin sections. Lauer studied an adult female panda brain using 30 µm sections, with alternating stains for cell bodies and fiber tracts. This preparation distinguished neuronal groups from the pathways passing among them.",
+        "Cresyl violet emphasized cellular organization, while the Weil stain emphasized nerve fibers. Serial sections allowed the position and continuity of a structure to be followed from the front of the forebrain toward its posterior regions.",
+        "The study identified a differentiated anterior olfactory nucleus, olfactory tubercle, septal nuclei, and amygdaloid subdivisions. These structures establish anatomical locations for studying chemical sensory processing. Their boundaries are based on cell arrangement and fiber relationships within the panda brain, rather than behavioral labels assigned to a single undivided olfactory center.",
+        "A nucleus is a collection of neuronal cell bodies in the central nervous system. A tract is a bundle of nerve fibers. Lauer used both cell and fiber stains because these two forms of organization provide complementary landmarks. The stain comparisons distinguish the neuronal groups from the fiber bundles that pass along them."
+      ],
+      "figure": {
+        "path": "figures/anterior.png",
+        "kind": "article",
+        "caption": "Lauer (1949), Fig. 1–2. Anterior olfactory nucleus surrounding the olfactory ventricle",
+        "source_url": "https://doi.org/10.1002/cne.900900205"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "The anterior olfactory nucleus surrounds a ventricle",
+      "layout": "figure-right",
+      "body": [
+        "The **anterior olfactory nucleus** is a forebrain neuronal group located along the olfactory crus, the stalk connecting the bulb region with the hemisphere. In the panda, its cells form a ring around the olfactory ventricle, a fluid-containing cavity.",
+        "Lauer followed this ring through serial sections and distinguished dorsal, lateral, ventral, and medial portions. Their relative positions change as the crus joins the hemisphere. The medial portion was less developed than the other major divisions.",
+        "The organization is spatially continuous rather than a set of isolated points. Different sectors of the ring relate to different parts of the basal forebrain as the sections proceed posteriorly. This arrangement gives a concrete anatomical framework for tracing olfactory information beyond the bulb."
+      ],
+      "cite": "Lauer (1949)",
+      "refs": [
+        "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205"
+      ],
+      "transcript": [
+        "The anterior olfactory nucleus is a forebrain neuronal group located along the olfactory crus, the stalk connecting the bulb region with the hemisphere. In the panda, its cells form a ring around the olfactory ventricle, a fluid-containing cavity.",
+        "Lauer followed this ring through serial sections and distinguished dorsal, lateral, ventral, and medial portions. Their relative positions change as the crus joins the hemisphere. The medial portion was less developed than the other major divisions.",
+        "The organization is spatially continuous rather than a set of isolated points. Different sectors of the ring relate to different parts of the basal forebrain as the sections proceed posteriorly. This arrangement gives a concrete anatomical framework for tracing olfactory information beyond the bulb.",
+        "The olfactory crus has a triangular cross-section in the panda material. Its attachment to the hemisphere changes the apparent orientation of the nuclear subdivisions. Following consecutive sections prevents a change in position from being mistaken for the disappearance of a structure."
+      ],
+      "figure": {
+        "path": "figures/anterior.png",
+        "kind": "article",
+        "caption": "Lauer (1949), Fig. 1–2. Anterior olfactory nucleus surrounding the olfactory ventricle",
+        "source_url": "https://doi.org/10.1002/cne.900900205"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Olfactory nuclear sectors merge with forebrain gray matter",
+      "layout": "figure-right",
+      "body": [
+        "**Gray matter** contains neuronal cell bodies and their local processes. Lauer found that the different sectors of the anterior olfactory nucleus continue into neighboring forebrain gray matter as the olfactory crus becomes attached to the hemisphere.",
+        "The lateral sector becomes continuous with prepyriform cortex, an anterior part of olfactory cortex. The ventral sector merges with the olfactory tubercle, while the medial sector relates to the anterior continuation of the hippocampal formation.",
+        "These transitions connect an anterior ring of neurons with several forebrain territories. A posterior nuclear portion becomes especially prominent near the ventricle and grades into deeper tubercular tissue. Serial histology therefore resolves an organized set of anatomical continuities that a surface view of the brain would conceal."
+      ],
+      "cite": "Lauer (1949)",
+      "refs": [
+        "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205"
+      ],
+      "transcript": [
+        "Gray matter contains neuronal cell bodies and their local processes. Lauer found that the different sectors of the anterior olfactory nucleus continue into neighboring forebrain gray matter as the olfactory crus becomes attached to the hemisphere.",
+        "The lateral sector becomes continuous with prepyriform cortex, an anterior part of olfactory cortex. The ventral sector merges with the olfactory tubercle, while the medial sector relates to the anterior continuation of the hippocampal formation.",
+        "These transitions connect an anterior ring of neurons with several forebrain territories. A posterior nuclear portion becomes especially prominent near the ventricle and grades into deeper tubercular tissue. Serial histology therefore resolves an organized set of anatomical continuities that a surface view of the brain would conceal.",
+        "Continuity refers to the observed transition in cell populations across adjacent sections. It should not be equated with a directional synaptic connection established by an axonal tracing experiment. The anatomical relationships were derived from cell arrangement and neighboring fiber bundles in the panda sections."
+      ],
+      "figure": {
+        "path": "figures/anterior.png",
+        "kind": "article",
+        "caption": "Lauer (1949), Fig. 1–2. Anterior olfactory nucleus surrounding the olfactory ventricle",
+        "source_url": "https://doi.org/10.1002/cne.900900205"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "The olfactory tubercle contains three cellular layers",
+      "layout": "figure-right",
+      "body": [
+        "The **olfactory tubercle** is a layered region of the basal forebrain located behind the anterior olfactory nucleus. Lauer distinguished a superficial plexiform layer, a pyramidal-cell layer, and a deeper polymorph layer in the panda.",
+        "A plexiform layer is rich in interwoven neuronal processes. Pyramidal cells have a roughly triangular cell body, while the polymorph layer contains cells of varied shapes. Their different arrangements make the layers identifiable in stained sections.",
+        "The intermediate tubercular region was particularly well differentiated. Its superficial layer contained many fibers associated with the lateral olfactory tract, while the deeper layer merged with anterior olfactory nuclear tissue. The layered organization places incoming fiber bundles beside organized neuronal populations within the same olfactory forebrain territory."
+      ],
+      "cite": "Lauer (1949)",
+      "refs": [
+        "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205"
+      ],
+      "transcript": [
+        "The olfactory tubercle is a layered region of the basal forebrain located behind the anterior olfactory nucleus. Lauer distinguished a superficial plexiform layer, a pyramidal-cell layer, and a deeper polymorph layer in the panda.",
+        "A plexiform layer is rich in interwoven neuronal processes. Pyramidal cells have a roughly triangular cell body, while the polymorph layer contains cells of varied shapes. Their different arrangements make the layers identifiable in stained sections.",
+        "The intermediate tubercular region was particularly well differentiated. Its superficial layer contained many fibers associated with the lateral olfactory tract, while the deeper layer merged with anterior olfactory nuclear tissue. The layered organization places incoming fiber bundles beside organized neuronal populations within the same olfactory forebrain territory.",
+        "Lauer divided the tubercle into medial, intermediate, and lateral parts. The three-layer organization was recognizable far forward near the transition from the anterior olfactory nucleus. The histological terminology describes the observed cellular arrangement rather than specifying every cell's transmitter or firing pattern."
+      ],
+      "figure": {
+        "path": "figures/tubercle.png",
+        "kind": "article",
+        "caption": "Lauer (1949), Fig. 3–4. Caudal olfactory nucleus and rostral olfactory tubercle",
+        "source_url": "https://doi.org/10.1002/cne.900900205"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "The lateral olfactory tract borders layered forebrain tissue",
+      "layout": "figure-right",
+      "body": [
+        "The **lateral olfactory tract** is a bundle of nerve fibers associated with olfactory forebrain pathways. Lauer's panda sections place it beside the olfactory tubercle and the lateral portion of the anterior olfactory nucleus.",
+        "The lateral part of the tubercle bends inward over the tract. Its pyramidal layer contains many pyramidal cells, while its deeper polymorph layer broadens toward the claustrum and putamen, neighboring forebrain structures identified by their cellular architecture.",
+        "This geometry places a fiber route next to several distinct gray-matter territories. In the intermediate tubercle, fibers from the ventral part of the tract contribute substantially to the superficial plexiform layer. Anatomical relationships thus distinguish an axonal pathway from the neuronal layers positioned along it."
+      ],
+      "cite": "Lauer (1949)",
+      "refs": [
+        "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205"
+      ],
+      "transcript": [
+        "The lateral olfactory tract is a bundle of nerve fibers associated with olfactory forebrain pathways. Lauer's panda sections place it beside the olfactory tubercle and the lateral portion of the anterior olfactory nucleus.",
+        "The lateral part of the tubercle bends inward over the tract. Its pyramidal layer contains many pyramidal cells, while its deeper polymorph layer broadens toward the claustrum and putamen, neighboring forebrain structures identified by their cellular architecture.",
+        "This geometry places a fiber route next to several distinct gray-matter territories. In the intermediate tubercle, fibers from the ventral part of the tract contribute substantially to the superficial plexiform layer. Anatomical relationships thus distinguish an axonal pathway from the neuronal layers positioned along it.",
+        "Axons are neuronal processes that carry signals between locations. A tract groups many axons, whereas a nuclear or cortical layer contains cell bodies and local circuitry. Lauer's fiber and cell stains allow those categories to be followed independently within the same sequence of brain sections."
+      ],
+      "figure": {
+        "path": "figures/tract.png",
+        "kind": "article",
+        "caption": "Lauer (1949), Fig. 5. Lateral olfactory tract and the layers of the olfactory tubercle",
+        "source_url": "https://doi.org/10.1002/cne.900900205"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Septal and accumbens territories border olfactory tissue",
+      "layout": "figure-right",
+      "body": [
+        "The **septum** is a medial forebrain region containing several neuronal groups. In Lauer's panda material, the lateral septal nucleus was the largest of the septal nuclei and lay near the lateral ventricle and anterior hippocampal continuation.",
+        "The **nucleus accumbens** occupies neighboring ventral tissue. The ventral lateral septal population merged with accumbens rostrally and with commissural and stria terminalis bed nuclei farther posteriorly. These changing relationships distinguish adjacent populations along the brain's front-to-back axis.",
+        "The olfactory tubercle also approached the accumbens and caudate nucleus along its deeper margin. This arrangement places olfactory-related tissue within a differentiated basal forebrain, rather than outside it as a separate sensory appendage. Cell density and shape provide landmarks for resolving these regional boundaries."
+      ],
+      "cite": "Lauer (1949)",
+      "refs": [
+        "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205"
+      ],
+      "transcript": [
+        "The septum is a medial forebrain region containing several neuronal groups. In Lauer's panda material, the lateral septal nucleus was the largest of the septal nuclei and lay near the lateral ventricle and anterior hippocampal continuation.",
+        "The nucleus accumbens occupies neighboring ventral tissue. The ventral lateral septal population merged with accumbens rostrally and with commissural and stria terminalis bed nuclei farther posteriorly. These changing relationships distinguish adjacent populations along the brain's front-to-back axis.",
+        "The olfactory tubercle also approached the accumbens and caudate nucleus along its deeper margin. This arrangement places olfactory-related tissue within a differentiated basal forebrain, rather than outside it as a separate sensory appendage. Cell density and shape provide landmarks for resolving these regional boundaries.",
+        "A bed nucleus is gray matter positioned along a named fiber bundle. The anterior commissure links the hemispheres, while the stria terminalis is associated with the amygdaloid region. Their bed nuclei and the septal groups were identified anatomically in this panda, without a scent-evoked recording or lesion experiment."
+      ],
+      "figure": {
+        "path": "figures/septal.png",
+        "kind": "article",
+        "caption": "Lauer (1949), Fig. 6. Anterior lateral septum, accumbens, and neighboring forebrain regions",
+        "source_url": "https://doi.org/10.1002/cne.900900205"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "The panda amygdala contains differentiated nuclear groups",
+      "layout": "figure-right",
+      "body": [
+        "The **amygdala** is a collection of forebrain nuclei rather than one homogeneous structure. Lauer described cortico-medial and baso-lateral groups in the panda, distinguishing them through their cell populations, location, and neighboring fiber bundles.",
+        "The medial and cortical nuclei occupy more medial and ventral positions, while basal and lateral nuclei occupy much of the lateral portion. A central nucleus lies dorsally through the posterior part of the complex.",
+        "The lateral nucleus was the largest and most extensive cell mass of the panda amygdaloid complex. The cortical nucleus was also particularly well developed. This differentiated organization supplies multiple anatomical territories for future studies relating chemical information to behavior, instead of treating all amygdaloid cells as equivalent."
+      ],
+      "cite": "Lauer (1949)",
+      "refs": [
+        "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205"
+      ],
+      "transcript": [
+        "The amygdala is a collection of forebrain nuclei rather than one homogeneous structure. Lauer described cortico-medial and baso-lateral groups in the panda, distinguishing them through their cell populations, location, and neighboring fiber bundles.",
+        "The medial and cortical nuclei occupy more medial and ventral positions, while basal and lateral nuclei occupy much of the lateral portion. A central nucleus lies dorsally through the posterior part of the complex.",
+        "The lateral nucleus was the largest and most extensive cell mass of the panda amygdaloid complex. The cortical nucleus was also particularly well developed. This differentiated organization supplies multiple anatomical territories for future studies relating chemical information to behavior, instead of treating all amygdaloid cells as equivalent.",
+        "Cortico-medial and baso-lateral name groups of nuclei, not single cell types. The names summarize the positions and relationships of subdivisions. Lauer compared this organization with other mammals and noted especially substantial development of the panda's baso-lateral group."
+      ],
+      "figure": {
+        "path": "figures/amygdala.png",
+        "kind": "article",
+        "caption": "Lauer (1949), Fig. 12–13. Caudal amygdaloid nuclei and the rostral hippocampus",
+        "source_url": "https://doi.org/10.1002/cne.900900205"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Basal and lateral amygdaloid nuclei have distinct structure",
+      "layout": "figure-right",
+      "body": [
+        "The **basal amygdaloid nucleus** occupies a central position within the amygdaloid complex. Lauer separated it into large-celled and small-celled portions in the panda, with the large-celled portion directly dorsal to the small-celled portion.",
+        "The lateral nucleus lies lateral and dorsolateral to the basal nucleus. Fibers related to the external capsule, a neighboring white-matter bundle, divide parts of its projecting cell mass into smaller islands. These boundaries connect cellular organization with fiber architecture.",
+        "Posteriorly, the lateral nucleus approaches the hippocampus but is separated from it by the inferior horn of the lateral ventricle. A smaller accessory basal nucleus also accompanies the basal nucleus. The arrangement resolves several distinct neuronal populations within tissue that would otherwise be described broadly as amygdala."
+      ],
+      "cite": "Lauer (1949)",
+      "refs": [
+        "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205"
+      ],
+      "transcript": [
+        "The basal amygdaloid nucleus occupies a central position within the amygdaloid complex. Lauer separated it into large-celled and small-celled portions in the panda, with the large-celled portion directly dorsal to the small-celled portion.",
+        "The lateral nucleus lies lateral and dorsolateral to the basal nucleus. Fibers related to the external capsule, a neighboring white-matter bundle, divide parts of its projecting cell mass into smaller islands. These boundaries connect cellular organization with fiber architecture.",
+        "Posteriorly, the lateral nucleus approaches the hippocampus but is separated from it by the inferior horn of the lateral ventricle. A smaller accessory basal nucleus also accompanies the basal nucleus. The arrangement resolves several distinct neuronal populations within tissue that would otherwise be described broadly as amygdala.",
+        "The separation of large and small cells is a histological distinction. Lauer did not assign these groups to particular social odors. The external capsule and ventricle supply independent landmarks that help locate the nuclei even where transitions in cell density are gradual."
+      ],
+      "figure": {
+        "path": "figures/amygdala.png",
+        "kind": "article",
+        "caption": "Lauer (1949), Fig. 12–13. Caudal amygdaloid nuclei and the rostral hippocampus",
+        "source_url": "https://doi.org/10.1002/cne.900900205"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Cortical amygdaloid tissue adjoins olfactory cortex",
+      "layout": "figure-right",
+      "body": [
+        "The **cortical amygdaloid nucleus** lies along the ventral part of the panda amygdaloid complex. Lauer identified its relatively dense superficial layer of pyramidal cells and its close relationship with neighboring olfactory cortical tissue.",
+        "A cortico-amygdaloid transition area contains mixed cell populations between pyriform cortex, the cortical nucleus, and the baso-lateral nuclear group. This transition is relatively broad in the panda sections and lacks sharp boundaries with several neighboring territories.",
+        "The anatomy links olfactory cortex and amygdaloid tissue through an identifiable transition in cellular organization. The central and medial nuclei remain distinguishable through their positions and associated fibers. Chemical sensory processing can therefore be investigated within a regionally differentiated forebrain whose compartments are connected by graded anatomical transitions."
+      ],
+      "cite": "Lauer (1949)",
+      "refs": [
+        "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205"
+      ],
+      "transcript": [
+        "The cortical amygdaloid nucleus lies along the ventral part of the panda amygdaloid complex. Lauer identified its relatively dense superficial layer of pyramidal cells and its close relationship with neighboring olfactory cortical tissue.",
+        "A cortico-amygdaloid transition area contains mixed cell populations between pyriform cortex, the cortical nucleus, and the baso-lateral nuclear group. This transition is relatively broad in the panda sections and lacks sharp boundaries with several neighboring territories.",
+        "The anatomy links olfactory cortex and amygdaloid tissue through an identifiable transition in cellular organization. The central and medial nuclei remain distinguishable through their positions and associated fibers. Chemical sensory processing can therefore be investigated within a regionally differentiated forebrain whose compartments are connected by graded anatomical transitions.",
+        "The older paper uses pyriform and prepyriform terminology for olfactory cortical regions. The modern spelling piriform is often used for this cortex. The cellular transitions establish anatomical relationships with adjacent nuclei. A structure's position and cell organization are different measurements from a scent-evoked neuronal response or a reproductive behavior."
+      ],
+      "figure": {
+        "path": "figures/amygdala.png",
+        "kind": "article",
+        "caption": "Lauer (1949), Fig. 12–13. Caudal amygdaloid nuclei and the rostral hippocampus",
+        "source_url": "https://doi.org/10.1002/cne.900900205"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Close inspection samples odors from marked surfaces",
+      "layout": "figure-right",
+      "body": [
+        "**Chemosensory investigation** is active sampling of a chemical stimulus. In Swaisgood and colleagues' experiment, an investigation bout involved the panda bringing its nose within 5 cm of the odor board and sniffing.",
+        "Fresh female urine and male gland marks were transferred onto fir boards. Observers measured investigation during 10-minute tests and checked records against video. The animal could sniff, lick, manipulate the board, or rub the scent onto its fur.",
+        "Pandas often inspected a detected scent intensely even after previously passing nearby. This response separates close assessment from simple movement toward an odor source. The wild camera records likewise document surface investigation at marked trees, connecting the experimental measurement with a natural action performed at communication sites."
+      ],
+      "cite": "Swaisgood et al. (1999); Hou et al. (2024)",
+      "refs": [
+        "Swaisgood RR, Lindburg DG, Zhou X (1999). Giant pandas discriminate individual differences in conspecific scent. Animal Behaviour 57: 1045–1053. https://doi.org/10.1006/anbe.1998.1070",
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "Chemosensory investigation is active sampling of a chemical stimulus. In Swaisgood and colleagues' experiment, an investigation bout involved the panda bringing its nose within 5 cm of the odor board and sniffing.",
+        "Fresh female urine and male gland marks were transferred onto fir boards. Observers measured investigation during 10-minute tests and checked records against video. The animal could sniff, lick, manipulate the board, or rub the scent onto its fur.",
+        "Pandas often inspected a detected scent intensely even after previously passing nearby. This response separates close assessment from simple movement toward an odor source. The wild camera records likewise document surface investigation at marked trees, connecting the experimental measurement with a natural action performed at communication sites.",
+        "In the captive tests, pandas sometimes passed within 1 m of the stimulus before investigating it. That observation concerns this presentation method and should not be turned into a species-wide odor detection threshold. Once a scent was encountered, the investigators could quantify sustained sampling of it."
+      ],
+      "figure": {
+        "path": "figures/field_photos.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 1(A–C). Gland marking, urine marking, and investigation at the same tree",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Unscented boards isolate the response to conspecific odor",
+      "layout": "figure-right",
+      "body": [
+        "A **control stimulus** preserves features of the preparation while omitting the factor being tested. Swaisgood and colleagues presented unscented fir boards because fir itself has an odor and the board was part of every experimental presentation.",
+        "Control boards were rubbed on surfaces inaccessible to panda contact. Pandas spent little time investigating them compared with boards carrying urine or gland secretion. Flehmen responses also occurred with conspecific scents but were absent from the control presentations.",
+        "These comparisons locate the sustained response in the added animal-derived material. The board served as a transportable substrate, while the scent provided the biologically salient component. Matching the substrate permits a chemical communication experiment to distinguish responses to conspecific information from responses to the wooden test object."
+      ],
+      "cite": "Swaisgood et al. (1999)",
+      "refs": [
+        "Swaisgood RR, Lindburg DG, Zhou X (1999). Giant pandas discriminate individual differences in conspecific scent. Animal Behaviour 57: 1045–1053. https://doi.org/10.1006/anbe.1998.1070"
+      ],
+      "transcript": [
+        "A control stimulus preserves features of the preparation while omitting the factor being tested. Swaisgood and colleagues presented unscented fir boards because fir itself has an odor and the board was part of every experimental presentation.",
+        "Control boards were rubbed on surfaces inaccessible to panda contact. Pandas spent little time investigating them compared with boards carrying urine or gland secretion. Flehmen responses also occurred with conspecific scents but were absent from the control presentations.",
+        "These comparisons locate the sustained response in the added animal-derived material. The board served as a transportable substrate, while the scent provided the biologically salient component. Matching the substrate permits a chemical communication experiment to distinguish responses to conspecific information from responses to the wooden test object.",
+        "The same type of fir board was used for control and scented presentations. The control addresses the possibility that wood odor alone motivates the response. Conspecific means another individual of the same species, so these stimuli tested communication within the panda species rather than attraction to an unrelated odor."
+      ],
+      "figure": {
+        "path": "figures/identity_all.png",
+        "kind": "article",
+        "caption": "Swaisgood et al. (1999), Fig. 1. Investigation time across control, habituation, and novelty tests",
+        "source_url": "https://doi.org/10.1006/anbe.1998.1070"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Repeated donor odor produces habituation",
+      "layout": "figures-right",
+      "body": [
+        "**Habituation** is a reduction in response after repeated exposure to a stimulus. Pandas received scent from the same donor on five consecutive days. Their investigation generally declined across these presentations, with especially clear decreases for male gland secretions.",
+        "The repeated samples were freshly collected rather than one unchanged object being presented each day. Declining investigation therefore occurred despite continuing exposure to new samples carrying the same donor's odor characteristics.",
+        "On the sixth day, the investigators presented familiar and novel donor scents together. Positions were randomized, and the two boards were separated by approximately 0.3 m. This design tests whether the reduction in investigation is specific enough for another donor's chemical profile to renew sampling."
+      ],
+      "cite": "Swaisgood et al. (1999); Hou et al. (2024)",
+      "refs": [
+        "Swaisgood RR, Lindburg DG, Zhou X (1999). Giant pandas discriminate individual differences in conspecific scent. Animal Behaviour 57: 1045–1053. https://doi.org/10.1006/anbe.1998.1070",
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "Habituation is a reduction in response after repeated exposure to a stimulus. Pandas received scent from the same donor on five consecutive days. Their investigation generally declined across these presentations, with especially clear decreases for male gland secretions.",
+        "The repeated samples were freshly collected rather than one unchanged object being presented each day. Declining investigation therefore occurred despite continuing exposure to new samples carrying the same donor's odor characteristics.",
+        "On the sixth day, the investigators presented familiar and novel donor scents together. Positions were randomized, and the two boards were separated by approximately 0.3 m. This design tests whether the reduction in investigation is specific enough for another donor's chemical profile to renew sampling.",
+        "Habituation is defined by a behavioral change and does not identify where in the nervous system that change occurs. Fresh samples from the same donor allowed consistent donor features to recur across days. A novelty test distinguishes declining response to a familiar profile from a uniform loss of interest in all scents."
+      ],
+      "figure_width": 5.65,
+      "figures": [
+        {
+          "path": "figures/identity_all.png",
+          "kind": "article",
+          "caption": "Swaisgood et al. (1999), Fig. 1. Investigation time across control, habituation, and novelty tests",
+          "source_url": "https://doi.org/10.1006/anbe.1998.1070"
+        },
+        {
+          "path": "figures/marking_photo.png",
+          "kind": "article",
+          "caption": "Hou et al. (2024), Fig. 1(A). A wild panda deposits gland secretion on a marking tree",
+          "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+        }
+      ],
+      "primary_figure_height": 2.35
+    },
+    {
+      "title": "Male gland odors support individual discrimination",
+      "layout": "figures-right",
+      "body": [
+        "**Individual discrimination** occurs when an animal responds differently to cues from different individuals. After habituation, both male and female pandas investigated a novel male's gland secretion more than the familiar male's secretion.",
+        "The donors in a discrimination test were the same sex, and both stimuli were gland secretions. Thus, the comparison depended on differences between male odor profiles rather than a switch between sexes or between urine and gland material.",
+        "The renewed investigation means that male gland secretions contain information that distinguishes donors. The behavioral result establishes perceptual discrimination of individual odors. Associating each odor with the identity of a previously encountered animal would require a separate recognition task, because these two forms of performance involve different information."
+      ],
+      "cite": "Swaisgood et al. (1999); Hou et al. (2024)",
+      "refs": [
+        "Swaisgood RR, Lindburg DG, Zhou X (1999). Giant pandas discriminate individual differences in conspecific scent. Animal Behaviour 57: 1045–1053. https://doi.org/10.1006/anbe.1998.1070",
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "Individual discrimination occurs when an animal responds differently to cues from different individuals. After habituation, both male and female pandas investigated a novel male's gland secretion more than the familiar male's secretion.",
+        "The donors in a discrimination test were the same sex, and both stimuli were gland secretions. Thus, the comparison depended on differences between male odor profiles rather than a switch between sexes or between urine and gland material.",
+        "The renewed investigation means that male gland secretions contain information that distinguishes donors. The behavioral result establishes perceptual discrimination of individual odors. Associating each odor with the identity of a previously encountered animal would require a separate recognition task, because these two forms of performance involve different information.",
+        "A panda can distinguish odor A from odor B without necessarily attaching either odor to a known individual's broader identity. The same-sex, same-material comparison is therefore particularly valuable: the novelty response survives controls for two obvious categories that could otherwise explain it."
+      ],
+      "figure_width": 5.65,
+      "figures": [
+        {
+          "path": "figures/identity_male_b.png",
+          "kind": "article",
+          "caption": "Swaisgood et al. (1999), Fig. 2(b). Male receiver discrimination of familiar and novel male gland odors",
+          "source_url": "https://doi.org/10.1006/anbe.1998.1070"
+        },
+        {
+          "path": "figures/marking_photo.png",
+          "kind": "article",
+          "caption": "Hou et al. (2024), Fig. 1(A). A wild panda deposits gland secretion on a marking tree",
+          "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+        }
+      ],
+      "primary_figure_height": 2.35
+    },
+    {
+      "title": "Urine and gland signals differ in discrimination strength",
+      "layout": "figure-right",
+      "body": [
+        "Female urine and male gland secretions produced different discrimination patterns in the same habituation protocol. **Signal salience** refers to how strongly a stimulus attracts or guides a receiver's response in a particular task.",
+        "Responses to male gland odors gave clear evidence of donor discrimination in both sexes. Female urine produced a tendency toward greater novel-odor investigation, but the urine tests gave weaker evidence of discrimination. The two materials therefore supported different levels of behavioral differentiation under these conditions.",
+        "The comparison combines donor sex with material type: female donors supplied urine, while male donors supplied gland secretions. Consequently, the difference cannot be attributed solely to sex. The clear gland result and weaker urine result describe the tested signals, while identifying urine chemistry requires a matched-material comparison."
+      ],
+      "cite": "Swaisgood et al. (1999)",
+      "refs": [
+        "Swaisgood RR, Lindburg DG, Zhou X (1999). Giant pandas discriminate individual differences in conspecific scent. Animal Behaviour 57: 1045–1053. https://doi.org/10.1006/anbe.1998.1070"
+      ],
+      "transcript": [
+        "Female urine and male gland secretions produced different discrimination patterns in the same habituation protocol. Signal salience refers to how strongly a stimulus attracts or guides a receiver's response in a particular task.",
+        "Responses to male gland odors gave clear evidence of donor discrimination in both sexes. Female urine produced a tendency toward greater novel-odor investigation, but the urine tests gave weaker evidence of discrimination. The two materials therefore supported different levels of behavioral differentiation under these conditions.",
+        "The comparison combines donor sex with material type: female donors supplied urine, while male donors supplied gland secretions. Consequently, the difference cannot be attributed solely to sex. The clear gland result and weaker urine result describe the tested signals, while identifying urine chemistry requires a matched-material comparison.",
+        "Male subjects spent much longer investigating novel than habituated female urine, but variability reduced the strength of the discrimination result. The authors explicitly noted the sex-by-material confound. This fact changes the biological conclusion, so it belongs in the teaching text rather than being dropped as a routine disclaimer."
+      ],
+      "figure": {
+        "path": "figures/identity_four.png",
+        "kind": "article",
+        "caption": "Swaisgood et al. (1999), Fig. 2(a–d). Male and female responses to urine and gland odors",
+        "source_url": "https://doi.org/10.1006/anbe.1998.1070"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Flehmen accompanies renewed chemical assessment",
+      "layout": "figure-right",
+      "body": [
+        "**Flehmen** is a chemosensory behavior involving deep inhalation, an upward movement of the head, and a slight curl of the upper lip. Panda odor experiments recorded it separately from the duration of ordinary sniffing.",
+        "In the individual-discrimination study, flehmen occurred more readily with novel male gland odors than with the familiar gland odors. Unscented control boards failed to elicit it. The response therefore changed with the chemical stimulus and its recent familiarity.",
+        "Height experiments also found more flehmen toward elevated urine and gland marks. Together, these results connect a distinct sampling behavior with both donor novelty and the physical placement of a signal. Counting flehmen and measuring sniffing provide complementary descriptions of how pandas actively assess conspecific chemical information."
+      ],
+      "cite": "Swaisgood et al. (1999); White et al. (2002); Hou et al. (2024)",
+      "refs": [
+        "Swaisgood RR, Lindburg DG, Zhou X (1999). Giant pandas discriminate individual differences in conspecific scent. Animal Behaviour 57: 1045–1053. https://doi.org/10.1006/anbe.1998.1070",
+        "White AM, Swaisgood RR, Zhang H (2002). The highs and lows of chemical communication in giant pandas (Ailuropoda melanoleuca): effect of scent deposition height on signal discrimination. Behavioral Ecology and Sociobiology 51: 519–529. https://doi.org/10.1007/s00265-002-0473-3",
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "Flehmen is a chemosensory behavior involving deep inhalation, an upward movement of the head, and a slight curl of the upper lip. Panda odor experiments recorded it separately from the duration of ordinary sniffing.",
+        "In the individual-discrimination study, flehmen occurred more readily with novel male gland odors than with the familiar gland odors. Unscented control boards failed to elicit it. The response therefore changed with the chemical stimulus and its recent familiarity.",
+        "Height experiments also found more flehmen toward elevated urine and gland marks. Together, these results connect a distinct sampling behavior with both donor novelty and the physical placement of a signal. Counting flehmen and measuring sniffing provide complementary descriptions of how pandas actively assess conspecific chemical information.",
+        "Flehmen is a visible motor response, not a direct measurement of receptor activation or accessory olfactory pathway function. The panda experiments identify its behavioral form and stimulus dependence. Lauer's preparation could not resolve whether an accessory olfactory bulb was present because the relevant bulb tissue was damaged."
+      ],
+      "figure": {
+        "path": "figures/field_photos.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 1(A–C). Gland marking, urine marking, and investigation at the same tree",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Scent height changes responses to identical male urine",
+      "layout": "figure-right",
+      "body": [
+        "A panda's marking posture determines where its chemical material reaches a surface. White and colleagues tested male urine at 0.0 m and 1.0 m, approximating a ground-level squat and an elevated handstand mark.",
+        "Each urine sample was divided into two 10 mL portions, preserving the donor and chemical composition across the height comparison. The researchers changed placement rather than replacing the odor with material from another male.",
+        "Pandas investigated the high urine longer and performed more flehmen after encountering it. Because observations began after the animal first sampled the stimulus, the response concerned assessment following detection. Spatial context therefore changed the value assigned to an otherwise matched chemical stimulus, extending communication beyond the molecules alone."
+      ],
+      "cite": "White et al. (2002)",
+      "refs": [
+        "White AM, Swaisgood RR, Zhang H (2002). The highs and lows of chemical communication in giant pandas (Ailuropoda melanoleuca): effect of scent deposition height on signal discrimination. Behavioral Ecology and Sociobiology 51: 519–529. https://doi.org/10.1007/s00265-002-0473-3"
+      ],
+      "transcript": [
+        "A panda's marking posture determines where its chemical material reaches a surface. White and colleagues tested male urine at 0.0 m and 1.0 m, approximating a ground-level squat and an elevated handstand mark.",
+        "Each urine sample was divided into two 10 mL portions, preserving the donor and chemical composition across the height comparison. The researchers changed placement rather than replacing the odor with material from another male.",
+        "Pandas investigated the high urine longer and performed more flehmen after encountering it. Because observations began after the animal first sampled the stimulus, the response concerned assessment following detection. Spatial context therefore changed the value assigned to an otherwise matched chemical stimulus, extending communication beyond the molecules alone.",
+        "The matching of donor and urine volume isolates the effect of placement. The observation session lasted 45 minutes after initial sampling. An explanation based only on making the scent easier to discover cannot explain the longer investigation after the scent had already been found."
+      ],
+      "figure": {
+        "path": "figures/urine_height.png",
+        "kind": "article",
+        "caption": "White et al. (2002), Fig. 1(a–f). Responses to male urine at ground level and 1.0 m",
+        "source_url": "https://doi.org/10.1007/s00265-002-0473-3"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Elevated gland marks attract longer investigation",
+      "layout": "figures-right",
+      "body": [
+        "White and colleagues placed matched **gland marks** at ground level or 0.5 m, approximating squat and reverse or legcock marking. These comparisons were conducted separately for male and female donor secretions.",
+        "Pandas spent longer investigating elevated marks from both sexes. They also performed more flehmen toward high male gland marks, while high female gland marks elicited more flehmen in most receiver categories.",
+        "The height effect therefore extended beyond male urine. A secretion's location contributed to how it was assessed even when its donor and material remained constant. Male and female gland odors produced overlapping effects on sampling, but their subsequent behavioral consequences differed, connecting a shared sensory response with signal-specific social actions."
+      ],
+      "cite": "White et al. (2002)",
+      "refs": [
+        "White AM, Swaisgood RR, Zhang H (2002). The highs and lows of chemical communication in giant pandas (Ailuropoda melanoleuca): effect of scent deposition height on signal discrimination. Behavioral Ecology and Sociobiology 51: 519–529. https://doi.org/10.1007/s00265-002-0473-3"
+      ],
+      "transcript": [
+        "White and colleagues placed matched gland marks at ground level or 0.5 m, approximating squat and reverse or legcock marking. These comparisons were conducted separately for male and female donor secretions.",
+        "Pandas spent longer investigating elevated marks from both sexes. They also performed more flehmen toward high male gland marks, while high female gland marks elicited more flehmen in most receiver categories.",
+        "The height effect therefore extended beyond male urine. A secretion's location contributed to how it was assessed even when its donor and material remained constant. Male and female gland odors produced overlapping effects on sampling, but their subsequent behavioral consequences differed, connecting a shared sensory response with signal-specific social actions.",
+        "Urine and gland secretions were tested at different high positions because their natural deposition postures differ. The gland comparison used 0.5 m, and the urine comparison used 1.0 m. The results should therefore be interpreted within each material's matched high-versus-low test, rather than assuming the absolute heights were identical."
+      ],
+      "figure_width": 5.65,
+      "figures": [
+        {
+          "path": "figures/male_investigation.png",
+          "kind": "article",
+          "caption": "White et al. (2002), Fig. 2(a). Investigation of male gland marks at ground level and 0.5 m",
+          "source_url": "https://doi.org/10.1007/s00265-002-0473-3"
+        },
+        {
+          "path": "figures/female_investigation.png",
+          "kind": "article",
+          "caption": "White et al. (2002), Fig. 3(a). Investigation of female gland marks at ground level and 0.5 m",
+          "source_url": "https://doi.org/10.1007/s00265-002-0473-3"
+        }
+      ],
+      "primary_figure_height": 2.35
+    },
+    {
+      "title": "High male urine shifts subsequent spatial behavior",
+      "layout": "figure-right",
+      "body": [
+        "**Avoidance** can be measured as greater distance from a stimulus after it is encountered. White and colleagues recorded the panda's position once per minute during the observation session, linking scent sampling with later movement within the enclosure.",
+        "Pandas remained farther from male urine placed at 1.0 m than from the matched ground-level urine. The pattern was particularly pronounced in subadult males. Longer initial investigation therefore coexisted with greater subsequent distance.",
+        "The authors proposed the hypothesis that elevated male urine signals competitive ability or readiness to escalate. The observed spatial response is consistent with assessing a potentially consequential rival. Sampling a signal and remaining near its source are distinct behavioral outcomes, so greater investigation need not indicate attraction to the marked location."
+      ],
+      "cite": "White et al. (2002)",
+      "refs": [
+        "White AM, Swaisgood RR, Zhang H (2002). The highs and lows of chemical communication in giant pandas (Ailuropoda melanoleuca): effect of scent deposition height on signal discrimination. Behavioral Ecology and Sociobiology 51: 519–529. https://doi.org/10.1007/s00265-002-0473-3"
+      ],
+      "transcript": [
+        "Avoidance can be measured as greater distance from a stimulus after it is encountered. White and colleagues recorded the panda's position once per minute during the observation session, linking scent sampling with later movement within the enclosure.",
+        "Pandas remained farther from male urine placed at 1.0 m than from the matched ground-level urine. The pattern was particularly pronounced in subadult males. Longer initial investigation therefore coexisted with greater subsequent distance.",
+        "The authors proposed the hypothesis that elevated male urine signals competitive ability or readiness to escalate. The observed spatial response is consistent with assessing a potentially consequential rival. Sampling a signal and remaining near its source are distinct behavioral outcomes, so greater investigation need not indicate attraction to the marked location.",
+        "For gland secretions, changing height did not produce the same clear increase in distance. The urine result therefore cannot be generalized to every elevated chemical stimulus. The experiment tested a simulated height cue and did not measure the actual competitive rank of the male whose mark was represented."
+      ],
+      "figure": {
+        "path": "figures/urine_height.png",
+        "kind": "article",
+        "caption": "White et al. (2002), Fig. 1(a–f). Responses to male urine at ground level and 1.0 m",
+        "source_url": "https://doi.org/10.1007/s00265-002-0473-3"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Receiver age changes the intensity of scent assessment",
+      "layout": "figure-right",
+      "body": [
+        "A **subadult** is an animal that has not yet reached full adult status. White and colleagues compared adult and subadult receivers, making developmental state part of the chemical communication experiment rather than treating every panda as an equivalent observer.",
+        "Subadults investigated male urine longer, displayed more flehmen, and investigated their surroundings more often than adults. Subadults also spent longer investigating male gland secretions. These age effects concerned responses to adult male donor material.",
+        "Responses to female gland material showed a different pattern, with no overall age effect on investigation or flehmen. Developmental state therefore interacted with the type of social information sampled. Height and receiver age both influenced assessment, but they represented different factors: signal placement and the condition of the animal receiving it."
+      ],
+      "cite": "White et al. (2002)",
+      "refs": [
+        "White AM, Swaisgood RR, Zhang H (2002). The highs and lows of chemical communication in giant pandas (Ailuropoda melanoleuca): effect of scent deposition height on signal discrimination. Behavioral Ecology and Sociobiology 51: 519–529. https://doi.org/10.1007/s00265-002-0473-3"
+      ],
+      "transcript": [
+        "A subadult is an animal that has not yet reached full adult status. White and colleagues compared adult and subadult receivers, making developmental state part of the chemical communication experiment rather than treating every panda as an equivalent observer.",
+        "Subadults investigated male urine longer, displayed more flehmen, and investigated their surroundings more often than adults. Subadults also spent longer investigating male gland secretions. These age effects concerned responses to adult male donor material.",
+        "Responses to female gland material showed a different pattern, with no overall age effect on investigation or flehmen. Developmental state therefore interacted with the type of social information sampled. Height and receiver age both influenced assessment, but they represented different factors: signal placement and the condition of the animal receiving it.",
+        "The study separated four age-sex categories. Adult donors supplied the chemical samples, so a subadult response did not arise because the donor scent itself came from a subadult. Testing receiver categories makes the behavioral response part of a social relationship rather than a fixed property of the odor alone."
+      ],
+      "figure": {
+        "path": "figures/urine_height.png",
+        "kind": "article",
+        "caption": "White et al. (2002), Fig. 1(a–f). Responses to male urine at ground level and 1.0 m",
+        "source_url": "https://doi.org/10.1007/s00265-002-0473-3"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Female gland marks can promote environmental searching",
+      "layout": "figure-right",
+      "body": [
+        "**Environmental investigation** is sniffing directed toward the surroundings rather than toward the experimentally placed scent. White and colleagues recorded it as a separate behavioral category, alongside stimulus sniffing, flehmen, licking, marking, and distance.",
+        "After exposure to elevated female gland secretions, pandas performed more bouts of environmental investigation than after ground-level female marks. This response occurred across the age-sex categories, extending the effect beyond sampling at the scent location itself.",
+        "High female gland marks promoted increased investigation without the clear distance effect observed for high male urine. The distinction connects chemical assessment with different patterns of subsequent activity. A receiver can inspect a marked site and then investigate the surrounding environment, while the original scent remains fixed on the surface."
+      ],
+      "cite": "White et al. (2002)",
+      "refs": [
+        "White AM, Swaisgood RR, Zhang H (2002). The highs and lows of chemical communication in giant pandas (Ailuropoda melanoleuca): effect of scent deposition height on signal discrimination. Behavioral Ecology and Sociobiology 51: 519–529. https://doi.org/10.1007/s00265-002-0473-3"
+      ],
+      "transcript": [
+        "Environmental investigation is sniffing directed toward the surroundings rather than toward the experimentally placed scent. White and colleagues recorded it as a separate behavioral category, alongside stimulus sniffing, flehmen, licking, marking, and distance.",
+        "After exposure to elevated female gland secretions, pandas performed more bouts of environmental investigation than after ground-level female marks. This response occurred across the age-sex categories, extending the effect beyond sampling at the scent location itself.",
+        "High female gland marks promoted increased investigation without the clear distance effect observed for high male urine. The distinction connects chemical assessment with different patterns of subsequent activity. A receiver can inspect a marked site and then investigate the surrounding environment, while the original scent remains fixed on the surface.",
+        "The observers counted separate bouts rather than treating every nasal movement as a new event. The study distinguished responses to the source from responses to the rest of the enclosure. This distinction allows an odor to influence broader search-like behavior without requiring a claim that the animal found the donor."
+      ],
+      "figure": {
+        "path": "figures/female_height.png",
+        "kind": "article",
+        "caption": "White et al. (2002), Fig. 3(a–f). Responses to female gland marks at ground level and 0.5 m",
+        "source_url": "https://doi.org/10.1007/s00265-002-0473-3"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Complementary methods distinguish natural scent mixtures",
+      "layout": "figure-right",
+      "body": [
+        "'A **metabolome** is the collection of small chemical compounds in a sample. Hou and colleagues compared marked bark and nearby panda feces using gas chromatography-mass spectrometry, or GC-MS, and liquid chromatography-mass spectrometry, or LC-MS. Both methods separated the chemical profiles of these materials.",
+        "GC-MS detected readily volatile molecules, compounds that enter the gas phase. LC-MS expanded the inventory to additional acids, heterocycles, and semi-volatile constituents. A heterocycle is a molecular ring containing an atom other than carbon. The methods therefore captured complementary components of the mixture.",
+        "Marked bark contained different chemistry from feces, including both airborne compounds and more strongly retained material. The authors proposed the hypothesis that microbes convert some retained constituents into odorants. This connects the immediate odor profile with a reservoir of material capable of changing after deposition."
+      ],
+      "cite": "Hou et al. (2024)",
+      "refs": [
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "'A metabolome is the collection of small chemical compounds in a sample. Hou and colleagues compared marked bark and nearby panda feces using gas chromatography-mass spectrometry, or GC-MS, and liquid chromatography-mass spectrometry, or LC-MS. Both methods separated the chemical profiles of these materials.",
+        "GC-MS detected readily volatile molecules, compounds that enter the gas phase. LC-MS expanded the inventory to additional acids, heterocycles, and semi-volatile constituents. A heterocycle is a molecular ring containing an atom other than carbon. The methods therefore captured complementary components of the mixture.",
+        "Marked bark contained different chemistry from feces, including both airborne compounds and more strongly retained material. The authors proposed the hypothesis that microbes convert some retained constituents into odorants. This connects the immediate odor profile with a reservoir of material capable of changing after deposition.",
+        "Chromatography separates compounds before mass spectrometry characterizes them. A difference between metabolite profiles establishes different mixtures, rather than a behavioral preference. The detected molecules are candidate signals whose effects can be tested with pandas. The two methods sampled different portions of the chemistry, so a compound absent from one method could still be detected by the other."
+      ],
+      "figure": {
+        "path": "figures/metabolites.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 2(A–B). Scent-mark and fecal metabolite profiles measured by GC-MS and LC-MS",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Scent-marked bark carries a distinct microbial community",
+      "layout": "figure-right",
+      "body": [
+        "A **microbiome** is the community of microorganisms associated with a habitat or host. Hou and colleagues compared bacteria in marked bark, nearby unmarked bark, and panda feces using 16S ribosomal RNA gene sequences to classify bacterial groups.",
+        "Unmarked bark served as an environmental comparison for the surface before considering panda scent deposition. Marked bark and unmarked bark shared more community structure than either shared with feces, while marking was associated with changes in community diversity.",
+        "This pattern places scent material within an existing environmental microbial habitat. The mark is sampled and modified on bark rather than in a sterile container. Microbial community differences provide candidate biological processes through which a deposited chemical mixture can change as it remains at a communication site."
+      ],
+      "cite": "Hou et al. (2024)",
+      "refs": [
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "A microbiome is the community of microorganisms associated with a habitat or host. Hou and colleagues compared bacteria in marked bark, nearby unmarked bark, and panda feces using 16S ribosomal RNA gene sequences to classify bacterial groups.",
+        "Unmarked bark served as an environmental comparison for the surface before considering panda scent deposition. Marked bark and unmarked bark shared more community structure than either shared with feces, while marking was associated with changes in community diversity.",
+        "This pattern places scent material within an existing environmental microbial habitat. The mark is sampled and modified on bark rather than in a sterile container. Microbial community differences provide candidate biological processes through which a deposited chemical mixture can change as it remains at a communication site.",
+        "The 16S ribosomal RNA gene is widely used as a bacterial identification marker. Sequencing it describes which bacterial groups are represented. It does not directly measure every metabolic reaction performed by those bacteria. The comparison with unmarked bark helps distinguish the local environmental community from the material added at a marking site."
+      ],
+      "figure": {
+        "path": "figures/communities.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 3(A–F). Microbial diversity and community composition across bark and feces",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Marked bark and feces support different bacterial groups",
+      "layout": "figure-right",
+      "body": [
+        "A **bacterial phylum** is a broad taxonomic group containing related bacterial lineages. Hou and colleagues characterized the prominent phyla in marked bark, unmarked bark, and feces, linking community composition with the chemical material sampled.",
+        "Proteobacteria, Actinobacteria, and Bacteroidetes were prominent at scent-marking sites. Feces also contained abundant Proteobacteria and Bacteroidetes but included Firmicutes among its dominant groups. Similar broad categories can coexist with different relative compositions and finer-scale lineages.",
+        "The fecal community reflects a different biological substrate from the tree surface. Marked bark combines environmental microbes with animal-derived material, while feces carry the products of intestinal processing. These community differences accompany distinct metabolite profiles and support examining each substrate separately when investigating panda chemical communication."
+      ],
+      "cite": "Hou et al. (2024)",
+      "refs": [
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "A bacterial phylum is a broad taxonomic group containing related bacterial lineages. Hou and colleagues characterized the prominent phyla in marked bark, unmarked bark, and feces, linking community composition with the chemical material sampled.",
+        "Proteobacteria, Actinobacteria, and Bacteroidetes were prominent at scent-marking sites. Feces also contained abundant Proteobacteria and Bacteroidetes but included Firmicutes among its dominant groups. Similar broad categories can coexist with different relative compositions and finer-scale lineages.",
+        "The fecal community reflects a different biological substrate from the tree surface. Marked bark combines environmental microbes with animal-derived material, while feces carry the products of intestinal processing. These community differences accompany distinct metabolite profiles and support examining each substrate separately when investigating panda chemical communication.",
+        "A broad phylum can contain bacteria with many different functions. The stacked compositions compare categories, while the community analyses also include finer taxonomic information. Overlapping phyla therefore do not make the substrates equivalent, and different phyla alone do not establish a particular signaling mechanism."
+      ],
+      "figure": {
+        "path": "figures/communities.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 3(A–F). Microbial diversity and community composition across bark and feces",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Enriched bacteria distinguish scent sites from controls",
+      "layout": "figure-right",
+      "body": [
+        "An **enriched taxon** is a biological group that is more abundant in one sample category than in comparison categories. Hou and colleagues identified bacterial groups associated with marked bark, unmarked bark, and feces.",
+        "Different branches of the bacterial classification were enriched in the three materials. This analysis complements the broad phylum comparison by locating more specific groups whose relative representation distinguishes the sampled substrates.",
+        "These taxa provide candidates for studying chemical transformations at marking sites. The authors connected microbial composition with measured metabolites rather than assuming that every bacterium found on bark produces a social signal. The coexistence of different bacteria and compounds supplies a biological context for experiments on how the composition of a scent changes after deposition."
+      ],
+      "cite": "Hou et al. (2024)",
+      "refs": [
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "An enriched taxon is a biological group that is more abundant in one sample category than in comparison categories. Hou and colleagues identified bacterial groups associated with marked bark, unmarked bark, and feces.",
+        "Different branches of the bacterial classification were enriched in the three materials. This analysis complements the broad phylum comparison by locating more specific groups whose relative representation distinguishes the sampled substrates.",
+        "These taxa provide candidates for studying chemical transformations at marking sites. The authors connected microbial composition with measured metabolites rather than assuming that every bacterium found on bark produces a social signal. The coexistence of different bacteria and compounds supplies a biological context for experiments on how the composition of a scent changes after deposition.",
+        "Taxonomic enrichment compares relative representation among sampled materials. The published figure retains the authors' colors for marked bark, unmarked bark, and feces. The result guides selection of microbial candidates, while a conversion mechanism would require measuring what those candidates produce under controlled conditions."
+      ],
+      "figure": {
+        "path": "figures/taxa.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 4(A–B). Bacterial groups enriched in unmarked bark, marked bark, and feces",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Volatile compounds covary with bacterial genera",
+      "layout": "figure-right",
+      "body": [
+        "A **bacterial genus** groups closely related bacterial species. Hou and colleagues compared bacterial genera with volatile compounds measured at scent-marking sites, searching for coordinated variation across samples.",
+        "Ahniella was positively associated with vanillin and negatively associated with nonanal. Collimonas showed positive associations with several compounds, including decanal. These relationships connect particular components of the microbial community with particular components of the odor mixture.",
+        "The **fermentation hypothesis** proposes that microorganisms convert deposited material into odor compounds used in communication. The observed associations supply candidates for this hypothesis, rather than identifying each microbial reaction directly. Their direction and specificity narrow the combinations of bacteria and chemicals that can be tested experimentally for scent production."
+      ],
+      "cite": "Hou et al. (2024)",
+      "refs": [
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "A bacterial genus groups closely related bacterial species. Hou and colleagues compared bacterial genera with volatile compounds measured at scent-marking sites, searching for coordinated variation across samples.",
+        "Ahniella was positively associated with vanillin and negatively associated with nonanal. Collimonas showed positive associations with several compounds, including decanal. These relationships connect particular components of the microbial community with particular components of the odor mixture.",
+        "The fermentation hypothesis proposes that microorganisms convert deposited material into odor compounds used in communication. The observed associations supply candidates for this hypothesis, rather than identifying each microbial reaction directly. Their direction and specificity narrow the combinations of bacteria and chemicals that can be tested experimentally for scent production.",
+        "A positive association means that higher representation of one variable accompanied higher values of the other in these samples. A negative association means the variables tended to vary in opposite directions. Shared environmental influences can also create associations, so the proposed bacterial conversions remain hypotheses in the paper."
+      ],
+      "figure": {
+        "path": "figures/volatile_microbes.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 5. Bacterial genera associated with volatile scent compounds",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Steroid-related metabolites extend the scent substrate",
+      "layout": "figure-right",
+      "body": [
+        "A **steroid** is a molecule with a characteristic four-ring carbon framework. LC-MS measurements of marked bark included steroid-related compounds in addition to the more readily volatile compounds captured by GC-MS.",
+        "Several bacterial genera covaried with these metabolites. Brevundimonas had positive associations with compounds including epitestosterone and 6β-hydroxycortisol. These observations locate reproductive and metabolic chemistry within the environmental material deposited at a scent site.",
+        "The authors proposed the hypothesis that microbes transform some relatively odorless compounds into more odorous derivatives. Such conversion would connect physiological material from the sender with the chemistry available to a receiver after deposition. Measuring the metabolites and their microbial associations establishes candidate substrates for testing that proposed transformation."
+      ],
+      "cite": "Hou et al. (2024)",
+      "refs": [
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "A steroid is a molecule with a characteristic four-ring carbon framework. LC-MS measurements of marked bark included steroid-related compounds in addition to the more readily volatile compounds captured by GC-MS.",
+        "Several bacterial genera covaried with these metabolites. Brevundimonas had positive associations with compounds including epitestosterone and 6β-hydroxycortisol. These observations locate reproductive and metabolic chemistry within the environmental material deposited at a scent site.",
+        "The authors proposed the hypothesis that microbes transform some relatively odorless compounds into more odorous derivatives. Such conversion would connect physiological material from the sender with the chemistry available to a receiver after deposition. Measuring the metabolites and their microbial associations establishes candidate substrates for testing that proposed transformation.",
+        "LC-MS extends the chemical inventory beyond what is readily detected by the gas-based method. Steroid-related compounds in an environmental mixture are not equivalent to a calibrated blood hormone measurement. The paper treats microbial generation of odorous derivatives as a proposed explanation for the combined chemical and microbial observations."
+      ],
+      "figure": {
+        "path": "figures/steroid_microbes.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 6. Bacterial genera associated with LC-MS scent metabolites",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Scent identity depends on mixtures and their environment",
+      "layout": "figure-right",
+      "body": [
+        "A **chemical profile** is the combination of compounds present in a sample and their relative representation. Wild panda marks contain multiple odorants, environmental constituents, and material associated with bacterial communities.",
+        "The individual-discrimination experiment establishes that male gland profiles differ in ways pandas can perceive. The genomic study identifies a diverse receptor repertoire, while field chemistry supplies candidate molecules such as nonanal and decanal within natural marking substrates.",
+        "These findings connect three levels of chemical communication: a deposited mixture, a sensory molecular inventory, and a measurable receiver response. The hypothesis that a particular compound-receptor combination accounts for donor identity requires direct testing. Existing behavioral discrimination is compatible with information carried by a combination of compounds rather than a single universal identity molecule."
+      ],
+      "cite": "Hou et al. (2024); Swaisgood et al. (1999); Zhou et al. (2023)",
+      "refs": [
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051",
+        "Swaisgood RR, Lindburg DG, Zhou X (1999). Giant pandas discriminate individual differences in conspecific scent. Animal Behaviour 57: 1045–1053. https://doi.org/10.1006/anbe.1998.1070",
+        "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979"
+      ],
+      "transcript": [
+        "A chemical profile is the combination of compounds present in a sample and their relative representation. Wild panda marks contain multiple odorants, environmental constituents, and material associated with bacterial communities.",
+        "The individual-discrimination experiment establishes that male gland profiles differ in ways pandas can perceive. The genomic study identifies a diverse receptor repertoire, while field chemistry supplies candidate molecules such as nonanal and decanal within natural marking substrates.",
+        "These findings connect three levels of chemical communication: a deposited mixture, a sensory molecular inventory, and a measurable receiver response. The hypothesis that a particular compound-receptor combination accounts for donor identity requires direct testing. Existing behavioral discrimination is compatible with information carried by a combination of compounds rather than a single universal identity molecule.",
+        "The donor discrimination result concerns the complete gland secretion presented on a board. The wild chemistry samples concern mixtures on bark. Receptor sequence diversity adds a molecular inventory, but no single experiment in these sources links a particular panda receptor to the complete recognition behavior."
+      ],
+      "figure": {
+        "path": "figures/volatile_microbes.png",
+        "kind": "article",
+        "caption": "Hou et al. (2024), Fig. 5. Bacterial genera associated with volatile scent compounds",
+        "source_url": "https://doi.org/10.1016/j.isci.2024.110051"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "The estrogen peak anchors the timing of estrus",
+      "layout": "figure-right",
+      "body": [
+        "**Estrus** is the period of female sexual receptivity associated with the reproductive cycle. Lindburg and colleagues measured urinary estrogen and behavior in the same female over three spring mating seasons, aligning daily observations to the estrogen peak.",
+        "The major urinary estrogen measured was estrone sulfate, with concentrations expressed relative to urinary creatinine. Creatinine normalization reduces variation caused by urine dilution. Values rose from below 50 ng/mg creatinine to above 600 ng/mg, then declined over approximately two days.",
+        "Artificial insemination after the peak produced a pregnancy and live cub in the final season. The rapid decline and concurrent behavioral changes therefore located a fertile interval near ovulation. Hormonal measurements provide a temporal reference against which distinct courtship behaviors can be compared."
+      ],
+      "cite": "Lindburg et al. (2001)",
+      "refs": [
+        "Lindburg DG, Czekala NM, Swaisgood RR (2001). Hormonal and behavioral relationships during estrus in the giant panda. Zoo Biology 20: 537–543. https://doi.org/10.1002/zoo.10027"
+      ],
+      "transcript": [
+        "Estrus is the period of female sexual receptivity associated with the reproductive cycle. Lindburg and colleagues measured urinary estrogen and behavior in the same female over three spring mating seasons, aligning daily observations to the estrogen peak.",
+        "The major urinary estrogen measured was estrone sulfate, with concentrations expressed relative to urinary creatinine. Creatinine normalization reduces variation caused by urine dilution. Values rose from below 50 ng/mg creatinine to above 600 ng/mg, then declined over approximately two days.",
+        "Artificial insemination after the peak produced a pregnancy and live cub in the final season. The rapid decline and concurrent behavioral changes therefore located a fertile interval near ovulation. Hormonal measurements provide a temporal reference against which distinct courtship behaviors can be compared.",
+        "Day 0 is the peak urinary estrogen value, not an independently imaged moment of ovulation. The concentration unit ng/mg creatinine expresses estrogen mass relative to a urinary dilution marker. The endocrine trajectory can therefore be compared across days while reducing variation attributable to how concentrated each urine sample is."
+      ],
+      "figure": {
+        "path": "figures/estrus.png",
+        "kind": "article",
+        "caption": "Lindburg et al. (2001), Fig. 1. Estrogen and behavioral timing relative to the urinary estrogen peak",
+        "source_url": "https://doi.org/10.1002/zoo.10027"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Female scent marking rises before the estrogen maximum",
+      "layout": "figure-right",
+      "body": [
+        "Female **scent-marking rate** changed markedly during the spring reproductive cycle. Outside the presumed estrous periods, the observed female averaged fewer than two marks per hour. During reproductive activity, marking sometimes approached 50 marks per hour.",
+        "Marking began to rise before a clear increase in urinary estrogen, reached high levels during the early estrogen ascent, and declined before the hormone maximum. Its timing therefore differed from a response that simply increases in parallel with the current estrogen concentration.",
+        "By the day after the estrogen peak, marking had returned near baseline while other reproductive behaviors remained active. The sequence shifts the female's communication from extensive early chemical deposition toward behaviors concentrated around the fertile interval. Courtship signaling changes its form as the reproductive state progresses."
+      ],
+      "cite": "Lindburg et al. (2001)",
+      "refs": [
+        "Lindburg DG, Czekala NM, Swaisgood RR (2001). Hormonal and behavioral relationships during estrus in the giant panda. Zoo Biology 20: 537–543. https://doi.org/10.1002/zoo.10027"
+      ],
+      "transcript": [
+        "Female scent-marking rate changed markedly during the spring reproductive cycle. Outside the presumed estrous periods, the observed female averaged fewer than two marks per hour. During reproductive activity, marking sometimes approached 50 marks per hour.",
+        "Marking began to rise before a clear increase in urinary estrogen, reached high levels during the early estrogen ascent, and declined before the hormone maximum. Its timing therefore differed from a response that simply increases in parallel with the current estrogen concentration.",
+        "By the day after the estrogen peak, marking had returned near baseline while other reproductive behaviors remained active. The sequence shifts the female's communication from extensive early chemical deposition toward behaviors concentrated around the fertile interval. Courtship signaling changes its form as the reproductive state progresses.",
+        "The study analyzed the same female across successive seasons, so the temporal sequence is evidence about her repeated cycles. Marking and estrogen were associated over the broader period, but their peaks were displaced in time. The displacement is biologically meaningful because it changes how marking rate is interpreted as a timing cue."
+      ],
+      "figure": {
+        "path": "figures/estrus.png",
+        "kind": "article",
+        "caption": "Lindburg et al. (2001), Fig. 1. Estrogen and behavioral timing relative to the urinary estrogen peak",
+        "source_url": "https://doi.org/10.1002/zoo.10027"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Bleating peaks after estrogen begins to decline",
+      "layout": "figure-right",
+      "body": [
+        "A **bleat** is a vocal signal associated with friendly or solicitous interactions in pandas. In the observed female, bleating occurred at low rates outside estrus and increased several days before the estrogen peak.",
+        "Bleating reached approximately 60 calls per hour on the day after the estrogen maximum. It remained elevated after estrogen had returned toward baseline. Scent marking, by contrast, had already declined sharply by this stage.",
+        "The authors proposed a **triggering hypothesis**: rising estrogen initiates a sequence of behavioral changes whose continued expression need not track the hormone's moment-to-moment concentration. Different timings of marking and bleating fit a staged reproductive sequence, with early surface signaling followed by more frequent vocal interaction near the fertile period."
+      ],
+      "cite": "Lindburg et al. (2001)",
+      "refs": [
+        "Lindburg DG, Czekala NM, Swaisgood RR (2001). Hormonal and behavioral relationships during estrus in the giant panda. Zoo Biology 20: 537–543. https://doi.org/10.1002/zoo.10027"
+      ],
+      "transcript": [
+        "A bleat is a vocal signal associated with friendly or solicitous interactions in pandas. In the observed female, bleating occurred at low rates outside estrus and increased several days before the estrogen peak.",
+        "Bleating reached approximately 60 calls per hour on the day after the estrogen maximum. It remained elevated after estrogen had returned toward baseline. Scent marking, by contrast, had already declined sharply by this stage.",
+        "The authors proposed a triggering hypothesis: rising estrogen initiates a sequence of behavioral changes whose continued expression need not track the hormone's moment-to-moment concentration. Different timings of marking and bleating fit a staged reproductive sequence, with early surface signaling followed by more frequent vocal interaction near the fertile period.",
+        "The triggering hypothesis is an explanation proposed from the temporal observations, rather than a receptor-blockade experiment in pandas. The study measured hormone excretion and behavior concurrently. That pairing of measurements reveals the timing relationships that would be obscured if only average hormone and average behavior values were compared."
+      ],
+      "figure": {
+        "path": "figures/estrus.png",
+        "kind": "article",
+        "caption": "Lindburg et al. (2001), Fig. 1. Estrogen and behavioral timing relative to the urinary estrogen peak",
+        "source_url": "https://doi.org/10.1002/zoo.10027"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Tail-up and rear presentation cluster near ovulation",
+      "layout": "figure-right",
+      "body": [
+        "The **tail-up display** raises the tail during reproductive behavior. **Rear presentation** occurs when the female positions her hindquarters toward a male, sometimes adopting lordosis, an arched posture associated with receptivity.",
+        "In Lindburg and colleagues' observations, rear presentation became more common before the estrogen peak. Presentations accompanied by tail-up or lordosis were concentrated from one day before to three days after the peak, and touching the tail base could induce tail-up during this interval.",
+        "Tail-up occurred even after estrogen concentrations had declined. The combination of behavioral changes and the hormonal trajectory therefore provided a better description of the fertile interval than hormone concentration alone. The sender's reproductive state was expressed through posture, vocalization, and chemical deposition on different time courses."
+      ],
+      "cite": "Lindburg et al. (2001)",
+      "refs": [
+        "Lindburg DG, Czekala NM, Swaisgood RR (2001). Hormonal and behavioral relationships during estrus in the giant panda. Zoo Biology 20: 537–543. https://doi.org/10.1002/zoo.10027"
+      ],
+      "transcript": [
+        "The tail-up display raises the tail during reproductive behavior. Rear presentation occurs when the female positions her hindquarters toward a male, sometimes adopting lordosis, an arched posture associated with receptivity.",
+        "In Lindburg and colleagues' observations, rear presentation became more common before the estrogen peak. Presentations accompanied by tail-up or lordosis were concentrated from one day before to three days after the peak, and touching the tail base could induce tail-up during this interval.",
+        "Tail-up occurred even after estrogen concentrations had declined. The combination of behavioral changes and the hormonal trajectory therefore provided a better description of the fertile interval than hormone concentration alone. The sender's reproductive state was expressed through posture, vocalization, and chemical deposition on different time courses.",
+        "The receptive posture and the rate of chemical marking are different behavioral variables. Rear presentation could occur before the most restricted tail-up interval. Observers therefore identified both the form of the behavior and its timing, rather than treating every approach to a male as equivalent evidence of receptivity."
+      ],
+      "figure": {
+        "path": "figures/estrus.png",
+        "kind": "article",
+        "caption": "Lindburg et al. (2001), Fig. 1. Estrogen and behavioral timing relative to the urinary estrogen peak",
+        "source_url": "https://doi.org/10.1002/zoo.10027"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Female mate preference predicts successful mating",
+      "layout": "figure-right",
+      "body": [
+        "**Mate preference** is differential behavior toward potential partners. Martin-Wintle and colleagues tested a female's responses to two neighboring males before a mating introduction, measuring positive sexual behaviors and time spent near the candidates.",
+        "The candidates were genetically suitable partners, and barred windows permitted visual, vocal, and olfactory interaction while limiting physical contact. Preference was assessed before the animals were paired for mating, separating the behavioral predictor from the later reproductive outcome.",
+        "Females paired with preferred males had more successful intromissions, meaning penetration during copulation, and more cub production after mating. Preference therefore related both to participation in mating and to subsequent reproductive success. The result connects sensory and social assessment before contact with the outcome of a breeding introduction."
+      ],
+      "cite": "Martin-Wintle et al. (2015)",
+      "refs": [
+        "Martin-Wintle MS, Shepherdson D, Zhang G, Zhang H, Li D, Zhou X, Li R, Swaisgood RR (2015). Free mate choice enhances conservation breeding in the endangered giant panda. Nature Communications 6: 10125. https://doi.org/10.1038/ncomms10125"
+      ],
+      "transcript": [
+        "Mate preference is differential behavior toward potential partners. Martin-Wintle and colleagues tested a female's responses to two neighboring males before a mating introduction, measuring positive sexual behaviors and time spent near the candidates.",
+        "The candidates were genetically suitable partners, and barred windows permitted visual, vocal, and olfactory interaction while limiting physical contact. Preference was assessed before the animals were paired for mating, separating the behavioral predictor from the later reproductive outcome.",
+        "Females paired with preferred males had more successful intromissions, meaning penetration during copulation, and more cub production after mating. Preference therefore related both to participation in mating and to subsequent reproductive success. The result connects sensory and social assessment before contact with the outcome of a breeding introduction.",
+        "The study used dichotomous choice, meaning that a focal animal could direct behavior toward either of two potential mates. A male was designated preferred using the distribution of measured positive behaviors. The experiment did not isolate odor from the other sensory information exchanged through the barred windows."
+      ],
+      "figure": {
+        "path": "figures/female_choice.png",
+        "kind": "article",
+        "caption": "Martin-Wintle et al. (2015), Fig. 1. Reproductive outcomes associated with female mate preference",
+        "source_url": "https://doi.org/10.1038/ncomms10125"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Male mate preference also predicts reproductive outcomes",
+      "layout": "figure-right",
+      "body": [
+        "Male pandas also expressed **mate preferences** in the pre-introduction tests. The investigators applied the behavioral assessment to males as well as females, allowing reproductive outcomes to be related to each partner's choice.",
+        "Males paired with preferred females achieved more successful intromissions and produced more cubs than males paired with non-preferred females. Prior successful reproduction with a partner and male body mass also contributed to aspects of reproductive performance.",
+        "Male assessment therefore forms part of the reproductive interaction rather than merely responding to any receptive female. A female's willingness to approach a male and that male's response to her can vary independently. Evaluating both partners connects the sensory and behavioral preparation for mating with the mutual coordination required for successful copulation."
+      ],
+      "cite": "Martin-Wintle et al. (2015)",
+      "refs": [
+        "Martin-Wintle MS, Shepherdson D, Zhang G, Zhang H, Li D, Zhou X, Li R, Swaisgood RR (2015). Free mate choice enhances conservation breeding in the endangered giant panda. Nature Communications 6: 10125. https://doi.org/10.1038/ncomms10125"
+      ],
+      "transcript": [
+        "Male pandas also expressed mate preferences in the pre-introduction tests. The investigators applied the behavioral assessment to males as well as females, allowing reproductive outcomes to be related to each partner's choice.",
+        "Males paired with preferred females achieved more successful intromissions and produced more cubs than males paired with non-preferred females. Prior successful reproduction with a partner and male body mass also contributed to aspects of reproductive performance.",
+        "Male assessment therefore forms part of the reproductive interaction rather than merely responding to any receptive female. A female's willingness to approach a male and that male's response to her can vary independently. Evaluating both partners connects the sensory and behavioral preparation for mating with the mutual coordination required for successful copulation.",
+        "The study analyzed positive sexual behaviors before introduction and later mating performance. It also examined husbandry and physiological variables so that mate preference was considered alongside other influences. The male and female preference analyses are complementary because a successful interaction requires participation by both partners."
+      ],
+      "figure": {
+        "path": "figures/male_choice.png",
+        "kind": "article",
+        "caption": "Martin-Wintle et al. (2015), Fig. 2. Reproductive outcomes associated with male mate preference",
+        "source_url": "https://doi.org/10.1038/ncomms10125"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Mutual preference is associated with the strongest breeding",
+      "layout": "figure-right",
+      "body": [
+        "**Mutual preference** occurs when both partners prefer one another. Martin-Wintle and colleagues separated pairings into four combinations: both preferred, only the female preferred, only the male preferred, or neither preferred.",
+        "Successful intromission occurred in approximately 83% of mutually preferred pairings, whereas none occurred in pairings where neither animal preferred the other. Pairings with preference on only one side had intermediate mating performance.",
+        "Cub production also favored mutually preferred pairings. Its denominator differs from the full pairing rate in the source, because cub production is evaluated after successful mating. The pattern connects reciprocal social assessment with coordinated reproductive behavior, while keeping the successive stages of pairing, copulation, and offspring production conceptually distinct."
+      ],
+      "cite": "Martin-Wintle et al. (2015)",
+      "refs": [
+        "Martin-Wintle MS, Shepherdson D, Zhang G, Zhang H, Li D, Zhou X, Li R, Swaisgood RR (2015). Free mate choice enhances conservation breeding in the endangered giant panda. Nature Communications 6: 10125. https://doi.org/10.1038/ncomms10125"
+      ],
+      "transcript": [
+        "Mutual preference occurs when both partners prefer one another. Martin-Wintle and colleagues separated pairings into four combinations: both preferred, only the female preferred, only the male preferred, or neither preferred.",
+        "Successful intromission occurred in approximately 83% of mutually preferred pairings, whereas none occurred in pairings where neither animal preferred the other. Pairings with preference on only one side had intermediate mating performance.",
+        "Cub production also favored mutually preferred pairings. Its denominator differs from the full pairing rate in the source, because cub production is evaluated after successful mating. The pattern connects reciprocal social assessment with coordinated reproductive behavior, while keeping the successive stages of pairing, copulation, and offspring production conceptually distinct.",
+        "The original figure presents intromission success and cub production as separate outcomes. Table 3 specifies that successive proportions are scaled to the stage above them. The approximately 90% cub-production value for mutually preferred pairs therefore refers to successful copulations, not to every attempted pairing."
+      ],
+      "figure": {
+        "path": "figures/mutual_choice.png",
+        "kind": "article",
+        "caption": "Martin-Wintle et al. (2015), Fig. 3. Mating and cub production across mutual-preference combinations",
+        "source_url": "https://doi.org/10.1038/ncomms10125"
+      },
+      "figure_width": 5.65
+    },
+    {
+      "title": "Genetic suitability can coexist with behavioral choice",
+      "layout": "figure-right",
+      "body": [
+        "**Genetic suitability** concerns avoiding close inbreeding and maintaining genetic representation in a breeding population. **Behavioral compatibility** concerns whether the animals interact in ways that permit mating. The panda preference tests considered choice among already suitable candidate partners.",
+        "Preference information improved prediction of mating outcomes, while the hormone-behavior study located the short reproductive interval. These observations concern different parts of reproduction: the partner selected and the timing at which the female is receptive.",
+        "Chemical communication contributes additional information before direct encounter, through deposited marks and active investigation. Combining candidate suitability, reciprocal preference, and reproductive timing permits breeding decisions to incorporate the animal's sensory and behavioral biology. The studies connect managed introductions with processes already present in the panda's communication system."
+      ],
+      "cite": "Martin-Wintle et al. (2015); Lindburg et al. (2001); Hou et al. (2024)",
+      "refs": [
+        "Martin-Wintle MS, Shepherdson D, Zhang G, Zhang H, Li D, Zhou X, Li R, Swaisgood RR (2015). Free mate choice enhances conservation breeding in the endangered giant panda. Nature Communications 6: 10125. https://doi.org/10.1038/ncomms10125",
+        "Lindburg DG, Czekala NM, Swaisgood RR (2001). Hormonal and behavioral relationships during estrus in the giant panda. Zoo Biology 20: 537–543. https://doi.org/10.1002/zoo.10027",
+        "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051"
+      ],
+      "transcript": [
+        "Genetic suitability concerns avoiding close inbreeding and maintaining genetic representation in a breeding population. Behavioral compatibility concerns whether the animals interact in ways that permit mating. The panda preference tests considered choice among already suitable candidate partners.",
+        "Preference information improved prediction of mating outcomes, while the hormone-behavior study located the short reproductive interval. These observations concern different parts of reproduction: the partner selected and the timing at which the female is receptive.",
+        "Chemical communication contributes additional information before direct encounter, through deposited marks and active investigation. Combining candidate suitability, reciprocal preference, and reproductive timing permits breeding decisions to incorporate the animal's sensory and behavioral biology. The studies connect managed introductions with processes already present in the panda's communication system.",
+        "The preference study argues for incorporating mate choice within genetic management rather than abandoning genetic criteria. The hormonal study recommends using multiple behavioral and hormonal measures together. The field chemistry study establishes what kinds of environmental mixtures are available at natural marking sites, linking management questions to panda chemical ecology."
+      ],
+      "figure": {
+        "path": "figures/mutual_choice.png",
+        "kind": "article",
+        "caption": "Martin-Wintle et al. (2015), Fig. 3. Mating and cub production across mutual-preference combinations",
+        "source_url": "https://doi.org/10.1038/ncomms10125"
+      },
+      "figure_width": 5.65
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Chemical communication",
+        "text": "Panda gland secretions and urine persist at shared sites and support assessment without a simultaneous face-to-face encounter."
+      },
+      {
+        "lead": "Olfactory organization",
+        "text": "A diverse receptor repertoire accompanies differentiated anterior olfactory, tubercular, septal, and amygdaloid forebrain tissue."
+      },
+      {
+        "lead": "Individual discrimination",
+        "text": "Pandas distinguish novel from familiar male gland odors; this task measures odor discrimination rather than full individual recognition."
+      },
+      {
+        "lead": "Spatial context",
+        "text": "Matched scent at different heights changes investigation, flehmen, and, for high male urine, subsequent distance from the source."
+      },
+      {
+        "lead": "Reproductive timing",
+        "text": "Scent marking, bleating, and receptive postures follow different time courses around the estrogen peak."
+      },
+      {
+        "lead": "Reciprocal preference",
+        "text": "Mutual mate preference predicts better mating outcomes among genetically suitable partners."
+      }
+    ],
+    "cite": "Lauer (1949); Swaisgood et al. (1999); White et al. (2002); Lindburg et al. (2001); Martin-Wintle et al. (2015); Zhou et al. (2023); Hou et al. (2024)",
+    "refs": [
+      "Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205",
+      "Zhou C, Liu Y, Zhao G, Liu Z, Chen Q, Yue B, Du C, Zhang X (2023). Comparative Analysis of Olfactory Receptor Repertoires Sheds Light on the Diet Adaptation of the Bamboo-Eating Giant Panda Based on the Chromosome-Level Genome. Animals 13: 979. https://doi.org/10.3390/ani13060979",
+      "Swaisgood RR, Lindburg DG, Zhou X (1999). Giant pandas discriminate individual differences in conspecific scent. Animal Behaviour 57: 1045–1053. https://doi.org/10.1006/anbe.1998.1070",
+      "White AM, Swaisgood RR, Zhang H (2002). The highs and lows of chemical communication in giant pandas (Ailuropoda melanoleuca): effect of scent deposition height on signal discrimination. Behavioral Ecology and Sociobiology 51: 519–529. https://doi.org/10.1007/s00265-002-0473-3",
+      "Lindburg DG, Czekala NM, Swaisgood RR (2001). Hormonal and behavioral relationships during estrus in the giant panda. Zoo Biology 20: 537–543. https://doi.org/10.1002/zoo.10027",
+      "Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051",
+      "Martin-Wintle MS, Shepherdson D, Zhang G, Zhang H, Li D, Zhou X, Li R, Swaisgood RR (2015). Free mate choice enhances conservation breeding in the endangered giant panda. Nature Communications 6: 10125. https://doi.org/10.1038/ncomms10125"
+    ]
+  }
+}

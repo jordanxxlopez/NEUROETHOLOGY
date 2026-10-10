@@ -1,6 +1,4 @@
-# Lecture 66 source PDFs
-
-All seven selected primary papers are available and were read before writing the deck. No PDF uploads remain outstanding. The three publisher-restricted papers were supplied by the instructor; four papers were downloaded from scholarly repositories or their publishers. Original PDFs are retained locally in the ignored papers directory.
+# Lecture 66 references
 
 Lauer EW (1949). Certain olfactory centers of the forebrain of the giant panda (Ailuropoda melanoleuca). Journal of Comparative Neurology 90: 213–241. https://doi.org/10.1002/cne.900900205
 
@@ -15,5 +13,3 @@ Lindburg DG, Czekala NM, Swaisgood RR (2001). Hormonal and behavioral relationsh
 Hou J, Hull V, Fujimoto M, Zhang Z, Chen X, Chen S, Chen R, Connor T, Qi D, Zhang J (2024). Characterizing the metabolome and microbiome at giant panda scent marking sites during the mating season. iScience 27: 110051. https://doi.org/10.1016/j.isci.2024.110051
 
 Martin-Wintle MS, Shepherdson D, Zhang G, Zhang H, Li D, Zhou X, Li R, Swaisgood RR (2015). Free mate choice enhances conservation breeding in the endangered giant panda. Nature Communications 6: 10125. https://doi.org/10.1038/ncomms10125
-
-The Lindburg article is cited as 2001, matching its journal volume and DOI metadata; the uploaded filename says 2002.
