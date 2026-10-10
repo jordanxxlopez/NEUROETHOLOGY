@@ -1,0 +1,1218 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture12_FA2026_V3.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture12_FA2026_V3_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "spider",
+  "spiders",
+  "jumping",
+  "salticid",
+  "salticids",
+  "eye",
+  "eyes",
+  "principal",
+  "lateral",
+  "anterior",
+  "posterior",
+  "median",
+  "secondary",
+  "retina",
+  "retinal",
+  "retinas",
+  "receptor",
+  "receptors",
+  "photoreceptor",
+  "photoreceptors",
+  "layer",
+  "layers",
+  "L1",
+  "L2",
+  "L3",
+  "L4",
+  "lens",
+  "focus",
+  "focal",
+  "defocus",
+  "blur",
+  "image",
+  "images",
+  "target",
+  "targets",
+  "prey",
+  "fly",
+  "jump",
+  "jumps",
+  "green",
+  "red",
+  "ultraviolet",
+  "wavelength",
+  "wavelengths",
+  "pigment",
+  "pigments",
+  "Rh1",
+  "Rh3",
+  "filter",
+  "filtered",
+  "opsin",
+  "sensitivity",
+  "spectral",
+  "saccade",
+  "saccades",
+  "scan",
+  "scanning",
+  "scans",
+  "torsion",
+  "torsional",
+  "tracking",
+  "tube",
+  "muscle",
+  "muscles",
+  "orientation",
+  "turn",
+  "turns",
+  "angle",
+  "angular",
+  "field",
+  "fields",
+  "visual",
+  "vision",
+  "motion",
+  "moving",
+  "unit",
+  "units",
+  "spike",
+  "spikes",
+  "neuron",
+  "neurons",
+  "arcuate",
+  "body",
+  "neuropil",
+  "AM1",
+  "AM2",
+  "AL2/PL2",
+  "receptive",
+  "Habronattus",
+  "Hasarius",
+  "Phidippus",
+  "Servaea",
+  "Marpissa",
+  "Land",
+  "DeVoe",
+  "Nagata",
+  "Zurek",
+  "Jakob",
+  "Menda",
+  "Nelson",
+  "acuity",
+  "contrast",
+  "size",
+  "speed",
+  "distance",
+  "light",
+  "electrode",
+  "recording",
+  "recordings",
+  "masking",
+  "masked",
+  "feedback",
+  "open-loop",
+  "closed-loop",
+  "degrees",
+  "cricket",
+  "crickets",
+  "ovals"
+ ],
+ "new_slides": [
+  {
+   "after": 4,
+   "footer_number": "04a",
+   "template_slide": 4,
+   "title": "Stalking changes a target's angular size and speed",
+   "body": [
+    "Angular size depends on an object's physical size and its distance together: the same fly subtends a larger angle as the gap closes. Its sideways movement also sweeps across more degrees per second when it is near, even if the fly itself keeps the same physical speed.",
+    "A stalking spider therefore carries its prey across the size and speed map rather than holding it at one point. A fly first seen from across the ramp starts among small, slow angular targets, and each step of the approach moves its image toward larger and faster combinations.",
+    "Angular variables are what the receptor array actually receives. A small nearby insect and a large distant one can cast the same 4° image, so the anterior lateral eyes respond to the image a target casts, and the distance needed for an accurate jump comes from the layered principal retina."
+   ],
+   "figure": {
+    "from_slide": 4,
+    "picture": "Picture 3",
+    "caption": "Zurek et al. (2010), Fig. 2. Size and speed interact at each tested contrast."
+   },
+   "cite": "Zurek et al. (2010)",
+   "moves": [
+    "foundation",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    2,
+    3,
+    4,
+    20
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.042382"
+   ],
+   "transcript": [
+    "The dot experiments fix each target at one angular size and one angular speed, but a hunting spider never sees prey that way for long. Working out how approach changes those two variables connects the stalking on slide 2 with the response map on slide 4.",
+    [
+     "Angle depends on distance.",
+     [
+      "An object's angular size grows as the viewer gets closer, so the visual stimulus changes even though the fly does not.",
+      "The same holds for angular speed: a fly walking at a steady pace crosses more of the visual field each second when it is nearby."
+     ]
+    ],
+    [
+     "The approach as a path through the map.",
+     [
+      "Zurek and colleagues placed the fly about twenty-five centimeters away on the ramp, so the stalk begins with a small target image.",
+      "Every step of the stalk shifts the image toward larger angles and faster angular motion, which places the hunt on a moving track across the conditions tested on the ball."
+     ]
+    ],
+    [
+     "Why angle cannot give distance.",
+     [
+      "Many combinations of physical size and distance produce one angular size, so the lateral-eye response to a four-degree dot carries no fixed distance.",
+      "The deck's depth evidence, the red-light undershoot on slides 18 through 20, comes from the principal eyes, which supply the distance used for the final jump."
+     ]
+    ]
+   ],
+   "refs": [
+    "Zurek DB, Taylor AJ, Evans CS, Nelson XJ (2010). The role of the anterior lateral eyes in the vision-based behaviour of jumping spiders. Journal of Experimental Biology 213: 2372–2378. https://doi.org/10.1242/jeb.042382"
+   ]
+  },
+  {
+   "after": 6,
+   "footer_number": "06a",
+   "template_slide": 2,
+   "title": "Separate eyes avoid a field-versus-detail tradeoff",
+   "body": [
+    "An eye of a given size faces a tradeoff. A long focal length enlarges the image so each receptor covers a small angle, but the retina then spans only a few degrees of space; a short focal length covers a wide field with coarse samples. Jumping spiders assign these properties to different eyes.",
+    "The anterior lateral eyes, with immobile lenses and retinas, watch a wide field and are highly sensitive to movement. The principal eyes carry the finest spatial acuity known in terrestrial invertebrates but view a field too narrow to find a target on their own.",
+    "Predation therefore runs as a hand-off: lateral eyes detect a target and turn the body, then movable principal retinas examine what has been brought in front of them. Retinal movement widens the principal eyes' combined field, yet a target off to the side still requires a body turn."
+   ],
+   "figure": {
+    "from_slide": 2,
+    "picture": "Picture 3",
+    "caption": "Zurek et al. (2010), Fig. 1. Controlled display arrangement for isolated lateral vision."
+   },
+   "cite": "Zurek et al. (2010); Jakob et al. (2018)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    2,
+    3,
+    6,
+    31,
+    36
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.042382",
+    "10.1016/j.cub.2018.07.065",
+    "10.1007/s00359-012-0719-0"
+   ],
+   "transcript": [
+    "Slide 2 isolates the anterior lateral eyes and slide 6 introduces the magnifying principal eyes. The optical tradeoff that links field width to image size explains why one animal carries both designs.",
+    [
+     "The optical tradeoff.",
+     [
+      "Magnification spreads each degree of space over more retina, which improves sampling but leaves fewer degrees for a retina of fixed size.",
+      "Jakob and colleagues frame salticid eyes as a way around this tradeoff: different eyes perform different tasks."
+     ]
+    ],
+    [
+     "What each eye pair contributes.",
+     [
+      "The lateral pair supports orientation and stalking from a wide view, as the isolation experiments on slides 2 through 5 found.",
+      "The principal eyes resolve fine detail of stationary objects, but only inside a narrow cone ahead of the spider."
+     ]
+    ],
+    [
+     "The sequence in hunting.",
+     [
+      "Zurek and Nelson point out that salticids must rotate the body to bring targets into the frontal zone in the first place, the body saccades of slide 31.",
+      "Once the target is in front, the principal retinas take over examination, and slide 36 adds that lateral input keeps guiding them while the target moves."
+     ]
+    ]
+   ],
+   "refs": [
+    "Zurek DB, Taylor AJ, Evans CS, Nelson XJ (2010). The role of the anterior lateral eyes in the vision-based behaviour of jumping spiders. Journal of Experimental Biology 213: 2372–2378. https://doi.org/10.1242/jeb.042382",
+    "Jakob EM, Long SM, Harland DP, Jackson RR, Carey A, Searles ME, Porter AH, Canavesi C, Rolland JP (2018). Lateral eyes direct principal eyes as jumping spiders track objects. Current Biology 28: R1092–R1093. https://doi.org/10.1016/j.cub.2018.07.065",
+    "Zurek DB, Nelson XJ (2012). Saccadic tracking of targets mediated by the anterior-lateral eyes of jumping spiders. Journal of Comparative Physiology A 198: 411–417. https://doi.org/10.1007/s00359-012-0719-0"
+   ]
+  },
+  {
+   "after": 8,
+   "footer_number": "08a",
+   "template_slide": 8,
+   "title": "Receptor spacing limits the finest detail resolved",
+   "body": [
+    "Spatial resolution has a sampling limit. A pattern of alternating dark and light stripes is resolved only when neighboring stripes fall on different receptors; when a light and a dark stripe land within one receptor's sample, their signals average and the pattern disappears.",
+    "Magnification sets how much visual angle each receptor covers. The long principal-eye tube spreads the image over a larger retinal distance, so a separation under two micrometers corresponds to a small fraction of a degree. Shorter-focus secondary eyes with similar receptors sample space far more coarsely.",
+    "With the dense central mosaic, the spider can resolve fine contours of stationary prey or mates once the principal retina is aimed at them. Fine sampling exists only in that small, densely packed region, so the retina has to be moved to bring each part of a target onto it."
+   ],
+   "figure": {
+    "from_slide": 8,
+    "picture": "Picture 3",
+    "caption": "Land (1969a), Fig. 5. Receptor mosaics in the principal-eye layers."
+   },
+   "cite": "Land (1969a); Nagata et al. (2012)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    6,
+    7,
+    8,
+    29
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.51.2.443",
+    "10.1016/j.cub.2018.07.065"
+   ],
+   "transcript": [
+    "Slide 8 gives the receptor separation and its angular equivalent. The sampling principle behind that conversion explains what the spacing allows the spider to see and why the eye must move.",
+    [
+     "Why spacing matters.",
+     [
+      "A receptor reports the average light falling on it, so two features closer together than the receptor spacing merge into one signal.",
+      "Fine patterns are therefore resolved only when the mosaic samples them at least once per light and once per dark element."
+     ]
+    ],
+    [
+     "The role of focal length.",
+     [
+      "The same receptor spacing gives different angular resolution in different eyes, depending on how large the image is.",
+      "The principal eye's long tube, introduced on slide 6, enlarges the image, so its tightly packed receptors sample tiny angles."
+     ]
+    ],
+    [
+     "Consequences for viewing.",
+     [
+      "Jakob and colleagues describe the principal eyes as having the best spatial acuity known for terrestrial invertebrates, able to discern fine details of stationary objects.",
+      "That acuity is confined to a narrow region of the retina, which is why the scanning movements on slides 29 and 30 sweep the retina across a target."
+     ]
+    ]
+   ],
+   "refs": [
+    "Land MF (1969a). Structure of the retinae of the principal eyes of jumping spiders (Salticidae: Dendryphantinae) in relation to visual optics. Journal of Experimental Biology 51: 443–470. https://doi.org/10.1242/jeb.51.2.443",
+    "Nagata T, Koyanagi M, Tsukamoto H, Saeki S, Isono K, Shichida Y, Tokunaga F, Kinoshita M, Arikawa K, Terakita A (2012). Depth perception from image defocus in a jumping spider. Science 335: 469–471. https://doi.org/10.1126/science.1211667",
+    "Jakob EM, Long SM, Harland DP, Jackson RR, Carey A, Searles ME, Porter AH, Canavesi C, Rolland JP (2018). Lateral eyes direct principal eyes as jumping spiders track objects. Current Biology 28: R1092–R1093. https://doi.org/10.1016/j.cub.2018.07.065"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 8,
+     "picture": "Picture 5",
+     "caption": "Nagata et al. (2012), Fig. 1(C). Four retinal layers in Hasarius adansoni."
+    }
+   ]
+  },
+  {
+   "after": 11,
+   "footer_number": "11a",
+   "template_slide": 11,
+   "title": "Lens refraction sorts wavelengths by retinal depth",
+   "body": [
+    "**Chromatic aberration** arises from refraction. A lens bends light because light travels more slowly in lens material than in air, and the slowing is greater for shorter wavelengths. Ultraviolet light is bent most strongly and comes to focus closest to the lens, while longer wavelengths focus progressively deeper.",
+    "In the principal eye the receptor layers lie at successive depths, so each depth matches the focal plane of a different spectral band. The ultraviolet pigment of the upper layers, L3 and L4, sits where short wavelengths are sharp, and the deepest layer, L1, sits where green images are sharp.",
+    "Green receptors respond mainly to a band around their pigment's peak, so the image they use has a fairly well-defined focal plane. Shifting the illumination toward red moves that plane deeper, which is how light color can alter perceived distance."
+   ],
+   "figure": {
+    "from_slide": 11,
+    "picture": "Picture 3",
+    "caption": "Nagata et al. (2012), Fig. 1(A–D). Principal-eye anatomy, jump accuracy and the published optical account."
+   },
+   "cite": "Land (1969a); Nagata et al. (2012)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    9,
+    11,
+    13,
+    16,
+    18
+   ],
+   "cited_papers_used": [
+    "10.1126/science.1211667",
+    "10.1242/jeb.51.2.443"
+   ],
+   "transcript": [
+    "Slide 11 names chromatic aberration and slide 16 places pigments in layers. The physics of refraction connects the two and predicts the red-light experiment.",
+    [
+     "Where aberration comes from.",
+     [
+      "Refraction depends on how much a material slows light, and lens materials slow short wavelengths more than long ones.",
+      "Stronger bending brings short-wavelength rays to a focus nearer the lens."
+     ]
+    ],
+    [
+     "Matching layers to wavelengths.",
+     [
+      "Nagata and colleagues describe a retina in which light of different wavelengths is focused on each of the four tiers.",
+      "The ultraviolet-sensitive pigment in the tiers closest to the lens and the green pigment in the deepest tier fit that ordering."
+     ]
+    ],
+    [
+     "Light color and depth.",
+     [
+      "A green receptor's effective image follows the wavelengths it absorbs, so changing the illumination changes where that image is sharp.",
+      "Red light focuses behind the green plane, which is the optical basis for the short jumps under red illumination on slides 18 and 19."
+     ]
+    ]
+   ],
+   "refs": [
+    "Nagata T, Koyanagi M, Tsukamoto H, Saeki S, Isono K, Shichida Y, Tokunaga F, Kinoshita M, Arikawa K, Terakita A (2012). Depth perception from image defocus in a jumping spider. Science 335: 469–471. https://doi.org/10.1126/science.1211667",
+    "Land MF (1969a). Structure of the retinae of the principal eyes of jumping spiders (Salticidae: Dendryphantinae) in relation to visual optics. Journal of Experimental Biology 51: 443–470. https://doi.org/10.1242/jeb.51.2.443"
+   ]
+  },
+  {
+   "after": 14,
+   "footer_number": "14a",
+   "template_slide": 13,
+   "title": "One receptor type confuses color with brightness",
+   "body": [
+    "**Univariance** is the principle that a photoreceptor's response depends only on how many photons its pigment absorbs. Once absorbed, a photon of any wavelength produces the same effect, so wavelength influences the response only by changing the chance of absorption.",
+    "A green receptor therefore responds identically to dim light at its peak and to brighter light far from its peak. On its own, a single receptor class confounds color with intensity, and the response to any wavelength can be matched by adjusting brightness.",
+    "Color information requires comparing receptor classes with different sensitivities. The ratio of ultraviolet-class to green-class responses changes with wavelength but stays fixed when only brightness changes, so DeVoe's two classes give jumping spiders the potential for dichromatic color vision. A filtered third class in _Habronattus_ adds another independent ratio."
+   ],
+   "figure": {
+    "from_slide": 13,
+    "picture": "Picture 3",
+    "caption": "DeVoe (1975), Fig. 2. Ultraviolet, green and dual-peaked spectral sensitivity."
+   },
+   "cite": "DeVoe (1975); Zurek et al. (2015)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    13,
+    14,
+    15,
+    21,
+    23
+   ],
+   "cited_papers_used": [
+    "10.1085/jgp.66.2.193",
+    "10.1016/j.cub.2015.03.033"
+   ],
+   "transcript": [
+    "Slides 13 and 14 describe two receptor classes by their sensitivity peaks. The principle of univariance explains why having two classes, rather than one, is what makes color information possible.",
+    [
+     "What a single receptor reports.",
+     [
+      "Absorption probability depends on wavelength, but each absorbed photon triggers the same molecular event in the receptor.",
+      "A change in voltage can therefore come from a change in wavelength or a change in intensity, and the cell alone gives no way to tell which."
+     ]
+    ],
+    [
+     "Comparison across classes.",
+     [
+      "Brightening a light raises the ultraviolet and green responses together, while shifting its wavelength raises one relative to the other.",
+      "DeVoe concluded from his recordings that jumping spiders have the potential for dichromatic color vision."
+     ]
+    ],
+    [
+     "Extending the comparison.",
+     [
+      "The dual-peaked cells on slide 15 mix the two bands in one voltage, so they contribute little to such a comparison on their own.",
+      "The filtered receptors on slides 21 through 23 create a further class with a different sensitivity, the basis of the proposed trichromacy."
+     ]
+    ]
+   ],
+   "refs": [
+    "DeVoe RD (1975). Ultraviolet and green receptors in principal eyes of jumping spiders. Journal of General Physiology 66: 193–207. https://doi.org/10.1085/jgp.66.2.193",
+    "Zurek DB, Cronin TW, Taylor LA, Byrne K, Sullivan MLG, Morehouse NI (2015). Spectral filtering enables trichromatic vision in colorful jumping spiders. Current Biology 25: R403–R404. https://doi.org/10.1016/j.cub.2015.03.033"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 13,
+     "picture": "Picture 5",
+     "caption": "Nagata et al. (2012), Fig. 2(A–C). Pigment spectra and layer localization in Hasarius."
+    }
+   ]
+  },
+  {
+   "after": 20,
+   "footer_number": "20a",
+   "template_slide": 18,
+   "title": "Blur in L2 grows steadily as prey comes closer",
+   "body": [
+    "A lens forms the sharp image of a near object farther behind it than the image of a distant object. As prey approaches, the green focal plane therefore moves deeper, away from L2, which already lies in front of the plane where green light is sharp.",
+    "Blur on L2 increases continuously as the gap between that layer and the focal plane widens, so each distance in the hunting range maps onto one blur amount. A layer placed exactly at focus would be ambiguous, since objects slightly nearer and slightly farther would blur it equally.",
+    "A one-directional cue suits a jump that must be planned before take-off. The spider can read prey distance from a single fixed eye without moving its head or comparing two eyes, consistent with the accurate one-eyed jumps in _Hasarius_."
+   ],
+   "figure": {
+    "from_slide": 18,
+    "picture": "Picture 3",
+    "caption": "Nagata et al. (2012), Fig. 3(B, C). Measured jump distances under green and red light."
+   },
+   "cite": "Nagata et al. (2012)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    9,
+    16,
+    17,
+    20
+   ],
+   "cited_papers_used": [
+    "10.1126/science.1211667",
+    "10.1242/jeb.51.2.443"
+   ],
+   "transcript": [
+    "Slide 20 introduces defocus as a distance cue. The geometry of focus explains why L2, rather than a perfectly focused layer, is the useful place to measure it.",
+    [
+     "Near objects focus deeper.",
+     [
+      "The lens is fixed, so the only thing that moves the image plane is the object's distance and the light's wavelength.",
+      "Land's measurements on slide 9 already place near-object focus at the deeper layer."
+     ]
+    ],
+    [
+     "One blur value per distance.",
+     [
+      "L2 sits on the lens side of the green focal plane, so approaching prey always pushes the sharp plane further from it.",
+      "Blur therefore changes in one direction across the hunting range, giving a unique reading for each distance."
+     ]
+    ],
+    [
+     "Why a focused layer would fail.",
+     [
+      "A receptor layer at the focal plane gets blurrier whether the object moves nearer or farther, so its blur alone gives two possible distances.",
+      "Nagata and colleagues found that L2 always receives defocused green images, which is the arrangement that avoids this ambiguity."
+     ]
+    ]
+   ],
+   "refs": [
+    "Nagata T, Koyanagi M, Tsukamoto H, Saeki S, Isono K, Shichida Y, Tokunaga F, Kinoshita M, Arikawa K, Terakita A (2012). Depth perception from image defocus in a jumping spider. Science 335: 469–471. https://doi.org/10.1126/science.1211667",
+    "Land MF (1969a). Structure of the retinae of the principal eyes of jumping spiders (Salticidae: Dendryphantinae) in relation to visual optics. Journal of Experimental Biology 51: 443–470. https://doi.org/10.1242/jeb.51.2.443"
+   ]
+  },
+  {
+   "after": 23,
+   "footer_number": "23a",
+   "template_slide": 23,
+   "title": "A filter moves a peak by removing the short side",
+   "body": [
+    "At each wavelength, a filtered receptor responds only to light that first passes the filter and is then absorbed by the pigment. A wavelength is effective only when both steps favor it, so the receptor's sensitivity follows whichever factor is lower.",
+    "A long-pass filter blocks most light shorter than its cutoff. Placed in front of a green pigment, it removes the pigment's peak region and short-wavelength side, leaving the long-wavelength tail, where absorption is lower but present. The receptor's best wavelength moves into the red, near where the filter starts to transmit.",
+    "_Habronattus_ thereby gains a red-shifted channel from the opsin it already expresses. The filter changes only what reaches the pigment, and covering just part of L1 keeps unfiltered green receptors beside filtered ones, the pairing a red-versus-green comparison would use."
+   ],
+   "figure": {
+    "from_slide": 23,
+    "picture": "Picture 3",
+    "caption": "Zurek et al. (2015), Fig. 1(G–I). Filter absorbance, transmission and predicted receptor channels."
+   },
+   "cite": "Zurek et al. (2015)",
+   "moves": [
+    "mechanism",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    14,
+    18,
+    21,
+    22,
+    23
+   ],
+   "cited_papers_used": [
+    "10.1016/j.cub.2015.03.033",
+    "10.1126/science.1211667"
+   ],
+   "transcript": [
+    "Slides 21 through 23 give the measured filter and the predicted red-shifted curve. Following light through the two steps explains how a green pigment ends up with a red peak.",
+    [
+     "Two steps in series.",
+     [
+      "Light must survive the filter before the pigment can absorb it, so the effective sensitivity combines both properties wavelength by wavelength.",
+      "Where either step passes little light, the receptor responds weakly."
+     ]
+    ],
+    [
+     "How the peak shifts.",
+     [
+      "The filter removes the region where the green pigment absorbs best, leaving its long-wavelength tail.",
+      "Slide 18 already noted that green pigment still absorbs red light less efficiently, and the filter makes that tail the receptor's most effective region."
+     ]
+    ],
+    [
+     "The cost and the gain.",
+     [
+      "Fewer photons reach the filtered receptors, the cost described on slide 23.",
+      "The localized filter on slide 22 leaves unfiltered neighbors, so the eye holds green and red-shifted versions of the same pigment side by side."
+     ]
+    ]
+   ],
+   "refs": [
+    "Zurek DB, Cronin TW, Taylor LA, Byrne K, Sullivan MLG, Morehouse NI (2015). Spectral filtering enables trichromatic vision in colorful jumping spiders. Current Biology 25: R403–R404. https://doi.org/10.1016/j.cub.2015.03.033",
+    "Nagata T, Koyanagi M, Tsukamoto H, Saeki S, Isono K, Shichida Y, Tokunaga F, Kinoshita M, Arikawa K, Terakita A (2012). Depth perception from image defocus in a jumping spider. Science 335: 469–471. https://doi.org/10.1126/science.1211667"
+   ]
+  },
+  {
+   "after": 25,
+   "footer_number": "25a",
+   "template_slide": 24,
+   "title": "Shifting the retina steers gaze behind a fixed lens",
+   "body": [
+    "Behind a lens, each point on the retina receives light from one direction in space, and the image is inverted. Displacing the retina sideways therefore changes which direction it samples, with the sampled direction moving opposite to the retinal shift.",
+    "The spider can redirect its narrow high-acuity field without turning the lens or the body. Small internal displacements of the retinal tube produce gaze shifts across a region much wider than the retina, and the fields of the two principal eyes overlap in front of the spider.",
+    "The muscles move only the light retinal tube, so gaze can shift quickly and often, as in the saccades and scans Land recorded. Keeping the lens fixed also holds the eye's optics constant while the sampled region changes, so image quality does not depend on where the eye looks."
+   ],
+   "figure": {
+    "from_slide": 24,
+    "picture": "Picture 3",
+    "caption": "Land (1969b), Fig. 2. Six principal-eye muscles around the movable retinal tube."
+   },
+   "cite": "Land (1969b); Jakob et al. (2018)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    6,
+    24,
+    26,
+    27,
+    28
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.51.2.471",
+    "10.1016/j.cub.2018.07.065"
+   ],
+   "transcript": [
+    "Slides 24 and 25 describe the muscles and their motor supply. The optics of a fixed lens explain what moving the retina accomplishes.",
+    [
+     "Image geometry.",
+     [
+      "A lens maps directions in space onto positions on the retina, with left and right reversed.",
+      "Moving the retina to a new position behind the lens makes it sample a new direction, so gaze moves without the lens moving."
+     ]
+    ],
+    [
+     "A wider effective field.",
+     [
+      "Jakob and colleagues report that eye movements greatly expand the principal-eye visual fields and make them overlap.",
+      "A retina only a few degrees wide can therefore inspect targets across a much broader frontal region."
+     ]
+    ],
+    [
+     "Speed and stable optics.",
+     [
+      "Shifting a small internal tube requires moving far less mass than turning the body, which suits the rapid shifts on slides 27 and 28.",
+      "The fixed lens keeps focus and magnification the same for every gaze direction."
+     ]
+    ]
+   ],
+   "refs": [
+    "Land MF (1969b). Movements of the retinae of jumping spiders (Salticidae: Dendryphantinae) in response to visual stimuli. Journal of Experimental Biology 51: 471–493. https://doi.org/10.1242/jeb.51.2.471",
+    "Jakob EM, Long SM, Harland DP, Jackson RR, Carey A, Searles ME, Porter AH, Canavesi C, Rolland JP (2018). Lateral eyes direct principal eyes as jumping spiders track objects. Current Biology 28: R1092–R1093. https://doi.org/10.1016/j.cub.2018.07.065"
+   ]
+  },
+  {
+   "after": 30,
+   "footer_number": "30a",
+   "template_slide": 29,
+   "title": "Scanning allows a narrow retina to sample shapes",
+   "body": [
+    "The high-acuity region of the principal retina is too narrow to view an entire target at once. Moving it across the target converts space into time: successive receptor positions report successive parts of the object, and the extent of the scan sets how much of the object is sampled.",
+    "Scaling scan amplitude with target width keeps sampling on the object, while very wide targets receive incomplete sweeps. Slow torsion meanwhile changes the angle between receptor rows and the object's edges, so one contour is sampled at several orientations.",
+    "The spider adjusts this active sampling to the object it views, giving crickets more examination than ovals. Fine sampling then serves identification: the principal eyes discern details of stationary objects that motion-sensitive lateral eyes are poorly suited to resolve."
+   ],
+   "figure": {
+    "from_slide": 29,
+    "picture": "Picture 3",
+    "caption": "Land (1969b), Fig. 8(a, b). Published records separating scan translation and torsion."
+   },
+   "cite": "Land (1969b); Jakob et al. (2018)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    8,
+    29,
+    30,
+    37,
+    38
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.51.2.471",
+    "10.1016/j.cub.2018.07.065"
+   ],
+   "transcript": [
+    "Slides 29 and 30 record scan timing and amplitude. Treating the scan as a way of sampling a shape over time ties those measurements to the receptor mosaic on slide 8 and the stimulus effects on slide 38.",
+    [
+     "Space into time.",
+     [
+      "A small array that moves can sample more of an object than it covers at any instant.",
+      "Each sweep delivers a sequence of samples from different parts of the target."
+     ]
+    ],
+    [
+     "Two independent adjustments.",
+     [
+      "Horizontal amplitude sets how far the sweep extends, and Land found it close to target width for narrower targets.",
+      "Torsion changes orientation more slowly, so contours are sampled at different angles across successive sweeps."
+     ]
+    ],
+    [
+     "Sampling depends on the object.",
+     [
+      "Jakob and colleagues found more examination and torsion for crickets than for ovals, so the spider tailors its sampling.",
+      "The principal eyes are the pair able to discern fine details of stationary objects, which is the information this sampling gathers."
+     ]
+    ]
+   ],
+   "refs": [
+    "Land MF (1969b). Movements of the retinae of jumping spiders (Salticidae: Dendryphantinae) in response to visual stimuli. Journal of Experimental Biology 51: 471–493. https://doi.org/10.1242/jeb.51.2.471",
+    "Jakob EM, Long SM, Harland DP, Jackson RR, Carey A, Searles ME, Porter AH, Canavesi C, Rolland JP (2018). Lateral eyes direct principal eyes as jumping spiders track objects. Current Biology 28: R1092–R1093. https://doi.org/10.1016/j.cub.2018.07.065"
+   ]
+  },
+  {
+   "after": 32,
+   "footer_number": "32a",
+   "template_slide": 32,
+   "title": "Faster large saccades keep motion blur brief",
+   "body": [
+    "Photoreceptors integrate light over a short time, so an image moving rapidly across the retina smears over several receptors before each finishes responding. During a body saccade the whole scene sweeps across the eyes, and fine spatial information is degraded for the duration of the turn.",
+    "If saccade speed were fixed, a large turn would last proportionally longer and blur vision for longer. Raising velocity with magnitude instead keeps the blurred interval almost constant and short, so a large correction costs little more viewing time than a small one.",
+    "Brief, fast turns separated by pauses allow the anterior lateral eyes to view the target clearly between movements. Each pause supplies a fresh estimate of target position for the following saccade, which keeps a series of short turns locked onto a moving fly."
+   ],
+   "figure": {
+    "from_slide": 32,
+    "picture": "Picture 3",
+    "caption": "Zurek & Nelson (2012), Fig. 3(a–d). Magnitude, speed and duration vary with target position."
+   },
+   "cite": "Zurek & Nelson (2012)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    15,
+    31,
+    32
+   ],
+   "cited_papers_used": [
+    "10.1007/s00359-012-0719-0",
+    "10.1085/jgp.66.2.193"
+   ],
+   "transcript": [
+    "Slide 32 relates saccade speed to saccade size. The reason that relationship matters is the blur that any fast movement imposes on vision.",
+    [
+     "Why movement blurs vision.",
+     [
+      "A receptor's response builds up over a brief period, as the response time courses in DeVoe's recordings on slide 15 make clear.",
+      "When the image moves faster than that period allows, neighboring receptors receive the same feature and detail is lost."
+     ]
+    ],
+    [
+     "The benefit of scaling speed.",
+     [
+      "Zurek and Nelson argue that increasing velocity for larger saccades keeps the time during which vision is impaired by motion blur almost constant and low.",
+      "A slow large turn would leave the spider with poor vision for longer while the target keeps moving."
+     ]
+    ],
+    [
+     "Looking between turns.",
+     [
+      "Stable intervals between saccades give the lateral eyes clear views of the target.",
+      "Those views set the size of the following turn, so tracking proceeds as an alternation of movement and measurement."
+     ]
+    ]
+   ],
+   "refs": [
+    "Zurek DB, Nelson XJ (2012). Saccadic tracking of targets mediated by the anterior-lateral eyes of jumping spiders. Journal of Comparative Physiology A 198: 411–417. https://doi.org/10.1007/s00359-012-0719-0",
+    "DeVoe RD (1975). Ultraviolet and green receptors in principal eyes of jumping spiders. Journal of General Physiology 66: 193–207. https://doi.org/10.1085/jgp.66.2.193"
+   ]
+  },
+  {
+   "after": 35,
+   "footer_number": "35a",
+   "template_slide": 34,
+   "title": "Open-loop turns trade correction for speed",
+   "body": [
+    "In **closed-loop control**, a movement continues while the controller compares current position with the goal and stops when the error disappears. In **open-loop control** the whole movement is specified at the start, so it can run quickly, but any error is corrected only by a later movement.",
+    "Saccades suit open-loop control. Vision is degraded during a rapid turn, so feedback arriving mid-turn would be unreliable and late. Land's accurate turns on the ring and in darkness fit a command set before movement, and sequences of undershooting saccades fit repeated open-loop steps with a new look between them.",
+    "In a free spider the two modes alternate: each saccade covers most of the angular error without waiting for feedback, then the following pause allows the lateral eyes to measure what remains. Speed comes from the open-loop step, accuracy from the visual check between steps."
+   ],
+   "figure": {
+    "from_slide": 34,
+    "picture": "Picture 3",
+    "caption": "Land (1971), Fig. 5. Attempted turn magnitude versus target angle."
+   },
+   "cite": "Land (1971); Zurek & Nelson (2012)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.54.1.119",
+    "10.1007/s00359-012-0719-0"
+   ],
+   "transcript": [
+    "Slides 33 through 35 remove visual feedback from the turn, and slides 31 and 32 record turns made with vision intact. Separating open-loop from closed-loop control joins the two sets of results into one account of orientation.",
+    [
+     "Two kinds of control.",
+     [
+      "A closed-loop system measures the remaining error throughout the movement, while an open-loop system commits to a movement size at the outset.",
+      "Open-loop movements are faster but cannot correct themselves while under way."
+     ]
+    ],
+    [
+     "Where the evidence fits.",
+     [
+      "Land's complete turns matched the initial target angle when the body was held and when the lights went out, so turn size was set before the movement.",
+      "Zurek and Nelson's turns came as a series that undershot at large angles, the pattern expected from open-loop steps checked between movements."
+     ]
+    ],
+    [
+     "The combined strategy.",
+     [
+      "Each fast step removes most of the error, and the following visual sample measures what is left.",
+      "The blur during each saccade, discussed with slide 32, makes mid-turn correction of little value, which favors this step-and-look arrangement."
+     ]
+    ]
+   ],
+   "refs": [
+    "Land MF (1971). Orientation by jumping spiders in the absence of visual feedback. Journal of Experimental Biology 54: 119–139. https://doi.org/10.1242/jeb.54.1.119",
+    "Zurek DB, Nelson XJ (2012). Saccadic tracking of targets mediated by the anterior-lateral eyes of jumping spiders. Journal of Comparative Physiology A 198: 411–417. https://doi.org/10.1007/s00359-012-0719-0"
+   ]
+  },
+  {
+   "after": 38,
+   "footer_number": "38a",
+   "template_slide": 36,
+   "title": "Lateral eyes guide where principal eyes inspect",
+   "body": [
+    "Principal-eye movements fall into two groups by their sensory source. Scanning a stationary object relies on what the principal retina itself sees, so it survives lateral masking; following a moving object relies on motion signals from the anterior lateral eyes, so it fails when they are covered.",
+    "A retina only a few degrees wide loses a moving target as soon as the target leaves that small field, and with it the signal needed to catch up. The wide-field lateral eyes keep seeing the target and supply the continuing position signal that steers the principal retina.",
+    "The same lateral information drives outputs at two scales. Large displacements trigger whole-body saccades, while target motion within the frontal zone is followed by internal retinal tracking, so the lateral eyes coordinate body and eye movements during pursuit."
+   ],
+   "figure": {
+    "from_slide": 36,
+    "picture": "Picture 3",
+    "caption": "Jakob et al. (2018), Fig. 1(A–E). Principal-eye movements with anterior lateral eyes available or masked."
+   },
+   "cite": "Jakob et al. (2018); Land (1969b); Zurek & Nelson (2012)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    28,
+    31,
+    36,
+    37,
+    38
+   ],
+   "cited_papers_used": [
+    "10.1016/j.cub.2018.07.065",
+    "10.1242/jeb.51.2.471",
+    "10.1007/s00359-012-0719-0"
+   ],
+   "transcript": [
+    "Slides 36 through 38 separate tracking from scanning by masking the lateral eyes. Asking where each movement gets its sensory signal explains why masking affects one and spares the other.",
+    [
+     "Two sources of guidance.",
+     [
+      "Scanning works on information already inside the principal eye's own field, so it needs no help from other eyes.",
+      "Tracking requires knowing where the target is about to go, which the narrow principal field alone does not supply once the target slips away."
+     ]
+    ],
+    [
+     "The wide-field partner.",
+     [
+      "Jakob and colleagues describe the anterior lateral eyes as having immobile retinas, wide fields of view and hyperacute sensitivity to moving stimuli.",
+      "Those properties let them keep a moving target in view and pass its position to the principal-eye motor system."
+     ]
+    ],
+    [
+     "Body and eye together.",
+     [
+      "Land found on slide 28 that targets seen by the lateral eyes could drive principal-eye shifts, and Zurek and Nelson found on slide 31 that the same eyes drive body saccades.",
+      "One sensory input can therefore steer two motor systems, the body for large corrections and the retinas for fine ones."
+     ]
+    ]
+   ],
+   "refs": [
+    "Jakob EM, Long SM, Harland DP, Jackson RR, Carey A, Searles ME, Porter AH, Canavesi C, Rolland JP (2018). Lateral eyes direct principal eyes as jumping spiders track objects. Current Biology 28: R1092–R1093. https://doi.org/10.1016/j.cub.2018.07.065",
+    "Land MF (1969b). Movements of the retinae of jumping spiders (Salticidae: Dendryphantinae) in response to visual stimuli. Journal of Experimental Biology 51: 471–493. https://doi.org/10.1242/jeb.51.2.471",
+    "Zurek DB, Nelson XJ (2012). Saccadic tracking of targets mediated by the anterior-lateral eyes of jumping spiders. Journal of Comparative Physiology A 198: 411–417. https://doi.org/10.1007/s00359-012-0719-0"
+   ]
+  },
+  {
+   "after": 41,
+   "footer_number": "41a",
+   "template_slide": 41,
+   "title": "Hydraulic body pressure shaped spider recordings",
+   "body": [
+    "Spiders extend several leg joints by raising the pressure of their body fluid rather than with extensor muscles. Their internal fluid is kept under pressure, and any opening in the cuticle releases fluid, lowering the pressure that locomotion and a healthy preparation depend on.",
+    "This property had confined earlier neurophysiology in jumping spiders to a few recordings from the eyes, such as DeVoe's photoreceptor measurements. A puncture small enough to keep fluid loss low turned the brain into an accessible recording site.",
+    "Extracellular and intracellular recordings answer different questions. DeVoe's electrode inside a receptor measured graded voltage changes in one cell; a tungsten electrode in the brain detects spikes from nearby neurons without entering them, trading subthreshold detail for stable access to central units."
+   ],
+   "figure": {
+    "from_slide": 41,
+    "picture": "Picture 3",
+    "caption": "Menda et al. (2014), Fig. 1(A–D). Recording approach, arcuate-body anatomy and spike separation."
+   },
+   "cite": "Menda et al. (2014); DeVoe (1975)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "distinction",
+    "integration"
+   ],
+   "integrates": [
+    12,
+    41,
+    42,
+    44
+   ],
+   "cited_papers_used": [
+    "10.1016/j.cub.2014.09.029",
+    "10.1085/jgp.66.2.193"
+   ],
+   "transcript": [
+    "Slide 41 describes small openings and long recordings. The spider's hydraulic body explains why access was the obstacle, and comparing the two recording methods in the deck explains what each can measure.",
+    [
+     "A pressurized body.",
+     [
+      "Spider legs extend partly by fluid pressure, so the body cannot tolerate a large leak.",
+      "Menda and colleagues identify this pressurized internal fluid as what had blocked typical physiological techniques in salticids."
+     ]
+    ],
+    [
+     "From eyes to brain.",
+     [
+      "Before their work, neural recordings in jumping spiders were restricted to a few from the eyes, like those on slides 12 through 15.",
+      "Their survey was the first set of neurophysiological recordings from a jumping spider brain."
+     ]
+    ],
+    [
+     "Inside versus outside the cell.",
+     [
+      "An intracellular electrode reads a cell's own membrane potential, including graded responses that never produce spikes.",
+      "An extracellular electrode picks up spikes from cells near its tip, which suits long surveys of central units such as those on slides 42 through 44."
+     ]
+    ]
+   ],
+   "refs": [
+    "Menda G, Shamble PS, Nitzany EI, Golden JR, Hoy RR (2014). Visual perception in the brain of a jumping spider. Current Biology 24: 2580–2585. https://doi.org/10.1016/j.cub.2014.09.029",
+    "DeVoe RD (1975). Ultraviolet and green receptors in principal eyes of jumping spiders. Journal of General Physiology 66: 193–207. https://doi.org/10.1085/jgp.66.2.193"
+   ]
+  },
+  {
+   "after": 44,
+   "footer_number": "44a",
+   "template_slide": 44,
+   "title": "A gated receptive field is not a sum of inputs",
+   "body": [
+    "**Reverse correlation** recovers a receptive field by averaging the random stimulus patterns that preceded each spike. Patterns unrelated to the neuron's preference average out, leaving only the spatial and temporal structure that reliably drives firing.",
+    "If a unit simply added principal-eye and lateral-eye input, covering one eye system would remove only that system's part of the field, and the rest would still appear in the average. A field that appears only with both systems open means each input changes how the unit responds to the other, the signature of gate-like convergence.",
+    "Such gating could make a central unit respond when lateral eyes report a target's motion and principal eyes report its detail at the same time. That combination links where a moving object is with what it is, the two kinds of information an attack decision draws on."
+   ],
+   "figure": {
+    "from_slide": 44,
+    "picture": "Picture 3",
+    "caption": "Menda et al. (2014), Fig. 4(A–D). Eye occlusion changes the measured spatiotemporal receptive field."
+   },
+   "cite": "Menda et al. (2014)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    36,
+    39,
+    40,
+    44
+   ],
+   "cited_papers_used": [
+    "10.1016/j.cub.2014.09.029"
+   ],
+   "transcript": [
+    "Slide 44 reports a receptive field that needs both eye systems. The averaging method and the logic of summation explain why that result points to a nonlinear interaction.",
+    [
+     "How the field is measured.",
+     [
+      "Rapidly changing checker patterns are uncorrelated from moment to moment, so averaging those that came before spikes cancels everything the unit ignores.",
+      "What survives the averaging is the unit's preferred pattern in space and in the preceding interval of time."
+     ]
+    ],
+    [
+     "Summation versus gating.",
+     [
+      "Under pure summation, each eye system would contribute its own piece of the field, and removing one would leave the other piece visible.",
+      "Menda and colleagues inferred nonlinear interactions between principal and secondary eyes from the emergence of the field only when both were available."
+     ]
+    ],
+    [
+     "What a gate could do.",
+     [
+      "A unit requiring both inputs would respond most to objects that move and also carry fine structure, such as prey.",
+      "The anatomical routes on slides 39 and 40 offer places where such signals could meet, while the masking results on slide 36 show the same two systems interacting in behavior."
+     ]
+    ]
+   ],
+   "refs": [
+    "Menda G, Shamble PS, Nitzany EI, Golden JR, Hoy RR (2014). Visual perception in the brain of a jumping spider. Current Biology 24: 2580–2585. https://doi.org/10.1016/j.cub.2014.09.029"
+   ]
+  }
+ ],
+ "original_edits": [
+  {
+   "slide": 2,
+   "old": "Spiders retaining only anterior lateral vision could orient, stalk and attack. Performance was limited, and some individuals did not pursue the fly. The result establishes that these eyes can support parts of predation; it does not establish that the principal eyes are dispensable for normal hunting.",
+   "new": "Spiders retaining only anterior lateral vision could orient, stalk and attack, although some individuals did not pursue the fly. Spatial information from this forward-facing secondary pair is therefore enough to start and steer a predatory sequence, a role the authors argue has been underestimated."
+  },
+  {
+   "slide": 3,
+   "old": "A 4° dot moving at 9°/s with 40% contrast elicited orientation frequently, whereas a blank gray screen rarely did. The ball registered attempted turns without moving the spider through the scene. These responses measure detection and orientation, not recognition of a particular prey species.",
+   "new": "A 4° dot moving at 9°/s with 40% contrast elicited orientation frequently, whereas a blank gray screen rarely did. The ball registered attempted turns without moving the spider through the scene. A turn toward the dot brings it nearer the forward field of the principal eyes for closer inspection."
+  },
+  {
+   "slide": 4,
+   "old": "Weak contrast reduced responses, and the smallest dot was not simply the best stimulus because it resembled distant prey. The measured response map constrains explanations of anterior lateral detection. It does not supply a single acuity threshold or a neural mechanism for multiplying size, contrast and motion signals.",
+   "new": "Weak contrast reduced responses, and the smallest dot was not the most effective stimulus. Every tested variable altered orientation, so the anterior lateral eyes register spatial features of a moving target as well as its motion, giving this secondary pair a real role in spatial vision."
+  },
+  {
+   "slide": 5,
+   "old": "Hunger therefore changes the relationship between a visual target and an overt action. The experiment does not localize that change to photoreceptors, visual interneurons or motor circuits. Lower response probability in a recently fed spider cannot by itself be interpreted as failure to detect the target.",
+   "new": "Hunger therefore changes the relationship between a visual target and an overt action. Hunger raised orientation by a similar amount in both sexes, yet females responded more often whether sated or hungry, a difference the authors link to the higher nutritional demands females tend to experience."
+  },
+  {
+   "slide": 6,
+   "old": "A broad lateral field and a restricted principal field provide different spatial access to a target. The colored retinal preparation from Habronattus identifies a comparable principal-eye structure in another genus. Its red filter is a specialization of that lineage and should not be assigned to Land's species.",
+   "new": "A broad lateral field and a restricted principal field provide different spatial access to a target. Moving the retinal tube sweeps the narrow principal field across a much wider region. The colored _Habronattus_ preparation displays a comparable aperture and retina, here carrying a red filter."
+  },
+  {
+   "slide": 7,
+   "old": "The retina is therefore a three-dimensional receptor arrangement rather than a single flat screen. Histological depth identifies possible differences in optical focus and light sampling. Anatomy alone does not establish a layer's wavelength sensitivity, response kinetics or contribution to a specific hunting decision.",
+   "new": "The retina is therefore a three-dimensional receptor arrangement rather than a single flat screen. Light reaching L1 has already passed through the upper layers, and each layer lies at a different distance behind the lens, so the layers can differ in which images are sharp on them."
+  },
+  {
+   "slide": 8,
+   "old": "Fine sampling permits small spatial differences to reach separate receptor positions, but receptor spacing alone does not prove behavioral discrimination at that limit. Optical blur, neural pooling and viewing conditions can change effective acuity. The colored section identifies the corresponding layered organ in Hasarius, without implying that its spacing equals Land's measured value.",
+   "new": "Fine sampling permits small spatial differences to reach separate receptor positions. The long focal length of the principal eye spreads each degree of visual space over a larger stretch of retina, so densely packed receptors divide a target into many samples. The colored section locates the corresponding layered organ in _Hasarius_."
+  },
+  {
+   "slide": 9,
+   "old": "These relationships make retinal depth relevant to viewing distance. They do not prove that the spider actively accommodates its lens or consciously selects a layer. Land's proposed spectral assignments to the layers were hypotheses; later measurements of receptor sensitivity and pigment localization must determine which wavelengths actually activate each population.",
+   "new": "These relationships make retinal depth relevant to viewing distance: nearer objects form their sharp image farther behind the lens, toward the deeper layers. Land proposed that the layers also differ in spectral class; later pigment localization in _Hasarius_ placed green-sensitive pigment in L1 and L2 and ultraviolet-sensitive pigment in L3 and L4."
+  },
+  {
+   "slide": 10,
+   "old": "Modern labeled sections in Marpissa muscosa identify AM1 and AM2, the first- and second-order principal-eye neuropils. They provide anatomical landmarks for a comparable pathway, while leaving the exact correspondence between Land's layer-specific endings and modern neuronal cell types unresolved.",
+   "new": "Modern labeled sections in _Marpissa muscosa_ identify AM1 and AM2, the first- and second-order principal-eye neuropils. AM2 in turn connects to the arcuate body, so principal-eye signals pass through two visual stations before reaching that central neuropil."
+  },
+  {
+   "slide": 11,
+   "old": "The authors proposed that this wavelength-dependent defocus, the departure from a sharp image, could bias distance estimation. Retinal anatomy and optical calculations support the availability of such a cue. Establishing its behavioral use requires altering illumination and measuring the resulting jump, rather than inferring depth perception from a section alone.",
+   "new": "The authors proposed that this wavelength-dependent defocus, the departure from a sharp image, could bias distance estimation. They tested the proposal by changing the illumination: under red light, _Hasarius_ jumped short of its prey, the direction expected if extra red-light blur makes a target seem closer."
+  },
+  {
+   "slide": 12,
+   "old": "Wavelength and intensity were varied to compare receptor sensitivity. The recordings did not identify the exact retinal layer of each impaled cell. The colored Hasarius section locates the same type of layered organ, but cannot retrospectively assign a Phidippus recording to one of its layers.",
+   "new": "Wavelength and intensity were varied to compare receptor sensitivity. The recordings sorted principal-eye cells into ultraviolet, green and dual-peaked ultraviolet-green classes. The colored _Hasarius_ section displays the four-layered organ that holds such receptors."
+  },
+  {
+   "slide": 13,
+   "old": "The receptor class supplies a physiological channel for ultraviolet information. It does not establish ultraviolet color discrimination by the intact spider. Later pigment localization in Hasarius places an ultraviolet-sensitive pigment in upper retinal layers, but that molecular result cannot identify the unlocalized cells in DeVoe's earlier recordings.",
+   "new": "The receptor class supplies a physiological channel for ultraviolet information, distinct from the green class recorded in the same eyes. In _Hasarius_, the corresponding ultraviolet-sensitive pigment Rh3 lies in the upper retinal layers, L3 and L4, nearest the lens."
+  },
+  {
+   "slide": 14,
+   "old": "Receptor voltage sensitivity and purified-pigment absorption are complementary measurements. Their similar green peaks support a pigment-based contribution to green responses. The experiments involve different species and do not identify every molecular step between photon absorption, membrane current and the recorded voltage change.",
+   "new": "Receptor voltage sensitivity and purified-pigment absorption are complementary measurements. Their similar green peaks support a pigment-based contribution to green responses. A pigment absorbs best near its peak but still absorbs farther along the spectrum, so green receptors respond to long-wavelength light at reduced sensitivity."
+  },
+  {
+   "slide": 15,
+   "old": "The observed timing constrains accounts of signal generation in these cells. It does not establish two separately wired brain channels from that one receptor, or identify the molecular interaction responsible for the slower ultraviolet component. DeVoe also could not assign these cells to a particular retinal layer.",
+   "new": "The observed timing constrains accounts of signal generation in these cells. Their ultraviolet-to-green sensitivity ratios spanned a 40:1 range, so each dual-peaked cell mixes the two spectral bands in its own proportion."
+  },
+  {
+   "slide": 16,
+   "old": "L2 therefore contains green-sensitive receptors even though green images are not sharply focused there. This arrangement makes green-image blur biologically available. Absence from one expression assay does not prove a pigment is absent under every condition, and molecular localization does not by itself establish how downstream neurons use the layers.",
+   "new": "L2 therefore contains green-sensitive receptors even though green images are sharply focused only on L1. This arrangement makes green-image blur biologically available: L2 always receives a defocused green image, and in optical theory that blur carries information about object depth."
+  },
+  {
+   "slide": 17,
+   "old": "Motion parallax is image displacement related to movement of the observer through space. Accurate performance with one principal eye weakens a requirement for binocular comparison in this preparation. The result does not, on its own, identify defocus as the remaining cue or exclude every possible monocular distance signal.",
+   "new": "Motion parallax is image displacement related to movement of the observer through space. Accurate performance with one principal eye removes binocular comparison as a requirement, and the absence of parallax-generating movement leaves image defocus as the candidate cue for the wavelength experiments."
+  },
+  {
+   "slide": 18,
+   "old": "A wavelength-dependent motor error supports a visual distance estimate affected by chromatic defocus. The result does not establish a red-sensitive receptor class or a preference for red prey. Green-sensitive Rh1 can absorb red light less efficiently, while the red light forms its image at a different optical depth.",
+   "new": "A wavelength-dependent motor error supports a visual distance estimate affected by chromatic defocus. Green-sensitive Rh1 still absorbs red light, less efficiently, so the spiders could see under red illumination while red light formed its image at a different optical depth."
+  },
+  {
+   "slide": 19,
+   "old": "This control argues against reduced photon capture as a sufficient explanation of the short jumps. It supports a wavelength-dependent optical contribution. It does not identify the downstream computation, and intensity matching for purified Rh1 is not a complete measurement of every receptor's activity in the intact animal.",
+   "new": "This control argues against reduced photon capture as a sufficient explanation of the short jumps. Brightness changes how many photons Rh1 absorbs, while wavelength changes where the image is sharpest, so an error that survives extra brightness follows the optical change."
+  },
+  {
+   "slide": 20,
+   "old": "Comparing a sharper L1 image with a defocused L2 image was proposed as one possible implementation. The study explicitly lacked neural evidence for such a comparison. The anatomical layers, wavelength manipulation and jump measurements support the cue, while the comparing cells, synapses and ion channels remain unidentified.",
+   "new": "Comparing a sharper L1 image with a defocused L2 image was proposed as one implementation. Two images of the same object let blur be measured against a sharp reference, which separates defocus caused by distance from the fuzziness or low contrast of the object itself."
+  },
+  {
+   "slide": 21,
+   "old": "The filter supplies a physical route to an additional spectral channel. The predicted red curve is an author-published calculation from measured optical properties, not a directly recorded red-cell response. This specialization should not be assigned to every jumping-spider genus.",
+   "new": "The filter supplies a physical route to an additional spectral channel. Receptors behind the filter and their unfiltered neighbors share one green pigment, so comparing their signals could separate red from green light."
+  },
+  {
+   "slide": 23,
+   "old": "The paper establishes the optical mechanism and its spectral potential. It does not directly measure three downstream opponent channels or demonstrate brightness-controlled discrimination among all relevant colors. Spectral opponency, comparison between wavelength channels, would require additional neural evidence before assigning a particular color computation to the brain.",
+   "new": "Spectral opponency is a comparison between wavelength channels, typically by neurons excited through one channel and inhibited through another. With ultraviolet, green and red-shifted inputs, such comparisons could help these colorful spiders discriminate the colors of mates, rivals and prey."
+  },
+  {
+   "slide": 24,
+   "old": "The muscle arrangement makes translation and rotation physically possible. Attachment geometry does not determine the precise activation sequence during tracking, and the dissections do not identify the transmitter or postsynaptic receptor at the neuromuscular junction. Behavioral movement records are needed to associate this anatomy with particular responses.",
+   "new": "The muscle arrangement makes translation and rotation physically possible. Land's ophthalmoscope recordings in the same study captured both actions: horizontal retinal shifts during saccades, tracking and scanning, and torsional rotations of roughly 50° during target examination."
+  },
+  {
+   "slide": 25,
+   "old": "A one-to-one anatomical association between axons and muscles does not establish a six-command coding scheme for gaze. The study did not record these axons during scanning or identify their transmitter, receptor or membrane conductances. Sensory-triggered eye movements therefore require additional, unmeasured circuitry between visual input and this motor output.",
+   "new": "With one axon per muscle, each muscle receives its own motor neuron, so the contraction of every muscle can be set independently. Graded combinations of six commands can then produce the mixtures of horizontal, vertical and torsional retinal movement recorded during scanning."
+  },
+  {
+   "slide": 26,
+   "old": "The method recorded retinal position, not receptor voltage or motor-neuron spikes. Restraint and the apparatus also differed from free hunting. Nevertheless, separate target and movement records distinguished spontaneous activity, rapid repositioning, tracking and scanning within the same anatomical organ.",
+   "new": "Recording retinal position against a known target position turns internal eye movement into a measurable output. Separate target and movement records distinguished spontaneous activity, rapid repositioning, tracking and scanning within the same anatomical organ."
+  },
+  {
+   "slide": 27,
+   "old": "Persistence without ordinary visual input supports an internally generated component of eye movement. The targeted responses establish visual influence on repositioning, but neither result identifies the central generator or the error signal. A spontaneous shift and a visually evoked saccade should not be treated as the same stimulus-dependent process.",
+   "new": "Persistence without ordinary visual input supports an internally generated component of eye movement. Targeted saccades instead depend on where the stimulus appears, so the same muscles serve a self-generated pattern and a visually directed shift that moves the high-resolution retina onto a new target."
+  },
+  {
+   "slide": 28,
+   "old": "A visually guided change in retinal position establishes functional coordination between sensory input and the eye motor system. It does not identify the intervening neurons, prove a continuous velocity-matching controller or establish that principal and lateral inputs make identical contributions. Later eye masking can test the dependence on each input more directly.",
+   "new": "A visually guided change in retinal position establishes functional coordination between sensory input and the eye motor system. Masking experiments by Jakob and colleagues later confirmed the lateral contribution: with the anterior lateral eyes covered, principal retinas no longer tracked moving disks."
+  },
+  {
+   "slide": 29,
+   "old": "These movements alter the spatial samples delivered by a small retinal array. Their timing supports an active sampling strategy, but it does not establish what features a downstream neuron extracts. The electrical responses of individual receptors or feature-selective interneurons were not measured in these movement records.",
+   "new": "These movements alter the spatial samples delivered by a small retinal array. Repeated horizontal sweeps let a narrow strip of receptors cover a target wider than itself, while slow torsion presents the target's contours to the receptor rows at changing angles."
+  },
+  {
+   "slide": 30,
+   "old": "Land proposed that changing receptor-row orientation could aid contour analysis during these scans. That proposal drew on stimulus shapes known to alter behavior, but no line-selective neuron was recorded. Width-dependent scanning is measured evidence; feature extraction by a particular detector remains a mechanistic hypothesis.",
+   "new": "Land proposed that changing receptor-row orientation could aid contour analysis during these scans, drawing on stimulus shapes known to alter behavior. Matching scan amplitude to target width keeps the sweep on the object, so receptors spend their sampling time on its edges rather than on empty background."
+  },
+  {
+   "slide": 31,
+   "old": "Body saccades redirect the animal toward a moving target and can place it nearer the principal-eye field. Their timing differs from Land's slower internal scans. The result establishes the anterior lateral contribution to a defined orienting task, not a complete model of free-moving prey interception.",
+   "new": "Body saccades redirect the animal toward a moving target and can place it nearer the principal-eye field. Saccade frequency peaked where the anterior lateral and principal-eye fields meet, and the first saccade began where the target crossed the physical margin of the lateral retina."
+  },
+  {
+   "slide": 32,
+   "old": "A sequence of undershooting movements can progressively center a moving target. These relationships constrain motor control without proving a specific error-correcting neural circuit. The records are attempted body rotations on a ball and do not measure the forces or trajectories of an unrestricted spider.",
+   "new": "A sequence of undershooting movements can progressively center a moving target. Each follow-up turn starts from a smaller error, so the spider closes in on the target direction without swinging past it into the opposite side of its field."
+  },
+  {
+   "slide": 33,
+   "old": "This arrangement removed the retinal image motion normally produced by the animal's body rotation. A response could therefore be tested without the usual visual reduction of target error. The apparatus isolates feedback from that turn; it does not eliminate every possible sensory signal from the feet or body.",
+   "new": "This arrangement removed the retinal image motion normally produced by the animal's body rotation. A response could therefore be tested without the usual visual reduction of target error, so the size of each attempted turn reveals the command issued before the movement began."
+  },
+  {
+   "slide": 34,
+   "old": "Accurate complete turns support a motor command based on the target position available before movement. They do not prove that natural turns never use visual feedback. The coexistence of complete and partial responses also prevents every movement from being interpreted as a perfectly specified orienting command.",
+   "new": "Accurate complete turns support a motor command based on the target position available before movement. The spider therefore converts the target's position on the lateral retina into a turn of matching size, specifying the whole movement in advance."
+  },
+  {
+   "slide": 35,
+   "old": "The control strengthens an open-loop account of the tested turns. It does not remove nonvisual feedback or identify the neural representation of target angle. Complete and partial movements remained behaviorally distinct, and habituation could alter which response was selected.",
+   "new": "The control strengthens an open-loop account of the tested turns. The turn command persists after the light goes off, and complete and partial movements remained distinct, with habituation altering which response was selected."
+  },
+  {
+   "slide": 36,
+   "old": "The manipulation supports a causal contribution of anterior lateral input to principal-eye tracking. It does not identify the connecting neurons or prove that all principal-eye movements require lateral vision. The measured motor output is internal retinal motion, rather than the body saccades in the Servaea ball assays.",
+   "new": "The manipulation supports a causal contribution of anterior lateral input to principal-eye tracking. The lateral eyes, with immobile retinas, wide fields and high sensitivity to motion, tell the narrow, high-acuity principal retinas where a moving target is going."
+  },
+  {
+   "slide": 37,
+   "old": "Preserved scanning narrows the interpretation toward loss of a guiding visual contribution rather than complete motor failure. It does not exclude subtler effects of masking, and the comparison does not establish which principal-eye feature signals distinguish a cricket from an oval.",
+   "new": "Preserved scanning narrows the interpretation toward loss of a guiding visual contribution rather than complete motor failure. Principal eyes examine stationary detail on their own, but smoothly following a moving target needs lateral-eye guidance."
+  },
+  {
+   "slide": 38,
+   "old": "Pixel displacement must not be relabeled as an angle without calibration. Distinct positional and torsional readouts also prevent every increase in eye movement from being called improved tracking. The data establish stimulus-dependent motor patterns while leaving the principal-eye feature representation and the underlying control signals unresolved.",
+   "new": "Greater torsion toward a cricket reflects more rotational examination of the target rather than more accurate tracking of its location. Stimulus identity therefore changes how the principal retinas sample an object, in addition to where they point."
+  },
+  {
+   "slide": 39,
+   "old": "This anatomy supplies candidate routes from retinal signals toward central visual processing. Presynaptic-protein labeling and visible connecting processes do not establish every synapse, response sign or computation. The preparation maps Marpissa anatomy rather than recording the functional identity of the cells sampled in another species.",
+   "new": "This anatomy supplies a route from principal-eye signals toward central visual processing. Principal eyes, used for object discrimination, reach the arcuate body through AM1 and AM2, the same principal-eye connectivity the authors found in a non-jumping spider with two eye types."
+  },
+  {
+   "slide": 40,
+   "old": "Posterior median input instead reaches PM1 and a tract apparently ending near the arcuate body, without an identified second-order visual neuropil. Convergence is the arrival of multiple inputs at a processing region. This architecture permits both separation and convergence. It does not establish the exact integration computed in L2, the mushroom body or the arcuate body.",
+   "new": "Posterior median input instead reaches PM1 and a tract apparently ending near the arcuate body, without an identified second-order visual neuropil. Convergence is the arrival of multiple inputs at a processing region. The authors suggest that L2 integrates lateral signals upstream to speed movement decisions, and that the posterior median eyes may not detect movement."
+  },
+  {
+   "slide": 41,
+   "old": "A spike, or action potential, is a brief neuronal electrical event. Spike sorting separates candidate units by waveform features in the extracellular signal. It supports analysis of individual response patterns but does not identify a cell's anatomy or transmitter. The restrained preparation records central visual activity without measuring the complete neural sequence during an unrestricted predatory jump.",
+   "new": "A spike, or action potential, is a brief neuronal electrical event. Spike sorting separates candidate units by waveform features in the extracellular signal, supporting analysis of individual response patterns. Hours-long stability allows each unit to be tested with many artificial and naturalistic stimuli, from moving dots to images of flies."
+  },
+  {
+   "slide": 42,
+   "old": "Simple descriptions based on position or motion alone did not fully predict every response. The results support complex visual selectivity in central units, but not a uniquely defined prey-recognition circuit. A repeated response to one trajectory does not establish invariance across all target shapes, speeds or spatial positions.",
+   "new": "Simple descriptions based on position or motion alone did not fully predict every response. A unit whose firing depends jointly on where a target is and how it moves combines several stimulus properties, the kind of selectivity a predator needs to single out prey-like motion."
+  },
+  {
+   "slide": 43,
+   "old": "Greater activity for an intact prey configuration supports sensitivity to spatial organization. These values describe a particular recorded unit, not every spider neuron. The assay does not establish conscious recognition, identify an innate fly detector or prove that the same response directly commands an attack.",
+   "new": "Greater activity for an intact prey configuration supports sensitivity to spatial organization. Across the survey, ecologically relevant images such as prey-like flies evoked bursts of excitation from single units in this central region."
+  },
+  {
+   "slide": 44,
+   "old": "The dependence supports nonlinear convergence of principal and secondary visual inputs at or before this unit. It does not identify the synapses, receptor types or exact number of processing stages. The functional result in Phidippus complements, but cannot be directly equated with, the anatomical pathways mapped in Marpissa.",
+   "new": "The dependence supports nonlinear convergence of principal and secondary visual inputs at or before this unit. The recording site, in or near the arcuate body that receives principal-eye input through AM2, places this convergence in a central visual neuropil."
+  },
+  {
+   "slide": 45,
+   "old": "The labeling supports a histaminergic photoreceptor pathway but does not measure release during light stimulation. It also does not establish the postsynaptic histamine receptor, its ion selectivity or whether the resulting current excites or inhibits a particular target. Those cellular steps must remain unresolved in this mapped spider circuit.",
+   "new": "The labeling supports a histaminergic photoreceptor pathway. Histamine-containing terminals mark the first synaptic stage of each secondary-eye route, upstream of the convergence in AL2/PL2 and L2, so lateral visual signals leave the photoreceptors through a common chemical step."
+  }
+ ]
+}
