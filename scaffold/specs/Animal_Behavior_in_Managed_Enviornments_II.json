@@ -1,0 +1,908 @@
+{
+ "input": "scaffold/input/Animal_Behavior_in_Managed_Enviornments_II.pptx",
+ "output": "scaffold/output/Animal_Behavior_in_Managed_Enviornments_II_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "dolphin",
+  "dolphins",
+  "whistle",
+  "whistles",
+  "noise",
+  "cooperation",
+  "cooperative",
+  "zebrafish",
+  "hearing",
+  "threshold",
+  "thresholds",
+  "dopamine",
+  "neurons",
+  "reward",
+  "rewards",
+  "enrichment",
+  "telencephalon",
+  "telencephalic",
+  "tectum",
+  "optic",
+  "anticipation",
+  "anticipatory",
+  "trainer",
+  "trainers",
+  "participation",
+  "innovate",
+  "session",
+  "sessions",
+  "fish",
+  "ribeye",
+  "ribbon",
+  "ribbons",
+  "hair",
+  "cells",
+  "cue",
+  "cues",
+  "behavior",
+  "behaviors",
+  "sørensen",
+  "wong",
+  "jaakkola",
+  "schultz",
+  "pereira",
+  "clegg",
+  "platto",
+  "serres",
+  "yeater",
+  "colleagues",
+  "food",
+  "press",
+  "presses",
+  "partner",
+  "delay",
+  "learning",
+  "exposure",
+  "engagement",
+  "devices",
+  "stereotypy"
+ ],
+ "new_slides": [
+  {
+   "after": 5,
+   "footer_number": "5a",
+   "template_slide": 4,
+   "title": "Partial Lombard gains leave whistles more masked in noise",
+   "body": [
+    "Whether a listener detects a whistle depends on the **signal-to-noise ratio**, the level of the signal relative to background sound in the same frequency band. Masking worsens as that margin narrows, so a receiver misses or misreads more of a call even while the sender calls louder.",
+    "Each dolphin added only a small fraction of a decibel of whistle level for every decibel of added noise, so the margin between whistle and background kept shrinking as noise rose. Lengthening the whistle offsets part of that loss, since a longer signal gives the listener's auditory system more time to accumulate evidence that a call is present.",
+    "Sørensen and colleagues had earlier found that this pair uses whistles to coordinate the joint task. Compensation that only slows the loss of signal margin predicts the outcome at the loudest exposure: greater vocal effort, yet a less reliable exchange of the information that times the two presses."
+   ],
+   "figure": {
+    "from_slide": 4,
+    "picture": "Presenton Native Image 6",
+    "caption": "Sørensen et al. (2023), Fig. 2C–F. Whistle amplitude changes with received noise."
+   },
+   "cite": "Sørensen et al. (2023)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "cited_papers_used": [
+    "10.1016/j.cub.2022.12.063"
+   ],
+   "transcript": [
+    "Slides 2, 4 and 5 report three results from the same dyad, louder whistles, longer whistles and falling cooperation, and the concept that connects them is the margin between a signal and the noise around it.",
+    [
+     "Detection depends on a ratio, not on absolute loudness.",
+     [
+      "A receiver's auditory system must pick the whistle out of everything else arriving in the same frequency band at the same moment.",
+      "Raising the whistle level helps only if it keeps pace with the background; when the background grows faster, the call becomes harder to hear even though it is objectively louder."
+     ]
+    ],
+    [
+     "The Lombard slopes on slide 4 fall well short of full compensation.",
+     [
+      "Gains of roughly a tenth of a decibel per decibel of noise mean that most of each added decibel of noise still erodes the margin.",
+      "Longer whistles on slide 5 work on a different principle: the ear and brain integrate sound energy over time, so extending a call raises the chance that enough of it rises above the noise to be detected."
+     ]
+    ],
+    [
+     "The task depends on that information.",
+     [
+      "The Sørensen abstract states that this dyad had previously been shown to use whistles to coordinate with great precision, and that the vocal adjustments were insufficient to overcome the effect of noise.",
+      "The drop in success on slide 2 is therefore the behavioral consequence expected when two strategies each recover only part of a shrinking margin."
+     ]
+    ]
+   ],
+   "refs": [
+    "Pernille M. Sørensen, Abigail Haddock, Emily Guarino, Kelly Jaakkola, Christina McMullen, Frants H. Jensen, Peter L. Tyack, Stephanie L. King (2023). Anthropogenic noise impairs cooperation in bottlenose dolphins. Current Biology 33: 749-754.e4. https://doi.org/10.1016/j.cub.2022.12.063"
+   ]
+  },
+  {
+   "after": 7,
+   "footer_number": "7a",
+   "template_slide": 7,
+   "title": "Evoked potentials sum synchronous firing in auditory pathways",
+   "body": [
+    "An evoked potential is recorded through an electrode on the skin over the brainstem, so it registers only activity that many auditory neurons generate at the same moment. The response to one tone is buried in background electrical activity; each tone was therefore presented at least 1000 times and the recordings averaged, which cancels activity not locked to the sound.",
+    "When fewer afferent fibers fire, or fire with less precise timing, the summed potential becomes smaller and broader. A louder tone is then needed before a response emerges from the averaged background, which raises the threshold, and the population response reaches its peak later, which lengthens latency.",
+    "Both shifts therefore point to weaker or less synchronized input arriving from the ear. Neither recording can locate the deficit along the pathway on its own, so the saccular tissue had to be examined directly."
+   ],
+   "figure": {
+    "from_slide": 7,
+    "picture": "Presenton Native Image 12",
+    "caption": "Wong et al. (2022), Fig. 2A–B. Auditory responses and their peak latencies."
+   },
+   "cite": "Wong et al. (2022)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "mechanism",
+    "integration"
+   ],
+   "integrates": [
+    6,
+    7,
+    8
+   ],
+   "cited_papers_used": [
+    "10.1038/s41598-022-19573-y"
+   ],
+   "transcript": [
+    "Slides 6 and 7 use evoked potentials to measure hearing, and the meaning of both threshold and latency follows from how this signal is generated and extracted.",
+    [
+     "The electrode picks up population activity.",
+     [
+      "Wong and colleagues placed the recording electrode against the skin over the brainstem and a reference electrode on the side of the body of a lightly anesthetized fish.",
+      "Only activity that many neurons produce together, in time with the stimulus, is large enough to be registered at that distance."
+     ]
+    ],
+    [
+     "Averaging extracts the response from the noise.",
+     [
+      "Tone bursts of 20 ms were repeated at least 1000 times, with half presented at opposite polarity, so that electrical artifacts which follow the stimulus waveform cancel while the neural response remains.",
+      "Threshold was the lowest level at which a repeatable waveform appeared in at least two averaged recordings, judged against several criteria including a consistent peak."
+     ]
+    ],
+    [
+     "Synchrony links the two measures.",
+     [
+      "A smaller, less synchronous afferent volley lowers the summed signal and delays its peak, so a raised threshold and a longer latency are expected together.",
+      "The ribbon counts on slide 8 test the inner-ear explanation directly, by asking whether the release sites of the hair cells changed."
+     ]
+    ]
+   ],
+   "refs": [
+    "Man Ieng Wong, Ieng Hou Lau, Flora Gordillo-Martinez, Raquel O. Vasconcelos (2022). The effect of time regime in noise exposure on the auditory system and behavioural stress in the zebrafish. Scientific Reports 12: 15353. https://doi.org/10.1038/s41598-022-19573-y"
+   ],
+   "paper_numbers": {
+    "1000": "Wong et al. (2022), Methods: each tone presented at least 1000 times"
+   }
+  },
+  {
+   "after": 8,
+   "footer_number": "8a",
+   "template_slide": 8,
+   "title": "Fewer ribbons can raise thresholds while hair cells survive",
+   "body": [
+    "A **ribbon synapse** is the specialized release site of a hair cell. The ribbon, built largely from Ribeye protein, tethers a pool of synaptic vesicles close to the calcium channels of the active zone, which allows the cell to release transmitter quickly and keep releasing it during sustained sound.",
+    "Losing ribbons, a form of **synaptopathy**, reduces the transmitter released for each deflection of the bundle. Afferent neurons then receive weaker and less synchronous drive, which accounts for higher thresholds and delayed evoked responses while the sensory cells and their bundles remain in place.",
+    "Thresholds were measured immediately after exposure, so the shifts are **temporary threshold shifts**: recovery was never tested. Whether ribbons are restored or stay lost, and so whether hearing returns, lies outside what this experiment can decide."
+   ],
+   "figure": {
+    "from_slide": 8,
+    "picture": "Presenton Native Image 14",
+    "caption": "Wong et al. (2022), Fig. 4A–C. Saccular anatomy, stained hair cells and Ribeye b puncta."
+   },
+   "cite": "Wong et al. (2022)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "distinction"
+   ],
+   "integrates": [
+    6,
+    7,
+    8,
+    10
+   ],
+   "cited_papers_used": [
+    "10.1038/s41598-022-19573-y"
+   ],
+   "transcript": [
+    "Slide 8 reports fewer Ribeye b puncta without a clear loss of hair cells; the consequence for hearing follows from what a ribbon does at the synapse.",
+    [
+     "The ribbon organizes fast, sustained release.",
+     [
+      "Wong and colleagues describe Ribeye b ribbons as presynaptic structures that enhance neurotransmitter release from hair cells.",
+      "Holding vesicles beside the calcium channels allows release to begin within a fraction of a millisecond of a bundle deflection and to continue through a long sound."
+     ]
+    ],
+    [
+     "Synaptopathy predicts the physiology on slides 6 and 7.",
+     [
+      "The authors propose that reduced Ribeye b leaves transmitter released less efficiently, so afferent neurons are stimulated less.",
+      "Weaker, less synchronized afferent firing raises the sound level needed to evoke a response and delays the response peak, the pattern seen after continuous noise."
+     ]
+    ],
+    [
+     "Temporary and permanent loss are different claims.",
+     [
+      "The overall shifts in this paper are reported as temporary threshold shifts, the term for hearing loss measured soon after exposure, without follow-up.",
+      "The authors call for measuring the recovery period, and they mention ongoing work on a postsynaptic marker to test whether both sides of the synapse are affected."
+     ]
+    ]
+   ],
+   "refs": [
+    "Man Ieng Wong, Ieng Hou Lau, Flora Gordillo-Martinez, Raquel O. Vasconcelos (2022). The effect of time regime in noise exposure on the auditory system and behavioural stress in the zebrafish. Scientific Reports 12: 15353. https://doi.org/10.1038/s41598-022-19573-y"
+   ]
+  },
+  {
+   "after": 10,
+   "footer_number": "10a",
+   "template_slide": 9,
+   "title": "Hearing tracked noise dose but anxiety-like diving did not",
+   "body": [
+    "Novel-tank diving is treated as an **anxiety-like** measure because the assay has been used widely to test anxiety-reducing drugs. Exposed fish differed from controls only in the first two minutes and then explored like them, so noise produced a stronger initial reaction to novelty rather than lasting avoidance of the upper tank.",
+    "Mean swimming speed and the number of entries into the upper zone did not differ between groups. That result argues against a simple motor or balance impairment as the reason exposed fish stayed low.",
+    "The hearing and behavioral results also dissociate. Threshold shifts were largest after continuous and fast intermittent noise, whereas bottom dwelling rose to a similar level after every regime, and the random regime delayed upper-zone entry most. Behavioral stress did not scale with measured hearing loss, so the two effects need not share one cause."
+   ],
+   "figure": {
+    "from_slide": 9,
+    "picture": "Presenton Native Image 15",
+    "caption": "Wong et al. (2022), Fig. 5A–D. Novel-tank behavior after noise exposure."
+   },
+   "cite": "Wong et al. (2022)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    6,
+    9,
+    10
+   ],
+   "cited_papers_used": [
+    "10.1038/s41598-022-19573-y"
+   ],
+   "transcript": [
+    "Slide 9 reports more bottom dwelling after noise, and slides 6 and 10 report how hearing loss depended on the time regime; placing these results side by side separates a sensory effect from a stress effect.",
+    [
+     "The assay measures a reaction to novelty.",
+     [
+      "Wong and colleagues describe the innate tendency of zebrafish to dive in a new tank and then explore upward as they habituate.",
+      "Group differences were present in the first and second minutes but absent from the third minute onward, which the authors read as fish that were not highly stressed and habituated quickly."
+     ]
+    ],
+    [
+     "Locomotor measures act as a control.",
+     [
+      "If noise had simply damaged balance or swimming, speed and the number of upward entries over the six-minute test would be expected to fall.",
+      "Neither changed, so the preference for the bottom is better explained as a change in state than as an inability to swim upward."
+     ]
+    ],
+    [
+     "Dose explains hearing better than behavior.",
+     [
+      "Hearing loss followed the amount of time filled by noise, whereas every regime raised initial bottom dwelling to nearly the same level.",
+      "The authors suggest that either behavioral stress was independent of temporal pattern or the assay was not sensitive enough to separate the regimes, and they suggest measuring cortisol to confirm a physiological stress response."
+     ]
+    ]
+   ],
+   "refs": [
+    "Man Ieng Wong, Ieng Hou Lau, Flora Gordillo-Martinez, Raquel O. Vasconcelos (2022). The effect of time regime in noise exposure on the auditory system and behavioural stress in the zebrafish. Scientific Reports 12: 15353. https://doi.org/10.1038/s41598-022-19573-y"
+   ]
+  },
+  {
+   "after": 13,
+   "footer_number": "13a",
+   "template_slide": 13,
+   "title": "Tight timing rules out following the partner as a strategy",
+   "body": [
+    "Cooperation tasks with loose timing can be solved without any grasp of a partner's role. An animal may act whenever the partner is nearby, or react to a cue the partner produces, and still succeed. The 1 s window and random delays were chosen to close these simpler routes.",
+    "A reactive strategy predicts a fixed order: the follower would press only after detecting the partner's press, so one dolphin would nearly always press second. By the final phase, the dolphin released first pressed first in only about half of successful trials, the split expected when both animals aim at the same moment.",
+    "Precision adds a second argument. An average gap of 370 ms leaves little time for one animal to detect the other's press and then produce its own, so the timing points to **joint action**: coordinating one's own act with a partner's toward a shared goal."
+   ],
+   "figure": {
+    "from_slide": 13,
+    "picture": "Presenton Native Image 23",
+    "caption": "Jaakkola et al. (2018), Fig. 3A–C. Swimming time, first presses and interpress timing."
+   },
+   "cite": "Jaakkola et al. (2018)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "integration",
+    "foundation"
+   ],
+   "integrates": [
+    11,
+    12,
+    13
+   ],
+   "cited_papers_used": [
+    "10.1098/rspb.2018.0948"
+   ],
+   "transcript": [
+    "Slides 11 to 13 report waiting, slower swimming, a shift in which dolphin pressed first and a 370 ms interpress interval; together these results exclude explanations that earlier cooperation studies could not.",
+    [
+     "Earlier tasks left room for simple rules.",
+     [
+      "Jaakkola and colleagues point out that in rope-pulling tasks an animal can succeed by pulling when a partner is present or when the rope starts moving.",
+      "Response facilitation, acting because another animal is acting, can also produce success without any understanding of the partner's role."
+     ]
+    ],
+    [
+     "The order of presses tests the reactive account.",
+     [
+      "If one dolphin were triggered by the other's press, the triggered animal would consistently press second.",
+      "Instead, by phase 4 each target dolphin's successful trials were split between those in which it or its partner pressed first, close to the chance split predicted for two animals aiming at the same moment."
+     ]
+    ],
+    [
+     "Random delays remove timing habits.",
+     [
+      "A dolphin could solve a predictable delay by learning a fixed wait or a fixed swimming speed, so the delays were randomized from 1 to 20 s in the final tests.",
+      "Success on those trials stayed high for all four dolphins, which the authors interpret as an understanding that the partner must arrive before pressing."
+     ]
+    ]
+   ],
+   "refs": [
+    "Kelly Jaakkola, Emily Guarino, Katy Donegan, Stephanie L. King (2018). Bottlenose dolphins can understand their partner's role in a cooperative task. Proceedings of the Royal Society B: Biological Sciences 285: 20180948. https://doi.org/10.1098/rspb.2018.0948"
+   ]
+  },
+  {
+   "after": 17,
+   "footer_number": "17a",
+   "template_slide": 17,
+   "title": "Dopamine responses follow the error in reward prediction",
+   "body": [
+    "A **reward prediction error** is the difference between the reward received and the reward expected. The three reward results fit it: unpredicted reward during learning excited many dopamine neurons, reward predicted by familiar cues excited few, and omission of a predicted reward depressed firing at the expected time.",
+    "The cue responses complete the pattern. Once a cue reliably announces reward, the cue becomes the unexpected event within a trial, so excitation appears at the cue, and the earliest predictive stimulus carries the strongest response.",
+    "A signal of this kind can drive learning: it is large when an outcome is better or worse than expected and fades once predictions are accurate. Schultz and colleagues interpreted their data in terms of attention and motivation; the prediction-error account is a later reading of the same pattern, not a conclusion of their study."
+   ],
+   "figure": {
+    "from_slide": 17,
+    "picture": "Presenton Native Image 31",
+    "caption": "Schultz et al. (1993), Fig. 4. Reward delivery and omitted-reward responses."
+   },
+   "cite": "Schultz et al. (1993)",
+   "moves": [
+    "foundation",
+    "integration",
+    "mechanism",
+    "consequence"
+   ],
+   "integrates": [
+    15,
+    16,
+    17
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.13-03-00900.1993"
+   ],
+   "transcript": [
+    "Slides 15, 16 and 17 each report one feature of dopamine firing during learning; a single principle, the reward prediction error, accounts for all three.",
+    [
+     "Three outcomes, one comparison.",
+     [
+      "During learning the liquid arrived without a reliable predictor, so receiving it was better than expected and many neurons fired.",
+      "In established performance the instruction and trigger had already announced the reward, so its delivery matched expectation and few neurons responded, while a wrong response that cancelled the reward produced a dip near the usual delivery time."
+     ]
+    ],
+    [
+     "Expectation moves the response earlier in the trial.",
+     [
+      "A trial begins at an unpredictable moment, so the first stimulus that signals reward is itself unexpected.",
+      "That logic fits the stronger responses to the instruction cue than to the later trigger, since the trigger adds less new information once the instruction has appeared."
+     ]
+    ],
+    [
+     "Finding and interpretation must stay separate.",
+     [
+      "The 1993 abstract describes dopamine neurons as responding phasically to alerting stimuli with behavioral significance and links them to attentional and motivational processes.",
+      "The prediction-error principle is a textbook framework that organizes these same observations, and it is presented here as an interpretation rather than as the authors' own claim."
+     ]
+    ]
+   ],
+   "refs": [
+    "W Schultz, P Apicella, T Ljungberg (1993). Responses of monkey dopamine neurons to reward and conditioned stimuli during successive steps of learning a delayed response task. The Journal of Neuroscience 13: 900-913. https://doi.org/10.1523/JNEUROSCI.13-03-00900.1993"
+   ]
+  },
+  {
+   "after": 20,
+   "footer_number": "20a",
+   "template_slide": 18,
+   "title": "Dopamine cell groups send brief signals to distinct targets",
+   "body": [
+    "The recorded groups are named midbrain structures: A9 is the substantia nigra pars compacta, A10 the ventral tegmental area and A8 the retrorubral field. A9 neurons project mainly to the dorsal striatum, while A10 neurons project to the ventral striatum and frontal cortex, regions engaged in reward and goal-directed behavior.",
+    "Stronger learning-related reward responses in A10 are consistent with a larger role for that projection in reward learning, although recordings cannot show what each target does with the signal. Schultz and colleagues contrast their neurons with cells in the striatum and frontal cortex, which do sustain activity across the delay.",
+    "Holding the target and marking events therefore occur in different cells. Target neurons can keep the instructed location active through the wait, while dopamine neurons deliver brief inputs at the moments when instruction, trigger or reward changes what the animal can expect."
+   ],
+   "figure": {
+    "from_slide": 18,
+    "picture": "Presenton Native Image 33",
+    "caption": "Schultz et al. (1993), Fig. 7. Reward responsiveness in midbrain cell groups."
+   },
+   "cite": "Schultz et al. (1993)",
+   "moves": [
+    "foundation",
+    "integration",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    18,
+    19,
+    20
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.13-03-00900.1993"
+   ],
+   "transcript": [
+    "Slide 18 names the A8, A9 and A10 groups and slide 20 reports brief rather than sustained dopamine activity; the anatomy of dopamine projections connects these two results.",
+    [
+     "Each cell group has its own main targets.",
+     [
+      "The nigrostriatal pathway from A9 reaches the caudate and putamen, the dorsal striatum involved in selecting and initiating movements.",
+      "The pathways from A10 reach the nucleus accumbens of the ventral striatum and the frontal cortex, structures associated with motivation and goal-directed behavior."
+     ]
+    ],
+    [
+     "Delay activity lives downstream.",
+     [
+      "The abstract of Schultz and colleagues states that none of their dopamine neurons showed sustained delay activity resembling that of neurons in the striatum and frontal cortex.",
+      "On that basis the authors argue that dopamine neurons do not encode working memory, expectation or movement preparation themselves."
+     ]
+    ],
+    [
+     "The two signals can work together.",
+     [
+      "A memory held in frontal and striatal circuits supplies the information needed to reach the correct target after the delay.",
+      "A brief dopamine input at a cue or outcome is positioned to modify that ongoing activity at behaviorally important moments, which is a proposal about function rather than a measured result."
+     ]
+    ]
+   ],
+   "refs": [
+    "W Schultz, P Apicella, T Ljungberg (1993). Responses of monkey dopamine neurons to reward and conditioned stimuli during successive steps of learning a delayed response task. The Journal of Neuroscience 13: 900-913. https://doi.org/10.1523/JNEUROSCI.13-03-00900.1993"
+   ]
+  },
+  {
+   "after": 23,
+   "footer_number": "23a",
+   "template_slide": 23,
+   "title": "An unchanged tectum argues against body-size growth alone",
+   "body": [
+    "The teleost telencephalon contains pallial regions regarded as counterparts of the mammalian hippocampus, and landmark-based navigation in fish depends on an intact telencephalon. A maze solved by choosing an arm from its visual landmark therefore draws on the region expected to respond to visuospatial experience.",
+    "Fish brains keep adding cells throughout life, and cell number rises with body length and weight. Enriched fish grew larger, so a brain-wide increase could have followed from size alone. The optic tectum, counted with the same method, did not differ, which favors regional plasticity over general growth.",
+    "The optical fractionator is unaffected by tissue shrinkage, so the difference concerns cell number rather than section size. Counts alone cannot tell whether new cells were added or existing cells survived longer."
+   ],
+   "figure": {
+    "from_slide": 23,
+    "picture": "Presenton Native Image 43",
+    "caption": "Pereira et al. (2020), Fig. 6A–B. Cell counts in telencephalon and optic tectum."
+   },
+   "cite": "Pereira et al. (2020)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "integration",
+    "distinction"
+   ],
+   "integrates": [
+    21,
+    22,
+    23,
+    24
+   ],
+   "cited_papers_used": [
+    "10.3389/fphar.2020.00840"
+   ],
+   "transcript": [
+    "Slide 22 reports faster maze learning, slide 23 a larger telencephalic cell count with an unchanged tectum, and slide 24 greater body growth; the tectum result is what keeps the growth result from explaining away the telencephalic one.",
+    [
+     "The telencephalon is the predicted site.",
+     [
+      "Pereira and colleagues cite evidence that teleosts navigate with allocentric maps that depend on the integrity of the telencephalon.",
+      "A housing contrast built on plants, shelter and running water changes visuospatial and somatomotor experience, so this region is where a structural change was expected."
+     ]
+    ],
+    [
+     "Body size is a built-in confound.",
+     [
+      "The authors point out that neurogenesis in teleosts continues in adulthood and that its rate increases with age, body mass and length.",
+      "Since the groups were the same age but differed in size, a difference confined to one region is more informative than a difference in the whole brain would have been."
+     ]
+    ],
+    [
+     "Counting method and remaining limits.",
+     [
+      "The estimates used systematically sampled counting boxes with a low coefficient of error, so the measured group difference mainly reflects biological variation.",
+      "The authors also acknowledge that food intake could not be controlled fully, since enriched fish could graze on microorganisms growing on plants and decorations."
+     ]
+    ]
+   ],
+   "refs": [
+    "Patrick Douglas Corrêa Pereira, Ediely Pereira Henrique, Danillo Monteiro Porfírio, Caio César de Sousa Crispim, Maitê Thaís Barros Campos, Renata Melo de Oliveira, Isabella Mesquita Sfair Silva, Luma Cristina Ferreira Guerreiro, Tiago Werley Pires da Silva, Anderson de Jesus Falcão da Silva, João Batista da Silva Rosa, Dmitre Leonardo Ferreira de Azevedo, Cecília Gabriella Coutinho Lima, Cintya Castro de Abreu, Carlos Santos Filho, Domingos Luiz Wanderley Picanço Diniz, Nara Gyzely de Morais Magalhães, Cristovam Guerreiro-Diniz, Cristovam Wanderley Picanço Diniz, Daniel Guerreiro Diniz (2020). Environmental Enrichment Improved Learning and Memory, Increased Telencephalic Cell Proliferation, and Induced Differential Gene Expression in Colossoma macropomum. Frontiers in Pharmacology 11: 840. https://doi.org/10.3389/fphar.2020.00840"
+   ]
+  },
+  {
+   "after": 26,
+   "footer_number": "26a",
+   "template_slide": 26,
+   "title": "Anticipation reveals that a cue now predicts a valued event",
+   "body": [
+    "Dolphin anticipatory behavior parallels the cue responses of monkey dopamine neurons. In both, a learned cue rather than the outcome triggers activity in the interval before access, and that activity appears only after the cue has come to predict something rewarding.",
+    "Each sound announced its own context after the same delay, so the cues did not differ in how reliably they predicted what followed. Differences in anticipation among them are therefore better explained by what each cue predicted, ranking human interaction above toys and both above the control.",
+    "No neural activity was recorded in the dolphins, so any dopamine contribution to their anticipation remains a hypothesis. The parallel lies in the logic of the measurement: expectation is inferred from activity that precedes an outcome and depends on what a cue has come to signal."
+   ],
+   "figure": {
+    "from_slide": 26,
+    "picture": "Presenton Native Image 49",
+    "caption": "Clegg et al. (2018), Fig. 2. Anticipatory behavior before the three contexts."
+   },
+   "cite": "Clegg et al. (2018); Schultz et al. (1993)",
+   "moves": [
+    "integration",
+    "foundation",
+    "method_logic",
+    "distinction"
+   ],
+   "integrates": [
+    16,
+    25,
+    26,
+    27
+   ],
+   "cited_papers_used": [
+    "10.1016/j.applanim.2018.01.015",
+    "10.1523/JNEUROSCI.13-03-00900.1993"
+   ],
+   "transcript": [
+    "Slide 16 shows dopamine neurons responding to cues that predict reward, and slides 25 to 27 show dolphins responding to sounds that predict toys or a familiar trainer; both rest on the same conditioning principle.",
+    [
+     "Conditioning gives a neutral cue predictive value.",
+     [
+      "After repeated pairing, a sound that reliably precedes an event comes to evoke behavior directed at that event before it arrives.",
+      "In the monkeys the evidence is cue-evoked firing, and in the dolphins it is surface looking and spy hopping toward the place where the event would occur."
+     ]
+    ],
+    [
+     "Matched timing isolates the value of the outcome.",
+     [
+      "All three conditions used a cue, a five-minute wait and a ten-minute event period, so certainty and timing were held constant across them.",
+      "The remaining difference among the conditions was the event itself, which is why the ranking of anticipation is read as a ranking of how much the dolphins valued each event."
+     ]
+    ],
+    [
+     "Behavioral and neural evidence answer different questions.",
+     [
+      "The dolphin study measured behavior only, while the monkey study measured single neurons in a different species and task.",
+      "Treating the two as parallel is useful for the logic of expectation, but a claim about dopamine in dolphins would require recordings or pharmacology that neither study performed."
+     ]
+    ]
+   ],
+   "refs": [
+    "Isabella L.K. Clegg, Heiko G. Rödel, Xavier Boivin, Fabienne Delfour (2018). Looking forward to interacting with their caretakers: dolphins’ anticipatory behaviour indicates motivation to participate in specific events. Applied Animal Behaviour Science 202: 85-93. https://doi.org/10.1016/j.applanim.2018.01.015",
+    "W Schultz, P Apicella, T Ljungberg (1993). Responses of monkey dopamine neurons to reward and conditioned stimuli during successive steps of learning a delayed response task. The Journal of Neuroscience 13: 900-913. https://doi.org/10.1523/JNEUROSCI.13-03-00900.1993"
+   ]
+  },
+  {
+   "after": 31,
+   "footer_number": "31a",
+   "template_slide": 31,
+   "title": "Arrival before any call points to a learned daily schedule",
+   "body": [
+    "Each trainer at Dolphin Reef produced a distinctive underwater sound, by shaking an object in the water, that the dolphins had learned to associate with that person. Trainers called in 76% of sessions, yet dolphins approached in 96% of sessions without a call and in only 66% of those with one.",
+    "Approach without a call does not make the signal useless. Sessions followed a predictable timetable, and dolphins often followed trainers along the enclosure edge to the platform, so they were already present when a call would have been given. The routine itself served as the predictive cue.",
+    "The same trainers also fed the dolphins, so attraction to them could in principle have been learned through food. Platto and Serres argue against that account: feeding and interaction had been kept separate for more than ten years, long enough for the dolphins to learn that sessions never brought fish."
+   ],
+   "figure": {
+    "from_slide": 31,
+    "picture": "Presenton Native Image 56",
+    "caption": "Platto & Serres (2023), Fig. 5. Response latency across trainers and seasons."
+   },
+   "cite": "Platto & Serres (2023)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    26,
+    30,
+    31
+   ],
+   "cited_papers_used": [
+    "10.3390/ani13101651"
+   ],
+   "transcript": [
+    "Slide 31 reports short latencies and frequent arrival before a call; the call data in the paper explain why arrival so often preceded the signal and what that implies about motivation without food.",
+    [
+     "The call is a conditioned identity signal.",
+     [
+      "Each trainer's sound had been paired with that person since the trainer began working at the facility, so the call announced who was available.",
+      "Calls were made mostly when dolphins were not already waiting, which is why sessions with a call show a lower rate of approach than sessions without one."
+     ]
+    ],
+    [
+     "Schedule-based anticipation resembles cue-based anticipation.",
+     [
+      "The surface looking measured by Clegg and colleagues on slide 26 followed an explicit sound; here the predictive information came from the time of day and the trainers' visible movements.",
+      "Platto and Serres explicitly describe the dolphins' early arrival as anticipatory behavior directed at the interaction itself, since no food could follow."
+     ]
+    ],
+    [
+     "A residual confound remains in principle.",
+     [
+      "The trainers in the study were the same people who fed the dolphins at separate times of day.",
+      "The authors judge an operant link between trainer presence and food unlikely after more than a decade of strict separation, and they attribute participation instead to play, petting and training as attractive activities."
+     ]
+    ]
+   ],
+   "refs": [
+    "Sara Platto, Agathe Serres (2023). A Quantitative Assessment of Trainers-Dolphins’ Interactions in the Absence of Food Reward. Animals 13: 1651. https://doi.org/10.3390/ani13101651"
+   ],
+   "paper_numbers": {
+    "76": "Platto & Serres (2023), Results 3.3: call performed in 76% of sessions",
+    "96": "Platto & Serres (2023), Results 3.3: approach in 96% of no-call sessions",
+    "66": "Platto & Serres (2023), Results 3.3: 66% of calls resulted in approach"
+   }
+  },
+  {
+   "after": 33,
+   "footer_number": "33a",
+   "template_slide": 33,
+   "title": "Fewer alternatives can raise the value of human contact",
+   "body": [
+    "Participation in an optional activity reflects its value relative to everything else an animal could be doing. The two adult males held in a separate enclosure from morning until the last feeding were among the most frequent participants, and Platto and Serres propose that trainer contact partly replaced contact with other dolphins.",
+    "Seasonal changes fit the same logic. During breeding and calving, social and maternal activity competes for the dolphins' time, and participation fell; object play with trainers nevertheless rose during calving, possibly as juveniles spent less time with nursing mothers.",
+    "The reward-sensitivity hypothesis makes a parallel prediction: when rewarding opportunities are scarce, those that remain attract disproportionate motivation. High participation can therefore mean a strong relationship with a trainer, a shortage of alternatives, or both."
+   ],
+   "figure": {
+    "from_slide": 33,
+    "picture": "Presenton Native Image 60",
+    "caption": "Platto & Serres (2023), Fig. 4. Positive and negative responses to trainer presence."
+   },
+   "cite": "Platto & Serres (2023); Clegg et al. (2023)",
+   "moves": [
+    "integration",
+    "mechanism",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    29,
+    33,
+    34,
+    42
+   ],
+   "cited_papers_used": [
+    "10.3390/ani13101651",
+    "10.3390/ani13020238"
+   ],
+   "transcript": [
+    "Slides 33 and 34 report differences among individuals, trainers and seasons, and slide 42 introduces the reward-sensitivity hypothesis; the separated males in the Platto study connect the two ideas.",
+    [
+     "Participation is a choice among alternatives.",
+     [
+      "Slide 29 already treats leaving a session as an allocation of time, and the same reasoning applies to joining a session in the first place.",
+      "The value of an interaction therefore cannot be read without knowing what the dolphin would otherwise be doing."
+     ]
+    ],
+    [
+     "Social circumstances shift that balance.",
+     [
+      "Shandy and Lemon, the adult males confined to the sub-enclosure during the day, showed the highest participation, and the authors suggest that trainers substituted for conspecific interaction.",
+      "In the breeding and calving seasons the dolphins had more intraspecific social and maternal activity available, and fewer took part in sessions."
+     ]
+    ],
+    [
+     "Individual records need context.",
+     [
+      "The authors describe a young female whose participation and appetite were both low in the months before her death, and a healthy, timid adult female whose low participation reflected temperament.",
+      "Low and high scores can therefore arise from health, personality or the availability of alternatives, which is why the authors recommend baseline records for each animal while it is healthy."
+     ]
+    ]
+   ],
+   "refs": [
+    "Sara Platto, Agathe Serres (2023). A Quantitative Assessment of Trainers-Dolphins’ Interactions in the Absence of Food Reward. Animals 13: 1651. https://doi.org/10.3390/ani13101651",
+    "Isabella L. K. Clegg, Mariana Domingues, Elin Ström, Linda Berggren (2023). Cognitive Foraging Enrichment (but Not Non-Cognitive Enrichment) Improved Several Longer-Term Welfare Indicators in Bottlenose Dolphins. Animals 13: 238. https://doi.org/10.3390/ani13020238"
+   ]
+  },
+  {
+   "after": 36,
+   "footer_number": "36a",
+   "template_slide": 35,
+   "title": "Innovating requires memory for the dolphin's own recent acts",
+   "body": [
+    "A response counts as different only relative to what the dolphin has already done in the session, so the innovate cue places a demand on **short-term memory** for the animal's own recent actions. Each new choice must exclude every behavior already produced, a load that grows with each correct trial.",
+    "During training, larger rewards followed responses that differed strongly from earlier ones, which shaped the concept. During testing, every correct response earned the same fixed amount of fish. Holding reward constant kept the trainer from signalling which responses were preferred, so the variety recorded reflects the dolphin's own selection.",
+    "Accuracy averaged close to half of trials, yet dolphins kept responding after errors until three consecutive repeats ended the session. Persistence through frequent non-reward, without larger payoffs for more original acts, is the basis on which Yeater and colleagues propose that the task is rewarding in itself."
+   ],
+   "figure": {
+    "from_slide": 35,
+    "picture": "Presenton Native Image 64",
+    "caption": "Yeater et al. (2024), Fig. 1. Correct nonrepeated responses during innovation sessions."
+   },
+   "cite": "Yeater et al. (2024)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    35,
+    36,
+    37,
+    38
+   ],
+   "cited_papers_used": [
+    "10.3390/ani14060896"
+   ],
+   "transcript": [
+    "Slides 35 to 38 describe the innovate cue and the measures scored from it; the test procedure in the paper explains what the task demands and why the scores can be attributed to the dolphins.",
+    [
+     "The task is a memory task as well as a creativity task.",
+     [
+      "Yeater and colleagues report that innovate procedures have been used to study dolphin memory for recent actions, since the animal must track which behaviors it has already performed.",
+      "A repeat is the characteristic error when that record fails, which is why repetition defines incorrect responses throughout the study."
+     ]
+    ],
+    [
+     "Reward rules differed between training and testing.",
+     [
+      "In training, a large difference from the previous trial earned more fish or more energetic secondary reinforcement, while a small difference earned a single capelin or a clap.",
+      "In testing, reinforcement was fixed at two to three capelin or one herring precisely to avoid cueing or further training of the concept."
+     ]
+    ],
+    [
+     "Persistence is the evidence for intrinsic reward.",
+     [
+      "The twelve dolphins averaged about twenty-one trials per session and continued after mistakes, while the trainer met repeats with a neutral least-reinforcing response.",
+      "The authors treat this persistence, together with stationing and victory squeals, as qualitative evidence of engagement, and they call for direct comparisons with other session types to test it."
+     ]
+    ]
+   ],
+   "refs": [
+    "Deirdre B. Yeater, Kathleen M. Dudzinski, Dawn Melzer, Andrew R. Magee, Michaela Robinett, Gonzalo Guerra, Kimberly Salazar, Teri Bolton, Heather Manitzas Hill (2024). Training the Concept of Innovate in Dolphins (Tursiops truncatus) Is Both Creative and Cognitively Stimulating. Animals 14: 896. https://doi.org/10.3390/ani14060896"
+   ]
+  },
+  {
+   "after": 40,
+   "footer_number": "40a",
+   "template_slide": 40,
+   "title": "Dolphins engage more when food must be worked for",
+   "body": [
+    "**Contrafreeloading** is the tendency of many animals to work for food even when the same food is freely available. Matching the fish across treatments is what allows the stronger engagement with cognitive devices to be read as contrafreeloading rather than as attraction to food.",
+    "Clegg and colleagues relate this to time budgets. Wild bottlenose dolphins spend about 60–70% of their activity budget foraging, whereas dolphins in zoos receive nearly all their food in training sessions lasting about 2 h a day. Foraging devices restore part of the searching and handling that this schedule removes.",
+    "Explanations of contrafreeloading point to rewards produced by the work itself: information about food, control over how it is obtained and the performance of species-typical behavior. Treatments alternated within the same animals, so stable individual differences cannot account for the contrast."
+   ],
+   "figure": {
+    "from_slide": 40,
+    "picture": "Presenton Native Image 72",
+    "caption": "Clegg et al. (2023), Fig. 4. Engagement scores under both enrichment treatments."
+   },
+   "cite": "Clegg et al. (2023)",
+   "moves": [
+    "foundation",
+    "consequence",
+    "method_logic",
+    "integration"
+   ],
+   "integrates": [
+    39,
+    40,
+    41
+   ],
+   "cited_papers_used": [
+    "10.3390/ani13020238"
+   ],
+   "transcript": [
+    "Slides 39 to 41 report greater engagement and training motivation when food had to be extracted from devices; contrafreeloading and the dolphin time budget explain why the route to food matters.",
+    [
+     "Working for food can be preferred.",
+     [
+      "Clegg and colleagues link their engagement result to contrafreeloading, which contradicts a simple optimal-foraging expectation that animals should take the cheapest food.",
+      "Accounts of the phenomenon invoke secondary reinforcers such as information gathering, positive affective states and species-typical behavior."
+     ]
+    ],
+    [
+     "Managed feeding removes most foraging time.",
+     [
+      "The authors estimate that roughly two hours of training sessions supply nearly all food, a small share of a day in which wild dolphins would spend most of their active time searching for and handling prey.",
+      "Cognitive devices replace a fraction of that missing activity with searching, extracting and manipulating, behaviors the training schedule rarely requires."
+     ]
+    ],
+    [
+     "The design limits alternative explanations.",
+     [
+      "Eleven dolphins received both treatments in alternating weeks, so each animal served as its own comparison across the eight weeks.",
+      "Engagement also increased rather than declined over the weeks, so habituation to the devices did not erode the effect during the study."
+     ]
+    ]
+   ],
+   "refs": [
+    "Isabella L. K. Clegg, Mariana Domingues, Elin Ström, Linda Berggren (2023). Cognitive Foraging Enrichment (but Not Non-Cognitive Enrichment) Improved Several Longer-Term Welfare Indicators in Bottlenose Dolphins. Animals 13: 238. https://doi.org/10.3390/ani13020238"
+   ],
+   "paper_numbers": {
+    "60": "Clegg et al. (2023), Discussion 4.1: foraging takes 60–70% of wild activity budget",
+    "70": "Clegg et al. (2023), Discussion 4.1: foraging takes 60–70% of wild activity budget"
+   }
+  },
+  {
+   "after": 43,
+   "footer_number": "43a",
+   "template_slide": 43,
+   "title": "Construction noise was modeled as a rival cause of behavior",
+   "body": [
+    "Renovation work continued throughout the enrichment study, with general construction noise during about half of daytime hours and drilling during 18%. Clegg and colleagues recorded both and included them as factors in their analysis, so treatment differences were estimated after accounting for when noise occurred.",
+    "Drilling was associated with less social play and with more anticipatory behavior and pattern swimming. Noise in a managed pool therefore shifts the same welfare indicators that enrichment is meant to improve, in addition to its effects on fish hearing and on dolphin whistles and cooperation.",
+    "Two further limits apply. Stereotypy was rare, so its reduction is small in absolute terms, and caretakers rated engagement knowing the treatment week. Their ratings agreed with independent scan observations, which reduces but does not remove the concern that expectation shaped them."
+   ],
+   "figure": {
+    "from_slide": 43,
+    "picture": "Presenton Native Image 77",
+    "caption": "Clegg et al. (2023), Fig. 7A–G. Behavioral measures across enrichment treatments."
+   },
+   "cite": "Clegg et al. (2023)",
+   "moves": [
+    "method_logic",
+    "integration",
+    "consequence",
+    "distinction"
+   ],
+   "integrates": [
+    2,
+    6,
+    9,
+    40,
+    43
+   ],
+   "cited_papers_used": [
+    "10.3390/ani13020238"
+   ],
+   "transcript": [
+    "Slide 43 reports reduced stereotypy during cognitive weeks; the paper's handling of construction noise and of rater knowledge determines how firmly that and the other enrichment results can be held.",
+    [
+     "Noise was treated as a covariate.",
+     [
+      "Clegg and colleagues entered general construction noise and drilling noise as predictors in every model, alongside week, age and pool access.",
+      "Without that step, weeks that happened to contain more drilling could have been mistaken for weeks with poorer enrichment."
+     ]
+    ],
+    [
+     "The noise effects echo the first part of the deck.",
+     [
+      "Sørensen and colleagues found that noise impaired cooperation on slide 2, and Wong and colleagues found raised thresholds and more bottom dwelling in zebrafish on slides 6 and 9.",
+      "In the enrichment study, drilling was linked to less social play and more pattern swimming and anticipation, so acoustic disturbance appears as a welfare influence across very different measures."
+     ]
+    ],
+    [
+     "Rater knowledge and rare events are limits.",
+     [
+      "The authors acknowledge that caretakers knew which week it was, but engagement scores matched the counts from the independent observer's scans.",
+      "Stereotypy occupied about 0.01% of observed time, and the authors caution that environmental associations with such rare behaviors may be unreliable over an eight-week study."
+     ]
+    ]
+   ],
+   "refs": [
+    "Isabella L. K. Clegg, Mariana Domingues, Elin Ström, Linda Berggren (2023). Cognitive Foraging Enrichment (but Not Non-Cognitive Enrichment) Improved Several Longer-Term Welfare Indicators in Bottlenose Dolphins. Animals 13: 238. https://doi.org/10.3390/ani13020238",
+    "Pernille M. Sørensen, Abigail Haddock, Emily Guarino, Kelly Jaakkola, Christina McMullen, Frants H. Jensen, Peter L. Tyack, Stephanie L. King (2023). Anthropogenic noise impairs cooperation in bottlenose dolphins. Current Biology 33: 749-754.e4. https://doi.org/10.1016/j.cub.2022.12.063",
+    "Man Ieng Wong, Ieng Hou Lau, Flora Gordillo-Martinez, Raquel O. Vasconcelos (2022). The effect of time regime in noise exposure on the auditory system and behavioural stress in the zebrafish. Scientific Reports 12: 15353. https://doi.org/10.1038/s41598-022-19573-y"
+   ],
+   "paper_numbers": {
+    "18": "Clegg et al. (2023), Methods 2.1: drilling noise during 18% of daytime hours",
+    "0.01": "Clegg et al. (2023), Discussion 4.2: stereotypy 0.01% of activity budget"
+   }
+  }
+ ]
+}

@@ -159,3 +159,34 @@ Run = longest word run shared with any original slide or its notes (fail at 8); 
 - 17a uses the slide 18 layout with only the Baratta et al. (2009) Fig. 3 panel, because Fig. 1 is already used on 16a; the lower figure area is empty.
 - 18a links the rat controllability circuit to penguin retreats and elephant partner choice and states explicitly that the parallel is a hypothesis, not a finding in those species.
 - Several slides carry two of the deck's figures, the way the cloned slide does: 13a, 16a, 18a, 37a and 41a.
+
+## Animal_Behavior_in_Managed_Enviornments_II.pptx
+
+- Output: Animal_Behavior_in_Managed_Enviornments_II_SCAFFOLDED.pptx / .pdf — 60 slides, PDF 60 pages
+- Integrity: all 46 original slides identical to the input (slide XML, relationships, media, notes)
+- Checker: PASS; every scaffold slide inspected in the rendered PDF.
+
+| # | Title | After | Reused figure (slide: caption) | Integrates | Cited papers used | Moves | Run | Sim | Overlap |
+|---|---|---|---|---|---|---|---|---|---|
+| 5a | Partial Lombard gains leave whistles more masked in noise | 5 | 4: Sørensen et al. (2023), Fig. 2C–F. Whistle amplitude changes with received noise. | 2, 3, 4, 5 | 10.1016/j.cub.2022.12.063 | foundation, mechanism, integration, consequence | 4 | 0.18 | 0.12 |
+| 7a | Evoked potentials sum synchronous firing in auditory pathways | 7 | 7: Wong et al. (2022), Fig. 2A–B. Auditory responses and their peak latencies. | 6, 7, 8 | 10.1038/s41598-022-19573-y | foundation, method_logic, mechanism, integration | 3 | 0.25 | 0.22 |
+| 8a | Fewer ribbons can raise thresholds while hair cells survive | 8 | 8: Wong et al. (2022), Fig. 4A–C. Saccular anatomy, stained hair cells and Ribeye b puncta. | 6, 7, 8, 10 | 10.1038/s41598-022-19573-y | foundation, mechanism, integration, distinction | 5 | 0.31 | 0.10 |
+| 10a | Hearing tracked noise dose but anxiety-like diving did not | 10 | 9: Wong et al. (2022), Fig. 5A–D. Novel-tank behavior after noise exposure. | 6, 9, 10 | 10.1038/s41598-022-19573-y | method_logic, distinction, integration, consequence | 7 | 0.29 | 0.20 |
+| 13a | Tight timing rules out following the partner as a strategy | 13 | 13: Jaakkola et al. (2018), Fig. 3A–C. Swimming time, first presses and interpress timing. | 11, 12, 13 | 10.1098/rspb.2018.0948 | method_logic, distinction, integration, foundation | 5 | 0.19 | 0.18 |
+| 17a | Dopamine responses follow the error in reward prediction | 17 | 17: Schultz et al. (1993), Fig. 4. Reward delivery and omitted-reward responses. | 15, 16, 17 | 10.1523/JNEUROSCI.13-03-00900.1993 | foundation, integration, mechanism, consequence | 4 | 0.29 | 0.14 |
+| 20a | Dopamine cell groups send brief signals to distinct targets | 20 | 18: Schultz et al. (1993), Fig. 7. Reward responsiveness in midbrain cell groups. | 18, 19, 20 | 10.1523/JNEUROSCI.13-03-00900.1993 | foundation, integration, distinction, consequence | 4 | 0.27 | 0.20 |
+| 23a | An unchanged tectum argues against body-size growth alone | 23 | 23: Pereira et al. (2020), Fig. 6A–B. Cell counts in telencephalon and optic tectum. | 21, 22, 23, 24 | 10.3389/fphar.2020.00840 | foundation, method_logic, integration, distinction | 4 | 0.28 | 0.17 |
+| 26a | Anticipation reveals that a cue now predicts a valued event | 26 | 26: Clegg et al. (2018), Fig. 2. Anticipatory behavior before the three contexts. | 16, 25, 26, 27 | 10.1016/j.applanim.2018.01.015, 10.1523/JNEUROSCI.13-03-00900.1993 | integration, foundation, method_logic, distinction | 5 | 0.29 | 0.18 |
+| 31a | Arrival before any call points to a learned daily schedule | 31 | 31: Platto & Serres (2023), Fig. 5. Response latency across trainers and seasons. | 26, 30, 31 | 10.3390/ani13101651 | method_logic, distinction, integration, consequence | 4 | 0.25 | 0.19 |
+| 33a | Fewer alternatives can raise the value of human contact | 33 | 33: Platto & Serres (2023), Fig. 4. Positive and negative responses to trainer presence. | 29, 33, 34, 42 | 10.3390/ani13101651, 10.3390/ani13020238 | integration, mechanism, distinction, consequence | 3 | 0.43 | 0.14 |
+| 36a | Innovating requires memory for the dolphin's own recent acts | 36 | 35: Yeater et al. (2024), Fig. 1. Correct nonrepeated responses during innovation sessions. | 35, 36, 37, 38 | 10.3390/ani14060896 | foundation, method_logic, consequence, integration | 3 | 0.20 | 0.14 |
+| 40a | Dolphins engage more when food must be worked for | 40 | 40: Clegg et al. (2023), Fig. 4. Engagement scores under both enrichment treatments. | 39, 40, 41 | 10.3390/ani13020238 | foundation, consequence, method_logic, integration | 4 | 0.20 | 0.10 |
+| 43a | Construction noise was modeled as a rival cause of behavior | 43 | 43: Clegg et al. (2023), Fig. 7A–G. Behavioral measures across enrichment treatments. | 2, 6, 9, 40, 43 | 10.3390/ani13020238 | method_logic, integration, consequence, distinction | 4 | 0.45 | 0.12 |
+
+### For the instructor's attention
+
+- Full text read: Wong et al. 2022, Jaakkola et al. 2018, Pereira et al. 2020, Platto & Serres 2023, Yeater et al. 2024, Clegg et al. 2023. Sørensen et al. 2023 and Schultz et al. 1993 were available as abstracts only; Clegg et al. 2018 (Applied Animal Behaviour Science) was not available, so 26a uses only what the deck says about that study plus a general conditioning principle.
+- Numbers from cited papers rather than the deck: each tone presented at least 1000 times (7a, Wong et al. 2022); the call used in 76% of sessions, approach in 96% of sessions without a call and after 66% of calls (31a, Platto & Serres 2023); wild dolphins foraging for 60–70% of their activity budget (40a), drilling noise during 18% of daytime hours and stereotypy at 0.01% of time, the latter in notes only (43a, Clegg et al. 2023).
+- Interpretations that go beyond the cited papers are labeled as such on the slides: 17a presents the reward-prediction-error account as a later reading of the 1993 data, not the authors' framing; 20a uses textbook projection anatomy of the A8, A9 and A10 groups; 26a states that the parallel between monkey dopamine cue responses and dolphin anticipation is a hypothesis.
+- Please check original slide 22: it describes the fish learning a relationship "between landmarks and food", but Pereira et al. (2020) describe a maze in which a correct choice ended the trial and returned the fish to its home aquarium, and a wrong choice led to a 1-minute confinement in a net; the paper does not describe a food reward. No scaffold slide contradicts or repeats the original.
+- Most figures on this deck's two-picture slides pair a main figure with a small secondary panel that recurs on many original slides; since a figure may appear on only one scaffold slide, the scaffold slides carry the main figure only and the lower-right area of 5a, 7a, 10a, 13a, 17a, 20a, 23a, 31a, 33a, 40a and 43a is blank.
