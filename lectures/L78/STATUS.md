@@ -1,11 +1,18 @@
-# Lecture 78 awaiting three required PDFs
+# Lecture 78 complete
 
-The connected repository default branch was fetched and confirmed current. The exact instructor title is added to `course/schedule.json` as special-topic Lecture 78 with `Date TBD`. Current teaching-paragraph rules, meaningful caveats only, no em dashes, natural teaching transcripts, and original-source image rules govern this lecture.
+The connected repository default branch was fetched and used as the authoritative version. The exact schedule title and Date TBD are preserved. Updated teaching-paragraph rules, meaningful caveats only, no em dashes in slide text, teaching transcripts, and original-source image rules govern this lecture.
 
-Web searches and DOI metadata checks identified seven primary sources spanning tickling reward, somatosensory activity, midbrain play circuitry, dopamine, self-touch and anticipation, social contagion, and comparative great-ape vocalizations. Four full PDFs are secured and their identities checked. Three required full PDFs remain inaccessible; `PAPERS.md` lists the exact upload requests. No other papers or created images are substituted for those sources.
+All seven primary papers are available and verified, including the three uploaded papers. The deck contains 46 slides: one title, 44 content slides, and six exam-level points on the final Key takeaways slide. Each content slide has three teaching paragraphs, a teaching transcript, and full DOI references in its notes. Original article figures appear on all 44 content slides; 32 carry color images. Forty-eight unique article crops preserve source panel letters, axes, and scale bars. One unchanged, credited Allen Mouse Brain Atlas plate provides clearly identified comparative anatomy on five dopamine slides. No figure was generated, redrawn, or recolored.
 
-A provisional 44-content-slide plan and available-paper figure inventory are saved. Exact numerical claims, final paragraphs, panels, and crops remain subject to full source review. No PPTX has been built or delivered, and no theme has been marked used. `PROMPT.md` preserves the requested reusable prompt and updated image rules.
+The smoke rose / paper white theme is recorded as used in course/themes.json. Arial is used throughout. The repository checker reports zero failures and zero warnings. All 46 slides were rendered and visually reviewed, with revised crops and captions rechecked. Source records, figure inventory, provenance, the reusable prompt, build specification, and validation record are saved alongside the PPTX. No PDFs remain outstanding.
 
-The cloud runtime is running; Git access, Python PowerPoint/PDF/image libraries, Poppler and LibreOffice are available from the verified Lecture 74 build. No setup changes or additional credentials are needed. Existing tracked content was preserved.
+Rebuild and check from the repository root:
 
-After the requested uploads arrive: verify the full papers, finalize content and teaching transcripts, crop original figures with repository tools, choose an unused permitted theme, build with `tools/build_lecture.py`, fix every checker failure, inspect all 46 rendered slides, record the theme, commit, push, and deliver the PPTX.
+```bash
+python lectures/L78/prepare_figures.py
+python lectures/L78/write_spec.py
+python tools/build_lecture.py lectures/L78/lecture.json
+python tools/check_lecture.py lectures/L78/Neuroethology_Lecture78_FA2026.pptx --lecture 78
+```
+
+The seven source PDFs belong in lectures/L78/papers and are excluded from Git. Source identities and acquisition records are in research.json and PAPERS.md. Figure reproduction uses the repository crop tool. The validated cloud environment includes the required Python libraries, Poppler, and LibreOffice; no configuration or credential changes were needed.

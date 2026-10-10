@@ -107,4 +107,4 @@ FINISH
 ```
 
 
-Use only original published-article PDF figures for the requested lecture. Every paragraph teaches; vary paragraph order, name hypotheses in their sentences, and omit routine caveat endings. No em dashes in slide text. Never create or recolor a figure. Stop for any inaccessible required PDF and request it with a numbered DOI link.
+Prioritize original published-article PDF figures; use a credited, unchanged published anatomical web image only where required anatomy is absent from the experimental paper. Every paragraph teaches; vary paragraph order, name hypotheses in their sentences, and omit routine caveat endings. No em dashes in slide text. Never create or recolor a figure. Stop for any inaccessible required PDF and request it with a numbered DOI link.

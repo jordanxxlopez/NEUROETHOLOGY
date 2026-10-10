@@ -1,164 +1,256 @@
 {
-  "somatosensory": [
-    {
-      "pdf_page": 1,
-      "caption_starts": [
-        "Fig. 1B), in particular during tickling (movie S1). Rat 50-kHz vocalizations indicate positive emo-",
-        "Fig. 1, C and D). Tickling the ventral trunk evoked the largest number of USVs (Fig. 1D) and the largest"
-      ]
+  "lecture": 78,
+  "status": "complete; every crop reviewed",
+  "original_article_crops": {
+    "classic_housing": {
+      "paper": "classic",
+      "figure": "1",
+      "description": "Housing changes alter tickling-evoked calls"
     },
-    {
-      "pdf_page": 2,
-      "caption_starts": [
-        "Fig. 1. Tickling and play behavior (chasing the ex- perimenter’s hand) evoke ultrasonic vocalizations.",
-        "Fig. 2. Tickling and play behavior (chasing hand) modulate firing rate in trunk somatosensory cortex neurons. (A) Left: Cytochrome oxidase"
-      ]
+    "classic_approach": {
+      "paper": "classic",
+      "figure": "2",
+      "description": "Approach and escape during rewarded tickling"
     },
-    {
-      "pdf_page": 3,
-      "caption_starts": [
-        "Fig. 3. Anxiogenic suppression of USVs and neuronal responses to tickling in trunk somatosensory cortex. (A) Control (left) and anxio-",
-        "Fig. 4. Neuronal activity in deep layers of trunk somatosensory cortex is associated with USVs, and deep-layer microstimulation"
-      ]
+    "classic_context": {
+      "paper": "classic",
+      "figure": "3",
+      "description": "Anticipatory calls in tickle-paired and unpaired contexts"
+    },
+    "classic_cues": {
+      "paper": "classic",
+      "figure": "4",
+      "description": "Calls during a predictive cue and subsequent tickling"
+    },
+    "classic_selection": {
+      "paper": "classic",
+      "figure": "6",
+      "description": "Calling after selection for high and low tickle responses"
+    },
+    "classic_selected_approach": {
+      "paper": "classic",
+      "figure": "7",
+      "description": "Approach and avoidance in selected lines"
+    },
+    "rat_title": {
+      "paper": "somatosensory",
+      "figure": "1A",
+      "description": "Ventral tickling of a rat"
+    },
+    "s_calls": {
+      "paper": "somatosensory",
+      "figure": "1B",
+      "description": "Original spectrograms of modulated, trill, and combined calls"
+    },
+    "s_behavior": {
+      "paper": "somatosensory",
+      "figure": "1C–E",
+      "description": "Call timing, rates, and repertoire across contact conditions"
+    },
+    "s_chase": {
+      "paper": "somatosensory",
+      "figure": "1F–H",
+      "description": "Hand chasing and its associated ultrasonic calls"
+    },
+    "s_anatomy": {
+      "paper": "somatosensory",
+      "figure": "2A",
+      "description": "Stained trunk somatosensory cortex and recording track"
+    },
+    "s_neural": {
+      "paper": "somatosensory",
+      "figure": "2B",
+      "description": "Neuronal firing across tactile and play conditions"
+    },
+    "s_relationships": {
+      "paper": "somatosensory",
+      "figure": "2D–E",
+      "description": "Relations between touch, tickling, and hand-chasing responses"
+    },
+    "s_anxiety": {
+      "paper": "somatosensory",
+      "figure": "3A–C",
+      "description": "Elevated bright setting suppresses tickling-associated calls"
+    },
+    "s_anxiety_neural": {
+      "paper": "somatosensory",
+      "figure": "3D–E",
+      "description": "Neural responses under control and anxiogenic conditions"
+    },
+    "s_call_neural": {
+      "paper": "somatosensory",
+      "figure": "4F",
+      "description": "Call-related cortical responses across recording layers"
+    },
+    "s_stim": {
+      "paper": "somatosensory",
+      "figure": "4G–I",
+      "description": "Deep cortical stimulation evokes ultrasonic calls"
+    },
+    "p_block": {
+      "paper": "pag",
+      "figure": "1D–E",
+      "description": "Calls before and after PAG inhibition during dorsal tickling"
+    },
+    "p_tactile": {
+      "paper": "pag",
+      "figure": "2A–D",
+      "description": "Calls and neuronal firing during touch and tickling"
+    },
+    "p_chase": {
+      "paper": "pag",
+      "figure": "3B–D",
+      "description": "Calls and a PAG neuron response during hand chasing"
+    },
+    "p_map": {
+      "paper": "pag",
+      "figure": "4A–D",
+      "description": "Response clusters mapped onto PAG columns"
+    },
+    "p_anatomy": {
+      "paper": "pag",
+      "figure": "4C",
+      "description": "Coronal PAG sections with mapped recording sites"
+    },
+    "p_anxiety": {
+      "paper": "pag",
+      "figure": "5A–D",
+      "description": "Vocal and neuronal suppression under anxiogenic conditions"
+    },
+    "p_call": {
+      "paper": "pag",
+      "figure": "6C (top two groups)",
+      "description": "Strongly play-excited versus play-inhibited, tickling-excited cells; time from vocal onset in seconds"
+    },
+    "p_opto": {
+      "paper": "pag",
+      "figure": "7A–E",
+      "description": "Optogenetic LPAG inhibition reduces tickling calls and social play"
+    },
+    "d_release": {
+      "paper": "dopamine",
+      "figure": "1(a)",
+      "description": "Accumbens dopamine release during tickling and light touch"
+    },
+    "d_calls": {
+      "paper": "dopamine",
+      "figure": "1(b)",
+      "description": "Ultrasonic calls during tickling and light touch"
+    },
+    "d_time": {
+      "paper": "dopamine",
+      "figure": "2(a)",
+      "description": "Call rate after local dopamine receptor antagonists"
+    },
+    "d_types": {
+      "paper": "dopamine",
+      "figure": "2(b)",
+      "description": "Frequency-modulated and flat calls after antagonist treatment"
+    },
+    "a_self": {
+      "paper": "anticipation",
+      "figure": "1A–C",
+      "description": "Calls and trunk cortical activity during self-touch, other touch, and tickling"
+    },
+    "a_groom": {
+      "paper": "anticipation",
+      "figure": "2A–C",
+      "description": "Calls and cortical suppression during head grooming and scratching"
+    },
+    "a_tap": {
+      "paper": "anticipation",
+      "figure": "3A–D",
+      "description": "Self-touch suppresses tapping- and cortical-stimulation-evoked calls"
+    },
+    "a_anatomy": {
+      "paper": "anticipation",
+      "figure": "4A",
+      "description": "Trunk cortical staining and gabazine injection site"
+    },
+    "a_gaba": {
+      "paper": "anticipation",
+      "figure": "4B–D",
+      "description": "Gabazine changes self-touch suppression of externally evoked calls"
+    },
+    "a_operant": {
+      "paper": "anticipation",
+      "figure": "5C–G",
+      "description": "Escape, freezing, and calls surrounding self-initiated tickling"
+    },
+    "a_layers": {
+      "paper": "anticipation",
+      "figure": "6C–F",
+      "description": "Layer 4 sensory responses and layer 5a anticipation"
+    },
+    "c_setup": {
+      "paper": "contagion",
+      "figure": "1A",
+      "description": "Live and playback observation arrangements"
+    },
+    "c_behavior": {
+      "paper": "contagion",
+      "figure": "1E–K",
+      "description": "Observer calls and jumps during live and playback conditions"
+    },
+    "c_neural": {
+      "paper": "contagion",
+      "figure": "2D–F",
+      "description": "Population cortical responses to direct, air, and witnessed tickling"
+    },
+    "c_watch": {
+      "paper": "contagion",
+      "figure": "3A–C",
+      "description": "Cortical activity while watching different live events"
+    },
+    "c_anatomy": {
+      "paper": "contagion",
+      "figure": "4A",
+      "description": "Stained trunk cortex with layer-localized recording sites"
+    },
+    "c_layers": {
+      "paper": "contagion",
+      "figure": "4C–D",
+      "description": "Layer-dependent correspondence of direct and witnessed responses"
+    },
+    "c_calls": {
+      "paper": "contagion",
+      "figure": "5A–C",
+      "description": "Cortical activity around own and demonstrator vocalizations"
+    },
+    "ape_spectra": {
+      "paper": "apes",
+      "figure": "1 (chimpanzee, bonobo, human)",
+      "description": "Original tickling-induced recordings from chimpanzee, bonobo, and human"
+    },
+    "ape_voicing": {
+      "paper": "apes",
+      "figure": "2A",
+      "description": "Proportion of voiced segments across species"
+    },
+    "ape_timing": {
+      "paper": "apes",
+      "figure": "2G–J",
+      "description": "Call timing and series organization across species"
+    },
+    "ape_airflow": {
+      "paper": "apes",
+      "figure": "2K",
+      "description": "Alternating inhalation and exhalation during tickling calls"
+    },
+    "ape_tree": {
+      "paper": "apes",
+      "figure": "3A–B",
+      "description": "Phylogenetic trees reconstructed from acoustic characters"
     }
-  ],
-  "pag": [
-    {
-      "pdf_page": 4,
-      "caption_starts": [
-        "Figure 1. Global blockade of the periaqueductal gray with muscimol interferes with ticklishness and play (A) Example image of guiding cannula tract with DiR visualizing injection site. Scale bar, 0.5 mm."
-      ]
-    },
-    {
-      "pdf_page": 5,
-      "caption_starts": [
-        "Figure 2. Vocalizations and excitatory and inhibitory neural responses in the periaqueductal gray evoked"
-      ]
-    },
-    {
-      "pdf_page": 6,
-      "caption_starts": [
-        "Figure 3. Play evokes vocalizations and excitatory neural responses in the periaqueductal gray"
-      ]
-    },
-    {
-      "pdf_page": 7,
-      "caption_starts": [
-        "Figure 4. Play and ventral tickling responses map"
-      ]
-    },
-    {
-      "pdf_page": 8,
-      "caption_starts": [
-        "Figure 5. Units from the strongly play/tickling-excited cluster show less modulation during anxiogenic condition"
-      ]
-    },
-    {
-      "pdf_page": 9,
-      "caption_starts": [
-        "Figure 6. Strongly play/tickling-excited peria- queductal gray cells show strong responses"
-      ]
-    },
-    {
-      "pdf_page": 10,
-      "caption_starts": [
-        "Figure 7. Optogenetic inhibition of the lateral columns interferes with ticklishness and play (A) Schematic drawing of the bilateral stereotactic injection of AAV8-CAG-ArchT-GFP or AAV8-CAG-GFP into the lateral columns of the PAG and optical ﬁber"
-      ]
-    },
-    {
-      "pdf_page": 18,
-      "caption_starts": [
-        "Figure 5). The remaining components of the behavioral set up were left unchanged. The platform still allowed for the rat to be turned on the back for ventral tickling."
-      ]
-    }
-  ],
-  "contagion": [
-    {
-      "pdf_page": 3,
-      "caption_starts": [
-        "Figure 1. Experimental setup and behavioral response to witnessed tickling (A) Experimental setup for live demonstration (left) and audio/visual playback (right) of tickling. The box was separated by"
-      ]
-    },
-    {
-      "pdf_page": 4,
-      "caption_starts": [
-        "Figure 1. Continued (J) PSTHs and raster plots of observer USV (left, 17 events) and observer jump (right, 17 events) rate, aligned to the offset"
-      ]
-    },
-    {
-      "pdf_page": 5,
-      "caption_starts": [
-        "Figure 2. Somatosensory cortical neurons respond to tickling, air tickling, and witnessed tickling (A) Top, schematic illustration of neuronal recording during direct dorsal tickling. Bottom, raster plot and peri-stimulus"
-      ]
-    },
-    {
-      "pdf_page": 6,
-      "caption_starts": [
-        "Figure 2. Continued (G) Same as (D) but plotted direct tickle respondent units (dark cyan, 273 units; see STAR Methods) and remainders (gray,"
-      ]
-    },
-    {
-      "pdf_page": 7,
-      "caption_starts": [
-        "Figure 3. Neuronal responses to watching air tickling, watching demonstrator, and watching tickled demonstrator"
-      ]
-    },
-    {
-      "pdf_page": 8,
-      "caption_starts": [
-        "Figure 4. Tickle response predicts witnessed tickle response in deep-layer trunk cortex (A) Representative histological analysis for layer assignment. Left, a coronal brain section stained for cytochrome c"
-      ]
-    },
-    {
-      "pdf_page": 9,
-      "caption_starts": [
-        "Figure 5. Trunk cortical neurons discharge during own and demonstrator vocalizations (A) Representative raster and peri-stimulus time histograms (PSTHs) of a unit in layer 5b trunk somatosensory cortex,"
-      ]
-    }
-  ],
-  "anticipation": [
-    {
-      "pdf_page": 4,
-      "caption_starts": [
-        "Figure 1. Vocalizations and Trunk Somato- sensory"
-      ]
-    },
-    {
-      "pdf_page": 5,
-      "caption_starts": [
-        "Figure 2. Widespread Inhibition in Trunk Somatosensory Cortex upon Self-Touch"
-      ]
-    },
-    {
-      "pdf_page": 6,
-      "caption_starts": [
-        "Figure 3. Self-Touch Suppresses Tapping- Evoked"
-      ]
-    },
-    {
-      "pdf_page": 7,
-      "caption_starts": [
-        "Figure 4. Cortical Disinhibition Disrupts Self-Touch Suppression of Ticklishness"
-      ]
-    },
-    {
-      "pdf_page": 8,
-      "caption_starts": [
-        "Figure 5. Ambivalence in Self-Initiated Tickle Interactions: Escape, Freezing, and Fear Calls"
-      ]
-    },
-    {
-      "pdf_page": 9,
-      "caption_starts": [
-        "Figure 6. Sensory Layer 4 Responses and Anticipatory Layer 5a Responses to Tickling"
-      ]
-    },
-    {
-      "pdf_page": 11,
-      "caption_starts": [
-        "Figure 7A, we present a model of ticklish experience based on our data from behavioral experiments and cortical recordings",
-        "Figure 7. Models of Self-Tickle Suppression (A) The global-GABAergic-inhibition-suppression model predicts vocalization"
-      ]
-    }
-  ]
+  },
+  "web_anatomy": {
+    "path": "figures/accumbens_atlas.jpg",
+    "kind": "web",
+    "caption": "Photo: Mouse accumbens in a published coronal atlas, ACB.",
+    "credit": "Allen Institute for Brain Science, Allen Mouse Brain Atlas, P56 coronal plate 100960376",
+    "license": "Allen Institute Terms of Use: noncommercial educational use; image unchanged",
+    "source_url": "https://atlas.brain-map.org/atlas?atlas=1&plate=100960376&structure=56"
+  },
+  "web_image_use": "One unchanged Allen Mouse Brain Atlas image appears on five dopamine slides; identified as comparative mouse anatomy, not experimental rat histology.",
+  "rules": "Original source pixels only. No generated, redrawn, re-plotted, tinted or recolored images. Axes, units, scale bars and panel letters retained."
 }
