@@ -1,5 +1,7 @@
-# Lecture 80 awaiting primary PDFs
+# Lecture 80
 
-The repository default branch was refreshed to de8ce00. The exact requested title is registered with Date TBD. Primary citations are verified and the current lecture prompt is saved. No PPTX or article figures have been created because required main PDFs could not be downloaded. The numbered upload list is in PAPERS.md.
+Completed: 46 slides, 44 content slides with primary-article figures, six exam takeaways, Arial, and the unused muted lagoon blue theme.
 
-Useful video candidate: Roberts et al. (2012), Supplementary Movie 1, tutor song-triggered optogenetic disruption in juvenile HVC; the article identifies the recording and its experimental condition. Verify and obtain the original media from the article before embedding. Never use YouTube. Optional video availability will not block completion once the required PDFs are available.
+The native PPTX includes four original publisher supplementary recordings with audio, on slides 14, 27, 28 and 29. Published figures and original recording frames remain available for static viewers. PowerPoint GUI playback was not available in the cloud environment; complete MP4 decoding and embedded media relationships were verified.
+
+The Presenton export and browser preview are static and omit embedded movies.

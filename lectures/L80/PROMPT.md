@@ -3,12 +3,12 @@
 Copy everything in the box below into Claude Code or Codex, opened on this repository. Change only the lecture number in the first line.
 
 ```text
-Make Lecture 80 for NEUR 411 Neuroethology (Fall 2026) as a downloadable .pptx.
+Make Lecture [N] for NEUR 411 Neuroethology (Fall 2026) as a downloadable .pptx.
 
 Use the connected jordanxxlopez/NEUROETHOLOGY repository, current default branch, as
 the authority. Do not use a ZIP or an outdated checkout.
 
-Use the exact title and date for Lecture 80 from course/schedule.json, character for
+Use the exact title and date for Lecture [N] from course/schedule.json, character for
 character. Follow the neuroethology-lecture rules in this repo (AGENTS.md /
 .claude/skills/neuroethology-lecture/SKILL.md) and build with tools/build_lecture.py.
 
@@ -130,7 +130,7 @@ FINISH
   then commit, push, and give me the .pptx.
 ```
 
-Exact title: Songbirds I: Artificial song memories, optogenetic tutoring, and neural mechanisms of vocal imitation
-Date: Date TBD.
 
-Resume after the required PDFs in PAPERS.md are uploaded. Center the lecture on Zhao et al. (2019), with Roberts et al. (2012), Roberts et al. (2010) and Tanaka et al. (2018) for causal tutoring, synaptic plasticity and dopamine-mediated learning. Verify every quantitative claim and panel against the PDFs before drafting. Preserve all current teaching-first and article-video requirements.
+## Lecture-specific request
+
+Make Lecture 80 using its exact registered title and Date TBD. Use Roberts et al. (2010, 2012), Tanaka et al. (2018), and Zhao et al. (2019), including the original publisher supplementary videos where they teach tutoring conditions and attentional controls. Preserve the distinction between a duration goal, acquisition of an acoustic model, and subsequent imitation. No generated or reconstructed visuals.
