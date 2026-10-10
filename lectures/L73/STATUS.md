@@ -1,14 +1,11 @@
-# Lecture 73 status
+# Lecture 73 completed
 
-Paused for the two required original source PDFs listed in `PAPERS.md`. No final lecture spec or PPTX has been built.
+The 46-slide PowerPoint is `Neuroethology_Lecture73_FA2026.pptx`. It preserves the exact title and date from the current default-branch schedule.
 
-- Refreshed the connected repository current default branch, `claude/neuroethology-fa2026-schedule-2lgmmr`, at `212ba2e7c5a02c55e81cfebaaac3c06820196885`. No ZIP or older checkout was used.
-- Added the instructor’s exact Lecture 73 title to `course/schedule.json` with `Date TBD`.
-- Read the current lecture instructions. Teaching paragraphs, selective meaningful limitations, original paper figures, and no em dashes govern the deck.
-- Conducted web searches and scholarly searches; verified bibliographic metadata and obtained ten full source PDFs, including both 1988 avian regeneration studies.
-- Saved a provisional 44-content-slide allocation spanning sensory anatomy, supporting-cell plasticity, regeneration signaling, regenerated receptor physiology, synaptic reconnection, hearing recovery, and balance recovery.
-- Modern avian signaling and zebrafish inner-ear direct-conversion papers are required and still inaccessible. Their publisher, indexed PDF, and repository download attempts are recorded.
-- Saved the reusable original-figure lecture prompt in `PROMPT.md`. No images have been created or substituted.
-- Python PowerPoint/PDF libraries, LibreOffice, and Poppler are present and worked for Lecture 71. Theme selection and registration await completion.
+All 44 content slides carry original published article figures; 35 carry source-color figures. Twelve primary papers support the content, including the two user-uploaded PDFs. Every content slide has three teaching paragraphs and a teaching transcript with full DOI references in its notes. The final slide has six exam-level takeaways.
 
-After the two PDFs arrive: verify the full papers, select exact published panels, write 44 content slides and full teaching transcripts, crop with the repository tools, build a 46-slide PPTX, inspect every rendered slide, record the theme, commit, push, and deliver a downloadable PPTX.
+The repository checker reports zero failures and zero warnings. All 46 final slides were rendered through LibreOffice and visually reviewed. No text, caption, or footer collisions remain. The new pewter / paper white theme is recorded for Lecture 73.
+
+Rebuild with `python lectures/L73/write_spec.py` and `python tools/build_lecture.py lectures/L73/lecture.json`. To reproduce the original figure crops, restore the source PDFs listed in `research.json` under the ignored `papers/` directory and run `python lectures/L73/prepare_figures.py`. The canonical crop manifest is `crops.json`. No image is generated, redrawn, recolored, or substituted.
+
+`PROMPT.md` preserves the reusable original-image and teaching-content requirements. `search_log.json`, `research.json`, `figure_sources.json`, and `qa.json` record the research and verification.

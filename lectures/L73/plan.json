@@ -1,323 +1,656 @@
 {
   "lecture": 73,
-  "status": "provisional source allocation; awaiting two required PDFs",
+  "status": "completed",
   "title": "Hair cell regeneration: sensory repair in fish and birds, supporting-cell plasticity, and recovery of hearing and balance",
   "date": "Date TBD",
   "content_slides": [
     {
       "slide": 2,
-      "provisional_title": "Regenerated avian receptors regain hearing function",
-      "source": "hearing",
-      "doi": "10.1016/j.celrep.2024.113822",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Regenerated avian hair cells restore auditory sensitivity",
+      "citations": "Sato et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/hearing_recovery.png",
+          "caption": "Sato et al. (2024), Fig. 7(A–C). Auditory thresholds recover over five weeks.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        },
+        {
+          "path": "figures/bird_anatomy.png",
+          "caption": "Sato et al. (2024), Fig. 1(A–L). Auditory epithelium before and after hair cell loss.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        }
+      ]
     },
     {
       "slide": 3,
-      "provisional_title": "Hair cells transform water motion into afferent firing",
-      "source": "physiology",
-      "doi": "10.1113/jp281522",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Hair cells convert water motion into afferent firing",
+      "citations": "Hardy et al. (2021)",
+      "figures": [
+        {
+          "path": "figures/phys_calcium.png",
+          "caption": "Hardy et al. (2021), Fig. 5(A–F). Hair cell and afferent calcium responses to bundle motion.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        }
+      ]
     },
     {
       "slide": 4,
-      "provisional_title": "Auditory receptor position preserves frequency information",
-      "source": "hearing",
-      "doi": "10.1016/j.celrep.2024.113822",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Receptor position organizes avian auditory input",
+      "citations": "Sato et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/bird_anatomy.png",
+          "caption": "Sato et al. (2024), Fig. 1(A–L). Auditory epithelium before and after hair cell loss.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        },
+        {
+          "path": "figures/bird_innervation.png",
+          "caption": "Sato et al. (2024), Fig. 3(A–C″). Afferent contacts return to new hair cells.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        }
+      ]
     },
     {
       "slide": 5,
-      "provisional_title": "Vestibular hair cells drive compensatory eye movement",
-      "source": "reflex",
-      "doi": "10.1152/jn.1996.76.5.3301",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Vestibular receptors support compensatory eye movement",
+      "citations": "Carey et al. (1996)",
+      "figures": [
+        {
+          "path": "figures/reflex_trace.png",
+          "caption": "Carey et al. (1996), Fig. 1. Recorded head motion and compensatory eye motion.",
+          "doi": "https://doi.org/10.1152/jn.1996.76.5.3301"
+        },
+        {
+          "path": "figures/reflex_anatomy.png",
+          "caption": "Carey et al. (1996), Fig. 6. Vestibular hair bundles during early regeneration.",
+          "doi": "https://doi.org/10.1152/jn.1996.76.5.3301"
+        }
+      ]
     },
     {
       "slide": 6,
-      "provisional_title": "Acoustic injury activates division in supporting cells",
-      "source": "corwin",
-      "doi": "10.1126/science.3381100",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Acoustic injury reactivates division in avian epithelia",
+      "citations": "Corwin & Cotanche (1988)",
+      "figures": [
+        {
+          "path": "figures/classic_division.png",
+          "caption": "Corwin & Cotanche (1988), Fig. 2(A–B). Thymidine-labeled cells in the injured epithelium.",
+          "doi": "https://doi.org/10.1126/science.3381100"
+        },
+        {
+          "path": "figures/classic_surface.png",
+          "caption": "Corwin & Cotanche (1988), Fig. 1(A–F). Sensory epithelial surfaces after acoustic trauma.",
+          "doi": "https://doi.org/10.1126/science.3381100"
+        }
+      ]
     },
     {
       "slide": 7,
-      "provisional_title": "New receptor cells occupy the damaged sensory epithelium",
-      "source": "corwin",
-      "doi": "10.1126/science.3381100",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "New hair bundles mature within the recovering lesion",
+      "citations": "Corwin & Cotanche (1988)",
+      "figures": [
+        {
+          "path": "figures/classic_surface.png",
+          "caption": "Corwin & Cotanche (1988), Fig. 1(A–F). Sensory epithelial surfaces after acoustic trauma.",
+          "doi": "https://doi.org/10.1126/science.3381100"
+        }
+      ]
     },
     {
       "slide": 8,
-      "provisional_title": "Adult quail replace lost auditory hair cells",
-      "source": "ryals",
-      "doi": "10.1126/science.3381101",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Adult quail regenerate receptors after acoustic trauma",
+      "citations": "Ryals & Rubel (1988)",
+      "figures": [
+        {
+          "path": "figures/quail_counts.png",
+          "caption": "Ryals & Rubel (1988), Fig. 1(A–C). Hair cell numbers recover in adult quail.",
+          "doi": "https://doi.org/10.1126/science.3381101"
+        },
+        {
+          "path": "figures/quail_birth.png",
+          "caption": "Ryals & Rubel (1988), Fig. 2(A–B). Thymidine-labeled new hair cells.",
+          "doi": "https://doi.org/10.1126/science.3381101"
+        }
+      ]
     },
     {
       "slide": 9,
-      "provisional_title": "Thymidine labeling links regenerated cells with DNA synthesis",
-      "source": "ryals",
-      "doi": "10.1126/science.3381101",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "DNA labeling identifies newly produced adult hair cells",
+      "citations": "Ryals & Rubel (1988)",
+      "figures": [
+        {
+          "path": "figures/quail_birth.png",
+          "caption": "Ryals & Rubel (1988), Fig. 2(A–B). Thymidine-labeled new hair cells.",
+          "doi": "https://doi.org/10.1126/science.3381101"
+        }
+      ]
     },
     {
       "slide": 10,
-      "provisional_title": "Neuromast supporting cells respond rapidly to receptor loss",
-      "source": "fish_genes",
-      "doi": "10.1073/pnas.1402898111",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Supporting cells change gene expression within one hour",
+      "citations": "Jiang et al. (2014)",
+      "figures": [
+        {
+          "path": "figures/genes_early.png",
+          "caption": "Jiang et al. (2014), Fig. 2(A–B). Early gene-expression changes after neomycin injury.",
+          "doi": "https://doi.org/10.1073/pnas.1402898111"
+        },
+        {
+          "path": "figures/fish_animal.png",
+          "caption": "Jiang et al. (2014), Fig. 1(A). Zebrafish larva with lateral-line neuromasts.",
+          "doi": "https://doi.org/10.1073/pnas.1402898111"
+        }
+      ]
     },
     {
       "slide": 11,
-      "provisional_title": "Cell-cycle programs precede late Wnt activation",
-      "source": "fish_genes",
-      "doi": "10.1073/pnas.1402898111",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Cell-cycle responses precede Wnt pathway activation",
+      "citations": "Jiang et al. (2014)",
+      "figures": [
+        {
+          "path": "figures/genes_cycle.png",
+          "caption": "Jiang et al. (2014), Fig. 3(A–C). Wnt reporter activation begins after the early injury response.",
+          "doi": "https://doi.org/10.1073/pnas.1402898111"
+        }
+      ]
     },
     {
       "slide": 12,
-      "provisional_title": "Early injury reduces Notch-pathway activity",
-      "source": "fish_genes",
-      "doi": "10.1073/pnas.1402898111",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Transient Notch reduction changes the regenerative state",
+      "citations": "Jiang et al. (2014)",
+      "figures": [
+        {
+          "path": "figures/genes_notch.png",
+          "caption": "Jiang et al. (2014), Fig. 4(A–E). Notch targets and cell-cycle regulators change after injury.",
+          "doi": "https://doi.org/10.1073/pnas.1402898111"
+        }
+      ]
     },
     {
       "slide": 13,
-      "provisional_title": "Regeneration changes supporting-cell transcription",
-      "source": "fish_genes",
-      "doi": "10.1073/pnas.1402898111",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "A transgenic ion channel enables crista hair cell ablation",
+      "citations": "Beaulieu et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/fish_ablation.png",
+          "caption": "Beaulieu et al. (2024), Fig. 5(A–D). TRPV1-dependent ablation of crista hair cells.",
+          "doi": "https://doi.org/10.1242/dev.202944"
+        },
+        {
+          "path": "figures/fish_ear.png",
+          "caption": "Beaulieu et al. (2024), Fig. 1(A–B). Inner-ear sensory patches in a larval zebrafish.",
+          "doi": "https://doi.org/10.1242/dev.202944"
+        }
+      ]
     },
     {
       "slide": 14,
-      "provisional_title": "Genetic ablation isolates inner-ear hair-cell injury",
-      "source": "fish_direct",
-      "doi": "10.1242/dev.202944",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Regenerated cristae recover regional hair cell identities",
+      "citations": "Beaulieu et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/fish_pattern.png",
+          "caption": "Beaulieu et al. (2024), Fig. 7(A–D). Central and peripheral identities recover after ablation.",
+          "doi": "https://doi.org/10.1242/dev.202944"
+        }
+      ]
     },
     {
       "slide": 15,
-      "provisional_title": "New hair cells recover their spatial pattern",
-      "source": "fish_direct",
-      "doi": "10.1242/dev.202944",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Supporting-cell division briefly expands the precursor pool",
+      "citations": "Beaulieu et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/fish_division.png",
+          "caption": "Beaulieu et al. (2024), Fig. 8(A–C). EdU-labeled supporting cells expand after injury.",
+          "doi": "https://doi.org/10.1242/dev.202944"
+        }
+      ]
     },
     {
       "slide": 16,
-      "provisional_title": "Supporting-cell division expands the progenitor pool",
-      "source": "fish_direct",
-      "doi": "10.1242/dev.202944",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Crista cell conversion is uncoupled from recent division",
+      "citations": "Beaulieu et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/fish_conversion.png",
+          "caption": "Beaulieu et al. (2024), Fig. 9(A–E). Pulse-chase labeling separates division from differentiation.",
+          "doi": "https://doi.org/10.1242/dev.202944"
+        }
+      ]
     },
     {
       "slide": 17,
-      "provisional_title": "Direct conversion is uncoupled from progenitor division",
-      "source": "fish_direct",
-      "doi": "10.1242/dev.202944",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Long-range enhancers permit Atoh1 expression",
+      "citations": "Shi et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/enhancer_activity.png",
+          "caption": "Shi et al. (2024), Fig. 2(B–C). Long-range regulatory elements label supporting cells.",
+          "doi": "https://doi.org/10.1073/pnas.2418098121"
+        }
+      ]
     },
     {
       "slide": 18,
-      "provisional_title": "Atoh1 regulatory regions preserve regenerative competence",
-      "source": "enhancers",
-      "doi": "10.1073/pnas.2418098121",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Adult regenerative supporting cells retain open chromatin",
+      "citations": "Shi et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/enhancer_chromatin.png",
+          "caption": "Shi et al. (2024), Fig. 5(A–D). Enhancer accessibility across species and cell states.",
+          "doi": "https://doi.org/10.1073/pnas.2418098121"
+        }
+      ]
     },
     {
       "slide": 19,
-      "provisional_title": "Chromatin accessibility persists in regenerative cells",
-      "source": "enhancers",
-      "doi": "10.1073/pnas.2418098121",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Notch repression restrains an accessible hair cell program",
+      "citations": "Shi et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/enhancer_activity.png",
+          "caption": "Shi et al. (2024), Fig. 2(B–C). Long-range regulatory elements label supporting cells.",
+          "doi": "https://doi.org/10.1073/pnas.2418098121"
+        }
+      ]
     },
     {
       "slide": 20,
-      "provisional_title": "Notch represses accessible differentiation enhancers",
-      "source": "enhancers",
-      "doi": "10.1073/pnas.2418098121",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Enhancer deletion separates two sensory organs",
+      "citations": "Shi et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/enhancer_deletion.png",
+          "caption": "Shi et al. (2024), Fig. 3(B–E). Enhancer deletion affects inner-ear but not lateral-line hair cells.",
+          "doi": "https://doi.org/10.1073/pnas.2418098121"
+        }
+      ]
     },
     {
       "slide": 21,
-      "provisional_title": "Enhancer deletion blocks inner-ear regeneration",
-      "source": "enhancers",
-      "doi": "10.1073/pnas.2418098121",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Dying avian hair cells evoke an early supporting-cell state",
+      "citations": "Benkafadar et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/cascade_response.png",
+          "caption": "Benkafadar et al. (2024), Fig. 2(A–H). Early-response transcripts localize to supporting cells.",
+          "doi": "https://doi.org/10.1016/j.devcel.2023.11.028"
+        }
+      ]
     },
     {
       "slide": 22,
-      "provisional_title": "Injury activates an avian supporting-cell signaling cascade",
-      "source": "bird_cascade",
-      "doi": "10.1016/j.devcel.2023.11.028",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Protease-activated F2RL1 contributes to injury signaling",
+      "citations": "Benkafadar et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/cascade_perturb.png",
+          "caption": "Benkafadar et al. (2024), Fig. 3(A–H). Pathway inhibitors suppress supporting-cell DNA synthesis.",
+          "doi": "https://doi.org/10.1016/j.devcel.2023.11.028"
+        },
+        {
+          "path": "figures/cascade_response.png",
+          "caption": "Benkafadar et al. (2024), Fig. 2(A–H). Early-response transcripts localize to supporting cells.",
+          "doi": "https://doi.org/10.1016/j.devcel.2023.11.028"
+        }
+      ]
     },
     {
       "slide": 23,
-      "provisional_title": "F2RL1 activation couples injury to ligand release",
-      "source": "bird_cascade",
-      "doi": "10.1016/j.devcel.2023.11.028",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "EGFR activity recruits ERK phosphorylation during repair",
+      "citations": "Benkafadar et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/cascade_erk.png",
+          "caption": "Benkafadar et al. (2024), Fig. 5(A–C). Pathway inhibition changes transcripts and ERK phosphorylation.",
+          "doi": "https://doi.org/10.1016/j.devcel.2023.11.028"
+        },
+        {
+          "path": "figures/cascade_response.png",
+          "caption": "Benkafadar et al. (2024), Fig. 2(A–H). Early-response transcripts localize to supporting cells.",
+          "doi": "https://doi.org/10.1016/j.devcel.2023.11.028"
+        }
+      ]
     },
     {
       "slide": 24,
-      "provisional_title": "HBEGF activates EGFR and ERK signaling",
-      "source": "bird_cascade",
-      "doi": "10.1016/j.devcel.2023.11.028",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Pathway blockade suppresses proliferation and repair",
+      "citations": "Benkafadar et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/cascade_perturb.png",
+          "caption": "Benkafadar et al. (2024), Fig. 3(A–H). Pathway inhibitors suppress supporting-cell DNA synthesis.",
+          "doi": "https://doi.org/10.1016/j.devcel.2023.11.028"
+        },
+        {
+          "path": "figures/cascade_newcells.png",
+          "caption": "Benkafadar et al. (2024), Fig. 4(A–L). Pathway inhibition reduces new hair cells.",
+          "doi": "https://doi.org/10.1016/j.devcel.2023.11.028"
+        }
+      ]
     },
     {
       "slide": 25,
-      "provisional_title": "Pathway perturbations prevent cell-cycle reentry",
-      "source": "bird_cascade",
-      "doi": "10.1016/j.devcel.2023.11.028",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "ERK-linked transcription precedes receptor differentiation",
+      "citations": "Benkafadar et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/cascade_tf.png",
+          "caption": "Benkafadar et al. (2024), Fig. 6(A–B). Pathway-dependent and independent transcription-factor responses.",
+          "doi": "https://doi.org/10.1016/j.devcel.2023.11.028"
+        },
+        {
+          "path": "figures/cascade_response.png",
+          "caption": "Benkafadar et al. (2024), Fig. 2(A–H). Early-response transcripts localize to supporting cells.",
+          "doi": "https://doi.org/10.1016/j.devcel.2023.11.028"
+        }
+      ]
     },
     {
       "slide": 26,
-      "provisional_title": "STAT3 converges with regeneration-associated transcription",
-      "source": "bird_cascade",
-      "doi": "10.1016/j.devcel.2023.11.028",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Acoustic injury damages zebrafish saccular bundles",
+      "citations": "Sun et al. (2011)",
+      "figures": [
+        {
+          "path": "figures/growth_celltypes.png",
+          "caption": "Sun et al. (2011), Fig. 2(A–E). Normal, damaged, thin and bundleless cell categories.",
+          "doi": "https://doi.org/10.1371/journal.pone.0028372"
+        },
+        {
+          "path": "figures/growth_bundles.png",
+          "caption": "Sun et al. (2011), Fig. 1(A–B). Growth hormone preserves or restores saccular hair bundles.",
+          "doi": "https://doi.org/10.1371/journal.pone.0028372"
+        }
+      ]
     },
     {
       "slide": 27,
-      "provisional_title": "Acoustic trauma damages fish inner-ear sensory epithelia",
-      "source": "fish_growth",
-      "doi": "10.1371/journal.pone.0028372",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Growth hormone improves post-injury bundle density",
+      "citations": "Sun et al. (2011)",
+      "figures": [
+        {
+          "path": "figures/growth_bundles.png",
+          "caption": "Sun et al. (2011), Fig. 1(A–B). Growth hormone preserves or restores saccular hair bundles.",
+          "doi": "https://doi.org/10.1371/journal.pone.0028372"
+        }
+      ]
     },
     {
       "slide": 28,
-      "provisional_title": "Growth hormone changes receptor-bundle recovery",
-      "source": "fish_growth",
-      "doi": "10.1371/journal.pone.0028372",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Growth hormone changes proliferation and cell survival",
+      "citations": "Sun et al. (2011)",
+      "figures": [
+        {
+          "path": "figures/growth_proliferation.png",
+          "caption": "Sun et al. (2011), Fig. 3(A–C). Growth hormone increases cell proliferation.",
+          "doi": "https://doi.org/10.1371/journal.pone.0028372"
+        },
+        {
+          "path": "figures/growth_survival.png",
+          "caption": "Sun et al. (2011), Fig. 4(A–C). Growth hormone reduces apoptosis after acoustic trauma.",
+          "doi": "https://doi.org/10.1371/journal.pone.0028372"
+        }
+      ]
     },
     {
       "slide": 29,
-      "provisional_title": "Proliferation and cell survival respond to hormonal signals",
-      "source": "fish_growth",
-      "doi": "10.1371/journal.pone.0028372",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Copper injury spares afferents at a selected concentration",
+      "citations": "Hardy et al. (2021)",
+      "figures": [
+        {
+          "path": "figures/phys_damage.png",
+          "caption": "Hardy et al. (2021), Fig. 2(A–E). Copper-induced hair cell loss and regeneration.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        },
+        {
+          "path": "figures/phys_support.png",
+          "caption": "Hardy et al. (2021), Fig. 11(A–D). Afferent terminals contact supporting cells during repair.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        }
+      ]
     },
     {
       "slide": 30,
-      "provisional_title": "Copper injury removes lateral-line hair cells",
-      "source": "physiology",
-      "doi": "10.1113/jp281522",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Bundle displacement recruits calcium in repaired receptors",
+      "citations": "Hardy et al. (2021)",
+      "figures": [
+        {
+          "path": "figures/phys_calcium.png",
+          "caption": "Hardy et al. (2021), Fig. 5(A–F). Hair cell and afferent calcium responses to bundle motion.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        }
+      ]
     },
     {
       "slide": 31,
-      "provisional_title": "New hair cells recover electrical and calcium activity",
-      "source": "physiology",
-      "doi": "10.1113/jp281522",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Glutamate release and afferent spikes return rapidly",
+      "citations": "Hardy et al. (2021)",
+      "figures": [
+        {
+          "path": "figures/phys_baseline.png",
+          "caption": "Hardy et al. (2021), Fig. 3(A–E). Afferent spikes and spontaneous glutamate release return.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        }
+      ]
     },
     {
       "slide": 32,
-      "provisional_title": "Regenerated synapses drive afferent action potentials",
-      "source": "physiology",
-      "doi": "10.1113/jp281522",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Fluid-jet stimulation restores stimulus-evoked firing",
+      "citations": "Hardy et al. (2021)",
+      "figures": [
+        {
+          "path": "figures/phys_evoked.png",
+          "caption": "Hardy et al. (2021), Fig. 4(A–F). Fluid-jet displacement evokes recovered afferent firing.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        },
+        {
+          "path": "figures/phys_calcium.png",
+          "caption": "Hardy et al. (2021), Fig. 5(A–F). Hair cell and afferent calcium responses to bundle motion.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        }
+      ]
     },
     {
       "slide": 33,
-      "provisional_title": "Receptor number and synaptic refinement recover together",
-      "source": "physiology",
-      "doi": "10.1113/jp281522",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Ribbon contacts are rebuilt and subsequently refined",
+      "citations": "Hardy et al. (2021)",
+      "figures": [
+        {
+          "path": "figures/phys_ribbons.png",
+          "caption": "Hardy et al. (2021), Fig. 6(A–D). Ribbon markers and afferent contacts reappear.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        }
+      ]
     },
     {
       "slide": 34,
-      "provisional_title": "Larval age changes the duration of functional recovery",
-      "source": "physiology",
-      "doi": "10.1113/jp281522",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Older zebrafish larvae recover on a slower time scale",
+      "citations": "Hardy et al. (2021)",
+      "figures": [
+        {
+          "path": "figures/phys_older.png",
+          "caption": "Hardy et al. (2021), Fig. 7(A–F). Older larvae recover cell numbers and firing more slowly.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        }
+      ]
     },
     {
       "slide": 35,
-      "provisional_title": "Afferent contacts support timely neuromast regeneration",
-      "source": "physiology",
-      "doi": "10.1113/jp281522",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Afferent survival contributes to rapid neuromast repair",
+      "citations": "Hardy et al. (2021)",
+      "figures": [
+        {
+          "path": "figures/phys_ganglion.png",
+          "caption": "Hardy et al. (2021), Fig. 13(A–F). Ganglion ablation prevents rapid hair cell regeneration.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        },
+        {
+          "path": "figures/phys_support.png",
+          "caption": "Hardy et al. (2021), Fig. 11(A–D). Afferent terminals contact supporting cells during repair.",
+          "doi": "https://doi.org/10.1113/jp281522"
+        }
+      ]
     },
     {
       "slide": 36,
-      "provisional_title": "New avian hair cells extend basal projections",
-      "source": "hearing",
-      "doi": "10.1016/j.celrep.2024.113822",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "New avian hair cells extend long basal projections",
+      "citations": "Sato et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/bird_neurites.png",
+          "caption": "Sato et al. (2024), Fig. 2(A–N). Neurite withdrawal and basal hair cell projections.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        },
+        {
+          "path": "figures/bird_otoferlin.png",
+          "caption": "Sato et al. (2024), Fig. 3(A–C″). Otoferlin-labeled projections contact afferents.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        }
+      ]
     },
     {
       "slide": 37,
-      "provisional_title": "Afferents contact projection tips during reinnervation",
-      "source": "hearing",
-      "doi": "10.1016/j.celrep.2024.113822",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Returning afferents contact projection tips",
+      "citations": "Sato et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/bird_innervation.png",
+          "caption": "Sato et al. (2024), Fig. 3(A–C″). Afferent contacts return to new hair cells.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        }
+      ]
     },
     {
       "slide": 38,
-      "provisional_title": "Synaptic specializations precede mature receptor geometry",
-      "source": "hearing",
-      "doi": "10.1016/j.celrep.2024.113822",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Presynaptic and postsynaptic specializations reunite",
+      "citations": "Sato et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/bird_ribbons.png",
+          "caption": "Sato et al. (2024), Fig. 4(A–E). Synaptic specializations return at projection tips.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        }
+      ]
     },
     {
       "slide": 39,
-      "provisional_title": "Hearing thresholds recover over four to five weeks",
-      "source": "hearing",
-      "doi": "10.1016/j.celrep.2024.113822",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Auditory recovery continues after early synapses form",
+      "citations": "Sato et al. (2024)",
+      "figures": [
+        {
+          "path": "figures/hearing_recovery.png",
+          "caption": "Sato et al. (2024), Fig. 7(A–C). Auditory thresholds recover over five weeks.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        },
+        {
+          "path": "figures/bird_ribbons.png",
+          "caption": "Sato et al. (2024), Fig. 4(A–E). Synaptic specializations return at projection tips.",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113822"
+        }
+      ]
     },
     {
       "slide": 40,
-      "provisional_title": "Vestibular afferents can remain silent after receptor loss",
-      "source": "afferent",
-      "doi": "10.1007/s101620020018",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Early vestibular afferents can remain electrically silent",
+      "citations": "Boyle et al. (2002)",
+      "figures": [
+        {
+          "path": "figures/canal_early.png",
+          "caption": "Boyle et al. (2002), Fig. 4(A–D). Early regenerating afferents have weak motion responses.",
+          "doi": "https://doi.org/10.1007/s101620020018"
+        },
+        {
+          "path": "figures/canal_terminals.png",
+          "caption": "Boyle et al. (2002), Fig. 10(A–I). Normal and regenerating anterior canal afferent endings.",
+          "doi": "https://doi.org/10.1007/s101620020018"
+        }
+      ]
     },
     {
       "slide": 41,
-      "provisional_title": "Resting discharge and motion sensitivity recover separately",
-      "source": "afferent",
-      "doi": "10.1007/s101620020018",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Resting firing and motion sensitivity recover differently",
+      "citations": "Boyle et al. (2002)",
+      "figures": [
+        {
+          "path": "figures/canal_late.png",
+          "caption": "Boyle et al. (2002), Fig. 9(A–B). Later afferents recover motion-driven discharge.",
+          "doi": "https://doi.org/10.1007/s101620020018"
+        },
+        {
+          "path": "figures/canal_terminals.png",
+          "caption": "Boyle et al. (2002), Fig. 10(A–I). Normal and regenerating anterior canal afferent endings.",
+          "doi": "https://doi.org/10.1007/s101620020018"
+        }
+      ]
     },
     {
       "slide": 42,
-      "provisional_title": "Vestibuloocular gain returns with receptor regeneration",
-      "source": "reflex",
-      "doi": "10.1152/jn.1996.76.5.3301",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Vestibuloocular gain returns over several recovery weeks",
+      "citations": "Carey et al. (1996)",
+      "figures": [
+        {
+          "path": "figures/reflex_gains.png",
+          "caption": "Carey et al. (1996), Fig. 2. Vestibuloocular gain recovers over weeks.",
+          "doi": "https://doi.org/10.1152/jn.1996.76.5.3301"
+        },
+        {
+          "path": "figures/reflex_anatomy.png",
+          "caption": "Carey et al. (1996), Fig. 6. Vestibular hair bundles during early regeneration.",
+          "doi": "https://doi.org/10.1152/jn.1996.76.5.3301"
+        }
+      ]
     },
     {
       "slide": 43,
-      "provisional_title": "Hair-bundle appearance and reflex function can diverge",
-      "source": "reflex",
-      "doi": "10.1152/jn.1996.76.5.3301",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Bundle appearance alone does not predict reflex recovery",
+      "citations": "Carey et al. (1996)",
+      "figures": [
+        {
+          "path": "figures/reflex_early.png",
+          "caption": "Carey et al. (1996), Fig. 2. Early vestibuloocular reflex deficits.",
+          "doi": "https://doi.org/10.1152/jn.1996.76.5.3301"
+        },
+        {
+          "path": "figures/reflex_anatomy.png",
+          "caption": "Carey et al. (1996), Fig. 6. Vestibular hair bundles during early regeneration.",
+          "doi": "https://doi.org/10.1152/jn.1996.76.5.3301"
+        }
+      ]
     },
     {
       "slide": 44,
-      "provisional_title": "Head stability recovers before successful navigation",
-      "source": "posture",
-      "doi": "10.1007/s10162-004-4047-0",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Head stabilization returns before accurate navigation",
+      "citations": "Dickman & Lim (2004)",
+      "figures": [
+        {
+          "path": "figures/posture_behavior.png",
+          "caption": "Dickman & Lim (2004), Fig. 4. Walking recovers after vestibular hair cell loss.",
+          "doi": "https://doi.org/10.1007/s10162-004-4047-0"
+        },
+        {
+          "path": "figures/posture_histology.png",
+          "caption": "Dickman & Lim (2004), Fig. 2(A–F). Vestibular sensory epithelium during regeneration.",
+          "doi": "https://doi.org/10.1007/s10162-004-4047-0"
+        }
+      ]
     },
     {
       "slide": 45,
-      "provisional_title": "Postural and orientation recovery follow distinct time courses",
-      "source": "posture",
-      "doi": "10.1007/s10162-004-4047-0",
-      "image_plan": "Original source-PDF panel; exact figure and crop pending source review"
+      "title": "Behavioral recovery extends beyond early receptor return",
+      "citations": "Dickman & Lim (2004)",
+      "figures": [
+        {
+          "path": "figures/posture_behavior.png",
+          "caption": "Dickman & Lim (2004), Fig. 4. Walking recovers after vestibular hair cell loss.",
+          "doi": "https://doi.org/10.1007/s10162-004-4047-0"
+        },
+        {
+          "path": "figures/posture_histology.png",
+          "caption": "Dickman & Lim (2004), Fig. 2(A–F). Vestibular sensory epithelium during regeneration.",
+          "doi": "https://doi.org/10.1007/s10162-004-4047-0"
+        }
+      ]
     }
-  ],
-  "figure_requirements": {
-    "image_content_slides_minimum": 40,
-    "primary_article_content_slides_minimum": 34,
-    "color_image_slide_target": "At least half",
-    "created_images": 0
-  },
-  "caution": "Provisional titles and relationships require full source review; no measured values or panel numbers are invented. Lateral-line sensation is distinguished from inner-ear hearing and balance. Regenerated cell counts, synaptic recovery, afferent physiology, and behavior are separate endpoints."
+  ]
 }
