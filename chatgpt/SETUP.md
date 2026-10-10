@@ -22,3 +22,7 @@ Start a chat inside the project and paste `chatgpt/lecture_prompt.md` with the l
 - **Themes and finished lectures** live in the uploaded zip. After each lecture, ChatGPT gives you the deck and the updated `course/themes.json`; replace that file in the project (or re-upload a fresh zip from GitHub) so the next lecture does not reuse a color theme.
 - **Same rules everywhere.** The builder inside the zip enforces the image, writing and statistics rules in ChatGPT exactly as it does in Claude and Codex.
 - **Visual check.** ChatGPT usually cannot render slides to images; open the .pptx yourself and look at each slide.
+
+## Article-provided videos
+
+For new lectures and revisions, check cited papers and supplementary materials for useful original recordings. Follow AGENTS.md rule 11: no YouTube or unrelated web videos. Embed useful article-provided recordings when supported, credit the study and original media URL, and verify the saved media. A static hosted preview is separate from a PPTX with embedded video. If original media cannot be obtained or embedded, report this briefly and continue with published figures; provide the original article link or recording when accessible.

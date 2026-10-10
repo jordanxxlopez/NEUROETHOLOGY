@@ -97,6 +97,30 @@ IMAGES — ON NEARLY EVERY SLIDE
 - If a paper's PDF cannot be downloaded, do not substitute anything. Stop and give me a
   numbered list of the papers you need with DOI links so I can upload the PDFs.
 
+VIDEOS: USEFUL ORIGINAL ARTICLE RECORDINGS
+- Apply this to both new lectures and existing lectures being updated. Check the cited
+  articles and their supplements, and include recordings when motion teaches the behavior,
+  preparation, stimulus, response or mechanism. There is no video quota.
+- Use only original publisher supplements, article-hosted videos, or author/lab recordings
+  in a repository explicitly linked or cited by the article. Verify the study connection.
+  Never pull from YouTube, even an author or journal channel, or unrelated web videos.
+  Never create, animate or reconstruct a recording.
+- Embed the original recording in the PPTX when supported. Format/codec conversion to a
+  compatible MP4 is allowed; preserve the scene, timing, audio and scientific content.
+  No invented frames, recoloring, speed changes or added graphics.
+- Credit author/year and the exact supplementary movie identifier or original filename;
+  include what it records, the article DOI, original media URL, credit and supplied license
+  in the caption/notes and media metadata. Teach its relevant experimental content in notes.
+- Verify saved media, relationships and playback when possible. Use an unedited original
+  frame or intact article figure as the credited poster/static fallback. Clearly distinguish
+  an embedded-video PPTX from any static hosted copy; report untested playback accurately.
+- If download or embedding is unavailable, tell me briefly, link or provide the original
+  article recording where accessible, and continue with published figures. Optional videos
+  do not block the lecture or relax the required-paper PDF rule.
+- Keep the exact title, slide count and existing image/primary-figure/anatomy requirements.
+  Integrate useful clips into relevant content slides. Assess older decks during authorized
+  updates; do not initiate a bulk rewrite solely to add videos.
+
 LAYOUT
 - Use two columns: text on one side and scientific figures on the other. Keep figures
   large, readable, and aligned with the corresponding text. Avoid figures at the bottom

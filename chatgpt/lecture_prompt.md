@@ -15,6 +15,12 @@ Make Lecture [N] for NEUR 411 as a downloadable .pptx, following the project ins
 4. Write lectures/L[N]/lecture.json with slide paragraphs, a teaching transcript for the speaker notes,
    citations and figures, then run: python tools/build_lecture.py lectures/L[N]/lecture.json
    and fix everything until it reports 0 failures.
-5. Reread every slide and transcript against the writing rules (no framing, no "this shows", no
+5. For both new lectures and updates, check the cited articles and supplements for useful original videos.
+   Follow AGENTS.md rule 11: only article-provided media or author/lab repositories explicitly linked
+   or cited by the article; never YouTube. Embed when supported, preserve the recording, credit its
+   identifier/filename, DOI and original URL, verify media/playback when possible, and retain a static
+   fallback. If unavailable, tell me briefly, provide the original link/file where accessible and
+   continue. No quota, no generated footage, no changes to titles, slide counts or figure requirements.
+6. Reread every slide and transcript against the writing rules (no framing, no "this shows", no
    statistics clutter, natural teaching voice), then give me the .pptx and the updated themes.json.
 ```
