@@ -1,0 +1,5113 @@
+{
+  "10.1126/science.275.5306.1593": {
+    "id": "https://openalex.org/W2117726420",
+    "doi": "https://doi.org/10.1126/science.275.5306.1593",
+    "title": "A Neural Substrate of Prediction and Reward",
+    "display_name": "A Neural Substrate of Prediction and Reward",
+    "publication_year": 1997,
+    "publication_date": "1997-03-14",
+    "ids": {
+      "openalex": "https://openalex.org/W2117726420",
+      "doi": "https://doi.org/10.1126/science.275.5306.1593",
+      "mag": "2117726420",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/9054347"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1126/science.275.5306.1593",
+      "doi": "https://doi.org/10.1126/science.275.5306.1593",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1126/science.275.5306.1593",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S3880285",
+        "display_name": "Science",
+        "issn_l": "0036-8075",
+        "issn": [
+          "0036-8075",
+          "0193-4511",
+          "1095-9203"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-3",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310315823",
+        "host_organization_name": "American Association for the Advancement of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315823"
+        ],
+        "host_organization_lineage_names": [
+          "American Association for the Advancement of Science"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Science",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5059105976",
+          "display_name": "Wolfram Schultz",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154338468",
+            "display_name": "University of Fribourg",
+            "ror": "https://ror.org/022fs9h90",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154338468"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wolfram Schultz",
+        "raw_affiliation_strings": [
+          "W. Schultz is at the Institute of Physiology, University of Fribourg, CH-1700 Fribourg, Switzerland"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "W. Schultz is at the Institute of Physiology, University of Fribourg, CH-1700 Fribourg, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I154338468"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075063030",
+          "display_name": "Peter Dayan",
+          "orcid": "https://orcid.org/0000-0003-3476-1839",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3476-1839"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63966007",
+            "display_name": "Massachusetts Institute of Technology",
+            "ror": "https://ror.org/042nb2s44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Peter Dayan",
+        "raw_affiliation_strings": [
+          "P. Dayan is in the Department of Brain and Cognitive Sciences, Center for Biological and Computational Learning, E-25 MIT, Cambridge, MA 02139, USA",
+          "P. Dayan is in the Department of Brain and Cognitive Sciences, Center for Biological and Computational Learning, E-25 MIT, Cambridge, MA 02139, USA. E-mail: dayan@ai.mit.edu"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "P. Dayan is in the Department of Brain and Cognitive Sciences, Center for Biological and Computational Learning, E-25 MIT, Cambridge, MA 02139, USA",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          },
+          {
+            "raw_affiliation_string": "P. Dayan is in the Department of Brain and Cognitive Sciences, Center for Biological and Computational Learning, E-25 MIT, Cambridge, MA 02139, USA. E-mail: dayan@ai.mit.edu",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5077225105",
+          "display_name": "P. Read Montague",
+          "orcid": "https://orcid.org/0000-0002-8967-0339",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8967-0339"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I181547552",
+            "display_name": "Baylor College of Medicine",
+            "ror": "https://ror.org/02pttbw34",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I181547552",
+              "https://openalex.org/I2801539370"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "P. Read Montague",
+        "raw_affiliation_strings": [
+          "P. R. Montague is in the Division of Neuroscience, Center for Theoretical Neuroscience, Baylor College of Medicine, 1 Baylor Plaza, Houston, TX 77030, USA",
+          "P. R. Montague is in the Division of Neuroscience, Center for Theoretical Neuroscience, Baylor College of Medicine, 1 Baylor Plaza, Houston, TX 77030, USA. E-mail: read@bcm.tmc.edu"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "P. R. Montague is in the Division of Neuroscience, Center for Theoretical Neuroscience, Baylor College of Medicine, 1 Baylor Plaza, Houston, TX 77030, USA",
+            "institution_ids": [
+              "https://openalex.org/I181547552"
+            ]
+          },
+          {
+            "raw_affiliation_string": "P. R. Montague is in the Division of Neuroscience, Center for Theoretical Neuroscience, Baylor College of Medicine, 1 Baylor Plaza, Houston, TX 77030, USA. E-mail: read@bcm.tmc.edu",
+            "institution_ids": [
+              "https://openalex.org/I181547552"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 29.2205,
+    "has_fulltext": false,
+    "cited_by_count": 9478,
+    "citation_normalized_percentile": {
+      "value": 0.99938975,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "275",
+      "issue": "5306",
+      "first_page": "1593",
+      "last_page": "1599"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10056",
+      "display_name": "Neurotransmitter Receptor Influence on Behavior",
+      "score": 0.5907999873161316,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10056",
+        "display_name": "Neurotransmitter Receptor Influence on Behavior",
+        "score": 0.5907999873161316,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2804",
+          "display_name": "Cellular and Molecular Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10042",
+        "display_name": "Neural and Behavioral Psychology Studies",
+        "score": 0.3628000020980835,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10448",
+        "display_name": "Memory and Neural Mechanisms",
+        "score": 0.012900000438094139,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/prediction",
+        "display_name": "prediction",
+        "score": 0.8790000081062317
+      },
+      {
+        "id": "https://openalex.org/keywords/reward",
+        "display_name": "reward",
+        "score": 0.9850000143051147
+      },
+      {
+        "id": "https://openalex.org/keywords/dopaminergic-neurons",
+        "display_name": "dopaminergic neurons",
+        "score": 0.9259999990463257
+      },
+      {
+        "id": "https://openalex.org/keywords/neural-correlates",
+        "display_name": "neural correlates",
+        "score": 0.5410000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/expectations",
+        "display_name": "expectations",
+        "score": 0.5270000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/learning",
+        "display_name": "learning",
+        "score": 0.6489999890327454
+      },
+      {
+        "id": "https://openalex.org/keywords/error-signal",
+        "display_name": "error signal",
+        "score": 0.5669999718666077
+      },
+      {
+        "id": "https://openalex.org/keywords/adaptive-control",
+        "display_name": "adaptive control",
+        "score": 0.6449999809265137
+      },
+      {
+        "id": "https://openalex.org/keywords/primate-brain",
+        "display_name": "primate brain",
+        "score": 0.5759999752044678
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2780719617",
+        "wikidata": "https://www.wikidata.org/wiki/Q1030752",
+        "display_name": "Salient",
+        "level": 2,
+        "score": 0.8117860555648804
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.49969482421875
+      },
+      {
+        "id": "https://openalex.org/C7033854",
+        "wikidata": "https://www.wikidata.org/wiki/Q17130699",
+        "display_name": "Neural substrate",
+        "level": 3,
+        "score": 0.460204541683197
+      },
+      {
+        "id": "https://openalex.org/C137183658",
+        "wikidata": "https://www.wikidata.org/wiki/Q461076",
+        "display_name": "Dopaminergic",
+        "level": 3,
+        "score": 0.4577345848083496
+      },
+      {
+        "id": "https://openalex.org/C180747234",
+        "wikidata": "https://www.wikidata.org/wiki/Q23373",
+        "display_name": "Cognitive psychology",
+        "level": 1,
+        "score": 0.43739375472068787
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.42511874437332153
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.424307644367218
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3821583390235901
+      },
+      {
+        "id": "https://openalex.org/C188147891",
+        "wikidata": "https://www.wikidata.org/wiki/Q147638",
+        "display_name": "Cognitive science",
+        "level": 1,
+        "score": 0.337880402803421
+      },
+      {
+        "id": "https://openalex.org/C169900460",
+        "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+        "display_name": "Cognition",
+        "level": 2,
+        "score": 0.134494811296463
+      },
+      {
+        "id": "https://openalex.org/C513476851",
+        "wikidata": "https://www.wikidata.org/wiki/Q170304",
+        "display_name": "Dopamine",
+        "level": 2,
+        "score": 0.10347244143486023
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003198",
+        "descriptor_name": "Computer Simulation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003198",
+        "descriptor_name": "Computer Simulation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003198",
+        "descriptor_name": "Computer Simulation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003213",
+        "descriptor_name": "Conditioning, Psychological",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003213",
+        "descriptor_name": "Conditioning, Psychological",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003213",
+        "descriptor_name": "Conditioning, Psychological",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003463",
+        "descriptor_name": "Cues",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003463",
+        "descriptor_name": "Cues",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003463",
+        "descriptor_name": "Cues",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D004298",
+        "descriptor_name": "Dopamine",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D004298",
+        "descriptor_name": "Dopamine",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D004298",
+        "descriptor_name": "Dopamine",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007858",
+        "descriptor_name": "Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D007858",
+        "descriptor_name": "Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D007858",
+        "descriptor_name": "Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008636",
+        "descriptor_name": "Mesencephalon",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008636",
+        "descriptor_name": "Mesencephalon",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008636",
+        "descriptor_name": "Mesencephalon",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008959",
+        "descriptor_name": "Models, Neurological",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008959",
+        "descriptor_name": "Models, Neurological",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008959",
+        "descriptor_name": "Models, Neurological",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009474",
+        "descriptor_name": "Neurons",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009474",
+        "descriptor_name": "Neurons",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009474",
+        "descriptor_name": "Neurons",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012201",
+        "descriptor_name": "Reward",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D012201",
+        "descriptor_name": "Reward",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D012201",
+        "descriptor_name": "Reward",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D051381",
+        "descriptor_name": "Rats",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051381",
+        "descriptor_name": "Rats",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051381",
+        "descriptor_name": "Rats",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 7,
+    "locations": [
+      {
+        "id": "doi:10.1126/science.275.5306.1593",
+        "doi": "https://doi.org/10.1126/science.275.5306.1593",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1126/science.275.5306.1593",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S3880285",
+          "display_name": "Science",
+          "issn_l": "0036-8075",
+          "issn": [
+            "0036-8075",
+            "0193-4511",
+            "1095-9203"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doyens",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-3",
+            "medline",
+            "norway-2"
+          ],
+          "host_organization": "https://openalex.org/P4310315823",
+          "host_organization_name": "American Association for the Advancement of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315823"
+          ],
+          "host_organization_lineage_names": [
+            "American Association for the Advancement of Science"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:9054347",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/9054347",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science (New York, N.Y.)",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:CiteSeerX.psu:10.1.1.124.5997",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.124.5997",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "http://www.cs.utexas.edu/~dana/Reward.pdf",
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:CiteSeerX.psu:10.1.1.133.6176",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.6176",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "http://www.neuroscience.ethz.ch/education/handouts/neuralcomputation_hahnloser.pdf",
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:CiteSeerX.psu:10.1.1.140.7359",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.140.7359",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "http://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf",
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:eprints.ucl.ac.uk.OAI2:142467",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://discovery.ucl.ac.uk/142467/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400024",
+          "display_name": "UCL Discovery (University College London)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I45129253",
+          "host_organization_name": "University College London",
+          "host_organization_lineage": [
+            "https://openalex.org/I45129253"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "SCIENCE , 275 (5306) 1593 - 1599. (1997)",
+        "raw_type": "Article"
+      },
+      {
+        "id": "pmh:oai:pure.mpg.de:item_3022430",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://hdl.handle.net/21.11116/0000-0002-D633-3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400654",
+          "display_name": "MPG.PuRe (Max Planck Society)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I149899117",
+          "host_organization_name": "Max Planck Society",
+          "host_organization_lineage": [
+            "https://openalex.org/I149899117"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Science",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 68,
+    "referenced_works": [
+      "https://openalex.org/W125252782",
+      "https://openalex.org/W248771813",
+      "https://openalex.org/W609092168",
+      "https://openalex.org/W1502058764",
+      "https://openalex.org/W1565555284",
+      "https://openalex.org/W1570669466",
+      "https://openalex.org/W1583833196",
+      "https://openalex.org/W1607052939",
+      "https://openalex.org/W1642699591",
+      "https://openalex.org/W1652173018",
+      "https://openalex.org/W1771503649",
+      "https://openalex.org/W1831076810",
+      "https://openalex.org/W1894358115",
+      "https://openalex.org/W1896121363",
+      "https://openalex.org/W1939041013",
+      "https://openalex.org/W1963680345",
+      "https://openalex.org/W1971758547",
+      "https://openalex.org/W1977327457",
+      "https://openalex.org/W1978232917",
+      "https://openalex.org/W1979513602",
+      "https://openalex.org/W1979532884",
+      "https://openalex.org/W1979640215",
+      "https://openalex.org/W1980046851",
+      "https://openalex.org/W1981047637",
+      "https://openalex.org/W1986264597",
+      "https://openalex.org/W1996108093",
+      "https://openalex.org/W2005866069",
+      "https://openalex.org/W2009700703",
+      "https://openalex.org/W2011309507",
+      "https://openalex.org/W2012038403",
+      "https://openalex.org/W2013150964",
+      "https://openalex.org/W2013851440",
+      "https://openalex.org/W2033580167",
+      "https://openalex.org/W2033720401",
+      "https://openalex.org/W2038156236",
+      "https://openalex.org/W2039732315",
+      "https://openalex.org/W2040598998",
+      "https://openalex.org/W2044123907",
+      "https://openalex.org/W2049718720",
+      "https://openalex.org/W2052011218",
+      "https://openalex.org/W2058396154",
+      "https://openalex.org/W2072802414",
+      "https://openalex.org/W2072855809",
+      "https://openalex.org/W2084007108",
+      "https://openalex.org/W2085291810",
+      "https://openalex.org/W2091565802",
+      "https://openalex.org/W2095447564",
+      "https://openalex.org/W2103124605",
+      "https://openalex.org/W2122127645",
+      "https://openalex.org/W2122378545",
+      "https://openalex.org/W2131600418",
+      "https://openalex.org/W2143839686",
+      "https://openalex.org/W2148515107",
+      "https://openalex.org/W2157844171",
+      "https://openalex.org/W2158091072",
+      "https://openalex.org/W2165131254",
+      "https://openalex.org/W2167160358",
+      "https://openalex.org/W2174764226",
+      "https://openalex.org/W2341171179",
+      "https://openalex.org/W2346626577",
+      "https://openalex.org/W2402721223",
+      "https://openalex.org/W2787259794",
+      "https://openalex.org/W4246832847",
+      "https://openalex.org/W4249791740",
+      "https://openalex.org/W6605596209",
+      "https://openalex.org/W6606580598",
+      "https://openalex.org/W6641433178",
+      "https://openalex.org/W6825486060"
+    ],
+    "related_works": [
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W27520736",
+      "https://openalex.org/W2224277765",
+      "https://openalex.org/W2533780334",
+      "https://openalex.org/W2070658617",
+      "https://openalex.org/W2026888593",
+      "https://openalex.org/W2063344882",
+      "https://openalex.org/W2019256317",
+      "https://openalex.org/W2050172925"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0
+      ],
+      "capacity": [
+        1
+      ],
+      "to": [
+        2,
+        9
+      ],
+      "predict": [
+        3
+      ],
+      "future": [
+        4,
+        36,
+        70
+      ],
+      "events": [
+        5,
+        38
+      ],
+      "permits": [
+        6
+      ],
+      "a": [
+        7
+      ],
+      "creature": [
+        8
+      ],
+      "detect,": [
+        10
+      ],
+      "model,": [
+        11
+      ],
+      "and": [
+        12,
+        42,
+        72
+      ],
+      "manipulate": [
+        13
+      ],
+      "the": [
+        14,
+        33,
+        56,
+        67
+      ],
+      "causal": [
+        15
+      ],
+      "structure": [
+        16
+      ],
+      "of": [
+        17,
+        69,
+        85
+      ],
+      "its": [
+        18,
+        21
+      ],
+      "interactions": [
+        19
+      ],
+      "with": [
+        20
+      ],
+      "environment.": [
+        22
+      ],
+      "Behavioral": [
+        23
+      ],
+      "experiments": [
+        24
+      ],
+      "suggest": [
+        25
+      ],
+      "that": [
+        26
+      ],
+      "learning": [
+        27
+      ],
+      "is": [
+        28
+      ],
+      "driven": [
+        29
+      ],
+      "by": [
+        30,
+        51
+      ],
+      "changes": [
+        31,
+        63
+      ],
+      "in": [
+        32,
+        55,
+        66
+      ],
+      "expectations": [
+        34
+      ],
+      "about": [
+        35
+      ],
+      "salient": [
+        37,
+        71
+      ],
+      "such": [
+        39
+      ],
+      "as": [
+        40
+      ],
+      "rewards": [
+        41
+      ],
+      "punishments.": [
+        43
+      ],
+      "Physiological": [
+        44
+      ],
+      "work": [
+        45
+      ],
+      "has": [
+        46
+      ],
+      "recently": [
+        47
+      ],
+      "complemented": [
+        48
+      ],
+      "these": [
+        49,
+        77
+      ],
+      "studies": [
+        50
+      ],
+      "identifying": [
+        52
+      ],
+      "dopaminergic": [
+        53
+      ],
+      "neurons": [
+        54
+      ],
+      "primate": [
+        57
+      ],
+      "whose": [
+        58
+      ],
+      "fluctuating": [
+        59
+      ],
+      "output": [
+        60
+      ],
+      "apparently": [
+        61
+      ],
+      "signals": [
+        62
+      ],
+      "or": [
+        64
+      ],
+      "errors": [
+        65
+      ],
+      "predictions": [
+        68
+      ],
+      "rewarding": [
+        73
+      ],
+      "events.": [
+        74
+      ],
+      "Taken": [
+        75
+      ],
+      "together,": [
+        76
+      ],
+      "findings": [
+        78
+      ],
+      "can": [
+        79
+      ],
+      "be": [
+        80
+      ],
+      "understood": [
+        81
+      ],
+      "through": [
+        82
+      ],
+      "quantitative": [
+        83
+      ],
+      "theories": [
+        84
+      ],
+      "adaptive": [
+        86
+      ],
+      "optimizing": [
+        87
+      ],
+      "control.": [
+        88
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 385
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 463
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 526
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 536
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 461
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 502
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 504
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 559
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 475
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 444
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 447
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 439
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 450
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 429
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 380
+      }
+    ],
+    "updated_date": "2026-10-09T09:14:12.587421",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "10.1098/rspb.2018.0948": {
+    "id": "https://openalex.org/W2891816350",
+    "doi": "https://doi.org/10.1098/rspb.2018.0948",
+    "title": "Bottlenose dolphins can understand their partner's role in a cooperative task",
+    "display_name": "Bottlenose dolphins can understand their partner's role in a cooperative task",
+    "publication_year": 2018,
+    "publication_date": "2018-09-19",
+    "ids": {
+      "openalex": "https://openalex.org/W2891816350",
+      "doi": "https://doi.org/10.1098/rspb.2018.0948",
+      "mag": "2891816350",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/30232161"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1098/rspb.2018.0948",
+      "doi": "https://doi.org/10.1098/rspb.2018.0948",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1098/rspb.2018.0948",
+      "pdf_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2018.0948",
+      "source": {
+        "id": "https://openalex.org/S3006207977",
+        "display_name": "Proceedings of the Royal Society B Biological Sciences",
+        "issn_l": "0080-4649",
+        "issn": [
+          "0080-4649",
+          "0962-8452",
+          "1471-2954",
+          "2053-9193"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310319787",
+        "host_organization_name": "Royal Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319787"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the Royal Society B: Biological Sciences",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2018.0948",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5030509428",
+          "display_name": "Kelly Jaakkola",
+          "orcid": "https://orcid.org/0000-0002-4113-748X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4113-748X"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Kelly Jaakkola",
+        "raw_affiliation_strings": [
+          "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4113-748X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5008865646",
+          "display_name": "Emily Guarino",
+          "orcid": "https://orcid.org/0000-0002-6408-4085",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6408-4085"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Emily Guarino",
+        "raw_affiliation_strings": [
+          "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5031313692",
+          "display_name": "Katy Donegan",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Katy Donegan",
+        "raw_affiliation_strings": [
+          "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5006733326",
+          "display_name": "Stephanie L. King",
+          "orcid": "https://orcid.org/0000-0003-2293-9185",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2293-9185"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177877127",
+            "display_name": "The University of Western Australia",
+            "ror": "https://ror.org/047272k79",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177877127"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Stephanie L. King",
+        "raw_affiliation_strings": [
+          "Centre for Evolutionary Biology, School of Biological Sciences, University of Western Australia, Crawley 6009, Australia"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2293-9185",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centre for Evolutionary Biology, School of Biological Sciences, University of Western Australia, Crawley 6009, Australia",
+            "institution_ids": [
+              "https://openalex.org/I177877127"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5006733326",
+      "https://openalex.org/A5030509428"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I177877127"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 4.7238,
+    "has_fulltext": true,
+    "cited_by_count": 72,
+    "citation_normalized_percentile": {
+      "value": 0.95104708,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "285",
+      "issue": "1887",
+      "first_page": "20180948",
+      "last_page": "20180948"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10659",
+      "display_name": "Marine animal studies overview",
+      "score": 0.8461999893188477,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10659",
+        "display_name": "Marine animal studies overview",
+        "score": 0.8461999893188477,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2303",
+          "display_name": "Ecology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10699",
+        "display_name": "Primate Behavior and Ecology",
+        "score": 0.05249999836087227,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10656",
+        "display_name": "Child and Animal Learning Development",
+        "score": 0.049800001084804535,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3204",
+          "display_name": "Developmental and Educational Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/bottlenose-dolphin",
+        "display_name": "Tursiops truncatus",
+        "score": 0.8899999856948853
+      },
+      {
+        "id": "https://openalex.org/keywords/tursiops",
+        "display_name": "Tursiops",
+        "score": 0.7940000295639038
+      },
+      {
+        "id": "https://openalex.org/keywords/cooperative-behavior",
+        "display_name": "cooperative behavior",
+        "score": 0.6629999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/shared-intentionality",
+        "display_name": "shared intentionality",
+        "score": 0.6480000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/animal-cognition",
+        "display_name": "animal cognition",
+        "score": 0.5659999847412109
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2780451532",
+        "wikidata": "https://www.wikidata.org/wiki/Q759676",
+        "display_name": "Task (project management)",
+        "level": 2,
+        "score": 0.7344064712524414
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.5321231484413147
+      },
+      {
+        "id": "https://openalex.org/C169900460",
+        "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+        "display_name": "Cognition",
+        "level": 2,
+        "score": 0.5256563425064087
+      },
+      {
+        "id": "https://openalex.org/C2778562939",
+        "wikidata": "https://www.wikidata.org/wiki/Q1298791",
+        "display_name": "Synchronization (alternating current)",
+        "level": 3,
+        "score": 0.5206817388534546
+      },
+      {
+        "id": "https://openalex.org/C180747234",
+        "wikidata": "https://www.wikidata.org/wiki/Q23373",
+        "display_name": "Cognitive psychology",
+        "level": 1,
+        "score": 0.46828553080558777
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.37945833802223206
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.32942354679107666
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.10705316066741943
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.08569470047950745
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.07541730999946594
+      },
+      {
+        "id": "https://openalex.org/C127162648",
+        "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+        "display_name": "Channel (broadcasting)",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C201995342",
+        "wikidata": "https://www.wikidata.org/wiki/Q682496",
+        "display_name": "Systems engineering",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001522",
+        "descriptor_name": "Behavior, Animal",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001522",
+        "descriptor_name": "Behavior, Animal",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001522",
+        "descriptor_name": "Behavior, Animal",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D003071",
+        "descriptor_name": "Cognition",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003071",
+        "descriptor_name": "Cognition",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003071",
+        "descriptor_name": "Cognition",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003213",
+        "descriptor_name": "Conditioning, Psychological",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003213",
+        "descriptor_name": "Conditioning, Psychological",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003213",
+        "descriptor_name": "Conditioning, Psychological",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003299",
+        "descriptor_name": "Cooperative Behavior",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D003299",
+        "descriptor_name": "Cooperative Behavior",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D003299",
+        "descriptor_name": "Cooperative Behavior",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013997",
+        "descriptor_name": "Time Factors",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013997",
+        "descriptor_name": "Time Factors",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013997",
+        "descriptor_name": "Time Factors",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D050681",
+        "descriptor_name": "Bottle-Nosed Dolphin",
+        "qualifier_ui": "Q000523",
+        "qualifier_name": "psychology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D050681",
+        "descriptor_name": "Bottle-Nosed Dolphin",
+        "qualifier_ui": "Q000523",
+        "qualifier_name": "psychology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D050681",
+        "descriptor_name": "Bottle-Nosed Dolphin",
+        "qualifier_ui": "Q000523",
+        "qualifier_name": "psychology",
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 6,
+    "locations": [
+      {
+        "id": "doi:10.1098/rspb.2018.0948",
+        "doi": "https://doi.org/10.1098/rspb.2018.0948",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1098/rspb.2018.0948",
+        "pdf_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2018.0948",
+        "source": {
+          "id": "https://openalex.org/S3006207977",
+          "display_name": "Proceedings of the Royal Society B Biological Sciences",
+          "issn_l": "0080-4649",
+          "issn": [
+            "0080-4649",
+            "0962-8452",
+            "1471-2954",
+            "2053-9193"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-3",
+            "ki-jl-2",
+            "medline",
+            "norway-2"
+          ],
+          "host_organization": "https://openalex.org/P4310319787",
+          "host_organization_name": "Royal Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319787"
+          ],
+          "host_organization_lineage_names": [
+            "Royal Society"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the Royal Society B: Biological Sciences",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:30232161",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/30232161",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings. Biological sciences",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:europepmc.org:5140404",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6170804",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400806",
+          "display_name": "Europe PMC (PubMed Central)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1303153112",
+          "host_organization_name": "European Bioinformatics Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/I1303153112"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:6170804",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6170804",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Proc Biol Sci",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:pure.atira.dk:openaire/803ddd32-3aab-4ff3-a1e6-f9ea4a864c02",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://admin.research-repository.uwa.edu.au/en/publications/803ddd32-3aab-4ff3-a1e6-f9ea4a864c02",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402492",
+          "display_name": "UWA Profiles and Research Repository (UWA)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I177877127",
+          "host_organization_name": "The University of Western Australia",
+          "host_organization_lineage": [
+            "https://openalex.org/I177877127"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Jaakkola, K, Guarino, E, Donegan, K & King, S L 2018, 'Bottlenose dolphins can understand their partner's role in a cooperative task', Proceedings of the Royal Society B: Biological Sciences, vol. 285, no. 1887, 20180948. https://doi.org/10.1098/rspb.2018.0948",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:research-information.bris.ac.uk:openaire/882ede44-d912-4144-a257-ce132bfbb16c",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/1983/882ede44-d912-4144-a257-ce132bfbb16c",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400895",
+          "display_name": "Bristol Research (University of Bristol)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I36234482",
+          "host_organization_name": "University of Bristol",
+          "host_organization_lineage": [
+            "https://openalex.org/I36234482"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Jaakkola, K, Guarino, E, Donegan, K & King, S 2018, 'Bottlenose dolphins can understand their partner's role in a cooperative task', Proceedings of the Royal Society B: Biological Sciences, vol. 285, no. 1887, 20180948. https://doi.org/10.1098/rspb.2018.0948",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1098/rspb.2018.0948",
+      "doi": "https://doi.org/10.1098/rspb.2018.0948",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1098/rspb.2018.0948",
+      "pdf_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2018.0948",
+      "source": {
+        "id": "https://openalex.org/S3006207977",
+        "display_name": "Proceedings of the Royal Society B Biological Sciences",
+        "issn_l": "0080-4649",
+        "issn": [
+          "0080-4649",
+          "0962-8452",
+          "1471-2954",
+          "2053-9193"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310319787",
+        "host_organization_name": "Royal Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319787"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the Royal Society B: Biological Sciences",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Life below water",
+        "id": "https://metadata.un.org/sdg/14",
+        "score": 0.8500000238418579
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320315254",
+        "display_name": "Innovative Research Group Project of the National Natural Science Foundation of China",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2891816350.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2891816350.grobid-xml"
+    },
+    "referenced_works_count": 58,
+    "referenced_works": [
+      "https://openalex.org/W137560624",
+      "https://openalex.org/W635103021",
+      "https://openalex.org/W1263916642",
+      "https://openalex.org/W1487777840",
+      "https://openalex.org/W1671092253",
+      "https://openalex.org/W1963863007",
+      "https://openalex.org/W1966729619",
+      "https://openalex.org/W1973548051",
+      "https://openalex.org/W1977117236",
+      "https://openalex.org/W1977617303",
+      "https://openalex.org/W1980412926",
+      "https://openalex.org/W1985819469",
+      "https://openalex.org/W1990802091",
+      "https://openalex.org/W2008765605",
+      "https://openalex.org/W2009540777",
+      "https://openalex.org/W2013550717",
+      "https://openalex.org/W2014453618",
+      "https://openalex.org/W2029258785",
+      "https://openalex.org/W2042275711",
+      "https://openalex.org/W2045165124",
+      "https://openalex.org/W2048552633",
+      "https://openalex.org/W2054619116",
+      "https://openalex.org/W2054949188",
+      "https://openalex.org/W2069209734",
+      "https://openalex.org/W2082920921",
+      "https://openalex.org/W2086207208",
+      "https://openalex.org/W2090804546",
+      "https://openalex.org/W2102335238",
+      "https://openalex.org/W2111998739",
+      "https://openalex.org/W2114317031",
+      "https://openalex.org/W2115106965",
+      "https://openalex.org/W2115749907",
+      "https://openalex.org/W2123939916",
+      "https://openalex.org/W2124861983",
+      "https://openalex.org/W2126591858",
+      "https://openalex.org/W2127401672",
+      "https://openalex.org/W2141329818",
+      "https://openalex.org/W2142459388",
+      "https://openalex.org/W2143885810",
+      "https://openalex.org/W2154161637",
+      "https://openalex.org/W2158093915",
+      "https://openalex.org/W2159004050",
+      "https://openalex.org/W2266251938",
+      "https://openalex.org/W2346578806",
+      "https://openalex.org/W2517581822",
+      "https://openalex.org/W2582743722",
+      "https://openalex.org/W2588759661",
+      "https://openalex.org/W2622731166",
+      "https://openalex.org/W2745556955",
+      "https://openalex.org/W2766264721",
+      "https://openalex.org/W2767862600",
+      "https://openalex.org/W2770551101",
+      "https://openalex.org/W2805944739",
+      "https://openalex.org/W2889206558",
+      "https://openalex.org/W2958041343",
+      "https://openalex.org/W2977818864",
+      "https://openalex.org/W2990533730",
+      "https://openalex.org/W3138844263"
+    ],
+    "related_works": [
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2380573388",
+      "https://openalex.org/W2369636957",
+      "https://openalex.org/W2029465934",
+      "https://openalex.org/W4231087120",
+      "https://openalex.org/W2544687545",
+      "https://openalex.org/W2375357969",
+      "https://openalex.org/W2151535469",
+      "https://openalex.org/W4211075255"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "recent": [
+        1
+      ],
+      "decades,": [
+        2
+      ],
+      "a": [
+        3,
+        56,
+        66,
+        83,
+        94,
+        104,
+        170,
+        191
+      ],
+      "number": [
+        4
+      ],
+      "of": [
+        5,
+        26,
+        75,
+        108,
+        140
+      ],
+      "studies": [
+        6
+      ],
+      "have": [
+        7
+      ],
+      "examined": [
+        8
+      ],
+      "whether": [
+        9,
+        51,
+        62,
+        99
+      ],
+      "various": [
+        10
+      ],
+      "non-human": [
+        11
+      ],
+      "animals": [
+        12,
+        34
+      ],
+      "understand": [
+        13,
+        55,
+        165
+      ],
+      "their": [
+        14,
+        88,
+        130,
+        134,
+        166
+      ],
+      "partner's": [
+        15,
+        58,
+        167
+      ],
+      "role": [
+        16,
+        59,
+        168
+      ],
+      "in": [
+        17,
+        149,
+        169,
+        180
+      ],
+      "cooperative": [
+        18,
+        57,
+        76,
+        171,
+        203
+      ],
+      "situations.": [
+        19
+      ],
+      "Yet": [
+        20
+      ],
+      "the": [
+        21,
+        138,
+        141,
+        144,
+        150,
+        176
+      ],
+      "relatively": [
+        22
+      ],
+      "tolerant": [
+        23
+      ],
+      "timing": [
+        24
+      ],
+      "requirements": [
+        25
+      ],
+      "these": [
+        27
+      ],
+      "tasks": [
+        28
+      ],
+      "make": [
+        29
+      ],
+      "it": [
+        30
+      ],
+      "theoretically": [
+        31
+      ],
+      "possible": [
+        32
+      ],
+      "for": [
+        33,
+        129
+      ],
+      "to": [
+        35,
+        80,
+        117,
+        127,
+        164,
+        200
+      ],
+      "succeed": [
+        36
+      ],
+      "by": [
+        37,
+        44,
+        60
+      ],
+      "using": [
+        38
+      ],
+      "simple": [
+        39
+      ],
+      "behavioural": [
+        40,
+        71,
+        177
+      ],
+      "strategies": [
+        41
+      ],
+      "rather": [
+        42
+      ],
+      "than": [
+        43
+      ],
+      "jointly": [
+        45
+      ],
+      "intended": [
+        46
+      ],
+      "coordination.": [
+        47
+      ],
+      "Here": [
+        48
+      ],
+      "we": [
+        49
+      ],
+      "investigated": [
+        50
+      ],
+      "bottlenose": [
+        52,
+        160
+      ],
+      "dolphins": [
+        53,
+        114,
+        161
+      ],
+      "could": [
+        54,
+        64
+      ],
+      "testing": [
+        61
+      ],
+      "they": [
+        63,
+        125
+      ],
+      "learn": [
+        65,
+        163
+      ],
+      "button-pressing": [
+        67
+      ],
+      "task": [
+        68
+      ],
+      "requiring": [
+        69
+      ],
+      "precise": [
+        70
+      ],
+      "synchronization.": [
+        72
+      ],
+      "Specifically,": [
+        73
+      ],
+      "members": [
+        74
+      ],
+      "dyads": [
+        77
+      ],
+      "were": [
+        78,
+        115
+      ],
+      "required": [
+        79
+      ],
+      "swim": [
+        81
+      ],
+      "across": [
+        82
+      ],
+      "lagoon": [
+        84
+      ],
+      "and": [
+        85,
+        132,
+        173,
+        185
+      ],
+      "each": [
+        86
+      ],
+      "press": [
+        87
+      ],
+      "own": [
+        89
+      ],
+      "underwater": [
+        90
+      ],
+      "button": [
+        91,
+        147
+      ],
+      "simultaneously": [
+        92
+      ],
+      "(within": [
+        93
+      ],
+      "1": [
+        95
+      ],
+      "s": [
+        96
+      ],
+      "time": [
+        97,
+        145
+      ],
+      "window),": [
+        98
+      ],
+      "sent": [
+        100
+      ],
+      "together": [
+        101,
+        119
+      ],
+      "or": [
+        102
+      ],
+      "with": [
+        103,
+        120,
+        143
+      ],
+      "delay": [
+        105
+      ],
+      "between": [
+        106,
+        146
+      ],
+      "partners": [
+        107
+      ],
+      "1-20": [
+        109
+      ],
+      "s.": [
+        110
+      ],
+      "We": [
+        111
+      ],
+      "found": [
+        112
+      ],
+      "that": [
+        113,
+        133,
+        159,
+        175,
+        195
+      ],
+      "able": [
+        116
+      ],
+      "work": [
+        118
+      ],
+      "extreme": [
+        121
+      ],
+      "precision": [
+        122
+      ],
+      "even": [
+        123
+      ],
+      "when": [
+        124
+      ],
+      "had": [
+        126
+      ],
+      "wait": [
+        128
+      ],
+      "partner,": [
+        131
+      ],
+      "coordination": [
+        135
+      ],
+      "improved": [
+        136
+      ],
+      "over": [
+        137
+      ],
+      "course": [
+        139
+      ],
+      "study,": [
+        142
+      ],
+      "presses": [
+        148
+      ],
+      "latter": [
+        151
+      ],
+      "trials": [
+        152
+      ],
+      "averaging": [
+        153
+      ],
+      "370": [
+        154
+      ],
+      "ms.": [
+        155
+      ],
+      "These": [
+        156
+      ],
+      "findings": [
+        157
+      ],
+      "show": [
+        158
+      ],
+      "can": [
+        162,
+        196
+      ],
+      "situation,": [
+        172
+      ],
+      "suggest": [
+        174
+      ],
+      "synchronization": [
+        178
+      ],
+      "evident": [
+        179
+      ],
+      "wild": [
+        181
+      ],
+      "dolphins'": [
+        182
+      ],
+      "synchronous": [
+        183
+      ],
+      "movement": [
+        184
+      ],
+      "coordinated": [
+        186
+      ],
+      "alliance": [
+        187
+      ],
+      "displays": [
+        188
+      ],
+      "may": [
+        189
+      ],
+      "be": [
+        190,
+        198
+      ],
+      "generalized": [
+        192
+      ],
+      "cognitive": [
+        193
+      ],
+      "ability": [
+        194
+      ],
+      "also": [
+        197
+      ],
+      "used": [
+        199
+      ],
+      "solve": [
+        201
+      ],
+      "novel": [
+        202
+      ],
+      "tasks.": [
+        204
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 8
+      }
+    ],
+    "updated_date": "2026-10-08T09:06:37.294493",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "10.1016/j.cub.2022.12.063": {
+    "id": "https://openalex.org/W4315784891",
+    "doi": "https://doi.org/10.1016/j.cub.2022.12.063",
+    "title": "Anthropogenic noise impairs cooperation in bottlenose dolphins",
+    "display_name": "Anthropogenic noise impairs cooperation in bottlenose dolphins",
+    "publication_year": 2023,
+    "publication_date": "2023-01-12",
+    "ids": {
+      "openalex": "https://openalex.org/W4315784891",
+      "doi": "https://doi.org/10.1016/j.cub.2022.12.063",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/36638798"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.cub.2022.12.063",
+      "doi": "https://doi.org/10.1016/j.cub.2022.12.063",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.cub.2022.12.063",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S128425624",
+        "display_name": "Current Biology",
+        "issn_l": "0960-9822",
+        "issn": [
+          "0960-9822",
+          "1879-0445"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "jufo-3",
+          "ki-jl-3",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Current Biology",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://doi.org/10.1016/j.cub.2022.12.063",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5136364030",
+          "display_name": "Pernille M. S\u00f8rensen",
+          "orcid": "https://orcid.org/0000-0001-6895-5469",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6895-5469"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Pernille M. S\u00f8rensen",
+        "raw_affiliation_strings": [
+          "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK. Electronic address: pernille.sorensen@bristol.ac.uk",
+          "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6895-5469",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK. Electronic address: pernille.sorensen@bristol.ac.uk",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076150328",
+          "display_name": "Abigail Haddock",
+          "orcid": "https://orcid.org/0000-0002-3843-8652",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3843-8652"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Abigail Haddock",
+        "raw_affiliation_strings": [
+          "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5008865646",
+          "display_name": "Emily Guarino",
+          "orcid": "https://orcid.org/0000-0002-6408-4085",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6408-4085"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Emily Guarino",
+        "raw_affiliation_strings": [
+          "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030509428",
+          "display_name": "Kelly Jaakkola",
+          "orcid": "https://orcid.org/0000-0002-4113-748X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4113-748X"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Kelly Jaakkola",
+        "raw_affiliation_strings": [
+          "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5066511433",
+          "display_name": "Christina McMullen",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Christina McMullen",
+        "raw_affiliation_strings": [
+          "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dolphin Research Center, 58901 Overseas Highway, Grassy Key, FL 33050, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5079775001",
+          "display_name": "Frants Havmand Jensen",
+          "orcid": "https://orcid.org/0000-0001-8776-3606",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8776-3606"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204337017",
+            "display_name": "Aarhus University",
+            "ror": "https://ror.org/01aj84f44",
+            "country_code": "DK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204337017"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I66958751",
+            "display_name": "Woods Hole Oceanographic Institution",
+            "ror": "https://ror.org/03zbnzt98",
+            "country_code": "US",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I66958751"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I70983195",
+            "display_name": "Syracuse University",
+            "ror": "https://ror.org/025r5qe02",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I70983195"
+            ]
+          }
+        ],
+        "countries": [
+          "DK",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Frants H. Jensen",
+        "raw_affiliation_strings": [
+          "Department of Biology, Syracuse University, Syracuse, NY 13244, USA; Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA; Department of Ecoscience, Aarhus University, Frederiksborgvej 399, 4000 Roskilde, Denmark",
+          "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA",
+          "Department of Biology, Syracuse University, Syracuse, NY 13244, USA",
+          "Department of Ecoscience, Aarhus University, Frederiksborgvej 399, 4000 Roskilde, Denmark"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biology, Syracuse University, Syracuse, NY 13244, USA; Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA; Department of Ecoscience, Aarhus University, Frederiksborgvej 399, 4000 Roskilde, Denmark",
+            "institution_ids": [
+              "https://openalex.org/I204337017",
+              "https://openalex.org/I66958751",
+              "https://openalex.org/I70983195"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA",
+            "institution_ids": [
+              "https://openalex.org/I66958751"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biology, Syracuse University, Syracuse, NY 13244, USA",
+            "institution_ids": [
+              "https://openalex.org/I70983195"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Ecoscience, Aarhus University, Frederiksborgvej 399, 4000 Roskilde, Denmark",
+            "institution_ids": [
+              "https://openalex.org/I204337017"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5051220527",
+          "display_name": "Peter Lloyd Tyack",
+          "orcid": "https://orcid.org/0000-0002-8409-4790",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8409-4790"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16835326",
+            "display_name": "University of St Andrews",
+            "ror": "https://ror.org/02wn5qz54",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16835326"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I66958751",
+            "display_name": "Woods Hole Oceanographic Institution",
+            "ror": "https://ror.org/03zbnzt98",
+            "country_code": "US",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I66958751"
+            ]
+          }
+        ],
+        "countries": [
+          "GB",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Peter L. Tyack",
+        "raw_affiliation_strings": [
+          "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA; Scottish Oceans Institute, East Sands, University of St Andrews, KY16 8LB Fife, UK",
+          "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA",
+          "Scottish Oceans Institute, East Sands, University of St Andrews, KY16 8LB Fife, UK"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA; Scottish Oceans Institute, East Sands, University of St Andrews, KY16 8LB Fife, UK",
+            "institution_ids": [
+              "https://openalex.org/I16835326",
+              "https://openalex.org/I66958751"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Biology Department, Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA",
+            "institution_ids": [
+              "https://openalex.org/I66958751"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Scottish Oceans Institute, East Sands, University of St Andrews, KY16 8LB Fife, UK",
+            "institution_ids": [
+              "https://openalex.org/I16835326"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5006733326",
+          "display_name": "Stephanie L. King",
+          "orcid": "https://orcid.org/0000-0003-2293-9185",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2293-9185"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Stephanie L. King",
+        "raw_affiliation_strings": [
+          "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK. Electronic address: stephanie.king@bristol.ac.uk",
+          "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2293-9185",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK. Electronic address: stephanie.king@bristol.ac.uk",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Biological Sciences, University of Bristol, Bristol BS8 1TQ, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5006733326",
+      "https://openalex.org/A5136364030"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I36234482"
+    ],
+    "apc_list": {
+      "value": 6830,
+      "currency": "USD",
+      "value_usd": 6830
+    },
+    "apc_paid": null,
+    "fwci": 4.4245,
+    "has_fulltext": false,
+    "cited_by_count": 28,
+    "citation_normalized_percentile": {
+      "value": 0.95108987,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "33",
+      "issue": "4",
+      "first_page": "749",
+      "last_page": "754.e4"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10659",
+      "display_name": "Marine animal studies overview",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10659",
+        "display_name": "Marine animal studies overview",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2303",
+          "display_name": "Ecology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11665",
+        "display_name": "Animal Vocal Communication and Behavior",
+        "score": 9.999999747378752e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1309",
+          "display_name": "Developmental Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10838",
+        "display_name": "Animal Behavior and Welfare Studies",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3404",
+          "display_name": "Small Animals"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/34",
+          "display_name": "Veterinary"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/anthropogenic-noise",
+        "display_name": "anthropogenic noise",
+        "score": 0.9940000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/bottlenose-dolphin",
+        "display_name": "Tursiops truncatus",
+        "score": 0.8980000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/cooperation",
+        "display_name": "cooperation",
+        "score": 0.6060000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/behavioral-coordination",
+        "display_name": "behavioral coordination",
+        "score": 0.6970000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/acoustic-communication",
+        "display_name": "acoustic communication",
+        "score": 0.6779999732971191
+      },
+      {
+        "id": "https://openalex.org/keywords/whistles",
+        "display_name": "whistles",
+        "score": 0.7110000252723694
+      },
+      {
+        "id": "https://openalex.org/keywords/social-animals",
+        "display_name": "social animals",
+        "score": 0.4359999895095825
+      },
+      {
+        "id": "https://openalex.org/keywords/anthropogenic-disturbance",
+        "display_name": "human disturbance",
+        "score": 0.5870000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/cetaceans",
+        "display_name": "cetaceans",
+        "score": 0.5839999914169312
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C99498987",
+        "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+        "display_name": "Noise (video)",
+        "level": 3,
+        "score": 0.7452725768089294
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.5500770807266235
+      },
+      {
+        "id": "https://openalex.org/C205312793",
+        "wikidata": "https://www.wikidata.org/wiki/Q16002801",
+        "display_name": "Ambient noise level",
+        "level": 3,
+        "score": 0.4924341142177582
+      },
+      {
+        "id": "https://openalex.org/C29376679",
+        "wikidata": "https://www.wikidata.org/wiki/Q241741",
+        "display_name": "Wildlife",
+        "level": 2,
+        "score": 0.4791004955768585
+      },
+      {
+        "id": "https://openalex.org/C2780451532",
+        "wikidata": "https://www.wikidata.org/wiki/Q759676",
+        "display_name": "Task (project management)",
+        "level": 2,
+        "score": 0.45839154720306396
+      },
+      {
+        "id": "https://openalex.org/C2777601987",
+        "wikidata": "https://www.wikidata.org/wiki/Q5283581",
+        "display_name": "Disturbance (geology)",
+        "level": 2,
+        "score": 0.44572392106056213
+      },
+      {
+        "id": "https://openalex.org/C13474642",
+        "wikidata": "https://www.wikidata.org/wiki/Q43806",
+        "display_name": "Invertebrate",
+        "level": 2,
+        "score": 0.44562235474586487
+      },
+      {
+        "id": "https://openalex.org/C18903297",
+        "wikidata": "https://www.wikidata.org/wiki/Q7150",
+        "display_name": "Ecology",
+        "level": 1,
+        "score": 0.3899981677532196
+      },
+      {
+        "id": "https://openalex.org/C24890656",
+        "wikidata": "https://www.wikidata.org/wiki/Q82811",
+        "display_name": "Acoustics",
+        "level": 1,
+        "score": 0.250433087348938
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.2234225869178772
+      },
+      {
+        "id": "https://openalex.org/C203718221",
+        "wikidata": "https://www.wikidata.org/wiki/Q491713",
+        "display_name": "Sound (geography)",
+        "level": 2,
+        "score": 0.20467409491539001
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C115961682",
+        "wikidata": "https://www.wikidata.org/wiki/Q860623",
+        "display_name": "Image (mathematics)",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C187736073",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+        "display_name": "Management",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C151730666",
+        "wikidata": "https://www.wikidata.org/wiki/Q7205",
+        "display_name": "Paleontology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000162",
+        "descriptor_name": "Acoustics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000162",
+        "descriptor_name": "Acoustics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000162",
+        "descriptor_name": "Acoustics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000162",
+        "descriptor_name": "Acoustics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000835",
+        "descriptor_name": "Animals, Wild",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000835",
+        "descriptor_name": "Animals, Wild",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000835",
+        "descriptor_name": "Animals, Wild",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000835",
+        "descriptor_name": "Animals, Wild",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009622",
+        "descriptor_name": "Noise",
+        "qualifier_ui": "Q000009",
+        "qualifier_name": "adverse effects",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009622",
+        "descriptor_name": "Noise",
+        "qualifier_ui": "Q000009",
+        "qualifier_name": "adverse effects",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009622",
+        "descriptor_name": "Noise",
+        "qualifier_ui": "Q000009",
+        "qualifier_name": "adverse effects",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009622",
+        "descriptor_name": "Noise",
+        "qualifier_ui": "Q000009",
+        "qualifier_name": "adverse effects",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013018",
+        "descriptor_name": "Sound Spectrography",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013018",
+        "descriptor_name": "Sound Spectrography",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013018",
+        "descriptor_name": "Sound Spectrography",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013018",
+        "descriptor_name": "Sound Spectrography",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D014828",
+        "descriptor_name": "Vocalization, Animal",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D014828",
+        "descriptor_name": "Vocalization, Animal",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D014828",
+        "descriptor_name": "Vocalization, Animal",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D014828",
+        "descriptor_name": "Vocalization, Animal",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D050681",
+        "descriptor_name": "Bottle-Nosed Dolphin",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D050681",
+        "descriptor_name": "Bottle-Nosed Dolphin",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D050681",
+        "descriptor_name": "Bottle-Nosed Dolphin",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D050681",
+        "descriptor_name": "Bottle-Nosed Dolphin",
+        "qualifier_ui": "Q000502",
+        "qualifier_name": "physiology",
+        "is_major_topic": true
+      }
+    ],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.cub.2022.12.063",
+        "doi": "https://doi.org/10.1016/j.cub.2022.12.063",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.cub.2022.12.063",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S128425624",
+          "display_name": "Current Biology",
+          "issn_l": "0960-9822",
+          "issn": [
+            "0960-9822",
+            "1879-0445"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doyens",
+            "jufo-3",
+            "ki-jl-3",
+            "medline",
+            "norway-2"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Current Biology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:36638798",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/36638798",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Current biology : CB",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:research-information.bris.ac.uk:openaire/f7d18273-fb07-4d5e-a18e-c544272a24f3",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://research-information.bris.ac.uk/en/publications/f7d18273-fb07-4d5e-a18e-c544272a24f3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400895",
+          "display_name": "Bristol Research (University of Bristol)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I36234482",
+          "host_organization_name": "University of Bristol",
+          "host_organization_lineage": [
+            "https://openalex.org/I36234482"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Sorensen, P, Haddock, A, Guarino, E, Jaakkola, K, McMullen, C, Jensen, F, Tyack, P & King, S L 2023, 'Anthropogenic noise impairs cooperation in bottlenose dolphins', Current Biology, vol. 33, no. 4, pp. 749-754.e4. https://doi.org/10.1016/j.cub.2022.12.063",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:research-information.bris.ac.uk:openaire_cris_publications/f7d18273-fb07-4d5e-a18e-c544272a24f3",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/1983/f7d18273-fb07-4d5e-a18e-c544272a24f3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407055359",
+          "display_name": "Explore Bristol Research",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Sorensen, P, Haddock, A, Guarino, E, Jaakkola, K, McMullen, C, Jensen, F, Tyack, P & King, S L 2023, 'Anthropogenic noise impairs cooperation in bottlenose dolphins', Current Biology, vol. 33, no. 4, pp. 749-754.e4. https://doi.org/10.1016/j.cub.2022.12.063",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:pure.atira.dk:publications/a8db0c3b-03e1-4a56-97c9-8318cce8ef39",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pure.au.dk/portal/en/publications/a8db0c3b-03e1-4a56-97c9-8318cce8ef39",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "S\u00f8rensen, P M, Haddock, A, Guarino, E, Jaakkola, K, McMullen, C, Jensen, F H, Tyack, P L & King, S L 2023, 'Anthropogenic noise impairs cooperation in bottlenose dolphins', Current Biology, vol. 33, no. 4, pp. 749-754.e4. https://doi.org/10.1016/j.cub.2022.12.063",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.cub.2022.12.063",
+      "doi": "https://doi.org/10.1016/j.cub.2022.12.063",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.cub.2022.12.063",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S128425624",
+        "display_name": "Current Biology",
+        "issn_l": "0960-9822",
+        "issn": [
+          "0960-9822",
+          "1879-0445"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "jufo-3",
+          "ki-jl-3",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Current Biology",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 71,
+    "referenced_works": [
+      "https://openalex.org/W260994251",
+      "https://openalex.org/W277787684",
+      "https://openalex.org/W1502730891",
+      "https://openalex.org/W1547366511",
+      "https://openalex.org/W1570829024",
+      "https://openalex.org/W1799469514",
+      "https://openalex.org/W1810028515",
+      "https://openalex.org/W1968217553",
+      "https://openalex.org/W1968565140",
+      "https://openalex.org/W1977971544",
+      "https://openalex.org/W1982556842",
+      "https://openalex.org/W1985152048",
+      "https://openalex.org/W2008765605",
+      "https://openalex.org/W2009540777",
+      "https://openalex.org/W2010408256",
+      "https://openalex.org/W2013433199",
+      "https://openalex.org/W2020950798",
+      "https://openalex.org/W2033339123",
+      "https://openalex.org/W2037073100",
+      "https://openalex.org/W2045875322",
+      "https://openalex.org/W2052595951",
+      "https://openalex.org/W2054943114",
+      "https://openalex.org/W2058542017",
+      "https://openalex.org/W2069209734",
+      "https://openalex.org/W2079170335",
+      "https://openalex.org/W2080605353",
+      "https://openalex.org/W2094884845",
+      "https://openalex.org/W2103593412",
+      "https://openalex.org/W2105879912",
+      "https://openalex.org/W2108011617",
+      "https://openalex.org/W2110226338",
+      "https://openalex.org/W2112256376",
+      "https://openalex.org/W2122446442",
+      "https://openalex.org/W2129604618",
+      "https://openalex.org/W2130298648",
+      "https://openalex.org/W2131558426",
+      "https://openalex.org/W2140491448",
+      "https://openalex.org/W2143190783",
+      "https://openalex.org/W2149410051",
+      "https://openalex.org/W2150726917",
+      "https://openalex.org/W2158905603",
+      "https://openalex.org/W2159004050",
+      "https://openalex.org/W2199030357",
+      "https://openalex.org/W2346578806",
+      "https://openalex.org/W2465328155",
+      "https://openalex.org/W2515851454",
+      "https://openalex.org/W2581191400",
+      "https://openalex.org/W2679876234",
+      "https://openalex.org/W2889839644",
+      "https://openalex.org/W2891816350",
+      "https://openalex.org/W2896549654",
+      "https://openalex.org/W2908109177",
+      "https://openalex.org/W2925033620",
+      "https://openalex.org/W2958041343",
+      "https://openalex.org/W2988461579",
+      "https://openalex.org/W3012998117",
+      "https://openalex.org/W3017870534",
+      "https://openalex.org/W3128638349",
+      "https://openalex.org/W3139097291",
+      "https://openalex.org/W3146287450",
+      "https://openalex.org/W3180906660",
+      "https://openalex.org/W4232909907",
+      "https://openalex.org/W4283212927",
+      "https://openalex.org/W4378909207",
+      "https://openalex.org/W6610210068",
+      "https://openalex.org/W6664151020",
+      "https://openalex.org/W6675737850",
+      "https://openalex.org/W6723601936",
+      "https://openalex.org/W6754630141",
+      "https://openalex.org/W6774967914",
+      "https://openalex.org/W7010143294"
+    ],
+    "related_works": [
+      "https://openalex.org/W2038604956",
+      "https://openalex.org/W2296560746",
+      "https://openalex.org/W2338222801",
+      "https://openalex.org/W2347583731",
+      "https://openalex.org/W2106602008",
+      "https://openalex.org/W2041283246",
+      "https://openalex.org/W1994247068",
+      "https://openalex.org/W3089497152",
+      "https://openalex.org/W2909324942",
+      "https://openalex.org/W216737315"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2026-10-08T09:06:37.294493",
+    "created_date": "2023-01-13T00:00:00"
+  },
+  "10.1016/j.applanim.2018.01.008": {
+    "id": "https://openalex.org/W2789362293",
+    "doi": "https://doi.org/10.1016/j.applanim.2018.01.008",
+    "title": "Animal emotion: Descriptive and prescriptive definitions and their implications for a comparative perspective",
+    "display_name": "Animal emotion: Descriptive and prescriptive definitions and their implications for a comparative perspective",
+    "publication_year": 2018,
+    "publication_date": "2018-02-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2789362293",
+      "doi": "https://doi.org/10.1016/j.applanim.2018.01.008",
+      "mag": "2789362293",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/30078924"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.applanim.2018.01.008",
+      "doi": "https://doi.org/10.1016/j.applanim.2018.01.008",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.applanim.2018.01.008",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0168159118300285/pdf",
+      "source": {
+        "id": "https://openalex.org/S179500637",
+        "display_name": "Applied Animal Behaviour Science",
+        "issn_l": "0168-1591",
+        "issn": [
+          "0168-1591",
+          "1872-9045"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Applied Animal Behaviour Science",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0168159118300285/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5022725803",
+          "display_name": "Elizabeth S. Paul",
+          "orcid": "https://orcid.org/0000-0001-5884-5709",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5884-5709"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Elizabeth S. Paul",
+        "raw_affiliation_strings": [
+          "School of Veterinary Sciences, University of Bristol, Langford House, Langford, Bristol, BS40 5DU, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-5884-5709",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Veterinary Sciences, University of Bristol, Langford House, Langford, Bristol, BS40 5DU, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5082760891",
+          "display_name": "Michael Mendl",
+          "orcid": "https://orcid.org/0000-0002-5302-1871",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5302-1871"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Michael T. Mendl",
+        "raw_affiliation_strings": [
+          "School of Veterinary Sciences, University of Bristol, Langford House, Langford, Bristol, BS40 5DU, UK"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Veterinary Sciences, University of Bristol, Langford House, Langford, Bristol, BS40 5DU, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5022725803"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I36234482"
+    ],
+    "apc_list": {
+      "value": 3220,
+      "currency": "USD",
+      "value_usd": 3220
+    },
+    "apc_paid": {
+      "value": 3220,
+      "currency": "USD",
+      "value_usd": 3220
+    },
+    "fwci": 17.0002,
+    "has_fulltext": true,
+    "cited_by_count": 143,
+    "citation_normalized_percentile": {
+      "value": 0.99598509,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "205",
+      "issue": null,
+      "first_page": "202",
+      "last_page": "209"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10838",
+      "display_name": "Animal Behavior and Welfare Studies",
+      "score": 0.4821999967098236,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3404",
+        "display_name": "Small Animals"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/34",
+        "display_name": "Veterinary"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10838",
+        "display_name": "Animal Behavior and Welfare Studies",
+        "score": 0.4821999967098236,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3404",
+          "display_name": "Small Animals"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/34",
+          "display_name": "Veterinary"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10699",
+        "display_name": "Primate Behavior and Ecology",
+        "score": 0.1800999939441681,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12313",
+        "display_name": "Emotions and Moral Behavior",
+        "score": 0.05009999871253967,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/animal-emotions",
+        "display_name": "animal emotions",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/definition-of-emotion",
+        "display_name": "definition of emotion",
+        "score": 0.5690000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/descriptive-definitions",
+        "display_name": "descriptive definitions",
+        "score": 0.9549999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/animal-cognition",
+        "display_name": "animal cognition",
+        "score": 0.45500001311302185
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C12713177",
+        "wikidata": "https://www.wikidata.org/wiki/Q1900281",
+        "display_name": "Perspective (graphical)",
+        "level": 2,
+        "score": 0.7140389680862427
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.5806237459182739
+      },
+      {
+        "id": "https://openalex.org/C2777226563",
+        "wikidata": "https://www.wikidata.org/wiki/Q606591",
+        "display_name": "Animal-assisted therapy",
+        "level": 4,
+        "score": 0.5735531449317932
+      },
+      {
+        "id": "https://openalex.org/C3018573395",
+        "wikidata": "https://www.wikidata.org/wiki/Q606591",
+        "display_name": "Pet therapy",
+        "level": 3,
+        "score": 0.564643383026123
+      },
+      {
+        "id": "https://openalex.org/C523966790",
+        "wikidata": "https://www.wikidata.org/wiki/Q459426",
+        "display_name": "Animal welfare",
+        "level": 2,
+        "score": 0.5235230922698975
+      },
+      {
+        "id": "https://openalex.org/C142546437",
+        "wikidata": "https://www.wikidata.org/wiki/Q2661195",
+        "display_name": "Descriptive research",
+        "level": 2,
+        "score": 0.5161024928092957
+      },
+      {
+        "id": "https://openalex.org/C2780797565",
+        "wikidata": "https://www.wikidata.org/wiki/Q16252375",
+        "display_name": "HUBzero",
+        "level": 4,
+        "score": 0.46810030937194824
+      },
+      {
+        "id": "https://openalex.org/C194896165",
+        "wikidata": "https://www.wikidata.org/wiki/Q1483503",
+        "display_name": "Comparative psychology",
+        "level": 3,
+        "score": 0.4505957067012787
+      },
+      {
+        "id": "https://openalex.org/C39896193",
+        "wikidata": "https://www.wikidata.org/wiki/Q380344",
+        "display_name": "Descriptive statistics",
+        "level": 2,
+        "score": 0.44863057136535645
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.3670597970485687
+      },
+      {
+        "id": "https://openalex.org/C180747234",
+        "wikidata": "https://www.wikidata.org/wiki/Q23373",
+        "display_name": "Cognitive psychology",
+        "level": 1,
+        "score": 0.3215303421020508
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.2637188136577606
+      },
+      {
+        "id": "https://openalex.org/C36289849",
+        "wikidata": "https://www.wikidata.org/wiki/Q34749",
+        "display_name": "Social science",
+        "level": 1,
+        "score": 0.23115259408950806
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.16947123408317566
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.15303140878677368
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.14583641290664673
+      },
+      {
+        "id": "https://openalex.org/C18903297",
+        "wikidata": "https://www.wikidata.org/wiki/Q7150",
+        "display_name": "Ecology",
+        "level": 1,
+        "score": 0.14387798309326172
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.12473982572555542
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.07927769422531128
+      },
+      {
+        "id": "https://openalex.org/C169900460",
+        "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+        "display_name": "Cognition",
+        "level": 2,
+        "score": 0.07307687401771545
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.applanim.2018.01.008",
+        "doi": "https://doi.org/10.1016/j.applanim.2018.01.008",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.applanim.2018.01.008",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0168159118300285/pdf",
+        "source": {
+          "id": "https://openalex.org/S179500637",
+          "display_name": "Applied Animal Behaviour Science",
+          "issn_l": "0168-1591",
+          "issn": [
+            "0168-1591",
+            "1872-9045"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Animal Behaviour Science",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:30078924",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/30078924",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied animal behaviour science",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:europepmc.org:5021002",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://europepmc.org/pmc/articles/PMC6041721",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400806",
+          "display_name": "Europe PMC (PubMed Central)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1303153112",
+          "host_organization_name": "European Bioinformatics Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/I1303153112"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:6041721",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6041721",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Appl Anim Behav Sci",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:research-information.bris.ac.uk:openaire/de151bd0-cd7b-48f6-a7ce-2fd297934e11",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/1983/de151bd0-cd7b-48f6-a7ce-2fd297934e11",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400895",
+          "display_name": "Bristol Research (University of Bristol)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I36234482",
+          "host_organization_name": "University of Bristol",
+          "host_organization_lineage": [
+            "https://openalex.org/I36234482"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Paul, E S & Mendl, M T 2018, 'Animal emotion : Descriptive and prescriptive definitions and their implications for a comparative perspective', Applied Animal Behaviour Science, vol. 205, pp. 202-209. https://doi.org/10.1016/j.applanim.2018.01.008",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.applanim.2018.01.008",
+      "doi": "https://doi.org/10.1016/j.applanim.2018.01.008",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.applanim.2018.01.008",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0168159118300285/pdf",
+      "source": {
+        "id": "https://openalex.org/S179500637",
+        "display_name": "Applied Animal Behaviour Science",
+        "issn_l": "0168-1591",
+        "issn": [
+          "0168-1591",
+          "1872-9045"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Applied Animal Behaviour Science",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1575189909",
+        "display_name": "Validation and Differentiation of Welfare Indicators in Laying Hens",
+        "funder_award_id": "BB/K00042X/1",
+        "funder_id": "https://openalex.org/F4320334629",
+        "funder_display_name": "Biotechnology and Biological Sciences Research Council"
+      },
+      {
+        "id": "https://openalex.org/G2889004083",
+        "display_name": null,
+        "funder_award_id": "BB/K00042X/1",
+        "funder_id": "https://openalex.org/F4320334629",
+        "funder_display_name": "Biotechnology and Biological Sciences Research Council"
+      },
+      {
+        "id": "https://openalex.org/G8215248503",
+        "display_name": null,
+        "funder_award_id": "NC/K00008X/1",
+        "funder_id": "https://openalex.org/F4320320333",
+        "funder_display_name": "National Centre for the Replacement, Refinement and Reduction of Animals in Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320333",
+        "display_name": "National Centre for the Replacement, Refinement and Reduction of Animals in Research",
+        "ror": "https://ror.org/02w0kg036"
+      },
+      {
+        "id": "https://openalex.org/F4320326623",
+        "display_name": "National Centre for the Replacement Refinement and Reduction of Animals in Research",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320332167",
+        "display_name": "Directorate for Biological Sciences",
+        "ror": "https://ror.org/001xhss06"
+      },
+      {
+        "id": "https://openalex.org/F4320334629",
+        "display_name": "Biotechnology and Biological Sciences Research Council",
+        "ror": "https://ror.org/00cwqg982"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2789362293.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2789362293.grobid-xml"
+    },
+    "referenced_works_count": 116,
+    "referenced_works": [
+      "https://openalex.org/W312778189",
+      "https://openalex.org/W409963536",
+      "https://openalex.org/W605325049",
+      "https://openalex.org/W616957919",
+      "https://openalex.org/W1506947145",
+      "https://openalex.org/W1535248457",
+      "https://openalex.org/W1540427124",
+      "https://openalex.org/W1575023497",
+      "https://openalex.org/W1578522808",
+      "https://openalex.org/W1618547806",
+      "https://openalex.org/W1815181836",
+      "https://openalex.org/W1837964888",
+      "https://openalex.org/W1883595750",
+      "https://openalex.org/W1907240111",
+      "https://openalex.org/W1967332436",
+      "https://openalex.org/W1969153009",
+      "https://openalex.org/W1969351614",
+      "https://openalex.org/W1972695504",
+      "https://openalex.org/W1975401347",
+      "https://openalex.org/W1983856735",
+      "https://openalex.org/W1987083432",
+      "https://openalex.org/W1988699227",
+      "https://openalex.org/W1991156147",
+      "https://openalex.org/W1993556084",
+      "https://openalex.org/W1993634951",
+      "https://openalex.org/W1998501022",
+      "https://openalex.org/W2008350672",
+      "https://openalex.org/W2008544186",
+      "https://openalex.org/W2010247009",
+      "https://openalex.org/W2014348436",
+      "https://openalex.org/W2017891888",
+      "https://openalex.org/W2019602813",
+      "https://openalex.org/W2020093415",
+      "https://openalex.org/W2022045734",
+      "https://openalex.org/W2023732657",
+      "https://openalex.org/W2025857254",
+      "https://openalex.org/W2032119183",
+      "https://openalex.org/W2040341115",
+      "https://openalex.org/W2043028940",
+      "https://openalex.org/W2043615441",
+      "https://openalex.org/W2044391780",
+      "https://openalex.org/W2044920392",
+      "https://openalex.org/W2045234652",
+      "https://openalex.org/W2048341424",
+      "https://openalex.org/W2048670925",
+      "https://openalex.org/W2049801983",
+      "https://openalex.org/W2050942025",
+      "https://openalex.org/W2052849919",
+      "https://openalex.org/W2054560711",
+      "https://openalex.org/W2055894321",
+      "https://openalex.org/W2058318822",
+      "https://openalex.org/W2060336927",
+      "https://openalex.org/W2062050129",
+      "https://openalex.org/W2063137017",
+      "https://openalex.org/W2067238826",
+      "https://openalex.org/W2067510622",
+      "https://openalex.org/W2069977347",
+      "https://openalex.org/W2070231920",
+      "https://openalex.org/W2072528407",
+      "https://openalex.org/W2076373858",
+      "https://openalex.org/W2076834018",
+      "https://openalex.org/W2086110755",
+      "https://openalex.org/W2087135537",
+      "https://openalex.org/W2087615164",
+      "https://openalex.org/W2091284012",
+      "https://openalex.org/W2100880596",
+      "https://openalex.org/W2102790986",
+      "https://openalex.org/W2104138428",
+      "https://openalex.org/W2108845151",
+      "https://openalex.org/W2111544501",
+      "https://openalex.org/W2112019242",
+      "https://openalex.org/W2114814559",
+      "https://openalex.org/W2118128753",
+      "https://openalex.org/W2119743323",
+      "https://openalex.org/W2127099931",
+      "https://openalex.org/W2129134806",
+      "https://openalex.org/W2131938106",
+      "https://openalex.org/W2134031328",
+      "https://openalex.org/W2137162192",
+      "https://openalex.org/W2139252049",
+      "https://openalex.org/W2140265402",
+      "https://openalex.org/W2148634427",
+      "https://openalex.org/W2149988893",
+      "https://openalex.org/W2152193375",
+      "https://openalex.org/W2152497784",
+      "https://openalex.org/W2164264953",
+      "https://openalex.org/W2165690019",
+      "https://openalex.org/W2167246321",
+      "https://openalex.org/W2168183996",
+      "https://openalex.org/W2169323873",
+      "https://openalex.org/W2174281146",
+      "https://openalex.org/W2218323887",
+      "https://openalex.org/W2317722949",
+      "https://openalex.org/W2324426853",
+      "https://openalex.org/W2461222141",
+      "https://openalex.org/W2525464305",
+      "https://openalex.org/W2599349366",
+      "https://openalex.org/W2618552296",
+      "https://openalex.org/W2750043195",
+      "https://openalex.org/W2797149070",
+      "https://openalex.org/W3127231893",
+      "https://openalex.org/W3150749057",
+      "https://openalex.org/W3200230141",
+      "https://openalex.org/W4233869471",
+      "https://openalex.org/W4242191620",
+      "https://openalex.org/W4242914799",
+      "https://openalex.org/W4244649293",
+      "https://openalex.org/W4246978133",
+      "https://openalex.org/W4256241507",
+      "https://openalex.org/W6614238951",
+      "https://openalex.org/W6660512008",
+      "https://openalex.org/W6673505196",
+      "https://openalex.org/W6679299363",
+      "https://openalex.org/W6685629122",
+      "https://openalex.org/W6801276973",
+      "https://openalex.org/W6858581447"
+    ],
+    "related_works": [
+      "https://openalex.org/W4400844531",
+      "https://openalex.org/W2052210130",
+      "https://openalex.org/W3161630157",
+      "https://openalex.org/W1533134089",
+      "https://openalex.org/W4386767289",
+      "https://openalex.org/W2023218075",
+      "https://openalex.org/W4315566871",
+      "https://openalex.org/W2020917971",
+      "https://openalex.org/W2061671978",
+      "https://openalex.org/W4315698540"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "recent": [
+        1
+      ],
+      "years": [
+        2
+      ],
+      "there": [
+        3,
+        17
+      ],
+      "has": [
+        4
+      ],
+      "been": [
+        5
+      ],
+      "a": [
+        6,
+        43,
+        117,
+        128,
+        134,
+        137
+      ],
+      "growing": [
+        7
+      ],
+      "research": [
+        8
+      ],
+      "interest": [
+        9
+      ],
+      "in": [
+        10,
+        34,
+        55,
+        62,
+        95
+      ],
+      "the": [
+        11,
+        26,
+        35,
+        53,
+        57,
+        72,
+        92,
+        108,
+        123
+      ],
+      "field": [
+        12
+      ],
+      "of": [
+        13,
+        37,
+        74,
+        79,
+        127,
+        131,
+        141
+      ],
+      "animal": [
+        14,
+        109
+      ],
+      "emotion.": [
+        15,
+        142
+      ],
+      "But": [
+        16
+      ],
+      "is": [
+        18,
+        60
+      ],
+      "still": [
+        19
+      ],
+      "little": [
+        20
+      ],
+      "agreement": [
+        21
+      ],
+      "about": [
+        22
+      ],
+      "whether": [
+        23
+      ],
+      "and": [
+        24,
+        47
+      ],
+      "how": [
+        25
+      ],
+      "word": [
+        27,
+        58
+      ],
+      "\"emotion\"": [
+        28
+      ],
+      "should": [
+        29
+      ],
+      "be": [
+        30
+      ],
+      "defined": [
+        31,
+        99
+      ],
+      "for": [
+        32,
+        121,
+        136
+      ],
+      "use": [
+        33
+      ],
+      "context": [
+        36
+      ],
+      "non-human": [
+        38
+      ],
+      "species.": [
+        39
+      ],
+      "Here,": [
+        40
+      ],
+      "we": [
+        41,
+        89
+      ],
+      "make": [
+        42
+      ],
+      "distinction": [
+        44
+      ],
+      "between": [
+        45
+      ],
+      "descriptive": [
+        46
+      ],
+      "prescriptive": [
+        48,
+        87
+      ],
+      "definitions.": [
+        49
+      ],
+      "Descriptive": [
+        50
+      ],
+      "definitions": [
+        51,
+        66,
+        115
+      ],
+      "delineate": [
+        52
+      ],
+      "ways": [
+        54,
+        94
+      ],
+      "which": [
+        56,
+        96
+      ],
+      "emotion": [
+        59,
+        80
+      ],
+      "used": [
+        61,
+        68
+      ],
+      "everyday": [
+        63
+      ],
+      "life.": [
+        64
+      ],
+      "Prescriptive": [
+        65
+      ],
+      "are": [
+        67,
+        98,
+        104
+      ],
+      "to": [
+        69,
+        82,
+        101
+      ],
+      "pick": [
+        70
+      ],
+      "out": [
+        71,
+        85
+      ],
+      "set": [
+        73
+      ],
+      "events": [
+        75
+      ],
+      "that": [
+        76,
+        91,
+        103,
+        113
+      ],
+      "scientific": [
+        77
+      ],
+      "theories": [
+        78
+      ],
+      "purport": [
+        81
+      ],
+      "explain.": [
+        83
+      ],
+      "Picking": [
+        84
+      ],
+      "three": [
+        86
+      ],
+      "definitions,": [
+        88
+      ],
+      "show": [
+        90
+      ],
+      "different": [
+        93
+      ],
+      "emotions": [
+        97
+      ],
+      "correspond": [
+        100
+      ],
+      "processes": [
+        102
+      ],
+      "distributed": [
+        105
+      ],
+      "differentially": [
+        106
+      ],
+      "across": [
+        107
+      ],
+      "kingdom.": [
+        110
+      ],
+      "We": [
+        111
+      ],
+      "propose": [
+        112
+      ],
+      "these": [
+        114
+      ],
+      "provide": [
+        116
+      ],
+      "useful": [
+        118
+      ],
+      "starting": [
+        119
+      ],
+      "point": [
+        120
+      ],
+      "investigating": [
+        122
+      ],
+      "varying": [
+        124
+      ],
+      "emotional": [
+        125
+      ],
+      "capacities": [
+        126
+      ],
+      "wide": [
+        129
+      ],
+      "range": [
+        130
+      ],
+      "animals,": [
+        132
+      ],
+      "providing": [
+        133
+      ],
+      "basis": [
+        135
+      ],
+      "new,": [
+        138
+      ],
+      "comparative": [
+        139
+      ],
+      "science": [
+        140
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 8
+      }
+    ],
+    "updated_date": "2026-10-08T09:06:37.294493",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

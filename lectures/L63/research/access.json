@@ -1,0 +1,35 @@
+[
+  {
+    "key": "cooperation",
+    "url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2018.0948",
+    "status": 403,
+    "pdf": false,
+    "bytes": 6189
+  },
+  {
+    "key": "reward",
+    "url": "https://www.jneurosci.org/content/jneuro/13/3/900.full.pdf",
+    "status": 200,
+    "pdf": true,
+    "bytes": 1645470
+  },
+  {
+    "key": "noise",
+    "url": "https://www.cell.com/current-biology/pdf/S0960-9822(22)01952-2.pdf",
+    "error": "HTTPSConnectionPool(host='www.cell.com', port=443): Max retries exceeded with url: /current-biology/pdf/S0960-9822(22)01952-2.pdf (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  },
+  {
+    "key": "enrichment",
+    "url": "https://mdpi-res.com/d_attachment/animals/animals-13-00238/article_deploy/animals-13-00238.pdf",
+    "status": 200,
+    "pdf": true,
+    "bytes": 8297550
+  },
+  {
+    "key": "cooperation_pmc",
+    "url": "https://europepmc.org/articles/PMC6170804?pdf=render",
+    "status": 200,
+    "pdf": true,
+    "bytes": 671119
+  }
+]
