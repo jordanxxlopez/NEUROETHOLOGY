@@ -1,4 +1,4 @@
-# Lecture 59: original PDFs needed
+# Lecture 59: source access resolved
 
 Research started from default-branch commit afdc99f. Article metadata verified through Crossref and Europe PMC.
 
@@ -13,4 +13,4 @@ Sadino et al. (2023). Prolonged partner separation erodes nucleus accumbens tran
 Original PDF downloaded from https://cdn.elifesciences.org/articles/80517/elife-80517-v4.pdf and verified by its PDF signature; stored locally in papers/.
 
 ## Status
-Awaiting the three original PDFs above. No figures generated, no theme reserved, and no PPTX delivered.
+All three requested original PDFs were uploaded by the instructor and validated. The four primary papers now support the complete deck. Published figures were cropped with repository tools; no images were generated. The title uses the credited, unchanged Nastacia Goodwin CC BY-SA 4.0 prairie vole photograph stored with Lecture 50, whose Wikimedia page is credited in the deck. Current Wikimedia requests were denied; the repository-held scientific/style asset was reused without changing the authoritative guidelines.
