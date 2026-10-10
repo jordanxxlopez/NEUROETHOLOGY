@@ -1,0 +1,250 @@
+{
+  "query": "DOI:10.34133/cbsystems.0336",
+  "results": [
+    {
+      "id": "40762022",
+      "source": "MED",
+      "pmid": "40762022",
+      "pmcid": "PMC12320521",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12320521"
+        ]
+      },
+      "doi": "10.34133/cbsystems.0336",
+      "title": "Dynamic Network Plasticity and Sample Efficiency in Biological Neural Cultures: A Comparative Study with Deep Reinforcement Learning.",
+      "authorString": "Khajehnejad M, Habibollahi F, Loeffler A, Paul A, Razi A, Kagan BJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Khajehnejad M",
+            "lastName": "Khajehnejad",
+            "firstName": "Moein",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2185-4596"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cortical Labs, Melbourne, Australia."
+                },
+                {
+                  "affiliation": "Turner Institute for Brain and Mental Health, Monash University, Clayton, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Habibollahi F",
+            "lastName": "Habibollahi",
+            "firstName": "Forough",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6059-3723"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cortical Labs, Melbourne, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Loeffler A",
+            "lastName": "Loeffler",
+            "firstName": "Alon",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8866-3073"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cortical Labs, Melbourne, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Paul A",
+            "lastName": "Paul",
+            "firstName": "Aswin",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8559-4711"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "IITB-Monash Research Academy, Mumbai, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Razi A",
+            "lastName": "Razi",
+            "firstName": "Adeel",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0779-9439"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Turner Institute for Brain and Mental Health, Monash University, Clayton, Australia."
+                },
+                {
+                  "affiliation": "Wellcome Centre for Human Neuroimaging, University College London, London, UK."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kagan BJ",
+            "lastName": "Kagan",
+            "firstName": "Brett J",
+            "initials": "BJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7604-7444"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cortical Labs, Melbourne, Australia."
+                },
+                {
+                  "affiliation": "Department of Biochemistry and Pharmacology, University of Melbourne, Parkville, VIC 3010, Australia."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6059-3723"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7604-7444"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0779-9439"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2185-4596"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8559-4711"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8866-3073"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "6",
+        "journalIssueId": 3906428,
+        "dateOfPublication": "2025 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2025,
+        "journal": {
+          "medlineAbbreviation": "Cyborg Bionic Syst",
+          "title": "Cyborg and bionic systems (Washington, D.C.)",
+          "essn": "2692-7632",
+          "issn": "2097-1087",
+          "isoabbreviation": "Cyborg Bionic Syst",
+          "nlmid": "9918400086506676"
+        },
+        "printPublicationDate": "2025-01-01"
+      },
+      "pubYear": "2025",
+      "pageInfo": "0336",
+      "abstractText": "In this study, we investigate the complex network dynamics of in\u00a0vitro neural systems using DishBrain, which integrates live neural cultures with high-density multi-electrode arrays in real-time, closed-loop game environments. By embedding spiking activity into lower-dimensional spaces, we distinguish between spontaneous activity (Rest) and Gameplay conditions, revealing underlying patterns crucial for real-time monitoring and manipulation. Our analysis highlights dynamic changes in connectivity during Gameplay, underscoring the highly sample efficient plasticity of these networks in response to stimuli. To explore whether this was meaningful in a broader context, we compared the learning efficiency of these biological systems with state-of-the-art deep reinforcement learning (RL) algorithms (Deep Q Network, Advantage Actor-Critic, and Proximal Policy Optimization) in a simplified Pong simulation. Through this, we introduce a meaningful comparison between biological neural systems and deep RL. We find that when samples are limited to a real-world time course, even these very simple biological cultures outperformed deep RL algorithms across various game performance characteristics, implying a higher sample efficiency.",
+      "affiliation": "Cortical Labs, Melbourne, Australia.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.34133/cbsystems.0336"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12320521"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12320521?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 14,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-08-05",
+      "dateOfRevision": "2026-09-24",
+      "electronicPublicationDate": "2025-08-04",
+      "firstPublicationDate": "2025-08-04",
+      "firstIndexDate": "2025-08-05",
+      "fullTextReceivedDate": "2025-12-02",
+      "hasEvaluations": "N"
+    }
+  ]
+}

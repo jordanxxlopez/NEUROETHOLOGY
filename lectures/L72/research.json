@@ -1,0 +1,123 @@
+{
+  "default_commit": "4bbfe33174a13aafd88216aceea93edd65fcdb2c",
+  "available_pdfs": [
+    {
+      "key": "shahaf",
+      "doi": "10.1523/JNEUROSCI.21-22-08782.2001",
+      "pages": 7,
+      "sha256": "530c40d12e48c95019c374f70a16cb68f68fe4c54519deb21343ae4fb6bc5353",
+      "path": "papers/shahaf.pdf"
+    },
+    {
+      "key": "pong",
+      "doi": "10.1016/j.neuron.2022.09.001",
+      "pages": 27,
+      "sha256": "f574aecc71b0f0c3e13fcf82811e68a903b22e97d282d08f334541d670a93303",
+      "path": "papers/pong.pdf"
+    },
+    {
+      "key": "drug",
+      "doi": "10.1038/s42003-025-08194-6",
+      "pages": 15,
+      "sha256": "5c50f168a29e72b18b90c7d1067d917c251a2571cbeeb74e80d485de3e4548df",
+      "path": "papers/drug.pdf"
+    },
+    {
+      "key": "efficiency",
+      "doi": "10.34133/cbsystems.0336",
+      "pages": 19,
+      "sha256": "3461780d27ecabbf7bc4c4770f203c34ce5d5af6affedb077ece3946ddc46741",
+      "path": "papers/efficiency.pdf"
+    },
+    {
+      "key": "ethics",
+      "doi": "10.1007/s11948-023-00457-x",
+      "pages": 17,
+      "sha256": "f73d6ead41a679bed382ff0cebc5d336245d516c63fb00b3ff898a01d4447184",
+      "path": "papers/ethics.pdf"
+    },
+    {
+      "key": "framework",
+      "doi": "10.1038/s44335-026-00077-1",
+      "pages": 8,
+      "sha256": "74959df5ba713b780ca0ec6078208d4eefe7baa89dc5e8b594fc86d7da0b6297",
+      "path": "papers/framework.pdf"
+    }
+  ],
+  "access_attempts": [
+    {
+      "key": "pong",
+      "url": "https://europepmc.org/articles/PMC9747182?pdf=render",
+      "status": 200,
+      "bytes": 9459646,
+      "is_pdf": true
+    },
+    {
+      "key": "pong",
+      "url": "https://www.cell.com/neuron/pdf/S0896-6273(22)00806-6.pdf",
+      "error": "HTTPSConnectionPool(host='www.cell.com', port=443): Max retries exceeded with url: /neuron/pdf/S0896-6273(22)00806-6.pdf (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "is_pdf": false
+    },
+    {
+      "key": "pong",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10158064/1/1-s2.0-S0896627322008066-main.pdf",
+      "status": 200,
+      "bytes": 9339997,
+      "is_pdf": true
+    },
+    {
+      "key": "brainoware",
+      "url": "https://www.nature.com/articles/s41928-023-01069-w.pdf",
+      "status": 200,
+      "bytes": 353825,
+      "is_pdf": false
+    },
+    {
+      "key": "drug",
+      "url": "https://europepmc.org/articles/PMC12174357?pdf=render",
+      "status": 200,
+      "bytes": 8437613,
+      "is_pdf": true
+    },
+    {
+      "key": "efficiency",
+      "url": "https://europepmc.org/articles/PMC12320521?pdf=render",
+      "status": 200,
+      "bytes": 10776653,
+      "is_pdf": true
+    },
+    {
+      "key": "ethics",
+      "url": "https://europepmc.org/articles/PMC10602981?pdf=render",
+      "status": 200,
+      "bytes": 1007927,
+      "is_pdf": true
+    },
+    {
+      "key": "framework",
+      "url": "https://europepmc.org/articles/PMC13327941?pdf=render",
+      "status": 200,
+      "bytes": 933362,
+      "is_pdf": true
+    },
+    {
+      "key": "shahaf",
+      "url": "https://europepmc.org/articles/PMC6762268?pdf=render",
+      "status": 200,
+      "bytes": 528215,
+      "is_pdf": true
+    }
+  ],
+  "missing": {
+    "brainoware": {
+      "authors": "Cai H, Ao Z, Tian C, Wu Z, Liu H, Tchieu J, Gu M, Mackie K, Guo F",
+      "year": 2023,
+      "title": "Brain organoid reservoir computing for artificial intelligence",
+      "journal": "Nature Electronics",
+      "volume": 6,
+      "issue": 12,
+      "pages": "1032\u20131039",
+      "doi": "10.1038/s41928-023-01069-w"
+    }
+  }
+}
