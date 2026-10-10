@@ -21,7 +21,7 @@ from lxml import etree
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from add_scaffold import NS, A, P, R, Package, classify, notes_lines, shape_text  # noqa: E402
 from style_rules import EM_DASH, LIMITATION, framing_problems, stats_problems  # noqa: E402
-from add_scaffold import strip_markup  # noqa: E402
+from add_scaffold import apply_original_edits, strip_markup  # noqa: E402
 
 MOVES = {"mechanism", "consequence", "integration", "method_logic", "distinction", "foundation"}
 STOP = set("""a about above after again against all also am an and any are as at be been before being below between
@@ -85,7 +85,10 @@ def slide_text(pkg, part):
 # closing-caveat phrasings beyond style_rules.LIMITATION: the last body paragraph must teach
 CAVEAT = re.compile(r"\b(?:cannot (?:tell|say|decide|know)|has (?:its )?limits|(?:is|remains?) (?:only )?a hypothesis|"
                     r"is not (?:by itself )?evidence|not by itself|lies outside what|no (?:neural|direct) (?:data|evidence|recording)|"
-                    r"(?:would|could) not (?:separate|distinguish))\b", re.I)
+                    r"(?:would|could) not (?:separate|distinguish)|not (?:a )?proof|rather than proof|"
+                    r"does not (?:settle|make|specify|support|reveal|assign|isolate|measure|mean)|"
+                    r"remains? (?:a )?(?:proposal|putative|incomplete)|requires? (?:separate|additional|further) "
+                    r"(?:evidence|experiments?|testing|measurements?)|(?:are|is) insufficient\b)\b", re.I)
 
 
 def main():
@@ -104,6 +107,43 @@ def main():
 
     def fail(msg):
         fails.append(msg)
+
+    # 0. instructor-requested edits to original paragraphs: only the named paragraph may change, and the
+    #    replacement must teach (no closing caveat, no em dash, no framing) and fit where the old one did
+    original_texts = {}
+    for e in spec.get("original_edits", []):
+        tag = f"original slide {e['slide']}"
+        original_texts[e["slide"]] = e["old"]
+        if not 2 <= e["slide"] < len(src.slides):
+            fail(f"EDIT {tag}: only content slides may be edited")
+        if len(e["new"]) > len(e["old"]) * 1.1:
+            fail(f"EDIT {tag}: replacement is more than 10% longer than the paragraph it replaces")
+        txt = strip_markup(e["new"])
+        closing = LIMITATION.search(txt) or CAVEAT.search(txt)
+        if closing:
+            fail(f"EDIT {tag}: replacement paragraph is a caveat ({closing.group(0)!r})")
+        if EM_DASH in txt:
+            fail(f"EDIT {tag}: em dash")
+        for why, hit in framing_problems(txt):
+            fail(f"EDIT {tag}: {why}: {hit!r}")
+        for hit in stats_problems(txt):
+            fail(f"EDIT {tag}: statistics clutter {hit!r}")
+        for rx in BANNED_WORDS:
+            m = re.search(rx, txt, re.I)
+            if m:
+                fail(f"EDIT {tag}: {m.group(0)!r}")
+        for sent in sentences(txt):
+            if re.match(r"[\"“(]?because\b", sent, re.I):
+                fail(f"EDIT {tag}: sentence begins with 'Because'")
+    apply_original_edits(src, spec)  # integrity below compares against the input with these edits applied
+    if "original_edits" in spec:  # the instructor asked for every original paragraph 3 to teach
+        for pos in range(2, len(src.slides)):
+            paras = [x for b in classify(src.xml(src.slides[pos - 1]))["body"]
+                     for x in shape_text(b).split("\n") if len(x) > 60]
+            if paras:
+                closing = LIMITATION.search(paras[-1]) or CAVEAT.search(paras[-1])
+                if closing:
+                    fail(f"EDIT original slide {pos}: paragraph 3 still explains a limitation ({closing.group(0)!r})")
 
     # 1. COUNT -------------------------------------------------------------------------
     n_orig = len(src.slides)

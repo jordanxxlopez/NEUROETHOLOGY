@@ -19,7 +19,9 @@ they follow (24a), and never contain created images, diagrams, checkpoints, ques
 students, roadmaps, figure-reading guides, summaries or references to other lectures.
 Every paragraph teaches; the last paragraph of a scaffold slide is never a caveat ("does
 not establish", "cannot separate", "remains unknown"). Older icon-plus-text decks
-(Lectures 1–7 style) get text-only scaffold clones (GUIDELINE section 6).
+(Lectures 1–7 style) get text-only scaffold clones (GUIDELINE section 6). When the instructor asks,
+an original slide's limitation paragraph 3 is rewritten to teach via "original_edits"
+(GUIDELINE section 3.1); nothing else on the slide changes.
 All writing rules below apply. The 46-slide rule below applies to building new lectures,
 not to this task.
 

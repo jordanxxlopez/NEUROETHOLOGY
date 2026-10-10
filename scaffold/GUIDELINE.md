@@ -53,6 +53,19 @@ restates, paraphrases, condenses or merges original slides is not a scaffold sli
   on these decks.
 - If anything would require changing an original slide, stop and report it.
 
+### 3.1 Exception: instructor-requested paragraph 3 rewrites
+
+When the instructor asks for it (Lectures 5–7 V2, October 2026), the third, closing body
+paragraph of an original content slide that explains a limitation ("does not establish…",
+"cannot…", "remains unknown", "requires further…") is rewritten to teach instead: keep its
+valid teaching content and replace the limitation sentences with mechanism, consequence,
+follow-up result, behavioral link or comparison from that slide's own sources. List each
+rewrite in the spec under "original_edits" (slide, exact old text, new text). Nothing else on
+the slide changes: the tool swaps only that paragraph's text and keeps its formatting, the
+replacement may be at most 10% longer, and tools/check_scaffold.py verifies the rest of every
+original slide byte for byte and fails any original paragraph 3 that still reads as a
+limitation. Limitations that matter can stay in the speaker notes.
+
 ## 4. Where the 14 slides go
 
 There is no fixed position, order or set of slide types. Read the entire deck first (slide

@@ -20,6 +20,8 @@ Read scaffold/GUIDELINE.md completely before starting and follow every rule in i
    (90–170 words); a reused figure with its original caption on every scaffold slide (older icon-plus-text decks:
    text-only clones, GUIDELINE section 6); footer number like "24a". Every paragraph teaches; the last paragraph is
    never a caveat ("does not establish", "cannot separate", "remains unknown"); no em dashes in slide text.
+   When the instructor asks for original paragraph 3s to be rewritten (no limitation explanations), list each rewrite
+   under "original_edits" in the spec (GUIDELINE section 3.1); only that paragraph changes.
 6. Never: created images or diagrams, checkpoints, questions to students, roadmaps, figure-reading guides, summaries,
    "putting it together" titles.
 7. Notes: teaching transcript that goes further than the slide, never copies it, no "Teaching transcript:" label, ends

@@ -450,9 +450,37 @@ def ser(root):
     return etree.tostring(root, xml_declaration=True, encoding="UTF-8", standalone=True)
 
 
+def paragraph_text(p):
+    return "".join(t.text or "" for t in p.iter(A + "t"))
+
+
+def apply_original_edits(pkg, spec):
+    """Replace single named paragraphs on original slides (spec "original_edits", used when the instructor
+    asks for caveat paragraphs to be rewritten). Every other byte of the slide stays as it was; the edited
+    paragraph keeps its own paragraph and run formatting. Returns the edited part names."""
+    edited = []
+    for e in spec.get("original_edits", []):
+        part = pkg.slides[e["slide"] - 1]
+        root = pkg.xml(part)
+        hits = [p for p in root.iter(A + "p") if paragraph_text(p) == e["old"]]
+        if len(hits) != 1:
+            raise SystemExit(f"original slide {e['slide']}: paragraph to replace found {len(hits)} times")
+        p = hits[0]
+        rprs = [r.find(A + "rPr") for r in p.findall(A + "r") if r.find(A + "rPr") is not None]
+        if not rprs:
+            raise SystemExit(f"original slide {e['slide']}: paragraph has no run formatting")
+        base = next((x for x in rprs if x.get("b") != "1" and x.get("i") != "1"), rprs[0])
+        bold = next((x for x in rprs if x.get("b") == "1"), None)
+        set_paragraph(p, e["new"], copy.deepcopy(base), copy.deepcopy(bold) if bold is not None else None)
+        pkg.parts[part] = ser(root)
+        edited.append(part)
+    return edited
+
+
 def build(input_path, spec_path, out_path):
     spec = json.loads(Path(spec_path).read_text())
     pkg = Package(input_path)
+    edited = apply_original_edits(pkg, spec)
     slides = spec["new_slides"]
     n_orig = len(pkg.slides)
     if len(slides) != 14:
@@ -540,6 +568,7 @@ def build(input_path, spec_path, out_path):
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     changed = {"ppt/presentation.xml": ser(pres), pres_rels_part: ser(prels), "[Content_Types].xml": ser(ct)}
+    changed.update({part: pkg.parts[part] for part in edited})
     with zipfile.ZipFile(input_path) as zin, zipfile.ZipFile(out_path, "w", zipfile.ZIP_DEFLATED) as zout:
         for info in zin.infolist():
             data = changed.get(info.filename, zin.read(info.filename))
