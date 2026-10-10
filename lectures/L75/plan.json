@@ -2,270 +2,619 @@
   "lecture": 75,
   "title": "Zebrafish in virtual reality: brain-wide imaging, visual feedback, and neural mechanisms of motor adaptation",
   "date": "Date TBD",
+  "status": "complete",
   "slides": [
     {
       "content_slide": 1,
       "title": "Visual motion drives compensatory swimming",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "figures": [
+        {
+          "path": "figures/a1b.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 1B. Visual consequences of swimming in real and virtual environments.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 2,
-      "title": "Fictive swimming controls a virtual environment",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Motor nerve signals control a virtual environment",
+      "figures": [
+        {
+          "path": "figures/a1a.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 1A. Fictive swimming controls projected visual feedback.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 3,
-      "title": "Motor nerves report swimming without displacement",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Nerve bursts quantify the strength of a swim command",
+      "figures": [
+        {
+          "path": "figures/a1d.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 1C–D. Raw and processed motor nerve bursts during a swim bout.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 4,
-      "title": "Closed-loop gain changes movement consequences",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Feedback gain changes the consequence of swimming",
+      "figures": [
+        {
+          "path": "figures/a1c.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 1C–D. Motor nerve activity and visual velocity at low and high gain.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 5,
-      "title": "Low gain requires stronger swimming",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Weak virtual movement recruits stronger motor output",
+      "figures": [
+        {
+          "path": "figures/a1g.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 1E–H. Bout power and duration change during gain adaptation.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 6,
-      "title": "High gain reduces the motor command",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "The second bout begins the compensatory adjustment",
+      "figures": [
+        {
+          "path": "figures/a1ef.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 1E–H. Gain adaptation protocol and successive swim-bout power.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 7,
-      "title": "Adaptive output persists after feedback changes",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Motor memory survives identical visual stimulation",
+      "figures": [
+        {
+          "path": "figures/a1h.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 1E–H. Different swim power persists after ten seconds of identical optic flow.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 8,
-      "title": "Open-loop replay separates vision from motor output",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "GCaMP links neuronal activity with optical recording",
+      "figures": [
+        {
+          "path": "figures/a2bcd.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 2A–D. Cerebellar fluorescence and single-neuron analysis regions.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 9,
-      "title": "GCaMP reports neuronal calcium dynamics",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Replay separates sensory activity from motor activity",
+      "figures": [
+        {
+          "path": "figures/a2ef.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 2E–F. Calcium, motor output and visual replay recorded together.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 10,
-      "title": "Two-photon imaging samples distributed activity",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Motor-related activity spans the larval brain",
+      "figures": [
+        {
+          "path": "figures/a2g.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 2G. Brain-wide locations of motor-correlated activity.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 11,
-      "title": "Visual signals occupy distinct brain regions",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Population activity changes rapidly after gain switches",
+      "figures": [
+        {
+          "path": "figures/a3.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 3A–D. Population activity changes rapidly after a gain switch.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 12,
-      "title": "Motor activity accompanies fictive swimming",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Sustained motor responses track locomotor drive",
+      "figures": [
+        {
+          "path": "figures/a4a.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 4A–E. Motor, gain-decrease, gain-increase and motor-off traces with anatomical locations.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 13,
-      "title": "Gain-dependent activity tracks adaptation",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Gain-decrease transients accompany motor adjustment",
+      "figures": [
+        {
+          "path": "figures/a4b.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 4A–E. Motor, gain-decrease, gain-increase and motor-off traces with anatomical locations.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        },
+        {
+          "path": "figures/a5b.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 5B. Gain-decrease responses in cerebellar and inferior olivary regions.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 14,
-      "title": "Inferior olive responses signal feedback changes",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Gain-increase transients are more visually driven",
+      "figures": [
+        {
+          "path": "figures/a4c.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 4A–E. Motor, gain-decrease, gain-increase and motor-off traces with anatomical locations.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 15,
-      "title": "Cerebellar activity follows motor adjustment",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Motor-off cells are active during weak locomotion",
+      "figures": [
+        {
+          "path": "figures/a4d.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 4A–E. Motor, gain-decrease, gain-increase and motor-off traces with anatomical locations.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 16,
-      "title": "Laser ablation tests an olivocerebellar contribution",
-      "source_key": "adaptation",
-      "status": "provisional pending full source and figure review"
+      "title": "Inferior olive lesions disrupt gain adaptation",
+      "figures": [
+        {
+          "path": "figures/a6.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 6A–C. Inferior olive lesion disrupts adaptation while control lesions spare it.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        },
+        {
+          "path": "figures/a5b.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 5B. Gain-decrease responses in cerebellar and inferior olivary regions.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ]
     },
     {
       "content_slide": 17,
-      "title": "Transparent larvae expose a distributed brain",
-      "source_key": "lightsheet",
-      "status": "provisional pending full source and figure review"
+      "title": "Transparency permits cellular imaging across the brain",
+      "figures": [
+        {
+          "path": "figures/l1cd.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 1C–D. Whole-brain sections with cellular detail in tectum and hindbrain.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        }
+      ]
     },
     {
       "content_slide": 18,
-      "title": "A light sheet confines excitation to a plane",
-      "source_key": "lightsheet",
-      "status": "provisional pending full source and figure review"
+      "title": "Light-sheet excitation isolates a thin tissue plane",
+      "figures": [
+        {
+          "path": "figures/l1ab.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 1A–B. Light-sheet illumination and rapid volume acquisition.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        }
+      ]
     },
     {
       "content_slide": 19,
-      "title": "Orthogonal detection collects cellular fluorescence",
-      "source_key": "lightsheet",
-      "status": "provisional pending full source and figure review"
+      "title": "Rapid section acquisition samples complete brain volumes",
+      "figures": [
+        {
+          "path": "figures/l1ab.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 1A–B. Light-sheet illumination and rapid volume acquisition.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        }
+      ]
     },
     {
       "content_slide": 20,
-      "title": "Rapid volume acquisition samples brain-wide activity",
-      "source_key": "lightsheet",
-      "status": "provisional pending full source and figure review"
+      "title": "Calcium changes preserve identifiable neuronal signals",
+      "figures": [
+        {
+          "path": "figures/l2bc.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 2C. Successive calcium responses of individual neurons with spatial scale bars.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        }
+      ]
     },
     {
       "content_slide": 21,
-      "title": "Nuclear and cytoplasmic signals differ in resolution",
-      "source_key": "lightsheet",
-      "status": "provisional pending full source and figure review"
+      "title": "Whole-brain activity spans distant structures",
+      "figures": [
+        {
+          "path": "figures/l2a.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 2A. Successive whole-brain activity volumes with fluorescence scale.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        }
+      ]
     },
     {
       "content_slide": 22,
-      "title": "Calcium transients reveal ongoing population activity",
-      "source_key": "lightsheet",
-      "status": "provisional pending full source and figure review"
+      "title": "Habenular cells have opposing activity relationships",
+      "figures": [
+        {
+          "path": "figures/l4.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 4A–C. Habenular cells carry opposing relations to hindbrain activity.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        },
+        {
+          "path": "figures/l3.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 3A–E. Anatomical regions and their activity relationships.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        }
+      ]
     },
     {
       "content_slide": 23,
-      "title": "Correlated activity links distant brain regions",
-      "source_key": "lightsheet",
-      "status": "provisional pending full source and figure review"
+      "title": "Population covariance identifies a hindbrain-spinal network",
+      "figures": [
+        {
+          "path": "figures/l5.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 5. Population covariance identifies a hindbrain-spinal network.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        }
+      ]
     },
     {
       "content_slide": 24,
-      "title": "Hindbrain populations alternate their activity",
-      "source_key": "lightsheet",
-      "status": "provisional pending full source and figure review"
+      "title": "Hindbrain populations alternate over tens of seconds",
+      "figures": [
+        {
+          "path": "figures/l6.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 6A–I. Alternating hindbrain populations and inferior olive activity.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        }
+      ]
     },
     {
       "content_slide": 25,
-      "title": "Visual stimuli separate translational and rotational flow",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Eye tracking stabilizes the visual scene",
+      "figures": [
+        {
+          "path": "figures/v1b.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 1B. Eye positions follow a rotating whole-field stimulus.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ]
     },
     {
       "content_slide": 26,
-      "title": "Optomotor responses stabilize position",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Sensory and motor responses form bilateral phase maps",
+      "figures": [
+        {
+          "path": "figures/v1d.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 1D. Activity phase maps across the brain during eye tracking.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ]
     },
     {
       "content_slide": 27,
-      "title": "Optokinetic responses stabilize retinal images",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Four temporal clusters divide the tracking network",
+      "figures": [
+        {
+          "path": "figures/v2a.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 2A. Four temporal clusters of calcium responses.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        },
+        {
+          "path": "figures/v2bc.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 2B–C. Anatomical distribution and brain regions of the four clusters.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ]
     },
     {
       "content_slide": 28,
-      "title": "Sensory and motor regressors classify activity",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Registration aligns functional anatomy across animals",
+      "figures": [
+        {
+          "path": "figures/v3ab.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 3A–B. Registration aligns brain anatomy and recurring activity.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ]
     },
     {
       "content_slide": 29,
-      "title": "Functional populations span multiple regions",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Distinct visual fields separate sensory and motor signals",
+      "figures": [
+        {
+          "path": "figures/v6a.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 6A. Separate visual-field conditions evoke distinct eye and tail responses.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ]
     },
     {
       "content_slide": 30,
-      "title": "Brain registration aligns cells across animals",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Calcium regressors link activity to measured behavior",
+      "figures": [
+        {
+          "path": "figures/v6c.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 6C. Distinct sensory and motor variables explain activity in different regions.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ]
     },
     {
       "content_slide": 31,
-      "title": "Visual processing differs across optic-flow directions",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Eye-position signals occupy reproducible hindbrain regions",
+      "figures": [
+        {
+          "path": "figures/v7eye.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 7 (eye-position maps). Eye-position-related regions recur across animals.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ]
     },
     {
       "content_slide": 32,
-      "title": "Motor populations distinguish swimming and turning",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Sensory and locomotor functions share a distributed brain",
+      "figures": [
+        {
+          "path": "figures/v6c.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 6C. Distinct sensory and motor variables explain activity in different regions.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        },
+        {
+          "path": "figures/v4.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 4. Depth-resolved functional map averaged across aligned brains.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ]
     },
     {
       "content_slide": 33,
-      "title": "Visuomotor transformations recruit distributed networks",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Failed swim attempts trigger alternating passive periods",
+      "figures": [
+        {
+          "path": "figures/g1cdef.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 1C–F. Open-loop feedback produces repeated passive periods, including during replay.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 34,
-      "title": "Stereotyped organization links anatomy to behavior",
-      "source_key": "visuomotor",
-      "status": "provisional pending full source and figure review"
+      "title": "Passive behavior includes reduced visual responsiveness",
+      "figures": [
+        {
+          "path": "figures/g1k.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 1K. Visual-motion response falls during passive behavior.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g1hj.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 1G–K. Passive epochs and gain dependence of behavioral suppression.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 35,
-      "title": "Loss of visual feedback produces unsuccessful swimming",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "Neuronal and glial calcium change in opposite directions",
+      "figures": [
+        {
+          "path": "figures/g2bc.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 2B–C. Neuronal activity falls while glial calcium rises at passivity onset.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 36,
-      "title": "Repeated failure changes the probability of movement",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "Radial astrocytes reach the lateral medulla",
+      "figures": [
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 37,
-      "title": "Neuronal activity precedes behavioral suppression",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "Astrocyte ablation reduces feedback-induced passivity",
+      "figures": [
+        {
+          "path": "figures/g4bcd.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 4A–D. Radial astrocyte ablation reduces futility-induced passivity.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 38,
-      "title": "Radial astrocytes accumulate failure-related signals",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "Intracellular calcium release supports glial control",
+      "figures": [
+        {
+          "path": "figures/g4h.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 4H. IP3 receptor inhibition reduces passive behavior.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 39,
-      "title": "Noradrenergic signaling recruits glial activity",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "Engineered TRPV1 raises glial calcium and passivity",
+      "figures": [
+        {
+          "path": "figures/g5abcdef.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 5A–I. TRPV1-mediated glial calcium elevation causes passivity with matched controls.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 40,
-      "title": "Calcium dynamics integrate successive failures",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "Two optical glial manipulations suppress swimming",
+      "figures": [
+        {
+          "path": "figures/g5jop.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 5J–P. Two optogenetic glial activation methods suppress swim power.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 41,
-      "title": "Glial manipulation changes behavioral suppression",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "GABAergic neurons relay glial motor suppression",
+      "figures": [
+        {
+          "path": "figures/g5rs.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 5R–S. Glial stimulation recruits lateral medullary neurons and GABAergic activation suppresses swimming.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 42,
-      "title": "GABAergic neurons relay a suppressive influence",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "Medullary norepinephrine neurons drive the glial response",
+      "figures": [
+        {
+          "path": "figures/g6abc.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 6A–C. Noradrenergic neurons activate before radial astrocytes.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g6def.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 6D–F. Medullary noradrenergic ablation reduces passive behavior.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 43,
-      "title": "Restoration of feedback permits renewed action",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "Alpha1B signaling couples norepinephrine to glial calcium",
+      "figures": [
+        {
+          "path": "figures/g6jkl.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 6J–L. Adrenergic receptor blockade prevents glial calcium responses.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     },
     {
       "content_slide": 44,
-      "title": "Motor adaptation and futility have distinct outcomes",
-      "source_key": "glia",
-      "status": "provisional pending full source and figure review"
+      "title": "Glial calcium accumulates across repeated failed actions",
+      "figures": [
+        {
+          "path": "figures/g7hi.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 7H–I. Glial calcium accumulates across successive failed swim bouts.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g7jk.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 7J–K. Feedback probability controls the rate of glial calcium accumulation.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ]
     }
   ]
 }

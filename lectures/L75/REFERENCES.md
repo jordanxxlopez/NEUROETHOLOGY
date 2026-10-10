@@ -1,7 +1,3 @@
-# Lecture 75 source access
-
-All four required original PDFs are available and were reviewed. The instructor uploads resolved the Portugues (2014) and Mu (2019) access failures. No additional PDFs are required.
-
 # Lecture 75 references
 
 Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057

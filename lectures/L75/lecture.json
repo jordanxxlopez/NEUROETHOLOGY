@@ -1,0 +1,1281 @@
+{
+  "lecture": 75,
+  "content_slides": 44,
+  "theme": "muted-cobalt-chalk",
+  "title_height": 2.7,
+  "title_min_pt": 22,
+  "title_image": {
+    "path": "figures/v1c.png",
+    "kind": "article",
+    "caption": "Portugues et al. (2014), Fig. 1C. Six-day-old zebrafish larva with the imaged brain outlined.",
+    "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+  },
+  "title_refs": [
+    "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019"
+  ],
+  "slides": [
+    {
+      "title": "Visual motion drives compensatory swimming",
+      "body": [
+        "**Optic flow** is the movement of the visual scene across the retina, the light-sensitive tissue inside the eye. A zebrafish swept backward through water encounters forward-moving surroundings. Swimming forward counteracts that displacement and changes the visual motion reaching its eyes.",
+        "The **optomotor response** is swimming in the direction of whole-field visual motion. Ahrens and colleagues presented moving gratings, alternating stripes, to larval zebrafish. The animals generated discrete swim bouts that compensated for simulated backward drift rather than swimming continuously at a fixed strength.",
+        "A closed feedback loop connects the motor command with its sensory consequence. Swimming changes optic flow, and subsequent visual input influences another swim. This relationship permits adjustment of locomotor drive when the same motor command produces a different displacement."
+      ],
+      "transcript": [
+        "Optic flow is the movement of the visual scene across the retina, the light-sensitive tissue inside the eye. A zebrafish swept backward through water encounters forward-moving surroundings. Swimming forward counteracts that displacement and changes the visual motion reaching its eyes.",
+        "The optomotor response is swimming in the direction of whole-field visual motion. Ahrens and colleagues presented moving gratings, alternating stripes, to larval zebrafish. The animals generated discrete swim bouts that compensated for simulated backward drift rather than swimming continuously at a fixed strength.",
+        "A closed feedback loop connects the motor command with its sensory consequence. Swimming changes optic flow, and subsequent visual input influences another swim. This relationship permits adjustment of locomotor drive when the same motor command produces a different displacement."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a1b.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 1B. Visual consequences of swimming in real and virtual environments.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Motor nerve signals control a virtual environment",
+      "body": [
+        "**Virtual reality** supplies a sensory environment whose changes are computed from an animal’s actions. Ahrens and colleagues immobilized six- to seven-day-old zebrafish and recorded the motor nerve signals that would normally activate swimming muscles. **Fictive swimming** is this motor output produced without actual movement.",
+        "The preparation used bungarotoxin to prevent muscle contraction. Recording pipettes detected motor nerve bursts, while a projector delivered gratings beneath the fish. A computer converted the recorded signal into visual motion in real time, giving the stationary animal the visual consequence of swimming.",
+        "The brain could therefore issue motor commands while remaining stable for microscopy. The preparation preserved action-dependent vision while removing body displacement. Individual neurons could be monitored during an ongoing sensory-motor interaction rather than only during passive viewing."
+      ],
+      "transcript": [
+        "Virtual reality supplies a sensory environment whose changes are computed from an animal’s actions. Ahrens and colleagues immobilized six- to seven-day-old zebrafish and recorded the motor nerve signals that would normally activate swimming muscles. Fictive swimming is this motor output produced without actual movement.",
+        "The preparation used bungarotoxin to prevent muscle contraction. Recording pipettes detected motor nerve bursts, while a projector delivered gratings beneath the fish. A computer converted the recorded signal into visual motion in real time, giving the stationary animal the visual consequence of swimming.",
+        "The brain could therefore issue motor commands while remaining stable for microscopy. The preparation preserved action-dependent vision while removing body displacement. Individual neurons could be monitored during an ongoing sensory-motor interaction rather than only during passive viewing.",
+        "Fictive swimming retains motor nerve activity. It does not restore vestibular, proprioceptive or skin feedback from real displacement; the experiment isolates visually guided locomotor adjustment."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a1a.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 1A. Fictive swimming controls projected visual feedback.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Nerve bursts quantify the strength of a swim command",
+      "body": [
+        "A **motor nerve burst** is a short episode of electrical activity carrying commands toward muscle. During fictive swimming, successive bursts correspond to the alternating tail oscillations that would occur in an unrestrained fish. Their timing and accumulated power quantify the outgoing locomotor command.",
+        "Ahrens and colleagues recorded raw electrical signals from both sides of the body. Processing the signal over a 15 ms sliding window produced a time-varying estimate of motor activity. The resulting trace allowed the computer to detect bouts and update the projected scene.",
+        "Bout power, duration and burst number describe different features of movement production. A longer command contains more burst events, while greater signal power reflects stronger drive. These measurements reveal how feedback modifies the command sent to the swimming system even when the muscles cannot move."
+      ],
+      "transcript": [
+        "A motor nerve burst is a short episode of electrical activity carrying commands toward muscle. During fictive swimming, successive bursts correspond to the alternating tail oscillations that would occur in an unrestrained fish. Their timing and accumulated power quantify the outgoing locomotor command.",
+        "Ahrens and colleagues recorded raw electrical signals from both sides of the body. Processing the signal over a 15 ms sliding window produced a time-varying estimate of motor activity. The resulting trace allowed the computer to detect bouts and update the projected scene.",
+        "Bout power, duration and burst number describe different features of movement production. A longer command contains more burst events, while greater signal power reflects stronger drive. These measurements reveal how feedback modifies the command sent to the swimming system even when the muscles cannot move."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a1d.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 1C–D. Raw and processed motor nerve bursts during a swim bout.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Feedback gain changes the consequence of swimming",
+      "body": [
+        "**Feedback gain** is the factor converting measured motor activity into a change in visual velocity. High gain makes one motor command produce a large visual displacement; low gain makes the same command produce a small displacement. The manipulation changes virtual movement efficacy rather than muscle strength itself.",
+        "Ahrens and colleagues switched between gain settings while recording motor nerve output. High gain was two to five times the low setting. In the absence of a swim command, gratings moved forward at 1 cm/s, simulating backward drift through the environment.",
+        "The computer updated the scene at 60 Hz. Swimming briefly accelerated the visual surround backward, opposing the drift. Gain therefore changed the sensory consequence of a motor command while keeping the animal and recording apparatus stationary, permitting comparison of compensatory changes in locomotor output."
+      ],
+      "transcript": [
+        "Feedback gain is the factor converting measured motor activity into a change in visual velocity. High gain makes one motor command produce a large visual displacement; low gain makes the same command produce a small displacement. The manipulation changes virtual movement efficacy rather than muscle strength itself.",
+        "Ahrens and colleagues switched between gain settings while recording motor nerve output. High gain was two to five times the low setting. In the absence of a swim command, gratings moved forward at 1 cm/s, simulating backward drift through the environment.",
+        "The computer updated the scene at 60 Hz. Swimming briefly accelerated the visual surround backward, opposing the drift. Gain therefore changed the sensory consequence of a motor command while keeping the animal and recording apparatus stationary, permitting comparison of compensatory changes in locomotor output."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a1c.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 1C–D. Motor nerve activity and visual velocity at low and high gain.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Weak virtual movement recruits stronger motor output",
+      "body": [
+        "After a switch to low gain, each swim produced less visual displacement. The zebrafish subsequently increased the power and duration of its motor commands. More motor nerve bursts within a bout compensated for the reduced efficacy of each burst in moving through the virtual environment.",
+        "After a switch to high gain, the same preparation reduced motor output. The visual consequence of swimming was now larger, so fewer bursts were required. Opposite gain changes thus drove opposite adjustments rather than a general increase in activity whenever the scene changed.",
+        "Adaptation approached a plateau after approximately ten bouts, corresponding to 7–10 s. The **sensorimotor transformation**, the relationship between sensory input and motor output, was recalibrated over successive attempts. Its operating state depended on recent experience of how effectively swimming changed vision."
+      ],
+      "transcript": [
+        "After a switch to low gain, each swim produced less visual displacement. The zebrafish subsequently increased the power and duration of its motor commands. More motor nerve bursts within a bout compensated for the reduced efficacy of each burst in moving through the virtual environment.",
+        "After a switch to high gain, the same preparation reduced motor output. The visual consequence of swimming was now larger, so fewer bursts were required. Opposite gain changes thus drove opposite adjustments rather than a general increase in activity whenever the scene changed.",
+        "Adaptation approached a plateau after approximately ten bouts, corresponding to 7–10 s. The sensorimotor transformation, the relationship between sensory input and motor output, was recalibrated over successive attempts. Its operating state depended on recent experience of how effectively swimming changed vision."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a1g.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 1E–H. Bout power and duration change during gain adaptation.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "The second bout begins the compensatory adjustment",
+      "body": [
+        "Ahrens and colleagues compared successive bouts after switching feedback gain. The first bout had similar power after an increase or decrease in gain. Divergence began with the second bout, when the animal had already experienced the visual consequence of the first motor command.",
+        "The adaptation phase lasted 30 s. Motor bursts were quantified over the first twelve bouts in each condition. Low gain progressively increased the command, while high gain reduced it, separating an initially shared output from the later feedback-dependent response.",
+        "This timing places the adjustment between successive actions. A command already underway was not immediately rescaled to cancel the changed gain. The next bout incorporated information from the preceding sensory consequence, allowing repeated brief actions to build a compensatory change in locomotor drive."
+      ],
+      "transcript": [
+        "Ahrens and colleagues compared successive bouts after switching feedback gain. The first bout had similar power after an increase or decrease in gain. Divergence began with the second bout, when the animal had already experienced the visual consequence of the first motor command.",
+        "The adaptation phase lasted 30 s. Motor bursts were quantified over the first twelve bouts in each condition. Low gain progressively increased the command, while high gain reduced it, separating an initially shared output from the later feedback-dependent response.",
+        "This timing places the adjustment between successive actions. A command already underway was not immediately rescaled to cancel the changed gain. The next bout incorporated information from the preceding sensory consequence, allowing repeated brief actions to build a compensatory change in locomotor drive."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a1ef.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 1E–H. Gain adaptation protocol and successive swim-bout power.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Motor memory survives identical visual stimulation",
+      "body": [
+        "A changed visual pattern might alter swimming without producing a retained adjustment. Ahrens and colleagues separated these possibilities by inserting ten seconds of identical backward-moving gratings after adaptation. This open-loop period delivered the same visual input regardless of the fish’s motor activity.",
+        "The animals then entered a common medium-gain test. Their first swim commands retained the difference produced by the preceding adaptation: commands were stronger after low gain and weaker after high gain. The relevant history therefore survived a period with matched optic flow.",
+        "**Motor memory** here is the short-term persistence of a recalibrated command. Its expression under a common test condition separates the stored adjustment from an immediate response to different images. Recent action consequences changed the sensorimotor state from which a subsequent swim was generated."
+      ],
+      "transcript": [
+        "A changed visual pattern might alter swimming without producing a retained adjustment. Ahrens and colleagues separated these possibilities by inserting ten seconds of identical backward-moving gratings after adaptation. This open-loop period delivered the same visual input regardless of the fish’s motor activity.",
+        "The animals then entered a common medium-gain test. Their first swim commands retained the difference produced by the preceding adaptation: commands were stronger after low gain and weaker after high gain. The relevant history therefore survived a period with matched optic flow.",
+        "Motor memory here is the short-term persistence of a recalibrated command. Its expression under a common test condition separates the stored adjustment from an immediate response to different images. Recent action consequences changed the sensorimotor state from which a subsequent swim was generated."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a1h.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 1E–H. Different swim power persists after ten seconds of identical optic flow.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "GCaMP links neuronal activity with optical recording",
+      "body": [
+        "**GCaMP** is a genetically encoded fluorescent calcium indicator, a protein whose fluorescence changes when intracellular calcium increases. Neuronal activity can raise calcium, allowing optical measurements to report the changing activity of labeled cells. Ahrens and colleagues used GCaMP2 expressed under the broadly neuronal elavl3 promoter.",
+        "**Two-photon microscopy** excites fluorescence with focused infrared laser pulses and resolves cells inside the transparent larval brain. Stable fictive swimming allowed calcium signals and motor nerve activity to be recorded together. The investigators extracted signals from individual somata and small regions of neuronal processes.",
+        "A **region of interest** is the selected image area from which fluorescence is measured. Calcium traces from these regions were compared with swimming and visual motion. The optical signal reports calcium dynamics rather than an instantaneous count of action potentials, so its time course includes indicator kinetics."
+      ],
+      "transcript": [
+        "GCaMP is a genetically encoded fluorescent calcium indicator, a protein whose fluorescence changes when intracellular calcium increases. Neuronal activity can raise calcium, allowing optical measurements to report the changing activity of labeled cells. Ahrens and colleagues used GCaMP2 expressed under the broadly neuronal elavl3 promoter.",
+        "Two-photon microscopy excites fluorescence with focused infrared laser pulses and resolves cells inside the transparent larval brain. Stable fictive swimming allowed calcium signals and motor nerve activity to be recorded together. The investigators extracted signals from individual somata and small regions of neuronal processes.",
+        "A region of interest is the selected image area from which fluorescence is measured. Calcium traces from these regions were compared with swimming and visual motion. The optical signal reports calcium dynamics rather than an instantaneous count of action potentials, so its time course includes indicator kinetics."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a2bcd.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 2A–D. Cerebellar fluorescence and single-neuron analysis regions.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Replay separates sensory activity from motor activity",
+      "body": [
+        "In closed loop, swimming and visual motion are coupled: one generates the other. A neuron active during a swim could therefore respond to the motor command, its visual consequence, or both. Ahrens and colleagues broke that relationship by replaying a previously recorded visual sequence.",
+        "During **open-loop replay**, the stimulus no longer depended on current swimming. A visually driven neuron could reproduce its earlier response to the same sequence. A motor-related neuron instead followed the animal’s current motor output, which differed from the output that originally generated the stimulus.",
+        "This comparison gave sensory and motor activity distinct temporal references. Correlations with replayed visual input and independently measured motor activity classified functional responses. The experiment changes the causal relationship between action and input, allowing their associated signals to be separated within the same preparation."
+      ],
+      "transcript": [
+        "In closed loop, swimming and visual motion are coupled: one generates the other. A neuron active during a swim could therefore respond to the motor command, its visual consequence, or both. Ahrens and colleagues broke that relationship by replaying a previously recorded visual sequence.",
+        "During open-loop replay, the stimulus no longer depended on current swimming. A visually driven neuron could reproduce its earlier response to the same sequence. A motor-related neuron instead followed the animal’s current motor output, which differed from the output that originally generated the stimulus.",
+        "This comparison gave sensory and motor activity distinct temporal references. Correlations with replayed visual input and independently measured motor activity classified functional responses. The experiment changes the causal relationship between action and input, allowing their associated signals to be separated within the same preparation."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a2ef.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 2E–F. Calcium, motor output and visual replay recorded together.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Motor-related activity spans the larval brain",
+      "body": [
+        "Ahrens and colleagues identified neurons whose calcium signals followed fictive swimming during visual replay. These motor-correlated responses occurred in the caudal hindbrain, cerebellum, ventral midbrain and forebrain. **Hindbrain** denotes the posterior brain region containing many premotor and motor-related structures.",
+        "The **cerebellum** is a brain structure involved in coordinating and adjusting movement. Its activity was part of a distributed locomotor network rather than confined to one isolated control center. The imaging analysis also detected responses near reticulospinal neurons, descending neurons that communicate with spinal motor circuitry.",
+        "Different neurons carried different relations to the same behavior. Some increased activity during vigorous swimming; others were active when swimming was weak. Sequential planes from multiple fish were aligned to a reference brain. The composite maps localized distinct components of locomotor state across animals, rather than recording every cell in one brain simultaneously."
+      ],
+      "transcript": [
+        "Ahrens and colleagues identified neurons whose calcium signals followed fictive swimming during visual replay. These motor-correlated responses occurred in the caudal hindbrain, cerebellum, ventral midbrain and forebrain. Hindbrain denotes the posterior brain region containing many premotor and motor-related structures.",
+        "The cerebellum is a brain structure involved in coordinating and adjusting movement. Its activity was part of a distributed locomotor network rather than confined to one isolated control center. The imaging analysis also detected responses near reticulospinal neurons, descending neurons that communicate with spinal motor circuitry.",
+        "Different neurons carried different relations to the same behavior. Some increased activity during vigorous swimming; others were active when swimming was weak. Sequential planes from multiple fish were aligned to a reference brain. The composite maps localized distinct components of locomotor state across animals, rather than recording every cell in one brain simultaneously."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a2g.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 2G. Brain-wide locations of motor-correlated activity.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Population activity changes rapidly after gain switches",
+      "body": [
+        "A **population activity pattern** describes the simultaneous or aligned responses of many recording sites. Ahrens and colleagues used principal component analysis, a method that summarizes shared variation, to describe the changing pattern during repeated low- and high-gain periods.",
+        "The activity pattern moved rapidly after a gain switch and then approached a more stable state. The rapid transitions coincided with the interval of behavioral adjustment. Stable low-gain and high-gain periods occupied different parts of the reduced representation, matching their different levels of locomotor drive.",
+        "Four response phases emerged: a transient after gain decreased, sustained low-gain activity, a transient after gain increased, and sustained high-gain activity. These phases distinguished responses associated with adjusting a motor state from responses associated with maintaining it. The distinction guided identification of individual functional populations."
+      ],
+      "transcript": [
+        "A population activity pattern describes the simultaneous or aligned responses of many recording sites. Ahrens and colleagues used principal component analysis, a method that summarizes shared variation, to describe the changing pattern during repeated low- and high-gain periods.",
+        "The activity pattern moved rapidly after a gain switch and then approached a more stable state. The rapid transitions coincided with the interval of behavioral adjustment. Stable low-gain and high-gain periods occupied different parts of the reduced representation, matching their different levels of locomotor drive.",
+        "Four response phases emerged: a transient after gain decreased, sustained low-gain activity, a transient after gain increased, and sustained high-gain activity. These phases distinguished responses associated with adjusting a motor state from responses associated with maintaining it. The distinction guided identification of individual functional populations."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a3.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 3A–D. Population activity changes rapidly after a gain switch.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Sustained motor responses track locomotor drive",
+      "body": [
+        "The motor-related functional class had higher calcium activity during low gain, when the fish produced stronger swim commands. An example neuron retained its association with motor output during visual replay, connecting its response to swimming rather than simply to the repeated scene.",
+        "The sustained response differed from a brief signal following a gain switch. It remained elevated while high locomotor drive continued. The class therefore represented the current motor operating state after the animal had completed much of its compensatory adjustment.",
+        "Motor-related cells were distributed across cerebellar, hindbrain and other regions. Their response definition was functional, based on the measured relation between activity and behavior, rather than a single molecular cell type. A distributed set of activity levels accompanied the maintenance of stronger output in the weak virtual fish."
+      ],
+      "transcript": [
+        "The motor-related functional class had higher calcium activity during low gain, when the fish produced stronger swim commands. An example neuron retained its association with motor output during visual replay, connecting its response to swimming rather than simply to the repeated scene.",
+        "The sustained response differed from a brief signal following a gain switch. It remained elevated while high locomotor drive continued. The class therefore represented the current motor operating state after the animal had completed much of its compensatory adjustment.",
+        "Motor-related cells were distributed across cerebellar, hindbrain and other regions. Their response definition was functional, based on the measured relation between activity and behavior, rather than a single molecular cell type. A distributed set of activity levels accompanied the maintenance of stronger output in the weak virtual fish."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a4a.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 4A–E. Motor, gain-decrease, gain-increase and motor-off traces with anatomical locations.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Gain-decrease transients accompany motor adjustment",
+      "body": [
+        "A **transient response** is a temporary change that returns toward baseline. Ahrens and colleagues identified gain-decrease neurons whose calcium rose soon after visual feedback became less effective. The response subsided even while the stronger motor output established by adaptation persisted.",
+        "These neurons were concentrated in the cerebellum and **inferior olive**, a hindbrain nucleus that supplies climbing-fiber input to the cerebellum. Many gain-decrease responses followed current motor output during replay more closely than the repeated visual stimulus, separating this class from a purely visual response.",
+        "The authors’ hypothesis is that such transients contribute to detecting a mismatch and driving recalibration. Their timing differs from the sustained activity accompanying the adjusted motor state. An initial change-detection signal and a maintained locomotor state can therefore occupy different populations within the same distributed circuit."
+      ],
+      "transcript": [
+        "A transient response is a temporary change that returns toward baseline. Ahrens and colleagues identified gain-decrease neurons whose calcium rose soon after visual feedback became less effective. The response subsided even while the stronger motor output established by adaptation persisted.",
+        "These neurons were concentrated in the cerebellum and inferior olive, a hindbrain nucleus that supplies climbing-fiber input to the cerebellum. Many gain-decrease responses followed current motor output during replay more closely than the repeated visual stimulus, separating this class from a purely visual response.",
+        "The authors’ hypothesis is that such transients contribute to detecting a mismatch and driving recalibration. Their timing differs from the sustained activity accompanying the adjusted motor state. An initial change-detection signal and a maintained locomotor state can therefore occupy different populations within the same distributed circuit."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/a4b.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 4A–E. Motor, gain-decrease, gain-increase and motor-off traces with anatomical locations.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        },
+        {
+          "path": "figures/a5b.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 5B. Gain-decrease responses in cerebellar and inferior olivary regions.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Gain-increase transients are more visually driven",
+      "body": [
+        "The gain-increase class responded transiently after swimming began to produce a larger visual consequence. An example neuron in the **optic tectum**, a midbrain visual structure, reproduced much of its response during replay of the same stimulus. Its activity was therefore strongly related to visual input.",
+        "This pattern differed from the gain-decrease population, which was more closely associated with current motor output. Increasing and decreasing gain did not simply activate mirror versions of one identical functional population. The two adjustments recruited different mixtures of sensory and motor-related signals.",
+        "Visual input provides evidence about the displacement caused by a swim. When the consequence becomes unexpectedly large, a transient visual response can accompany reduction of subsequent locomotor drive. Functional classification separates the response accompanying this change from sustained activity that represents the new level of motor output."
+      ],
+      "transcript": [
+        "The gain-increase class responded transiently after swimming began to produce a larger visual consequence. An example neuron in the optic tectum, a midbrain visual structure, reproduced much of its response during replay of the same stimulus. Its activity was therefore strongly related to visual input.",
+        "This pattern differed from the gain-decrease population, which was more closely associated with current motor output. Increasing and decreasing gain did not simply activate mirror versions of one identical functional population. The two adjustments recruited different mixtures of sensory and motor-related signals.",
+        "Visual input provides evidence about the displacement caused by a swim. When the consequence becomes unexpectedly large, a transient visual response can accompany reduction of subsequent locomotor drive. Functional classification separates the response accompanying this change from sustained activity that represents the new level of motor output."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a4c.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 4A–E. Motor, gain-decrease, gain-increase and motor-off traces with anatomical locations.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Motor-off cells are active during weak locomotion",
+      "body": [
+        "The **motor-off class** consisted of neurons with greater calcium activity during high gain, when locomotor drive was weak. An example dorsal hindbrain neuron also rose in activity during pauses in swimming under replay, preserving its association with low motor output after the visual sequence was decoupled.",
+        "This class complements neurons active during vigorous swimming. The two patterns distinguish stronger and weaker locomotor states within the recorded network. Other motor-off cells were more visually driven, indicating that a shared response during gain switching can arise from different relationships to action and sensation.",
+        "The authors hypothesize that some motor-off neurons inhibit swimming or suppress competing behaviors during locomotion. Their measured activity establishes a temporal association with weak output; identifying inhibitory action requires targeted perturbation. The response pattern itself supplies a distinct component of the brain’s representation of locomotor state."
+      ],
+      "transcript": [
+        "The motor-off class consisted of neurons with greater calcium activity during high gain, when locomotor drive was weak. An example dorsal hindbrain neuron also rose in activity during pauses in swimming under replay, preserving its association with low motor output after the visual sequence was decoupled.",
+        "This class complements neurons active during vigorous swimming. The two patterns distinguish stronger and weaker locomotor states within the recorded network. Other motor-off cells were more visually driven, indicating that a shared response during gain switching can arise from different relationships to action and sensation.",
+        "The authors hypothesize that some motor-off neurons inhibit swimming or suppress competing behaviors during locomotion. Their measured activity establishes a temporal association with weak output; identifying inhibitory action requires targeted perturbation. The response pattern itself supplies a distinct component of the brain’s representation of locomotor state."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/a4d.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2012), Fig. 4A–E. Motor, gain-decrease, gain-increase and motor-off traces with anatomical locations.",
+        "source_url": "https://doi.org/10.1038/nature11057"
+      }
+    },
+    {
+      "title": "Inferior olive lesions disrupt gain adaptation",
+      "body": [
+        "A **lesion** is experimentally induced tissue damage used to test a structure’s contribution to function. Ahrens and colleagues targeted the inferior olive with an infrared laser after measuring adaptation. Following the lesion, swim-bout power no longer separated reliably between high- and low-gain conditions.",
+        "The optomotor response remained intact, and similarly sized control lesions in the dorsal anterior hindbrain spared adaptation. The deficit therefore concerned adjustment to feedback gain rather than complete loss of visually evoked swimming. Olivocerebellar circuitry contributed to recalibrating the command produced by visual motion.",
+        "The authors’ hypothesis is that inferior olivary neurons compare motor-related information with received visual feedback and convey mismatch through climbing fibers. Cerebellar activity could then influence premotor output. The lesion result links the activity map to a causal contribution of this pathway to rapid motor adaptation."
+      ],
+      "transcript": [
+        "A lesion is experimentally induced tissue damage used to test a structure’s contribution to function. Ahrens and colleagues targeted the inferior olive with an infrared laser after measuring adaptation. Following the lesion, swim-bout power no longer separated reliably between high- and low-gain conditions.",
+        "The optomotor response remained intact, and similarly sized control lesions in the dorsal anterior hindbrain spared adaptation. The deficit therefore concerned adjustment to feedback gain rather than complete loss of visually evoked swimming. Olivocerebellar circuitry contributed to recalibrating the command produced by visual motion.",
+        "The authors’ hypothesis is that inferior olivary neurons compare motor-related information with received visual feedback and convey mismatch through climbing fibers. Cerebellar activity could then influence premotor output. The lesion result links the activity map to a causal contribution of this pathway to rapid motor adaptation.",
+        "The laser lesion may affect passing axons. The preserved optomotor response and dorsal control lesion constrain the interpretation to the targeted olivary region and associated circuitry, rather than proving the action of one cell type."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/a6.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 6A–C. Inferior olive lesion disrupts adaptation while control lesions spare it.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        },
+        {
+          "path": "figures/a5b.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2012), Fig. 5B. Gain-decrease responses in cerebellar and inferior olivary regions.",
+          "source_url": "https://doi.org/10.1038/nature11057"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Transparency permits cellular imaging across the brain",
+      "body": [
+        "Larval zebrafish have a compact brain that can be examined optically while intact. Ahrens and colleagues used albino larvae, whose reduced pigmentation allowed illumination through the eyes and access to tissue between them. GCaMP5G labeled neuronal calcium across the preparation.",
+        "The recorded brain volume was approximately 800 × 600 × 200 µm. Sections contained the optic tectum, hindbrain and other regions, with neighboring cell bodies distinguishable in both superficial and deeper tissue. **Cellular resolution** means that individual cells can be separated rather than merged into one regional signal.",
+        "The light-sheet preparation captured more than 80% of neurons at single-cell resolution. Brain-wide recording therefore preserved the identities of many local units while sampling distant structures together. The resulting data could reveal shared activity that would be missed by recording only a small isolated field."
+      ],
+      "transcript": [
+        "Larval zebrafish have a compact brain that can be examined optically while intact. Ahrens and colleagues used albino larvae, whose reduced pigmentation allowed illumination through the eyes and access to tissue between them. GCaMP5G labeled neuronal calcium across the preparation.",
+        "The recorded brain volume was approximately 800 × 600 × 200 µm. Sections contained the optic tectum, hindbrain and other regions, with neighboring cell bodies distinguishable in both superficial and deeper tissue. Cellular resolution means that individual cells can be separated rather than merged into one regional signal.",
+        "The light-sheet preparation captured more than 80% of neurons at single-cell resolution. Brain-wide recording therefore preserved the identities of many local units while sampling distant structures together. The resulting data could reveal shared activity that would be missed by recording only a small isolated field."
+      ],
+      "cite": "Ahrens et al. (2013)",
+      "refs": [
+        "Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ (2013). Whole-brain functional imaging at cellular resolution using light-sheet microscopy. Nature Methods 10(5):413–420. https://doi.org/10.1038/nmeth.2434"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/l1cd.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2013), Fig. 1C–D. Whole-brain sections with cellular detail in tectum and hindbrain.",
+        "source_url": "https://doi.org/10.1038/nmeth.2434"
+      }
+    },
+    {
+      "title": "Light-sheet excitation isolates a thin tissue plane",
+      "body": [
+        "**Light-sheet microscopy** illuminates a thin plane of tissue and detects its fluorescence from a perpendicular direction. Ahrens and colleagues generated the sheet by rapidly scanning a focused laser beam. A camera collected fluorescence from the illuminated section rather than scanning every cell individually.",
+        "The sheet was approximately 4 µm thick. Stepwise movement of the detection objective was synchronized with displacement of the illumination plane while the fish remained stationary. The system could also illuminate from the opposite side to improve coverage of the brain.",
+        "Restricting excitation to the recorded plane makes rapid volume imaging possible. Each section supplies a two-dimensional image, and successive sections form the three-dimensional brain volume. This optical geometry separates illumination from detection, allowing many neurons in a plane to be measured during the same brief exposure."
+      ],
+      "transcript": [
+        "Light-sheet microscopy illuminates a thin plane of tissue and detects its fluorescence from a perpendicular direction. Ahrens and colleagues generated the sheet by rapidly scanning a focused laser beam. A camera collected fluorescence from the illuminated section rather than scanning every cell individually.",
+        "The sheet was approximately 4 µm thick. Stepwise movement of the detection objective was synchronized with displacement of the illumination plane while the fish remained stationary. The system could also illuminate from the opposite side to improve coverage of the brain.",
+        "Restricting excitation to the recorded plane makes rapid volume imaging possible. Each section supplies a two-dimensional image, and successive sections form the three-dimensional brain volume. This optical geometry separates illumination from detection, allowing many neurons in a plane to be measured during the same brief exposure."
+      ],
+      "cite": "Ahrens et al. (2013)",
+      "refs": [
+        "Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ (2013). Whole-brain functional imaging at cellular resolution using light-sheet microscopy. Nature Methods 10(5):413–420. https://doi.org/10.1038/nmeth.2434"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/l1ab.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2013), Fig. 1A–B. Light-sheet illumination and rapid volume acquisition.",
+        "source_url": "https://doi.org/10.1038/nmeth.2434"
+      }
+    },
+    {
+      "title": "Rapid section acquisition samples complete brain volumes",
+      "body": [
+        "Ahrens and colleagues collected sections at 5 µm intervals through the larval brain. Each camera exposure lasted 5 ms, and a section was acquired every 30 ms. Forty-one sections covered the approximately 200 µm depth of the recorded volume.",
+        "The system captured a whole brain about once every 1.3 s, corresponding to a volume rate near 0.8 Hz. This rate was comparable to the time course of the GCaMP5G signal at room temperature, allowing changes in neuronal calcium to be followed across successive volumes.",
+        "All sections belonged to the same rapid scan, but they were acquired sequentially. **Volumetric imaging** is therefore repeated three-dimensional sampling, rather than literally simultaneous observation of every neuron. Its short interval preserves broad temporal relationships between regions while retaining enough spatial detail to separate many neighboring cells."
+      ],
+      "transcript": [
+        "Ahrens and colleagues collected sections at 5 µm intervals through the larval brain. Each camera exposure lasted 5 ms, and a section was acquired every 30 ms. Forty-one sections covered the approximately 200 µm depth of the recorded volume.",
+        "The system captured a whole brain about once every 1.3 s, corresponding to a volume rate near 0.8 Hz. This rate was comparable to the time course of the GCaMP5G signal at room temperature, allowing changes in neuronal calcium to be followed across successive volumes.",
+        "All sections belonged to the same rapid scan, but they were acquired sequentially. Volumetric imaging is therefore repeated three-dimensional sampling, rather than literally simultaneous observation of every neuron. Its short interval preserves broad temporal relationships between regions while retaining enough spatial detail to separate many neighboring cells."
+      ],
+      "cite": "Ahrens et al. (2013)",
+      "refs": [
+        "Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ (2013). Whole-brain functional imaging at cellular resolution using light-sheet microscopy. Nature Methods 10(5):413–420. https://doi.org/10.1038/nmeth.2434"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/l1ab.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2013), Fig. 1A–B. Light-sheet illumination and rapid volume acquisition.",
+        "source_url": "https://doi.org/10.1038/nmeth.2434"
+      }
+    },
+    {
+      "title": "Calcium changes preserve identifiable neuronal signals",
+      "body": [
+        "Ahrens and colleagues examined calcium fluorescence changes in small regions of the whole-brain recording. **Fractional fluorescence change**, written ΔF/F, expresses the change relative to a reference fluorescence level. Active cells could be distinguished from surrounding tissue by the changing signal.",
+        "The same neuronal identities were recognizable in dorsal and lateral projections. A **projection** summarizes a three-dimensional image along one axis. Matching identities across views established that the recorded activity belonged to separable cells within the volume, including cells close together along the detection axis.",
+        "Functional changes sometimes separated neighboring neurons more clearly than resting anatomy did. Cells did not all become active at the same time, so their distinct temporal signals supplemented spatial separation. The combination of anatomy and calcium dynamics retained cellular information within a large brain-wide measurement."
+      ],
+      "transcript": [
+        "Ahrens and colleagues examined calcium fluorescence changes in small regions of the whole-brain recording. Fractional fluorescence change, written ΔF/F, expresses the change relative to a reference fluorescence level. Active cells could be distinguished from surrounding tissue by the changing signal.",
+        "The same neuronal identities were recognizable in dorsal and lateral projections. A projection summarizes a three-dimensional image along one axis. Matching identities across views established that the recorded activity belonged to separable cells within the volume, including cells close together along the detection axis.",
+        "Functional changes sometimes separated neighboring neurons more clearly than resting anatomy did. Cells did not all become active at the same time, so their distinct temporal signals supplemented spatial separation. The combination of anatomy and calcium dynamics retained cellular information within a large brain-wide measurement."
+      ],
+      "cite": "Ahrens et al. (2013)",
+      "refs": [
+        "Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ (2013). Whole-brain functional imaging at cellular resolution using light-sheet microscopy. Nature Methods 10(5):413–420. https://doi.org/10.1038/nmeth.2434"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/l2bc.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2013), Fig. 2C. Successive calcium responses of individual neurons with spatial scale bars.",
+        "source_url": "https://doi.org/10.1038/nmeth.2434"
+      }
+    },
+    {
+      "title": "Whole-brain activity spans distant structures",
+      "body": [
+        "The light-sheet study recorded spontaneous neuronal calcium without external stimulation. **Spontaneous activity** is ongoing activity that occurs without a stimulus deliberately delivered by the experimenter. Large calcium events could span midbrain and hindbrain regions within the same sequence of volumes.",
+        "Ahrens and colleagues overlaid fluorescence changes on anatomical images. The resulting maps preserved the location of active cells while revealing how broad events evolved over intervals of approximately 1.39 s in the displayed example. Some cells activated together, while others followed different temporal patterns.",
+        "Whole-brain coverage exposed coordination across structures that were physically separated. The activity pattern could not be reduced to one local signal, because different groups contributed at different times. Recording these relationships provided the basis for identifying distributed functional populations during ongoing brain activity."
+      ],
+      "transcript": [
+        "The light-sheet study recorded spontaneous neuronal calcium without external stimulation. Spontaneous activity is ongoing activity that occurs without a stimulus deliberately delivered by the experimenter. Large calcium events could span midbrain and hindbrain regions within the same sequence of volumes.",
+        "Ahrens and colleagues overlaid fluorescence changes on anatomical images. The resulting maps preserved the location of active cells while revealing how broad events evolved over intervals of approximately 1.39 s in the displayed example. Some cells activated together, while others followed different temporal patterns.",
+        "Whole-brain coverage exposed coordination across structures that were physically separated. The activity pattern could not be reduced to one local signal, because different groups contributed at different times. Recording these relationships provided the basis for identifying distributed functional populations during ongoing brain activity."
+      ],
+      "cite": "Ahrens et al. (2013)",
+      "refs": [
+        "Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ (2013). Whole-brain functional imaging at cellular resolution using light-sheet microscopy. Nature Methods 10(5):413–420. https://doi.org/10.1038/nmeth.2434"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/l2a.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2013), Fig. 2A. Successive whole-brain activity volumes with fluorescence scale.",
+        "source_url": "https://doi.org/10.1038/nmeth.2434"
+      }
+    },
+    {
+      "title": "Habenular cells have opposing activity relationships",
+      "body": [
+        "The **habenula** is a forebrain structure with connections to other brain regions involved in behavioral regulation. Ahrens and colleagues measured calcium from individual neurons in the left habenula and compared their time courses with average hindbrain activity.",
+        "Some habenular neurons increased calcium with hindbrain events, while others decreased it. Averaging the whole habenula could conceal these opposing relationships. **Correlation** describes covariation between measured signals; a positive relation and a negative relation can cancel when mixed within one regional average.",
+        "Individual habenular cells also exhibited slower fluctuations than many midbrain and hindbrain signals. The study therefore separated regional independence from cellular heterogeneity. A brain area may contain multiple temporally distinct populations, and the relationship of one subgroup to locomotor-related activity can differ from that of a neighboring subgroup."
+      ],
+      "transcript": [
+        "The habenula is a forebrain structure with connections to other brain regions involved in behavioral regulation. Ahrens and colleagues measured calcium from individual neurons in the left habenula and compared their time courses with average hindbrain activity.",
+        "Some habenular neurons increased calcium with hindbrain events, while others decreased it. Averaging the whole habenula could conceal these opposing relationships. Correlation describes covariation between measured signals; a positive relation and a negative relation can cancel when mixed within one regional average.",
+        "Individual habenular cells also exhibited slower fluctuations than many midbrain and hindbrain signals. The study therefore separated regional independence from cellular heterogeneity. A brain area may contain multiple temporally distinct populations, and the relationship of one subgroup to locomotor-related activity can differ from that of a neighboring subgroup."
+      ],
+      "cite": "Ahrens et al. (2013)",
+      "refs": [
+        "Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ (2013). Whole-brain functional imaging at cellular resolution using light-sheet microscopy. Nature Methods 10(5):413–420. https://doi.org/10.1038/nmeth.2434"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/l4.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 4A–C. Habenular cells carry opposing relations to hindbrain activity.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        },
+        {
+          "path": "figures/l3.png",
+          "kind": "article",
+          "caption": "Ahrens et al. (2013), Fig. 3A–E. Anatomical regions and their activity relationships.",
+          "source_url": "https://doi.org/10.1038/nmeth.2434"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Population covariance identifies a hindbrain-spinal network",
+      "body": [
+        "**Covariance** describes how signals vary together. Ahrens and colleagues analyzed the covariance of voxel activity to identify populations sharing fluctuations. A **voxel** is a three-dimensional image element, analogous to a pixel in a two-dimensional image.",
+        "One extracted network contained hindbrain cell bodies and spinal cord neuropil. **Neuropil** is tissue rich in neuronal processes and synapses. The population’s anatomical distribution resembled the known reticulospinal system, which links hindbrain activity with descending control of spinal circuitry.",
+        "The activity pattern supplied a functional connection between distant recording sites. It was identified from spontaneous fluctuations rather than alignment to an experimentally timed stimulus. This method could recover a distributed population even when its activity had no externally provided temporal reference, extending functional mapping beyond stimulus-locked responses."
+      ],
+      "transcript": [
+        "Covariance describes how signals vary together. Ahrens and colleagues analyzed the covariance of voxel activity to identify populations sharing fluctuations. A voxel is a three-dimensional image element, analogous to a pixel in a two-dimensional image.",
+        "One extracted network contained hindbrain cell bodies and spinal cord neuropil. Neuropil is tissue rich in neuronal processes and synapses. The population’s anatomical distribution resembled the known reticulospinal system, which links hindbrain activity with descending control of spinal circuitry.",
+        "The activity pattern supplied a functional connection between distant recording sites. It was identified from spontaneous fluctuations rather than alignment to an experimentally timed stimulus. This method could recover a distributed population even when its activity had no externally provided temporal reference, extending functional mapping beyond stimulus-locked responses."
+      ],
+      "cite": "Ahrens et al. (2013)",
+      "refs": [
+        "Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ (2013). Whole-brain functional imaging at cellular resolution using light-sheet microscopy. Nature Methods 10(5):413–420. https://doi.org/10.1038/nmeth.2434"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/l5.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2013), Fig. 5. Population covariance identifies a hindbrain-spinal network.",
+        "source_url": "https://doi.org/10.1038/nmeth.2434"
+      }
+    },
+    {
+      "title": "Hindbrain populations alternate over tens of seconds",
+      "body": [
+        "Ahrens and colleagues identified a second network with left and right hindbrain populations that varied in opposite phase. **Antiphase** means that one side’s activity rises while the other falls. The alternating pattern had a timescale of approximately 20 s.",
+        "The same slow dynamics were coupled to activity in the inferior olive. This nucleus was therefore part of a broad temporal relationship extending beyond its previously measured gain-adaptation responses. Anatomical maps placed the alternating populations symmetrically within the anterior hindbrain.",
+        "The study’s hypothesis is that these dynamics could relate to slowly alternating directional motor control. The recordings were made in immobilized larvae without simultaneous movement measurement, so the behavioral assignment remains a hypothesis. The observed finding is a distributed, lateralized activity pattern with a reproducible slow timescale."
+      ],
+      "transcript": [
+        "Ahrens and colleagues identified a second network with left and right hindbrain populations that varied in opposite phase. Antiphase means that one side’s activity rises while the other falls. The alternating pattern had a timescale of approximately 20 s.",
+        "The same slow dynamics were coupled to activity in the inferior olive. This nucleus was therefore part of a broad temporal relationship extending beyond its previously measured gain-adaptation responses. Anatomical maps placed the alternating populations symmetrically within the anterior hindbrain.",
+        "The study’s hypothesis is that these dynamics could relate to slowly alternating directional motor control. The recordings were made in immobilized larvae without simultaneous movement measurement, so the behavioral assignment remains a hypothesis. The observed finding is a distributed, lateralized activity pattern with a reproducible slow timescale."
+      ],
+      "cite": "Ahrens et al. (2013)",
+      "refs": [
+        "Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ (2013). Whole-brain functional imaging at cellular resolution using light-sheet microscopy. Nature Methods 10(5):413–420. https://doi.org/10.1038/nmeth.2434"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/l6.png",
+        "kind": "article",
+        "caption": "Ahrens et al. (2013), Fig. 6A–I. Alternating hindbrain populations and inferior olive activity.",
+        "source_url": "https://doi.org/10.1038/nmeth.2434"
+      }
+    },
+    {
+      "title": "Eye tracking stabilizes the visual scene",
+      "body": [
+        "The **optokinetic response** is eye rotation in the direction of whole-field visual motion, reducing movement of the scene across the retina. It differs from the optomotor response, which changes body movement. Portugues and colleagues used rotating striped patterns to evoke eye tracking in zebrafish larvae.",
+        "The eyes were free to move while the head was restrained for two-photon imaging. An infrared camera recorded eye angles and tail activity. Slow tracking movements followed stimulus rotation, with occasional **saccades**, rapid movements that reset eye position.",
+        "This preparation linked visual input, eye movement and neuronal calcium in the same animal. A repeating visual stimulus permitted comparable behavior across many recording planes. The resulting maps described the distributed circuit engaged in gaze stabilization rather than treating every visual response as a command for swimming."
+      ],
+      "transcript": [
+        "The optokinetic response is eye rotation in the direction of whole-field visual motion, reducing movement of the scene across the retina. It differs from the optomotor response, which changes body movement. Portugues and colleagues used rotating striped patterns to evoke eye tracking in zebrafish larvae.",
+        "The eyes were free to move while the head was restrained for two-photon imaging. An infrared camera recorded eye angles and tail activity. Slow tracking movements followed stimulus rotation, with occasional saccades, rapid movements that reset eye position.",
+        "This preparation linked visual input, eye movement and neuronal calcium in the same animal. A repeating visual stimulus permitted comparable behavior across many recording planes. The resulting maps described the distributed circuit engaged in gaze stabilization rather than treating every visual response as a command for swimming."
+      ],
+      "cite": "Portugues et al. (2014)",
+      "refs": [
+        "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/v1b.png",
+        "kind": "article",
+        "caption": "Portugues et al. (2014), Fig. 1B. Eye positions follow a rotating whole-field stimulus.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+      }
+    },
+    {
+      "title": "Sensory and motor responses form bilateral phase maps",
+      "body": [
+        "**Response phase** is the timing of an activity fluctuation relative to a repeating stimulus cycle. Portugues and colleagues assigned each recording region a color according to when its calcium activity peaked during rotation. The map combined temporal information with anatomical location.",
+        "Many left- and right-sided regions were organized symmetrically but activated at opposite phases. Regions including the pretectum, optic tectum and hindbrain contributed different parts of the cycle. The **pretectum** is a visual-processing region anterior to the optic tectum that participates in optic-flow pathways.",
+        "Sensory-associated regions generally activated earlier than motor-associated hindbrain structures. The left habenula was a prominent exception to broad bilateral symmetry, carrying more of the recorded habenular response than the right. Thus, one repetitive behavior recruited an ordered distributed pattern with both symmetric organization and a specific lateralized component."
+      ],
+      "transcript": [
+        "Response phase is the timing of an activity fluctuation relative to a repeating stimulus cycle. Portugues and colleagues assigned each recording region a color according to when its calcium activity peaked during rotation. The map combined temporal information with anatomical location.",
+        "Many left- and right-sided regions were organized symmetrically but activated at opposite phases. Regions including the pretectum, optic tectum and hindbrain contributed different parts of the cycle. The pretectum is a visual-processing region anterior to the optic tectum that participates in optic-flow pathways.",
+        "Sensory-associated regions generally activated earlier than motor-associated hindbrain structures. The left habenula was a prominent exception to broad bilateral symmetry, carrying more of the recorded habenular response than the right. Thus, one repetitive behavior recruited an ordered distributed pattern with both symmetric organization and a specific lateralized component."
+      ],
+      "cite": "Portugues et al. (2014)",
+      "refs": [
+        "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/v1d.png",
+        "kind": "article",
+        "caption": "Portugues et al. (2014), Fig. 1D. Activity phase maps across the brain during eye tracking.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+      }
+    },
+    {
+      "title": "Four temporal clusters divide the tracking network",
+      "body": [
+        "A **cluster** is a group of recording sites with similar measured response patterns. Portugues and colleagues grouped calcium traces according to their time courses during repeated rotation. Four major clusters described early and late responses on the two sides of the brain.",
+        "The clusters occupied distinct anatomical territories. Their bilateral arrangement and temporal order were consistent with a division between sensory processing and motor-related activity. A neuron’s response timing therefore connected it to a spatially structured population rather than only to the global stimulus.",
+        "Similar sets of response profiles recurred across animals with robust tracking. The organization was both distributed and stereotyped: multiple structures participated, but their functional arrangement was reproducible. Grouping the raw time courses recovered this arrangement before individual sensory and motor variables were separated by further stimulus manipulations."
+      ],
+      "transcript": [
+        "A cluster is a group of recording sites with similar measured response patterns. Portugues and colleagues grouped calcium traces according to their time courses during repeated rotation. Four major clusters described early and late responses on the two sides of the brain.",
+        "The clusters occupied distinct anatomical territories. Their bilateral arrangement and temporal order were consistent with a division between sensory processing and motor-related activity. A neuron’s response timing therefore connected it to a spatially structured population rather than only to the global stimulus.",
+        "Similar sets of response profiles recurred across animals with robust tracking. The organization was both distributed and stereotyped: multiple structures participated, but their functional arrangement was reproducible. Grouping the raw time courses recovered this arrangement before individual sensory and motor variables were separated by further stimulus manipulations."
+      ],
+      "cite": "Portugues et al. (2014)",
+      "refs": [
+        "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/v2a.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 2A. Four temporal clusters of calcium responses.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        },
+        {
+          "path": "figures/v2bc.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 2B–C. Anatomical distribution and brain regions of the four clusters.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Registration aligns functional anatomy across animals",
+      "body": [
+        "**Image registration** aligns anatomical recordings into a shared coordinate system. Portugues and colleagues first applied a global transformation and then a local deformation to match each larval brain to a reference. This permitted comparison of activity at corresponding locations across animals.",
+        "Registration accuracy was on the scale of one cell body, approximately 4.5 µm. The aligned maps contained recurring regions of stimulus-linked activity. Similar responses could therefore be compared at a much finer spatial scale than an entire named brain area.",
+        "The result established stereotyped functional organization without requiring that every active soma occupy an identical position. Activity in some sparse cell-body populations varied more than activity in broad neuropil regions. The common coordinate system distinguished reproducible regional structure from local variation among individual neurons."
+      ],
+      "transcript": [
+        "Image registration aligns anatomical recordings into a shared coordinate system. Portugues and colleagues first applied a global transformation and then a local deformation to match each larval brain to a reference. This permitted comparison of activity at corresponding locations across animals.",
+        "Registration accuracy was on the scale of one cell body, approximately 4.5 µm. The aligned maps contained recurring regions of stimulus-linked activity. Similar responses could therefore be compared at a much finer spatial scale than an entire named brain area.",
+        "The result established stereotyped functional organization without requiring that every active soma occupy an identical position. Activity in some sparse cell-body populations varied more than activity in broad neuropil regions. The common coordinate system distinguished reproducible regional structure from local variation among individual neurons."
+      ],
+      "cite": "Portugues et al. (2014)",
+      "refs": [
+        "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/v3ab.png",
+        "kind": "article",
+        "caption": "Portugues et al. (2014), Fig. 3A–B. Registration aligns brain anatomy and recurring activity.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+      }
+    },
+    {
+      "title": "Distinct visual fields separate sensory and motor signals",
+      "body": [
+        "Whole-field rotation moves both eyes together, making several sensory and motor variables covary. Portugues and colleagues changed the visual-field configuration to separate these relationships. Stimuli could be presented to one eye, both eyes, or in different directional combinations.",
+        "Monocular stimulation produced different movement amplitudes in the two eyes. Other configurations approximated translation and elicited **vergence**, movement of the eyes toward or away from one another, as well as optomotor swimming. These responses provided distinct behavioral records instead of one shared tracking waveform.",
+        "A neuron could then be compared with visual motion on each side and with independent eye or tail variables. The stimulus manipulation changed which signals occurred together. Functional classification could consequently distinguish visual-field responses, gaze-related activity and locomotor responses within the same anatomically distributed network."
+      ],
+      "transcript": [
+        "Whole-field rotation moves both eyes together, making several sensory and motor variables covary. Portugues and colleagues changed the visual-field configuration to separate these relationships. Stimuli could be presented to one eye, both eyes, or in different directional combinations.",
+        "Monocular stimulation produced different movement amplitudes in the two eyes. Other configurations approximated translation and elicited vergence, movement of the eyes toward or away from one another, as well as optomotor swimming. These responses provided distinct behavioral records instead of one shared tracking waveform.",
+        "A neuron could then be compared with visual motion on each side and with independent eye or tail variables. The stimulus manipulation changed which signals occurred together. Functional classification could consequently distinguish visual-field responses, gaze-related activity and locomotor responses within the same anatomically distributed network."
+      ],
+      "cite": "Portugues et al. (2014)",
+      "refs": [
+        "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/v6a.png",
+        "kind": "article",
+        "caption": "Portugues et al. (2014), Fig. 6A. Separate visual-field conditions evoke distinct eye and tail responses.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+      }
+    },
+    {
+      "title": "Calcium regressors link activity to measured behavior",
+      "body": [
+        "A **regressor** is a candidate time-varying signal used to explain a measured response. Portugues and colleagues generated predicted calcium traces from visual velocity, eye position, eye movement and swimming. These predictions incorporated the temporal response of the calcium indicator.",
+        "Different regions best matched different variables. Pretectal and tectal regions carried visual information, while caudal hindbrain cells followed eye position and other motor-related signals. Some left habenular responses matched whether a stimulus appeared on one side, rather than the motion driving the tracking reflex.",
+        "**Eye position** and **eye velocity** are distinct signals: the former describes gaze angle, while the latter describes how quickly that angle changes. Comparing both with calcium revealed functional diversity within the motor network. A visually stimulated brain contained sensory, motor and mixed response classes at the same time."
+      ],
+      "transcript": [
+        "A regressor is a candidate time-varying signal used to explain a measured response. Portugues and colleagues generated predicted calcium traces from visual velocity, eye position, eye movement and swimming. These predictions incorporated the temporal response of the calcium indicator.",
+        "Different regions best matched different variables. Pretectal and tectal regions carried visual information, while caudal hindbrain cells followed eye position and other motor-related signals. Some left habenular responses matched whether a stimulus appeared on one side, rather than the motion driving the tracking reflex.",
+        "Eye position and eye velocity are distinct signals: the former describes gaze angle, while the latter describes how quickly that angle changes. Comparing both with calcium revealed functional diversity within the motor network. A visually stimulated brain contained sensory, motor and mixed response classes at the same time."
+      ],
+      "cite": "Portugues et al. (2014)",
+      "refs": [
+        "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/v6c.png",
+        "kind": "article",
+        "caption": "Portugues et al. (2014), Fig. 6C. Distinct sensory and motor variables explain activity in different regions.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+      }
+    },
+    {
+      "title": "Eye-position signals occupy reproducible hindbrain regions",
+      "body": [
+        "Portugues and colleagues mapped activity correlated with the nasal-to-temporal position of each eye. **Nasal** denotes the direction toward the body midline, while **temporal** denotes the direction away from it. Position-related regions were concentrated near the dorsal surface of the caudal hindbrain.",
+        "Their activity was consistent with a **velocity-to-position integrator**, a circuit that maintains a position-related command after receiving movement-related input. Holding the eyes at a changed angle requires a maintained command rather than only a transient signal to start moving.",
+        "The anatomical distribution recurred across aligned animals and had corresponding left- and right-eye components. This comparison connected a specific motor variable with a reproducible circuit territory. It also separated gaze-holding activity from neurons whose signals primarily followed visual velocity or the location of the displayed stimulus."
+      ],
+      "transcript": [
+        "Portugues and colleagues mapped activity correlated with the nasal-to-temporal position of each eye. Nasal denotes the direction toward the body midline, while temporal denotes the direction away from it. Position-related regions were concentrated near the dorsal surface of the caudal hindbrain.",
+        "Their activity was consistent with a velocity-to-position integrator, a circuit that maintains a position-related command after receiving movement-related input. Holding the eyes at a changed angle requires a maintained command rather than only a transient signal to start moving.",
+        "The anatomical distribution recurred across aligned animals and had corresponding left- and right-eye components. This comparison connected a specific motor variable with a reproducible circuit territory. It also separated gaze-holding activity from neurons whose signals primarily followed visual velocity or the location of the displayed stimulus."
+      ],
+      "cite": "Portugues et al. (2014)",
+      "refs": [
+        "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/v7eye.png",
+        "kind": "article",
+        "caption": "Portugues et al. (2014), Fig. 7 (eye-position maps). Eye-position-related regions recur across animals.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+      }
+    },
+    {
+      "title": "Sensory and locomotor functions share a distributed brain",
+      "body": [
+        "Portugues and colleagues found tectal neurons that responded more strongly to visual motion consistent with translation than to whole-field rotation. Some hindbrain neurons showed the reverse preference. Different visual geometries therefore recruited different functional populations even though the same eyes received the stimuli.",
+        "Multivariable classification also recovered a symmetric hindbrain population associated with swimming. Swimming varied across trials and animals, so simple averaging could weaken its trace. Matching each recording with that animal’s measured motor behavior recovered information that an averaged stimulus response could obscure.",
+        "The network supporting eye tracking overlapped with sensory and motor systems used by other behaviors. Functional mapping distinguished the signals occupying those shared structures. Distributed activity during one task can include stimulus detection, gaze control and occasional locomotion, with each component identified through its own temporal relationship to behavior."
+      ],
+      "transcript": [
+        "Portugues and colleagues found tectal neurons that responded more strongly to visual motion consistent with translation than to whole-field rotation. Some hindbrain neurons showed the reverse preference. Different visual geometries therefore recruited different functional populations even though the same eyes received the stimuli.",
+        "Multivariable classification also recovered a symmetric hindbrain population associated with swimming. Swimming varied across trials and animals, so simple averaging could weaken its trace. Matching each recording with that animal’s measured motor behavior recovered information that an averaged stimulus response could obscure.",
+        "The network supporting eye tracking overlapped with sensory and motor systems used by other behaviors. Functional mapping distinguished the signals occupying those shared structures. Distributed activity during one task can include stimulus detection, gaze control and occasional locomotion, with each component identified through its own temporal relationship to behavior."
+      ],
+      "cite": "Portugues et al. (2014)",
+      "refs": [
+        "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/v6c.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 6C. Distinct sensory and motor variables explain activity in different regions.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        },
+        {
+          "path": "figures/v4.png",
+          "kind": "article",
+          "caption": "Portugues et al. (2014), Fig. 4. Depth-resolved functional map averaged across aligned brains.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.01.019"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Failed swim attempts trigger alternating passive periods",
+      "body": [
+        "**Motor futility** occurs when attempts to act repeatedly fail to produce the expected movement consequence. Mu and colleagues first allowed larval zebrafish to control visual motion through fictive swimming, then removed this coupling while keeping forward-moving gratings visible.",
+        "The fish initially continued swimming and subsequently entered passive periods lasting tens of seconds. **Passivity** was operationally defined as an epoch with no swim for at least 5 s. Under prolonged open loop, passive periods alternated with renewed active attempts rather than forming permanent immobility.",
+        "Passivity also occurred during replay of a previously recorded closed-loop visual sequence. The crucial change was therefore the loss of correspondence between current actions and feedback. Repeated unsuccessful commands altered behavioral state, extending feedback-dependent control beyond adjustments of the strength of individual swim bouts."
+      ],
+      "transcript": [
+        "Motor futility occurs when attempts to act repeatedly fail to produce the expected movement consequence. Mu and colleagues first allowed larval zebrafish to control visual motion through fictive swimming, then removed this coupling while keeping forward-moving gratings visible.",
+        "The fish initially continued swimming and subsequently entered passive periods lasting tens of seconds. Passivity was operationally defined as an epoch with no swim for at least 5 s. Under prolonged open loop, passive periods alternated with renewed active attempts rather than forming permanent immobility.",
+        "Passivity also occurred during replay of a previously recorded closed-loop visual sequence. The crucial change was therefore the loss of correspondence between current actions and feedback. Repeated unsuccessful commands altered behavioral state, extending feedback-dependent control beyond adjustments of the strength of individual swim bouts."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/g1cdef.png",
+        "kind": "article",
+        "caption": "Mu et al. (2019), Fig. 1C–F. Open-loop feedback produces repeated passive periods, including during replay.",
+        "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+      }
+    },
+    {
+      "title": "Passive behavior includes reduced visual responsiveness",
+      "body": [
+        "Mu and colleagues tested how the passive state changed responses to brief visual motion. Animals in active closed-loop behavior frequently initiated swimming when gratings moved forward. Animals placed in the passive state by ineffective feedback responded much less often to the same type of visual event.",
+        "Passive epochs averaged approximately 24 s, while active epochs averaged approximately 36 s in prolonged open loop. These durations describe a recurring state transition rather than the ordinary short interval between swim bouts. Reducing feedback gain toward zero increased the time spent passive.",
+        "The response depended on movement efficacy, with naturalistic gain supporting activity and very weak feedback promoting suppression. Loss of responsiveness was therefore coupled to recent action consequences. The behavioral state modified how incoming visual motion was translated into another motor command."
+      ],
+      "transcript": [
+        "Mu and colleagues tested how the passive state changed responses to brief visual motion. Animals in active closed-loop behavior frequently initiated swimming when gratings moved forward. Animals placed in the passive state by ineffective feedback responded much less often to the same type of visual event.",
+        "Passive epochs averaged approximately 24 s, while active epochs averaged approximately 36 s in prolonged open loop. These durations describe a recurring state transition rather than the ordinary short interval between swim bouts. Reducing feedback gain toward zero increased the time spent passive.",
+        "The response depended on movement efficacy, with naturalistic gain supporting activity and very weak feedback promoting suppression. Loss of responsiveness was therefore coupled to recent action consequences. The behavioral state modified how incoming visual motion was translated into another motor command."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/g1k.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 1K. Visual-motion response falls during passive behavior.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g1hj.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 1G–K. Passive epochs and gain dependence of behavioral suppression.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Neuronal and glial calcium change in opposite directions",
+      "body": [
+        "**Glia** are nervous-system cells with functions distinct from neurons, including regulation of the environment in which neural signaling occurs. Mu and colleagues simultaneously imaged neurons and radial astrocytes, a glial population with long projecting processes, during feedback-induced changes in behavior.",
+        "Separate genetically targeted indicators distinguished the two populations: neuronal GCaMP6f and glial jRGECO1b, a red calcium indicator. At passivity onset, average neuronal calcium declined while glial calcium rose. The glial increase began seconds before the cessation of swimming.",
+        "The opposing signals separated a broad reduction of neuronal activity from recruitment of a non-neuronal population. **Dual-color imaging** records distinct labeled cell types in the same behavioral episode. Their relative timing placed glial activation before the passive state, motivating experiments that directly altered glial function."
+      ],
+      "transcript": [
+        "Glia are nervous-system cells with functions distinct from neurons, including regulation of the environment in which neural signaling occurs. Mu and colleagues simultaneously imaged neurons and radial astrocytes, a glial population with long projecting processes, during feedback-induced changes in behavior.",
+        "Separate genetically targeted indicators distinguished the two populations: neuronal GCaMP6f and glial jRGECO1b, a red calcium indicator. At passivity onset, average neuronal calcium declined while glial calcium rose. The glial increase began seconds before the cessation of swimming.",
+        "The opposing signals separated a broad reduction of neuronal activity from recruitment of a non-neuronal population. Dual-color imaging records distinct labeled cell types in the same behavioral episode. Their relative timing placed glial activation before the passive state, motivating experiments that directly altered glial function."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/g2bc.png",
+        "kind": "article",
+        "caption": "Mu et al. (2019), Fig. 2B–C. Neuronal activity falls while glial calcium rises at passivity onset.",
+        "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+      }
+    },
+    {
+      "title": "Radial astrocytes reach the lateral medulla",
+      "body": [
+        "A **radial astrocyte** in this preparation has a soma near the dorsal midline and a long process extending toward lateral hindbrain tissue. Mu and colleagues filled individual cells with fluorescent dye to follow their morphology. Bushy terminal processes occupied the lateral medulla oblongata, termed L-MO.",
+        "The **medulla oblongata** is a posterior hindbrain region. L-MO spans parts of hindbrain segments called rhombomeres 2–6. Astrocytic processes ramified through neuropil and lay adjacent to somata of neurons labeled for GABAergic identity at the edge of the brain.",
+        "Passivity-linked calcium increases were prominent in these lateral glial processes. Anatomy therefore connected the recorded signal with a spatially defined interface between glia and local neurons. The same cells linked dorsal somata with lateral process fields, allowing targeted manipulation of the glial population and observation of its nearby neuronal partners."
+      ],
+      "transcript": [
+        "A radial astrocyte in this preparation has a soma near the dorsal midline and a long process extending toward lateral hindbrain tissue. Mu and colleagues filled individual cells with fluorescent dye to follow their morphology. Bushy terminal processes occupied the lateral medulla oblongata, termed L-MO.",
+        "The medulla oblongata is a posterior hindbrain region. L-MO spans parts of hindbrain segments called rhombomeres 2–6. Astrocytic processes ramified through neuropil and lay adjacent to somata of neurons labeled for GABAergic identity at the edge of the brain.",
+        "Passivity-linked calcium increases were prominent in these lateral glial processes. Anatomy therefore connected the recorded signal with a spatially defined interface between glia and local neurons. The same cells linked dorsal somata with lateral process fields, allowing targeted manipulation of the glial population and observation of its nearby neuronal partners."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figure-right",
+      "figure": {
+        "path": "figures/g3.png",
+        "kind": "article",
+        "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+        "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+      }
+    },
+    {
+      "title": "Astrocyte ablation reduces feedback-induced passivity",
+      "body": [
+        "Mu and colleagues removed radial astrocytes projecting to L-MO using targeted two-photon laser ablation. They measured swimming before and after this manipulation in open-loop conditions. The time spent in futility-induced passivity decreased by approximately half after glial removal.",
+        "Ablation of an equivalent number of randomly selected neurons did not produce the same change. Freely swimming fish also retained normal swimming frequency and velocity after astrocyte ablation. The manipulation therefore altered feedback-dependent behavioral suppression without simply preventing locomotion or producing generalized motor disruption.",
+        "Unparalyzed, head-restrained animals with a free tail also showed reduced passivity after glial ablation. The glial contribution extended beyond the fully paralyzed preparation. Healthy radial astrocytes supported the transition into a passive state when repeated attempts failed to generate useful visual feedback."
+      ],
+      "transcript": [
+        "Mu and colleagues removed radial astrocytes projecting to L-MO using targeted two-photon laser ablation. They measured swimming before and after this manipulation in open-loop conditions. The time spent in futility-induced passivity decreased by approximately half after glial removal.",
+        "Ablation of an equivalent number of randomly selected neurons did not produce the same change. Freely swimming fish also retained normal swimming frequency and velocity after astrocyte ablation. The manipulation therefore altered feedback-dependent behavioral suppression without simply preventing locomotion or producing generalized motor disruption.",
+        "Unparalyzed, head-restrained animals with a free tail also showed reduced passivity after glial ablation. The glial contribution extended beyond the fully paralyzed preparation. Healthy radial astrocytes supported the transition into a passive state when repeated attempts failed to generate useful visual feedback."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/g4bcd.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 4A–D. Radial astrocyte ablation reduces futility-induced passivity.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Intracellular calcium release supports glial control",
+      "body": [
+        "The **inositol trisphosphate receptor**, or IP3 receptor, is a channel that releases calcium from intracellular stores. Mu and colleagues applied xestospongin C, an IP3 receptor inhibitor, near radial astrocyte somata at the dorsal hindbrain midline.",
+        "The treatment reduced glial calcium transients and reduced futility-induced passivity. Delivery to a glia-rich region limited exposure of surrounding neurons. This manipulation changed intracellular signaling without removing the cells, complementing the result obtained by laser ablation.",
+        "Calcium signaling within the astrocytes therefore contributed to behavioral regulation, beyond their mere structural presence. The result connects a membrane channel on internal calcium stores with a change in movement probability. Repeated failures engage a glial signaling process that helps convert recent experience into suppression of further swimming."
+      ],
+      "transcript": [
+        "The inositol trisphosphate receptor, or IP3 receptor, is a channel that releases calcium from intracellular stores. Mu and colleagues applied xestospongin C, an IP3 receptor inhibitor, near radial astrocyte somata at the dorsal hindbrain midline.",
+        "The treatment reduced glial calcium transients and reduced futility-induced passivity. Delivery to a glia-rich region limited exposure of surrounding neurons. This manipulation changed intracellular signaling without removing the cells, complementing the result obtained by laser ablation.",
+        "Calcium signaling within the astrocytes therefore contributed to behavioral regulation, beyond their mere structural presence. The result connects a membrane channel on internal calcium stores with a change in movement probability. Repeated failures engage a glial signaling process that helps convert recent experience into suppression of further swimming."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/g4h.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 4H. IP3 receptor inhibition reduces passive behavior.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Engineered TRPV1 raises glial calcium and passivity",
+      "body": [
+        "**TRPV1** is a cation channel that can be activated by capsaicin. Mu and colleagues expressed the capsaicin-sensitive rat channel in a small subset of radial astrocytes. Endogenous zebrafish Trpv1 is insensitive to capsaicin, separating activation of the engineered cells from ordinary drug exposure.",
+        "Application of 5 µM capsaicin increased glial calcium fluctuations. Even in closed loop, where swims produced effective feedback, fish spent more than 60% of the time passive after these surges appeared. Fish lacking the introduced channel and saline-treated channel-expressing controls did not show the same effect.",
+        "Artificially increasing glial calcium could therefore suppress swimming without repeated external failure. The manipulation linked astrocytic signaling with entry into the behavioral state. Calcium rose before passivity and peaked shortly afterward, resembling the temporal pattern recorded during naturally induced motor futility."
+      ],
+      "transcript": [
+        "TRPV1 is a cation channel that can be activated by capsaicin. Mu and colleagues expressed the capsaicin-sensitive rat channel in a small subset of radial astrocytes. Endogenous zebrafish Trpv1 is insensitive to capsaicin, separating activation of the engineered cells from ordinary drug exposure.",
+        "Application of 5 µM capsaicin increased glial calcium fluctuations. Even in closed loop, where swims produced effective feedback, fish spent more than 60% of the time passive after these surges appeared. Fish lacking the introduced channel and saline-treated channel-expressing controls did not show the same effect.",
+        "Artificially increasing glial calcium could therefore suppress swimming without repeated external failure. The manipulation linked astrocytic signaling with entry into the behavioral state. Calcium rose before passivity and peaked shortly afterward, resembling the temporal pattern recorded during naturally induced motor futility."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/g5abcdef.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 5A–I. TRPV1-mediated glial calcium elevation causes passivity with matched controls.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Two optical glial manipulations suppress swimming",
+      "body": [
+        "**Optogenetics** uses introduced light-sensitive proteins to manipulate selected cells. Mu and colleagues expressed CoChR, a light-gated channel, in radial astrocytes and illuminated their lateral processes. The manipulation increased calcium and reduced swim power with precise control over stimulation timing.",
+        "A second manipulation used Opto-α1-AR, a light-sensitive **G-protein-coupled receptor**, which communicates through intracellular signaling proteins rather than directly forming a conducting pore. It mimicked α1 adrenergic signaling and also increased glial calcium while suppressing swimming.",
+        "Matched controls accounted for a small immediate response to scattered blue light. Both manipulations produced additional suppression beyond this visual effect. A direct channel and an indirect receptor pathway thus converged on a behavioral reduction, reinforcing the connection between activation of the radial astrocyte population and lower locomotor output."
+      ],
+      "transcript": [
+        "Optogenetics uses introduced light-sensitive proteins to manipulate selected cells. Mu and colleagues expressed CoChR, a light-gated channel, in radial astrocytes and illuminated their lateral processes. The manipulation increased calcium and reduced swim power with precise control over stimulation timing.",
+        "A second manipulation used Opto-α1-AR, a light-sensitive G-protein-coupled receptor, which communicates through intracellular signaling proteins rather than directly forming a conducting pore. It mimicked α1 adrenergic signaling and also increased glial calcium while suppressing swimming.",
+        "Matched controls accounted for a small immediate response to scattered blue light. Both manipulations produced additional suppression beyond this visual effect. A direct channel and an indirect receptor pathway thus converged on a behavioral reduction, reinforcing the connection between activation of the radial astrocyte population and lower locomotor output."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/g5jop.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 5J–P. Two optogenetic glial activation methods suppress swim power.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "GABAergic neurons relay glial motor suppression",
+      "body": [
+        "**GABAergic neurons** use gamma-aminobutyric acid, GABA, as a neurotransmitter. Mu and colleagues identified GABAergic somata near the lateral medulla whose processes occupied the same region as radial astrocyte terminals. These neurons increased activity around the onset of passivity.",
+        "Increasing astrocytic calcium through either TRPV1 or CoChR recruited neurons at the edge of L-MO. Direct optogenetic activation of the local GABAergic population suppressed swimming. The glial manipulation and neuronal manipulation therefore linked two components of a pathway influencing locomotor output.",
+        "The authors’ model places GABAergic neurons downstream of radial astrocytes. The experiment establishes recruitment of these neurons and their suppressive effect, while the molecular signal from astrocytes to neurons was not identified. This distinction prevents assigning a specific gliotransmitter or GABA receptor subtype that the study did not measure."
+      ],
+      "transcript": [
+        "GABAergic neurons use gamma-aminobutyric acid, GABA, as a neurotransmitter. Mu and colleagues identified GABAergic somata near the lateral medulla whose processes occupied the same region as radial astrocyte terminals. These neurons increased activity around the onset of passivity.",
+        "Increasing astrocytic calcium through either TRPV1 or CoChR recruited neurons at the edge of L-MO. Direct optogenetic activation of the local GABAergic population suppressed swimming. The glial manipulation and neuronal manipulation therefore linked two components of a pathway influencing locomotor output.",
+        "The authors’ model places GABAergic neurons downstream of radial astrocytes. The experiment establishes recruitment of these neurons and their suppressive effect, while the molecular signal from astrocytes to neurons was not identified. This distinction prevents assigning a specific gliotransmitter or GABA receptor subtype that the study did not measure."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/g5rs.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 5R–S. Glial stimulation recruits lateral medullary neurons and GABAergic activation suppresses swimming.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Medullary norepinephrine neurons drive the glial response",
+      "body": [
+        "**Norepinephrine**, also called noradrenaline, is a neurotransmitter that can regulate the state of neural and glial populations. Mu and colleagues imaged noradrenergic neurons in the locus coeruleus and a medullary cluster termed NE-MO while simultaneously recording radial astrocyte calcium.",
+        "Noradrenergic activity preceded glial activity during switches to passivity. Removing NE-MO reduced futility-induced suppression, whereas removing the locus coeruleus did not produce the same reduction. The relevant noradrenergic contribution therefore depended on a specific medullary population rather than every norepinephrine-producing cluster.",
+        "Optogenetic NE-MO stimulation activated L-MO glial processes and induced passivity for approximately 10 s. After radial astrocyte ablation, the same neuronal stimulation no longer induced passivity. This dependency places glia within the pathway from medullary noradrenergic activation to the behavioral change."
+      ],
+      "transcript": [
+        "Norepinephrine, also called noradrenaline, is a neurotransmitter that can regulate the state of neural and glial populations. Mu and colleagues imaged noradrenergic neurons in the locus coeruleus and a medullary cluster termed NE-MO while simultaneously recording radial astrocyte calcium.",
+        "Noradrenergic activity preceded glial activity during switches to passivity. Removing NE-MO reduced futility-induced suppression, whereas removing the locus coeruleus did not produce the same reduction. The relevant noradrenergic contribution therefore depended on a specific medullary population rather than every norepinephrine-producing cluster.",
+        "Optogenetic NE-MO stimulation activated L-MO glial processes and induced passivity for approximately 10 s. After radial astrocyte ablation, the same neuronal stimulation no longer induced passivity. This dependency places glia within the pathway from medullary noradrenergic activation to the behavioral change."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/g6abc.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 6A–C. Noradrenergic neurons activate before radial astrocytes.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g6def.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 6D–F. Medullary noradrenergic ablation reduces passive behavior.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Alpha1B signaling couples norepinephrine to glial calcium",
+      "body": [
+        "An **adrenergic receptor** responds to norepinephrine or related agonists. Mu and colleagues found adrenergic receptor transcripts in radial astrocytes and tested which receptors supported their response to NE-MO stimulation. The glial processes normally increased calcium when the noradrenergic population was activated.",
+        "Prazosin, an α1 antagonist, at 50 µM prevented this calcium response. Cyclazosin, an α1B antagonist, at 10 µM also prevented it, whereas α2 blockade did not eliminate the signal. An **antagonist** inhibits receptor activation; the comparison implicated α1B signaling in the response.",
+        "The native receptor pathway and the light-sensitive α1 receptor manipulation connect extracellular neuromodulation with intracellular calcium regulation. NE-MO supplies a failure-related signal, and radial astrocytes convert that signal into a slower calcium response. Receptor specificity makes the neuronal-to-glial step experimentally distinct from direct activation of the glial cells."
+      ],
+      "transcript": [
+        "An adrenergic receptor responds to norepinephrine or related agonists. Mu and colleagues found adrenergic receptor transcripts in radial astrocytes and tested which receptors supported their response to NE-MO stimulation. The glial processes normally increased calcium when the noradrenergic population was activated.",
+        "Prazosin, an α1 antagonist, at 50 µM prevented this calcium response. Cyclazosin, an α1B antagonist, at 10 µM also prevented it, whereas α2 blockade did not eliminate the signal. An antagonist inhibits receptor activation; the comparison implicated α1B signaling in the response.",
+        "The native receptor pathway and the light-sensitive α1 receptor manipulation connect extracellular neuromodulation with intracellular calcium regulation. NE-MO supplies a failure-related signal, and radial astrocytes convert that signal into a slower calcium response. Receptor specificity makes the neuronal-to-glial step experimentally distinct from direct activation of the glial cells."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/g6jkl.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 6J–L. Adrenergic receptor blockade prevents glial calcium responses.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g3.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 3A–D. Radial astrocyte processes reach lateral medulla and GABAergic somata.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ],
+      "primary_figure_height": 2.6
+    },
+    {
+      "title": "Glial calcium accumulates across repeated failed actions",
+      "body": [
+        "Mu and colleagues compared swims with effective feedback against swims that produced no visual consequence. Medullary noradrenergic neurons responded strongly to failed swims and weakly to successful swims or visual motion alone. A **sensory-motor mismatch** is the discrepancy between action-linked expected feedback and received feedback.",
+        "NE-MO activity responded from the first failed bout, while glial calcium began accumulating after approximately two failures. During sequences of 1, 2, 4, 8 or 16 failed bouts, glial calcium continued rising even when the neuronal response saturated or declined.",
+        "Feedback was then delivered probabilistically. Calcium rose fastest when no bouts succeeded, stayed low when every bout succeeded, and increased at intermediate rates for intermediate success probabilities. Glial signaling therefore integrated the history of action outcomes, converting successive brief mismatch events into a sustained state variable that could suppress further movement."
+      ],
+      "transcript": [
+        "Mu and colleagues compared swims with effective feedback against swims that produced no visual consequence. Medullary noradrenergic neurons responded strongly to failed swims and weakly to successful swims or visual motion alone. A sensory-motor mismatch is the discrepancy between action-linked expected feedback and received feedback.",
+        "NE-MO activity responded from the first failed bout, while glial calcium began accumulating after approximately two failures. During sequences of 1, 2, 4, 8 or 16 failed bouts, glial calcium continued rising even when the neuronal response saturated or declined.",
+        "Feedback was then delivered probabilistically. Calcium rose fastest when no bouts succeeded, stayed low when every bout succeeded, and increased at intermediate rates for intermediate success probabilities. Glial signaling therefore integrated the history of action outcomes, converting successive brief mismatch events into a sustained state variable that could suppress further movement."
+      ],
+      "cite": "Mu et al. (2019)",
+      "refs": [
+        "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+      ],
+      "figure_width": 5.8,
+      "layout": "figures-right",
+      "figures": [
+        {
+          "path": "figures/g7hi.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 7H–I. Glial calcium accumulates across successive failed swim bouts.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        },
+        {
+          "path": "figures/g7jk.png",
+          "kind": "article",
+          "caption": "Mu et al. (2019), Fig. 7J–K. Feedback probability controls the rate of glial calcium accumulation.",
+          "source_url": "https://doi.org/10.1016/j.cell.2019.05.050"
+        }
+      ],
+      "primary_figure_height": 2.6
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Closed-loop control",
+        "text": "Motor commands change visual input, and subsequent visual consequences influence the next command."
+      },
+      {
+        "lead": "Rapid motor adaptation",
+        "text": "Low feedback gain strengthens swimming and high gain weakens it; the adjustment persists through a common visual interval."
+      },
+      {
+        "lead": "Distributed functional maps",
+        "text": "Replay and distinct visual-field conditions separate sensory, gaze-related and locomotor signals across the brain."
+      },
+      {
+        "lead": "Olivocerebellar contribution",
+        "text": "Inferior olive lesions disrupt gain adaptation while sparing the basic optomotor response."
+      },
+      {
+        "lead": "Neuronal-to-glial signaling",
+        "text": "Medullary norepinephrine recruits radial astrocytes through α1B signaling, and glial activity recruits swim-suppressing neurons."
+      },
+      {
+        "lead": "History-dependent behavioral state",
+        "text": "Radial astrocyte calcium accumulates repeated failed outcomes and helps switch the fish from active attempts to passivity."
+      }
+    ],
+    "cite": "Ahrens et al. (2012); Ahrens et al. (2013); Portugues et al. (2014); Mu et al. (2019)",
+    "refs": [
+      "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485(7399):471–477. https://doi.org/10.1038/nature11057",
+      "Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ (2013). Whole-brain functional imaging at cellular resolution using light-sheet microscopy. Nature Methods 10(5):413–420. https://doi.org/10.1038/nmeth.2434",
+      "Portugues R, Feierstein CE, Engert F, Orger MB (2014). Whole-Brain Activity Maps Reveal Stereotyped, Distributed Networks for Visuomotor Behavior. Neuron 81(6):1328–1343. https://doi.org/10.1016/j.neuron.2014.01.019",
+      "Mu Y, Bennett DV, Rubinov M, Narayan S, Yang CT, Tanimoto M, Mensh BD, Looger LL, Ahrens MB (2019). Glia Accumulate Evidence that Actions Are Futile and Suppress Unsuccessful Behavior. Cell 178(1):27–43.e19. https://doi.org/10.1016/j.cell.2019.05.050"
+    ]
+  }
+}
