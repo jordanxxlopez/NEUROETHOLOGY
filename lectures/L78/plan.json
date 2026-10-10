@@ -4,33 +4,57 @@
   "title": "Tickling across species: play, positive affect, and laughter-like vocalizations in animals",
   "date": "Date TBD",
   "total_slides": 46,
-  "theme": "smoke-rose-paper",
+  "theme": "umber-stone-paper",
+  "animal_groups": [
+    "rats",
+    "tame and unselected mice",
+    "golden hamsters",
+    "orangutans",
+    "gorillas",
+    "chimpanzees",
+    "bonobos",
+    "humans",
+    "dogs",
+    "wolves",
+    "horses",
+    "bottlenose dolphins",
+    "African savanna elephants",
+    "kea"
+  ],
+  "rat_focused_content_slides": [
+    4,
+    5,
+    6
+  ],
+  "evidence_scope": "Direct tickling, play signaling, mimicry, and playback-induced play distinguished explicitly",
   "content_slides": [
     {
       "slide": 2,
-      "title": "Tickling elicits ultrasonic calls and approach",
-      "citations": "Panksepp and Burgdorf (2000)",
+      "title": "Tickling responses differ across animals",
+      "citations": "Dagher et al. (2026); Davila Ross et al. (2009); Demuru et al. (2025)",
       "figures": [
-        "figures/classic_approach.png"
+        "figures/cmp_bonobo_photo.png",
+        "figures/cmp_mouse_response.png"
       ],
       "paragraphs": 3,
-      "words": 118,
+      "words": 120,
       "status": "verified and built"
     },
     {
       "slide": 3,
-      "title": "Social housing changes the tickling response",
-      "citations": "Panksepp and Burgdorf (2000)",
+      "title": "Play signals provide different evidence from tickling",
+      "citations": "Palagi et al. (2015); Maglieri et al. (2024); Schwing et al. (2017)",
       "figures": [
-        "figures/classic_housing.png"
+        "figures/cmp_dolphin_display.png",
+        "figures/cmp_kea_calls.png"
       ],
       "paragraphs": 3,
-      "words": 121,
+      "words": 125,
       "status": "verified and built"
     },
     {
       "slide": 4,
-      "title": "Voluntary approach measures reinforcing contact",
+      "title": "Rats voluntarily seek playful tactile contact",
       "citations": "Panksepp and Burgdorf (2000)",
       "figures": [
         "figures/classic_approach.png"
@@ -41,35 +65,34 @@
     },
     {
       "slide": 5,
-      "title": "Predictive contexts evoke calls before contact",
-      "citations": "Panksepp and Burgdorf (2000)",
+      "title": "Rat trunk cortex links touch with vocal activity",
+      "citations": "Ishiyama and Brecht (2016)",
       "figures": [
-        "figures/classic_context.png",
-        "figures/classic_cues.png"
+        "figures/s_neural.png",
+        "figures/s_anatomy.png"
       ],
       "paragraphs": 3,
-      "words": 119,
+      "words": 124,
       "status": "verified and built"
     },
     {
       "slide": 6,
-      "title": "Selection changes calling and contact seeking",
-      "citations": "Panksepp and Burgdorf (2000)",
+      "title": "Rat midbrain inhibition reduces playful engagement",
+      "citations": "Gloveli et al. (2023)",
       "figures": [
-        "figures/classic_selection.png",
-        "figures/classic_selected_approach.png"
+        "figures/p_block.png",
+        "figures/p_anatomy.png"
       ],
       "paragraphs": 3,
-      "words": 128,
+      "words": 126,
       "status": "verified and built"
     },
     {
       "slide": 7,
-      "title": "Tickling changes call rate and call structure",
-      "citations": "Ishiyama and Brecht (2016)",
+      "title": "Selection for tameness changes mouse tickling responses",
+      "citations": "Dagher et al. (2026)",
       "figures": [
-        "figures/s_behavior.png",
-        "figures/s_calls.png"
+        "figures/cmp_mouse_response.png"
       ],
       "paragraphs": 3,
       "words": 124,
@@ -77,283 +100,272 @@
     },
     {
       "slide": 8,
-      "title": "Hand chasing recruits calls without tickling",
-      "citations": "Ishiyama and Brecht (2016)",
+      "title": "Mouse call patterns separate contact from pursuit",
+      "citations": "Dagher et al. (2026)",
       "figures": [
-        "figures/s_chase.png"
-      ],
-      "paragraphs": 3,
-      "words": 120,
-      "status": "verified and built"
-    },
-    {
-      "slide": 9,
-      "title": "Trunk cortex responds to touch and tickling",
-      "citations": "Ishiyama and Brecht (2016)",
-      "figures": [
-        "figures/s_neural.png",
-        "figures/s_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 135,
-      "status": "verified and built"
-    },
-    {
-      "slide": 10,
-      "title": "Cortical excitation persists after contact ends",
-      "citations": "Ishiyama and Brecht (2016)",
-      "figures": [
-        "figures/s_neural.png",
-        "figures/s_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 122,
-      "status": "verified and built"
-    },
-    {
-      "slide": 11,
-      "title": "Touch and play responses covary across neurons",
-      "citations": "Ishiyama and Brecht (2016)",
-      "figures": [
-        "figures/s_relationships.png",
-        "figures/s_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 124,
-      "status": "verified and built"
-    },
-    {
-      "slide": 12,
-      "title": "Anxiety suppresses tickling calls reversibly",
-      "citations": "Ishiyama and Brecht (2016)",
-      "figures": [
-        "figures/s_anxiety.png"
+        "figures/cmp_mouse_calls.png",
+        "figures/cmp_mouse_context.png"
       ],
       "paragraphs": 3,
       "words": 121,
       "status": "verified and built"
     },
     {
-      "slide": 13,
-      "title": "Anxiety also suppresses trunk cortical responses",
-      "citations": "Ishiyama and Brecht (2016)",
+      "slide": 9,
+      "title": "Tame mice pursue the hand without being touched",
+      "citations": "Dagher et al. (2026)",
       "figures": [
-        "figures/s_anxiety_neural.png",
-        "figures/s_anatomy.png"
+        "figures/cmp_mouse_chase.png"
       ],
       "paragraphs": 3,
-      "words": 127,
+      "words": 121,
       "status": "verified and built"
     },
     {
-      "slide": 14,
-      "title": "Deep cortical activity accompanies vocal onset",
-      "citations": "Ishiyama and Brecht (2016)",
+      "slide": 10,
+      "title": "Tame mouse play extends to conspecific partners",
+      "citations": "Dagher et al. (2026)",
       "figures": [
-        "figures/s_call_neural.png",
-        "figures/s_anatomy.png"
+        "figures/cmp_mouse_contact.png",
+        "figures/cmp_mouse_social_calls.png"
       ],
       "paragraphs": 3,
-      "words": 122,
+      "words": 121,
       "status": "verified and built"
     },
     {
-      "slide": 15,
-      "title": "Deep cortical stimulation can evoke calls",
-      "citations": "Ishiyama and Brecht (2016)",
+      "slide": 11,
+      "title": "Golden hamsters show little hand-directed play",
+      "citations": "Dagher et al. (2026)",
       "figures": [
-        "figures/s_stim.png",
-        "figures/s_anatomy.png"
+        "figures/cmp_hamster_contact.png"
       ],
       "paragraphs": 3,
-      "words": 127,
+      "words": 123,
       "status": "verified and built"
     },
     {
-      "slide": 16,
-      "title": "PAG inhibition reduces tickling and hand chasing",
-      "citations": "Gloveli et al. (2023)",
+      "slide": 12,
+      "title": "Hamsters actively play with other hamsters",
+      "citations": "Dagher et al. (2026)",
       "figures": [
-        "figures/p_block.png",
-        "figures/p_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 128,
-      "status": "verified and built"
-    },
-    {
-      "slide": 17,
-      "title": "PAG neurons respond to graded tactile interactions",
-      "citations": "Gloveli et al. (2023)",
-      "figures": [
-        "figures/p_tactile.png",
-        "figures/p_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 132,
-      "status": "verified and built"
-    },
-    {
-      "slide": 18,
-      "title": "Hand chasing excites many PAG neurons",
-      "citations": "Gloveli et al. (2023)",
-      "figures": [
-        "figures/p_chase.png",
-        "figures/p_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 125,
-      "status": "verified and built"
-    },
-    {
-      "slide": 19,
-      "title": "Play-responsive neurons cluster in lateral PAG",
-      "citations": "Gloveli et al. (2023)",
-      "figures": [
-        "figures/p_map.png"
-      ],
-      "paragraphs": 3,
-      "words": 111,
-      "status": "verified and built"
-    },
-    {
-      "slide": 20,
-      "title": "Anxiogenic conditions suppress play-responsive PAG cells",
-      "citations": "Gloveli et al. (2023)",
-      "figures": [
-        "figures/p_anxiety.png",
-        "figures/p_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 117,
-      "status": "verified and built"
-    },
-    {
-      "slide": 21,
-      "title": "Play-responsive PAG cells fire around vocal onset",
-      "citations": "Gloveli et al. (2023)",
-      "figures": [
-        "figures/p_call.png",
-        "figures/p_anatomy.png"
+        "figures/cmp_hamster_social.png"
       ],
       "paragraphs": 3,
       "words": 119,
       "status": "verified and built"
     },
     {
-      "slide": 22,
-      "title": "Selective lateral PAG inhibition reduces social play",
-      "citations": "Gloveli et al. (2023)",
+      "slide": 13,
+      "title": "Hamster sounds change with the interaction partner",
+      "citations": "Dagher et al. (2026)",
       "figures": [
-        "figures/p_opto.png"
+        "figures/cmp_hamster_spectra.png"
       ],
       "paragraphs": 3,
-      "words": 125,
+      "words": 120,
       "status": "verified and built"
     },
     {
-      "slide": 23,
-      "title": "Microdialysis measures accumbens dopamine release",
-      "citations": "Hori et al. (2013)",
+      "slide": 14,
+      "title": "Hamster vocal repertoires vary within human sessions",
+      "citations": "Dagher et al. (2026)",
       "figures": [
-        "figures/d_release.png",
-        "figures/accumbens_atlas.jpg"
+        "figures/cmp_hamster_clusters.png",
+        "figures/cmp_hamster_features.png"
+      ],
+      "paragraphs": 3,
+      "words": 118,
+      "status": "verified and built"
+    },
+    {
+      "slide": 15,
+      "title": "Orangutans vocalize during caregiver tickling",
+      "citations": "Davila Ross et al. (2009)",
+      "figures": [
+        "figures/ape_spectra.png"
       ],
       "paragraphs": 3,
       "words": 124,
       "status": "verified and built"
     },
     {
+      "slide": 16,
+      "title": "Gorilla tickling calls include prolonged exhalation",
+      "citations": "Davila Ross et al. (2009)",
+      "figures": [
+        "figures/ape_airflow.png"
+      ],
+      "paragraphs": 3,
+      "words": 114,
+      "status": "verified and built"
+    },
+    {
+      "slide": 17,
+      "title": "Chimpanzees produce repeated tickling vocalizations",
+      "citations": "Davila Ross et al. (2009)",
+      "figures": [
+        "figures/ape_timing.png"
+      ],
+      "paragraphs": 3,
+      "words": 124,
+      "status": "verified and built"
+    },
+    {
+      "slide": 18,
+      "title": "Bonobos tickle one another during natural social play",
+      "citations": "Demuru et al. (2025)",
+      "figures": [
+        "figures/cmp_bonobo_photo.png"
+      ],
+      "paragraphs": 3,
+      "words": 124,
+      "status": "verified and built"
+    },
+    {
+      "slide": 19,
+      "title": "Bonobo tickling depends on age and social bonds",
+      "citations": "Demuru et al. (2025)",
+      "figures": [
+        "figures/cmp_bonobo_direction.png",
+        "figures/cmp_bonobo_bond.png"
+      ],
+      "paragraphs": 3,
+      "words": 118,
+      "status": "verified and built"
+    },
+    {
+      "slide": 20,
+      "title": "Bonobo laughter may influence reward expectations",
+      "citations": "Winkler et al. (2025)",
+      "figures": [
+        "figures/cmp_bonobo_optimism.png",
+        "figures/cmp_bonobo_task.png"
+      ],
+      "paragraphs": 3,
+      "words": 127,
+      "status": "verified and built"
+    },
+    {
+      "slide": 21,
+      "title": "Human tickling laughter emphasizes regular voicing",
+      "citations": "Davila Ross et al. (2009)",
+      "figures": [
+        "figures/ape_voicing.png"
+      ],
+      "paragraphs": 3,
+      "words": 120,
+      "status": "verified and built"
+    },
+    {
+      "slide": 22,
+      "title": "Human laughter favors outward-airflow sequences",
+      "citations": "Davila Ross et al. (2009)",
+      "figures": [
+        "figures/ape_airflow.png"
+      ],
+      "paragraphs": 3,
+      "words": 113,
+      "status": "verified and built"
+    },
+    {
+      "slide": 23,
+      "title": "Acoustic ancestry links human and great-ape laughter",
+      "citations": "Davila Ross et al. (2009)",
+      "figures": [
+        "figures/ape_tree.png"
+      ],
+      "paragraphs": 3,
+      "words": 113,
+      "status": "verified and built"
+    },
+    {
       "slide": 24,
-      "title": "Tickling raises dopamine above its prestimulus level",
-      "citations": "Hori et al. (2013)",
+      "title": "Dogs rapidly match open-mouth faces and play bows",
+      "citations": "Palagi et al. (2015)",
       "figures": [
-        "figures/d_release.png",
-        "figures/accumbens_atlas.jpg"
-      ],
-      "paragraphs": 3,
-      "words": 122,
-      "status": "verified and built"
-    },
-    {
-      "slide": 25,
-      "title": "Calling and later approach track tactile conditions",
-      "citations": "Hori et al. (2013)",
-      "figures": [
-        "figures/d_calls.png",
-        "figures/accumbens_atlas.jpg"
-      ],
-      "paragraphs": 3,
-      "words": 131,
-      "status": "verified and built"
-    },
-    {
-      "slide": 26,
-      "title": "Local dopamine antagonists reduce tickling calls",
-      "citations": "Hori et al. (2013)",
-      "figures": [
-        "figures/d_time.png",
-        "figures/accumbens_atlas.jpg"
-      ],
-      "paragraphs": 3,
-      "words": 127,
-      "status": "verified and built"
-    },
-    {
-      "slide": 27,
-      "title": "Dopamine blockade affects call type and movement",
-      "citations": "Hori et al. (2013)",
-      "figures": [
-        "figures/d_types.png",
-        "figures/accumbens_atlas.jpg"
-      ],
-      "paragraphs": 3,
-      "words": 127,
-      "status": "verified and built"
-    },
-    {
-      "slide": 28,
-      "title": "Self-touch suppresses trunk cortical activity",
-      "citations": "Ishiyama et al. (2019)",
-      "figures": [
-        "figures/a_self.png",
-        "figures/a_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 125,
-      "status": "verified and built"
-    },
-    {
-      "slide": 29,
-      "title": "Grooming elsewhere suppresses trunk processing",
-      "citations": "Ishiyama et al. (2019)",
-      "figures": [
-        "figures/a_groom.png",
-        "figures/a_anatomy.png"
+        "figures/cmp_dog_mimic.png"
       ],
       "paragraphs": 3,
       "words": 126,
       "status": "verified and built"
     },
     {
-      "slide": 30,
-      "title": "Self-touch reduces externally evoked cortical output",
-      "citations": "Ishiyama et al. (2019)",
+      "slide": 25,
+      "title": "Dog signal matching exceeds movement coincidence",
+      "citations": "Palagi et al. (2015)",
       "figures": [
-        "figures/a_tap.png",
-        "figures/a_anatomy.png"
+        "figures/cmp_dog_frequency.png",
+        "figures/cmp_dog_mimic.png"
+      ],
+      "paragraphs": 3,
+      "words": 124,
+      "status": "verified and built"
+    },
+    {
+      "slide": 26,
+      "title": "Familiar dogs match play signals more frequently",
+      "citations": "Palagi et al. (2015)",
+      "figures": [
+        "figures/cmp_dog_bond.png"
+      ],
+      "paragraphs": 3,
+      "words": 129,
+      "status": "verified and built"
+    },
+    {
+      "slide": 27,
+      "title": "Dog signal mimicry accompanies longer play",
+      "citations": "Palagi et al. (2015)",
+      "figures": [
+        "figures/cmp_dog_duration.png"
+      ],
+      "paragraphs": 3,
+      "words": 116,
+      "status": "verified and built"
+    },
+    {
+      "slide": 28,
+      "title": "Wolf puppies direct play bows toward visible partners",
+      "citations": "Byosiere et al. (2016)",
+      "figures": [
+        "figures/cmp_wolf_wolf.png"
       ],
       "paragraphs": 3,
       "words": 128,
       "status": "verified and built"
     },
     {
-      "slide": 31,
-      "title": "GABA-A blockade disrupts self-touch suppression",
-      "citations": "Ishiyama et al. (2019)",
+      "slide": 29,
+      "title": "Play bows restart dog and wolf play differently",
+      "citations": "Byosiere et al. (2016)",
       "figures": [
-        "figures/a_gaba.png",
-        "figures/a_anatomy.png"
+        "figures/cmp_wolf_dog.png",
+        "figures/cmp_wolf_wolf.png"
+      ],
+      "paragraphs": 3,
+      "words": 125,
+      "status": "verified and built"
+    },
+    {
+      "slide": 30,
+      "title": "Canid play bows relate to complementary movements",
+      "citations": "Byosiere et al. (2016)",
+      "figures": [
+        "figures/cmp_wolf_wolf.png",
+        "figures/cmp_wolf_dog.png"
+      ],
+      "paragraphs": 3,
+      "words": 121,
+      "status": "verified and built"
+    },
+    {
+      "slide": 31,
+      "title": "Dogs and horses balance their playful actions",
+      "citations": "Maglieri et al. (2020)",
+      "figures": [
+        "figures/cmp_horse_balance.png",
+        "figures/cmp_horse_photo.png"
       ],
       "paragraphs": 3,
       "words": 126,
@@ -361,161 +373,163 @@
     },
     {
       "slide": 32,
-      "title": "Rats initiate tickling despite mixed behavioral responses",
-      "citations": "Ishiyama et al. (2019)",
+      "title": "Dogs and horses adopt self-handicapping positions",
+      "citations": "Maglieri et al. (2020)",
       "figures": [
-        "figures/a_operant.png"
+        "figures/cmp_horse_handicap.png",
+        "figures/cmp_horse_photo.png"
+      ],
+      "paragraphs": 3,
+      "words": 122,
+      "status": "verified and built"
+    },
+    {
+      "slide": 33,
+      "title": "Dog–horse facial matching occurs within one second",
+      "citations": "Maglieri et al. (2020)",
+      "figures": [
+        "figures/cmp_horse_mimic.png",
+        "figures/cmp_horse_photo.png"
+      ],
+      "paragraphs": 3,
+      "words": 124,
+      "status": "verified and built"
+    },
+    {
+      "slide": 34,
+      "title": "Dolphin open-mouth displays accompany social play",
+      "citations": "Maglieri et al. (2024)",
+      "figures": [
+        "figures/cmp_dolphin_display.png"
+      ],
+      "paragraphs": 3,
+      "words": 115,
+      "status": "verified and built"
+    },
+    {
+      "slide": 35,
+      "title": "Dolphins display open mouths within a partner’s view",
+      "citations": "Maglieri et al. (2024)",
+      "figures": [
+        "figures/cmp_dolphin_visual.png",
+        "figures/cmp_dolphin_display.png"
+      ],
+      "paragraphs": 3,
+      "words": 127,
+      "status": "verified and built"
+    },
+    {
+      "slide": 36,
+      "title": "Visible dolphin displays recruit rapid matching",
+      "citations": "Maglieri et al. (2024)",
+      "figures": [
+        "figures/cmp_dolphin_mimic.png"
+      ],
+      "paragraphs": 3,
+      "words": 115,
+      "status": "verified and built"
+    },
+    {
+      "slide": 37,
+      "title": "Dolphin play displays differ from bite attempts",
+      "citations": "Maglieri et al. (2024)",
+      "figures": [
+        "figures/cmp_dolphin_display.png"
       ],
       "paragraphs": 3,
       "words": 132,
       "status": "verified and built"
     },
     {
-      "slide": 33,
-      "title": "Different cortical layers encode contact and anticipation",
-      "citations": "Ishiyama et al. (2019)",
-      "figures": [
-        "figures/a_layers.png",
-        "figures/a_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 127,
-      "status": "verified and built"
-    },
-    {
-      "slide": 34,
-      "title": "Live observation differs from audiovisual playback",
-      "citations": "Kaufmann et al. (2022)",
-      "figures": [
-        "figures/c_setup.png"
-      ],
-      "paragraphs": 3,
-      "words": 133,
-      "status": "verified and built"
-    },
-    {
-      "slide": 35,
-      "title": "Hand cues and jumps recruit different observer responses",
-      "citations": "Kaufmann et al. (2022)",
-      "figures": [
-        "figures/c_behavior.png"
-      ],
-      "paragraphs": 3,
-      "words": 130,
-      "status": "verified and built"
-    },
-    {
-      "slide": 36,
-      "title": "Trunk cortex responds to direct and witnessed tickling",
-      "citations": "Kaufmann et al. (2022)",
-      "figures": [
-        "figures/c_neural.png",
-        "figures/c_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 131,
-      "status": "verified and built"
-    },
-    {
-      "slide": 37,
-      "title": "Watching a tickled rat changes cortical activity",
-      "citations": "Kaufmann et al. (2022)",
-      "figures": [
-        "figures/c_watch.png",
-        "figures/c_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 127,
-      "status": "verified and built"
-    },
-    {
       "slide": 38,
-      "title": "Deep layers link direct and witnessed responses",
-      "citations": "Kaufmann et al. (2022)",
+      "title": "Elephants rapidly match playful trunk movements",
+      "citations": "Cordoni et al. (2025)",
       "figures": [
-        "figures/c_layers.png",
-        "figures/c_anatomy.png"
+        "figures/cmp_elephant_control.png",
+        "figures/cmp_elephant_actions.png"
       ],
       "paragraphs": 3,
-      "words": 129,
+      "words": 128,
       "status": "verified and built"
     },
     {
       "slide": 39,
-      "title": "Cortex responds around own and another rat’s calls",
-      "citations": "Kaufmann et al. (2022)",
+      "title": "Elephant matching accompanies competitive play",
+      "citations": "Cordoni et al. (2025)",
       "figures": [
-        "figures/c_calls.png",
-        "figures/c_anatomy.png"
-      ],
-      "paragraphs": 3,
-      "words": 133,
-      "status": "verified and built"
-    },
-    {
-      "slide": 40,
-      "title": "Great apes and humans vocalize during tickling",
-      "citations": "Davila Ross et al. (2009)",
-      "figures": [
-        "figures/ape_spectra.png"
-      ],
-      "paragraphs": 3,
-      "words": 128,
-      "status": "verified and built"
-    },
-    {
-      "slide": 41,
-      "title": "Human laughter has more regular voicing",
-      "citations": "Davila Ross et al. (2009)",
-      "figures": [
-        "figures/ape_voicing.png"
-      ],
-      "paragraphs": 3,
-      "words": 126,
-      "status": "verified and built"
-    },
-    {
-      "slide": 42,
-      "title": "Call timing differs across great-ape species",
-      "citations": "Davila Ross et al. (2009)",
-      "figures": [
-        "figures/ape_timing.png"
-      ],
-      "paragraphs": 3,
-      "words": 128,
-      "status": "verified and built"
-    },
-    {
-      "slide": 43,
-      "title": "Airflow direction distinguishes human and ape laughter",
-      "citations": "Davila Ross et al. (2009)",
-      "figures": [
-        "figures/ape_airflow.png"
-      ],
-      "paragraphs": 3,
-      "words": 119,
-      "status": "verified and built"
-    },
-    {
-      "slide": 44,
-      "title": "Sustained exhalation is possible in great apes",
-      "citations": "Davila Ross et al. (2009)",
-      "figures": [
-        "figures/ape_spectra.png"
+        "figures/cmp_elephant_actions.png"
       ],
       "paragraphs": 3,
       "words": 120,
       "status": "verified and built"
     },
     {
-      "slide": 45,
-      "title": "Acoustic ancestry links human and great-ape laughter",
-      "citations": "Davila Ross et al. (2009)",
+      "slide": 40,
+      "title": "Elephant mimicry and play contagion covary",
+      "citations": "Cordoni et al. (2025)",
       "figures": [
-        "figures/ape_tree.png"
+        "figures/cmp_elephant_contagion.png",
+        "figures/cmp_elephant_actions.png"
       ],
       "paragraphs": 3,
-      "words": 134,
+      "words": 124,
+      "status": "verified and built"
+    },
+    {
+      "slide": 41,
+      "title": "Kea warble calls trigger new playful behavior",
+      "citations": "Schwing et al. (2017)",
+      "figures": [
+        "figures/cmp_kea_calls.png"
+      ],
+      "paragraphs": 3,
+      "words": 121,
+      "status": "verified and built"
+    },
+    {
+      "slide": 42,
+      "title": "Control sounds isolate the kea play-call effect",
+      "citations": "Schwing et al. (2017)",
+      "figures": [
+        "figures/cmp_kea_calls.png"
+      ],
+      "paragraphs": 3,
+      "words": 116,
+      "status": "verified and built"
+    },
+    {
+      "slide": 43,
+      "title": "Kea calls recruit social and solitary play",
+      "citations": "Schwing et al. (2017)",
+      "figures": [
+        "figures/cmp_kea_calls.png"
+      ],
+      "paragraphs": 3,
+      "words": 122,
+      "status": "verified and built"
+    },
+    {
+      "slide": 44,
+      "title": "Partner identity shapes responses to playful contact",
+      "citations": "Dagher et al. (2026); Demuru et al. (2025); Palagi et al. (2015)",
+      "figures": [
+        "figures/cmp_hamster_social.png",
+        "figures/cmp_bonobo_photo.png"
+      ],
+      "paragraphs": 3,
+      "words": 122,
+      "status": "verified and built"
+    },
+    {
+      "slide": 45,
+      "title": "Animals coordinate play through different sensory signals",
+      "citations": "Davila Ross et al. (2009); Dagher et al. (2026); Maglieri et al. (2024); Cordoni et al. (2025); Schwing et al. (2017)",
+      "figures": [
+        "figures/cmp_dolphin_mimic.png",
+        "figures/cmp_kea_calls.png"
+      ],
+      "paragraphs": 3,
+      "words": 122,
       "status": "verified and built"
     }
   ]

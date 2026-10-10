@@ -1,11 +1,14 @@
-"""Reproduce original article crops and retrieve the unchanged atlas image."""
+"""Reproduce the current comparative deck from unchanged published PDF panels."""
 from pathlib import Path
-import subprocess,sys,json,urllib.request,hashlib
+import subprocess,sys,json,tempfile
 b=Path(__file__).resolve().parent
-subprocess.run([sys.executable,str(b.parents[1]/"tools/crop_panels.py"),str(b/"crops.json")],check=True)
-m=json.loads((b/"web_images.json").read_text())["accumbens_atlas"]
-p=b/"figures/accumbens_atlas.jpg"
-if not p.exists():
- data=urllib.request.urlopen(m["image_url"],timeout=30).read()
- if hashlib.sha256(data).hexdigest()!=m["sha256"]:raise RuntimeError("Atlas image changed; inspect and verify the source before using it")
- p.write_bytes(data)
+s=json.loads((b/"lecture.json").read_text());c=json.loads((b/"crops.json").read_text())
+used={Path(f["path"]).stem for z in s["slides"] for f in z.get("figures",[z.get("figure")])}
+used.add(Path(s["title_image"]["path"]).stem)
+c["crops"]={n:v for n,v in c["crops"].items() if n in used};c.pop("combos",None)
+p=b/"crops_build.json"
+try:
+ p.write_text(json.dumps(c,indent=2)+"\n")
+ subprocess.run([sys.executable,str(b.parents[1]/"tools/crop_panels.py"),str(p)],check=True)
+finally:
+ p.unlink(missing_ok=True)

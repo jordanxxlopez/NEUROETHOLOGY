@@ -108,3 +108,7 @@ FINISH
 
 
 Prioritize original published-article PDF figures; use a credited, unchanged published anatomical web image only where required anatomy is absent from the experimental paper. Every paragraph teaches; vary paragraph order, name hypotheses in their sentences, and omit routine caveat endings. No em dashes in slide text. Never create or recolor a figure. Stop for any inaccessible required PDF and request it with a numbered DOI link.
+
+Comparative-scope rule for Lecture 78: cover rats, mice, hamsters, hominids, canids, horses, dolphins, elephants and kea using primary studies. Keep rodent circuit work to three rat-focused content slides. Distinguish direct tickling from play signals and contagion; never infer experimental ticklishness in a species from play alone. Preserve the original deck separately and retain the exact schedule title for the broad replacement.
+
+Check cited articles for useful original supplementary recordings. Embed obtainable article-provided media with exact identifiers, DOI, original media URL, credit and license in notes; preserve static figures. Never use YouTube videos. Record unavailable media and continue. Run add_article_media.py after the required repo builder for this revision.

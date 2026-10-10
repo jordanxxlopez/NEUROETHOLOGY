@@ -1,0 +1,336 @@
+"""Lecture 78: verified primary studies, original figures, natural teaching notes."""
+from pathlib import Path
+import json,re
+B=Path(__file__).resolve().parent
+R=json.loads((B/'research.json').read_text());F=json.loads((B/'figure_sources.json').read_text());S=[]
+AUTH={'classic':'Panksepp and Burgdorf','somatosensory':'Ishiyama and Brecht','pag':'Gloveli et al.','dopamine':'Hori et al.','anticipation':'Ishiyama et al.','contagion':'Kaufmann et al.','apes':'Davila Ross et al.'}
+YEAR={'classic':2000,'somatosensory':2016,'pag':2023,'dopamine':2013,'anticipation':2019,'contagion':2022,'apes':2009}
+def short(k):return AUTH[k]+' ('+str(YEAR[k])+')'
+def fig(n):
+ if n=='accumbens_atlas':return {'path':'figures/accumbens_atlas.jpg','kind':'web','caption':'Photo: Mouse accumbens in a published coronal atlas, ACB.','credit':'Allen Institute for Brain Science, Allen Mouse Brain Atlas, P56 coronal plate 100960376','license':'Allen Institute Terms of Use: noncommercial educational use; image unchanged','source_url':'https://atlas.brain-map.org/atlas?atlas=1&plate=100960376&structure=56'}
+ x=F[n];return {'path':'figures/'+n+'.png','kind':'article','caption':short(x['paper'])+', Fig. '+x['figure']+'. '+x['description']+'.','source_url':'https://doi.org/'+R[x['paper']]['doi']}
+def add(title,k,imgs,text,note):
+ body=text.strip().split('\n\n');assert len(body)==3;assert len(title)<=62,title
+ keys=list(dict.fromkeys([k]+[F[n]['paper'] for n in imgs if n in F]));z={'title':title,'body':body,'transcript':[re.sub(r'\*\*','',p) for p in body]+[note],'cite':'; '.join(short(x) for x in keys),'refs':[R[x]['reference'] for x in keys],'figure_width':5.8}
+ if len(imgs)==1:z.update(layout='figure-right',figure=fig(imgs[0]))
+ else:z.update(layout='figures-right',figures=[fig(n) for n in imgs],figure_arrangement='side-by-side',primary_figure_width=3.9)
+ S.append(z)
+add('Tickling elicits ultrasonic calls and approach','classic',['classic_approach'],'''
+Young rats emit **ultrasonic vocalizations**, sounds above the frequency range of human hearing, during playful manual tickling. Panksepp and Burgdorf studied calls near **50 kHz**, or 50,000 cycles per second, while an experimenter stimulated the back, neck, and belly in brief bouts.
+
+The interaction included release between contacts, allowing the rat to approach or retreat. Calls occurred during contact and could also occur before contact. Their timing therefore connects vocal behavior with both ongoing tactile stimulation and expectation of another interaction.
+
+Rats learned to leave a protected chamber to obtain tickling. Returning to the chamber ended contact. Measuring these voluntary movements supplied evidence about the interaction’s reinforcing properties alongside the acoustic response, rather than relying on vocalization alone.
+''','The procedure alternated 15 seconds without stimulation and 15 seconds of tickling. Vigorous contact was brief, with release after belly stimulation, and the investigators avoided frightening the animals.')
+add('Social housing changes the tickling response','classic',['classic_housing'],'''
+Tickling responses depend on recent social experience. Individually housed rats produced more 50-kHz calls than socially housed rats in Panksepp and Burgdorf’s comparison. Both groups received the same manual interaction, separating the immediate stimulus from the animal’s previous opportunities for social contact.
+
+Switching housing conditions changed calling gradually. Previously group-housed animals increased their response after isolation, while previously isolated animals reduced it after social housing. The original group difference persisted through the 48-hour observation period rather than reversing immediately.
+
+Returning animals to their original housing restored the earlier pattern. **Social deprivation** can increase the incentive value of contact, so elevated calling after isolation should not be interpreted as improved welfare. The response expresses the interaction between current stimulation and social history.
+''','The housing manipulation altered access to other rats, not the tickling technique. The gradual change is consistent with a motivational state that develops over time rather than a momentary acoustic effect of the enclosure.')
+add('Voluntary approach measures reinforcing contact','classic',['classic_approach'],'''
+A **reinforcer** is a consequence that increases the behavior producing it. In the bell-jar task, rats could emerge into an open field to receive tickling and return to the protected chamber to stop it. The arrangement made approach and avoidance consequences of the interaction.
+
+Before tickling began, housing groups had similar emergence latencies during habituation. During reinforced testing, isolated animals approached sooner and spent less time avoiding contact than socially housed animals. The changed difference depended on the opportunity to obtain tickling.
+
+During later extinction, tickling was withheld even after emergence. Isolated animals continued approaching more readily. **Extinction** removes the previously delivered consequence; persistence of the learned approach links current action with the animal’s history of rewarded contact rather than immediate tactile input.
+''','The chamber had a small opening through which the rat could leave and re-enter. Returning to it provided an actual escape option, allowing the researchers to compare seeking contact with ending contact.')
+add('Predictive contexts evoke calls before contact','classic',['classic_context','classic_cues'],'''
+A place can acquire meaning through repeated social interaction. Rats experienced two enclosures that differed in geometry and bedding. One was paired with tickling and the other with no stimulation, giving environmental features different relationships to the same experimenter.
+
+The investigators recorded calls during the 30 seconds before tickling. Anticipatory calling increased in the tickle-paired enclosure across training days. Because the measurement preceded contact, the difference concerned a learned relationship between the context and an expected interaction.
+
+A separate experiment paired a brief finger-movement cue with subsequent tickling. Paired cues evoked more calls than cues presented alone or temporally unpaired with contact. **Conditioning** therefore connected both places and discrete social signals with vocal behavior before the tactile event occurred.
+''','The predictive cue consisted of tickle-like finger movements near the face, sometimes including gentle contact. The unpaired condition separated cue exposure from its predictive relationship with the later interaction.')
+add('Selection changes calling and contact seeking','classic',['classic_selection','classic_selected_approach'],'''
+Repeated breeding can separate inherited variation from a response shared equally by all rats. Panksepp and Burgdorf selected lines for high or low tickling-evoked calling over four generations and maintained a randomly bred comparison line. Young animals received the same testing procedure.
+
+High-call animals produced more vocalizations during tickling and during the preceding baseline period. Later tests also found faster approach and less avoidance in the high-call line. Selection therefore changed both an acoustic phenotype and behavior directed toward obtaining contact.
+
+The low-call and random lines differed more clearly in calling than in approach. A **phenotype** is a measurable characteristic produced by an animal’s biology and experience. Vocal responsiveness and contact motivation can vary together, but they are distinct phenotypes rather than interchangeable measurements of the same state.
+''','The selected lines were tested at several juvenile ages, then evaluated for approach as older animals. Selection changed a complex behavioral trait; the experiment did not identify a single gene for tickling or positive affect.')
+add('Tickling changes call rate and call structure','somatosensory',['s_behavior','s_calls'],'''
+Rat 50-kHz calls have different acoustic forms. **Frequency modulation** is a change in sound frequency within a call; a trill contains rapid repeated modulation. Ishiyama and Brecht separated modulated, trill, combined, and miscellaneous calls during distinct tactile interactions.
+
+Ventral tickling produced approximately 4.5 calls per second, compared with approximately 2.6 during gentle ventral touch. Contact location and intensity therefore changed the rate of vocal output. Combined calls were especially common during belly stimulation, adding a repertoire difference to the rate difference.
+
+The recordings also included dorsal touch, dorsal tickling, tail touch, and breaks between interactions. These comparisons establish that a 50-kHz response is graded across tactile conditions. Gentle contact and vigorous tickling can both evoke calls, while differing in their rate and acoustic composition.
+''','The spectrograms retain the original frequency and time axes. The approximately 50-millisecond scale emphasizes that individual acoustic events are much shorter than the full interaction bout.')
+add('Hand chasing recruits calls without tickling','somatosensory',['s_chase'],'''
+Rats approached the experimenter’s hand and chased it between tickling bouts. Chasing produced 50-kHz calls even when the hand was not touching the animal. The behavior extends the interaction beyond passive receipt of stimulation into active pursuit of a social partner.
+
+Ishiyama and Brecht also observed spontaneous vertical jumps after tickling. They called these **Freudensprünge**, or joy jumps, distinguishing them from the continuous movement of chasing. Approach, chasing, jumps, and vocalizations describe different components of the behavioral response.
+
+Hand chasing included modulated, trill, and combined calls resembling the repertoire during tickling. Shared acoustic forms connect tactile interaction with contact-free play behavior. The animal’s movements and calls thus continue when the immediate skin stimulus ends but the opportunity for interaction remains.
+''','The hand-chasing epochs were recorded separately from the tickling epochs. The comparison tests behavior associated with playful engagement rather than treating every call as a direct reflex to touching the skin.')
+add('Trunk cortex responds to touch and tickling','somatosensory',['s_neural','s_anatomy'],'''
+The **somatosensory cortex** is cerebral cortical tissue involved in processing bodily sensory information. Its trunk representation receives information related to the torso. Ishiyama and Brecht placed electrodes in this region and used stained tissue sections to identify recording locations across cortical layers.
+
+An **action potential** is a brief electrical impulse emitted by a neuron. Electrodes outside the cells detect these impulses, allowing firing rate, the number of impulses per second, to be matched to gentle touch, tickling, and breaks. Many recorded cells increased their activity during trunk stimulation, while some were inhibited.
+
+Tickling generated strong responses, but gentle touch also activated much of the population. The same cortical territory therefore participates in several forms of bodily contact. Its activity varies with the type of interaction rather than belonging exclusively to a single tickling-specific sensory channel.
+''','The cytochrome oxidase stain identifies laminar tissue organization, and the electrode track localizes the sampled region. Recording spikes measures neuronal output rather than the intracellular voltage changes that produce it.')
+add('Cortical excitation persists after contact ends','somatosensory',['s_neural','s_anatomy'],'''
+Trunk cortical firing changed across the entire interaction sequence. Activity was low in the pre-interaction period, increased during tickling, and remained elevated in subsequent breaks. The post-contact state differed from the baseline that preceded the interaction.
+
+This persistence separates ongoing cortical excitation from a response confined to moments of physical touch. A neuron can remain active while the animal is moving, vocalizing, or anticipating another bout. The recording therefore links cortical activity with the continuing behavioral state surrounding contact.
+
+Hand chasing also increased firing in the sampled trunk cortex. Cells strongly responsive to tickling tended to respond strongly during chasing. Shared response strength connects tactile stimulation and active play within the same population, even though only one condition supplies direct torso contact.
+''','The investigators compared average firing across explicitly labeled phases of the interaction. The persistent response is an observed temporal property, not evidence that every active neuron represents a consciously experienced sensation.')
+add('Touch and play responses covary across neurons','somatosensory',['s_relationships','s_anatomy'],'''
+Individual trunk cortical neurons differed in how strongly they responded. Cells with high firing during tickling often also fired strongly during gentle touch and hand chasing. Comparing the same neurons across conditions connects population variation with particular forms of interaction.
+
+A **response index** expresses an increase or decrease relative to baseline activity. Tickling and hand-chasing indices were positively related, indicating that responsiveness to one condition predicted responsiveness to the other. The relation involved both the magnitude and direction of firing changes.
+
+The comparison supports overlap between sensory contact and playful pursuit within trunk cortex. Strongly excited cells were not limited to direct skin stimulation. Their activity also accompanied a behavior in which the rat approached a moving hand, combining bodily processing with interaction-dependent modulation.
+''','An association between responses identifies a shared population pattern. It does not specify a direct synaptic pathway from cortex to the systems controlling chasing, which was not mapped in this experiment.')
+add('Anxiety suppresses tickling calls reversibly','somatosensory',['s_anxiety'],'''
+Tickling responses depend on environmental state. Ishiyama and Brecht compared a familiar low-walled arena with an elevated platform under bright illumination. The elevated, brightly lit setting was **anxiogenic**, meaning that it promoted behavior associated with anxiety.
+
+The same animals vocalized less during tickling in that setting. Returning them to the control environment restored calling. The change therefore followed the current experimental condition rather than an irreversible loss of the ability to produce ultrasonic sounds.
+
+State dependence explains why applying the same tactile action does not guarantee the same response. Contact occurs within a broader context of safety, posture, and environmental exposure. Reduced calling under the elevated condition links the expression of playful interaction with the animal’s ongoing defensive or anxious state.
+''','Elevation and illumination were changed together. Their combined condition produced the suppression; the design does not separately assign the effect to light intensity or height.')
+add('Anxiety also suppresses trunk cortical responses','somatosensory',['s_anxiety_neural','s_anatomy'],'''
+Environmental state altered cortical processing as well as vocal output. Trunk neurons were recorded while the animal received tickling in control and anxiogenic settings. Responses that were excitatory in the control arena became smaller or inhibitory under the elevated, brightly illuminated condition.
+
+The **firing rate** is the number of neuronal impulses emitted per unit time, measured in hertz. Comparing rates around matched stimulation periods connected the same tactile interaction with different cortical output states. The effect therefore extended beyond a change in the number of calls.
+
+Vocal suppression and neural suppression occurred under the same environmental manipulation. Their parallel state dependence connects bodily sensory processing with the conditions permitting playful behavior. Returning to a safer setting restored a behavioral response that the brighter, elevated setting had suppressed.
+''','The recording is correlational with respect to anxiety: the manipulation changes the environment, while firing and calls are measured. It does not identify which upstream input conveys environmental state to trunk cortex.')
+add('Deep cortical activity accompanies vocal onset','somatosensory',['s_call_neural','s_anatomy'],'''
+Neuronal activity can be aligned to the onset of an ultrasonic call rather than to the onset of touch. Ishiyama and Brecht analyzed calls during breaks, excluding events immediately preceded by another call. This comparison reduced overlap between successive acoustic events.
+
+Trunk cortical firing increased around vocal onset. Call-related responses were stronger in layer 4 and layer 5a than in superficial layers. **Cortical layers** are vertically arranged tissue subdivisions whose neurons differ in position and connections; the staining localized these recording depths.
+
+The relation persisted during periods without active tickling. Cortical activity therefore accompanies spontaneous vocal expression within the interaction, alongside its responses to externally delivered contact. Layer-specific differences connect the timing of calls with the organization of the sampled cortical tissue.
+''','Calls in break periods avoid the immediate coincidence of experimenter contact and vocal onset. Movement and other aspects of the animal’s state can still contribute to the recorded activity.')
+add('Deep cortical stimulation can evoke calls','somatosensory',['s_stim','s_anatomy'],'''
+Electrical **microstimulation** passes brief current pulses through a local electrode to recruit nearby neural tissue. Ishiyama and Brecht stimulated different depths of trunk somatosensory cortex while recording ultrasonic output. Stimulation in deep layers reliably evoked calls, whereas upper-layer stimulation was much less effective.
+
+Evoked calls appeared within approximately 50–100 ms. The short interval connects experimentally imposed cortical activity with subsequent vocal behavior. Moving from recording to stimulation establishes that activity in this tissue can participate causally in generating the response.
+
+Tickling also lowered the stimulation threshold and increased the number of stimulation-evoked calls. A **threshold** is the stimulation strength needed to elicit an output. Recent interaction therefore changed the excitability of the pathway through which cortical recruitment produced vocalization, linking sensory experience with a subsequent causal test.
+''','Deep-layer stimulation establishes sufficiency under the tested conditions. The experiment did not measure a rat’s subjective feeling, so the induced call should not be equated with a direct readout of pleasure.')
+add('PAG inhibition reduces tickling and hand chasing','pag',['p_block','p_anatomy'],'''
+The **periaqueductal gray**, or PAG, is midbrain gray matter surrounding the cerebral aqueduct, a fluid-filled passage. Gloveli and colleagues tested its contribution by injecting muscimol into the region and comparing the resulting behavior with saline treatment.
+
+**Muscimol** activates GABA-A receptors, receptor-controlled ion channels responsive to the inhibitory transmitter gamma-aminobutyric acid. Activating these channels changes neuronal excitability and suppresses local output. This inhibition reduced calls during dorsal and ventral tickling and reduced engagement in chasing the experimenter’s hand. Both tactile interaction and active pursuit were affected.
+
+Some ventral tickling calls remained after treatment, so PAG inhibition reduced rather than completely eliminated every response. The intervention links this midbrain region with the organization of playful engagement and vocal output while preserving evidence that the behavioral repertoire has multiple contributing components.
+''','The anatomical sections identify the PAG columns around the aqueduct. Muscimol chiefly targets local receptor-mediated neural activity, whereas the paper’s lidocaine comparison also blocks conduction through sodium channels in passing fibers.')
+add('PAG neurons respond to graded tactile interactions','pag',['p_tactile','p_anatomy'],'''
+Recording from PAG neurons separated local cellular responses from the behavioral effect of inhibiting the region. Gloveli and colleagues compared gentle dorsal touch, dorsal tickling, and ventral tickling while recording spikes and ultrasonic calls in the same interaction periods.
+
+Many neurons increased firing during stimulation, while others decreased it. Ventral tickling recruited especially strong responses, including activity before the animal was flipped onto its back. Neural modulation therefore encompassed both the contact period and parts of the preceding sequence.
+
+Excitation and inhibition were distributed across cells rather than expressed uniformly by the entire PAG. This diversity gives the region several response profiles through which bodily contact and interaction state can influence downstream behavior. The recorded population distinguishes stronger tickling from gentler touch without requiring every neuron to use the same firing pattern.
+''','The paper measures firing-rate changes relative to breaks. An inhibited neuron is defined by reduced spiking in this comparison, not by a direct recording of a particular inhibitory synaptic current.')
+add('Hand chasing excites many PAG neurons','pag',['p_chase','p_anatomy'],'''
+Playful pursuit activates PAG neurons without continuous torso contact. During hand chasing, rats followed a moving experimenter’s hand and emitted ultrasonic calls. Gloveli and colleagues aligned neural recordings to the beginning of these pursuit episodes.
+
+The population contained many excited cells and comparatively few cells whose activity decreased. The balance differed from tactile stimulation, where inhibitory responses were more prominent. Active pursuit and direct touch therefore recruited overlapping tissue with different distributions of firing changes.
+
+Hand chasing integrates locomotion, social approach, and anticipation of interaction. PAG excitation during that behavior connects midbrain activity with voluntary engagement, rather than only with the moment when the experimenter stimulates the skin. The activity of individual neurons can consequently be compared across both tactile and noncontact forms of play.
+''','The experimenter moved the hand to encourage pursuit. The recorded behavior is hand chasing, which should be distinguished from the conspecific rough-and-tumble play tested in the later optogenetic experiment.')
+add('Play-responsive neurons cluster in lateral PAG','pag',['p_map'],'''
+PAG tissue contains longitudinal **columns**, subdivisions extending along the aqueduct. Gloveli and colleagues reconstructed recording sites in dorsomedial, dorsolateral, lateral, and ventrolateral columns and grouped neurons by their responses to chasing and tickling.
+
+Strong excitation to both behaviors was concentrated in lateral PAG. Dorsomedial sites contained more play-neutral, tickling-inhibited responses, while dorsolateral sites often responded weakly to both conditions. Ventrolateral recordings included a mixed population with more moderate response profiles.
+
+**Response clustering** groups neurons by similarities in measured activity, rather than assuming anatomical labels alone predict function. Combining those profiles with tissue localization connected a particular interaction-responsive population with the lateral columns. Selective inhibition then tested the contribution of lateral PAG.
+''','The colored points in the published sections are original recording-site classifications. The grouping is defined by the two measured behavioral responses; it is not a molecular classification of neuron types.')
+add('Anxiogenic conditions suppress play-responsive PAG cells','pag',['p_anxiety','p_anatomy'],'''
+The expression of play changes with environmental conditions. Gloveli and colleagues moved rats from the familiar arena to an elevated, brightly illuminated platform and recorded neurons already classified by their play and tickling responses.
+
+Strongly play-responsive PAG cells fired less during tickling in the anxiogenic setting. Ultrasonic output also decreased. The same behavioral manipulation therefore reduced both vocal expression and the activity of the lateral-enriched population identified during comfortable interaction.
+
+Other PAG response groups had more mixed effects, so the environmental change did not simply silence every recorded cell. State-dependent suppression was especially associated with the population excited by play and tickling. Anatomical location, response profile, and current environment jointly shaped the neural activity accompanying the interaction.
+''','The strong-response group was defined from its earlier behavior-related activity. Its selective suppression is more informative than pooling all recorded PAG neurons, because distinct groups respond differently to the same environmental change.')
+add('Play-responsive PAG cells fire around vocal onset','pag',['p_call','p_anatomy'],'''
+Ultrasonic vocal onset provides a temporal reference for relating PAG activity to sound production. Strongly play- and tickling-excited neurons increased firing before and during calls. Other response groups had weaker or differently timed relationships with the same events.
+
+A **peri-event response** aligns repeated neural measurements to a defined behavioral moment. Here, aligning to the start of each call separated vocal timing from the longer tickling bout. The lateral-enriched group had a distinctive relation to the imminent acoustic output.
+
+Removing short intervals surrounding calls left much of the tickling response intact. Play-related activity therefore includes a component beyond the immediate production of each vocal event. The population combines modulation across the interaction with a temporally precise increase near individual calls.
+''','The analysis excludes call-adjacent intervals to test whether tickling excitation is only a consequence of vocal timing. Most response modulation persisted, connecting these cells with the broader behavior as well as its acoustic component.')
+add('Selective lateral PAG inhibition reduces social play','pag',['p_opto'],'''
+**Optogenetics** uses light-sensitive proteins to control targeted neural tissue. Gloveli and colleagues expressed ArchT, a light-driven proton pump, in lateral PAG and illuminated the region. Light drives protons outward, reducing neuronal excitability. A fluorescent-protein control received illumination without the inhibitory pump.
+
+Light reduced tickling-evoked calls in ArchT animals but not in the matched control condition. The anatomical fluorescence localized expression and light delivery within lateral PAG. Targeted inhibition therefore linked the response-enriched columns with a causal contribution to vocal output.
+
+The same intervention reduced rough-and-tumble play between rats, including pouncing and pinning. **Conspecific play** is interaction with another member of the same species. Its suppression extends the result beyond the experimenter’s hand, connecting lateral PAG activity with both human-directed tickling responses and natural social play.
+''','The paper used 561-nanometer illumination in brief epochs. The published green fluorescence is original source microscopy, not a recolored image, and the matched control distinguishes protein-mediated inhibition from light delivery alone.')
+add('Microdialysis measures accumbens dopamine release','dopamine',['d_release','accumbens_atlas'],'''
+The **nucleus accumbens** is a forebrain region associated with motivated behavior. Hori and colleagues sampled extracellular dopamine there during tickling. The accompanying published mouse atlas identifies the corresponding accumbens region, labeled ACB, rather than the rat probe placements used in the experiment.
+
+**Dopamine** is a neurotransmitter, a chemical released by neurons that affects other cells through receptors. **Microdialysis** collects molecules from extracellular fluid across a permeable probe membrane. The investigators analyzed successive samples to measure changes during a five-minute interaction period.
+
+This assay measures chemical release on the timescale of collected samples. It complements recordings of individual spikes by tracking transmitter availability in the local tissue. Matching the sampling interval with tickling connected an extended playful interaction with a measurable change in extracellular dopamine.
+''','The atlas image is an unchanged Allen Mouse Brain Atlas coronal section, used for comparative localization. It is not experimental rat histology. The study used high-performance liquid chromatography with electrochemical detection to quantify dopamine in the samples. The open bar represents light touch, and the dotted bar represents tickling.')
+add('Tickling raises dopamine above its prestimulus level','dopamine',['d_release','accumbens_atlas'],'''
+Tickling increased extracellular dopamine in the nucleus accumbens to approximately 118% of the prestimulus level. Hori and colleagues compared this response with light touch, which produced no comparable increase. The chemical response differed between two forms of tactile interaction.
+
+Expressing release relative to baseline distinguishes the change from differences in starting concentration. The measurement corresponds to dopamine collected during a five-minute stimulation interval, so it describes a sustained chemical response rather than the timing of any one brief call.
+
+Light touch and tickling also differed behaviorally. Tickling elicited more 50-kHz calls, whereas light touch elicited more 22-kHz calls in this preparation. **Twenty-two-kilohertz calls** are lower-frequency ultrasonic signals commonly associated with aversive contexts, connecting the chemical comparison with contrasting behavioral responses to contact.
+''','The light-touch measurement preceded tickling in the dopamine assay. This fixed order should be retained in interpretation rather than described as a counterbalanced comparison. The open bar represents light touch, and the dotted bar represents tickling. The receptor-antagonist experiment used a separate counterbalanced treatment design.')
+add('Calling and later approach track tactile conditions','dopamine',['d_calls','accumbens_atlas'],'''
+The tactile comparison included behavior after stimulation as well as calling during it. Rats approached the experimenter’s hand more rapidly after tickling than after light touch. Seeking renewed contact therefore accompanied the higher 50-kHz output recorded during the tickling condition.
+
+The call categories separated a lower-frequency 22-kHz response from the approximately 50-kHz repertoire. Light touch produced more of the former, while tickling produced more of the latter. Identical classification procedures were applied to both stimulation conditions, linking the acoustic comparison to the observed difference in approach.
+
+Accumbens dopamine increased during the tickling condition in the parallel chemical assay. The combination relates local transmitter release, vocal behavior, and renewed contact seeking within one experimental preparation. These measurements describe complementary components of the interaction rather than a single identical variable measured three ways.
+''','Approach testing had a 30-second ceiling, so a capped latency should not be treated as the animal’s exact preferred waiting time. The anatomical atlas locates accumbens tissue but does not identify the study’s injection sites.')
+add('Local dopamine antagonists reduce tickling calls','dopamine',['d_time','accumbens_atlas'],'''
+A **receptor antagonist** binds to a receptor and reduces activation by its transmitter. Hori and colleagues injected a mixture of SCH23390 and raclopride into the nucleus accumbens. These drugs target D1-family and D2/D3 dopamine receptor signaling, respectively.
+
+Tickling-evoked calling declined after the mixture, while vehicle treatment preserved the response. **Vehicle** is the solution carrying a drug without its active ingredient. Its use matched the local injection procedure while separating drug action from the effect of injecting fluid into the region.
+
+Reduced calling persisted at the later tests, including 40 minutes after injection. The local manipulation connects accumbens dopamine receptor activity with subsequent vocal behavior. Because the two antagonists were administered together, the result concerns combined receptor blockade rather than independently assigning the effect to one receptor subtype.
+''','The bilateral treatment affected both sides of the accumbens. The paper did not separately manipulate D1 and D2-family pathways, so their individual cellular contributions cannot be recovered from this combined treatment. In the published graph, dotted bars represent vehicle and striped bars represent the antagonist mixture.')
+add('Dopamine blockade affects call type and movement','dopamine',['d_types','accumbens_atlas'],'''
+Not all 50-kHz calls changed equally after accumbens dopamine receptor blockade. Frequency-modulated calls decreased, while flat calls were comparatively preserved. A **flat call** maintains a relatively stable frequency instead of changing substantially within the vocal event.
+
+The retained flat calls establish that the treated animals could still vocalize. Receptor blockade altered the acoustic repertoire as well as total call output, connecting local dopamine signaling especially with the modulated component produced during tickling.
+
+Locomotion also fell markedly and approach to the hand became slower. These motor effects limit an interpretation based only on pleasure: reduced calling could include impaired movement and engagement. The experiment links dopamine receptors with expression of vocal and approach behavior, while the preserved flat component separates that effect from complete loss of sound production.
+''','Line crossings were nearly absent after antagonist treatment. This is a material limitation because the same intervention changes movement, which can affect both approaching the hand and expressing the full tickling response. Dotted bars represent vehicle, and striped bars represent the antagonist mixture.')
+add('Self-touch suppresses trunk cortical activity','anticipation',['a_self','a_anatomy'],'''
+**Self-touch** occurs when an animal contacts its own body, as during grooming. Ishiyama and colleagues compared trunk grooming with touch delivered by the experimenter and with tickling. The same cortical representation responded differently according to the source and form of contact.
+
+Self-touch reduced trunk cortical firing and vocalization. Other-delivered touch increased activity, while tickling generated particularly strong excitation. Matching activity to the beginning and end of each behavior distinguished a sustained self-touch inhibition from externally evoked sensory responses.
+
+A neuron’s response therefore depends on more than which skin region is contacted. Self-generated movement and externally delivered stimulation place bodily input in different behavioral contexts. Suppression during grooming connects cortical processing with the animal’s own actions, while enhanced firing during tickling accompanies interaction with another agent.
+''','Grooming is an observable self-touch behavior, rather than an instruction for a rat to tickle itself. The paper uses this natural behavior to test differences between internally generated and externally delivered bodily stimulation.')
+add('Grooming elsewhere suppresses trunk processing','anticipation',['a_groom','a_anatomy'],'''
+Trunk cortical suppression also occurred when rats groomed the head or scratched another body region. The recorded cortex represented the torso, so these actions changed activity even without direct grooming contact at the represented skin site.
+
+Both same-side and opposite-side head grooming were associated with reduced firing. The effect therefore extended beyond a narrowly local response to touching one patch of trunk skin. Self-directed behavior can alter the state of sensory cortex while different parts of the body are active.
+
+This widespread modulation connects action context with bodily sensory processing. A grooming bout includes movements, contact, and a sustained behavioral state; trunk neurons were inhibited during that combination. Externally delivered touch then arrives in tissue whose responsiveness has already been changed by the animal’s ongoing activity.
+''','The investigators also observed suppression during scratching. Different self-directed actions produced a related cortical change, supporting a broader self-touch-associated state rather than an effect restricted to one grooming posture.')
+add('Self-touch reduces externally evoked cortical output','anticipation',['a_tap','a_anatomy'],'''
+Self-generated behavior changes the response to contact from another agent. Ishiyama and colleagues gently tapped the rat’s trunk before and during grooming. Tapping evoked fewer ultrasonic calls during grooming, and the corresponding cortical responses were smaller.
+
+The reduction was partial: externally delivered contact could still evoke calls. The result concerns **response suppression**, a decrease in responsiveness, rather than complete interruption of sensory transmission. The ongoing grooming state altered how strongly an additional tactile event was expressed in cortical activity and behavior.
+
+Cortical microstimulation also evoked fewer calls during self-touch. Electrical stimulation bypasses the experimenter’s direct skin contact, so suppression extends to the cortical recruitment of vocal output. Combining tactile stimulation with direct neural stimulation connects the self-touch state to central processing rather than only to peripheral contact conditions.
+''','In the tapping comparison, vocal output fell from approximately four calls per second to approximately two during grooming. The manipulation retained the external stimulus while changing the animal’s concurrent behavior.')
+add('GABA-A blockade disrupts self-touch suppression','anticipation',['a_gaba','a_anatomy'],'''
+**GABAergic inhibition** is neural inhibition mediated by gamma-aminobutyric acid. Ishiyama and colleagues injected gabazine, a GABA-A receptor antagonist, into trunk somatosensory cortex. Gabazine inhibits opening of these receptor-controlled channels, reducing local inhibitory signaling while preserving the externally delivered tapping procedure.
+
+Before disinhibition, grooming reduced tapping-evoked calls. After gabazine, this reduction was strongly weakened for tapping represented by the treated cortex. **Disinhibition** is increased responsiveness following removal of an inhibitory influence, connecting receptor action with the altered behavioral response.
+
+The comparison included the opposite body side as a control. Suppression remained stronger for contact represented by untreated tissue, while responses linked to treated tissue approached the nongrooming level. Side-specific receptor manipulation therefore connects local cortical inhibition with the behavioral suppression of externally evoked tickling responses during self-touch.
+''','The anatomical panel contains the stained cortical section and the injection-pipette trace. The result identifies a contribution from GABA-A-dependent cortical inhibition; it does not require assuming that all self-generated sensations use the same mechanism.')
+add('Rats initiate tickling despite mixed behavioral responses','anticipation',['a_operant'],'''
+Rats learned to insert their noses into a hole to trigger a beep followed by tickling. This **operant task** made an action produce contact, allowing the animals to initiate the interaction rather than only receive it at an experimenter’s chosen time.
+
+Successful initiation was often followed by a brief escape movement and then freezing before tickling began. **Freezing** is sustained immobility with a characteristic crouched posture. Occasional 22-kHz calls occurred after the nose poke, while vigorous 50-kHz calling emerged during the subsequent tickling.
+
+Seeking contact and expressing defensive responses can coexist within one trial. The authors call this **ambivalence**, the combination of opposing behavioral tendencies toward the same interaction. Learned initiation therefore supports reinforcement while the intervening escape, freezing, and alarm calls identify a more complex response than uniformly positive behavior throughout.
+''','Freezing episodes lasted about 1.2 seconds on average. Failed, shallow nose pokes triggered neither beep nor tickling and rarely produced freezing, linking the anticipatory sequence with successful initiation rather than any approach to the hole.')
+add('Different cortical layers encode contact and anticipation','anticipation',['a_layers','a_anatomy'],'''
+Self-initiated tickling separated anticipation from physical contact. Rats nose-poked, briefly waited or froze, and were then tickled. Recordings from identified cortical layers allowed neural activity during the waiting period to be distinguished from the response at contact onset.
+
+Layer 4 firing increased sharply when tickling began. Layer 5a activity instead ramped upward during the preceding anticipatory period and remained elevated during stimulation. A **ramp** is a progressive change in activity over time, here occurring before the experimenter delivered contact.
+
+Failed nose pokes lacked the same anticipatory layer 5a response. The layer comparison connects expected interaction with a cortical signal that precedes incoming tactile stimulation, while layer 4 supplies a more contact-linked response. Adjacent subdivisions of trunk cortex therefore carry different temporal relationships to the same self-initiated event.
+''','The paper also reports layer 5b responses increasing at sensory onset without the layer 5a anticipation pattern. Delaying contact by roughly 1.7 seconds did not increase calling, so the tested delay manipulation did not support a simple uncertainty-based increase in ticklishness.')
+add('Live observation differs from audiovisual playback','contagion',['c_setup'],'''
+Kaufmann and colleagues separated an observer rat from a demonstrator with a transparent partition and mesh at the bottom. The observer could witness live tickling while microphones tracked ultrasonic output. Separate conditions presented audio, video, or combined audiovisual recordings of tickling.
+
+Live witnessed tickling elicited observer calls, whereas playback produced little calling. The comparison distinguishes a complete live social event from the recorded acoustic and visual components presented through speakers and a screen. Responses depended on the form in which the interaction was encountered.
+
+**Contagion** describes a response in one animal associated with another animal’s behavior or state. The study measured that association through calls and movements, rather than inferring it from proximity alone. Live observation, playback, and direct tickling supplied distinct conditions for relating the observer’s response to the available social information.
+''','The mesh allowed odors to pass during live trials, while playback lacked those live cues. The live-playback difference does not isolate one sensory modality, because several properties of the social situation changed together.')
+add('Hand cues and jumps recruit different observer responses','contagion',['c_behavior'],'''
+Observer rats responded differently to components of a live interaction. **Air tickling**, movement of the experimenter’s hand in the other compartment without contacting a demonstrator, evoked calls but little jumping. A hand cue could therefore recruit vocal behavior without another rat receiving touch.
+
+When a demonstrator jumped spontaneously, observers increased both calling and jumping. Demonstrator vocalizations were associated with observer calls but not the same increase in jumps. The observer’s repertoire depended on whether the live event was a movement or an acoustic signal.
+
+These dissociations separate vocal contagion from matching every action. A call-producing social event need not produce a matching jump, and an experimenter’s gesture can evoke calls without social touch. Behavioral categories therefore specify which aspect of a witnessed event recruits each component of the observer’s response.
+''','The spontaneous demonstrator jumps occurred without direct experimenter tickling. Their association with observer behavior reduces reliance on the experimenter’s hand as the only cue present during socially recruited responses.')
+add('Trunk cortex responds to direct and witnessed tickling','contagion',['c_neural','c_anatomy'],'''
+Trunk cortical neurons responded during direct tickling, air tickling, and witnessed tickling. The observer received physical contact only in the direct condition. In the other conditions, the relevant event occurred beyond the partition while the observer’s cortex was recorded.
+
+Across neurons, strong direct responses were related to strong responses during air and witnessed tickling. The association connects a cell’s responsiveness to bodily interaction with its responsiveness to events occurring elsewhere in the social setting. The same tissue was recruited by several conditions with different immediate sensory inputs.
+
+Activity during witnessed tickling therefore extends beyond encoding current touch on the observer’s trunk. The authors’ hypothesis is that the shared response contributes to tickle contagion. The strong air-tickling response also makes expectation of an approaching interaction a plausible contributor to this cortical activity.
+''','The cortical localization comes from the original stained sections and reconstructed recording sites. The study did not perturb these neurons to test whether their witnessed response was necessary for the observer’s calling.')
+add('Watching a tickled rat changes cortical activity','contagion',['c_watch','c_anatomy'],'''
+The observer’s orientation supplied an additional behavioral comparison. Kaufmann and colleagues analyzed periods when the rat turned toward the other compartment, separating watching the experimenter’s hand, watching an untickled demonstrator, and watching a demonstrator receiving tickling.
+
+Watching a tickled demonstrator increased trunk cortical activity. Watching the untickled animal instead reduced it, while orienting toward air tickling produced little comparable population change. The same general act of turning toward the compartment had different neural consequences according to what was occurring there.
+
+This contrast ties cortical modulation to the observed social event rather than only to head movement or orientation. Seeing another rat is not equivalent to seeing that rat in a tactile interaction. Event identity changes the neural state associated with the observer’s attention to the neighboring compartment.
+''','The comparison is based on naturally occurring orientation periods within the conditions. It separates their associated cortical responses, while leaving the underlying sensory pathways and attention mechanisms unmanipulated.')
+add('Deep layers link direct and witnessed responses','contagion',['c_layers','c_anatomy'],'''
+The cortex contains layers with different response relationships. Kaufmann and colleagues localized neurons in stained trunk cortical sections and compared each cell’s direct-tickling response with its response while another rat was tickled beyond the partition.
+
+The relationship was stronger in deep layers, including layers 5a, 5b, and 6, than in superficial layers. Cells strongly recruited by direct tickling were especially likely to respond strongly during witnessed tickling in these deeper subdivisions. Anatomical depth therefore organized the shared response pattern.
+
+Air tickling had a somewhat different laminar relationship, including a strong correspondence in layer 4. The contrast separates response overlap associated with an experimenter’s hand cue from overlap during a live demonstrator interaction. Layer-specific organization allows related social conditions to recruit the same broad cortical region through different population profiles.
+''','The recording-site reconstruction retains the original laminar boundaries and scale bars. The response relationships are correlations across cells; the experiment did not trace a dedicated deep-layer pathway for social contagion.')
+add('Cortex responds around own and another rat’s calls','contagion',['c_calls','c_anatomy'],'''
+Trunk cortical activity increased around the observer’s own ultrasonic calls and around demonstrator calls during breaks. The second condition supplied an acoustic social event without the observer being tickled at that moment. Vocal timing therefore organized cortical responses in both animals’ behavioral roles.
+
+Cells with strong activity around their own animal’s calls tended to respond more strongly around the demonstrator’s calls. The relationship connects self-produced vocal behavior with externally encountered signals within the same recorded population, alongside the direct and witnessed touch comparisons.
+
+Shared cortical recruitment is compatible with several mechanisms. The authors’ mirror-like processing hypothesis proposes a link between experienced and witnessed interaction, while play expectation could also recruit these cells. The measured finding is a coordinated response to own and others’ vocal events, with distinct sensory and behavioral circumstances surrounding each.
+''','The demonstrator-call response was measured during break periods, reducing direct experimenter contact as an immediate explanation. The hypothesis concerns neural response overlap, not a direct measurement of empathy or a human-like emotional report.')
+add('Great apes and humans vocalize during tickling','apes',['ape_spectra'],'''
+Davila Ross and colleagues recorded tickling-induced vocalizations from young orangutans, gorillas, chimpanzees, bonobos, and humans. Familiar caregivers tickled body regions such as the palms, feet, neck, and armpits, allowing comparison of sounds produced in a related social interaction.
+
+A **spectrogram** represents sound frequency over time, with intensity encoded by darkness. Species differed in the frequency structure and timing of their calls. The recordings included a siamang as an outgroup, an organism outside the focal group used to orient evolutionary comparisons.
+
+The study compared acoustic characters rather than relying only on human judgments that a sound resembles laughter. Measuring vocal structure across related species supplies a basis for identifying shared traits and derived differences. Tickling links the recordings behaviorally, while their acoustic variation provides the material for evolutionary reconstruction.
+''','The participants were infants and juveniles for the apes and infants for humans. These recordings describe the sampled developmental stages, rather than every form of adult laughter or every context in which each species vocalizes.')
+add('Human laughter has more regular voicing','apes',['ape_voicing'],'''
+**Voicing** results from repeated vibration during sound production and can generate a regular harmonic pattern. Human tickling sounds contained much more regular voicing than the great-ape recordings. Most ape calls were noisier, although a bonobo also produced voiced sounds.
+
+The researchers distinguished **vibration regimes**, acoustically different patterns within a call. Multiple regimes occurred across species, so a vocal event could contain more than one production pattern. Regularity and within-call change therefore describe separate aspects of acoustic structure.
+
+The comparison identifies a pronounced human tendency rather than an absolute division between voiced humans and entirely unvoiced apes. A voiced bonobo call connects the human pattern with variation already present in another great ape. Evolutionary change can amplify an existing acoustic capacity while altering its frequency of expression.
+''','The source compares the proportion of voiced segments and several spectral measurements. Spectral differences are measured acoustic properties; the experiment did not record laryngeal neurons or vocal-fold muscle activity.')
+add('Call timing differs across great-ape species','apes',['ape_timing'],'''
+Laughter-like vocalizations can differ in temporal organization as well as frequency structure. Davila Ross and colleagues measured **call duration**, the length of one acoustic event, and the **intercall interval**, the silent period between successive calls in a sequence.
+
+Chimpanzees and bonobos produced shorter calls and shorter intervals than orangutans. They also produced more calls per series than orangutans and gorillas. A **series** is a connected sequence of vocal events, allowing the organization of repeated calls to be compared across species.
+
+Short individual events can form a densely packed sequence, while longer calls can form a slower one. These measured differences connect species-specific output with the rhythm of a tickling interaction. Temporal characters supplied evolutionary information beyond the presence of a laughter-like response or the degree of regular voicing.
+''','Calls and bouts were separate levels of vocal organization in the analysis. The acoustic comparison concerns naturally recorded tickling responses, not the animals’ ability to synchronize with an externally imposed musical beat.')
+add('Airflow direction distinguishes human and ape laughter','apes',['ape_airflow'],'''
+Vocalization can accompany exhalation or inhalation. **Egressive** sounds occur as air moves outward, while **ingressive** sounds occur as air moves inward. Great-ape tickling sequences included both consecutive egressive sounds and alternating egressive-ingressive patterns.
+
+Chimpanzees used the alternating pattern especially often. Human infants’ recorded laughter was exclusively egressive. The difference therefore concerns how calls are organized within breathing, rather than simply whether the individual produces a vocal response to tickling.
+
+Alternation is not an obligatory constraint on every great-ape call sequence, because sustained outward-airflow vocalization also occurred. Comparing actual airflow patterns separates a common species tendency from a fixed production requirement. The human repertoire emphasizes an organization that is already available, in less exclusive form, among the other great apes.
+''','Airflow direction was inferred from the acoustic and perceptual characteristics of the recorded vocal events. The study did not simultaneously measure respiratory motor neurons or direct airflow with a physiological sensor.')
+add('Sustained exhalation is possible in great apes','apes',['ape_spectra'],'''
+Some great-ape tickling recordings contained long uninterrupted egressive sequences. Davila Ross and colleagues reported a gorilla example lasting 13.2 seconds and a bonobo example lasting 10.5 seconds. Orangutan and chimpanzee examples also extended over several seconds.
+
+These durations contradict the claim that ape laughter must alternate inhalation and exhalation after each short vocal event. The animals could maintain outward-airflow vocalization for a prolonged sequence, even though their usual repertoire also included alternation.
+
+The measured examples describe capacities expressed by particular individuals, rather than universal maximum durations for each species. Shared capacity and different typical usage are separate evolutionary properties. Human laughter can be more consistently egressive without requiring that prolonged egressive sound production first originated only in the human lineage.
+''','The orangutan and chimpanzee examples lasted 4.2 and 3.3 seconds. The source reports observed sequences, so these values should not be interpreted as anatomical upper limits on the species’ respiratory systems.')
+add('Acoustic ancestry links human and great-ape laughter','apes',['ape_tree'],'''
+A **homologous trait** is related across species through shared evolutionary ancestry. Davila Ross and colleagues reconstructed trees from measured tickling-vocalization characters. The acoustic grouping matched the established relationship of humans with chimpanzees and bonobos, then gorillas and orangutans.
+
+The correspondence supports a common ancestral origin for tickling-induced laughter within the great-ape and human group. The authors’ evolutionary model proposes later modifications in regular voicing, temporal organization, and airflow. Those changes alter an inherited vocal behavior rather than requiring independent origins in each species.
+
+Rat tickling studies establish reinforcement, cortical modulation, and causal contributions from midbrain and dopamine systems. The ape reconstruction answers a different question about ancestry among closely related primates. Similar behavioral responses across these groups motivate comparison, while the acoustic phylogeny supplies the specific evidence for homology within great apes and humans.
+''','The published evolutionary timeline is the authors’ inference from acoustic traits and known lineage relationships, not a measurement of fossil laughter. The rat studies do not by themselves establish that rat ultrasonic calls and human laughter share the same ancestral vocal trait.')
+assert len(S)==44,len(S)
+items=[
+{'lead':'Behavioral reinforcement','text':'Rats seek and learn to predict tickling; housing and inherited variation change calling and approach, which remain distinct measures.'},
+{'lead':'Cortical processing','text':'Trunk cortex responds to touch, chasing, and calls; deep stimulation evokes vocal output, and anxiety suppresses interaction-related activity.'},
+{'lead':'Midbrain control','text':'Lateral PAG contains strongly play-responsive neurons, and selective inhibition reduces tickling calls and conspecific rough-and-tumble play.'},
+{'lead':'Dopamine contribution','text':'Tickling increases accumbens dopamine, while local receptor blockade reduces modulated calls and movement, limiting a pleasure-only interpretation.'},
+{'lead':'Self and social context','text':'GABA-A-dependent cortical inhibition contributes to self-touch suppression; anticipation and live observation recruit context-specific cortical responses.'},
+{'lead':'Evolutionary comparison','text':'Acoustic phylogeny supports homologous tickling-induced laughter in great apes and humans; human voicing and airflow modify shared capacities.'}]
+spec={'lecture':78,'content_slides':44,'theme':'smoke-rose-paper','title_height':2.5,'title_min_pt':25,'title_image':fig('rat_title'),'title_refs':[R['somatosensory']['reference']],'slides':S,'takeaways':{'items':items,'cite':'; '.join(short(k) for k in AUTH),'refs':[R[k]['reference'] for k in AUTH]}}
+(B/'lecture.json').write_text(json.dumps(spec,indent=2,ensure_ascii=False)+'\n')
+wc=[len(re.sub(r'\*\*','', ' '.join(z['body'])).split()) for z in S];print('Slides',len(S),'words',min(wc),max(wc));print([(i+2,n) for i,n in enumerate(wc) if not 90<=n<=170])

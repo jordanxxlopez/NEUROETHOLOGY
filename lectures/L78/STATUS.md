@@ -1,18 +1,15 @@
-# Lecture 78 complete
+# Lecture 78: completed comparative revision
 
-The connected repository default branch was fetched and used as the authoritative version. The exact schedule title and Date TBD are preserved. Updated teaching-paragraph rules, meaningful caveats only, no em dashes in slide text, teaching transcripts, and original-source image rules govern this lecture.
+Tickling across species: play, positive affect, and laughter-like vocalizations in animals
 
-All seven primary papers are available and verified, including the three uploaded papers. The deck contains 46 slides: one title, 44 content slides, and six exam-level points on the final Key takeaways slide. Each content slide has three teaching paragraphs, a teaching transcript, and full DOI references in its notes. Original article figures appear on all 44 content slides; 32 carry color images. Forty-eight unique article crops preserve source panel letters, axes, and scale bars. One unchanged, credited Allen Mouse Brain Atlas plate provides clearly identified comparative anatomy on five dopamine slides. No figure was generated, redrawn, or recolored.
+Date TBD. Built with the current connected default-branch guidelines and tools/build_lecture.py. The schedule title and date are unchanged.
 
-The smoke rose / paper white theme is recorded as used in course/themes.json. Arial is used throughout. The repository checker reports zero failures and zero warnings. All 46 slides were rendered and visually reviewed, with revised crops and captions rechecked. Source records, figure inventory, provenance, the reusable prompt, build specification, and validation record are saved alongside the PPTX. No PDFs remain outstanding.
+46 slides: title, 44 content slides, and six key takeaways. Fourteen animal groups: rats, tame and unselected mice, golden hamsters, orangutans, gorillas, chimpanzees, bonobos, humans, dogs, wolves, horses, bottlenose dolphins, African savanna elephants, kea. Rats receive three content slides. Direct tickling experiments are distinguished from play signals, rapid mimicry, and playback-induced play; play evidence is not relabeled proof of ticklishness.
 
-Rebuild and check from the repository root:
+All 44 content slides include original article figures; 22 have color figures. Thirteen verified primary papers, 3 teaching paragraphs and 113–132 words per content slide, natural teaching notes and full DOI references. No generated or recolored figures, web photos, em dashes, agendas, or routine caveat-ending structure. New umber gray / paper white theme. All 46 rendered slides and final crops reviewed. Builder and checker: zero failures, zero warnings.
 
-```bash
-python lectures/L78/prepare_figures.py
-python lectures/L78/write_spec.py
-python tools/build_lecture.py lectures/L78/lecture.json
-python tools/check_lecture.py lectures/L78/Neuroethology_Lecture78_FA2026.pptx --lecture 78
-```
+The current default branch update de8ce00 requires useful article-provided videos. Cordoni et al. (2025), Video S1 is embedded on slide 39 as an unchanged H.264 MP4, with an unedited recording frame as poster and the published static figure retained. Embedded media relationships and a complete decode were verified; interactive PowerPoint playback has not been tested. Other useful publisher movies could not be obtained; their original links and availability records are in the notes and media_sources.json. No YouTube video is included.
 
-The seven source PDFs belong in lectures/L78/papers and are excluded from Git. Source identities and acquisition records are in research.json and PAPERS.md. Figure reproduction uses the repository crop tool. The validated cloud environment includes the required Python libraries, Poppler, and LibreOffice; no configuration or credential changes were needed.
+The previous deck is preserved byte-for-byte as Neuroethology_Lecture78_Rats_and_Great_Apes_FA2026.pptx. Its internal title has not been changed. Its previous specifications and QA are archived in comparative_revision/previous_spec/. The canonical Neuroethology_Lecture78_FA2026.pptx is the broad replacement.
+
+Rebuild: python lectures/L78/write_spec.py; python tools/build_lecture.py lectures/L78/lecture.json; python lectures/L78/add_article_media.py. Reproduce crops with python lectures/L78/prepare_figures.py after restoring verified PDFs to papers/.
