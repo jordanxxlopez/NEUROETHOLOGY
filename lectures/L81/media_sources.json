@@ -1,0 +1,42 @@
+{
+  "embedded": [
+    {
+      "path": "media/tumer_movie.mp4",
+      "poster": "media/tumer_poster.png",
+      "slide": 8,
+      "caption": "Tumer & Brainard (2007), Supplementary Video 1. Recorded syllables and pitch change across reinforcement days.",
+      "doi": "10.1038/nature06390",
+      "original_media_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature06390/MediaObjects/41586_2007_BFnature06390_MOESM437_ESM.mov",
+      "credit": "Evren C. Tumer and Michael S. Brainard; original Nature supplementary recording",
+      "license": "Copyright Nature Publishing Group 2007; no separate open license supplied on the article page.",
+      "teaching_note": "The authors present recorded syllable sounds and their measured pitch across two baseline days and thirteen reinforcement days. The blue line is the authors’ reinforcement threshold. This is the original published recording, including its original data display, not a new animation or a replotted graph.",
+      "conversion": "MOV to MP4 container remux with video and audio stream copy; no frame, audio, duration, or speed modification.",
+      "sha256": "4d4a8f7ab2d78bb5a9be65b52c12dcf5a21b3236991cbebcf37020e91b15fe19",
+      "original_sha256": "093be49ba9899b80e75976e6d7f458b73eac8e7b79304bf2772cfefce8ec17b6",
+      "stream_copy_verified": true,
+      "verification": "SHA256 of compressed video and audio streams matched between original MOV and delivered MP4. Both complete recordings decoded successfully."
+    },
+    {
+      "path": "media/kawaji_movie1.mp4",
+      "poster": "media/kawaji_poster.png",
+      "slide": 43,
+      "caption": "Kawaji et al. (2024), Supplementary Movie 1. Original conspecific video used as a social stimulus.",
+      "doi": "10.1038/s41467-024-47824-1",
+      "original_media_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-024-47824-1/MediaObjects/41467_2024_47824_MOESM5_ESM.mp4",
+      "credit": "Takuto Kawaji, Mizuki Fujibayashi and Kentaro Abe; original Nature Communications supplementary stimulus",
+      "license": "Article CC BY 4.0; supplementary movie supplied with the article, no separate license statement displayed.",
+      "teaching_note": "The recording is the conspecific stimulus presented to subjects, not footage of the experimental subject’s response. The source reports that social video elicited approach, singing, and feather erection and increased repetition under contingent presentation.",
+      "conversion": "Original MP4 downloaded intact.",
+      "sha256": "465f94cfc3c45c54fd27f5a1c0f205181edd0c2dba6dbd369543ed28e9751518"
+    }
+  ],
+  "checked_without_useful_video": [
+    "Hisey et al. (2018): supplementary information PDFs; no useful original video listed.",
+    "Brown et al. (2021): supplementary figures, tables, and datasets; no useful original video listed."
+  ],
+  "unavailable_optional": [
+    "Gadagkar et al. (2016), movie S1: publisher supplementary route returned HTTP 403.",
+    "Xiao et al. (2018) and Kearney et al. (2019): publisher supplementary pages inaccessible; available supplied PDFs remain the figure sources."
+  ],
+  "playback": "Original clips decode successfully with ffmpeg. Interactive PowerPoint playback cannot be tested in this Linux environment; embedded media relationships and byte hashes are verified after building."
+}
