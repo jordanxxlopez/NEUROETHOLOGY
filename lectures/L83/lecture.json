@@ -1,0 +1,1356 @@
+{
+  "lecture": 83,
+  "theme": "muted-indigo-paper",
+  "content_slides": 44,
+  "title_height": 3.15,
+  "title_min_pt": 22,
+  "title_image": {
+    "path": "figures/mantis_animal.png",
+    "caption": "Nityananda et al. (2016), Fig. 3(a). Praying mantis wearing eye filters during a virtual-prey experiment.",
+    "source_url": "https://doi.org/10.1038/srep18718",
+    "kind": "article"
+  },
+  "title_refs": [
+    "Nityananda V, Tarawneh G, Rosner R, Nicolas J, Crichton S, Read J (2016). Insect stereopsis demonstrated using a 3D insect cinema. Scientific reports 6:18718. https://doi.org/10.1038/srep18718"
+  ],
+  "slides": [
+    {
+      "title": "Animal action changes the next visual input",
+      "body": [
+        "**Virtual reality** in animal experiments is a controlled coupling between an animal’s actions and its sensory input. A camera or treadmill sensor measures movement; a computer updates the visual environment in response. The animal’s next movement therefore depends on a world that its previous movement helped determine.",
+        "Stowers and colleagues built **FreemoVR**, a system that tracks freely walking mice, flying fruit flies, and swimming zebrafish. Display surfaces surround the animals, while game-rendering software calculates the scene from their current location. Natural body movement continues as visual objects and backgrounds change under computer control.",
+        "Flies circled both a real post and its virtual counterpart. Without a post, they also occupied the arena center. Zebrafish similarly avoided the space occupied by real or virtual posts, connecting controlled visual geometry to the animals’ trajectories."
+      ],
+      "cite": "Stowers et al. (2017)",
+      "refs": [
+        "Stowers JR, Hofbauer M, Bastien R, Griessner J, Higgins P, Farooqui S, Fischer RM, Nowikovsky K, Haubensak W, Couzin ID, Tessmar-Raible K, Straw AD (2017). Virtual reality for freely moving animals. Nature methods 14:995-1002. https://doi.org/10.1038/nmeth.4399"
+      ],
+      "transcript": [
+        "Virtual reality in animal experiments is a controlled coupling between an animal’s actions and its sensory input. A camera or treadmill sensor measures movement; a computer updates the visual environment in response. The animal’s next movement therefore depends on a world that its previous movement helped determine.",
+        "Stowers and colleagues built FreemoVR, a system that tracks freely walking mice, flying fruit flies, and swimming zebrafish. Display surfaces surround the animals, while game-rendering software calculates the scene from their current location. Natural body movement continues as visual objects and backgrounds change under computer control.",
+        "Flies circled both a real post and its virtual counterpart. Without a post, they also occupied the arena center. Zebrafish similarly avoided the space occupied by real or virtual posts, connecting controlled visual geometry to the animals’ trajectories.",
+        "The real-post, virtual-post, and no-post conditions separate responses to an object from baseline exploration. The same physical arena can contain different visual obstacles without handling the animal between conditions."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/stowers_world.png",
+        "caption": "Stowers et al. (2017), Fig. 1(a–h). Free-moving arenas and responses to real and virtual posts.",
+        "source_url": "https://doi.org/10.1038/nmeth.4399",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Head tracking preserves the visual perspective",
+      "body": [
+        "**Perspective** is the dependence of an object’s projected appearance on the observer’s location. A nearby post moves across the retina differently from a distant wall when an animal changes position. FreemoVR tracks this position and recalculates the display, preserving the corresponding relationship between movement and visual input.",
+        "Camera-based **computer vision**, the extraction of position from recorded images, supplies the location estimate. Spatial calibration links camera coordinates to display surfaces. For swimming fish, tracking also compensates for the bending of light at the air–water boundary, so the rendered view corresponds to the underwater observer.",
+        "The apparatus supported cylindrical flight arenas, projected mouse platforms, and aquatic arenas. Flies and fish changed their paths around virtual posts as they did around real posts. Rendering from the animal’s viewpoint supplies object-related movement cues even though the display surface itself stays stationary."
+      ],
+      "cite": "Stowers et al. (2017)",
+      "refs": [
+        "Stowers JR, Hofbauer M, Bastien R, Griessner J, Higgins P, Farooqui S, Fischer RM, Nowikovsky K, Haubensak W, Couzin ID, Tessmar-Raible K, Straw AD (2017). Virtual reality for freely moving animals. Nature methods 14:995-1002. https://doi.org/10.1038/nmeth.4399"
+      ],
+      "transcript": [
+        "Perspective is the dependence of an object’s projected appearance on the observer’s location. A nearby post moves across the retina differently from a distant wall when an animal changes position. FreemoVR tracks this position and recalculates the display, preserving the corresponding relationship between movement and visual input.",
+        "Camera-based computer vision, the extraction of position from recorded images, supplies the location estimate. Spatial calibration links camera coordinates to display surfaces. For swimming fish, tracking also compensates for the bending of light at the air–water boundary, so the rendered view corresponds to the underwater observer.",
+        "The apparatus supported cylindrical flight arenas, projected mouse platforms, and aquatic arenas. Flies and fish changed their paths around virtual posts as they did around real posts. Rendering from the animal’s viewpoint supplies object-related movement cues even though the display surface itself stays stationary.",
+        "The computer does not move the physical post in the virtual condition. It changes the images on the arena walls and floor so that the post has the visual behavior of an object at a specified location."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/stowers_perspective.png",
+        "caption": "Stowers et al. (2017), Fig. 1(a–d). Perspective rendering and flight, mouse, and aquatic apparatus.",
+        "source_url": "https://doi.org/10.1038/nmeth.4399",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Virtual partners alter zebrafish social movement",
+      "body": [
+        "Zebrafish interacted with a photorealistic virtual fish whose motion was controlled by the experimenter. A **virtual agent** is a computer-controlled entity that changes its behavior according to specified rules. Its response to the real animal can be varied independently of its appearance.",
+        "The study combined the virtual fish’s preferred direction with its attraction toward the real fish. An agent driven almost entirely by its own directional preference tended to lose its follower. Strong attraction kept the pair together but reduced the agent’s ability to impose its preferred direction.",
+        "Intermediate coupling balanced these competing influences and increased successful following. Occupancy maps and trajectories linked leadership to a reciprocal movement rule: a prospective leader maintained social contact while expressing its own directional tendency. Real fish therefore supplied feedback that changed the virtual partner’s actions."
+      ],
+      "cite": "Stowers et al. (2017)",
+      "refs": [
+        "Stowers JR, Hofbauer M, Bastien R, Griessner J, Higgins P, Farooqui S, Fischer RM, Nowikovsky K, Haubensak W, Couzin ID, Tessmar-Raible K, Straw AD (2017). Virtual reality for freely moving animals. Nature methods 14:995-1002. https://doi.org/10.1038/nmeth.4399"
+      ],
+      "transcript": [
+        "Zebrafish interacted with a photorealistic virtual fish whose motion was controlled by the experimenter. A virtual agent is a computer-controlled entity that changes its behavior according to specified rules. Its response to the real animal can be varied independently of its appearance.",
+        "The study combined the virtual fish’s preferred direction with its attraction toward the real fish. An agent driven almost entirely by its own directional preference tended to lose its follower. Strong attraction kept the pair together but reduced the agent’s ability to impose its preferred direction.",
+        "Intermediate coupling balanced these competing influences and increased successful following. Occupancy maps and trajectories linked leadership to a reciprocal movement rule: a prospective leader maintained social contact while expressing its own directional tendency. Real fish therefore supplied feedback that changed the virtual partner’s actions.",
+        "The interaction is bidirectional. The real fish responds to the agent, and the agent responds to the real fish. Holding appearance constant while altering the coupling rule tests a behavioral mechanism for social influence."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/stowers_social.png",
+        "caption": "Stowers et al. (2017), Fig. 5(i–l). Real–virtual fish trajectories and effects of social coupling.",
+        "source_url": "https://doi.org/10.1038/nmeth.4399",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Portals change a fish’s world without moving its body",
+      "body": [
+        "Zebrafish could enter visually marked **portals**, regions that triggered an immediate change of the displayed environment. The fish’s body stayed in the same tank while the visual world changed. Two portal appearances were coupled to different outcomes, separating the choice of entrance from behavior after the scene changed.",
+        "One environment contained a swarm of game-like agents. These agents followed a **flocking rule**, a movement algorithm that coordinated their motion with nearby individuals, including the real fish. Fish occupancy and swimming speed changed in the swarm condition; animals spent longer there and swam more slowly.",
+        "The fish preferred magenta portals, but their entrance choices did not favor the swarm outcome. Longer residence in a scene therefore differed from learning which entrance produced that scene. Portal color, entry choice, and post-entry movement represented distinct behavioral measurements in the same virtual task."
+      ],
+      "cite": "Stowers et al. (2017)",
+      "refs": [
+        "Stowers JR, Hofbauer M, Bastien R, Griessner J, Higgins P, Farooqui S, Fischer RM, Nowikovsky K, Haubensak W, Couzin ID, Tessmar-Raible K, Straw AD (2017). Virtual reality for freely moving animals. Nature methods 14:995-1002. https://doi.org/10.1038/nmeth.4399"
+      ],
+      "transcript": [
+        "Zebrafish could enter visually marked portals, regions that triggered an immediate change of the displayed environment. The fish’s body stayed in the same tank while the visual world changed. Two portal appearances were coupled to different outcomes, separating the choice of entrance from behavior after the scene changed.",
+        "One environment contained a swarm of game-like agents. These agents followed a flocking rule, a movement algorithm that coordinated their motion with nearby individuals, including the real fish. Fish occupancy and swimming speed changed in the swarm condition; animals spent longer there and swam more slowly.",
+        "The fish preferred magenta portals, but their entrance choices did not favor the swarm outcome. Longer residence in a scene therefore differed from learning which entrance produced that scene. Portal color, entry choice, and post-entry movement represented distinct behavioral measurements in the same virtual task.",
+        "In the source experiment, one-hour sessions produced a portal-color preference and scene-dependent swimming, rather than evidence of learning the portal–outcome association. This distinction changes the interpretation of what counts as success in the virtual task."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/stowers_portals.png",
+        "caption": "Stowers et al. (2017), Fig. 5(a–h). Portal choices, scene occupancy, and swimming with a virtual swarm.",
+        "source_url": "https://doi.org/10.1038/nmeth.4399",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "A landmark anchors the fly’s heading",
+      "body": [
+        "**Heading** is the direction an animal faces within its surroundings. Seelig and Jayaraman allowed head-fixed fruit flies to walk on an air-supported ball while a surrounding display presented a vertical stripe. Turning the ball rotated the stripe, linking the animal’s movement to a changing visual landmark.",
+        "**Two-photon calcium imaging** measured fluorescence from GCaMP6f, a protein sensor whose brightness changes with intracellular calcium. The recorded neurons occupied wedges of the **ellipsoid body**, a ring-shaped structure in the central complex of the fly brain. A localized activity peak moved around this ring as the landmark rotated.",
+        "The peak’s position tracked the fly’s orientation relative to the stripe. Each animal could have a different offset between the stripe and its neural peak, while maintaining that offset during a trial. The neural representation encoded an anchored direction rather than a universal retinal position for the landmark."
+      ],
+      "cite": "Seelig & Jayaraman (2015)",
+      "refs": [
+        "Seelig JD, Jayaraman V (2015). Neural dynamics for landmark orientation and angular path integration. Nature 521:186-191. https://doi.org/10.1038/nature14446"
+      ],
+      "transcript": [
+        "Heading is the direction an animal faces within its surroundings. Seelig and Jayaraman allowed head-fixed fruit flies to walk on an air-supported ball while a surrounding display presented a vertical stripe. Turning the ball rotated the stripe, linking the animal’s movement to a changing visual landmark.",
+        "Two-photon calcium imaging measured fluorescence from GCaMP6f, a protein sensor whose brightness changes with intracellular calcium. The recorded neurons occupied wedges of the ellipsoid body, a ring-shaped structure in the central complex of the fly brain. A localized activity peak moved around this ring as the landmark rotated.",
+        "The peak’s position tracked the fly’s orientation relative to the stripe. Each animal could have a different offset between the stripe and its neural peak, while maintaining that offset during a trial. The neural representation encoded an anchored direction rather than a universal retinal position for the landmark.",
+        "The visual arena covered 270° around the fly, while the neural population occupied the full circular extent of the ellipsoid body. Calcium fluorescence provides a population activity measure, rather than a direct count of every action potential."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/seelig_anatomy.png",
+        "caption": "Seelig & Jayaraman (2015), Fig. 1(a–e). Central-complex anatomy and the ellipsoid-body recording plane.",
+        "source_url": "https://doi.org/10.1038/nature14446",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "One activity peak represents a complex visual scene",
+      "body": [
+        "The fly’s **central complex** is a group of interconnected midline brain structures involved in orientation. The ellipsoid-body population formed one localized activity peak when the animal viewed a scene with several visual features. The peak remained similar in width to the peak recorded with a single stripe.",
+        "A **retinotopic map** preserves the arrangement of locations in the visual field. A map of all visible features would be expected to become more complex when more features were added. Instead, the ellipsoid-body response maintained a single directional representation while the animal moved through the richer panorama.",
+        "When two identical landmarks occupied opposite directions, the activity generally remained linked to one landmark rather than forming two equally strong peaks. Occasional changes of offset reflected the ambiguity between identical cues. A directional estimate can remain unitary even when the sensory scene contains several plausible anchors."
+      ],
+      "cite": "Seelig & Jayaraman (2015)",
+      "refs": [
+        "Seelig JD, Jayaraman V (2015). Neural dynamics for landmark orientation and angular path integration. Nature 521:186-191. https://doi.org/10.1038/nature14446"
+      ],
+      "transcript": [
+        "The fly’s central complex is a group of interconnected midline brain structures involved in orientation. The ellipsoid-body population formed one localized activity peak when the animal viewed a scene with several visual features. The peak remained similar in width to the peak recorded with a single stripe.",
+        "A retinotopic map preserves the arrangement of locations in the visual field. A map of all visible features would be expected to become more complex when more features were added. Instead, the ellipsoid-body response maintained a single directional representation while the animal moved through the richer panorama.",
+        "When two identical landmarks occupied opposite directions, the activity generally remained linked to one landmark rather than forming two equally strong peaks. Occasional changes of offset reflected the ambiguity between identical cues. A directional estimate can remain unitary even when the sensory scene contains several plausible anchors.",
+        "The activity peak is a pattern across many wedge neurons. Its location carries the direction estimate, while visual features provide external anchors for that estimate."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/seelig_scene.png",
+          "caption": "Seelig & Jayaraman (2015), Fig. 2(a–g). A single neural peak during movement through a complex scene.",
+          "source_url": "https://doi.org/10.1038/nature14446",
+          "kind": "article"
+        },
+        {
+          "path": "figures/seelig_anatomy.png",
+          "caption": "Seelig & Jayaraman (2015), Fig. 1(a–e). Central-complex structures and the ellipsoid-body recording plane.",
+          "source_url": "https://doi.org/10.1038/nature14446",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Self-motion updates orientation in darkness",
+      "body": [
+        "**Angular path integration** updates an orientation estimate from turning movements when landmarks are unavailable. In complete darkness, the fly’s ellipsoid-body activity still formed a localized peak. Its movement around the ring followed rotation of the treadmill ball, linking the neural estimate to self-motion.",
+        "The estimate gradually drifted relative to measured rotation, particularly during small or slow turns. Visual landmarks normally provide corrective information, whereas an estimate based only on accumulated movement can progressively depart from the animal’s actual heading. Darkness separated this movement-based update from visually anchored orientation.",
+        "When flies stopped walking in darkness, a representation of the previous orientation could persist for more than 30 s. On renewed movement, activity could reappear at the expected position. A **ring-attractor hypothesis** proposes that recurrent interactions sustain a localized directional state and move it when turning-related input arrives."
+      ],
+      "cite": "Seelig & Jayaraman (2015)",
+      "refs": [
+        "Seelig JD, Jayaraman V (2015). Neural dynamics for landmark orientation and angular path integration. Nature 521:186-191. https://doi.org/10.1038/nature14446"
+      ],
+      "transcript": [
+        "Angular path integration updates an orientation estimate from turning movements when landmarks are unavailable. In complete darkness, the fly’s ellipsoid-body activity still formed a localized peak. Its movement around the ring followed rotation of the treadmill ball, linking the neural estimate to self-motion.",
+        "The estimate gradually drifted relative to measured rotation, particularly during small or slow turns. Visual landmarks normally provide corrective information, whereas an estimate based only on accumulated movement can progressively depart from the animal’s actual heading. Darkness separated this movement-based update from visually anchored orientation.",
+        "When flies stopped walking in darkness, a representation of the previous orientation could persist for more than 30 s. On renewed movement, activity could reappear at the expected position. A ring-attractor hypothesis proposes that recurrent interactions sustain a localized directional state and move it when turning-related input arrives.",
+        "The sustained heading representation outlasted the sensor’s calcium-decay timescale. Persistence in darkness and updating during movement are different operations carried by the same population."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/seelig_dark.png",
+          "caption": "Seelig & Jayaraman (2015), Fig. 4(a–i). Heading activity during darkness and stationary periods.",
+          "source_url": "https://doi.org/10.1038/nature14446",
+          "kind": "article"
+        },
+        {
+          "path": "figures/seelig_anatomy.png",
+          "caption": "Seelig & Jayaraman (2015), Fig. 1(b–e). Ellipsoid-body anatomy and wedge-neuron organization.",
+          "source_url": "https://doi.org/10.1038/nature14446",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Inhibitory input links visual cues to the fly compass",
+      "body": [
+        "Fisher and colleagues recorded membrane voltage from **E–PG neurons**, the fly compass neurons that form a circular heading representation. Brief visual bars flashed at randomized positions for 500 ms. Some positions produced **hyperpolarization**, a shift of membrane voltage toward more negative values that reduces neuronal excitability.",
+        "**Ring neurons**, also called R neurons, supply visual input to this network and release **GABA**, gamma-aminobutyric acid, an inhibitory neurotransmitter. The axon of each R neuron overlaps many compass-neuron dendrites, but individual compass neurons responded differently to the same cue positions. Anatomical overlap therefore exceeded the set of strong functional inputs.",
+        "Random flashes produced reproducible voltage responses despite varying turns by the fly. This separated cue-position input from movement-related drive. Spatially selective inhibition can anchor the compass by suppressing particular parts of the ring while leaving other parts relatively active."
+      ],
+      "cite": "Fisher et al. (2019)",
+      "refs": [
+        "Fisher YE, Lu J, D'Alessandro I, Wilson RI (2019). Sensorimotor experience remaps visual input to a heading-direction network. Nature 576:121-125. https://doi.org/10.1038/s41586-019-1772-4"
+      ],
+      "transcript": [
+        "Fisher and colleagues recorded membrane voltage from E–PG neurons, the fly compass neurons that form a circular heading representation. Brief visual bars flashed at randomized positions for 500 ms. Some positions produced hyperpolarization, a shift of membrane voltage toward more negative values that reduces neuronal excitability.",
+        "Ring neurons, also called R neurons, supply visual input to this network and release GABA, gamma-aminobutyric acid, an inhibitory neurotransmitter. The axon of each R neuron overlaps many compass-neuron dendrites, but individual compass neurons responded differently to the same cue positions. Anatomical overlap therefore exceeded the set of strong functional inputs.",
+        "Random flashes produced reproducible voltage responses despite varying turns by the fly. This separated cue-position input from movement-related drive. Spatially selective inhibition can anchor the compass by suppressing particular parts of the ring while leaving other parts relatively active.",
+        "A receptive field is the set of stimulus positions that changes a neuron’s activity. Here the field was measured from voltage changes, including inhibitory responses, rather than only from increases in spike rate."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/fisher_input.png",
+        "caption": "Fisher et al. (2019), Fig. 1(a–h). Compass and ring-neuron organization with position-selective voltage responses.",
+        "source_url": "https://doi.org/10.1038/s41586-019-1772-4",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Channel manipulations identify the visual input pathway",
+      "body": [
+        "**Optogenetics** uses light-sensitive proteins to control selected neurons. Activating R neurons with Chrimson, a light-gated cation channel, drove hyperpolarization in E–PG compass neurons. Genetic controls without Chrimson lacked that response, linking activation of the visual input cells to inhibition of the heading network.",
+        "The investigators also expressed **Kir2.1**, an inwardly rectifying potassium channel, in R neurons. Increasing this potassium conductance chronically hyperpolarized the input neurons and reduced visually evoked inhibition in E–PG cells. Two independent genetic driver lines supported the same input-pathway relationship.",
+        "R-neuron spike responses, direct optogenetic activation, and channel-based suppression converged on a mechanism: visually responsive R neurons deliver inhibitory input to the compass. The strengths of these inputs vary across cue positions, allowing particular visual features to influence the heading representation selectively."
+      ],
+      "cite": "Fisher et al. (2019)",
+      "refs": [
+        "Fisher YE, Lu J, D'Alessandro I, Wilson RI (2019). Sensorimotor experience remaps visual input to a heading-direction network. Nature 576:121-125. https://doi.org/10.1038/s41586-019-1772-4"
+      ],
+      "transcript": [
+        "Optogenetics uses light-sensitive proteins to control selected neurons. Activating R neurons with Chrimson, a light-gated cation channel, drove hyperpolarization in E–PG compass neurons. Genetic controls without Chrimson lacked that response, linking activation of the visual input cells to inhibition of the heading network.",
+        "The investigators also expressed Kir2.1, an inwardly rectifying potassium channel, in R neurons. Increasing this potassium conductance chronically hyperpolarized the input neurons and reduced visually evoked inhibition in E–PG cells. Two independent genetic driver lines supported the same input-pathway relationship.",
+        "R-neuron spike responses, direct optogenetic activation, and channel-based suppression converged on a mechanism: visually responsive R neurons deliver inhibitory input to the compass. The strengths of these inputs vary across cue positions, allowing particular visual features to influence the heading representation selectively.",
+        "Chrimson makes the chosen R neurons more excitable when illuminated. Kir2.1 has the opposite experimental role, lowering excitability through added potassium conductance. Their opposite interventions identify the direction of influence on the recorded E–PG neuron."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/fisher_R.png",
+          "caption": "Fisher et al. (2019), Fig. 3(a–c). R-neuron responses, optogenetic activation, and Kir2.1 suppression.",
+          "source_url": "https://doi.org/10.1038/s41586-019-1772-4",
+          "kind": "article"
+        },
+        {
+          "path": "figures/fisher_input.png",
+          "caption": "Fisher et al. (2019), Fig. 1(a–h). Anatomical organization of the visual-to-compass pathway.",
+          "source_url": "https://doi.org/10.1038/s41586-019-1772-4",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Experience recalibrates the visual-to-heading map",
+      "body": [
+        "Changing a virtual panorama changes which visual views accompany the fly’s movements. Fisher and colleagues first measured compass activity with one landmark, then introduced two identical landmarks 180° apart. A half-turn and a full turn now produced the same visual view, creating ambiguity between movement-based heading and landmark position.",
+        "After experience in this altered world, the offset between the visual landmark and the neural compass could change persistently. Returning to the single landmark retained the new offset. The experiment therefore altered the coordinate relationship that anchors the compass, rather than simply driving a temporary response to an extra stripe.",
+        "Whole-cell measurements also detected changes in visually evoked inhibition after altered sensorimotor experience. A **synaptic-plasticity hypothesis** proposes that coincident input and compass activity weaken selected inhibitory connections. Reweighting those connections would align the internal directional state with the animal’s experienced visual world."
+      ],
+      "cite": "Fisher et al. (2019)",
+      "refs": [
+        "Fisher YE, Lu J, D'Alessandro I, Wilson RI (2019). Sensorimotor experience remaps visual input to a heading-direction network. Nature 576:121-125. https://doi.org/10.1038/s41586-019-1772-4",
+        "Seelig JD, Jayaraman V (2015). Neural dynamics for landmark orientation and angular path integration. Nature 521:186-191. https://doi.org/10.1038/nature14446"
+      ],
+      "transcript": [
+        "Changing a virtual panorama changes which visual views accompany the fly’s movements. Fisher and colleagues first measured compass activity with one landmark, then introduced two identical landmarks 180° apart. A half-turn and a full turn now produced the same visual view, creating ambiguity between movement-based heading and landmark position.",
+        "After experience in this altered world, the offset between the visual landmark and the neural compass could change persistently. Returning to the single landmark retained the new offset. The experiment therefore altered the coordinate relationship that anchors the compass, rather than simply driving a temporary response to an extra stripe.",
+        "Whole-cell measurements also detected changes in visually evoked inhibition after altered sensorimotor experience. A synaptic-plasticity hypothesis proposes that coincident input and compass activity weaken selected inhibitory connections. Reweighting those connections would align the internal directional state with the animal’s experienced visual world.",
+        "Plasticity refers to a lasting change in neural influence or activity caused by experience. The paper proposes associative depression of inhibitory inputs as an explanation for the measured receptive-field and reference-frame changes."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/fisher_realign.png",
+          "caption": "Fisher et al. (2019), Fig. 4(a–e). Persistent compass-offset changes following two-landmark experience.",
+          "source_url": "https://doi.org/10.1038/s41586-019-1772-4",
+          "kind": "article"
+        },
+        {
+          "path": "figures/seelig_anatomy.png",
+          "caption": "Seelig & Jayaraman (2015), Fig. 1(b–e). The circular anatomical substrate of the heading population.",
+          "source_url": "https://doi.org/10.1038/nature14446",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Walking bees choose rewarded virtual colors",
+      "body": [
+        "Honey bees walked on a 10 cm air-supported ball while blue and green discs appeared on a surrounding screen. Turning rotated the displayed stimuli, so the bee could center a selected color in front of its body. The stimulus positions were updated from the bee’s own walking rather than played as a fixed sequence.",
+        "**Differential conditioning** assigns different outcomes to two cues. One color was associated with 0.9 M sucrose, a food reward; the other was associated with 60 mM quinine, an aversive solution. The less-preferred color from an initial test became the rewarded cue, counteracting an existing color preference.",
+        "Following conditioning, choices were tested without delivering either solution. Bees acquired color discrimination in both the virtual apparatus and a real Y-maze. A correct unrewarded choice reflected the learned cue association rather than immediate attraction toward an exposed food source."
+      ],
+      "cite": "Buatois et al. (2018)",
+      "refs": [
+        "Buatois A, Flumian C, Schultheiss P, Avarguès-Weber A, Giurfa M (2018). Transfer of Visual Learning Between a Virtual and a Real Environment in Honey Bees: The Role of Active Vision. Frontiers in behavioral neuroscience 12:139. https://doi.org/10.3389/fnbeh.2018.00139"
+      ],
+      "transcript": [
+        "Honey bees walked on a 10 cm air-supported ball while blue and green discs appeared on a surrounding screen. Turning rotated the displayed stimuli, so the bee could center a selected color in front of its body. The stimulus positions were updated from the bee’s own walking rather than played as a fixed sequence.",
+        "Differential conditioning assigns different outcomes to two cues. One color was associated with 0.9 M sucrose, a food reward; the other was associated with 60 mM quinine, an aversive solution. The less-preferred color from an initial test became the rewarded cue, counteracting an existing color preference.",
+        "Following conditioning, choices were tested without delivering either solution. Bees acquired color discrimination in both the virtual apparatus and a real Y-maze. A correct unrewarded choice reflected the learned cue association rather than immediate attraction toward an exposed food source.",
+        "The rewarded cue is often called CS+, a conditioned stimulus predicting a positive outcome. CS− predicts the alternative outcome. Reward was delivered after the animal centered the cue, connecting visual selection to its consequence."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/buatois_tether.png",
+        "caption": "Buatois et al. (2018), Fig. 1(A–C). A tethered bee and its closed-loop color-choice apparatus.",
+        "source_url": "https://doi.org/10.3389/fnbeh.2018.00139",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Movement controls how bees sample visual targets",
+      "body": [
+        "**Active vision** is the acquisition of visual information through an animal’s own movements. A walking bee can alter a target’s retinal position by turning or approaching it. Buatois and colleagues compared a restrained treadmill task with a Y-maze in which bees could move freely toward the same colored discs.",
+        "The blue and green discs were 2 cm across and initially subtended the same visual angle in the two preparations. On the treadmill, 2° of ball rotation produced 1° of stimulus rotation. In the maze, physical movement changed viewing position and distance without that programmed constraint.",
+        "Both preparations supported initial discrimination, but they supplied different opportunities for sampling. Removing or adding restraint during a transfer test changed the expression of the learned choice. The visual cue’s identity remained constant while the animal’s ability to gather information about it changed."
+      ],
+      "cite": "Buatois et al. (2018)",
+      "refs": [
+        "Buatois A, Flumian C, Schultheiss P, Avarguès-Weber A, Giurfa M (2018). Transfer of Visual Learning Between a Virtual and a Real Environment in Honey Bees: The Role of Active Vision. Frontiers in behavioral neuroscience 12:139. https://doi.org/10.3389/fnbeh.2018.00139"
+      ],
+      "transcript": [
+        "Active vision is the acquisition of visual information through an animal’s own movements. A walking bee can alter a target’s retinal position by turning or approaching it. Buatois and colleagues compared a restrained treadmill task with a Y-maze in which bees could move freely toward the same colored discs.",
+        "The blue and green discs were 2 cm across and initially subtended the same visual angle in the two preparations. On the treadmill, 2° of ball rotation produced 1° of stimulus rotation. In the maze, physical movement changed viewing position and distance without that programmed constraint.",
+        "Both preparations supported initial discrimination, but they supplied different opportunities for sampling. Removing or adding restraint during a transfer test changed the expression of the learned choice. The visual cue’s identity remained constant while the animal’s ability to gather information about it changed.",
+        "The comparison held color identity and initial stimulus size consistent, while changing movement freedom. Active sampling therefore belongs to the learning situation, rather than being a separate process that begins only after perception."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/buatois_setup.png",
+        "caption": "Buatois et al. (2018), Fig. 1(A–F). Virtual walking apparatus and the real Y-maze with matched color cues.",
+        "source_url": "https://doi.org/10.3389/fnbeh.2018.00139",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Color memory transfers from screens to a real maze",
+      "body": [
+        "Bees trained in virtual reality were subsequently released into a real Y-maze containing the same color cues. **Transfer** means expressing learned information in a context different from the training context. The test removed the tether and allowed movement down the maze arms toward the visual targets.",
+        "Bees that had chosen the rewarded color after virtual training continued to prefer it in the maze. Some bees that had failed the immediate virtual test selected the rewarded cue after release. The richer opportunities for movement and viewing could therefore improve expression of information acquired during restrained training.",
+        "The transfer test delivered no reinforcement, so newly obtained food could not explain the choice. Refreshment trials before transfer maintained the trained association. Performance in a single restrained test can underestimate a bee’s acquired color information when the animal’s viewing actions are constrained."
+      ],
+      "cite": "Buatois et al. (2018)",
+      "refs": [
+        "Buatois A, Flumian C, Schultheiss P, Avarguès-Weber A, Giurfa M (2018). Transfer of Visual Learning Between a Virtual and a Real Environment in Honey Bees: The Role of Active Vision. Frontiers in behavioral neuroscience 12:139. https://doi.org/10.3389/fnbeh.2018.00139"
+      ],
+      "transcript": [
+        "Bees trained in virtual reality were subsequently released into a real Y-maze containing the same color cues. Transfer means expressing learned information in a context different from the training context. The test removed the tether and allowed movement down the maze arms toward the visual targets.",
+        "Bees that had chosen the rewarded color after virtual training continued to prefer it in the maze. Some bees that had failed the immediate virtual test selected the rewarded cue after release. The richer opportunities for movement and viewing could therefore improve expression of information acquired during restrained training.",
+        "The transfer test delivered no reinforcement, so newly obtained food could not explain the choice. Refreshment trials before transfer maintained the trained association. Performance in a single restrained test can underestimate a bee’s acquired color information when the animal’s viewing actions are constrained.",
+        "The study distinguishes learning during training from the expression of learning at test. A bee may possess usable information even when its earlier response under restraint was unsuccessful."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/buatois_transfer.png",
+        "caption": "Buatois et al. (2018), Fig. 4(A–B). Unrewarded choices after transfers between virtual reality and a maze.",
+        "source_url": "https://doi.org/10.3389/fnbeh.2018.00139",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "The direction of transfer changes learned performance",
+      "body": [
+        "Transfer from the real Y-maze into virtual reality produced a different outcome from transfer in the reverse direction. Bees that selected the rewarded color after maze training lost a clear group preference when subsequently tested on the treadmill. Greater movement freedom during training did not guarantee successful performance under added restraint.",
+        "The two directions therefore changed the animal’s access to visual information asymmetrically. Release from restraint increased opportunities for active sampling; imposing restraint reduced them. The colors and their reinforcement histories remained the same while the action–view relationship changed.",
+        "**Context-dependent expression** describes a learned response whose accessibility varies with the test conditions. A color association learned while approaching and inspecting a physical target can depend on those actions. Matching the sensory cue alone is therefore insufficient to match the animal’s complete experience of a task."
+      ],
+      "cite": "Buatois et al. (2018)",
+      "refs": [
+        "Buatois A, Flumian C, Schultheiss P, Avarguès-Weber A, Giurfa M (2018). Transfer of Visual Learning Between a Virtual and a Real Environment in Honey Bees: The Role of Active Vision. Frontiers in behavioral neuroscience 12:139. https://doi.org/10.3389/fnbeh.2018.00139"
+      ],
+      "transcript": [
+        "Transfer from the real Y-maze into virtual reality produced a different outcome from transfer in the reverse direction. Bees that selected the rewarded color after maze training lost a clear group preference when subsequently tested on the treadmill. Greater movement freedom during training did not guarantee successful performance under added restraint.",
+        "The two directions therefore changed the animal’s access to visual information asymmetrically. Release from restraint increased opportunities for active sampling; imposing restraint reduced them. The colors and their reinforcement histories remained the same while the action–view relationship changed.",
+        "Context-dependent expression describes a learned response whose accessibility varies with the test conditions. A color association learned while approaching and inspecting a physical target can depend on those actions. Matching the sensory cue alone is therefore insufficient to match the animal’s complete experience of a task.",
+        "The authors discuss both movement-related visual sampling and the mechanical effects of tethering. Their results support an interaction between learned cue value and the sensorimotor conditions of retrieval."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/buatois_maze.png",
+        "caption": "Buatois et al. (2018), Fig. 1(D–F). The Y-maze and detachable arms used for unrestricted color choices.",
+        "source_url": "https://doi.org/10.3389/fnbeh.2018.00139",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Virtual color learning recruits mushroom-body expression",
+      "body": [
+        "Geng and colleagues presented walking honey bees with colored cuboids in a three-dimensional virtual arena. Forward movement enlarged an approached target; backward movement reduced it. Successful learners selected the rewarded color in an unrewarded test, linking target-directed movement to a retained visual association.",
+        "The **mushroom bodies** are higher-order insect brain structures whose calyces receive sensory input. **Immediate early genes** are genes whose transcription can increase rapidly following neural activation. The investigators measured Egr1, Hr38, and kakusei RNA after learning, comparing successful and unsuccessful animals exposed to the same task.",
+        "**Egr1**, a gene encoding a transcription factor, was elevated in the mushroom-body calyces of successful learners. The calyces contain the input regions of **Kenyon cells**, the principal mushroom-body neurons. Learning-associated transcription was therefore concentrated in a sensory integration region rather than uniformly distributed throughout the sampled brain."
+      ],
+      "cite": "Geng et al. (2022)",
+      "refs": [
+        "Geng H, Lafon G, Avarguès-Weber A, Buatois A, Massou I, Giurfa M (2022). Visual learning in a virtual reality environment upregulates immediate early gene expression in the mushroom bodies of honey bees. Communications biology 5:130. https://doi.org/10.1038/s42003-022-03075-8"
+      ],
+      "transcript": [
+        "Geng and colleagues presented walking honey bees with colored cuboids in a three-dimensional virtual arena. Forward movement enlarged an approached target; backward movement reduced it. Successful learners selected the rewarded color in an unrewarded test, linking target-directed movement to a retained visual association.",
+        "The mushroom bodies are higher-order insect brain structures whose calyces receive sensory input. Immediate early genes are genes whose transcription can increase rapidly following neural activation. The investigators measured Egr1, Hr38, and kakusei RNA after learning, comparing successful and unsuccessful animals exposed to the same task.",
+        "Egr1, a gene encoding a transcription factor, was elevated in the mushroom-body calyces of successful learners. The calyces contain the input regions of Kenyon cells, the principal mushroom-body neurons. Learning-associated transcription was therefore concentrated in a sensory integration region rather than uniformly distributed throughout the sampled brain.",
+        "Brains were collected one hour after the retention test. RNA expression is a molecular correlate of the preceding experience, not a moment-by-moment recording of Kenyon-cell spiking."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/geng_Egr1.png",
+          "caption": "Geng et al. (2022), Fig. 5(h–j). Egr1 expression in three sampled brain regions.",
+          "source_url": "https://doi.org/10.1038/s42003-022-03075-8",
+          "kind": "article"
+        },
+        {
+          "path": "figures/geng_anatomy.png",
+          "caption": "Geng et al. (2022), Fig. 5(a). Optic lobes, mushroom-body calyces, and central-brain anatomy.",
+          "source_url": "https://doi.org/10.1038/s42003-022-03075-8",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Brain-region sampling separates learning-related signals",
+      "body": [
+        "The study separately sampled the **optic lobes**, visual processing regions lateral to the central brain; mushroom-body calyces; and the remaining central brain. RNA abundance was quantified by reverse-transcription quantitative PCR, a method that converts RNA into DNA and measures the amount of selected gene transcripts.",
+        "Learners had greater Egr1 expression in the mushroom-body calyces, while optic-lobe and remaining-brain samples lacked the same learning-related difference. Hr38 and kakusei also lacked a corresponding increase across the sampled regions. Genes activated by other behaviors need not report the same components of color learning.",
+        "Walking distance and path tortuosity, the degree of path sinuosity, were similar across the learning groups. The regional Egr1 difference therefore accompanied successful cue discrimination rather than a simple difference in how extensively bees explored. Behavioral retention and regional molecular activity provided complementary measurements of the same experience."
+      ],
+      "cite": "Geng et al. (2022)",
+      "refs": [
+        "Geng H, Lafon G, Avarguès-Weber A, Buatois A, Massou I, Giurfa M (2022). Visual learning in a virtual reality environment upregulates immediate early gene expression in the mushroom bodies of honey bees. Communications biology 5:130. https://doi.org/10.1038/s42003-022-03075-8"
+      ],
+      "transcript": [
+        "The study separately sampled the optic lobes, visual processing regions lateral to the central brain; mushroom-body calyces; and the remaining central brain. RNA abundance was quantified by reverse-transcription quantitative PCR, a method that converts RNA into DNA and measures the amount of selected gene transcripts.",
+        "Learners had greater Egr1 expression in the mushroom-body calyces, while optic-lobe and remaining-brain samples lacked the same learning-related difference. Hr38 and kakusei also lacked a corresponding increase across the sampled regions. Genes activated by other behaviors need not report the same components of color learning.",
+        "Walking distance and path tortuosity, the degree of path sinuosity, were similar across the learning groups. The regional Egr1 difference therefore accompanied successful cue discrimination rather than a simple difference in how extensively bees explored. Behavioral retention and regional molecular activity provided complementary measurements of the same experience.",
+        "The experiment compared learner and non-learner expression within each sampled brain region. It did not directly compare expression magnitudes between different genes or between different regions."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/geng_expression.png",
+        "caption": "Geng et al. (2022), Fig. 5(a–j). Brain-region anatomy and expression of three immediate early genes.",
+        "source_url": "https://doi.org/10.1038/s42003-022-03075-8",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Separate eye images create a virtual prey distance",
+      "body": [
+        "Praying mantises strike with their forelegs when prey lies within reach. **Stereopsis** estimates depth from differences between the images reaching the two eyes. Nityananda and colleagues attached miniature blue and green filters to the eyes, allowing a monitor to present a different target position to each eye.",
+        "**Binocular disparity** is the difference in a target’s position between the two retinal images. Moving the two screen targets apart or together changed the depth specified by their disparity while leaving the physical monitor in the same place. A moving disc served as virtual prey.",
+        "Crossed disparity specified a target about 2.5 cm from the mantis, closer than the monitor. Mantises struck at this near virtual target more often than at zero-disparity or uncrossed targets. The prey-catching decision depended on the depth relationship between the eye images rather than only the distance to the display."
+      ],
+      "cite": "Nityananda et al. (2016)",
+      "refs": [
+        "Nityananda V, Tarawneh G, Rosner R, Nicolas J, Crichton S, Read J (2016). Insect stereopsis demonstrated using a 3D insect cinema. Scientific reports 6:18718. https://doi.org/10.1038/srep18718"
+      ],
+      "transcript": [
+        "Praying mantises strike with their forelegs when prey lies within reach. Stereopsis estimates depth from differences between the images reaching the two eyes. Nityananda and colleagues attached miniature blue and green filters to the eyes, allowing a monitor to present a different target position to each eye.",
+        "Binocular disparity is the difference in a target’s position between the two retinal images. Moving the two screen targets apart or together changed the depth specified by their disparity while leaving the physical monitor in the same place. A moving disc served as virtual prey.",
+        "Crossed disparity specified a target about 2.5 cm from the mantis, closer than the monitor. Mantises struck at this near virtual target more often than at zero-disparity or uncrossed targets. The prey-catching decision depended on the depth relationship between the eye images rather than only the distance to the display.",
+        "The filters are anaglyph glasses: each filter transmits one display color more strongly, directing the appropriate image primarily to its intended eye. The eye positions and monitor geometry determine the resulting virtual disparity."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/mantis_setup.png",
+        "caption": "Nityananda et al. (2016), Fig. 3(a–b). A mantis wearing eye filters and the virtual-prey apparatus.",
+        "source_url": "https://doi.org/10.1038/srep18718",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Binocular disparity gates a mantis’s strike",
+      "body": [
+        "The same moving target could specify different distances by changing the separation of its left-eye and right-eye components. **Crossed disparity** corresponds to a target nearer than the monitor; zero disparity corresponds to its surface. Uncrossed disparity reverses the near-target relationship between the two eye images.",
+        "The investigators tested monitors at distances of 5, 7, and 10 cm while the crossed-disparity condition specified prey at 2.5 cm. Mantises preferentially struck under the crossed condition at these different monitor distances. Strike probability therefore depended on virtual depth, rather than being tied to one physical screen position.",
+        "The study also recorded **tensions**, partial foreleg responses that stopped short of a completed strike. These responses distinguished preparation of the prey-capture action from its full execution. A depth-dependent visual signal can influence both the decision to attack and the progression toward the completed movement."
+      ],
+      "cite": "Nityananda et al. (2016)",
+      "refs": [
+        "Nityananda V, Tarawneh G, Rosner R, Nicolas J, Crichton S, Read J (2016). Insect stereopsis demonstrated using a 3D insect cinema. Scientific reports 6:18718. https://doi.org/10.1038/srep18718"
+      ],
+      "transcript": [
+        "The same moving target could specify different distances by changing the separation of its left-eye and right-eye components. Crossed disparity corresponds to a target nearer than the monitor; zero disparity corresponds to its surface. Uncrossed disparity reverses the near-target relationship between the two eye images.",
+        "The investigators tested monitors at distances of 5, 7, and 10 cm while the crossed-disparity condition specified prey at 2.5 cm. Mantises preferentially struck under the crossed condition at these different monitor distances. Strike probability therefore depended on virtual depth, rather than being tied to one physical screen position.",
+        "The study also recorded tensions, partial foreleg responses that stopped short of a completed strike. These responses distinguished preparation of the prey-capture action from its full execution. A depth-dependent visual signal can influence both the decision to attack and the progression toward the completed movement.",
+        "The original article recordings contain the mantis’s actual responses to the display. A physical screen can drive a motor action normally directed toward nearby three-dimensional prey."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/mantis_disparity.png",
+        "caption": "Nityananda et al. (2016), Fig. 4(a–d). Prey-depth geometry and attack responses at three monitor distances.",
+        "source_url": "https://doi.org/10.1038/srep18718",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Eye filters determine which depth signals reach the animal",
+      "body": [
+        "**Crosstalk** occurs when part of the image intended for one eye reaches the other eye. The study first tested circularly polarized filters, which are commonly used for human three-dimensional displays. The mantis’s viewing angles introduced substantial leakage, compromising the intended separation of eye images.",
+        "Blue and green filters reduced this problem by separating the display’s spectral channels. The researchers measured light transmission and recorded **electroretinograms**, electrical responses of the compound eye to light. Physical measurements and eye responses characterized the signals available through each filter.",
+        "Behavioral tests under the anaglyph arrangement produced stronger attack responses to near virtual prey. Establishing the signal reaching each eye was necessary for interpreting the disparity manipulation. A display technique suited to one species can fail when another animal’s eye position and viewing geometry alter its optical performance."
+      ],
+      "cite": "Nityananda et al. (2016)",
+      "refs": [
+        "Nityananda V, Tarawneh G, Rosner R, Nicolas J, Crichton S, Read J (2016). Insect stereopsis demonstrated using a 3D insect cinema. Scientific reports 6:18718. https://doi.org/10.1038/srep18718"
+      ],
+      "transcript": [
+        "Crosstalk occurs when part of the image intended for one eye reaches the other eye. The study first tested circularly polarized filters, which are commonly used for human three-dimensional displays. The mantis’s viewing angles introduced substantial leakage, compromising the intended separation of eye images.",
+        "Blue and green filters reduced this problem by separating the display’s spectral channels. The researchers measured light transmission and recorded electroretinograms, electrical responses of the compound eye to light. Physical measurements and eye responses characterized the signals available through each filter.",
+        "Behavioral tests under the anaglyph arrangement produced stronger attack responses to near virtual prey. Establishing the signal reaching each eye was necessary for interpreting the disparity manipulation. A display technique suited to one species can fail when another animal’s eye position and viewing geometry alter its optical performance.",
+        "The comparison concerns the separation of the two eye images. Color in this experiment functions as a delivery channel for stereoscopic stimuli, rather than as the behavioral feature the mantis is being trained to discriminate."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/mantis_crosstalk.png",
+        "caption": "Nityananda et al. (2016), Fig. 2(a–c). Filter crosstalk measured optically, electrically, and behaviorally.",
+        "source_url": "https://doi.org/10.1038/srep18718",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Mantis optic-lobe neurons encode virtual prey depth",
+      "body": [
+        "Rosner and colleagues recorded individual mantis neurons while presenting targets separately to the two eyes. The **optic lobes** are the brain regions that process signals from the compound eyes. Intracellular recording measured neuronal responses while dye labeling identified each recorded cell’s anatomy.",
+        "Some neurons preferred particular binocular disparities and horizontal target positions. A cell could therefore respond strongly to a target within a restricted part of three-dimensional space. Responses to separate-eye stimuli provided the components needed to test how binocular input generated that selectivity.",
+        "Columnar commissural neurons connected the two lobula complexes, higher-order regions within the optic lobes. Their measured responses could be described by combining input from the two eyes followed by a nonlinear output transformation. Binocular convergence in identifiable neurons provides a cellular route from eye-specific visual positions to prey-depth signals."
+      ],
+      "cite": "Rosner et al. (2019)",
+      "refs": [
+        "Rosner R, von Hadeln J, Tarawneh G, Read JCA (2019). A neuronal correlate of insect stereopsis. Nature communications 10:2845. https://doi.org/10.1038/s41467-019-10721-z"
+      ],
+      "transcript": [
+        "Rosner and colleagues recorded individual mantis neurons while presenting targets separately to the two eyes. The optic lobes are the brain regions that process signals from the compound eyes. Intracellular recording measured neuronal responses while dye labeling identified each recorded cell’s anatomy.",
+        "Some neurons preferred particular binocular disparities and horizontal target positions. A cell could therefore respond strongly to a target within a restricted part of three-dimensional space. Responses to separate-eye stimuli provided the components needed to test how binocular input generated that selectivity.",
+        "Columnar commissural neurons connected the two lobula complexes, higher-order regions within the optic lobes. Their measured responses could be described by combining input from the two eyes followed by a nonlinear output transformation. Binocular convergence in identifiable neurons provides a cellular route from eye-specific visual positions to prey-depth signals.",
+        "A commissure connects the two sides of the nervous system. The filled neurons’ anatomy and their binocular responses jointly identify routes through which information from the two eyes can interact."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/rosner_neuron.png",
+        "caption": "Rosner et al. (2019), Fig. 3(a–l). Commissural-neuron anatomy and disparity-dependent responses.",
+        "source_url": "https://doi.org/10.1038/s41467-019-10721-z",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Depth tuning also specifies where prey can be caught",
+      "body": [
+        "**Eccentricity** is a target’s angular position relative to the animal’s forward direction. Mantis neurons varied in preferred eccentricity as well as binocular disparity. Combining these sensitivities restricted strong responses to particular target locations, linking estimated distance to the lateral direction of a potential strike.",
+        "The investigators also identified **centrifugal neurons**, cells carrying signals from central brain regions back toward visual processing regions. Their filled arbors and response maps revealed feedback pathways associated with disparity-sensitive processing. Visual information therefore passed through a network with both inter-eye connections and central feedback.",
+        "Different neuronal classes preferred different regions of target space. The resulting population supplied multiple location-sensitive signals rather than one universal near-prey detector. The source’s binocular-input model accounted for several response shapes through weighted eye inputs and an output nonlinearity, a hypothesis about how local computations generate spatial tuning."
+      ],
+      "cite": "Rosner et al. (2019)",
+      "refs": [
+        "Rosner R, von Hadeln J, Tarawneh G, Read JCA (2019). A neuronal correlate of insect stereopsis. Nature communications 10:2845. https://doi.org/10.1038/s41467-019-10721-z"
+      ],
+      "transcript": [
+        "Eccentricity is a target’s angular position relative to the animal’s forward direction. Mantis neurons varied in preferred eccentricity as well as binocular disparity. Combining these sensitivities restricted strong responses to particular target locations, linking estimated distance to the lateral direction of a potential strike.",
+        "The investigators also identified centrifugal neurons, cells carrying signals from central brain regions back toward visual processing regions. Their filled arbors and response maps revealed feedback pathways associated with disparity-sensitive processing. Visual information therefore passed through a network with both inter-eye connections and central feedback.",
+        "Different neuronal classes preferred different regions of target space. The resulting population supplied multiple location-sensitive signals rather than one universal near-prey detector. The source’s binocular-input model accounted for several response shapes through weighted eye inputs and an output nonlinearity, a hypothesis about how local computations generate spatial tuning.",
+        "The neuronal study identifies depth-related response properties and routes through the optic lobes. The mantis strike experiments separately connect the manipulated depth cue to the prey-catching action."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/rosner_feedback.png",
+        "caption": "Rosner et al. (2019), Fig. 4(a–d). Feedback-neuron anatomy and binocular target-position tuning.",
+        "source_url": "https://doi.org/10.1038/s41467-019-10721-z",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Cockroaches explore a projected virtual forest",
+      "body": [
+        "Takalo and colleagues placed tethered cockroaches on an air-supported ball inside a panoramic projection system. The display presented a virtual forest, while ball rotation updated the animal’s simulated location. The insect remained physically near the center of the apparatus but could walk through the visual environment.",
+        "The system covered about 65% of the complete visual field and allowed continuous rotation through 360° horizontally. A broad view preserved visual information across turns. **Optic flow**, the movement of visual features produced by self-motion, changed as the animal progressed among the virtual trees.",
+        "Cockroaches generated extended walking trajectories through the forest. Recorded paths and walking speeds provided measurements of exploration under this artificial action–vision coupling. The preparation combined controlled visual movement with access for physiological experiments, allowing the visual environment to respond to the insect’s own locomotor output."
+      ],
+      "cite": "Takalo et al. (2012)",
+      "refs": [
+        "Takalo J, Piironen A, Honkanen A, Lempeä M, Aikio M, Tuukkanen T, Vähäsöyrinki M (2012). A fast and flexible panoramic virtual reality system for behavioural and electrophysiological experiments. Scientific reports 2:324. https://doi.org/10.1038/srep00324"
+      ],
+      "transcript": [
+        "Takalo and colleagues placed tethered cockroaches on an air-supported ball inside a panoramic projection system. The display presented a virtual forest, while ball rotation updated the animal’s simulated location. The insect remained physically near the center of the apparatus but could walk through the visual environment.",
+        "The system covered about 65% of the complete visual field and allowed continuous rotation through 360° horizontally. A broad view preserved visual information across turns. Optic flow, the movement of visual features produced by self-motion, changed as the animal progressed among the virtual trees.",
+        "Cockroaches generated extended walking trajectories through the forest. Recorded paths and walking speeds provided measurements of exploration under this artificial action–vision coupling. The preparation combined controlled visual movement with access for physiological experiments, allowing the visual environment to respond to the insect’s own locomotor output.",
+        "The article-provided recording preserves the insect and display during exploration. The spherical projection surface presents a surrounding world while the tether prevents the animal from leaving the recording position."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/takalo_forest.png",
+        "caption": "Takalo et al. (2012), Fig. 1(b). A cockroach on the trackball within the projected forest.",
+        "source_url": "https://doi.org/10.1038/srep00324",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Treadmill movement becomes a cockroach’s virtual path",
+      "body": [
+        "Optical sensors measured rotation of the cockroach’s trackball. The computer converted that motion into translation and turning within the virtual forest. **Closed-loop control** means that the current movement measurement influences the next display update, permitting the animal to regulate its own progression through the scene.",
+        "The article reported exploratory trajectories for two cockroaches, including changing speed and turning velocity over time. Their paths covered much of the available arena rather than remaining confined to a single directed route. Periods of fast forward walking and pauses produced different rates of virtual movement.",
+        "A **trajectory** is the sequence of positions occupied over time, whereas a speed measurement quantifies how rapidly position changes. Both are needed to describe exploration: similar total coverage can arise from different combinations of pauses, forward movements, and turns. The virtual forest supplies visual feedback throughout those movements."
+      ],
+      "cite": "Takalo et al. (2012)",
+      "refs": [
+        "Takalo J, Piironen A, Honkanen A, Lempeä M, Aikio M, Tuukkanen T, Vähäsöyrinki M (2012). A fast and flexible panoramic virtual reality system for behavioural and electrophysiological experiments. Scientific reports 2:324. https://doi.org/10.1038/srep00324"
+      ],
+      "transcript": [
+        "Optical sensors measured rotation of the cockroach’s trackball. The computer converted that motion into translation and turning within the virtual forest. Closed-loop control means that the current movement measurement influences the next display update, permitting the animal to regulate its own progression through the scene.",
+        "The article reported exploratory trajectories for two cockroaches, including changing speed and turning velocity over time. Their paths covered much of the available arena rather than remaining confined to a single directed route. Periods of fast forward walking and pauses produced different rates of virtual movement.",
+        "A trajectory is the sequence of positions occupied over time, whereas a speed measurement quantifies how rapidly position changes. Both are needed to describe exploration: similar total coverage can arise from different combinations of pauses, forward movements, and turns. The virtual forest supplies visual feedback throughout those movements.",
+        "The trajectory is computed from recorded ball movement. It is a record of the animal’s actions in the virtual task, rather than an imposed path that the computer requires the animal to follow."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/takalo_tracking.png",
+        "caption": "Takalo et al. (2012), Fig. 6(a–f). Cockroach paths, movement time courses, and spatial occupancy.",
+        "source_url": "https://doi.org/10.1038/srep00324",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Blowfly photoreceptors detect projector flicker",
+      "body": [
+        "**Photoreceptors** are light-sensitive cells that convert changes in illumination into electrical responses. Takalo and colleagues recorded intracellular voltage from blowfly photoreceptors to test whether a projection display supplied unwanted temporal signals. A display that appears steady to a person can still fluctuate at frequencies accessible to an insect. Comparative fruit-fly microscopy resolves **rhabdomeres**, the light-sensitive parts of the receptors within the compound eye.",
+        "The first-generation projector produced a 120 Hz component associated with its internal white segment. Blowfly photoreceptors followed this fluctuation in their membrane voltage. The measured response therefore contained both the intended light stimulus and an additional periodic signal introduced by the projection hardware.",
+        "A second-generation projector reduced the fluctuation, leaving much weaker corresponding voltage modulation. The visual input reaching an animal depends on display timing as well as the programmed scene. Measuring receptor voltage directly identifies temporal artifacts that would be missed by inspecting the screen with human vision."
+      ],
+      "cite": "Takalo et al. (2012); Kemppainen et al. (2022)",
+      "refs": [
+        "Takalo J, Piironen A, Honkanen A, Lempeä M, Aikio M, Tuukkanen T, Vähäsöyrinki M (2012). A fast and flexible panoramic virtual reality system for behavioural and electrophysiological experiments. Scientific reports 2:324. https://doi.org/10.1038/srep00324",
+        "Kemppainen J, Mansour N, Takalo J, Juusola M (2022). High-speed imaging of light-induced photoreceptor microsaccades in compound eyes. Communications biology 5:203. https://doi.org/10.1038/s42003-022-03142-0"
+      ],
+      "transcript": [
+        "Photoreceptors are light-sensitive cells that convert changes in illumination into electrical responses. Takalo and colleagues recorded intracellular voltage from blowfly photoreceptors to test whether a projection display supplied unwanted temporal signals. A display that appears steady to a person can still fluctuate at frequencies accessible to an insect. Comparative fruit-fly microscopy resolves rhabdomeres, the light-sensitive parts of the receptors within the compound eye.",
+        "The first-generation projector produced a 120 Hz component associated with its internal white segment. Blowfly photoreceptors followed this fluctuation in their membrane voltage. The measured response therefore contained both the intended light stimulus and an additional periodic signal introduced by the projection hardware.",
+        "A second-generation projector reduced the fluctuation, leaving much weaker corresponding voltage modulation. The visual input reaching an animal depends on display timing as well as the programmed scene. Measuring receptor voltage directly identifies temporal artifacts that would be missed by inspecting the screen with human vision.",
+        "The blowfly experiment recorded responses from Calliphora vicina. The fruit-fly receptor anatomy is a comparative dipteran example, rather than blowfly tissue from the recording experiment. Optical deep-pseudopupil images combine light from neighboring receptor structures, resolving their organized light-sensitive elements. The receptor measurements assess the projector’s temporal suitability for fast insect vision."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/takalo_receptors.png",
+          "caption": "Takalo et al. (2012), Fig. 5(a–f). Blowfly receptor voltage with two projector generations.",
+          "source_url": "https://doi.org/10.1038/srep00324",
+          "kind": "article"
+        },
+        {
+          "path": "figures/retina_anatomy.png",
+          "caption": "Kemppainen et al. (2022), Fig. 4(a–b). Fruit-fly eyes and optical images of their photoreceptor rhabdomeres.",
+          "source_url": "https://doi.org/10.1038/s42003-022-03142-0",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "A virtual display must match the animal’s visual dynamics",
+      "body": [
+        "**Temporal resolution** describes how quickly a visual system distinguishes changes in light. The projector’s illumination was measured with a photodiode, a device that turns incident light into an electrical signal. Repeated light segments introduced 120 Hz flicker and higher-frequency components even when the intended image content was unchanged.",
+        "The same system’s spatial calibration measured the angular size of projected pixels across elevation. Pixel size varied with position on the curved surface, changing the detail available in different viewing directions. The visual field, pixel geometry, and update timing jointly determine the stimulus that the animal experiences.",
+        "Blowfly receptor recordings linked these physical display measurements to neuronal input. Cockroach exploration confirmed that the apparatus could support active behavior, while receptor physiology exposed a signal-level artifact. Behavioral engagement alone therefore leaves the temporal accuracy of a virtual scene unresolved unless the relevant sensory system is measured."
+      ],
+      "cite": "Takalo et al. (2012)",
+      "refs": [
+        "Takalo J, Piironen A, Honkanen A, Lempeä M, Aikio M, Tuukkanen T, Vähäsöyrinki M (2012). A fast and flexible panoramic virtual reality system for behavioural and electrophysiological experiments. Scientific reports 2:324. https://doi.org/10.1038/srep00324"
+      ],
+      "transcript": [
+        "Temporal resolution describes how quickly a visual system distinguishes changes in light. The projector’s illumination was measured with a photodiode, a device that turns incident light into an electrical signal. Repeated light segments introduced 120 Hz flicker and higher-frequency components even when the intended image content was unchanged.",
+        "The same system’s spatial calibration measured the angular size of projected pixels across elevation. Pixel size varied with position on the curved surface, changing the detail available in different viewing directions. The visual field, pixel geometry, and update timing jointly determine the stimulus that the animal experiences.",
+        "Blowfly receptor recordings linked these physical display measurements to neuronal input. Cockroach exploration confirmed that the apparatus could support active behavior, while receptor physiology exposed a signal-level artifact. Behavioral engagement alone therefore leaves the temporal accuracy of a virtual scene unresolved unless the relevant sensory system is measured.",
+        "The unwanted white segment was a property of the projector rather than a commanded visual event. Its effect depended on the animal’s sensory dynamics, which makes display validation species-specific."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/takalo_flicker.png",
+        "caption": "Takalo et al. (2012), Fig. 4(a–b). Measured light fluctuations and their temporal-frequency content.",
+        "source_url": "https://doi.org/10.1038/srep00324",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Zebrafish swimming controls a virtual visual field",
+      "body": [
+        "Portugues and Engert restrained larval zebrafish by the head while leaving the tail free to move. A moving grating beneath the fish elicited the **optomotor response**, swimming in the direction of visual motion. Tail movements were filmed and used to update the grating’s velocity during each swim bout.",
+        "A **swim bout** is a discrete episode of tail oscillation separated from the next episode by a pause. Image-based tail tracking measured the oscillations and supplied an estimate of forward swimming. In closed loop, stronger motor output produced a larger compensating change in the visual stimulus.",
+        "The preparation let the larva oppose a virtual current without changing its physical location. Removing movement-dependent feedback produced stronger, longer swimming bouts than ordinary closed-loop feedback. The visual consequences of movement therefore regulated how much effort the fish invested in stabilizing its virtual position."
+      ],
+      "cite": "Portugues & Engert (2011)",
+      "refs": [
+        "Portugues R, Engert F (2011). Adaptive locomotor behavior in larval zebrafish. Frontiers in systems neuroscience 5:72. https://doi.org/10.3389/fnsys.2011.00072"
+      ],
+      "transcript": [
+        "Portugues and Engert restrained larval zebrafish by the head while leaving the tail free to move. A moving grating beneath the fish elicited the optomotor response, swimming in the direction of visual motion. Tail movements were filmed and used to update the grating’s velocity during each swim bout.",
+        "A swim bout is a discrete episode of tail oscillation separated from the next episode by a pause. Image-based tail tracking measured the oscillations and supplied an estimate of forward swimming. In closed loop, stronger motor output produced a larger compensating change in the visual stimulus.",
+        "The preparation let the larva oppose a virtual current without changing its physical location. Removing movement-dependent feedback produced stronger, longer swimming bouts than ordinary closed-loop feedback. The visual consequences of movement therefore regulated how much effort the fish invested in stabilizing its virtual position.",
+        "The source movie contains a ten-second trial together with the changing stimulus. The tail is physically mobile, unlike the completely paralyzed preparation used in the later brain-wide recording experiment."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/portugues_setup.png",
+        "caption": "Portugues & Engert (2011), Fig. 1(A–C). A head-restrained larva and the tail-tracking preparation.",
+        "source_url": "https://doi.org/10.3389/fnsys.2011.00072",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Feedback gain changes the required swimming effort",
+      "body": [
+        "**Feedback gain** is the factor linking motor output to the resulting change in the visual world. A high gain makes a given swim bout produce greater visual compensation; a low gain makes the same bout less effective. The fish’s sensory input therefore specifies different movement consequences without changing the physical preparation.",
+        "In low-gain conditions, larval zebrafish increased swim-bout duration and reduced the intervals between bouts. In high-gain conditions, they shortened bouts and lengthened the pauses. Changing both measures adjusted total motor effort toward the amount needed to oppose the visual current.",
+        "The researchers compared gains of 0.5 and 1.5 relative to the ordinary setting of 1. At low gain, the virtual world required greater effort for a similar compensatory effect. At high gain, less effort was sufficient. The adjustment linked a controlled sensory-feedback change to specific components of the locomotor pattern."
+      ],
+      "cite": "Portugues & Engert (2011)",
+      "refs": [
+        "Portugues R, Engert F (2011). Adaptive locomotor behavior in larval zebrafish. Frontiers in systems neuroscience 5:72. https://doi.org/10.3389/fnsys.2011.00072"
+      ],
+      "transcript": [
+        "Feedback gain is the factor linking motor output to the resulting change in the visual world. A high gain makes a given swim bout produce greater visual compensation; a low gain makes the same bout less effective. The fish’s sensory input therefore specifies different movement consequences without changing the physical preparation.",
+        "In low-gain conditions, larval zebrafish increased swim-bout duration and reduced the intervals between bouts. In high-gain conditions, they shortened bouts and lengthened the pauses. Changing both measures adjusted total motor effort toward the amount needed to oppose the visual current.",
+        "The researchers compared gains of 0.5 and 1.5 relative to the ordinary setting of 1. At low gain, the virtual world required greater effort for a similar compensatory effect. At high gain, less effort was sufficient. The adjustment linked a controlled sensory-feedback change to specific components of the locomotor pattern.",
+        "Bout duration and interbout interval are distinct control variables. Extending the active episode and reducing the subsequent pause both increase the amount of swimming over a trial, but through different parts of the motor pattern."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/portugues_gain.png",
+        "caption": "Portugues & Engert (2011), Fig. 3(A–M). Tail activity and bout measures at high and low feedback gains.",
+        "source_url": "https://doi.org/10.3389/fnsys.2011.00072",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Past feedback changes the fish’s current motor output",
+      "body": [
+        "Larval swimming depended on the history of visual feedback as well as the current gain. Portugues and Engert alternated gains of 0.5, 1, and 1.5 across trials. Bouts produced at the ordinary gain of 1 differed depending on whether preceding trials had used high or low gain.",
+        "After high-gain experience, bouts at gain 1 were shorter than after low-gain experience. The visual system and motor output therefore carried an influence of previous action consequences into the new condition. **Adaptation** is this experience-dependent adjustment of a movement pattern to changed feedback.",
+        "Interbout timing also varied with feedback history, indicating that adaptation altered more than the strength of an isolated movement. The source proposed comparisons between expected and actual visual feedback as one hypothesis for motor learning. A history-dependent locomotor state can bias the next response even after the external gain returns to its ordinary value."
+      ],
+      "cite": "Portugues & Engert (2011)",
+      "refs": [
+        "Portugues R, Engert F (2011). Adaptive locomotor behavior in larval zebrafish. Frontiers in systems neuroscience 5:72. https://doi.org/10.3389/fnsys.2011.00072"
+      ],
+      "transcript": [
+        "Larval swimming depended on the history of visual feedback as well as the current gain. Portugues and Engert alternated gains of 0.5, 1, and 1.5 across trials. Bouts produced at the ordinary gain of 1 differed depending on whether preceding trials had used high or low gain.",
+        "After high-gain experience, bouts at gain 1 were shorter than after low-gain experience. The visual system and motor output therefore carried an influence of previous action consequences into the new condition. Adaptation is this experience-dependent adjustment of a movement pattern to changed feedback.",
+        "Interbout timing also varied with feedback history, indicating that adaptation altered more than the strength of an isolated movement. The source proposed comparisons between expected and actual visual feedback as one hypothesis for motor learning. A history-dependent locomotor state can bias the next response even after the external gain returns to its ordinary value.",
+        "The comparison uses the same current gain after different preceding gains. That design separates immediate response to the present display from a persisting effect of recent sensorimotor experience."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/portugues_history.png",
+        "caption": "Portugues & Engert (2011), Fig. 4(A–E). Motor-pattern changes across alternating feedback-gain conditions.",
+        "source_url": "https://doi.org/10.3389/fnsys.2011.00072",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Fictive swimming permits brain-wide activity recording",
+      "body": [
+        "**Fictive swimming** is the production of swimming motor commands without the corresponding body movement. Ahrens and colleagues paralyzed larval zebrafish and recorded motor-nerve signals. The measured commands still changed the displayed optic flow, closing a feedback loop between neural motor output and visual input.",
+        "Two-photon imaging recorded GCaMP2 fluorescence across brain regions while the same animals interacted with the virtual current. Immobilization reduced movement artifacts, allowing individual cells to be monitored during adaptive control. Stronger fictive commands generated larger changes in stimulus velocity according to the selected gain.",
+        "The researchers introduced periods of **open-loop replay**, presenting a previously recorded visual sequence independently of current motor commands. During replay, visually driven activity could follow the repeated stimulus while motor-related activity followed the new fictive output. Breaking the coupling helped distinguish signals that had been correlated during normal closed-loop behavior."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485:471-477. https://doi.org/10.1038/nature11057"
+      ],
+      "transcript": [
+        "Fictive swimming is the production of swimming motor commands without the corresponding body movement. Ahrens and colleagues paralyzed larval zebrafish and recorded motor-nerve signals. The measured commands still changed the displayed optic flow, closing a feedback loop between neural motor output and visual input.",
+        "Two-photon imaging recorded GCaMP2 fluorescence across brain regions while the same animals interacted with the virtual current. Immobilization reduced movement artifacts, allowing individual cells to be monitored during adaptive control. Stronger fictive commands generated larger changes in stimulus velocity according to the selected gain.",
+        "The researchers introduced periods of open-loop replay, presenting a previously recorded visual sequence independently of current motor commands. During replay, visually driven activity could follow the repeated stimulus while motor-related activity followed the new fictive output. Breaking the coupling helped distinguish signals that had been correlated during normal closed-loop behavior.",
+        "The animal receives the visual consequences of its recorded motor commands despite paralysis. In replay, its present commands cease to influence the image sequence, changing both the behavioral context and the relationship between motor and visual signals."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/ahrens_imaging.png",
+        "caption": "Ahrens et al. (2012), Fig. 2(a–h). Cellular calcium imaging, fictive motor output, and functional brain maps.",
+        "source_url": "https://doi.org/10.1038/nature11057",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Four response classes accompany motor adaptation",
+      "body": [
+        "After feedback-gain changes, neuronal activity separated into transient and sustained response classes. **Motor-related cells** were more active during low-gain periods with stronger fictive swimming. **Motor-off cells** were more active during high-gain periods with weaker swimming, supplying a complementary relation to locomotor state.",
+        "**Gain-decrease cells** responded transiently after movement became less effective in the visual world. **Gain-increase cells** responded after the opposite change. Their signals were concentrated around the transition rather than remaining elevated throughout the new gain condition, distinguishing adaptation-associated events from the subsequent sustained state.",
+        "Open-loop replay further separated the relationship of each class to visual input and motor output. Many motor cells followed fictive swimming, whereas several gain-increase responses were predominantly visually driven. Distributed activity therefore included signals related to movement, movement suppression, changed sensory consequences, and the transition between motor states."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485:471-477. https://doi.org/10.1038/nature11057"
+      ],
+      "transcript": [
+        "After feedback-gain changes, neuronal activity separated into transient and sustained response classes. Motor-related cells were more active during low-gain periods with stronger fictive swimming. Motor-off cells were more active during high-gain periods with weaker swimming, supplying a complementary relation to locomotor state.",
+        "Gain-decrease cells responded transiently after movement became less effective in the visual world. Gain-increase cells responded after the opposite change. Their signals were concentrated around the transition rather than remaining elevated throughout the new gain condition, distinguishing adaptation-associated events from the subsequent sustained state.",
+        "Open-loop replay further separated the relationship of each class to visual input and motor output. Many motor cells followed fictive swimming, whereas several gain-increase responses were predominantly visually driven. Distributed activity therefore included signals related to movement, movement suppression, changed sensory consequences, and the transition between motor states.",
+        "The classification is based on when fluorescence rises relative to gain changes and motor output. Calling a response motor-related identifies that timing relationship; it does not by itself mean that the recorded cell is a motor neuron."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/ahrens_classes.png",
+        "caption": "Ahrens et al. (2012), Fig. 4(a–l). Four neural response classes and their motor or visual relationships.",
+        "source_url": "https://doi.org/10.1038/nature11057",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Response classes occupy distinct brain territories",
+      "body": [
+        "The researchers registered recorded neurons to a common larval brain, connecting response classes to anatomical location. **Registration** aligns measurements from different preparations into a shared coordinate system. Motor-related activity occurred across hindbrain regions, the cerebellum, and additional midbrain and forebrain sites.",
+        "The **cerebellum** is a brain region associated with motor regulation, while the **inferior olive** supplies signals to cerebellar circuitry. Both contained responses associated with adaptive locomotion. Gain-decrease activity included cerebellar locations, and gain-increase activity included a concentration in the inferior olive.",
+        "Motor-off activity was concentrated in dorsal hindbrain regions and also occurred elsewhere. The anatomical distributions overlapped without being identical: neurons active during a gain transition occupied a different functional category from neurons tracking sustained effort. Mapping these classes preserved the distinction between adapting a motor program and expressing the adapted state."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485:471-477. https://doi.org/10.1038/nature11057"
+      ],
+      "transcript": [
+        "The researchers registered recorded neurons to a common larval brain, connecting response classes to anatomical location. Registration aligns measurements from different preparations into a shared coordinate system. Motor-related activity occurred across hindbrain regions, the cerebellum, and additional midbrain and forebrain sites.",
+        "The cerebellum is a brain region associated with motor regulation, while the inferior olive supplies signals to cerebellar circuitry. Both contained responses associated with adaptive locomotion. Gain-decrease activity included cerebellar locations, and gain-increase activity included a concentration in the inferior olive.",
+        "Motor-off activity was concentrated in dorsal hindbrain regions and also occurred elsewhere. The anatomical distributions overlapped without being identical: neurons active during a gain transition occupied a different functional category from neurons tracking sustained effort. Mapping these classes preserved the distinction between adapting a motor program and expressing the adapted state.",
+        "The study’s maps preserve the original neuronal and neuropil positions. Multiple brain regions contained different response types, so the adaptive behavior was distributed across a circuit rather than localized to a single response class at one site."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/ahrens_maps.png",
+        "caption": "Ahrens et al. (2012), Fig. 5(a–f). Anatomical locations of motor, gain-change, and motor-off responses.",
+        "source_url": "https://doi.org/10.1038/nature11057",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Inferior-olive lesions impair gain-dependent adaptation",
+      "body": [
+        "**Lesioning** removes or damages a selected part of a circuit to test its contribution to behavior. Ahrens and colleagues used targeted laser lesions in the inferior olive after measuring gain-dependent changes in fictive swimming. Before the lesion, low and high feedback gains produced different swim-bout powers.",
+        "After inferior-olive lesions, the normal separation between low-gain and high-gain bout power was lost. Fish retained the optomotor response, so damage disrupted gain-dependent adjustment without abolishing visually elicited swimming. Similar-sized lesions in the dorsal anterior hindbrain preserved adaptation, providing an anatomical control for general tissue injury.",
+        "The inferior olive connects into **olivocerebellar circuitry**, the pathway linking olive-derived input with cerebellar processing. The combination of transition-related activity and selective lesion effects implicated this pathway in modifying motor output according to its visual consequences. Basic execution and adaptive recalibration relied on distinguishable circuit functions."
+      ],
+      "cite": "Ahrens et al. (2012)",
+      "refs": [
+        "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485:471-477. https://doi.org/10.1038/nature11057"
+      ],
+      "transcript": [
+        "Lesioning removes or damages a selected part of a circuit to test its contribution to behavior. Ahrens and colleagues used targeted laser lesions in the inferior olive after measuring gain-dependent changes in fictive swimming. Before the lesion, low and high feedback gains produced different swim-bout powers.",
+        "After inferior-olive lesions, the normal separation between low-gain and high-gain bout power was lost. Fish retained the optomotor response, so damage disrupted gain-dependent adjustment without abolishing visually elicited swimming. Similar-sized lesions in the dorsal anterior hindbrain preserved adaptation, providing an anatomical control for general tissue injury.",
+        "The inferior olive connects into olivocerebellar circuitry, the pathway linking olive-derived input with cerebellar processing. The combination of transition-related activity and selective lesion effects implicated this pathway in modifying motor output according to its visual consequences. Basic execution and adaptive recalibration relied on distinguishable circuit functions.",
+        "Retaining the visually elicited response after the lesion changes the conclusion: the inferior olive contributes to adjustment of movement effectiveness, rather than being required for all swimming in response to motion."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/ahrens_lesion.png",
+          "caption": "Ahrens et al. (2012), Fig. 6(a–c). Swim-bout power before and after inferior-olive or control lesions.",
+          "source_url": "https://doi.org/10.1038/nature11057",
+          "kind": "article"
+        },
+        {
+          "path": "figures/ahrens_maps.png",
+          "caption": "Ahrens et al. (2012), Fig. 5(a–f). Anatomical distribution of adaptive-control response classes.",
+          "source_url": "https://doi.org/10.1038/nature11057",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Mice navigate a corridor built with a game engine",
+      "body": [
+        "Harvey and colleagues used the Quake2 game engine to render a virtual corridor for head-restrained mice. An optical mouse measured rotation of an air-supported spherical treadmill, and the display updated with that movement. The animals could run toward either end of a 180 cm track and turn around along its length.",
+        "**Operant conditioning** links an animal’s actions to their consequences. Water rewards were delivered for movement between reward zones at opposite ends of the corridor. Consecutive rewards were unavailable at the same end, requiring repeated travel rather than remaining at one rewarded location.",
+        "With training, mice obtained rewards more frequently and traveled less unnecessary distance between them. Patterned walls provided visual location cues while the head remained stable enough for intracellular recording. A game engine supplied controlled navigation geometry, and the mouse’s actions determined progress through that geometry."
+      ],
+      "cite": "Harvey et al. (2009)",
+      "refs": [
+        "Harvey CD, Collman F, Dombeck DA, Tank DW (2009). Intracellular dynamics of hippocampal place cells during virtual navigation. Nature 461:941-946. https://doi.org/10.1038/nature08499"
+      ],
+      "transcript": [
+        "Harvey and colleagues used the Quake2 game engine to render a virtual corridor for head-restrained mice. An optical mouse measured rotation of an air-supported spherical treadmill, and the display updated with that movement. The animals could run toward either end of a 180 cm track and turn around along its length.",
+        "Operant conditioning links an animal’s actions to their consequences. Water rewards were delivered for movement between reward zones at opposite ends of the corridor. Consecutive rewards were unavailable at the same end, requiring repeated travel rather than remaining at one rewarded location.",
+        "With training, mice obtained rewards more frequently and traveled less unnecessary distance between them. Patterned walls provided visual location cues while the head remained stable enough for intracellular recording. A game engine supplied controlled navigation geometry, and the mouse’s actions determined progress through that geometry.",
+        "The mouse controls the virtual location through treadmill movement. The engine’s familiar game-rendering function is used as an experimental interface, while reward delivery connects the displayed location to a measurable behavioral consequence."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/harvey_track.png",
+        "caption": "Harvey et al. (2009), Fig. 2(A–E). Virtual corridor, reward locations, and changes in trained navigation.",
+        "source_url": "https://doi.org/10.1038/nature08499",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Place-cell firing increases at specific virtual locations",
+      "body": [
+        "A **place cell** fires preferentially when an animal occupies a particular region of an environment. Harvey and colleagues recorded extracellular action potentials from pyramidal neurons in hippocampal **CA1**, a subfield of the hippocampus. The mouse’s position along the virtual corridor was matched to the timing of each recorded spike.",
+        "Cells increased their firing within restricted **place fields**, the locations associated with elevated activity. Extracellularly recorded fields averaged about 41 cm in extent along the 180 cm corridor. Some cells had different activity for the two running directions, combining position with the direction of travel.",
+        "The hippocampal population therefore encoded spatial distinctions in a world whose visual position changed while the animal stayed on the treadmill. Individual cells supplied different fields, so the ensemble represented more of the corridor than any one cell. Anatomical imaging in a related virtual-navigation study locates the CA1 cell-body and dendritic layers."
+      ],
+      "cite": "Harvey et al. (2009)",
+      "refs": [
+        "Harvey CD, Collman F, Dombeck DA, Tank DW (2009). Intracellular dynamics of hippocampal place cells during virtual navigation. Nature 461:941-946. https://doi.org/10.1038/nature08499",
+        "Dombeck DA, Harvey CD, Tian L, Looger LL, Tank DW (2010). Functional imaging of hippocampal place cells at cellular resolution during virtual navigation. Nature neuroscience 13:1433-1440. https://doi.org/10.1038/nn.2648"
+      ],
+      "transcript": [
+        "A place cell fires preferentially when an animal occupies a particular region of an environment. Harvey and colleagues recorded extracellular action potentials from pyramidal neurons in hippocampal CA1, a subfield of the hippocampus. The mouse’s position along the virtual corridor was matched to the timing of each recorded spike.",
+        "Cells increased their firing within restricted place fields, the locations associated with elevated activity. Extracellularly recorded fields averaged about 41 cm in extent along the 180 cm corridor. Some cells had different activity for the two running directions, combining position with the direction of travel.",
+        "The hippocampal population therefore encoded spatial distinctions in a world whose visual position changed while the animal stayed on the treadmill. Individual cells supplied different fields, so the ensemble represented more of the corridor than any one cell. Anatomical imaging in a related virtual-navigation study locates the CA1 cell-body and dendritic layers.",
+        "The extracellular recording detects spikes outside the cell, whereas the later whole-cell recording measures membrane voltage directly. Both methods identify location-dependent activity, but only the latter measures the subthreshold changes preceding spiking."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/harvey_spatial.png",
+          "caption": "Harvey et al. (2009), Fig. 3(A–E). Position-dependent CA1 spiking and timing along the virtual corridor.",
+          "source_url": "https://doi.org/10.1038/nature08499",
+          "kind": "article"
+        },
+        {
+          "path": "figures/dombeck_CA1.png",
+          "caption": "Dombeck et al. (2010), Fig. 1(f). Hippocampal imaging access and CA1 cell-body and dendritic layers.",
+          "source_url": "https://doi.org/10.1038/nn.2648",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Depolarization raises excitability inside a place field",
+      "body": [
+        "**Whole-cell recording** uses a glass pipette to measure membrane voltage from inside a neuron. Head restraint during virtual navigation supplied sufficient stability for this technique. It exposed **subthreshold activity**, voltage changes occurring below the level required to generate an action potential.",
+        "As a mouse approached a CA1 place field, baseline voltage rose in a ramp-like **depolarization**, a change toward less-negative membrane potential. Ramps could begin before strong firing appeared and, in individual traversals, reach approximately 10 mV. Average membrane voltage remained higher inside the field than outside it.",
+        "The depolarization was asymmetric, with its peak occurring relatively late during field traversal. Firing-rate peaks were more centered in the field. The spike output therefore reflected the interaction of a changing baseline voltage with additional moment-to-moment activity, rather than simply copying the shape of the baseline ramp."
+      ],
+      "cite": "Harvey et al. (2009)",
+      "refs": [
+        "Harvey CD, Collman F, Dombeck DA, Tank DW (2009). Intracellular dynamics of hippocampal place cells during virtual navigation. Nature 461:941-946. https://doi.org/10.1038/nature08499",
+        "Dombeck DA, Harvey CD, Tian L, Looger LL, Tank DW (2010). Functional imaging of hippocampal place cells at cellular resolution during virtual navigation. Nature neuroscience 13:1433-1440. https://doi.org/10.1038/nn.2648"
+      ],
+      "transcript": [
+        "Whole-cell recording uses a glass pipette to measure membrane voltage from inside a neuron. Head restraint during virtual navigation supplied sufficient stability for this technique. It exposed subthreshold activity, voltage changes occurring below the level required to generate an action potential.",
+        "As a mouse approached a CA1 place field, baseline voltage rose in a ramp-like depolarization, a change toward less-negative membrane potential. Ramps could begin before strong firing appeared and, in individual traversals, reach approximately 10 mV. Average membrane voltage remained higher inside the field than outside it.",
+        "The depolarization was asymmetric, with its peak occurring relatively late during field traversal. Firing-rate peaks were more centered in the field. The spike output therefore reflected the interaction of a changing baseline voltage with additional moment-to-moment activity, rather than simply copying the shape of the baseline ramp.",
+        "A neuron’s membrane voltage determines how close it is to spike threshold, but the detailed spike pattern also depends on fluctuations around that baseline. The separate shapes of the ramp and firing-rate profiles preserve this distinction."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/harvey_ramps.png",
+          "caption": "Harvey et al. (2009), Fig. 4(A–E). Membrane-voltage ramps and firing during place-field traversal.",
+          "source_url": "https://doi.org/10.1038/nature08499",
+          "kind": "article"
+        },
+        {
+          "path": "figures/dombeck_CA1.png",
+          "caption": "Dombeck et al. (2010), Fig. 1(f). CA1 cell-body and dendritic layers in a related virtual-navigation preparation.",
+          "source_url": "https://doi.org/10.1038/nn.2648",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Theta timing adds a temporal code to virtual position",
+      "body": [
+        "**Theta oscillations** are rhythmic voltage fluctuations in the hippocampal frequency range of approximately 6–10 Hz. During virtual place-field traversal, intracellular theta amplitude increased. Spikes commonly occurred on the rising phase of these membrane-voltage oscillations, linking their timing to the cell’s local voltage cycle.",
+        "**Local field potential**, or LFP, is an extracellular signal reflecting population electrical activity. **Phase precession** means that spikes occur progressively earlier within this reference rhythm as the animal crosses a field. Spikes advanced relative to LFP theta while remaining more consistently aligned with intracellular theta.",
+        "Simultaneous recordings detected a changing phase relationship between intracellular theta and the LFP. Current-injection ramps increased theta amplitude less than natural field traversal did, so depolarization alone was insufficient to explain the larger oscillations. Location-dependent firing involved coordinated baseline depolarization and rhythmic input rather than either component in isolation."
+      ],
+      "cite": "Harvey et al. (2009)",
+      "refs": [
+        "Harvey CD, Collman F, Dombeck DA, Tank DW (2009). Intracellular dynamics of hippocampal place cells during virtual navigation. Nature 461:941-946. https://doi.org/10.1038/nature08499",
+        "Dombeck DA, Harvey CD, Tian L, Looger LL, Tank DW (2010). Functional imaging of hippocampal place cells at cellular resolution during virtual navigation. Nature neuroscience 13:1433-1440. https://doi.org/10.1038/nn.2648"
+      ],
+      "transcript": [
+        "Theta oscillations are rhythmic voltage fluctuations in the hippocampal frequency range of approximately 6–10 Hz. During virtual place-field traversal, intracellular theta amplitude increased. Spikes commonly occurred on the rising phase of these membrane-voltage oscillations, linking their timing to the cell’s local voltage cycle.",
+        "Local field potential, or LFP, is an extracellular signal reflecting population electrical activity. Phase precession means that spikes occur progressively earlier within this reference rhythm as the animal crosses a field. Spikes advanced relative to LFP theta while remaining more consistently aligned with intracellular theta.",
+        "Simultaneous recordings detected a changing phase relationship between intracellular theta and the LFP. Current-injection ramps increased theta amplitude less than natural field traversal did, so depolarization alone was insufficient to explain the larger oscillations. Location-dependent firing involved coordinated baseline depolarization and rhythmic input rather than either component in isolation.",
+        "The reference rhythm matters when describing phase. A spike can keep nearly the same phase relative to its intracellular oscillation while moving earlier relative to a separate extracellular oscillation whose timing differs."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/harvey_theta.png",
+          "caption": "Harvey et al. (2009), Fig. 5(A–G). Intracellular theta, LFP timing, and phase relationships.",
+          "source_url": "https://doi.org/10.1038/nature08499",
+          "kind": "article"
+        },
+        {
+          "path": "figures/dombeck_CA1.png",
+          "caption": "Dombeck et al. (2010), Fig. 1(f). Anatomical access to hippocampal CA1 layers.",
+          "source_url": "https://doi.org/10.1038/nn.2648",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Freely moving mice avoid virtual depth",
+      "body": [
+        "FreemoVR mice walked on a circular platform above checkerboard surfaces that specified shallow or deep space. The real condition placed surfaces 20 and 40 cm below the track. The virtual condition reproduced the corresponding views while tracking the mouse’s changing position on the platform.",
+        "**Motion parallax** is the different apparent movement of objects at different distances during an observer’s movement. Mice spent more time above the shallow region in both real and perspective-correct virtual conditions. Their physically identical platform supported different choices depending on the visually specified depth below it.",
+        "A static-display control retained depth-related texture appearances while removing correct movement-dependent parallax. That condition lacked the same shallow-side preference. The comparison linked avoidance to visual changes generated by self-motion, rather than to the mere presence of larger or smaller checkerboard elements."
+      ],
+      "cite": "Stowers et al. (2017)",
+      "refs": [
+        "Stowers JR, Hofbauer M, Bastien R, Griessner J, Higgins P, Farooqui S, Fischer RM, Nowikovsky K, Haubensak W, Couzin ID, Tessmar-Raible K, Straw AD (2017). Virtual reality for freely moving animals. Nature methods 14:995-1002. https://doi.org/10.1038/nmeth.4399"
+      ],
+      "transcript": [
+        "FreemoVR mice walked on a circular platform above checkerboard surfaces that specified shallow or deep space. The real condition placed surfaces 20 and 40 cm below the track. The virtual condition reproduced the corresponding views while tracking the mouse’s changing position on the platform.",
+        "Motion parallax is the different apparent movement of objects at different distances during an observer’s movement. Mice spent more time above the shallow region in both real and perspective-correct virtual conditions. Their physically identical platform supported different choices depending on the visually specified depth below it.",
+        "A static-display control retained depth-related texture appearances while removing correct movement-dependent parallax. That condition lacked the same shallow-side preference. The comparison linked avoidance to visual changes generated by self-motion, rather than to the mere presence of larger or smaller checkerboard elements.",
+        "The mouse’s position determines the rendered viewpoint in the virtual condition. Its own movement supplies the visual displacement needed for parallax-based depth information, making the avoidance assay a closed-loop perceptual task."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/stowers_mouse.png",
+        "caption": "Stowers et al. (2017), Fig. 2(a–i). Real, static, and perspective-correct depth conditions with occupancy measures.",
+        "source_url": "https://doi.org/10.1038/nmeth.4399",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Movement freedom changes sensory evidence",
+      "body": [
+        "FreemoVR preserved real walking, flight, or swimming while controlling the visual world. The height-avoidance mouse assay linked free movement to perspective-correct depth information. A stationary display with a plausible texture supplied a different sensory situation from a display updated with the animal’s changing viewpoint.",
+        "The same study compared head-fixed and head-free fruit flies during free flight. Head-fixed flies failed to follow the imposed visual turning pattern effectively, while head-free controls followed it. The glue-control condition preserved added material without preventing relative head movement, separating fixation from the presence of glue.",
+        "Rigidly tethered flies responded differently: head fixation had little corresponding effect in that preparation. Physical restraint therefore changed which movements contributed to successful visual control. The action–perception relationship measured in a virtual task depends on the freedom retained by the animal, as well as the images displayed around it."
+      ],
+      "cite": "Stowers et al. (2017)",
+      "refs": [
+        "Stowers JR, Hofbauer M, Bastien R, Griessner J, Higgins P, Farooqui S, Fischer RM, Nowikovsky K, Haubensak W, Couzin ID, Tessmar-Raible K, Straw AD (2017). Virtual reality for freely moving animals. Nature methods 14:995-1002. https://doi.org/10.1038/nmeth.4399"
+      ],
+      "transcript": [
+        "FreemoVR preserved real walking, flight, or swimming while controlling the visual world. The height-avoidance mouse assay linked free movement to perspective-correct depth information. A stationary display with a plausible texture supplied a different sensory situation from a display updated with the animal’s changing viewpoint.",
+        "The same study compared head-fixed and head-free fruit flies during free flight. Head-fixed flies failed to follow the imposed visual turning pattern effectively, while head-free controls followed it. The glue-control condition preserved added material without preventing relative head movement, separating fixation from the presence of glue.",
+        "Rigidly tethered flies responded differently: head fixation had little corresponding effect in that preparation. Physical restraint therefore changed which movements contributed to successful visual control. The action–perception relationship measured in a virtual task depends on the freedom retained by the animal, as well as the images displayed around it.",
+        "The comparison makes a concrete distinction between free and tethered performance using the same kind of visual guidance. Restraint can change the behavioral role of head movements even when the stimulus remains controlled."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/stowers_flight.png",
+        "caption": "Stowers et al. (2017), Fig. 3(a–h). Head-fixation effects during free flight and tethered visual control.",
+        "source_url": "https://doi.org/10.1038/nmeth.4399",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "Rats rotate and walk through two-dimensional worlds",
+      "body": [
+        "Aronov and Tank placed rats on a 46 cm spherical treadmill while a rotating harness allowed them to turn their bodies around the vertical axis. A conical screen surrounded the animal, presenting a complete 360° view. The apparatus retained real body rotation while mapping treadmill movement into virtual translation.",
+        "**Vestibular input** is sensory information about head movement and orientation from the inner ear. Actual turning supplied rotational vestibular signals that head-fixed preparations remove. A reward tube and recording hardware rotated with the rat, permitting two-dimensional navigation while recording from spatially responsive neurons.",
+        "Rats learned both a random-foraging task and a visible-target pursuit task. In 2 × 2 m worlds, their paths covered most of the arena within 20–30 min. Target pursuit produced more direct routes than searching for invisible reward sites, linking trajectory shape to the information available about the goal."
+      ],
+      "cite": "Aronov & Tank (2014)",
+      "refs": [
+        "Aronov D, Tank DW (2014). Engagement of neural circuits underlying 2D spatial navigation in a rodent virtual reality system. Neuron 84:442-456. https://doi.org/10.1016/j.neuron.2014.08.042"
+      ],
+      "transcript": [
+        "Aronov and Tank placed rats on a 46 cm spherical treadmill while a rotating harness allowed them to turn their bodies around the vertical axis. A conical screen surrounded the animal, presenting a complete 360° view. The apparatus retained real body rotation while mapping treadmill movement into virtual translation.",
+        "Vestibular input is sensory information about head movement and orientation from the inner ear. Actual turning supplied rotational vestibular signals that head-fixed preparations remove. A reward tube and recording hardware rotated with the rat, permitting two-dimensional navigation while recording from spatially responsive neurons.",
+        "Rats learned both a random-foraging task and a visible-target pursuit task. In 2 × 2 m worlds, their paths covered most of the arena within 20–30 min. Target pursuit produced more direct routes than searching for invisible reward sites, linking trajectory shape to the information available about the goal.",
+        "Virtual translation and actual body rotation are distinct in this apparatus. The rat turns physically while remaining near the treadmill apex, so some self-motion signals accompany navigation even though the laboratory position changes little."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/aronov_setup.png",
+        "caption": "Aronov & Tank (2014), Fig. 1(A–G). Rotating rat harness, spherical treadmill, and panoramic virtual arena.",
+        "source_url": "https://doi.org/10.1016/j.neuron.2014.08.042",
+        "kind": "article"
+      }
+    },
+    {
+      "title": "A rat population represents position in virtual space",
+      "body": [
+        "Rat hippocampal CA1 and CA3 neurons formed localized place fields during two-dimensional virtual navigation. A cell fired at a restricted location, while other simultaneously recorded cells preferred different locations. **Population coding** represents information through the combined activity of multiple neurons rather than relying on one neuron alone.",
+        "The investigators used the firing rates of a simultaneously recorded CA1 ensemble to estimate the rat’s virtual position. Estimated paths followed the animal’s actual virtual trajectory more closely as additional recorded cells contributed. Spatially distributed fields supplied complementary evidence about where the animal was located.",
+        "Rate maps express firing rate in hertz across positions rather than displaying the animal’s path alone. Matching spiking to location separated each cell’s preferred field from general running activity. A related mouse preparation identifies the hippocampal layers containing the cell bodies and dendrites from which these spatial signals arise."
+      ],
+      "cite": "Aronov & Tank (2014)",
+      "refs": [
+        "Aronov D, Tank DW (2014). Engagement of neural circuits underlying 2D spatial navigation in a rodent virtual reality system. Neuron 84:442-456. https://doi.org/10.1016/j.neuron.2014.08.042",
+        "Dombeck DA, Harvey CD, Tian L, Looger LL, Tank DW (2010). Functional imaging of hippocampal place cells at cellular resolution during virtual navigation. Nature neuroscience 13:1433-1440. https://doi.org/10.1038/nn.2648"
+      ],
+      "transcript": [
+        "Rat hippocampal CA1 and CA3 neurons formed localized place fields during two-dimensional virtual navigation. A cell fired at a restricted location, while other simultaneously recorded cells preferred different locations. Population coding represents information through the combined activity of multiple neurons rather than relying on one neuron alone.",
+        "The investigators used the firing rates of a simultaneously recorded CA1 ensemble to estimate the rat’s virtual position. Estimated paths followed the animal’s actual virtual trajectory more closely as additional recorded cells contributed. Spatially distributed fields supplied complementary evidence about where the animal was located.",
+        "Rate maps express firing rate in hertz across positions rather than displaying the animal’s path alone. Matching spiking to location separated each cell’s preferred field from general running activity. A related mouse preparation identifies the hippocampal layers containing the cell bodies and dendrites from which these spatial signals arise.",
+        "A decoded trajectory is an estimate derived from neural firing, while the measured trajectory comes from treadmill motion. Their correspondence tests whether the population carries spatial information rather than simply recording that the animal is active."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/aronov_place.png",
+          "caption": "Aronov & Tank (2014), Fig. 3(A–E). CA1 and CA3 place fields and population-based position estimates.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.08.042",
+          "kind": "article"
+        },
+        {
+          "path": "figures/dombeck_CA1.png",
+          "caption": "Dombeck et al. (2010), Fig. 1(f). Mouse hippocampal layers providing comparative CA1 anatomy.",
+          "source_url": "https://doi.org/10.1038/nn.2648",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Grid cells organize repeated locations in a virtual arena",
+      "body": [
+        "**Grid cells** fire at multiple locations that form a repeating spatial arrangement. Aronov and Tank recorded these cells in the rat **medial entorhinal cortex**, or MEC, a cortical region involved in spatial representation. Two-dimensional virtual rate maps contained the multiple firing fields characteristic of grid activity.",
+        "The study also measured **spatial autocorrelation**, the similarity of a firing-rate map to displaced versions of itself. Regularly spaced fields produced repeated peaks in this analysis, separating grid-like organization from a neuron that fired at several unrelated locations. Different cells supplied overlapping repeated representations of the virtual arena.",
+        "Anatomical labeling in Domnisoru and colleagues’ mouse study identified an MEC grid-cell body within layer 2 and traced its morphology. The comparative anatomy locates the recorded cell type within entorhinal layers, while the rat experiment establishes the expression of repeated spatial firing during virtual two-dimensional movement."
+      ],
+      "cite": "Aronov & Tank (2014)",
+      "refs": [
+        "Aronov D, Tank DW (2014). Engagement of neural circuits underlying 2D spatial navigation in a rodent virtual reality system. Neuron 84:442-456. https://doi.org/10.1016/j.neuron.2014.08.042",
+        "Domnisoru C, Kinkhabwala AA, Tank DW (2013). Membrane potential dynamics of grid cells. Nature 495:199-204. https://doi.org/10.1038/nature11973"
+      ],
+      "transcript": [
+        "Grid cells fire at multiple locations that form a repeating spatial arrangement. Aronov and Tank recorded these cells in the rat medial entorhinal cortex, or MEC, a cortical region involved in spatial representation. Two-dimensional virtual rate maps contained the multiple firing fields characteristic of grid activity.",
+        "The study also measured spatial autocorrelation, the similarity of a firing-rate map to displaced versions of itself. Regularly spaced fields produced repeated peaks in this analysis, separating grid-like organization from a neuron that fired at several unrelated locations. Different cells supplied overlapping repeated representations of the virtual arena.",
+        "Anatomical labeling in Domnisoru and colleagues’ mouse study identified an MEC grid-cell body within layer 2 and traced its morphology. The comparative anatomy locates the recorded cell type within entorhinal layers, while the rat experiment establishes the expression of repeated spatial firing during virtual two-dimensional movement.",
+        "The mouse histology is explicitly comparative anatomy, not rat tissue from the Aronov experiment. Grid coding is distinguished from a single place field by the repeated pattern of preferred locations across the environment."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/aronov_grid.png",
+          "caption": "Aronov & Tank (2014), Fig. 4(A). Rat grid-cell paths, rate maps, and spatial autocorrelations.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.08.042",
+          "kind": "article"
+        },
+        {
+          "path": "figures/domnisoru_MEC.png",
+          "caption": "Domnisoru et al. (2013), Supplementary Fig. 13(a–c). Mouse MEC layers and a labeled layer-2 grid cell.",
+          "source_url": "https://doi.org/10.1038/nature11973",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Virtual boundaries recruit border-related firing",
+      "body": [
+        "**Border cells** increase firing near particular environmental boundaries. Rat MEC neurons recorded during virtual navigation included cells with elevated activity along a wall or other arena edge. Their rate maps differed from the isolated field of a place cell and from the repeated fields of a grid cell.",
+        "The boundaries were visually specified while the rat remained on the same treadmill. Boundary-related activity therefore occurred without requiring a physical wall at each represented location. **Head-direction cells**, another recorded class, preferred particular facing directions; some neurons combined directional and spatial tuning.",
+        "Entorhinal responses supplied distinct descriptions of the same virtual movement: proximity to an edge, repeated spatial location, and orientation. Layered MEC anatomy in the comparative mouse preparation locates neurons within a cortical structure, while the rat’s rate maps identify the functional distinctions expressed during the task."
+      ],
+      "cite": "Aronov & Tank (2014)",
+      "refs": [
+        "Aronov D, Tank DW (2014). Engagement of neural circuits underlying 2D spatial navigation in a rodent virtual reality system. Neuron 84:442-456. https://doi.org/10.1016/j.neuron.2014.08.042",
+        "Domnisoru C, Kinkhabwala AA, Tank DW (2013). Membrane potential dynamics of grid cells. Nature 495:199-204. https://doi.org/10.1038/nature11973"
+      ],
+      "transcript": [
+        "Border cells increase firing near particular environmental boundaries. Rat MEC neurons recorded during virtual navigation included cells with elevated activity along a wall or other arena edge. Their rate maps differed from the isolated field of a place cell and from the repeated fields of a grid cell.",
+        "The boundaries were visually specified while the rat remained on the same treadmill. Boundary-related activity therefore occurred without requiring a physical wall at each represented location. Head-direction cells, another recorded class, preferred particular facing directions; some neurons combined directional and spatial tuning.",
+        "Entorhinal responses supplied distinct descriptions of the same virtual movement: proximity to an edge, repeated spatial location, and orientation. Layered MEC anatomy in the comparative mouse preparation locates neurons within a cortical structure, while the rat’s rate maps identify the functional distinctions expressed during the task.",
+        "The arena’s visual boundary and the laboratory apparatus are different objects. A neuron tied to the virtual edge can change its firing with represented location even though the rat never physically approaches a corresponding laboratory wall."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/aronov_border.png",
+          "caption": "Aronov & Tank (2014), Fig. 4(G–I). Rat border-cell rate maps and border-response measures.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.08.042",
+          "kind": "article"
+        },
+        {
+          "path": "figures/domnisoru_MEC.png",
+          "caption": "Domnisoru et al. (2013), Supplementary Fig. 13(a–c). Comparative mouse MEC anatomy and cortical layers.",
+          "source_url": "https://doi.org/10.1038/nature11973",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Changing the virtual world remaps hippocampal activity",
+      "body": [
+        "**Remapping** is a change in the spatial firing pattern of a hippocampal neuron when the environment changes. Aronov and Tank alternated square worlds with different wall textures and corner objects, and a circular world with a different arrangement of objects. The rat navigated these worlds in the same physical apparatus.",
+        "Between geometrically similar square worlds, many place fields retained related locations while their firing rates changed. **Rate remapping** changes the strength of activity without requiring a wholly new field location. Between square and circular worlds, larger changes in field arrangement produced **global remapping**, a reorganization of the spatial representation.",
+        "Continuous rotations of the visual world also caused spatial and directional firing to follow virtual cues. Neural activity was therefore anchored to features of the represented environment, while changes in its geometry reorganized the code. The computer-controlled world could alter both the reference frame and the identity of the hippocampal spatial map."
+      ],
+      "cite": "Aronov & Tank (2014)",
+      "refs": [
+        "Aronov D, Tank DW (2014). Engagement of neural circuits underlying 2D spatial navigation in a rodent virtual reality system. Neuron 84:442-456. https://doi.org/10.1016/j.neuron.2014.08.042",
+        "Dombeck DA, Harvey CD, Tian L, Looger LL, Tank DW (2010). Functional imaging of hippocampal place cells at cellular resolution during virtual navigation. Nature neuroscience 13:1433-1440. https://doi.org/10.1038/nn.2648"
+      ],
+      "transcript": [
+        "Remapping is a change in the spatial firing pattern of a hippocampal neuron when the environment changes. Aronov and Tank alternated square worlds with different wall textures and corner objects, and a circular world with a different arrangement of objects. The rat navigated these worlds in the same physical apparatus.",
+        "Between geometrically similar square worlds, many place fields retained related locations while their firing rates changed. Rate remapping changes the strength of activity without requiring a wholly new field location. Between square and circular worlds, larger changes in field arrangement produced global remapping, a reorganization of the spatial representation.",
+        "Continuous rotations of the visual world also caused spatial and directional firing to follow virtual cues. Neural activity was therefore anchored to features of the represented environment, while changes in its geometry reorganized the code. The computer-controlled world could alter both the reference frame and the identity of the hippocampal spatial map.",
+        "The physical recording room stays the same while the displayed environment changes. This isolates visual context and geometry as influences on the spatial representation, while retaining the animal’s movement and recording conditions."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/aronov_remap.png",
+          "caption": "Aronov & Tank (2014), Fig. 7(A–G). Rate and global remapping across three virtual environments.",
+          "source_url": "https://doi.org/10.1016/j.neuron.2014.08.042",
+          "kind": "article"
+        },
+        {
+          "path": "figures/dombeck_CA1.png",
+          "caption": "Dombeck et al. (2010), Fig. 1(f). Comparative hippocampal anatomy and imaging access.",
+          "source_url": "https://doi.org/10.1038/nn.2648",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Adaptive behavior depends on action-linked feedback",
+      "body": [
+        "Virtual worlds control how an animal’s actions change its subsequent sensory input. Bees learned rewarded color choices and expressed them differently after transfer between restrained and unrestricted movement. Zebrafish altered bout timing when the same motor output produced stronger or weaker visual compensation.",
+        "Flies maintained a directional representation by combining landmarks with movement-based updates, while rat populations encoded locations and boundaries within displayed arenas. These tasks measured different biological computations: maintaining orientation, selecting a rewarded cue, recalibrating effort, and representing environmental geometry. Successful movement in one task is not interchangeable with success in another.",
+        "Freely moving fish also interacted reciprocally with computer-controlled partners. Changing a virtual partner’s response rule changed following behavior without changing its appearance. Across these animals, navigation, learning, and social coordination depended on the particular information and consequences preserved by the closed action–feedback loop."
+      ],
+      "cite": "Stowers et al. (2017); Buatois et al. (2018); Seelig & Jayaraman (2015); Portugues & Engert (2011); Aronov & Tank (2014)",
+      "refs": [
+        "Stowers JR, Hofbauer M, Bastien R, Griessner J, Higgins P, Farooqui S, Fischer RM, Nowikovsky K, Haubensak W, Couzin ID, Tessmar-Raible K, Straw AD (2017). Virtual reality for freely moving animals. Nature methods 14:995-1002. https://doi.org/10.1038/nmeth.4399",
+        "Buatois A, Flumian C, Schultheiss P, Avarguès-Weber A, Giurfa M (2018). Transfer of Visual Learning Between a Virtual and a Real Environment in Honey Bees: The Role of Active Vision. Frontiers in behavioral neuroscience 12:139. https://doi.org/10.3389/fnbeh.2018.00139",
+        "Seelig JD, Jayaraman V (2015). Neural dynamics for landmark orientation and angular path integration. Nature 521:186-191. https://doi.org/10.1038/nature14446",
+        "Portugues R, Engert F (2011). Adaptive locomotor behavior in larval zebrafish. Frontiers in systems neuroscience 5:72. https://doi.org/10.3389/fnsys.2011.00072",
+        "Aronov D, Tank DW (2014). Engagement of neural circuits underlying 2D spatial navigation in a rodent virtual reality system. Neuron 84:442-456. https://doi.org/10.1016/j.neuron.2014.08.042"
+      ],
+      "transcript": [
+        "Virtual worlds control how an animal’s actions change its subsequent sensory input. Bees learned rewarded color choices and expressed them differently after transfer between restrained and unrestricted movement. Zebrafish altered bout timing when the same motor output produced stronger or weaker visual compensation.",
+        "Flies maintained a directional representation by combining landmarks with movement-based updates, while rat populations encoded locations and boundaries within displayed arenas. These tasks measured different biological computations: maintaining orientation, selecting a rewarded cue, recalibrating effort, and representing environmental geometry. Successful movement in one task is not interchangeable with success in another.",
+        "Freely moving fish also interacted reciprocally with computer-controlled partners. Changing a virtual partner’s response rule changed following behavior without changing its appearance. Across these animals, navigation, learning, and social coordination depended on the particular information and consequences preserved by the closed action–feedback loop.",
+        "Comparisons across species are strongest when the controlled variable is identified precisely. The papers separately manipulate landmark position, reward association, movement freedom, feedback gain, or social coupling, linking each change to its own behavioral and neural measurements."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/stowers_social.png",
+          "caption": "Stowers et al. (2017), Fig. 5(i–l). Following behavior during real–virtual fish interactions.",
+          "source_url": "https://doi.org/10.1038/nmeth.4399",
+          "kind": "article"
+        },
+        {
+          "path": "figures/buatois_transfer.png",
+          "caption": "Buatois et al. (2018), Fig. 4(A–B). Transfer of learned color choices between two environments.",
+          "source_url": "https://doi.org/10.3389/fnbeh.2018.00139",
+          "kind": "article"
+        }
+      ],
+      "primary_figure_height": 2.7
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Closed-loop worlds.",
+        "text": "An animal’s measured action changes its next sensory input. Perspective, timing, and retained movement determine the feedback actually experienced."
+      },
+      {
+        "lead": "Fly orientation.",
+        "text": "Ellipsoid-body activity combines landmark anchoring with self-motion updates. Inhibitory visual inputs can change their mapping after altered sensorimotor experience."
+      },
+      {
+        "lead": "Bee learning and mantis depth.",
+        "text": "Color learning transfers according to movement context; Egr1 increases in learner mushroom-body calyces. Mantis attacks depend on binocularly specified prey distance."
+      },
+      {
+        "lead": "Species-specific visual input.",
+        "text": "Blowfly receptors detect 120 Hz display flicker. Cockroach exploration and receptor-level validation measure different aspects of a virtual apparatus."
+      },
+      {
+        "lead": "Zebrafish adaptation.",
+        "text": "Feedback gain changes swim-bout duration, pauses, and fictive output. Inferior-olive lesions impair recalibration while preserving visually elicited swimming."
+      },
+      {
+        "lead": "Rodent spatial codes.",
+        "text": "Virtual navigation engages place, grid, direction, and border responses. Membrane ramps and theta timing accompany place fields; changes in virtual context cause remapping."
+      }
+    ],
+    "cite": "Primary studies cited throughout",
+    "refs": [
+      "Stowers JR, Hofbauer M, Bastien R, Griessner J, Higgins P, Farooqui S, Fischer RM, Nowikovsky K, Haubensak W, Couzin ID, Tessmar-Raible K, Straw AD (2017). Virtual reality for freely moving animals. Nature methods 14:995-1002. https://doi.org/10.1038/nmeth.4399",
+      "Seelig JD, Jayaraman V (2015). Neural dynamics for landmark orientation and angular path integration. Nature 521:186-191. https://doi.org/10.1038/nature14446",
+      "Fisher YE, Lu J, D'Alessandro I, Wilson RI (2019). Sensorimotor experience remaps visual input to a heading-direction network. Nature 576:121-125. https://doi.org/10.1038/s41586-019-1772-4",
+      "Buatois A, Flumian C, Schultheiss P, Avarguès-Weber A, Giurfa M (2018). Transfer of Visual Learning Between a Virtual and a Real Environment in Honey Bees: The Role of Active Vision. Frontiers in behavioral neuroscience 12:139. https://doi.org/10.3389/fnbeh.2018.00139",
+      "Geng H, Lafon G, Avarguès-Weber A, Buatois A, Massou I, Giurfa M (2022). Visual learning in a virtual reality environment upregulates immediate early gene expression in the mushroom bodies of honey bees. Communications biology 5:130. https://doi.org/10.1038/s42003-022-03075-8",
+      "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, Portugues R (2012). Brain-wide neuronal dynamics during motor adaptation in zebrafish. Nature 485:471-477. https://doi.org/10.1038/nature11057",
+      "Portugues R, Engert F (2011). Adaptive locomotor behavior in larval zebrafish. Frontiers in systems neuroscience 5:72. https://doi.org/10.3389/fnsys.2011.00072",
+      "Harvey CD, Collman F, Dombeck DA, Tank DW (2009). Intracellular dynamics of hippocampal place cells during virtual navigation. Nature 461:941-946. https://doi.org/10.1038/nature08499",
+      "Aronov D, Tank DW (2014). Engagement of neural circuits underlying 2D spatial navigation in a rodent virtual reality system. Neuron 84:442-456. https://doi.org/10.1016/j.neuron.2014.08.042",
+      "Nityananda V, Tarawneh G, Rosner R, Nicolas J, Crichton S, Read J (2016). Insect stereopsis demonstrated using a 3D insect cinema. Scientific reports 6:18718. https://doi.org/10.1038/srep18718",
+      "Rosner R, von Hadeln J, Tarawneh G, Read JCA (2019). A neuronal correlate of insect stereopsis. Nature communications 10:2845. https://doi.org/10.1038/s41467-019-10721-z",
+      "Takalo J, Piironen A, Honkanen A, Lempeä M, Aikio M, Tuukkanen T, Vähäsöyrinki M (2012). A fast and flexible panoramic virtual reality system for behavioural and electrophysiological experiments. Scientific reports 2:324. https://doi.org/10.1038/srep00324",
+      "Dombeck DA, Harvey CD, Tian L, Looger LL, Tank DW (2010). Functional imaging of hippocampal place cells at cellular resolution during virtual navigation. Nature neuroscience 13:1433-1440. https://doi.org/10.1038/nn.2648",
+      "Domnisoru C, Kinkhabwala AA, Tank DW (2013). Membrane potential dynamics of grid cells. Nature 495:199-204. https://doi.org/10.1038/nature11973",
+      "Kemppainen J, Mansour N, Takalo J, Juusola M (2022). High-speed imaging of light-induced photoreceptor microsaccades in compound eyes. Communications biology 5:203. https://doi.org/10.1038/s42003-022-03142-0"
+    ]
+  }
+}

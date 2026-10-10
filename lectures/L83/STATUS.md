@@ -1,9 +1,13 @@
-# Lecture 83: source preparation complete; two PDF uploads required
+# Lecture 83 complete
 
-The repository default branch was refreshed before work. The instructor’s exact new title is registered as special-topic Lecture 83 with Date TBD. Existing decks, titles, schedule entries, and theme-use records are unchanged.
+The current connected default branch was refreshed before implementation. Exact schedule title and Date TBD are retained. The repository builder produced 46 slides: title, 44 content slides, and six exam-level takeaways.
 
-A 44-content-slide plan balances fruit flies, honey bees, praying mantises, cockroaches, blowflies, zebrafish, mice, and rats. Research includes primary studies of freely moving virtual environments, visual heading and remapping, learning transfer, mushroom-body activation, virtual prey stereopsis, display physiology, motor adaptation, intracellular place-cell dynamics, and two-dimensional spatial coding.
+Eight animal groups are covered: fruit flies, honey bees, praying mantises, cockroaches, blowflies, zebrafish, mice, and rats. All 44 content slides carry original academic figure crops; 36 carry color figures. Anatomy images accompany specific structures, with comparative mouse/fly anatomy explicitly identified.
 
-Ten primary-study PDFs are secured and readable. Bibliographic metadata, original PDF hashes, source URLs, and search records are saved. The Ahrens (2012) and Aronov & Tank (2014) PDFs remain inaccessible; PAPERS.md records the upload request. No placeholder or substitute figures have been created, and no final PPTX has been delivered.
+All 15 cited primary article PDFs were secured and read. The instructor-provided Ahrens (2012) and Aronov & Tank (2014) uploads resolved the original PDF blockers. No generated, redrawn, recolored or substitute figures were used.
 
-Resume by securing those two PDFs, verifying the source-specific results and figure captions, cropping original panels with the repository tools, preparing the lecture specification and useful original supplementary recordings, building with tools/build_lecture.py, validating all slides and embedded media, recording the final theme, committing, pushing, and delivering the PPTX.
+Five original article recordings are embedded, with unedited source-frame posters and credited scientific figures retained. Source URLs, identifiers, licenses, hashes and compatibility information are recorded in media_sources.json and speaker notes. Optional mantis movies returned original-source decode errors; damaged conversions were excluded and the original recording link remains in the notes.
+
+Reproduce: run write_spec.py, tools/build_lecture.py on lecture.json, then embed_media.py, and tools/check_lecture.py with --lecture 83. Media and poster assets are committed; PDF inputs remain ignored.
+
+Final validation and rendering details are recorded in QA.md. Interactive Microsoft PowerPoint playback is unavailable in this cloud environment; embedded relationships and complete media decode are checked.
