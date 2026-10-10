@@ -1,0 +1,85 @@
+{
+  "injury": {
+    "doi": "10.1126/science.aac5675",
+    "title": "Algal toxin impairs sea lion memory and hippocampal connectivity, with implications for strandings",
+    "urls": [],
+    "attempts": [
+      {
+        "url": "https://www.science.org/doi/pdf/10.1126/science.aac5675",
+        "status": 403,
+        "pdf": false,
+        "final_url": "https://www.science.org/doi/pdf/10.1126/science.aac5675"
+      }
+    ],
+    "available": false
+  },
+  "training": {
+    "doi": "10.1016/j.biocon.2006.03.020",
+    "title": "Effects of predator training on behavior and post-release survival of captive prairie dogs (Cynomys ludovicianus)",
+    "urls": [],
+    "attempts": [
+      {
+        "url": "https://doi.org/10.1016/j.biocon.2006.03.020",
+        "error": "HTTPSConnectionPool(host='linkinghub.elsevier.com', port=443): Max retries exceeded with url: /retrieve/pii/S0006320706001431 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      }
+    ],
+    "available": false
+  },
+  "polecat": {
+    "doi": "10.3354/esr00299",
+    "title": "Post-release survival of orphaned wild-born polecats Mustela putorius reared in captivity at a wildlife rehabilitation centre in England",
+    "urls": [
+      "https://www.int-res.com/articles/esr2010/12/n012p107.pdf"
+    ],
+    "attempts": [
+      {
+        "url": "https://www.int-res.com/articles/esr2010/12/n012p107.pdf",
+        "status": 401,
+        "pdf": false
+      },
+      {
+        "url": "https://www.int-res.com/articles/esr2010/12/n012p107.pdf",
+        "status": 401,
+        "pdf": false,
+        "final_url": "https://www.int-res.com/articles/esr2010/12/n012p107.pdf"
+      },
+      {
+        "url": "https://doi.org/10.3354/esr00299",
+        "status": 401,
+        "pdf": false,
+        "final_url": "https://www.int-res.com/abstracts/esr/v12/p107-115"
+      }
+    ],
+    "available": false
+  },
+  "monkseal": {
+    "doi": "10.1578/am.37.3.2011.342",
+    "title": "Evaluation of the Captive Care and Post-Release Behavior and Survival of Seven Juvenile Female Hawaiian Monk Seals (Monachus schauinslandi)",
+    "urls": [],
+    "attempts": [
+      {
+        "url": "https://doi.org/10.1578/am.37.3.2011.342",
+        "status": 403,
+        "pdf": false,
+        "final_url": "https://www.aquaticmammalsjournal.org/article/vol-37-iss-3-norris/"
+      }
+    ],
+    "available": false
+  },
+  "stress": {
+    "doi": "10.1111/j.1460-9568.2009.06867.x",
+    "title": "Selective activation of dorsal raphe nucleus\u2010projecting neurons in the ventral medial prefrontal cortex by controllable stress",
+    "urls": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1460-9568.2009.06867.x"
+    ],
+    "attempts": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1460-9568.2009.06867.x",
+        "status": 403,
+        "pdf": false
+      }
+    ],
+    "available": true,
+    "uploaded_file": "file_0000000055a881fdb0c748dc3274420c"
+  }
+}
