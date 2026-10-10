@@ -1,0 +1,1002 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture9_FA2026_V2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture9_FA2026_V2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "toad",
+  "toads",
+  "frog",
+  "frogs",
+  "prey",
+  "worm",
+  "worms",
+  "antiworm",
+  "antiworms",
+  "stripe",
+  "stripes",
+  "tectum",
+  "tectal",
+  "pretectum",
+  "pretectal",
+  "retina",
+  "retinal",
+  "striatum",
+  "striatal",
+  "pallium",
+  "pallial",
+  "T5.2",
+  "T5(2)",
+  "T5.1",
+  "T5(1)",
+  "T5.3",
+  "T5.4",
+  "TH3",
+  "TH4",
+  "R2",
+  "R3",
+  "R4",
+  "NPY",
+  "Y2",
+  "N1",
+  "AF7",
+  "AF9",
+  "dummy",
+  "turning",
+  "orienting",
+  "snapping",
+  "snap",
+  "strike",
+  "hunting",
+  "configuration",
+  "configurational",
+  "receptive",
+  "field",
+  "fields",
+  "inhibition",
+  "neurons",
+  "neuron",
+  "apomorphine",
+  "dopamine",
+  "2DG",
+  "habituation",
+  "cineol",
+  "vMP",
+  "Lpd",
+  "Lpv",
+  "rods",
+  "rod",
+  "cones",
+  "color",
+  "D(W,A)",
+  "discriminant",
+  "Ewert",
+  "Semmelhack",
+  "Antinucci",
+  "Keeffe",
+  "Yovanovich",
+  "larva",
+  "larvae",
+  "zebrafish",
+  "ablation",
+  "lesion",
+  "lesioned",
+  "veto",
+  "selective",
+  "selectivity",
+  "medullary",
+  "medulla",
+  "tongue",
+  "triangle",
+  "mirror-image",
+  "phototaxis",
+  "optomotor",
+  "command",
+  "pretecto-tectal",
+  "laminae"
+ ],
+ "new_slides": [
+  {
+   "after": 3,
+   "footer_number": "03a",
+   "template_slide": 2,
+   "title": "Orienting gives a graded readout of prey value",
+   "body": [
+    "A **key stimulus** is the small set of cues that triggers a behavior, and a **releasing mechanism** is the neural process that recognizes those cues and starts the act. Ewert asked which visual cues form the toad's key stimulus for prey.",
+    "A cardboard dummy answers by subtraction. It has no odor, texture or wriggling of its own, so any turning it releases depends on vision alone, and with speed and distance fixed, a change in turning can be assigned to the one dimension varied.",
+    "Orienting opens the catching sequence, so turning measures the earliest decision, whether an object counts as prey at all, before approach and snapping add their own requirements. Counting turns over a fixed interval gives a graded readout that ranks weak releasers against strong ones."
+   ],
+   "figure": {
+    "from_slide": 2,
+    "picture": "Google Shape;100;p2",
+    "caption": "Ewert et al. (1979), Fig. 1. Apparatus: a toad (t) in a glass vessel watches a stimulus (s) moved past a window; photos A–C show turning toward it."
+   },
+   "cite": "Ewert et al. (1979); Ewert (1997)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    2,
+    3,
+    4,
+    11
+   ],
+   "cited_papers_used": [
+    "10.1159/000121822",
+    "10.1016/S0166-2236(96)01042-9"
+   ],
+   "transcript": [
+    "The dummy paradigm rests on the ethological idea of a key stimulus, and its design choices each remove one alternative explanation for a change in turning.",
+    [
+     "Key stimulus and releasing mechanism.",
+     [
+      "Ewert framed his whole program around two questions: which features of an object release prey-catching, and which neurons evaluate them.",
+      "His 1997 review uses exactly these terms, the key stimulus and the releasing mechanism, as the two concepts the toad work was meant to connect."
+     ]
+    ],
+    [
+     "What the dummy removes.",
+     [
+      "A real mealworm smells, moves its own body and differs in texture, so a toad's response to it could rest on any of these cues.",
+      "Slides 2 and 3 describe a black cardboard object moved by a motor at fixed distance and speed, which leaves only shape and motion to vary.",
+      "On slide 4 that control allows the edge length along the path and the edge length across it to be changed one at a time."
+     ]
+    ],
+    [
+     "Why count turns.",
+     [
+      "Orienting is the first act on slide 2, so it reflects recognition before the later acts of approach, fixation and snapping come into play.",
+      "A count over a fixed time window yields a number that can rise or fall smoothly, which makes the later comparison with neuron classes on slide 11 possible."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP, Arend B, Becker V, Borchers HW (1979). Invariants in configurational prey selection by Bufo bufo (L.). Brain, Behavior and Evolution 16: 38–51. https://doi.org/10.1159/000121822",
+    "Ewert JP (1997). Neural correlates of key stimulus and releasing mechanism: a case study and two concepts. Trends in Neurosciences 20(8): 332–339. https://doi.org/10.1016/S0166-2236(96)01042-9"
+   ]
+  },
+  {
+   "after": 6,
+   "footer_number": "06a",
+   "template_slide": 6,
+   "title": "Motion turns stripe orientation into time and space",
+   "body": [
+    "On a retinotopic map, motion decides how a stripe's two edge lengths reach the brain. A worm slides along its own axis, so one point of the visual field stays covered for a time that grows with its length. An antiworm covers a wide band of neighboring points at once, each only briefly.",
+    "A stationary stripe gives a round receptive field no such difference: rotated about the field's center, it covers the same area. Movement converts extension along the path into duration at each location and extension across it into breadth of simultaneous activity.",
+    "Such a comparison would explain why one rule holds at every angle tested. Both measures are taken relative to the stripe's own path, so circular fields, like those of frog T5(2) cells at about 18°, could classify worms moving in any direction."
+   ],
+   "figure": {
+    "from_slide": 6,
+    "picture": "Google Shape;148;p6",
+    "caption": "Ewert et al. (1979), Fig. 3A. Turning to a worm stripe (a), antiworm stripe (b) and small square (c) moved at different angles to the horizon."
+   },
+   "cite": "Ewert et al. (1979); Schürg-Pfeiffer & Ewert (1981)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    4,
+    6,
+    13,
+    15
+   ],
+   "cited_papers_used": [
+    "10.1159/000121822",
+    "10.1007/BF01342660"
+   ],
+   "transcript": [
+    "The worm and antiworm rule is defined relative to the direction of motion, and the geometry of a moving stripe on a retinotopic map gives a concrete way to see why that matters.",
+    [
+     "Two edges, two kinds of signal.",
+     [
+      "When a 2.5 by 30 millimeter stripe moves lengthwise, any given spot in the visual field sees black for a long stretch of time, but only a narrow column of spots is covered at any one instant.",
+      "Turn the same stripe crosswise and the pattern inverts: many neighboring spots are covered together, and each is uncovered again almost immediately."
+     ]
+    ],
+    [
+     "Why motion is required.",
+     [
+      "Slide 13 introduces the retinotopic maps of tectum and pretectum, where neighboring places in the visual field are handled by neighboring neurons.",
+      "Without motion, a round receptive field receives the same amount of black whichever way the stripe is turned, so orientation alone gives such a cell nothing to work with."
+     ]
+    ],
+    [
+     "Invariance follows.",
+     [
+      "Slide 6 reports the same discrimination for horizontal, diagonal and vertical paths.",
+      "If the brain compares time at a location with breadth across locations, that comparison is tied to the path of the stimulus and therefore works at any angle.",
+      "The roughly 18 degree circular fields on slide 15 fit this kind of computation, although Ewert's papers present the comparison as a proposal about how inputs combine."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP, Arend B, Becker V, Borchers HW (1979). Invariants in configurational prey selection by Bufo bufo (L.). Brain, Behavior and Evolution 16: 38–51. https://doi.org/10.1159/000121822",
+    "Schürg-Pfeiffer E, Ewert JP (1981). Investigation of neurons involved in the analysis of gestalt prey features in the frog Rana temporaria. Journal of Comparative Physiology 141: 139–152. https://doi.org/10.1007/BF01342660"
+   ]
+  },
+  {
+   "after": 9,
+   "footer_number": "09a",
+   "template_slide": 9,
+   "title": "Discriminant values separate preference from vigor",
+   "body": [
+    "Raw turning counts mix two properties: how readily an animal responds at all, and how strongly it prefers one configuration. A frog with a low snapping threshold could respond more often than a toad to both stripes and still discriminate worse. D(W,A) depends only on the balance between worm and antiworm responses.",
+    "White stripes on black lowered turning overall yet left the worm preference intact, a change in level without a change in selectivity. Under apomorphine, snapping rose while discrimination became less sharp.",
+    "A bounded scale also makes behavior and neurons comparable. A retinal cell and a toad produce very different numbers of spikes or turns, yet each yields a D(W,A) curve against stripe length, and matching curves mark neurons whose preference tracks the animal's."
+   ],
+   "figure": {
+    "from_slide": 9,
+    "picture": "Google Shape;184;p9",
+    "caption": "Schürg-Pfeiffer & Ewert (1981), Fig. 12. Discriminant value for worm versus antiworm during prey-catching in R. temporaria and B. bufo as stripe length increases."
+   },
+   "cite": "Schürg-Pfeiffer & Ewert (1981); Ewert et al. (1978)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    5,
+    9,
+    11,
+    12,
+    27
+   ],
+   "cited_papers_used": [
+    "10.1007/BF01342660",
+    "10.1007/BF01342649"
+   ],
+   "transcript": [
+    "The discriminant value looks like a bookkeeping device, but it solves a real problem: separating how much an animal responds from what it prefers.",
+    [
+     "Two properties hidden in one count.",
+     [
+      "An animal that turns often to everything and an animal that turns rarely can still favor the worm by the same proportion.",
+      "Their raw counts differ, yet the discriminant value treats them alike, since it registers only the balance between the two stripes.",
+      "That matters for the frog and toad comparison on slide 9, since the sit-and-wait frog responds readily to many objects."
+     ]
+    ],
+    [
+     "Level and selectivity move independently.",
+     [
+      "On slide 5, contrast direction changes response level while the configurational preference stays put.",
+      "Under apomorphine on slide 27, snapping rises while discrimination becomes less acute, a case where the two properties move apart in the other direction."
+     ]
+    ],
+    [
+     "Putting neurons and behavior on one scale.",
+     [
+      "Slides 11 and 12 rely on this normalization, because a neuron's spike count and a toad's turning count have no common units.",
+      "Once both are expressed as discriminant values, the shape of the curve against stripe length can be compared directly, which is how T5(2) neurons were singled out."
+     ]
+    ]
+   ],
+   "refs": [
+    "Schürg-Pfeiffer E, Ewert JP (1981). Investigation of neurons involved in the analysis of gestalt prey features in the frog Rana temporaria. Journal of Comparative Physiology 141: 139–152. https://doi.org/10.1007/BF01342660",
+    "Ewert JP, Borchers HW, von Wietersheim A (1978). Question of prey feature detectors in the toad's Bufo bufo (L.) visual system: a correlation analysis. Journal of Comparative Physiology 126: 43–47. https://doi.org/10.1007/BF01342649"
+   ]
+  },
+  {
+   "after": 11,
+   "footer_number": "11a",
+   "template_slide": 11,
+   "title": "Selective cells need partners to identify prey",
+   "body": [
+    "A selective neuron's firing rate alone is ambiguous. The frog T5(2) cell fired strongly to long worms but also to squares near 8°, so a moderate burst could come from a short worm, a medium square or an object at the edge of the field.",
+    "The ambiguity shrinks when classes are read together. A worm drives T5(2) while leaving pretectal TH3, which favors extension across the path, nearly silent; a large square drives TH3 and the avoidance-like T5.4 class. The prey label lies in the pattern across classes.",
+    "Selectivity without specificity fits this arrangement: a few broadly tuned classes mark prey and predator through their combinations. Pretectal neurons also project to the tectum and inhibit it, so the circuit itself performs the comparison."
+   ],
+   "figure": {
+    "from_slide": 11,
+    "picture": "Google Shape;210;p11",
+    "caption": "Ewert et al. (1978), Fig. 2. Discriminant value D(W,A) for behavior (B) and for retinal (R2–R4), tectal (T5(1), T5(2)) and pretectal (TH3) neurons."
+   },
+   "cite": "Ewert et al. (1978); Schürg-Pfeiffer & Ewert (1981); Ewert (1997)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence",
+    "distinction"
+   ],
+   "integrates": [
+    11,
+    15,
+    16,
+    18,
+    20
+   ],
+   "cited_papers_used": [
+    "10.1007/BF01342649",
+    "10.1007/BF01342660",
+    "10.1016/S0166-2236(96)01042-9"
+   ],
+   "transcript": [
+    "The absence of a specific worm detector is a statement about how information is distributed, and it explains why the deck moves from single cells to combinations of cell classes.",
+    [
+     "One cell, many possible causes.",
+     [
+      "The spike trains on slide 15 show the same T5(2) neuron responding well to an 8 degree square and to lengthening worms.",
+      "Any given firing rate is therefore compatible with more than one object, and stimulus size, position in the field and configuration all trade off against each other."
+     ]
+    ],
+    [
+     "Reading several classes at once.",
+     [
+      "Slide 16 lays out the classes side by side: T5.2 follows prey-catching, TH3 and T5.3 favor large extension across the path, and T5.4 follows avoidance.",
+      "A worm and a large square differ sharply in the joint pattern across these classes even when one class alone might give similar rates.",
+      "Ewert's sensorimotor codes on slide 20 are built on exactly this joint pattern."
+     ]
+    ],
+    [
+     "The circuit performs the comparison.",
+     [
+      "The pretectum is not merely another class an experimenter can record; according to slide 18 it inhibits tectal neurons.",
+      "So the brain does not need a separate decoder to compare T5(2) with TH3, since TH3 activity directly reduces tectal output when the stimulus is not prey-like."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP, Borchers HW, von Wietersheim A (1978). Question of prey feature detectors in the toad's Bufo bufo (L.) visual system: a correlation analysis. Journal of Comparative Physiology 126: 43–47. https://doi.org/10.1007/BF01342649",
+    "Schürg-Pfeiffer E, Ewert JP (1981). Investigation of neurons involved in the analysis of gestalt prey features in the frog Rana temporaria. Journal of Comparative Physiology 141: 139–152. https://doi.org/10.1007/BF01342660",
+    "Ewert JP (1997). Neural correlates of key stimulus and releasing mechanism: a case study and two concepts. Trends in Neurosciences 20(8): 332–339. https://doi.org/10.1016/S0166-2236(96)01042-9"
+   ]
+  },
+  {
+   "after": 18,
+   "footer_number": "18a",
+   "template_slide": 18,
+   "title": "Pretectal inhibition subtracts antiworm drive",
+   "body": [
+    "Tectal selectivity can be read as a balance of two inputs. Retinal excitation reaching T5.2 reports size, contrast and movement without regard to configuration, while pretectal TH3 output grows with extension across the path and cancels the excitation an antiworm brings.",
+    "Recording one T5.2 cell before and after the lesion rules out a change in which cells were sampled. Its enlarged field and new resting discharge fit the loss of inhibition that normally trims the field's edges and holds baseline firing low.",
+    "For the animal, the pretectum supplies the rejection side of each decision. Lesioned toads still found prey, but recognition failed toward overinclusion, so selectivity here comes largely from suppressing responses to non-prey."
+   ],
+   "figure": {
+    "from_slide": 18,
+    "picture": "Google Shape;294;p18",
+    "caption": "Ewert et al. (2001), Fig. 2D. Turning to worm (a), antiworm (b) and square (c) stimuli after bilateral pretectal thalamic lesions (n = 20 toads)."
+   },
+   "cite": "Ewert (1997); Ewert et al. (2001); Ewert et al. (1978)",
+   "moves": [
+    "mechanism",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    10,
+    11,
+    16,
+    17,
+    18
+   ],
+   "cited_papers_used": [
+    "10.1016/S0166-2236(96)01042-9",
+    "10.1016/S1095-6433(00)00333-0",
+    "10.1007/BF01342649"
+   ],
+   "transcript": [
+    "Slides 10, 11, 16 and 18 together give a simple causal account of why T5.2 neurons prefer worms: excitation that is blind to configuration, minus inhibition that is not.",
+    [
+     "Two inputs with different tuning.",
+     [
+      "The retinal classes on slide 10 respond according to size and receptive-field size, and none of them separates worms from antiworms the way behavior does.",
+      "Pretectal TH3 neurons on slides 11 and 16 have negative discriminant values and respond best to large extension across the path.",
+      "When both reach a T5.2 neuron, an antiworm arrives with strong inhibition attached, while a worm arrives with little."
+     ]
+    ],
+    [
+     "The within-cell comparison.",
+     [
+      "Slides 17 and 18 use the same chronically recorded neuron, with a second implanted electrode used to make the pretectal lesion.",
+      "Comparing a cell with itself removes the worry that lesioned and intact animals simply had different neurons under the electrode.",
+      "The bigger receptive field and the new spontaneous firing are what one expects when an inhibitory surround and tonic inhibition are taken away."
+     ]
+    ],
+    [
+     "What this means for the toad.",
+     [
+      "A toad without the pretectum is not blind to prey; it over-responds, which tells us that the veto, not the detection, is what was lost.",
+      "Ewert's 2001 review states that prey and non-prey discrimination rests on the interaction of the tectal stream with the pretectal thalamus."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP (1997). Neural correlates of key stimulus and releasing mechanism: a case study and two concepts. Trends in Neurosciences 20(8): 332–339. https://doi.org/10.1016/S0166-2236(96)01042-9",
+    "Ewert JP, Buxbaum-Conradi H, Dreisvogt F, Glagow M, Merkel-Harff C, Röttgen A, Schürg-Pfeiffer E, Schwippert WW (2001). Neural modulation of visuomotor functions underlying prey-catching behaviour in anurans: perception, attention, motor performance, learning. Comparative Biochemistry and Physiology A 128: 417–461. https://doi.org/10.1016/S1095-6433(00)00333-0",
+    "Ewert JP, Borchers HW, von Wietersheim A (1978). Question of prey feature detectors in the toad's Bufo bufo (L.) visual system: a correlation analysis. Journal of Comparative Physiology 126: 43–47. https://doi.org/10.1007/BF01342649"
+   ]
+  },
+  {
+   "after": 19,
+   "footer_number": "19a",
+   "template_slide": 19,
+   "title": "NPY scales retinal input before tectal cells see it",
+   "body": [
+    "A surface **field potential** is the summed voltage of many synchronously active synapses, so N1 measures how strongly retinal terminals drive the tectum together. Diffuse flashes engage them without any pattern, isolating transmission strength from configuration.",
+    "The fragments rule out a general effect of NPY-derived peptides: only the Y2-activating fragment acted. A presynaptic receptor lowers release from the terminal carrying it, scaling retinal input before tectal dendrites receive it.",
+    "NPY fibers end mainly in laminae B and C, where R2 axons terminate, so pretectal output is placed to act on the retinal class that responds best to small objects. A depression lasting over an hour fits a brake that sets the tectum's working range across many encounters."
+   ],
+   "figure": {
+    "from_slide": 19,
+    "picture": "Google Shape;306;p19",
+    "caption": "Ewert et al. (2001), Fig. 5. N1 amplitude of the tectal field potential to light-on (a) and light-off (b) after NPY (A), NPY 13–36 (B) and NPY 18–36 (C)."
+   },
+   "cite": "Ewert et al. (2001); Ewert (1997)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    10,
+    14,
+    18,
+    19
+   ],
+   "cited_papers_used": [
+    "10.1016/S1095-6433(00)00333-0",
+    "10.1016/S0166-2236(96)01042-9"
+   ],
+   "transcript": [
+    "The NPY experiment uses a population signal and a pair of peptide fragments, and both choices need explaining before the result can be tied to the anatomy on slide 14.",
+    [
+     "What a field potential measures.",
+     [
+      "A surface electrode does not see single spikes; it records the summed current of thousands of synapses that are active together.",
+      "Turning a diffuse light on or off activates many retinal terminals at the same moment, so the first wave reflects how much transmitter those terminals release onto the tectum."
+     ]
+    ],
+    [
+     "Why two fragments.",
+     [
+      "If NPY 13–36 and NPY 18–36 had both worked, the result could reflect some general property of NPY fragments.",
+      "Only the Y2-activating fragment acted, which ties the depression to a receptor type that commonly sits on presynaptic terminals.",
+      "Presynaptic inhibition reduces how much transmitter each incoming spike releases, so the signal is weakened at its source."
+     ]
+    ],
+    [
+     "Linking to the laminae.",
+     [
+      "Slide 14 places R2 terminals in laminae B and C and the NPY fibers mainly in the same laminae.",
+      "Slide 10 describes R2 cells as responding best to small stimuli, so the pretectal brake is located on the small-object retinal channel.",
+      "The effect on slide 19 lasted more than an hour, much longer than a single prey encounter."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP, Buxbaum-Conradi H, Dreisvogt F, Glagow M, Merkel-Harff C, Röttgen A, Schürg-Pfeiffer E, Schwippert WW (2001). Neural modulation of visuomotor functions underlying prey-catching behaviour in anurans: perception, attention, motor performance, learning. Comparative Biochemistry and Physiology A 128: 417–461. https://doi.org/10.1016/S1095-6433(00)00333-0",
+    "Ewert JP (1997). Neural correlates of key stimulus and releasing mechanism: a case study and two concepts. Trends in Neurosciences 20(8): 332–339. https://doi.org/10.1016/S0166-2236(96)01042-9"
+   ]
+  },
+  {
+   "after": 23,
+   "footer_number": "23a",
+   "template_slide": 23,
+   "title": "Snapping runs open-loop, so aiming happens first",
+   "body": [
+    "A **closed-loop** movement is corrected by sensory feedback while it runs; an **open-loop** or ballistic movement is fully specified before it starts. Among the acts of the catching sequence, the snap is the clearest open-loop case.",
+    "In the cane toad the eyes close at the start of the feeding cycle and reopen around the time the mouth shuts on the prey, while the tongue reaches full protrusion from rest in about 46 ms. Vision is unavailable during the strike, and the tongue, flipped out largely under its own inertia, follows a path set at launch.",
+    "Accuracy must therefore come first. Binocular fixation measures direction and distance, and medullary neurons that gather many descending streams could release the snap only when those signals coincide. Zebrafish larvae likewise converge their eyes before the capture swim."
+   ],
+   "figure": {
+    "from_slide": 23,
+    "picture": "Google Shape;356;p23",
+    "caption": "Keeffe et al. (2022), Fig. 8. Phases of a cane toad feeding event from X-ray video, ventral and lateral views, with tongue (pink) and hyoid (blue)."
+   },
+   "cite": "Keeffe et al. (2022); Ewert (1997); Bianco et al. (2011)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    2,
+    21,
+    23,
+    37
+   ],
+   "cited_papers_used": [
+    "10.1093/iob/obac045",
+    "10.1016/S0166-2236(96)01042-9",
+    "10.3389/fnsys.2011.00101"
+   ],
+   "transcript": [
+    "The XROMM data explain why the toad's catching sequence puts fixation before snapping, and why misses look like hits.",
+    [
+     "Two kinds of movement control.",
+     [
+      "In a closed-loop movement, the senses keep reporting and the movement is adjusted on the way.",
+      "In an open-loop movement, the nervous system computes the whole command in advance, and the movement then runs to completion."
+     ]
+    ],
+    [
+     "The evidence from the strike itself.",
+     [
+      "Keeffe and colleagues found that their toads consistently closed their eyes during the prey capture phase, with closure beginning at the start of the cycle.",
+      "Tongue tip protrusion from rest took about 46 milliseconds, and in frogs the tongue is flipped forward largely by inertia, so there is neither visual input nor time for correction."
+     ]
+    ],
+    [
+     "Where accuracy comes from.",
+     [
+      "Slide 2 places binocular fixation immediately before the snap, which is where direction and distance must be settled.",
+      "Slide 21 describes medullary neurons whose dendrites collect many descending streams, and Ewert suggested that coincident input selects the ballistic command.",
+      "Slide 37 gives the same order in zebrafish, where eye convergence enlarges the binocular field before the strike."
+     ]
+    ]
+   ],
+   "refs": [
+    "Keeffe R, Blob R, Blackburn D, Mayerl C (2022). XROMM analysis of feeding mechanics in toads: interactions of the tongue, hyoid, and pectoral girdle. Integrative Organismal Biology 4(1): obac045. https://doi.org/10.1093/iob/obac045",
+    "Ewert JP (1997). Neural correlates of key stimulus and releasing mechanism: a case study and two concepts. Trends in Neurosciences 20(8): 332–339. https://doi.org/10.1016/S0166-2236(96)01042-9",
+    "Bianco IH, Kampff AR, Engert F (2011). Prey capture behavior evoked by simple visual stimuli in larval zebrafish. Frontiers in Systems Neuroscience 5: 101. https://doi.org/10.3389/fnsys.2011.00101"
+   ]
+  },
+  {
+   "after": 26,
+   "footer_number": "26a",
+   "template_slide": 26,
+   "title": "Disinhibition permits orienting without driving it",
+   "body": [
+    "**Disinhibition** is excitation by removal: when one inhibitory neuron silences another, the final target is freed to respond to excitation it already receives. The striatal signal is therefore permissive; the content passing the gate comes from retinal input about prey.",
+    "Striatal stimulation alone produced no turn, as an open gate with no prey behind it releases nothing; paired with a subliminal prey stimulus, it made orienting likely. The retinotopic match between stimulation site and facilitated field position fits a release of inhibition confined to one part of the tectal map.",
+    "Fields spanning the whole visual field and responses that fade with repetition suit a signal that something relevant has appeared, not what it is. The tectum and pretectum analyze configuration; the striatal loop decides whether that analysis reaches the motor systems."
+   ],
+   "figure": {
+    "from_slide": 26,
+    "picture": "Google Shape;392;p26",
+    "caption": "Ewert (1997), Fig. 1B. Gating loop: striatum (S) receives tectal (T) input via lateral anterior thalamus (LA) and inhibits pretectum (TH), which inhibits tectum."
+   },
+   "cite": "Ewert (1997); Ewert et al. (2001)",
+   "moves": [
+    "foundation",
+    "distinction",
+    "mechanism",
+    "integration"
+   ],
+   "integrates": [
+    18,
+    24,
+    25,
+    26
+   ],
+   "cited_papers_used": [
+    "10.1016/S0166-2236(96)01042-9",
+    "10.1016/S1095-6433(00)00333-0"
+   ],
+   "transcript": [
+    "The gating loop on slide 26 makes specific predictions about what striatal activity can and cannot do, and the stimulation data on slide 24 match them.",
+    [
+     "Permissive versus instructive.",
+     [
+      "An instructive signal tells a circuit what to do; a permissive signal only allows a circuit to act on information it already has.",
+      "Inhibiting the pretectum removes a brake from the tectum, but if no prey is exciting the tectum, removing the brake changes nothing."
+     ]
+    ],
+    [
+     "Reading the stimulation experiment.",
+     [
+      "On slide 24, striatal stimulation by itself did not produce orienting, which is exactly the permissive prediction.",
+      "When a weak prey stimulus was also present, the same stimulation facilitated orienting, and the facilitated region of the visual field depended on the stimulation site."
+     ]
+    ],
+    [
+     "What striatal neurons report.",
+     [
+      "Slide 25 describes striatal neurons with very large receptive fields that habituate, many of them simple motion detectors.",
+      "These are poor properties for identifying objects but good ones for flagging that an object is worth attending to.",
+      "Ewert's 2001 review connects the ventral striatum to directed attention on the basis of these response properties."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP (1997). Neural correlates of key stimulus and releasing mechanism: a case study and two concepts. Trends in Neurosciences 20(8): 332–339. https://doi.org/10.1016/S0166-2236(96)01042-9",
+    "Ewert JP, Buxbaum-Conradi H, Dreisvogt F, Glagow M, Merkel-Harff C, Röttgen A, Schürg-Pfeiffer E, Schwippert WW (2001). Neural modulation of visuomotor functions underlying prey-catching behaviour in anurans: perception, attention, motor performance, learning. Comparative Biochemistry and Physiology A 128: 417–461. https://doi.org/10.1016/S1095-6433(00)00333-0"
+   ]
+  },
+  {
+   "after": 31,
+   "footer_number": "31a",
+   "template_slide": 28,
+   "title": "Dopamine splits orienting from snapping",
+   "body": [
+    "Apomorphine moved two acts of one sequence in opposite directions. Turning fell with tectal T5.2 output, while snapping rose together with glucose use in the hypoglossal nucleus, which drives the tongue, and the medial reticular formation. One drug can raise one act and lower another only when different circuits carry them.",
+    "The drugged toad matches the frog in two ways: little orienting with frequent snaps at nearby items, and broader acceptance of non-prey. With a lower snapping threshold, weaker stimuli reach the strike, flattening discrimination while its basic shape survives.",
+    "In Ewert's interpretation, dopamine sets hunting strategy rather than switching feeding on or off. T5.2 still prefers worms, while priority shifts between motor channels: pursuit when tectal orienting output is high, waiting and snapping when it is suppressed."
+   ],
+   "figure": {
+    "from_slide": 28,
+    "picture": "Google Shape;416;p28",
+    "caption": "Ewert et al. (2001), Fig. 10. Color-coded 2DG uptake in transverse sections (a–d) of an untreated (A) and an apomorphine-treated (B) toad; blue low, red high."
+   },
+   "cite": "Ewert et al. (2001); Schürg-Pfeiffer & Ewert (1981)",
+   "moves": [
+    "distinction",
+    "integration",
+    "mechanism",
+    "consequence"
+   ],
+   "integrates": [
+    9,
+    20,
+    27,
+    28,
+    30
+   ],
+   "cited_papers_used": [
+    "10.1016/S1095-6433(00)00333-0",
+    "10.1007/BF01342660"
+   ],
+   "transcript": [
+    "The apomorphine slides contain a dissociation that is easy to miss: the drug pushes orienting and snapping in opposite directions.",
+    [
+     "Two acts, two channels.",
+     [
+      "On slide 27, turning toward prey falls to near zero as the dose rises, while snapping roughly triples.",
+      "Slide 28 reports reduced 2DG uptake in the medial tectal layers holding the orienting output neurons, alongside increased uptake in the hypoglossal nucleus and medial reticular formation.",
+      "Slide 20 already lists separate motor-pattern circuits for turning and snapping, and the drug data push them independently."
+     ]
+    ],
+    [
+     "The toad becomes frog-like.",
+     [
+      "Slide 9 describes the frog as a sit-and-wait predator with gradual worm and antiworm discrimination.",
+      "The apomorphine toad sits still and strikes at nearby items, and its discrimination loses acuity while keeping its basic pattern, which is the frog's profile."
+     ]
+    ],
+    [
+     "Strategy, not appetite.",
+     [
+      "On slide 30, T5.2 neurons keep their worm preference at 35 minutes, so configurational analysis is still running.",
+      "Ewert's 2001 review proposes that hunting and waiting strategies depend on dose-dependent dopaminergic adjustments across retinal, pretecto-tectal, basal ganglionic, limbic and mesolimbic structures."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP, Buxbaum-Conradi H, Dreisvogt F, Glagow M, Merkel-Harff C, Röttgen A, Schürg-Pfeiffer E, Schwippert WW (2001). Neural modulation of visuomotor functions underlying prey-catching behaviour in anurans: perception, attention, motor performance, learning. Comparative Biochemistry and Physiology A 128: 417–461. https://doi.org/10.1016/S1095-6433(00)00333-0",
+    "Schürg-Pfeiffer E, Ewert JP (1981). Investigation of neurons involved in the analysis of gestalt prey features in the frog Rana temporaria. Journal of Comparative Physiology 141: 139–152. https://doi.org/10.1007/BF01342660"
+   ]
+  },
+  {
+   "after": 32,
+   "footer_number": "32a",
+   "template_slide": 32,
+   "title": "Habituation spares the retina and the motor system",
+   "body": [
+    "Two simpler processes can also make responses fade: **motor fatigue**, a decline in the muscles or pattern generators that execute the turn, and **sensory adaptation**, a decline in receptor or retinal responses to sustained stimulation. Either would weaken responses to any stimulus that uses the same pathway.",
+    "The mirror-image triangle has the same area, contrast and speed as the habituated one and moves along the same path, so it drives the same retinal size classes and calls on the same turning movement. Full responding to it rules out both fatigue and adaptation and leaves a change at a stage where leading and trailing edges are told apart.",
+    "Striatal neurons are one candidate site, since most of them habituated to repeated stimulation, and Ewert attributed stimulus-specific habituation to loops involving the ventral medial pallium. For the toad, an object that keeps passing without being caught stops drawing turns, while a differently shaped object in the same place still does."
+   ],
+   "figure": {
+    "from_slide": 32,
+    "picture": "Google Shape;464;p32",
+    "caption": "Ewert et al. (2001), Fig. 16. Stimulus-specific habituation to triangles A and B (A) and the dishabituation hierarchy of moving patterns (B); inset: beetle Carabus."
+   },
+   "cite": "Ewert et al. (2001)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    10,
+    16,
+    25,
+    32
+   ],
+   "cited_papers_used": [
+    "10.1016/S1095-6433(00)00333-0"
+   ],
+   "transcript": [
+    "The mirror-image control on slide 32 is a compact piece of experimental logic that rules out two common alternatives to habituation.",
+    [
+     "Three ways a response can fade.",
+     [
+      "The motor system could tire, the sense organ or retina could adapt, or a central stage could learn that the stimulus is unimportant.",
+      "Only the last is habituation in the strict sense, a form of non-associative learning."
+     ]
+    ],
+    [
+     "Why the mirror image is the right test.",
+     [
+      "Mirror-image triangles share area, contrast and speed, which are the properties the retinal ganglion cell classes on slides 10 and 16 report.",
+      "They also call on the same orienting turn, so a tired motor system would fail on both.",
+      "Full recovery to the mirror image therefore means the decrement sits where configuration is coded."
+     ]
+    ],
+    [
+     "Where and why.",
+     [
+      "Slide 25 notes that most striatal neurons habituate, and Ewert's 2001 review assigns stimulus-specific habituation to modulatory loops involving the ventral medial pallium.",
+      "Behaviorally, the toad stops spending turns on an object that keeps passing uncaught while remaining fully responsive to anything new."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP, Buxbaum-Conradi H, Dreisvogt F, Glagow M, Merkel-Harff C, Röttgen A, Schürg-Pfeiffer E, Schwippert WW (2001). Neural modulation of visuomotor functions underlying prey-catching behaviour in anurans: perception, attention, motor performance, learning. Comparative Biochemistry and Physiology A 128: 417–461. https://doi.org/10.1016/S1095-6433(00)00333-0"
+   ]
+  },
+  {
+   "after": 34,
+   "footer_number": "34a",
+   "template_slide": 34,
+   "title": "Learning changes a cue's value, not its detection",
+   "body": [
+    "Cineol switched sign through association. Before training it suppressed prey-catching, and after pairing with prey it facilitated it, although the odor itself was unchanged. What changed was the cue's learned value, assigned by structures linking the odor to its outcome.",
+    "Controls given the hand and the mealworm unpaired stayed as selective as untrained toads, which rules out familiarity with the hand. Blinding before the 2DG test meant that vMP activity during the odor arose without any sight of prey.",
+    "Learning and lesions reach the same target by different routes. A pretectal lesion removes the veto permanently, along with distance judgment; training lowered activity in pretectal Lpd and Lpv through pallial loops for a learned context. The pretecto-tectal veto is the element experience adjusts."
+   ],
+   "figure": {
+    "from_slide": 34,
+    "picture": "Google Shape;490;p34",
+    "caption": "Ewert et al. (2001), Fig. 22. Caudal telencephalon (A); 2DG uptake in vMP of a blinded toad without (Ba) and with (Bb) prey-associated cineol."
+   },
+   "cite": "Ewert et al. (2001); Ewert (1997)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    18,
+    22,
+    26,
+    33,
+    34
+   ],
+   "cited_papers_used": [
+    "10.1016/S1095-6433(00)00333-0",
+    "10.1016/S0166-2236(96)01042-9"
+   ],
+   "transcript": [
+    "The learning experiments on slides 33 and 34 change what a stimulus means to the toad without changing how it is sensed, and the controls are built to exclude simpler explanations.",
+    [
+     "Value versus detection.",
+     [
+      "The same cineol odor first reduced prey-catching and later increased it.",
+      "Nothing about the odor or the nose changed between those tests, so the change must lie in structures that store what the odor predicts."
+     ]
+    ],
+    [
+     "What the controls exclude.",
+     [
+      "The non-contingent group on slide 33 saw the hand and received mealworms as often as trained toads, but not together, and kept normal selectivity.",
+      "Binocular enucleation on slide 34 removes vision, so the strong ventral medial pallium signal reflects the learned odor and not any visual prey cue."
+     ]
+    ],
+    [
+     "Same target, different routes.",
+     [
+      "After pretectal loss on slides 18 and 22, toads strike at everything and misjudge distance.",
+      "Trained toads also accepted antiworms and large squares, but the 2DG data on slide 33 point to reduced pretectal activity driven by pallial loops, which Ewert's 1997 scheme routes through the anterior thalamus."
+     ]
+    ]
+   ],
+   "refs": [
+    "Ewert JP, Buxbaum-Conradi H, Dreisvogt F, Glagow M, Merkel-Harff C, Röttgen A, Schürg-Pfeiffer E, Schwippert WW (2001). Neural modulation of visuomotor functions underlying prey-catching behaviour in anurans: perception, attention, motor performance, learning. Comparative Biochemistry and Physiology A 128: 417–461. https://doi.org/10.1016/S1095-6433(00)00333-0",
+    "Ewert JP (1997). Neural correlates of key stimulus and releasing mechanism: a case study and two concepts. Trends in Neurosciences 20(8): 332–339. https://doi.org/10.1016/S0166-2236(96)01042-9"
+   ]
+  },
+  {
+   "after": 35,
+   "footer_number": "35a",
+   "template_slide": 35,
+   "title": "Color vision needs two receptor types compared",
+   "body": [
+    "A single photoreceptor type confounds wavelength with intensity: each absorbed photon produces the same signal whatever its color. Color discrimination requires comparing two receptor types with different spectral sensitivities.",
+    "Amphibians have two rod types: green-sensitive rods peaking near 502 nm, the common vertebrate rod, and blue-sensitive rods peaking near 432 nm. Comparing them offers color vision when cones are silent, and the test stimuli were designed to excite the two rod types differently.",
+    "Both species carry the two rod types, so the toad and frog results point downstream. The authors proposed that the phototaxis pathway compares rod signals close to motor output, whereas prey-catching color choice is set by sensitive blue-sensitive cones. In very dim light, toads still hunt in achromatic mode."
+   ],
+   "figure": {
+    "from_slide": 35,
+    "picture": "Google Shape;502;p35",
+    "caption": "Yovanovich et al. (2017), Fig. 2. Prey choices by color (a) and brightness (b) in Bufo and Rana at 40 cd/m²; toad color choices across luminance (c)."
+   },
+   "cite": "Yovanovich et al. (2017)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    5,
+    35
+   ],
+   "cited_papers_used": [
+    "10.1098/rstb.2016.0066"
+   ],
+   "transcript": [
+    "Slide 35 reports that color use depends on the task, and the explanation starts with what any color vision system needs.",
+    [
+     "The principle of univariance.",
+     [
+      "A photoreceptor counts absorbed photons, and each absorbed photon has the same effect regardless of its wavelength.",
+      "Wavelength only changes the probability that a photon is absorbed, so one receptor type cannot tell a dim green light from a brighter blue one; two types with different sensitivities can, by comparing their signals."
+     ]
+    ],
+    [
+     "The amphibian dual rod system.",
+     [
+      "Yovanovich and colleagues list rod peaks of about 502 nanometers for the common rod type and about 432 nanometers for the blue-sensitive rods in Bufo bufo.",
+      "Their blue and green stimuli were chosen to excite these two rod types quantifiably and differently."
+     ]
+    ],
+    [
+     "Why toads and frogs differ.",
+     [
+      "The authors found the toads' color threshold in prey-catching consistent with blue-sensitive cones, which are very sensitive in amphibians.",
+      "In phototaxis, frogs discriminated blue from green at threshold, which they explain by a comparison of the two rod signals in a pathway close to the motor output.",
+      "Toads keep trying to catch prey in achromatic mode at very low light, so color is a dispensable cue for hunting."
+     ]
+    ]
+   ],
+   "refs": [
+    "Yovanovich CAM, Koskela SM, Nevala N, Kondrashev SL, Kelber A, Donner K (2017). The dual rod system of amphibians supports colour discrimination at the absolute visual threshold. Philosophical Transactions of the Royal Society B 372: 20160066. https://doi.org/10.1098/rstb.2016.0066"
+   ],
+   "paper_numbers": [
+    "502",
+    "432"
+   ]
+  },
+  {
+   "after": 40,
+   "footer_number": "40a",
+   "template_slide": 40,
+   "title": "Opposite deficits make the AF7 result specific",
+   "body": [
+    "A lesion that lowers a behavior has dull explanations: general damage, poorer vision or a sick animal. A **double dissociation**, in which each of two lesions impairs a different behavior, excludes them: AF7 and AF9 ablations produced opposite deficits.",
+    "Neighboring retinal axons kept their course to the tectum and tectal neurons still responded to small stimuli, so lost hunting reflects lost AF7 terminals, not a disconnected tectum. The person scoring behavior did not know each larva's group.",
+    "Beside the toad, the sign of pretectal involvement reverses. A toad without its pretectum struck at more objects, whereas a larva without AF7 input hunted less, so this fish channel supplies drive. The remaining 40% fits other routes, such as tectal collaterals of AF7-projecting cells."
+   ],
+   "figure": {
+    "from_slide": 40,
+    "picture": "Google Shape;566;p40",
+    "caption": "Semmelhack et al. (2014), Fig. 6. AF7 before and after ablation (A–B); tail traces with prey-capture bouts (C–D); prey capture and optomotor response after AF7 or AF9 ablation (E–H)."
+   },
+   "cite": "Semmelhack et al. (2014); Ewert et al. (2001)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    18,
+    39,
+    40
+   ],
+   "cited_papers_used": [
+    "10.7554/eLife.04878",
+    "10.1016/S1095-6433(00)00333-0"
+   ],
+   "transcript": [
+    "The AF7 ablation is persuasive because of its controls, and those controls are worth walking through before comparing the result with the toad.",
+    [
+     "Double dissociation.",
+     [
+      "A single lesion that reduces prey capture could simply have damaged the larva's vision or health.",
+      "When a second lesion of similar size, in AF9, impairs a different visual behavior while sparing prey capture, a general explanation no longer fits either result."
+     ]
+    ],
+    [
+     "Checking the damage itself.",
+     [
+      "Semmelhack and colleagues imaged the retinal axons passing near AF7 and found their projection to the tectum intact after ablation.",
+      "They also recorded tectal neurons and found responses to small stimuli unchanged, and the experimenter scoring post-ablation behavior was blinded to group."
+     ]
+    ],
+    [
+     "Comparison with the toad.",
+     [
+      "Removing the toad pretectum on slide 18 broadens prey-catching, while removing AF7 input on slide 40 narrows it.",
+      "Slide 39 notes that AF7-projecting retinal cells also send collaterals to the tectum, and the authors suggest that incomplete ablation or other retinal inputs explain the residual hunting."
+     ]
+    ]
+   ],
+   "refs": [
+    "Semmelhack JL, Donovan JC, Thiele TR, Kuehn E, Laurell E, Baier H (2014). A dedicated visual pathway for prey detection in larval zebrafish. eLife 3: e04878. https://doi.org/10.7554/eLife.04878",
+    "Ewert JP, Buxbaum-Conradi H, Dreisvogt F, Glagow M, Merkel-Harff C, Röttgen A, Schürg-Pfeiffer E, Schwippert WW (2001). Neural modulation of visuomotor functions underlying prey-catching behaviour in anurans: perception, attention, motor performance, learning. Comparative Biochemistry and Physiology A 128: 417–461. https://doi.org/10.1016/S1095-6433(00)00333-0"
+   ],
+   "paper_numbers": [
+    "40"
+   ]
+  },
+  {
+   "after": 43,
+   "footer_number": "43a",
+   "template_slide": 43,
+   "title": "Sufficiency and necessity test a command system",
+   "body": [
+    "A **command neuron** was defined as a cell both necessary and sufficient to initiate a behavior. Activation with no natural stimulus tests sufficiency; removal tests necessity. Activity that merely precedes a behavior, like a T5.2 burst before orienting, meets neither test.",
+    "One stimulated pretectal neuron evoked hunting in only about 20% of trials and after about 4 s, whereas stimulating the labeled population evoked it reliably within about 80 ms. Many cells acting together normally bring downstream pattern generators to threshold.",
+    "The authors therefore used the looser term command system, which drops the requirement that each cell be necessary. For the larva, hunting onset depends on prey evidence shared across many cells, yet a few surviving cells could still start hunts."
+   ],
+   "figure": {
+    "from_slide": 43,
+    "picture": "Google Shape;602;p43",
+    "caption": "Antinucci et al. (2019), Fig. 2A–B. Brain maps of prey-responsive and hunting-initiation neuron clusters; the AF7-pretectum is outlined."
+   },
+   "cite": "Antinucci et al. (2019); Ewert (1997); Bianco & Engert (2015)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    17,
+    41,
+    43
+   ],
+   "cited_papers_used": [
+    "10.7554/eLife.48114",
+    "10.1016/S0166-2236(96)01042-9",
+    "10.1016/j.cub.2015.01.042"
+   ],
+   "transcript": [
+    "The pretectal hunting cells on slide 43 are described as a command system, and the term has a precise meaning that the experiments were designed to test.",
+    [
+     "Two tests, two manipulations.",
+     [
+      "Antinucci and colleagues quote the classic definition of a command neuron as both necessary and sufficient for initiating a behavior.",
+      "Optogenetic activation in the absence of prey tests sufficiency, and ablation tests necessity.",
+      "The T5.2 bursts on slide 17 and the tectal assemblies on slide 41 lead their behaviors in time, but timing alone tests neither property."
+     ]
+    ],
+    [
+     "What single-cell stimulation revealed.",
+     [
+      "Stimulating one neuron produced hunting with low probability, around one trial in five, and with a long latency of about four seconds.",
+      "Stimulating the whole labeled population produced hunting reliably and at short latency, about 80 milliseconds, comparable to natural hunting."
+     ]
+    ],
+    [
+     "Command system rather than command neuron.",
+     [
+      "The authors adopt the looser definition used for interneurons whose activity accompanies and can induce a behavior, without requiring each cell to be necessary.",
+      "Since one cell can release hunting, a few surviving cells could in principle suffice, which bears on why ablations reduce rather than abolish hunting."
+     ]
+    ]
+   ],
+   "refs": [
+    "Antinucci P, Folgueira M, Bianco IH (2019). Pretectal neurons control hunting behaviour. eLife 8: e48114. https://doi.org/10.7554/eLife.48114",
+    "Ewert JP (1997). Neural correlates of key stimulus and releasing mechanism: a case study and two concepts. Trends in Neurosciences 20(8): 332–339. https://doi.org/10.1016/S0166-2236(96)01042-9",
+    "Bianco IH, Engert F (2015). Visuomotor transformations underlying hunting behavior in zebrafish. Current Biology 25(7): 831–846. https://doi.org/10.1016/j.cub.2015.01.042"
+   ],
+   "paper_numbers": [
+    "20",
+    "4",
+    "80"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 43,
+     "picture": "Google Shape;604;p43",
+     "caption": "Antinucci et al. (2019), Fig. 5A–C. Optogenetic stimulation of a single KalTA4u508 pretectal neuron (B) induces hunting with eye convergence (C)."
+    }
+   ]
+  }
+ ],
+ "original_edits": [
+  {
+   "slide": 3,
+   "old": "Because the object's shape, size, contrast and speed are fully controlled, the dummy test turns a natural behavior into a quantitative stimulus–response relationship. Real prey have other features too; the advantage of the paradigm is that the same measure can be compared with neuronal responses, with lesion effects and with changes produced by learning.",
+   "new": "With shape, size, contrast and speed under the experimenter's control, the dummy test turns a natural behavior into a quantitative stimulus–response relationship. One turning score can then be set beside neuronal firing, lesion effects and learning, so worm and antiworm stripes served both as behavioral tests and as stimuli for single-cell recordings."
+  },
+  {
+   "slide": 17,
+   "old": "The coupling between the neuron's burst and the behavior supports the proposal that T5.2 neurons contribute to releasing prey-catching. The data are correlational; the burst could reflect prey recognition, its consequence or a premotor signal.",
+   "new": "The coupling between the neuron's burst and the behavior supports the proposal that T5.2 neurons contribute to releasing prey-catching. T5.2 axons run toward the medulla oblongata, so a burst that leads the turn can reach premotor circuits for orienting."
+  }
+ ]
+}
