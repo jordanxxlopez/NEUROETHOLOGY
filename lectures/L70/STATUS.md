@@ -1,9 +1,7 @@
-# Lecture 70: awaiting one original PDF
+# Lecture 70 built and checked
 
-Authority: freshly fetched current default branch claude/neuroethology-fa2026-schedule-2lgmmr at 0f5acdcc4b40653fdbd6e8d8e2709fd22fe419cb. The isolated lecture70 branch starts from that default branch. No ZIP or old rules were used.
+The corrected instructor title and Date TBD are preserved character for character. The repository default-branch rules, templates, and tools supplied the build workflow. All eight original source PDFs are available; Oteiza et al. was provided by the instructor.
 
-The corrected instructor title is registered exactly with Date TBD. Lecture 69 is preserved on its separate branch and is not being renumbered. PROMPT.md records the latest teaching-first and original-figure rules.
+The native deck contains 46 slides: title, 44 teaching-content slides, and six exam-level key takeaways. All 44 content slides carry original published article figures; 29 meet the checker color threshold. Each content slide has three complete teaching paragraphs and a speaker-note teaching transcript with full DOI references. No figures were generated or replotted. No field-experience material is included. Arial and the unused steel-blue / linen white theme are applied throughout.
 
-Research searches cover visual prey-detection pathways and retinal adaptations, olfactory neural representations and behavior, lateral-line rheotaxis, nighttime lighting and reproduction, tank structure, and visitor effects in ray exhibits. Seven PDFs are available. The Oteiza et al. PDF remains unavailable; PAPERS.md lists it with its DOI and source_access.json records access attempts. No generated or substitute figures were made.
-
-No final theme has been marked used, and no PPTX is represented as complete. After upload: verify source figures and bibliography; write 44 teaching-content slides plus title and six-point Key takeaways; crop original figure panels; build using tools/build_lecture.py; fix all failures and visually inspect all slides; export a fresh Presenton PPTX and browser preview.
+The native repository checker passes with zero failures or warnings. Figure crops and all 46 rendered native slides were reviewed. A fresh Presenton document provides the downloadable hosted PPTX and browser preview; export-link metadata will be recorded after delivery validation.

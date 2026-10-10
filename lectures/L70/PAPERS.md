@@ -1,8 +1,23 @@
-# PDF needed for Lecture 70
+# Lecture 70 source PDFs
 
-1. Oteiza P, Odstrcil I, Lauder G, Portugues R, Engert F (2017). A novel mechanism for mechanosensory-based rheotaxis in larval zebrafish. Nature 547:445–448.
-   DOI: https://doi.org/10.1038/nature23014
+All eight selected original PDFs are available. Oteiza et al. (2017), DOI https://doi.org/10.1038/nature23014, was supplied as nature23014.pdf by the instructor. The other seven full texts were obtained through verified open-access sources.
 
-Required for the relationship between flow gradients, lateral-line sensing, and orientation. The publisher PDF request returned an HTML challenge rather than a PDF; Europe PMC’s PDF renderer returned HTTP 500, its manuscript-file request returned HTTP 520, PMC returned an HTML challenge, and the Harvard repository was blocked with HTTP 403. Full-text XML is accessible but cannot replace the required original PDF crops.
+Semmelhack JL; Donovan JC; Thiele TR; Kuehn E; Laurell E; Baier H (2014). A dedicated visual pathway for prey detection in larval zebrafish. eLife 3:e04878. https://doi.org/10.7554/eLife.04878
 
-Already available, do not request again: Semmelhack et al. (2014); Yoshimatsu et al. (2020); Sy et al. (2023); Suli et al. (2012); Truax et al. (2023); Krachni et al. (2026); Fobert et al. (2019). Seven source PDFs are in the ignored papers directory.
+Yoshimatsu T; Schröder C; Nevala NE; Berens P; Baden T (2020). Fovea-like Photoreceptor Specializations Underlie Single UV Cone Driven Prey-Capture Behavior in Zebrafish. Neuron 107(2):320–337.e6. https://doi.org/10.1016/j.neuron.2020.04.021
+
+Sy SKH; Chan DCW; Chan RCH; Lyu J; Li Z; Wong KKY; Choi CHJ; Mok VCT; Lai HM; Randlett O; Hu Y; Ko H (2023). An optofluidic platform for interrogating chemosensory behavior and brainwide neural representation in larval zebrafish. Nature Communications 14:227. https://doi.org/10.1038/s41467-023-35836-2
+
+Suli A; Watson GM; Rubel EW; Raible DW (2012). Rheotaxis in larval zebrafish is mediated by lateral line mechanosensory hair cells. PLoS ONE 7(2):e29727. https://doi.org/10.1371/journal.pone.0029727
+
+Oteiza P; Odstrcil I; Lauder G; Portugues R; Engert F (2017). A novel mechanism for mechanosensory-based rheotaxis in larval zebrafish. Nature 547(7664):445–448. https://doi.org/10.1038/nature23014
+
+Fobert EK; Burke da Silva K; Swearer SE (2019). Artificial light at night causes reproductive failure in clownfish. Biology Letters 15(7):20190272. https://doi.org/10.1098/rsbl.2019.0272
+
+Krachni AY; Busch R; Brakus I; Schumann A; Wilzopolski J; Ohnesorge N (2026). Introduction of artificial plants has no detrimental or beneficial effects on laboratory zebrafish husbandry but limits available swimming space. PLoS ONE 21(5):e0348591. https://doi.org/10.1371/journal.pone.0348591
+
+Truax J; Vonk J; Meri E; Troxell-Smith SM (2023). Aquarium Visitors Catch Some Rays: Rays Are More Active in the Presence of More Visitors. Animals 13(22):3526. https://doi.org/10.3390/ani13223526
+
+Metadata checked against original full texts and DOI/Europe PMC records. All eight original PDFs were available before figure cropping.
+
+Only original published panels are used. No scientific image was generated, recolored, reconstructed, or replotted. Original author diagrams reproduced within cropped article figures retain their source labels and DOI attribution. PDFs remain in the ignored papers directory.
