@@ -344,7 +344,8 @@ class Deck:
         lines = [title[: title.index(":") + 1], title[title.index(":") + 1:].strip()] if ":" in title else [title]
         title_h = self.spec.get("title_height", 2.1)
         _, tf = textbox(s, x, 2.55, w, title_h, "Lecture title")
-        pt, need = fit_size(lines, w, title_h, max_pt=30, min_pt=22, where="title slide")
+        pt, need = fit_size(lines, w, title_h, max_pt=30,
+                            min_pt=self.spec.get("title_min_pt", 22), where="title slide")
         write_paras(tf, lines, pt, t["title_text"], space_after=0)
         for p in tf.paragraphs:
             for r in p.runs:

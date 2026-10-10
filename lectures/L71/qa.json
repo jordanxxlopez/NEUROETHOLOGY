@@ -1,0 +1,44 @@
+{
+  "lecture": 71,
+  "date": "2026-10-10",
+  "authoritative_default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
+  "base_commit": "4bbfe33174a13aafd88216aceea93edd65fcdb2c",
+  "build_tool": "tools/build_lecture.py",
+  "checker": {
+    "slides": 46,
+    "content_slides": 44,
+    "image_content_slides": 44,
+    "article_figure_content_slides": 44,
+    "color_image_content_slides": 38,
+    "failures": 0,
+    "warnings": 0
+  },
+  "paragraph_count_per_content_slide": 3,
+  "content_body_word_range": [
+    117,
+    139
+  ],
+  "primary_papers": 9,
+  "source_panel_crops": 42,
+  "created_images": 0,
+  "web_images": 0,
+  "font": "Arial",
+  "theme": "iron-blue-chalk",
+  "exact_title_and_date_preserved": true,
+  "title_em_dash_exception": "The supplied scheduled title is sacred and preserved; content slide text has no em dashes.",
+  "visual_qa": {
+    "renderer": "LibreOffice PDF export + PyMuPDF",
+    "rendered_pages": 46,
+    "all_slides_reviewed": true,
+    "all_selected_crops_reviewed": true,
+    "off_slide_text_boxes": [],
+    "body_footer_risks": [],
+    "corrections": [
+      "Source panel rectangles corrected to retain panel letters, axes, scale bars, units, and legends; removed neighboring prose and panels.",
+      "Long title fitted at 21 pt with date and instructor visible.",
+      "Receptor perturbation and encoding figures enlarged with side-by-side layout."
+    ]
+  },
+  "pptx_sha256": "2a9c0b6ae223b847818298de85509f36e865c4ca7b618e610b05428f0f01abf7",
+  "pptx_bytes": 28283550
+}
