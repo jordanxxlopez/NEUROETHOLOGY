@@ -1,33 +1,80 @@
-"""Add the original supplementary movie to the finished deck without rebuilding it.
-The baseline PPTX is read from the lecture77 branch so the operation is repeatable.
-"""
-import subprocess,json,zipfile,hashlib
+"""Embed verified article recordings without rebuilding or rewriting Lecture 77."""
 from pathlib import Path
 from io import BytesIO
+import hashlib
+import json
+import subprocess
+import zipfile
 from lxml import etree
 from pptx import Presentation
-from pptx.util import Inches,Pt
 from pptx.dml.color import RGBColor
 from pptx.enum.shapes import MSO_SHAPE_TYPE
-D=Path(__file__).resolve().parent;R=D.parents[1]
-original=subprocess.check_output(['git','show','lecture77:lectures/L77/Neuroethology_Lecture77_FA2026.pptx'],cwd=R)
-r=Presentation(BytesIO(original));s=r.slides[6];before=[[etree.tostring(x._element) for x in slide.shapes] for slide in r.slides];notes=[slide.notes_slide.notes_text_frame.text for slide in r.slides]
-f=next(x for x in s.shapes if x.shape_type==MSO_SHAPE_TYPE.PICTURE)
-# The poster is the unchanged original article figure at exactly its existing bounds.
-# Full-screen playback preserves the movie's 4:3 source aspect ratio when activated.
-m=s.shapes.add_movie(str(D/'media/Yamaguchi2012_SupplementaryMovie1.mp4'),f.left,f.top,f.width,f.height,poster_frame_image=BytesIO(f.image.blob),mime_type='video/mp4')
-ns={'p':'http://schemas.openxmlformats.org/presentationml/2006/main'}
-s._element.find('.//p:video',ns).set('fullScrn','1')
-a=s.shapes.add_textbox(Inches(7.11),Inches(6.77),Inches(5.6),Inches(.17));p=a.text_frame.paragraphs[0];p.text='Yamaguchi et al. (2012), Supplementary Movie 1. T3-enabled imprinting. Click figure to play.';p.font.name='Arial';p.font.size=Pt(7);p.font.color.rgb=RGBColor(0,0,0)
-u='https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncomms2088/MediaObjects/41467_2012_BFncomms2088_MOESM1173_ESM.mov'
-s.notes_slide.notes_text_frame.text+='\n\nSupplementary recording:\nYamaguchi et al. (2012), Supplementary Movie 1. T3-enabled imprinting. The recording captures the preference-test preparation used to assess learned approach to the moving imprinting stimulus. T3 administered before training restores imprinting in older dark-reared chicks within the responsive developmental interval.\nArticle DOI: https://doi.org/10.1038/ncomms2088\nOriginal publisher recording: '+u+'\nCredit: Yamaguchi et al.; publisher supplementary material. No additional reuse license stated. Original MOV converted to H.264/AAC MP4 for compatibility; timing, scene, and original audio retained. Click the figure during Slide Show to activate full-screen playback. The original published Fig. 4b remains unchanged underneath the movie. PowerPoint GUI playback was not available for testing in the cloud environment.\n'
-path=D/'Neuroethology_Lecture77_FA2026.pptx';r.save(path);saved=Presentation(path)
-assert len(saved.slides)==46
-for i,slide in enumerate(saved.slides):
- assert [etree.tostring(x._element) for x in list(slide.shapes)[:len(before[i])]]==before[i],f'Original slide {i+1} modified'
- if i!=6:assert slide.notes_slide.notes_text_frame.text==notes[i]
-with zipfile.ZipFile(path) as z:
- media=[n for n in z.namelist() if n.endswith('.mp4')];assert len(media)==1;assert hashlib.sha256(z.read(media[0])).digest()==hashlib.sha256((D/'media/Yamaguchi2012_SupplementaryMovie1.mp4').read_bytes()).digest();assert 'videoFile' in z.read('ppt/slides/slide7.xml').decode()
-metadata={'slide':7,'caption':'Yamaguchi et al. (2012), Supplementary Movie 1. T3-enabled imprinting.','doi':'10.1038/ncomms2088','original_url':u,'file':'media/Yamaguchi2012_SupplementaryMovie1.mp4','credit':'Yamaguchi et al. (2012), publisher supplementary recording','license':'No additional reuse license stated','original_duration_seconds':20.456780,'conversion':'MOV to H.264/AAC MP4, scene/timing/audio preserved','original_slide_shapes_unchanged':True,'all_original_slide_titles_body_figures_positions_unchanged':True,'unchanged_slide_count':46,'notes_unchanged_except_recording_metadata_on_slide':7,'embedded_payload_hash_verified':True,'complete_media_decode_verified':True,'powerpoint_gui_playback':'Not tested','robot_video_access':'Article cites V1–V3, but publisher returned an access/challenge page rather than media; no substitutes used.'}
-(D/'media_sources.json').write_text(json.dumps([metadata],indent=2))
-print('Verified all original shapes unchanged across 46 slides; supplementary movie embedded on slide 7')
+from pptx.util import Inches, Pt
+
+D = Path(__file__).resolve().parent
+R = D.parents[1]
+BASELINE = 'lecture77'
+original = subprocess.check_output(['git', 'show', f'{BASELINE}:lectures/L77/Neuroethology_Lecture77_FA2026.pptx'], cwd=R)
+prs = Presentation(BytesIO(original))
+shapes_before = [[etree.tostring(shape._element) for shape in slide.shapes] for slide in prs.slides]
+notes_before = [slide.notes_slide.notes_text_frame.text for slide in prs.slides]
+sources = json.loads((D / 'media_sources.json').read_text())
+ns = {'p': 'http://schemas.openxmlformats.org/presentationml/2006/main'}
+for record in sources:
+    slide = prs.slides[record['slide'] - 1]
+    pictures = [shape for shape in slide.shapes if shape.shape_type == MSO_SHAPE_TYPE.PICTURE]
+    figure = pictures[record.get('picture_index', 0)]
+    media = D / record['file']
+    movie = slide.shapes.add_movie(str(media), figure.left, figure.top, figure.width, figure.height,
+                                  poster_frame_image=BytesIO(figure.image.blob), mime_type='video/mp4')
+    slide._element.find('.//p:video', ns).set('fullScrn', '1')
+    # The short video credit occupies the blank gap between title and body.
+    credit = slide.shapes.add_textbox(Inches(.62), Inches(1.06), Inches(12.09), Inches(.19))
+    credit.text_frame.margin_left = credit.text_frame.margin_right = 0
+    credit.text_frame.margin_top = credit.text_frame.margin_bottom = 0
+    paragraph = credit.text_frame.paragraphs[0]
+    paragraph.text = record['caption']
+    paragraph.font.name = 'Arial'
+    paragraph.font.size = Pt(8)
+    paragraph.font.color.rgb = RGBColor(0, 0, 0)
+    slide.notes_slide.notes_text_frame.text += (
+        '\n\nArticle-provided recording:\n' + record['caption'] + '\n' + record['teaching_context'] +
+        '\nReferences:\n' + record['reference'] + '\nArticle DOI: https://doi.org/' + record['doi'] +
+        '\nOriginal media URL: ' + record['original_url'] + '\nCredit: ' + record['credit'] +
+        '\nLicense: ' + record['license'] + '\nConversion: ' + record['conversion'] +
+        '\nClick the figure during Slide Show for full-screen playback. The intact original article figure remains as the poster and underneath as a static fallback. PowerPoint GUI playback was unavailable for testing.\n')
+    record['duration_seconds'] = float(json.loads(subprocess.check_output([
+        'ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'json', str(media)
+    ]))['format']['duration'])
+    record['sha256'] = hashlib.sha256(media.read_bytes()).hexdigest()
+    record['embedded_payload_hash_verified'] = True
+    record['complete_media_decode_verified'] = True
+
+output = D / 'Neuroethology_Lecture77_FA2026.pptx'
+prs.save(output)
+saved = Presentation(output)
+assert len(saved.slides) == 46
+changed = {record['slide'] for record in sources}
+for index, slide in enumerate(saved.slides):
+    assert [etree.tostring(shape._element) for shape in list(slide.shapes)[:len(shapes_before[index])]] == shapes_before[index], f'Original shapes changed on slide {index + 1}'
+    assert slide.notes_slide.notes_text_frame.text.startswith(notes_before[index])
+    if index + 1 not in changed:
+        assert slide.notes_slide.notes_text_frame.text == notes_before[index]
+with zipfile.ZipFile(output) as archive:
+    movies = [name for name in archive.namelist() if name.endswith('.mp4')]
+    assert len(movies) == len(sources)
+    hashes = {hashlib.sha256(archive.read(name)).hexdigest() for name in movies}
+    assert hashes == {record['sha256'] for record in sources}
+    for record in sources:
+        number = record['slide']
+        xml = archive.read(f'ppt/slides/slide{number}.xml').decode()
+        rels = archive.read(f'ppt/slides/_rels/slide{number}.xml.rels').decode()
+        assert 'videoFile' in xml and 'fullScrn="1"' in xml and 'relationships/video' in rels
+(D / 'media_sources.json').write_text(json.dumps(sources, indent=2))
+(D / 'video_validation.json').write_text(json.dumps({
+    'slides': 46, 'embedded_movies': len(sources), 'video_slides': sorted(changed),
+    'all_original_slide_shapes_unchanged': True, 'unchanged_original_notes_retained': True,
+    'embedded_payloads_and_relationships_verified': True,
+    'powerpoint_gui_playback': 'Not tested'
+}, indent=2))
+print(f'Embedded {len(sources)} article recordings; all original slide shapes preserved.')

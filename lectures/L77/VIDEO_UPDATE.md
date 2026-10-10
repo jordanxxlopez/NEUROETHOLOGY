@@ -1,7 +1,5 @@
-The finished Lecture 77 is preserved. One original article supplementary recording is embedded on slide 7, activated by clicking the existing figure in Slide Show. All original slide shapes and all other slides' notes are unchanged. The other 45 slides render identically to the original deck.
+Lecture 77 now contains five original article-provided recordings on slides 3, 7, 25, 27 and 32. Click the figure on those slides during Slide Show for full-screen playback. Original slide text, shapes, figures and layout remain unchanged; video credits occupy the previously blank gap below the title. Notes retain the original content and append video citations and teaching context.
 
-Source and conversion details are in media_sources.json. PowerPoint GUI playback was unavailable; the embedded payload, relationships and complete video decoding were verified. The latest repository checker passed with 0 failures and 0 warnings, using the original Lecture 77 schedule entry in an isolated validation copy because the current default schedule does not contain Lecture 77.
+VIDEO_AUDIT.md reports the search for every cited paper, including the unavailable Harlow film and Jolly robot clips. media_sources.json documents the included sources. Run embed_video.py to reproduce this update from the finished lecture77 branch, without rebuilding the slides.
 
-The robot article's supplementary clips were unavailable from the publisher. No unrelated web videos were substituted. Videos from other primary studies are permitted when useful and supplied by those articles.
-
-Run embed_video.py to reproduce the update from the original lecture77 branch. This preserves the existing deck instead of rebuilding its slides.
+Embedded media and relationships and complete media decode are verified. PowerPoint GUI playback is untested. The repository checker is run in an isolated validation copy with the original Lecture 77 schedule entry because the current default schedule does not contain it.
