@@ -1,48 +1,46 @@
-# Lecture 57 planned teaching spine
+# Lecture 57 teaching spine
 
-Pending validation of the four required PDFs. This is a source plan, not a completed slide deck.
-
-1. Pitch is a property of periodic sound (marmoset)
-2. Missing fundamentals separate pitch from frequency (marmoset)
-3. Marmoset auditory cortex contains pitch-selective cells (marmoset)
-4. Tone and harmonic-complex responses are compared (marmoset)
-5. Pitch-selective responses occupy a cortical region (marmoset)
-6. Frequency tuning and pitch tuning answer different questions (marmoset)
-7. Macaques distinguish regular from irregular timing (monkey)
-8. Omissions test expectations about auditory events (monkey)
-9. Isochrony and beat perception require different controls (monkey)
-10. Rhythmic groups and inferred beats are distinct (monkey)
-11. Budgerigars learn an audiovisual tapping response (budgie)
-12. Response timing is compared with metronome events (budgie)
-13. Tempo transfer tests flexibility of synchronization (budgie)
-14. Anticipation differs from a reaction to each cue (budgie)
-15. Cockatoo movements follow a musical pulse (patel)
-16. Tempo changes test flexible musical synchronization (patel)
-17. Movement phase is compared with beat timing (patel)
-18. Synchrony occurs in bouts during musical playback (patel)
-19. Vocal mimics display spontaneous music-linked movement (schachner)
-20. Comparative observations test a vocal-learning hypothesis (schachner)
-21. A sea lion adjusts trained movement to a pulse (sea2016)
-22. Phase shifts test correction of timing errors (sea2016)
-23. Tempo shifts test changes in movement period (sea2016)
-24. Coupled oscillation describes the published timing model (sea2016)
-25. Experienced sea-lion synchronization remains flexible (sea2025)
-26. Multiple tempi test timing precision (sea2025)
-27. Human participants provide a shared task comparison (sea2025)
-28. Practice history contributes to sensorimotor performance (sea2025)
-29. Rats make spontaneous music-linked head movements (rat)
-30. Accelerometers capture movement around musical beats (rat)
-31. Tempo manipulations separate pulse rate from the recording (rat)
-32. Rat auditory cortex responds to musical transients (rat)
-33. Neural timing changes with stimulation rate (rat)
-34. The article models the role of auditory adaptation (rat)
-35. Movement and neural measures address different outcomes (rat)
-36. Cat-relevant music uses species-specific acoustic features (cat)
-37. Approach and contact quantify responses to music (cat)
-38. Species-appropriate and human music are compared (cat)
-39. Music is tested during a mock veterinary visit (dog)
-40. Behavior and physiology capture different responses (dog)
-41. Auditory enrichment depends on the testing context (dog)
-42. Cockatiels select tunes through touchscreen choices (cockatiel)
-43. Individual preferences differ across musical options (cockatiel)
-44. Voluntary access links music response with animal choice (cockatiel)
+1. Pitch follows periodicity rather than one spectral component
+2. A missing fundamental still drives pitch-selective cells
+3. Pitch-selective activity clusters in auditory cortex
+4. Tone and complex sounds share a cortical pitch preference
+5. Temporal regularity changes pitch-cell discharge
+6. Masking separates pitch responses from distortion tones
+7. Regular and jittered rhythms isolate temporal predictability
+8. Unexpected intensity decreases evoke mismatch responses
+9. Temporal regularity strengthens the mismatch response
+10. Isochrony sensitivity and beat-position sensitivity differ
+11. Budgerigars learn pecking timed to a metronome
+12. Peck phases distinguish anticipation from reaction
+13. Peck timing changes across fast and slow cue rates
+14. Sound alone can support trained rhythmic pecking
+15. A cockatoo synchronizes head bobs to musical playback
+16. Tempo changes test flexible musical synchronization
+17. Beat phase describes when each head bob occurs
+18. Synchronization occurs in bouts during sustained dancing
+19. Different parrot movements can align with music
+20. Vocal mimicry motivated a comparative rhythm hypothesis
+21. A trained sea lion follows novel metronome rates
+22. A phase shift requires correction of movement alignment
+23. A tempo shift changes the required movement period
+24. Coupled timing models describe sea-lion error correction
+25. An experienced sea lion maintains precise pulse matching
+26. Novel rates test timing beyond the practiced pulse
+27. Matched movements compare sea-lion and human timing
+28. Timing precision reflects the task and the animal’s history
+29. Rats make spontaneous movements linked to musical beats
+30. Movement derivatives identify rapid changes near a beat
+31. Playback tempo alters rat movement alignment
+32. Rat and human movement varies across the same music
+33. Auditory population responses are tuned to musical timing
+34. Identical clicks isolate the effect of preceding timing
+35. Auditory adaptation predicts a favored rhythmic rate
+36. Cat-relevant compositions use different pitch and pulse
+37. Cats approach species-relevant playback more readily
+38. Age and measured behavior shape the cat music response
+39. A veterinary setting tests music under handling stress
+40. Behavior and endocrine activity can change differently
+41. Thermal responses track the veterinary visit over time
+42. Cockatiel music choices require location and shape controls
+43. Individual cockatiels follow different preferred tunes
+44. Consonance choices differ from preferences between tunes
