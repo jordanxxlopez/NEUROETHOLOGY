@@ -1,0 +1,1246 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture7_FA2026_V2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture7_FA2026_V2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "STG",
+  "AB",
+  "PD",
+  "LP",
+  "PY",
+  "VD",
+  "LG",
+  "Int1",
+  "MCN1",
+  "IC",
+  "DG",
+  "I_MI",
+  "IMI",
+  "pyloric",
+  "gastric",
+  "mill",
+  "pacemaker",
+  "burst",
+  "bursts",
+  "bursting",
+  "inhibition",
+  "inhibitory",
+  "IPSP",
+  "ACh",
+  "acetylcholine",
+  "proctolin",
+  "CCAP",
+  "CabTRP",
+  "TTX",
+  "picrotoxin",
+  "oxotremorine",
+  "dynamic",
+  "clamp",
+  "conductance",
+  "reversal",
+  "rebound",
+  "phase",
+  "period",
+  "temperature",
+  "warming",
+  "leak",
+  "Q10",
+  "neuron",
+  "neurons",
+  "current",
+  "currents",
+  "synapse",
+  "synaptic",
+  "modulator",
+  "modulators",
+  "peptide",
+  "crab",
+  "lobster",
+  "follower",
+  "followers",
+  "kernel",
+  "rhythm",
+  "rhythms",
+  "cycle",
+  "potassium",
+  "chloride",
+  "depolarization",
+  "hyperpolarization",
+  "threshold",
+  "A-type",
+  "coupling",
+  "electrical",
+  "glutamatergic",
+  "cholinergic",
+  "Marder",
+  "Eisen",
+  "Miller",
+  "Selverston",
+  "Hooper",
+  "Tang",
+  "Martinez",
+  "Garcia",
+  "Rosenbaum",
+  "Schneider",
+  "Powell",
+  "Städele",
+  "Golowasch",
+  "decentralization"
+ ],
+ "new_slides": [
+  {
+   "after": 5,
+   "footer_number": "05a",
+   "template_slide": 4,
+   "title": "Rebound from shared inhibition sets the triphasic order",
+   "body": [
+    "The **AB** and **PD** pacemaker group bursts at the start of every cycle and, while it fires, inhibits both LP and PY. Each follower therefore spends the pacemaker burst hyperpolarized, and its own burst can begin only after that inhibition fades.",
+    "**Postinhibitory rebound** decides which follower fires second. PY carries a much larger A-type potassium current than LP, which slows its recovery, so LP reaches threshold first. Once PY begins firing, its glutamatergic inhibition ends the LP burst, and the PD, LP, PY sequence follows from who inhibits whom and how fast each cell recovers.",
+    "The order serves the foregut. Pyloric muscles move food particles through a series of sieving structures, and this transport works only if the muscle groups contract in a fixed sequence at any rhythm speed. LP deprived of its rhythmic inhibition fires irregularly and loses its place in that sequence."
+   ],
+   "figure": {
+    "from_slide": 4,
+    "picture": "Picture 3",
+    "caption": "Hooper & Marder (1987), Fig. 1. Lobster STG anatomy, identified recordings and pyloric connections"
+   },
+   "cite": "Hooper & Marder (1987); Tang et al. (2010); Martinez et al. (2019)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence",
+    "foundation"
+   ],
+   "integrates": [
+    4,
+    5,
+    6,
+    13,
+    23,
+    33,
+    38
+   ],
+   "cited_papers_used": [
+    "10.1523/jneurosci.07-07-02097.1987",
+    "10.1371/journal.pbio.1000469",
+    "10.7554/elife.46911",
+    "10.3389/fncel.2023.1280575"
+   ],
+   "transcript": [
+    "Slide 5 shows the three groups bursting in order, and slide 4 names the cells. The order itself comes from inhibition and recovery, which the circuit connections on these slides make possible.",
+    [
+     "The pacemaker burst silences both followers at once.",
+     [
+      "Tang and colleagues describe LP and PY as firing on rebound from inhibition by the AB and PD neurons, so the pacemaker burst is a shared starting gun for both followers.",
+      "That makes the end of pacemaker inhibition the reference point from which each follower's delay is measured."
+     ]
+    ],
+    [
+     "Different rebound speeds create the sequence.",
+     [
+      "Martinez and colleagues report that PY and VD carry much higher levels of the A-type current than LP, and that this current has a larger effect on their post-inhibitory spiking.",
+      "A larger outward A-current holds PY below threshold longer after inhibition ends, which is why LP fires in the middle of the cycle and PY last.",
+      "Tang and colleagues add that PY activity terminates the LP burst, so the follower that starts last also ends the one before it."
+     ]
+    ],
+    [
+     "The sequence has a mechanical purpose.",
+     [
+      "More-Potdar and Golowasch describe the pyloric muscles moving food through structures that trap particles by size, a peristaltic process that needs the correct contraction order.",
+      "Slide 23 shows LP losing organized bursting when its glutamatergic inhibition is blocked, which is the cellular version of a muscle group falling out of sequence."
+     ]
+    ]
+   ],
+   "refs": [
+    "Hooper SL, Marder E. (1987). Modulation of the lobster pyloric rhythm by the peptide proctolin. Journal of Neuroscience 7: 2097-2112. https://doi.org/10.1523/jneurosci.07-07-02097.1987",
+    "Tang LS, Goeritz ML, Caplan JS, Taylor AL, Fisek M, Marder E. (2010). Precise temperature compensation of phase in a rhythmic motor pattern. PLoS Biology 8: e1000469. https://doi.org/10.1371/journal.pbio.1000469",
+    "Martinez D, Anwar H, Bose A, Bucher DM, Nadim F. (2019). Short-term synaptic dynamics control the activity phase of neurons in an oscillatory network. eLife 8: e46911. https://doi.org/10.7554/elife.46911",
+    "More-Potdar S, Golowasch J. (2023). Oscillatory network spontaneously recovers both activity and robustness after prolonged removal of neuromodulators. Frontiers in Cellular Neuroscience 17: 1280575. https://doi.org/10.3389/fncel.2023.1280575"
+   ]
+  },
+  {
+   "after": 8,
+   "footer_number": "08a",
+   "template_slide": 7,
+   "title": "AB and conditional PDs form one pacemaker kernel",
+   "body": [
+    "An **endogenous** burster carries a complete oscillation mechanism in its own membrane, so its rhythm survives the loss of every synaptic input. A **conditional** burster holds the necessary currents in latent form; modulatory input must switch them on, and without that input the same cell fires tonically.",
+    "Electrical coupling merges both types into one unit. AB's slow wave spreads into the two PD cells, and PD's recruited oscillations feed back into AB, so the kernel bursts as a group although only AB can oscillate alone. Inside the intact circuit all three fire in synchrony, which is why only complete isolation could expose the difference.",
+    "The design provides a reserve. After descending input has been absent for many hours, PD neurons can express pacemaker properties of their own, adding effective oscillators to a network that normally relies on a single one."
+   ],
+   "figure": {
+    "from_slide": 7,
+    "picture": "Picture 3",
+    "caption": "Miller & Selverston (1982), Fig. 2(A–B). AB retains slow bursting after other inputs are removed"
+   },
+   "cite": "Miller & Selverston (1982); Eisen & Marder (1982); More-Potdar & Golowasch (2023)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "method_logic",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    6,
+    7,
+    8,
+    9,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1152/jn.1982.48.6.1378",
+    "10.1152/jn.1982.48.6.1392",
+    "10.3389/fncel.2023.1280575"
+   ],
+   "transcript": [
+    "Slides 7 and 8 test AB and PD separately; the contrast between them, and the coupling on slide 6, explain how a group with one true oscillator behaves as a single pacemaker.",
+    [
+     "Two kinds of bursting neuron.",
+     [
+      "Miller and Selverston found that only AB continued to generate bursting pacemaker potentials when isolated, while the PD cells, previously thought to be endogenous bursters, fired tonically.",
+      "Stimulating the stomatogastric nerve recruited the same kind of oscillation in PD, VD and LP, so the capacity was present but required an input to express it."
+     ]
+    ],
+    [
+     "Coupling hides the difference in the intact circuit.",
+     [
+      "Eisen and Marder describe direct electrical coupling among AB, PD and VD, which allows slow voltage changes to pass between the cells.",
+      "Since coupled cells fire together, recording them in the intact circuit cannot reveal which one generates the oscillation; photoinactivation of all partners was the only way to ask each cell alone."
+     ]
+    ],
+    [
+     "A latent pacemaker becomes useful after injury.",
+     [
+      "More-Potdar and Golowasch point out that PD neurons may express pacemaker properties when the network is decentralized.",
+      "They suggest that more effective pacemaker neurons could contribute to the recovery described on slide 45, where the rhythm returns without its modulatory inputs."
+     ]
+    ]
+   ],
+   "refs": [
+    "Miller JP, Selverston AI. (1982). Mechanisms underlying pattern generation in lobster stomatogastric ganglion as determined by selective inactivation of identified neurons. II. Oscillatory properties of pyloric neurons. Journal of Neurophysiology 48: 1378-1391. https://doi.org/10.1152/jn.1982.48.6.1378",
+    "Eisen JS, Marder E. (1982). Mechanisms underlying pattern generation in lobster stomatogastric ganglion as determined by selective inactivation of identified neurons. III. Synaptic connections of electrically coupled pyloric neurons. Journal of Neurophysiology 48: 1392-1415. https://doi.org/10.1152/jn.1982.48.6.1392",
+    "More-Potdar S, Golowasch J. (2023). Oscillatory network spontaneously recovers both activity and robustness after prolonged removal of neuromodulators. Frontiers in Cellular Neuroscience 17: 1280575. https://doi.org/10.3389/fncel.2023.1280575"
+   ]
+  },
+  {
+   "after": 11,
+   "footer_number": "11a",
+   "template_slide": 11,
+   "title": "Deleting a coupled partner reveals chemical output",
+   "body": [
+    "Current injected into AB leaks through gap junctions into PD, and current injected into PD leaks back. Stimulating either cell drives both, so inhibition recorded in LP mixes transmitter from the two partners.",
+    "**Photoinactivation** breaks the pair: a neuron filled with Lucifer yellow dies when illuminated, while unfilled neighbors survive. With PD gone, every remaining inhibitory response in LP must come from AB, and the reverse deletion isolates PD's share of the compound response.",
+    "The same deletions mapped connections beyond LP. Inhibition recorded in the VD motor neuron came solely from AB, and the coupling potentials among AB, PD and VD came from direct junctions linking all three. Coupling between nonidentical neurons thus allows one synchronous burst deliver several different inhibitory signals."
+   ],
+   "figure": {
+    "from_slide": 11,
+    "picture": "Picture 3",
+    "caption": "Eisen & Marder (1982), Fig. 4. Selective deletion separates AB and PD synaptic outputs"
+   },
+   "cite": "Eisen & Marder (1982); Miller & Selverston (1982)",
+   "moves": [
+    "method_logic",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    6,
+    7,
+    11,
+    12,
+    13,
+    14
+   ],
+   "cited_papers_used": [
+    "10.1152/jn.1982.48.6.1392",
+    "10.1152/jn.1982.48.6.1378"
+   ],
+   "transcript": [
+    "Slide 11 reports what photoinactivation revealed; the reason deletion was needed lies in the electrical coupling described on slide 6.",
+    [
+     "Coupling defeats one-cell stimulation.",
+     [
+      "A gap junction passes current in both directions, so depolarizing AB with an electrode also depolarizes PD, and the two then release transmitter together.",
+      "Without deletion, a response in LP could not be assigned to either cell."
+     ]
+    ],
+    [
+     "Dye-sensitized photoinactivation removes one partner.",
+     [
+      "Eisen and Marder used the Lucifer yellow method to kill either the single AB neuron or both PD neurons while recording the survivors.",
+      "Slides 12 and 13 then measured each isolated component, which differed in time course, reversal potential, ion selectivity and pharmacology."
+     ]
+    ],
+    [
+     "Deletion also clarified the wiring of VD.",
+     [
+      "Selective inactivation showed that the IPSP in VD is due solely to transmitter released by AB.",
+      "Eisen and Marder suggest that coupling between nonidentical neurons offers a way to change synaptic characteristics within an otherwise fixed circuit."
+     ]
+    ]
+   ],
+   "refs": [
+    "Eisen JS, Marder E. (1982). Mechanisms underlying pattern generation in lobster stomatogastric ganglion as determined by selective inactivation of identified neurons. III. Synaptic connections of electrically coupled pyloric neurons. Journal of Neurophysiology 48: 1392-1415. https://doi.org/10.1152/jn.1982.48.6.1392",
+    "Miller JP, Selverston AI. (1982). Mechanisms underlying pattern generation in lobster stomatogastric ganglion as determined by selective inactivation of identified neurons. II. Oscillatory properties of pyloric neurons. Journal of Neurophysiology 48: 1378-1391. https://doi.org/10.1152/jn.1982.48.6.1378"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 11,
+     "picture": "Picture 5",
+     "caption": "Hooper & Marder (1987), Fig. 1(right). Lobster pyloric circuit"
+    }
+   ]
+  },
+  {
+   "after": 14,
+   "footer_number": "14a",
+   "template_slide": 13,
+   "title": "Driving force decides how strongly each synapse inhibits LP",
+   "body": [
+    "Current flows through an open synaptic channel only when the membrane sits away from that synapse's reversal potential. The **driving force**, the gap between membrane voltage and reversal, sets both the direction and the size of the current a given conductance passes.",
+    "Near −58 mV, where isolated LP began firing in proctolin, the PD synapse, reversing near −86 mV, has a driving force of almost 30 mV and pulls LP strongly negative. The AB synapse, reversing near −64 mV, has only a few millivolts of driving force at the same voltage, so the two inputs differ in voltage impact even at similar conductance.",
+    "Deep potassium-driven hyperpolarization from PD prepares LP's rebound. It activates the depolarizing h current and removes inactivation from the A-type potassium current, the two currents whose competition sets when LP fires again after the pacemaker burst."
+   ],
+   "figure": {
+    "from_slide": 13,
+    "picture": "Picture 3",
+    "caption": "Eisen & Marder (1982), Fig. 6. External potassium shifts the isolated PD-to-LP reversal"
+   },
+   "cite": "Eisen & Marder (1982); Hooper & Marder (1987); Tang et al. (2010)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    12,
+    13,
+    28,
+    38,
+    39
+   ],
+   "cited_papers_used": [
+    "10.1152/jn.1982.48.6.1392",
+    "10.1523/jneurosci.07-07-02097.1987",
+    "10.1371/journal.pbio.1000469"
+   ],
+   "transcript": [
+    "Slides 12 and 13 report two reversal potentials; comparing each with LP's working voltage explains why the two inputs act so differently.",
+    [
+     "Reversal potential and driving force.",
+     [
+      "At the reversal potential the inward and outward flows of the permeant ions balance, so an open conductance passes no net current.",
+      "Moving the membrane further from reversal enlarges the current through the same open channels."
+     ]
+    ],
+    [
+     "Applying it to LP.",
+     [
+      "Slide 28 shows isolated LP responding to proctolin at about −58 mV, which places it near firing threshold.",
+      "From there the PD input has close to thirty millivolts of driving force, while the AB input has only a few, which is why the two components on slide 11 look so different in amplitude."
+     ]
+    ],
+    [
+     "Why the hyperpolarization matters.",
+     [
+      "Tang and colleagues describe how a larger inhibitory current increases activation of the h current and favors removal of inactivation from the A-type current.",
+      "Slides 38 and 39 describe those two currents, so the strength of PD's inhibition feeds directly into the timing of LP's following burst."
+     ]
+    ]
+   ],
+   "refs": [
+    "Eisen JS, Marder E. (1982). Mechanisms underlying pattern generation in lobster stomatogastric ganglion as determined by selective inactivation of identified neurons. III. Synaptic connections of electrically coupled pyloric neurons. Journal of Neurophysiology 48: 1392-1415. https://doi.org/10.1152/jn.1982.48.6.1392",
+    "Hooper SL, Marder E. (1987). Modulation of the lobster pyloric rhythm by the peptide proctolin. Journal of Neuroscience 7: 2097-2112. https://doi.org/10.1523/jneurosci.07-07-02097.1987",
+    "Tang LS, Goeritz ML, Caplan JS, Taylor AL, Fisek M, Marder E. (2010). Precise temperature compensation of phase in a rhythmic motor pattern. PLoS Biology 8: e1000469. https://doi.org/10.1371/journal.pbio.1000469"
+   ],
+   "paper_numbers": [
+    "30"
+   ]
+  },
+  {
+   "after": 17,
+   "footer_number": "17a",
+   "template_slide": 16,
+   "title": "PD's acetylcholine excites muscle but inhibits LP",
+   "body": [
+    "A transmitter's effect depends on the receptor it binds and the ions that receptor passes. At the dorsal dilator, ACh opens channels whose reversal near −18 mV lies well above the muscle's resting voltage, so positive ions flow in, the fiber depolarizes and contraction follows.",
+    "PD releases the same ACh onto LP, yet there it inhibits. Its synapse onto LP reverses near −86 mV and shifts when external potassium rises, the signature of a potassium-selective pathway, so opening it allows potassium to leave LP and moves the membrane away from threshold.",
+    "Drug sensitivity therefore follows receptors rather than transmitters. Picrotoxin blocks the glutamatergic inhibition that AB and PY deliver to LP but leaves PD's cholinergic inhibition in place, so one drug removes two of LP's three inhibitory inputs while sparing the third."
+   ],
+   "figure": {
+    "from_slide": 16,
+    "picture": "Picture 3",
+    "caption": "Marder (1976), Fig. 7. Nerve-evoked and ACh responses reverse at similar voltages"
+   },
+   "cite": "Marder (1976); Eisen & Marder (1982); Martinez et al. (2019)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "integration",
+    "foundation"
+   ],
+   "integrates": [
+    13,
+    15,
+    16,
+    17,
+    23
+   ],
+   "cited_papers_used": [
+    "10.1113/jphysiol.1976.sp011356",
+    "10.1152/jn.1982.48.6.1392",
+    "10.1371/journal.pbio.1000469",
+    "10.7554/elife.46911"
+   ],
+   "transcript": [
+    "Slides 15 to 17 identify ACh as PD's transmitter at muscle, and slide 13 describes PD's inhibition of LP; putting them together separates transmitter identity from postsynaptic action.",
+    [
+     "Excitation at the muscle.",
+     [
+      "Marder found that iontophoretic ACh and the nerve-evoked junctional potentials in the dorsal dilator share the same apparent reversal potential.",
+      "A reversal well above rest means the receptor channel admits cations, which depolarizes the fiber."
+     ]
+    ],
+    [
+     "Inhibition in the ganglion.",
+     [
+      "Tang and colleagues refer to the PD component of LP's synaptic current as cholinergic, with a reversal potential below that of the glutamatergic inputs from AB and PY.",
+      "The potassium sensitivity on slide 13 identifies the ion carrying that inhibitory current."
+     ]
+    ],
+    [
+     "Consequences for pharmacology.",
+     [
+      "Martinez and colleagues blocked AB and PY inputs to LP with picrotoxin, and slide 23 notes that the PD synapse remained.",
+      "Choosing a blocker by receptor class, not by the name of the transmitter, is what allows one input to be kept while the others are removed."
+     ]
+    ]
+   ],
+   "refs": [
+    "Marder E. (1976). Cholinergic motor neurones in the stomatogastric system of the lobster. The Journal of Physiology 257: 63-86. https://doi.org/10.1113/jphysiol.1976.sp011356",
+    "Eisen JS, Marder E. (1982). Mechanisms underlying pattern generation in lobster stomatogastric ganglion as determined by selective inactivation of identified neurons. III. Synaptic connections of electrically coupled pyloric neurons. Journal of Neurophysiology 48: 1392-1415. https://doi.org/10.1152/jn.1982.48.6.1392",
+    "Tang LS, Goeritz ML, Caplan JS, Taylor AL, Fisek M, Marder E. (2010). Precise temperature compensation of phase in a rhythmic motor pattern. PLoS Biology 8: e1000469. https://doi.org/10.1371/journal.pbio.1000469",
+    "Martinez D, Anwar H, Bose A, Bucher DM, Nadim F. (2019). Short-term synaptic dynamics control the activity phase of neurons in an oscillatory network. eLife 8: e46911. https://doi.org/10.7554/elife.46911"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 16,
+     "picture": "Picture 5",
+     "caption": "Garcia et al. (2015), Fig. 3(A). Crab foregut anatomy"
+    }
+   ]
+  },
+  {
+   "after": 19,
+   "footer_number": "19a",
+   "template_slide": 18,
+   "title": "Graded release carries slow-wave timing without spikes",
+   "body": [
+    "Transmitter release is triggered by calcium entering the presynaptic terminal through voltage-gated calcium channels. In **graded transmission**, a slow depolarization opens some of these channels without any spike, so release rises and falls continuously with presynaptic voltage.",
+    "TTX blocks voltage-gated sodium channels but spares calcium channels. It therefore removes spikes and spike-triggered release while leaving the slow-wave route intact, and a rhythm that survives TTX must be generated and coordinated by slow membrane oscillations and the graded synapses they drive.",
+    "Slow-wave coupling also carries timing in the intact rhythm. The conductance a follower receives tracks the whole voltage trajectory of its presynaptic partner, so the timing in each slow wave reaches the target even in cycles when the partner fires few spikes."
+   ],
+   "figure": {
+    "from_slide": 18,
+    "picture": "Picture 3",
+    "caption": "Rosenbaum & Marder (2018), Fig. 6(B). Presynaptic depolarization evokes graded inhibition without spikes"
+   },
+   "cite": "Rosenbaum & Marder (2018); Martinez et al. (2019)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "method_logic",
+    "consequence"
+   ],
+   "integrates": [
+    18,
+    19,
+    20,
+    21,
+    26
+   ],
+   "cited_papers_used": [
+    "10.1523/jneurosci.2632-17.2018",
+    "10.7554/elife.46911"
+   ],
+   "transcript": [
+    "Slides 18 and 19 show inhibition and rhythm surviving TTX; the reason lies in how release depends on presynaptic voltage.",
+    [
+     "Calcium links voltage to release.",
+     [
+      "Depolarization opens voltage-gated calcium channels in the terminal, and the calcium that enters drives vesicle fusion.",
+      "A spike opens many of these channels briefly, while a slow wave opens fewer for longer, so both routes lead to release."
+     ]
+    ],
+    [
+     "What TTX removes and what it leaves.",
+     [
+      "Rosenbaum and Marder describe STG neurons releasing transmitter both as a graded function of presynaptic voltage that persists in TTX and in response to action potentials.",
+      "Blocking sodium channels isolates the first route, which is why the slow alternation on slide 19 tests graded transmission directly."
+     ]
+    ],
+    [
+     "Timing travels in the waveform.",
+     [
+      "Martinez and colleagues point out that postsynaptic responses depend on the trajectory of synaptic conductance, which presynaptic voltage trajectories shape.",
+      "Slide 26 shows how sensitive LP is to the shape of that conductance, so the slow wave is a timing signal in its own right."
+     ]
+    ]
+   ],
+   "refs": [
+    "Rosenbaum P, Marder E. (2018). Graded Transmission without Action Potentials Sustains Rhythmic Activity in Some But Not All Modulators That Activate the Same Current. Journal of Neuroscience 38: 8976-8988. https://doi.org/10.1523/jneurosci.2632-17.2018",
+    "Martinez D, Anwar H, Bose A, Bucher DM, Nadim F. (2019). Short-term synaptic dynamics control the activity phase of neurons in an oscillatory network. eLife 8: e46911. https://doi.org/10.7554/elife.46911"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 18,
+     "picture": "Picture 5",
+     "caption": "Rosenbaum & Marder (2018), Fig. 1(C). Pyloric circuit"
+    }
+   ]
+  },
+  {
+   "after": 24,
+   "footer_number": "24a",
+   "template_slide": 24,
+   "title": "Three clamp methods fix different variables to test causes",
+   "body": [
+    "**Current clamp** injects a chosen current and leaves voltage free to change, so the neuron's own channels shape its response. **Voltage clamp** forces the membrane to a commanded voltage and measures the current required, exposing channel and synaptic currents but preventing the cell from behaving freely.",
+    "**Dynamic clamp** splits control between experimenter and neuron. The experimenter specifies a conductance waveform, the neuron supplies its moment-to-moment voltage, and the injected current results from both, so a defined synaptic or leak input can be tested against an intact set of membrane currents.",
+    "The deck's experiments use each method for a different question. Clamping PD imposed a chosen pacemaker period on the whole network; clamping LP measured its real synaptic waveform and its peptide currents; dynamic clamp replayed altered waveforms in LP, and in LG it added or removed leak to stop or rescue bursting."
+   ],
+   "figure": {
+    "from_slide": 24,
+    "picture": "Picture 3",
+    "caption": "Martinez et al. (2019), Fig. 3(A–F). Measured input, conductance replay and LP phase responses"
+   },
+   "cite": "Martinez et al. (2019); Garcia et al. (2015); Städele et al. (2015)",
+   "moves": [
+    "foundation",
+    "distinction",
+    "method_logic",
+    "integration"
+   ],
+   "integrates": [
+    22,
+    24,
+    30,
+    38,
+    41
+   ],
+   "cited_papers_used": [
+    "10.7554/elife.46911",
+    "10.1523/jneurosci.0171-15.2015",
+    "10.1371/journal.pbio.1002265"
+   ],
+   "transcript": [
+    "Slides 22, 24, 30, 38 and 41 use three different recording configurations; separating what each holds fixed explains what each experiment can conclude.",
+    [
+     "Current clamp and voltage clamp.",
+     [
+      "In current clamp the experimenter controls the input and reads the voltage, as in the rebound tests on slide 33.",
+      "In voltage clamp the experimenter controls the voltage and reads the current, which is how the A-type and h currents on slides 38 and 39 were measured."
+     ]
+    ],
+    [
+     "Dynamic clamp as a hybrid.",
+     [
+      "A conductance, unlike a fixed current, produces less current as the membrane approaches its reversal potential, so the injected signal behaves like a real synapse or leak.",
+      "LP's own currents remain free to generate rebound, which is what makes the replayed inhibition on slide 24 a causal test."
+     ]
+    ],
+    [
+     "Matching method to question.",
+     [
+      "Martinez and colleagues clamped PD to set the period, then measured LP's synaptic input in voltage clamp before replaying it in dynamic clamp.",
+      "Städele and colleagues used the same hybrid method in LG, where a leak change alone was enough to stop or restore the gastric rhythm."
+     ]
+    ]
+   ],
+   "refs": [
+    "Martinez D, Anwar H, Bose A, Bucher DM, Nadim F. (2019). Short-term synaptic dynamics control the activity phase of neurons in an oscillatory network. eLife 8: e46911. https://doi.org/10.7554/elife.46911",
+    "Garcia VJ, Daur N, Temporal S, Schulz DJ, Bucher D. (2015). Neuropeptide receptor transcript expression levels and magnitude of ionic current responses show cell type-specific differences in a small motor circuit. Journal of Neuroscience 35: 6786-6800. https://doi.org/10.1523/jneurosci.0171-15.2015",
+    "Städele C, Heigele S, Stein W. (2015). Neuromodulation to the Rescue: Compensation of Temperature-Induced Breakdown of Rhythmic Motor Patterns via Extrinsic Neuromodulatory Input. PLoS Biology 13: e1002265. https://doi.org/10.1371/journal.pbio.1002265"
+   ]
+  },
+  {
+   "after": 26,
+   "footer_number": "26a",
+   "template_slide": 25,
+   "title": "Phase holds only when inhibition scales with the cycle",
+   "body": [
+    "LP fires once the pacemaker's inhibition fades and its own rebound brings it to threshold. If inhibition and rebound took fixed times, a longer cycle would leave the delay unchanged and LP's phase would fall; phase stays constant only if the delay grows in proportion to the period.",
+    "Three features of the input supply that growth. Inhibition occupying a constant fraction of the cycle stretches the silent period itself; a stronger synapse in slow rhythms deepens and prolongs suppression; and a later conductance peak keeps LP inhibited longer. Each delays LP more in slow cycles, offsetting the advance that period alone would cause.",
+    "Warming changes period by a different route. As temperature rises, the pacemaker's voltage trajectory scales with the cycle and the peak of LP's synaptic current stays at a fixed fraction of the input, so temperature preserves phase through adjustments unlike those at a single temperature."
+   ],
+   "figure": {
+    "from_slide": 25,
+    "picture": "Picture 3",
+    "caption": "Martinez et al. (2019), Fig. 4(A–B). LP phase depends on the timing reference and inhibitory duty cycle"
+   },
+   "cite": "Martinez et al. (2019); Tang et al. (2010)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    22,
+    24,
+    25,
+    26,
+    36,
+    37
+   ],
+   "cited_papers_used": [
+    "10.7554/elife.46911",
+    "10.1371/journal.pbio.1000469"
+   ],
+   "transcript": [
+    "Slides 22 to 26 vary period, duration, strength and peak timing one at a time; together they explain what an input must do for LP's phase to stay fixed.",
+    [
+     "Why fixed delays fail.",
+     [
+      "Phase is the delay divided by the period, so a delay that stays the same in milliseconds becomes a smaller fraction of a longer cycle.",
+      "Slide 22 shows LP falling between the two extremes when only the pacemaker period is changed."
+     ]
+    ],
+    [
+     "How the input compensates.",
+     [
+      "Martinez and colleagues found that inputs with constant duty cycle preserved phase far better than inputs of constant duration, and that phase increased with both synaptic strength and peak phase.",
+      "Short-term depression makes pyloric inhibition stronger at longer periods, so the circuit has a built-in way to strengthen inhibition as the rhythm slows."
+     ]
+    ],
+    [
+     "Temperature uses other rules.",
+     [
+      "Martinez and colleagues contrast their constant-temperature results with temperature experiments, in which presynaptic voltage trajectories scaled with period and the synaptic peak phase did not depend on period.",
+      "Slides 36 and 37 show phase constancy across a fourfold change in frequency, achieved through adjustments different from those that operate at one temperature."
+     ]
+    ]
+   ],
+   "refs": [
+    "Martinez D, Anwar H, Bose A, Bucher DM, Nadim F. (2019). Short-term synaptic dynamics control the activity phase of neurons in an oscillatory network. eLife 8: e46911. https://doi.org/10.7554/elife.46911",
+    "Tang LS, Goeritz ML, Caplan JS, Taylor AL, Fisek M, Marder E. (2010). Precise temperature compensation of phase in a rhythmic motor pattern. PLoS Biology 8: e1000469. https://doi.org/10.1371/journal.pbio.1000469"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 25,
+     "picture": "Picture 5",
+     "caption": "Tang et al. (2010), Fig. 2(B). Crab pyloric circuit"
+    }
+   ]
+  },
+  {
+   "after": 28,
+   "footer_number": "28a",
+   "template_slide": 27,
+   "title": "Proctolin reshapes the whole rhythm through a few targets",
+   "body": [
+    "Proctolin acts directly on only a few pyloric neurons, yet the whole motor pattern changes. Electrical coupling relays its excitation of AB into the PD cells, so the entire pacemaker kernel bursts more strongly and more often, and every follower receives its inhibition on a faster schedule.",
+    "Insensitive neurons change through their synapses. VD showed no response to proctolin when isolated, yet its activity fell as concentration rose in the intact circuit, and deleting identified neurons linked such indirect changes to the cells the peptide excites directly.",
+    "Phase relations shift as well as frequency. LP gains activity while VD loses it, so the peptide redistributes firing among motor neurons and alters the balance of contraction among the muscles they drive, rather than simply running a fixed pattern faster."
+   ],
+   "figure": {
+    "from_slide": 27,
+    "picture": "Picture 3",
+    "caption": "Hooper & Marder (1987), Fig. 4. Proctolin changes AB oscillations and the activity of follower cells"
+   },
+   "cite": "Hooper & Marder (1987)",
+   "moves": [
+    "integration",
+    "mechanism",
+    "consequence",
+    "method_logic"
+   ],
+   "integrates": [
+    6,
+    9,
+    27,
+    28
+   ],
+   "cited_papers_used": [
+    "10.1523/jneurosci.07-07-02097.1987"
+   ],
+   "transcript": [
+    "Slides 27 and 28 identify proctolin's direct targets; following those effects through the circuit wiring explains how a few targets change the whole pattern.",
+    [
+     "The pacemaker spreads the effect.",
+     [
+      "Hooper and Marder found that pyloric cycle frequency increased with proctolin concentrations from about one nanomolar to one micromolar.",
+      "The coupling described on slide 6 carries AB's stronger oscillation into PD, so the whole kernel speeds up together."
+     ]
+    ],
+    [
+     "Followers respond through connections.",
+     [
+      "Isolated neurons other than AB, LP and PY were unaffected by proctolin, so changes in those cells within the circuit must arise from their synaptic inputs.",
+      "Hooper and Marder deleted individual neurons from the circuit to connect the direct effects on isolated cells with the frequency and phase changes of the intact pattern."
+     ]
+    ],
+    [
+     "The pattern is reshaped.",
+     [
+      "LP activity increased and VD activity decreased with rising concentration, so the relative contributions of the motor neurons change.",
+      "Hooper and Marder conclude that the connectivity between directly affected and unaffected neurons shapes the network's response to the peptide."
+     ]
+    ]
+   ],
+   "refs": [
+    "Hooper SL, Marder E. (1987). Modulation of the lobster pyloric rhythm by the peptide proctolin. Journal of Neuroscience 7: 2097-2112. https://doi.org/10.1523/jneurosci.07-07-02097.1987"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 27,
+     "picture": "Picture 5",
+     "caption": "Hooper & Marder (1987), Fig. 6. Proctolin excites the isolated AB neuron in a concentration-dependent manner"
+    }
+   ]
+  },
+  {
+   "after": 31,
+   "footer_number": "31a",
+   "template_slide": 31,
+   "title": "Convergent peptides share one current and can occlude",
+   "body": [
+    "Peptide receptors such as the CCAP receptor are **G-protein-coupled**: binding starts an intracellular signaling cascade instead of opening a channel directly. In STG neurons, cascades started by several different peptide receptors converge on a common population of channels carrying the modulator-activated inward current.",
+    "Convergence produces **occlusion**. Once saturating CCAP has opened every available channel of that current in LP, proctolin applied on top adds nothing more; in IC, by contrast, saturating CCAP opened only about two-thirds of the current, leaving room for proctolin to add the rest.",
+    "Convergence also caps the benefit of combined modulators. In LP, adding CCAP to proctolin produced no further narrowing of output differences among animals, consistent with both peptides drawing on one shared current pool near saturation."
+   ],
+   "figure": {
+    "from_slide": 31,
+    "picture": "Picture 3",
+    "caption": "Garcia et al. (2015), Fig. 5(A–F). CCAP strengthens graded transmission and changes short-term synaptic dynamics"
+   },
+   "cite": "Garcia et al. (2015); Schneider et al. (2022)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    20,
+    29,
+    30,
+    31,
+    32
+   ],
+   "cited_papers_used": [
+    "10.1523/jneurosci.0171-15.2015",
+    "10.1523/eneuro.0166-22.2022"
+   ],
+   "transcript": [
+    "Slides 29 to 32 describe receptor transcripts, current responses and peptide combinations separately; convergence onto one current links them.",
+    [
+     "Metabotropic receptors and convergence.",
+     [
+      "Garcia and colleagues identified the CCAP receptor candidate by its sequence similarity to G-protein-coupled receptors, and slide 20 names several peptides that all activate the same current.",
+      "Schneider and colleagues describe the subcellular pathways of excitatory neuropeptide receptors in the STG converging downstream on that current."
+     ]
+    ],
+    [
+     "Occlusion as a test of a shared pool.",
+     [
+      "Garcia and colleagues applied proctolin after saturating CCAP to ask whether any current remained for the second peptide to open.",
+      "Full occlusion in LP and partial occlusion in IC fit LP's several-fold higher receptor transcript levels on slide 29."
+     ]
+    ],
+    [
+     "Limits on combined modulation.",
+     [
+      "Schneider and colleagues found no additional reduction of variability when CCAP was added, and attribute it to near-saturating activation of the shared current.",
+      "When two peptides draw on one pool, their combined effect cannot exceed the size of that pool."
+     ]
+    ]
+   ],
+   "refs": [
+    "Garcia VJ, Daur N, Temporal S, Schulz DJ, Bucher D. (2015). Neuropeptide receptor transcript expression levels and magnitude of ionic current responses show cell type-specific differences in a small motor circuit. Journal of Neuroscience 35: 6786-6800. https://doi.org/10.1523/jneurosci.0171-15.2015",
+    "Schneider AC, Itani O, Bucher D, Nadim F. (2022). Neuromodulation Reduces Interindividual Variability of Neuronal Output. eNeuro 9: ENEURO.0166-22.2022. https://doi.org/10.1523/eneuro.0166-22.2022"
+   ],
+   "paper_numbers": [
+    "two-thirds"
+   ]
+  },
+  {
+   "after": 35,
+   "footer_number": "35a",
+   "template_slide": 35,
+   "title": "Feedback turns tonic MCN1 drive into slow LG bursts",
+   "body": [
+    "LG inhibits the MCN1 axon terminals in the STG while it bursts, cutting the peptide and electrical drive that brought it to threshold. With its excitation withdrawn, LG falls silent, and **Int1**, released from LG's inhibition, takes over the active phase of the half-center.",
+    "While LG is silent, the terminals recover and MCN1's slow excitation of LG builds again over several pyloric cycles. AB inhibits Int1 on every pyloric cycle, briefly easing Int1's hold on LG, and when the rising excitation meets one of these openings, LG crosses threshold and a new protraction burst begins.",
+    "The slow period therefore comes from recovery and buildup processes spanning many pyloric cycles, not from the stimulus rate. A gastric cycle lasts roughly ten pyloric cycles, and each LG burst begins at a preferred pyloric phase set by AB's inhibition of Int1."
+   ],
+   "figure": {
+    "from_slide": 35,
+    "picture": "Picture 3",
+    "caption": "Städele et al. (2015), Fig. 2(A). Fixed 6 Hz MCN1 drive fails at 13°C and recovers after cooling"
+   },
+   "cite": "Städele et al. (2015); Powell et al. (2021)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence",
+    "foundation"
+   ],
+   "integrates": [
+    2,
+    34,
+    35,
+    43,
+    44
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pbio.1002265",
+    "10.7554/elife.60454"
+   ],
+   "transcript": [
+    "Slide 35 shows tonic stimulation producing slow bursts; the feedback loops in the gastric circuit explain how a steady input becomes a rhythm about ten times slower than the pyloric one.",
+    [
+     "LG switches off its own drive.",
+     [
+      "Städele and colleagues list presynaptic inhibition of the MCN1 terminal among the mechanisms that shape the MCN1-elicited gastric rhythm, alongside CabTRP Ia release and electrical coupling.",
+      "A burst that suppresses its own source of excitation is self-terminating, which hands the active phase to Int1."
+     ]
+    ],
+    [
+     "Excitation rebuilds and meets a pyloric window.",
+     [
+      "Powell and colleagues describe slow excitation from MCN1 raising the peak disinhibition of LG over several cycles until LG crosses threshold in time with AB.",
+      "Rhythmic AB inhibition of Int1 creates those windows, so the gastric burst starts on a pyloric beat."
+     ]
+    ],
+    [
+     "Slow rhythm and integer coupling follow.",
+     [
+      "The approximately 0.1 hertz gastric rhythm and approximately 1 hertz pyloric rhythm on slide 2 give the ratio of about ten.",
+      "Slide 44 shows the ratio staying near whole numbers during warming, which is expected if each LG burst must wait for an AB-timed window."
+     ]
+    ]
+   ],
+   "refs": [
+    "Städele C, Heigele S, Stein W. (2015). Neuromodulation to the Rescue: Compensation of Temperature-Induced Breakdown of Rhythmic Motor Patterns via Extrinsic Neuromodulatory Input. PLoS Biology 13: e1002265. https://doi.org/10.1371/journal.pbio.1002265",
+    "Powell D, Haddad SA, Gorur-Shandilya S, Marder E. (2021). Coupling between fast and slow oscillator circuits in Cancer borealis is temperature-compensated. eLife 10: e60454. https://doi.org/10.7554/elife.60454"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 35,
+     "picture": "Picture 5",
+     "caption": "Städele et al. (2015), Fig. 1(A). Gastric circuit"
+    }
+   ]
+  },
+  {
+   "after": 39,
+   "footer_number": "39a",
+   "template_slide": 39,
+   "title": "Matched Q10s keep LP's rebound on time",
+   "body": [
+    "After the pacemaker's inhibition ends, two currents compete over LP's return to firing. The h current, opened by the preceding hyperpolarization, pushes LP toward threshold, while the A-type potassium current, freed from inactivation by the same hyperpolarization, opposes depolarization; their balance sets the rebound delay.",
+    "Warming speeds every element: stronger inhibitory current, a larger and faster h current, and faster A-current activation and inactivation. These processes have Q10 values between about 1.8 and 4, so the push and the pull scale roughly together and LP's delay shortens along with the cycle.",
+    "Such matching is demanding. Among 1,270 model bursting neurons tuned to burst at one temperature, only about 60% kept bursting with steadily rising frequency across the tested range, so a functional neuron needs matched temperature sensitivities as well as suitable channel amounts."
+   ],
+   "figure": {
+    "from_slide": 39,
+    "picture": "Picture 3",
+    "caption": "Tang et al. (2010), Fig. 5(A). Hyperpolarization-activated current recordings across temperature"
+   },
+   "cite": "Tang et al. (2010)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "foundation",
+    "consequence"
+   ],
+   "integrates": [
+    33,
+    36,
+    37,
+    38,
+    39
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pbio.1000469"
+   ],
+   "transcript": [
+    "Slides 38 and 39 measure two currents separately; their opposing roles in rebound explain how LP's phase survives a fourfold change in speed.",
+    [
+     "A push and a pull after inhibition.",
+     [
+      "Tang and colleagues describe rebound firing after the AB and PD burst as enhanced by activation of the h current and delayed by activation of the A-type current.",
+      "A larger inhibitory current increases activation of the first and removal of inactivation from the second."
+     ]
+    ],
+    [
+     "Similar temperature dependence keeps them in proportion.",
+     [
+      "Q10 expresses how much a rate or amplitude changes over ten degrees, and the LP processes Tang and colleagues measured had Q10 values from about 1.8 to 4.",
+      "Their models of LP held phase best when the currents contributing to phase had Q10 values close to that of the rhythm itself."
+     ]
+    ],
+    [
+     "Bursting itself is fragile.",
+     [
+      "About 40% of the model bursting neurons failed to burst over the whole range or slowed down over part of it.",
+      "Tang and colleagues argue that evolutionary pressure may restrict the temperature dependence of the processes contributing to compensation, even though channel numbers vary between animals."
+     ]
+    ]
+   ],
+   "refs": [
+    "Tang LS, Goeritz ML, Caplan JS, Taylor AL, Fisek M, Marder E. (2010). Precise temperature compensation of phase in a rhythmic motor pattern. PLoS Biology 8: e1000469. https://doi.org/10.1371/journal.pbio.1000469"
+   ],
+   "paper_numbers": [
+    "1.8",
+    "4",
+    "1,270",
+    "60%",
+    "40%"
+   ]
+  },
+  {
+   "after": 42,
+   "footer_number": "42a",
+   "template_slide": 42,
+   "title": "Pyloric and gastric circuits compensate warming differently",
+   "body": [
+    "The pyloric and gastric circuits share one ganglion and similar currents, yet warming affects them differently. The pyloric rhythm keeps its pattern when only the STG is warmed and its descending inputs stay cool, so its compensation is built into the ganglion's own cells and synapses.",
+    "The gastric circuit lacks an internal counterweight. Warming increases LG leak, and only the modulator-activated inward current supplied by MCN1 from outside the ganglion offsets it, so the gastric rhythm's temperature tolerance moves with the activity of its projection neurons.",
+    "Each design suits its task. A continuously active filtering rhythm benefits from fixed intrinsic compensation, while the episodic chewing rhythm already depends on projection neurons that integrate several sensory modalities, letting warming compensation vary with sensory and feeding conditions."
+   ],
+   "figure": {
+    "from_slide": 42,
+    "picture": "Picture 3",
+    "caption": "Städele et al. (2015), Fig. 6(A–E). MCN1 activity increases with warming and stronger stimulation rescues LG"
+   },
+   "cite": "Städele et al. (2015); Tang et al. (2010)",
+   "moves": [
+    "distinction",
+    "integration",
+    "mechanism",
+    "consequence"
+   ],
+   "integrates": [
+    36,
+    37,
+    40,
+    41,
+    42,
+    43
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pbio.1002265",
+    "10.1371/journal.pbio.1000469"
+   ],
+   "transcript": [
+    "Slides 36 to 43 present the pyloric and gastric temperature studies in turn; comparing them shows two different strategies for the same problem.",
+    [
+     "Pyloric compensation is intrinsic.",
+     [
+      "Städele and colleagues warmed only the STG and found the pyloric rhythm continuing without obvious change even at 19 degrees.",
+      "That result places the pyloric compensation described on slides 37 to 39 inside the ganglion rather than in its inputs."
+     ]
+    ],
+    [
+     "Gastric compensation is extrinsic.",
+     [
+      "The leak increase on slide 41 is opposed by the peptide-activated current of slide 43, and that current depends on MCN1 activity.",
+      "Städele and colleagues conclude that temperature compensation in the gastric circuit is highly dependent on extrinsic input."
+     ]
+    ],
+    [
+     "Why two strategies.",
+     [
+      "The authors suggest intrinsic compensation suits networks that must run continuously, while episodic generators can use their descending innervation.",
+      "Descending pathways integrate multiple sensory modalities, so compensation through them can be adjusted to behavioral conditions."
+     ]
+    ]
+   ],
+   "refs": [
+    "Städele C, Heigele S, Stein W. (2015). Neuromodulation to the Rescue: Compensation of Temperature-Induced Breakdown of Rhythmic Motor Patterns via Extrinsic Neuromodulatory Input. PLoS Biology 13: e1002265. https://doi.org/10.1371/journal.pbio.1002265",
+    "Tang LS, Goeritz ML, Caplan JS, Taylor AL, Fisek M, Marder E. (2010). Precise temperature compensation of phase in a rhythmic motor pattern. PLoS Biology 8: e1000469. https://doi.org/10.1371/journal.pbio.1000469"
+   ],
+   "paper_numbers": [
+    "19"
+   ]
+  },
+  {
+   "after": 45,
+   "footer_number": "45a",
+   "template_slide": 45,
+   "title": "Different conductance sets rebuild one pyloric output",
+   "body": [
+    "A circuit is **degenerate** when many different combinations of conductances produce the same activity. Pyloric neurons fit this description: an identified cell can carry ion channel levels that differ several-fold between animals while its bursts and phases look alike.",
+    "Degeneracy gives a decentralized circuit room to recover. Activity-dependent regulation can move each neuron's conductances to a new combination that restores output without restoring the original values; in PD, the A-type current falls within a day of decentralization and returns only after about five days.",
+    "A lower A-type current alone would advance PD bursts, as seen soon after decentralization, so returning phases to near control requires several intrinsic and synaptic conductances to shift together into a new working combination."
+   ],
+   "figure": {
+    "from_slide": 45,
+    "picture": "Picture 3",
+    "caption": "More-Potdar & Golowasch (2023), Fig. 2(A–B). Frequency and phase recover over hours after decentralization"
+   },
+   "cite": "More-Potdar & Golowasch (2023); Schneider et al. (2022); Tang et al. (2010)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    8,
+    32,
+    37,
+    45
+   ],
+   "cited_papers_used": [
+    "10.3389/fncel.2023.1280575",
+    "10.1523/eneuro.0166-22.2022",
+    "10.1371/journal.pbio.1000469"
+   ],
+   "transcript": [
+    "Slide 45 reports recovery after decentralization; degeneracy explains how recovery can happen without returning every channel to its old level.",
+    [
+     "Same output, different parts.",
+     [
+      "Schneider and colleagues point out that in a neuron present as a single copy per animal, channel conductances and their mRNA levels can vary several-fold while activity stays similar.",
+      "Tang and colleagues make the same point for current densities in identified pyloric neurons."
+     ]
+    ],
+    [
+     "Recovery through reorganization.",
+     [
+      "More-Potdar and Golowasch propose that the whole conductance space of each neuron reorganizes after decentralization, producing the same activity from a different combination.",
+      "They cite a decrease in PD's A-type current a day after decentralization, with recovery to control values only after about five days."
+     ]
+    ],
+    [
+     "Many conductances must move together.",
+     [
+      "A reduced A-type current would be expected to phase-advance bursting, which matches the early change after decentralization.",
+      "Since that current alone recovers too slowly to explain recovery at 24 hours, simultaneous changes in synaptic currents and other conductances are needed."
+     ]
+    ]
+   ],
+   "refs": [
+    "More-Potdar S, Golowasch J. (2023). Oscillatory network spontaneously recovers both activity and robustness after prolonged removal of neuromodulators. Frontiers in Cellular Neuroscience 17: 1280575. https://doi.org/10.3389/fncel.2023.1280575",
+    "Schneider AC, Itani O, Bucher D, Nadim F. (2022). Neuromodulation Reduces Interindividual Variability of Neuronal Output. eNeuro 9: ENEURO.0166-22.2022. https://doi.org/10.1523/eneuro.0166-22.2022",
+    "Tang LS, Goeritz ML, Caplan JS, Taylor AL, Fisek M, Marder E. (2010). Precise temperature compensation of phase in a rhythmic motor pattern. PLoS Biology 8: e1000469. https://doi.org/10.1371/journal.pbio.1000469"
+   ],
+   "paper_numbers": [
+    "five"
+   ],
+   "extra_figures": [
+    {
+     "from_slide": 45,
+     "picture": "Picture 5",
+     "caption": "More-Potdar & Golowasch (2023), Fig. 1(B). Pyloric circuit"
+    }
+   ]
+  }
+ ],
+ "original_edits": [
+  {
+   "slide": 2,
+   "old": "The preparation retains central circuitry but removes normal food movement and most peripheral feedback. Its recordings identify coordinated motor commands; they do not measure tooth forces, particle transport or the amount of food swallowed.",
+   "new": "Coordinating the two rhythms matters for feeding: the gastric mill chews food, and the pylorus then filters it and pumps particles toward the hindgut. Several STG neurons take part in both rhythms, so one small ganglion times both motor programs together."
+  },
+  {
+   "slide": 3,
+   "old": "Input blockade changed the pyloric motor pattern even though the local neurons and their connections remained present. Central rhythm generation therefore depends on circuit state as well as connectivity. A disconnected preparation cannot be treated as an unchanged copy of the intact animal.",
+   "new": "Ongoing input from anterior ganglia acts as a state-setting signal: stimulating the stn recruited bursting in PD, LP and VD, cells that fire tonically or not at all without it. The same identified neurons and synapses can therefore produce different motor patterns depending on which inputs reach the ganglion."
+  },
+  {
+   "slide": 4,
+   "old": "Matching a cell-body spike to a nerve spike establishes the recorded neuron’s output pathway. Its name identifies a motor role, but does not specify its intrinsic rhythm-generating ability, transmitter or response to a modulator. Those properties require separate physiological experiments.",
+   "new": "Matching a cell-body spike to a nerve spike establishes the recorded neuron’s output pathway. Identification makes each neuron a reproducible unit found in every animal, so drug and deletion results from different preparations combine cell by cell, as when proctolin was found to excite isolated AB, LP and PY."
+  },
+  {
+   "slide": 5,
+   "old": "A mixed nerve signal can contain several identifiable neurons, but overlapping spikes become difficult to assign during irregular activity. Separate nerve recordings provide a control on unit identification. A regular sequence describes circuit output; it does not establish which neuron generates the rhythm.",
+   "new": "A mixed nerve signal can contain several identifiable neurons, but overlapping spikes become difficult to assign during irregular activity. Separate nerve recordings provide a control on unit identification. PY is the hardest case, since several PY copies fire nearly together and the LPG neuron also sends spikes along the pyloric nerve."
+  },
+  {
+   "slide": 6,
+   "old": "The detailed recordings used calibrations of 4 mV and 0.5 s. A spike-associated response in a coupled cell can arrive indirectly through another neuron. Temporal association alone therefore does not establish a direct chemical synapse from LP to AB.",
+   "new": "The detailed recordings used calibrations of 4 mV and 0.5 s. A spike-associated response in a coupled cell can arrive indirectly through another neuron. Through coupling, AB and PD answer LP feedback as one pacemaker group, though only one partner holds the synapse."
+  },
+  {
+   "slide": 7,
+   "old": "An endogenous burster generates recurring depolarizations without the synaptic inputs tested in this isolation procedure. AB met that operational criterion. The experiment identifies a cell-level source of rhythmicity, while leaving the specific ionic mechanism of its oscillation unresolved.",
+   "new": "An endogenous burster generates recurring depolarizations without the synaptic inputs tested in this isolation procedure. AB met that operational criterion. As the only pyloric neuron that kept bursting in isolation, and the network’s only interganglionic interneuron, AB serves as the circuit’s primary timekeeper."
+  },
+  {
+   "slide": 8,
+   "old": "PD is therefore a conditional burster: an appropriate input state permits rhythm-generating properties that are absent in the isolated baseline state. The stimulation activated a collection of inputs, so the result does not identify one transmitter, receptor or channel as its sole cause.",
+   "new": "PD is therefore a conditional burster: an appropriate input state permits rhythm-generating properties that are absent in the isolated baseline state. PD had earlier been classed as an endogenous burster; isolation from AB and descending input revealed that its bursting depends on those inputs."
+  },
+  {
+   "slide": 10,
+   "old": "A circuit can contain the connections needed for coordinated output while lacking the active cellular state that expresses it. The recruited episode supports a contribution of conditional membrane oscillations to motor-pattern stability. It does not imply that this reduced network reproduces every muscle command of the intact pyloric system.",
+   "new": "A circuit can contain the connections needed for coordinated output while lacking the active cellular state that expresses it. In the intact network, AB’s spontaneous oscillation sets each cycle, while input-recruited oscillations in PD, LP and VD help produce and stabilize the coordinated motor program."
+  },
+  {
+   "slide": 12,
+   "old": "A conductance describes how readily a membrane pathway carries electrical current. Chloride-dependent inhibition can oppose firing even when its voltage effect becomes small near reversal. These ionic manipulations constrain the mechanism of the synapse; they do not identify a molecular receptor subunit.",
+   "new": "A conductance describes how readily a membrane pathway carries electrical current. Chloride-dependent inhibition can oppose firing even when its voltage effect becomes small near reversal. The AB synapse is glutamatergic, so picrotoxin removes it while sparing the cholinergic PD synapse onto LP."
+  },
+  {
+   "slide": 13,
+   "old": "An ion’s concentration gradient and the postsynaptic voltage determine the direction of its contribution to synaptic current. Two inputs can both inhibit LP at its normal operating voltage while differing in reversal, kinetics and pharmacology. Their combined effect cannot be represented as two physiologically identical synapses.",
+   "new": "An ion’s concentration gradient and the postsynaptic voltage determine the direction of its contribution to synaptic current. In the crab, the cholinergic PD current reverses more negatively than the glutamatergic AB and PY currents, so near −80 mV these components of LP’s synaptic current can flow in opposite directions."
+  },
+  {
+   "slide": 14,
+   "old": "Electrotonic spread is passive propagation of a voltage change through a connected electrical pathway. A neuron may receive such a propagated response without possessing the corresponding chemical synapse. A connection map based only on spike-correlated voltage changes can consequently assign the wrong presynaptic target.",
+   "new": "Electrotonic spread is passive propagation of a voltage change through a connected electrical pathway. A spike-locked response can therefore originate at a coupled partner's chemical synapse: LP's IPSPs reach AB through PD, so feedback from LP acts on the whole AB–PD pacemaker group at once."
+  },
+  {
+   "slide": 15,
+   "old": "A transmitter candidate is stronger when it reproduces the nerve response and shares its antagonist sensitivity. Drug sensitivity alone is insufficient because a compound may affect more than one receptor class. These experiments support cholinergic transmission without assigning a modern molecular receptor subtype.",
+   "new": "A transmitter candidate is stronger when it reproduces the nerve response and shares its antagonist sensitivity. Marder applied these criteria to all eleven types of excitatory motor neuron in the lobster STG, pairing each muscle’s transmitter sensitivity with enzyme assays on identified cell bodies."
+  },
+  {
+   "slide": 16,
+   "old": "Similar reversal behavior supports a shared postsynaptic ionic mechanism for the applied transmitter and the neural response. Receptor desensitization and large response amplitudes could distort the extrapolation, so Marder used small responses and controlled application timing. The agreement strengthens transmitter identification without directly observing individual molecules released from PD.",
+   "new": "Similar reversal behavior supports a shared postsynaptic ionic mechanism for the applied transmitter and the neural response. Receptor desensitization and large response amplitudes could distort the extrapolation, so Marder used small responses and controlled application timing. A reversal near −18 mV, far from potassium and chloride reversals, fits receptor channels passing several cations, which depolarize the muscle."
+  },
+  {
+   "slide": 17,
+   "old": "The combined evidence assigned ACh or glutamate as transmitter candidates for different motor classes. The strongest detailed physiological identification concerned PD; several other assignments remained putative. A candidate inferred from muscle sensitivity and synthesis should be distinguished from complete proof of its release and action at every central synapse.",
+   "new": "The combined evidence assigned ACh or glutamate as transmitter candidates for different motor classes. VD, LPG, GM, MG, LG and DG were classed as putatively cholinergic, while LP, PY, IC and AM became glutamate candidates. The split predicts later pharmacology: picrotoxin blocks glutamatergic inhibition from PY while cholinergic PD output persists."
+  },
+  {
+   "slide": 18,
+   "old": "The LP-to-PD pathway can therefore transmit a slow voltage signal through transmitter release. A motor circuit’s synaptic communication cannot be inferred exclusively from spike counts. This result concerns central synaptic potentials; it does not imply that a spike-free isolated circuit produces normal muscle contractions.",
+   "new": "The LP-to-PD pathway can therefore transmit a slow voltage signal through transmitter release. Pyloric neurons release transmitter in both modes, so the voltage trajectory of each slow wave, and not only the spikes riding on it, shapes the inhibition their targets receive."
+  },
+  {
+   "slide": 19,
+   "old": "Slow voltage dynamics and graded inhibition can sustain central rhythmicity in this modulatory state. Persistence after sodium-channel blockade does not mean that spikes never contribute to the intact rhythm. Nor does it establish normal behavioral output, which requires commands to reach the muscles.",
+   "new": "Slow voltage dynamics and graded inhibition can sustain central rhythmicity in this modulatory state. In oxotremorine with TTX, intracellular waveforms resembled those of the intact rhythm and phase relationships among the neurons were conserved."
+  },
+  {
+   "slide": 20,
+   "old": "Activation of a common inward current is not sufficient to predict whether a network can oscillate after spike blockade. Target-cell distributions, synaptic actions and other currents can differ among modulators. The experiment establishes state-dependent reliance on spikes, rather than one universal mechanism for all peptide-activated rhythms.",
+   "new": "Modulators that converge on one inward current can still build different networks, since they differ in target cells, synaptic actions and the other currents they recruit. Red pigment concentrating hormone joins oxotremorine and CabTRP1a among spike-independent rhythms, so one converging current supports two distinct burst mechanisms."
+  },
+  {
+   "slide": 21,
+   "old": "The result localizes a rhythm-generating capability to the electrically coupled AB–PD group under these modulatory conditions. PTX is a pharmacological isolation procedure, not physical removal of every neuron. Persistence of the pacemaker does not specify which coupled member or which individual channel is sufficient on its own.",
+   "new": "The result localizes a rhythm-generating capability to the electrically coupled AB–PD group under these modulatory conditions. This kernel primarily drove both spike-free rhythms. Cycle frequency held in oxotremorine with TTX but shifted in CabTRP1a with TTX, so the kernel’s speed without spikes depends on the modulator."
+  },
+  {
+   "slide": 22,
+   "old": "The measured LP phase declined as period increased, rather than remaining perfectly constant. Imposed pacemaker waveforms separated the timing of inhibition from the free-running network’s normal adjustments. This preparation tests mechanisms of phase control, not a claim that natural pyloric phase is always invariant.",
+   "new": "The measured LP phase declined as period increased, rather than remaining perfectly constant. LP lies between constant latency and constant phase whenever only the pacemaker is made faster or slower. Holding phase steady requires its inhibition to change with period, a property of short-term synaptic plasticity."
+  },
+  {
+   "slide": 23,
+   "old": "Loss of LP rhythmicity after removal of particular inputs distinguishes a follower neuron from an autonomous oscillator in this condition. The remaining cholinergic PD synapse means that pharmacological isolation was incomplete. The experiment assigns a requirement to the blocked pathways, rather than proving that all synaptic inputs are interchangeable.",
+   "new": "Loss of LP rhythmicity after removal of particular inputs distinguishes a follower neuron from an autonomous oscillator in this condition. LP lacks intrinsic oscillatory properties: driven with noise current in picrotoxin, it burst irregularly, with burst timing set by the shape of the preceding input."
+  },
+  {
+   "slide": 24,
+   "old": "Opposing timing effects allow synaptic properties to compensate for changes in rhythm speed. The intervention tests the effect of a specified electrical input on a real neuron. It does not establish that the intact network naturally changes every waveform parameter in exactly the imposed manner.",
+   "new": "Opposing timing effects allow synaptic properties to compensate for changes in rhythm speed. Stronger inhibition deepened LP’s hyperpolarization considerably yet shifted its first spike only modestly, so strength fine-tunes LP onset."
+  },
+  {
+   "slide": 25,
+   "old": "Maintaining inhibitory duration proportional to period promoted phase maintenance more effectively than keeping duration fixed in milliseconds. The result concerns the timing of a controlled synaptic input. A stable motor phase can therefore emerge from coordinated input timing without requiring each neuron to retain a fixed absolute rebound latency.",
+   "new": "Maintaining inhibitory duration proportional to period promoted phase maintenance more effectively than keeping duration fixed in milliseconds. With inhibition fixed at 0.3 of the cycle, LP never fired before phase 0.3. A stable motor phase can therefore emerge from coordinated input timing without requiring each neuron to retain a fixed absolute rebound latency."
+  },
+  {
+   "slide": 26,
+   "old": "Amplitude, duration and peak position can jointly influence release from inhibition. The authors’ mathematical analysis proposes how short-term synaptic depression could coordinate these features as period changes. The imposed-waveform recordings directly establish timing sensitivity; the proposed natural coordination requires a separate mechanistic inference.",
+   "new": "Amplitude, duration and peak position can jointly influence release from inhibition. Raising amplitude and peak phase together delayed LP more than changing either alone, so increasing both with period extends the range of rhythm speeds over which LP keeps a constant phase. In the authors’ analysis, short-term depression produces such coordinated changes."
+  },
+  {
+   "slide": 27,
+   "old": "The network response combined direct peptide actions on selected neurons with consequences propagated through their existing connections. Increased activity in a motor neuron did not by itself establish a direct receptor-mediated action on that cell. Isolation was required to distinguish a peptide target from a synaptic follower of another target.",
+   "new": "The network response combined direct peptide actions on selected neurons with consequences propagated through their existing connections. Isolated AB bursts grew in both amplitude and frequency, so the peptide’s action on the single pacemaker interneuron can account for the faster pyloric cycle in proctolin."
+  },
+  {
+   "slide": 28,
+   "old": "A modulator’s circuit effect depends on target-cell properties and the connections transmitting their effects. Failure to respond in one voltage state does not prove that a neuron lacks a relevant receptor. Conversely, changed activity in the connected circuit does not prove that the modulator acts directly on that motor neuron.",
+   "new": "A modulator’s circuit effect depends on target-cell properties and the connections transmitting their effects. Proctolin excites LP only near threshold, so in the circuit it boosts LP mainly during the depolarized part of each cycle, when release from inhibition brings LP close to firing."
+  },
+  {
+   "slide": 29,
+   "old": "Transcript distribution broadly matched the cells in which CCAP activates I_MI. VD was an exception: receptor RNA was present without a detected current response. RNA abundance does not measure membrane receptor protein or identify every downstream effect of activation.",
+   "new": "Transcript distribution broadly matched the cells in which CCAP activates I_MI. VD was an exception: receptor RNA was present without a detected current response. In VD, CCAP instead strengthened graded synaptic transmission."
+  },
+  {
+   "slide": 30,
+   "old": "Both cells possessed the capacity for peptide-activated inward current, yet the same bath concentration did not produce equivalent activation. Receptor abundance and access to downstream channel mechanisms are possible contributors. The physiological comparison does not establish a one-to-one conversion between receptor transcript count and current amplitude.",
+   "new": "Both cells possessed the capacity for peptide-activated inward current, yet the same bath concentration did not produce equivalent activation. LP’s steeper, lower concentration-response curve means that a modest rise in a circulating peptide such as CCAP modulates LP strongly before IC responds much."
+  },
+  {
+   "slide": 31,
+   "old": "A peptide receptor can influence synaptic transmission even when one particular intrinsic current is absent. The VD result resolves an apparent mismatch between transcript expression and I_MI response. It does not establish that receptor activation follows identical intracellular signaling steps in VD, LP and IC.",
+   "new": "A peptide receptor can influence synaptic transmission even when one particular intrinsic current is absent. The VD result resolves an apparent mismatch between transcript expression and I_MI response. CCAP can thus reach the gastric mill circuit through a pyloric neuron, since VD’s strengthened inhibition falls on LG."
+  },
+  {
+   "slide": 32,
+   "old": "Interindividual variability means differences among animals of the same species. Neuromodulation can constrain that variability at the level of output without making every cellular parameter identical. The result concerns responses of isolated LP to controlled current, rather than all dimensions of the intact pyloric motor pattern.",
+   "new": "Interindividual variability means differences among animals of the same species. Neuromodulation can constrain that variability at the level of output without making every cellular parameter identical. The peptide raises firing most in neurons that start with low excitability, and pushes all neurons toward a shared ceiling of maximal firing."
+  },
+  {
+   "slide": 33,
+   "old": "The same neuron can therefore resume firing differently after the same inhibition when its modulatory state changes. Rebound is an interaction between prior voltage history and active membrane currents, rather than a fixed delay assigned to a cell type. The experiments do not isolate one current as the sole source of rebound.",
+   "new": "The same neuron can therefore resume firing differently after the same inhibition when its modulatory state changes. Rebound is an interaction between prior voltage history and active membrane currents, rather than a fixed delay assigned to a cell type. Proctolin activates I_MI in LP, a regenerative inward current that speeds the return to threshold."
+  },
+  {
+   "slide": 34,
+   "old": "LG and Int1 participate in a half-center, a reciprocally inhibitory arrangement in which activity in each member inhibits the other. That arrangement helps organize alternation but does not, by itself, establish sustained rhythm generation in every input state. Descending modulation supplies additional conditions for gastric activity.",
+   "new": "LG and Int1 participate in a half-center, a reciprocally inhibitory arrangement in which activity in each member inhibits the other. MCN1 excites LG, Int1 and the pyloric pacemaker, so one projection neuron starts the gastric half-center while also modulating the pyloric rhythm to which it is coupled."
+  },
+  {
+   "slide": 37,
+   "old": "The pyloric circuit therefore compensated the coordination of its motor output more closely than its speed. Stability of phase does not imply that every underlying conductance was temperature-invariant. The neuron’s membrane currents and synaptic input could change while their combined effect preserved the sequence.",
+   "new": "The pyloric circuit therefore compensated the coordination of its motor output more closely than its speed. Voltage trajectories stayed similar even as their underlying processes changed: the total IPSP in LP kept its amplitude while LP’s synaptic current and input conductance both grew with warming."
+  },
+  {
+   "slide": 38,
+   "old": "Warming increased current magnitude and accelerated its activation and inactivation. A change in amplitude alone therefore does not predict its effect on burst delay; a stronger transient current may also disappear sooner. The measurements identify temperature-sensitive current behavior without proving that I_A alone maintains LP phase.",
+   "new": "Warming increased current magnitude and accelerated its activation and inactivation; inactivation rate was the most temperature-sensitive process measured. A stronger transient current that also inactivates sooner can leave the delay to LP firing nearly unchanged."
+  },
+  {
+   "slide": 39,
+   "old": "Warming increased I_h conductance and accelerated its activation. Its temperature sensitivity differed from that of I_A and synaptic inhibition. The observed phase stability must therefore arise from combined processes; it cannot be attributed to every current changing by the same amount or remaining unchanged.",
+   "new": "Warming increased I_h conductance and accelerated its activation. Its temperature sensitivity differed from that of the A-type current and synaptic inhibition. In LP models given the measured temperature sensitivities of both currents, onset phase drifted less with warming than in models with temperature-insensitive currents."
+  },
+  {
+   "slide": 40,
+   "old": "The failure was conditional on the weak, fixed drive and the isolated preparation. It does not establish that a living crab loses chewing after every 3°C temperature increase. A different input strength or naturally changing descending activity can preserve the slow motor rhythm at the same temperature.",
+   "new": "The failure was graded: as temperature rose, LG fired fewer spikes per burst until bursting stopped near 12.7°C at threshold drive. Stronger MCN1 stimulation moved that limit to about 15.9°C, so the permissive temperature range scales with descending drive."
+  },
+  {
+   "slide": 41,
+   "old": "Leak subtraction is an imposed electrical compensation, rather than direct removal of a channel protein. The causal result connects LG membrane responsiveness to gastric rhythmicity in this preparation. It does not establish that the animal compensates warming by physically closing exactly the channels represented in the clamp.",
+   "new": "Warming raised LG leak conductance by about half, shunting every input, including the electrical potential from MCN1. Hyperpolarizing LG at 10°C to its warm resting potential left the rhythm intact, so the added leak, rather than the small voltage shift, ended bursting."
+  },
+  {
+   "slide": 42,
+   "old": "Descending drive can compensate a temperature-sensitive local circuit. The intact-animal comparison supports a role for naturally changing input but does not isolate MCN1 as the only compensatory pathway in vivo. Circuit robustness depends on the nervous-system components retained by the experimental preparation.",
+   "new": "Descending drive can compensate a temperature-sensitive local circuit. Raising MCN1 frequency by roughly half rescued LG bursting, close to the rise warming caused in spontaneous MCN1 firing, and threshold drive climbed by about 1 Hz per degree. MCN1’s own temperature sensitivity thus supplies extra drive."
+  },
+  {
+   "slide": 43,
+   "old": "The peptide and remaining MCN1 actions jointly maintained the effective drive needed for oscillation. Activation of I_MI can counteract the temperature-associated loss of membrane responsiveness; the authors’ conductance model supports that explanation. The rescue recording itself does not identify every intervening signaling molecule or exclude additional MCN1 mechanisms.",
+   "new": "The peptide and remaining MCN1 actions jointly maintained the effective drive needed for oscillation. Extracellular calcium blocks I_MI at hyperpolarized voltages, giving the current a negative-slope region that acts as a negative leak and cancels the warming increase in LG leak. In the authors’ model, larger leak always needed a proportionally larger modulator-activated current."
+  },
+  {
+   "slide": 44,
+   "old": "Coordination therefore persisted without holding either oscillator’s frequency constant. LG burst starts retained a preferred pyloric phase, whereas DG coupling was weaker. These are empirical timing relationships; they do not establish that every gastric rhythm produced by every descending input follows the same coupling rule.",
+   "new": "Coordination therefore persisted without holding either oscillator’s frequency constant. LG burst starts retained a preferred pyloric phase, whereas DG coupling was weaker. Both rhythms sped up with a similar Q10 of about 2 in most preparations, keeping their cycle ratio near a whole number."
+  },
+  {
+   "slide": 45,
+   "old": "Long-term recovery supports regulation of functional output after loss of modulation. The authors propose homeostatic changes in intrinsic and synaptic properties; the experiment does not identify one uniquely responsible channel change. Near-normal baseline rhythmicity and resilience to temperature are distinct properties that require separate measurements.",
+   "new": "Long-term recovery supports regulation of functional output after loss of modulation. The recovered rhythm also regained robustness: across temperatures from 9°C to 30°C, its phases varied about as little as in preparations whose modulatory inputs remained connected."
+  }
+ ]
+}

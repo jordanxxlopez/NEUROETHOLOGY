@@ -1,0 +1,1000 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture5_FA2026_V2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture5_FA2026_V2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "mauthner",
+  "m-cell",
+  "m-cells",
+  "m-axon",
+  "c-start",
+  "c-starts",
+  "startle",
+  "escape",
+  "escapes",
+  "latency",
+  "short-latency",
+  "long-latency",
+  "spike",
+  "spikes",
+  "axon",
+  "dendrite",
+  "inhibition",
+  "inhibitory",
+  "excitation",
+  "threshold",
+  "afferent",
+  "afferents",
+  "synapse",
+  "synapses",
+  "gap",
+  "junction",
+  "junctions",
+  "electrical",
+  "chemical",
+  "glutamate",
+  "glutamatergic",
+  "homologs",
+  "mid2cm",
+  "mid3cm",
+  "spiral",
+  "fiber",
+  "prepontine",
+  "colo",
+  "colos",
+  "feedforward",
+  "larvae",
+  "goldfish",
+  "zebrafish",
+  "sound",
+  "auditory",
+  "visual",
+  "tectal",
+  "segment",
+  "initial",
+  "soma",
+  "potassium",
+  "kv1.1",
+  "kv7.4",
+  "zo1b",
+  "cortisol",
+  "prepulse",
+  "fish",
+  "cell",
+  "neurons",
+  "neuron",
+  "input",
+  "stimulus",
+  "stimuli",
+  "side",
+  "bend",
+  "club",
+  "endings",
+  "ending"
+ ],
+ "new_slides": [
+  {
+   "after": 4,
+   "footer_number": "04a",
+   "template_slide": 4,
+   "title": "Few synapses, electrical links and a wide axon buy speed",
+   "body": [
+    "Every chemical synapse adds delay while transmitter is released, crosses the cleft and opens receptors. From an auditory afferent to a trunk motoneuron, the Mauthner route has only two synapses: the club ending onto the M-cell and the M-axon's contact in the spinal cord.",
+    "Marquart and colleagues attribute the speed of this route to three features: the short pathway, electrical transmission at the club endings, and the **large caliber** of the M-axon. A wide axon has low internal resistance, so current spreads farther inside it before leaking out, each stretch of membrane reaches threshold sooner, and the impulse travels faster.",
+    "Speed also shapes the movement. A fast impulse reaches the last trunk segments just after the first, so one side contracts almost at once and folds the body into a C, not a traveling wave. Weiss and colleagues report an M-cell spike as little as 2.2 ms after the onset of an abrupt sound."
+   ],
+   "figure": {
+    "from_slide": 4,
+    "picture": "Picture 3",
+    "caption": "Preuss et al. (2006), Fig. 1A. Looming disk projected above a goldfish, a visually evoked C-start, and a single M-axon spike (*) before it."
+   },
+   "cite": "Marquart et al. (2019); Fetcho & Faber (1988); Weiss et al. (2008)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    2,
+    4,
+    12,
+    14
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pbio.3000480",
+    "10.1523/JNEUROSCI.08-11-04192.1988",
+    "10.1073/pnas.0806145105",
+    "10.1242/jeb.66.1.243"
+   ],
+   "transcript": [
+    "The single spike on slide 4 precedes the muscle burst by only one to two milliseconds, and the reason the whole reflex is so fast lies in how few steps separate the ear from the muscle.",
+    [
+     "Synapses are the slow steps.",
+     [
+      "At a chemical synapse the presynaptic spike has to open calcium channels and trigger vesicle fusion, and the released glutamate has to diffuse and bind before any current flows in the target.",
+      "The Mauthner circuit keeps these steps to a minimum: one synapse from afferent to M-cell, one from M-axon to motoneuron, as Fetcho and Faber established for the spinal side on slide 12."
+     ]
+    ],
+    [
+     "Marquart and colleagues list three reasons for the short reaction time.",
+     [
+      "The pathway is short, the club endings on slide 14 transmit electrically with essentially no delay, and the axon is very wide.",
+      "Axon width matters because internal resistance falls as the cross-section grows, so injected current travels farther along the inside before it escapes, and conduction velocity rises."
+     ]
+    ],
+    [
+     "Conduction speed also allows the body to bend as one piece.",
+     [
+      "If the impulse crept slowly down the cord, anterior segments would contract long before posterior ones, producing an undulation like a swimming stroke.",
+      "Weiss and colleagues place the M-spike within about two milliseconds of an abrupt sound, so the stage 1 bend on slide 2 begins only a few milliseconds after the stimulus."
+     ]
+    ]
+   ],
+   "refs": [
+    "Marquart GD, Tabor KM, Bergeron SA, Briggman KL, Burgess HA (2019). Prepontine non-giant neurons drive flexible escape behavior in zebrafish. PLoS Biology 17(10): e3000480. https://doi.org/10.1371/journal.pbio.3000480",
+    "Fetcho JR, Faber DS (1988). Identification of motoneurons and interneurons in the spinal network for escapes initiated by the Mauthner cell in goldfish. Journal of Neuroscience 8(11): 4192–4213. https://doi.org/10.1523/JNEUROSCI.08-11-04192.1988",
+    "Weiss SA, Preuss T, Faber DS (2008). A role of electrical inhibition in sensorimotor integration. Proceedings of the National Academy of Sciences USA 105(46): 18047–18052. https://doi.org/10.1073/pnas.0806145105",
+    "Zottoli SJ (1977). Correlation of the startle reflex and Mauthner cell auditory responses in unrestrained goldfish. Journal of Experimental Biology 66: 243–254. https://doi.org/10.1242/jeb.66.1.243"
+   ],
+   "paper_numbers": {
+    "2.2": "Weiss et al. (2008) abstract: M-spike within as little as 2.2 ms of sound onset"
+   }
+  },
+  {
+   "after": 6,
+   "footer_number": "06a",
+   "template_slide": 6,
+   "title": "The M-cell picks the side; other neurons set the angle",
+   "body": [
+    "The C-start joins an all-or-none decision to graded control. Which M-cell fires settles whether and toward which side the fish bends, and its single spike is the same every time. The size of the turn varies, so it must come from neurons whose firing can last longer or shorter.",
+    "Foreman and Eaton tie the angle to the balance between the **agonist** muscles on the bending side and the **antagonist** muscles opposite, and to the delay between them. The homologs MiD2cm and MiD3cm, which fire trains whose rate grows with input, have the kind of output that could grade these bursts.",
+    "The command is assembled almost before movement starts: the stage 2 burst begins about 28 ms ahead of stage 2 movement. Foreman and Eaton argue that setting only the size and timing of opposing contractions allows the fish to exploit its muscle mechanics and shorten its motor computation."
+   ],
+   "figure": {
+    "from_slide": 6,
+    "picture": "Picture 3",
+    "caption": "Koyama et al. (2016), Fig. 10A–B. A dish is vibrated under a free larva; frames of an escape to the right from start (*) to end (**) of the initial bend."
+   },
+   "cite": "Eaton et al. (1988); Foreman & Eaton (1993); Watanabe et al. (2017)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    4,
+    5,
+    6,
+    13
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.08-08-02758.1988",
+    "10.1523/JNEUROSCI.13-10-04101.1993",
+    "10.1523/ENEURO.0249-17.2017"
+   ],
+   "transcript": [
+    "Slides 4 to 6 contain a puzzle: one M-cell spike is identical on every trial, yet the escape angle ranges widely. The resolution is that deciding and steering are carried by different neurons.",
+    [
+     "The decision is binary.",
+     [
+      "Zottoli's recordings on slide 4 tie each escape to one spike in the M-cell opposite the contracting muscle, and a single spike carries no information about how large the turn should be.",
+      "Eaton's group therefore assigned the M-cell to initiation and the choice of side, leaving the angle to other circuits."
+     ]
+    ],
+    [
+     "The angle is a matter of muscle balance.",
+     [
+      "Foreman and Eaton recorded trunk EMG on both sides and found that trajectory depends on how strongly each side contracts relative to the other and on the interval between them.",
+      "They found no separate signal for forward force, so the same two variables, size and timing, also determine propulsion."
+     ]
+    ],
+    [
+     "Candidates for the graded signal sit in the neighboring segments.",
+     [
+      "Slide 13 describes MiD2cm and MiD3cm as cells that fire repetitively, with rate tracking stimulus strength, which is the property a graded command requires.",
+      "Eaton's EMG timing places the stage 2 command early, roughly 28 milliseconds before stage 2 movement begins, so there is no time for feedback from the bend to shape it."
+     ]
+    ]
+   ],
+   "refs": [
+    "Eaton RC, DiDomenico R, Nissanov J (1988). Flexible body dynamics of the goldfish C-start: implications for reticulospinal command mechanisms. Journal of Neuroscience 8(8): 2758–2768. https://doi.org/10.1523/JNEUROSCI.08-08-02758.1988",
+    "Foreman MB, Eaton RC (1993). The direction change concept for reticulospinal control of goldfish escape. Journal of Neuroscience 13(10): 4101–4113. https://doi.org/10.1523/JNEUROSCI.13-10-04101.1993",
+    "Watanabe T, Shimazaki T, Oda Y (2017). Coordinated expression of two types of low-threshold K+ channels establishes unique single spiking of Mauthner cells among segmentally homologous neurons in the zebrafish hindbrain. eNeuro 4(5): ENEURO.0249-17.2017. https://doi.org/10.1523/ENEURO.0249-17.2017"
+   ],
+   "paper_numbers": {
+    "28": "Eaton et al. (1988) abstract: stage 2 EMG preceded stage 2 onset by a mean of 28.4 ms"
+   }
+  },
+  {
+   "after": 9,
+   "footer_number": "09a",
+   "template_slide": 9,
+   "title": "Ablation tests necessity; activation tests sufficiency",
+   "body": [
+    "A neuron is **necessary** for a behavior if killing it removes the behavior, and **sufficient** if driving it alone evokes the behavior. A spike before every startle meets neither test. Killing other reticulospinal cells rules out general laser damage, and only the loss of one specific M-cell predicts a bias toward the ablated side.",
+    "An ablation can also mislead when part of the cell survives. The M-axon outlives its soma and drives fast escapes while its initial segment remains, and Hecker and colleagues attribute fast escapes reported after several earlier ablations to such surviving axons.",
+    "Activation experiments supply sufficiency. Optogenetic activation of spiral fiber neurons made short-latency escapes more likely, and light on one prepontine cluster evoked C-starts mostly toward that side, matching the bias after ablating that cluster. A cell type that passes both tests is a strong candidate driver."
+   ],
+   "figure": {
+    "from_slide": 9,
+    "picture": "Picture 3",
+    "caption": "Burgess & Granato (2007), Fig. 4A–D. SLC and LLC responsiveness and direction after bilateral (A–B) or unilateral (C–D) Mauthner-cell ablation."
+   },
+   "cite": "Burgess & Granato (2007); Hecker et al. (2020); Marquart et al. (2019)",
+   "moves": [
+    "method_logic",
+    "distinction",
+    "integration"
+   ],
+   "integrates": [
+    9,
+    22,
+    24,
+    33,
+    39
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.0615-07.2007",
+    "10.1073/pnas.1918578117",
+    "10.1371/journal.pbio.3000480",
+    "10.1016/j.cub.2015.04.025"
+   ],
+   "transcript": [
+    "Slide 9 rests on ablation logic used throughout the deck, and each kind of experiment supports a different kind of conclusion.",
+    [
+     "Correlation, necessity and sufficiency are three different claims.",
+     [
+      "Recording a spike before each escape, as on slide 4, shows the cell is active at the right time but not that the escape depends on it.",
+      "Removing the cell tests dependence; stimulating it tests whether it can drive the act on its own."
+     ]
+    ],
+    [
+     "Good ablations carry their own controls.",
+     [
+      "Killing an equal number of other reticulospinal neurons guards against the possibility that any laser lesion in the hindbrain impairs startle.",
+      "A unilateral M-cell lesion predicts a specific asymmetry, escapes toward one side only, which nonspecific damage would not produce."
+     ]
+    ],
+    [
+     "Hecker and colleagues added a caution about incomplete lesions.",
+     [
+      "After the soma is destroyed, the axon persists, and as slide 24 shows, it keeps generating fast escapes as long as the axon initial segment survives; the time until the initial segment disappeared varied by at least 20 hours across larvae.",
+      "Their review of earlier work concluded that several studies probably tested larvae while parts of the M-cell were still working."
+     ]
+    ],
+    [
+     "Gain-of-function tests complete the argument.",
+     [
+      "Lacoste and colleagues' optogenetic activation of spiral fiber neurons on slide 22 increased short-latency escapes, and Marquart and colleagues evoked C-starts by stimulating one prepontine cluster with light.",
+      "In both cases the activation result matches the loss-of-function result from ablation, which is the pairing that most firmly links a cell type to a behavior."
+     ]
+    ]
+   ],
+   "refs": [
+    "Burgess HA, Granato M (2007). Sensorimotor gating in larval zebrafish. Journal of Neuroscience 27(18): 4984–4994. https://doi.org/10.1523/JNEUROSCI.0615-07.2007",
+    "Hecker A, Schulze W, Oster J, Richter DO, Schuster S (2020). Removing a single neuron in a vertebrate brain forever abolishes an essential behavior. Proceedings of the National Academy of Sciences USA 117(6): 3254–3260. https://doi.org/10.1073/pnas.1918578117",
+    "Marquart GD, Tabor KM, Bergeron SA, Briggman KL, Burgess HA (2019). Prepontine non-giant neurons drive flexible escape behavior in zebrafish. PLoS Biology 17(10): e3000480. https://doi.org/10.1371/journal.pbio.3000480",
+    "Lacoste AM, Schoppik D, Robson DN, Haesemeyer M, Portugues R, Li JM, Randlett O, Wee CL, Engert F, Schier AF (2015). A convergent and essential interneuron pathway for Mauthner-cell-mediated escapes. Current Biology 25(11): 1526–1534. https://doi.org/10.1016/j.cub.2015.04.025"
+   ],
+   "paper_numbers": {
+    "20": "Hecker et al. (2020): time to AIS loss varied by at least 20 h"
+   }
+  },
+  {
+   "after": 13,
+   "footer_number": "13a",
+   "template_slide": 13,
+   "title": "Serial homologs share an origin but not a firing code",
+   "body": [
+    "**Serial homologs** are cells built by the same developmental program repeated in successive body segments. The hindbrain develops as a chain of rhombomeres, and Watanabe and colleagues propose that the M-cell, MiD2cm and MiD3cm arose from one ancestral neuron duplicated segment by segment and then modified. Their similar shape and common auditory input reflect that shared origin.",
+    "Shared ancestry leaves room for different jobs. The three cells receive the same afferent signal but extract different features from it: the M-cell marks the onset of an abrupt sound, while its homologs encode its strength in firing rate. Watanabe and colleagues trace the split to the potassium channels each cell expresses, so a few genes convert one template into an onset detector or an intensity coder.",
+    "The division of labor limits substitution. With the M-cell gone, the homologs still support fast escapes from head-directed stimuli, yet after the M-axon was removed, fish never regained fast escapes toward that side, even though Hecker's test stimulus also activated the homologs."
+   ],
+   "figure": {
+    "from_slide": 13,
+    "picture": "Picture 3",
+    "caption": "Watanabe et al. (2017), Fig. 3B. Kv7.4 mRNA (green) in M-cells (arrowheads) of rhombomere 4 at 2 and 5 dpf; reticulospinal neurons labeled in magenta."
+   },
+   "cite": "Watanabe et al. (2017); Liu & Fetcho (1999); Hecker et al. (2020)",
+   "moves": [
+    "distinction",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    9,
+    10,
+    13,
+    30,
+    33,
+    35
+   ],
+   "cited_papers_used": [
+    "10.1523/ENEURO.0249-17.2017",
+    "10.1016/S0896-6273(00)80783-7",
+    "10.1073/pnas.1918578117"
+   ],
+   "transcript": [
+    "Slide 13 introduces three similar cells in neighboring segments; the useful distinction is between where the cells came from and what each now does.",
+    [
+     "Segmentation builds repeated cell types.",
+     [
+      "Slide 10 places the M-cell in rhombomere 4; the same developmental program in rhombomeres 5 and 6 produces cells of similar form.",
+      "Watanabe and colleagues frame the M-series as an evolutionary duplication followed by divergence, which is a hypothesis about ancestry rather than a statement about function."
+     ]
+    ],
+    [
+     "Function diverged through ion channels.",
+     [
+      "On slides 30 to 32, the M-cell's single spike depends on Kv1 and Kv7 currents, and that blocking both makes it fire like its homologs.",
+      "In the authors' framing, the M-cell encodes when a sound begins and the homologs encode how loud it is."
+     ]
+    ],
+    [
+     "Homology does not guarantee backup.",
+     [
+      "Liu and Fetcho found that killing the M-cell alone spared fast escapes from the head but not from the tail, so the homologs cover only part of the M-cell's range.",
+      "Hecker and colleagues chose a stimulus that demonstrably activated the homologs, and the escapes that needed the missing M-axon stayed slow even five months later, as slide 35 shows."
+     ]
+    ]
+   ],
+   "refs": [
+    "Watanabe T, Shimazaki T, Oda Y (2017). Coordinated expression of two types of low-threshold K+ channels establishes unique single spiking of Mauthner cells among segmentally homologous neurons in the zebrafish hindbrain. eNeuro 4(5): ENEURO.0249-17.2017. https://doi.org/10.1523/ENEURO.0249-17.2017",
+    "Liu KS, Fetcho JR (1999). Laser ablations reveal functional relationships of segmental hindbrain neurons in zebrafish. Neuron 23(2): 325–335. https://doi.org/10.1016/S0896-6273(00)80783-7",
+    "Hecker A, Schulze W, Oster J, Richter DO, Schuster S (2020). Removing a single neuron in a vertebrate brain forever abolishes an essential behavior. Proceedings of the National Academy of Sciences USA 117(6): 3254–3260. https://doi.org/10.1073/pnas.1918578117"
+   ]
+  },
+  {
+   "after": 14,
+   "footer_number": "14a",
+   "template_slide": 14,
+   "title": "Electrical and chemical halves differ in speed and duration",
+   "body": [
+    "At an electrical synapse, current passes directly from one cytoplasm into the other through gap junction channels, so the target's voltage starts to change as the presynaptic spike arrives. At a chemical synapse, the spike must first open calcium channels and trigger vesicle fusion, and glutamate must cross the cleft and open receptors, a sequence that adds delay.",
+    "The two components can be told apart in a recording because the M-cell has an unusually fast **membrane time constant**, the time its voltage takes to rise or decay after a current step. A brief electrical current therefore produces a brief potential that is largely over before the glutamate response peaks.",
+    "Each half has its own role. The electrical component supplies the earliest possible depolarization, and losing it delayed startles by about 2 ms. In goldfish, a sound also evokes a slower glutamatergic depolarizing envelope, which Otero-Coronel and colleagues describe as carrying mostly information about stimulus intensity."
+   ],
+   "figure": {
+    "from_slide": 14,
+    "picture": "Picture 3",
+    "caption": "Echeverry et al. (2022), Fig. 1A–C. M-cells in the fish, club endings on the lateral dendrite, and the mixed PSP with electrical and glutamatergic components."
+   },
+   "cite": "Echeverry et al. (2022); Lasseigne et al. (2021); Otero-Coronel et al. (2024)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    14,
+    16,
+    17,
+    21
+   ],
+   "cited_papers_used": [
+    "10.1523/ENEURO.0021-22.2022",
+    "10.7554/eLife.66898",
+    "10.7554/eLife.99424",
+    "10.1085/jgp.48.4.581"
+   ],
+   "transcript": [
+    "Slide 14 introduces the mixed synapse; the reason one terminal carries two kinds of transmission becomes clear once the timing of each is spelled out.",
+    [
+     "Electrical and chemical transmission differ in how many steps they need.",
+     [
+      "Current through a gap junction needs no intermediate step, so the delay is essentially zero, which is what Furshpan measured.",
+      "Chemical transmission requires calcium entry, vesicle release, diffusion and receptor gating, each adding time, so the glutamatergic component on slide 17 arrives later and lasts longer."
+     ]
+    ],
+    [
+     "The M-cell's membrane makes the separation visible.",
+     [
+      "Echeverry and colleagues point out that the two components are easy to distinguish because the M-cell's time constant is so short, an observation going back to Fukami and colleagues.",
+      "A slow membrane would smear the brief electrical potential into the chemical one."
+     ]
+    ],
+    [
+     "The two halves contribute differently to behavior.",
+     [
+      "When the gap junctions were removed in ZO1b mutants on slide 21, startles still occurred but began about two milliseconds late, so the electrical half sets timing.",
+      "The glutamatergic half facilitates during high-frequency bursts on slide 17 and, in goldfish recordings, forms a slow envelope that tracks how strong the sound is."
+     ]
+    ]
+   ],
+   "refs": [
+    "Echeverry FA, Ijaz S, Pereda AE (2022). Recording synaptic transmission from auditory mixed synapses on the Mauthner cells of developing zebrafish. eNeuro 9(3): ENEURO.0021-22.2022. https://doi.org/10.1523/ENEURO.0021-22.2022",
+    "Lasseigne AM, Echeverry FA, Ijaz S, Michel JC, Martin EA, Marsh AJ, Trujillo E, Marsden KC, Pereda AE, Miller AC (2021). Electrical synaptic transmission requires a postsynaptic scaffolding protein. eLife 10: e66898. https://doi.org/10.7554/eLife.66898",
+    "Otero-Coronel S, Preuss T, Medan V (2024). Multisensory integration enhances audiovisual responses in the Mauthner cell. eLife 13: RP99424. https://doi.org/10.7554/eLife.99424",
+    "Fukami Y, Furukawa T, Asada Y (1965). Excitability changes of the Mauthner cell during collateral inhibition. Journal of General Physiology 48(4): 581–600. https://doi.org/10.1085/jgp.48.4.581"
+   ]
+  },
+  {
+   "after": 20,
+   "footer_number": "20a",
+   "template_slide": 20,
+   "title": "Gap junctions leak current, so losing them raises excitability",
+   "body": [
+    "**Input resistance** sets how far a given current moves a neuron's voltage; the more open routes current has to leave the cell, the lower it is. Each club-ending gap junction is such a route into a coupled afferent, so together the junctions act as a leak.",
+    "Lasseigne and colleagues measured the consequence. In ZO1b and connexin mutants, M-cell input resistance rose sharply and the **rheobase**, the smallest current step that fires the cell, fell. Small spontaneous glutamatergic events also became easier to detect, as the same synaptic current now produced a larger voltage.",
+    "Input resistance is a general control point for the startle. Cortisol also raises M-cell input resistance near threshold and lowers the current needed to fire it, while the voltage threshold stays the same. Missing gap junctions and a stress hormone thus make the cell easier to fire by one route."
+   ],
+   "figure": {
+    "from_slide": 20,
+    "picture": "Picture 3",
+    "caption": "Lasseigne et al. (2021), Fig. 3A–I. Club-ending responses in wild type and in connexin and ZO1 mutants; electrical and chemical amplitudes (E, I)."
+   },
+   "cite": "Lasseigne et al. (2021); Bronson & Preuss (2017)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    14,
+    20,
+    21,
+    44
+   ],
+   "cited_papers_used": [
+    "10.7554/eLife.66898",
+    "10.3389/fncir.2017.00068"
+   ],
+   "transcript": [
+    "Slide 20 ends with the observation that M-cells lacking gap junctions are more excitable; that result follows from basic membrane electricity.",
+    [
+     "Resistance sets how far a current moves the voltage.",
+     [
+      "By Ohm's relation, a given synaptic or injected current produces a bigger voltage change across a membrane that offers fewer escape routes.",
+      "Gap junctions are open channels to another cell, so they add escape routes, and on slide 14 voltage in the M-cell was seen spreading backward into the afferents through them."
+     ]
+    ],
+    [
+     "The mutants confirmed the prediction.",
+     [
+      "Lasseigne and colleagues measured input resistance, rheobase, resting potential and spike threshold in whole-cell recordings, and the change in input resistance tracked the loss of electrical transmission.",
+      "They proposed that the higher input resistance also explains why more spontaneous chemical events were detected in the mutants, although release itself was unchanged."
+     ]
+    ],
+    [
+     "Cortisol, on slide 44, reaches the same variable from a different direction.",
+     [
+      "Bronson and Preuss injected current ramps and found a lower threshold current after cortisol, while the absolute voltage threshold did not change.",
+      "Distinguishing current threshold from voltage threshold matters: a cell can become easier to fire because a given input moves it further, not because the spike-generating mechanism changed."
+     ]
+    ]
+   ],
+   "refs": [
+    "Lasseigne AM, Echeverry FA, Ijaz S, Michel JC, Martin EA, Marsh AJ, Trujillo E, Marsden KC, Pereda AE, Miller AC (2021). Electrical synaptic transmission requires a postsynaptic scaffolding protein. eLife 10: e66898. https://doi.org/10.7554/eLife.66898",
+    "Bronson DR, Preuss T (2017). Cellular mechanisms of cortisol-induced changes in Mauthner-cell excitability in the startle circuit of goldfish. Frontiers in Neural Circuits 11: 68. https://doi.org/10.3389/fncir.2017.00068"
+   ]
+  },
+  {
+   "after": 24,
+   "footer_number": "24a",
+   "template_slide": 24,
+   "title": "The axon initial segment is where input becomes a spike",
+   "body": [
+    "In most neurons the action potential starts at the **axon initial segment**, the first stretch of axon beyond the soma, where threshold is lowest. Dendritic potentials must spread passively to this zone and shrink on the way; input on the initial segment acts where the spike is generated.",
+    "This explains the degenerating M-cells. Spiral fiber terminals contact the initial segment, so they can still fire the axon once soma and dendrites are gone. The soma and dendrites collect the club-ending and visual drive that makes triggering reliable, so their loss cut response probability. Hecker and colleagues suggest the large soma normally drains current from the initial segment, so its removal may strengthen axon-cap input.",
+    "Two excitatory routes, differing in location and timing, thus converge on the initiation site, a feedforward motif that Lacoste and colleagues argue ensures reliable activation."
+   ],
+   "figure": {
+    "from_slide": 24,
+    "picture": "Picture 3",
+    "caption": "Hecker et al. (2020), Fig. 2A–E. Escape latency, angular speed and probability at stages of M-cell degeneration (intact, +AIS, −AIS, −axon)."
+   },
+   "cite": "Hecker et al. (2020); Lacoste et al. (2015); Bátora et al. (2021)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    14,
+    22,
+    23,
+    24,
+    41
+   ],
+   "cited_papers_used": [
+    "10.1073/pnas.1918578117",
+    "10.1016/j.cub.2015.04.025",
+    "10.3389/fncir.2021.648487"
+   ],
+   "transcript": [
+    "Slide 24 separates what the soma provides from what the initial segment provides; the explanation comes from where spikes are generated.",
+    [
+     "Spike initiation has a preferred site.",
+     [
+      "In a typical neuron the initial segment reaches threshold first, so synaptic potentials from anywhere in the cell are judged there.",
+      "Dendritic input on the M-cell lateral dendrite, slide 14, has a long passive path to travel; spiral fiber input on slide 22 arrives at the initiation zone itself."
+     ]
+    ],
+    [
+     "The degeneration stages map onto this arrangement.",
+     [
+      "Hecker and colleagues found fast escapes with near-normal latency as long as the initial segment survived, and slow escapes once it was gone, whatever the state of the rest of the axon.",
+      "They also argue that the soma acts as a current sink for initial-segment inputs, so ablating it may raise the efficiency of those inputs, which cautions against reading their strength in an intact cell from the ablation result."
+     ]
+    ],
+    [
+     "Two converging routes make the decision robust.",
+     [
+      "Bátora and colleagues, slide 23, found that release at the initial segment is NMDA-regulated and sets startle sensitivity, while release at the lateral dendrite provides a steadier baseline.",
+      "Slide 41 adds that changing only the spiral fiber route, in cyfip2 mutants, shifts the whole startle threshold, which fits an initiation zone where small changes in input decide whether the cell fires."
+     ]
+    ]
+   ],
+   "refs": [
+    "Hecker A, Schulze W, Oster J, Richter DO, Schuster S (2020). Removing a single neuron in a vertebrate brain forever abolishes an essential behavior. Proceedings of the National Academy of Sciences USA 117(6): 3254–3260. https://doi.org/10.1073/pnas.1918578117",
+    "Lacoste AM, Schoppik D, Robson DN, Haesemeyer M, Portugues R, Li JM, Randlett O, Wee CL, Engert F, Schier AF (2015). A convergent and essential interneuron pathway for Mauthner-cell-mediated escapes. Current Biology 25(11): 1526–1534. https://doi.org/10.1016/j.cub.2015.04.025",
+    "Bátora D, Zsigmond Á, Lőrincz IZ, Szegvári G, Varga M, Málnási-Csizmadia A (2021). Subcellular dissection of a simple neural circuit: functional domains of the Mauthner-cell during habituation. Frontiers in Neural Circuits 15: 648487. https://doi.org/10.3389/fncir.2021.648487"
+   ]
+  },
+  {
+   "after": 25,
+   "footer_number": "25a",
+   "template_slide": 25,
+   "title": "Field inhibition acts as fast as the excitation it opposes",
+   "body": [
+    "The EHP and the glycinergic IPSP arise from the same interneuron spikes. The IPSP needs glycine release and chloride channel opening, so it begins after a synaptic delay and inhibits mainly by raising membrane conductance. The EHP needs no transmitter; it lasts only while the interneurons' action currents flow, so it starts the instant those spikes arrive.",
+    "Timing makes the field effect useful. According to Weiss and Faber, the M-cell's **utilization time**, the interval in which excitation must carry it to threshold, can be as short as 400 µs. Only inhibition as fast as electrotonic excitation acts within that window; in freely swimming fish it coincided with the M-spike in about 45% of trials.",
+    "The two also differ in where they act. Fukami and colleagues found that the EHP blocked antidromic spikes from invading the M-cell while the IPSP did not, although both reduced the response to injected current. Electrical inhibition guards the hillock where the spike starts; chemical inhibition shunts the soma."
+   ],
+   "figure": {
+    "from_slide": 25,
+    "picture": "Picture 3",
+    "caption": "Weiss & Faber (2010), Fig. 3. Electrical inhibition at the axon cap: an inhibitory interneuron spike (V_PHP) hyperpolarizes the M-cell axon hillock."
+   },
+   "cite": "Weiss & Faber (2010); Fukami et al. (1965); Weiss et al. (2008)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    14,
+    25,
+    26
+   ],
+   "cited_papers_used": [
+    "10.3389/fncir.2010.00015",
+    "10.1085/jgp.48.4.581",
+    "10.1073/pnas.0806145105"
+   ],
+   "transcript": [
+    "Slide 25 describes how the axon cap produces an extrinsic hyperpolarizing potential; the reason this matters is that it is the only inhibition fast enough to compete with electrical excitation.",
+    [
+     "Two inhibitions, one source.",
+     [
+      "Each feedforward interneuron spike both releases glycine and generates current in the axon cap.",
+      "The glycinergic potential has to wait for release and receptor opening, whereas the field effect is simply the current itself crossing the M-cell membrane."
+     ]
+    ],
+    [
+     "The race against excitation is very short.",
+     [
+      "The club-ending excitation on slide 14 is electrical and nearly instantaneous, and Weiss and Faber describe a utilization time as brief as 400 microseconds.",
+      "Weiss and colleagues found the electrical inhibition timed with the excitatory drive and, in free-swimming fish, coincident with M-spike latency in about 45 percent of trials, which is why they conclude it helps set the behavioral threshold on slide 26."
+     ]
+    ],
+    [
+     "The two forms have separable effects.",
+     [
+      "Fukami and colleagues probed the cell with intracellular current pulses and with antidromic spikes.",
+      "The EHP stopped antidromic invasion at the hillock, while the IPSP's conductance increase left invasion intact, so the field effect acts precisely where the outgoing spike would be generated."
+     ]
+    ]
+   ],
+   "refs": [
+    "Weiss SA, Faber DS (2010). Field effects in the CNS play functional roles. Frontiers in Neural Circuits 4: 15. https://doi.org/10.3389/fncir.2010.00015",
+    "Fukami Y, Furukawa T, Asada Y (1965). Excitability changes of the Mauthner cell during collateral inhibition. Journal of General Physiology 48(4): 581–600. https://doi.org/10.1085/jgp.48.4.581",
+    "Weiss SA, Preuss T, Faber DS (2008). A role of electrical inhibition in sensorimotor integration. Proceedings of the National Academy of Sciences USA 105(46): 18047–18052. https://doi.org/10.1073/pnas.0806145105"
+   ],
+   "paper_numbers": {
+    "400": "Weiss & Faber (2010): M-cell utilization time as little as 400 µs",
+    "45": "Weiss & Faber (2010): electrical inhibition coincides with the M-spike in ~45% of trials in free-swimming fish"
+   }
+  },
+  {
+   "after": 29,
+   "footer_number": "29a",
+   "template_slide": 29,
+   "title": "Two layers of crossed inhibition keep the bend one-sided",
+   "body": [
+    "Each side of the escape circuit guards against the other at two levels. In the hindbrain, feedforward neurons inhibit the opposite M-cell about 2.4 times as strongly as their own, so the side receiving stronger sound usually silences its partner first.",
+    "Sounds still often activate both M-cells, the second slightly after the first. The cord then supplies a second level: the first M-spike excites CoLo neurons electrically along the cord, and CoLos inhibit the opposite primary motoneurons before the late command arrives.",
+    "The design separates choosing a side from protecting the choice. Hindbrain inhibition decides which cell fires; spinal inhibition makes the motor output one-sided even when the decision is not. Losing either level has its own defect: a biased side without feedforward neurons, weak or S-shaped bends without CoLos or their electrical synapses."
+   ],
+   "figure": {
+    "from_slide": 29,
+    "picture": "Picture 3",
+    "caption": "Miller et al. (2017), Fig. 3A–C. Mauthner cells and axons (magenta) and M/CoLo synapses in two spinal segments (circles), labeled for Cx36."
+   },
+   "cite": "Koyama et al. (2016); Satou et al. (2009); Marquart et al. (2019)",
+   "moves": [
+    "integration",
+    "mechanism",
+    "distinction",
+    "consequence"
+   ],
+   "integrates": [
+    12,
+    21,
+    27,
+    28,
+    29
+   ],
+   "cited_papers_used": [
+    "10.7554/eLife.16808",
+    "10.1523/JNEUROSCI.0801-09.2009",
+    "10.1371/journal.pbio.3000480",
+    "10.1523/JNEUROSCI.08-11-04192.1988",
+    "10.7554/eLife.66898"
+   ],
+   "transcript": [
+    "Slides 27 to 29 describe crossed inhibition twice, once around the M-cells and once in the spinal cord; together they form a two-stage safeguard for a single direction of bending.",
+    [
+     "The first stage works on the M-cells themselves.",
+     [
+      "Koyama and colleagues found the contralateral IPSP larger than the ipsilateral one in 18 of 19 triple recordings, with an average ratio near two and a half.",
+      "The sound reaches the near ear's afferents first and most strongly, the near-side inhibitory neurons get a head start in suppressing the far M-cell."
+     ]
+    ],
+    [
+     "The second stage handles the cases the first misses.",
+     [
+      "Marquart and colleagues point out that sounds often activate both M-cells, and Satou and colleagues traced impaired escapes in CoLo-ablated larvae to such double firing.",
+      "Since the CoLos are electrically coupled to the M-axon, as Fetcho and Faber found in goldfish, they fire almost as soon as the first M-spike passes and inhibit the opposite motoneurons in time."
+     ]
+    ],
+    [
+     "Each defect points to its stage.",
+     [
+      "On slide 28, removing feedforward neurons on one side biases escapes toward the intact side, a fault in choosing.",
+      "Slide 21 shows kinked or S-shaped startles when M-axon to CoLo electrical synapses are missing, a fault in protecting the choice."
+     ]
+    ]
+   ],
+   "refs": [
+    "Koyama M, Minale F, Shum J, Nishimura N, Schaffer CB, Fetcho JR (2016). A circuit motif in the zebrafish hindbrain for a two alternative behavioral choice to turn left or right. eLife 5: e16808. https://doi.org/10.7554/eLife.16808",
+    "Satou C, Kimura Y, Kohashi T, Horikawa K, Takeda H, Oda Y, Higashijima S (2009). Functional role of a specialized class of spinal commissural inhibitory neurons during fast escapes in zebrafish. Journal of Neuroscience 29(21): 6780–6793. https://doi.org/10.1523/JNEUROSCI.0801-09.2009",
+    "Marquart GD, Tabor KM, Bergeron SA, Briggman KL, Burgess HA (2019). Prepontine non-giant neurons drive flexible escape behavior in zebrafish. PLoS Biology 17(10): e3000480. https://doi.org/10.1371/journal.pbio.3000480",
+    "Fetcho JR, Faber DS (1988). Identification of motoneurons and interneurons in the spinal network for escapes initiated by the Mauthner cell in goldfish. Journal of Neuroscience 8(11): 4192–4213. https://doi.org/10.1523/JNEUROSCI.08-11-04192.1988",
+    "Lasseigne AM, Echeverry FA, Ijaz S, Michel JC, Martin EA, Marsh AJ, Trujillo E, Marsden KC, Pereda AE, Miller AC (2021). Electrical synaptic transmission requires a postsynaptic scaffolding protein. eLife 10: e66898. https://doi.org/10.7554/eLife.66898"
+   ],
+   "paper_numbers": {
+    "2.4": "Koyama et al. (2016): mean contra/ipsi IPSP ratio 2.44",
+    "18": "Koyama et al. (2016): 18 of 19 triple recordings",
+    "19": "Koyama et al. (2016): 19 triple patch recordings"
+   }
+  },
+  {
+   "after": 32,
+   "footer_number": "32a",
+   "template_slide": 32,
+   "title": "Low-threshold K+ currents tune the M-cell to onsets",
+   "body": [
+    "Low-threshold potassium channels open near rest, so any depolarization starts an outward current that pulls the voltage back. A slowly rising input gives these channels time to open before threshold and is cancelled as it builds. A rapidly rising input outpaces them and fires a spike, after which the open channels prevent another.",
+    "The two channels divide this work by speed. Kv1.1 activates within milliseconds; blocking it with dendrotoxin lowered the current needed to fire mature M-cells and delayed their first spike, so the fast channel holds the cell back from weak, gradual input. Kv7.4 activates over tens of milliseconds and mainly suppresses the later, repeated spikes during a sustained input.",
+    "The result is a cell that reports sudden change, not steady strength. Otero-Coronel and colleagues reach the same view from integration experiments, calling the M-cell a sudden-stimulus detector. Intensity is left to the repetitively firing homologs, so the M-series reports both when a threat begins and how strong it is."
+   ],
+   "figure": {
+    "from_slide": 32,
+    "picture": "Picture 3",
+    "caption": "Watanabe et al. (2017), Fig. 4A–C. Currents of Kv7.4, Kv1.1a and Kv1.1a+Kvβ2b in oocytes; conductance and normalized conductance versus voltage."
+   },
+   "cite": "Watanabe et al. (2017); Otero-Coronel et al. (2024)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    13,
+    30,
+    31,
+    32,
+    38
+   ],
+   "cited_papers_used": [
+    "10.1523/ENEURO.0249-17.2017",
+    "10.7554/eLife.99424"
+   ],
+   "transcript": [
+    "Slides 30 to 32 identify the channels that limit the M-cell to one spike; what that does to the cell's response to real stimuli follows from how low-threshold channels behave over time.",
+    [
+     "Timing decides whether an input wins.",
+     [
+      "Low-threshold potassium channels are already partly activated near the resting potential, and they open further as the membrane depolarizes.",
+      "An input that rises slowly recruits this opposing current along the way, while a sudden input reaches threshold before the current has built up."
+     ]
+    ],
+    [
+     "The pharmacology separates the two channels' roles.",
+     [
+      "In mature M-cells, dendrotoxin reduced threshold current and lengthened spike latency, whereas XE991 alone affected neither, according to Watanabe and colleagues.",
+      "Combined with the slow kinetics of Kv7.4 in oocytes on slide 32, this assigns the immediate gatekeeping to Kv1.1 and the suppression of later spikes to Kv7.4."
+     ]
+    ],
+    [
+     "Function follows from the channel set.",
+     [
+      "Otero-Coronel and colleagues, working on multisensory summation, saw a plateau in sustained depolarization and little effect of stimulus frequency, and concluded that the M-cell is a sudden-stimulus detector more than a coder of stimulus properties.",
+      "Watanabe and colleagues assign the coding of sound intensity to MiD2cm and MiD3cm, whose firing rate grows with input, as slide 13 notes."
+     ]
+    ]
+   ],
+   "refs": [
+    "Watanabe T, Shimazaki T, Oda Y (2017). Coordinated expression of two types of low-threshold K+ channels establishes unique single spiking of Mauthner cells among segmentally homologous neurons in the zebrafish hindbrain. eNeuro 4(5): ENEURO.0249-17.2017. https://doi.org/10.1523/ENEURO.0249-17.2017",
+    "Otero-Coronel S, Preuss T, Medan V (2024). Multisensory integration enhances audiovisual responses in the Mauthner cell. eLife 13: RP99424. https://doi.org/10.7554/eLife.99424"
+   ]
+  },
+  {
+   "after": 34,
+   "footer_number": "34a",
+   "template_slide": 34,
+   "title": "Mixed tanks turn a predator into a direct test of one neuron",
+   "body": [
+    "The assay was built so that any difference had to come from the missing neurons. Each nymph hunted ablated and untreated larvae in one tank, so predator and conditions were shared, and nymphs were fed on one schedule beforehand to equalize hunger. Sham larvae got the same laser energy, aimed at two cerebellar neurons.",
+    "Genetic labels made the count possible: ablated larvae came from a strain with green fluorescent eyes and their tank-mates were unpigmented casper larvae, so survivors of each kind could be counted after 7 hours. Untreated groups of each strain checked that the strains survived equally.",
+    "The result settles a long-standing argument. Some had argued that about 4 ms of latency moves a fish only a few millimeters and should not affect survival. Against a damselfly nymph's targeted, ballistic strike, losing the fastest escapes cost lives, giving one identified pair of neurons a measurable survival value."
+   ],
+   "figure": {
+    "from_slide": 34,
+    "picture": "Picture 3",
+    "caption": "Hecker et al. (2020), Fig. 3A–F. Predation assays with damselfly nymphs: survival over 7 h and captured larvae for M-ablated and sham groups."
+   },
+   "cite": "Hecker et al. (2020)",
+   "moves": [
+    "method_logic",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    24,
+    33,
+    34
+   ],
+   "cited_papers_used": [
+    "10.1073/pnas.1918578117"
+   ],
+   "transcript": [
+    "Slide 34 reports that M-ablated larvae were eaten more often; the assay's design is what allows that difference to be attributed to the M-cells.",
+    [
+     "Sharing a tank removes predator variability.",
+     [
+      "Individual nymphs differ in size and appetite, so comparing separate tanks would confound larval ability with predator behavior.",
+      "Placing four ablated and four untreated larvae with the same nymph means that every strike opportunity is shared, and Hecker and colleagues kept nymphs on a common feeding regime during a preparation phase."
+     ]
+    ],
+    [
+     "Each control removes one alternative explanation.",
+     [
+      "The cerebellar sham ablation used the identical laser procedure, so damage from the surgery itself is excluded.",
+      "The ablated larvae were also checked before the assay for complete loss of both soma and initial segment, the requirement established on slides 24 and 33."
+     ]
+    ],
+    [
+     "The test answers an old doubt about giant neurons.",
+     [
+      "Earlier authors argued that a few milliseconds of latency change hardly displaces a fish, and some field studies had found no survival advantage of rapid escapes.",
+      "Damselfly nymphs strike ballistically at close range, the situation in which milliseconds decide the outcome, and against them the loss of the M-cells was costly."
+     ]
+    ]
+   ],
+   "refs": [
+    "Hecker A, Schulze W, Oster J, Richter DO, Schuster S (2020). Removing a single neuron in a vertebrate brain forever abolishes an essential behavior. Proceedings of the National Academy of Sciences USA 117(6): 3254–3260. https://doi.org/10.1073/pnas.1918578117"
+   ],
+   "paper_numbers": {
+    "4": "Hecker et al. (2020): ~4-ms decrease in average latency argued to be insignificant"
+   }
+  },
+  {
+   "after": 38,
+   "footer_number": "38a",
+   "template_slide": 38,
+   "title": "Sublinear summation still raises the odds of firing",
+   "body": [
+    "A C-start depends on whether the M-cell crosses threshold, not on how large its depolarization is. A combined response smaller than the sum of its parts can still cross threshold when neither input does alone. Otero-Coronel and colleagues found that a preceding tectal input enlarged the response to a sound pip by about 50%.",
+    "**Inverse effectiveness**, the larger relative gain from combining weak stimuli, has a direct cellular counterpart. When both unisensory responses were small, below about 2.5 mV, the combined response was supralinear and 50–100% larger than the best single input; with stronger inputs, summation became sublinear. Weak, ambiguous cues gain the most from a second sense.",
+    "This tuning matches the fish's needs. A strong sound or a fast loom triggers an escape on its own, so a second sense adds little; a faint sound paired with a dim loom, each unlikely to succeed alone, gains the most. Freezing fish, which escaped less to every stimulus, start further from that threshold."
+   ],
+   "figure": {
+    "from_slide": 38,
+    "picture": "Picture 3",
+    "caption": "Otero-Coronel et al. (2024), Fig. 2A–B. M-cell responses to tectal trains (T), sound (A) and both (M); stacked bars compare unisensory and multisensory depolarization."
+   },
+   "cite": "Otero-Coronel et al. (2024); Martorell & Medan (2022)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    26,
+    36,
+    37,
+    38
+   ],
+   "cited_papers_used": [
+    "10.7554/eLife.99424",
+    "10.1038/s41598-022-04998-2"
+   ],
+   "transcript": [
+    "Slides 37 and 38 can look contradictory: behavior shows strong multisensory enhancement, yet the M-cell sums its inputs sublinearly. The two fit together because the behavior depends on a threshold.",
+    [
+     "Threshold turns small voltage gains into large probability gains.",
+     [
+      "If an auditory input alone leaves the cell just below threshold, any added visual depolarization, even one smaller than the visual response alone, can produce the spike.",
+      "Otero-Coronel and colleagues measured an enhancement of roughly half over the best single input, which is substantial near threshold whatever the arithmetic sum would be."
+     ]
+    ],
+    [
+     "The cellular data reproduce inverse effectiveness.",
+     [
+      "Pooling all their stimulus combinations, the authors found that the relative multisensory gain fell as unisensory responses grew.",
+      "Martorell and Medan had found the same relationship in behavior on slide 37, with faint sounds adding proportionally more."
+     ]
+    ],
+    [
+     "The animal's state shifts the starting point.",
+     [
+      "Martorell and Medan found that freezing fish performed C-starts far less often than fish that were swimming or beating their fins.",
+      "In threshold terms, that is consistent with a resting M-cell that needs more combined input before it fires."
+     ]
+    ]
+   ],
+   "refs": [
+    "Otero-Coronel S, Preuss T, Medan V (2024). Multisensory integration enhances audiovisual responses in the Mauthner cell. eLife 13: RP99424. https://doi.org/10.7554/eLife.99424",
+    "Martorell N, Medan V (2022). Audiovisual integration in the Mauthner cell enhances escape probability and reduces response latency. Scientific Reports 12: 1097. https://doi.org/10.1038/s41598-022-04998-2"
+   ],
+   "paper_numbers": {
+    "50": "Otero-Coronel et al. (2024): ~50% enhancement over best unisensory response; 50–100% for weak stimuli",
+    "2.5": "Otero-Coronel et al. (2024): weak stimuli <2.5 mV",
+    "100": "Otero-Coronel et al. (2024): 50–100% stronger"
+   }
+  },
+  {
+   "after": 40,
+   "footer_number": "40a",
+   "template_slide": 40,
+   "title": "Indirect routes trade speed for time to use more information",
+   "body": [
+    "Every added relay costs time but offers a point where other signals can join. The Mauthner route has almost none, so it fires before visual or contextual information can be consulted. Prepontine neurons receive sound only through intermediate neurons and reach the spinal cord through a caudal hindbrain neuropil, consistent with escapes that begin 16–50 ms after the stimulus.",
+    "The extra time is used. With a light spot present before a nondirectional sound, long-latency escapes turned toward the spot while short-latency escapes did not, and the bias vanished in atoh7 mutants, which lack retinal projections to the brain. Visual information about the surroundings enters the delayed pathway but not the Mauthner pathway.",
+    "Timing also arbitrates between them. A strong stimulus fires the M-cell within milliseconds and its escape preempts the slower route; a weaker one leaves time for the prepontine command. A lower M-cell threshold shifts the balance: ZO1b mutants, with more excitable M-cells, startled more at mid-range intensities and almost lost their long-latency escapes."
+   ],
+   "figure": {
+    "from_slide": 40,
+    "picture": "Picture 3",
+    "caption": "Marquart et al. (2019), Fig. 7A–B. Parallel escape pathways through M-cells (Mc) and prepontine neurons (Pp), selected according to threat level."
+   },
+   "cite": "Marquart et al. (2019); Lasseigne et al. (2021)",
+   "moves": [
+    "mechanism",
+    "distinction",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    7,
+    8,
+    20,
+    21,
+    39,
+    40
+   ],
+   "cited_papers_used": [
+    "10.1371/journal.pbio.3000480",
+    "10.7554/eLife.66898"
+   ],
+   "transcript": [
+    "Slides 7, 8, 39 and 40 describe two escapes that differ in latency and flexibility; the anatomy of the two pathways explains why the slower one is the flexible one.",
+    [
+     "Relays cost time and add opportunity.",
+     [
+      "Marquart and colleagues reconstructed prepontine neurons and found that they project to a dense neuropil in the caudal hindbrain rather than into the spinal cord, so they must act through further premotor cells.",
+      "Their auditory input is likewise polysynaptic, possibly arriving through the eminentia granularis, where their neurites resemble dendrites."
+     ]
+    ],
+    [
+     "A light-spot experiment showed what the extra time buys.",
+     [
+      "Larvae are attracted to light, and when a spot was shown before a nondirectional sound, long-latency escapes were preferentially directed toward it.",
+      "Short-latency escapes ignored the spot, and mutants without retinal projections lost the bias, so the steering signal is visual."
+     ]
+    ],
+    [
+     "Changing M-cell excitability tips the competition.",
+     [
+      "Marquart's model gives the M-cells two ways to win: their escape starts first, and they inhibit the prepontine neurons.",
+      "The ZO1b mutants on slides 20 and 21 fit this: higher M-cell input resistance meant more startles at intermediate intensities and long-latency escapes nearly disappeared."
+     ]
+    ]
+   ],
+   "refs": [
+    "Marquart GD, Tabor KM, Bergeron SA, Briggman KL, Burgess HA (2019). Prepontine non-giant neurons drive flexible escape behavior in zebrafish. PLoS Biology 17(10): e3000480. https://doi.org/10.1371/journal.pbio.3000480",
+    "Lasseigne AM, Echeverry FA, Ijaz S, Michel JC, Martin EA, Marsh AJ, Trujillo E, Marsden KC, Pereda AE, Miller AC (2021). Electrical synaptic transmission requires a postsynaptic scaffolding protein. eLife 10: e66898. https://doi.org/10.7554/eLife.66898"
+   ],
+   "paper_numbers": {
+    "16": "Marquart et al. (2019): LLC initiated 16–50 ms after stimulus",
+    "50": "Marquart et al. (2019): 16–50 ms"
+   }
+  },
+  {
+   "after": 43,
+   "footer_number": "43a",
+   "template_slide": 43,
+   "title": "Presynaptic gating spares other targets of the same input",
+   "body": [
+    "Inhibition can act at two sites. **Postsynaptic inhibition**, like the glycinergic feedforward input, opens channels on the M-cell itself and reduces its response to everything it receives. **Presynaptic inhibition** acts on one set of axon terminals, reducing transmitter release from those terminals alone while the same axons keep signaling at their other synapses.",
+    "Prepulse inhibition uses the presynaptic form. The gating neurons reduce glutamate release from auditory afferents onto the M-cell dendrite, so a weak prepulse lowers the chance of a short-latency startle while the sound still reaches the rest of the brain. That selectivity is consistent with the prepulse leaving long-latency escapes and startle kinematics unchanged.",
+    "Separate sites allow separate control. Cortisol weakened feedforward inhibition and lowered the current needed to fire the M-cell, yet prepulse inhibition persisted, as expected for a prepulse network lying outside the hindbrain startle circuit. Habituation adds a third site, depressed dendritic excitation within the M-cell, so stress, repetition and a warning sound adjust the startle independently."
+   ],
+   "figure": {
+    "from_slide": 43,
+    "picture": "Picture 3",
+    "caption": "Burgess & Granato (2007), Fig. 5A. Fraction of larvae performing SLCs after prepulses of increasing intensity (dB relative to the startle stimulus)."
+   },
+   "cite": "Tabor et al. (2018); Bronson & Preuss (2017); Burgess & Granato (2007)",
+   "moves": [
+    "foundation",
+    "distinction",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    26,
+    42,
+    43,
+    44
+   ],
+   "cited_papers_used": [
+    "10.1016/j.cub.2018.06.020",
+    "10.3389/fncir.2017.00068",
+    "10.1523/JNEUROSCI.0615-07.2007",
+    "10.1016/j.celrep.2015.10.060"
+   ],
+   "transcript": [
+    "Slides 42 to 44 describe three ways the startle is turned down or up; locating each one in the circuit explains why they can act independently.",
+    [
+     "The site of inhibition determines what it affects.",
+     [
+      "Inhibition on the M-cell membrane, such as the feedforward glycinergic input on slide 26, reduces the cell's response to auditory, visual and spiral fiber input alike.",
+      "Inhibition on afferent terminals reduces only the transmission from those terminals onto that target."
+     ]
+    ],
+    [
+     "Prepulse inhibition is the presynaptic kind.",
+     [
+      "Tabor and colleagues measured auditory nerve transmitter release directly and found it reduced onto the M-cell but not onto other brain regions.",
+      "Burgess and Granato had already seen that a prepulse removes short-latency startles while leaving long-latency C-bends as frequent as before."
+     ]
+    ],
+    [
+     "Independent sites mean independent modulation.",
+     [
+      "Bronson and Preuss tested cortisol and prepulse inhibition together: threshold current rose during the prepulse both before and after cortisol, while cortisol shifted it down overall.",
+      "Marsden and Granato located habituation in reduced dendritic calcium signals in the M-cell itself, a third, separate locus."
+     ]
+    ]
+   ],
+   "refs": [
+    "Tabor KM, Smith TS, Brown M, Bergeron SA, Briggman KL, Burgess HA (2018). Presynaptic inhibition selectively gates auditory transmission to the brainstem startle circuit. Current Biology 28(16): 2527–2535.e8. https://doi.org/10.1016/j.cub.2018.06.020",
+    "Bronson DR, Preuss T (2017). Cellular mechanisms of cortisol-induced changes in Mauthner-cell excitability in the startle circuit of goldfish. Frontiers in Neural Circuits 11: 68. https://doi.org/10.3389/fncir.2017.00068",
+    "Burgess HA, Granato M (2007). Sensorimotor gating in larval zebrafish. Journal of Neuroscience 27(18): 4984–4994. https://doi.org/10.1523/JNEUROSCI.0615-07.2007",
+    "Marsden KC, Granato M (2015). In vivo Ca2+ imaging reveals that decreased dendritic excitability drives startle habituation. Cell Reports 13(9): 1733–1740. https://doi.org/10.1016/j.celrep.2015.10.060"
+   ]
+  }
+ ],
+ "original_edits": []
+}

@@ -1,0 +1,1187 @@
+{
+ "input": "scaffold/input/Neuroethology_Lecture6_FA2026_V2.pptx",
+ "output": "scaffold/output/Neuroethology_Lecture6_FA2026_V2_SCAFFOLDED.pptx",
+ "technical_terms": [
+  "leech",
+  "leeches",
+  "swim",
+  "swimming",
+  "crawl",
+  "crawling",
+  "ganglion",
+  "ganglia",
+  "segment",
+  "segments",
+  "segmental",
+  "DE-3",
+  "VE-4",
+  "CV",
+  "AE",
+  "DI-1",
+  "VI-2",
+  "R3b-1",
+  "NS",
+  "cord",
+  "rhythm",
+  "rhythms",
+  "burst",
+  "bursts",
+  "bursting",
+  "motor",
+  "neuron",
+  "neurons",
+  "dopamine",
+  "serotonin",
+  "Retzius",
+  "elongation",
+  "contraction",
+  "dorsal",
+  "ventral",
+  "longitudinal",
+  "circular",
+  "excitor",
+  "excitors",
+  "inhibitor",
+  "inhibitors",
+  "phase",
+  "period",
+  "cycle",
+  "fictive",
+  "oscillator",
+  "oscillators",
+  "generator",
+  "generators",
+  "feedback",
+  "sensory",
+  "interneuron",
+  "interneurons",
+  "Kristan",
+  "Calabrese",
+  "Cacciatore",
+  "Yu",
+  "Willard",
+  "Briggman",
+  "Puhl",
+  "Mesce",
+  "Crisp",
+  "Kearney",
+  "Ashaber",
+  "synapse",
+  "synapses",
+  "IBMX",
+  "riluzole",
+  "clotrimazole",
+  "theophylline",
+  "cAMP",
+  "coordination",
+  "intersegmental"
+ ],
+ "new_slides": [
+  {
+   "after": 4,
+   "footer_number": "4a",
+   "template_slide": 3,
+   "title": "Each midbody ganglion controls the segment it sits in",
+   "body": [
+    "The leech nervous system is a chain of 21 midbody ganglia flanked by head and tail brains. Each **ganglion** holds about 400 neurons and governs one segment: its sensory and motor neurons reach that segment through root nerves, while axon bundles called connectives join it to neighboring ganglia.",
+    "This layout gives every experiment two separable routes to cut. Severing roots detaches a ganglion from its body segment but leaves it talking to its neighbors; severing connectives detaches it from other ganglia but leaves its segment attached. Each surgery in the deck removes one route and asks what the other achieves alone.",
+    "Within a ganglion, cell bodies form a single layer around a central neuropil where neurites meet at chemical and electrical synapses. The same identified neurons repeat from segment to segment, so a motor neuron such as DE-3 can be found and compared across ganglia and animals, and a single ganglion can serve as the unit for imaging or for testing rhythm generation."
+   ],
+   "figure": {
+    "from_slide": 3,
+    "picture": "Google Shape;46;p3",
+    "caption": "Cacciatore et al. (2000), Fig. 2(A). Marked leech and measured regional length changes."
+   },
+   "cite": "Ashaber et al. (2021); Kearney et al. (2022)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    3,
+    5,
+    6,
+    13,
+    19,
+    28,
+    43
+   ],
+   "cited_papers_used": [
+    "10.7554/eLife.61881",
+    "10.3389/fncir.2022.843731"
+   ],
+   "transcript": [
+    "The marker experiments on slides 3 and 4 measure segments; everything later in the deck manipulates the ganglia that run those segments, so the layout of the leech nervous system is worth having in hand.",
+    [
+     "The body plan repeats.",
+     [
+      "Kearney and colleagues describe 21 nearly identical midbody segments, each controlled by its own midbody ganglion that contains all the sensory and motor neurons innervating that segment.",
+      "Ashaber and colleagues give the size of each ganglion as roughly 400 neurons, small enough that most of them can be imaged at once."
+     ]
+    ],
+    [
+     "Roots and connectives are different cuts.",
+     [
+      "Cacciatore's denervation on slide 5 cut roots and kept connectives; Yu's transection on slide 13 cut the cord and kept the body; the isolated cords of slides 6 and 28 removed the body entirely.",
+      "Knowing which route each surgery spares is what allows the deck to attribute coordination to central or peripheral pathways."
+     ]
+    ],
+    [
+     "Identified neurons make comparison possible.",
+     [
+      "Somata sit in a shell around the neuropil, and each identified cell has a recognizable position and size, which is how DE-3, CV and the inhibitors can be found again in every preparation.",
+      "Ashaber and colleagues add that a single ganglion captures the pathway from sensory input through interneuronal rhythms to motor output, which is why so many experiments use one."
+     ]
+    ]
+   ],
+   "refs": [
+    "M. Ashaber; Y. Tomina; P. Kassraian; E. A. Bushong; W. B. Kristan Jr; M. H. Ellisman; D. A. Wagenaar (2021). Anatomy and activity patterns in a multifunctional motor neuron and its surrounding circuits. eLife 10:e61881. https://doi.org/10.7554/eLife.61881",
+    "G. Kearney; M. Radice; A. Sanchez Merlinsky; L. Szczupak (2022). Intersegmental interactions give rise to a global network. Frontiers in Neural Circuits 16:843731. https://doi.org/10.3389/fncir.2022.843731"
+   ],
+   "paper_numbers": [
+    "21",
+    "400"
+   ]
+  },
+  {
+   "after": 5,
+   "footer_number": "5a",
+   "template_slide": 5,
+   "title": "A crawl model passes excitation down the body as a wave",
+   "body": [
+    "A swim stroke works only if each segment keeps a strict phase relation with its neighbors, whereas a crawl step works by adjusting to the surface one step at a time. Cacciatore and colleagues argued that the crawl generator is organized for flexibility rather than precise coordination.",
+    "Their model treats a step as excitation launched near the front and handed backward along chains of excitatory neurons, with a parallel descending projection. Each segment elongates and then contracts as the excitation reaches it, so longer delays along the chain slow the whole step without changing how any one segment moves.",
+    "In swimming, by contrast, individual segments produce oscillations that are strongly phase-locked to one another. The denervation result fits the crawl model: excitation carried by central chains can cross segments that have lost their roots, since the chain itself needs no signal from the operated body wall."
+   ],
+   "figure": {
+    "from_slide": 5,
+    "picture": "Google Shape;70;p5",
+    "caption": "Cacciatore et al. (2000), Fig. 7(A,B). Movement timing after removal of peripheral innervation."
+   },
+   "cite": "Cacciatore et al. (2000)",
+   "moves": [
+    "distinction",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    2,
+    4,
+    5,
+    10,
+    15
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.20-04-01643.2000"
+   ],
+   "transcript": [
+    "Slide 5 shows crawl waves crossing denervated segments; the paper's model of how a crawl step is generated makes that result expected rather than surprising.",
+    [
+     "The two behaviors reward different properties.",
+     [
+      "Cacciatore and colleagues contrast behaviors such as swimming that require regular rhythmicity and strict phase relationships with crawling, whose success depends more on flexibility.",
+      "A generator for crawling should therefore allow each step to be lengthened or shortened easily."
+     ]
+    ],
+    [
+     "The model is a propagating chain, not a ring of oscillators.",
+     [
+      "An oscillator at the front starts a wave of activity that travels through excitatory neuronal chains, and a descending pathway runs alongside it.",
+      "Together these pathways reproduced the observed intersegmental lags, the coordination between phases and the range of step durations."
+     ]
+    ],
+    [
+     "The comparison with swimming sharpens the distinction.",
+     [
+      "Swimming segments each oscillate and lock their phases through the connectives and, as slides 13 to 15 reveal, through the moving body.",
+      "A chain that simply relays excitation needs no local feedback to keep order, consistent with intact coordination across the denervated segments 7 to 12."
+     ]
+    ]
+   ],
+   "refs": [
+    "T. W. Cacciatore; R. Rozenshteyn; W. B. Kristan Jr (2000). Kinematics and modeling of leech crawling: evidence for an oscillatory behavior produced by propagating waves of excitation. Journal of Neuroscience 20(4):1643–1655. https://doi.org/10.1523/JNEUROSCI.20-04-01643.2000"
+   ]
+  },
+  {
+   "after": 12,
+   "footer_number": "12a",
+   "template_slide": 11,
+   "title": "Stepwise reduction assigns each swim feature to its source",
+   "body": [
+    "Kristan and Calabrese compared intact swimmers, semi-intact animals, cords keeping one innervated segment, and fully isolated cords. Each level removes more sensory input while the recording method stays constant, so a feature lost at one level depends on what that level removed.",
+    "Alternating dorsal and ventral bursts survive every reduction and therefore come from the cord. Scaling of intersegmental delay with period is gone once the body is opened, so it needs the whole moving animal. Dorsal-ventral phasing shifts only after full isolation, pointing to input from the remaining body wall.",
+    "With many segments attached, stretch or cell 1 stimulation reshapes bursts locally; with one segment left, the same input resets the period of the entire cord. Input from many segments thus holds the shared rhythm steady, and a stripped-down oscillator follows any single input."
+   ],
+   "figure": {
+    "from_slide": 11,
+    "picture": "Google Shape;152;p11",
+    "caption": "Kristan & Calabrese (1976), Fig. 9(A,B). Body-wall stretch during semi-intact and nearly isolated rhythms."
+   },
+   "cite": "Kristan & Calabrese (1976)",
+   "moves": [
+    "method_logic",
+    "integration",
+    "mechanism",
+    "consequence"
+   ],
+   "integrates": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.65.3.643"
+   ],
+   "transcript": [
+    "Slides 6 to 12 each compare two preparations; lined up together, they form a ladder of reduction that sorts the swim pattern into central and sensory components.",
+    [
+     "The design holds measurement constant and varies the body.",
+     [
+      "Kristan and Calabrese recorded motor nerves at every level, from the semi-intact animal down to the completely isolated cord, and compared them with movements of intact swimmers.",
+      "Changes between levels can then be attributed to the tissue removed rather than to a different way of measuring."
+     ]
+    ],
+    [
+     "Each feature has a level where it disappears.",
+     [
+      "The alternating rhythm on slides 6 and 7 never disappears, the period dependence of intersegmental delay on slide 10 is missing from both reduced preparations, and the phase relations on slide 9 differ between semi-intact and isolated cords.",
+      "The authors conclude that sensory input determines dorsal-ventral phasing and matches delay to period."
+     ]
+    ],
+    [
+     "Perturbations reveal a stabilizing role.",
+     [
+      "Stretch on slide 11 and cell 1 stimulation on slide 12 change only burst durations in the semi-intact preparation but change the period of the whole cord when little periphery remains.",
+      "Kristan and Calabrese interpret this as sensory input stabilizing the centrally generated rhythm."
+     ]
+    ]
+   ],
+   "refs": [
+    "W. B. Kristan Jr; R. L. Calabrese (1976). Rhythmic swimming activity in neurones of the isolated nerve cord of the leech. Journal of Experimental Biology 65(3):643–668. https://doi.org/10.1242/jeb.65.3.643"
+   ]
+  },
+  {
+   "after": 15,
+   "footer_number": "15a",
+   "template_slide": 14,
+   "title": "Two coupling routes make segment coordination redundant",
+   "body": [
+    "Removing nerve roots from crawling leeches kept the wave orderly across the operated region, so central connections sufficed. Cutting the cord of swimming leeches kept the wave running across the cut, so the moving body sufficed.",
+    "Coordination of this kind is **redundant**: more than one pathway can carry the same coordinating signal, so losing one weakens performance without abolishing the behavior. The lesioned swimmers match that description: their wave crossed the cut, but with a larger, more variable lag between segments and slower swimming.",
+    "Redundant coupling protects the animal. A leech with a damaged cord can still swim, and segments that lose their sensory roots still crawl in sequence. In the intact leech the routes work together: the isolated cord fails to scale intersegmental delay with period, while feedback alone gives slower, looser coordination than the two combined."
+   ],
+   "figure": {
+    "from_slide": 14,
+    "picture": "Google Shape;194;p14",
+    "caption": "Yu et al. (1999), Fig. 3(A,B). Measured body-wave sequences before and after a central cut."
+   },
+   "cite": "Cacciatore et al. (2000); Yu et al. (1999)",
+   "moves": [
+    "distinction",
+    "integration",
+    "consequence",
+    "foundation"
+   ],
+   "integrates": [
+    5,
+    10,
+    13,
+    14,
+    15
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.20-04-01643.2000",
+    "10.1523/JNEUROSCI.19-11-04634.1999",
+    "10.1242/jeb.65.3.643"
+   ],
+   "transcript": [
+    "Slide 5 for crawling and slides 13 to 15 for swimming each cut one link between segments; placed side by side, they show two sufficient routes rather than one essential route.",
+    [
+     "The lesions spared opposite routes.",
+     [
+      "Cacciatore and colleagues cut peripheral roots in segments 7 to 12 and left the connectives; Yu and colleagues cut the connectives between M10 and M11 and left the body continuous.",
+      "Each surgery therefore tested whether the spared route could coordinate segments without the other."
+     ]
+    ],
+    [
+     "Sufficiency of each route implies redundancy.",
+     [
+      "Yu and colleagues conclude that intersegmental coordination can be achieved by sensory feedback alone, without the interactions conveyed by the nerve cord.",
+      "The cost of relying on one route shows up as a phase lag that grew from about 147 to about 170 degrees and a slower swim."
+     ]
+    ],
+    [
+     "Each route also supplies something the other lacks.",
+     [
+      "Kristan and Calabrese found that delay scaling with period, a feature of intact swimming, is missing from reduced cords, which points to the periphery for that adjustment.",
+      "Central connections, for their part, deliver tighter and faster coupling than the body can provide."
+     ]
+    ]
+   ],
+   "refs": [
+    "X. Yu; B. Nguyen; W. O. Friesen (1999). Sensory feedback can coordinate the swimming activity of the leech. Journal of Neuroscience 19(11):4634–4643. https://doi.org/10.1523/JNEUROSCI.19-11-04634.1999",
+    "T. W. Cacciatore; R. Rozenshteyn; W. B. Kristan Jr (2000). Kinematics and modeling of leech crawling: evidence for an oscillatory behavior produced by propagating waves of excitation. Journal of Neuroscience 20(4):1643–1655. https://doi.org/10.1523/JNEUROSCI.20-04-01643.2000",
+    "W. B. Kristan Jr; R. L. Calabrese (1976). Rhythmic swimming activity in neurones of the isolated nerve cord of the leech. Journal of Experimental Biology 65(3):643–668. https://doi.org/10.1242/jeb.65.3.643"
+   ]
+  },
+  {
+   "after": 18,
+   "footer_number": "18a",
+   "template_slide": 18,
+   "title": "Serotonin acts as a slow state signal, not a swim command",
+   "body": [
+    "Fast transmission carries a timed message between neurons within milliseconds. **Neuromodulation** instead changes how neurons respond, over seconds to minutes, by altering membrane and synaptic properties. Serotonin's effects on the leech cord belong to the second category: swimming became more likely and more persistent, while cycle timing still came from the swim generator.",
+    "Release from Retzius cells worked only when it could accumulate in a small volume, and exposing two ganglia altered activity throughout the cord, both features of a chemical that builds up and spreads rather than a signal aimed at single targets.",
+    "Serotonin in the blood sinus adds a hormone-like route that reaches every ganglion at once. Release from Retzius cells and circulating serotonin can therefore raise the readiness of the entire swim system together, so a stimulus that once evoked a single episode now evokes several."
+   ],
+   "figure": {
+    "from_slide": 18,
+    "picture": "Google Shape;248;p18",
+    "caption": "Willard (1981), Fig. 4. Retzius stimulation in a small chamber and resulting swim episodes."
+   },
+   "cite": "Willard (1981)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    16,
+    17,
+    18
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.01-09-00936.1981"
+   ],
+   "transcript": [
+    "Slides 16 to 18 present three serotonin experiments; the distinction between transmission and modulation ties them into one picture of what serotonin does to the swim system.",
+    [
+     "Two timescales of chemical signaling.",
+     [
+      "A transmitter that opens ion channels directly produces a postsynaptic response that starts and ends within milliseconds of each spike.",
+      "A modulator alters properties such as excitability and synaptic strength, so its influence outlasts any single spike and spans many cycles of a rhythm."
+     ]
+    ],
+    [
+     "The serotonin experiments carry the signature of modulation.",
+     [
+      "On slide 16, spontaneous swimming and extra episodes appeared under serotonin and disappeared after washout, without serotonin specifying when each burst occurred.",
+      "Slides 17 and 18 add that a restricted exposure and release into a small chamber were both enough to change the behavior of the cord."
+     ]
+    ],
+    [
+     "Two delivery routes converge on one effect.",
+     [
+      "Willard detected serotonin in the bathing solution after Retzius stimulation and also in the blood sinus surrounding the cord.",
+      "Local release and circulation can both raise serotonin around the ganglia, shifting the whole cord toward expressing the swim program."
+     ]
+    ]
+   ],
+   "refs": [
+    "A. L. Willard (1981). Effects of serotonin on the generation of the motor program for swimming by the medicinal leech. Journal of Neuroscience 1(9):936–944. https://doi.org/10.1523/JNEUROSCI.01-09-00936.1981"
+   ]
+  },
+  {
+   "after": 19,
+   "footer_number": "19a",
+   "template_slide": 19,
+   "title": "Voltage imaging records inhibition that calcium imaging misses",
+   "body": [
+    "Calcium indicators brighten mainly when spikes open voltage-gated calcium channels, so they register firing but miss small depolarizations and hyperpolarizations. A **voltage-sensitive dye** sits in the membrane and responds to voltage itself, reporting subthreshold excitation and inhibition as well as spikes.",
+    "Cell 257 was strongly hyperpolarized during swimming, and the inhibitors DI-1 and VI-2 were suppressed while DE-3 fired; such events involve no spikes, and a calcium signal would read them as silence. ",
+    "Voltage dyes follow membrane changes faster than calcium signals rise and decay, so they can resolve phase within a swim cycle lasting about a second. Ashaber and colleagues imaged both surfaces of a ganglion at once with a double-sided microscope and recorded 250 neurons simultaneously."
+   ],
+   "figure": {
+    "from_slide": 19,
+    "picture": "Google Shape;262;p19",
+    "caption": "Briggman & Kristan (2006), Fig. 1(D,E). Simultaneous optical and intracellular motor-cell signals."
+   },
+   "cite": "Briggman & Kristan (2006); Ashaber et al. (2021)",
+   "moves": [
+    "foundation",
+    "method_logic",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    19,
+    20,
+    25,
+    29,
+    36
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.3265-06.2006",
+    "10.7554/eLife.61881"
+   ],
+   "transcript": [
+    "Slide 19 calibrates the voltage-sensitive dye against intracellular recordings; the reason this dye, rather than a calcium indicator, was used explains what the later phase maps could capture.",
+    [
+     "Calcium and voltage report different events.",
+     [
+      "Calcium entry is tied mostly to action potentials, so a calcium indicator is a spike detector with slow kinetics.",
+      "Ashaber and colleagues chose a fast voltage dye because it captures both excitatory and inhibitory synaptic potentials that calcium imaging could not detect."
+     ]
+    ],
+    [
+     "Inhibition is central to the leech patterns.",
+     [
+      "The hyperpolarization of cell 257 on slide 25 and the suppression of inhibitory motor neurons during DE-3 bursts on slides 29 and 36 are all subthreshold events.",
+      "Coherence and phase on slide 20 depend on following each cell's voltage through the whole cycle, including its inhibited phase."
+     ]
+    ],
+    [
+     "Coverage and speed made population maps possible.",
+     [
+      "Briggman and Kristan recorded from about 80 percent of the roughly 400 neurons of a ganglion, which is how they counted swim and crawl participants.",
+      "The later double-sided imaging reached 250 neurons in one run, matching the scale of the earlier study."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. L. Briggman; W. B. Kristan Jr (2006). Imaging dedicated and multifunctional neural circuits generating distinct behaviors. Journal of Neuroscience 26(42):10925–10933. https://doi.org/10.1523/JNEUROSCI.3265-06.2006",
+    "M. Ashaber; Y. Tomina; P. Kassraian; E. A. Bushong; W. B. Kristan Jr; M. H. Ellisman; D. A. Wagenaar (2021). Anatomy and activity patterns in a multifunctional motor neuron and its surrounding circuits. eLife 10:e61881. https://doi.org/10.7554/eLife.61881"
+   ],
+   "paper_numbers": [
+    "250",
+    "80",
+    "400"
+   ]
+  },
+  {
+   "after": 22,
+   "footer_number": "22a",
+   "template_slide": 20,
+   "title": "One small ganglion reuses its neurons across behaviors",
+   "body": [
+    "A ganglion of about 400 neurons controls swimming, crawling and local bending. Reusing cells in different configurations allows this compact nervous system to produce several behaviors, an economy Ashaber and colleagues attribute to animals with limited neural hardware.",
+    "DE-3 marks the extent of reuse. In swimming it oscillates rapidly in antiphase with VE-4, producing dorsal flexion; in crawling it fires together with VE-4 to shorten the segment; in local bending it acts with its contralateral partner and VE-4 to bend the body wall away from a touch. One neuron serves three roles without rewiring.",
+    "Dedicated cells add what sharing cannot supply. Crawling recruits about twice as many cells as swimming, including circular-muscle excitors and interneurons such as cell 257 that serve elongation, a phase swimming lacks. Shared cells carry the common longitudinal machinery."
+   ],
+   "figure": {
+    "from_slide": 20,
+    "picture": "Google Shape;276;p20",
+    "caption": "Briggman & Kristan (2006), Fig. 2(A,B). Measured dorsal-surface phase maps for crawling and swimming."
+   },
+   "cite": "Briggman & Kristan (2006); Ashaber et al. (2021)",
+   "moves": [
+    "consequence",
+    "integration",
+    "distinction"
+   ],
+   "integrates": [
+    20,
+    21,
+    22,
+    23,
+    25,
+    45
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.3265-06.2006",
+    "10.7554/eLife.61881"
+   ],
+   "transcript": [
+    "Slides 20 to 22 count the cells active in each rhythm; what that overlap buys the animal, and what the remaining dedicated cells contribute, follows from the roles of individual motor neurons.",
+    [
+     "Multifunctionality is an economy.",
+     [
+      "Ashaber and colleagues observe that many circuits in central nervous systems control more than one behavior, and that this may help small animals use constrained neural hardware efficiently.",
+      "In the leech, each segmental ganglion of about 400 cells is responsible for at least three distinct movements."
+     ]
+    ],
+    [
+     "DE-3 plays three parts.",
+     [
+      "During swimming DE-3 alternates with the ventral excitor and controls the dorsal flexion phase; during crawling it is active with VE-4 and controls contraction.",
+      "During local bending it cooperates with its contralateral homolog and VE-4 to deform the body wall precisely, the reconfiguration slide 23 catches in the switch between cells 3 and 4."
+     ]
+    ],
+    [
+     "Dedicated cells supply behavior-specific phases.",
+     [
+      "Briggman and Kristan found more than twice as many crawl participants as swim participants, and CV, AE and cell 257 on slides 21 and 25 belong to the crawl-only group.",
+      "These cells serve circular-muscle elongation and annulus erection, actions with no counterpart in a swim stroke."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. L. Briggman; W. B. Kristan Jr (2006). Imaging dedicated and multifunctional neural circuits generating distinct behaviors. Journal of Neuroscience 26(42):10925–10933. https://doi.org/10.1523/JNEUROSCI.3265-06.2006",
+    "M. Ashaber; Y. Tomina; P. Kassraian; E. A. Bushong; W. B. Kristan Jr; M. H. Ellisman; D. A. Wagenaar (2021). Anatomy and activity patterns in a multifunctional motor neuron and its surrounding circuits. eLife 10:e61881. https://doi.org/10.7554/eLife.61881"
+   ],
+   "paper_numbers": [
+    "400"
+   ]
+  },
+  {
+   "after": 25,
+   "footer_number": "25a",
+   "template_slide": 24,
+   "title": "Correlation, sufficiency and necessity are separate tests",
+   "body": [
+    "Correlation means its activity rises and falls with the rhythm. Sufficiency means activating it alone can start or alter the behavior. Necessity means silencing it stops or changes the behavior. A **command neuron**, in the strict sense, passes both of the last two tests.",
+    "Cell 257 is correlated with crawling, yet neither depolarizing nor hyperpolarizing it changed either rhythm. Cell 255 is correlated with both rhythms and can perturb both. Cell 1 can lengthen the period of an isolated swim rhythm. R3b-1 is both sufficient and necessary for coordinated fictive crawling.",
+    "A failed necessity test often reflects distribution rather than irrelevance. Rhythms here arise from many interacting cells, so silencing one leaves others to carry the pattern. R3b-1 passes the test by occupying a bottleneck: one paired descending neuron carries a coordinating signal to every segment."
+   ],
+   "figure": {
+    "from_slide": 24,
+    "picture": "Google Shape;324;p24",
+    "caption": "Briggman & Kristan (2006), Fig. 7(A–E). Identified cell 255 morphology and recordings with perturbations."
+   },
+   "cite": "Briggman & Kristan (2006); Puhl et al. (2012)",
+   "moves": [
+    "distinction",
+    "method_logic",
+    "integration",
+    "mechanism"
+   ],
+   "integrates": [
+    12,
+    22,
+    24,
+    25,
+    40
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.3265-06.2006",
+    "10.1523/JNEUROSCI.2249-12.2012",
+    "10.1242/jeb.65.3.643"
+   ],
+   "transcript": [
+    "Slides 24 and 25 report opposite outcomes for two interneurons; sorting the deck's single-cell experiments by the kind of evidence they provide makes the difference interpretable.",
+    [
+     "Each test answers a different question.",
+     [
+      "Recording activity during a rhythm asks whether a cell takes part; injecting depolarizing current asks whether it can drive the behavior; injecting hyperpolarizing current asks whether the behavior survives without it.",
+      "Puhl and colleagues describe R3b-1 as a command neuron in the strictest sense because it passed both causal tests."
+     ]
+    ],
+    [
+     "The deck's cells span the scale.",
+     [
+      "Briggman and Kristan classify cell 255 as multifunctional because it oscillates with and can perturb both rhythms, and cell 257 as dedicated to crawling.",
+      "Kristan and Calabrese's cell 1 on slide 12 is evidence that even a motor neuron can act back on an isolated oscillator."
+     ]
+    ],
+    [
+     "Distributed circuits blunt single-cell silencing.",
+     [
+      "Imaging on slide 22 placed scores of cells in each rhythm, so removing one rarely removes a unique function.",
+      "A descending neuron whose single axon projects through every ganglion is different, since its signal has no parallel carrier once its partner is excluded."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. L. Briggman; W. B. Kristan Jr (2006). Imaging dedicated and multifunctional neural circuits generating distinct behaviors. Journal of Neuroscience 26(42):10925–10933. https://doi.org/10.1523/JNEUROSCI.3265-06.2006",
+    "J. G. Puhl; M. A. Masino; K. A. Mesce (2012). Necessary, sufficient and permissive: a single locomotor command neuron important for intersegmental coordination. Journal of Neuroscience 32(49):17646–17657. https://doi.org/10.1523/JNEUROSCI.2249-12.2012",
+    "W. B. Kristan Jr; R. L. Calabrese (1976). Rhythmic swimming activity in neurones of the isolated nerve cord of the leech. Journal of Experimental Biology 65(3):643–668. https://doi.org/10.1242/jeb.65.3.643"
+   ]
+  },
+  {
+   "after": 28,
+   "footer_number": "28a",
+   "template_slide": 28,
+   "title": "A half-center model explains alternation within one ganglion",
+   "body": [
+    "Locomotion in segmented animals is thought to arise from coupled **unit burst generators**, rhythmic modules that each drive one segment. In the leech crawl, that module is the single ganglion.",
+    "A common proposal for how a module alternates is the **half-center oscillator**: two groups of neurons, one exciting elongation motor neurons such as CV and the other exciting contraction motor neurons such as DE-3 and VE-4, inhibit each other. While one group fires it holds the other silent; as its drive fades, the suppressed group escapes and takes over, producing antiphase bursts.",
+    "Premotor nonspiking (NS) neurons link motor neurons to this generator, and strongly hyperpolarizing one NS neuron stops an isolated ganglion's rhythm. The generator also inhibits touch cells in phase with each DE-3 burst, a corollary discharge telling sensory neurons that contraction is under way."
+   ],
+   "figure": {
+    "from_slide": 28,
+    "picture": "Google Shape;376;p28",
+    "caption": "Puhl & Mesce (2008), Fig. 3(A–C). Identified excitatory motor-cell activity in isolated ganglia."
+   },
+   "cite": "Puhl & Mesce (2008); Kearney et al. (2022)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration"
+   ],
+   "integrates": [
+    27,
+    28,
+    29,
+    43
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.0136-08.2008",
+    "10.3389/fncir.2022.843731",
+    "10.1523/JNEUROSCI.20-04-01643.2000"
+   ],
+   "transcript": [
+    "Slide 28 places a complete crawl generator in each ganglion; the concepts used to describe such generators explain how one ganglion could alternate two antagonistic phases.",
+    [
+     "Segmented locomotion is built from modules.",
+     [
+      "Puhl and Mesce frame their work around the idea of unit burst generators coupled along the body, a scheme whose biological basis had been revealed in only a few animals.",
+      "Their finding that every isolated ganglion could produce dopamine-induced crawling identifies the leech module."
+     ]
+    ],
+    [
+     "Mutual inhibition produces alternation.",
+     [
+      "Kearney and colleagues summarize earlier proposals that crawling is controlled by a half-center oscillator, two neuron groups driving the elongation and contraction motor neurons.",
+      "The antiphase of CV with DE-3 and VE-4 on slide 27, and of the inhibitors with DE-3 on slide 29, is the output such an oscillator should produce."
+     ]
+    ],
+    [
+     "Other cells tap into the generator.",
+     [
+      "Hyperpolarizing an NS neuron with a strong pulse abolished both the DE-3 bursts and the rhythmic inhibition of touch cells, evidence that NS reaches the generator itself rather than only the motor neurons.",
+      "An internal copy of the motor command sent to sensory neurons allows the ganglion to distinguish its own movement from external touch."
+     ]
+    ]
+   ],
+   "refs": [
+    "J. G. Puhl; K. A. Mesce (2008). Dopamine activates the motor pattern for crawling in the medicinal leech. Journal of Neuroscience 28(16):4192–4200. https://doi.org/10.1523/JNEUROSCI.0136-08.2008",
+    "G. Kearney; M. Radice; A. Sanchez Merlinsky; L. Szczupak (2022). Intersegmental interactions give rise to a global network. Frontiers in Neural Circuits 16:843731. https://doi.org/10.3389/fncir.2022.843731"
+   ]
+  },
+  {
+   "after": 35,
+   "footer_number": "35a",
+   "template_slide": 33,
+   "title": "Separate currents set when a crawl burst starts and stops",
+   "body": [
+    "A rhythmic burst needs processes that start, sustain and end depolarization. A persistent sodium current suits the first two roles: once it activates near threshold, its inward flow depolarizes the membrane further, which keeps more channels open and supports a plateau lasting seconds on which spikes ride.",
+    "Outward potassium current that grows during the plateau pulls the membrane back toward rest, and the burst ends when outward current outweighs inward. The pharmacology fits this division: riluzole removed bursts but not single spikes, clotrimazole stretched bursts to about 13.5 s with a period still near 20 s, and nickel replacing calcium left the timing intact.",
+    "Separate control of onset and termination gives the crawl circuit two adjustable dimensions: inward drive sets whether and how often bursts occur, and termination sets how much of each cycle is spent contracting."
+   ],
+   "figure": {
+    "from_slide": 33,
+    "picture": "Google Shape;446;p33",
+    "caption": "Crisp et al. (2012), Fig. 2(A–C). IBMX-induced bursts, riluzole blockade and washout recovery."
+   },
+   "cite": "Crisp et al. (2012)",
+   "moves": [
+    "foundation",
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    4,
+    31,
+    33,
+    34,
+    35
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.069245"
+   ],
+   "transcript": [
+    "Slides 31 to 35 test one drug or ion substitution at a time; combined, they outline a burst mechanism with a sodium-dependent start and a potassium-dependent end.",
+    [
+     "Positive feedback sustains the plateau.",
+     [
+      "A persistent sodium current does not inactivate quickly, so depolarization that opens it is reinforced for as long as the membrane stays depolarized.",
+      "Crisp and colleagues suggest that phosphodiesterase inhibitors and dopamine activate a sodium-influx-dependent timing mechanism capable of setting the crawl rhythm."
+     ]
+    ],
+    [
+     "Outward current terminates the burst.",
+     [
+      "Clotrimazole on slide 35 blocks intermediate-conductance calcium-dependent potassium channels, and with that outward current reduced, bursts lasted far longer while cycles kept roughly the same length.",
+      "Riluzole on slide 33 had the complementary effect, abolishing rhythmic bursting while leaving impulse generation intact."
+     ]
+    ],
+    [
+     "Calcium entry is not the timer.",
+     [
+      "Bursting persisted when cobalt or nickel replaced calcium, as slide 34 reports, which points away from calcium influx as the rhythm-setting step.",
+      "The remaining candidates, sodium entry and potassium exit, match the riluzole and clotrimazole results."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. M. Crisp; B. R. Gallagher; K. A. Mesce (2012). Mechanisms contributing to the dopamine induction of crawl-like bursting in leech motoneurons. Journal of Experimental Biology 215(17):3028–3036. https://doi.org/10.1242/jeb.069245"
+   ]
+  },
+  {
+   "after": 37,
+   "footer_number": "37a",
+   "template_slide": 37,
+   "title": "Rebound from inhibition can place CV in the elongation phase",
+   "body": [
+    "During dopamine-induced crawling, CV is hyperpolarized while DE-3 bursts and fires once contraction ends. **Post-inhibitory rebound** can time that firing: when inhibition lifts, channels that recovered during hyperpolarization carry inward current that briefly drives the cell above threshold.",
+    "Dopamine's effects would sharpen this switch. A taller rebound peak makes CV fire promptly as inhibition lifts, while a shorter rebound and stronger afterhyperpolarization end its burst before the following contraction. With lower excitability to steady current, CV fires mainly on release from inhibition.",
+    "Phosphodiesterase inhibitors raised resting discharge instead, and CV fired with DE-3. Correct crawl patterning therefore depends on dopamine acting on motor-neuron membranes as well as on the rhythm-setting route."
+   ],
+   "figure": {
+    "from_slide": 37,
+    "picture": "Google Shape;502;p37",
+    "caption": "Crisp et al. (2012), Fig. 4(A,B). Current pulses and rebound responses in CV and AE."
+   },
+   "cite": "Crisp et al. (2012); Puhl & Mesce (2008)",
+   "moves": [
+    "mechanism",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    27,
+    36,
+    37,
+    38
+   ],
+   "cited_papers_used": [
+    "10.1242/jeb.069245",
+    "10.1523/JNEUROSCI.0136-08.2008"
+   ],
+   "transcript": [
+    "Slide 27 gives CV's phase during normal fictive crawling, slide 36 reports that phase lost under IBMX, and slides 37 and 38 show what dopamine does to CV's membrane; together they suggest how CV is timed.",
+    [
+     "CV's timing follows inhibition.",
+     [
+      "Puhl and Mesce recorded a hyperpolarization of a few millivolts in CV during each DE-3 burst, with CV firing in the opposite half of the cycle.",
+      "A neuron that fires as soon as inhibition ends will automatically sit in the phase after contraction, which is elongation."
+     ]
+    ],
+    [
+     "Dopamine tunes the rebound.",
+     [
+      "With dopamine present, CV's rebound after a current pulse peaked higher but lasted less time, followed by a deeper afterhyperpolarization.",
+      "A brief, strong rebound produces a well-timed burst that does not spill into the following contraction."
+     ]
+    ],
+    [
+     "The PDI comparison supports the idea.",
+     [
+      "Crisp and colleagues report that dopamine lowered motoneuron excitability, whereas phosphodiesterase inhibitors increased resting discharge rates.",
+      "They propose that multiple dopamine receptor subtypes shape the phase relationships and membrane properties of particular crawl neurons, which would explain why CV's phase is restored only by dopamine."
+     ]
+    ]
+   ],
+   "refs": [
+    "K. M. Crisp; B. R. Gallagher; K. A. Mesce (2012). Mechanisms contributing to the dopamine induction of crawl-like bursting in leech motoneurons. Journal of Experimental Biology 215(17):3028–3036. https://doi.org/10.1242/jeb.069245",
+    "J. G. Puhl; K. A. Mesce (2008). Dopamine activates the motor pattern for crawling in the medicinal leech. Journal of Neuroscience 28(16):4192–4200. https://doi.org/10.1523/JNEUROSCI.0136-08.2008"
+   ]
+  },
+  {
+   "after": 41,
+   "footer_number": "41a",
+   "template_slide": 39,
+   "title": "Dopamine decides which program R3b-1 commands",
+   "body": [
+    "R3b-1 was first known as a neuron whose stimulation could start swimming. After the nervous system was exposed to dopamine, stimulating it produced crawling only. The same descending cell, reaching the same segmental ganglia, elicits different behaviors depending on the chemical state of the cord.",
+    "Dopamine acts at both ends of this pathway. In the segmental ganglia it activates the crawl generators, as the single-ganglion experiments revealed. In R3b-1 itself, dopamine induced bursting at crawl-like periods even after ascending input from the crawl oscillators was removed, so the command neuron's own firing pattern is matched to crawling.",
+    "Such a context signal allows one descending pathway to start locomotion while the modulatory state chooses the gait. Serotonin's promotion of swimming and dopamine's promotion of crawling fit this arrangement, with each amine biasing the shared segmental circuits toward one program."
+   ],
+   "figure": {
+    "from_slide": 39,
+    "picture": "Google Shape;530;p39",
+    "caption": "Puhl et al. (2012), Fig. 2(B). Confocal anatomy of the identified descending R3b-1 neuron."
+   },
+   "cite": "Puhl et al. (2012); Puhl & Mesce (2008)",
+   "moves": [
+    "consequence",
+    "integration",
+    "mechanism",
+    "distinction"
+   ],
+   "integrates": [
+    16,
+    26,
+    28,
+    39,
+    40,
+    41
+   ],
+   "cited_papers_used": [
+    "10.1523/JNEUROSCI.2249-12.2012",
+    "10.1523/JNEUROSCI.0136-08.2008",
+    "10.1523/JNEUROSCI.01-09-00936.1981"
+   ],
+   "transcript": [
+    "Slides 39 to 41 study R3b-1 in dopamine-treated cords; the paper's broader findings explain why the dopamine context matters for what this command neuron does.",
+    [
+     "One neuron, two behaviors.",
+     [
+      "Puhl and colleagues report that R3b-1 had previously been shown to activate swimming, but with dopamine present crawling became the exclusive locomotor pattern it produced.",
+      "The neuron therefore does not encode a single movement; it activates whichever program the state of the cord favors."
+     ]
+    ],
+    [
+     "Dopamine shapes the command neuron as well as its targets.",
+     [
+      "Dopamine exposure produced bursting in R3b-1 with periods matching fictive crawling, even when ascending inputs from crawl oscillators were removed.",
+      "Its targets, the segmental crawl generators of slide 28, are activated by dopamine independently of any descending input."
+     ]
+    ],
+    [
+     "Amines act as internal context.",
+     [
+      "The authors describe dopamine as an internal contextual cue that integrates functional layers of the nervous system for adaptive behavior.",
+      "Serotonin's effect on swim readiness on slide 16 is the counterpart for the other gait."
+     ]
+    ]
+   ],
+   "refs": [
+    "J. G. Puhl; M. A. Masino; K. A. Mesce (2012). Necessary, sufficient and permissive: a single locomotor command neuron important for intersegmental coordination. Journal of Neuroscience 32(49):17646–17657. https://doi.org/10.1523/JNEUROSCI.2249-12.2012",
+    "J. G. Puhl; K. A. Mesce (2008). Dopamine activates the motor pattern for crawling in the medicinal leech. Journal of Neuroscience 28(16):4192–4200. https://doi.org/10.1523/JNEUROSCI.0136-08.2008",
+    "A. L. Willard (1981). Effects of serotonin on the generation of the motor program for swimming by the medicinal leech. Journal of Neuroscience 1(9):936–944. https://doi.org/10.1523/JNEUROSCI.01-09-00936.1981"
+   ]
+  },
+  {
+   "after": 43,
+   "footer_number": "43a",
+   "template_slide": 43,
+   "title": "Coupled ganglia resist perturbations that stop a lone ganglion",
+   "body": [
+    "A strong hyperpolarizing pulse in one premotor NS neuron abolished the crawl rhythm of an isolated ganglion. In the middle ganglion of a three-ganglion chain, the same pulse only slowed the cycle to about 80% of control.",
+    "Were each ganglion an autonomous oscillator kept in step by an outside signal, the pulse should have stopped that ganglion alone. Instead its neighbors held it in the rhythm. The chain behaves as one **global network**: interactions among adjacent generators reduce the independence of each module, so the whole absorbs a local disturbance.",
+    "The NS pulse still cut DE-3 firing in the middle ganglion to about 30% of control and weakened firing in neighboring ganglia, so the premotor neuron kept its hold on motor output while losing control of the rhythm. A global network keeps segments stepping together when one segment receives disruptive input."
+   ],
+   "figure": {
+    "from_slide": 43,
+    "picture": "Google Shape;578;p43",
+    "caption": "Kearney et al. (2022), Fig. 3(A–D). Measured chain activity and scrambled-recording comparisons."
+   },
+   "cite": "Kearney et al. (2022)",
+   "moves": [
+    "method_logic",
+    "mechanism",
+    "consequence",
+    "integration"
+   ],
+   "integrates": [
+    28,
+    40,
+    43
+   ],
+   "cited_papers_used": [
+    "10.3389/fncir.2022.843731",
+    "10.1523/JNEUROSCI.0136-08.2008"
+   ],
+   "transcript": [
+    "On slide 43 a three-ganglion chain coordinates without the brain; the paper's perturbation experiment reveals how strongly the chained generators bind together.",
+    [
+     "The test compares a lone ganglion with a chained one.",
+     [
+      "In isolated ganglia, moderate NS hyperpolarization slows the crawl pattern and a pulse of about minus 5 nA shuts it down completely, which also silenced the rhythmic inhibition of touch cells.",
+      "Applied in the middle of a chain, the same pulse left the pattern clearly present, and minus 10 nA did no further damage."
+     ]
+    ],
+    [
+     "The result rules out a set of independent modules.",
+     [
+      "Kearney and colleagues reason that coordination by an element outside the generators would have allowed the local perturbation to prevail.",
+      "The loss of local power instead implies that coupling among neighboring generators makes the system refractory to local perturbation."
+     ]
+    ],
+    [
+     "Motor output and rhythm separate.",
+     [
+      "NS kept its strong local effect on DE-3 firing and spread a weaker effect to neighboring ganglia, consistent with a cord-spanning excitatory pathway that NS can inhibit.",
+      "Its influence on the generator itself, so decisive on slide 28's single ganglion, was largely overruled by the neighbors."
+     ]
+    ]
+   ],
+   "refs": [
+    "G. Kearney; M. Radice; A. Sanchez Merlinsky; L. Szczupak (2022). Intersegmental interactions give rise to a global network. Frontiers in Neural Circuits 16:843731. https://doi.org/10.3389/fncir.2022.843731",
+    "J. G. Puhl; K. A. Mesce (2008). Dopamine activates the motor pattern for crawling in the medicinal leech. Journal of Neuroscience 28(16):4192–4200. https://doi.org/10.1523/JNEUROSCI.0136-08.2008"
+   ],
+   "paper_numbers": [
+    "80",
+    "30",
+    "5",
+    "10"
+   ]
+  },
+  {
+   "after": 45,
+   "footer_number": "45a",
+   "template_slide": 44,
+   "title": "DE-3 groups synchronized inputs differently for each behavior",
+   "body": [
+    "Lacking large-scale segregation on DE-3, Ashaber and colleagues identified clusters of neighboring synapses and asked whether each cluster's partners were active at similar phases. Most clusters combined several partners.",
+    "Spatial and functional clusters matched for both rhythms, but at different scales. During swimming, synchronized synapses formed clusters extending about 61 to 65 μm along the neurite; during crawling, the best-matching clusters spanned only about 14 to 18 μm. The same synapses group into different assemblies depending on which partners fire together.",
+    "Neighboring synapses activated together can sum more effectively than scattered ones, and branches can act as separate integrating compartments. DE-3 can thus read swimming and crawling from one fixed arbor through the pattern of synchrony among its partners, a pattern set by the premotor network."
+   ],
+   "figure": {
+    "from_slide": 44,
+    "picture": "Google Shape;592;p44",
+    "caption": "Ashaber et al. (2021), Fig. 6(a–d). Electron-microscopic neurites and synaptic contacts onto DE-3."
+   },
+   "cite": "Ashaber et al. (2021)",
+   "moves": [
+    "mechanism",
+    "foundation",
+    "integration",
+    "consequence"
+   ],
+   "integrates": [
+    22,
+    23,
+    44,
+    45
+   ],
+   "cited_papers_used": [
+    "10.7554/eLife.61881"
+   ],
+   "transcript": [
+    "Slides 44 and 45 reconstruct DE-3 and find no large swim or crawl territories on its arbor; the paper's clustering analysis looks for organization at the scale of a few micrometers.",
+    [
+     "The search moved to small clusters.",
+     [
+      "The algorithm grouped synapses whose nearest neighbors lay within a set distance and whose overall extent stayed below a set limit, and then asked whether each group's partners shared a phase.",
+      "Most groups contained synapses from more than one partner, so clusters combine inputs from different cells."
+     ]
+    ],
+    [
+     "Behavior changes the scale of synchrony.",
+     [
+      "The strongest correspondence between spatial and functional clusters occurred at an extent near 61 to 65 micrometers for swim trials and near 14 to 18 micrometers for crawl trials.",
+      "Synchronization extended over longer stretches of neurite during swimming than during crawling, within one unchanged anatomy."
+     ]
+    ],
+    [
+     "Dendritic integration links clusters to output.",
+     [
+      "Ashaber and colleagues cite work in which branches act as integrative compartments and clustered inputs promote nonlinear integration.",
+      "An attractive interpretation in the paper is that clusters are the loci where inputs from synchronized presynaptic assemblies are integrated, the same assemblies whose timing changes at the switch on slide 23."
+     ]
+    ]
+   ],
+   "refs": [
+    "M. Ashaber; Y. Tomina; P. Kassraian; E. A. Bushong; W. B. Kristan Jr; M. H. Ellisman; D. A. Wagenaar (2021). Anatomy and activity patterns in a multifunctional motor neuron and its surrounding circuits. eLife 10:e61881. https://doi.org/10.7554/eLife.61881"
+   ],
+   "paper_numbers": [
+    "61",
+    "65",
+    "14",
+    "18"
+   ]
+  }
+ ],
+ "original_edits": [
+  {
+   "slide": 2,
+   "old": "A central pattern generator, or CPG, is a neural circuit capable of producing a patterned rhythm without requiring rhythmic sensory input. Central generation does not imply that sensory feedback, descending signals, or the mechanical environment are irrelevant to the realized movement.",
+   "new": "A central pattern generator, or CPG, is a neural circuit capable of producing a patterned rhythm without requiring rhythmic sensory input. Both leech rhythms persist in the isolated nerve cord, and most neurons that oscillate with swimming also oscillate with crawling."
+  },
+  {
+   "slide": 3,
+   "old": "The preparation connects whole-animal movement to regional timing. Marker displacement measures body deformation, not motor-neuron firing. The investigators excluded searching movements, so these results characterize stereotyped steps on a smooth surface rather than every possible form of crawling.",
+   "new": "The preparation connects whole-animal movement to regional timing. Applying the same marker analysis to surgically altered animals, the investigators found that crawling steps continued after removal of both the head and tail brains, placing a step generator in the midbody ganglia."
+  },
+  {
+   "slide": 4,
+   "old": "These observations constrain a neural explanation of crawling to account for regional timing and variable step duration. The recorded waves are behavioral data. The paper’s proposed excitation-chain model is an explanatory construction and does not establish that its specific simulated neurons exist in the leech.",
+   "new": "These observations constrain a neural explanation of crawling to account for regional timing and variable step duration. Within each segment, the rates of elongation and contraction stayed relatively constant from step to step; slower steps arose mainly from longer delays between segments."
+  },
+  {
+   "slide": 5,
+   "old": "Central communication can therefore coordinate crawl timing across a region deprived of its normal peripheral loop. This result does not establish that sensory feedback has no role in intact crawling, and it does not identify the central neurons that carry coordination across the lesion.",
+   "new": "Central communication can therefore coordinate crawl timing across a region deprived of its normal peripheral loop. Sensory pathways still feed back onto the crawl generator: imposing stretch on the body greatly lengthened the transition between elongation and contraction."
+  },
+  {
+   "slide": 6,
+   "old": "The persistence of patterned activity without the peripheral body establishes a central source for the basic swim rhythm. It does not establish normal propulsion, intact sensory calibration, or a particular identified pacemaker neuron. A motor program recorded without the corresponding movement is called fictive locomotion.",
+   "new": "The persistence of patterned activity without the peripheral body establishes a central source for the basic swim rhythm. A motor program recorded without the corresponding movement is called fictive locomotion. The 10–20 Hz stimulus contains no swim-frequency rhythm, so the bursts that follow it are timed by the cord itself."
+  },
+  {
+   "slide": 7,
+   "old": "The within-preparation comparison strengthens the interpretation that central circuitry can generate the alternating pattern. It also reveals why preserving a recognizable rhythm is different from preserving every aspect of normal timing. Peripheral removal can alter phase relationships even when the central oscillation remains active.",
+   "new": "The within-preparation comparison strengthens the interpretation that central circuitry can generate the alternating pattern. Each cord serves as its own control, so differences between animals, electrode placement or nerve identity cannot account for what changed after isolation."
+  },
+  {
+   "slide": 8,
+   "old": "An excitor is a motor neuron whose output promotes contraction of its target muscle. The agreement between nerve timing and tension links the electrical pattern to the expected motor action. It does not make an isolated nerve recording a direct measure of swimming thrust or whole-animal displacement.",
+   "new": "An excitor is a motor neuron whose output promotes contraction of its target muscle. Alternating dorsal and ventral tension in each segment bends the body up and down, and the rearward delay between segments turns those bends into the traveling wave that propels the leech."
+  },
+  {
+   "slide": 9,
+   "old": "Central rhythm production and normal phase calibration are separate properties. The study supports a contribution of peripheral input to the timing relationships expressed during swimming. Isolation does not force every preparation into an identical state, and the comparisons do not identify a single receptor or synaptic connection responsible for the change.",
+   "new": "Central rhythm production and normal phase calibration are separate properties. Kristan and Calabrese concluded that sensory input determines the phasing of dorsal and ventral motor bursts. The body wall therefore tunes when each muscle group contracts within a cycle that the cord itself produces."
+  },
+  {
+   "slide": 10,
+   "old": "A chain of centrally coupled neurons can generate directional timing without recreating the complete intact body wave. Peripheral feedback can adjust the relationship between propagation and period. The preparation comparison supports that contribution, but differences in movement and nerve-recording measures also limit a direct numerical equivalence.",
+   "new": "A chain of centrally coupled neurons can generate directional timing without recreating the complete intact body wave. In intact swimmers, delay grows with cycle period, keeping the phase lag per segment nearly constant. Kristan and Calabrese proposed that feedback matches delay to period so the body keeps the same shape at every swimming speed."
+  },
+  {
+   "slide": 11,
+   "old": "Feedback can alter both the motor output and, under reduced conditions, the rhythm-generating network. The experiment does not establish one uniform effect of stretch under every condition. The remaining innervation and the extent of peripheral removal determine which feedback pathways can influence the rhythm.",
+   "new": "Feedback can alter both the motor output and, under reduced conditions, the rhythm-generating network. Prolonging the dorsal-excitor burst when the dorsal wall is stretched works as a resistance reflex: the lengthened muscle receives more excitation and contracts against the imposed stretch."
+  },
+  {
+   "slide": 12,
+   "old": "The effect is specific evidence that cell 1 can influence the isolated oscillator, rather than proof that every motor neuron is a rhythm generator. The same manipulation did not reset period in the semi-intact preparation. Network state and peripheral input therefore constrain the behavioral significance of this feedback route.",
+   "new": "Cell 1 can influence the isolated oscillator, so a motor neuron is not only an output of the swim circuit but can also act back on rhythm generation. Stretching the body wall produced the same pattern of effects, suggesting that cell 1 and stretch input converge on a common route into the oscillator."
+  },
+  {
+   "slide": 13,
+   "old": "This design tests whether coordination can cross a central interruption through routes associated with the moving body. It does not isolate one stretch receptor or one reflex pathway. The implanted signals provide direct motor timing while the behavioral records establish whether the body remained coordinated.",
+   "new": "This design tests whether coordination can cross a central interruption through routes associated with the moving body. Earlier work had concluded that sensory feedback could not coordinate leech swimming; recording motor neurons in animals still able to swim put that conclusion to a direct test."
+  },
+  {
+   "slide": 14,
+   "old": "A continuous body provides a route through which movement-dependent feedback can coordinate separated central regions. The result supports peripheral coordination when direct central communication is interrupted. It does not imply that the intact animal normally dispenses with central intersegmental connections.",
+   "new": "A continuous body provides a route through which movement-dependent feedback can coordinate separated central regions. When the investigators later cut the animals into anterior and posterior halves, the coordinated wave disappeared, so the shared body carried the coupling."
+  },
+  {
+   "slide": 15,
+   "old": "The combined electrical and behavioral evidence supports feedback-dependent coupling between disconnected central regions. It does not establish that muscles alone transmit the signal without sensory neurons. The relevant peripheral route includes body mechanics and the return of movement-related information to each remaining neural circuit.",
+   "new": "The combined electrical and behavioral evidence supports feedback-dependent coupling between disconnected central regions. Yu and colleagues concluded that sensory feedback alone can coordinate swimming. Each cord region still generates its own rhythm, while signals returning from the moving body align the regions with one another."
+  },
+  {
+   "slide": 16,
+   "old": "Serotonin changes the likelihood that a patterned program is expressed, rather than supplying a sequence of timed muscle commands. This pharmacology does not establish a particular serotonin receptor subtype or ion-channel target. The central circuit still supplies the rhythm once the modulated state permits its expression.",
+   "new": "Serotonin changes the likelihood that a patterned program is expressed, rather than supplying a sequence of timed muscle commands. The central circuit still supplies the rhythm once the modulated state permits its expression. A leech with more serotonin acting on its cord is therefore readier to swim when stimulated."
+  },
+  {
+   "slide": 17,
+   "old": "A local modulatory action can recruit a distributed motor circuit. The experiment does not establish that the two exposed ganglia contain the sole rhythm-generating kernel. The effect depends on their access to other ganglia, and crushing a connective interrupts many axons rather than a single identified pathway.",
+   "new": "A local modulatory action can recruit a distributed motor circuit. Raising serotonin in only part of the cord was enough to put the whole swim system into an active state, so modulation need not reach every ganglion directly for the animal to swim."
+  },
+  {
+   "slide": 18,
+   "old": "The results link an identified serotonergic source with circuit modulation and chemical release. They do not prove that Retzius cells provide all serotonin acting during intact swimming. Willard also found serotonin in the blood sinus surrounding the cord, indicating that neuronal and circulating access must be distinguished.",
+   "new": "The results link an identified serotonergic source with circuit modulation and chemical release. Willard also found serotonin in the blood sinus surrounding the cord, so serotonin can reach swim circuits both from nearby Retzius terminals and as a circulating signal."
+  },
+  {
+   "slide": 19,
+   "old": "The calibration supports interpreting optical fluctuations as neuronal activity rather than assuming every fluorescence change is a spike. Dye kinetics introduce a temporal lag, and the optical sampling was slower than the electrical recording. Phase-associated imaging is therefore evidence about population dynamics, not a substitute for every intracellular waveform.",
+   "new": "The calibration supports interpreting optical fluctuations as neuronal activity rather than assuming every fluorescence change is a spike. Dye in every cell body allowed Briggman and Kristan to record from about 80% of the roughly 400 neurons in the ganglion, so participation in both rhythms could be measured across a whole population at once."
+  },
+  {
+   "slide": 20,
+   "old": "A cell’s participation in both rhythms does not imply that it serves the same functional role in each. Phase maps constrain which neurons are candidates for shared circuitry. They do not establish the direction or transmitter of a connection, which requires additional anatomical or physiological evidence.",
+   "new": "A cell’s participation in both rhythms is compatible with a different functional role in each. A neuron whose phase relative to the reference motor neuron moves between behaviors has changed its timing partners, the signature of a reconfigured circuit."
+  },
+  {
+   "slide": 21,
+   "old": "Shared muscle and neural resources coexist with selectively participating cells. The absence of a coherent swim oscillation in these records does not mean that a neuron is permanently silent or incapable of responding to another stimulus. It specifies its recorded contribution under the elicited motor conditions.",
+   "new": "Shared muscle and neural resources coexist with selectively participating cells. Circular-muscle excitors such as CV drive elongation, a phase that crawling needs and swimming lacks, so their selective participation follows from the mechanics of each behavior."
+  },
+  {
+   "slide": 22,
+   "old": "The numerical overlap describes recorded rhythmic participation, not proof that every participating neuron generates the rhythm. Some cells may receive the pattern rather than construct it. Nevertheless, the data reject a simple account in which the two behaviors use entirely separate, nonoverlapping neuronal populations.",
+   "new": "Swimming and crawling are therefore generated by a mixture of multifunctional and dedicated circuitry. The phase maps also pointed to unidentified interneurons with distinctive activity, and Briggman and Kristan selected two of them, cells 255 and 257, for intracellular study."
+  },
+  {
+   "slide": 23,
+   "old": "The shared circuit can express alternative dynamical configurations through changes in active interactions and input. The recordings establish rapid reorganization but do not identify its complete molecular trigger. Structural overlap permits flexible use of the same cells; it does not by itself specify the mechanism selecting one motor pattern.",
+   "new": "The shared circuit can express alternative dynamical configurations through changes in active interactions and input. Cells 3 and 4 are the dorsal and ventral longitudinal excitors DE-3 and VE-4, so their change from synchrony to alternation converts whole-body shortening into the up-and-down bending of a swim stroke."
+  },
+  {
+   "slide": 24,
+   "old": "Current injection supplies causal evidence beyond correlation with a rhythm. The phase specificity argues that the effect depends on the current circuit state. The absence of a consistent effect from hyperpolarizing the cell prevents treating this experiment as proof that cell 255 alone is necessary for either rhythm.",
+   "new": "Current injection supplies causal evidence beyond correlation with a rhythm. The phase specificity argues that the effect depends on the current circuit state. Briggman and Kristan therefore classified cell 255 as a multifunctional interneuron that oscillates with, and can perturb, both rhythms."
+  },
+  {
+   "slide": 25,
+   "old": "This pattern supports selectively crawl-associated participation. Depolarizing or hyperpolarizing a single cell 257 did not consistently perturb either rhythm, so participation does not establish an initiating or indispensable role. The distinction between observing a cell’s phase and causally controlling the pattern is essential to interpreting population maps.",
+   "new": "This pattern supports selectively crawl-associated participation. Strong hyperpolarization during swimming means the active swim network suppresses cell 257, so this crawl-dedicated interneuron is held silent rather than merely left unexcited while the leech swims."
+  },
+  {
+   "slide": 26,
+   "old": "Dopamine is sufficient to make a crawl-like motor program available in this preparation. The result is not a measurement of natural dopamine concentration at each receptor or proof that dopamine alone determines intact behavioral choice. Local pattern activation and intersegmental coordination remain distinguishable outcomes.",
+   "new": "Dopamine is sufficient to make a crawl-like motor program available in this preparation. Puhl and Mesce found that every isolated ganglion of the CNS was competent to produce dopamine-induced crawling, typically uninterrupted for 5–15 min, so crawl generators are distributed along the entire cord."
+  },
+  {
+   "slide": 27,
+   "old": "Correct muscle-group phasing is stronger evidence for a crawl program than a slow DE-3 burst alone. The recordings establish patterned excitation and suppression in the motor outputs. They do not identify every interneuron that imposes the phase relationships or directly measure the resulting muscle force.",
+   "new": "Correct muscle-group phasing is stronger evidence for a crawl program than a slow DE-3 burst alone. CV firing while the longitudinal excitors are silent makes circular muscles squeeze and lengthen the segment, and the following longitudinal burst shortens it, giving one elongation and one contraction per cycle."
+  },
+  {
+   "slide": 28,
+   "old": "A segmental ganglion contains circuitry sufficient for local crawl-like pattern production under these conditions. A single ganglion cannot establish a full front-to-back behavioral sequence by itself. Local rhythm-generating capacity therefore does not settle how the intact cord coordinates segments or chooses the next movement.",
+   "new": "A segmental ganglion contains circuitry sufficient for local crawl-like pattern production under these conditions. Single ganglia and whole cords bursting with similar periods near 15 s indicates that each cycle is timed within the ganglion rather than by signals from other segments."
+  },
+  {
+   "slide": 29,
+   "old": "An inhibitory postsynaptic potential is a synaptic voltage change that reduces the likelihood of firing in the receiving neuron. These recordings support coordinated inhibitory and excitatory contributions to alternating movement phases. The experiment does not assign a transmitter or receptor subtype solely from the direction of the voltage change.",
+   "new": "An inhibitory postsynaptic potential is a synaptic voltage change that reduces the likelihood of firing in the receiving neuron. Inhibitory motor neurons act at two levels: at the muscle they relax longitudinal fibers, and within the ganglion VI-2 suppresses VE-4, so contraction is curtailed both peripherally and centrally."
+  },
+  {
+   "slide": 30,
+   "old": "A duty cycle is the fraction of a repeating cycle occupied by a defined active phase. Comparable duty cycles support a shared pattern, but slower fictive periods limit equivalence with intact movement. The reduced preparation exposes central activity without recreating every sensory, mechanical, or motivational condition of natural crawling.",
+   "new": "A duty cycle is the fraction of a repeating cycle occupied by a defined active phase. Similar duty cycles across whole cords, single ganglia and spontaneous fictive crawling indicate that dopamine engages the motor program the nervous system uses on its own, rather than an artificial drug rhythm."
+  },
+  {
+   "slide": 31,
+   "old": "The control supports an intracellular contribution rather than attributing bursting simply to adenosine receptor blockade. It does not prove that theophylline acts exclusively through one enzyme or that dopamine uses an identical pathway. The measured endpoint is slow motor bursting, whose complete phase organization must be tested separately.",
+   "new": "The control supports an intracellular contribution rather than attributing bursting simply to adenosine receptor blockade. Inhibiting phosphodiesterase raises cAMP, a messenger often produced when dopamine binds DA1-like receptors, which links this drug test to the way dopamine itself may start crawling."
+  },
+  {
+   "slide": 32,
+   "old": "The biochemical and physiological results are consistent with a cAMP-associated route to rhythmicity. They do not directly identify a DA1-like receptor or prove that dopamine and IBMX converge on one molecular pathway. That receptor-based explanation remains a proposal requiring receptor-specific evidence in the relevant circuit cells.",
+   "new": "The biochemical and physiological results are consistent with a cAMP-associated route to rhythmicity. Crisp and colleagues proposed that phosphodiesterase inhibitors and dopamine both activate a sodium-dependent timing mechanism that sets the crawl rhythm, while several dopamine receptor subtypes shape individual motor neurons."
+  },
+  {
+   "slide": 33,
+   "old": "The result supports a sodium-dependent contribution to the induced timing mechanism. It does not directly measure the persistent current in an identified oscillator neuron or establish a channel gene. Pharmacological sensitivity and preserved spiking constrain the explanation without completing its molecular identification.",
+   "new": "The result supports a sodium-dependent contribution to the induced timing mechanism. Riluzole stopped bursting even though IBMX continued to act, so the sodium-dependent process works downstream of, or in parallel with, the cAMP signal in setting the crawl rhythm."
+  },
+  {
+   "slide": 34,
+   "old": "These observations favor a timing contribution that can operate without normal calcium entry under the experimental treatment. They do not imply that calcium is unnecessary for every synapse or for natural crawling. Ion substitution alters several processes, and the result must remain specific to the drug-induced bursting tested in the isolated preparation.",
+   "new": "These observations favor a timing contribution that can operate without normal calcium entry under the experimental treatment. Nickel and cobalt block calcium channels as well as replacing calcium, so persistent bursting points toward the sodium-dependent process blocked by riluzole as the main source of burst timing."
+  },
+  {
+   "slide": 35,
+   "old": "The result separates period from burst termination and supports an outward-current contribution to pattern shape. Clotrimazole can also affect sodium–potassium pump activity, so this experiment does not uniquely identify one potassium-channel subtype as the endogenous dopamine target. The channel account remains pharmacologically supported and incomplete.",
+   "new": "The result separates period from burst termination and supports an outward-current contribution to pattern shape. With DE-3 active for most of each cycle, longitudinal contraction would leave little time for elongation, so normal crawling depends on mechanisms that end each burst on time."
+  },
+  {
+   "slide": 36,
+   "old": "Rhythm generation and correct motor patterning are separable. Reproducing a slow period does not establish that every muscle group will be activated appropriately. The mismatch supports additional dopamine actions beyond the phosphodiesterase-sensitive timing route, without identifying all of the responsible receptor subtypes or interneurons.",
+   "new": "Rhythm generation and correct motor patterning are separable. A CV burst during contraction would make circular muscles squeeze while longitudinal muscles shorten the segment, opposing actions that cancel rather than alternate. Dopamine must therefore act beyond the timing route to place CV in the elongation phase."
+  },
+  {
+   "slide": 37,
+   "old": "The effect shows that peak voltage, response duration, and subsequent inhibition can change differently under one modulator. It does not support a simple rule that dopamine uniformly increases excitability. The channel processes responsible for each component were not isolated directly by these current-pulse measurements.",
+   "new": "Peak voltage, response duration, and subsequent inhibition can change differently under one modulator. Dopamine shortened rebound in both CV and AE, two motor neurons active during crawling, so the modulator alters how crawl motor neurons recover from inhibition rather than acting on a single cell."
+  },
+  {
+   "slide": 38,
+   "old": "Dopamine can favor a patterned output while reducing the response of particular motor neurons to steady excitation. Timing, phase, and input responsiveness are different properties. The mismatch with theophylline supports multiple modulatory effects, but does not prove which receptor or conductance accounts for each difference.",
+   "new": "Dopamine can favor a patterned output while reducing the response of particular motor neurons to steady excitation. Timing, phase, and input responsiveness are different properties. The contrast with theophylline indicates dopamine actions beyond cAMP elevation, consistent with several dopamine receptor subtypes acting on crawl motor neurons."
+  },
+  {
+   "slide": 39,
+   "old": "The anatomy permits one cell to influence many local motor circuits, but a visible arbor is not proof of a synapse onto every nearby neuron. Its functional role must be tested with recording and perturbation. The descending arrangement also does not make R3b-1 the sole possible source of local crawl rhythmicity.",
+   "new": "The anatomy permits one cell to influence many local motor circuits. A single axon that runs uninterrupted through the cord and branches in each hemiganglion can deliver the same signal to every segmental crawl generator, an arrangement suited to starting and coordinating all segments together."
+  },
+  {
+   "slide": 40,
+   "old": "R3b-1 activity was sufficient and necessary for coordinated output in the tested preparation and state. Local burst persistence prevents equating disruption of coordination with complete abolition of every segmental oscillator. The result is a conditional causal role, not a universal claim that this cell is required for all rhythms under all conditions.",
+   "new": "R3b-1 activity was sufficient and necessary for coordinated output in the tested preparation and state, the strict definition of a command neuron. R3b-1 also modulated the cycle period, so beyond starting crawling it adjusts how fast the segmental oscillators run."
+  },
+  {
+   "slide": 41,
+   "old": "A permissive signal enables a local network to operate rather than specifying every event independently. The results support cooperation between descending input and segmental circuitry. Regional saline blockade affects many synapses, so it does not identify a single local relay or prove that every coordinating interaction is chemical.",
+   "new": "A permissive signal enables a local network to operate rather than specifying every event independently. Coordination therefore emerges from R3b-1 acting through chemical synapses within the ganglia it reaches, so descending and segmental circuits produce coordinated crawling jointly."
+  },
+  {
+   "slide": 42,
+   "old": "This supports a functional pathway from descending input to a motor output associated with elongation. It does not establish that R3b-1 directly controls every crawl neuron or that this connection alone generates the entire rhythm. The broader pattern still depends on interactions among local circuits and motor pathways.",
+   "new": "This supports a functional pathway from descending input to a motor output associated with elongation. Driving CV gives R3b-1 a route into the phase that begins each crawl step, which fits its roles in starting crawling and pacing the crawl cycle."
+  },
+  {
+   "slide": 43,
+   "old": "The result establishes central coordination without a descending command in this reduced context. It qualifies broader necessity claims based on different preparations. The intact animal and a short, dopamine-treated chain need not use identical coordination mechanisms, and additional descending or sensory input may improve speed and flexibility.",
+   "new": "The result establishes central coordination without a descending command in this reduced context. In intact crawling leeches Kearney and colleagues measured a phase lag near 0.03 per segment and a period near 5 s, against about 10 s in chains, so descending and sensory signals speed both coordination and rhythm."
+  },
+  {
+   "slide": 44,
+   "old": "A synapse is a specialized communication site between neurons. Structural contacts establish where anatomical input can reach DE-3, but their appearance alone does not identify transmitter, receptor, sign, or functional strength. Those assignments require physiological or independently established cell information.",
+   "new": "A synapse is a specialized communication site between neurons. Of the 531 input synapses onto DE-3, 44 came from cells in neighboring ganglia, and among partners making at least two contacts the inhibitor DI-1 contributed 52, more than any other identified neuron."
+  },
+  {
+   "slide": 45,
+   "old": "A multifunctional motor neuron receives convergent inputs whose active relationships change with behavior. Distribution along the arbor does not mean that every synapse has equal effect or that local dendritic interactions are absent. The anatomy constrains spatial explanations while leaving state-dependent synaptic operation and conductance mechanisms for further testing.",
+   "new": "A multifunctional motor neuron receives convergent inputs whose active relationships change with behavior. Since most presynaptic partners are themselves multifunctional, Ashaber and colleagues concluded that the premotor network plays the main role in generating distinct motor patterns."
+  }
+ ]
+}
