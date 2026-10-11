@@ -1,9 +1,9 @@
 # Lecture 91 delivery
 
-Expanded title and anatomy/learned-command scope implemented. Fifty slides retain the previously authorized four additional Ronan slides. Slides 41–43 retain their visible text, original figures, native videos, and placement.
+Returned to the standard 46 slides at the instructor's request. Slides 1–45 supply title plus 44 content slides; slide 46 is Key takeaways. Extra ending content is removed. Slides 28–30 now cover original experiments on sign sequences, visual identity matching and functional stimulus classes.
 
-Ten distinct playable MP4 recordings are embedded: six sea-lion primary-study recordings, three expressly retained rat/human comparison recordings, and the instructor-uploaded official UCSC Ronan feature. The feature is outside the study target, leaving nine qualifying study recordings, one below the requested minimum of ten. No recording was repeated, divided, slowed, or substituted to inflate the count.
+Eighteen clips are embedded on slides 10, 12–15, 17, 21, 23, 25, 28–30, 32, 35, 38, and 41–43. There are 10 distinct sea-lion study recordings, excluding the separate UCSC Ronan feature, Bimbo observational demonstration and three preserved comparison recordings. Multiple excerpts from one original movie are counted once.
 
-Additional original article movies were searched on academic indexes, publishers, PMC, and linked repositories. The Hama paper links a YouTube recording, which was not used because the instructor exception applies to official Ronan recordings. EEG and anatomy papers did not supply suitable downloadable movies. Optional video shortfall does not block delivery under AGENTS.md rule 11.
+The instructor authorized temporal selections and spatial cropping. Each excerpt retains the source's timing, sound and scientific content. Source relationships and codec/delivery changes are documented. Black side margins are removed only from the solo Ronan 2025 excerpt. All movies preserve native display proportions; no speed changes or generated frames are used.
 
-PowerPoint GUI playback and Google Slides import were not tested. Google Slides may discard embedded PPTX media; upload the separate MP4 files to Drive and use Insert > Video if importing this deck.
+Slides 41–43 are verified against the previous committed deck: text, notes, image hashes, movie hashes and shape geometry match exactly. The full PPTX's media relationships and complete decoding pass. Desktop GUI playback and Google Slides import were not tested. The preview is static.
