@@ -425,7 +425,7 @@ def resolve_refs(index, keys):
     out = []
     for key in keys:
         name, year = key.rsplit(" ", 1)
-        hits = [r for r in index if r.split(" ")[0].rstrip(",") == name and f"({year})" in r[:900]]
+        hits = [r for r in index if (r.startswith(name + " ") or r.startswith(name + ",")) and f"({year})" in r[:900]]
         if not hits:
             raise SystemExit(f"no reference in the deck's notes for {key!r}")
         out.append(hits[0])
