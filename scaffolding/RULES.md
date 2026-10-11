@@ -60,3 +60,4 @@ Reading the revised paragraph aloud is the final check.
 - The three paragraphs sit in one text box. Put them in the left column, where most figure-left slides keep their text. Use the right column only where the original slide's text sat there, and never place text over a figure or a caption.
 - A stacked right-column layout is allowed only when the source layout already uses it. It must still contain exactly three paragraphs in total, and no paragraph may repeat across boxes.
 - Before publishing, check the built slide: the count of body paragraphs is three, every body paragraph is new text, and no text overlaps a figure or caption (`scaffolding/build.py` reports these).
+- `python tools/check_paragraphs.py` checks every scaffolded deck: each slide except the first and last must have exactly three body paragraphs. Figure captions, figure labels and photo credits do not count.
