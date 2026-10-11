@@ -1,6 +1,8 @@
 {
-  "embedded_video_count": 4,
+  "embedded_video_count": 11,
+  "qualifying_non_ronan_video_count": 10,
   "required_count": 10,
+  "ronan_study_recording_count": 1,
   "featured_2025_ronan_embedded": false,
   "sources": [
     {
@@ -14,8 +16,9 @@
       "width": 854,
       "height": 480,
       "duration_seconds": 114.781333,
-      "sha256": "09585ab0a756d9d282ab2f71bb2e4beee200a122042b8a7555ce04a9f2ff78ae",
-      "counts_toward_study_target": true
+      "sha256": "4b16ee4ed6601756272fadaa91922173703a53d9b6777145a4372cdd81331db2",
+      "display_aspect_ratio": "427:240",
+      "counts_toward_study_target": false
     },
     {
       "slide": 41,
@@ -27,8 +30,9 @@
       "license": "CC BY-NC 4.0",
       "width": 1280,
       "height": 720,
-      "duration_seconds": 27.560875,
-      "sha256": "05adb316fc6af1073cb6c8248cf8597bfdf8b0b00a494b33adc9632e6a1b7b3d",
+      "duration_seconds": 27.561,
+      "sha256": "90f64c9804c9626b02b9b936ffb04a0dfe9f8abeb6e0372f4d2c6b547338d419",
+      "display_aspect_ratio": "16:9",
       "counts_toward_study_target": true
     },
     {
@@ -41,8 +45,9 @@
       "license": "CC BY-NC 4.0",
       "width": 960,
       "height": 540,
-      "duration_seconds": 84.250833,
-      "sha256": "49b580373a765ca3bb30a23b32991e9215315f27df37c44c00a2b32c5d209c19",
+      "duration_seconds": 84.251,
+      "sha256": "9bb819a44c0e5747bbe3516463ec763a4a2ec9d9626de6c071659ded76206ef9",
+      "display_aspect_ratio": "16:9",
       "counts_toward_study_target": true
     },
     {
@@ -56,8 +61,116 @@
       "width": 406,
       "height": 540,
       "duration_seconds": 189.3,
-      "sha256": "ca234e951d8b66a235861360137b5a1e45e32867de50f96ed7fb0fda79cd5f23",
+      "sha256": "79fbd19a91f47f0fc581e6b3808a3b317145cf968e6368e70564a4ad36c4a72b",
+      "display_aspect_ratio": "203:270",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 3,
+      "file": "media/Hasegawa2011_VideoS1.mp4",
+      "caption": "Hasegawa et al. (2011), Supplemental Video S1. A budgerigar pecks to the audiovisual metronome.",
+      "doi": "10.1038/srep00120",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3216601.1/srep00120-s2.mov",
+      "credit": "Ai Hasegawa, Kazuo Okanoya, Toshikazu Hasegawa, and Yoshimasa Seki",
+      "license": "CC BY-NC-ND 3.0",
+      "width": 320,
+      "height": 240,
+      "duration_seconds": 30.133333,
+      "sha256": "55f17ac48554f9bf45cce8ac43719b342e5165ede050718aef1ec54aad7c09d7",
+      "display_aspect_ratio": "4:3",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 4,
+      "file": "media/Hattori2013_VideoS1.mp4",
+      "caption": "Hattori et al. (2013), Supplemental Video_S1. A chimpanzee learns alternating keyboard taps.",
+      "doi": "10.1038/srep01566",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3610097.1/srep01566-s1.mov",
+      "credit": "Yuko Hattori, Masaki Tomonaga, and Tetsuro Matsuzawa",
+      "license": "CC BY-NC-ND 3.0",
+      "width": 352,
+      "height": 288,
+      "duration_seconds": 22.355667,
+      "sha256": "ff87280a9679b7ef3799ff4f80a72826ff47c70c788901cdec9f1a5a932e0035",
+      "display_aspect_ratio": "319:288",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 6,
+      "file": "media/Hasegawa2011_VideoS2.mp4",
+      "caption": "Hasegawa et al. (2011), Supplemental Video S2. A second budgerigar performs the trained tapping task.",
+      "doi": "10.1038/srep00120",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3216601.1/srep00120-s3.mov",
+      "credit": "Ai Hasegawa, Kazuo Okanoya, Toshikazu Hasegawa, and Yoshimasa Seki",
+      "license": "CC BY-NC-ND 3.0",
+      "width": 320,
+      "height": 240,
+      "duration_seconds": 13.026395,
+      "sha256": "f8e43f319714e810d91dbcf3598f8fecadbd3181ca9749e52863c0d8b01373e9",
+      "display_aspect_ratio": "4:3",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 8,
+      "file": "media/Hasegawa2011_VideoS3.mp4",
+      "caption": "Hasegawa et al. (2011), Supplemental Video S3. Earlier tapping tempo persists after an interval change.",
+      "doi": "10.1038/srep00120",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3216601.1/srep00120-s4.mov",
+      "credit": "Ai Hasegawa, Kazuo Okanoya, Toshikazu Hasegawa, and Yoshimasa Seki",
+      "license": "CC BY-NC-ND 3.0",
+      "width": 320,
+      "height": 240,
+      "duration_seconds": 17.391746,
+      "sha256": "858db7b2d630fb758dad35e941794d8c7e368b1e2e2cffe05708a465f0df7fb7",
+      "display_aspect_ratio": "4:3",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 26,
+      "file": "media/Hattori2013_VideoS2.mp4",
+      "caption": "Hattori et al. (2013), Supplemental Video_S2. Ai aligns keyboard taps with a 600-ms sound sequence.",
+      "doi": "10.1038/srep01566",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3610097.1/srep01566-s2.mov",
+      "credit": "Yuko Hattori, Masaki Tomonaga, and Tetsuro Matsuzawa",
+      "license": "CC BY-NC-ND 3.0",
+      "width": 352,
+      "height": 288,
+      "duration_seconds": 19.3193,
+      "sha256": "3ac742f81f765560c06e5ac91b9de36cdb61551840c69d16ef52ad9fbba9bba2",
+      "display_aspect_ratio": "319:288",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 31,
+      "file": "media/Hasegawa2011_VideoS4.mp4",
+      "caption": "Hasegawa et al. (2011), Supplemental Video S4. Another example of retained timing during a tempo transition.",
+      "doi": "10.1038/srep00120",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3216601.1/srep00120-s5.mov",
+      "credit": "Ai Hasegawa, Kazuo Okanoya, Toshikazu Hasegawa, and Yoshimasa Seki",
+      "license": "CC BY-NC-ND 3.0",
+      "width": 320,
+      "height": 240,
+      "duration_seconds": 11.033333,
+      "sha256": "51c079152b3659000bb271046fdc113921aa040809d5d467f3c7ca31c484923d",
+      "display_aspect_ratio": "4:3",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 40,
+      "file": "media/Hattori2020_MovieS2.mp4",
+      "caption": "Hattori and Tomonaga (2020), Movie S2. Sound-induced quadrupedal swaying in a chimpanzee.",
+      "doi": "10.1073/pnas.1910318116",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6969502.1/pnas.1910318116.sm02.mov",
+      "credit": "Yuko Hattori and Masaki Tomonaga",
+      "license": "CC BY-NC-ND 4.0",
+      "width": 352,
+      "height": 288,
+      "duration_seconds": 7.52,
+      "sha256": "71552350e23a816ed15ace5c7cd8df4d5227340cabf929fc5dceec39663c9d7a",
+      "display_aspect_ratio": "11:9",
       "counts_toward_study_target": true
     }
-  ]
+  ],
+  "pending_featured_user_url": "https://youtu.be/s4nBevZJMvk",
+  "pending_featured_reason": "YouTube requests are denied by the managed network proxy (HTTP 403); user must provide the downloaded original MP4."
 }

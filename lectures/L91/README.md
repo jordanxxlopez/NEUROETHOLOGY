@@ -2,7 +2,7 @@
 
 Sea lions: rhythmic entrainment, auditory–motor coordination, and experimental tests of beat synchronization
 
-46-slide PPTX with four embedded original study recordings. Teaching text and original figures are unchanged. The PDF is a static preview. Separate MP4 files are in media/; original frame posters in posters/. See MEDIA.md for credits, sources, unavailable recordings, and Google Slides import limitations.
+46-slide PPTX with ten non-Ronan article-supplement recordings plus one Ronan research movie. Original titles, body text, and scientific figure pixels are unchanged. Only the video-slide right columns were rearranged. The PDF is a static preview. Separate MP4s are in media/; source credits, licenses, citations, and compatibility notes are in MEDIA.md and media_sources.json. The supplied YouTube feature still needs an original-file upload.
 
 Rebuild:
 
@@ -13,4 +13,4 @@ python lectures/L91/embed_videos.py
 python tools/check_lecture.py lectures/L91/Neuroethology_Lecture91_FA2026.pptx --lecture 91
 ```
 
-Source PDFs remain in ignored papers/. Crops are reproducible through tools/crop_panels.py and crops.json.
+Source PDFs remain ignored in papers/. Crop manifest: crops.json. Additional video teaching and references: additional_videos.json. Native timing/frame-count audit: media_conversion_audit.json.
