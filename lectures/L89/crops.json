@@ -1,0 +1,529 @@
+{
+  "papers": {
+    "duck_nature": "papers/duck_nature.pdf",
+    "dolphin_vigilance": "papers/dolphin_vigilance.pdf",
+    "seal_acetylcholine": "papers/seal_acetylcholine.pdf",
+    "seal_monoamines": "papers/seal_monoamines.pdf",
+    "seal_eyes": "papers/seal_eyes.pdf",
+    "seal_regional": "papers/seal_regional.pdf",
+    "seal_rem": "papers/seal_rem.pdf",
+    "frigate": "papers/frigate.pdf",
+    "pigeon_homeostasis": "papers/pigeon_homeostasis.pdf",
+    "porpoise_anatomy": "papers/porpoise_anatomy.pdf",
+    "dolphin_tracts": "papers/dolphin_tracts.pdf",
+    "human_firstnight": "papers/human_firstnight.pdf",
+    "crocodile": "papers/crocodile.pdf",
+    "bird_pressure": "papers/bird_pressure.pdf",
+    "songbird_local": "papers/songbird_local.pdf",
+    "elephant_seal": "papers/elephant_seal.pdf",
+    "pigeon_fmri": "papers/pigeon_fmri.pdf",
+    "duck_experiment": "papers/duck_experiment.pdf",
+    "dolphin_classic": "papers/dolphin_classic.pdf",
+    "dog_asymmetry": "papers/dog_asymmetry.pdf",
+    "orexin": "papers/orexin.pdf"
+  },
+  "dpi": 170,
+  "crops": {
+    "dolphin_eeg": [
+      "dolphin_classic",
+      2,
+      [
+        0.165,
+        0.588,
+        0.78,
+        0.828
+      ]
+    ],
+    "dolphin_stages": [
+      "dolphin_classic",
+      3,
+      [
+        0.16,
+        0.122,
+        0.821,
+        0.307
+      ]
+    ],
+    "duck_edge_color": [
+      "duck_nature",
+      1,
+      [
+        0.366,
+        0.32,
+        0.641,
+        0.704
+      ]
+    ],
+    "duck_position": [
+      "duck_experiment",
+      5,
+      [
+        0.09379084967320261,
+        0.06093434343434343,
+        0.427516339869281,
+        0.30301767676767677
+      ]
+    ],
+    "duck_eye_direction": [
+      "duck_experiment",
+      5,
+      [
+        0.10554918306637434,
+        0.5885647305575284,
+        0.41805884387446385,
+        0.8339181549380523
+      ]
+    ],
+    "duck_eeg": [
+      "duck_experiment",
+      6,
+      [
+        0.20653594771241832,
+        0.06287878787878788,
+        0.7477124183006536,
+        0.26412878787878785
+      ]
+    ],
+    "dolphin_task": [
+      "dolphin_vigilance",
+      3,
+      [
+        0.09085866197573593,
+        0.07300238909040178,
+        0.7187004869249132,
+        0.40367166789714365
+      ]
+    ],
+    "dolphin_15days": [
+      "dolphin_vigilance",
+      7,
+      [
+        0.09085866197573593,
+        0.3236408469179638,
+        0.48686667368770425,
+        0.837003182778919
+      ]
+    ],
+    "seal_probe": [
+      "seal_acetylcholine",
+      2,
+      [
+        0.5112097522702992,
+        0.07716003745360392,
+        0.933369386852297,
+        0.6241127833029015
+      ]
+    ],
+    "seal_ach_time": [
+      "seal_acetylcholine",
+      4,
+      [
+        0.0701841047238081,
+        0.07760610856681034,
+        0.4923435893262553,
+        0.8263470052083334
+      ]
+    ],
+    "seal_ach_lateral": [
+      "seal_acetylcholine",
+      6,
+      [
+        0.5215777994791667,
+        0.07736243564415708,
+        0.92304296875,
+        0.7162692044819604
+      ]
+    ],
+    "seal_mono_probe": [
+      "seal_monoamines",
+      3,
+      [
+        0.387,
+        0.052,
+        0.935,
+        0.47
+      ]
+    ],
+    "seal_mono_states": [
+      "seal_monoamines",
+      6,
+      [
+        0.066,
+        0.054,
+        0.934,
+        0.53
+      ]
+    ],
+    "seal_mono_lateral": [
+      "seal_monoamines",
+      9,
+      [
+        0.34436629745534775,
+        0.056361625895494094,
+        0.926213775943024,
+        0.4965330540838522
+      ]
+    ],
+    "seal_eye_photos": [
+      "seal_eyes",
+      3,
+      [
+        0.065,
+        0.09,
+        0.947,
+        0.39
+      ]
+    ],
+    "seal_eye_record": [
+      "seal_eyes",
+      6,
+      [
+        0.065,
+        0.278,
+        0.947,
+        0.808
+      ]
+    ],
+    "seal_electrodes": [
+      "seal_regional",
+      2,
+      [
+        0.5719765557312507,
+        0.05686871350848351,
+        0.8661764867883756,
+        0.29776272944002596
+      ]
+    ],
+    "seal_regional_eeg": [
+      "seal_regional",
+      4,
+      [
+        0.23457121120245847,
+        0.05686877201895209,
+        0.7737505342457636,
+        0.3329227622027678
+      ]
+    ],
+    "seal_regional_power": [
+      "seal_regional",
+      5,
+      [
+        0.16204747697170574,
+        0.056869532655043575,
+        0.8369565604518485,
+        0.42282163973013726
+      ]
+    ],
+    "seal_sleep_states": [
+      "seal_rem",
+      3,
+      [
+        0.08409656668781859,
+        0.1258976033178773,
+        0.6253643384268335,
+        0.5112772666176246
+      ]
+    ],
+    "seal_rem_recovery": [
+      "seal_rem",
+      5,
+      [
+        0.5014528533989626,
+        0.1257520283638474,
+        0.9042796041793552,
+        0.5824522330574334
+      ]
+    ],
+    "frigate_logger": [
+      "frigate",
+      3,
+      [
+        0.11,
+        0.32,
+        0.93,
+        0.8
+      ]
+    ],
+    "frigate_animal": [
+      "frigate",
+      3,
+      [
+        0.13,
+        0.315,
+        0.47,
+        0.501
+      ]
+    ],
+    "frigate_eeg": [
+      "frigate",
+      4,
+      [
+        0.255,
+        0.065,
+        0.89,
+        0.576
+      ]
+    ],
+    "frigate_turning": [
+      "frigate",
+      5,
+      [
+        0.15,
+        0.065,
+        0.9,
+        0.568
+      ]
+    ],
+    "frigate_sleep_quota": [
+      "frigate",
+      6,
+      [
+        0.26,
+        0.05,
+        0.95,
+        0.542
+      ]
+    ],
+    "pigeon_visual": [
+      "pigeon_homeostasis",
+      2,
+      [
+        0.5151675855290504,
+        0.07769472040724032,
+        0.8953380721135913,
+        0.31207111974124674
+      ]
+    ],
+    "pigeon_hyperpallium": [
+      "pigeon_homeostasis",
+      4,
+      [
+        0.15,
+        0.075,
+        0.87,
+        0.884
+      ]
+    ],
+    "pigeon_mesopallium": [
+      "pigeon_homeostasis",
+      6,
+      [
+        0.15,
+        0.075,
+        0.86,
+        0.884
+      ]
+    ],
+    "porpoise_map": [
+      "porpoise_anatomy",
+      7,
+      [
+        0.16,
+        0.086,
+        0.84,
+        0.742
+      ]
+    ],
+    "porpoise_basal": [
+      "porpoise_anatomy",
+      9,
+      [
+        0.20637581699346405,
+        0.08867231781336476,
+        0.7939281121546926,
+        0.4248725676743166
+      ]
+    ],
+    "porpoise_lc": [
+      "porpoise_anatomy",
+      11,
+      [
+        0.2053562207190819,
+        0.08867231781336476,
+        0.7948513187582976,
+        0.42620223816877345
+      ]
+    ],
+    "porpoise_raphe": [
+      "porpoise_anatomy",
+      12,
+      [
+        0.2053562207190819,
+        0.08867231781336476,
+        0.7948513187582976,
+        0.42620223816877345
+      ]
+    ],
+    "porpoise_orexin": [
+      "orexin",
+      6,
+      [
+        0.201,
+        0.064,
+        0.816,
+        0.419
+      ]
+    ],
+    "dolphin_brain_tracts": [
+      "dolphin_tracts",
+      4,
+      [
+        0.30565634991154517,
+        0.07019335246195094,
+        0.9184144541342245,
+        0.6339866201547839
+      ]
+    ],
+    "dolphin_commissures": [
+      "dolphin_tracts",
+      8,
+      [
+        0.30565634991154517,
+        0.07091030904069898,
+        0.9184144541342245,
+        0.4407908236349328
+      ]
+    ],
+    "human_swa": [
+      "human_firstnight",
+      3,
+      [
+        0.08409656668781859,
+        0.125896326857437,
+        0.6238468761472825,
+        0.26574797674199435
+      ]
+    ],
+    "human_evoked": [
+      "human_firstnight",
+      4,
+      [
+        0.09998582600244976,
+        0.1257520283638474,
+        0.4947858564802467,
+        0.2935518185644197
+      ]
+    ],
+    "human_arousal": [
+      "human_firstnight",
+      4,
+      [
+        0.5172475591697933,
+        0.1257520575957659,
+        0.9104853937865985,
+        0.29333472284984236
+      ]
+    ],
+    "human_response": [
+      "human_firstnight",
+      5,
+      [
+        0.08804524945687067,
+        0.12575200887590177,
+        0.48485526710686555,
+        0.33033406875643445
+      ]
+    ],
+    "crocodile_response": [
+      "crocodile",
+      3,
+      [
+        0.079,
+        0.07,
+        0.649,
+        0.431
+      ]
+    ],
+    "jackdaw_setup": [
+      "bird_pressure",
+      3,
+      [
+        0.065,
+        0.133,
+        0.94,
+        0.697
+      ]
+    ],
+    "jackdaw_asymmetry": [
+      "bird_pressure",
+      7,
+      [
+        0.085,
+        0.125,
+        0.623,
+        0.832
+      ]
+    ],
+    "songbird_anatomy": [
+      "songbird_local",
+      4,
+      [
+        0.195,
+        0.066,
+        0.792,
+        0.54
+      ]
+    ],
+    "songbird_local_eeg": [
+      "songbird_local",
+      8,
+      [
+        0.055,
+        0.09,
+        0.96,
+        0.625
+      ]
+    ],
+    "elephant_sleep_dive": [
+      "elephant_seal",
+      3,
+      [
+        0.058326172616179575,
+        0.06124206090856481,
+        0.9419011979176782,
+        0.8149484475756449
+      ]
+    ],
+    "elephant_sleep_habitat": [
+      "elephant_seal",
+      4,
+      [
+        0.08839324920360264,
+        0.06124206090856481,
+        0.9116068085975669,
+        0.8633174364200975
+      ]
+    ],
+    "pigeon_rem_brain": [
+      "pigeon_fmri",
+      3,
+      [
+        0.08728874499359274,
+        0.05762616093522008,
+        0.9222597317215766,
+        0.49795726769005466
+      ]
+    ],
+    "dog_electrodes": [
+      "dog_asymmetry",
+      2,
+      [
+        0.2579045910172068,
+        0.060546876598067165,
+        0.7896280045877156,
+        0.27591889918560447
+      ]
+    ],
+    "dog_asymmetry": [
+      "dog_asymmetry",
+      5,
+      [
+        0.16495189040256528,
+        0.060546896101556696,
+        0.934951311196286,
+        0.350309030919194
+      ]
+    ]
+  },
+  "coordinate_note": "Fractions refer to the PDF MediaBox used by pdftoppm. Uploaded duck PDF CropBox coordinates were converted to MediaBox coordinates before cropping."
+}

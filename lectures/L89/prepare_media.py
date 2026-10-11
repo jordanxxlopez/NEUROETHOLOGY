@@ -1,0 +1,25 @@
+import subprocess,json,hashlib,concurrent.futures
+from pathlib import Path
+B=Path(__file__).resolve().parent;D=B/'media';D.mkdir(exist_ok=True)
+items=[('frigate_movie2.avi','frigate',34,2,'Recorded flight trajectory with scored sleep episodes.'),('frigate_movie3.avi','frigate',35,3,'Recorded flight trajectory with sleep episodes and high-altitude ascents.'),('frigate_movie4.avi','frigate',37,4,'Awake preening and a brief drop in a juvenile magnificent frigatebird.'),('pigeon_movie1.mp4','pigeon_fmri',40,1,'A head-fixed pigeon cycles between NREM and REM during fMRI.')]
+R=json.loads((B/'research.json').read_text())
+def probe(p):return json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(p)]))
+def go(item):
+ n,k,sl,i,what=item;src=D/n;out=D/(src.stem+'_compatible.mp4');post=D/(src.stem+'_poster.png')
+ if not src.exists():
+  import urllib.request
+  source_url=f'https://pmc-oa-opendata.s3.amazonaws.com/PMC4976198.1/ncomms12468-s{i+1}.avi' if k=='frigate' else 'https://pmc-oa-opendata.s3.amazonaws.com/PMC10241905.1/41467_2023_38669_MOESM4_ESM.mp4'
+  src.write_bytes(urllib.request.urlopen(source_url,timeout=60).read())
+ subprocess.run(['ffmpeg','-y','-v','error','-i',str(src),'-map','0:v:0','-map','0:a?','-c:v','libx264','-crf','24','-preset','medium','-pix_fmt','yuv420p','-fps_mode','passthrough','-c:a','aac','-b:a','96k','-movflags','+faststart',str(out)],check=True)
+ check=subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(out),'-f','null','-'],capture_output=True);assert check.returncode==0,check.stderr.decode()
+ subprocess.run(['ffmpeg','-y','-v','error','-ss','2','-i',str(out),'-frames:v','1',str(post)],check=True)
+ p=probe(out);orig=probe(src);st=next(s for s in p['streams'] if s['codec_type']=='video');a=R[k]['record']['authorString'].split()[0];y=R[k]['record']['pubYear']
+ url=f'https://pmc-oa-opendata.s3.amazonaws.com/PMC4976198.1/ncomms12468-s{i+1}.avi' if k=='frigate' else 'https://pmc-oa-opendata.s3.amazonaws.com/PMC10241905.1/41467_2023_38669_MOESM4_ESM.mp4'
+ return dict(slide=sl,paper=k,path='media/'+out.name,poster='media/'+post.name,caption=f'{a} et al. ({y}), Supplementary Movie {i}. {what}',teaching_note=what+(' This is an author-published visualization of recorded data, not a camera view of the flight.' if k=='frigate' and i in (2,3) else ' The awake preening clip is not an EEG-confirmed sleep recording.' if k=='frigate' else ' Pupil constriction, rapid eye movements, and bill movements accompany REM; the recording begins and ends in NREM.'),doi=R[k]['doi'],credit=R[k]['record']['authorString'],license='Creative Commons Attribution 4.0 International, as supplied with the article.',original_media_url=url,original_filename='ncomms12468-s'+str(i+1)+'.avi' if k=='frigate' else '41467_2023_38669_MOESM4_ESM.mp4',original_sha256=hashlib.sha256(src.read_bytes()).hexdigest(),sha256=hashlib.sha256(out.read_bytes()).hexdigest(),duration_s=float(p['format']['duration']),original_duration_s=float(orig['format']['duration']),display_aspect=st['width']/st['height'],width=st['width'],height=st['height'],codec=st['codec_name'],conversion='H.264/yuv420p MP4 conversion; original dimensions, timing, scene, and audio retained. No overlays, recoloring, or speed changes. Unedited source frame provides the poster.',decode_verified=True)
+embedded=list(concurrent.futures.ThreadPoolExecutor(4).map(go,items))
+meta=dict(embedded=embedded,not_embedded=[dict(slide=33,doi=R['frigate']['doi'],original_media_url='https://pmc-oa-opendata.s3.amazonaws.com/PMC4976198.1/ncomms12468-s2.avi',reason='Supplementary Movie 1 was downloaded but its original AVI emits decoder errors and non-monotonic timestamps; retained as an optional source link rather than modifying or repairing scientific frames.'),dict(slide=25,doi=R['elephant_seal']['doi'],original_media_url='https://www.science.org/doi/suppl/10.1126/science.adf0566/suppl_file/science.adf0566_movie_s1.mp4',reason='Movie S1 is listed in the original article; publisher and University of California supplement requests returned HTTP 403. Original published figures remain available.')],shortfall='Four distinct usable original recordings obtained. Other checked supplements contained no recordings, the elephant-seal movie was blocked, and the first frigatebird movie had decoding/timestamp defects. No unrelated or repeated clips were added to satisfy the 8–10 aim.',playback='Full MP4 decode and saved PPTX media relationships verified; interactive PowerPoint playback not available in this cloud environment.')
+if (B/'media_sources.json').exists():
+ previous=json.loads((B/'media_sources.json').read_text());previous['embedded']=embedded;meta=previous
+for v in meta['embedded']:
+ if v['slide']==37:v['credit']+=' Original Movie 4 recorded by Giacomo Dell’Omo (G.D’O.), as credited in the supplement.'
+(B/'media_sources.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n');print([(m['slide'],m['duration_s'],(B/m['path']).stat().st_size) for m in embedded])
