@@ -72,3 +72,9 @@ Reading the revised paragraph aloud is the final check.
 - Paragraph 3 teaches one additional fact or mechanism from the source. It is not a conclusion sentence and it is not a summary of paragraphs 1 and 2.
 - Do not copy source sentences. Rewrite each sentence in new words; a sentence that matches the source is an original paragraph left on the slide.
 - `python tools/check_paragraphs.py` reports phrases from this list (see FILLER in that file) on every body paragraph.
+
+## Length targets (every lecture)
+
+- Body paragraph: about 75–85 words (5–7 rendered lines). Shorter paragraphs render at 3–4 lines and fail the build.
+- Insert paragraph: about 60–65 words each (three paragraphs total 110–200 words).
+- Write each paragraph with new source content. Do not pad with restatement, filler or caveats to reach length.
