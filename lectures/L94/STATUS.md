@@ -1,7 +1,11 @@
-# Lecture 94 awaiting the original apparatus paper
+# Lecture 94 deck and media status
 
-Registered the instructor's exact title as special-topic Lecture 94, Date TBD, following Lectures 83–93. Research and source access records are saved alongside seven available PDFs in the ignored papers directory. The required-paper request is in PAPERS_NEEDED.md. No PPTX or fabricated replacement figures were produced. No theme has been marked used.
+46 slides: one title, 44 content slides and six key takeaways. Exact special-topic schedule title retained; date Date TBD. All 44 content slides include published article figures; 34 have source color. Seven verified primary papers supply the figures and notes. The original apparatus PDF request is resolved.
 
-The EVE studies use a four-button controller and a visual display. They must not be described as touchscreen experiments. The requested lecture title remains unchanged; the eventual lecture must distinguish controller experiments from touchscreen methods, with explicitly identified comparative evidence where appropriate.
+The EVE interface uses a four-button controller, not a touchscreen. The lecture explicitly distinguishes the apparatus from direct screen input and from physical matching and reversal preparations. Task performance, feeding records and clinical outcomes remain separate.
 
-The original Winship et al. (2023) apparatus/acquisition paper is needed before completing the lecture under AGENTS.md fixed rule 6. Its publisher currently blocks access, and no accessible author copy was identified. Once uploaded, verify the PDF and study details, inspect source-linked supplementary recordings, write 44 content slides plus a title and six-point key takeaways, crop only original article figures, choose a unique first-slide animal image and unused permitted palette, build with tools/build_lecture.py, embed verified useful source videos, check/render every slide, and publish the final PPTX. Preserve the instructor's 10–12-video preference where suitable original recordings are available; report any source shortfall rather than padding.
+The title animal photograph is Winship et al. (2023), Fig. 7. It was compared against 51 previous decks and 2232 distinct embedded images; the nearest visual matches are unrelated images. No previous deck uses this photograph.
+
+No videos are embedded in the current deck. The instructor-uploaded original movie exceeds the 32 MiB transfer limit; its Vimeo endpoint and the Roberts Video S1 supplementary page return HTTP 403. See PAPERS_NEEDED.md and media_sources.json. The requested 10–12 movie goal is unmet and is not padded with unrelated footage. Supply a smaller complete MP4 to add the uploaded recording.
+
+Built with tools/build_lecture.py and checked with tools/check_lecture.py. Final visual QA and publication recorded in VALIDATION.md.

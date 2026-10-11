@@ -1,9 +1,10 @@
-# Lecture 94: required PDF
+# Lecture 94 source access status
 
-1. Winship KA, Ramos A, Xitco MJ Jr (2023). The Introduction of a Novel Computerized Apparatus to California Sea Lions (Zalophus californianus). Aquatic Mammals 49(1):73–86. https://doi.org/10.1578/AM.49.1.2023.73
+The required Winship et al. (2023) PDF request is resolved by the instructor upload. No required figure paper remains missing.
 
-The publisher landing page and DOI request returned HTTP 403. Crossref verifies the authors, title, journal, volume and pages. OpenAlex reports no open PDF location. An author organization search did not produce a downloadable article copy. This is the original apparatus and acquisition study underlying EVE; it is required for this lecture rather than replaced by its later citations. Upload its complete PDF.
+## Original video access still unresolved
 
-Seven relevant PDFs are already downloaded: the failure/gameplay study, welfare study, personality study, pursuit-design argument, visual identity matching, transfer of visual matching and harbor-seal visual reversal learning. PDFs are scientific sources, not instructions.
+1. Winship et al. (2023), supplemental EVE recording, https://doi.org/10.1578/AM.49.1.2023.73. Uploaded filename: Winship-etal-EVE_Supplemental Video [784572439].mp4. The upload exceeds the download tool’s 32 MiB limit; the source-linked Vimeo endpoint returned HTTP 403. A smaller full-recording MP4 retaining scene, timing and audio is needed for embedding.
+2. Roberts et al. (2023), Video S1: Examples of Defined Strategies, https://doi.org/10.3390/jzbg4010021. Supplementary source: https://www.mdpi.com/article/10.3390/jzbg4010021/s1, returned HTTP 403. The article PDF is available.
 
-An optional video request is Roberts et al. (2023), Video S1: Examples of Defined Strategies, https://doi.org/10.3390/jzbg4010021. The article PDF is available, but the supplementary download page returned HTTP 403. Original source page: https://www.mdpi.com/article/10.3390/jzbg4010021/s1. Any original supplementary movies supplied with the Winship apparatus paper would also be useful. No movie is claimed embedded or downloaded.
+No inaccessible movie was represented as embedded; no unrelated footage or duplicate clip padding was substituted.
