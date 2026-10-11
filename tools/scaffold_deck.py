@@ -68,6 +68,9 @@ def wrap_lines(text, width_emu, pt):
 
 
 # ------------------------------------------------------------------ reading a slide
+CAPTION_START = re.compile(r"\(\d{4}[a-z]?\)[^|]{0,40}\bFig\.")   # "Author (year), Fig. N." caption text
+
+
 def classify(slide):
     """Split a content slide into title, body boxes, captions, citation, number and pictures."""
     out = {"title": None, "body": [], "caption": [], "citation": None, "number": None,
@@ -87,7 +90,7 @@ def classify(slide):
         elif sh.top > FOOTER_Y:
             out["citation"] = sh
         elif sh.name == "Figure caption" or _under_picture(sh, out["figs"]) or \
-                (out["figs"] and sh.left >= 6000000) or \
+                (out["figs"] and sh.top > 4500000 and CAPTION_START.search(t)) or \
                 (not out["figs"] and sh.top > 5200000 and sh.height < 500000):
             out["caption"].append(sh)
         else:
@@ -221,6 +224,20 @@ def fit_single_box(box, texts):
                 r.set("sz", str(int(cur * 100)))
 
 
+def set_space_after(p_el):
+    """Space After of PARA_GAP_PT on one body paragraph (scaffolding/RULES.md)."""
+    ppr = p_el.find(A + "pPr")
+    if ppr is None:
+        ppr = etree.Element(A + "pPr")
+        p_el.insert(0, ppr)
+    for old in ppr.findall(A + "spcAft"):
+        ppr.remove(old)
+    aft = etree.Element(A + "spcAft")
+    etree.SubElement(aft, A + "spcPts").set("val", str(PARA_GAP_PT * 100))
+    anchor = ppr.find(A + "spcBef") if ppr.find(A + "spcBef") is not None else ppr.find(A + "lnSpc")
+    (anchor.addnext(aft) if anchor is not None else ppr.insert(0, aft))
+
+
 def write_body(slide, c, texts, normal, bold):
     """Put `texts` into the body, one paragraph each, in the parent's own box structure."""
     boxes = c["body"]
@@ -233,6 +250,7 @@ def write_body(slide, c, texts, normal, bold):
         for t in texts:
             np_ = copy.deepcopy(proto)
             fill_paragraph(np_, t, normal, bold)
+            set_space_after(np_)
             tx.append(np_)
         size_body(box, texts)
         return
@@ -242,6 +260,7 @@ def write_body(slide, c, texts, normal, bold):
             boxes[-1]._element.addnext(new_el)
             boxes.append([s for s in slide.shapes if s._element is new_el][0])
         fill_paragraph(boxes[k].text_frame.paragraphs[0]._p, t, normal, bold)
+        set_space_after(boxes[k].text_frame.paragraphs[0]._p)
     for extra in boxes[len(texts):]:
         extra._element.getparent().remove(extra._element)
     del boxes[len(texts):]
@@ -457,6 +476,7 @@ def resolve_refs(index, keys):
 
 # ------------------------------------------------------------------ one text box per slide
 BODY_BOTTOM = 6330000    # lowest edge a merged body box may reach (the citation sits just below)
+RIGHT_TOP = 1371600      # top of a body column beside a figure (1.5 in, below the title)
 PARA_GAP_PT = 12
 
 
@@ -513,6 +533,31 @@ def merge_body_boxes(slide):
     return True
 
 
+def gather_right_column(slide):
+    """Figure-left slides keep body text in boxes split between the figure column and the right column,
+    where the first paragraph sits under the top figure at small size. Put the whole body into one box
+    in the free right-hand column, from the top of the slide's content area down to BODY_BOTTOM."""
+    c = classify(slide)
+    boxes = c["body"]
+    if c["title"] is None or len(boxes) < 2 or not c["figs"]:
+        return False
+    if c["title"].text_frame.text.strip().lower().startswith("key takeaways"):
+        return False
+    right_edge = max(f.left + f.width for f in c["figs"])
+    right = [b for b in boxes if b.left > right_edge]
+    if not right or len(right) == len(boxes):
+        return False
+    target = right[0]
+    top = RIGHT_TOP
+    for b in boxes:
+        if b is not target:
+            b._element.getparent().remove(b._element)
+    target.top, target.height = Emu(top), Emu(BODY_BOTTOM - top)
+    target.left = Emu(min(b.left for b in right))
+    target.width = Emu(max(b.width for b in right))
+    return True
+
+
 def body_line_counts(slide):
     """Rendered lines per body paragraph at the text box's own width and font size (scaffolding/RULES.md)."""
     c = classify(slide)
@@ -563,8 +608,9 @@ def body_format_problems(slide):
                 bad.append("empty paragraph (use Space After, not a blank line)")
                 continue
             pPr = p._p.find(A + "pPr")
-            if pPr is None or pPr.find(A + "spcAft") is None:
-                bad.append("paragraph without Space After")
+            aft = pPr.find(A + "spcAft") if pPr is not None else None
+            if aft is None or aft.find(A + "spcPts") is None or aft.find(A + "spcPts").get("val") != str(PARA_GAP_PT * 100):
+                bad.append(f"paragraph without Space After of {PARA_GAP_PT} pt")
             for r in p._p.iter(A + "rPr"):
                 if r.get("sz"):
                     sizes.add(int(r.get("sz")))
@@ -584,6 +630,7 @@ def main():
         fix_third_paragraph(prs.slides[int(num) - 1], text)
     for num, paras in spec.get("body", {}).items():    # all three body paragraphs (scaffolding/RULES.md)
         slide = prs.slides[int(num) - 1]
+        gather_right_column(slide)
         merge_body_boxes(slide)
         c = classify(slide)
         normal, bold = run_templates(c)
