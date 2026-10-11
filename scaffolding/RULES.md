@@ -30,3 +30,12 @@ These rules apply to the three body paragraphs of every content slide and to eve
 
 ## Enforcement
 `tools/style_rules.py` (BODY_LIMITATION, BODY_FRAMING, BODY_TENSE) and `tools/check_lecture.py` report violations.
+
+## Paragraph format (updated)
+- Three paragraphs per slide body, all in one text box. Press Enter once between paragraphs; never leave an empty paragraph or blank line.
+- Create the visual gap with Paragraph Spacing → After (`spcAft`, about 12 pt), not with extra Enter presses.
+- Each paragraph has 5–7 complete sentences and fills at least five lines at the existing width and font size.
+- Revise the existing paragraphs too, preserving the findings, the figure references and the videos; only the wording changes.
+- Limitations are banned in all three paragraphs. A caveat may appear only when it is absolutely necessary for the scientific claim, and then as a single clause that states what the finding is, not as a closing sentence.
+- No tongue twisters: avoid stacked compound modifiers, long chains of "of"-phrases, and wording that is awkward to read aloud (for example, "the interspecies comparison-based recalibration of spectral-temporal sensitivity").
+- Write plain, direct teaching sentences. Vary sentence length and avoid repeating the same connective ("therefore", "so", "which") in every paragraph.

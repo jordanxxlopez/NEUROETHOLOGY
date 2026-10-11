@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 from pptx import Presentation  # noqa: E402
 
 import scaffold_deck as sd  # noqa: E402
-from style_rules import body_problems, EM_DASH, MAX_LIMITATION_SHARE, ends_with_limitation, framing_problems, stats_problems  # noqa: E402
+from style_rules import body_problems, paragraph_format_problems, EM_DASH, MAX_LIMITATION_SHARE, ends_with_limitation, framing_problems, stats_problems  # noqa: E402
 
 A_BODY_WORDS = (110, 200)       # approved scaffolded slides run 115-191 words of body text
 A_NOTE_WORDS = (150, 420)       # and 178-373 words of speaker notes
@@ -91,6 +91,7 @@ def main():
                 problems.append(f"{where} paragraph {k}: {words(t)} words (expected 50-115, about 5-7 lines)")
             problems += text_problems(where, t)
         problems += [f"{where}: {w}" for w in body_problems(paras)]
+        problems += [f"{where}: {w}" for w in paragraph_format_problems(paras)]
     # new slides
     for ins in m.spec["inserts"]:
         where = f"scaffold after slide {ins['after']}"
@@ -107,6 +108,7 @@ def main():
             problems.append(f"{where}: closes on a caveat")
         if n >= 21:
             problems += [f"{where}: {w}" for w in body_problems(body)]
+            problems += [f"{where}: {w}" for w in paragraph_format_problems(body)]
         for t in body + [ins["title"], notes]:
             problems += text_problems(where, t)
     # the built deck

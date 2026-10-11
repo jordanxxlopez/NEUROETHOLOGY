@@ -148,3 +148,33 @@ def body_problems(paragraphs):
         for m in list(BODY_FRAMING.finditer(p)) + list(FIRST_PERSON_I.finditer(p)):
             bad.append(f"paragraph {k}: framing or tense ({m.group(0)!r})")
     return bad
+
+
+# ------------------------------------------------------------------ paragraph format (scaffolding/RULES.md)
+ABBREV = re.compile(r"\b(?:Fig|Figs|al|e\.g|i\.e|vs|approx|Dr|St|No|Eq|cf)\.$")
+MIN_PARA_SENTENCES, MAX_PARA_SENTENCES = 5, 7
+MIN_PARA_WORDS = 55          # about five full lines at the existing width and font size
+
+
+def sentence_count(text):
+    """Complete sentences: split after . ! ? followed by a capital, ignoring abbreviations and decimals."""
+    parts = re.split(r"(?<=[.!?])\s+(?=[A-Z\u201c\u2018(])", text.strip())
+    kept = []
+    for part in parts:
+        if kept and ABBREV.search(kept[-1]):
+            kept[-1] = kept[-1] + " " + part
+        else:
+            kept.append(part)
+    return len([k for k in kept if k.strip()])
+
+
+def paragraph_format_problems(paragraphs):
+    """Five to seven sentences and about five lines per paragraph (scaffolding/RULES.md)."""
+    bad = []
+    for k, p in enumerate(paragraphs[:3], 1):
+        n = sentence_count(p)
+        if not MIN_PARA_SENTENCES <= n <= MAX_PARA_SENTENCES:
+            bad.append(f"paragraph {k}: {n} sentences (expected {MIN_PARA_SENTENCES}-{MAX_PARA_SENTENCES})")
+        if len(p.split()) < MIN_PARA_WORDS:
+            bad.append(f"paragraph {k}: {len(p.split())} words (about five lines needs {MIN_PARA_WORDS}+)")
+    return bad

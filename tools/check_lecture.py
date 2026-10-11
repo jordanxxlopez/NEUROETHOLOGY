@@ -20,7 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from style_rules import (MADE_IMAGE_WORDS, MIN_ARTICLE_FIGURE_SLIDES, MIN_COLOR_SHARE, MIN_IMAGE_SLIDES,  # noqa: E402
                          framing_problems, is_color_image, stats_problems)
 from theme_colors import alignment_problems  # noqa: E402
-from style_rules import EM_DASH, MAX_LIMITATION_SHARE, body_problems, ends_with_limitation  # noqa: E402
+from style_rules import EM_DASH, MAX_LIMITATION_SHARE, body_problems, paragraph_format_problems, ends_with_limitation  # noqa: E402
 
 STRUCTURE = [
     (r"^\s*(lecture )?(outline|agenda|overview|roadmap)\s*$", "no outline/agenda slide"),
@@ -139,7 +139,7 @@ def main():
             caveats.append(i)
         if args.lecture >= 21 and body:                      # scaffolding/RULES.md, Lectures 21 and later
             paras = [p.text for sh in body for p in sh.text_frame.paragraphs if p.text.strip()]
-            for why in body_problems(paras):
+            for why in body_problems(paras) + paragraph_format_problems(paras):
                 rule_breaks.append(f"slide {i}: {why}")
     if rule_breaks:
         errs.append(f"{len(rule_breaks)} body-text rule breaks (scaffolding/RULES.md), e.g. {rule_breaks[:4]}")
