@@ -100,7 +100,7 @@ IMAGES — ON NEARLY EVERY SLIDE
 VIDEOS: USEFUL ORIGINAL ARTICLE RECORDINGS
 - Apply this to both new lectures and existing lectures being updated. Check the cited
   articles and their supplements, and include recordings when motion teaches the behavior,
-  preparation, stimulus, response or mechanism. There is no video quota.
+  preparation, stimulus, response or mechanism. Aim for about 8–10 useful embedded original article recordings per lecture. Explain any shortfall; never pad with repeated, unrelated or scientifically unhelpful clips.
 - Use only original publisher supplements, article-hosted videos, or author/lab recordings
   in a repository explicitly linked or cited by the article. Verify the study connection.
   Never pull from YouTube, even an author or journal channel, or unrelated web videos.

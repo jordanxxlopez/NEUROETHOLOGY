@@ -20,7 +20,7 @@ Make Lecture [N] for NEUR 411 as a downloadable .pptx, following the project ins
    or cited by the article; never YouTube. Embed when supported, preserve the recording, credit its
    identifier/filename, DOI and original URL, verify media/playback when possible, and retain a static
    fallback. If unavailable, tell me briefly, provide the original link/file where accessible and
-   continue. No quota, no generated footage, no changes to titles, slide counts or figure requirements.
+   continue. Aim for about 8–10 useful embedded original article recordings per lecture; explain any shortfall and never pad with repeated or unhelpful clips. No generated footage or changes to titles, slide counts or figure requirements.
 6. Reread every slide and transcript against the writing rules (no framing, no "this shows", no
    statistics clutter, natural teaching voice), then give me the .pptx and the updated themes.json.
 ```
