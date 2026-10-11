@@ -1,9 +1,13 @@
-# QA
+# Lecture 91 QA
 
-50 slides, 48 primary-figure content slides, 27 source-color figure slides. Repository checker passes with zero failures and warnings using --content-slides 48, the instructor-authorized four-slide addition. Original title/date, teaching text on slides 1–45, and original takeaways are preserved. Slides 46–49 add source-verified Cook et al. (2025) material. Full article references and DOI are in the notes.
-
-One original native MP4 is internally embedded, with bytes matching the original article recording. No repeated clips, other-animal videos, trimming, speed changes, or audio edits. PDF is static. Desktop PowerPoint playback and Google Slides import are untested.
-
-The 10–12 sea-lion video request remains unmet; the supplied YouTube feature remains unavailable pending upload. Additional primary-study searches checked imitation, whisker control, foraging, auditory and locomotor studies; retrieved supplements were data/tables, or publisher access was denied. No unavailable source was substituted.
-
-Latest instructor revision: slides41–43 retain Ito et al. (2022), Movies S1–S3. Four native media objects and four embedded MP4 files verified by SHA-256; these comparisons do not count as additional sea-lion recordings. Original display proportions retained; PowerPoint GUI playback remains untested.
+- Current default-branch AGENTS.md and lecture skill were refreshed and compared before revision; the rules matched the working checkout. The instructor's expanded title was recorded exactly in schedule.json.
+- Final deck: 50 slides, 48 content slides with primary article figures; 34 image slides contain source color. Arial, exact title/date, transcript/reference, teaching-ending, and no-em-dash checks pass with zero failures and zero warnings.
+- All 50 rendered slide layouts reviewed, plus detailed review of the changed anatomy, definition, and media slides. Direct PDF crops retain panel labels, axes, units, and scale bars. No generated visual or new schematic was produced; Leahy Fig. 1 is an intact published figure.
+- Native MP4 objects and valid embedded relationships on slides 10, 12–15, 17, 20, and 41–43. Videos fit their native display ratio; figures remain separate. All ten files decoded without errors in FFmpeg.
+- Slides 41–43 checked against committed version 4d8acb9: text, picture bytes, movie bytes, and every shape's geometry are identical.
+- Ronan feature embedded byte-for-byte from the instructor-uploaded compressed copy. It is the official 2013 UCSC feature, with the instructor's specific source exception, and is excluded from the study target.
+- Nine qualifying study recordings: six sea-lion movies and three explicitly retained rat/human movies. This is one below the requested ten-study-video minimum. No duplicate or segmented movie inflates the count. Milne's ball-balancing clip is a brief 0.74 s native-speed analysis interval, not a long demonstration.
+- Compatibility/delivery conversions preserve native resolution, frame count, original frame timestamps, and source AAC packets. Milne's Cinepak AVI conversion retains all 222 frames at 300 fps. Evidence and hashes are in media_conversion_audit.json and delivery_verification.json.
+- Six new full citations checked against uploaded/obtained papers and Crossref, including the correct JEB issue 20 for Leahy2021. Citation metadata is retained in new_reference_verification.json.
+- Title image is the retained photo of Ronan; the existing first-slide uniqueness audit applies to this revision of the same lecture.
+- Desktop PowerPoint GUI playback and Google Slides import were not tested. PDF export is static. Google Slides can omit embedded PPTX media; the separate MP4s can be uploaded to Drive and inserted with its native Video command.

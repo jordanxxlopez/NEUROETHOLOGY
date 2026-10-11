@@ -1,10 +1,103 @@
 {
-  "embedded_video_count": 4,
-  "qualifying_sea_lion_study_video_count": 1,
+  "embedded_video_count": 10,
+  "qualifying_sea_lion_study_video_count": 6,
   "required_count": 10,
+  "featured_video_count": 1,
+  "qualifying_study_video_count": 9,
+  "study_target_shortfall": 1,
   "ronan_study_recording_count": 1,
-  "featured_2025_ronan_embedded": false,
+  "featured_2013_ronan_embedded": true,
   "sources": [
+    {
+      "slide": 10,
+      "file": "media/JEB243085.MovieS1.mp4",
+      "caption": "Milne et al. (2021), Movie 1. Lo explores texture, size, and visual brightness.",
+      "doi": "10.1242/jeb.243085",
+      "original_url": "https://static-movie-usa.glencoesoftware.com/source/10.1242/861/cf6333a8eda59f3724280a480f4c6d468185fa4d/JEB243085.MovieS1.mp4",
+      "credit": "Milne, Orton, Black, Jones, Sullivan, and Grant",
+      "license": "CC BY 4.0",
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 34.537333,
+      "sha256": "6300342d1f84b3adc67fb368d6bc8242bd7bf39741b606b6351d74ecc50f27c6",
+      "display_aspect_ratio": "16:9",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 12,
+      "file": "media/Milne2014_ESM1.mp4",
+      "caption": "Milne and Grant (2014), ESM 1. The original brief ball-balancing analysis interval.",
+      "doi": "10.1007/s00359-014-0931-1",
+      "original_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs00359-014-0931-1/MediaObjects/359_2014_931_MOESM1_ESM.avi",
+      "credit": "Milne and Grant",
+      "license": "Copyright Springer-Verlag Berlin Heidelberg; no open license stated",
+      "width": 640,
+      "height": 332,
+      "duration_seconds": 0.74,
+      "sha256": "5e795cdb73446809049ce0df942234fb3389964d6489e8ab6ec36dfe9d43d1ff",
+      "display_aspect_ratio": null,
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 13,
+      "file": "media/JEB243020.MovieS3.mp4",
+      "caption": "Leahy et al. (2021), Movie 3. A trained sea lion executes a 180\u00b0 left banking turn.",
+      "doi": "10.1242/jeb.243020",
+      "original_url": "https://static-movie-usa.glencoesoftware.com/source/10.1242/738/918c6b425b28fbbb9ac7bd4aafad3298129ba4a7/JEB243020.MovieS3.mp4",
+      "credit": "Leahy, Fish, Kerr, Zeligs, Skrovan, Cardenas, and Leftwich",
+      "license": "Copyright The Company of Biologists; no open license stated",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 5.439,
+      "sha256": "2eedb7495662014c6b9cb8ec3436dc7140ef3434fff1a06e1c43a31270517659",
+      "display_aspect_ratio": "16:9",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 14,
+      "file": "media/JEB243020.MovieS1.mp4",
+      "caption": "Leahy et al. (2021), Movie 1. A captive sea lion completes a porpoising bout.",
+      "doi": "10.1242/jeb.243020",
+      "original_url": "https://static-movie-usa.glencoesoftware.com/source/10.1242/738/918c6b425b28fbbb9ac7bd4aafad3298129ba4a7/JEB243020.MovieS1.mp4",
+      "credit": "Leahy, Fish, Kerr, Zeligs, Skrovan, Cardenas, and Leftwich",
+      "license": "Copyright The Company of Biologists; no open license stated",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 31.498133,
+      "sha256": "22e0e4446fda1128fd3596e9b25e9e6d5e361eaebc12fa8f846b6be03c532b24",
+      "display_aspect_ratio": "16:9",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 15,
+      "file": "media/JEB243020.MovieS2.mp4",
+      "caption": "Leahy et al. (2021), Movie 2. Wild sea lions porpoise in Monterey Bay.",
+      "doi": "10.1242/jeb.243020",
+      "original_url": "https://static-movie-usa.glencoesoftware.com/source/10.1242/738/918c6b425b28fbbb9ac7bd4aafad3298129ba4a7/JEB243020.MovieS2.mp4",
+      "credit": "Leahy, Fish, Kerr, Zeligs, Skrovan, Cardenas, and Leftwich",
+      "license": "Copyright The Company of Biologists; no open license stated",
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 28.233991,
+      "sha256": "732dc86ce82d21fb840220fbf3a6a3bc9bd85fea34f2e776505ad2297fbfb01c",
+      "display_aspect_ratio": "16:9",
+      "counts_toward_study_target": true
+    },
+    {
+      "slide": 17,
+      "file": "media/UCSC2013_Ronan_feature.mp4",
+      "caption": "Cook et al. (2013), official UCSC study video. Ronan transfers trained synchronization to music.",
+      "doi": "10.1037/a0032345",
+      "original_url": "https://youtu.be/s4nBevZJMvk",
+      "credit": "UC Santa Cruz; Cook and colleagues",
+      "license": "No open license stated; instructor-provided compressed copy and explicit permission for this official study video",
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 133.398005,
+      "sha256": "c0bb3b0b6cd8735393a693ba01832ba3a13ad0c365ba7468c143f17592d818ae",
+      "display_aspect_ratio": "16:9",
+      "counts_toward_study_target": false
+    },
     {
       "slide": 20,
       "file": "media/Rouse2016_Video1.mp4",
@@ -16,10 +109,9 @@
       "width": 854,
       "height": 480,
       "duration_seconds": 114.781333,
-      "sha256": "09585ab0a756d9d282ab2f71bb2e4beee200a122042b8a7555ce04a9f2ff78ae",
+      "sha256": "2ff7cf13f6921e29525a6ea1388bd2fa03e69eaac93fe64d4d04ee8fd550f6dc",
       "display_aspect_ratio": "427:240",
-      "counts_toward_study_target": true,
-      "animal_scope": "sea lion"
+      "counts_toward_study_target": true
     },
     {
       "slide": 41,
@@ -34,8 +126,7 @@
       "duration_seconds": 27.561,
       "sha256": "90f64c9804c9626b02b9b936ffb04a0dfe9f8abeb6e0372f4d2c6b547338d419",
       "display_aspect_ratio": "16:9",
-      "counts_toward_study_target": true,
-      "animal_scope": "comparative rat/human recording expressly retained by instructor"
+      "counts_toward_study_target": true
     },
     {
       "slide": 42,
@@ -50,8 +141,7 @@
       "duration_seconds": 84.251,
       "sha256": "9bb819a44c0e5747bbe3516463ec763a4a2ec9d9626de6c071659ded76206ef9",
       "display_aspect_ratio": "16:9",
-      "counts_toward_study_target": true,
-      "animal_scope": "comparative rat/human recording expressly retained by instructor"
+      "counts_toward_study_target": true
     },
     {
       "slide": 43,
@@ -66,16 +156,7 @@
       "duration_seconds": 189.3,
       "sha256": "79fbd19a91f47f0fc581e6b3808a3b317145cf968e6368e70564a4ad36c4a72b",
       "display_aspect_ratio": "203:270",
-      "counts_toward_study_target": true,
-      "animal_scope": "comparative rat/human recording expressly retained by instructor"
+      "counts_toward_study_target": true
     }
-  ],
-  "total_slides": 50,
-  "content_slides": 48,
-  "comparative_recording_count": 3,
-  "pending_feature_video": {
-    "url": "https://youtu.be/s4nBevZJMvk",
-    "status": "Not embedded: download blocked",
-    "counts_toward_study_target": false
-  }
+  ]
 }
