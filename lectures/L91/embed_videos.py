@@ -10,13 +10,7 @@ ROOT=Path(__file__).resolve().parent
 PPTX=ROOT/'Neuroethology_Lecture91_FA2026.pptx'
 base='https://pmc-oa-opendata.s3.amazonaws.com/'
 entries=[
- (20,'Rouse2016_Video1','Rouse et al. (2016), Supplementary Video 1. Ronan adjusts to phase and tempo changes.','10.3389/fnins.2016.00257',base+'PMC4891632.1/Video1.MP4','CC BY 4.0','Rouse, Cook, Large, and Reichmuth'),
- (41,'Ito2022_MovieS1','Ito et al. (2022), Movie S1. Rat head movements and simultaneous jerk traces.','10.1126/sciadv.abo7019',base+'PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip','CC BY-NC 4.0','Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi'),
- (42,'Ito2022_MovieS2','Ito et al. (2022), Movie S2. Beat-related movements in a standing rat.','10.1126/sciadv.abo7019',base+'PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip','CC BY-NC 4.0','Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi'),
- (43,'Ito2022_MovieS3','Ito et al. (2022), Movie S3. Human head movements and marker tracking.','10.1126/sciadv.abo7019',base+'PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip','CC BY-NC 4.0','Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi')]
-additional=json.loads((ROOT/'additional_videos.json').read_text())
-extra_by_stem={e['stem']:e for e in additional}
-entries += [(e['slide'],e['stem'],e['caption'],e['doi'],base+e['original_key'],e['license'],e['credit']) for e in additional]
+ (20,'Rouse2016_Video1','Rouse et al. (2016), Supplementary Video 1. Ronan adjusts to phase and tempo changes.','10.3389/fnins.2016.00257',base+'PMC4891632.1/Video1.MP4','CC BY 4.0','Rouse, Cook, Large, and Reichmuth')]
 prs=Presentation(PPTX)
 if any(s.shape_type==MSO_SHAPE_TYPE.MEDIA for sl in prs.slides for s in sl.shapes):
  raise SystemExit('Use the pre-video deck to avoid duplicate recordings.')
@@ -52,16 +46,13 @@ for num,stem,cap,doi,url,license,credit in entries:
  fallback.name='Static video fallback'
  movie=sl.shapes.add_movie(str(path),Inches(x),Inches(y),Inches(w),Inches(h),poster_frame_image=str(poster),mime_type='video/mp4')
  for el in movie._element.xpath('.//p:cNvPr'):el.set('descr',cap+' Click to play the embedded original study recording.')
- if stem in extra_by_stem:
-  e=extra_by_stem[stem]
-  sl.notes_slide.notes_text_frame.text+='\nVideo comparison teaching: '+e['teaching']+'\nReferences:\n'+e['reference']+'\n'
  # PowerPoint supports full-screen video playback while preserving the native ratio.
  for el in sl._element.xpath('.//p:video'):el.set('fullScrn','1')
- sl.notes_slide.notes_text_frame.text+='\nEmbedded recording: '+cap+'\nSource URL: '+url+'\nArticle DOI: https://doi.org/'+doi+'\nCredit: '+credit+'. License: '+license+'.\nDiscuss the displayed behavior and compare it with the adjacent published measurements. Original timing and audio retained; poster is an unedited frame. Videos are H.264 MP4 copies for compatibility and delivery size, with native display proportions, original scene order, frame rate, duration, and audio retained. PCM audio in legacy MOV files is converted to AAC for compatibility. Desktop PowerPoint playback and Google Slides import were not tested.\n'
- sources.append(dict(slide=num,file=str(path.relative_to(ROOT)),caption=cap,doi=doi,original_url=url,credit=credit,license=license,width=v['width'],height=v['height'],duration_seconds=float(probe['format']['duration']),sha256=hashlib.sha256(path.read_bytes()).hexdigest(),display_aspect_ratio=v.get('display_aspect_ratio'),counts_toward_study_target=(stem!='Rouse2016_Video1')))
+ sl.notes_slide.notes_text_frame.text+='\nEmbedded recording: '+cap+'\nSource URL: '+url+'\nArticle DOI: https://doi.org/'+doi+'\nCredit: '+credit+'. License: '+license+'.\nDiscuss the displayed behavior and compare it with the adjacent published measurements. Original timing and audio retained; poster is an unedited frame. This is the unmodified original H.264/AAC supplementary MP4, with native display proportions and original timing, scene order, and audio retained. Desktop PowerPoint playback and Google Slides import were not tested.\n'
+ sources.append(dict(slide=num,file=str(path.relative_to(ROOT)),caption=cap,doi=doi,original_url=url,credit=credit,license=license,width=v['width'],height=v['height'],duration_seconds=float(probe['format']['duration']),sha256=hashlib.sha256(path.read_bytes()).hexdigest(),display_aspect_ratio=v.get('display_aspect_ratio'),counts_toward_study_target=True))
 for i,sl in enumerate(prs.slides):
  assert [s.text for s in sl.shapes if s.has_text_frame][:len(before[i])]==before[i],f'Text changed on slide {i+1}'
  assert [hashlib.sha256(s.image.blob).hexdigest() for s in sl.shapes if s.shape_type==MSO_SHAPE_TYPE.PICTURE and s.name!='Static video fallback']==original_images[i]
 prs.save(PPTX)
-(ROOT/'media_sources.json').write_text(json.dumps(dict(embedded_video_count=len(sources),qualifying_non_ronan_video_count=sum(x['counts_toward_study_target'] for x in sources),required_count=10,ronan_study_recording_count=1,featured_2025_ronan_embedded=False,sources=sources),indent=2)+'\n')
-print('Embedded eleven distinct recordings: ten non-Ronan recordings and one Ronan research recording. All existing visible text and original figure bytes preserved.')
+(ROOT/'media_sources.json').write_text(json.dumps(dict(embedded_video_count=len(sources),qualifying_sea_lion_study_video_count=len(sources),required_count=10,ronan_study_recording_count=1,featured_2025_ronan_embedded=False,sources=sources),indent=2)+'\n')
+print('Embedded one original sea-lion study recording. No other-animal videos are present. All existing visible text and original figure bytes preserved.')

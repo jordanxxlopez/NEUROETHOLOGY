@@ -1,43 +1,46 @@
-# Lecture 91: embedded study videos
+# Lecture 91: sea-lion videos only
 
-**Eleven distinct recordings are embedded: ten non-Ronan article recordings, plus one Ronan research recording. All Ronan material is excluded from the qualifying ten-video count.** The separately requested YouTube feature is not embedded yet.
+**One original sea-lion study recording is embedded on slide 20.** All ten other-animal/human-only videos have been removed. Their added captions, notes, and supplementary references have also been removed. The original lecture text and published figures are unchanged, and the original figure layouts are restored on the slides from which videos were removed.
 
-Existing teaching text, titles, original scientific figure bytes, and 46-slide count are preserved. Only right-column placement changes to make room for separate figures and native video objects.
+## Embedded recording
 
-| Slide | Recording | Download | Counts toward ten |
-| --- | --- | --- | --- |
-| 20 | Rouse et al. (2016), Supplementary Video 1. Ronan adjusts to phase and tempo changes. [DOI](https://doi.org/10.3389/fnins.2016.00257) | [MP4](media/Rouse2016_Video1.mp4) | No, Ronan |
-| 41 | Ito et al. (2022), Movie S1. Rat head movements and simultaneous jerk traces. [DOI](https://doi.org/10.1126/sciadv.abo7019) | [MP4](media/Ito2022_MovieS1.mp4) | Yes |
-| 42 | Ito et al. (2022), Movie S2. Beat-related movements in a standing rat. [DOI](https://doi.org/10.1126/sciadv.abo7019) | [MP4](media/Ito2022_MovieS2.mp4) | Yes |
-| 43 | Ito et al. (2022), Movie S3. Human head movements and marker tracking. [DOI](https://doi.org/10.1126/sciadv.abo7019) | [MP4](media/Ito2022_MovieS3.mp4) | Yes |
-| 3 | Hasegawa et al. (2011), Supplemental Video S1. A budgerigar pecks to the audiovisual metronome. [DOI](https://doi.org/10.1038/srep00120) | [MP4](media/Hasegawa2011_VideoS1.mp4) | Yes |
-| 4 | Hattori et al. (2013), Supplemental Video_S1. A chimpanzee learns alternating keyboard taps. [DOI](https://doi.org/10.1038/srep01566) | [MP4](media/Hattori2013_VideoS1.mp4) | Yes |
-| 6 | Hasegawa et al. (2011), Supplemental Video S2. A second budgerigar performs the trained tapping task. [DOI](https://doi.org/10.1038/srep00120) | [MP4](media/Hasegawa2011_VideoS2.mp4) | Yes |
-| 8 | Hasegawa et al. (2011), Supplemental Video S3. Earlier tapping tempo persists after an interval change. [DOI](https://doi.org/10.1038/srep00120) | [MP4](media/Hasegawa2011_VideoS3.mp4) | Yes |
-| 26 | Hattori et al. (2013), Supplemental Video_S2. Ai aligns keyboard taps with a 600-ms sound sequence. [DOI](https://doi.org/10.1038/srep01566) | [MP4](media/Hattori2013_VideoS2.mp4) | Yes |
-| 31 | Hasegawa et al. (2011), Supplemental Video S4. Another example of retained timing during a tempo transition. [DOI](https://doi.org/10.1038/srep00120) | [MP4](media/Hasegawa2011_VideoS4.mp4) | Yes |
-| 40 | Hattori and Tomonaga (2020), Movie S2. Sound-induced quadrupedal swaying in a chimpanzee. [DOI](https://doi.org/10.1073/pnas.1910318116) | [MP4](media/Hattori2020_MovieS2.mp4) | Yes |
+Rouse et al. (2016), Supplementary Video 1. Ronan adjusts her head bobbing during sudden phase and tempo changes; the recording also includes a double bob.
 
-## Sources and integrity
+- [Download MP4](media/Rouse2016_Video1.mp4)
+- Article DOI: https://doi.org/10.3389/fnins.2016.00257
+- Original archive: https://pmc-oa-opendata.s3.amazonaws.com/PMC4891632.1/Video1.MP4
+- Credit: Andrew A. Rouse, Peter F. Cook, Edward W. Large, and Colleen Reichmuth.
+- License: CC BY 4.0.
+- Original H.264/AAC MP4 retained unchanged, 854 × 480, 114.781 s. MD5 `c1b8beaf444753def763d46a247b05e3`, matching the source article XML.
 
-All recordings come from the cited primary articles’ supplements in NCBI’s official public open-access archive. They are not web/social-media compilations. Original URLs, exact supplementary identifiers, credits, licenses, dimensions, durations, and file hashes are in media_sources.json. Full verified references and comparison teaching material are in slide notes.
+A native video object and its internal MP4 media relationships are present in the PPTX. Native proportions, source timing, and audio are preserved. The unedited poster frame is a static-export fallback. Desktop PowerPoint playback is untested; FFmpeg decoding succeeds. The PDF is static. Google Slides may omit the PPTX video object during import, requiring insertion of the separate MP4 through Google Drive.
 
-The four budgerigar movies cover metronome performance and retention of a previous tapping interval. The two 2013 chimpanzee movies distinguish trained alternating action from spontaneous alignment with a 600-ms rhythm. The 2020 swaying recording illustrates why sound-induced motion is distinct from demonstrated beat synchronization. The rat recordings show movement measurements and the human comparison. These comparisons support the timing concepts in the unchanged sea-lion lecture.
+## Additional sea-lion originals needed
 
-Rouse original MP4 MD5: `c1b8beaf444753def763d46a247b05e3`; Ito original movie ZIP MD5: `e6de1a1cb06ccc93b1ae4a610554d5c0`. Both match article XML records. Additional references were verified against article XML and Crossref. All required source PDFs were retrieved.
+The requested 10–12 recordings cannot currently be reached with retrievable, relevant sea-lion sources. No repeated clips, unrelated sea-lion behavior, web compilations, or other-animal videos were substituted.
 
-MP4 versions use H.264 for compatibility and delivery size. Native frame counts and display aspect ratios match the originals; video durations match within 1 ms of container rounding. No trimming, speed changes, new graphics, scene changes, or image recoloring were performed. Existing AAC audio was copied; PCM audio in the two legacy chimpanzee MOV files was converted to AAC for compatibility. Conversion audit: media_conversion_audit.json. The legacy H.261 originals produce decoder warnings; converted MP4s decode without errors and all source frames are retained.
+Cook et al. (2013), DOI https://doi.org/10.1037/a0032345. The publisher’s original supplemental DOCX lists the following recordings but its supplemental page currently supplies only DOCX and XLSX. The DOCX states: “Video of every test trial is permanently archived at The Pinniped Cognition and Sensory Systems Laboratory and is available on request.” No correspondence has been sent.
 
-All eleven embedded MP4 parts and internal video/media relationships were verified by hash, and all converted files decode successfully with FFmpeg. PowerPoint GUI playback was not available for testing. Unedited original frames serve as posters and static PDF fallbacks.
+1. S1: Post-practice test, frequency-modulated, 120 bpm.
+2. S2: Post-practice test, frequency-modulated, 80 bpm.
+3. S3: Tempo transfer, frequency-modulated, 96 bpm.
+4. S4: Tempo transfer, frequency-modulated, 108 bpm.
+5. S5: Tempo transfer, frequency-modulated, 88 bpm.
+6. S6: Tempo transfer, frequency-modulated, 132 bpm.
+7. S7: Tempo transfer, frequency-modulated, 72 bpm.
+8. S8: Music exposure, Everybody.
+9. S9: Music exposure, Boogie Wonderland.
+10. S10: Extended-duration test, frequency-modulated, 120 bpm.
 
-## Pending supplied Ronan feature
+Publisher supplement: https://supp.apa.org/psycarticles/supplemental/a0032345/a0032345_supp.html
 
-User URL: https://youtu.be/s4nBevZJMvk
+Cook et al. (2025), DOI https://doi.org/10.1038/s41598-025-95279-1, provides two official supplementary recordings only through YouTube:
 
-The approved Ronan YouTube exception persists, but the environment proxy denies downloads (HTTP 403). The supplied clip’s contents could not be inspected. Upload its downloaded original MP4 to the chat or into this connected repository to permit inspection and embedding. Moving a file into GitHub only works once the actual video file is available; a YouTube URL does not provide a local MP4. This pending feature is excluded from the count.
+11. Supplementary Video 1: familiar-tempo longitudinal comparison. https://youtu.be/oen67G5w5S0
+12. Supplementary Video 2: sea-lion/human comparison. https://youtu.be/1zZc18B8ZW0
 
-The 2025 paper’s official study links remain attached to figures on slides 17 and 39: https://youtu.be/1zZc18B8ZW0 and https://youtu.be/oen67G5w5S0. They are linked recordings, not embedded movies.
+The Ronan YouTube exception is approved, but downloads are blocked by the environment proxy. The 2025 archive and article-linked code repositories provide no alternate movie files; the article’s Figshare data are described as Excel tables, not videos. Official links remain attached to figures on slides 17 and 39 and do not count as embedded movies.
 
-## Viewer compatibility
+User-supplied featured URL: https://youtu.be/s4nBevZJMvk. Its contents cannot be inspected because of the same access block. Upload the downloaded original file to the chat or this repository to enable inspection and embedding. The featured clip stays outside the study-video count.
 
-Use desktop PowerPoint for the complete native embedded-media deck. Google Slides may omit PPTX video objects during import. Upload the separate MP4 files to Google Drive, then use Insert > Video to insert them. Preserve their proportions when sizing. The PDF is a static preview and cannot play videos.
+Search/access evidence: sea_lion_media_search.json. Some broad scholarly results are reviews or involve other species and were excluded; later-dated results were not used as evidence for this lecture.

@@ -1,3 +1,3 @@
 # Lecture 91
 
-46 slides with unchanged original teaching text and scientific figures. Eleven distinct article recordings embedded, of which ten are non-Ronan and count toward the requested 10–12. The existing Ronan research movie is extra and excluded from the count. The user-supplied YouTube feature remains blocked pending an uploaded original file. No web videos were substituted. See MEDIA.md.
+Sea-lion-only revision: one original Rouse2016 recording embedded on slide20. All other-animal videos removed; original text, figures, notes, and layouts restored except for the single sea-lion video placement. Ten-to-twelve video target remains unmet because additional relevant originals cannot currently be downloaded. Missing originals and source links are listed in MEDIA.md.
