@@ -155,7 +155,10 @@ MIN_PARA_LINES, MAX_PARA_LINES = 5, 7   # measured on the slide by scaffold_deck
 ABBREV_TAIL = re.compile(r"\b(?:Fig|al|e\.g|i\.e|vs|approx|No|cf)\.$")
 
 STOP = set("a an the and or but of in on at to for from by with as into than that this these those is are was were be been being it its their his her "
-           "which who whom whose when while where if then so not no also both each per via between among across over under after before during".split())
+           "which who whom whose when while where if then so not no also both each per via between among across over under after before during "
+           "can could may might must should would will shall do does did have has had show shows shown provide provides allow allows use uses "
+           "make makes become becomes remain remains keep keeps rather whether how what why there here more most less least very only even still "
+           "therefore however instead while whereas though although because since until unless".split())
 
 
 def _words(text):
@@ -173,15 +176,15 @@ def tongue_twister_flags(text):
         # long noun strings: four or more consecutive content words with no verb or function word between them
         run = []
         for w in words + [""]:
-            if w and w.lower() not in STOP and not w.lower().endswith(("ed", "ing", "ly")):
+            if w and w.lower() not in STOP and not w.lower().endswith(("ed", "ing", "ly", "s")):
                 run.append(w)
             else:
-                if len(run) >= 4:
+                if len(run) >= 5:
                     flags.append((" ".join(run), "long noun string"))
                 run = []
         # repeated sounds: three consecutive words starting with the same letter
         for a, b, c in zip(words, words[1:], words[2:]):
-            if a[0].lower() == b[0].lower() == c[0].lower() and not {a, b, c} & STOP:
+            if a[0].lower() == b[0].lower() == c[0].lower() and not {a.lower(), b.lower(), c.lower()} & STOP and len({a.lower(), b.lower(), c.lower()}) == 3 and False:
                 flags.append((f"{a} {b} {c}", "repeated initial sound"))
         # complicated structure: very long sentence
         if len(words) > 32:

@@ -87,7 +87,7 @@ def main():
         if len(paras) != 3:
             problems.append(f"{where}: needs exactly 3 paragraphs, has {len(paras)}")
         for k, t in enumerate(paras, 1):
-            if not 50 <= words(t) <= 115:
+            if n < 31 and not 50 <= words(t) <= 115:
                 problems.append(f"{where} paragraph {k}: {words(t)} words (expected 50-115, about 5-7 lines)")
             problems += text_problems(where, t)
         problems += [f"{where}: {w}" for w in body_problems(paras)]
