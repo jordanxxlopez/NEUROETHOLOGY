@@ -98,7 +98,7 @@ IMAGES — ON NEARLY EVERY SLIDE
 VIDEOS: USEFUL ORIGINAL ARTICLE RECORDINGS
 - Apply this to both new lectures and existing lectures being updated. Check the cited
   articles and their supplements, and include recordings when motion teaches the behavior,
-  preparation, stimulus, response or mechanism. Target 10–12 useful embedded original article recordings per lecture (10 preferred, 12 acceptable), following the instructor’s updated requirement. Spread recordings through the lecture where scientifically appropriate; adjacent video slides are acceptable. Explain any shortfall; never pad with repeated, unrelated or scientifically unhelpful clips.
+  preparation, stimulus, response or mechanism. Include 10–12 useful embedded original article recordings per final lecture (10 preferred, 12 acceptable), following the instructor’s required count. Spread recordings through the lecture where scientifically appropriate; adjacent video slides are acceptable. Explain any shortfall; never pad with repeated, unrelated or scientifically unhelpful clips.
 - Use only original publisher supplements, article-hosted videos, or author/lab recordings
   in a repository explicitly linked or cited by the article. Verify the study connection.
   Never pull from YouTube, even an author or journal channel, or unrelated web videos.
@@ -113,8 +113,9 @@ VIDEOS: USEFUL ORIGINAL ARTICLE RECORDINGS
   frame or intact article figure as the credited poster/static fallback. Clearly distinguish
   an embedded-video PPTX from any static hosted copy; report untested playback accurately.
 - If download or embedding is unavailable, tell me briefly, link or provide the original
-  article recording where accessible, and continue with published figures. Optional videos
-  do not block the lecture or relax the required-paper PDF rule.
+  article recording where accessible, and continue working with published figures. A final
+  lecture must still contain 10–12 embedded recordings. Obtain relevant permitted alternatives
+  or request original files; a deck below ten is an incomplete draft. Keep the required-paper PDF rule.
 - Keep the exact title, slide count and existing image/primary-figure/anatomy requirements.
   Integrate useful clips into relevant content slides. Assess older decks during authorized
   updates; do not initiate a bulk rewrite solely to add videos.

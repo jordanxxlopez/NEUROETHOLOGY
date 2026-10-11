@@ -1,11 +1,9 @@
-# Lecture 94 deck and media status
+# Lecture 94 ready with ten embedded recordings
 
-46 slides: one title, 44 content slides and six key takeaways. Exact special-topic schedule title retained; date Date TBD. All 44 content slides include published article figures; 34 have source color. Seven verified primary papers supply the figures and notes. The original apparatus PDF request is resolved.
+46 slides retain the exact schedule title, Date TBD, existing body text, original published figures, unique title animal image and marine-steel-paper theme. All 44 content slides carry article figures; 34 carry source color.
 
-The EVE interface uses a four-button controller, not a touchscreen. The lecture explicitly distinguishes the apparatus from direct screen input and from physical matching and reversal preparations. Task performance, feeding records and clinical outcomes remain separate.
+Ten distinct original recordings are embedded on slides 2, 3, 8, 12, 14, 20, 22, 26, 35, 42. The instructor authorized comparative recordings with the focus remaining on sea lions. The EVE upload is now embedded with its audio. Comparative notes identify each experimental preparation rather than treating it as sea-lion evidence.
 
-The title animal photograph is Winship et al. (2023), Fig. 7. It was compared against 51 previous decks and 2232 distinct embedded images; the nearest visual matches are unrelated images. No previous deck uses this photograph.
+See VIDEOS.md for exact locations and audio information. No clips were duplicated, split or padded to satisfy the count. Roberts Video S1 remains unavailable but is not needed to reach ten.
 
-No videos are embedded in the current deck. The instructor-uploaded original movie exceeds the 32 MiB transfer limit; its Vimeo endpoint and the Roberts Video S1 supplementary page return HTTP 403. See PAPERS_NEEDED.md and media_sources.json. The requested 10–12 movie goal is unmet and is not padded with unrelated footage. Supply a smaller complete MP4 to add the uploaded recording.
-
-Built with tools/build_lecture.py and checked with tools/check_lecture.py. Final visual QA and publication recorded in VALIDATION.md.
+Repository builder and checker pass with zero failures or warnings. All ten complete clips decoded successfully; their saved PPTX hashes, relationships and timing entries were verified. Interactive PowerPoint playback is untested in this Linux environment. Static fallback and visual QA are recorded in VALIDATION.md.

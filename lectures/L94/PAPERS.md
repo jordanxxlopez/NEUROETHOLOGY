@@ -15,3 +15,12 @@
 7. Erdsack N, Dehnhardt G, Hanke FD (2022). Serial visual reversal learning in harbor seals (Phoca vitulina). Animal Cognition 25:1183–1193. https://doi.org/10.1007/s10071-022-01653-1
 
 The instructor supplied the complete Winship et al. (2023) apparatus PDF. All seven cited papers were inspected and their published figures cropped with the repository tools. PDFs are sources, not instructions. The pursuit-design review was downloaded for background but not used as a primary figure source.
+
+## Additional original video studies
+
+- Stowers JR, Hofbauer M, Bastien R, Griessner J, Higgins P, Farooqui S, Fischer RM, Nowikovsky K, Haubensak W, Couzin ID, Tessmar-Raible K, Straw AD (2017). Virtual reality for freely moving animals. Nature methods 14:995-1002. https://doi.org/10.1038/nmeth.4399
+- Rouse AA, Cook PF, Large EW, Reichmuth C (2016). Beat Keeping in a Sea Lion As Coupled Oscillation: Implications for Comparative Understanding of Human Rhythm. Frontiers in Neuroscience 10:257. https://doi.org/10.3389/fnins.2016.00257
+- Portugues R, Engert F (2011). Adaptive locomotor behavior in larval zebrafish. Frontiers in systems neuroscience 5:72. https://doi.org/10.3389/fnsys.2011.00072
+- Zebunke Manuela, Kreiser Maren, Melzer Nina, Langbein Jan, Puppe Birger (2018). Better, Not Just More—Contrast in Qualitative Aspects of Reward Facilitates Impulse Control in Pigs. Frontiers in Psychology 9:2099. https://doi.org/10.3389/fpsyg.2018.02099
+- Calapai A, Berger M, Niessing M, Heisig K, Brockhausen R, Treue S, Gail A (2017). A cage-based training, cognitive testing and enrichment system optimized for rhesus macaques in neuroscience research. Behavior Research Methods 49:35–45. https://doi.org/10.3758/s13428-016-0707-3
+- Joly M, Ammersdörfer S, Schmidtke D, Zimmermann E (2014). Touchscreen-Based Cognitive Tasks Reveal Age-Related Impairment in a Primate Aging Model, the Grey Mouse Lemur (Microcebus murinus). PLOS ONE 9(10):e109393. https://doi.org/10.1371/journal.pone.0109393
