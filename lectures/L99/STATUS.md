@@ -1,3 +1,9 @@
+# Current delivery: corrected 21-video package
+
+The embedded MP4 part with invalid trailing-period filename has been renamed to `.mp4`; its relationships and content-type reference are corrected. All 46 slide XML files, notes, layouts, images and 21 videos remain byte-for-byte unchanged. The corrected package passes strict internal part-name and relationship checks. See `additional_videos/repair_fix_validation.json` and the current browser download in DOWNLOAD.md. Desktop PowerPoint opening cannot be tested in this cloud environment.
+
+# Previous delivery record
+
 # Completed 21-video Lecture 99 revision
 
 46 slides, a single final Key takeaways slide, 21 embedded recordings. Seven additional academic videos and three uploaded MBARI excerpts have been added without changing existing text, figures, theme, titles, layout or the original eleven videos. All uploads are resolved. Native source frames and audio are preserved; the MBARI excerpts are 1920 × 1080. Final OpenXML validation has zero errors; the repository checker has zero failures and warnings. Movie count, internal relationships, ZIP integrity, source-frame identity and existing-media preservation pass. Final source records and validation reports are in `additional_videos/`. Native desktop PowerPoint playback is untested.

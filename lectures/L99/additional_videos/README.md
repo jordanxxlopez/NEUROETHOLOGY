@@ -1,3 +1,9 @@
+# PowerPoint repair-prompt fix
+
+The previous package contained `ppt/media/media18.`, an embedded MP4 part with a trailing period and no extension. It came from the extensionless research download filename `finalprobe2`. `fix_package_names.py` renames it to `media18.mp4` and updates the two slide-4 relationship targets and the content-type entry. All other package parts, including every slide XML, notes, layout, poster and movie bytes, are unchanged. The academic preparation script now supplies a `.mp4` input filename to prevent recurrence. Validation includes part-name syntax, duplicate ZIP members, relationship targets, shape/timing IDs, video extensions, byte preservation, repository rules and OpenXML schema. Desktop PowerPoint opening is not available here, so repair-free opening on a Mac cannot be directly confirmed.
+
+# Prior 21-video revision
+
 # Completed 21-video revision
 
 `complete_videos.py` adds the final uploaded MBARI excerpt to slide 45. The three credited aesthetic/general-science clips are on slides 11, 40 and 45. Seven academic additions remain on slides 4, 9, 25, 28, 32, 33 and 34. Original text, figures, titles, theme and eleven movies are preserved. Final source metadata is in `FINAL_VIDEOS.json`; final frame, package, preservation, layout, repository and OpenXML validation reports are beside it. Native desktop PowerPoint playback is not tested in this cloud environment.
