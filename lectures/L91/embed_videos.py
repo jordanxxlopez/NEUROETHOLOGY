@@ -25,9 +25,8 @@ entries=[
  (32,'Hama_commands','Sasaki et al. (2025), learned-command recording excerpt. Hama responds to familiar vocal and hand cues.','10.1007/s10071-025-01971-0','https://www.youtube.com/watch?v=-Kwv_fMeG5w','No open license stated; instructor-provided study recording','Sasaki, Kinoshita, and Konno'),
  (35,'Cook2025_Ronan112','Cook et al. (2025), ESM 2 excerpt. Ronan’s first exposure to 112 bpm snare beats.','10.1038/s41598-025-95279-1','https://www.youtube.com/watch?v=1zZc18B8ZW0','CC BY 4.0; original article supplementary recording','Cook and colleagues'),
  (38,'Cook2025_comparison','Cook et al. (2025), ESM 2 excerpt. Matched sea-lion head and human arm movements.','10.1038/s41598-025-95279-1','https://www.youtube.com/watch?v=1zZc18B8ZW0','CC BY 4.0; original article supplementary recording','Cook and colleagues'),
- (41,'Ito2022_MovieS1','Ito et al. (2022), Movie S1. Rat head movements and simultaneous jerk traces.','10.1126/sciadv.abo7019',base+'PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip','CC BY-NC 4.0','Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi'),
- (42,'Ito2022_MovieS2','Ito et al. (2022), Movie S2. Beat-related movements in a standing rat.','10.1126/sciadv.abo7019',base+'PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip','CC BY-NC 4.0','Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi'),
- (43,'Ito2022_MovieS3','Ito et al. (2022), Movie S3. Human head movements and marker tracking.','10.1126/sciadv.abo7019',base+'PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip','CC BY-NC 4.0','Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi')]
+ (42,'science.adx9367_movie_s1','Cook et al. (2026), Supplementary Movie S1. Reconstructed vocal motor cortex–brainstem pathways in a sea lion.','10.1126/science.adx9367','https://www.science.org/doi/10.1126/science.adx9367#supplementary-materials','Copyright 2026 authors; exclusive license AAAS; instructor-supplied original movie','Cook, Rouse, Sawyer, Miller, and Berns')
+]
 prs=Presentation(PPTX)
 if any(s.shape_type==MSO_SHAPE_TYPE.MEDIA for sl in prs.slides for s in sl.shapes):
  raise SystemExit('Use the pre-video deck to avoid duplicate recordings.')
@@ -80,7 +79,7 @@ prs.slides[31].notes_slide.notes_text_frame.text+='\nThis recording contains fam
 prs.slides[11].notes_slide.notes_text_frame.text+='\nBimbo is a zoo demonstration, not a participant in the adjacent Milne and Grant measurements.\n'
 prs.save(PPTX)
 study=[x for x in sources if x['counts_toward_study_target']]
-sea=[x for x in study if x['slide'] not in (41,42,43)]
+sea=study
 unique=lambda xs:len({x['original_url']+(':'+x['file'] if x['slide'] in (13,14,15,41,42,43) else '') for x in xs})
 (ROOT/'media_sources.json').write_text(json.dumps(dict(embedded_video_count=len(sources),qualifying_sea_lion_study_video_count=unique(sea),required_count=10,featured_video_count=1,observational_demo_count=1,qualifying_study_video_count=unique(study),study_target_shortfall=max(0,10-unique(sea)),sources=sources),indent=2)+'\n')
 print('Embedded',len(sources),'clips;',unique(sea),'distinct sea-lion study recordings, excluding Ronan feature and zoo demonstration.')

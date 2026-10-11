@@ -960,122 +960,124 @@
     },
     {
       "layout": "figure-right",
-      "title": "Rats move near musical beats without task training",
+      "title": "Histology anchors vocal pathways in the sea-lion brain",
       "body": [
-        "Ito and colleagues attached a lightweight wireless accelerometer to rats and measured small head movements while music played. An **accelerometer** measures acceleration along specified axes, allowing movement changes to be quantified without requiring a trained beat-marking action.",
-        "The rats listened to Mozart’s Sonata for Two Pianos, K.448, at its original rate and at altered playback speeds. Their movements were more strongly aligned with the musical beats near the original tempo, approximately 132 bpm, than at the very fast versions.",
-        "This preparation differed from Ronan’s explicitly trained head-bob task. It measured spontaneous small movements during listening rather than an operantly reinforced criterion response. The contrast provides two experimental routes to auditory–motor relationships: acquiring a reliable instructed action and measuring naturally occurring timing during sound exposure."
+        "Cook and colleagues combined tissue staining with **diffusion magnetic resonance imaging**, which measures direction-dependent water movement in preserved brain tissue. **Ex vivo** means outside the living animal. Histology located the **nucleus ambiguus**, a brainstem nucleus associated with control of muscles used in breathing, swallowing, and vocalization.",
+        "The stained sections were aligned with structural MRI using anatomical landmarks. Researchers marked the corresponding **voxels**, the three-dimensional sampling units of the scan. Cortical regions included primary auditory cortex, vocal motor cortex, and the neighboring vocal premotor region, which is associated with preparation of vocal actions.",
+        "**Probabilistic tractography** estimates possible fiber trajectories from diffusion measurements. The researchers traced pathways in both hemispheres and compared California sea lions, elephant seals, harbor seals, and coyotes. Combining microscopic identification with MRI constrained where each trace began and which anatomical regions a proposed route had to traverse."
       ],
       "figure": {
-        "path": "figures/rats_f1.png",
+        "path": "figures/Cook2026_f1.png",
         "kind": "article",
-        "caption": "Ito et al. (2022), Fig. 1A–G. Accelerometer measurements during musical playback.",
-        "source_url": "https://doi.org/10.1126/sciadv.abo7019"
+        "caption": "Cook et al. (2026), Fig. 1A–C. Histological and MRI localization of brainstem and cortical regions.",
+        "source_url": "https://doi.org/10.1126/science.adx9367"
       },
-      "cite": "Ito et al. (2022)",
+      "cite": "Cook et al. (2026)",
       "refs": [
-        "Ito Y, Shiramatsu TI, Ishida N, Oshima K, Magami K, Takahashi H (2022). Spontaneous beat synchronization in rats: Neural dynamics and motor entrainment. Science Advances 8:eabo7019. https://doi.org/10.1126/sciadv.abo7019"
+        "Cook PF, Rouse AA, Sawyer E, Miller K, Berns G (2026). Seal and sea lion brains have evolved to support volitional control of vocal behavior and learning. Science 391(6790):1146–1150. https://doi.org/10.1126/science.adx9367"
       ],
       "transcript": [
-        "Ito and colleagues attached a lightweight wireless accelerometer to rats and measured small head movements while music played. An **accelerometer** measures acceleration along specified axes, allowing movement changes to be quantified without requiring a trained beat-marking action.",
-        "The rats listened to Mozart’s Sonata for Two Pianos, K.448, at its original rate and at altered playback speeds. Their movements were more strongly aligned with the musical beats near the original tempo, approximately 132 bpm, than at the very fast versions.",
-        "This preparation differed from Ronan’s explicitly trained head-bob task. It measured spontaneous small movements during listening rather than an operantly reinforced criterion response. The contrast provides two experimental routes to auditory–motor relationships: acquiring a reliable instructed action and measuring naturally occurring timing during sound exposure."
+        "Cook and colleagues combined tissue staining with **diffusion magnetic resonance imaging**, which measures direction-dependent water movement in preserved brain tissue. **Ex vivo** means outside the living animal. Histology located the **nucleus ambiguus**, a brainstem nucleus associated with control of muscles used in breathing, swallowing, and vocalization.",
+        "The stained sections were aligned with structural MRI using anatomical landmarks. Researchers marked the corresponding **voxels**, the three-dimensional sampling units of the scan. Cortical regions included primary auditory cortex, vocal motor cortex, and the neighboring vocal premotor region, which is associated with preparation of vocal actions.",
+        "**Probabilistic tractography** estimates possible fiber trajectories from diffusion measurements. The researchers traced pathways in both hemispheres and compared California sea lions, elephant seals, harbor seals, and coyotes. Combining microscopic identification with MRI constrained where each trace began and which anatomical regions a proposed route had to traverse."
       ]
     },
     {
       "layout": "figure-right",
-      "title": "Jerk detects rapid changes in head movement",
+      "title": "Vocal motor pathways reach the phonatory brainstem",
       "body": [
-        "**Jerk** is the rate of change of acceleration. The rat study used this quantity to identify brief movement changes during musical listening. A small movement with a rapid change in acceleration can therefore contribute strongly to the measured response.",
-        "Researchers compared jerk near putative beats with jerk elsewhere in the beat cycle. This beat contrast quantified whether the movement signal was organized around the musical pulse instead of being uniformly distributed through time.",
-        "At the original musical tempo, the rats showed beat-related movement contrast. Faster playback weakened that organization. The measured response therefore depended on the sound’s temporal scale, connecting the music rate to the timing of small spontaneous movements rather than only to the overall amount of activity."
+        "All examined pinniped species had robust bilateral tractography connections between putative **vocal motor cortex** and nucleus ambiguus. Corresponding pathways were absent in the examined coyotes. Whole-brainstem and corticospinal control traces were comparable across species, separating the vocal-pathway difference from a general failure to reconstruct coyote fibers.",
+        "The vocal pathway was reconstructed while excluding the **periaqueductal gray**, a midbrain region involved in vocal control. This identified a route that could bypass that intervening region. Tractography estimates macroscopic pathways; its voxels cannot resolve whether the route contains a single synaptic connection.",
+        "The authors hypothesize that enhanced cortical access to phonatory brainstem circuits supports voluntary breathing and flexible use of existing calls. Submersion requires precise control over respiratory actions. Sea lions can learn when to produce or inhibit a species-typical call, linking this anatomical organization with contextual control of vocal behavior."
       ],
       "figure": {
-        "path": "figures/rats_f1.png",
+        "path": "figures/Cook2026_f2a.png",
         "kind": "article",
-        "caption": "Ito et al. (2022), Fig. 1C–F. Acceleration, jerk, and beat-relative movement contrast.",
-        "source_url": "https://doi.org/10.1126/sciadv.abo7019"
+        "caption": "Cook et al. (2026), Fig. 2A. Reconstructed sea-lion cortical–brainstem pathway in two views.",
+        "source_url": "https://doi.org/10.1126/science.adx9367"
       },
-      "cite": "Ito et al. (2022)",
+      "cite": "Cook et al. (2026)",
       "refs": [
-        "Ito Y, Shiramatsu TI, Ishida N, Oshima K, Magami K, Takahashi H (2022). Spontaneous beat synchronization in rats: Neural dynamics and motor entrainment. Science Advances 8:eabo7019. https://doi.org/10.1126/sciadv.abo7019"
+        "Cook PF, Rouse AA, Sawyer E, Miller K, Berns G (2026). Seal and sea lion brains have evolved to support volitional control of vocal behavior and learning. Science 391(6790):1146–1150. https://doi.org/10.1126/science.adx9367"
       ],
       "transcript": [
-        "**Jerk** is the rate of change of acceleration. The rat study used this quantity to identify brief movement changes during musical listening. A small movement with a rapid change in acceleration can therefore contribute strongly to the measured response.",
-        "Researchers compared jerk near putative beats with jerk elsewhere in the beat cycle. This beat contrast quantified whether the movement signal was organized around the musical pulse instead of being uniformly distributed through time.",
-        "At the original musical tempo, the rats showed beat-related movement contrast. Faster playback weakened that organization. The measured response therefore depended on the sound’s temporal scale, connecting the music rate to the timing of small spontaneous movements rather than only to the overall amount of activity."
+        "All examined pinniped species had robust bilateral tractography connections between putative **vocal motor cortex** and nucleus ambiguus. Corresponding pathways were absent in the examined coyotes. Whole-brainstem and corticospinal control traces were comparable across species, separating the vocal-pathway difference from a general failure to reconstruct coyote fibers.",
+        "The vocal pathway was reconstructed while excluding the **periaqueductal gray**, a midbrain region involved in vocal control. This identified a route that could bypass that intervening region. Tractography estimates macroscopic pathways; its voxels cannot resolve whether the route contains a single synaptic connection.",
+        "The authors hypothesize that enhanced cortical access to phonatory brainstem circuits supports voluntary breathing and flexible use of existing calls. Submersion requires precise control over respiratory actions. Sea lions can learn when to produce or inhibit a species-typical call, linking this anatomical organization with contextual control of vocal behavior.",
+        "The reconstructed routes concern vocal and respiratory control. The study did not record the neural circuitry generating Ronan’s head-bob synchronization."
       ]
     },
     {
       "layout": "figure-right",
-      "title": "Rat and human movements favor similar tempos",
+      "title": "Voluntary calls and vocal imitation differ in circuitry",
       "body": [
-        "The experiment also measured head movements in humans listening to the same musical excerpt at altered speeds. This provided a comparison in which both species were exposed to the same changing temporal structure, although their absolute movement magnitudes differed.",
-        "Beat-related movement organization was strongest near the original musical rate rather than at the greatly accelerated versions. The two species also showed related changes in movement strength across individual beats of the original excerpt.",
-        "Inspection of the stimulus and motion timing indicated that many movements occurred predictively near the upcoming beat. In this preparation, beat-related organization emerged during listening without Ronan’s explicit synchronization training, broadening the experimental evidence beyond a single kind of instructed motor task."
+        "**Vocal usage learning** changes when an existing call is deployed. **Vocal production learning** changes the acoustic form of a call through experience. Sea lions exhibit flexible usage learning, whereas some true seals also learn new call forms or mimic sounds outside their usual repertoire.",
+        "Harbor seals had enhanced connectivity between the **anterior ventrolateral thalamus** and vocal premotor cortex. The study also traced pathways involving the **striatum**, a forebrain structure involved in action selection and reinforcement learning. The clearest forebrain difference involved the thalamic–premotor pathway, rather than uniformly stronger connectivity throughout every tested route.",
+        "Elephant and harbor seals additionally had robust auditory–premotor pathways that were not reconstructed robustly in sea lions. The authors hypothesize that these connections support developmental modification of calls using auditory input. Different combinations of pathways accompany different forms of vocal flexibility across closely related pinniped lineages."
       ],
       "figure": {
-        "path": "figures/rats_f2.png",
+        "path": "figures/Cook2026_f3def.png",
         "kind": "article",
-        "caption": "Ito et al. (2022), Fig. 2A–C. Beat-related movement comparisons across playback speeds.",
-        "source_url": "https://doi.org/10.1126/sciadv.abo7019"
+        "caption": "Cook et al. (2026), Fig. 3D–F. Forebrain pathway strengths in coyotes, sea lions, and seals.",
+        "source_url": "https://doi.org/10.1126/science.adx9367"
       },
-      "cite": "Ito et al. (2022)",
+      "cite": "Cook et al. (2026)",
       "refs": [
-        "Ito Y, Shiramatsu TI, Ishida N, Oshima K, Magami K, Takahashi H (2022). Spontaneous beat synchronization in rats: Neural dynamics and motor entrainment. Science Advances 8:eabo7019. https://doi.org/10.1126/sciadv.abo7019"
+        "Cook PF, Rouse AA, Sawyer E, Miller K, Berns G (2026). Seal and sea lion brains have evolved to support volitional control of vocal behavior and learning. Science 391(6790):1146–1150. https://doi.org/10.1126/science.adx9367"
       ],
       "transcript": [
-        "The experiment also measured head movements in humans listening to the same musical excerpt at altered speeds. This provided a comparison in which both species were exposed to the same changing temporal structure, although their absolute movement magnitudes differed.",
-        "Beat-related movement organization was strongest near the original musical rate rather than at the greatly accelerated versions. The two species also showed related changes in movement strength across individual beats of the original excerpt.",
-        "Inspection of the stimulus and motion timing indicated that many movements occurred predictively near the upcoming beat. In this preparation, beat-related organization emerged during listening without Ronan’s explicit synchronization training, broadening the experimental evidence beyond a single kind of instructed motor task."
+        "**Vocal usage learning** changes when an existing call is deployed. **Vocal production learning** changes the acoustic form of a call through experience. Sea lions exhibit flexible usage learning, whereas some true seals also learn new call forms or mimic sounds outside their usual repertoire.",
+        "Harbor seals had enhanced connectivity between the **anterior ventrolateral thalamus** and vocal premotor cortex. The study also traced pathways involving the **striatum**, a forebrain structure involved in action selection and reinforcement learning. The clearest forebrain difference involved the thalamic–premotor pathway, rather than uniformly stronger connectivity throughout every tested route.",
+        "Elephant and harbor seals additionally had robust auditory–premotor pathways that were not reconstructed robustly in sea lions. The authors hypothesize that these connections support developmental modification of calls using auditory input. Different combinations of pathways accompany different forms of vocal flexibility across closely related pinniped lineages.",
+        "The study compares anatomical connectivity with the behavioral literature. It did not train the scanned animals to acquire new vocalizations."
       ]
     },
     {
       "layout": "figure-right",
-      "title": "Population activity is tuned to musical event timing",
+      "title": "Underwater hearing extends to sounds near 40 Hz",
       "body": [
-        "The rat study separately recorded **multiunit activity**, the combined spiking response of several nearby neurons, while presenting music at different playback speeds. Activity following beat events was compared with activity following other events in the same musical sequence.",
-        "Neural beat contrast was greatest around the original tempo and weakened at much faster speeds. The response also differed among positions in the repeating beat pattern, connecting neural activity to the temporal organization of the musical excerpt rather than merely its presence.",
-        "These recordings and the movement measurements were separate experimental assays. Their shared tempo preference linked a candidate neural timing process with the behavioral preference, while the authors used further click stimuli and a model to examine how adaptation could generate that pattern of sensitivity."
+        "Sills and colleagues measured low-frequency underwater hearing in the California sea lion Ronan and bearded seals. The trained animals remained at a listening station and moved to a response target after detecting a sound. Signal-absent trials measured responses without a sound, while calibrated hydrophones measured the acoustic conditions.",
+        "An **audiogram** plots the sound level required for detection against frequency. Ronan detected a 40 Hz signal at a threshold of 121 dB re 1 µPa. This underwater pressure reference differs from the reference used for airborne hearing. Below 80 Hz, her threshold rose by only about 4 dB over the next octave.",
+        "At 40 Hz, the seals’ thresholds were 105 dB re 1 µPa, indicating greater sensitivity than Ronan at that frequency. Low-frequency detection therefore differed among pinnipeds even though all subjects detected the lowest tested frequency. The calibrated thresholds identify the sound levels available to guide behavior in an underwater environment."
       ],
       "figure": {
-        "path": "figures/rats_f3.png",
+        "path": "figures/Sills2025_f1.png",
         "kind": "article",
-        "caption": "Ito et al. (2022), Fig. 3A–E. Neural responses to musical beats at different rates.",
-        "source_url": "https://doi.org/10.1126/sciadv.abo7019"
+        "caption": "Sills et al. (2025), Fig. 1a–b. Underwater hearing thresholds and background noise across frequencies.",
+        "source_url": "https://doi.org/10.1121/10.0039049"
       },
-      "cite": "Ito et al. (2022)",
+      "cite": "Sills et al. (2025)",
       "refs": [
-        "Ito Y, Shiramatsu TI, Ishida N, Oshima K, Magami K, Takahashi H (2022). Spontaneous beat synchronization in rats: Neural dynamics and motor entrainment. Science Advances 8:eabo7019. https://doi.org/10.1126/sciadv.abo7019"
+        "Sills JM, Ruscher B, Packard N, Jones RA, Southall BL, Reichmuth C (2025). Low-frequency hearing and masking parameters in representative seals and sea lions. Journal of the Acoustical Society of America 158(2):1585–1599. https://doi.org/10.1121/10.0039049"
       ],
       "transcript": [
-        "The rat study separately recorded **multiunit activity**, the combined spiking response of several nearby neurons, while presenting music at different playback speeds. Activity following beat events was compared with activity following other events in the same musical sequence.",
-        "Neural beat contrast was greatest around the original tempo and weakened at much faster speeds. The response also differed among positions in the repeating beat pattern, connecting neural activity to the temporal organization of the musical excerpt rather than merely its presence.",
-        "These recordings and the movement measurements were separate experimental assays. Their shared tempo preference linked a candidate neural timing process with the behavioral preference, while the authors used further click stimuli and a model to examine how adaptation could generate that pattern of sensitivity."
+        "Sills and colleagues measured low-frequency underwater hearing in the California sea lion Ronan and bearded seals. The trained animals remained at a listening station and moved to a response target after detecting a sound. Signal-absent trials measured responses without a sound, while calibrated hydrophones measured the acoustic conditions.",
+        "An **audiogram** plots the sound level required for detection against frequency. Ronan detected a 40 Hz signal at a threshold of 121 dB re 1 µPa. This underwater pressure reference differs from the reference used for airborne hearing. Below 80 Hz, her threshold rose by only about 4 dB over the next octave.",
+        "At 40 Hz, the seals’ thresholds were 105 dB re 1 µPa, indicating greater sensitivity than Ronan at that frequency. Low-frequency detection therefore differed among pinnipeds even though all subjects detected the lowest tested frequency. The calibrated thresholds identify the sound levels available to guide behavior in an underwater environment."
       ]
     },
     {
       "layout": "figure-right",
-      "title": "Short-term adaptation favors intermediate rhythms",
+      "title": "Noise bandwidth changes low-frequency sound detection",
       "body": [
-        "**Short-term adaptation** is a change in responsiveness during recent stimulation. Repeated sounds can reduce a neural population’s response, with recovery depending on the time since preceding stimulation. This creates a temporal dependence even when each sound is acoustically similar.",
-        "Ito and colleagues tested click sequences with three clicks and a rest at 60, 120, 240, and 480 bpm. Recorded responses distinguished beat positions most strongly near an intermediate rate. Very slow sequences and very rapid sequences produced different balances of adaptation and recovery.",
-        "The authors’ adaptation model reproduced the intermediate-rate preference and related it to the timing structure of musical material. This is a hypothesis about a candidate neural computation; the sea-lion experiments independently established flexible movement correction, rather than directly measuring that rat adaptation process in Ronan."
+        "**Auditory masking** occurs when background sound raises the level needed to detect a signal. A **critical ratio** is the difference between the masked detection threshold and the noise spectral density level. At 200 Hz, Ronan’s critical ratio was 18 dB, with a masked threshold of 101 dB re 1 µPa.",
+        "The researchers also narrowed the noise band around the signal while maintaining its spectral density. Ronan’s detection improved with one-third-octave and one-sixth-octave noise relative to octave-wide noise. **Masking release** is this improvement when a masker becomes less effective; with the narrowest band, her threshold approached the unmasked threshold.",
+        "The results place Ronan’s **critical bandwidth**, the frequency range over which noise effectively masks the signal, above one-third of an octave at 200 Hz. The bearded seals instead retained nearly unchanged thresholds at this frequency, indicating narrower critical bands. Signal frequency, noise level, and noise bandwidth jointly determine whether an underwater acoustic cue can be detected."
       ],
       "figure": {
-        "path": "figures/rats_f4.png",
+        "path": "figures/Sills2025_f3.png",
         "kind": "article",
-        "caption": "Ito et al. (2022), Fig. 4A–I. Recorded responses and adaptation-model predictions.",
-        "source_url": "https://doi.org/10.1126/sciadv.abo7019"
+        "caption": "Sills et al. (2025), Fig. 3 (200, 100, 80, and 63 Hz panels). Detection improves as the masking noise band narrows.",
+        "source_url": "https://doi.org/10.1121/10.0039049"
       },
-      "cite": "Ito et al. (2022)",
+      "cite": "Sills et al. (2025)",
       "refs": [
-        "Ito Y, Shiramatsu TI, Ishida N, Oshima K, Magami K, Takahashi H (2022). Spontaneous beat synchronization in rats: Neural dynamics and motor entrainment. Science Advances 8:eabo7019. https://doi.org/10.1126/sciadv.abo7019"
+        "Sills JM, Ruscher B, Packard N, Jones RA, Southall BL, Reichmuth C (2025). Low-frequency hearing and masking parameters in representative seals and sea lions. Journal of the Acoustical Society of America 158(2):1585–1599. https://doi.org/10.1121/10.0039049"
       ],
       "transcript": [
-        "**Short-term adaptation** is a change in responsiveness during recent stimulation. Repeated sounds can reduce a neural population’s response, with recovery depending on the time since preceding stimulation. This creates a temporal dependence even when each sound is acoustically similar.",
-        "Ito and colleagues tested click sequences with three clicks and a rest at 60, 120, 240, and 480 bpm. Recorded responses distinguished beat positions most strongly near an intermediate rate. Very slow sequences and very rapid sequences produced different balances of adaptation and recovery.",
-        "The authors’ adaptation model reproduced the intermediate-rate preference and related it to the timing structure of musical material. This is a hypothesis about a candidate neural computation; the sea-lion experiments independently established flexible movement correction, rather than directly measuring that rat adaptation process in Ronan."
+        "**Auditory masking** occurs when background sound raises the level needed to detect a signal. A **critical ratio** is the difference between the masked detection threshold and the noise spectral density level. At 200 Hz, Ronan’s critical ratio was 18 dB, with a masked threshold of 101 dB re 1 µPa.",
+        "The researchers also narrowed the noise band around the signal while maintaining its spectral density. Ronan’s detection improved with one-third-octave and one-sixth-octave noise relative to octave-wide noise. **Masking release** is this improvement when a masker becomes less effective; with the narrowest band, her threshold approached the unmasked threshold.",
+        "The results place Ronan’s **critical bandwidth**, the frequency range over which noise effectively masks the signal, above one-third of an octave at 200 Hz. The bearded seals instead retained nearly unchanged thresholds at this frequency, indicating narrower critical bands. Signal frequency, noise level, and noise bandwidth jointly determine whether an underwater acoustic cue can be detected."
       ]
     }
   ],

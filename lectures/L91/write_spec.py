@@ -113,6 +113,8 @@ S=expand(S,R,C,D)
 S=S[:44]
 from video_revision import revise
 S=revise(S,R,C,D)
+from recent_findings import replace_recent
+S=replace_recent(S)
 assert len(S)==44,len(S)
 photo={'path':'figures/ronan_photo.jpg','kind':'web','caption':'Photo: California sea lion Ronan at UC Santa Cruz’s Long Marine Laboratory. Photo by Colleen Reichmuth; NOAA/NMFS 23554.','credit':'Colleen Reichmuth, UC Santa Cruz; NOAA/NMFS 23554','license':'UC Santa Cruz media download: image must be used with supplied caption, including NOAA/NMFS number; no open license stated','source_url':'https://news.ucsc.edu/2025/05/ronan-sea-lion-beats-humans/'}
 take=[('Sensory organization','Facial information enters trigeminal brainstem relays, a large medial thalamic subdivision, and a layer-4-rich somatosensory cortical region.'),('Active control','Sea lions adjust whisker movements to the discrimination task, and reposition their flippers during turns and leaps.'),('Learned cues','A command can initiate exploration or specify when to act; Hama retained a demonstrated action across a delayed Go cue and visual occlusion.'),('Tempo and phase','A matching repetition rate and a stable relationship to individual beats are distinct aspects of synchronization.'),('Predictive correction','Ronan continued through omitted beats and corrected ongoing movement after changes in beat position or tempo.'),('Experience and comparison','An experienced sea lion performed precisely in a matched gross-movement task; rat recordings identify a separate candidate adaptation process.')]

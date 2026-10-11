@@ -1,4 +1,4 @@
-"""Verify native-media delivery and preservation of requested comparison slides."""
+"""Verify native-media delivery and preservation of unaffected slides."""
 from pathlib import Path
 import hashlib,json,subprocess,zipfile
 from pptx import Presentation
@@ -8,7 +8,7 @@ p=R/'Neuroethology_Lecture91_FA2026.pptx';prs=Presentation(p)
 assert len(prs.slides)==46
 assert any(x.has_text_frame and x.text=='Key takeaways' for x in prs.slides[-1].shapes)
 sources=json.loads((R/'media_sources.json').read_text())
-assert sources['qualifying_sea_lion_study_video_count']==10
+assert sources['qualifying_sea_lion_study_video_count']==11
 rows=[]
 for source in sources['sources']:
  sl=prs.slides[source['slide']-1];movies=[x for x in sl.shapes if x.shape_type==MSO_SHAPE_TYPE.MEDIA];assert len(movies)==1
@@ -17,7 +17,7 @@ for source in sources['sources']:
  path=R/source['file'];v=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-of','json',str(path)]));vid=next(x for x in v['streams'] if x['codec_type']=='video');dar=vid.get('display_aspect_ratio');ratio= float(dar.split(':')[0])/float(dar.split(':')[1]) if dar and dar!='0:1' else vid['width']/vid['height'];assert abs(movie.width/movie.height-ratio)<.002
  subprocess.run(['ffmpeg','-hide_banner','-v','error','-i',str(path),'-f','null','-'],check=True)
  rows.append({'slide':source['slide'],'embedded_sha_verified':True,'decoded_entire_clip':True,'aspect_ratio_verified':True})
-baseline=Path('/workspace/scratch/L91/revision2/baseline.pptx')
+baseline=Path('/workspace/scratch/L91/recent/baseline.pptx')
 def fingerprint(sl):
  a=[]
  for x in sl.shapes:
@@ -30,9 +30,9 @@ def fingerprint(sl):
  return a
 if baseline.exists():
  b=Presentation(baseline)
- for n in (41,42,43):
+ for n in list(range(1,41))+[46]:
   assert fingerprint(b.slides[n-1])==fingerprint(prs.slides[n-1]),f'Slide {n} changed'
   assert b.slides[n-1].notes_slide.notes_text_frame.text==prs.slides[n-1].notes_slide.notes_text_frame.text,f'Slide {n} notes changed'
 assert p.stat().st_size<100*1024*1024, p.stat().st_size
-out={'slide_count':46,'content_slide_count':44,'embedded_clip_count':len(rows),'distinct_sea_lion_study_recordings':10,'preserved_slides':[41,42,43] if baseline.exists() else 'comparison not run; baseline unavailable','size_bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'powerpoint_GUI_playback':'untested','google_slides_import':'untested; may require separate Drive media insertion','clips':rows}
+out={'slide_count':46,'content_slide_count':44,'embedded_clip_count':len(rows),'distinct_sea_lion_study_recordings':11,'preserved_slides':list(range(1,41))+[46] if baseline.exists() else 'comparison not run; baseline unavailable','size_bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'powerpoint_GUI_playback':'untested','google_slides_import':'untested; may require separate Drive media insertion','clips':rows}
 (R/'delivery_verification.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps({k:v for k,v in out.items() if k!='clips'},indent=2))
