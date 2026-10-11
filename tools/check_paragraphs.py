@@ -7,6 +7,7 @@
 Prints one line per slide or paragraph that breaks the rule. Exit code 1 when any slide is flagged.
 """
 import glob
+import re
 import sys
 from pathlib import Path
 
@@ -24,6 +25,18 @@ def body_paragraphs(slide):
     out += [p for b in c["caption"] if "Fig." not in b.text_frame.text and len(b.text_frame.text) > 60
             for p in b.text_frame.paragraphs if p.text.strip()]
     return [p for p in out if not is_caption_or_credit(p.text)]
+
+
+FILLER = re.compile(
+    r"\b(read together|read alongside|are read|is read|compared (with|against)|the comparison|"
+    r"separates|keeps? .{0,30} distinct|is tested next|are tested next|next step|examined next|"
+    r"does not|do not|cannot|not necessarily|limited to|remains unresolved|without establishing|"
+    r"only (the|a|one|an)|each (is|are) (compared|tested|scored|checked))\b", re.I)
+
+
+def filler_hits(text):
+    """Phrases from scaffolding/RULES.md that add no content (restating, caveats, comparison wording)."""
+    return sorted({m.group(0).lower() for m in FILLER.finditer(text)})
 
 
 def is_caption_or_credit(text):
@@ -44,6 +57,10 @@ def check(path):
             continue
         if len(paras) != 3:
             problems.append(f"{Path(path).name} slide {k}: {len(paras)} body paragraphs (expected 3)")
+        for n, para in enumerate(paras, 1):
+            hits = filler_hits(para.text)
+            if hits:
+                problems.append(f"{Path(path).name} slide {k} paragraph {n}: filler phrase {', '.join(hits)}")
         c = sd.classify(slide)
         if not c["body"]:
             continue

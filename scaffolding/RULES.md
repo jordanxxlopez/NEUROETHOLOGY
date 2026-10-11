@@ -62,3 +62,13 @@ Reading the revised paragraph aloud is the final check.
 - Before publishing, check the built slide: the count of body paragraphs is three, every body paragraph is new text, and no text overlaps a figure or caption (`scaffolding/build.py` reports these).
 - `python tools/check_paragraphs.py` checks every scaffolded deck: each slide except the first and last must have exactly three body paragraphs. Figure captions, figure labels and photo credits do not count.
 - Every body paragraph is 5-7 full rendered lines at the slide's font size. Count lines, not sentences. `tools/check_paragraphs.py` checks this together with the three-paragraph rule.
+
+## Writing rules (updated, every paragraph, paragraph 3 most of all)
+
+- Every sentence gives students something new from the source: a fact, a measurement, a mechanism or a result. Do not add sentences that restate, announce or summarize.
+- No filler closers: do not end paragraphs with "the comparison ...", "read together", "read alongside", "separates ...", "keeps ... distinct", "each is compared with ...", "is tested next", "is examined next", "the next step", or any sentence that only says a comparison was made.
+- Do not explain design logic that students already know (why there is a control, why spacing matters, why a comparison is matched). Explain the design only when the design itself changes the result.
+- No limitation or caveat wording: no "does not", "do not", "cannot", "not necessarily", "limited to", "only", "remains unresolved", "without establishing". State what the data show.
+- Paragraph 3 teaches one additional fact or mechanism from the source. It is not a conclusion sentence and it is not a summary of paragraphs 1 and 2.
+- Do not copy source sentences. Rewrite each sentence in new words; a sentence that matches the source is an original paragraph left on the slide.
+- `python tools/check_paragraphs.py` reports phrases from this list (see FILLER in that file) on every body paragraph.
