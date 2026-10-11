@@ -17,7 +17,7 @@ INSERT_PARAS = {
         "A bird that follows its familiar route ignores part of the compass error, whereas a bird that trusts the compass moves away from the route. Each track shows which of these two cues the bird weights more heavily.",
     ],
     11: [
-        "A **parallel offset** is a flight that keeps the shape of an earlier route while sitting consistently to one side of it. The bird maintains the sequence of turns and the overall form of the route, and only its position changes sideways.",
+        "A **parallel offset** is a flight that keeps the shape of an earlier route while sitting consistently to one side of it. The bird maintains the sequence of turns and the overall form of the route, and only its position changes sideways. The displacement is measured from that bird's own former track, so each offset starts from its own route.",
         "After the clock shift, some highly familiar pigeons flew parallel to their former tracks on the anticlockwise side. Route-relative vectors measured the lateral offset in metres, with reference rings at 100, 300 and 500 m. The offsets were consistent across the birds that showed them.",
         "A parallel offset combines recognition of the route with a directional correction from the compass. The shape of the familiar route is kept while the whole route is moved to one side.",
     ],
@@ -47,7 +47,7 @@ INSERT_PARAS = {
         "Labeling rose when the field changed and V1 was intact, and it fell when the field was removed or the nerve was cut. The response therefore runs through the peripheral sensory pathway that passes through V1.",
     ],
     31: [
-        "**Neuronal tracing** follows the anatomical pathways that leave an injection site. Lefeldt and colleagues injected cholera toxin B into V1 to label its central projections. The labeled fibers were then compared with the regions that showed ZENK after magnetic stimulation.",
+        "**Neuronal tracing** follows the anatomical pathways that leave an injection site. Lefeldt and colleagues injected cholera toxin B into V1 to label its central projections. The labeled fibers were then matched to the regions that showed ZENK after magnetic stimulation.",
         "V1 fibers terminated in the principal and spinal trigeminal nuclei, the same nuclei that contained ZENK-positive cells. The overlays keep the position of each traced fiber relative to the activated cells, with scales of 100 µm and 200 µm. Acetylcholinesterase staining marked the nuclear boundaries, so each subdivision could be located precisely.",
         "The overlap places the magnetic response along a known route from the nerve to the brainstem. Acetylcholinesterase keeps the labeled tissue tied to the known anatomy of each nucleus.",
     ],
@@ -64,7 +64,7 @@ INSERT_PARAS = {
     39: [
         "A **local field potential**, or LFP, is an extracellular voltage that reflects coordinated activity in a population of neurons around the electrode. It differs from the spike of one identified neuron, because it sums the currents of many cells at once.",
         "Yang and colleagues recorded hippocampal LFPs and the bird's position at the same time during outdoor homing flights. The electrodes sampled the left hippocampal formation, and the release sites lay more than 0.8 km from the loft. Trials were run in clear weather with low wind.",
-        "Recording the population signal during flight links a neural state to a particular stage of the trip. The shared time base lets each stage be matched to a moment in the recording.",
+        "Recording the population signal during flight links a neural state to a particular stage of the trip. The shared time base allows each stage to be matched to a moment in the recording.",
     ],
     42: [
         "**Spectral power** measures how much of a recorded voltage falls within a chosen frequency range. Yang and colleagues assigned theta to 4–12 Hz, beta to 12–30 Hz, low gamma to 30–60 Hz and high gamma to 60–120 Hz, so each band has a fixed range.",

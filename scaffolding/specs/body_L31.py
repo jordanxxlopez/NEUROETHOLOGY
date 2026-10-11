@@ -2,7 +2,7 @@
 
 body = {
     2: [
-        "**Homing** is navigation back to a familiar home after displacement. In pigeons, a **map** estimates position relative to home, whereas a **compass** supplies a directional reference. Biro and colleagues recorded homing pigeons with a global positioning system, or GPS, logging position every second. Releases from trained sites and off-route tests showed how each bird reached home from unfamiliar ground.",
+        "**Homing** is navigation back to a familiar home after displacement. In pigeons, a **map** estimates position relative to home, whereas a **compass** supplies a directional reference. Biro and colleagues recorded homing pigeons with a global positioning system, or GPS, logging position every second.",
         "Off-route releases separated birds that followed a familiar corridor from birds that flew straight toward the loft. Their complete tracks show which landmarks and directions guided each journey. The same GPS record also reveals the detours that a bird took on the way to home.",
         "A bird can therefore use a learned route and a directional reference at the same time. A route can be followed through a series of changing headings, because each position on the track is recorded in sequence.",
     ],
@@ -183,13 +183,13 @@ body = {
     ],
     38: [
         "A peripheral cell candidate and a responsive neural pathway are different claims. Treiber and colleagues rejected the identification of the sampled iron-rich beak cells as magnetosensitive neurons, using histology, immune labeling and electron microscopy. Those three methods point to the same conclusion.",
-        "Lefeldt and colleagues later found magnetic-field-related ZENK induction in trigeminal nuclei that depended on intact V1 after 3 h of exposure. The induction establishes a pathway-associated response, while the transducer itself remains to be located. The magnetic response therefore runs through V1 without identifying the receptor.",
+        "Lefeldt and colleagues later found magnetic-field-related ZENK induction in trigeminal nuclei that depended on intact V1 after 3 h of exposure. The induction establishes a pathway-associated response, while the transducer itself remains to be located. The magnetic response therefore runs through V1, and the receptor is still to be found.",
         "The trigeminal pathway and the beak cells are separate lines of evidence. The beak cells are one line of evidence, and the trigeminal response is a second line that points to a sensory route carrying the signal.",
     ],
     39: [
         "A **local field potential**, or LFP, is an extracellular voltage that reflects coordinated activity and transmembrane currents in the surrounding neural tissue. It differs from the isolated action potentials of an identified single neuron. The LFP sums the activity of many cells near the electrode.",
         "Yang and colleagues recorded hippocampal LFPs together with position during outdoor pigeon homing. Electrodes sampled the left hippocampal formation, while the positional recorder tracked the flight. Release sites were more than 0.8 km from the loft, and trials were run under clear weather with low wind.",
-        "Simultaneous recording of the population signal and the position makes it possible to link a neural state to a stage of the journey. The shared time base lets each stage be matched to a moment in the recording.",
+        "Simultaneous recording of the population signal and the position makes it possible to link a neural state to a stage of the journey. The shared time base allows each stage to be matched to a moment in the recording.",
     ],
     40: [
         "**Flight** produces muscle activity and electrode movement that can contaminate neural recordings. **Denoising** estimates signal components and removes the contributions from movement. The processed traces are shown next to the original voltages. Yang and colleagues applied multivariate empirical mode decomposition followed by independent component analysis.",
