@@ -2,7 +2,7 @@
 
 **Comb jellies: nerve-net organization, sensory integration, ciliary locomotion, and the evolution of nervous systems**
 
-Date TBD. Final deck: 46 slides with 11 embedded article recordings and one Key takeaways slide.
+Date TBD. Current final deck: 46 slides with 21 embedded recordings (18 research-linked movies and three credited MBARI aesthetic/general-science excerpts), and one Key takeaways slide. Original text, figures, theme and eleven videos are preserved. Current artifact metadata and download-integrity proof are in additional_videos/.
 
 All 44 content slides carry published article figures. Each of the 132 paragraphs has five complete sentences and at least six rendered lines. No generated images, redrawn graphs, routine limitation endings or scaffolding. The theme is newly recorded in course/themes.json.
 
@@ -21,3 +21,5 @@ Use the source PDFs at /workspace/l99-research/papers and movies at /workspace/l
 5. Render the final PPTX and run validate_deck.py, check_lecture.py and the OpenXML validator.
 
 The scripts retain original figure pixels. The two older WMV clips use lossless video/audio codec conversions at native resolution and frame rate. Audio sample-format conversion is documented in audio_conversion_validation.json; no lossy audio codec or resampling is used.
+
+For the completed 21-video revision, follow the baseline build with `additional_videos/prepare_academic.py`, `additional_videos/prepare_uploaded.py` and `additional_videos/complete_videos.py`. These use the uploaded source paths recorded in the media manifests. The baseline validator expects eleven movies; the final revision has separate preservation, frame-identity, package and OpenXML reports in `additional_videos/`, and passes `check_lecture.py --lecture 99`. The original 11-video artifact.json and root validation reports remain as historical provenance.
