@@ -34,3 +34,5 @@ The pinned single-file browser download returned HTTP 200 and its complete 335,6
 - Repository checker: 46 slides, 44 primary-figure content slides, 0 failures and 0 warnings. All 46 rendered slides visually reviewed; slide 23 text shortened to preserve spacing above the existing footer.
 - Complete size: 335675627 bytes. SHA-256: f9ec3ebde39368d6c29ae55ad1f33f7babfc0e4831b96de4b5f7d786abaa0f5f.
 - Reproducible patch: `python lectures/L94/revise_paragraph3.py` against the preserved pre-edit 32-video deck. Exact old/new paragraphs are saved in `paragraph3_revision_audit.json`.
+
+Revised single-file browser download returned HTTP 200; its full response matched the final PPTX SHA-256.

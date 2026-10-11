@@ -17,3 +17,5 @@ Local output: `Neuroethology_Lecture94_FA2026_32videos.pptx`. After rebuilding/a
 ## Paragraph 3 text revision
 
 Latest output: `Neuroethology_Lecture94_FA2026_Paragraph3_Revised.pptx`. Only paragraph 3 and its matching transcript on 20 flagged slides differ from the preserved 32-video deck. Recreate with `python lectures/L94/revise_paragraph3.py`; all media and layout remain unchanged. The root LFS download pointer resolves to this latest revision.
+
+[Download the paragraph-3 revised PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/578a5eb5fc67a3832ec19fb6195ee40f4f539ebe/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). Full response and SHA-256 verified.
