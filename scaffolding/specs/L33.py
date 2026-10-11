@@ -5,6 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import body_L33 as _body  # noqa: E402
+import L33_text as _txt  # noqa: E402
 
 
 def ins(after, title, paragraphs, citation, notes, refs):
@@ -249,6 +250,12 @@ PARAS = {
 for _ins in inserts:
     _ins["paragraphs"] = PARAS[str(_ins["after"])]
     _ins["notes"] = [_ins["notes"][0]] + _ins["notes"][1:] + EXTRA_NOTES
+for _k, _ps in _txt.BODY.items():
+    for _p, _t in _ps.items():
+        _body.body[_k][_p - 1] = _t
+for _ins in inserts:
+    for _p, _t in _txt.INSERT.get(_ins["after"], {}).items():
+        _ins["paragraphs"][_p - 1] = _t
 spec = {"third_paragraph": {}, "inserts": inserts, "body": _body.body}
 
 if __name__ == "__main__":
