@@ -1,5 +1,5 @@
 # Lecture 94 status
 
-Complete expanded deliverable: `deliverables/Neuroethology_Lecture94_FA2026.pptx`, 46 slides, 25 embedded videos. Eight newly requested source-specific excerpts were added on slides 4, 6, 21, 22, 23 (two), 24 and 25. Original lecture text, all original figure images and all 17 earlier movies remain unchanged. Only figure geometry on affected slides was adjusted for space.
+Latest expanded deliverable: `deliverables/Neuroethology_Lecture94_FA2026_32videos.pptx`, 46 slides, 32 embedded videos. Seven complete article-provided comparative recordings were added on slides 28, 29, 30, 31, 33, 37 and 44. Original lecture text, original source figures and all 25 earlier movies remain unchanged; only figure/caption geometry on affected slides was adjusted.
 
-The expanded file exceeds GitHub’s 100 MiB per-file limit and is preserved losslessly in two parts, with a SHA-256-verified assembly script. The older tracked PPTX one directory above remains the unchanged 17-video baseline. See `deliverables/README.md`, `VIDEOS.md` and `VALIDATION.md`.
+The new recordings retain the original bytes, resolution, codec, container, timing and audio, without trimming or re-encoding. The prior 25-video master and its lossless split parts remain preserved. The complete latest deck is delivered as a single normal browser download via GitHub LFS. See `VIDEOS.md`, `VALIDATION.md` and `deliverables/README.md`.
