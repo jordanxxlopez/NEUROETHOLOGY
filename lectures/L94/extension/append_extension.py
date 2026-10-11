@@ -13,7 +13,7 @@ from pptx.dml.color import RGBColor
 B = Path(__file__).resolve().parent
 S = Path('/workspace/l94-expansion')
 OLD = B.parent / 'deliverables/Neuroethology_Lecture94_FA2026_Rio_Revised.pptx'
-OUT = B.parent / 'deliverables/Neuroethology_Lecture94_FA2026_Expanded71.pptx'
+OUT = B.parent / 'deliverables/Neuroethology_Lecture94_FA2026_Expanded71_Compatible.pptx'
 DONOR = S / 'Extension_With_Movies.pptx'
 PNS = 'http://schemas.openxmlformats.org/presentationml/2006/main'
 RNS = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'
@@ -87,11 +87,16 @@ def relpath(part):
 
 def append():
     with zipfile.ZipFile(OLD)as old,zipfile.ZipFile(DONOR)as donor:
-        added={};mapping={}; overrides={}
+        added={};mapping={}; overrides={};shared=set()
         types=E.fromstring(donor.read('[Content_Types].xml'))
         dtype={x.get('PartName').lstrip('/'):x.get('ContentType')for x in types if x.tag.endswith('Override')}
         def clone(part):
             if part in mapping:return mapping[part]
+            if part.startswith(('ppt/slideMasters/', 'ppt/slideLayouts/', 'ppt/notesMasters/', 'ppt/theme/')) and part in old.namelist() and donor.read(part)==old.read(part):
+                rp=relpath(part)
+                assert (rp not in donor.namelist() and rp not in old.namelist()) or donor.read(rp)==old.read(rp), part
+                mapping[part]=part;shared.add(part)
+                return part
             parent,name=posixpath.split(part)
             dest=posixpath.join(parent,'extension_'+name)
             mapping[part]=dest
@@ -121,6 +126,7 @@ def append():
             dest=clone(f'ppt/slides/slide{n}.xml');sid+=1
             x=E.SubElement(sids,'{'+PNS+'}sldId',id=str(sid));x.set('{'+RNS+'}id',relation(dest,'slide'))
         for key, dest in list(mapping.items()):
+            if key in shared:continue
             kind = 'sldMaster' if key.startswith('ppt/slideMasters/') and key.endswith('.xml') else 'notesMaster' if key.startswith('ppt/notesMasters/') and key.endswith('.xml') else None
             if kind:
                 lst=pres.find('{'+PNS+'}'+kind+'IdLst')
@@ -147,6 +153,10 @@ def append():
         unchanged=[n for n in old.namelist()if n not in changed]
         for n in unchanged:assert old.read(n)==new.read(n),n
         assert new.testzip() is None
+        root_rels=E.fromstring(new.read('ppt/_rels/presentation.xml.rels'))
+        assert sum(r.get('Type').endswith('/notesMaster') for r in root_rels)<=1, 'Only one notes master is permitted'
+        layout_ids=[x.get('id') for name in new.namelist() if name.startswith('ppt/slideMasters/') and name.endswith('.xml') for x in E.fromstring(new.read(name)).iter() if x.tag.endswith('}sldLayoutId')]
+        assert len(layout_ids)==len(set(layout_ids)), 'Slide-layout IDs must be unique'
     p=Presentation(OUT)
     assert len(p.slides)==71
     assert sum(s.shape_type==16 for sl in p.slides for s in sl.shapes)==38

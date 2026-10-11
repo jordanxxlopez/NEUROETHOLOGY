@@ -9,7 +9,7 @@ mkdir -p /workspace/l94-expansion
 python lectures/L94/extension/write_extension.py
 python tools/build_lecture.py lectures/L94/extension/extension.json /workspace/l94-expansion/Extension_Base.pptx
 python lectures/L94/extension/append_extension.py
-python tools/check_lecture.py lectures/L94/deliverables/Neuroethology_Lecture94_FA2026_Expanded71.pptx --lecture 94 --content-slides 69
+python tools/check_lecture.py lectures/L94/deliverables/Neuroethology_Lecture94_FA2026_Expanded71_Compatible.pptx --lecture 94 --content-slides 69
 ```
 
 The preserved Rio-revised master must exist in `lectures/L94/deliverables/`. It can be rebuilt with the previous revision scripts or obtained from the pinned download in that directory's README. The earlier original source videos and all four new uploaded source videos are required. `media_manifest.json` verifies sources, dimensions, durations and SHA-256. `package_validation.json` records the byte-level preservation check.
@@ -17,3 +17,5 @@ The preserved Rio-revised master must exist in `lectures/L94/deliverables/`. It 
 Scientific source metadata was verified using the supplied PDFs and Crossref. `verified_references.json` is the reusable citation input. `crops.json` records PDF pages, crop bounds and source DOI links. Source PDFs are locally stored in the ignored papers directory. The duplicate chapter-17 attachment was used once.
 
 The LED training movie is on 66 and baseline movies on 67; the movie captions retain their original filenames. Both baseline configurations are familiar, while the text also teaches novel-configuration tests. Luca's exact article provenance is unverified and labeled accordingly.
+
+The append operation reuses byte-identical existing master, layout and theme parts. It rejects multiple notes-master relationships and duplicated layout IDs. This prevents the package error found in the previous 71-slide delivery. Microsoft Open XML SDK validation is recorded in `openxml_validation.json`; all 71 slide renders were compared pixel-for-pixel.

@@ -65,3 +65,11 @@ The deck contains 38 embedded movie placements. The five supplied recordings are
 All 71 slides rendered in LibreOffice, and all 25 appended slides visually reviewed. The final two corrected figure crops were re-rendered and checked separately. There were no visible text, caption or footer collisions. The original 46 slide parts remain byte-identical, including slide notes and media.
 
 Direct browser delivery verified: HTTP 200; full 459,026,231-byte PPTX SHA-256 matches the local expanded master. See `extension/download_validation.json`.
+
+## PowerPoint compatibility correction
+
+The first 71-slide delivery is superseded. Microsoft Open XML SDK 3.3.0 identified `Pkg_OnlyOnePartAllowed`: two notes-master relationships were present, while the presentation format permits one. Appending also duplicated slide-layout IDs. The correction shares the original, byte-identical master/layout/theme parts. No slide, note, image or movie content was edited or removed.
+
+The corrected file is `deliverables/Neuroethology_Lecture94_FA2026_Expanded71_Compatible.pptx`. Microsoft Open XML validation for Office 2019 returns **zero errors**; repository checks return zero failures/warnings. All 71 slide renders match the earlier full deck pixel-for-pixel. All 38 video placements remain, and every slide XML, note text and media blob is byte-identical. All internal relationship targets resolve and layout IDs are unique. Native Mac PowerPoint opening remains untested in this Linux environment.
+
+See `extension/openxml_validation.json`, `extension/compatibility_validation.json`, and `extension/ValidateOpenXml.cs`. SHA-256: `fb34c848d1a663416c8b8e8f23b9361ecf1feab0205e61f16a64b33fd0f1301c`; exact size 459,001,230 bytes.

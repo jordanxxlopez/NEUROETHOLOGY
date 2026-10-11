@@ -1,0 +1,21 @@
+{
+  "sdk": "DocumentFormat.OpenXml 3.3.0",
+  "file_format": "Office2019",
+  "before": {
+    "file": "/workspace/NEUROETHOLOGY/lectures/L94/deliverables/Neuroethology_Lecture94_FA2026_Expanded71.pptx",
+    "count": 1,
+    "errors": [
+      {
+        "Id": "Pkg_OnlyOnePartAllowed",
+        "Description": "The package/part 'PresentationPart{/ppt/presentation.xml}' can only have one instance of relationship that targets part 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesMaster'.",
+        "Part": "/ppt/presentation.xml",
+        "Path": ""
+      }
+    ]
+  },
+  "after": {
+    "file": "/workspace/NEUROETHOLOGY/lectures/L94/deliverables/Neuroethology_Lecture94_FA2026_Expanded71_Compatible.pptx",
+    "count": 0,
+    "errors": []
+  }
+}
