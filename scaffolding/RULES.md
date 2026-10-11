@@ -53,3 +53,10 @@ Reading the revised paragraph aloud is the final check.
 - Body text is 14–15 pt. Choose the size from the space available on each slide, and use the same size for all three paragraphs on that slide.
 - Apply Line and Paragraph Spacing → Space After to every paragraph in the body text box, including the last one.
 - Separate paragraphs with paragraph spacing only. Never insert blank lines between paragraphs.
+
+## Body layout (guideline, every content slide)
+
+- Each content slide has exactly three body paragraphs, and nothing else in body text. No original paragraph may remain on the slide, in any box, column or position.
+- The three paragraphs sit in one text box. Put them in the left column, where most figure-left slides keep their text. Use the right column only where the original slide's text sat there, and never place text over a figure or a caption.
+- A stacked right-column layout is allowed only when the source layout already uses it. It must still contain exactly three paragraphs in total, and no paragraph may repeat across boxes.
+- Before publishing, check the built slide: the count of body paragraphs is three, every body paragraph is new text, and no text overlaps a figure or caption (`scaffolding/build.py` reports these).

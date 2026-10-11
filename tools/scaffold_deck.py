@@ -259,6 +259,9 @@ def write_body(slide, c, texts, normal, bold):
             new_el = copy.deepcopy(boxes[-1]._element)
             boxes[-1]._element.addnext(new_el)
             boxes.append([s for s in slide.shapes if s._element is new_el][0])
+        btx = boxes[k].text_frame._txBody
+        for extra_p in btx.findall(A + "p")[1:]:           # original paragraphs left in the box must not survive
+            btx.remove(extra_p)
         fill_paragraph(boxes[k].text_frame.paragraphs[0]._p, t, normal, bold)
         set_space_after(boxes[k].text_frame.paragraphs[0]._p)
     for extra in boxes[len(texts):]:

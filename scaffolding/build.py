@@ -124,6 +124,23 @@ def main():
             problems += [f"built slide {k}: {w}" for w in sd.body_format_problems(sl)]
     # the built deck
     built = Presentation(str(out))
+    # body layout (scaffolding/RULES.md): exactly three body paragraphs per content slide, and no
+    # paragraph of the original deck left on a slide
+    original = {p.text.strip() for sl in src.slides for sh in sl.shapes if sh.has_text_frame
+                for p in sh.text_frame.paragraphs if p.text.strip()}
+    for k, sl in enumerate(built.slides, 1):
+        if k in (1, len(built.slides)):
+            continue
+        c = sd.classify(sl)
+        if c["title"] is not None and c["title"].text_frame.text.strip().lower().startswith("key takeaways"):
+            continue
+        n_body = sum(1 for bx in c["body"] for q in bx.text_frame.paragraphs if q.text.strip())
+        if n_body != 3:
+            problems.append(f"built slide {k}: {n_body} body paragraphs (expected 3)")
+        for bx in c["body"] + c["caption"]:
+            for q in bx.text_frame.paragraphs:
+                if q.text.strip() in original and "Fig." not in q.text:
+                    problems.append(f"built slide {k}: original paragraph left on the slide: {q.text.strip()[:50]}")
     want = len(src.slides) + len(m.spec["inserts"])
     if len(built.slides) != want:
         problems.append(f"deck has {len(built.slides)} slides, expected {want}")
