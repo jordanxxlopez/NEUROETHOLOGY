@@ -31,6 +31,11 @@ For lecture N, use `drive_updated/Neuroethology_Lecture{N}_FA2026.pptx`, unless 
 - Then: 1–14 (V2/V3), 15–17 (after the user decides), 18–28.
 - Lectures 1–30 are the older backfill. They must be brought to the same rules as 31–40.
 
+## Insert paragraphs must teach, not repeat (set by the user)
+
+- An insert paragraph teaches a fact that the body text of the same lecture does not already state. Do not restate or paraphrase the adjacent body paragraphs. If the source has little material for a figure, find a different fact from the source text (a method, a control, a measurement, a mechanism, a result) rather than repeating one.
+- Check before finishing: no insert sentence may share a run of 6 or more consecutive words with any body paragraph of the same lecture or with another insert of that lecture.
+
 ## How a lecture is built (the working pipeline)
 
 1. Dump the source text per slide with python-pptx. Skip Fig./Photo/Credit captions when rewriting. Get the reference keys with `sd.reference_index(Presentation(path))` from `tools/scaffold_deck.py`.
