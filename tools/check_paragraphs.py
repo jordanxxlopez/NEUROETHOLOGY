@@ -52,6 +52,8 @@ def check(path):
     for k, slide in enumerate(prs.slides, 1):
         if k in (1, len(prs.slides)):
             continue
+        for text in sd.overlap_problems(slide):
+            problems.append(f"{Path(path).name} slide {k}: text overlaps a figure: {text}")
         paras = body_paragraphs(slide)
         if paras is None:
             continue

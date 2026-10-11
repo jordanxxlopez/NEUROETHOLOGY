@@ -134,6 +134,8 @@ def main():
         c = sd.classify(sl)
         if c["title"] is not None and c["title"].text_frame.text.strip().lower().startswith("key takeaways"):
             continue
+        for text in sd.overlap_problems(sl):
+            problems.append(f"built slide {k}: text overlaps a figure: {text}")
         n_body = sum(1 for bx in c["body"] for q in bx.text_frame.paragraphs if q.text.strip())
         if n_body != 3:
             problems.append(f"built slide {k}: {n_body} body paragraphs (expected 3)")

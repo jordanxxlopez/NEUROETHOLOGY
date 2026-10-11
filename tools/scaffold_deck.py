@@ -563,6 +563,61 @@ def gather_right_column(slide):
     return True
 
 
+LEFT_COL = (566000, 5480000)      # x and width of the left text column (0.62 in, 6.0 in)
+RIGHT_COL = (6420000, 5300000)    # x and width of the right text column (7.02 in, 5.8 in)
+TOP_BODY = 1234440                # 1.35 in, below the title
+
+
+def _x_overlap(q, x, w):
+    return q.left < x + w and q.left + q.width > x
+
+
+def place_body(slide, texts):
+    """All body paragraphs in ONE text box, in the first column (left, then right) where no figure or
+    caption sits below it. Every other body-text box is removed (scaffolding/RULES.md)."""
+    c = classify(slide)
+    if c["title"] is None or c["title"].text_frame.text.strip().lower().startswith("key takeaways"):
+        return False
+    stray = [b for b in c["caption"] if "Fig." not in b.text_frame.text and len(b.text_frame.text) > 60]
+    body = c["body"] + stray
+    if not body:
+        return False
+    normal, bold = run_templates(c)
+    blockers = [q for q in c["figs"] + c["footer_pics"] + c["caption"] if q not in stray]
+    for x, w in (LEFT_COL, RIGHT_COL):
+        ys = [q.top for q in blockers if _x_overlap(q, x, w) and q.top > TOP_BODY]
+        bottom = min([BODY_BOTTOM] + ys)
+        if bottom - TOP_BODY < 1000000:
+            continue
+        keep = body[0]
+        keep.left, keep.width = Emu(x), Emu(w)
+        keep.top, keep.height = Emu(TOP_BODY), Emu(bottom - TOP_BODY)
+        if size_body(keep, texts):
+            for b in body:
+                if b is not keep:
+                    b._element.getparent().remove(b._element)
+            write_body(slide, {"body": [keep]}, texts, normal, bold)
+            return True
+    return False
+
+
+def overlap_problems(slide):
+    """Text boxes that sit on top of a figure (scaffolding/RULES.md: text never overlaps images)."""
+    pics = [s for s in slide.shapes if s.shape_type == 13]
+    out = []
+    for sh in slide.shapes:
+        if not (sh.has_text_frame and sh.text_frame.text.strip()) or sh.top / 914400 < 0.9 or sh.top / 914400 > 6.9:
+            continue
+        if "Fig." in sh.text_frame.text:                 # figure captions keep the source layout
+            continue
+        for pic in pics:
+            if sh.left < pic.left + pic.width and sh.left + sh.width > pic.left and \
+                    sh.top < pic.top + pic.height and sh.top + sh.height > pic.top:
+                out.append(sh.text_frame.text.strip()[:40])
+                break
+    return out
+
+
 def body_line_counts(slide):
     """Rendered lines per body paragraph at the text box's own width and font size (scaffolding/RULES.md)."""
     c = classify(slide)
@@ -635,11 +690,8 @@ def main():
         fix_third_paragraph(prs.slides[int(num) - 1], text)
     for num, paras in spec.get("body", {}).items():    # all three body paragraphs (scaffolding/RULES.md)
         slide = prs.slides[int(num) - 1]
-        gather_right_column(slide)
-        merge_body_boxes(slide)
-        c = classify(slide)
-        normal, bold = run_templates(c)
-        write_body(slide, c, paras, normal, bold)
+        if not place_body(slide, paras):
+            print(f"WARNING: no column free of figures for slide {num}; body left unchanged")
     index = reference_index(prs)
     for ins in spec.get("inserts", []):
         ins["references"] = resolve_refs(index, ins["refs_from"]) if "refs_from" in ins else ins["references"]
