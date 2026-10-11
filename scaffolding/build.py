@@ -141,7 +141,7 @@ def main():
             problems.append(f"built slide {k}: {n_body} body paragraphs (expected 3)")
         for bx in c["body"] + c["caption"]:
             for q in bx.text_frame.paragraphs:
-                if q.text.strip() in original and "Fig." not in q.text:
+                if q.text.strip() in original and "Fig." not in q.text and not q.text.strip().startswith(("Photo:", "Credit:")):
                     problems.append(f"built slide {k}: original paragraph left on the slide: {q.text.strip()[:50]}")
     want = len(src.slides) + len(m.spec["inserts"])
     if len(built.slides) != want:
