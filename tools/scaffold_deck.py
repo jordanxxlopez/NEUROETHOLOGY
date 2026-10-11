@@ -592,6 +592,10 @@ def place_body(slide, texts):
         keep = body[0]
         keep.left, keep.width = Emu(x), Emu(w)
         keep.top, keep.height = Emu(TOP_BODY), Emu(bottom - TOP_BODY)
+        for ln in keep._element.iter(A + "lnSpc"):          # 108% line spacing, as in the rest of the scaffold
+            for child in list(ln):
+                ln.remove(child)
+            etree.SubElement(ln, A + "spcPct").set("val", "108000")
         if size_body(keep, texts):
             for b in body:
                 if b is not keep:

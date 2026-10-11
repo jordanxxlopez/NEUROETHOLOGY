@@ -5,6 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import body_L35 as _body  # noqa: E402
+import L35_text as _txt  # noqa: E402
 
 
 def ins(after, title, paragraphs, citation, notes, refs):
@@ -176,7 +177,19 @@ EXTRA_NOTES = [
     ["Method.", "The measurements follow the methods described in the original paper.", "Each value is kept with the condition under which it was measured."],
 ]
 for _ins in inserts:
+    if _ins["after"] in _txt.INSERT_P3:
+        _ins["paragraphs"] = _ins["paragraphs"][:2] + [_txt.INSERT_P3[_ins["after"]]]
+    if _ins["after"] in _txt.INSERT_P2:
+        _ins["paragraphs"] = [_ins["paragraphs"][0], _txt.INSERT_P2[_ins["after"]], _ins["paragraphs"][2]]
     _ins["notes"] = [_ins["notes"][0]] + _ins["notes"][1:] + EXTRA_NOTES
+for _k, _p3 in _txt.BODY_P3.items():
+    _body.body[_k][2] = _p3
+for (_k, _p), _extra in _txt.APPEND_BODY.items():
+    _body.body[_k][_p - 1] = _body.body[_k][_p - 1] + _extra
+for _ins in inserts:
+    for (_k, _p), _extra in _txt.APPEND_INS.items():
+        if _ins["after"] == _k:
+            _ins["paragraphs"][_p - 1] = _ins["paragraphs"][_p - 1] + _extra
 spec = {"third_paragraph": {}, "inserts": inserts, "body": _body.body}
 
 if __name__ == "__main__":
