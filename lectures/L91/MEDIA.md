@@ -44,3 +44,9 @@ The Ronan YouTube exception is approved, but downloads are blocked by the enviro
 User-supplied featured URL: https://youtu.be/s4nBevZJMvk. Its contents cannot be inspected because of the same access block. Upload the downloaded original file to the chat or this repository to enable inspection and embedding. The featured clip stays outside the study-video count.
 
 Search/access evidence: sea_lion_media_search.json. Some broad scholarly results are reviews or involve other species and were excluded; later-dated results were not used as evidence for this lecture.
+
+## Four additional UCSC slides
+
+Slides 46–49 discuss Cook et al. (2025), DOI 10.1038/s41598-025-95279-1. Total deck length is 50 slides. Requested feature https://youtu.be/s4nBevZJMvk is still not embedded: the environment proxy denies YouTube downloads. Upload the original MP4 to complete the feature insertion. The user authorized official Ronan recordings as a specific source exception. It remains outside the 10–12-study-video count.
+
+Expanded source search: Milne et al. (2020), DOI 10.1007/s00359-020-01408-8, supplies a PDF supplement, not movies. Sasaki et al. (2025), DOI 10.1007/s10071-025-01971-0, supplies a CSV supplement. The Galapagos foraging study DOI 10.7717/peerj.11206 supplies tables/data rather than movies. DOI 10.1038/s41598-018-28171-w supplies an XLSX supplement. The JEB locomotion publisher for DOI 10.1242/jeb.243020 returns HTTP 403. These did not supply suitable downloadable clips and were not added as lecture sources.

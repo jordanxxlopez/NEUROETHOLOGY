@@ -1,9 +1,7 @@
 # QA
 
-46 slides, 44 primary-figure content slides, 23 source-color figure slides. Repository checker passes with zero failures and warnings. Exact title and Date TBD, Arial, three teaching paragraphs per content slide, no em dashes, full references, and six bold-lead takeaways retained.
+50 slides, 48 primary-figure content slides, 27 source-color figure slides. Repository checker passes with zero failures and warnings using --content-slides 48, the instructor-authorized four-slide addition. Original title/date, teaching text on slides 1–45, and original takeaways are preserved. Slides 46–49 add source-verified Cook et al. (2025) material. Full article references and DOI are in the notes.
 
-All original visible text and original scientific figure bytes compared with the pre-video deck and preserved. The added other-animal captions, notes, and references are gone; all notes outside slide20 exactly match the pre-video deck. The layouts on other removed-video slides are restored. One actual native video object, one internally embedded MP4, and both media/video relationships verified. Embedded bytes match the original sea-lion movie, including its verified article MD5. No conversion, trimming, speed changes, or audio edits were made.
+One original native MP4 is internally embedded, with bytes matching the original article recording. No repeated clips, other-animal videos, trimming, speed changes, or audio edits. PDF is static. Desktop PowerPoint playback and Google Slides import are untested.
 
-Slide20 visually inspected after rendering. Previous original slide QA remains valid for restored slides. FFmpeg decoding succeeds. PowerPoint GUI playback and Google Slides import are untested; PDF is a static preview.
-
-Only one relevant sea-lion original could be obtained. The 10–12 video request remains unmet. The featured YouTube clip remains unavailable pending an original-file upload.
+The 10–12 sea-lion video request remains unmet; the supplied YouTube feature remains unavailable pending upload. Additional primary-study searches checked imitation, whisker control, foraging, auditory and locomotor studies; retrieved supplements were data/tables, or publisher access was denied. No unavailable source was substituted.

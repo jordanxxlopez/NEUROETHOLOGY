@@ -21,7 +21,11 @@
       "counts_toward_study_target": true
     }
   ],
-  "species_restriction": "Sea lions only; no other-animal or human-only recordings.",
-  "pending_featured_user_url": "https://youtu.be/s4nBevZJMvk",
-  "shortfall": "1 retrievable study recording against the requested 10\u201312. Cook2013 S1\u2013S10 require original lab files; Cook2025 videos are on YouTube, blocked by proxy."
+  "pending_feature_video": {
+    "url": "https://youtu.be/s4nBevZJMvk",
+    "status": "Not embedded: platform HTTP proxy denies YouTube download; uploaded original MP4 needed",
+    "counts_toward_study_target": false
+  },
+  "content_slides": 48,
+  "total_slides": 50
 }

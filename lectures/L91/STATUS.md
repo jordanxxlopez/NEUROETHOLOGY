@@ -1,3 +1,3 @@
 # Lecture 91
 
-Sea-lion-only revision: one original Rouse2016 recording embedded on slide20. All other-animal videos removed; original text, figures, notes, and layouts restored except for the single sea-lion video placement. Ten-to-twelve video target remains unmet because additional relevant originals cannot currently be downloaded. Missing originals and source links are listed in MEDIA.md.
+50 slides: the existing lecture plus four additional Ronan/UCSC study slides (46–49), followed by the original takeaways. One original sea-lion recording is embedded on slide 20. The requested 10–12 distinct sea-lion recordings remain unavailable. The supplied YouTube feature is not embedded because downloading is blocked; an uploaded MP4 is needed.
