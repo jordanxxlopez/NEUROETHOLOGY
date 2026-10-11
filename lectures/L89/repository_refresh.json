@@ -1,0 +1,77 @@
+{
+  "historical_raw_snapshot": [
+    {
+      "path": "AGENTS.md",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/AGENTS.md",
+      "sha256": "ab8597c3353c745f5a015700f1117b5daae509b74fb0190d2cae38ab7312a1c5"
+    },
+    {
+      "path": "CLAUDE.md",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/CLAUDE.md",
+      "sha256": "63f4ade0a1c8d47c2cd2eb8323e26b2bf8c6db0305ef2e81bc4dcb1101645e25"
+    },
+    {
+      "path": ".claude/skills/neuroethology-lecture/SKILL.md",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/.claude/skills/neuroethology-lecture/SKILL.md",
+      "sha256": "a281d29e2333ecd046a90165315b77e8370c0907c170eb32fe2ab581e64a555f"
+    },
+    {
+      "path": "course/schedule.json",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/course/schedule.json",
+      "sha256": "9247f691419338c5b867371b9094635e53a8e526ecf73bfa343261bd39ad3436"
+    },
+    {
+      "path": "course/themes.json",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/course/themes.json",
+      "sha256": "cfd4940a5d8ee364d353d8ff210498410f5cf7d49fc619acf0a2e9fffef42024"
+    },
+    {
+      "path": "lectures/_template/lecture.json",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/lectures/_template/lecture.json",
+      "sha256": "04217c87ff724c4db3fc0518dd5c4773ccbe270c08b41f9a9fcad1142b39bb17"
+    },
+    {
+      "path": "requirements.txt",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/requirements.txt",
+      "sha256": "08118e79405520c4e79e974c8772dabd821d2c5cc8252335ae0ca21ea08d6513"
+    },
+    {
+      "path": "tools/build_lecture.py",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/tools/build_lecture.py",
+      "sha256": "c04f9eb8928c559b798dacad65216256a804008ed570847d8d715d011e065a40"
+    },
+    {
+      "path": "tools/check_lecture.py",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/tools/check_lecture.py",
+      "sha256": "3c944b5de5c91af6c4c2a01cff794edc2d52fdb6f05aee0729f68f9ab4082938"
+    },
+    {
+      "path": "tools/crop_figure.py",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/tools/crop_figure.py",
+      "sha256": "24118f297e8139ba91c0b097c03fe8e23e8100f58d673b8cdfa888c5c341512c"
+    },
+    {
+      "path": "tools/crop_panels.py",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/tools/crop_panels.py",
+      "sha256": "635f73c2113e91bdfee48d69e7f34dcaac6a9e669146a1459de320f67bf69b75"
+    },
+    {
+      "path": "tools/style_rules.py",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/tools/style_rules.py",
+      "sha256": "8f8064445bb041aaaf766355380890a20df73b306d697c8cd414bdf6ff8f7d48"
+    },
+    {
+      "path": "tools/theme_colors.py",
+      "url": "https://raw.githubusercontent.com/jordanxxlopez/NEUROETHOLOGY/HEAD/tools/theme_colors.py",
+      "sha256": "b9af8449b811ce5d52294eb2130b1e05ff0a7a49642c0220abac9515f1f2e13b"
+    }
+  ],
+  "final_authority": {
+    "repository": "jordanxxlopez/NEUROETHOLOGY",
+    "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
+    "baseline_commit": "85c85c1a4799ba301f3ddb6308462ddf3a390f91",
+    "working_directory": "/workspace/NEUROETHOLOGY",
+    "method": "git fetch origin, verify remote default, fast-forward merge without discarding changes",
+    "note": "Final build uses refreshed repository rules and tools; the raw snapshot is historical only."
+  }
+}
