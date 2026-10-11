@@ -362,6 +362,11 @@ def add_scaffold(prs, parent_idx, spec, number):
     set_plain(c["number"], label)
     c["number"].width = Emu(c["number"].width + 62417)
     c["number"].left = Emu(right - c["number"].width)
+    if new.notes_slide.notes_text_frame is None:         # notes master without placeholders: reuse the parent's
+        tree = new.notes_slide.shapes._spTree
+        for el in parent.notes_slide.shapes._spTree:
+            if el.tag not in (P + "nvGrpSpPr", P + "grpSpPr"):
+                tree.append(copy.deepcopy(el))
     write_notes(new, style, spec["notes"], spec["references"], [])
     move_after(prs, parent_idx)
     return new
