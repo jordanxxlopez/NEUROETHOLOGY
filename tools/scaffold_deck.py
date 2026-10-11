@@ -354,7 +354,15 @@ def add_scaffold(prs, parent_idx, spec, number):
                     cap._element.getparent().remove(cap._element)
                 pic._element.getparent().remove(pic._element)
     set_plain(c["title"], spec["title"])
-    write_body(new, c, spec["paragraphs"], normal, bold)
+    paragraphs = list(spec["paragraphs"])
+    for term in spec.get("bold", []):                     # the defined scientific term, bold on first use
+        for k, t in enumerate(paragraphs):
+            if term in t and "**" not in t:
+                paragraphs[k] = t.replace(term, f"**{term}**", 1)
+                break
+        else:
+            raise SystemExit(f"bold term {term!r} not found in the paragraphs of the slide after {number}")
+    write_body(new, c, paragraphs, normal, bold)
     set_plain(c["citation"], spec["citation"])
     need = int(_font(8.25).getlength(spec["citation"]) / 10 * EMU_PT * 1.15)
     c["citation"].width = Emu(max(c["citation"].width, need, 700000))
@@ -442,6 +450,79 @@ def resolve_refs(index, keys):
     return out
 
 
+# ------------------------------------------------------------------ one text box per slide
+BODY_BOTTOM = 6330000    # lowest edge a merged body box may reach (the citation sits just below)
+PARA_GAP_PT = 12
+
+
+def _line_height_pt(tx, pt):
+    """Rendered line height: exact points when the deck sets spcPts, else a multiple of the font."""
+    sp = tx.find(".//" + A + "lnSpc/" + A + "spcPts")
+    if sp is not None:
+        return int(sp.get("val")) / 100
+    pc = tx.find(".//" + A + "lnSpc/" + A + "spcPct")
+    return pt * LINE_FACTOR * (int(pc.get("val")) / 100000 if pc is not None else 1.0)
+
+
+def merge_body_boxes(slide):
+    """Google-export decks keep one text box per paragraph. Put all of them into the first box as
+    ordinary paragraphs separated by space-after, keep every run (bold terms included), and shrink
+    the font and line spacing together only if the combined text no longer fits."""
+    c = classify(slide)
+    boxes = c["body"]
+    if c["title"] is None or len(boxes) < 2:
+        return False
+    first = boxes[0]
+    tx = first.text_frame._txBody
+    if c["title"].text_frame.text.strip().lower().startswith("key takeaways"):
+        return False                                      # the takeaway grid keeps its card layout
+    boxes = [b for b in boxes if b.left == first.left]    # a right-hand text box is a figure caption
+    if len(boxes) < 2:
+        return False
+    bottom = max(max(b.top + b.height for b in boxes), 0)
+    texts = []
+    for b in boxes[1:]:
+        for p in b.text_frame._txBody.findall(A + "p"):
+            if "".join(p.itertext()).strip():
+                tx.append(p)
+        b._element.getparent().remove(b._element)
+    paras = [p for p in tx.findall(A + "p") if "".join(p.itertext()).strip()]
+    for p in tx.findall(A + "p"):
+        if p not in paras:
+            tx.remove(p)
+    for i, p in enumerate(paras):
+        ppr = p.find(A + "pPr")
+        if ppr is None:
+            ppr = etree.SubElement(p, A + "pPr")
+            p.insert(0, ppr)
+        for old in ppr.findall(A + "spcAft") + ppr.findall(A + "spcBef"):
+            ppr.remove(old)
+        aft = etree.Element(A + "spcAft")
+        etree.SubElement(aft, A + "spcPts").set("val", str(PARA_GAP_PT * 100 if i < len(paras) - 1 else 0))
+        ln = ppr.find(A + "lnSpc")
+        (ln.addnext(aft) if ln is not None else ppr.insert(0, aft))
+        texts.append("".join(t.text or "" for t in p.iter(A + "t")))
+    limit = max(bottom, BODY_BOTTOM)
+    first.height = Emu(limit - first.top)
+    pt = body_pt(first)
+    cur, lh0 = pt, _line_height_pt(tx, pt)
+    while cur > 11:
+        lh = lh0 * cur / pt
+        need = sum(wrap_lines(t, int(first.width * WRAP_FACTOR), cur) * lh + (PARA_GAP_PT if k < len(texts) - 1 else 0)
+                   for k, t in enumerate(texts)) * EMU_PT
+        if need <= first.height:
+            break
+        cur -= 0.5
+    if cur != pt:
+        for r in tx.iter(A + "rPr"):
+            if r.get("sz"):
+                r.set("sz", str(int(cur * 100)))
+        for sp in tx.iter(A + "spcPts"):
+            if sp.getparent().tag == A + "lnSpc":
+                sp.set("val", str(int(int(sp.get("val")) * cur / pt)))
+    return True
+
+
 def main():
     deck, spec_path, out = sys.argv[1:4]
     spec = json.loads(Path(spec_path).read_text())
@@ -454,6 +535,9 @@ def main():
         ins["references"] = resolve_refs(index, ins["refs_from"]) if "refs_from" in ins else ins["references"]
     for ins in sorted(spec.get("inserts", []), key=lambda i: -i["after"]):   # back to front
         add_scaffold(prs, ins["after"] - 1, ins, ins["after"])
+    if "--single-box" in sys.argv:
+        merged = sum(merge_body_boxes(sl) for sl in prs.slides)
+        print(f"merged the body paragraphs of {merged} slides into one text box each")
     prs.save(out)
     print(f"{deck}: {n_orig} -> {len(prs.slides)} slides, "
           f"{len(spec.get('third_paragraph', {}))} third paragraphs fixed -> {out}")

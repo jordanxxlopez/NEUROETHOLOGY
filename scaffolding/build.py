@@ -62,7 +62,7 @@ def main():
     subprocess.run([sys.executable, str(spec_py)], check=True)
     out = ROOT / "scaffolded" / (deck.stem + "_SCAFFOLDED.pptx")
     out.parent.mkdir(exist_ok=True)
-    subprocess.run([sys.executable, str(ROOT / "tools/scaffold_deck.py"), str(deck), str(spec_json), str(out)], check=True)
+    subprocess.run([sys.executable, str(ROOT / "tools/scaffold_deck.py"), str(deck), str(spec_json), str(out)] + (["--single-box"] if n >= 21 else []), check=True)
 
     problems = []
     src = Presentation(str(deck))
