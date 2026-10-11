@@ -1,3 +1,5 @@
+**Download:** [Download the revised 84-slide Lecture 94 PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/e06bad63786dfbc7991e1bd6a77b129a7936be54/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). Complete browser download verified against the local SHA-256; 460.88 MB.
+
 **Current revision: 84 slides.** Fourteen content slides were added before the sole final Key takeaways slide. All 68 existing content slides were rewritten to three paragraphs of five complete sentences each, while preserving their findings, original figures and all 38 embedded movie placements. Every paragraph has at least six rendered lines. Native media bytes and audio are unchanged. The complete file is 460.88 MB, following the instructor’s explicit preference to retain all videos. Repository checks and Microsoft Open XML SDK validation pass with zero errors. Source and validation records: [revision84](revision84/README.md).
 
 ## Earlier revision history

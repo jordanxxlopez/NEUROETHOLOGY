@@ -1,5 +1,8 @@
 # Lecture 94: fourteen-slide expansion and writing revision
 
+**Download:** [Download the revised 84-slide Lecture 94 PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/e06bad63786dfbc7991e1bd6a77b129a7936be54/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). Complete browser download verified against the local SHA-256; 460.88 MB.
+
+
 The instructor authorized rewriting the existing teaching paragraphs while preserving
 their findings, figures and videos. The resulting deck has 84 slides: the preserved
 title, 82 content slides, and one final **Key takeaways** slide. New content occupies
