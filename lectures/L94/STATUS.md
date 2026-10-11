@@ -25,3 +25,9 @@ The first 71-slide delivery is superseded. Microsoft Open XML SDK 3.3.0 identifi
 The corrected file is `deliverables/Neuroethology_Lecture94_FA2026_Expanded71_Compatible.pptx`. Microsoft Open XML validation for Office 2019 returns **zero errors**; repository checks return zero failures/warnings. All 71 slide renders match the earlier full deck pixel-for-pixel. All 38 video placements remain, and every slide XML, note text and media blob is byte-identical. All internal relationship targets resolve and layout IDs are unique. Native Mac PowerPoint opening remains untested in this Linux environment.
 
 See `extension/openxml_validation.json`, `extension/compatibility_validation.json`, and `extension/ValidateOpenXml.cs`. SHA-256: `fb34c848d1a663416c8b8e8f23b9361ecf1feab0205e61f16a64b33fd0f1301c`; exact size 459,001,230 bytes.
+
+## Single final summary, all embedded videos unchanged
+
+Latest file: `deliverables/Neuroethology_Lecture94_FA2026_70slides_SingleSummary.pptx`, 70 slides with exactly one Key takeaways slide at 70. The earlier Key takeaways slide was removed; all other shapes and notes remain identical except necessary footer renumbering. All 38 movie placements remain. The duplicate Rio media blob was removed and its three players share the original exact video bytes. Every retained media file is unchanged; no resolution, audio, timing or image/video quality was altered. ZIP compression is lossless packaging, not video compression.
+
+Exact size: 456,853,534 bytes (456.85 MB). The user explicitly chose retaining all videos embedded and unchanged over the under-100-MB target. Microsoft Open XML SDK: zero errors; repository checker: zero failures/warnings. All other slide shapes and notes were compared against the validated compatible master and match exactly, apart from footer numbering. SHA-256: `37b42982e516a3b33c47285fe18211579261ad828add63fef3d519a23145a5c6`.
