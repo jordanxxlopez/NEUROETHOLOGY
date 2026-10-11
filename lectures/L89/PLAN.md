@@ -47,3 +47,7 @@
 44. Detection and awakening measure different operations
 45. Local sleep changes the meaning of a whole-brain label
 46. Key takeaways.
+
+## Completed video revision
+
+Eight distinct original academic recordings embedded across slides 3 (two), 14, 34, 35, 37, 40 and 45. Only slides 3, 14 and 45 received targeted body changes. Titles, existing article figures, theme, takeaways and 46-slide sequence retained. Source links, credits and encoding details are in `media_sources.json`; the complete PPTX is below 40 MB.

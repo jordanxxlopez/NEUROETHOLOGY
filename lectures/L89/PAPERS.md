@@ -43,3 +43,8 @@ All 21 required primary-paper PDFs are secured and bibliographic details verifie
 20. Reicher V, Kis A, Simor P, Bódizs R, Gácsi M. (2021). Interhemispheric asymmetry during NREM sleep in the dog. Scientific reports 11:18817. https://doi.org/10.1038/s41598-021-98178-3
 
 21. Dell LA, Patzke N, Bhagwandin A, Bux F, Fuxe K, Barber G, Siegel JM, Manger PR. (2012). Organization and number of orexinergic neurons in the hypothalamus of two species of Cetartiodactyla: A comparison of giraffe (Giraffa camelopardalis) and harbour porpoise (Phocoena phocoena). Journal of Chemical Neuroanatomy 44:98–109. https://doi.org/10.1016/j.jchemneu.2012.06.001
+
+## Video revision: additional verified primary papers
+
+22. Pophale et al. (2023), *Nature* 619:129–134. https://doi.org/10.1038/s41586-023-06203-4. Publisher PDF secured; Supplementary Videos 1, 2 and 4 secured directly from article links.
+23. Lyamin et al. (2005), *Nature* 435:1177. https://doi.org/10.1038/4351177a. Author-hosted published PDF and movie legend secured; original publisher Supplementary Video secured.

@@ -10,7 +10,7 @@ def go(item):
   import urllib.request
   source_url=f'https://pmc-oa-opendata.s3.amazonaws.com/PMC4976198.1/ncomms12468-s{i+1}.avi' if k=='frigate' else 'https://pmc-oa-opendata.s3.amazonaws.com/PMC10241905.1/41467_2023_38669_MOESM4_ESM.mp4'
   src.write_bytes(urllib.request.urlopen(source_url,timeout=60).read())
- subprocess.run(['ffmpeg','-y','-v','error','-i',str(src),'-map','0:v:0','-map','0:a?','-c:v','libx264','-crf','24','-preset','medium','-pix_fmt','yuv420p','-fps_mode','passthrough','-c:a','aac','-b:a','96k','-movflags','+faststart',str(out)],check=True)
+ subprocess.run(['ffmpeg','-y','-v','error','-i',str(src),'-map','0:v:0','-map','0:a?','-c:v','libx264','-crf','28','-preset','fast','-threads','2','-pix_fmt','yuv420p','-fps_mode','passthrough','-c:a','aac','-b:a','96k','-movflags','+faststart',str(out)],check=True)
  check=subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(out),'-f','null','-'],capture_output=True);assert check.returncode==0,check.stderr.decode()
  subprocess.run(['ffmpeg','-y','-v','error','-ss','2','-i',str(out),'-frames:v','1',str(post)],check=True)
  p=probe(out);orig=probe(src);st=next(s for s in p['streams'] if s['codec_type']=='video');a=R[k]['record']['authorString'].split()[0];y=R[k]['record']['pubYear']
@@ -19,7 +19,7 @@ def go(item):
 embedded=list(concurrent.futures.ThreadPoolExecutor(4).map(go,items))
 meta=dict(embedded=embedded,not_embedded=[dict(slide=33,doi=R['frigate']['doi'],original_media_url='https://pmc-oa-opendata.s3.amazonaws.com/PMC4976198.1/ncomms12468-s2.avi',reason='Supplementary Movie 1 was downloaded but its original AVI emits decoder errors and non-monotonic timestamps; retained as an optional source link rather than modifying or repairing scientific frames.'),dict(slide=25,doi=R['elephant_seal']['doi'],original_media_url='https://www.science.org/doi/suppl/10.1126/science.adf0566/suppl_file/science.adf0566_movie_s1.mp4',reason='Movie S1 is listed in the original article; publisher and University of California supplement requests returned HTTP 403. Original published figures remain available.')],shortfall='Four distinct usable original recordings obtained. Other checked supplements contained no recordings, the elephant-seal movie was blocked, and the first frigatebird movie had decoding/timestamp defects. No unrelated or repeated clips were added to satisfy the 8–10 aim.',playback='Full MP4 decode and saved PPTX media relationships verified; interactive PowerPoint playback not available in this cloud environment.')
 if (B/'media_sources.json').exists():
- previous=json.loads((B/'media_sources.json').read_text());previous['embedded']=embedded;meta=previous
+ previous=json.loads((B/'media_sources.json').read_text());previous['embedded']=embedded+[v for v in previous['embedded'] if v.get('paper') not in ('frigate','pigeon_fmri')];meta=previous
 for v in meta['embedded']:
  if v['slide']==37:v['credit']+=' Original Movie 4 recorded by Giacomo Dell’Omo (G.D’O.), as credited in the supplement.'
 (B/'media_sources.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n');print([(m['slide'],m['duration_s'],(B/m['path']).stat().st_size) for m in embedded])

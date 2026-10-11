@@ -1,0 +1,26 @@
+import json,subprocess,hashlib,concurrent.futures,shutil
+from pathlib import Path
+B=Path(__file__).resolve().parent;D=B/'media'
+items=[('octopus_video1',3,'Pophale et al. (2023), Supplementary Video 1. Octopus active sleep at original playback speed.',1),('octopus_video2',3,'Pophale et al. (2023), Supplementary Video 2. Octopus waking behavior at original playback speed.',2),('octopus_video4',45,'Pophale et al. (2023), Supplementary Video 4. Paired skin patterns during waking and active sleep.',4),('orca_postpartum',14,'Lyamin et al. (2005), Supplementary Video. Orca mother and calf four weeks after birth.',None)]
+def probe(p):return json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(p)]))
+def convert(item):
+ n,sl,cap,num=item;ext='.mov';original=D/(n+'_original'+ext)
+ if not original.exists():
+  import urllib.request
+  fname=f'41586_2023_6203_MOESM{num+2}_ESM.mov' if num is not None else '41586_2005_BF4351177a_MOESM2_ESM.mov'
+  url='https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2F'+('s41586-023-06203-4' if num is not None else '4351177a')+'/MediaObjects/'+fname
+  original.write_bytes(urllib.request.urlopen(url,timeout=120).read())
+ src=str(original)
+ out=D/(n+'_compatible.mp4');post=D/(n+('_poster.jpg' if num is not None else '_poster.png'))
+ subprocess.run(['ffmpeg','-y','-v','error','-threads','2','-i',src,'-map','0:v:0','-map','0:a?','-vf',('scale=1280:720' if num is not None else 'pad=ceil(iw/2)*2:ceil(ih/2)*2'),'-filter_threads','1','-c:v','libx264','-crf','28','-preset','fast','-threads','2','-pix_fmt','yuv420p','-fps_mode','passthrough','-c:a','aac','-b:a','96k','-movflags','+faststart',str(out)],check=True)
+ subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(out),'-f','null','-'],check=True)
+ subprocess.run(['ffmpeg','-y','-v','error','-ss',('10' if num==4 else '8' if num is not None else '2'),'-i',str(original),'-frames:v','1','-q:v','2',str(post)],check=True)
+ p=probe(out);o=probe(original);v=next(s for s in p['streams']if s['codec_type']=='video')
+ octo=num is not None; doi='10.1038/s41586-023-06203-4'if octo else'10.1038/4351177a'
+ fname=f'41586_2023_6203_MOESM{num+2}_ESM.'+('mov'if num!=3 else'mp4')if octo else'41586_2005_BF4351177a_MOESM2_ESM.mov'
+ url=f'https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2F'+('s41586-023-06203-4'if octo else'4351177a')+'/MediaObjects/'+fname
+ credit='Aditi Pophale, Kazumichi Shimizu, Tomoyuki Mano, Teresa L. Iglesias, Kerry Martin, Makoto Hiroi, Keishu Asada, Paulette García Andaluz, Thi Thu Van Dinh, Leenoy Meshulam, Sam Reiter.'if octo else'Oleg I. Lyamin, Julia P. Pryaslova, Valentine Lance, Jerome M. Siegel.'
+ note=('Active sleep includes moving skin patterns and body movements despite increased arousal threshold and homeostatic regulation. This is a comparison of sleep stages, not evidence of unihemispheric sleep.'if num==1 else'Waking is the matched behavioral control for active sleep. Similar movement and coloration can accompany different physiological states.'if num==2 else'Published paired clips contain similar patterns during wakefulness and active sleep. Skin pattern similarity cannot identify subjective experience or the sleep state of a hemisphere.'if num==4 else'The calf circles and vocalizes while the mother has begun to resume rest behavior four weeks postpartum. This recording measured visible behavior, not simultaneous bilateral EEG.')
+ return dict(slide=sl,paper='octopus_sleep'if octo else'cetacean_postpartum',path='media/'+out.name,poster='media/'+post.name,caption=cap,teaching_note=note,doi=doi,credit=credit,license='Creative Commons Attribution 4.0 International, supplied with the article.'if octo else'Publisher-supplied academic supplementary video; no separate open license stated.',original_media_url=url,original_filename=fname,original_sha256=hashlib.sha256(original.read_bytes()).hexdigest(),sha256=hashlib.sha256(out.read_bytes()).hexdigest(),duration_s=float(p['format']['duration']),original_duration_s=float(o['format']['duration']),display_aspect=v['width']/v['height'],width=v['width'],height=v['height'],codec=v['codec_name'],conversion='Compatible H.264/yuv420p MP4 encoding. Original scene, timing, audio and scientific content retained. Odd-sized 319 × 239 orca frames gain one blank right column and bottom row for even-dimension H.264 compatibility; source pixels remain intact. Other dimensions unchanged. No speed changes, graphics, recoloring or fabricated frames. Poster is an unedited frame from the original recording.',decode_verified=True)
+result=list(concurrent.futures.ThreadPoolExecutor(4).map(convert,items))
+m=json.loads((B/'media_sources.json').read_text());m['embedded']=[v for v in m['embedded'] if v.get('paper') not in ('octopus_sleep','cetacean_postpartum')]+result;m['shortfall']='Eight distinct useful article-provided recordings embedded. Ten could not be obtained: jackdaw Videos S1–S3 and elephant-seal Movie S1 remain blocked, and frigatebird Movie 1 has source decoding/timestamp defects. No duplicate or unrelated recordings were used.';(B/'media_sources.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n');print([(x['path'],(B/x['path']).stat().st_size)for x in result])
