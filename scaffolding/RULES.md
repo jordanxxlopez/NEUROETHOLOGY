@@ -34,8 +34,17 @@ These rules apply to the three body paragraphs of every content slide and to eve
 ## Paragraph format (updated)
 - Three paragraphs per slide body, all in one text box. Press Enter once between paragraphs; never leave an empty paragraph or blank line.
 - Create the visual gap with Paragraph Spacing → After (`spcAft`, about 12 pt), not with extra Enter presses.
-- Each paragraph has 5–7 complete sentences and fills at least five lines at the existing width and font size.
+- Each paragraph fills about 5–7 lines at the existing text box width and font size. Measure lines, not sentences. Use
+  complete sentences and let the sentence count vary naturally within that length.
 - Revise the existing paragraphs too, preserving the findings, the figure references and the videos; only the wording changes.
-- Limitations are banned in all three paragraphs. A caveat may appear only when it is absolutely necessary for the scientific claim, and then as a single clause that states what the finding is, not as a closing sentence.
-- No tongue twisters: avoid stacked compound modifiers, long chains of "of"-phrases, and wording that is awkward to read aloud (for example, "the interspecies comparison-based recalibration of spectral-temporal sensitivity").
-- Write plain, direct teaching sentences. Vary sentence length and avoid repeating the same connective ("therefore", "so", "which") in every paragraph.
+- Limitations are banned in all three paragraphs. A caveat may appear only when it is absolutely necessary for the scientific
+  claim, and then as one clause that states the finding, not as a closing sentence.
+
+## Awkward phrasing when read aloud (review flags)
+These are review flags, not automatic failures. Necessary scientific terms may be long without being awkward.
+- Stacked modifiers: "reward-dependent cursor-target acquisition performance" → "how accurately the animal moved the cursor to earn a reward."
+- Long noun strings: "auditory stimulus response selection mechanisms" → "how the animal selects a response to a sound."
+- Repeated sounds or near-identical words that make a sentence easy to stumble over.
+- Complicated sentence structure: several embedded clauses, unclear pronouns, or a long delay before the main verb.
+`tools/style_rules.py` `tongue_twister_flags()` returns each suspicious phrase with the reason. A language review decides the revision.
+Reading the revised paragraph aloud is the final check.

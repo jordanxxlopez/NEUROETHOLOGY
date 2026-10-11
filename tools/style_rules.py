@@ -150,31 +150,57 @@ def body_problems(paragraphs):
     return bad
 
 
-# ------------------------------------------------------------------ paragraph format (scaffolding/RULES.md)
-ABBREV = re.compile(r"\b(?:Fig|Figs|al|e\.g|i\.e|vs|approx|Dr|St|No|Eq|cf)\.$")
-MIN_PARA_SENTENCES, MAX_PARA_SENTENCES = 5, 7
-MIN_PARA_WORDS = 55          # about five full lines at the existing width and font size
+# ------------------------------------------------------------------ paragraph length and read-aloud flags (scaffolding/RULES.md)
+MIN_PARA_LINES, MAX_PARA_LINES = 5, 7   # measured on the slide by scaffold_deck.body_line_counts()
+ABBREV_TAIL = re.compile(r"\b(?:Fig|al|e\.g|i\.e|vs|approx|No|cf)\.$")
+
+STOP = set("a an the and or but of in on at to for from by with as into than that this these those is are was were be been being it its their his her "
+           "which who whom whose when while where if then so not no also both each per via between among across over under after before during".split())
 
 
-def sentence_count(text):
-    """Complete sentences: split after . ! ? followed by a capital, ignoring abbreviations and decimals."""
-    parts = re.split(r"(?<=[.!?])\s+(?=[A-Z\u201c\u2018(])", text.strip())
-    kept = []
-    for part in parts:
-        if kept and ABBREV.search(kept[-1]):
-            kept[-1] = kept[-1] + " " + part
-        else:
-            kept.append(part)
-    return len([k for k in kept if k.strip()])
+def _words(text):
+    return re.findall(r"[A-Za-z][A-Za-z'-]*", text)
 
 
-def paragraph_format_problems(paragraphs):
-    """Five to seven sentences and about five lines per paragraph (scaffolding/RULES.md)."""
+def tongue_twister_flags(text):
+    """Review flags for wording that is hard to say aloud: [(phrase, reason)]. Not a pass/fail test."""
+    flags = []
+    for sent in re.split(r"(?<=[.!?])\s+", text.strip()):
+        words = _words(sent)
+        # stacked modifiers: a hyphenated chain of three or more modifiers, e.g. "reward-dependent cursor-target"
+        for m in re.finditer(r"\b[A-Za-z]+-[A-Za-z]+-[A-Za-z]+\b|\b[A-Za-z]+-[A-Za-z]+ [A-Za-z]+-[A-Za-z]+\b", sent):
+            flags.append((m.group(0), "stacked modifiers"))
+        # long noun strings: four or more consecutive content words with no verb or function word between them
+        run = []
+        for w in words + [""]:
+            if w and w.lower() not in STOP and not w.lower().endswith(("ed", "ing", "ly")):
+                run.append(w)
+            else:
+                if len(run) >= 4:
+                    flags.append((" ".join(run), "long noun string"))
+                run = []
+        # repeated sounds: three consecutive words starting with the same letter
+        for a, b, c in zip(words, words[1:], words[2:]):
+            if a[0].lower() == b[0].lower() == c[0].lower() and not {a, b, c} & STOP:
+                flags.append((f"{a} {b} {c}", "repeated initial sound"))
+        # complicated structure: very long sentence
+        if len(words) > 32:
+            flags.append((sent[:60] + "...", f"long sentence ({len(words)} words)"))
+    return flags
+
+
+def body_problems(paragraphs):
+    """Hard violations of scaffolding/RULES.md in a slide's three body paragraphs (limitations, framing, tense)."""
     bad = []
     for k, p in enumerate(paragraphs[:3], 1):
-        n = sentence_count(p)
-        if not MIN_PARA_SENTENCES <= n <= MAX_PARA_SENTENCES:
-            bad.append(f"paragraph {k}: {n} sentences (expected {MIN_PARA_SENTENCES}-{MAX_PARA_SENTENCES})")
-        if len(p.split()) < MIN_PARA_WORDS:
-            bad.append(f"paragraph {k}: {len(p.split())} words (about five lines needs {MIN_PARA_WORDS}+)")
+        for m in BODY_LIMITATION.finditer(p):
+            bad.append(f"paragraph {k}: limitation wording ({m.group(0)!r})")
+        for m in list(BODY_FRAMING.finditer(p)) + list(FIRST_PERSON_I.finditer(p)):
+            bad.append(f"paragraph {k}: framing or tense ({m.group(0)!r})")
     return bad
+
+
+def line_problems(line_counts):
+    """Paragraphs that do not fill about five to seven lines (scaffolding/RULES.md)."""
+    return [f"paragraph {k}: {n} lines (expected {MIN_PARA_LINES}-{MAX_PARA_LINES})"
+            for k, n in enumerate(line_counts, 1) if not MIN_PARA_LINES <= n <= MAX_PARA_LINES]

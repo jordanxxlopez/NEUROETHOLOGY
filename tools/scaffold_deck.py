@@ -528,6 +528,21 @@ def merge_body_boxes(slide):
     return True
 
 
+def body_line_counts(slide):
+    """Rendered lines per body paragraph at the text box's own width and font size (scaffolding/RULES.md)."""
+    c = classify(slide)
+    if not c["body"]:
+        return []
+    box = c["body"][0]
+    pt = body_pt(box)
+    out = []
+    for b in c["body"]:
+        for p in b.text_frame.paragraphs:
+            if p.text.strip():
+                out.append(wrap_lines(PLAIN.sub("", p.text), int(box.width * WRAP_FACTOR), pt))
+    return out
+
+
 def main():
     deck, spec_path, out = sys.argv[1:4]
     spec = json.loads(Path(spec_path).read_text())
