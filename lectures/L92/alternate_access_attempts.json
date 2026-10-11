@@ -1,0 +1,118 @@
+{
+  "alternate_access.json": [
+    {
+      "key": "frog_grouping",
+      "url": "https://www.nature.com/articles/ncomms1417.pdf",
+      "status": 200,
+      "bytes": 674812,
+      "pdf": true,
+      "path": "/tmp/neur92/frog_grouping_alt0.pdf"
+    },
+    {
+      "key": "frog_lungs",
+      "url": "https://www.cell.com/current-biology/pdf/S0960-9822(21)00113-5.pdf",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "key": "frog_lungs",
+      "url": "https://portal.findresearcher.sdu.dk/en/publications/lung-mediated-auditory-contrast-enhancement-improves-the-signal-to-n/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "frog_spatial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2430100/",
+      "status": 200,
+      "bytes": 203305,
+      "pdf": false,
+      "path": "/tmp/neur92/frog_spatial_alt0.html"
+    },
+    {
+      "key": "bird_sparse",
+      "url": "https://www.cell.com/neuron/pdf/S0896-6273(13)00369-3.pdf",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "key": "bird_sparse",
+      "url": "https://www.woolleylab.com/publications",
+      "status": 200,
+      "bytes": 283204,
+      "pdf": false,
+      "path": "/tmp/neur92/bird_sparse_alt1.html"
+    },
+    {
+      "key": "starling_streaming",
+      "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.1321487111",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "bird_objects",
+      "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.1412109111",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "frog_statistics",
+      "url": "https://www.cell.com/current-biology/pdf/S0960-9822(17)30156-2.pdf",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "key": "frog_tympanum",
+      "url": "https://link.springer.com/content/pdf/10.1007/s10162-016-0568-6.pdf",
+      "status": 200,
+      "bytes": 368662,
+      "pdf": false,
+      "path": "/tmp/neur92/frog_tympanum_alt0.html"
+    },
+    {
+      "key": "insect_detection",
+      "url": "https://www.jneurosci.org/content/35/31/10562.full.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "marmoset_engagement",
+      "url": "https://www.jneurosci.org/content/41/3/551.full.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "katydid_frequency",
+      "url": "https://journals.biologists.com/jeb/article/216/24/4655/12036/Maintaining-acoustic-communication-at-a-cocktail",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "fish_auditory",
+      "url": "https://www.cell.com/current-biology/pdf/S0960-9822(21)00210-4.pdf",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "author_access.json": {
+    "insect_detection": {
+      "url": "https://www.jneurosci.org/content/35/29/10562.full.pdf",
+      "status": 200,
+      "bytes": 2509318,
+      "pdf": true,
+      "path": "/tmp/neur92/insect_detection_author.pdf"
+    },
+    "marmoset_engagement": {
+      "url": "https://www.jneurosci.org/content/41/2/284.full.pdf",
+      "status": 200,
+      "bytes": 1452547,
+      "pdf": true,
+      "path": "/tmp/neur92/marmoset_engagement_author.pdf"
+    },
+    "frog_statistics": {
+      "url": "https://www.beelab.umn.edu/sites/beelab.umn.edu/files/2021-11/lee_etal_2017_currbiol.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "frog_lungs": {
+      "url": "https://www.beelab.umn.edu/publications",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "frog_spatial": {
+      "url": "https://beelab.umn.edu/publications",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "starling_streaming": {
+      "url": "https://www.staff.uni-oldenburg.de/georg.klump/Publications.htm",
+      "error": "HTTP Error 404: Not Found"
+    }
+  }
+}

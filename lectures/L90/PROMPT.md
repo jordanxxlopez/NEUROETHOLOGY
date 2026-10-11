@@ -135,3 +135,5 @@ FINISH
 
 
 Lecture 90 must compare a variety of animal species. Spread videos through relevant content slides where practical; consecutive video slides are acceptable. Preserve the exact requested title.
+
+Lecture 90 video placement clarification: embed 10–12 original article videos (10 preferred, 12 acceptable). Consecutive video slides are allowed. Spread videos across scientifically relevant topics where practical; this is a recommendation, not a hard requirement. This clarification concerns videos, not images, and does not relax any image rule.
