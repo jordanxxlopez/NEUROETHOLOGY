@@ -6,7 +6,8 @@
 The spec follows the approved scaffolded Lectures 1-10 (see scaffolding/RULES.md):
 
 {
-  "third_paragraph": {"4": "replacement for the third body paragraph of slide 4", ...},
+  "third_paragraph": {"4": "replacement for the third body paragraph of slide 4",
+                      "6": {"keep": 2, "add": "new teaching sentence(s) after the first 2 sentences"}, ...},
   "inserts": [
     {"after": 4,                       # original slide number the new slide follows
      "title": "Length and width pull prey value in opposite ways",
@@ -366,7 +367,19 @@ def add_scaffold(prs, parent_idx, spec, number):
     return new
 
 
-def fix_third_paragraph(slide, new_text):
+SENTENCE = re.compile(r"(?<=[.!?])\s+(?=[A-Z])")
+
+
+def resolve_third(old, value):
+    """A fix is either the full replacement text or {"keep": n, "add": text}: the first n sentences
+    of the existing third paragraph followed by new teaching sentences."""
+    if isinstance(value, str):
+        return value
+    sentences = SENTENCE.split(old.strip())
+    return " ".join(sentences[:value["keep"]] + [value["add"]])
+
+
+def fix_third_paragraph(slide, value):
     """Replace the slide's third body paragraph (where the caveat sat) in the slide and its notes.
 
     Only that paragraph is rewritten; the other paragraphs keep their runs, bold terms included."""
@@ -377,6 +390,7 @@ def fix_third_paragraph(slide, new_text):
     normal, bold = run_templates(c)
     box, para = paras[2]
     old = para.text.strip()
+    new_text = resolve_third(old, value)
     fill_paragraph(para._p, new_text, normal, bold)
     texts = [PLAIN.sub("", p.text) for _, p in body_paragraphs(slide)]
     if len(c["body"]) == 1:

@@ -67,8 +67,11 @@ def main():
     problems = []
     src = Presentation(str(deck))
     # rewritten third paragraphs: only slides whose third paragraph really changed, no caveat left
-    for num, text in m.spec["third_paragraph"].items():
+    for num, value in m.spec["third_paragraph"].items():
         old = [p.text for _, p in sd.body_paragraphs(src.slides[int(num) - 1])][2]
+        text = sd.resolve_third(old, value)
+        if "--show" in sys.argv:
+            print(f"-- slide {num}\n   OLD: {old}\n   NEW: {text}")
         if old == text:
             problems.append(f"slide {num}: replacement equals the original third paragraph")
         problems += text_problems(f"slide {num} third paragraph", text)
