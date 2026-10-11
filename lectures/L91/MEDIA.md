@@ -1,6 +1,19 @@
 # Lecture 91: media status
 
-**Embedded video count: 0.** This copy is a complete figure-and-text lecture; it does not meet the requested 8–10 (or 10–12) embedded-study-video target. Do not label it as a video-complete deck.
+**Four distinct article recordings are embedded** on slides 20, 41, 42, and 43. The requested 10-video target remains unmet; no repeats or unrelated clips were added. All existing slide text and original figure images are unchanged. Original proportions, timing, and audio are preserved.
+
+## Embedded recordings
+
+| Slide | Recording | Article | Download |
+| --- | --- | --- | --- |
+| 20 | Ronan phase and tempo perturbations, Supplementary Video 1 | Rouse et al. (2016), [DOI](https://doi.org/10.3389/fnins.2016.00257) | [MP4](media/Rouse2016_Video1.mp4) |
+| 41 | Rat movements with synchronized jerk traces, Movie S1 | Ito et al. (2022), [DOI](https://doi.org/10.1126/sciadv.abo7019) | [MP4](media/Ito2022_MovieS1.mp4) |
+| 42 | Standing rat during musical playback, Movie S2 | Ito et al. (2022), same DOI | [MP4](media/Ito2022_MovieS2.mp4) |
+| 43 | Human movements and marker tracking, Movie S3 | Ito et al. (2022), same DOI | [MP4](media/Ito2022_MovieS3.mp4) |
+
+Recovered from NCBI’s official public open-access archive. Original Rouse MP4 MD5: `c1b8beaf444753def763d46a247b05e3`; original Ito movie ZIP MD5: `e6de1a1cb06ccc93b1ae4a610554d5c0`. Both match the article XML. Source URLs, authors’ credits, licenses, media dimensions, durations, and checksums are in media_sources.json and the slide notes. Movie S3 was converted to H.264 at its original dimensions and frame rate with audio copied unchanged, to keep the PPTX below the hosting size limit. No scene, sequence, timing, or graphic was changed.
+
+Embedded MP4 parts and video relationships were verified. All four recordings decode successfully with FFmpeg. Desktop PowerPoint playback is untested. Unedited poster frames provide a static fallback; the PDF preview cannot play videos. Google Slides can omit embedded PPTX video during import: upload the separate MP4 files to Google Drive and use Insert > Video to insert them.
 
 ## Ronan feature, excluded from study-video count
 
@@ -28,11 +41,11 @@ Cook et al. (2013), DOI https://doi.org/10.1037/a0032345. The publisher’s supp
 
 Publisher description: https://supp.apa.org/psycarticles/supplemental/a0032345/a0032345_supp.html
 
-Rouse et al. (2016), Supplementary Video 1, shows perturbation trials and a double bob. Listed in article XML, but current publisher page fails to expose its download link and Europe PMC’s supplementary bundle request times out. DOI https://doi.org/10.3389/fnins.2016.00257.
+Rouse et al. (2016), Supplementary Video 1, is now recovered and embedded from the NCBI archive.
 
-Ito et al. (2022), Movies S1–S3, describe comparative rat/human listening experiments. Publisher movie ZIP returns HTTP 403 and alternative authoritative endpoints were unavailable. DOI https://doi.org/10.1126/sciadv.abo7019.
+Ito et al. (2022), Movies S1–S3, are now recovered and embedded from the NCBI archive.
 
-No repeated clips, unrelated recordings, animations, or generated videos were substituted. No video playback is claimed. Google Slides imports cannot be tested before original recordings are available.
+No repeated clips, unrelated recordings, animations, or generated videos were substituted. No desktop PowerPoint or Google Slides playback is claimed.
 
 ## Approved exception and delivery
 

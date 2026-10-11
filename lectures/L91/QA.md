@@ -1,9 +1,7 @@
 # QA
 
-Repository builder/checker: 46 slides; 44 image slides, all primary-article figures; 23 in color; 0 failures, 0 warnings. Slide text has no em dashes. Three paragraphs on each content slide. Exact title and Date TBD verified by checker. Citations checked against Crossref and source papers; corrected Ito et al. author list against article XML before delivery. Six bold-lead takeaways.
+46 slides; 44 image slides with primary article figures, 23 source-color figure slides. Repository checks pass with zero failures or warnings. Three teaching paragraphs per content slide; exact title, Date TBD, Arial, no em dashes, full DOI references and six bold-lead takeaways. All existing visible text and original scientific figure bytes were compared against the previous deck and preserved. Only the four video-slide right columns were rearranged to fit recordings.
 
-All 46 slides rendered to PDF and visually inspected. Removed partial neighboring-panel and shared-axis fragments from selective crops. Published figures preserve their source colors, axes, units, and labels. Title photograph carries the university’s required Colleen Reichmuth credit and NOAA/NMFS 23554 caption. Title image source and duplicate checks recorded in TITLE_IMAGE_AUDIT.md.
+All four changed slides visually inspected after PDF rendering. Posters are unedited original frames, placed behind genuine embedded video objects for static exports. Four distinct MP4 parts and their media/video relationships verified by hashes. FFmpeg decoding verifies all recordings; desktop PowerPoint playback and Google Slides imports remain untested. All 46 slides were previously reviewed; original untouched slides remain unchanged. Title image attribution and uniqueness audit are retained.
 
-Embedded media count is zero. No playback or Google Slides video behavior was tested; optional-media acquisition is unfinished, documented in MEDIA.md. The static PDF has no playable video.
-
-Official 2025 Ronan study-video links are attached to the article figures on slides 17 and 39. These are linked recordings, not embedded videos. The approved YouTube download attempt was blocked by the network proxy (HTTP 403).
+Four videos embedded, below the requested ten. The 2025 Ronan feature remains a study-video hyperlink, excluded from the count.
