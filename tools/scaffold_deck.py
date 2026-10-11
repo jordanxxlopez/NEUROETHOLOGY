@@ -481,7 +481,7 @@ def merge_body_boxes(slide):
     tx = first.text_frame._txBody
     if c["title"].text_frame.text.strip().lower().startswith("key takeaways"):
         return False                                      # the takeaway grid keeps its card layout
-    boxes = [b for b in boxes if b.left == first.left]    # a right-hand text box is a figure caption
+    boxes = [b for b in boxes if abs(b.left - first.left) < 20000]    # a right-hand text box is a figure caption
     if len(boxes) < 2:
         return False
     bottom = max(max(b.top + b.height for b in boxes), 0)
