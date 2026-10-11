@@ -107,3 +107,21 @@ The central sample is presented before side choices become available. Rio contac
 The entire uploaded `Rio_identity.mp4` is preserved byte-for-byte: 41.006 s, 1280 × 720, 25 frames/s, H.264, stereo AAC. No trimming, spatial cropping, resolution reduction, recompression, altered speed or added graphics. Native-resolution unedited source frames provide the posters. Copyright: © 2021 Springer Nature Switzerland AG; a separate open license for the video is not stated. The instructor supplied the copy used here.
 
 Reproduce from the preserved paragraph-3 revision with `python lectures/L94/add_rio_identity.py`. Source verification and interval observations are saved in `rio_source_verification.json`; delivery and source hashes are in `rio_recording.json`.
+
+## Latest 71-slide expansion
+
+The current deck is `deliverables/Neuroethology_Lecture94_FA2026_Expanded71.pptx`: 71 slides, with 25 appended slides (24 content slides plus a final Key takeaways). Original slides 1–46 remain in their original positions, including their Key takeaways slide. All original slide XML, notes, relationships, figures, posters and video bytes are identical to the Rio-revised master; only package indexes and the slide-count property change.
+
+The deck contains 38 embedded movie placements. The five supplied recordings are added on slides 47 (Rio), 57 (Luca), 66 (Moe training), and 67 (both LED baseline trials). Rio appears exactly three times in the whole deck: 32, 35 and 47. Native uploaded media bytes, resolution, timing and audio are preserved without re-encoding.
+
+| Slide | Supplied recording | Native resolution | Duration (s) | Exact bytes |
+|---|---|---|---|---|
+| 47 | Rio_identity.mp4 | 1280 × 720 | 41.006 | 2,167,892 |
+| 57 | Luca the seal watching dots [ubOdiKRpczA].mp4 | 1920 × 1080 | 29.025 | 6,558,144 |
+| 66 | Moe_Training_Trial_3LEDv_under32MiB.mp4 | 1920 × 1440 | 12.041 | 32,479,110 |
+| 67 | Baseline_Trial_3LEDh_under32MiB.mp4 | 1920 × 1440 | 7.024 | 32,304,545 |
+| 67 | Baseline_Trial_5LEDv_under32MiB.mp4 | 1920 × 1440 | 11.011 | 32,398,976 |
+
+The LED recordings belong to Maaß, Miersch, Pfuhl and Hanke (2022), *A harbour seal can learn geometrical relationships between landmarks*, DOI https://doi.org/10.1242/jeb.244544. The article explicitly links the source data and videos at https://osf.io/54vfa/. Baseline footage depicts familiar configurations; the slide distinguishes these from novel-separation probe results. Luca is instructor-supplied contextual footage; exact publication and producer provenance remain unverified and are not assigned to the optic-flow paper. Files are embedded as supplied, rather than fetched from the YouTube identifier in the filename.
+
+The three replacement LED uploads are under 32 MiB and retain 1920 × 1440 dimensions. Their size cannot be compared with the inaccessible earlier uploads; preservation checks apply to these accessible supplied copies. All have AAC audio. See `extension/media_manifest.json` for exact bytes, MB, MiB and SHA-256.

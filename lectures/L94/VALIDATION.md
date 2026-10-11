@@ -47,3 +47,19 @@ Revised single-file browser download returned HTTP 200; its full response matche
 - Repository checker and rendered-slide visual review completed for the revised deck. Final size 337375852 bytes; SHA-256 14c54f80b92f4adf2f6e17f1299d86cf691a734ef9da8d7aaf58110739cf8b94.
 
 Latest Rio-revised direct browser download returned HTTP 200, and its complete 337375852-byte response matched the deck SHA-256.
+
+## Latest 71-slide expansion
+
+The current deck is `deliverables/Neuroethology_Lecture94_FA2026_Expanded71.pptx`: 71 slides, with 25 appended slides (24 content slides plus a final Key takeaways). Original slides 1–46 remain in their original positions, including their Key takeaways slide. All original slide XML, notes, relationships, figures, posters and video bytes are identical to the Rio-revised master; only package indexes and the slide-count property change.
+
+The deck contains 38 embedded movie placements. The five supplied recordings are added on slides 47 (Rio), 57 (Luca), 66 (Moe training), and 67 (both LED baseline trials). Rio appears exactly three times in the whole deck: 32, 35 and 47. Native uploaded media bytes, resolution, timing and audio are preserved without re-encoding.
+
+- Package preservation: 313 original parts unchanged byte-for-byte.
+- All five supplied source hashes match embedded video parts. All four newly accessible MP4 files decode completely with ffmpeg. Rio was decoded and verified in its earlier revision.
+- Repository checker: 71 slides, 68 image slides, 68 article-figure slides, 51 color image slides; 0 failures, 0 warnings.
+- Source PDF figures cropped with the repository crop tool; all 24 new content slides include an original published figure. No images were generated, redrawn or recolored.
+- The standalone donor has an additional title used only by the build tool; that donor title is excluded from the append operation. Original title and theme are unchanged.
+- Interactive Microsoft PowerPoint playback remains untested in Linux.
+- Exact PPTX bytes: 459,026,231. SHA-256: `04f8c93d31a5ad0d4ea2b6ba6ac23cfac0fe06ece3978a1a3182b1993b8bd2a1`.
+
+All 71 slides rendered in LibreOffice, and all 25 appended slides visually reviewed. The final two corrected figure crops were re-rendered and checked separately. There were no visible text, caption or footer collisions. The original 46 slide parts remain byte-identical, including slide notes and media.
