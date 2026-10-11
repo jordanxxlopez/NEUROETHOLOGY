@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Every slide except the first and last holds exactly three body paragraphs (scaffolding/RULES.md).
+"""Every slide except the first and last holds exactly three body paragraphs of 5-7 lines each (scaffolding/RULES.md).
 
     python tools/check_paragraphs.py                 # all scaffolded/*.pptx
     python tools/check_paragraphs.py deck.pptx ...    # named decks
 
-Prints one line per slide that breaks the rule. Exit code 1 when any slide is flagged.
+Prints one line per slide or paragraph that breaks the rule. Exit code 1 when any slide is flagged.
 """
 import glob
 import sys
@@ -33,15 +33,26 @@ def is_caption_or_credit(text):
 
 
 def check(path):
+    """Three body paragraphs per middle slide, each 5-7 rendered lines (scaffolding/RULES.md)."""
     prs = Presentation(str(path))
     problems = []
     for k, slide in enumerate(prs.slides, 1):
         if k in (1, len(prs.slides)):
             continue
         paras = body_paragraphs(slide)
-        if paras is None or len(paras) == 3:
+        if paras is None:
             continue
-        problems.append(f"{Path(path).name} slide {k}: {len(paras)} body paragraphs (expected 3)")
+        if len(paras) != 3:
+            problems.append(f"{Path(path).name} slide {k}: {len(paras)} body paragraphs (expected 3)")
+        c = sd.classify(slide)
+        if not c["body"]:
+            continue
+        box = c["body"][0]
+        pt = sd.body_pt(box)
+        for para in paras:
+            n = sd.wrap_lines(sd.PLAIN.sub("", para.text), int(box.width * sd.WRAP_FACTOR), pt)
+            if not 5 <= n <= 7:
+                problems.append(f"{Path(path).name} slide {k}: paragraph has {n} lines (expected 5-7)")
     return problems
 
 

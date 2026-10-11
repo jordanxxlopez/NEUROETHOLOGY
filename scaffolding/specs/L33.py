@@ -58,7 +58,7 @@ inserts = [
     ], ["Marler 1970"]),
     ins(15, "Two phases connect a model to later singing", [
         "The **sensory phase** is the period in which a pupil acquires information from its tutor. The **sensorimotor phase** follows, in which the bird uses that stored information to shape its own vocal output. The two phases can be separated by a long interval, and each one can be measured on its own terms.",
-        "Marler's delayed imitation shows that the retained information can guide singing months after the tutor was heard. The review by Brainard and Doupe (2000) supports a separate requirement for auditory feedback during refinement.",
+        "Marler's delayed imitation shows that the retained information can guide singing months after the tutor was heard. The review by Brainard and Doupe (2000) supports a separate requirement for auditory feedback during refinement. The retained information therefore lasts through a long interval without further exposure.",
         "Each phase has its own requirement. Acquisition depends on the tutor's song, while refinement depends on the bird's ability to hear its developing output.",
     ], "Marler (1970); Brainard & Doupe (2000)", [
         "Acquisition and refinement are separate phases of learning.",
@@ -197,7 +197,7 @@ PARAS = {
  ],
  "15": [
   "The **sensory phase** is the period in which a pupil acquires information from its tutor. The **sensorimotor phase** follows, in which the bird uses that stored information to shape its own vocal output. The two phases can be separated by a long interval, and each one can be measured on its own terms.",
-  "Marler's delayed imitation shows that the retained information can guide singing months after the tutor was heard. The review by Brainard and Doupe (2000) supports a separate requirement for auditory feedback during refinement.",
+  "Marler's delayed imitation shows that the retained information can guide singing months after the tutor was heard. The review by Brainard and Doupe (2000) supports a separate requirement for auditory feedback during refinement. The retained information therefore lasts through a long interval without further exposure.",
   "Each phase has its own requirement. Acquisition depends on the tutor's song, while refinement depends on the bird's ability to hear its developing output. The two requirements are therefore measured by different manipulations, and both are needed to explain how a learned song reaches its adult form."
  ],
  "18": [
@@ -233,11 +233,11 @@ PARAS = {
  "36": [
   "A **reversed song** plays the recording backward, which keeps the spectral content while changing the temporal order. Doupe and Konishi used reversal to test whether LMAN responds to song organization. Each comparison uses the same recording, so the only difference between conditions is the direction of playback.",
   "LMAN neurons responded much less effectively to the reversed version than to forward song. The response therefore follows the sequence of sounds rather than the frequencies alone. The contrast was measured for each neuron against its own response to forward song.",
-  "This selectivity narrows the stimulus features that LMAN uses. Forward and reversed songs differ only in their arrangement, so the difference isolates temporal structure. The result is a direct test of whether the order of sounds matters to the neuron."
+  "This selectivity narrows the stimulus features that LMAN uses. Forward and reversed songs differ only in their arrangement, so the difference isolates temporal structure. The result is a direct test of whether the order of sounds matters to the neuron. Each neuron therefore serves as its own comparison."
  ],
  "39": [
   "**Reversible inactivation** temporarily silences a region and then allows its activity to return. Doupe and Konishi used lidocaine in HVC to test whether RA auditory responses depend on HVC input. The same song stimulus was presented throughout, so the input region is the only variable changed.",
-  "RA responses returned after the drug wore off. Recovery shows that the loss came from a temporary block of HVC rather than from damage to RA. The timing of the return matches the timing of the drug's effect, which strengthens the link between the two.",
+  "RA responses returned after the drug wore off. Recovery shows that the loss came from a temporary block of HVC rather than from damage to RA. The timing of the return matches the timing of the drug's effect, which strengthens the link between the two. The recovery is measured against the same cell's baseline.",
   "A recorded neuron can be measured before, during and after the same intervention. This design separates a dependency from permanent injury to the recorded neuron. Each stage of the sequence is compared with the same cell's earlier response, so the recovery is judged against that cell's own baseline."
  ],
  "42": [

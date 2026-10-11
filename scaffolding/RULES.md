@@ -61,3 +61,4 @@ Reading the revised paragraph aloud is the final check.
 - A stacked right-column layout is allowed only when the source layout already uses it. It must still contain exactly three paragraphs in total, and no paragraph may repeat across boxes.
 - Before publishing, check the built slide: the count of body paragraphs is three, every body paragraph is new text, and no text overlaps a figure or caption (`scaffolding/build.py` reports these).
 - `python tools/check_paragraphs.py` checks every scaffolded deck: each slide except the first and last must have exactly three body paragraphs. Figure captions, figure labels and photo credits do not count.
+- Every body paragraph is 5-7 full rendered lines at the slide's font size. Count lines, not sentences. `tools/check_paragraphs.py` checks this together with the three-paragraph rule.

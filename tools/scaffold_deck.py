@@ -87,6 +87,8 @@ def classify(slide):
             out["number"] = sh
         elif sh.top > FOOTER_Y and re.search(r"\bFig\.", t):      # a figure caption set low on the slide
             out["caption"].append(sh)
+        elif FOOTER_Y < sh.top < BODY_BOTTOM and len(t) > 60:   # body text set just under the figure line
+            out["body"].append(sh)
         elif sh.top > FOOTER_Y:
             out["citation"] = sh
         elif sh.name == "Figure caption" or _under_picture(sh, out["figs"]) or \
@@ -478,7 +480,7 @@ def resolve_refs(index, keys):
 
 
 # ------------------------------------------------------------------ one text box per slide
-BODY_BOTTOM = 6330000    # lowest edge a merged body box may reach (the citation sits just below)
+BODY_BOTTOM = 6150000    # lowest edge a body box may reach (the footer rule sits at 6.38M EMU)
 RIGHT_TOP = 1371600      # top of a body column beside a figure (1.5 in, below the title)
 PARA_GAP_PT = 12
 
@@ -530,7 +532,7 @@ def merge_body_boxes(slide):
         ln = ppr.find(A + "lnSpc")
         (ln.addnext(aft) if ln is not None else ppr.insert(0, aft))
         texts.append("".join(t.text or "" for t in p.iter(A + "t")))
-    limit = max(bottom, BODY_BOTTOM)
+    limit = BODY_BOTTOM
     first.height = Emu(limit - first.top)
     size_body(first, texts)
     return True
