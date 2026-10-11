@@ -1,252 +1,37 @@
 {
- "third_paragraph": {
-  "2": "Rossel and colleagues quantified the interception response of fish to dislodged flies, and Gerullis and Schuster quantified jet control at controlled target heights, so each behavior is measured in its own preparation.",
-  "3": {
-   "keep": 2,
-   "add": "Sampling every 20 ms resolves the position and heading of the fish across the whole response."
-  },
-  "4": {
-   "keep": 1,
-   "add": "Under these conditions the landing point is fixed by release height and initial horizontal velocity, the two variables a fish needs to combine."
-  },
-  "5": {
-   "keep": 1,
-   "add": "The turn must therefore depend on the angle between the current orientation of the fish and the direction of the predicted landing point."
-  },
-  "6": {
-   "keep": 2,
-   "add": "Aiming at the future water-entry point and not at the current prey position is the defining feature of a predictive start."
-  },
-  "7": {
-   "keep": 1,
-   "add": "The early motion therefore sets the turn and acceleration, and visual corrections enter only after the initial phase."
-  },
-  "8": {
-   "keep": 2,
-   "add": "The input to this relation is height, speed and direction, and the output is the landing point, so the horizontal screen supplies the inputs without the fall."
-  },
-  "9": {
-   "keep": 1,
-   "add": "Stage one rotates the body toward the chosen destination, and stage two completes the turn while the fish accelerates."
-  },
-  "10": {
-   "keep": 1,
-   "add": "Peak values of 4500°/s and 2.1 m/s define the performance range that any controlling circuit must produce."
-  },
-  "11": {
-   "keep": 1,
-   "add": "The difference between the two behaviors lies in how the turn angle is chosen: away from a threat for an escape, toward a predicted catch point for a predictive start."
-  },
-  "12": "Turns from 4° to 156° are produced by scaling the first-stage bend, which gives the fish a continuous range of headings from one motor pattern. Any adequate mechanism must allow rapid movement with continuously variable turning and speed.",
-  "13": {
-   "keep": 1,
-   "add": "The nearly fixed mouth-tip position means that changes in the jet reflect the control of the shot by the fish."
-  },
-  "14": {
-   "keep": 2,
-   "add": "A fish aiming at 60 cm therefore completes focusing farther along the path than a fish aiming at 20 cm."
-  },
-  "15": {
-   "keep": 1,
-   "add": "Longer-range shots need a jet that stays intact over a greater distance, and the reduced shaft modulation fits that requirement."
-  },
-  "16": "The data support adjustable velocity gradients and reject an ordinary rigid-projectile description of the jet. Faster water emitted behind slower water catches the tip, which is how a velocity gradient gathers the water toward the impact point.",
-  "17": {
-   "keep": 1,
-   "add": "Stable jets therefore depend on additional controlled variables, such as the timing of water release at the mouth."
-  },
-  "18": "Fluid properties identical to control water and displacement below 0.26 mm point to the time-varying mouth opening as the adjustable element. Water composition and whole-body motion do not supply the range adjustment.",
-  "19": {
-   "keep": 1,
-   "add": "Releasing water for a longer interval supplies the faster subsequent water that long-range jets require."
-  },
-  "20": {
-   "keep": 2,
-   "add": "The up-forward region therefore provides the finest anatomical sampling along the direction in which the fish aims."
-  },
-  "21": {
-   "keep": 1,
-   "add": "Regional sensitivity can shape which contrasts are available against an aerial background. Spectral sensitivity and the spatial resolving power measured anatomically are distinct constraints on visual aiming."
-  },
-  "22": {
-   "keep": 1,
-   "add": "Expressing velocities as those of an object about 30 cm from the eye relates the electrode responses to the speeds of real moving targets."
-  },
-  "23": {
-   "keep": 1,
-   "add": "A decoder that reconstructs velocity from absolute latencies indicates that the timing of spikes across the population carries velocity information within tens of milliseconds of movement onset."
-  },
-  "24": {
-   "keep": 1,
-   "add": "A spike count over 100 ms is slow relative to a predictive response, whereas relative first-spike latency stays near 10 ms across velocities."
-  },
-  "25": {
-   "keep": 1,
-   "add": "Combining cells improves the estimate because their timing patterns carry complementary information about velocity."
-  },
-  "26": {
-   "keep": 2,
-   "add": "Each tectal neuron is thus described by where in space and when in time a stimulus changes its firing."
-  },
-  "27": "Excitatory and inhibitory filters describe how earlier light levels increase or decrease the response of a cell. The analysis adds information missed by an average alone, because it captures several filters per cell.",
-  "28": {
-   "keep": 1,
-   "add": "The diverse combinations provide candidate transformations of visual timing before a motor decision."
-  },
-  "29": "The atlas also maps catecholaminergic and cholinergic markers, which identify cell groups by the transmitter they use. A cholinergic neuron uses acetylcholine.",
-  "30": {
-   "keep": 2,
-   "add": "Antidromic stimulation travels backward from axon toward cell body, so the recorded all-or-none signal reports the spike of the cell itself."
-  },
-  "31": {
-   "keep": 2,
-   "add": "The archerfish cell therefore has the same overall plan as the goldfish cell, with dendrites receiving input and the axon hillock initiating the spike."
-  },
-  "32": {
-   "keep": 1,
-   "add": "Two crossed giants of about 71.9 µm in diameter mean that each Mauthner cell sends a fast signal to the opposite side of the spinal cord."
-  },
-  "33": {
-   "keep": 2,
-   "add": "A spike onset latency of 0.265 ms and a half-maximal duration of 0.54 ms mark a rapidly conducting, fast-signaling output neuron."
-  },
-  "34": "Latency and amplitude measure different properties of an input, so an earlier onset is separate from the size of the influence on firing. Acoustic PSPs mean that the Mauthner cell receives mechanosensory input as well as visual input.",
-  "35": {
-   "keep": 1,
-   "add": "Larger but delayed visual input fits a pathway with more processing stages before the Mauthner cell."
-  },
-  "36": "Passive decay with distance means that a signal arriving far from the soma shrinks before it reaches the spike-initiation region, so the amplitude gradient indicates where an input entered.",
-  "37": {
-   "keep": 2,
-   "add": "Recovery with a fast and a slow component limits how quickly the cell can fire a second spike."
-  },
-  "38": "The reduction of an antidromic spike during a PSP measures a functional inhibitory effect. Matching time courses in the two species make a shared inhibitory network the parsimonious explanation.",
-  "39": {
-   "keep": 2,
-   "add": "Declining errors over successive shots show that the fish recalibrate the shot using the outcome of earlier shots."
-  },
-  "40": {
-   "keep": 1,
-   "add": "Aftereffects that decline over several shots show the compensation being unlearned as the original conditions return."
-  },
-  "41": "An egocentric adjustment ties the correction to the direction the fish is facing. The compensation therefore follows the body-relative relation and not the fixed airflow direction in the tank.",
-  "42": {
-   "keep": 2,
-   "add": "The learned deflection of 39.8° became part of the mapping from early motion to destination."
-  },
-  "43": {
-   "keep": 1,
-   "add": "The tests used heights for which competing accounts predicted different destinations, so the initial turn identifies which relation the fish applied."
-  },
-  "44": {
-   "keep": 1,
-   "add": "The same early motion thus leads to different destinations depending on the object that the fish sees."
-  },
-  "45": {
-   "keep": 1,
-   "add": "A rule can therefore be selected on the fly, without advance preparation, within a start that begins in under 100 ms."
-  }
- },
+ "third_paragraph": {},
  "inserts": [
   {
-   "after": 2,
-   "title": "A predictive start is aimed at the future landing point",
-   "bold": [
-    "predictive start"
-   ],
-   "paragraphs": [
-    "A predictive start is a rapid turn and acceleration that sends a fish toward the point where prey will land, begun while the prey is still in the air. It differs from pursuit, in which the fish follows the current position of a visible target.",
-    "Rossel and colleagues recorded fish and dislodged flies from above. Responding fish initiated a rapid turn within approximately 100 ms, aligned toward the future landing point, and accelerated along that heading while the prey remained airborne.",
-    "Securing the food requires reaching the water-entry point before another fish does, so the turn must be aimed at a destination that the prey has not yet reached. The shooter and nearby bystanders can both respond."
-   ],
-   "citation": "Rossel et al. (2002); Gerullis & Schuster (2014)",
-   "notes": [
-    "A predictive start is the central behavior of this lecture.",
-    [
-     "Definition.",
-     "It is a rapid turn and acceleration toward the point where prey will land.",
-     "It begins while the prey is still falling."
-    ],
-    [
-     "Contrast with pursuit.",
-     "Pursuit follows the current position of a visible target.",
-     "A predictive start aims at a destination that does not yet contain the prey."
-    ],
-    [
-     "The recordings.",
-     "Rossel and colleagues filmed fish and dislodged flies from above.",
-     "Responding fish turned within approximately 100 ms."
-    ],
-    [
-     "Heading and acceleration.",
-     "The turn aligned the body toward the future landing point.",
-     "The fish then accelerated along that heading while the prey remained airborne."
-    ],
-    [
-     "Competition.",
-     "The fish that shoots and nearby bystanders can both respond.",
-     "Reaching the water-entry point first secures the food."
-    ],
-    [
-     "Two motor demands.",
-     "Shooting requires control of a water jet, and interception requires a fast turn and acceleration.",
-     "Gerullis and Schuster recorded shots at target heights of 20, 40 and 60 cm."
-    ],
-    [
-     "Consequence.",
-     "The motor command must specify a destination from early information about the prey."
-    ]
-   ],
-   "refs_from": [
-    "Rossel 2002",
-    "Gerullis 2014"
-   ]
-  },
-  {
-   "after": 5,
-   "title": "Heading is the direction of the body axis",
+   "after": 3,
+   "title": "Perspective correction fixes the error reference",
    "bold": [],
    "paragraphs": [
-    "**Heading** is the direction in which the body axis points at a given moment. A bystander's initial heading can differ greatly from the direction in which a dislodged fly moves, so the angle of the required turn changes from trial to trial.",
-    "Rossel and colleagues sampled this angular relation at both 20- and 40-cm prey heights, including orientations that required large turns before acceleration toward the destination. The fish occupied different positions and orientations in the tank, so the same destination was reached from many starting headings.",
-    "The turn needed to reach the destination depends on the heading at the moment of the response. A fixed turn angle would succeed from only one starting orientation, so the responder converts prey-motion information into a turn measured from its own body axis."
+    "Overhead video shows a falling prey at positions that shift with its height, because camera perspective changes as the object descends. Rossel and colleagues corrected that perspective for the prey's changing height before any error was scored. The correction treated the water surface as the reference plane, so each landing estimate was read in one physical frame.",
+    "Without that correction, the image position of a falling prey would drift as the object fell, and errors would be scored against a moving reference. Destinations for the 20 and 40 cm release heights were therefore placed on the same error scale, which makes the two heights directly comparable. Each landing estimate kept its meaning at either height.",
+    "Overhead video sampled prey and fish positions at 20-ms intervals. Temporal resolution sets the precision assigned to each individual response latency, so every latency value is an estimate tied to that frame interval. Latencies are therefore reported as estimates at the resolution of that frame interval. The sampling rate therefore sets how precisely any turn onset can be dated."
    ],
    "citation": "Rossel et al. (2002)",
    "notes": [
-    "Heading is the reference for measuring every turn in these experiments.",
+    "Perspective correction fixes the error reference.",
     [
-     "Definition.",
-     "Heading is the direction in which the body axis points.",
-     "It is measured at the moment the response begins."
+     "Explanation 1.",
+     "Overhead video shows a falling prey at positions that shift with its height, because camera perspective changes as the object descends",
+     "Rossel and colleagues corrected that perspective for the prey's changing height before any error was scored. The correction treated the water surface as the reference plane, so each landing estimate was read in one physical frame."
     ],
     [
-     "Variation.",
-     "A bystander can face almost any direction relative to the fly.",
-     "The angle of the required turn therefore changes from trial to trial."
+     "Explanation 2.",
+     "Without that correction, the image position of a falling prey would drift as the object fell, and errors would be scored against a moving reference",
+     "Destinations for the 20 and 40 cm release heights were therefore placed on the same error scale, which makes the two heights directly comparable. Each landing estimate kept its meaning at either height."
     ],
     [
-     "Sampling.",
-     "Rossel and colleagues sampled the angular relation at 20- and 40-cm prey heights.",
-     "Some orientations required large turns before acceleration."
+     "Explanation 3.",
+     "Overhead video sampled prey and fish positions at 20-ms intervals",
+     "Temporal resolution sets the precision assigned to each individual response latency, so every latency value is an estimate tied to that frame interval. Latencies are therefore reported as estimates at the resolution of that frame interval. The sampling rate therefore sets how precisely any turn onset can be dated."
     ],
     [
-     "Positions in the tank.",
-     "Responders occupied different positions as well as different orientations.",
-     "Turning generally ended before the prey entered the water."
-    ],
-    [
-     "Body-centered turn.",
-     "The fish must express the destination as a turn from its own body axis."
-    ],
-    [
-     "Consequence for models.",
-     "A fixed turn angle cannot explain interception.",
-     "The responder must transform prey-motion information into a turn requirement."
-    ],
-    [
-     "Links to the data.",
-     "The angular relation was sampled at both prey heights.",
-     "Orientations that needed large turns were included, which covers the range of initial headings."
+     "Source.",
+     "The figure and the measurements come from Rossel et al. (2002).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -254,53 +39,36 @@
    ]
   },
   {
-   "after": 7,
-   "title": "Open-loop control runs without feedback",
-   "bold": [
-    "open-loop"
-   ],
+   "after": 6,
+   "title": "Within-trial errors isolate the early aim",
+   "bold": [],
    "paragraphs": [
-    "Open-loop control is a mode in which a movement is set in advance and runs without adjustment from feedback about its own outcome. Closed-loop control compares the outcome with the goal during the movement and corrects it.",
-    "Rossel and colleagues tethered prey with a thin filament. The fly moved freely for slightly more than 100 ms, then stopped and reversed when the filament became taut. Fish still turned and initially accelerated toward the landing point predicted from the early motion.",
-    "The initial turn and acceleration behaved as an open-loop command, because the contradicting trajectory did not alter them at once. Corrections appeared much afterward, so visual feedback acts on the response only after the initial phase."
+    "Both error measures came from the same responses within each trial. Because one group of fish and one stimulus history supplied both measures, the contrast between the two errors is free of differences between animal groups or stimulus histories. The within-trial design keeps the aim measure tied to a single set of turns. Each trial supplied both values.",
+    "Prediction could operate through an explicit internal trajectory or through a learned relation between sensory variables and the destination. Measured errors identify where the fish aimed, whereas the internal computation behind that aim is a separate question. The data therefore constrain the output of the computation without naming its form. Each interpretation predicts a different pattern across trials.",
+    "Eventual catches alone would be weaker evidence, because the initial heading exists before later corrections take effect. Subsequent swimming corrections change the path after the fact, so the early heading is the record that reflects the fish's estimate before the outcome is known. A fish with a learned relation would show the same early aim across repeated trials of one stimulus."
    ],
    "citation": "Rossel et al. (2002)",
    "notes": [
-    "The tether experiment separates a preset command from continuous tracking.",
+    "Within-trial errors isolate the early aim.",
     [
-     "Open loop.",
-     "A movement runs as set in advance.",
-     "Feedback about its outcome does not adjust it."
+     "Explanation 1.",
+     "Both error measures came from the same responses within each trial",
+     "Because one group of fish and one stimulus history supplied both measures, the contrast between the two errors is free of differences between animal groups or stimulus histories. The within-trial design keeps the aim measure tied to a single set of turns. Each trial supplied both values."
     ],
     [
-     "Closed loop.",
-     "The outcome is compared with the goal during the movement.",
-     "Errors are corrected as they appear."
+     "Explanation 2.",
+     "Prediction could operate through an explicit internal trajectory or through a learned relation between sensory variables and the destination",
+     "Measured errors identify where the fish aimed, whereas the internal computation behind that aim is a separate question. The data therefore constrain the output of the computation without naming its form. Each interpretation predicts a different pattern across trials."
     ],
     [
-     "The manipulation.",
-     "Rossel and colleagues tethered prey with a thin filament.",
-     "The fly moved freely for slightly more than 100 ms before the filament became taut."
+     "Explanation 3.",
+     "Eventual catches alone would be weaker evidence, because the initial heading exists before later corrections take effect",
+     "Subsequent swimming corrections change the path after the fact, so the early heading is the record that reflects the fish's estimate before the outcome is known. A fish with a learned relation would show the same early aim across repeated trials of one stimulus."
     ],
     [
-     "Prey behavior.",
-     "The fly stopped and reversed its direction.",
-     "The visible trajectory then contradicted the early motion."
-    ],
-    [
-     "Fish response.",
-     "Fish still turned and accelerated toward the landing point predicted from the early motion.",
-     "Corrections appeared much afterward."
-    ],
-    [
-     "Meaning.",
-     "The first phase of the response was set by early motion information.",
-     "Visual feedback adjusts the response only after the initial commitment."
-    ],
-    [
-     "Timing.",
-     "The early free motion lasted slightly more than 100 ms.",
-     "The reversal therefore began after the fish had the information needed to choose a turn."
+     "Source.",
+     "The figure and the measurements come from Rossel et al. (2002).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -308,111 +76,36 @@
    ]
   },
   {
-   "after": 8,
-   "title": "A virtual landing point is defined by starting conditions",
-   "bold": [
-    "virtual landing point"
-   ],
+   "after": 9,
+   "title": "Kinematics describe the movement, not its commands",
+   "bold": [],
    "paragraphs": [
-    "A virtual landing point is the destination at which prey with a given initial height and horizontal velocity would have entered the water if it had been allowed to fall. The experimenter defines it from the starting conditions, because the prey on the screen never descends.",
-    "Rossel and colleagues placed prey on a transparent horizontal glass screen at 20 or 40 cm height. Air from a blast pipe moved the object horizontally at speeds within the natural take-off range, so the target moved without descending toward the water.",
-    "Errors relative to the virtual point were centered near zero at both heights, so fish turned toward the destination that the motion would have produced. The response therefore depends on initial height, speed and direction, and not on a visible water-entry event."
-   ],
-   "citation": "Rossel et al. (2002)",
-   "notes": [
-    "The virtual landing point allows the experimenter to test prediction without a fall.",
-    [
-     "Definition.",
-     "It is the destination where prey with a given height and horizontal velocity would have entered the water.",
-     "The prey on the screen never reaches the water."
-    ],
-    [
-     "The screen.",
-     "Prey sat on a transparent horizontal glass screen at 20 or 40 cm height.",
-     "Air from a blast pipe moved the object horizontally."
-    ],
-    [
-     "Speeds.",
-     "The speeds were within the natural take-off range.",
-     "The target moved without descending toward the water."
-    ],
-    [
-     "Fish response.",
-     "Fish turned toward the virtual landing point.",
-     "Errors relative to this point were centered near zero at both heights."
-    ],
-    [
-     "Extrapolation.",
-     "Straight extrapolation of the actual horizontal path gives no finite water-entry point.",
-     "The fish must use another relation."
-    ],
-    [
-     "Consequence.",
-     "The relation is built from initial height, speed and direction.",
-     "A visible water-entry event is not required."
-    ],
-    [
-     "Controls the variables.",
-     "Height was set at 20 or 40 cm.",
-     "Horizontal speed was set by the air flow."
-    ]
-   ],
-   "refs_from": [
-    "Rossel 2002"
-   ]
-  },
-  {
-   "after": 10,
-   "title": "Angular speed and linear speed measure different things",
-   "bold": [
-    "angular speed"
-   ],
-   "paragraphs": [
-    "Angular speed is the rate at which the body axis rotates, expressed in degrees per second. Linear speed is the rate at which the center of mass moves through the water, in meters per second, and acceleration is the rate at which either speed changes.",
-    "Wöhl and Schuster reconstructed angular and linear motion from high-speed video. Predictive starts reached angular speeds above 4500°/s and linear speeds as high as 2.1 m/s, with peak linear acceleration reaching 120 m/s².",
-    "Angular speed generally peaked during initial bending, whereas the strongest linear speed occurred after straightening began. These different time courses separate reorientation from acceleration toward the predicted destination, so one maneuver sets both heading and take-off speed."
+    "The silhouette sequence is the authors' published high-speed record, with stage colors and measured center-of-mass markers that follow the body through both stages. Predictive starts were filmed from above, so the silhouettes show the turn in the horizontal plane. Each silhouette is an original frame from the recording rather than a drawing. Those markers track each stage in order.",
+    "A kinematic record specifies the form and timing of a start. Identifying the descending neurons that initiate the maneuver calls for separate measurements, because the movement itself carries no label for its source. Experiments that record or stimulate the command pathway provide evidence that the body record alone lacks. Such experiments can separate the two possibilities directly.",
+    "The two-stage sequence repeats across starts, so the bending stage serves as a consistent marker of when the turn is being set. Each start was resolved frame by frame at 2-ms intervals, which keeps the stage boundaries explicit in the analysis. Stage boundaries defined this way give every start a shared timing reference for analysis."
    ],
    "citation": "Wöhl & Schuster (2007)",
    "notes": [
-    "Two kinds of speed describe the same fast start.",
+    "Kinematics describe the movement, not its commands.",
     [
-     "Angular speed.",
-     "It is the rate of rotation of the body axis in degrees per second.",
-     "It measures how fast the fish turns."
+     "Explanation 1.",
+     "The silhouette sequence is the authors' published high-speed record, with stage colors and measured center-of-mass markers that follow the body through both stages",
+     "Predictive starts were filmed from above, so the silhouettes show the turn in the horizontal plane. Each silhouette is an original frame from the recording rather than a drawing. Those markers track each stage in order."
     ],
     [
-     "Linear speed.",
-     "It is the rate at which the center of mass moves through the water.",
-     "It measures how fast the fish travels toward the prey."
+     "Explanation 2.",
+     "A kinematic record specifies the form and timing of a start",
+     "Identifying the descending neurons that initiate the maneuver calls for separate measurements, because the movement itself carries no label for its source. Experiments that record or stimulate the command pathway provide evidence that the body record alone lacks. Such experiments can separate the two possibilities directly."
     ],
     [
-     "Acceleration.",
-     "Acceleration is the rate at which either speed changes.",
-     "Peak linear acceleration reached 120 meters per second squared."
+     "Explanation 3.",
+     "The two-stage sequence repeats across starts, so the bending stage serves as a consistent marker of when the turn is being set",
+     "Each start was resolved frame by frame at 2-ms intervals, which keeps the stage boundaries explicit in the analysis. Stage boundaries defined this way give every start a shared timing reference for analysis."
     ],
     [
-     "Values.",
-     "Angular speeds exceeded 4500 degrees per second.",
-     "Linear speeds reached 2.1 meters per second."
-    ],
-    [
-     "Timing.",
-     "Angular speed generally peaked during initial bending.",
-     "The strongest linear speed occurred after straightening began."
-    ],
-    [
-     "Method.",
-     "Wöhl and Schuster reconstructed the motion from high-speed video.",
-     "Position records were smoothed before differentiation."
-    ],
-    [
-     "Consequence.",
-     "The same maneuver can set both heading and take-off speed."
-    ],
-    [
-     "Peak acceleration.",
-     "Peak linear acceleration reached 120 meters per second squared.",
-     "The values come from demanding interception responses."
+     "Source.",
+     "The figure and the measurements come from Wöhl & Schuster (2007).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -420,52 +113,73 @@
    ]
   },
   {
-   "after": 14,
-   "title": "A focused jet gathers water into a compact tip",
-   "bold": [
-    "focused jet"
-   ],
+   "after": 12,
+   "title": "Bending predicts turns, not commands",
+   "bold": [],
    "paragraphs": [
-    "A focused jet is one in which the water has gathered into a concentrated tip, so that the water arrives at the target as a compact mass. The focusing distance is the distance along the path at which the water finishes gathering.",
-    "In shots aimed at a target 60 cm high, the water had not finished assembling at the jet tip after 30 cm of travel, and near impact the tip became concentrated. A shot aimed at 20 cm was already focused at that closer target height.",
-    "Preimpact tips were similarly concentrated across the three target heights, whereas intermediate shapes differed with the intended range. The focusing distance is therefore adjusted to the distance of the target and is not fixed near the mouth."
+    "The original relation compares the required turn angle with the extent of body bending, so each start contributes a paired measurement of the two. Those pairs spanned the whole range of turns in the recordings. Each pair links one observed start to the turn it needed to complete. The relation therefore tracks turn size against bending extent.",
+    "Correlations among body measurements show which features vary together, while the order in which the nervous system specifies those features is a separate question. A correlation can rank features by how tightly they track each other without revealing which one is set first. Establishing that order requires experiments that manipulate the features directly. Such a ranking is descriptive.",
+    "A kinematic predictor is useful because it links a measurable body shape to the turn the fish is about to complete. That link gives experimenters a quantity they can measure in every start before the turn is finished. Measuring the bending stage therefore offers an early readout of the turn's final angle. Its value is in timing."
+   ],
+   "citation": "Wöhl & Schuster (2007)",
+   "notes": [
+    "Bending predicts turns, not commands.",
+    [
+     "Explanation 1.",
+     "The original relation compares the required turn angle with the extent of body bending, so each start contributes a paired measurement of the two",
+     "Those pairs spanned the whole range of turns in the recordings. Each pair links one observed start to the turn it needed to complete. The relation therefore tracks turn size against bending extent."
+    ],
+    [
+     "Explanation 2.",
+     "Correlations among body measurements show which features vary together, while the order in which the nervous system specifies those features is a separate question",
+     "A correlation can rank features by how tightly they track each other without revealing which one is set first. Establishing that order requires experiments that manipulate the features directly. Such a ranking is descriptive."
+    ],
+    [
+     "Explanation 3.",
+     "A kinematic predictor is useful because it links a measurable body shape to the turn the fish is about to complete",
+     "That link gives experimenters a quantity they can measure in every start before the turn is finished. Measuring the bending stage therefore offers an early readout of the turn's final angle. Its value is in timing."
+    ],
+    [
+     "Source.",
+     "The figure and the measurements come from Wöhl & Schuster (2007).",
+     "Each statement is tied to the recordings or observations of that study."
+    ]
+   ],
+   "refs_from": [
+    "Wöhl 2007"
+   ]
+  },
+  {
+   "after": 15,
+   "title": "Rare misses expose the jet beyond its target",
+   "bold": [],
+   "paragraphs": [
+    "Missed short-range targets supplied the uninterrupted jets needed for this comparison. The shaft comparison therefore used jets that reached the common 30-cm path without being interrupted by a target. Each jet was examined at the same travel distance, which made the shaft shape directly comparable across intended ranges. This design kept travel distance constant across the jets.",
+    "Because every shaft was examined after the same travel distance, differences in shaft shape reflect the intended range rather than a difference in path length. The design therefore reads the same measurement across all three target heights. Shaft modulation is a property of the emitted water itself, observed after release. Shaft shape therefore carries the range information.",
+    "Each shot contributes one shaft image tied to one intended range, which gives a direct record of the jet's coherence at that range. Those records were gathered for the same set of shooting heights used in the focusing images. The shaft records therefore complement the focusing images collected for the same heights, giving two views of one shot."
    ],
    "citation": "Gerullis & Schuster (2014)",
    "notes": [
-    "Focusing describes how the water of a shot is arranged as it travels.",
+    "Rare misses expose the jet beyond its target.",
     [
-     "Definition.",
-     "A focused jet has gathered its water into a concentrated tip.",
-     "The focusing distance is where this gathering finishes."
+     "Explanation 1.",
+     "Missed short-range targets supplied the uninterrupted jets needed for this comparison",
+     "The shaft comparison therefore used jets that reached the common 30-cm path without being interrupted by a target. Each jet was examined at the same travel distance, which made the shaft shape directly comparable across intended ranges. This design kept travel distance constant across the jets."
     ],
     [
-     "Long-range shot.",
-     "For a target 60 cm high, the water had not finished assembling after 30 cm.",
-     "The tip became concentrated near impact."
+     "Explanation 2.",
+     "Because every shaft was examined after the same travel distance, differences in shaft shape reflect the intended range rather than a difference in path length",
+     "The design therefore reads the same measurement across all three target heights. Shaft modulation is a property of the emitted water itself, observed after release. Shaft shape therefore carries the range information."
     ],
     [
-     "Short-range shot.",
-     "A shot aimed at 20 cm was already focused at that closer height."
+     "Explanation 3.",
+     "Each shot contributes one shaft image tied to one intended range, which gives a direct record of the jet's coherence at that range",
+     "Those records were gathered for the same set of shooting heights used in the focusing images. The shaft records therefore complement the focusing images collected for the same heights, giving two views of one shot."
     ],
     [
-     "Image comparison.",
-     "Gerullis and Schuster compared original high-speed images at equivalent travel positions.",
-     "They also compared the preimpact phase."
-    ],
-    [
-     "Preimpact tips.",
-     "They were similarly concentrated across the three target heights.",
-     "Intermediate shapes differed with the intended range."
-    ],
-    [
-     "Consequence.",
-     "A fixed-distance account would have the water assemble near the mouth.",
-     "The data instead show that focusing distance follows the target distance."
-    ],
-    [
-     "Comparison of heights.",
-     "The 20 cm shot and the 60 cm shot differ in where the tip finishes forming.",
-     "The impact shape is similar in both."
+     "Source.",
+     "The figure and the measurements come from Gerullis & Schuster (2014).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -473,56 +187,36 @@
    ]
   },
   {
-   "after": 16,
-   "title": "A velocity gradient speeds rear water catch the tip",
-   "bold": [
-    "velocity gradient"
-   ],
+   "after": 18,
+   "title": "Measured fluid properties match control water",
+   "bold": [],
    "paragraphs": [
-    "A velocity gradient is a difference in speed between parts of the same moving body of water, here between the water emitted first at the front and the water emitted behind it. Faster rear water can catch up with slower front water.",
-    "Gerullis and Schuster measured the tip speed during the first 20 ms of jet formation. The tip accelerated even while the jet rose against gravity, because it remained connected to subsequently emitted water moving faster than the early water.",
-    "Published fits gave total speed increments of 2.7–3.8 m/s, and the increment increased with target height. A larger difference between early and subsequent water therefore belongs to a longer intended range, unlike an ordinary rigid projectile."
+    "Shot viscosity was 0.867 mPa·s, against 0.869 mPa·s for control water. Surface tension was 70.37 mN/m for the shot water and 70.49 mN/m for the control, so the two fluids were nearly identical in both measures. The shot water was collected directly from the fish's own shots, so the values describe the fluid the fish actually emitted.",
+    "The fluid properties were measured for shots aimed at several target heights. Neither viscosity nor surface tension changed systematically with the intended range, which fits a fixed fluid composition across the shots. Chemical tuning of the jet would have required one of these properties to vary with range. The fish's emission was sampled at each height.",
+    "Mouth-tip drift and body rotation were measured during the same emission period, and neither changed systematically with target height. Those movements were small enough that the water release itself carried the range difference. The jet's range was therefore set inside the mouth rather than by the fish's body position. Mouth measures are therefore central to the range question."
    ],
    "citation": "Gerullis & Schuster (2014)",
    "notes": [
-    "The jet is a stream of water emitted over time, and its speed varies along its length.",
+    "Measured fluid properties match control water.",
     [
-     "Definition.",
-     "A velocity gradient is a difference in speed along the moving water.",
-     "Here the rear water moves faster than the front water."
+     "Explanation 1.",
+     "Shot viscosity was 0.867 mPa·s, against 0.869 mPa·s for control water",
+     "Surface tension was 70.37 mN/m for the shot water and 70.49 mN/m for the control, so the two fluids were nearly identical in both measures. The shot water was collected directly from the fish's own shots, so the values describe the fluid the fish actually emitted."
     ],
     [
-     "Tip acceleration.",
-     "The tip accelerated during the first 20 ms of formation.",
-     "It did so even while the jet rose against gravity."
+     "Explanation 2.",
+     "The fluid properties were measured for shots aimed at several target heights",
+     "Neither viscosity nor surface tension changed systematically with the intended range, which fits a fixed fluid composition across the shots. Chemical tuning of the jet would have required one of these properties to vary with range. The fish's emission was sampled at each height."
     ],
     [
-     "Cause.",
-     "The tip stayed connected to subsequently emitted water.",
-     "That water moved faster than the early water."
+     "Explanation 3.",
+     "Mouth-tip drift and body rotation were measured during the same emission period, and neither changed systematically with target height",
+     "Those movements were small enough that the water release itself carried the range difference. The jet's range was therefore set inside the mouth rather than by the fish's body position. Mouth measures are therefore central to the range question."
     ],
     [
-     "Fitted values.",
-     "Limiting speeds were 5.8–6.8 meters per second.",
-     "Total speed increments were 2.7–3.8 meters per second."
-    ],
-    [
-     "Time constants.",
-     "Fitted time constants ranged from 6.6 to 20.0 ms."
-    ],
-    [
-     "Range dependence.",
-     "The speed increment increased with target height.",
-     "A longer range is linked to a larger early-to-late velocity difference."
-    ],
-    [
-     "Contrast.",
-     "An ordinary rigid projectile does not have such a gradient."
-    ],
-    [
-     "Link to the mouth.",
-     "The velocity difference between early and subsequent water depends on how the mouth releases the water.",
-     "The gradient is therefore a product of the control of the shot by the fish."
+     "Source.",
+     "The figure and the measurements come from Gerullis & Schuster (2014).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -530,55 +224,36 @@
    ]
   },
   {
-   "after": 20,
-   "title": "Resolving power is the finest detail an eye can sample",
-   "bold": [
-    "resolving power"
-   ],
+   "after": 21,
+   "title": "Receptor curves keep their original scales",
+   "bold": [],
    "paragraphs": [
-    "Resolving power is the finest spatial detail an eye can distinguish, expressed in cycles per degree. A cycle is one bright–dark repetition in a spatial pattern, and more cycles per degree indicate finer sampling by cones and ganglion cells.",
-    "Temple and colleagues mapped cones and retinal ganglion cells in _Toxotes chatareus_. The highest cone densities exceeded 50,000 cells/mm², and ganglion-cell density approached a one-to-one relation with cone density there. Anatomically estimated resolving power reached 6.9 cycles/degree, compared with 2.2 cycles/degree along the downward axis.",
-    "A ventral high-density region aligns with the up-forward visual direction used during spitting. Sampling is therefore finest where the fish aims and coarser elsewhere, instead of equal across the entire visual field."
+    "The regional spectra are drawn from curves that keep their original axes and relative sensitivity scales. Each curve shows how absorption changes with wavelength in one selected photoreceptor, so the shapes can be compared across retinal locations. The published figure keeps every curve in its original form. Each spectrum therefore has its own scale and baseline.",
+    "The retina's two regions view different parts of the environment, and the spectral curves show how each region samples light from them. The aquatic and aerial views therefore carry different light conditions into the eye, and each region's spectrum reflects the light it receives. The curves therefore reflect the light each region receives. Each region's sensitivity is measured directly.",
+    "Spectral coverage is a property of the receptors themselves, so it sets which wavelengths are available for detecting a target against the sky. Spectral and spatial measures are therefore reported separately for each retinal region, so each region's capabilities can be read on its own terms. A region with broad coverage can respond to more contrasts than a narrow one."
    ],
    "citation": "Temple et al. (2010)",
    "notes": [
-    "Resolving power links retinal anatomy to the direction of aiming.",
+    "Receptor curves keep their original scales.",
     [
-     "Definition.",
-     "Resolving power is the finest spatial detail an eye can distinguish.",
-     "It is expressed in cycles per degree."
+     "Explanation 1.",
+     "The regional spectra are drawn from curves that keep their original axes and relative sensitivity scales",
+     "Each curve shows how absorption changes with wavelength in one selected photoreceptor, so the shapes can be compared across retinal locations. The published figure keeps every curve in its original form. Each spectrum therefore has its own scale and baseline."
     ],
     [
-     "Cycle.",
-     "A cycle is one bright–dark repetition in a spatial pattern.",
-     "More cycles per degree mean finer sampling."
+     "Explanation 2.",
+     "The retina's two regions view different parts of the environment, and the spectral curves show how each region samples light from them",
+     "The aquatic and aerial views therefore carry different light conditions into the eye, and each region's spectrum reflects the light it receives. The curves therefore reflect the light each region receives. Each region's sensitivity is measured directly."
     ],
     [
-     "Cone density.",
-     "The highest cone densities exceeded 50,000 cells per square millimeter.",
-     "Ganglion-cell density approached a one-to-one relation with cone density there."
+     "Explanation 3.",
+     "Spectral coverage is a property of the receptors themselves, so it sets which wavelengths are available for detecting a target against the sky",
+     "Spectral and spatial measures are therefore reported separately for each retinal region, so each region's capabilities can be read on its own terms. A region with broad coverage can respond to more contrasts than a narrow one."
     ],
     [
-     "Estimates.",
-     "Resolving power reached 6.9 cycles per degree in the ventral region.",
-     "It was 2.2 cycles per degree along the downward visual axis."
-    ],
-    [
-     "Alignment.",
-     "The high-density region faces the up-forward direction used during spitting."
-    ],
-    [
-     "Methods.",
-     "Temple and colleagues used retinal preparations and anatomical counts in Toxotes chatareus."
-    ],
-    [
-     "Consequence.",
-     "The retina samples most finely along the aiming direction instead of equally across the field."
-    ],
-    [
-     "Directions in the visual field.",
-     "The up-forward direction is the one used during spitting.",
-     "The downward axis has lower resolving power."
+     "Source.",
+     "The figure and the measurements come from Temple et al. (2010).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -586,122 +261,36 @@
    ]
   },
   {
-   "after": 22,
-   "title": "A multielectrode array records many retinal neurons",
-   "bold": [
-    "multielectrode array"
-   ],
-   "paragraphs": [
-    "A multielectrode array is a grid of recording electrodes on which an isolated tissue is placed, so that the spikes of many neurons are recorded at the same time. Retinal ganglion cells are the output neurons of the retina, and their spikes carry visual information to the brain.",
-    "Kretschmer and colleagues placed isolated archerfish retinas on the array and projected alternating black and white bars. The grating stayed present while movement began at randomly selected velocities, and the 400-µm bars moved upward or downward.",
-    "Recorded ganglion cells produced sharply timed responses after movement onset. Because the grating was already present, the responses reflect the onset of motion and not the sudden appearance of a new object."
-   ],
-   "citation": "Kretschmer et al. (2012)",
-   "notes": [
-    "The array records the retinal output directly.",
-    [
-     "Definition.",
-     "A multielectrode array is a grid of recording electrodes under an isolated tissue.",
-     "It records the spikes of many neurons at the same time."
-    ],
-    [
-     "Ganglion cells.",
-     "They are the output neurons of the retina.",
-     "Their spikes carry visual information toward the brain."
-    ],
-    [
-     "Stimulus.",
-     "Alternating black and white bars were projected onto the retina.",
-     "The bars were 400 micrometers wide."
-    ],
-    [
-     "Motion onset.",
-     "The grating stayed present while movement began.",
-     "Starting velocities were chosen at random."
-    ],
-    [
-     "Direction.",
-     "Bars moved upward or downward.",
-     "Movement history varied so that direction reversal did not occur in every step."
-    ],
-    [
-     "Response.",
-     "Ganglion cells produced sharply timed responses after movement onset."
-    ],
-    [
-     "Meaning.",
-     "The responses reflect motion onset and not the sudden appearance of an object."
-    ],
-    [
-     "Velocity scale.",
-     "Velocities are expressed as those of an external object about 30 cm from the eye.",
-     "They are not speeds across the retinal surface."
-    ],
-    [
-     "Randomization.",
-     "Starting velocities were chosen at random, so the responses cannot be explained by a fixed order of stimuli."
-    ]
-   ],
-   "refs_from": [
-    "Kretschmer 2012"
-   ]
-  },
-  {
    "after": 24,
-   "title": "Relative latency uses an internal timing reference",
-   "bold": [
-    "relative latency"
-   ],
+   "title": "Relative timing references the population, not the motor act",
+   "bold": [],
    "paragraphs": [
-    "Relative latency is the time of a cell's first spike measured from the onset of the population response and not from the stimulus clock. Absolute latency, by contrast, is measured from the moment the experimenter presents the stimulus. Both are first-spike measures, and they differ only in their reference.",
-    "Kretschmer and colleagues compared absolute latency with first interspike interval, spike rate over 100 ms, and latency relative to population response onset. The first interval and the tested rate measure reconstructed velocity poorly.",
-    "Relative first-spike latency performed better, although its median stayed near 10 ms across velocities, because the pattern across cells kept the velocity information. It uses an internal reference and does not need the experimenter's stimulus clock."
+    "Relative latencies are referenced to the onset of the recorded population response, not to the animal's motor response. The reference therefore belongs to the retinal recording itself, which is distinct from when the fish decides to move. This reference makes the timing measure depend on the recorded responses alone. That choice keeps the analysis focused on the responses themselves.",
+    "The four decoding analyses were the authors' own original analysis of the same recorded responses. Each ranking of decoders is therefore a comparison made on one dataset rather than on separate experiments. A shared dataset makes the difference between decoders a difference in method rather than in the animals sampled. The shared dataset keeps every ranking on equal footing.",
+    "A spike-count estimate integrates activity over a longer period, so a short first-spike window can carry information that a count over a longer window would average out. The first-spike analysis uses that early timing directly. Its advantage lies in using the earliest spikes that the cell produces after onset. That choice favors the earliest information in each response."
    ],
    "citation": "Kretschmer et al. (2012)",
    "notes": [
-    "Relative timing solves the problem of an unknown stimulus onset.",
+    "Relative timing references the population, not the motor act.",
     [
-     "Absolute latency.",
-     "It is measured from the moment the stimulus is presented.",
-     "The experimenter knows this moment, but the brain has to infer it."
+     "Explanation 1.",
+     "Relative latencies are referenced to the onset of the recorded population response, not to the animal's motor response",
+     "The reference therefore belongs to the retinal recording itself, which is distinct from when the fish decides to move. This reference makes the timing measure depend on the recorded responses alone. That choice keeps the analysis focused on the responses themselves."
     ],
     [
-     "Relative latency.",
-     "It is measured from the onset of the population response.",
-     "The reference comes from the cells themselves."
+     "Explanation 2.",
+     "The four decoding analyses were the authors' own original analysis of the same recorded responses",
+     "Each ranking of decoders is therefore a comparison made on one dataset rather than on separate experiments. A shared dataset makes the difference between decoders a difference in method rather than in the animals sampled. The shared dataset keeps every ranking on equal footing."
     ],
     [
-     "Comparison.",
-     "Kretschmer and colleagues also tested the first interspike interval.",
-     "They tested a spike rate over 100 ms as well."
+     "Explanation 3.",
+     "A spike-count estimate integrates activity over a longer period, so a short first-spike window can carry information that a count over a longer window would average out",
+     "The first-spike analysis uses that early timing directly. Its advantage lies in using the earliest spikes that the cell produces after onset. That choice favors the earliest information in each response."
     ],
     [
-     "Rate measures.",
-     "The first interval and the tested rate reconstructed velocity poorly."
-    ],
-    [
-     "Result.",
-     "Relative first-spike latency performed better.",
-     "Its median stayed near 10 ms across velocities."
-    ],
-    [
-     "Why it works.",
-     "The pattern across different cells kept the velocity information.",
-     "Single medians did not carry it."
-    ],
-    [
-     "Timescale.",
-     "A 100 ms spike count is slow compared with a predictive response."
-    ],
-    [
-     "Population view.",
-     "Each cell supplies a different tuning profile.",
-     "The pattern of relative timing across cells carries the velocity."
-    ],
-    [
-     "Reference.",
-     "The population response onset serves as an internal clock that the retina itself provides.",
-     "Absolute latency needs the stimulus clock of the experimenter."
+     "Source.",
+     "The figure and the measurements come from Kretschmer et al. (2012).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -709,56 +298,36 @@
    ]
   },
   {
-   "after": 26,
-   "title": "A spike-triggered average describes preferred stimuli",
-   "bold": [
-    "spike-triggered average"
-   ],
+   "after": 27,
+   "title": "Analytical filters describe the response model",
+   "bold": [],
    "paragraphs": [
-    "A spike-triggered average is the mean of the stimulus patterns that preceded each spike of a neuron. It describes which stimulus features, in space and time, tend to make the neuron fire.",
-    "Reichenthal and colleagues recorded extracellular activity in the optic tectum of archerfish while presenting random checkerboards. About 68% of the sampled cells had a monophasic temporal profile, whereas the remaining group had two phases with opposite contrast signs. Mean estimated response latencies were 54.5 ms and 60 ms for these groups.",
-    "Receptive fields ranged from nearly circular to elongated. The average therefore gives a spatial pattern and a temporal profile for each cell, which is the information used to compare tectal neurons."
+    "The published eigenvectors belong to an analytical response model, which describes how the neuron responds to light history. They are not a reconstructed anatomical circuit, so each filter stands for a computation rather than a wiring diagram. Each eigenvector is a weighting over the preceding light levels, read off the fitted model. The fitted model defines each weighting directly.",
+    "Reichenthal and colleagues used full-field flashes, so every filter describes responses to a whole-field light history rather than to a spatial pattern. The temporal analysis therefore complements the earlier receptive-field maps. Spatial and temporal structure were measured with separate stimulus sets, so each dimension could be analyzed separately. Each dimension therefore has its own measurement basis.",
+    "The filters are estimated from the stimuli presented and the amount of recorded activity, so their precision follows the data collected. Larger recordings would give the same analysis more samples to estimate each filter. Filter estimates therefore improve as the recorded activity grows. Estimates from short recordings carry more variability than those from long ones."
    ],
    "citation": "Reichenthal et al. (2018)",
    "notes": [
-    "The spike-triggered average turns a spike record into a description of the preferred stimulus.",
+    "Analytical filters describe the response model.",
     [
-     "Definition.",
-     "It is the mean of the stimulus patterns that preceded each spike.",
-     "It reveals which features make a neuron fire."
+     "Explanation 1.",
+     "The published eigenvectors belong to an analytical response model, which describes how the neuron responds to light history",
+     "They are not a reconstructed anatomical circuit, so each filter stands for a computation rather than a wiring diagram. Each eigenvector is a weighting over the preceding light levels, read off the fitted model. The fitted model defines each weighting directly."
     ],
     [
-     "Stimulus.",
-     "Random checkerboards were presented to the archerfish.",
-     "Extracellular activity was recorded in the optic tectum."
+     "Explanation 2.",
+     "Reichenthal and colleagues used full-field flashes, so every filter describes responses to a whole-field light history rather than to a spatial pattern",
+     "The temporal analysis therefore complements the earlier receptive-field maps. Spatial and temporal structure were measured with separate stimulus sets, so each dimension could be analyzed separately. Each dimension therefore has its own measurement basis."
     ],
     [
-     "Receptive fields.",
-     "A receptive field is the stimulus region and pattern that changes a neuron's activity.",
-     "Fields ranged from nearly circular to elongated."
+     "Explanation 3.",
+     "The filters are estimated from the stimuli presented and the amount of recorded activity, so their precision follows the data collected",
+     "Larger recordings would give the same analysis more samples to estimate each filter. Filter estimates therefore improve as the recorded activity grows. Estimates from short recordings carry more variability than those from long ones."
     ],
     [
-     "Temporal profiles.",
-     "About 68% of sampled cells had a monophasic profile.",
-     "The remaining cells had two phases with opposite contrast signs."
-    ],
-    [
-     "Latencies.",
-     "Mean estimated latencies were 54.5 ms and 60 ms for the two groups."
-    ],
-    [
-     "Structure.",
-     "The tectum is a midbrain structure that receives visual input.",
-     "It takes part in sensorimotor processing."
-    ],
-    [
-     "Consequence.",
-     "Each cell is described by where and when a stimulus changes its firing."
-    ],
-    [
-     "Nonlinear step.",
-     "An average alone can miss part of the response structure of a cell.",
-     "Additional analyses use several temporal filters per cell."
+     "Source.",
+     "The figure and the measurements come from Reichenthal et al. (2018).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -767,208 +336,410 @@
   },
   {
    "after": 30,
-   "title": "Antidromic stimulation identifies a cell by its axon",
-   "bold": [
-    "antidromic"
-   ],
+   "title": "The axon cap shapes the field signal",
+   "bold": [],
    "paragraphs": [
-    "Antidromic stimulation sends a spike backward along an axon, from the axon toward the cell body, so that the neuron fires without synaptic input. A field potential is the extracellular voltage generated by the currents of a cell or group of cells. The signal can therefore be used to locate the cell before it is filled with dye.",
-    "Machnik and colleagues stimulated the spinal cord and searched the archerfish hindbrain for a characteristic short-latency, all-or-none extracellular field potential. Increasing a stimulus above threshold changed whether the signal occurred but did not progressively scale its amplitude.",
-    "Each side of the hindbrain contained a distinct focus, consistent with a paired neuronal source. Intracellular penetration and subsequent staining then linked that source to a cell with Mauthner-like morphology."
+    "The focused extracellular signal depends on the geometry of the axon cap around the cell, which shapes where the field is strongest. That geometry means the signal reports the cell's local field rather than an average over the hindbrain. Field recordings near the cell therefore identify a particular neuron's signal. The cell's geometry therefore shapes each recording.",
+    "Antidromic stimulation travels backward from axon toward cell body, so it activates the cell by way of its axon. That route is distinct from the forward flow of sensory input through the dendrites. Stimulation of this kind is an experimental probe rather than a description of natural input. Its route bypasses the dendritic inputs that carry natural sensory signals.",
+    "Antidromic activation shows that the cell can be driven from its axon, a property separate from its firing during a natural prey-directed turn. Experimental access to that axon is what makes the cell testable in the first place. The identified cell then serves as a platform for the sensory tests that follow. That identification makes the cell a usable target."
    ],
    "citation": "Machnik et al. (2018a)",
    "notes": [
-    "Antidromic stimulation makes it possible to find a specific neuron without knowing its inputs.",
+    "The axon cap shapes the field signal.",
     [
-     "Definition.",
-     "A spike is sent backward along the axon toward the cell body.",
-     "The neuron fires without synaptic input."
+     "Explanation 1.",
+     "The focused extracellular signal depends on the geometry of the axon cap around the cell, which shapes where the field is strongest",
+     "That geometry means the signal reports the cell's local field rather than an average over the hindbrain. Field recordings near the cell therefore identify a particular neuron's signal. The cell's geometry therefore shapes each recording."
     ],
     [
-     "Field potential.",
-     "It is the extracellular voltage produced by the currents of a cell or group of cells."
+     "Explanation 2.",
+     "Antidromic stimulation travels backward from axon toward cell body, so it activates the cell by way of its axon",
+     "That route is distinct from the forward flow of sensory input through the dendrites. Stimulation of this kind is an experimental probe rather than a description of natural input. Its route bypasses the dendritic inputs that carry natural sensory signals."
     ],
     [
-     "Search.",
-     "Machnik and colleagues stimulated the spinal cord.",
-     "They searched the hindbrain for a short-latency, all-or-none potential."
+     "Explanation 3.",
+     "Antidromic activation shows that the cell can be driven from its axon, a property separate from its firing during a natural prey-directed turn",
+     "Experimental access to that axon is what makes the cell testable in the first place. The identified cell then serves as a platform for the sensory tests that follow. That identification makes the cell a usable target."
     ],
     [
-     "All or none.",
-     "A stimulus above threshold changed whether the signal occurred.",
-     "The amplitude did not scale with stimulus strength."
-    ],
-    [
-     "Paired source.",
-     "Each side of the hindbrain contained a distinct focus."
-    ],
-    [
-     "Identification.",
-     "Intracellular penetration and staining linked the source to a cell.",
-     "The cell had Mauthner-like morphology."
-    ],
-    [
-     "Summary.",
-     "The electrical signature allows the cell to be found by its response and not by its size.",
-     "Staining then confirms its shape."
-    ],
-    [
-     "Threshold behavior.",
-     "Raising the stimulus above threshold switched the signal on and did not make it larger.",
-     "This all-or-none property is what a spike of a single large cell would produce."
+     "Source.",
+     "The figure and the measurements come from Machnik et al. (2018a).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
     "Machnik 2018a"
+   ]
+  },
+  {
+   "after": 33,
+   "title": "The distant reference carries the spike field",
+   "bold": [],
+   "paragraphs": [
+    "The distant reference can itself carry the local spike-associated field, which is why the external potential has to be corrected before the membrane voltage is determined. The correction turns a reference reading into an estimate of the cell's own voltage. Without it, the spike seen at a distant electrode would mix the cell's voltage with the surrounding field.",
+    "Each intracellular spike was checked against the field recorded around the cell, so the reported spike amplitude belongs to the cell rather than to its surroundings. This isolates the cell's own voltage change from the surrounding potential. The distinction matters for every amplitude value reported for these neurons. Each spike amplitude was therefore corrected before analysis.",
+    "Stable recordings allowed the same cell to be tested with repeated stimulation over the course of an experiment. Because the excitability measures come from one identified neuron, each response can be judged within that cell. Repeated tests in one cell make paired comparisons possible. Each recording therefore yields several measures from a single neuron. That reuse is a practical advantage of the preparation."
+   ],
+   "citation": "Machnik et al. (2018b)",
+   "notes": [
+    "The distant reference carries the spike field.",
+    [
+     "Explanation 1.",
+     "The distant reference can itself carry the local spike-associated field, which is why the external potential has to be corrected before the membrane voltage is determined",
+     "The correction turns a reference reading into an estimate of the cell's own voltage. Without it, the spike seen at a distant electrode would mix the cell's voltage with the surrounding field."
+    ],
+    [
+     "Explanation 2.",
+     "Each intracellular spike was checked against the field recorded around the cell, so the reported spike amplitude belongs to the cell rather than to its surroundings",
+     "This isolates the cell's own voltage change from the surrounding potential. The distinction matters for every amplitude value reported for these neurons. Each spike amplitude was therefore corrected before analysis."
+    ],
+    [
+     "Explanation 3.",
+     "Stable recordings allowed the same cell to be tested with repeated stimulation over the course of an experiment",
+     "Because the excitability measures come from one identified neuron, each response can be judged within that cell. Repeated tests in one cell make paired comparisons possible. Each recording therefore yields several measures from a single neuron. That reuse is a practical advantage of the preparation."
+    ],
+    [
+     "Source.",
+     "The figure and the measurements come from Machnik et al. (2018b).",
+     "Each statement is tied to the recordings or observations of that study."
+    ]
+   ],
+   "refs_from": [
+    "Machnik 2018b"
    ]
   },
   {
    "after": 36,
-   "title": "A length constant measures passive decay",
-   "bold": [
-    "length constant"
-   ],
+   "title": "Two dendritic sites bracket the lateral dendrite",
+   "bold": [],
    "paragraphs": [
-    "A length constant describes the distance over which passive voltage spread along a dendrite is attenuated. A short length constant means that a signal fades quickly with distance from the place where it entered. Distance along the dendrite is the variable that these recordings sample.",
-    "Machnik and colleagues recorded at different positions along the Mauthner lateral dendrite and corrected the signals for the nearby extracellular field. Reconstructed spike amplitude decayed passively with length constants of 141–164 µm in the tested cells.",
-    "Acoustic PSPs were larger at a distal lateral-dendrite position than close to the soma, whereas visual PSPs decreased toward the distal dendrite. The opposite gradients place the entry sites of the two inputs at different dendritic locations."
+    "Recordings were made about 50 and 150 µm lateral to the axon hillock, giving a proximal and a distal site on the same lateral dendrite. The two positions bracket the region where the sensory inputs were compared. Passive spread is the common basis for interpreting both positions. Both sites sit on the same dendrite, so they share one geometry.",
+    "The gradient interpretation relies on passive decay measured independently, so the spread of each input is set by the cell's own passive properties. That independent measurement anchors the reading of the two gradients. A reading of that kind depends on knowing the passive decay before the inputs are interpreted. Passive decay sets how far a voltage change spreads along the dendrite.",
+    "Anatomical tracing of each presynaptic axon is a separate task from measuring these gradients. Gradient measurements locate the likely entry region of an input, while tracing identifies the axon that carries it. The two approaches answer different questions about the same synapse. Tracing would name the carrying axon directly, something gradient measures alone never supply."
    ],
-   "citation": "Machnik et al. (2018b); Machnik et al. (2018a)",
+   "citation": "Machnik et al. (2018b)",
    "notes": [
-    "Passive decay allows amplitude at a recording site to report where an input entered.",
+    "Two dendritic sites bracket the lateral dendrite.",
     [
-     "Definition.",
-     "A length constant is the distance over which passive voltage spread is attenuated.",
-     "A short value means a signal fades quickly."
+     "Explanation 1.",
+     "Recordings were made about 50 and 150 µm lateral to the axon hillock, giving a proximal and a distal site on the same lateral dendrite",
+     "The two positions bracket the region where the sensory inputs were compared. Passive spread is the common basis for interpreting both positions. Both sites sit on the same dendrite, so they share one geometry."
     ],
     [
-     "Recordings.",
-     "Machnik and colleagues recorded at several positions along the lateral dendrite.",
-     "They corrected the signals for the nearby extracellular field."
+     "Explanation 2.",
+     "The gradient interpretation relies on passive decay measured independently, so the spread of each input is set by the cell's own passive properties",
+     "That independent measurement anchors the reading of the two gradients. A reading of that kind depends on knowing the passive decay before the inputs are interpreted. Passive decay sets how far a voltage change spreads along the dendrite."
     ],
     [
-     "Values.",
-     "Reconstructed spike amplitude decayed with length constants of 141–164 micrometers."
+     "Explanation 3.",
+     "Anatomical tracing of each presynaptic axon is a separate task from measuring these gradients",
+     "Gradient measurements locate the likely entry region of an input, while tracing identifies the axon that carries it. The two approaches answer different questions about the same synapse. Tracing would name the carrying axon directly, something gradient measures alone never supply."
     ],
     [
-     "Acoustic input.",
-     "Acoustic PSPs were larger at a distal lateral-dendrite position than near the soma.",
-     "This fits input arriving laterally."
-    ],
-    [
-     "Visual input.",
-     "Visual PSPs showed the opposite gradient.",
-     "Their amplitude decreased toward the distal dendrite."
-    ],
-    [
-     "Consequence.",
-     "The two senses enter the cell at different dendritic locations."
-    ],
-    [
-     "Link to the circuit.",
-     "Both input types are recorded in the same identified cell.",
-     "Their different entry sites show that the pathways reach separate dendritic regions."
-    ],
-    [
-     "Correction for the field.",
-     "Recorded signals were corrected for the extracellular field near the cell.",
-     "Without the correction the spike amplitude would be misjudged."
+     "Source.",
+     "The figure and the measurements come from Machnik et al. (2018b).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
-    "Machnik 2018b",
-    "Machnik 2018a"
+    "Machnik 2018b"
    ]
   },
   {
-   "after": 40,
-   "title": "An aftereffect reveals retained compensation",
-   "bold": [
-    "aftereffect"
-   ],
+   "after": 39,
+   "title": "Airflow acts on the aerial stream, not the target",
+   "bold": [],
    "paragraphs": [
-    "An aftereffect is an error in the direction opposite to the original disturbance that appears when the disturbance is removed. It indicates that the movement had been recalibrated to the disturbance and is a standard signature of motor adaptation. The term applies to the first shots after the airflow stops.",
-    "Volotsky and colleagues compared baseline shots, a perturbation period of horizontal airflow, and shots after airflow removal. After the perturbation ended, errors appeared in the opposite direction and declined over several subsequent shots.",
-    "A compensation learned during the perturbation therefore initially persisted when the physical deflection was removed. If each shot only corrected the visible outcome afterward, removal of the disturbance would not produce this systematic initial bias."
+    "Airflow acted on the aerial water stream, while the target location remained under experimental control. The airflow therefore changed the jet's path without changing where the visible target sat. Errors came from the stream itself, which is why the setup isolates the deflection of the jet. The stream itself was the object of the deflection in every trial.",
+    "The published setup includes a photographed water jet, which documents the stream that the airflow deflects. That image anchors the stream geometry that the blower acted on. The photographed jet is the physical object whose deflection the fish corrected across the session. The photograph therefore links the apparatus to the jet that the fish aimed, which helps interpret the errors.",
+    "Adjustment was tested in both directions, so the correction could be checked for whether it worked for either direction of deflection. Each direction was run as its own condition in the same session. Those conditions show whether the fish's adjustment worked on one side or on both. Both airflow directions were therefore run in every session."
    ],
    "citation": "Volotsky et al. (2023)",
    "notes": [
-    "The washout phase tests whether a correction was learned.",
+    "Airflow acts on the aerial stream, not the target.",
     [
-     "Definition.",
-     "An aftereffect is an error opposite to the original disturbance.",
-     "It appears when the disturbance is removed."
+     "Explanation 1.",
+     "Airflow acted on the aerial water stream, while the target location remained under experimental control",
+     "The airflow therefore changed the jet's path without changing where the visible target sat. Errors came from the stream itself, which is why the setup isolates the deflection of the jet. The stream itself was the object of the deflection in every trial."
     ],
     [
-     "Sequence.",
-     "Volotsky and colleagues compared baseline shots, a perturbation period and shots after airflow removal."
+     "Explanation 2.",
+     "The published setup includes a photographed water jet, which documents the stream that the airflow deflects",
+     "That image anchors the stream geometry that the blower acted on. The photographed jet is the physical object whose deflection the fish corrected across the session. The photograph therefore links the apparatus to the jet that the fish aimed, which helps interpret the errors."
     ],
     [
-     "Perturbation.",
-     "Horizontal airflow deflected the jet.",
-     "Errors increased at first and then declined over successive shots."
+     "Explanation 3.",
+     "Adjustment was tested in both directions, so the correction could be checked for whether it worked for either direction of deflection",
+     "Each direction was run as its own condition in the same session. Those conditions show whether the fish's adjustment worked on one side or on both. Both airflow directions were therefore run in every session."
     ],
     [
-     "Washout.",
-     "After the airflow ended, errors appeared in the opposite direction.",
-     "They declined over several subsequent shots."
-    ],
-    [
-     "Interpretation.",
-     "The compensation learned during the perturbation persisted at first.",
-     "The shot had been recalibrated."
-    ],
-    [
-     "Control logic.",
-     "A fish that only corrected the visible outcome would show no systematic opposite bias.",
-     "Motor adaptation predicts it."
-    ],
-    [
-     "Baseline to washout.",
-     "Baseline shots define the normal accuracy of the fish.",
-     "The sequence from baseline through perturbation to washout separates recalibration from simple correction."
-    ],
-    [
-     "Airflow direction.",
-     "Trials in both airflow directions tested whether adjustment was limited to one direction of deflection.",
-     "The target itself did not move."
+     "Source.",
+     "The figure and the measurements come from Volotsky et al. (2023).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
     "Volotsky 2023"
    ]
+  },
+  {
+   "after": 42,
+   "title": "Virtual prey separate the rule from the feeder",
+   "bold": [],
+   "paragraphs": [
+    "The virtual task keeps an objective predicted landing point while letting the investigators change the motion-to-reward relation. That arrangement allows the reward to follow a rule that a physical falling prey could not supply. The prediction stays fixed while the reward moves, which isolates the learning from the physical scene. This setup gives the experimenter direct control of reward timing and location.",
+    "Latency and accuracy were reported together across the training sequence, so the speed of the predictive start and its correctness both show how the learned rule developed. The two measures tracked each other as training progressed. Together they show the rule emerging without a change in the response's speed. Both measures are summarized across the same trials.",
+    "Rapid decisions persisted while the learned rule changed, which places the plasticity inside the speed constraint of the start. The change therefore affects which destination is chosen without slowing the response into a deliberate approach. The learned rule thus operates within the same fast motor program. The speed of the response was preserved throughout training."
+   ],
+   "citation": "Krause et al. (2024)",
+   "notes": [
+    "Virtual prey separate the rule from the feeder.",
+    [
+     "Explanation 1.",
+     "The virtual task keeps an objective predicted landing point while letting the investigators change the motion-to-reward relation",
+     "That arrangement allows the reward to follow a rule that a physical falling prey could not supply. The prediction stays fixed while the reward moves, which isolates the learning from the physical scene. This setup gives the experimenter direct control of reward timing and location."
+    ],
+    [
+     "Explanation 2.",
+     "Latency and accuracy were reported together across the training sequence, so the speed of the predictive start and its correctness both show how the learned rule developed",
+     "The two measures tracked each other as training progressed. Together they show the rule emerging without a change in the response's speed. Both measures are summarized across the same trials."
+    ],
+    [
+     "Explanation 3.",
+     "Rapid decisions persisted while the learned rule changed, which places the plasticity inside the speed constraint of the start",
+     "The change therefore affects which destination is chosen without slowing the response into a deliberate approach. The learned rule thus operates within the same fast motor program. The speed of the response was preserved throughout training."
+    ],
+    [
+     "Source.",
+     "The figure and the measurements come from Krause et al. (2024).",
+     "Each statement is tied to the recordings or observations of that study."
+    ]
+   ],
+   "refs_from": [
+    "Krause 2024"
+   ]
   }
  ],
  "body": {
+  "2": [
+   "Archerfish are aquatic predators that dislodge aerial prey with a **directed water jet**. In Toxotes jaculatrix, a successful shot releases an insect into a falling trajectory, and the fish then has to reach the water-entry point before a rival does. The landing site sets the race, since the first fish to reach it secures the food.",
+   "Rossel and colleagues recorded fish and dislodged flies from above. Responding fish began a rapid turn within about 100 ms, aligned toward the future landing point, and accelerated along that heading while the prey remained airborne. Shooting and interception therefore impose different motor demands. Each fish therefore solved a moving interception problem in midair.",
+   "Gerullis and Schuster recorded shots at controlled target heights of 20, 40 and 60 cm. Those experiments measured jet control and prey interception directly, so each behavior can be analyzed on its own terms before the neurons behind it are identified. The jet and the interception data describe complementary halves of one foraging sequence."
+  ],
+  "3": [
+   "A **ballistic trajectory** is motion dominated by initial velocity and gravity after release. Rossel and colleagues dropped wet flies of about 50 mg from a disk positioned 20 or 40 cm above the water, and overhead video tracked prey and fish positions throughout each trial. Each release therefore set a predictable path for the prey to follow.",
+   "The investigators measured each error against two possible destinations. One was the eventual water-entry point, and the other was the prey's horizontal position when the fish finished turning. Scoring errors against both targets identifies which destination the turn was aimed at. Aiming at the landing point means predicting, while aiming at the visible position means pursuing.",
+   "Trials with obstructed turns were excluded from the analysis. Initial misalignment had to exceed 10 degrees so that the start and end of each turn could be identified, and those criteria kept responses whose timing could be measured. Those criteria kept the analysis focused on clean, measurable turns that the video could resolve."
+  ],
   "4": [
-   "For the released flies, horizontal landing distance increased with initial horizontal velocity. Rossel and colleagues compared measured distances at 20- and 40-cm release heights with the ballistic predictions. The measured distances matched those predictions under these conditions, which means air resistance and initial vertical velocity contributed little to the trajectory.",
-   "The same horizontal speed produces a more distant landing point when the release height is greater, because the object stays airborne longer. A fish must therefore combine motion information with height information to locate the destination across both heights. The fish uses the release height and the horizontal speed together, so the response depends on both inputs at once.",
-   "The ballistic relation links the landing point to release height and initial horizontal velocity, the two variables that a fish needs to combine. Predicting the landing point from these two inputs allows the fish start its response before the prey reaches the water. Predicting the landing point from these two inputs allows the fish start its response before the prey reaches the water."
+   "Released flies landed farther away as their initial horizontal velocity increased. Rossel and colleagues compared the measured landing distances at release heights of 20 and 40 cm with published ballistic predictions, and the two sets agreed closely. Landing distance therefore changed systematically with the conditions at release, in each tested case. Both release heights were measured directly.",
+   "The agreement held under the assumptions of negligible air resistance and negligible initial vertical velocity. Under those conditions, the landing point depends on horizontal speed and release height, which together set how long the fly stays airborne. The tested approximation describes how these physical quantities combine to set the landing point. The landing relation was measured, not presumed.",
+   "The same horizontal speed produces a more distant landing point at greater height, because a higher object remains airborne for longer. A fish must therefore combine motion information with height information to find the destination. Ballistic motion makes this dependence predictable, since the trajectory follows directly from release velocity and height. Height adds airtime."
+  ],
+  "5": [
+   "A bystander's starting orientation can differ widely from the direction in which a dislodged fly moves. Rossel and colleagues sampled this relation at both 20 and 40 cm prey heights, including starts that required large turns before acceleration toward the destination. Such orientations appeared across the sampled responses at both heights, including the extreme cases.",
+   "Responders therefore translated prey motion into a body-centered turning requirement from many positions and orientations in the tank. Turning generally finished before the prey entered the water, so the turn was complete while the prey was still airborne. Turning requirements were computed from the prey's motion rather than from the fish's own starting direction.",
+   "The range of turn sizes makes a fixed turn angle an inadequate explanation of interception. The analysis included unobstructed first responders, so the measured turns describe the earliest fish to reach each falling prey. Each measured turn therefore reflects the heading chosen by one first responder for one falling prey, in one trial."
   ],
   "6": [
-   "Rossel and colleagues measured where the fish's final heading intersected the prey's projected horizontal path. Errors relative to the future water-entry point were centered near zero at both tested heights, across the naturally occurring range of horizontal take-off speeds, so the turns aimed at the point where the prey would enter the water.",
-   "Errors relative to the prey's position at turn completion showed a systematic offset instead. The fish had already aimed ahead of that position, so the response anticipates the landing point. This within-trial comparison used the same responses for both measures, so the offset reflects the aim itself. The offset appears in every trial of the test and shows the anticipation directly.",
-   "The result supports prediction of the landing destination before impact. The initial heading is set before later swimming corrections occur, so the initial aim itself carries the prediction. Aiming at the future water-entry point, and not at the current prey position, is the defining feature of a **predictive start**. The defining feature is the aim at the future entry point, so the prediction is expressed in the first heading the fish adopts."
+   "Rossel and colleagues measured where each fish's final heading intersected the prey's projected horizontal path. At both tested heights, errors relative to the **future water-entry point** centered near zero across the natural range of horizontal take-off speeds. Eventual water-entry points therefore served as the reference for measuring the fish's aim in each trial.",
+   "Errors measured relative to the prey's position at turn completion showed a systematic offset. The fish had already aimed ahead of that position, so the same responses pointed toward where the prey would land rather than where it was when the turn ended. That offset appeared as an aim toward the future landing point.",
+   "Subsequent swimming corrections came after the heading was already set, so the initial aim is the evidence for prediction before impact. The result identifies the destination the turn targets before the prey reaches the water. A correct initial heading indicates that the fish estimated the landing point during the turn itself. The result is therefore a prediction, not a reflex."
+  ],
+  "7": [
+   "Rossel and colleagues tested dependence on continuing visual feedback by tethering the prey with a thin filament. The fly moved freely for slightly more than 100 ms, then stopped and reversed direction when the filament became taut. The filament therefore fixed both the moment and the direction of the reversal, in this manipulation.",
+   "Fish still turned and initially accelerated toward the landing point predicted from the early motion. Corrections appeared much later, so the **initial commitment** held even though the visible trajectory contradicted the information used to choose it. The early motion, which later contradicted the visible prey path, set the destination of the turn.",
+   "An initially programmed turn and acceleration can therefore operate during the first phase of the strike, rather than through continuous tracking. Corrections that arrive later in the sequence add control beyond that initial phase. The later corrections therefore form a second layer of control that operates after the initial phase. That distinction shapes how the strike is understood."
   ],
   "8": [
-   "Rossel and colleagues placed prey on a transparent horizontal glass screen at 20 or 40 cm height. Air from a blast pipe moved the object horizontally at speeds within the natural take-off range. The target therefore moved without descending toward the water, so the fish saw horizontal motion with no fall.",
-   "Fish nevertheless turned toward the **virtual landing point**, the destination at which prey with that initial height and horizontal velocity would have entered the water if allowed to fall. Errors relative to this virtual point were centered near zero at both heights. The virtual landing point is a computed location rather than a visible one, so the response depends on the calculation.",
-   "The fish's turn therefore depends on a computed relation among initial height, speed and direction, rather than on the visible horizontal path alone. The horizontal screen supplies the speed and direction inputs without the fall, and the fish still outputs the landing point. The angle of the turn is computed from the prey's trajectory, so the response is specified by the calculation rather than by any visible target."
+   "Rossel and colleagues placed prey on a transparent horizontal glass screen at 20 or 40 cm height. Air from a blast pipe moved the object sideways at speeds within the natural take-off range, so the target traveled without descending toward the water. Preventing descent kept the object at a fixed height above the glass while it moved.",
+   "Fish still turned toward the **virtual landing point**, the destination that prey with that height and horizontal velocity would have reached if allowed to fall. Errors relative to this virtual point centered near zero at both heights. Virtual landing points were therefore derived from the prey's height and horizontal velocity, not from observed falls.",
+   "Straight extrapolation of the horizontal path yields no finite water-entry point in this preparation. The result instead points to a relation built from initial height, speed and direction, which defines the input-output link behind the aim. The relation pairs each initial height and speed with one destination, which makes the mapping explicit."
+  ],
+  "9": [
+   "A **C-start** is a rapid maneuver in which the body first bends into a C-like shape and then straightens with an opposite tail movement. Wöhl and Schuster filmed predictive starts from above at 500 frames per second, resolving body positions every 2 ms. Each frame captures the body at one fixed moment in the maneuver.",
+   "The first stage is defined by bending toward the chosen destination, and the second by straightening. In one example, a fish rotated 43.6 degrees within 22 ms and then reached a take-off speed of 1.225 m/s, with the center of mass and body axis measured independently. Those definitions set the stage boundaries used throughout the analysis.",
+   "Displacement and rotation are therefore coordinated within a recognizable two-stage motor pattern. Large turns can keep rotating during straightening, so the bending stage sets up the turn while the straightening stage completes it. Taken together, the two stages describe a single motor program that sets direction and take-off speed within tens of milliseconds."
+  ],
+  "10": [
+   "Wöhl and Schuster reconstructed angular and linear motion from high-speed video. Predictive starts reached angular speeds above 4500 degrees per second and linear speeds as high as 2.1 m/s, with a measured peak linear acceleration of 120 m/s². Peak linear acceleration sets how quickly the fish reaches take-off speed after straightening begins.",
+   "Angular speed generally peaked during the initial bending, whereas the strongest linear speed occurred after straightening began. These different time courses distinguish reorientation from acceleration toward the predicted destination, so the same maneuver sets both the heading and the take-off speed. Rotation and translation therefore peak at different phases of one continuous movement.",
+   "The reported values are maxima across demanding interception responses. The estimates were obtained by smoothing position records before differentiating them, and the peaks belong to different moments within a single start. Differentiation amplifies small position errors, so smoothing came first. Smoothed speeds could then be compared across all recorded starts. The ranges combine many starts."
+  ],
+  "11": [
+   "Wöhl and Schuster elicited escape C-starts in the same fish and measured them alongside prey-directed predictive starts. Both behaviors contained rapid bending followed by straightening, and their ranges of stage durations and performance overlapped substantially. The escape starts gave a reference point for judging how predictive starts were executed. Both categories came from the same individuals.",
+   "Predictive starts showed no systematic slowing, even though they required a heading suited to a future catch point. Escape starts also varied in turn angle and speed, so neither behavioral category reduces to one stereotyped body movement. Speed and heading were thus handled by the same fast movement rather than by a slower, separate approach.",
+   "The shared kinematics support possible recruitment of overlapping fast-start circuitry. Establishing that link calls for recordings made during the behavior or a selective intervention, because silhouettes alone show resemblance. Overlapping kinematics are consistent with shared fast-start circuitry, though the neurons that fire in each context remain a separate question. Shared kinematics narrow the candidate circuits considerably."
+  ],
+  "12": [
+   "Predictive starts in Wöhl and Schuster's recordings produced turns from 4 to 156 degrees, with take-off speeds from 0.4 to 2.1 m/s. Turn size was most closely associated with the **maximum body bending** reached at the end of the first stage. Turn size therefore tracked how far the body bent, rather than how long the start lasted.",
+   "For larger turns, further rotation occurred during straightening. Changes in stage durations, angular speed and displacement added variability, so the motor pattern was adjusted flexibly rather than selected from a small set of identical movements. Stage durations, angular speed and displacement all contributed, so the final turn reflected several measures together. Those measures varied together with turn size.",
+   "Maximum bending works as a kinematic predictor of turn angle rather than a demonstrated neural command. Any adequate circuit explanation must allow rapid movement with continuously variable turning and speed. The motor pattern for a given prey therefore has to adjust continuously, with bending and speed scaling together. The adjustment operates across the full range of turn sizes."
+  ],
+  "13": [
+   "Gerullis and Schuster trained Toxotes jaculatrix to shoot from a restricted channel at targets 20, 40 or 60 cm above the water. Small black spheres served as reproducible targets, and successful shots earned flies delivered in front of the shooter. Targets were the same black spheres at each height, so the target itself stayed constant across conditions.",
+   "Side-view recordings at 5000 frames per second followed the water from emergence to impact. The fish kept a nearly fixed mouth-tip position during water release, so the shape of the jet could be compared across target heights. The high frame rate resolved fine changes in the jet's shape during release. The fish tolerated the illumination needed for these recordings.",
+   "This preparation fixes the target's range independently of the fish's shooting position. It also reaches distances well beyond those used in earlier jet measurements, which allowed focusing to be studied across a wider span of shots. The controlled target and constrained firing geometry improve measurement of each shot. Shots could therefore be compared directly."
+  ],
+  "14": [
+   "In shots aimed at a target 60 cm high, the water was still assembling at the jet tip after 30 cm of travel. Near impact, the tip became concentrated. In contrast, a shot aimed at 20 cm was already focused at that closer target height. Focusing thus appears late in the flight, close to the moment of impact.",
+   "Gerullis and Schuster compared high-speed images at equivalent travel positions and during the preimpact phase. Preimpact tips were similarly concentrated across the three target heights, while the intermediate shapes differed according to the intended range. Images at equivalent travel positions allow a direct comparison of jet shape across shots. Those frames were chosen at equal travel positions.",
+   "The results argue against a **fixed-distance focusing** account, in which water always assembles near the mouth and the finished tip simply travels onward. Instead, the fish actively adjusts the focusing distance to match the intended target. A fixed-distance account predicts identical tips at every target height, and the images contradict that prediction."
+  ],
+  "15": [
+   "A water jet can develop diameter fluctuations and break into droplets. Gerullis and Schuster inspected the jet shaft after a common 30-cm path, comparing shots originally directed at different target heights. Longer-range jets showed fewer shaft modulations than shorter-range jets. Shaft modulation is therefore a measurable index of how stable the jet remained along its path.",
+   "Rare missed shots at close targets let the researchers watch the jet beyond its intended impact point without a collision. The control matters because a jet that struck a target could break up from the collision rather than from its original hydrodynamic design. The fish's missed shots therefore produced a clean view of the jet's later stages.",
+   "The differences support coordinated control of stability and focusing range. Tip speed, water concentration and the duration of water release are separate measured properties, so each has to be evaluated on its own. The stability measure is a shaft-level observation, so it complements the focusing images. Together they cover two aspects of a single shot."
+  ],
+  "16": [
+   "Gerullis and Schuster measured tip speed during the first 20 ms of jet formation. The tip accelerated even while the jet rose against gravity, because it stayed connected to later-emitted water moving faster than the early water. Early and later water therefore contribute differently to the tip's motion, which the speed measurements resolve.",
+   "Published fits gave hypothetical limiting speeds of 5.8 to 6.8 m/s and total speed increments of 2.7 to 3.8 m/s. The speed increment grew with target height, linking the early-to-late velocity difference to the intended shooting range. Fits of this type summarize the whole acceleration in a few parameters rather than in each raw speed trace.",
+   "The limiting speed is a fitted parameter describing continued flow rather than a speed that every shot reached. The data support **adjustable velocity gradients** and reject an ordinary rigid-projectile description of the jet. Limiting speed and time constant describe how the acceleration unfolds. Time constants ranged from 6.6 to 20.0 ms across fits."
+  ],
+  "17": [
+   "To test whether tip acceleration alone explains coherence, Gerullis and Schuster produced upward jets with a fixed disposable syringe. High-speed recordings captured jets that stayed coherent during release and jets that broke up before all the water had emerged. Both kinds of jet came from the same fixed apparatus, so device differences were controlled.",
+   "Both classes had similar fitted tip-speed time courses. The syringe could therefore reproduce the increase in speed without consistently reproducing the stability of an archerfish shot, which distinguishes a description of tip motion from a complete mechanism for the whole jet. Tip acceleration was therefore reproduced in both classes of jet. The syringe isolated the speed profile itself.",
+   "A living fish must coordinate properties beyond the acceleration profile to keep impacts stable and focused over different ranges. The manually operated syringe also differs from the biological mouth in outlet geometry and pressure generation. Stable impacts at several ranges therefore depend on how the mouth shapes the outlet during emission. Outlet geometry is central to that requirement."
+  ],
+  "18": [
+   "Gerullis and Schuster collected water fired by the fish and measured it against control water. Shot viscosity and surface tension matched those of the control closely, and no detectable change in these properties supported chemical tuning of the fluid. Both samples were measured under the same conditions, which isolates the water itself as the variable.",
+   "The researchers also tracked mouth-tip displacement and body orientation during emission. Average total displacement stayed small, total rotation stayed below half a degree, and neither showed a systematic dependence on target height. Large body movements during the shot therefore fail to account for **range tuning**. Mouth-tip drift and rotation were measured together with the water release.",
+   "These controls narrow the candidate mechanisms and motivate measurement of the time-varying mouth opening as the next variable to examine. Direct measurements of that opening supply the most informative test of range adjustment. Measurements of body drift and water chemistry therefore rule out two candidate sources of range tuning. The mouth therefore emerges as the main candidate."
+  ],
+  "19": [
+   "The mouth opening changed continuously during a shot rather than forming a constant aperture that simply opened and shut. Gerullis and Schuster measured opening and closing at 20-, 40- and 60-cm target heights, aligning records to the onset of water emergence. Opening and closing were both recorded during the same shots, so their timing could be compared directly.",
+   "The onset-to-closure interval grew with range, by approximately 3.4 ms per additional 10 cm in the authors' analysis. Maximum opening width and the final closure interval after release changed little, so specific phases of the movement adjusted independently rather than slowing uniformly. The interval grew with range, while the other phases stayed essentially the same.",
+   "This pattern supports active control of a **time-dependent outlet** that coordinates jet formation with range. Correlated changes in aperture and focusing together point to active control of the outlet. Changes in the mouth outlet therefore link the mechanics of water release to the chosen range. The mouth is treated as a controllable outlet."
+  ],
+  "20": [
+   "Temple and colleagues mapped cones and retinal ganglion cells in Toxotes chatareus using retinal preparations and anatomical counts. A ventral high-density region aligned with the upward-forward visual direction used during spitting, rather than sampling the whole visual field equally. Mapping both cone and ganglion-cell density gave a view of the retina's sampling layout.",
+   "The highest cone densities exceeded 50,000 cells per mm², and local ganglion-cell density approached a one-to-one relation with cone density in that region. Anatomically estimated resolving power reached 6.9 cycles per degree there, against 2.2 cycles per degree along the downward visual axis. Cone density in the central region drives the finest resolving power estimated here.",
+   "A cycle is one bright-dark repetition in a spatial pattern, so more cycles per degree indicate finer **anatomical sampling**. These estimates link retinal organization to the preferred shooting direction, placing the finest sampling where the fish aims. The density map therefore gives the anatomical basis of visual sampling along the preferred aiming direction."
+  ],
+  "21": [
+   "Temple and colleagues measured absorption in single retinal cells with microspectrophotometry. They then carefully corrected each reading for ocular transmission and photopigment properties. The analysis split the retina into regions that look at the water and at the air, and each cell gave its own absorption curve for the region it sampled.",
+   "The published spectra hold short, middle and long wavelength cone data for each region. These measures concern light capture by the cells themselves, so they are direct readings, not guesses from fish picking colored targets. Regional gaps in the combined color coverage show up across the retina, and they differ by location.",
+   "A photopigment is a light absorbing molecule that starts a cell's response to light. Regional sensitivity shapes which contrasts stand out against the sky. Spatial sharpness, measured from anatomy, is a separate limit on the aim, and it differs from the color sensitivity. Both sets of limits shape how the fish aims."
+  ],
+  "22": [
+   "Kretschmer and colleagues placed isolated archerfish retinas on a multielectrode array and projected alternating black and white bars. The grating stayed in view while movement began at randomly selected velocities, so motion onset was distinct from the sudden appearance of a new object. The grating itself stayed visible throughout each trial, so motion was the change being tested.",
+   "The 400-micrometer bars moved upward or downward and stopped when their contrast edges reached the next electrode row. Recorded **ganglion cells** produced sharply timed responses after movement onset, and direction reversal occurred in some steps and was absent from others. Stopping at electrode rows fixed the end of each movement for the recording.",
+   "This preparation measures the information present at retinal output before central processing. Velocities were expressed as those of an external object about 30 cm from the eye, rather than as literal speeds across the retinal surface. Recorded responses therefore reflect information the retina passes forward, before the brain has processed it. Its output is what the central system receives."
+  ],
+  "23": [
+   "A **first-spike latency** is the interval from a reference event to the first action potential in a response. Kretschmer and colleagues compared ganglion-cell latencies across grating velocities and found that the shortest median absolute latencies were about 22 ms near 5 to 6 m/s. Shorter latencies indicate that the cell responded more quickly to the stimulus onset.",
+   "Latencies increased at both lower and higher velocities. Individual cells supplied distinct tuning profiles, so the population pattern distinguishes velocity better than any single median value could. A published decoder reconstructed presented velocities most successfully from absolute first-spike latencies. A population of such cells therefore encodes velocity through the pattern of timing across cells.",
+   "Absolute latency requires knowledge of stimulus onset, which the experimenter knows but the brain must infer from its own signals. Decoding success therefore identifies information available in the spike pattern, a different claim from an implemented biological decoder. Decoding therefore tests what the recorded responses contain, using data rather than assumption. Decoding success depends on the recorded signals."
+  ],
+  "24": [
+   "Kretschmer and colleagues compared absolute latency with the first interspike interval, spike rate over 100 ms, and latency relative to population response onset. An **interspike interval** is the elapsed time between consecutive action potentials, while a firing rate counts spikes per unit time. Those four measures can be compared on the same set of responses, which makes their performance directly comparable.",
+   "The first interval and the tested rate measured velocity poorly in reconstruction. Relative first-spike latency performed better, even though its median stayed near 10 ms across velocities, because the patterns across cells kept velocity information. Rate estimates require spike counts accumulated over a window, so they lag the first spikes. Timing is therefore central to the result.",
+   "Relative timing supplies an internal reference rather than the experimenter's stimulus clock. Population timing is a plausible fast signal, and the 100-ms window matters because predictive behavior can begin before a long spike-count estimate is available. Relative timing pairs each cell's first spike with the population's onset, which keeps the velocity information intact."
+  ],
+  "25": [
+   "Kretschmer and colleagues decoded velocity repeatedly while increasing the number of recorded ganglion cells. Reconstruction error fell as the population grew, and the gain was steepest for the first few cells and smaller with each added cell. The decoding was repeated across combinations of recorded cells rather than a single set. Each combination added information about velocity.",
+   "Individual experiments differed in accuracy because response timing and tuning quality varied among the sampled cells. Even the most precisely timed unit carried less information than a useful combination of units, so **population coding** depends on which signals are combined. Accuracy depended on the timing of each cell and how well its tuning matched the stimuli.",
+   "This analysis supports velocity information distributed across retinal cells. Recorded cells were combined computationally, so the decoding was carried out on recorded spike trains rather than in a central neuron. The benchmark is useful because each added cell adds a new timing signal to the combined estimate. Population estimates therefore improve as cells are added, up to a point."
+  ],
+  "26": [
+   "The **optic tectum** is a midbrain structure that receives visual input and takes part in sensorimotor processing. Reichenthal and colleagues recorded extracellular activity in archerfish while presenting random checkerboards, then averaged the stimulus patterns preceding each spike with a spike-triggered average. Random checkerboards gave a broad sample of spatial patterns for each recorded cell.",
+   "Receptive fields ranged from nearly circular to elongated. About 68 percent of sampled cells had a monophasic temporal profile, while the rest had two phases with opposite contrast signs. Mean estimated response latencies were 54.5 ms and 60 ms for these two groups. Those latencies were estimated from the responses, so they describe typical timing rather than an exact value.",
+   "These measurements distinguish spatial sampling from the temporal contrast sequence that precedes firing. A **receptive field** is the stimulus region and pattern that changes a neuron's activity, so the assay maps which visual inputs drive each cell. Receptive field size and shape characterize which parts of the visual scene each tectal cell monitors."
+  ],
+  "27": [
+   "Reichenthal and colleagues presented full-field flashes of varying intensity, reducing the visual stimulus to a time series. They used spike-triggered covariance, which compares variation in the stimulus histories preceding spikes with variation across the full stimulus set. The flashes gave a simple, time-varying visual input, which makes it possible to model the response from its history.",
+   "**Structured temporal filters** identified combinations of earlier light levels associated with the response. Cells were described by one to three relevant filters, with two most common, and some filters were labeled excitatory or inhibitory by their statistical relation to the stimulus ensemble. Each filter weights a particular moment in the earlier light history, forming a temporal template.",
+   "Those labels describe a model's stimulus selectivity rather than identifying transmitters, receptors or synapses. The analysis adds information that a spike-triggered average alone misses. Covariance-derived filters extend the spike-triggered average, which describes one dimension of the stimulus history. Its extra filters capture structure that one average flattens. This adds a second layer to the spike-triggered average."
   ],
   "28": [
-   "Reichenthal and colleagues fitted models that combined the recovered temporal filters through **nonlinear response functions**. A nonlinearity means that the response combines the filter outputs non-additively, so the joint values of the filters can change how strongly the neuron fires. The nonlinear combination is the step that distinguishes these models from linear descriptions of the same filters.",
-   "The original examples included one-, two- and three-filter descriptions with different response surfaces. Two-filter models reproduced response structure that an average-based single filter missed. The authors compared model output with recorded firing rates, so each model is tested against the measured responses. Each model thus carries a specific prediction for the neuron's firing across combinations of inputs.",
-   "These are phenomenological models, compact descriptions of measured input–output relationships. The diverse combinations provide candidate transformations of visual timing before a motor decision, and each combination specifies a distinct response surface. These models therefore describe how the visual timing signal is transformed before the response. Each description is a candidate for how the timing signal is transformed, and the measured firing rates decide among them."
+   "Reichenthal and colleagues fitted models that combined the recovered temporal filters through **nonlinear response functions**. A nonlinearity means the response follows the joint values of the filter outputs, and those joint values can change how strongly the neuron fires. Nonlinear functions therefore set how strongly the neuron responds to each combination of filter outputs.",
+   "Models ranged from one-, two- and three-filter descriptions with different response surfaces. Two-filter models reproduced response structure that a single average-based filter missed, and the authors matched model output to recorded firing rates rather than judging inferred filters by appearance. Model comparisons relied on the fit to recorded firing, so the choice of model rested on measured responses.",
+   "These phenomenological models are compact descriptions of measured input-output relationships. The diverse combinations offer candidate transformations of visual timing before a motor decision, and their causal role in predictive aiming awaits direct testing. Their combination pattern helps narrow the range of plausible tectal computations before any behavioral test is designed. Such models are useful as hypotheses."
+  ],
+  "29": [
+   "Karoubi and colleagues examined the brains of Toxotes chatareus with Nissl staining and immunohistochemistry. Nissl staining labels cell-rich tissue and helps distinguish the nuclei and layers. Immunohistochemistry uses antibodies to locate selected molecular markers within the same tissue, giving a molecular view of the same brain. Each method marks different tissue features.",
+   "The atlas documents the telencephalon, diencephalon, optic tectum, cerebellum and hindbrain. Its labeled serial sections supply **anatomical landmarks** for interpreting visual recordings and locating descending neurons. Whole-brain views place these regions in their three-dimensional arrangement. Serial sections and whole-brain views together clearly show how each region sits relative to all the others.",
+   "The atlas also maps the catecholaminergic and cholinergic markers. A cholinergic neuron uses acetylcholine, so mapping these markers shows where cells that release that transmitter sit within the brain. The neurochemical layout complements the regional landmarks in the atlas. Such maps are a starting point for experiments that test specific cells in the brain."
+  ],
+  "30": [
+   "The **Mauthner cell** is a large hindbrain neuron with a descending axon associated with fast-start behavior in fishes. Machnik and colleagues stimulated the spinal cord and searched the archerfish hindbrain for a short-latency, all-or-none extracellular field potential. Its axon descends from the hindbrain toward the spinal cord, which places the cell along the route of fast-start commands.",
+   "Increasing stimulus strength above threshold switched the signal on or off rather than scaling its amplitude. Each side of the hindbrain contained a distinct focus, consistent with a paired neuronal source. Intracellular penetration then linked that source to a cell with Mauthner-like morphology. The threshold response gave a sharp, all-or-none criterion for finding the cell.",
+   "This approach connects an electrical signature to anatomy rather than relying on cell size alone. It establishes an experimentally accessible Mauthner neuron in archerfish. This anatomical approach matched the electrical signature to a specific cell type rather than a general region. It identifies the cell as a target for later physiology. That combination is the anatomical identification."
+  ],
+  "31": [
+   "Machnik and colleagues filled identified Mauthner neurons and measured archerfish cells beside similarly sized goldfish processed by the same method. The **soma** is the neuronal cell body, and its dendrites receive and integrate inputs before signals reach the spike-initiation region. The two ranges overlap widely across the two species. Dendritic branching followed a similar plan in both.",
+   "Archerfish soma diameters ranged from 45 to 63 µm, against 47 to 66 µm in goldfish. Both had prominent lateral and ventral dendrites, an axon hillock and smaller branches, and the broad similarity held despite the archerfish's specialized interception demands. Both sets of cells therefore share a common layout, and the measurements rest on identical preparations.",
+   "The matched preparation controls for differences caused by animal size and staining method. It argues against a dramatically enlarged or uniquely shaped Mauthner neuron as a necessary explanation of archerfish skill. A dramatically enlarged neuron would have shown a clear size difference from goldfish, and none appeared. Those matched conditions make morphological similarity a clear result."
+  ],
+  "32": [
+   "After staining identified the cells, Machnik and colleagues followed the Mauthner axons across the hindbrain midline and into the opposite spinal cord. Unstained cross-sections independently contained two exceptionally large axons in matching positions. Counting the large axons in unstained sections therefore provided evidence separate from the staining. That independence strengthens the anatomical claim.",
+   "The largest axons averaged 71.9 µm in diameter in the measured archerfish sections, comparable with those of similarly sized goldfish. Finding exactly two matched giants makes an additional, equally large descending pathway in the sampled cord improbable. The axon measurements were made in the same sections, which allows direct comparison with goldfish.",
+   "A **large axon** can support rapid conduction, which makes this anatomy compatible with a fast motor command. Smaller neurons may also contribute to turn selection or speed adjustment, and anatomical availability is distinct from behavioral recruitment during a start. Conduction speed in large axons depends on diameter, so the measured size supports rapid transmission."
   ],
   "33": [
-   "Machnik and colleagues obtained intracellular recordings from identified archerfish **Mauthner cells**. Mean resting voltage was −79.5 mV, antidromic spike onset latency was 0.265 ms, and the somatically recorded spike had a half-maximal duration of 0.54 ms. The membrane recording gives the cell's own voltage, which is the quantity that controls its spiking.",
-   "The apparently small somatic spike, about 36.7 mV, must be read together with the extracellular field around the cell. Subtracting the nearby external potential reconstructs the actual membrane-voltage change, so the corrected signal reflects the cell's own voltage. The corrected trace is the signal used to compare the cell's response across sensory and inhibitory conditions.",
-   "These recordings remained stable for approximately 2–3 hours, permitting repeated sensory and inhibitory tests within one cell. A spike onset latency of 0.265 ms and a half-maximal duration of 0.54 ms mark a **rapidly conducting output neuron** that signals fast. The fast latency therefore shapes the timing of the escape response that the neuron drives."
+   "Machnik and colleagues obtained intracellular recordings from identified archerfish Mauthner cells. Mean resting voltage was -79.5 mV, antidromic spike onset latency was 0.265 ms, and the somatically recorded spike had a half-maximal duration of 0.54 ms. These measures came from identified cells, so each value belongs to a known neuron. Each recording stayed linked to the cell's identity throughout.",
+   "The somatic spike of about 36.7 mV is interpreted together with the extracellular field around the cell. Subtracting the nearby external potential reconstructs the actual membrane-voltage change, while a distant reference electrode gives a less direct measure of that difference. The transmembrane potential is the voltage inside the cell relative to adjacent extracellular fluid.",
+   "The recordings stayed stable for about 2 to 3 hours, which allowed repeated sensory and inhibitory tests within one cell. An **action potential** is the regenerative electrical event that propagates down the axon. The experiment measures excitability and conduction after imposed stimulation, rather than the timing of spontaneous commands during free swimming."
+  ],
+  "34": [
+   "Machnik and colleagues delivered brief acoustic bursts while recording the Mauthner cell. A **postsynaptic potential**, or PSP, is a membrane-voltage change associated with synaptic input. Under these stimulus conditions, detectable acoustic PSPs began after 7.4 to 15.1 ms in archerfish. The stimulus set was brief and standardized, so each PSP reflected the same input.",
+   "The mean acoustic PSP amplitude was 4.3 mV, and some preparations gave no detectable acoustic PSP despite strong visually evoked responses. The same standardized stimulus and recording conditions were used for goldfish, which makes the species contrast controlled. Light and sound PSPs were recorded in the same preparations, so their comparison is direct.",
+   "Earlier onset and larger amplitude describe different properties of an input, so the two measures carry separate meanings. These findings concern one selected acoustic burst and establish that mechanosensory input reaches the cell. Latency and amplitude both matter for timing, but they answer different questions about an input. Earlier onset therefore marks timing, while larger amplitude marks strength."
+  ],
+  "35": [
+   "Machnik and colleagues presented 7-ms light flashes while recording the same identified Mauthner cells. Visual PSP amplitudes ranged from 5.3 to 28.2 mV, with a mean of 17.1 mV, and onset latencies ranged from 27.5 to 54.2 ms, averaging 39.4 ms. Light was a brief stimulus, and each cell received the same flashes.",
+   "Under these conditions, visual responses were substantially larger than acoustic responses in archerfish. Goldfish had mean visual and acoustic amplitudes of 7.0 and 8.2 mV, and the shared stimuli allow a comparison of **relative efficacy**. Goldfish responses to the two stimuli were similar in size, unlike the archerfish pattern. The shared stimuli make the difference between species informative.",
+   "The late portions of visual PSPs varied more than their initial rise, consistent with additional network input. These flashes sometimes elicited spikes, and strong visual access supports a role in visuomotor processing. Visual PSP latency was measured from flash onset, so the timing values refer to the stimulus. Light and sound were compared on the same cells under matched timing."
+  ],
+  "36": [
+   "Machnik and colleagues recorded at different positions along the Mauthner lateral dendrite and corrected the signals for the nearby extracellular field. Reconstructed spike amplitude decayed passively, with length constants of 141 to 164 µm in the tested cells. The position along the dendrite determined how much each input's voltage decayed before reaching the soma.",
+   "Acoustic PSPs were larger at a distal lateral-dendrite position than close to the soma, consistent with input arriving laterally. Visual PSPs showed the opposite gradient, with amplitude decreasing toward the distal lateral dendrite, consistent with input entering nearer the soma. Each gradient was measured at the same recording positions, so the two sets are directly comparable.",
+   "A **length constant** describes the distance over which passive voltage spread is attenuated. The gradients locate the likely entry sites of the two sensory inputs along the dendrite. Passive spread along a dendrite is the physical reason that input location shapes what reaches the spike zone. Input location therefore shapes what the cell receives, not just whether it fires."
+  ],
+  "37": [
+   "**Recurrent inhibition** is inhibitory feedback activated after a neuron or its associated network fires. Machnik and colleagues in this study elicited pairs of antidromic Mauthner spikes in one cell and varied the separation between them. The second spike was reduced most strongly at short intervals, and recovery contained fast and slow components.",
+   "Archerfish recovery time constants were 0.9 and 16.5 ms, against 0.8 and 12.8 ms in goldfish. The paper provisionally associates the fast component with sodium-channel inactivation. Repeated stimulation and chloride-loaded recordings extended the paired-spike measurements into later inhibitory phases. Those recordings compared both species under identical conditions, which supports a controlled contrast.",
+   "Voltage-gated sodium-channel inactivation temporarily reduces the ability to generate another spike. Chloride loading can change the polarity of a chloride-dependent synaptic potential. Sodium-channel inactivation is a temporary process, which fits a fast recovery component. Comparable physiology supports functionally similar inhibitory networks in both archerfish and goldfish. Both species show this same pattern."
+  ],
+  "38": [
+   "**Feed-forward inhibition** occurs when sensory input excites inhibitory pathways alongside the pathway to a target neuron. Machnik and colleagues elicited an antidromic spike at different times during a visual or acoustic PSP and used the reduction of that spike as a probe of sensory-driven inhibition. Sensory input therefore triggers inhibition in parallel with excitation.",
+   "In archerfish and goldfish, the inhibitory time course matched the duration of the evoked PSP. Comparable effects occurred for visual and acoustic stimulation, so sensory access to the Mauthner cell includes opposing influences rather than a purely excitatory command. The inhibition followed the same timing in both species, which points to a shared mechanism.",
+   "The method measures a functional inhibitory effect during synaptic input, and similar time courses can arise from different underlying circuits. The authors therefore treat a shared inhibitory network as the parsimonious explanation for matched time courses across stimuli. Matched time courses across visual and acoustic stimuli favor one shared inhibitory network over separate pathways."
   ],
   "39": [
-   "Volotsky and colleagues trained Toxotes chatareus to shoot at an aerial target and introduced horizontal airflow above the water. The air deflected the jet while the fish remained in the water, creating an aiming error without moving the visible target itself. The fish was trained to hit a target that the airflow displaced only through its effect on the jet.",
-   "The experiment compared baseline shots, a perturbation period and shots after the airflow was removed. Errors initially increased when the airflow began and then declined over successive shots. Trials in both airflow directions showed that the adjustment applies to either direction of physical deflection. The trials in the two airflow directions were analyzed separately, so each direction has its own error sequence.",
-   "**Motor adaptation** is the adjustment of a movement in response to systematic errors caused by changed conditions. The measured correction shows flexible calibration of the shooting action, and the declining errors over successive shots show that the fish recalibrates each shot using the outcome of earlier shots. The adjustment therefore carries information from one shot to the next."
+   "Volotsky and colleagues trained Toxotes chatareus to shoot at an aerial target while horizontal airflow blew above the water. The air deflected the jet while the fish stayed in the water, creating an **aiming error** without moving the visible target. Each airflow trial shifted the jet in one direction while the target held its position.",
+   "The experiment compared baseline shots, a perturbation period, and shots after airflow was removed. Errors rose when airflow began and then declined over successive shots, and trials in both airflow directions tested whether adjustment was confined to one direction of deflection. Shots after removal showed whether the fish had kept an adjustment.",
+   "**Motor adaptation** is the adjustment of a movement in response to systematic errors caused by changed conditions. The measured correction reflects flexible calibration of the shooting action, and the apparatus kept the blower outside the fish's visual field. The blower placement is part of the experimental control, which keeps visual cues constant."
+  ],
+  "40": [
+   "After the airflow perturbation ended, Volotsky and colleagues observed errors in the opposite direction. These aftereffects declined steadily over several subsequent shots. Compensation learned during the perturbation therefore persisted when the physical deflection was removed, and the opposite-direction errors show that the correction stayed active. The effect appeared immediately after the removal.",
+   "The baseline, perturbation and washout sequence distinguishes adaptive recalibration from simple following of the current disturbance. If each shot corrected just the visible outcome, removing the disturbance would leave no systematic bias in the opposite direction. Each phase of the sequence contributes a separate measurement. The paired sequence gives a clear test.",
+   "The aftereffects therefore reflect **motor commands** that were altered during the perturbation and that anticipate a recurring disturbance. Adaptive changes of this kind allow the shooting action to stay accurate across repeated disturbances. Such persistence is the defining feature of adaptive motor calibration. The washout result identifies compensation that persists after removal."
+  ],
+  "41": [
+   "An **egocentric reference frame** expresses a relation relative to the animal's body, whereas an allocentric frame expresses it relative to the external environment. Volotsky and colleagues rotated the shooting access so a trained fish changed its body orientation while airflow direction stayed fixed in the tank. The reference frame question asks which coordinate system the learned change is stored in.",
+   "After the reversal, errors became large and adaptation required additional shots. The retained compensation followed the earlier body-relative relation rather than immediately accounting for the unchanged external airflow direction, while visual landmarks in the tank remained available. Visual landmarks were available throughout the session, so the fish had access to external cues.",
+   "This manipulation supports body-centered adaptation under conditions that lack direct cues to airflow direction. The result constrains how an acquired shooting compensation transfers when the relation between the body and the disturbance changes. The result therefore distinguishes body-relative from external-relative learning in this setting. Learned compensation therefore moved with the body in this setting."
+  ],
+  "42": [
+   "Krause and colleagues presented **virtual prey** on a screen above the tank and rewarded the corresponding virtual impact points. After initially straight motion, training trajectories changed direction by 39.8 degrees, and food was delivered at the new deflected destination instead of the old ballistic one. Training therefore linked each early motion pattern to a reward at a deflected location.",
+   "With training, initial turns shifted toward the new destinations. In critical tests that displayed the early straight trajectory alone, feeders were moved away from both candidate impact points, and fish still aimed at the learned deflected point. Turns continued toward the learned point even though the feeders had moved away from both candidates.",
+   "The response remained a rapid predictive start rather than a slow approach. This establishes plasticity in the link between early motion and chosen destination, while the storage site of that rule is a separate question. Immediate acquisition of the rapid response indicates that learning changed the decision itself, not only movement timing."
+  ],
+  "43": [
+   "Krause and colleagues tested whether learning simply replaced familiar stimulus-response associations. Fish trained at one height were challenged at other heights, where the old training-height response and the new rule predicted different destinations. The old response and the new rule thus pointed to different locations, so a choice between them was measurable.",
+   "Initial turns were already appropriate for the untrained heights rather than systematically approaching the training-height substitute. Additional tests changed object size and included an untrained speed of 1.425 m/s, and the learned relation **generalized** beyond the exact combinations used during training. Object size and speed were varied, so the rule had to hold across changed conditions.",
+   "Immediate transfer supports a more general representation than a lookup list restricted to trained cases. The interpretation rests on the competing predicted destinations in these controlled transfer trials, rather than on equating a successful catch with abstract reasoning. A learned rule that applies to new combinations is more useful than a memorized list of trials."
+  ],
+  "44": [
+   "Krause and colleagues trained fish with two visually different prey objects. A disk required the learned deflected relation, whereas a triangle required the original ballistic relation. Shape and initial motion were controlled, so the same motion variables could require different destinations. Prey shape therefore served as the cue that identified which rule applied.",
+   "In interspersed tests, the initial trajectory alone was visible. Fish directed turns toward the deflected virtual point for disks and the ballistic virtual point for triangles, so the decision could use a **context cue** to choose between two concurrent motion-to-destination relations. Shape cues therefore gave the fish a reliable basis for choosing the destination.",
+   "This is stronger evidence than learning one fixed turn toward each shape, because required turns also depended on prey speed, direction, height and fish position. Identifying the cells that recognize the object and the synapses that switch the motor computation is a separate task. Speed, direction and height all shaped the required turns in these trials."
+  ],
+  "45": [
+   "Krause and colleagues tested whether a shape cue had to appear before prey motion to prepare the right decision. A neutral cross stayed stationary for 2 seconds, then changed into the relevant disk or triangle exactly when movement began. The late-cue condition therefore tested choice timing against an early-cue condition. The cue timing was controlled exactly.",
+   "Just the initial straight movement was displayed, so the later deflection gave no information about the correct destination. Errors were comparable to those obtained when object identity had been visible 2 seconds before motion, and the fish selected the **appropriate rule** during the brief decision interval itself. Both conditions produced accurate rule selection.",
+   "This finding adds conditional flexibility to a response made in less than 100 ms under the tested conditions. Together with the transfer tests, it constrains simple accounts of a fixed reflex, while the circuitry for visual recognition and command selection is a topic for later investigation. The behavior occurred within the response window, so decisions were made in midflight."
   ]
  }
 }
