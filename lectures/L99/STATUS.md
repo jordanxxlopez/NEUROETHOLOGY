@@ -1,9 +1,9 @@
-# Lecture 99
+# Lecture 99 complete
 
-Research preparation is saved; final PPTX is blocked by the source uploads listed in PAPERS.md.
+46 slides: one title, 44 content, one final Key takeaways. All 44 content slides carry original published figures. Eleven distinct article-linked videos are embedded, with credited static fallbacks.
 
-Ten original research videos downloaded and ffprobe-verified. They have not yet been embedded in a deck. No media has been recompressed or resized. Eight videos are from Jokura et al. (2026); two are from Moroz et al. (2014). Movie S1 from Burkhardt et al. (2023) is requested for an additional nerve-net recording.
+All 132 body paragraphs have five complete sentences and at least six rendered lines. No routine limitation endings or scaffolding were detected. Figure crops, references, teaching transcripts and media metadata are recorded in this folder. The title-animal source passed the earlier-lecture source audit and comparison with 5,479 available earlier images.
 
-The exact instructor title was added to the authoritative special-topics schedule as Lecture 99 with Date TBD, following the existing special-topic date convention. The synchronized instructions permit research-linked web/YouTube recordings and require joint blocked-paper/video lists.
+Theme: abyssal blue / white paper, newly added to the palette pool because the existing palettes were used, and recorded for Lecture 99. Arial throughout; ordinary text black, titles and bold terms in the required darker theme shade.
 
-The source PDFs and recordings are retained outside the tracked tree at /workspace/l99-research. Metadata, hashes, original URLs, captions, checked references and a provisional 44-content-slide sequence are tracked here. No finished deck, visual QA, embedded-video verification or PowerPoint validation is claimed at this stage.
+Source files are retained at /workspace/l99-research. PDFs and original movies are not committed as ordinary Git objects. The final download uses Git LFS so all embedded recordings stay inside a self-contained PPTX. Native desktop PowerPoint playback is untested; validation reports distinguish structural validation, media decoding and static rendering.

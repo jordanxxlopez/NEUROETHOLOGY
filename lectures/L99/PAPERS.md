@@ -1,4 +1,8 @@
-# Lecture 99: blocked papers and videos
+# Lecture 99 source access: resolved
+
+All requested PDFs, supplementary information and Movie S1 were supplied by the instructor and inspected. There are no outstanding uploads. The original access failures below are retained as historical provenance.
+
+# Historical blocked-source request
 
 The final PPTX is paused under the instructor's source-file rule. Do not fabricate or substitute figures. PDFs must be source PDFs, not HTML challenge pages. Current publisher and archived-download checks returned HTTP 403 or HTML challenge content for the files below.
 
