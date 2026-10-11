@@ -7,8 +7,8 @@
    "bold": [],
    "paragraphs": [
     "The decrement in gill withdrawal depends on how the repeated siphon stimuli are spaced in time. Pinsker and colleagues held the seawater-jet stimulus constant and varied the interval between stimuli, so the spacing alone sets the pattern of repetition in each series.",
-    "Shorter intervals produced a faster decline in contraction, while longer intervals slowed it. Responses commonly fell toward about 25% of the initial amplitude across the range of intervals tested. Each series begins from the same first response in the same animal.",
-    "Stimuli delivered at closer intervals leave less time for the response to recover between trials. Recovery between trials is therefore part of what determines how far responsiveness falls across a series."
+    "Shorter intervals produced a faster decline in contraction, while longer intervals slowed it. Responses commonly fell toward about 25% of the initial amplitude across the range of intervals tested. The decline therefore depends on the interval between stimuli, with the stimulus strength held constant.",
+    "Stimuli delivered at closer intervals leave less time for the response to recover between trials. Recovery between trials is therefore part of what determines how far responsiveness falls across a series. The final level of responsiveness reflects the balance between each stimulus and the recovery that follows it."
    ],
    "citation": "Pinsker et al. (1970)",
    "notes": [
@@ -68,9 +68,9 @@
    "title": "Skin stimuli evoke EPSPs in an identified motor neuron",
    "bold": [],
    "paragraphs": [
-    "An identified gill motor neuron receives a direct excitatory input from the skin of the siphon. Brief stimuli to that skin depolarize the motor cell, and this depolarization is the first measurable link between touch and contraction.",
-    "Castellucci and colleagues recorded the response in the same cell on repeated trials. Repeated stimulation reduced the response, and the reduction accumulated from one trial to the next across each session.",
-    "Each EPSP in the identified cell can be traced to one defined synapse. The cell's large size makes it possible to record that synapse repeatedly over the whole session."
+    "An identified gill motor neuron receives a direct excitatory input from the skin of the siphon. Brief stimuli to that skin depolarize the motor cell, and this depolarization is the first measurable link between touch and contraction. The link runs from one defined synapse to one identified cell.",
+    "Castellucci and colleagues recorded the response in the same cell on repeated trials. Repeated stimulation reduced the response, and the reduction accumulated from one trial to the next across each session. Because the same cell is recorded throughout, each trial's change is measured against the trials before it.",
+    "Each EPSP in the identified cell can be traced to one defined synapse. The cell's large size makes it possible to record that synapse repeatedly over the whole session. Repeated recordings from one synapse show how its strength changes as the session proceeds, which ties the behavioral decrement to a single connection."
    ],
    "citation": "Castellucci et al. (1970)",
    "notes": [
@@ -131,8 +131,8 @@
    "bold": [],
    "paragraphs": [
     "Antonov and colleagues recorded behavior and neural activity together through a set of training protocols. Habituation used repeated siphon taps, dishabituation added tail shock after habituation, and sensitization used shock alone.",
-    "Facilitation appeared in sensory neurons whose receptive fields covered the test site and in sensory neurons activated from elsewhere on the body. The modulatory action of shock therefore reaches more inputs than the one that was tapped during habituation.",
-    "The change is spread across many connections, so its synaptic basis appears at several sites. Motor-cell firing, complex postsynaptic potentials and monosynaptic potentials each track this spread."
+    "Facilitation appeared in sensory neurons whose receptive fields covered the test site and in sensory neurons activated from elsewhere on the body. The modulatory action of shock therefore reaches more inputs than the one that was tapped during habituation. This spread explains why shock changes responses to touches at sites that were not tapped during habituation.",
+    "The change is spread across many connections, so its synaptic basis appears at several sites. Motor-cell firing, complex postsynaptic potentials and monosynaptic potentials each follow this spread. Each measure tracks the same change, so the spread is seen at more than one level of the circuit."
    ],
    "citation": "Antonov et al. (1999)",
    "notes": [
@@ -192,9 +192,9 @@
    "title": "Strong and weak connections depress at similar rates",
    "bold": [],
    "paragraphs": [
-    "Gover and colleagues evoked sensory action potentials at 15 s intervals in strong and weak sensory–motor connections. The two kinds of connection differed in their initial transmission and in their paired-pulse behavior, yet they depressed at similar rates.",
-    "Applying 4-aminopyridine broadened sensory spikes and increased calcium-dependent release. This change raised initial transmission while depression stayed the same speed, which is the opposite of what a simple depletion account would predict.",
-    "The observed depression kinetics therefore point to silencing of functional release sites in a stimulus-dependent way. Activity itself drives the silencing rather than the strength of the initial connection."
+    "Gover and colleagues evoked sensory action potentials at 15 s intervals in strong and weak sensory–motor connections. The two kinds of connection differed in their initial transmission and in their paired-pulse behavior, yet they depressed at similar rates. Both kinds were tested under the same stimulation schedule, so the rates can be set side by side.",
+    "Applying 4-aminopyridine broadened sensory spikes and increased calcium-dependent release. This change raised initial transmission while depression stayed the same speed, which runs opposite to what a simple depletion account would predict. A depletion account would have predicted faster depression with the larger initial response.",
+    "The depression kinetics point to silencing of functional release sites in a stimulus-dependent way. Activity itself drives the silencing rather than the strength of the initial connection. Because the silencing follows the stimulation, the sites that are silenced are the ones that were recently active."
    ],
    "citation": "Gover et al. (2002)",
    "notes": [
@@ -254,9 +254,9 @@
    "title": "Spaced training retains more than massed training",
    "bold": [],
    "paragraphs": [
-    "Carew and colleagues gave forty habituation trials in one day to one group, and the same total spread over four days to another. The **massed** schedule concentrated the experience in one session, and the **spaced** schedule distributed it across days.",
-    "Both schedules produced substantial decrement during training. Spaced training yielded stronger retention after 24 h and after one week than massed training. The response within a single session predicts little about how much of the change lasts across days.",
-    "Retention was measured as withdrawal behavior, and it could be tested in a restrained preparation as well. Spacing effects of this kind set up the later experiments that examine the molecular events under different temporal patterns."
+    "Carew and colleagues gave forty habituation trials in one day to one group, and the same total spread over four days to another. The massed schedule concentrated the experience in one session, and the spaced schedule distributed it across days. Both groups received the same number of trials.",
+    "Both schedules produced substantial decrement during training. Spaced training yielded stronger retention after 24 h and after one week than massed training. The session-level decline looked similar, but the lasting change did not, so retention marks the difference between the two schedules.",
+    "Retention was measured as withdrawal behavior, and it could be tested in a restrained preparation as well. Spacing effects of this kind set up the later experiments that examine the molecular events under different temporal patterns. Those experiments then ask which steps must occur during each spaced interval."
    ],
    "citation": "Carew et al. (1972)",
    "notes": [
@@ -316,9 +316,9 @@
    "title": "Serotonin enhances EPSPs after depression",
    "bold": [],
    "paragraphs": [
-    "Brunelli and colleagues compared serotonin, dopamine and octopamine at the sensory-neuron connection onto a gill motor neuron. Serotonin changes how an existing pathway responds, so the same connection can be measured before and after each neuromodulator.",
-    "Sensory neurons were first depressed by repeated stimulation. Serotonin applied during a 2.5 min rest increased the subsequent synaptic responses. Rest periods without serotonin produced no such enhancement, so the drug accounts for the increase.",
-    "The antagonist cinanserin reversibly reduced the facilitation evoked by connective stimulation, while the repeated-stimulation depression stayed intact. This pattern identifies a serotonergic route to facilitation that runs alongside the depression."
+    "Brunelli and colleagues compared serotonin, dopamine and octopamine at the sensory-neuron connection onto a gill motor neuron. Serotonin changes how an existing pathway responds, so the same connection can be measured before and after each neuromodulator. Each modulator is applied to the same identified connection.",
+    "Sensory neurons were first depressed by repeated stimulation. Serotonin applied during a 2.5 min rest increased the subsequent synaptic responses. Rest periods without serotonin produced no such enhancement, so the drug accounts for the increase. The enhancement therefore follows the drug, not the rest itself.",
+    "The antagonist cinanserin reversibly reduced the facilitation evoked by connective stimulation, while the repeated-stimulation depression stayed intact. This pattern identifies a serotonergic route to facilitation that runs alongside the depression. The two processes act through separate routes, so each can be blocked on its own."
    ],
    "citation": "Brunelli et al. (1976)",
    "notes": [
@@ -380,7 +380,7 @@
    "paragraphs": [
     "Liu and colleagues measured PKA regulatory subunits in cell bodies, neurites and synaptosomes, which are terminal-enriched particles isolated from nervous tissue. Type 1 PKA was mostly soluble, whereas type 2 PKA was enriched in neuronal processes and tied to anchoring proteins near nerve endings.",
     "Repeated serotonin treatment increased RII protein in synaptosome preparations at 24 h. Immunostaining also detected more RII in sensory neurons. Prolonged facilitation is therefore linked to a change in the amount and location of a signaling protein, not only to a brief rise in cAMP.",
-    "Each synaptosome preparation contains many terminals, so the measured increase is an average across them. Nuclear type 1 PKA and synaptic type 2 PKA carry complementary roles in this account."
+    "Each synaptosome preparation contains many terminals, so the measured increase is an average across them. Nuclear type 1 PKA and synaptic type 2 PKA carry complementary roles in this account. Each role is assigned by the subcellular location in which each subunit is found."
    ],
    "citation": "Liu et al. (2004)",
    "notes": [
@@ -442,7 +442,7 @@
    "paragraphs": [
     "Li and colleagues introduced BAPTA, a fast calcium buffer, into the motor neuron of cultured sensory–motor synapses. Intracellular calcium regulates signaling inside a cell without being the extracellular transmitter. The buffer therefore tests whether facilitation needs a change beyond the sensory terminal.",
     "A ten-minute application of 10 μM serotonin enhanced control EPSPs. Buffering postsynaptic calcium reduced the facilitation, most clearly after serotonin was removed. Motor-cell injections without the buffer showed that the effect comes from the calcium buffer itself.",
-    "Facilitation therefore needs a postsynaptic calcium signal in this preparation. A single connection can change on both sides at once, so the presynaptic and postsynaptic results combine into one account."
+    "Facilitation therefore needs a postsynaptic calcium signal in this preparation. A single connection can change on both sides at once, so the presynaptic and postsynaptic results combine into one account of facilitation that spans the synapse."
    ],
    "citation": "Li et al. (2005)",
    "notes": [
@@ -503,8 +503,8 @@
    "bold": [],
    "paragraphs": [
     "Li and colleagues moved the postsynaptic toxin experiment from culture into a reduced siphon-withdrawal preparation. Identified motor neurons were injected with botulinum toxin B before a sequence of siphon taps, tail shock and further siphon tests.",
-    "Control preparations increased siphon withdrawal after shock, whereas postsynaptic toxin blocked this dishabituation. Motor activity recorded alongside the movement linked the cell-targeted treatment to a measured behavioral change.",
-    "Postsynaptic exocytosis in the siphon motor cells contributes to the behavior. The same requirement carries over to other gill responses and to sensitization protocols, which share the same motor cells."
+    "Control preparations increased siphon withdrawal after shock, whereas postsynaptic toxin blocked this dishabituation. Motor activity recorded alongside the movement linked the cell-targeted treatment to a measured behavioral change. The toxin therefore removes the behavioral increase that shock otherwise produces.",
+    "Postsynaptic exocytosis in the siphon motor cells contributes to the behavior. The same requirement carries over to other gill responses and to sensitization protocols, which share the same motor cells. Each protocol can therefore be tested for the same postsynaptic requirement, using the same toxin."
    ],
    "citation": "Li et al. (2005)",
    "notes": [
@@ -566,7 +566,7 @@
    "paragraphs": [
     "Montarolo and colleagues varied when anisomycin was present relative to repeated serotonin. A three-hour exposure during and immediately after induction blocked long-term facilitation. Inhibition that began much earlier, or several hours later, left the 24 h enhancement intact.",
     "Biochemical measurements showed strong suppression of protein synthesis during drug exposure and recovery after washout. The timing of the drug therefore lines up with its effect on the cell. Long-term facilitation depends on new synthesis during a restricted induction period.",
-    "A critical window fits the production of proteins that start or stabilize persistent change. The identities, turnover rates and locations of these proteins are the next questions."
+    "A critical window fits the production of proteins that start or stabilize persistent change. Identifying those proteins, and how quickly they turn over, would show which products the window protects. Their locations in the cell would then place each product at its site of action."
    ],
    "citation": "Montarolo et al. (1986)",
    "notes": [
@@ -628,7 +628,7 @@
    "paragraphs": [
     "**CREB1** is a transcription factor that regulates gene expression by binding DNA. A **promoter** is a DNA region that controls transcription of a gene. Hart and colleagues identified a cAMP response element in the _Aplysia_ synapsin promoter, which is a site that CREB1 can bind.",
     "A promoter-driven fluorescent reporter increased expression after serotonin treatment. Chromatin immunoprecipitation, which pulls down DNA bound to a chosen protein, found more CREB1 bound to the synapsin promoter. These measurements link the regulatory sequence, transcription-factor binding and expression level.",
-    "Serotonin-dependent signaling reaches synapsin production through CREB1 binding at this promoter. Other transcriptional responses of long-term facilitation are assigned to their own target genes."
+    "Serotonin-dependent signaling reaches synapsin production through CREB1 binding at this promoter. Other transcriptional responses of long-term facilitation are assigned to their own target genes. Each target is linked to its own binding site, so the promoter results sit among the other responses."
    ],
    "citation": "Hart et al. (2011)",
    "notes": [
@@ -689,8 +689,8 @@
    "bold": [],
    "paragraphs": [
     "Lee and colleagues examined **ApCPEB4**, an RNA-binding translation regulator in _Aplysia kurodai_, a related sea-hare species. They attached fluorescent reporters to its 3′ untranslated region, an RNA segment that controls expression without encoding protein sequence.",
-    "Severed neurites allowed local responses to be recorded apart from delivery by the cell body. Serotonin increased reporter expression in these isolated processes. Translation-related controls showed that this increase does not require new transcription.",
-    "Isolated processes hold a local pool of RNA that responds to modulatory signaling without the nucleus. Local translation therefore adds a control point for facilitation alongside transcription."
+    "Severed neurites allowed local responses to be recorded apart from delivery by the cell body. Serotonin increased reporter expression in these isolated processes. Translation-related controls showed that the increase is independent of new transcription, which places the response in the processes themselves.",
+    "Isolated processes hold a local pool of RNA that responds to modulatory signaling without the nucleus. Local translation therefore adds a control point for facilitation alongside transcription. Both control points act on the same synapse, so their contributions can be measured within one preparation."
    ],
    "citation": "Lee et al. (2016)",
    "notes": [
@@ -752,7 +752,7 @@
    "paragraphs": [
     "Kassabov and colleagues identified **ApNT**, an Aplysia neurotrophin, and **ApTrk**, its receptor tyrosine kinase. A **neurotrophin** is a secreted signaling protein that regulates neuronal growth or function. Alternative RNA processing produced ApNT isoforms with different processing and secretion properties.",
     "Tagged isoforms were expressed in sensory–motor cultures and examined with biochemical assays and fluorescence microscopy. Their distributions differed between cell bodies, neurites and secretion-related compartments. The labeling ties each isoform's processing to where it sits in the cell.",
-    "The ApNT isoform with the stronger secretion profile reaches the ApTrk receptor on distant neurites. Receptor activation in those neurites is measured with functional assays."
+    "The ApNT isoform with the stronger secretion profile reaches the ApTrk receptor on distant neurites. Receptor activation in those neurites is tested with functional assays. Those assays show whether the secreted isoform reaches the receptor and activates it at the distant site."
    ],
    "citation": "Kassabov et al. (2013)",
    "notes": [
@@ -813,8 +813,8 @@
    "bold": [],
    "paragraphs": [
     "Zhou and colleagues injected CREB1-targeting siRNA into sensory neurons and waited 72 h before applying repeated serotonin. The standard protocol used five 5 min pulses of 50 μM serotonin, and EPSPs were recorded before treatment and at 24 h afterward.",
-    "Control siRNA and vehicle groups ran in parallel with the CREB1 knockdown. CREB1 knockdown impaired long-term facilitation. Control-RNA synapses reached about 184% of their pretest amplitude, whereas CREB1-siRNA synapses reached about 121%.",
-    "A transcription factor is therefore needed for persistent synaptic enhancement under this protocol. Partial loss of CREB1 weakens an otherwise effective training pattern while the neurons remain responsive."
+    "Control siRNA and vehicle groups ran in parallel with the CREB1 knockdown. CREB1 knockdown impaired long-term facilitation. Control-RNA synapses reached about 184% of their pretest amplitude, whereas CREB1-siRNA synapses reached about 121%. The gap between the two groups is the measure of the knockdown's effect.",
+    "A transcription factor is therefore needed for persistent synaptic enhancement under this protocol. Partial loss of CREB1 weakens an otherwise effective training pattern while the neurons remain responsive. The continued responsiveness of those neurons places the deficit in the persistence of the change."
    ],
    "citation": "Zhou et al. (2015)",
    "notes": [
@@ -874,17 +874,17 @@
   "2": [
    "_Aplysia californica_ is a marine gastropod whose siphon carries water out of the mantle cavity, the chamber that holds its respiratory gill. Touching the siphon or the adjacent mantle shelf evokes contraction of the gill, siphon and mantle shelf. **Withdrawal** shields these delicate structures from the disturbing stimulus, which is the defensive function of the reflex.",
    "Pinsker and colleagues held animals with the gill exposed and delivered seawater jets through a nozzle. A photocell read gill movement from light scattered by the tissue. Jets lasted about 800 ms, and stronger jets produced larger contractions followed by additional delayed components.",
-   "Stimulus intensity and response amplitude can be measured separately in this preparation. Because the jet strength sets the size of the contraction, the same animal can be tested across a range of intensities."
+   "Stimulus intensity and response amplitude can be measured separately in this preparation. Because the jet strength sets the size of the contraction, the same animal can be tested across a range of intensities. Each intensity is paired with the response it evokes, so the stimulus-response relation can be drawn for one animal."
   ],
   "3": [
    "**Habituation** is a decrease in responsiveness caused by repeated presentation of a stimulus. Pinsker and colleagues stimulated the same siphon receptive region again and again with the same jet. The gill contracted less on each trial, even though the jet kept reaching the animal at full strength.",
    "Responses fell toward roughly 25% of the first amplitude when stimuli arrived at intervals ranging from seconds to several minutes. Longer intervals slowed the decline. The number of stimuli needed for a given decrement therefore depends on how the trials are spaced in time.",
-   "A smaller contraction alone can arise from sensory adaptation, weaker central transmission, altered motor-neuron firing or muscle fatigue. Intracellular recordings in the same preparation sort these sites."
+   "A smaller contraction can arise from sensory adaptation, weaker central transmission, altered motor-neuron firing or muscle fatigue. Intracellular recordings in the same preparation identify which of these sites changed. The sites lie at different points along the reflex pathway, so each candidate can be tested in turn."
   ],
   "4": [
    "**Spontaneous recovery** is the return of responsiveness after stimulation stops. In the gill-withdrawal experiments, a previously effective stimulus again produced a substantial contraction after a rest. A recovered response can decline again during a new series of identical stimuli.",
    "Recovery had two phases. Pinsker and colleagues described a rapid component over about 10–20 min that accounted for roughly 75–85% of the recovery, followed by a slower component. Some animals recovered fully within 10 min, while others were still incompletely recovered at 122 min.",
-   "The animal keeps the capacity to contract its gill throughout habituation. Recovery of this kind points to a reversible change rather than to injury or to failure of the muscles, so the decrement lies in the control of the response."
+   "The animal keeps the capacity to contract its gill throughout habituation. Recovery of this kind points to a reversible change rather than to injury or to failure of the muscles. The decrement therefore lies in the control of the response, which can return once the stimulus is withheld."
   ],
   "5": [
    "**Dishabituation** is an increase in a previously habituated response after a different, stronger stimulus. Pinsker and colleagues first reduced gill withdrawal with repeated siphon stimulation, then applied a strong tactile stimulus to another part of the body. The original test stimulus then evoked larger contractions again.",
@@ -894,7 +894,7 @@
   "6": [
    "Castellucci and colleagues isolated the abdominal ganglion, a cluster of neuronal cell bodies, and kept a siphon nerve and its attached receptive skin. A **sensory neuron** detects stimulation of that skin, and a **motor neuron** drives contraction of a peripheral muscle. The large identified cells in this ganglion allowed repeated intracellular recordings.",
    "Brief mechanical or electrical skin stimuli produced an excitatory postsynaptic potential, or EPSP, in an identified gill motor neuron, usually L7. An EPSP is a membrane depolarization that moves a neuron toward the threshold for an action potential. Repeated stimulation reduced this response from one trial to the next.",
-   "The isolated ganglion contains a defined sensory–motor pathway, so the connection can be recorded directly. Relating these neural changes to the behavior of the whole animal requires recordings from more intact preparations."
+   "The isolated ganglion contains a defined sensory–motor pathway, so the connection can be recorded directly at each stimulus. Intact preparations extend the same recordings to the behavior of the whole animal, so the neural change can be linked to what the animal does."
   ],
   "7": [
    "A **monosynaptic connection** links a presynaptic neuron directly to a postsynaptic neuron through one synapse. Castellucci and colleagues raised the concentration of divalent ions to suppress most polysynaptic activity, then recorded elementary EPSPs in a gill motor neuron.",
@@ -904,7 +904,7 @@
   "8": [
    "Antonov and colleagues combined intracellular recordings with siphon-movement measurements in a reduced preparation. **LFS motor neurons** are identified output cells for siphon withdrawal, and **LE sensory neurons** supply tactile input. Stimulating one LFS neuron artificially made it possible to compare its contribution with the withdrawal evoked by touch.",
    "The contribution of a single LFS neuron grew with its firing rate. Measurements of movement, complex postsynaptic potentials and individual sensory–motor EPSPs indicate that the LE-to-LFS monosynaptic pathway mediates about one-third of the measured reflex. Other circuit and peripheral mechanisms supply the rest.",
-   "Activating the motor cell directly skips sensory processing, so downstream changes can be isolated from changes at the sensory input. The one-third estimate describes siphon flaring in this preparation."
+   "Activating the motor cell directly skips sensory processing, so downstream changes can be isolated from changes at the sensory input. The motor cell's firing then sets the siphon response. The one-third estimate describes how far siphon flaring changes in this preparation, so the output of that cell is measured against the same baseline."
   ],
   "9": [
    "Antonov and colleagues recorded siphon withdrawal, LFS motor-neuron firing, LE sensory-neuron firing and synaptic potentials during behavioral training. Habituation used repeated siphon taps, dishabituation added tail shock after habituation, and sensitization used shock alone.",
@@ -924,7 +924,7 @@
   "12": [
    "**Homosynaptic depression** is reduced transmission caused by activity in the same synaptic pathway. Gover and colleagues evoked sensory action potentials at 15 s intervals in strong and weak sensory–motor connections. The two kinds of connection differed in their initial transmission and in their paired-pulse behavior, yet they depressed at similar rates.",
    "The **paired-pulse ratio** compares the postsynaptic responses to two closely spaced presynaptic spikes. Applying 2 mM 4-aminopyridine, a potassium-channel blocker, broadened sensory spikes and increased calcium-dependent release. This change shifted initial transmission and paired-pulse behavior, but depression was not faster as a simple depletion account would predict.",
-   "Depression follows its own time course, independent of the initial strength of a connection. Activity appears to silence functional release sites in a stimulus-dependent way, and the measured kinetics are the evidence for that account."
+   "Depression follows its own time course, independent of the initial strength of a connection. Activity appears to silence functional release sites in a stimulus-dependent way. The measured kinetics are the evidence for that account, because they track how fast transmission falls during repeated stimulation."
   ],
   "13": [
    "Gover and colleagues induced homosynaptic depression with repeated sensory-neuron stimulation, then left the connection unstimulated for 40 min. Subsequent EPSPs stayed depressed instead of returning to their original amplitude. A shorter rest interval produced recovery of a different size, which marks the depression as persistent rather than immediate.",
@@ -934,22 +934,22 @@
   "14": [
    "**Long-term habituation** is a reduction in responsiveness that is retained beyond the training session. Carew and colleagues trained unrestrained animals with ten siphon-stimulation trials per day for four days. An observer timed withdrawal duration without knowing each animal's training group.",
    "Trained animals responded less than controls when tested after 24 h and after one week. Reduced responsiveness was still detectable after three weeks, although some recovery had occurred. Gill-withdrawal tests in a restrained preparation also showed retention, so the effect extends to the gill component as well.",
-   "Retention lasting weeks indicates that a simple withdrawal system supports enduring nonassociative learning. The retained change could rest on persistent synaptic efficacy, on altered connectivity or on changes elsewhere in the circuit."
+   "Retention lasting weeks indicates that a simple withdrawal system supports enduring nonassociative learning. The retained change could rest on persistent synaptic efficacy, on altered connectivity or on changes elsewhere in the circuit. Each candidate predicts a different pattern of change at the synapse, so the sites can be tested in turn."
   ],
   "15": [
    "Carew and colleagues gave forty habituation trials in one day to one group and the same total spread over four days to another. The **massed** schedule concentrated the experience in one session, and the **spaced** schedule separated the sessions by day.",
    "Both schedules produced substantial decrement during training. Spaced training yielded stronger retention after 24 h and after one week than massed training. The response within a single session therefore predicts little about how much of the change persists across days.",
-   "The measured outcome is withdrawal behavior, not protein synthesis or synapse number. Spacing effects of this kind lead to later experiments that test the molecular events under different temporal patterns."
+   "The measured outcome is withdrawal behavior, which records how much of the change lasts across days. Spacing effects of this kind lead to later experiments that test the molecular events under different temporal patterns. Those experiments ask which steps must occur during each spaced interval for retention to last."
   ],
   "16": [
    "Bailey and Chen filled identified sensory neurons with horseradish peroxidase, an enzyme that reveals cell processes, and reconstructed the labeled arbors after behavioral training. A **varicosity** is an axonal swelling that can contain presynaptic release machinery. Counting varicosities gave a measure of connectivity in trained and control animals.",
    "Control neurons in the habituation experiment averaged 1,291 varicosities, whereas neurons from long-term habituated animals averaged 836. In the sensitization experiment the averages were 1,320 for controls and 2,697 for sensitized animals. Persistent decrement and persistent enhancement therefore produce changes in opposite directions.",
-   "The counts describe labeled structures in the arbor rather than transmitter release at each swelling. A changed varicosity count accompanies the remembered response, and the individual swellings that carry the change are identified separately."
+   "The counts describe labeled structures in the arbor, and each swelling is identified by its position along the arbor. A changed varicosity count accompanies the remembered response. The individual swellings that carry the change are identified separately, so each one can be followed across the training."
   ],
   "17": [
    "Frost and colleagues trained intact animals for long-term sensitization, then recorded identified sensory–motor connections in isolated abdominal ganglia. Sensitization increases defensive responsiveness after strong stimulation, without requiring a predictive relation between two stimuli.",
    "Monosynaptic EPSPs onto the gill motor neuron L7 were larger in trained animals than in controls. Baseline motor-cell membrane properties were measured as well, which distinguishes increased synaptic input from a general rise in postsynaptic resistance. The recorded connection therefore keeps a trace of the earlier behavioral experience.",
-   "The ganglion preparation removes the ongoing behavioral context, while the enhanced synapse persists in it. Interneurons, other motor cells and peripheral targets could carry further parts of the sensitization."
+   "The ganglion preparation keeps the enhanced synapse in place after the behavioral context is removed. Interneurons, other motor cells and peripheral targets could carry further parts of the sensitization. Each of these routes can be traced by recording from its own cell in the same ganglion."
   ],
   "18": [
    "Brunelli and colleagues compared serotonin, dopamine and octopamine at the sensory-neuron connection onto a gill motor neuron. **Serotonin**, also called 5-hydroxytryptamine or 5-HT, is a neuromodulator that changes how an existing pathway responds, rather than conveying the tactile test stimulus itself.",
@@ -959,12 +959,12 @@
   "19": [
    "**Cyclic AMP**, or cAMP, is an intracellular second messenger that links receptor activation to downstream responses. Brunelli and colleagues applied a membrane-permeant cAMP analog and injected cAMP directly into sensory-neuron cell bodies. Both treatments enhanced the EPSPs recorded in the postsynaptic motor neurons.",
    "Rest alone, comparable current injection, cyclic GMP and 5′-AMP each failed to reproduce the cAMP enhancement. Injected cAMP increased transmission without changing the amplitude or duration of the action potential recorded at the sensory cell body. Synaptic efficacy therefore changed while the spike at the cell body stayed the same.",
-   "Spike propagation and calcium entry at distant terminals could still change with cAMP. Those possibilities are tested by recordings at the terminals themselves, which identify the compartment where cAMP acts."
+   "Spike propagation and calcium entry at distant terminals could also change with cAMP. Recordings at the terminals themselves identify the compartment where cAMP acts. Those measurements set the location of the change, so the terminal can be tested alongside the cell body."
   ],
   "20": [
    "**Protein kinase A**, or PKA, transfers phosphate groups onto target proteins when cAMP activates it. Its regulatory subunits hold the catalytic subunits in check, and cAMP binding releases that inhibition. Liu and colleagues distinguished type 1 and type 2 PKA by their regulatory subunits and their cellular distributions.",
    "**A-kinase anchoring proteins**, or AKAPs, hold type 2 PKA in place by binding its RII regulatory subunit. The Ht31 peptide blocks this binding. Ht31 reduced serotonin-induced short-term and long-term facilitation, whereas an inactive control peptide did not.",
-   "Kinase activity must be available near the right targets, so the location of PKA is part of the mechanism. The Ht31 result shows that localized PKA signaling is needed for facilitation in this sensorimotor preparation."
+   "Kinase activity must be available near the right targets, so the location of PKA is part of the mechanism. The Ht31 result shows that localized PKA signaling is needed for facilitation in this sensorimotor preparation. Blocking the anchoring site therefore changes the outcome of the same serotonin exposure."
   ],
   "21": [
    "Liu and colleagues compared PKA regulatory subunits in cell bodies, neurites and synaptosomes, which are terminal-enriched particles isolated from nervous tissue. Type 1 PKA was mostly soluble, whereas type 2 PKA was enriched in neuronal processes and associated with anchoring proteins near nerve endings.",
@@ -984,17 +984,17 @@
   "24": [
    "Li and colleagues tested cultured sensory–motor synapses while introducing **BAPTA**, a fast calcium buffer, into the motor neuron. Intracellular calcium regulates signaling inside a cell without being the extracellular transmitter. Introducing the buffer into the postsynaptic cell tests whether facilitation needs a change beyond the sensory terminal.",
    "A ten-minute application of 10 μM serotonin enhanced control EPSPs. Buffering postsynaptic calcium reduced the facilitation, most clearly after serotonin was removed. Motor-cell injections without the buffer and test-only conditions showed that the effect arises from the calcium buffer rather than from recording or repeated testing.",
-   "Facilitation therefore needs a postsynaptic calcium signal in this preparation. The quantal and cAMP results from the sensory side remain valid, and a single connection can change on both sides at once."
+   "Facilitation therefore needs a postsynaptic calcium signal in this preparation. The quantal and cAMP results from the sensory side remain valid, and a single connection can change on both sides at once. Together, the two sides show that facilitation is shared across the synapse, not confined to the sensory terminal."
   ],
   "25": [
    "The **endoplasmic reticulum** stores calcium that can be released into the cytoplasm through regulated channels. Li and colleagues injected heparin into motor neurons to block **inositol trisphosphate receptors**, or IP3 receptors, one class of intracellular calcium-release channel. They then measured serotonin-dependent EPSP enhancement.",
    "Postsynaptic heparin reduced facilitation below the control level. Other store-related manipulations, including changes to ryanodine receptors, gave the same result. These channels control the intracellular calcium available to the cell, which is distinct from the voltage-gated calcium entry that triggers release at sensory terminals.",
-   "Several independent interventions converge on the same calcium-store pathway, with each one timed to the same serotonin exposure. The postsynaptic route from serotonin to enhanced transmission runs through these stores."
+   "Several independent interventions converge on the same calcium-store pathway, with each one timed to the same serotonin exposure. The postsynaptic route from serotonin to enhanced transmission runs through these stores. Each intervention reaches the same endpoint, so the stores can be treated as one shared step."
   ],
   "26": [
    "**Exocytosis** is the fusion of an intracellular membrane compartment with the cell surface. Li and colleagues injected botulinum toxin B into motor neurons to block this process. Blocking exocytosis in the postsynaptic cell targets membrane trafficking there, not transmitter-vesicle fusion in the sensory neuron.",
    "During and after a 10 min serotonin exposure, control synapses showed enhanced EPSPs. Postsynaptic toxin disrupted the lasting component after serotonin was removed. Recordings in the ganglia separated AMPA-type and NMDA-type glutamate-receptor contributions, and the later enhancement involved the AMPA-mediated response.",
-   "Calcium-dependent insertion or regulation of postsynaptic AMPA receptors fits these results. Presynaptic release enhancement and postsynaptic receptor regulation can work together, and they differ in onset and persistence."
+   "Calcium-dependent insertion or regulation of postsynaptic AMPA receptors fits these results. Presynaptic release enhancement and postsynaptic receptor regulation can work together, and they differ in onset and persistence. The two mechanisms can be ordered in time by measuring each one at successive intervals after serotonin."
   ],
   "27": [
    "Li and colleagues moved the postsynaptic toxin experiment from culture into a reduced siphon-withdrawal preparation. Repeated siphon taps produced habituation, followed by tail shock and further siphon tests. Identified motor neurons were injected with botulinum toxin B before the behavioral sequence.",
@@ -1019,47 +1019,47 @@
   "31": [
    "Bailey and Chen labeled the identified gill motor neuron L7 and the sensory neurons that contact it, then examined the junctions with electron microscopy. Electron micrographs resolved labeled sensory terminals contacting labeled motor-cell processes. Trained and control animals were examined under the same conditions.",
    "Long-term sensitization increased the number of presynaptic contacts onto L7. The change came with a corresponding increase in the size of presynaptic swellings and in active zones, the specialized membrane regions that support release. More contacts provide one anatomical route to stronger total input.",
-   "A labeled contact is a structural measure, and its release probability is measured physiologically in the same preparation. The contact addition is linked to the sensitization of the behavior at an identified output cell."
+   "A labeled contact is a structural measure, and its release probability is measured physiologically in the same preparation. The contact addition is linked to the sensitization of the behavior at an identified output cell. Structure and function are therefore recorded in one preparation, so each added contact can be assessed for its release."
   ],
   "32": [
    "**Synapsin** is a protein associated with synaptic vesicles and their organization. Hart and colleagues treated sensory neurons with repeated serotonin and measured synapsin RNA, protein and immunostaining. **Immunostaining** uses antibodies to show where a protein sits within a cell.",
    "Synapsin levels rose after treatment, with brighter staining in sensory-neuron varicosities at 2 h and at 24 h. The time course rose in steps rather than in a steady climb. Measurements in cultured neurons and in nervous tissue placed the rise in presynaptic structures that take part in release.",
-   "Synapsin is a candidate effector that links serotonin-dependent gene regulation to persistent changes in synaptic function. Its requirement is tested by knocking it down in the same cultures."
+   "Synapsin is a candidate effector that links serotonin-dependent gene regulation to persistent changes in synaptic function. Its requirement is tested by knocking it down in the same cultures. Knockdown shows whether synapsin is needed for the enhancement that serotonin produces."
   ],
   "33": [
    "**CREB1**, the cAMP response element-binding protein, is a transcription factor that regulates gene expression by binding DNA. A **promoter** is a DNA region that controls transcription of a gene. Hart and colleagues identified a cAMP response element in the _Aplysia_ synapsin promoter, a site that CREB1 can bind.",
    "A promoter-driven fluorescent reporter increased expression after serotonin treatment. Chromatin immunoprecipitation, which pulls down DNA bound to a chosen protein, found more CREB1 bound to the synapsin promoter. These measurements connect the regulatory sequence, transcription-factor binding and expression level in one chain.",
-   "Serotonin-dependent signaling therefore reaches synapsin production through CREB1 binding at this promoter. Other transcriptional responses of long-term facilitation are assigned to their own target genes."
+   "Serotonin-dependent signaling reaches synapsin production through CREB1 binding at this promoter. Other transcriptional responses of long-term facilitation are assigned to their own target genes. Each target is linked to its own binding site, so the promoter results sit among the other responses."
   ],
   "34": [
    "**Histones** are proteins around which DNA is packaged, and their chemical modifications influence access to regulatory regions. Hart and colleagues examined the synapsin promoter after serotonin treatment with antibodies against CREB1, acetylated histones and histone deacetylase 5. **Acetylation** adds an acetyl group to a protein.",
    "Serotonin increased acetylation of histones H3 and H4 near the promoter and reduced the binding of histone deacetylase 5, an enzyme that removes acetyl groups. CREB1 binding rose in the same region. This pattern favors greater transcriptional access and matches the measured increase in synapsin expression.",
-   "The chromatin changes appear alongside the CREB1 binding in the same region of the promoter. The first modification in this sequence is identified by timing experiments."
+   "The chromatin changes appear alongside the CREB1 binding in the same region of the promoter. Timing experiments identify the first modification in this sequence. The later changes can then be ordered relative to that first step, so the sequence of events is traced in time."
   ],
   "35": [
    "**RNA interference** uses complementary small RNA molecules to reduce expression of a target RNA. Hart and colleagues injected sensory neurons with synapsin-targeting small interfering RNA, or siRNA, and with control siRNA. Serotonin training and EPSP recordings were then carried out in the sensory–motor cocultures.",
    "Targeting synapsin blocked the serotonin-induced rise in its protein and impaired facilitation measured 24 h later. Basal synapsin levels and short-term synaptic responses were measured separately. The knockdown therefore links the induced expression change to the lasting physiological outcome.",
-   "Synapsin is required for facilitation under this protocol, and it is one component of persistent enhancement. Vesicle organization, receptor signaling, transcription and synaptic structure interact with it."
+   "Synapsin is required for facilitation under this protocol, and it is one component of persistent enhancement. Vesicle organization, receptor signaling, transcription and synaptic structure interact with it. Each of these processes can be followed alongside synapsin, so its place in the chain is traced directly."
   ],
   "36": [
    "Lee and colleagues examined **ApCPEB4**, an RNA-binding translation regulator in _Aplysia kurodai_, a related sea-hare species. They attached fluorescent reporters to its 3′ untranslated region, an RNA segment that controls expression without encoding protein sequence.",
    "Severed neurites allowed local responses to be separated from delivery by the cell body. Serotonin increased reporter expression in these isolated processes. Translation-related controls separated this increase from a requirement for new transcription.",
-   "Isolated processes hold a local pool of RNA that responds to modulatory signaling without the nucleus. Local translation therefore adds a control point for facilitation alongside transcription."
+   "Isolated processes hold a local pool of RNA that responds to modulatory signaling without the nucleus. Local translation therefore adds a control point for facilitation alongside transcription. Both control points act on the same synapse, so their contributions can be measured within one preparation."
   ],
   "37": [
    "Lee and colleagues reduced ApCPEB4 expression with target-specific double-stranded RNA and recorded EPSPs in cultured sensory–motor pairs. Five serotonin pulses normally induced facilitation measured 24 h later. ApCPEB4 knockdown blocked this enhancement, while control RNA and knockdown of the earlier-described ApCPEB did not.",
    "Overexpressing ApCPEB4 lowered the threshold for persistent enhancement, so one serotonin pulse supported a response that normally required repeated treatment. Fluorescent labeling and expression measurements were taken alongside the recordings, tying the intervention to the intended protein.",
-   "ApCPEB4 lacks the prion-like domain of ApCPEB and binds different RNA targets. Its role in starting persistent change is distinct from the maintenance role of ApCPEB."
+   "ApCPEB4 lacks the prion-like domain of ApCPEB and binds different RNA targets. Its role in starting persistent change is distinct from the maintenance role of ApCPEB. The two proteins therefore divide the work of persistent change between them, with each one assigned to its own phase."
   ],
   "38": [
    "Lee and colleagues asked whether PKA can phosphorylate ApCPEB4 and whether that change affects facilitation. **Phosphorylation** adds a phosphate group and can change a protein's activity or its partners. Biochemical assays and neuronal expression experiments addressed the two parts of this signaling link.",
    "PKA phosphorylated ApCPEB4. Replacing threonine at position 294 with alanine prevented phosphorylation there and interfered with long-term facilitation. Pharmacological treatments that targeted ERK and protein kinase C had different effects from the PKA-sensitive one, which ties a translation-regulatory protein to a kinase already implicated in serotonin-dependent enhancement.",
-   "The mutant protein changes more than its phosphorylation site, so it is compared with the wild-type protein in the same cultures. The PKA-to-ApCPEB4 link is shown in the cultured connection."
+   "The mutant protein changes more than its phosphorylation site, so it is tested against the wild-type protein in the same cultures. The PKA-to-ApCPEB4 link is shown in the cultured connection. Keeping the mutant and wild-type proteins in one culture holds every other factor fixed."
   ],
   "39": [
    "Kassabov and colleagues identified **ApNT**, an Aplysia neurotrophin, and **ApTrk**, its receptor tyrosine kinase. A **neurotrophin** is a secreted signaling protein that regulates neuronal growth or function. Alternative RNA processing produced ApNT isoforms with different processing and secretion properties.",
    "Tagged isoforms were expressed in sensory–motor cultures and examined with biochemical assays and fluorescence microscopy. Their distributions differed between cell bodies, neurites and secretion-related compartments. The labeling connects each isoform's processing to where it sits in the cell.",
-   "The ApNT isoform with the stronger secretion profile reaches the ApTrk receptor on distant neurites. Receptor activation in those neurites is then tested with functional assays."
+   "The ApNT isoform with the stronger secretion profile reaches the ApTrk receptor on distant neurites. Receptor activation in those neurites is tested with functional assays. Each isoform's reach is therefore linked to its secretion profile at the distant site."
   ],
   "40": [
    "Kassabov and colleagues manipulated ApNT–ApTrk signaling in cultured sensory–motor connections. A **dominant-negative receptor** is an altered receptor that interferes with signaling by the normal receptor. Expressing dominant-negative ApTrk impaired serotonin-induced long-term facilitation and left short-term enhancement intact.",
@@ -1069,12 +1069,12 @@
   "41": [
    "Zhou and colleagues injected CREB1-targeting siRNA into sensory neurons and waited 72 h before applying repeated serotonin. The standard protocol used five 5 min pulses of 50 μM serotonin, and EPSPs were recorded before treatment and at 24 h afterward. Control siRNA and vehicle groups were run in parallel.",
    "CREB1 knockdown impaired long-term facilitation. In the reported comparison, control-RNA synapses reached about 184% of their pretest amplitude, whereas CREB1-siRNA synapses reached about 121%. Basal transmission was measured separately in each group.",
-   "A transcription factor is therefore needed for persistent synaptic enhancement under this protocol. CREB1 works alongside other regulators, and partial loss of it weakens an otherwise effective training pattern."
+   "A transcription factor is therefore needed for persistent synaptic enhancement under this protocol. CREB1 works alongside other regulators, and partial loss of it weakens an otherwise effective training pattern. The regulators act in the same neurons, so their contributions can be measured within one training protocol."
   ],
   "42": [
    "Zhou and colleagues tested a modified serotonin schedule chosen with a signaling model developed earlier. The recorded EPSPs in sensory–motor cultures are the test, and the model's prediction is secondary. The modified schedule partially restored facilitation after CREB1 knockdown.",
    "**Rolipram** inhibits a cAMP phosphodiesterase, the enzyme that breaks cAMP down. At 0.2 μM, rolipram increased the effect of the modified protocol. Standard training, modified training, vehicle, control RNA and target RNA groups were recorded, so the temporal pattern and the drug can each be assessed.",
-   "Rescue was partial, and its size depends on the preparation. Raising cAMP signaling compensates for part of a molecular deficit, and the same recordings identify the neurons in which it occurs."
+   "Rescue was partial, and its size depends on the preparation. Raising cAMP signaling compensates for part of a molecular deficit, and the same recordings identify the neurons in which it occurs. Those recordings place the compensation in the neurons that carry the enhancement."
   ],
   "43": [
    "Chen and colleagues imaged labeled sensory–motor cultures repeatedly, before serotonin training and again at 24 h and 48 h afterward. **Reconsolidation** is the process by which a reactivated memory needs renewed stabilization. Reactivation followed by protein-synthesis inhibition reduced the extra varicosities that the earlier training had added.",
@@ -1084,12 +1084,12 @@
   "44": [
    "Chen and colleagues measured siphon-withdrawal duration after long-term sensitization training, pharmacological disruption and later partial retraining. A **latent memory** is a retained consequence of experience that is not evident in the current response but can still shape later performance.",
    "After a kinase-related intervention reduced the expressed sensitization, three additional training bouts restored a long-lasting response. The same short training had no effect in untrained controls. The difference shows a persistent consequence of the earlier experience that survives the loss of its normal expression.",
-   "Recovery after retraining points to a retained trace of the original training. The retraining response separates a failure to express sensitization from full elimination of the training-dependent change."
+   "Recovery after retraining points to a retained trace of the original training. The retraining response shows that sensitization can be expressed again after the change has been reduced. Full elimination of the training-dependent change would leave no such response, so the retained trace is the basis of recovery."
   ],
   "45": [
    "Pearce and colleagues tested sensitization while varying protein-synthesis and DNA methyltransferase inhibition. **DNA methyltransferases** add methyl groups to DNA and influence gene regulation. Training, drug timing, retention tests and abbreviated retraining separated initial consolidation, later expression and persistence.",
    "Blocking protein synthesis shortly after training allowed later partial training to recover sensitization, whereas blocking synthesis during training did not. Inhibiting DNA methyltransferase after consolidation reduced the retained response and blocked its recovery by the same short training. Retention was tested over days, not during the initial shock sequence.",
-   "Different memory phases depend on different molecular steps. Cellular release, postsynaptic regulation, structural growth and gene regulation each contribute at a different level of this learning system."
+   "Different memory phases depend on different molecular steps. Cellular release, postsynaptic regulation, structural growth and gene regulation each contribute at a different level of this learning system. Each step is tied to its phase, so the phases can be assigned to their molecular causes."
   ]
  }
 }
