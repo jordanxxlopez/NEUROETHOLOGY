@@ -1,0 +1,15 @@
+# Resume NEUR 411 Lecture 92
+
+Make Lecture 92 as a downloadable editable PPTX using the current default branch of connected jordanxxlopez/NEUROETHOLOGY. Refresh safely. Read AGENTS.md and .claude/skills/neuroethology-lecture/SKILL.md; use the exact course/schedule.json title and Date TBD. Do not use a ZIP or outdated guideline snapshot.
+
+Use a variety of animals: the research plan includes treefrogs, tropical crickets and bush-crickets, zebra finches, bats, European starlings, mice, marmosets and zebrafish. No one species should dominate the lecture. Complete the source-PDF gate documented in PAPERS.md before building; never substitute a paper or create a missing figure.
+
+46 slides: title, 44 content, Key takeaways with 5–6 bold-leading exam points. Arial, a new unused permitted theme, no agenda/objectives/next-lecture slides, no metacommentary. Every paragraph teaches mechanisms, circuits or behavior; 3–5 paragraphs per content slide. Caveats only when conclusions change. No em dashes in slide text. Concept-carrying numbers and units only, no p-values, error terms or sample bookkeeping. Full verified references with DOIs in teaching notes, short citations in footers.
+
+Figures are original published article panels cropped directly from PDFs using tools/crop_figure.py, with labels, axes, units, scale bars and colors intact. At least 40 content slides have images and at least 34 have primary article figures. A maximum of 10 real credited web images is allowed where needed. Show anatomical images for named structures. The title-slide animal image must be unused anywhere in prior decks, including other crops or encodings of the same image; document the uniqueness check.
+
+Never generate or draw images, figures, diagrams, illustrations, icons, graphs, models, template curves or reconstructed recordings. Never recolor, tint or modify source scientific content. Image creation tools are not used.
+
+Embed 10–12 useful original academic article videos, 10 preferred, 12 acceptable. Spread clips where useful; adjacent video/image slides are permitted. Only publisher supplementary recordings or author repositories explicitly linked by an article. No YouTube or unrelated web video. Never pad with duplicate or unrelated clips, or count audio-only files as videos. Keep original scene, timing and audio; compatible MP4 conversion is allowed. Exact original movie identifiers, DOI links, credits and license information go in captions, notes and media source metadata. Retain static figures and source-frame posters. Verify full decoding, hashes and PPTX relationships; report interactive playback limitations honestly.
+
+After source verification, create the spec, use tools/build_lecture.py, embed original media, rerun checks and inspect all 46 rendered slides. Record theme usage, commit and push. Publish a complete browser-downloadable PPTX below 40 MB and a clearly static PDF preview. Validate public download response and artifact hash before delivery. Workspace-only file links caused prior download failures and are insufficient for this user.
