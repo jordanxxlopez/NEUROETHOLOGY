@@ -1,3 +1,5 @@
+**Latest corrected download:** [Download the corrected 71-slide PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/97bdec026ea1330f55ad9188dbf8727e2377ec7b/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). This version supersedes the earlier 71-slide file that prompted PowerPoint repair. Microsoft Open XML validation: zero errors. All 71 slides and 38 video placements preserved.
+
 # Expanded Lecture 94 PowerPoint
 
 The expanded deck has 46 slides and 25 embedded videos, including the eight additional excerpts requested by the instructor. The complete PPTX exceeds GitHub’s 100 MiB per-file limit, so its exact bytes are preserved in two parts. Run `python lectures/L94/deliverables/assemble_pptx.py` from the repository root to restore `lectures/L94/deliverables/Neuroethology_Lecture94_FA2026.pptx`. The script verifies every part and the final SHA-256. No codec conversion or media change occurs during assembly.
