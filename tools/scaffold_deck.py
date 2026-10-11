@@ -358,8 +358,9 @@ def add_scaffold(prs, parent_idx, spec, number):
     paragraphs = list(spec["paragraphs"])
     for term in spec.get("bold", []):                     # the defined scientific term, bold on first use
         for k, t in enumerate(paragraphs):
-            if term in t and "**" not in t:
-                paragraphs[k] = t.replace(term, f"**{term}**", 1)
+            hit = re.search(re.escape(term), t, re.I)
+            if hit and "**" not in t:
+                paragraphs[k] = t[:hit.start()] + f"**{hit.group(0)}**" + t[hit.end():]
                 break
         else:
             raise SystemExit(f"bold term {term!r} not found in the paragraphs of the slide after {number}")
