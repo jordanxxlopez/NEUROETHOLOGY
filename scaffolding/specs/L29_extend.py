@@ -197,3 +197,22 @@ OVERRIDE[37] = [
     "The authors identified dyadic and tetradic contacts. In a dyadic contact, one presynaptic specialization faces two postsynaptic profiles. In a tetradic contact, it faces four. GABA staining linked downstream TL neurons to an inhibitory transmitter. These observations show connectivity more directly than light-microscopy overlap. Both observations come from the same complexes.",
     "Synaptic morphology establishes physical contacts. Transmitter staining points to a possible sign of downstream signaling. Receptor identity and activity-dependent effects complete the picture for the navigation computation. Each contact in this study links a presynaptic terminal to specific downstream profiles, which the staining then characterizes. Electron micrographs confirm these contacts.",
 ]
+
+# Insert paragraphs rewritten to teach facts the adjacent body text does not state (see HANDOFF.md).
+INSERT_OVERRIDE = {
+    21: [
+        "Sakura and colleagues repeated the polarization conditioning with ultraviolet, blue and green light. Bees learned the rewarded e-vector under ultraviolet light and not under blue or green light, so the learned response depends on which wavelengths reach the eye. The rewarded and unrewarded e-vectors were kept identical across all three conditions, so the spectral input was the sole difference between them.",
+        "A wavelength-independent task solution would have produced learning under all three colors. The failure under blue and green light therefore points to spectral sensitivity of the polarization input rather than to a harder task. Sucrose responsiveness was tested in a separate control, so reward strength is not the explanation. The spectral dependence is therefore a property of the learned response itself.",
+        "The ultraviolet dependence is a behavioral result, measured in trained bees across the three wavelength conditions. It identifies which part of the spectrum the learned polarization response requires, and it sets the wavelength range that any later test of the dorsal-rim pathway should use. This dependence points to a sensory input the pathway can use, and the next experiment in the sequence traces where that input goes.",
+    ],
+    36: [
+        "Electron microscopy showed that large TuLAL1 terminals contain vesicles and several presynaptic specializations, each facing smaller profiles. Vesicles are membrane-bound structures that store the signaling molecules a terminal releases onto the processes it contacts. In the electron images they appear as small membrane-bound profiles clustered at the presynaptic specialization.",
+        "A dyadic contact is one presynaptic specialization facing two postsynaptic profiles, and a tetradic contact is one facing four. Counting the profiles at each specialization describes the local arrangement of a contact, not the total number of targets a presynaptic neuron has.",
+        "GABA immunostaining associated the downstream TL neurons with an inhibitory transmitter phenotype. That staining makes inhibition a candidate component of the signaling at these contacts, alongside the excitatory input that the terminals convey. The staining identifies a transmitter class, a different measure from the contact geometry described in the first two paragraphs.",
+    ],
+    42: [
+        "Directional divergence measures variation among the waggle runs within a dance. It is a different quantity from a shift in the mean direction a dancer advertises, and the two kinds of error affect followers in different ways. Both measures come from the same set of recorded dances.",
+        "The two measures therefore separate two sources of imprecision. Spread across runs describes how consistently one dancer signals, while bias describes whether the average signal points in the correct direction. Each source of error is measured on its own, so a dancer's consistency and its accuracy are not confused.",
+        "A dance can therefore be precise without being accurate, or accurate without being precise. Identifying which error dominates shows whether a dance is noisy or systematically shifted, and the two readouts answer different questions about the same signal.",
+    ],
+}

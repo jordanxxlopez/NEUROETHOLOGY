@@ -6,27 +6,27 @@
    "title": "Waggle angles vary across repeated runs",
    "bold": [],
    "paragraphs": [
-    "The waggle-run angle is measured relative to vertical on the comb, and vertical stands in for the sun inside the dark hive. Dong and colleagues recorded these angles on the crowded, uneven comb surface. A single dance contains repeated waggle runs, and each run carries its own angle, so the dance produces a distribution of angles rather than one value.",
-    "Repeated runs spread around a mean angle, and the spread is the divergence the team measured. Bees without experienced dancers to follow produced the largest divergence in their first dances. Precision therefore depends on experience, not only on the direction the dancer is signaling. Later tests of the same bees showed improved directional precision.",
-    "A follower must convert the comb-relative angle into a flight direction, and that conversion draws on celestial information outside the hive. The dancer supplies the angle, while the follower supplies the sun's bearing. Both steps together turn a comb angle into a flight route toward the resource. Motor precision limits how exactly the angle is produced in the first place."
+    "The absolute flight bearing also depends on the sun's current position, not on the comb angle alone. Because the sun moves across the day, a fixed food source can call for different waggle-run angles at different times. A dance therefore reflects the sun's position at the moment it is performed, so one site can be advertised with several angles.",
+    "Each waggle run is followed by a return loop that brings the dancer back to the start of the next run. The loop itself is not a second advertised destination, so the straight runs carry the directional information. A follower that tracks the sequence therefore attends to the runs, while the loops only organize the repetition of those runs.",
+    "Divergence among repeated runs measures variation around the advertised angle. A systematic bias in the average bearing is a different error, and the two have different consequences for a follower. An average bearing can be correct while individual runs vary widely, so the spread of runs and their mean angle answer separate questions. The mean angle gives the bearing, and the spread shows reliability."
    ],
    "citation": "Dong et al. (2023)",
    "notes": [
     "Waggle angles vary across repeated runs.",
     [
      "Explanation 1.",
-     "The waggle-run angle is measured relative to vertical on the comb, and vertical stands in for the sun inside the dark hive",
-     "Dong and colleagues recorded these angles on the crowded, uneven comb surface. A single dance contains repeated waggle runs, and each run carries its own angle, so the dance produces a distribution of angles rather than one value."
+     "The absolute flight bearing also depends on the sun's current position, not on the comb angle alone",
+     "Because the sun moves across the day, a fixed food source can call for different waggle-run angles at different times. A dance therefore reflects the sun's position at the moment it is performed, so one site can be advertised with several angles."
     ],
     [
      "Explanation 2.",
-     "Repeated runs spread around a mean angle, and the spread is the divergence the team measured",
-     "Bees without experienced dancers to follow produced the largest divergence in their first dances. Precision therefore depends on experience, not only on the direction the dancer is signaling. Later tests of the same bees showed improved directional precision."
+     "Each waggle run is followed by a return loop that brings the dancer back to the start of the next run",
+     "The loop itself is not a second advertised destination, so the straight runs carry the directional information. A follower that tracks the sequence therefore attends to the runs, while the loops only organize the repetition of those runs."
     ],
     [
      "Explanation 3.",
-     "A follower must convert the comb-relative angle into a flight direction, and that conversion draws on celestial information outside the hive",
-     "The dancer supplies the angle, while the follower supplies the sun's bearing. Both steps together turn a comb angle into a flight route toward the resource. Motor precision limits how exactly the angle is produced in the first place."
+     "Divergence among repeated runs measures variation around the advertised angle",
+     "A systematic bias in the average bearing is a different error, and the two have different consequences for a follower. An average bearing can be correct while individual runs vary widely, so the spread of runs and their mean angle answer separate questions. The mean angle gives the bearing, and the spread shows reliability."
     ],
     [
      "Source.",
@@ -43,27 +43,27 @@
    "title": "Displaced recruits keep the flight vector",
    "bold": [],
    "paragraphs": [
-    "Riley and colleagues released dance followers at sites 200–250 m southwest of the hive, after they had attended dances advertising a feeder 200 m east of the hive. The flight instruction had been decoded at the hive, so the release point was the sole change. Their dances had described the same direction and distance from the hive.",
-    "Displaced bees began with a straight eastward flight, averaging 188 m before search. Their initial heading matched the advertised feeder, not the release point. The bees did not calculate a new bearing from the release site toward the real feeder. Straight flights of this kind were measured in the hive-released recruits as well, averaging 206 m.",
-    "The dance therefore carries a flight instruction that is tied to the hive's position. A vector from one origin leads to a different endpoint when executed elsewhere. Familiar landmarks can refine the search later, particularly in landscapes with many recognizable features. Riley's landscape was sparse, so the recruit's search depended on the flight vector."
+    "The harmonic radar transponder marks where the bee is, not a neural signal, so each track is a record of position over time. Reading a recruit's flight therefore means reading its path through the landscape. Each track also begins at the point where the recruit was released, so the starting site is part of the record.",
+    "Search counts as a genuine part of recruitment rather than an error-free continuation of the initial vector. Its later phase therefore belongs to the navigation itself, not to noise in the endpoint data. Recruits that search follow a different routine from those flying straight, and both phases belong to the same recruitment event. Counting that phase keeps the full recruitment event in view.",
+    "Ground velocity combines the bee's movement through the air with air movement over the ground. Air drift can push the heading away from the destination direction, so heading and destination are different quantities. Measuring both allows the two to be told apart, and the difference between them is what the recruit corrects for. Both must be kept separate to read a track."
    ],
    "citation": "Riley et al. (2005)",
    "notes": [
     "Displaced recruits keep the flight vector.",
     [
      "Explanation 1.",
-     "Riley and colleagues released dance followers at sites 200–250 m southwest of the hive, after they had attended dances advertising a feeder 200 m east of the hive",
-     "The flight instruction had been decoded at the hive, so the release point was the sole change. Their dances had described the same direction and distance from the hive."
+     "The harmonic radar transponder marks where the bee is, not a neural signal, so each track is a record of position over time",
+     "Reading a recruit's flight therefore means reading its path through the landscape. Each track also begins at the point where the recruit was released, so the starting site is part of the record."
     ],
     [
      "Explanation 2.",
-     "Displaced bees began with a straight eastward flight, averaging 188 m before search",
-     "Their initial heading matched the advertised feeder, not the release point. The bees did not calculate a new bearing from the release site toward the real feeder. Straight flights of this kind were measured in the hive-released recruits as well, averaging 206 m."
+     "Search counts as a genuine part of recruitment rather than an error-free continuation of the initial vector",
+     "Its later phase therefore belongs to the navigation itself, not to noise in the endpoint data. Recruits that search follow a different routine from those flying straight, and both phases belong to the same recruitment event. Counting that phase keeps the full recruitment event in view."
     ],
     [
      "Explanation 3.",
-     "The dance therefore carries a flight instruction that is tied to the hive's position",
-     "A vector from one origin leads to a different endpoint when executed elsewhere. Familiar landmarks can refine the search later, particularly in landscapes with many recognizable features. Riley's landscape was sparse, so the recruit's search depended on the flight vector."
+     "Ground velocity combines the bee's movement through the air with air movement over the ground",
+     "Air drift can push the heading away from the destination direction, so heading and destination are different quantities. Measuring both allows the two to be told apart, and the difference between them is what the recruit corrects for. Both must be kept separate to read a track."
     ],
     [
      "Source.",
@@ -80,27 +80,27 @@
    "title": "Tunnel texture drives the visual odometer",
    "bold": [],
    "paragraphs": [
-    "Srinivasan and colleagues compared outdoor dances with dances after brief tunnel flights. The tunnel was 6.4 m long, 11 cm wide and 20 cm high, so the walls were close to the flying bee. Random black-and-white texture covered the walls and floor, and a mesh ceiling allowed the sky to be seen. The feeder sat 6 m into the tunnel.",
-    "Returning bees produced waggle dances after this short passage, even though an equally short outdoor journey normally produces round dances. Dance type therefore depends on the visual experience gathered along the route, not only on physical length.",
-    "A visual odometer estimates distance from optic flow, the image motion produced by self-motion. Its readout is the duration of the waggle phase. Dance duration therefore encodes the visually experienced distance, which can differ from the physical distance flown. The striped-tunnel control keeps the feeder location fixed while changing the texture."
+    "Waggle duration is the measured motor output of the dance. The texture contrast addresses distance estimation rather than reward quality, so a change in dance type reflects the visual input. Followers decode the dance, so the difference reaches them as a change in the message they receive. Reward quality was not the variable under test.",
+    "A tunnel flight is interpreted through the outdoor relation without being equated with an ordinary outdoor flight. The tunnel result is therefore a reading of the signal, not a claim about how far the bee flew outdoors. The dance itself is the only evidence that the reading uses, so the inference stays tied to the signal.",
+    "Stripes and random texture impose different visual motion while the target location stays the same. The dance type therefore reflects the visual input received along the route, with the physical destination held fixed. The texture comparison isolates visual input from reward and location within a single design. Sensory input is the only variable that changes."
    ],
    "citation": "Srinivasan et al. (2000)",
    "notes": [
     "Tunnel texture drives the visual odometer.",
     [
      "Explanation 1.",
-     "Srinivasan and colleagues compared outdoor dances with dances after brief tunnel flights",
-     "The tunnel was 6.4 m long, 11 cm wide and 20 cm high, so the walls were close to the flying bee. Random black-and-white texture covered the walls and floor, and a mesh ceiling allowed the sky to be seen. The feeder sat 6 m into the tunnel."
+     "Waggle duration is the measured motor output of the dance",
+     "The texture contrast addresses distance estimation rather than reward quality, so a change in dance type reflects the visual input. Followers decode the dance, so the difference reaches them as a change in the message they receive. Reward quality was not the variable under test."
     ],
     [
      "Explanation 2.",
-     "Returning bees produced waggle dances after this short passage, even though an equally short outdoor journey normally produces round dances",
-     "Dance type therefore depends on the visual experience gathered along the route, not only on physical length."
+     "A tunnel flight is interpreted through the outdoor relation without being equated with an ordinary outdoor flight",
+     "The tunnel result is therefore a reading of the signal, not a claim about how far the bee flew outdoors. The dance itself is the only evidence that the reading uses, so the inference stays tied to the signal."
     ],
     [
      "Explanation 3.",
-     "A visual odometer estimates distance from optic flow, the image motion produced by self-motion",
-     "Its readout is the duration of the waggle phase. Dance duration therefore encodes the visually experienced distance, which can differ from the physical distance flown. The striped-tunnel control keeps the feeder location fixed while changing the texture."
+     "Stripes and random texture impose different visual motion while the target location stays the same",
+     "The dance type therefore reflects the visual input received along the route, with the physical destination held fixed. The texture comparison isolates visual input from reward and location within a single design. Sensory input is the only variable that changes."
     ],
     [
      "Source.",
@@ -117,27 +117,27 @@
    "title": "Short tunnel journeys signal long distances",
    "bold": [],
    "paragraphs": [
-    "Srinivasan and colleagues used the outdoor calibration to read dances that followed tunnel passages. The first arrangement had 41 m of total travel, with 6 m inside the tunnel. Its mean waggle duration of 528.8 ms corresponded to about 230 m outdoors, far beyond the physical route.",
-    "The second arrangement moved the tunnel nearer the hive and covered 12 m in total. Its mean duration of 441.2 ms corresponded to about 184 m. Both passages therefore produced an outdoor-equivalent distance many times the journey actually flown.",
-    "The tunnel's close textured surfaces amplify the visual motion that the bee experiences. Waggle duration therefore records visual surroundings as well as physical meters. The 184 m and 230 m values are outputs of the authors' calibration, rather than records of what a bee experiences."
+    "The tunnel results establish a visual dependence of the signal without requiring any claim that the bee perceived meters. The duration itself is a measured motor output, and the outdoor relation gives that output its distance reading. The signal therefore carries information about the visual route, not about the bee's sense of length. This keeps the interpretation on the signal side.",
+    "This relation is applied to the tunnel passages without treating them as ordinary outdoor flights. The reading therefore describes what the dance signals about the route, not a measured outdoor journey. The calibration itself was measured on outdoor feeders, so the tunnel values are set against an independent outdoor scale. Both arrangements sit on the same scale.",
+    "Two arrangements with different outdoor approach lengths produced readings that both exceed the physical journey. Their shared pattern points to the visual surroundings as the source of the inflated signal, consistent with the close textured walls both passages shared. Neither reading depends on the length actually flown outdoors, because both values come from the same calibration."
    ],
    "citation": "Srinivasan et al. (2000)",
    "notes": [
     "Short tunnel journeys signal long distances.",
     [
      "Explanation 1.",
-     "Srinivasan and colleagues used the outdoor calibration to read dances that followed tunnel passages",
-     "The first arrangement had 41 m of total travel, with 6 m inside the tunnel. Its mean waggle duration of 528.8 ms corresponded to about 230 m outdoors, far beyond the physical route."
+     "The tunnel results establish a visual dependence of the signal without requiring any claim that the bee perceived meters",
+     "The duration itself is a measured motor output, and the outdoor relation gives that output its distance reading. The signal therefore carries information about the visual route, not about the bee's sense of length. This keeps the interpretation on the signal side."
     ],
     [
      "Explanation 2.",
-     "The second arrangement moved the tunnel nearer the hive and covered 12 m in total",
-     "Its mean duration of 441.2 ms corresponded to about 184 m. Both passages therefore produced an outdoor-equivalent distance many times the journey actually flown."
+     "This relation is applied to the tunnel passages without treating them as ordinary outdoor flights",
+     "The reading therefore describes what the dance signals about the route, not a measured outdoor journey. The calibration itself was measured on outdoor feeders, so the tunnel values are set against an independent outdoor scale. Both arrangements sit on the same scale."
     ],
     [
      "Explanation 3.",
-     "The tunnel's close textured surfaces amplify the visual motion that the bee experiences",
-     "Waggle duration therefore records visual surroundings as well as physical meters. The 184 m and 230 m values are outputs of the authors' calibration, rather than records of what a bee experiences."
+     "Two arrangements with different outdoor approach lengths produced readings that both exceed the physical journey",
+     "Their shared pattern points to the visual surroundings as the source of the inflated signal, consistent with the close textured walls both passages shared. Neither reading depends on the length actually flown outdoors, because both values come from the same calibration."
     ],
     [
      "Source.",
@@ -154,27 +154,27 @@
    "title": "Closing the tunnel stops recruitment",
    "bold": [],
    "paragraphs": [
-    "For the first 30 min, the closed tunnel kept dancers from advertising the tunnel journey. Recruits did not arrive at the control stations during this period. Opening the tunnel started dancing and recruitment at the stations. The stations offered neither food reward nor added scent, so arrivals reflect the dance alone.",
-    "The northwestern test used the same logic: a closed tunnel before each trial prevented the relevant dances and recruitment. Each trial therefore links a specific dance to the search it triggers. Recruits searched at distances consistent with the route-specific visual calibration. The result connects dance decoding with the followers' own visual navigation.",
-    "The search site is thus a measure of how followers decode the dance. The decoding depends on the visual conditions that each route provides, so no single distance dictionary applies. The northwestern peak near 140 m matched that route's calibration of about 157 m. The southern calibration would have predicted about 52 m."
+    "The dancer and the follower can share a visual interpretation because both navigate comparable terrain along the route. That shared terrain links the advertised tunnel distance to the search that follows. The tunnel distance is therefore decoded in visual terms rather than in meters. The link depends on the terrain both bees experience. Both bees use that terrain for orientation.",
+    "Bees arriving at the control stations were captured, so their own return dances could not add recruitment to a station. The search pattern therefore tests how followers decode a dance, independently of the dancer's physical flight length. Station arrivals measure the decoding alone, since the stations offered no reward. Recruitment therefore reflects the dance information alone.",
+    "The physical feeder distance and the searched distance are experimentally distinct quantities. Recruit searches measure the followers' interpretation of the dance, not the feeder's physical position. Each search site is therefore a readout of a visual calibration. The experiment reports searched distances in meters from the hive. Searches are reported as distances from the hive."
    ],
    "citation": "Esch et al. (2001)",
    "notes": [
     "Closing the tunnel stops recruitment.",
     [
      "Explanation 1.",
-     "For the first 30 min, the closed tunnel kept dancers from advertising the tunnel journey",
-     "Recruits did not arrive at the control stations during this period. Opening the tunnel started dancing and recruitment at the stations. The stations offered neither food reward nor added scent, so arrivals reflect the dance alone."
+     "The dancer and the follower can share a visual interpretation because both navigate comparable terrain along the route",
+     "That shared terrain links the advertised tunnel distance to the search that follows. The tunnel distance is therefore decoded in visual terms rather than in meters. The link depends on the terrain both bees experience. Both bees use that terrain for orientation."
     ],
     [
      "Explanation 2.",
-     "The northwestern test used the same logic: a closed tunnel before each trial prevented the relevant dances and recruitment",
-     "Each trial therefore links a specific dance to the search it triggers. Recruits searched at distances consistent with the route-specific visual calibration. The result connects dance decoding with the followers' own visual navigation."
+     "Bees arriving at the control stations were captured, so their own return dances could not add recruitment to a station",
+     "The search pattern therefore tests how followers decode a dance, independently of the dancer's physical flight length. Station arrivals measure the decoding alone, since the stations offered no reward. Recruitment therefore reflects the dance information alone."
     ],
     [
      "Explanation 3.",
-     "The search site is thus a measure of how followers decode the dance",
-     "The decoding depends on the visual conditions that each route provides, so no single distance dictionary applies. The northwestern peak near 140 m matched that route's calibration of about 157 m. The southern calibration would have predicted about 52 m."
+     "The physical feeder distance and the searched distance are experimentally distinct quantities",
+     "Recruit searches measure the followers' interpretation of the dance, not the feeder's physical position. Each search site is therefore a readout of a visual calibration. The experiment reports searched distances in meters from the hive. Searches are reported as distances from the hive."
     ],
     [
      "Source.",
@@ -191,27 +191,27 @@
    "title": "Land scenes carry more image contrast",
    "bold": [],
    "paragraphs": [
-    "Tautz and colleagues photographed land and water scenes along the experimental routes. Contrast was calculated from intensity variation inside defined image windows, rather than estimated by eye. Each scene therefore produced a numeric value that could be compared across habitats. The original photographs keep the investigators' measurement windows.",
-    "Mean contrast was higher over land than over water. The low-contrast water segment coincided with slower accumulation of waggle duration, while terrestrial segments supported larger increases. Contrast offers a plausible link between natural image structure and effective optic flow.",
-    "Controlled tunnel-texture experiments change visual motion directly. Field measurements instead show the dependence under ordinary foraging conditions. The two approaches therefore test the same odometer from opposite directions. Both lines of evidence point to the same conclusion about optic flow."
+    "Low contrast can weaken motion signals even when the animal keeps moving. The water segments therefore reduce the effective image motion the odometer receives, even though the bee continues flying across them. The odometer's rate of accumulation is set by that input, so a slower rise in duration over water follows from the image structure.",
+    "The photographs document the actual terrain rather than a reconstructed visual stimulus. Their measurement windows therefore reflect the scene a bee flew over, which gives the contrast values a direct link to real foraging routes. Each photograph was taken along the route a recruit actually flew. Those windows were applied to every scene in the same way.",
+    "A correlation across route segments also tracks flight height, viewing direction and surface texture. Those factors vary together along a route, so contrast is one of several linked variables. The controlled tunnel-texture experiments supply a separate intervention on visual motion, which isolates one variable at a time. The tunnel manipulation alone changes texture while holding the rest of the route fixed."
    ],
    "citation": "Tautz et al. (2004)",
    "notes": [
     "Land scenes carry more image contrast.",
     [
      "Explanation 1.",
-     "Tautz and colleagues photographed land and water scenes along the experimental routes",
-     "Contrast was calculated from intensity variation inside defined image windows, rather than estimated by eye. Each scene therefore produced a numeric value that could be compared across habitats. The original photographs keep the investigators' measurement windows."
+     "Low contrast can weaken motion signals even when the animal keeps moving",
+     "The water segments therefore reduce the effective image motion the odometer receives, even though the bee continues flying across them. The odometer's rate of accumulation is set by that input, so a slower rise in duration over water follows from the image structure."
     ],
     [
      "Explanation 2.",
-     "Mean contrast was higher over land than over water",
-     "The low-contrast water segment coincided with slower accumulation of waggle duration, while terrestrial segments supported larger increases. Contrast offers a plausible link between natural image structure and effective optic flow."
+     "The photographs document the actual terrain rather than a reconstructed visual stimulus",
+     "Their measurement windows therefore reflect the scene a bee flew over, which gives the contrast values a direct link to real foraging routes. Each photograph was taken along the route a recruit actually flew. Those windows were applied to every scene in the same way."
     ],
     [
      "Explanation 3.",
-     "Controlled tunnel-texture experiments change visual motion directly",
-     "Field measurements instead show the dependence under ordinary foraging conditions. The two approaches therefore test the same odometer from opposite directions. Both lines of evidence point to the same conclusion about optic flow."
+     "A correlation across route segments also tracks flight height, viewing direction and surface texture",
+     "Those factors vary together along a route, so contrast is one of several linked variables. The controlled tunnel-texture experiments supply a separate intervention on visual motion, which isolates one variable at a time. The tunnel manipulation alone changes texture while holding the rest of the route fixed."
     ],
     [
      "Source.",
@@ -228,27 +228,27 @@
    "title": "Tracing links the dorsal rim to the MEDRA",
    "bold": [],
    "paragraphs": [
-    "Zeller and colleagues injected fluorescent tracers into the dorsal rim of the honeybee eye. The labeled input reached a distinct dorsal-medulla compartment called the MEDRA. Neighboring medulla regions were distinguished by complementary injections and synapsin labeling. The published micrographs keep anatomical orientation and micrometer scale bars.",
-    "Sakura's occlusion experiment tested the same region from a behavioral angle. Covering the dorsal rim eliminated e-vector learning, whereas covering the rest of the eye left it intact. Anatomy and behavior therefore support the same pathway from opposite ends.",
-    "Input from the dorsal rim therefore enters the visual system through a specialized compartment. Such an entry pathway identifies where polarization-associated signals first arrive in the optic lobe. Tracing reveals this connection, while the sky-compass response is tested separately."
+    "Sakura and colleagues repeated the polarization conditioning with ultraviolet, blue and green light. Bees learned the rewarded e-vector under ultraviolet light and not under blue or green light, so the learned response depends on which wavelengths reach the eye. The rewarded and unrewarded e-vectors were kept identical across all three conditions, so the spectral input was the sole difference between them.",
+    "A wavelength-independent task solution would have produced learning under all three colors. The failure under blue and green light therefore points to spectral sensitivity of the polarization input rather than to a harder task. Sucrose responsiveness was tested in a separate control, so reward strength is not the explanation. The spectral dependence is therefore a property of the learned response itself.",
+    "The ultraviolet dependence is a behavioral result, measured in trained bees across the three wavelength conditions. It identifies which part of the spectrum the learned polarization response requires, and it sets the wavelength range that any later test of the dorsal-rim pathway should use. This dependence points to a sensory input the pathway can use, and the next experiment in the sequence traces where that input goes."
    ],
    "citation": "Sakura et al. (2012); Zeller et al. (2015)",
    "notes": [
     "Tracing links the dorsal rim to the MEDRA.",
     [
      "Explanation 1.",
-     "Zeller and colleagues injected fluorescent tracers into the dorsal rim of the honeybee eye",
-     "The labeled input reached a distinct dorsal-medulla compartment called the MEDRA. Neighboring medulla regions were distinguished by complementary injections and synapsin labeling. The published micrographs keep anatomical orientation and micrometer scale bars."
+     "Sakura and colleagues repeated the polarization conditioning with ultraviolet, blue and green light",
+     "Bees learned the rewarded e-vector under ultraviolet light and not under blue or green light, so the learned response depends on which wavelengths reach the eye. The rewarded and unrewarded e-vectors were kept identical across all three conditions, so the spectral input was the sole difference between them."
     ],
     [
      "Explanation 2.",
-     "Sakura's occlusion experiment tested the same region from a behavioral angle",
-     "Covering the dorsal rim eliminated e-vector learning, whereas covering the rest of the eye left it intact. Anatomy and behavior therefore support the same pathway from opposite ends."
+     "A wavelength-independent task solution would have produced learning under all three colors",
+     "The failure under blue and green light therefore points to spectral sensitivity of the polarization input rather than to a harder task. Sucrose responsiveness was tested in a separate control, so reward strength is not the explanation. The spectral dependence is therefore a property of the learned response itself."
     ],
     [
      "Explanation 3.",
-     "Input from the dorsal rim therefore enters the visual system through a specialized compartment",
-     "Such an entry pathway identifies where polarization-associated signals first arrive in the optic lobe. Tracing reveals this connection, while the sky-compass response is tested separately."
+     "The ultraviolet dependence is a behavioral result, measured in trained bees across the three wavelength conditions",
+     "It identifies which part of the spectrum the learned polarization response requires, and it sets the wavelength range that any later test of the dorsal-rim pathway should use. This dependence points to a sensory input the pathway can use, and the next experiment in the sequence traces where that input goes."
     ],
     [
      "Source.",
@@ -266,27 +266,27 @@
    "title": "Polarization axis sets the dance axis",
    "bold": [],
    "paragraphs": [
-    "Evangelista and colleagues trained bees through a 12 m textured tunnel with ultraviolet-transmitting polarizers overhead. A diffuser removed direct sight of the sun and overhead landmarks. The artificial polarization pattern therefore served as the sole celestial cue. Transverse and axial polarizations were presented in separate groups of bees. Each group's waggle runs were then measured on the comb.",
-    "Transverse polarization shifted the waggle runs to a vertical axis on the comb, and axial polarization shifted them to a horizontal axis. The mean axes were about 91.7° and 1.3° relative to horizontal. The dance direction is therefore set by the polarization orientation. The axis constrains the direction without specifying one heading.",
-    "A single e-vector carries a 180° ambiguity, so the same axis represents opposite travel directions. The bees' dances advertised both alternatives. The result links polarized flight input to the communicated direction, while showing that an axis of headings differs from a fully sun-referenced bearing."
+    "The polarizer orientation changed while the tunnel direction stayed fixed, so the two groups differed only in the polarization pattern. Any difference between their dances therefore came from that pattern. Both groups flew the same textured tunnel, and their dances were measured on the comb after training. The diffuser was used in both groups, which holds the sky cue constant for both groups.",
+    "The original article provides the preparation images and the measured dance distributions. The direction plots in this deck were not reconstructed from raw data, so the reported axes are the authors' own values. The mean axes were measured separately for the transverse and axial groups. The authors' numbers are reported directly in the source. Both values come from that source.",
+    "The signal therefore carries an orientation on the comb, and the sign of the direction is missing. Each group's waggle runs came from the same comb and were measured the same way, so the two axes are directly comparable. Such a signal narrows the possible headings to one line on the comb. The axis carries the information the bees conveyed."
    ],
    "citation": "Evangelista et al. (2014)",
    "notes": [
     "Polarization axis sets the dance axis.",
     [
      "Explanation 1.",
-     "Evangelista and colleagues trained bees through a 12 m textured tunnel with ultraviolet-transmitting polarizers overhead",
-     "A diffuser removed direct sight of the sun and overhead landmarks. The artificial polarization pattern therefore served as the sole celestial cue. Transverse and axial polarizations were presented in separate groups of bees. Each group's waggle runs were then measured on the comb."
+     "The polarizer orientation changed while the tunnel direction stayed fixed, so the two groups differed only in the polarization pattern",
+     "Any difference between their dances therefore came from that pattern. Both groups flew the same textured tunnel, and their dances were measured on the comb after training. The diffuser was used in both groups, which holds the sky cue constant for both groups."
     ],
     [
      "Explanation 2.",
-     "Transverse polarization shifted the waggle runs to a vertical axis on the comb, and axial polarization shifted them to a horizontal axis",
-     "The mean axes were about 91.7° and 1.3° relative to horizontal. The dance direction is therefore set by the polarization orientation. The axis constrains the direction without specifying one heading."
+     "The original article provides the preparation images and the measured dance distributions",
+     "The direction plots in this deck were not reconstructed from raw data, so the reported axes are the authors' own values. The mean axes were measured separately for the transverse and axial groups. The authors' numbers are reported directly in the source. Both values come from that source."
     ],
     [
      "Explanation 3.",
-     "A single e-vector carries a 180° ambiguity, so the same axis represents opposite travel directions",
-     "The bees' dances advertised both alternatives. The result links polarized flight input to the communicated direction, while showing that an axis of headings differs from a fully sun-referenced bearing."
+     "The signal therefore carries an orientation on the comb, and the sign of the direction is missing",
+     "Each group's waggle runs came from the same comb and were measured the same way, so the two axes are directly comparable. Such a signal narrows the possible headings to one line on the comb. The axis carries the information the bees conveyed."
     ],
     [
      "Source.",
@@ -303,27 +303,27 @@
    "title": "Cloud cover removes direct sun sight",
    "bold": [],
    "paragraphs": [
-    "Dyer and Dickinson tested both groups under a cloudy sky. Under those conditions the sun was not visible, so visual access to it could not explain the difference between groups. Their dances therefore reflected learned information about the sun's course. Experience-restricted bees oriented to a morning-afternoon pattern, while full-day bees tracked the local course.",
-    "Fully experienced bees' solar estimates followed the continuously changing local sun course. Bees with afternoon-only experience instead used a coarse pattern of the sun's movement. The difference is a refinement of a broad expectation rather than an exact memory of each hourly position. Experience thus sharpens the temporal reference that bees use for sun-compass orientation.",
-    "The sun's horizontal bearing changes at a variable rate with time, latitude and season. A universal constant angular-rate correction is therefore inadequate. Experience improves the temporal reference used for navigation, making the calibration learned rather than fixed. Bees therefore calibrate the reference to the local sun course over time."
+    "The actual daily course of the sun was known independently from astronomical position. The bees' dances can therefore be judged by a reference calculated from astronomy. The two groups' dance orientations can then be checked against that reference across the test, which makes the astronomical course an independent standard. The astronomical course is the reference for the dances.",
+    "Direction in this experiment was inferred from dances relative to a known food route. No electrode recorded a sun representation in the bees, so the solar estimate comes from the dance orientation alone. The inference therefore rests on what the dancers communicated, not on neural recordings. Dance orientation is the only measured quantity in this comparison.",
+    "Shared cloud cover controlled the immediate celestial cues available to both groups. The remaining difference between the two dance patterns therefore reflects the bees' training history under matched sky conditions. Both groups were tested on the same cloudy day. The bees' flight histories were the factor that differed. Sky conditions were identical for both groups."
    ],
    "citation": "Dyer & Dickinson (1994)",
    "notes": [
     "Cloud cover removes direct sun sight.",
     [
      "Explanation 1.",
-     "Dyer and Dickinson tested both groups under a cloudy sky",
-     "Under those conditions the sun was not visible, so visual access to it could not explain the difference between groups. Their dances therefore reflected learned information about the sun's course. Experience-restricted bees oriented to a morning-afternoon pattern, while full-day bees tracked the local course."
+     "The actual daily course of the sun was known independently from astronomical position",
+     "The bees' dances can therefore be judged by a reference calculated from astronomy. The two groups' dance orientations can then be checked against that reference across the test, which makes the astronomical course an independent standard. The astronomical course is the reference for the dances."
     ],
     [
      "Explanation 2.",
-     "Fully experienced bees' solar estimates followed the continuously changing local sun course",
-     "Bees with afternoon-only experience instead used a coarse pattern of the sun's movement. The difference is a refinement of a broad expectation rather than an exact memory of each hourly position. Experience thus sharpens the temporal reference that bees use for sun-compass orientation."
+     "Direction in this experiment was inferred from dances relative to a known food route",
+     "No electrode recorded a sun representation in the bees, so the solar estimate comes from the dance orientation alone. The inference therefore rests on what the dancers communicated, not on neural recordings. Dance orientation is the only measured quantity in this comparison."
     ],
     [
      "Explanation 3.",
-     "The sun's horizontal bearing changes at a variable rate with time, latitude and season",
-     "A universal constant angular-rate correction is therefore inadequate. Experience improves the temporal reference used for navigation, making the calibration learned rather than fixed. Bees therefore calibrate the reference to the local sun course over time."
+     "Shared cloud cover controlled the immediate celestial cues available to both groups",
+     "The remaining difference between the two dance patterns therefore reflects the bees' training history under matched sky conditions. Both groups were tested on the same cloudy day. The bees' flight histories were the factor that differed. Sky conditions were identical for both groups."
     ],
     [
      "Source.",
@@ -340,27 +340,27 @@
    "title": "Anesthesia delays the hive's activity rhythm",
    "bold": [],
    "paragraphs": [
-    "Cheeseman and colleagues measured hive activity under constant dim light. Under constant dim light, the ordinary day-night cycle is removed as the immediate cause of the shifted rhythm. Six hours of daytime anesthesia delayed daily activity and altered rhythmic gene expression in sampled brains. The hive's activity phase shifted by 5.3 h.",
-    "Messenger RNA is the transcript used to produce a gene's protein. The reported delays were 4.9 h for mammalian-type cryptochrome messenger RNA and 4.3 h for period messenger RNA. Clock gene expression remained broadly constitutive. The delays fit a phase shift of the whole daily rhythm, not a pause in every process.",
-    "Six hours of anesthesia during subjective night produced no comparable delay. The time-dependent effect points to disturbance of the circadian oscillator. Whole-brain expression averages over many cells, which hides the cells that deliver time information to a compass pathway. Timing of the anesthesia therefore matters for the phase of the rhythm."
+    "Cryptochrome and period expression were sampled across the daily cycle rather than at a single time after treatment. A sampling schedule of this kind shows the whole rhythm, not a snapshot of one moment in the day. Sampling across the day sets the timing of each measurement, so a phase shift can be seen directly.",
+    "A phase shift changes when the rhythm peaks, not simply whether a gene is expressed. A delay in the rhythm therefore appears as a change in timing, and expression levels can remain similar while their peaks move. Shifts in timing are the quantity that matters here, not the on-off state of each gene. Peak timing is what a phase shift moves.",
+    "Both the anesthetic target and the cells supplying timing to the compass pathway are left unidentified here. Averaging over whole brains hides which cells those are, so the mechanism stays open. This study measured the hive, not individual cells, and identifying the cells is required before the timing signal can be traced. The cells are the open question here."
    ],
    "citation": "Cheeseman et al. (2012)",
    "notes": [
     "Anesthesia delays the hive's activity rhythm.",
     [
      "Explanation 1.",
-     "Cheeseman and colleagues measured hive activity under constant dim light",
-     "Under constant dim light, the ordinary day-night cycle is removed as the immediate cause of the shifted rhythm. Six hours of daytime anesthesia delayed daily activity and altered rhythmic gene expression in sampled brains. The hive's activity phase shifted by 5.3 h."
+     "Cryptochrome and period expression were sampled across the daily cycle rather than at a single time after treatment",
+     "A sampling schedule of this kind shows the whole rhythm, not a snapshot of one moment in the day. Sampling across the day sets the timing of each measurement, so a phase shift can be seen directly."
     ],
     [
      "Explanation 2.",
-     "Messenger RNA is the transcript used to produce a gene's protein",
-     "The reported delays were 4.9 h for mammalian-type cryptochrome messenger RNA and 4.3 h for period messenger RNA. Clock gene expression remained broadly constitutive. The delays fit a phase shift of the whole daily rhythm, not a pause in every process."
+     "A phase shift changes when the rhythm peaks, not simply whether a gene is expressed",
+     "A delay in the rhythm therefore appears as a change in timing, and expression levels can remain similar while their peaks move. Shifts in timing are the quantity that matters here, not the on-off state of each gene. Peak timing is what a phase shift moves."
     ],
     [
      "Explanation 3.",
-     "Six hours of anesthesia during subjective night produced no comparable delay",
-     "The time-dependent effect points to disturbance of the circadian oscillator. Whole-brain expression averages over many cells, which hides the cells that deliver time information to a compass pathway. Timing of the anesthesia therefore matters for the phase of the rhythm."
+     "Both the anesthetic target and the cells supplying timing to the compass pathway are left unidentified here",
+     "Averaging over whole brains hides which cells those are, so the mechanism stays open. This study measured the hive, not individual cells, and identifying the cells is required before the timing signal can be traced. The cells are the open question here."
     ],
     [
      "Source.",
@@ -377,27 +377,27 @@
    "title": "PDF fibers lie beside transmedulla neurons",
    "bold": [],
    "paragraphs": [
-    "Pigment-dispersing factor, or PDF, is a neuropeptide associated with circadian signaling in insects. Zeller and colleagues combined PDF immunostaining with tracer labeling of transmedulla neurons. The combined labels revealed where potential timing input could meet the sky-compass pathway. Both labels were examined at higher magnification in the medulla.",
-    "PDF-positive fibers occupied the same medulla layer as parts of the traced neurons. Labeled puncta lay in close proximity along the cells' passage through the medulla. The two labels did not colocalize, and PDF labeling was absent from within the MEDRA. This pattern places PDF fibers next to the cells without overlapping them.",
-    "The result identifies neighboring neuronal populations and a candidate site for modulation. PDF is a neuropeptide, so the contact is a plausible route for timing signals. Circadian compass correction is the proposed role of that contact. Tracer labeling defined the traced neurons in these preparations."
+    "Immunoreactivity means that an antibody recognizes its target in the preparation. Staining establishes that the labeled substance is present in a region. A specific connection needs separate evidence, since a labeled structure is a location and not yet a connection. Its function needs a separate test, and staining alone gives that test no answer. The labels are therefore evidence of presence only.",
+    "Close proximity is a candidate contact. Peptide release, a postsynaptic PDF receptor and a functional synapse would each need separate evidence before any of them could be assumed to operate in this pathway. The two labels were also examined at higher magnification to measure that proximity. The two labels were combined in a single preparation.",
+    "A nearby labeled bouton marks a possible site of contact. Its role in circadian compass correction is a proposal drawn from how the two labels sit in the medulla. The contact therefore stays a candidate until other methods test it in this preparation. Its strength depends on the staining conditions used in that preparation. The labels were examined in one layer."
    ],
    "citation": "Zeller et al. (2015)",
    "notes": [
     "PDF fibers lie beside transmedulla neurons.",
     [
      "Explanation 1.",
-     "Pigment-dispersing factor, or PDF, is a neuropeptide associated with circadian signaling in insects",
-     "Zeller and colleagues combined PDF immunostaining with tracer labeling of transmedulla neurons. The combined labels revealed where potential timing input could meet the sky-compass pathway. Both labels were examined at higher magnification in the medulla."
+     "Immunoreactivity means that an antibody recognizes its target in the preparation",
+     "Staining establishes that the labeled substance is present in a region. A specific connection needs separate evidence, since a labeled structure is a location and not yet a connection. Its function needs a separate test, and staining alone gives that test no answer. The labels are therefore evidence of presence only."
     ],
     [
      "Explanation 2.",
-     "PDF-positive fibers occupied the same medulla layer as parts of the traced neurons",
-     "Labeled puncta lay in close proximity along the cells' passage through the medulla. The two labels did not colocalize, and PDF labeling was absent from within the MEDRA. This pattern places PDF fibers next to the cells without overlapping them."
+     "Close proximity is a candidate contact",
+     "Peptide release, a postsynaptic PDF receptor and a functional synapse would each need separate evidence before any of them could be assumed to operate in this pathway. The two labels were also examined at higher magnification to measure that proximity. The two labels were combined in a single preparation."
     ],
     [
      "Explanation 3.",
-     "The result identifies neighboring neuronal populations and a candidate site for modulation",
-     "PDF is a neuropeptide, so the contact is a plausible route for timing signals. Circadian compass correction is the proposed role of that contact. Tracer labeling defined the traced neurons in these preparations."
+     "A nearby labeled bouton marks a possible site of contact",
+     "Its role in circadian compass correction is a proposal drawn from how the two labels sit in the medulla. The contact therefore stays a candidate until other methods test it in this preparation. Its strength depends on the staining conditions used in that preparation. The labels were examined in one layer."
     ],
     [
      "Source.",
@@ -414,27 +414,27 @@
    "title": "Separated complexes lie in both bulbs",
    "bold": [],
    "paragraphs": [
-    "Synapsin is associated with presynaptic machinery, and filamentous actin is prominent in postsynaptic regions. Held and colleagues used both stains on honeybee bulb tissue. Their combined pattern marks the sites where terminals and processes meet. Each complex contains one large presynaptic core and several smaller postsynaptic profiles.",
-    "Confocal images revealed separated complexes in the lateral and medial bulbs. Traced TuLAL1 terminals formed the presynaptic cores, and TL neuron processes contacted them. Complementary labeling connected each cell's projection to the local terminal organization. The arrangement distributes tubercle signals to several downstream cells in parallel.",
-    "The bulbs use these complexes to distribute the tubercle outputs among several downstream neurons. Confocal images alone leave finer membrane contacts unseen. Electron microscopy, used next in the study, resolves the contacts in detail. Membrane-level detail shows which cells make each contact."
+    "Electron microscopy showed that large TuLAL1 terminals contain vesicles and several presynaptic specializations, each facing smaller profiles. Vesicles are membrane-bound structures that store the signaling molecules a terminal releases onto the processes it contacts. In the electron images they appear as small membrane-bound profiles clustered at the presynaptic specialization.",
+    "A dyadic contact is one presynaptic specialization facing two postsynaptic profiles, and a tetradic contact is one facing four. Counting the profiles at each specialization describes the local arrangement of a contact, not the total number of targets a presynaptic neuron has.",
+    "GABA immunostaining associated the downstream TL neurons with an inhibitory transmitter phenotype. That staining makes inhibition a candidate component of the signaling at these contacts, alongside the excitatory input that the terminals convey. The staining identifies a transmitter class, a different measure from the contact geometry described in the first two paragraphs."
    ],
    "citation": "Held et al. (2016)",
    "notes": [
     "Separated complexes lie in both bulbs.",
     [
      "Explanation 1.",
-     "Synapsin is associated with presynaptic machinery, and filamentous actin is prominent in postsynaptic regions",
-     "Held and colleagues used both stains on honeybee bulb tissue. Their combined pattern marks the sites where terminals and processes meet. Each complex contains one large presynaptic core and several smaller postsynaptic profiles."
+     "Electron microscopy showed that large TuLAL1 terminals contain vesicles and several presynaptic specializations, each facing smaller profiles",
+     "Vesicles are membrane-bound structures that store the signaling molecules a terminal releases onto the processes it contacts. In the electron images they appear as small membrane-bound profiles clustered at the presynaptic specialization."
     ],
     [
      "Explanation 2.",
-     "Confocal images revealed separated complexes in the lateral and medial bulbs",
-     "Traced TuLAL1 terminals formed the presynaptic cores, and TL neuron processes contacted them. Complementary labeling connected each cell's projection to the local terminal organization. The arrangement distributes tubercle signals to several downstream cells in parallel."
+     "A dyadic contact is one presynaptic specialization facing two postsynaptic profiles, and a tetradic contact is one facing four",
+     "Counting the profiles at each specialization describes the local arrangement of a contact, not the total number of targets a presynaptic neuron has."
     ],
     [
      "Explanation 3.",
-     "The bulbs use these complexes to distribute the tubercle outputs among several downstream neurons",
-     "Confocal images alone leave finer membrane contacts unseen. Electron microscopy, used next in the study, resolves the contacts in detail. Membrane-level detail shows which cells make each contact."
+     "GABA immunostaining associated the downstream TL neurons with an inhibitory transmitter phenotype",
+     "That staining makes inhibition a candidate component of the signaling at these contacts, alongside the excitatory input that the terminals convey. The staining identifies a transmitter class, a different measure from the contact geometry described in the first two paragraphs."
     ],
     [
      "Source.",
@@ -451,27 +451,27 @@
    "title": "Learned field cues persist for 24 h",
    "bold": [],
    "paragraphs": [
-    "Greggers and colleagues paired an electric-field stimulus with sucrose during conditioning. An uncharged material or an inactive stimulus source served as the unrewarded comparison. Bees learned constant fields as well as fields modulated at 60 Hz. The conditioned proboscis extension response served as the readout. Both stimulus types produced clear learning.",
-    "Removing the antennae eliminated the learned field response. Wax coating that restricted the antennal joints strongly reduced it, while coating the surfaces and keeping the joints mobile produced a smaller reduction. Responses to electric cues were still present after 24 h. The retained response shows that the memory outlasted the conditioning session.",
-    "The intervention pattern supports a contribution from antennal mechanoreception, including receptors linked to both joints. Johnston's organ is one of several possible sensors, alongside the antennal surface hairs. Antennal removal eliminates the whole antenna, which is a stronger manipulation than coating the surfaces. Conditioning under these controlled conditions demonstrates a usable electric cue."
+    "Treatments applied after conditioning distinguish sensory access at test from the initial acquisition of the association. Bees were first trained with their antennae intact, which sets the association before any manipulation. Learning is therefore held constant while the sensory access alone changes. Treatments at test then probe what the bees currently use. The timing of the treatment is the variable under study.",
+    "Coating the surfaces and restricting the joints are different manipulations, and they produced different reductions in the learned response. Each treatment targets a distinct route of mechanical input from the antenna. A coating that leaves the joints mobile is therefore a weaker manipulation of joint input than restriction. The two treatments are compared on the same learned response.",
+    "The conditioned response to electric cues was retained for 24 h after conditioning. Learning therefore persisted across a full day, which places the field cue within a memory that outlasts a single training session. The retention test was run on the same bees that had learned the cue, so the memory belongs to those individuals."
    ],
    "citation": "Greggers et al. (2013)",
    "notes": [
     "Learned field cues persist for 24 h.",
     [
      "Explanation 1.",
-     "Greggers and colleagues paired an electric-field stimulus with sucrose during conditioning",
-     "An uncharged material or an inactive stimulus source served as the unrewarded comparison. Bees learned constant fields as well as fields modulated at 60 Hz. The conditioned proboscis extension response served as the readout. Both stimulus types produced clear learning."
+     "Treatments applied after conditioning distinguish sensory access at test from the initial acquisition of the association",
+     "Bees were first trained with their antennae intact, which sets the association before any manipulation. Learning is therefore held constant while the sensory access alone changes. Treatments at test then probe what the bees currently use. The timing of the treatment is the variable under study."
     ],
     [
      "Explanation 2.",
-     "Removing the antennae eliminated the learned field response",
-     "Wax coating that restricted the antennal joints strongly reduced it, while coating the surfaces and keeping the joints mobile produced a smaller reduction. Responses to electric cues were still present after 24 h. The retained response shows that the memory outlasted the conditioning session."
+     "Coating the surfaces and restricting the joints are different manipulations, and they produced different reductions in the learned response",
+     "Each treatment targets a distinct route of mechanical input from the antenna. A coating that leaves the joints mobile is therefore a weaker manipulation of joint input than restriction. The two treatments are compared on the same learned response."
     ],
     [
      "Explanation 3.",
-     "The intervention pattern supports a contribution from antennal mechanoreception, including receptors linked to both joints",
-     "Johnston's organ is one of several possible sensors, alongside the antennal surface hairs. Antennal removal eliminates the whole antenna, which is a stronger manipulation than coating the surfaces. Conditioning under these controlled conditions demonstrates a usable electric cue."
+     "The conditioned response to electric cues was retained for 24 h after conditioning",
+     "Learning therefore persisted across a full day, which places the field cue within a memory that outlasts a single training session. The retention test was run on the same bees that had learned the cue, so the memory belongs to those individuals."
     ],
     [
      "Source.",
@@ -488,27 +488,27 @@
    "title": "Mature foragers differ from young workers",
    "bold": [],
    "paragraphs": [
-    "Kumaraswamy and colleagues compared DL-Int-1 in newly emerged workers aged 1–3 days with foragers older than 10 days. Both groups were recorded intracellularly and filled with dye for morphology. Cell identity was preserved across the age comparison, so the same neuron type could be followed. Gross arborization extent was similar in the two groups.",
-    "Branch density differed in selected regions, while the overall arbor extent matched between the groups. Foragers' responses showed a stronger contrast between spontaneous activity and vibration-evoked inhibition. That contrast gives the stimulus a sharper temporal signature in older bees. Reconstructions and response distributions document these changes at two levels of analysis.",
-    "Maturation can change signal processing without replacing a neuron's overall projection pattern. Age and experience covary in this design, so the differences reflect development linked with foraging. The response distribution shows what changes, and the reconstructions show that the cell's wiring is retained. Foraging experience is one candidate driver of these changes."
+    "Directional divergence measures variation among the waggle runs within a dance. It is a different quantity from a shift in the mean direction a dancer advertises, and the two kinds of error affect followers in different ways. Both measures come from the same set of recorded dances.",
+    "The two measures therefore separate two sources of imprecision. Spread across runs describes how consistently one dancer signals, while bias describes whether the average signal points in the correct direction. Each source of error is measured on its own, so a dancer's consistency and its accuracy are not confused.",
+    "A dance can therefore be precise without being accurate, or accurate without being precise. Identifying which error dominates shows whether a dance is noisy or systematically shifted, and the two readouts answer different questions about the same signal."
    ],
    "citation": "Kumaraswamy et al. (2019)",
    "notes": [
     "Mature foragers differ from young workers.",
     [
      "Explanation 1.",
-     "Kumaraswamy and colleagues compared DL-Int-1 in newly emerged workers aged 1–3 days with foragers older than 10 days",
-     "Both groups were recorded intracellularly and filled with dye for morphology. Cell identity was preserved across the age comparison, so the same neuron type could be followed. Gross arborization extent was similar in the two groups."
+     "Directional divergence measures variation among the waggle runs within a dance",
+     "It is a different quantity from a shift in the mean direction a dancer advertises, and the two kinds of error affect followers in different ways. Both measures come from the same set of recorded dances."
     ],
     [
      "Explanation 2.",
-     "Branch density differed in selected regions, while the overall arbor extent matched between the groups",
-     "Foragers' responses showed a stronger contrast between spontaneous activity and vibration-evoked inhibition. That contrast gives the stimulus a sharper temporal signature in older bees. Reconstructions and response distributions document these changes at two levels of analysis."
+     "The two measures therefore separate two sources of imprecision",
+     "Spread across runs describes how consistently one dancer signals, while bias describes whether the average signal points in the correct direction. Each source of error is measured on its own, so a dancer's consistency and its accuracy are not confused."
     ],
     [
      "Explanation 3.",
-     "Maturation can change signal processing without replacing a neuron's overall projection pattern",
-     "Age and experience covary in this design, so the differences reflect development linked with foraging. The response distribution shows what changes, and the reconstructions show that the cell's wiring is retained. Foraging experience is one candidate driver of these changes."
+     "A dance can therefore be precise without being accurate, or accurate without being precise",
+     "Identifying which error dominates shows whether a dance is noisy or systematically shifted, and the two readouts answer different questions about the same signal."
     ],
     [
      "Source.",
