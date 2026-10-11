@@ -186,7 +186,7 @@ refs={
 'dragon':'Douglas RH, Mullineaux CW, Partridge JC (2000). Long-wave sensitivity in deep-sea stomiid dragonfish with far-red bioluminescence: evidence for a dietary origin of the chlorophyll-derived retinal photosensitizer of Malacosteus niger. Philosophical Transactions of the Royal Society B 355:1269–1272. https://doi.org/10.1098/rstb.2000.0681',
 'eyes':'Thomas KN, Robison BH, Johnsen S (2017). Two eyes for two purposes: in situ evidence for asymmetric vision in the cockeyed squids Histioteuthis heteropsis and Stigmatoteuthis dofleini. Philosophical Transactions of the Royal Society B 372:20160069. https://doi.org/10.1098/rstb.2016.0069',
 'humboldt':'Burford BP, Robison BH (2020). Bioluminescent backlighting illuminates the complex visual signals of a social squid in the deep sea. PNAS 117:8524–8531. https://doi.org/10.1073/pnas.1920875117',
-'vampire':'Hoving HJ, Robison BH (2012). Vampire squid: detritivores in the oxygen minimum zone. Proceedings of the Royal Society B 279:4550–4559. https://doi.org/10.1098/rspb.2012.1357'}
+'vampire':'Hoving HJ, Robison BH (2012). Vampire squid: detritivores in the oxygen minimum zone. Proceedings of the Royal Society B 279:4559–4567. https://doi.org/10.1098/rspb.2012.1357'}
 for k,pmc in [('vent','PMC12221356'),('pelagic','PMC11814407'),('worm','PMC11730519'),('octopus','PMC10291714'),('stars','PMC10295343'),('signals','PMC3996283')]:
  r=E.fromstring((B/'research'/(pmc+'.xml')).read_bytes());meta=r.find('.//article-meta');names=[]
  for n in meta.findall('.//contrib[@contrib-type="author"]/name'):
