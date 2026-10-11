@@ -26,3 +26,11 @@ Latest PPTX size: 335676221 bytes.
 Latest SHA-256: e0dd2ef75aca38871c91ec022e63dc52ad52977d1fec1826bcea60bc52b015e8
 
 The pinned single-file browser download returned HTTP 200 and its complete 335,676,221-byte response matched the final PPTX SHA-256.
+
+## Paragraph 3 revision
+
+- Only paragraph 3 on slides 3, 5, 10, 14, 15, 16, 18, 21, 23, 27, 29, 30, 33, 38, 39, 40, 41, 42, 43 and 45 was replaced with affirmative source-supported teaching content. Matching transcript passages were updated; other speaker notes are unchanged.
+- The PPTX package differs only in those 20 slide XML parts and 20 corresponding notes XML parts. Structural XML is unchanged when the replaced text nodes are restored. All other parts, including media, movie relationships, timing, themes, layout and every image/video byte, are identical. Paragraphs 1 and 2 and all other slide text remain unchanged.
+- Repository checker: 46 slides, 44 primary-figure content slides, 0 failures and 0 warnings. All 46 rendered slides visually reviewed; slide 23 text shortened to preserve spacing above the existing footer.
+- Complete size: 335675627 bytes. SHA-256: f9ec3ebde39368d6c29ae55ad1f33f7babfc0e4831b96de4b5f7d786abaa0f5f.
+- Reproducible patch: `python lectures/L94/revise_paragraph3.py` against the preserved pre-edit 32-video deck. Exact old/new paragraphs are saved in `paragraph3_revision_audit.json`.

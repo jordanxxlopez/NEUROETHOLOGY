@@ -91,3 +91,7 @@ The source for slide 28 emits recoverable H.264 slice warnings during decoding; 
 Rebuild the existing 25-video deck, then run `python lectures/L94/add_late_recordings.py`. The script writes `deliverables/Neuroethology_Lecture94_FA2026_32videos.pptx`; it does not overwrite the preserved 25-video master. The larger chimpanzee recording is downloaded from its article-provided PMC OA archive URL into ignored `papers/late_video/` if absent, and its source hash is verified. Full citations, licenses, exact source URLs, dimensions and hashes are recorded in `media_sources.json`; article XML and scholarly search results are retained.
 
 [Download the latest 32-video PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/1fdcbd5ca961b61b5bab272c20d001247cce6bb9/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). The single file is 335676221 bytes, delivered through GitHub LFS without requiring the connected-computer preview. After download, its recordings are embedded for offline playback.
+
+## Paragraph 3 text revision
+
+The latest PPTX retains all 32 recordings at the same positions with identical media bytes. Only the third paragraph and matching transcript on the 20 flagged slides changed. No video was added, removed, trimmed, cropped, compressed or re-encoded during this text revision.

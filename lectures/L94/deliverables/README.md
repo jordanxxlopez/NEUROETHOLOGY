@@ -13,3 +13,7 @@ The older, tracked PPTX one directory above remains the preserved 17-video basel
 [Download the complete 32-video PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/1fdcbd5ca961b61b5bab272c20d001247cce6bb9/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). This is a normal single-file browser download, 335676221 bytes. Its source videos are embedded; no connected-computer viewer or split-file assembly is required. All 25 existing recordings remain intact, and seven complete article-provided comparative videos are added on slides 28, 29, 30, 31, 33, 37 and 44. New videos retain their original quality and bytes.
 
 Local output: `Neuroethology_Lecture94_FA2026_32videos.pptx`. After rebuilding/assembling the preserved 25-video master, run `python lectures/L94/add_late_recordings.py`. The GitHub LFS pointer at `../Neuroethology_Lecture94_FA2026_Download.pptx` resolves to the latest complete file. The older 25-video parts remain unchanged.
+
+## Paragraph 3 text revision
+
+Latest output: `Neuroethology_Lecture94_FA2026_Paragraph3_Revised.pptx`. Only paragraph 3 and its matching transcript on 20 flagged slides differ from the preserved 32-video deck. Recreate with `python lectures/L94/revise_paragraph3.py`; all media and layout remain unchanged. The root LFS download pointer resolves to this latest revision.
