@@ -1,3 +1,7 @@
+# Current additional-video revision: three uploads needed
+
+The original lecture sources are resolved. For the new seven-academic-plus-three-aesthetic request, all seven academic recordings downloaded successfully. Three MBARI YouTube aesthetic recordings are blocked. No article PDFs are needed. See [the numbered video upload list](additional_videos/UPLOADS.md). The delivered 11-video PPTX remains unchanged while the 18-video working revision is prepared.
+
 # Lecture 99 source access: resolved
 
 All requested PDFs, supplementary information and Movie S1 were supplied by the instructor and inspected. There are no outstanding uploads. The original access failures below are retained as historical provenance.
