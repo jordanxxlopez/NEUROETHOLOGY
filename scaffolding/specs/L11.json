@@ -1,0 +1,531 @@
+{
+ "third_paragraph": {
+  "4": "Expansion generally elicited stronger steering than rotation, but both responses plateaued at approximately 3–10 Hz and declined near 30 Hz. Matching temporal-frequency optima for two different flow fields are consistent with a shared early stage of elementary motion detection feeding both steering responses. The tuning is expressed in temporal frequency because stripe spacing and pattern speed jointly set how quickly contrast changes at each retinal position.",
+  "6": "The elementary motion detector is a local computation comparing signals from different visual positions over time. Its historical derivation described operations sufficient to explain behavior. Later fly experiments tested that computation and traced it to identified cells, T4 and T5 among them.",
+  "8": "Clark's random-bar experiments supported this correlation structure in fly turning, with a fitted delay filter peaking near 25 ms. That delay summarizes the combined effect of synaptic kinetics, membrane filtering and circuit connections, any of which can supply the temporal offset between the two inputs.",
+  "9": "The weak random-bar stimulus produced substantial turning unrelated to the stimulus, so the fit accounted for only a small fraction of the trial-by-trial variability. What it captured was the average directional interaction, with predicted and measured mean turning related approximately linearly.",
+  "10": "Changing wavelength changes the time between neighboring contrast events at a fixed speed. A detector can therefore respond differently to two patterns moving at the same velocity. The measured tuning curve reflects the whole pathway, with spatial pooling, adaptation and the dynamics of the motor response shaping it alongside the local detector.",
+  "11": "Contrast inversion changes the sign of interactions between neighboring signals in a correlation computation. Reverse-phi therefore probes the detector's operations, rather than simply testing whether the fly can track an identifiable object. At high velocities the turning becomes aligned with the displacement again, so the response depends on stimulus speed as well as on contrast sign.",
+  "12": "These results constrain how ON and OFF pathways can implement the correlation computation. Even with bright and dark events processed in separate pathways, the behavior requires effective sensitivity to opposite-polarity events, which could come from baseline activity, inhibition or another circuit operation.",
+  "13": "Shinomiya and colleagues reconstructed neurons and synapses with focused-ion-beam scanning electron microscopy. T4 dendrites occupy medulla layer M10, whereas T5 dendrites occupy lobula layer Lo1. Their axons converge in the lobula plate, so two anatomically separate input routes feed a common output neuropil.",
+  "14": "L1-associated processing favored light-edge motion, whereas L2-associated processing favored dark-edge motion. Both pathways retained overlapping sensitivity, and their light-evoked terminal calcium responses were similar at the relay stage, so the edge preferences are not simply a consequence of L1 and L2 responding to light with opposite signs.",
+  "16": "Haag and colleagues measured direction-dependent calcium responses in both pathways. Parallel organization means different input populations and different edge preferences, with the two pathways converging onto separate dendrites before their axons enter the lobula plate.",
+  "18": "T4 neurons responded most strongly near the receptive-field center and less strongly at neighboring positions. Because each location was tested individually, the map gives the response that every position contributes alone, the baseline against which a stimulus sequence can be judged for a nonlinear interaction.",
+  "19": "Subtracting the linear prediction from the measured response separated enhancement from suppression. Because only the order of the same positions changed between the two sequences, the directional difference is a nonlinear interaction at or before T4 output rather than a consequence of unequal brightness or a stronger central flash.",
+  "20": "A delayed excitatory interaction is consistent with a Reichardt-like enhancement mechanism, in which a delayed signal from one position combines multiplicatively with the signal arriving from its neighbor. The roughly 0.1 s optimum belongs to this calcium-imaging protocol and differs from the delay of about 25 ms fitted to fly turning behavior.",
+  "22": "The studies used different measurements and preparations, one imaging calcium responses and the other counting and locating synapses. Both found structured contributions around the center, and the displaced inputs are candidate sources of the spatial asymmetry that makes reversing a sequence change the combined response.",
+  "23": "The same classes of nonlinear operation can therefore occur in both ON and OFF pathways despite different input neurons and dendritic locations. T5 receives its inputs in the lobula, so the matching enhancement and suppression are an experimental result rather than a consequence of identical circuitry, and spacing mattered because T5's effective receptive-field organization differs from that of T4.",
+  "24": "Enhancement and suppression therefore form a common functional organization across the tested ON and OFF subtypes. The same arrangement, enhancement on one side of the receptive field and suppression on the other, coexists with different receptive-field sizes or temporal filters in different subtypes.",
+  "25": "Input position constrains which spatial signals can interact within T4, and the unequal distribution along the dendrite provides a physical substrate for unequal contributions from neighboring visual positions. Synapse number measures anatomical connectivity; the physiological effect of a contact also depends on release, receptor properties and the neuron's electrical state.",
+  "26": "The expanded reconstruction did not reproduce a consistent Mi1–Tm3 spatial offset proposed from an earlier volume. The weight of the directional asymmetry therefore falls on additional displaced input channels and their functional time courses.",
+  "28": "These spatial relationships resemble the differentiated input zones of T4 while using a different set of relay neurons. Central and displaced input classes can therefore deliver distinct information to different parts of the same T5 dendrite.",
+  "30": "Routes to T4 and T5 can contain different numbers of intervening neurons, and their effective timing also depends on membrane and synaptic dynamics. The spatially ordered inputs give the receiving neuron signals from different visual positions, and the delay between those signals can arise from route length and from synaptic properties, which is how the Reichardt algorithm and the connectome fit together.",
+  "31": "The published heat map reports RPKM, reads per kilobase of transcript per million mapped reads, on a 0–100 color scale. The assay pooled T4 and T5 and measured RNA, so each transcript reports expression in the combined population: it may occur in one class, in both or at different levels.",
+  "32": "Channel expression provides molecular candidates for active processing and calcium entry in T4/T5. An auxiliary subunit can change how a channel behaves without forming the pore that carries the ions, so the detected para subunits and calcium-channel transcripts point to several ways membrane voltage can be transformed into calcium signals.",
+  "33": "The authors proposed that active membrane conductances could contribute to delays and nonlinear interactions within motion detectors. Potassium-channel families differ in their gating properties, so the expression list offers several candidate mechanisms for how an earlier input influences the response to a later one.",
+  "34": "The transcriptome also detected vesicular GABA-transporter expression, a molecular hint of additional signaling. The physiological and pharmacological results support a primarily cholinergic output with an indirect inhibitory route, in which an intervening pathway supplies the inhibition instead of every T4/T5 terminal releasing an inhibitory transmitter directly.",
+  "35": "The voltage-to-calcium transformation therefore contributes to measured direction selectivity rather than simply copying membrane voltage. Calcium-based estimates of the circuit's selectivity can exceed voltage-based estimates, so the selectivity read out in calcium is sharper than that of the voltage inputs from which it derives.",
+  "36": "The authors compared published filtering and nonlinear-transform models with the measurements, and models containing temporal filtering and a nonlinear step captured how voltage maps onto calcium. Synaptic direction computation and the later voltage-to-calcium transformation are distinct contributions that can coexist within T4.",
+  "37": "Mauss and colleagues labeled T4/T5 terminals together with recorded LPTCs, relating the input population to its downstream targets. Pooling changes the spatial scale of the signal: a local detector evaluates motion over a restricted part of the visual field, whereas a tangential cell's response reflects a broad distribution of motion across the eye.",
+  "39": "Picrotoxin at 25 µM reduced responses to pressure-applied glutamate as well as GABA, so the inhibitory conductance in the indirect route could be GABAergic, glutamatergic or both. Different sensitivities to the cholinergic antagonists are consistent with different receptor populations on the direct and indirect routes.",
+  "40": "Forward walking speed remained comparable across the tested genotypes. The behavioral deficit therefore was not explained by an inability to walk. T4/T5 are necessary for these directional responses, and because the same silencing removed both ordinary and illusory turning, the illusion draws on the same early motion circuit as ordinary stabilizing turns.",
+  "41": "The neuronal response therefore partially inverted with the illusion rather than reproducing the ordinary response with its sign flipped at every stage. Direct voltage recordings distinguish active hyperpolarization from a response near baseline, which a calcium signal near zero cannot do. The agreement between neural and behavioral direction supports an early sensory contribution to the illusory turn.",
+  "42": "The two-quadrant model included a baseline luminance contribution, which allows effective opposite-polarity influences without multiplying every ON and OFF pair directly. Clark's polarity tests and Leonhardt's dissociated stimuli both require sensitivity beyond two isolated, perfectly rectified streams, and anatomical ON/OFF separation remains compatible with functional influence from both contrast signs.",
+  "43": "Spatial and temporal tuning also differed between the initial 0.5-s response and the later 1–4-s response, so a measurement averaged over the whole stimulus would hide the dynamics. Because the external motion never reversed, the change in turning direction arises from processing within the fly, through downstream dynamics or adaptation.",
+  "44": "The results support a transformation downstream of the sampled lobula plate signals. Silencing establishes that detector output is required for both the early and the late turn, whereas the imaging places the sign change beyond the detector: preferred-direction signals persisted while the behavior inverted.",
+  "45": "The finding supports visual-experience-dependent maturation of sensorimotor responses, with dark rearing preserving more juvenile-like dynamics than adult age alone. The same article found different age dependence in Drosophila yakuba, which retained more stable anti-directional responses over the examined early adult interval, so the maturation of these dynamics differs between closely related fly species."
+ },
+ "inserts": [
+  {
+   "after": 4,
+   "title": "Temporal frequency depends on speed and stripe spacing",
+   "paragraphs": [
+    "Temporal frequency is the number of pattern cycles that pass a single retinal position each second. Pattern speed alone does not fix it, because stripe spacing changes how many stripes cross that position in a given time: narrow stripes moving at one speed modulate each position faster than broad stripes moving at the same speed.",
+    "Duistermars and colleagues combined wavelengths from 15° to 90° with pattern speeds from 10 to 431°/s, so the stimulus set covered approximately 0.11–35.4 Hz. Because many speed and wavelength pairs give the same temporal frequency, plotting steering against temporal frequency places all of those stimuli on one axis.",
+    "On that axis, expansion and rotation steering each rose to a plateau at approximately 3–10 Hz and declined near 30 Hz. The same peak range for two different flow fields indicates that the flies responded to how quickly contrast changed at each location, a quantity set by both speed and spacing."
+   ],
+   "citation": "Duistermars et al. (2007)",
+   "notes": [
+    "Temporal frequency is the stimulus quantity to which the early motion pathway is tuned, and it depends on both stripe spacing and pattern speed.",
+    [
+     "Speed and spacing set the rate of contrast change.",
+     "A grating moving at a fixed angular speed passes more stripes over a given eye position each second when the stripes are narrow, so the modulation at that position is faster.",
+     "Two gratings with different wavelengths can therefore share a speed and differ in temporal frequency, or differ in speed and share a temporal frequency."
+    ],
+    [
+     "The stimulus set separated the two variables.",
+     "Wavelengths from 15° to 90° and speeds from 10 to 431°/s sampled approximately 0.11–35.4 Hz in the same flies.",
+     "Presenting both expansion and rotation to the same animals allowed the two flow fields to be compared across an identical range of temporal frequencies."
+    ],
+    [
+     "The tuning curve rises, plateaus and falls.",
+     "Both responses plateaued at approximately 3–10 Hz and declined near 30 Hz, so very rapid repetition became less effective, consistent with the finite temporal resolution of the pathway discussed on slide 10.",
+     "Matching temporal-frequency optima for expansion and rotation are consistent with a shared early stage of motion processing."
+    ]
+   ],
+   "refs_from": [
+    "Duistermars 2007"
+   ]
+  },
+  {
+   "after": 6,
+   "title": "A single brightness change is ambiguous about direction",
+   "paragraphs": [
+    "A change in brightness at one location has several possible causes: an object entering the location, an object leaving it, or a light source changing intensity. The signal from that location alone therefore does not specify which way anything moved.",
+    "Hassenstein and Reichardt analyzed the weevil's turning response in terms of the timing, order and sign of brightness changes at neighboring positions. Direction becomes available when the responses at two positions are compared in a time-dependent way, because the order in which the positions change carries the direction.",
+    "Elementary means local here: the comparison concerns two neighboring visual inputs rather than a whole panoramic flow field. The operations inferred from the beetle behavior and the cell types later measured in fruit flies are different levels of explanation of one computation."
+   ],
+   "citation": "Hassenstein & Reichardt (1956); Clark et al. (2011)",
+   "notes": [
+    "Direction is a relationship between two places and two times, which a single photoreceptor signal cannot supply.",
+    [
+     "One location is not enough.",
+     "A brightening at a point fits an approaching bright object, a retreating dark object or a lamp turning up, so its direction is undetermined.",
+     "Comparing the point with its neighbor adds the missing information, because the order of the two changes distinguishes left-to-right from right-to-left motion."
+    ],
+    [
+     "What the 1956 analysis separated.",
+     "Hassenstein and Reichardt distinguished the timing, order and sign of local brightness changes in the beetle's behavior.",
+     "Those operations were sufficient to explain the turning response and defined what the later fly experiments tested."
+    ],
+    [
+     "Local computation, wide-field behavior.",
+     "Elementary means the computation concerns neighboring inputs, whereas the optomotor turn on slide 2 is a response to a rotating panorama.",
+     "The beetle analysis specifies the operations, and the fly experiments identify neurons such as T4 and T5 that carry them out."
+    ]
+   ],
+   "refs_from": [
+    "Hassenstein 1956",
+    "Clark 2011"
+   ]
+  },
+  {
+   "after": 8,
+   "title": "The detector turns a sequence into a signed output",
+   "paragraphs": [
+    "The Hassenstein–Reichardt detector processes two neighboring inputs in four steps. One input is delayed relative to the other, the delayed signal is multiplied by the less-delayed signal from the neighboring position, a mirror-symmetric arm repeats the operation with the delay on the opposite input, and the outputs of the two arms are subtracted.",
+    "Delay keeps an earlier input available until the later input arrives. A moving pattern that stimulates the two positions in the preferred order brings the delayed and less-delayed signals into overlap, so the multiplied product is large in the arm matched to that order.",
+    "The mirror arm has the opposite spatial arrangement, so reversing the direction of motion exchanges the contributions of the two arms. Subtracting them gives a signed output that distinguishes the two directions, whereas adding them would discard much of the directional distinction."
+   ],
+   "citation": "Hassenstein & Reichardt (1956); Clark et al. (2011)",
+   "notes": [
+    "The detector is a four-step computation on two neighboring inputs, and each step has a specific job.",
+    [
+     "Temporal filtering sets up the delay.",
+     "An input's contribution depends on its recent history, so one signal can be retained while the other arrives.",
+     "The two inputs need not have the same time course."
+    ],
+    [
+     "Multiplication makes the interaction depend on both signals.",
+     "The product is sensitive to the presence and sign of both inputs, so it responds when the retained signal and the neighboring signal coincide."
+    ],
+    [
+     "The mirror arm and subtraction make the output directional.",
+     "The second arm swaps which spatial input is delayed.",
+     "Subtracting the arms creates a signed response, which is what distinguishes the two directions of motion."
+    ],
+    [
+     "The 25 ms value is a fitted delay.",
+     "Clark and colleagues inferred it from turning behavior, and the same computation could arise from several combinations of synaptic kinetics, membrane filtering and circuit connections."
+    ]
+   ],
+   "refs_from": [
+    "Hassenstein 1956",
+    "Clark 2011"
+   ]
+  },
+  {
+   "after": 11,
+   "title": "Contrast reversal flips the sign of the product",
+   "paragraphs": [
+    "In phi motion a pattern shifts between frames and keeps its contrast; in reverse-phi motion each shift also swaps bright and dark regions. The physical displacement is the same in both cases, but the brightness change at each position has the opposite sign in reverse-phi.",
+    "A correlation detector multiplies signals from neighboring positions, and a product is sensitive to the sign of both inputs. When a bright region is followed at the neighboring position by a dark one, the two signals have opposite signs, so the sign of the product reverses and the detector reports motion opposite to the displacement.",
+    "Flies turned against slower reverse-phi patterns, as this account predicts. At high velocities their turning became aligned with the displacement again, so a model of the detector has to account for both the ordinary response and the stimulus-dependent illusion."
+   ],
+   "citation": "Leonhardt et al. (2017)",
+   "notes": [
+    "Reverse-phi separates the physical displacement of a feature from the direction signaled by the visual pathway.",
+    [
+     "Two stimuli share one displacement.",
+     "In phi motion a bright feature stays bright after the step; in reverse-phi it becomes dark.",
+     "The step is the same kind of spatial event, so the difference between the conditions lies in the sign of the contrast change."
+    ],
+    [
+     "The multiplication step carries the sign.",
+     "A multiplier responds to the sign of both of its inputs, as described on slide 8.",
+     "Opposite-sign inputs from two neighboring positions therefore produce a negative contribution where same-sign inputs produce a positive one."
+    ],
+    [
+     "Speed adds a second dependence.",
+     "Flies turned against slower reverse-phi patterns, but at high velocities their turning could become aligned with displacement again.",
+     "The turning direction depends on velocity as well as contrast sign, which makes the illusion a demanding test of detector models."
+    ],
+    [
+     "Why the illusion tests models.",
+     "A model has to reproduce the ordinary response to phi motion and the reversed response to reverse-phi motion with one set of operations.",
+     "The velocity dependence adds a further constraint, because the same model must also explain why fast reverse-phi turning returns to the direction of the displacement.",
+     "The experiment therefore separates a feature's physical displacement from the signed response of the visual pathway."
+    ]
+   ],
+   "refs_from": [
+    "Leonhardt 2017"
+   ]
+  },
+  {
+   "after": 13,
+   "title": "Retinotopic columns let neighboring signals be compared",
+   "paragraphs": [
+    "Retinotopy means that neighboring locations in visual space remain neighbors in the neural representation. In the fly optic lobe, repeated columns carry signals from neighboring locations, so a neuron can compare inputs from adjacent columns instead of losing spatial identity at the first synapse.",
+    "The visual signal passes through successive neuropils: the lamina, the medulla, the lobula and the lobula plate. A neuropil is a region rich in neuronal processes and synapses, and the columnar layout carries visual position through these stages.",
+    "T4 dendrites receive their inputs in medulla layer M10 and T5 dendrites in lobula layer Lo1, and both send axons to the lobula plate. Two input routes with different relay neurons therefore end in one output neuropil."
+   ],
+   "citation": "Shinomiya et al. (2019); Takemura et al. (2017)",
+   "notes": [
+    "A motion computation needs signals from different visual positions to be available side by side, and retinotopic organization supplies them.",
+    [
+     "What retinotopy preserves.",
+     "Neighbors in the visual field remain neighbors in the neural tissue.",
+     "Repeated columns therefore provide the spatial arrangement that a neuron needs to compare signals displaced across the visual field."
+    ],
+    [
+     "The route through the optic lobe.",
+     "The lamina is the first optic neuropil, followed by the medulla and the lobula complex, which includes the lobula and the lobula plate.",
+     "T4 receives inputs in medulla layer M10 and T5 in lobula layer Lo1, while both send their output to the lobula plate."
+    ],
+    [
+     "Connections come from electron microscopy.",
+     "Shinomiya and colleagues reconstructed neurons and synapses with focused-ion-beam scanning electron microscopy, which identifies where each pathway receives its input.",
+     "Filtering and response sign come from physiological measurements."
+    ],
+    [
+     "Why two routes matter for a motion computation.",
+     "T4 and T5 receive different relay neurons, so the ON and OFF pathways reach the same output neuropil by separate input populations.",
+     "Within each pathway, the columnar arrangement keeps the spatial order of the inputs, which is the arrangement a comparison between neighboring positions depends on."
+    ]
+   ],
+   "refs_from": [
+    "Shinomiya 2019",
+    "Takemura 2017"
+   ]
+  },
+  {
+   "after": 15,
+   "title": "A silenced output differs from a failed cell",
+   "paragraphs": [
+    "Temperature-sensitive shibire interferes with synaptic vesicle recycling, so raising the temperature reduces the synaptic output of selected neurons without removing the cells. Because temperature, driver expression and the effector construct can each influence behavior or physiology, experimental flies are compared with driver-only and effector-only controls.",
+    "Schnell and colleagues recorded membrane voltage from lobula plate tangential cells while blocking T4/T5 output. Motion-evoked depolarization and hyperpolarization were largely abolished, whereas responses to flicker, a brightness change without ordered spatial displacement, remained.",
+    "Retained flicker responses show that the recorded cell could still receive and respond to visual input, so the loss of directional responses implicates T4/T5 transmission specifically. The block silences the two classes together, which establishes the pair as a necessary motion input."
+   ],
+   "citation": "Schnell et al. (2012); Clark et al. (2011)",
+   "notes": [
+    "A silencing experiment is interpretable when a control response shows that the preparation still works.",
+    [
+     "What the manipulation does.",
+     "Shibire reduces synaptic output rather than removing the neuron, and its effect depends on temperature.",
+     "Driver-only and effector-only genetic controls separate the intended block from effects of temperature or construct expression."
+    ],
+    [
+     "Motion versus flicker.",
+     "Flicker changes brightness without ordered displacement, so it tests whether the tangential cell still responds to visual stimulation.",
+     "Loss of motion responses with intact flicker responses implicates T4/T5 transmission specifically, instead of a recording failure or a general loss of vision."
+    ],
+    [
+     "Local detectors feed a wide-field cell.",
+     "T4 and T5 repeat across the visual field and each samples a small region, whereas a tangential cell receives from many of them and responds to much larger patterns."
+    ],
+    [
+     "What the result assigns to T4 and T5.",
+     "Membrane voltage was recorded directly while the output of the two cell classes was blocked, and the comparison that matters is between motion and flicker in the same pathway.",
+     "The block removes the pair together, so the experiment identifies a necessary motion input without assigning a separate role to T4 and to T5."
+    ]
+   ],
+   "refs_from": [
+    "Schnell 2012",
+    "Clark 2011"
+   ]
+  },
+  {
+   "after": 19,
+   "title": "A linear prediction is the baseline for nonlinearity",
+   "paragraphs": [
+    "A linear prediction adds the responses to inputs presented separately. If a T4 neuron combined its inputs independently, the response to a motion sequence across three neighboring locations would equal the sum of the responses to flashes at each location.",
+    "Haag and colleagues measured the flash responses first, then presented the same three locations in sequence in each order. The preferred-direction order produced a response larger than the sum, and the reverse order produced a response smaller than the sum, with the positions unchanged.",
+    "Subtracting the linear prediction from the measured response isolates the nonlinear component, positive for enhancement and negative for suppression. The computation of direction therefore lies at or before T4 output and depends on the order of stimulation."
+   ],
+   "citation": "Haag et al. (2016)",
+   "notes": [
+    "A nonlinear interaction is defined against what independent inputs would produce, so the single-location flashes are the control for every sequence experiment.",
+    [
+     "The control measurements.",
+     "Each location was flashed alone, and the sum of those responses is the response expected if the neuron combined the inputs linearly."
+    ],
+    [
+     "The test.",
+     "The same positions were stimulated in a motion sequence, and the measured response was compared with the sum.",
+     "Responses exceeded the sum in the preferred order and fell below it in the reverse order."
+    ],
+    [
+     "The nonlinear component is a difference between measured responses.",
+     "It is an analytical quantity computed by subtraction, not an extra signal recorded at a synapse.",
+     "Positive values mean enhancement and negative values mean suppression, and both constrain how the pathway combines inputs."
+    ],
+    [
+     "Why the order comparison is a strong test.",
+     "Changing only the order changes the motion direction while the tested positions stay the same.",
+     "T4 responses exceeded the sum for one order and fell below it for the reverse order, so the directional effect cannot be reduced to unequal brightness or to a stronger central flash."
+    ]
+   ],
+   "refs_from": [
+    "Haag 2016"
+   ]
+  },
+  {
+   "after": 22,
+   "title": "Spatial asymmetry makes stimulation order matter",
+   "paragraphs": [
+    "Direction requires spatial asymmetry. If every input to a neuron had the same location and the same time course, reversing a stimulus sequence would not necessarily change the combined response, and the neuron could not tell the two directions apart.",
+    "Haag and colleagues found that enhancement and suppression were concentrated on different sides of the T4 receptive-field center. Takemura and colleagues found that reconstructed Mi1 and Tm3 inputs were concentrated centrally while other input types occupied displaced regions of the dendrite.",
+    "One study imaged calcium responses and the other counted and located synapses, yet both found structured contributions around the center rather than an undifferentiated collection of inputs. The displaced inputs are candidate sources of the delayed signal that makes reversing the sequence change the response."
+   ],
+   "citation": "Haag et al. (2016); Takemura et al. (2017)",
+   "notes": [
+    "A directional neuron needs inputs from different positions to contribute differently, and the functional and anatomical maps of T4 both show that organization.",
+    [
+     "Why symmetry would fail.",
+     "With identical locations and time courses, one order of stimulation and its reverse would add the same inputs in the same way.",
+     "A difference between the two orders requires inputs that differ in position or timing."
+    ],
+    [
+     "The functional map.",
+     "Haag and colleagues stimulated the center together with neighboring ommatidia and measured the nonlinear effect at each position.",
+     "Enhancement and suppression lay on different sides of the center."
+    ],
+    [
+     "The anatomical map.",
+     "Takemura and colleagues reconstructed synaptic partners across neighboring medulla columns.",
+     "Mi1 and Tm3 inputs were concentrated centrally, while other input types occupied displaced regions of the T4 dendrite."
+    ],
+    [
+     "Comparing the two at the level of organization.",
+     "The calcium measurements and the synapse counts come from different preparations, so the correspondence is one of arrangement.",
+     "Displaced inputs are candidates for the delayed contributions, and each still needs physiological measurement of its time course and sign."
+    ]
+   ],
+   "refs_from": [
+    "Haag 2016",
+    "Takemura 2017"
+   ]
+  },
+  {
+   "after": 27,
+   "title": "A transmitter's effect depends on the receptor it activates",
+   "paragraphs": [
+    "GABA and glutamate are chemical transmitters, but the effect on the receiving neuron depends on which receptor binds them. The antibody stains used by Takemura and colleagues mark synthesis or packaging machinery in identified input cells, such as the GABA-synthesizing enzyme GAD1 in Mi4 and the vesicular glutamate transporter VGlut in Mi9.",
+    "In the fly, glutamate is not necessarily excitatory. GluClα is a glutamate-gated chloride channel, and opening a chloride conductance produces a hyperpolarizing response rather than the depolarizing response of a cation channel.",
+    "Pankova and Borst detected GluClα transcripts in the pooled T4/T5 population. Together with the displaced positions of Mi4 and Mi9 contacts on the T4 dendrite, input chemistry and receptor identity make these cells candidates for spatially asymmetric, inhibitory contributions, whereas the central Mi1 and Tm3 inputs are cholinergic."
+   ],
+   "citation": "Takemura et al. (2017); Pankova & Borst (2016)",
+   "notes": [
+    "A transmitter marker names the chemistry of the presynaptic cell, and the response sign comes from the receptor on the receiving neuron.",
+    [
+     "What the stains identify.",
+     "Mi4 carries the GABA-synthesis marker GAD1, and Mi9 carries the vesicular glutamate transporter VGlut.",
+     "These markers identify synthetic or packaging machinery in the input cells and distinguish their chemistry from the central cholinergic inputs."
+    ],
+    [
+     "Glutamate acting on an inhibitory receptor.",
+     "GluClα is a glutamate-gated chloride channel, so glutamate acting through it can hyperpolarize the receiving neuron.",
+     "Its transcript appears in the pooled T4/T5 population, which supports a possible inhibitory response."
+    ],
+    [
+     "Combining chemistry with position.",
+     "Mi4 and Mi9 contact the T4 dendrite at displaced locations, which makes them candidates for the spatially asymmetric contributions that direction selectivity requires."
+    ],
+    [
+     "Chemistry, receptor and membrane state decide the sign.",
+     "Response sign depends on the input chemistry, the receptor identity and the conditions of the membrane together.",
+     "A transmitter marker names the machinery of the input cell, so measuring the current at a T4 synapse requires a physiological recording."
+    ]
+   ],
+   "refs_from": [
+    "Takemura 2017",
+    "Pankova 2016"
+   ]
+  },
+  {
+   "after": 32,
+   "title": "Voltage-gated channels reshape voltage and calcium",
+   "paragraphs": [
+    "A voltage-gated ion channel changes its opening probability as the membrane potential changes. The membrane response of a neuron with such channels is therefore not a passive copy of its synaptic input, because sodium and calcium conductances alter the relationship between input current, membrane voltage and intracellular calcium.",
+    "Pankova and Borst detected the sodium-channel gene para together with four of its five identified auxiliary subunits, transcripts for the identified voltage-gated calcium-channel subunits, and the cation channel NaCP60E. An auxiliary subunit influences how a channel behaves without itself forming the pore that carries the ions.",
+    "Potassium channels conduct potassium ions and change how membrane voltage evolves after excitation, so they influence how two inputs arriving at different times combine. Shaker, Shal and SK were among the strongly expressed candidates, and the authors proposed that such active conductances could contribute to delays and nonlinear interactions in motion detectors."
+   ],
+   "citation": "Pankova & Borst (2016)",
+   "notes": [
+    "Channel expression gives a list of molecular components that can shape how a T4 or T5 neuron integrates its inputs over time.",
+    [
+     "Voltage gating.",
+     "Because opening depends on membrane potential, a sodium or calcium conductance can amplify or reshape a depolarization and control calcium entry."
+    ],
+    [
+     "Auxiliary subunits.",
+     "The sequencing assay detected para with several modulatory subunits, and a subunit can change channel behavior without defining the pore."
+    ],
+    [
+     "Potassium channels and temporal integration.",
+     "Potassium conductances act after excitation, so their activation timing and the membrane conditions determine how an earlier input affects the response to a later one.",
+     "The transcriptome included several potassium-channel families with different gating properties, which provides several candidate mechanisms for delay and nonlinearity."
+    ],
+    [
+     "What the transcript list represents.",
+     "The presence of the molecular components is evidence of capacity for active processing and calcium entry in T4/T5.",
+     "Showing that these neurons use a particular channel, for example to produce a delay, requires electrical measurements and perturbation of that channel."
+    ]
+   ],
+   "refs_from": [
+    "Pankova 2016"
+   ]
+  },
+  {
+   "after": 35,
+   "title": "Calcium is a transformed readout of membrane voltage",
+   "paragraphs": [
+    "ArcLight is a fluorescent voltage indicator whose fluorescence decreases during depolarization, and GCaMP6f reports intracellular calcium. Mishra and colleagues expressed each in T4c neurons, which prefer upward motion, and presented identical gratings with a 30° wavelength moving at 15, 30, 60 or 120°/s.",
+    "Both signals responded strongly to the preferred direction, but the null-direction voltage response was much more apparent than the corresponding calcium response, particularly at slower speeds. The calcium signal therefore reported a more direction-selective response than the membrane voltage that produced it.",
+    "The difference follows from the transformation between electrical activity and calcium entry or handling, so selectivity measured with calcium indicators is sharper than the selectivity of the voltage inputs from which it derives. The synaptic computation of direction and the voltage-to-calcium step are separate contributions within T4."
+   ],
+   "citation": "Mishra et al. (2023)",
+   "notes": [
+    "The activity variable that an indicator reports can change how selective a neuron appears.",
+    [
+     "Two indicators in one cell type.",
+     "ArcLight fluorescence decreases during depolarization, so the authors accounted for its sign when comparing it with calcium fluorescence.",
+     "Both probes were targeted to T4c in the same dendritic layer, with identical stimulus parameters across the experiments."
+    ],
+    [
+     "The comparison.",
+     "Preferred-direction voltage and calcium responses were strong in both cases.",
+     "Null-direction activity was much more apparent in the voltage signal than in the calcium signal."
+    ],
+    [
+     "Reading the difference.",
+     "Calcium reflects entry and handling of calcium downstream of voltage, so selectivity estimated from calcium imaging can exceed selectivity in the membrane voltage.",
+     "The comparison pairs two labeled preparations, one for each indicator."
+    ],
+    [
+     "Why this changes how earlier imaging is read.",
+     "A highly selective fluorescent calcium response does not mean that every underlying voltage input is equally selective.",
+     "The direction computation produced by the synaptic inputs and the later voltage-to-calcium step are two contributions that coexist within T4."
+    ]
+   ],
+   "refs_from": [
+    "Mishra 2023"
+   ]
+  },
+  {
+   "after": 39,
+   "title": "Feedforward inhibition adds a delayed opposing signal",
+   "paragraphs": [
+    "Feedforward inhibition occurs when an upstream neuron excites an intervening inhibitory neuron that suppresses a downstream target. The upstream neuron therefore drives its target through two routes at once: a direct excitatory route and an indirect inhibitory route.",
+    "Mauss and colleagues activated T4/T5 with brief blue-light pulses and recorded the tangential-cell response, which began with a fast depolarizing peak at approximately 5.4 ms followed by an inhibitory trough near 11 ms. An indirect route adds an intervening neuron and an extra synaptic step, which is consistent with the later arrival of the inhibition.",
+    "Antagonists separated the two routes. Methyllycaconitine strongly reduced both components, α-bungarotoxin preferentially reduced the fast excitation, and picrotoxin removed the inhibition and increased the excitation, as expected if an inhibitory conductance normally opposes the direct excitatory response."
+   ],
+   "citation": "Mauss et al. (2014)",
+   "notes": [
+    "Feedforward inhibition gives a neuron an excitatory and an inhibitory input that originate from the same source and arrive at different times.",
+    [
+     "Two routes from T4/T5.",
+     "The direct route excites the tangential cell through nicotinic acetylcholine receptors.",
+     "The indirect route recruits an inhibitory neuron whose action opposes the direct excitation."
+    ],
+    [
+     "Timing separates the routes.",
+     "The excitatory peak preceded the inhibitory trough by several milliseconds, and the inhibitory route includes an additional intervening neuron.",
+     "These are response peak times under the pulse protocol, distinct from the delay fitted in the behavioral Reichardt model."
+    ],
+    [
+     "Drugs separate the receptor classes.",
+     "Methyllycaconitine blocks nicotinic receptors and reduced both components, which fits blocking the direct target together with the upstream activation of the inhibitory neuron.",
+     "Different sensitivities to the cholinergic antagonists are consistent with different receptor populations on the direct and indirect routes.",
+     "Picrotoxin reduced the inhibition and left more excitation, which indicates an inhibitory conductance opposing the fast response."
+    ]
+   ],
+   "refs_from": [
+    "Mauss 2014"
+   ]
+  },
+  {
+   "after": 42,
+   "title": "Rectification removes cross-polarity interactions",
+   "paragraphs": [
+    "Rectification retains or emphasizes one sign of a signal after a transformation. A motion model that rectifies bright and dark signals completely into two independent channels removes the interactions between a brightness increase at one position and a decrease at its neighbor.",
+    "Reverse-phi stimuli consist of such cross-polarity sequences, because each displacement swaps bright and dark regions. A detector built only from separate, fully rectified ON and OFF streams would lose the interactions that reverse-phi responses require, so the behavior needs sensitivity beyond two isolated channels.",
+    "Leonhardt and colleagues varied flicker frequency independently of spatial-step frequency, and behavioral responses changed with both. A published two-quadrant model that includes a constant-luminance component captured important features of the measured reversal."
+   ],
+   "citation": "Leonhardt et al. (2017); Clark et al. (2011)",
+   "notes": [
+    "Rectification explains why separating bright and dark pathways anatomically does not make them functionally independent.",
+    [
+     "What rectification does.",
+     "It keeps one sign of the signal, so a fully rectified channel responds to its preferred contrast change and ignores the opposite one.",
+     "Two fully rectified channels cannot form products between a brightness increase and a decrease."
+    ],
+    [
+     "The stimulus that exposes the problem.",
+     "In reverse-phi each displacement swaps bright and dark, so neighboring signals have opposite polarities.",
+     "Flies still respond, which requires effective cross-polarity sensitivity."
+    ],
+    [
+     "The two-quadrant account.",
+     "Adding a baseline luminance contribution allows opposite-polarity influences to enter without a direct multiplier on every ON and OFF pair.",
+     "Clark's four polarity pairings and Leonhardt's dissociated flicker and step frequencies both require this sensitivity, and anatomical ON and OFF separation remains compatible with it."
+    ],
+    [
+     "What the model fit represents.",
+     "The model is a proposed computational account of effective pathway interactions, and the baseline term is a constant-luminance component in the model.",
+     "The cellular origin of that baseline contribution is a separate question for physiological experiments."
+    ]
+   ],
+   "refs_from": [
+    "Leonhardt 2017",
+    "Clark 2011"
+   ]
+  },
+  {
+   "after": 44,
+   "title": "Necessity and localization answer different questions",
+   "paragraphs": [
+    "Silencing a neuron tests whether its output is required for a behavior. A neuron can be necessary without generating every temporal transformation in the behavior, because later stages can reshape the signal that the neuron supplies.",
+    "Mano and colleagues silenced T4/T5 and eliminated both the ordinary and the delayed anti-directional turning, so detector output is required for both. Calcium imaging then followed T4, T5 and several lobula plate cell classes during the same prolonged stimulus.",
+    "Preferred-direction signals persisted throughout the interval in which the fly's turn changed sign, and null-direction activity remained comparatively weak. The sign change appears in behavior but not in the sampled neural signals, which places the transformation downstream of the recorded cells."
+   ],
+   "citation": "Mano et al. (2023)",
+   "notes": [
+    "A necessity test and a localization test are separate experiments, and the reversal of turning on slide 43 required both.",
+    [
+     "What silencing established.",
+     "Blocking T4/T5 removed the early turn with the pattern and the later turn against it.",
+     "Both turns therefore depend on detector output."
+    ],
+    [
+     "What imaging added.",
+     "Calcium signals in T4, T5 and lobula plate cells showed no reversal or decay matching the behavioral switch.",
+     "Preferred-direction responses stayed strong while the turning direction inverted."
+    ],
+    [
+     "Where the transformation can lie.",
+     "The mismatch between neural time courses and behavior supports a transformation downstream of the sampled signals.",
+     "The recordings sampled selected populations and calcium activity, so the sampled cell classes define the scope of that conclusion."
+    ],
+    [
+     "How the two experiments fit together.",
+     "Silencing shows that T4/T5 are required for both the ordinary and the delayed anti-directional turn.",
+     "Imaging follows activity over a matching prolonged stimulus and finds the detector's directional signal intact while the behavior changes sign, which locates the slow behavioral reversal beyond the detector."
+    ]
+   ],
+   "refs_from": [
+    "Mano 2023"
+   ]
+  }
+ ]
+}
