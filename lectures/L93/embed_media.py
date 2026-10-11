@@ -39,12 +39,13 @@ for number,clips in groups.items():
   cell=5.7 if len(clips)==1 else 2.75
   left=7.01 if len(clips)==1 else 7.01+j*2.95
   # Center the unedited source-frame poster; preserve original display aspect.
-  ratio=m['display_aspect'];width=min(cell,2.35*ratio);height=width/ratio
-  fallback=slide.shapes.add_picture(str(poster),Inches(left+(cell-width)/2),Inches(4.23+(2.35-height)/2),Inches(width),Inches(height))
+  ratio=m['display_aspect'];video_height=2.02 if len(clips)>1 and ratio<1.4 else 2.35
+  width=min(cell,video_height*ratio);height=width/ratio
+  fallback=slide.shapes.add_picture(str(poster),Inches(left+(cell-width)/2),Inches(4.23+(video_height-height)/2),Inches(width),Inches(height))
   fallback.name='Unedited article-recording frame: '+m['caption']
-  movie=slide.shapes.add_movie(str(clip),Inches(left+(cell-width)/2),Inches(4.23+(2.35-height)/2),Inches(width),Inches(height),poster_frame_image=str(poster),mime_type='video/mp4')
+  movie=slide.shapes.add_movie(str(clip),Inches(left+(cell-width)/2),Inches(4.23+(video_height-height)/2),Inches(width),Inches(height),poster_frame_image=str(poster),mime_type='video/mp4')
   movie.name=m['caption']+' (click to play)'
-  c=slide.shapes.add_textbox(Inches(left),Inches(6.25 if len(clips)>1 else 6.62),Inches(cell),Inches(.60 if len(clips)>1 else .40))
+  c=slide.shapes.add_textbox(Inches(left),Inches((6.32 if ratio<1.4 else 6.25) if len(clips)>1 else 6.62),Inches(cell),Inches(.60 if len(clips)>1 else .40))
   c.name='Article recording credit';tf=c.text_frame;tf.word_wrap=True
   tf.margin_top=tf.margin_bottom=tf.margin_left=tf.margin_right=0
   r=tf.paragraphs[0].add_run();r.text='Click to play. '+m['caption'];r.font.name='Arial';r.font.size=Pt(9);r.font.color.rgb=RGBColor(0,0,0)

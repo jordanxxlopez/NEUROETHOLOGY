@@ -4,7 +4,7 @@
   "content_slides": 44,
   "primary_article_figure_content_slides": 44,
   "color_content_slides_after_embedding": 36,
-  "embedded_original_videos": 15,
+  "embedded_original_videos": 18,
   "video_slides": [
     5,
     8,
@@ -15,19 +15,21 @@
     20,
     22,
     29,
-    31
+    31,
+    33,
+    34
   ],
   "source_audio_preserved": true,
   "checks": "Repository checker: zero failures and zero warnings.",
-  "visual_review": "All 46 rendered slides were reviewed during initial delivery. The five revised paired-video slides were rendered and visually reviewed after the revision.",
-  "media_integrity": "All 15 embedded hashes, media and video relationships, timing nodes and display ratios verified. Complete clips decoded without errors. Original source files or converted recordings retain original audio; decoded audio checksums were verified for all ape and mouse clips.",
+  "visual_review": "All 46 slides reviewed initially; previous revised layouts and new slides 33\u201334 rendered and visually reviewed. Caption overlap in the new portrait-shaped comparison clips was corrected.",
+  "media_integrity": "All 18 embedded hashes, media and video relationships, timing nodes and display ratios verified. Complete clips decoded without errors. Original source files or converted recordings retain original audio; decoded audio checksums were verified for all ape and mouse clips.",
   "playback_limit": "Desktop PowerPoint interactive playback was unavailable. The PDF render is static; the PPTX contains the complete recordings.",
   "figure_policy": "Only original PDF crops and unedited original recording frames; no images generated or drawn.",
   "title_image_uniqueness": "Source citation audit and nearest-image review across 50 prior decks and 2169 distinct images, including the concurrent Lecture 92 completion, found no reuse.",
   "font": "Arial",
   "theme": "smoke blue / chalk white",
-  "deck_bytes": 103133248,
-  "deck_sha256": "15ae3e78ed46049c39e1b3b5af3ed87408ac7daf5d09194634a90e15a79025e1",
+  "deck_bytes": 104366078,
+  "deck_sha256": "40b1bf71fc06461115e85506659d3f4858ad1c1345337144fa7efcbf7f6413b1",
   "videos_per_slide": {
     "5": 2,
     "8": 2,
@@ -38,7 +40,9 @@
     "20": 1,
     "22": 1,
     "29": 1,
-    "31": 1
+    "31": 1,
+    "33": 2,
+    "34": 1
   },
   "no_audio_track_recordings": [
     {
@@ -60,6 +64,10 @@
     {
       "slide": 22,
       "file": "41467_2019_12588_MOESM7_ESM.mp4"
+    },
+    {
+      "slide": 34,
+      "file": "science.adi8081_movie_s3.mp4"
     }
   ],
   "quiet_source_audio_recordings": [
@@ -75,5 +83,6 @@
       "slide": 14,
       "file": "mmc11.mp4"
     }
-  ]
+  ],
+  "existing_recordings_preserved": "All 15 previous media source entries and clip hashes remain unchanged."
 }
