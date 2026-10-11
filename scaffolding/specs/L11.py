@@ -44,6 +44,7 @@ third = {
 
 inserts = [
     dict(after=4,
+         bold=["Temporal frequency"],
          title="Temporal frequency depends on speed and stripe spacing",
          paragraphs=[
              "Temporal frequency is the number of pattern cycles that pass a single retinal position each second. Pattern speed alone does not fix it, because stripe spacing changes how many stripes cross that position in a given time: narrow stripes moving at one speed modulate each position faster than broad stripes moving at the same speed.",
@@ -65,6 +66,7 @@ inserts = [
          ],
          refs_from=["Duistermars 2007"]),
     dict(after=6,
+         bold=["change in brightness"],
          title="A single brightness change is ambiguous about direction",
          paragraphs=[
              "A change in brightness at one location has several possible causes: an object entering the location, an object leaving it, or a light source changing intensity. The signal from that location alone therefore does not specify which way anything moved.",
@@ -86,6 +88,7 @@ inserts = [
          ],
          refs_from=["Hassenstein 1956", "Clark 2011"]),
     dict(after=8,
+         bold=["Hassenstein–Reichardt detector"],
          title="The detector turns a sequence into a signed output",
          paragraphs=[
              "The Hassenstein–Reichardt detector processes two neighboring inputs in four steps. One input is delayed relative to the other, the delayed signal is multiplied by the less-delayed signal from the neighboring position, a mirror-symmetric arm repeats the operation with the delay on the opposite input, and the outputs of the two arms are subtracted.",
@@ -108,6 +111,7 @@ inserts = [
          ],
          refs_from=["Hassenstein 1956", "Clark 2011"]),
     dict(after=11,
+         bold=["reverse-phi motion"],
          title="Contrast reversal flips the sign of the product",
          paragraphs=[
              "In phi motion a pattern shifts between frames and keeps its contrast; in reverse-phi motion each shift also swaps bright and dark regions. The physical displacement is the same in both cases, but the brightness change at each position has the opposite sign in reverse-phi.",
@@ -133,6 +137,7 @@ inserts = [
          ],
          refs_from=["Leonhardt 2017"]),
     dict(after=13,
+         bold=["Retinotopy"],
          title="Retinotopic columns let neighboring signals be compared",
          paragraphs=[
              "Retinotopy means that neighboring locations in visual space remain neighbors in the neural representation. In the fly optic lobe, repeated columns carry signals from neighboring locations, so a neuron can compare inputs from adjacent columns instead of losing spatial identity at the first synapse.",
@@ -157,6 +162,7 @@ inserts = [
          ],
          refs_from=["Shinomiya 2019", "Takemura 2017"]),
     dict(after=15,
+         bold=["shibire"],
          title="A silenced output differs from a failed cell",
          paragraphs=[
              "Temperature-sensitive shibire interferes with synaptic vesicle recycling, so raising the temperature reduces the synaptic output of selected neurons without removing the cells. Because temperature, driver expression and the effector construct can each influence behavior or physiology, experimental flies are compared with driver-only and effector-only controls.",
@@ -180,6 +186,7 @@ inserts = [
          ],
          refs_from=["Schnell 2012", "Clark 2011"]),
     dict(after=19,
+         bold=["linear prediction"],
          title="A linear prediction is the baseline for nonlinearity",
          paragraphs=[
              "A linear prediction adds the responses to inputs presented separately. If a T4 neuron combined its inputs independently, the response to a motion sequence across three neighboring locations would equal the sum of the responses to flashes at each location.",
@@ -203,6 +210,7 @@ inserts = [
          ],
          refs_from=["Haag 2016"]),
     dict(after=22,
+         bold=["spatial asymmetry"],
          title="Spatial asymmetry makes stimulation order matter",
          paragraphs=[
              "Direction requires spatial asymmetry. If every input to a neuron had the same location and the same time course, reversing a stimulus sequence would not necessarily change the combined response, and the neuron could not tell the two directions apart.",
@@ -227,6 +235,7 @@ inserts = [
          ],
          refs_from=["Haag 2016", "Takemura 2017"]),
     dict(after=27,
+         bold=["chemical transmitters"],
          title="A transmitter's effect depends on the receptor it activates",
          paragraphs=[
              "GABA and glutamate are chemical transmitters, but the effect on the receiving neuron depends on which receptor binds them. The antibody stains used by Takemura and colleagues mark synthesis or packaging machinery in identified input cells, such as the GABA-synthesizing enzyme GAD1 in Mi4 and the vesicular glutamate transporter VGlut in Mi9.",
@@ -250,6 +259,7 @@ inserts = [
          ],
          refs_from=["Takemura 2017", "Pankova 2016"]),
     dict(after=32,
+         bold=["voltage-gated ion channel"],
          title="Voltage-gated channels reshape voltage and calcium",
          paragraphs=[
              "A voltage-gated ion channel changes its opening probability as the membrane potential changes. The membrane response of a neuron with such channels is therefore not a passive copy of its synaptic input, because sodium and calcium conductances alter the relationship between input current, membrane voltage and intracellular calcium.",
@@ -272,6 +282,7 @@ inserts = [
          ],
          refs_from=["Pankova 2016"]),
     dict(after=35,
+         bold=["ArcLight"],
          title="Calcium is a transformed readout of membrane voltage",
          paragraphs=[
              "ArcLight is a fluorescent voltage indicator whose fluorescence decreases during depolarization, and GCaMP6f reports intracellular calcium. Mishra and colleagues expressed each in T4c neurons, which prefer upward motion, and presented identical gratings with a 30° wavelength moving at 15, 30, 60 or 120°/s.",
@@ -296,6 +307,7 @@ inserts = [
          ],
          refs_from=["Mishra 2023"]),
     dict(after=39,
+         bold=["Feedforward inhibition"],
          title="Feedforward inhibition adds a delayed opposing signal",
          paragraphs=[
              "Feedforward inhibition occurs when an upstream neuron excites an intervening inhibitory neuron that suppresses a downstream target. The upstream neuron therefore drives its target through two routes at once: a direct excitatory route and an indirect inhibitory route.",
@@ -318,6 +330,7 @@ inserts = [
          ],
          refs_from=["Mauss 2014"]),
     dict(after=42,
+         bold=["Rectification"],
          title="Rectification removes cross-polarity interactions",
          paragraphs=[
              "Rectification retains or emphasizes one sign of a signal after a transformation. A motion model that rectifies bright and dark signals completely into two independent channels removes the interactions between a brightness increase at one position and a decrease at its neighbor.",
@@ -342,6 +355,7 @@ inserts = [
          ],
          refs_from=["Leonhardt 2017", "Clark 2011"]),
     dict(after=44,
+         bold=["Silencing a neuron"],
          title="Necessity and localization answer different questions",
          paragraphs=[
              "Silencing a neuron tests whether its output is required for a behavior. A neuron can be necessary without generating every temporal transformation in the behavior, because later stages can reshape the signal that the neuron supplies.",

@@ -53,6 +53,7 @@ third = {
 
 inserts = [
     dict(after=2,
+         bold=["optic tectum"],
          title="The optic tectum aligns auditory and visual maps",
          paragraphs=[
              "The optic tectum is a midbrain structure that receives visual input and auditory space information. In the barn owl, a sound and a visible object at the same place normally drive neurons at the same tectal location.",
@@ -78,6 +79,7 @@ inserts = [
          ],
          refs_from=["Brainard 1993"]),
     dict(after=4,
+         bold=["tuning curve"],
          title="Best ITD is the peak of a timing tuning curve",
          paragraphs=[
              "A tuning curve plots the response of a neuron against a stimulus parameter. Best ITD is the timing difference at the peak of the curve, and it is not the only value that can activate the neuron.",
@@ -104,6 +106,7 @@ inserts = [
          ],
          refs_from=["Brainard 1993"]),
     dict(after=5,
+         bold=["ICCls"],
          title="ICCls and ICX are successive collicular stages",
          paragraphs=[
              "The lateral shell of the central nucleus, ICCls, provides timing-specific input to the external nucleus, ICX. ICX combines information across frequency channels and sends a spatially ordered auditory representation to the optic tectum.",
@@ -129,6 +132,7 @@ inserts = [
          ],
          refs_from=["Brainard 1993"]),
     dict(after=8,
+         bold=["sensitive period"],
          title="A sensitive period is a window of heightened plasticity",
          paragraphs=[
              "A sensitive period is an age range during which a particular experience can alter a circuit especially strongly. Outside the window, the same experience produces little change.",
@@ -153,6 +157,7 @@ inserts = [
          ],
          refs_from=["Brainard 1998"]),
     dict(after=9,
+         bold=["Chronic recording"],
          title="Chronic recording follows the same preparation over time",
          paragraphs=[
              "Chronic recording means returning to a recording preparation across days and weeks. The map of a single animal can be measured before and during adaptation.",
@@ -176,6 +181,7 @@ inserts = [
          ],
          refs_from=["Brainard 1998"]),
     dict(after=12,
+         bold=["Recovery"],
          title="Recovery restores a previously calibrated map",
          paragraphs=[
              "Recovery is a return to a cue-to-location relationship that the animal established earlier. It differs from acquiring a new displacement, which requires an unfamiliar mapping.",
@@ -201,6 +207,7 @@ inserts = [
          ],
          refs_from=["Brainard 1998"]),
     dict(after=17,
+         bold=["instructive signal"],
          title="An instructive signal specifies the direction of change",
          paragraphs=[
              "An instructive signal carries information about how a representation should change, not only that a change is needed. A topographic instructive signal specifies the change separately for each location in the map.",
@@ -225,6 +232,7 @@ inserts = [
          ],
          refs_from=["Hyde 2001"]),
     dict(after=21,
+         bold=["Glutamate"],
          title="NMDA and non-NMDA receptors are glutamate-gated channels",
          paragraphs=[
              "Glutamate is the main excitatory transmitter in these collicular circuits. NMDA and non-NMDA receptors are two classes of glutamate-activated ion channel, and each class can be blocked with a selective antagonist.",
@@ -249,6 +257,7 @@ inserts = [
          ],
          refs_from=["Feldman 1998"]),
     dict(after=25,
+         bold=["NMDA-receptor currents"],
          title="NMDA currents depend on the membrane voltage",
          paragraphs=[
              "NMDA-receptor currents depend on receptor activation and on the electrical state of the postsynaptic membrane. Depolarization makes the membrane voltage less negative and can increase the contribution of NMDA currents to excitation.",
@@ -274,6 +283,7 @@ inserts = [
          ],
          refs_from=["Feldman 1998"]),
     dict(after=29,
+         bold=["Disinhibition"],
          title="Disinhibition reveals hidden excitatory input",
          paragraphs=[
              "Disinhibition is the removal of inhibition, which can reveal excitation that the inhibition was suppressing. GABA mediates inhibition in the ICX experiments of Zheng and Knudsen, and bicuculline blocks GABA-A receptors.",
@@ -298,6 +308,7 @@ inserts = [
          ],
          refs_from=["Zheng 2001"]),
     dict(after=34,
+         bold=["Anterograde tracing"],
          title="Anterograde tracing follows axons to their targets",
          paragraphs=[
              "Anterograde tracing labels projections from neuronal cell bodies toward their axon terminals. A tracer injected at one site fills the axons that leave it and shows where they end.",
@@ -322,6 +333,7 @@ inserts = [
          ],
          refs_from=["DeBello 2001"]),
     dict(after=38,
+         bold=["bouton"],
          title="Boutons mark potential presynaptic contacts",
          paragraphs=[
              "A bouton is a swelling along an axon at which synaptic contacts can form. An additional branch is more relevant to circuit function when it carries boutons.",
@@ -345,6 +357,7 @@ inserts = [
          ],
          refs_from=["DeBello 2001"]),
     dict(after=41,
+         bold=["Hunting"],
          title="Hunting couples sound, vision and consequence",
          paragraphs=[
              "Hunting combines moving live prey, sounds made by the prey, visual information about its position and an immediate consequence for an inaccurate strike. Bergan and colleagues asked whether this behavior increases adult auditory plasticity.",
@@ -369,6 +382,7 @@ inserts = [
          ],
          refs_from=["Bergan 2005"]),
     dict(after=43,
+         bold=["Strike success"],
          title="Strike success measures behavioral accuracy",
          paragraphs=[
              "Strike success is the proportion of attempts in which the owl captures the target mouse. It provides a behavioral outcome that can be compared with the neural map shift in the same animals.",

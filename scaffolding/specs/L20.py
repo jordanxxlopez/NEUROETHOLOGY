@@ -54,6 +54,7 @@ third = {
 
 inserts = [
     dict(after=5,
+         bold=["electric dipole"],
          title="An electric dipole has a source and a sink",
          paragraphs=[
              "An electric dipole consists of a current source and a nearby current sink. Current leaves the source, flows through the seawater and returns to the sink, so the field has a direction at every point around the pair.",
@@ -82,6 +83,7 @@ inserts = [
          ],
          refs_from=["Kalmijn 1971"]),
     dict(after=7,
+         bold=["Source current"],
          title="Source current differs from local field strength",
          paragraphs=[
              "Source current is the current delivered through the outlets of a dipole, measured in microamperes. Field strength is the voltage gradient at the position of the animal, measured in microvolts per centimeter.",
@@ -107,6 +109,7 @@ inserts = [
          ],
          refs_from=["Kajiura 2002"]),
     dict(after=10,
+         bold=["behavioral threshold"],
          title="Behavioral thresholds depend on a response criterion",
          paragraphs=[
              "A behavioral threshold is the stimulus level at which an animal reliably performs a defined response. It is set by the criterion that the observer chooses and by the motivation of the animal.",
@@ -132,6 +135,7 @@ inserts = [
          ],
          refs_from=["Kajiura 2002"]),
     dict(after=13,
+         bold=["ampulla of Lorenzini"],
          title="Pores and canals connect skin to receptor cells",
          paragraphs=[
              "Each ampulla of Lorenzini opens to the skin through a pore and a jelly-filled canal. The canal conducts the voltage at the pore to a receptor epithelium at its inner end.",
@@ -158,6 +162,7 @@ inserts = [
          ],
          refs_from=["Bellono 2017"]),
     dict(after=16,
+         bold=["shunt"],
          title="A salt bridge shunts the canal of an isolated ampulla",
          paragraphs=[
              "A shunt is a low-resistance path that carries current around part of a circuit. In the isolated ampulla, a salt bridge connected the canal side directly to the nerve side and held the transampullary voltage near its resting operating range.",
@@ -182,6 +187,7 @@ inserts = [
          ],
          refs_from=["Clusin 1979"]),
     dict(after=17,
+         bold=["Tetrodotoxin"],
          title="Tetrodotoxin isolates the synaptic potential",
          paragraphs=[
              "Tetrodotoxin blocks voltage-gated sodium channels, which generate action potentials in nerve cells. With spikes blocked, the slower synaptic potential that precedes them can be measured by itself.",
@@ -208,6 +214,7 @@ inserts = [
          ],
          refs_from=["Clusin 1979"]),
     dict(after=19,
+         bold=["period histogram"],
          title="Period histograms align spikes to the stimulus cycle",
          paragraphs=[
              "A period histogram groups spikes by their position within one cycle of a repeating stimulus. Spikes that cluster at one phase produce a peak, and a reduction in spikes at another phase produces a trough.",
@@ -232,6 +239,7 @@ inserts = [
          ],
          refs_from=["Tricas 1998"]),
     dict(after=21,
+         bold=["Gain"],
          title="Gain describes sensitivity to changes in intensity",
          paragraphs=[
              "Gain is the change in neural response per unit change in stimulus intensity. A high-gain neuron changes its firing steeply for a small change in field, and a low-gain neuron needs a larger change to produce the same effect.",
@@ -255,6 +263,7 @@ inserts = [
          ],
          refs_from=["Tricas 1998"]),
     dict(after=23,
+         bold=["Adaptation"],
          title="Adaptation emphasizes changes over steady fields",
          paragraphs=[
              "Adaptation is a decline in response during a maintained stimulus. The response is largest when the stimulus changes and smaller when the stimulus stays constant.",
@@ -279,6 +288,7 @@ inserts = [
          ],
          refs_from=["Tricas 1998"]),
     dict(after=26,
+         bold=["window current"],
          title="A window current sustains activity near rest",
          paragraphs=[
              "A window current is a persistent current that flows where the activation curve of a channel overlaps the curve of its availability. Over that voltage range, channels open and remain available at the same time.",
@@ -304,6 +314,7 @@ inserts = [
          ],
          refs_from=["Bellono 2017"]),
     dict(after=27,
+         bold=["Negative feedback"],
          title="Negative feedback returns the membrane toward rest",
          paragraphs=[
              "Negative feedback is a process in which a change sets in motion an opposing change. In the receptor cell, calcium entry depolarizes the membrane, and the resulting rise in calcium recruits an outward potassium current that opposes the depolarization.",
@@ -329,6 +340,7 @@ inserts = [
          ],
          refs_from=["Bellono 2017"]),
     dict(after=30,
+         bold=["Gating current"],
          title="Gating charge and tail current report channel coupling",
          paragraphs=[
              "Gating current records the movement of charge inside the voltage-sensing parts of a channel. Ionic conductance records current through the open pore, and the relation between the two reports how efficiently sensor movement opens the pore.",
@@ -354,6 +366,7 @@ inserts = [
          ],
          refs_from=["Bellono 2017"]),
     dict(after=41,
+         bold=["Membrane capacitance"],
          title="Capacitance increases when vesicles fuse",
          paragraphs=[
              "Membrane capacitance is the ability of the membrane to store charge, and it increases with surface area. When a synaptic vesicle fuses with the cell surface, its membrane adds to the surface and capacitance rises.",
@@ -378,6 +391,7 @@ inserts = [
          ],
          refs_from=["Bellono 2018"]),
     dict(after=44,
+         bold=["Reafference"],
          title="Reafference is self-generated sensory input",
          paragraphs=[
              "Reafference is sensory stimulation caused by an animal's own movement. For an electrosensory fish, breathing movements of the gills generate electrical signals at the skin that are predictable in time.",

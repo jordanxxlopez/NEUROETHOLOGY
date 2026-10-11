@@ -56,6 +56,7 @@ third = {
 
 inserts = [
     dict(after=3,
+         bold=["two-alternative choice task"],
          title="A choice assay needs a chance level and a criterion",
          paragraphs=[
              "In a two-alternative choice task, an animal that cannot tell the two stimuli apart will choose each about half of the time, so chance is one correct choice in two. Performance above 50% indicates that the animal can use the difference between the stimuli.",
@@ -80,6 +81,7 @@ inserts = [
          ],
          refs_from=["Thoen 2014"]),
     dict(after=4,
+         bold=["receptor-noise model"],
          title="Receptor tuning and behavioral threshold are separate",
          paragraphs=[
              "A receptor-noise model predicts the smallest discriminable wavelength difference from the sensitivities of the receptors and an assumption about how adjacent spectral channels are compared. Narrow receptor tuning makes fine discrimination possible under the model, but the animal's performance depends on whether it performs the assumed comparison.",
@@ -103,6 +105,7 @@ inserts = [
          ],
          refs_from=["Thoen 2014", "Wang 2025"]),
     dict(after=6,
+         bold=["Spectral opponency"],
          title="Spectral opponency compares signals across channels",
          paragraphs=[
              "Spectral opponency compares signals from receptors with different wavelength sensitivities, so the output depends on the difference between channels. A system that recognizes a color by which channels are active, without comparing them, is a different computation.",
@@ -126,6 +129,7 @@ inserts = [
          ],
          refs_from=["Wang 2025"]),
     dict(after=9,
+         bold=["Distal"],
          title="Light passes through receptor tiers in sequence",
          paragraphs=[
              "In the color rows of the midband, the same beam of light meets successive receptor-bearing layers. Distal means nearer the optical entrance and proximal means farther along the light path, so the distal R8 cell lies nearest the incoming light and R1–R7 contribute to two deeper tiers.",
@@ -149,6 +153,7 @@ inserts = [
          ],
          refs_from=["Cronin 1989", "Bok 2014"]),
     dict(after=12,
+         bold=["Microspectrophotometry"],
          title="Effective sensitivity combines pigment and filters",
          paragraphs=[
              "Microspectrophotometry measures how a microscopic specimen absorbs light across wavelengths. Cronin and Marshall compared absorption before and after strong illumination in the same receptor region, and the difference isolates the contribution of the light-sensitive pigment.",
@@ -172,6 +177,7 @@ inserts = [
          ],
          refs_from=["Cronin 1989", "Thoen 2014"]),
     dict(after=17,
+         bold=["opsin transcript"],
          title="Transcripts, pigments and sensitivities differ",
          paragraphs=[
              "An opsin transcript is RNA encoding a candidate pigment protein, and in situ hybridization localizes that sequence in the retina. A pigment measurement describes the absorption of the protein, and an electrical recording describes the sensitivity of an intact receptor.",
@@ -195,6 +201,7 @@ inserts = [
          ],
          refs_from=["Bok 2014"]),
     dict(after=19,
+         bold=["long-pass filter"],
          title="Filters can shift sensitivity in either direction",
          paragraphs=[
              "A long-pass filter removes shorter wavelengths while transmitting longer ones, and a short-pass filter preferentially removes longer wavelengths. Because the filter acts before the pigment absorbs a photon, the same pigment can have a different effective sensitivity under each filter.",
@@ -218,6 +225,7 @@ inserts = [
          ],
          refs_from=["Bok 2014"]),
     dict(after=23,
+         bold=["Polarization"],
          title="Polarization is a separate property of light",
          paragraphs=[
              "Polarization describes the organization of a light wave's electric-field oscillation. In linearly polarized light the electric vector oscillates along one orientation, so two lights can share a wavelength spectrum and intensity while differing in polarization orientation.",
@@ -239,6 +247,7 @@ inserts = [
          ],
          refs_from=["Chiou 2008", "Kleinlogel 2008", "Daly 2016"]),
     dict(after=26,
+         bold=["Polarization sensitivity"],
          title="Intensity curves separate sensitivity from intensity",
          paragraphs=[
              "Polarization sensitivity can be estimated by comparing the light intensities needed to produce equal voltage responses under preferred and unfavorable polarization states. A series of intensities separates the contribution of photon delivery from the contribution of polarization preference, which a single flash cannot do.",
@@ -262,6 +271,7 @@ inserts = [
          ],
          refs_from=["Kleinlogel 2008"]),
     dict(after=29,
+         bold=["quarter-wave retarder"],
          title="A quarter-wave retarder converts circular to linear",
          paragraphs=[
              "A quarter-wave retarder introduces a relative phase delay of one-quarter wavelength, or 90°, between orthogonal electric-field components. Retarding one component changes the combined polarization state without requiring the whole beam to be absorbed.",
@@ -285,6 +295,7 @@ inserts = [
          ],
          refs_from=["Chiou 2008", "Roberts 2009"]),
     dict(after=35,
+         bold=["Polarization distance"],
          title="Polarization distance is a model-based contrast",
          paragraphs=[
              "Polarization distance is a model-based measure of the contrast between two polarization states available to a specified receptor system. It combines the polarization of an object and its background with the orientation of the receptor axes.",
@@ -306,6 +317,7 @@ inserts = [
          ],
          refs_from=["Daly 2016"]),
     dict(after=40,
+         bold=["lamina monopolar cell"],
          title="Lamina responses transform receptor signals",
          paragraphs=[
              "A lamina monopolar cell is an interneuron whose main axon traverses the lamina and branches within its layers. Chiou and Wang identified monopolar-cell-like responses in Haptosquilla pulchella from recording depth and characteristic graded voltage changes.",
@@ -330,6 +342,7 @@ inserts = [
          ],
          refs_from=["Chiou 2020", "Streets 2025"]),
     dict(after=42,
+         bold=["Serial block-face electron microscopy"],
          title="Volume microscopy follows a cell through sections",
          paragraphs=[
              "Serial block-face electron microscopy repeatedly images a tissue block as thin layers are removed, producing a three-dimensional volume. A neuron that appears as a small profile in one image can be followed through successive images until its whole outline is reconstructed.",
@@ -351,6 +364,7 @@ inserts = [
          ],
          refs_from=["Streets 2025"]),
     dict(after=44,
+         bold=["cartridge"],
          title="Overlap marks candidate contacts",
          paragraphs=[
              "A cartridge receives input from one ommatidium, but the branches of a cell need not stay within that column. Cross-cartridge branches allow a cell to encounter signals that originate from neighboring receptor populations, including different spectral sampling rows.",

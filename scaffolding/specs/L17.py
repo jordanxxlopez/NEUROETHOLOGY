@@ -50,6 +50,7 @@ third = {
 
 inserts = [
     dict(after=3,
+         bold=["Echo delay"],
          title="Echo delay increases with target distance",
          paragraphs=[
              "Sound travels from the bat to the target and back, so the round trip lengthens as the target moves away. Echo delay therefore increases with target range, and delay is the cue that Simmons manipulated electronically.",
@@ -75,6 +76,7 @@ inserts = [
          ],
          refs_from=["Simmons 1973"]),
     dict(after=5,
+         bold=["criterion"],
          title="Range acuity is defined by a performance criterion",
          paragraphs=[
              "A criterion fixes the level of correct choices that counts as a threshold, so range acuity is the smallest distance difference that reaches that level. Simmons used 75% correct, which lies between chance at 50% and nearly error-free performance.",
@@ -98,6 +100,7 @@ inserts = [
          ],
          refs_from=["Simmons 1973"]),
     dict(after=6,
+         bold=["Autocorrelation"],
          title="Autocorrelation compares a signal with delayed copies",
          paragraphs=[
              "Autocorrelation is a measure of similarity between a waveform and delayed versions of itself. A signal that matches itself well at only one delay yields a sharply peaked function, whereas a signal that matches itself over many delays yields a broad one.",
@@ -124,6 +127,7 @@ inserts = [
          ],
          refs_from=["Simmons 1973"]),
     dict(after=8,
+         bold=["Directional sampling"],
          title="Directional sampling shapes the echoes a bat receives",
          paragraphs=[
              "A bat aims its broadcast toward an object, and the strength of the returning echo depends on where the beam points. Directional sampling is therefore part of the task of inspecting two targets separately.",
@@ -148,6 +152,7 @@ inserts = [
          ],
          refs_from=["Simmons 1973"]),
     dict(after=10,
+         bold=["Cross-correlation"],
          title="Cross-correlation compares an echo with the call",
          paragraphs=[
              "Cross-correlation measures the similarity between two signals as their relative timing is varied. For an echo and the transmitted call, the delay at which similarity peaks marks the echo arrival time.",
@@ -173,6 +178,7 @@ inserts = [
          ],
          refs_from=["Simmons 1973"]),
     dict(after=11,
+         bold=["cochlear nucleus"],
          title="Two relays in the ascending auditory pathway",
          paragraphs=[
              "Sound-evoked activity reaches the brain through the auditory nerve, and the cochlear nucleus is the first central relay. The inferior colliculus is a midbrain center that receives ascending input from brainstem nuclei.",
@@ -198,6 +204,7 @@ inserts = [
          ],
          refs_from=["Simmons 2024"]),
     dict(after=13,
+         bold=["local field potential"],
          title="Local field potentials sum population activity",
          paragraphs=[
              "A local field potential is an extracellular voltage that reflects coordinated activity in a population of neurons. Its peaks mark the time at which many cells near the electrode responded together.",
@@ -222,6 +229,7 @@ inserts = [
          ],
          refs_from=["Simmons 2024"]),
     dict(after=15,
+         bold=["Latency"],
          title="Latency and jitter measure different timing properties",
          paragraphs=[
              "Latency is the time from a stimulus to a defined neural response, and jitter is the trial-to-trial spread of that time. A response can arrive late and still repeat very precisely.",
@@ -247,6 +255,7 @@ inserts = [
          ],
          refs_from=["Simmons 2024"]),
     dict(after=16,
+         bold=["Amplitude-latency trading"],
          title="Amplitude-latency trading links level to timing",
          paragraphs=[
              "Amplitude-latency trading is the shift in response timing that accompanies a change in sound level. A weaker sound evokes a later response, even when its physical arrival time is unchanged.",
@@ -271,6 +280,7 @@ inserts = [
          ],
          refs_from=["Simmons 2024"]),
     dict(after=23,
+         bold=["Low-frequency inhibition"],
          title="Inhibitory sidebands filter FM sounds by timing",
          paragraphs=[
              "A sweep passes through frequencies in order, so the inhibitory and excitatory inputs of a neuron are activated at different moments. Low-frequency inhibition arrives early and high-frequency inhibition arrives later relative to excitation.",
@@ -296,6 +306,7 @@ inserts = [
          ],
          refs_from=["Williams 2011"]),
     dict(after=25,
+         bold=["Gabazine"],
          title="Receptor blockers remove one inhibitory input",
          paragraphs=[
              "Gabazine blocks GABA-A receptors, and strychnine blocks glycine receptors. Applying each drug near a recorded neuron removes the local contribution of one inhibitory input while the neuron is still recorded.",
@@ -321,6 +332,7 @@ inserts = [
          ],
          refs_from=["Williams 2011"]),
     dict(after=32,
+         bold=["Sweep rate"],
          title="Sweep rate is the frequency change per unit time",
          paragraphs=[
              "Sweep rate is the change in frequency per unit time, so a sweep covering the same frequency range in a shorter duration is faster. Neurons can respond better to fast sweeps than to slow ones.",
@@ -345,6 +357,7 @@ inserts = [
          ],
          refs_from=["Williams 2011"]),
     dict(after=36,
+         bold=["acoustic glint"],
          title="Glints are reflections from parts of a target",
          paragraphs=[
              "An acoustic glint is a reflection from one part of a target, so an object with several parts returns an echo with several glints. Their separation in time reflects the structure of the object.",
@@ -371,6 +384,7 @@ inserts = [
          ],
          refs_from=["Bates 2011"]),
     dict(after=40,
+         bold=["echo epoch"],
          title="Echo epochs can outlast the interval between calls",
          paragraphs=[
              "Each broadcast is followed by an echo epoch, the period in which reflections from objects across a scene return. A distant reflector returns sound after a nearer one, so the epoch lengthens as the scene extends in depth.",

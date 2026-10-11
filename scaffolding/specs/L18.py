@@ -47,6 +47,7 @@ third = {
 
 inserts = [
     dict(after=4,
+         bold=["receptive field"],
          title="A receptive field is the region that drives a neuron",
          paragraphs=[
              "A receptive field is the set of stimulus conditions that changes the activity of a neuron. For an auditory space-specific neuron, the conditions are sound locations described by azimuth, the horizontal angle, and elevation, the vertical angle.",
@@ -72,6 +73,7 @@ inserts = [
          ],
          refs_from=["Knudsen 1978"]),
     dict(after=5,
+         bold=["topographic map"],
          title="Neighboring neurons represent neighboring locations",
          paragraphs=[
              "A topographic map places neurons with similar preferences next to one another in the tissue. In the auditory midbrain of the owl, the preferred location of a neuron changed in an orderly way along the electrode track.",
@@ -97,6 +99,7 @@ inserts = [
          ],
          refs_from=["Knudsen 1978"]),
     dict(after=8,
+         bold=["double dissociation"],
          title="A double dissociation separates two pathways",
          paragraphs=[
              "A double dissociation occurs when disrupting one pathway impairs one function and spares another, whereas disrupting a second pathway produces the reverse pattern. The pattern shows that the two functions depend on different pathways.",
@@ -123,6 +126,7 @@ inserts = [
          ],
          refs_from=["Takahashi 1984"]),
     dict(after=10,
+         bold=["phase"],
          title="Phase locking keeps spike timing within a sound cycle",
          paragraphs=[
              "A sound wave repeats in cycles, and phase is the position within a cycle. A phase-locked neuron fires at a preferred phase, so its spike times carry the timing of the waveform.",
@@ -148,6 +152,7 @@ inserts = [
          ],
          refs_from=["Sullivan 1984"]),
     dict(after=12,
+         bold=["Vector strength"],
          title="Vector strength measures how tightly spikes align",
          paragraphs=[
              "Vector strength is a number between zero and one that describes how tightly spikes cluster at one phase of a repeating sound. Values near one mean that spikes occur at nearly the same phase, and values near zero mean that the phases are dispersed.",
@@ -173,6 +178,7 @@ inserts = [
          ],
          refs_from=["Köppl 1997"]),
     dict(after=15,
+         bold=["delay line"],
          title="A delay line makes travel time depend on position",
          paragraphs=[
              "A delay line is a pathway in which travel time changes with position along its length. Axons that enter a nucleus from opposite borders create such an arrangement when each input reaches successive neurons at systematically different times.",
@@ -198,6 +204,7 @@ inserts = [
          ],
          refs_from=["Carr 1990"]),
     dict(after=16,
+         bold=["Phase"],
          title="Phase repeats each cycle, so phase appears to wrap",
          paragraphs=[
              "Phase is measured within one cycle of a tone, so it returns to its starting value after a complete period. A delay that keeps increasing therefore produces a phase that repeats.",
@@ -223,6 +230,7 @@ inserts = [
          ],
          refs_from=["Carr 1990"]),
     dict(after=19,
+         bold=["coincidence detector"],
          title="Coincidence detectors fire when inputs arrive together",
          paragraphs=[
              "A coincidence detector responds strongly when two inputs arrive within a short interval and weakly when they arrive apart. Such a neuron signals simultaneity of its inputs.",
@@ -248,6 +256,7 @@ inserts = [
          ],
          refs_from=["Carr 1990"]),
     dict(after=20,
+         bold=["narrowband channel"],
          title="Periodic channels confuse delays one period apart",
          paragraphs=[
              "A narrowband channel is driven by a tone, which repeats every period. The same phase relationship between the two ears recurs whenever the interaural delay changes by one period of the tone.",
@@ -272,6 +281,7 @@ inserts = [
          ],
          refs_from=["Carr 1990"]),
     dict(after=22,
+         bold=["isofrequency lamina"],
          title="Isofrequency laminae stack frequency channels",
          paragraphs=[
              "An isofrequency lamina is a sheet of neurons with similar frequency tuning. Moving an electrode across laminae samples neurons with different best frequencies.",
@@ -297,6 +307,7 @@ inserts = [
          ],
          refs_from=["Wagner 1987"]),
     dict(after=26,
+         bold=["broadband noise"],
          title="Broadband sounds contain many frequency periods",
          paragraphs=[
              "A tone contains a single period, whereas broadband noise contains many frequency components with different periods. Each component produces its own repeated pattern of delay matches.",
@@ -321,6 +332,7 @@ inserts = [
          ],
          refs_from=["Takahashi 1986"]),
     dict(after=30,
+         bold=["monotonic response"],
          title="Half-maximum ILD summarizes a monotonic level curve",
          paragraphs=[
              "A monotonic response keeps rising or keeps falling as a stimulus parameter increases. When the parameter is the interaural level difference, the curve has no peak, so a summary other than a preferred value is needed.",
@@ -346,6 +358,7 @@ inserts = [
          ],
          refs_from=["Manley 1988"]),
     dict(after=38,
+         bold=["membrane voltage"],
          title="Subthreshold potentials precede spike generation",
          paragraphs=[
              "A neuron integrates synaptic inputs as changes in membrane voltage before it produces any spikes. Depolarization moves the voltage toward threshold, and hyperpolarization moves it away.",
@@ -371,6 +384,7 @@ inserts = [
          ],
          refs_from=["Peña 2001"]),
     dict(after=39,
+         bold=["multiplicative interaction"],
          title="Multiplication makes one cue scale the other",
          paragraphs=[
              "In an additive interaction the effects of two cues sum, whereas in a multiplicative interaction the effectiveness of one cue depends on the strength of the other. A multiplicative neuron responds strongly only when both cues are favorable.",

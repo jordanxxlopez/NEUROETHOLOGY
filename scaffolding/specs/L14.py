@@ -55,6 +55,7 @@ third = {
 
 inserts = [
     dict(after=2,
+         bold=["carrier frequency"],
          title="Carrier frequency and pulse timing are separate",
          paragraphs=[
              "A cricket calling song has two kinds of structure. The carrier frequency is the rapid oscillation of sound pressure within each pulse, and the pulse timing is the slower pattern in which the amplitude rises and falls across pulses and the silent intervals between them.",
@@ -79,6 +80,7 @@ inserts = [
          ],
          refs_from=["Kostarakos 2012"]),
     dict(after=5,
+         bold=["pulse period"],
          title="Pulse period and silent interval are different measures",
          paragraphs=[
              "A pulse period runs from the onset of one pulse to the onset of the next, so it includes both the sound and the silence that follows it. A pulse interval in later cricket studies ordinarily refers only to the silence between pulses, and the two measures differ by the pulse duration.",
@@ -102,6 +104,7 @@ inserts = [
          ],
          refs_from=["Pollack 1979"]),
     dict(after=8,
+         bold=["tympanum"],
          title="A pressure-difference receiver compares two surfaces",
          paragraphs=[
              "A cricket's tympanum is a vibrating membrane in the foreleg tibia, and sound can reach both of its surfaces. The outer surface receives sound from the air, and the inner surface receives sound through the tracheal air system and the thoracic acoustic spiracles.",
@@ -126,6 +129,7 @@ inserts = [
          ],
          refs_from=["Michelsen 1994"]),
     dict(after=10,
+         bold=["Phase"],
          title="Phase decides whether sound components reinforce",
          paragraphs=[
              "Two components of sound can reinforce or oppose one another depending on both their amplitudes and their phases. Phase describes the position of a component within the oscillatory cycle, and transmission gain describes how strongly the component reaches the tympanum through an internal route.",
@@ -149,6 +153,7 @@ inserts = [
          ],
          refs_from=["Michelsen 1994"]),
     dict(after=12,
+         bold=["interneuron"],
          title="Thoracic interneurons form local and ascending routes",
          paragraphs=[
              "An interneuron receives and processes neuronal inputs and is neither a sensory receptor nor the final motor neuron that supplies a muscle. In the prothoracic ganglion, auditory sensory axons end in the auditory neuropil, a region of interacting neuronal branches.",
@@ -172,6 +177,7 @@ inserts = [
          ],
          refs_from=["Wohlers 1982"]),
     dict(after=13,
+         bold=["inhibition"],
          title="Opposite-ear inhibition creates an early comparison",
          paragraphs=[
              "Excitation increases a neuron's tendency to fire, whereas inhibition reduces that tendency through synaptic effects on its membrane potential or conductance. In ON1, the ear on the same side as the cell body supplies excitation and the opposite ear supplies inhibition.",
@@ -195,6 +201,7 @@ inserts = [
          ],
          refs_from=["Wohlers 1982"]),
     dict(after=15,
+         bold=["Temporal resolution"],
          title="Temporal resolution differs from temporal preference",
          paragraphs=[
              "Temporal resolution is the ability of a response to preserve separate sound events. Temporal preference is a stronger response to particular timing values, so a neuron can resolve many pulse patterns without favoring the species-specific pattern.",
@@ -218,6 +225,7 @@ inserts = [
          ],
          refs_from=["Wohlers 1982"]),
     dict(after=17,
+         bold=["Reciprocal inhibition"],
          title="Removing inhibition unmasks hidden excitation",
          paragraphs=[
              "Reciprocal inhibition means that each member of a neuronal pair inhibits the other. Selverston and colleagues recorded simultaneously from paired ON1 cells and selectively inactivated one of them with light, which tested the organization directly.",
@@ -241,6 +249,7 @@ inserts = [
          ],
          refs_from=["Selverston 1985"]),
     dict(after=20,
+         bold=["spike count"],
          title="Spike count and attractiveness are different readouts",
          paragraphs=[
              "A neuron's output over a chirp can be summarized as a spike count, and a female's response can be summarized as steering toward the sound. The two readouts match only if the neuron's total activity measures how attractive the song is.",
@@ -264,6 +273,7 @@ inserts = [
          ],
          refs_from=["Kostarakos 2012"]),
     dict(after=23,
+         bold=["constant-sound-energy paradigm"],
          title="Constant-energy stimuli separate pattern from loudness",
          paragraphs=[
              "A more attractive pulse pattern could simply deliver more sound. Kostarakos and Hedwig therefore used a constant-sound-energy paradigm in which pulse number and duration were adjusted so that every pulse period delivered the same total sound energy.",
@@ -287,6 +297,7 @@ inserts = [
          ],
          refs_from=["Kostarakos 2012"]),
     dict(after=28,
+         bold=["Postinhibitory rebound"],
          title="Postinhibitory rebound arises after release",
          paragraphs=[
              "Postinhibitory rebound is a depolarization that occurs after inhibition ends. A delayed excitatory synaptic input could produce a similar waveform, so the source of the depolarization has to be tested by removing the sound and injecting current instead.",
@@ -310,6 +321,7 @@ inserts = [
          ],
          refs_from=["Schöneich 2015"]),
     dict(after=31,
+         bold=["coincidence detector"],
          title="A coincidence detector sums direct and delayed input",
          paragraphs=[
              "A coincidence detector responds more strongly when separate inputs arrive together. In the proposed cricket circuit, LN3 receives rapid excitation associated with AN1 spikes and delayed excitation associated with the rebound of LN5 after the previous sound pulse.",
@@ -333,6 +345,7 @@ inserts = [
          ],
          refs_from=["Schöneich 2015"]),
     dict(after=36,
+         bold=["band-pass response"],
          title="Band-pass tuning has a slow side and a fast side",
          paragraphs=[
              "A band-pass response weakens on both sides of its optimum, and in the cricket circuit two different processes set the two edges. At slow pulse repetition the direct and delayed pathways drift out of step, and at fast repetition inhibition and adaptation cut the signals down.",
@@ -356,6 +369,7 @@ inserts = [
          ],
          refs_from=["Schöneich 2015"]),
     dict(after=38,
+         bold=["split song"],
          title="Split songs separate steering from recognition",
          paragraphs=[
              "A split song distributes successive parts of one chirp across two speakers, so each part pulls the cricket toward a different side. Hedwig and Poulet presented six-pulse chirps in which pairs of consecutive pulses came from opposite sides, with each speaker 45° from the cricket's forward axis.",

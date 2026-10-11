@@ -102,6 +102,9 @@
  "inserts": [
   {
    "after": 2,
+   "bold": [
+    "harmonic"
+   ],
    "title": "Calls contain harmonics at whole-number multiples",
    "paragraphs": [
     "A harmonic belongs to a series of frequencies related by whole-number multiples of the lowest component. A bat call can contain several harmonics at once, and the amplitude of each harmonic differs, so one harmonic can dominate the energy of the call.",
@@ -148,6 +151,9 @@
   },
   {
    "after": 4,
+   "bold": [
+    "Doppler shift"
+   ],
    "title": "Approach raises echo frequency",
    "paragraphs": [
     "A Doppler shift is a change in frequency caused by relative motion between a sound source, a reflector and a receiver. When a bat approaches a stationary object, the returning echo has a higher frequency than the emitted call, because the bat's own motion changes the frequency that it receives.",
@@ -195,6 +201,9 @@
   },
   {
    "after": 7,
+   "bold": [
+    "resting frequency"
+   ],
    "title": "Resting and reference frequencies differ",
    "paragraphs": [
     "The resting frequency is the mean CF frequency of consecutive calls from a stationary bat, and the reference frequency is the returning CF frequency maintained during compensation. They are two different baselines, one defined by the call that is emitted and the other by the echo that is received.",
@@ -239,6 +248,9 @@
   },
   {
    "after": 10,
+   "bold": [
+    "Sensation level"
+   ],
    "title": "Equal audibility tests the sign of the shift",
    "paragraphs": [
     "A horseshoe bat's hearing is most sensitive in a narrow band near its preferred echo frequency, so the same physical sound level can be easily audible at one frequency and barely audible at another. Sensation level expresses how far a sound lies above the hearing threshold at its own frequency.",
@@ -285,6 +297,9 @@
   },
   {
    "after": 12,
+   "bold": [
+    "time constant"
+   ],
    "title": "A time constant measures progress toward correction",
    "paragraphs": [
     "A time constant describes how quickly a response approaches its final value. For a vocal correction it is measured from the trajectory of the emitted frequency, as progress toward the adjusted call frequency, and a shorter time constant means a faster correction.",
@@ -330,6 +345,9 @@
   },
   {
    "after": 14,
+   "bold": [
+    "cochlea"
+   ],
    "title": "Cochlear microphonic and N1 sample different stages",
    "paragraphs": [
     "The cochlea is the inner-ear structure that converts sound into receptor activity. A cochlear microphonic, or CM, is an electrical response related to the acoustic stimulation of the cochlea, and N1 is the summed activity of primary auditory neurons.",
@@ -376,6 +394,9 @@
   },
   {
    "after": 16,
+   "bold": [
+    "Single-nucleus RNA sequencing"
+   ],
    "title": "Single-nucleus sequencing groups cells by RNA",
    "paragraphs": [
     "Single-nucleus RNA sequencing measures the RNA associated with individual cell nuclei, so each nucleus has an expression profile. A marker gene helps identify a cell population by its expression pattern, and nuclei with similar profiles are grouped into one population.",
@@ -421,6 +442,9 @@
   },
   {
    "after": 21,
+   "bold": [
+    "Orthologous genes"
+   ],
    "title": "Orthologous genes give a common comparison space",
    "paragraphs": [
     "Orthologous genes are corresponding genes in different species inherited from a common ancestral gene. Using orthologs, two species can be placed in the same expression space, so cells of the same kind can be compared directly.",
@@ -466,6 +490,9 @@
   },
   {
    "after": 27,
+   "bold": [
+    "envelope"
+   ],
    "title": "Synchrony shapes the population onset response",
    "paragraphs": [
     "The envelope is the changing amplitude of a sound or response over time, and it determines how quickly a sound reaches its sustained level. When excitation rises slowly, individual neurons do not fire their first impulses at the same moment.",
@@ -512,6 +539,9 @@
   },
   {
    "after": 30,
+   "bold": [
+    "resonance frequency"
+   ],
    "title": "Resonance frequency differs from resting frequency",
    "paragraphs": [
     "The resonance frequency is the frequency at which the peripheral resonant system of the ear responds especially strongly. It describes the sensory side of the system, whereas the resting frequency describes the vocal side.",
@@ -557,6 +587,9 @@
   },
   {
    "after": 32,
+   "bold": [
+    "spectral–temporal trade-off"
+   ],
    "title": "Frequency resolution and time resolution trade off",
    "paragraphs": [
     "A spectral–temporal trade-off occurs when finer frequency resolution accompanies poorer temporal resolution. A sharply tuned resonator is an example: it selects a narrow band of frequencies and continues to respond after the sound ends, which extends the peripheral response in time.",
@@ -602,6 +635,9 @@
   },
   {
    "after": 35,
+   "bold": [
+    "Beats"
+   ],
    "title": "Phase locking represents beat timing",
    "paragraphs": [
     "Beats are periodic amplitude fluctuations produced when two tones of slightly different frequency overlap, and their rate depends on the separation between the two frequencies. Phase locking means that a neuron discharges at a consistent phase of a repeating stimulus feature.",
@@ -646,6 +682,9 @@
   },
   {
    "after": 37,
+   "bold": [
+    "best amplitude"
+   ],
    "title": "Nonmonotonic responses create level selectivity",
    "paragraphs": [
     "A neuron's best amplitude is the sound pressure level that produces its largest response, and it differs from the minimum threshold, which is the weakest effective sound. A nonmonotonic response rises with sound level, reaches a maximum and then falls at stronger levels.",
@@ -691,6 +730,9 @@
   },
   {
    "after": 41,
+   "bold": [
+    "Pulse interval"
+   ],
    "title": "Pulse interval and duty cycle describe sampling",
    "paragraphs": [
     "Pulse interval is the time between consecutive calls, and duty cycle is the proportion of time occupied by sound emission. Both describe how often a bat samples its surroundings and can change independently of the CF frequency.",

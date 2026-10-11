@@ -163,6 +163,9 @@
  "inserts": [
   {
    "after": 3,
+   "bold": [
+    "Direction in a behavioral response"
+   ],
    "title": "Direction is a relationship between path and source",
    "paragraphs": [
     "Direction in a behavioral response refers to the relationship between the insect's path and the ultrasonic source. A response is directional when the path changes in a way that depends on where the source lies, and a change in altitude by itself does not specify direction.",
@@ -199,6 +202,9 @@
   },
   {
    "after": 5,
+   "bold": [
+    "Calibration"
+   ],
    "title": "Calibrated cameras turn video into trajectories",
    "paragraphs": [
     "A single camera view collapses three-dimensional motion into two dimensions, so a turn seen from one camera can conceal changes in altitude or depth. Calibration assigns a common spatial coordinate system to several synchronized recordings, which allows each position to be reconstructed in three dimensions.",
@@ -239,6 +245,9 @@
   },
   {
    "after": 7,
+   "bold": [
+    "tympanum"
+   ],
    "title": "From membrane motion to nerve impulses",
    "paragraphs": [
     "Hearing in a noctuid moth passes through three components. The tympanum is a thin membrane that vibrates in response to airborne sound, a sensory attachment on its inner surface converts that movement into neural activity, and the tympanic nerve carries the resulting signals toward the thoracic ganglion.",
@@ -279,6 +288,9 @@
   },
   {
    "after": 9,
+   "bold": [
+    "afferent"
+   ],
    "title": "Acoustic units are separated by threshold and activity",
    "paragraphs": [
     "An afferent is a neuron carrying information from a sensory organ toward the central nervous system. An extracellular electrode near the tympanic nerve detects the voltage changes produced by the action potentials of nearby axons, which are the brief electrical impulses propagated along axons.",
@@ -319,6 +331,9 @@
   },
   {
    "after": 11,
+   "bold": [
+    "Membrane velocity"
+   ],
    "title": "Frequency separates displacement from velocity",
    "paragraphs": [
     "Membrane velocity is the speed of the tympanum's motion, and displacement is its excursion from the resting position. A higher-frequency oscillation can move faster while covering the same displacement, so the two quantities change differently as frequency rises.",
@@ -361,6 +376,9 @@
   },
   {
    "after": 13,
+   "bold": [
+    "sound-level meter"
+   ],
    "title": "A sound-level meter averages brief pulses",
    "paragraphs": [
     "A conventional sound-level meter passes the signal through a time-weighting circuit that averages it over a short interval. A brief pulse occupies only part of that interval, so its displayed level is lower than the peak pressure of the pulse, and the shortfall depends on the pulse duration.",
@@ -400,6 +418,9 @@
   },
   {
    "after": 16,
+   "bold": [
+    "neural threshold"
+   ],
    "title": "A threshold curve describes sensitivity",
    "paragraphs": [
     "A neural threshold is the lowest stimulus that satisfies a stated response criterion, and a threshold curve plots that level across stimulus frequency. A higher threshold means that a stronger sound is required to evoke spikes, so low values mark high sensitivity.",
@@ -440,6 +461,9 @@
   },
   {
    "after": 19,
+   "bold": [
+    "Range fractionation"
+   ],
    "title": "Range fractionation divides the intensity range",
    "paragraphs": [
     "Range fractionation divides a sensory intensity range among receptors with different thresholds. In moths, A1 begins responding at lower sound levels, and A2 is recruited when the sound is stronger, so the two cells cover different parts of the range.",
@@ -481,6 +505,9 @@
   },
   {
    "after": 22,
+   "bold": [
+    "Total spike count"
+   ],
    "title": "Spike count and pulse effectiveness are different",
    "paragraphs": [
     "Total spike count is a simple measure of the afferent signal, and effectiveness is a behavioral measure of how often a sound makes a moth turn away. The two measures agree only if more spikes make a sound more effective.",
@@ -522,6 +549,9 @@
   },
   {
    "after": 24,
+   "bold": [
+    "Bilateral summation"
+   ],
    "title": "Summation and comparison are different operations",
    "paragraphs": [
     "Bilateral summation combines input from the two ears and responds more when both are stimulated. A directional comparison instead depends on the difference between the two sides, so the output changes with which side receives the stronger signal.",
@@ -566,6 +596,9 @@
   },
   {
    "after": 25,
+   "bold": [
+    "Temporal summation"
+   ],
    "title": "Temporal summation reduces a burst to one event",
    "paragraphs": [
     "Temporal summation is the accumulation of excitation from closely spaced inputs. A neuron whose firing threshold needs several nearby inputs responds to a burst of afferent spikes and ignores isolated spikes.",
@@ -606,6 +639,9 @@
   },
   {
    "after": 30,
+   "bold": [
+    "interspike interval"
+   ],
    "title": "Spike count and interspike interval are separate codes",
    "paragraphs": [
     "A neuron can signal stimulus intensity with its spike count, the number of spikes per pulse, or with the timing of those spikes. An interspike interval is the time between successive action potentials, and the same number of spikes can be distributed differently in time.",
@@ -642,6 +678,9 @@
   },
   {
    "after": 37,
+   "bold": [
+    "maximum speed"
+   ],
    "title": "Maximum speed does not decide a pursuit",
    "paragraphs": [
     "A chase can be compared by the maximum speed, acceleration and turning performance that each animal reaches. Corcoran and Conner found that bats exceeded evasive moths in speed and in several acceleration measures, with tighter minimum turn radii and greater peak turning performance, yet many evasive moths escaped.",
@@ -681,6 +720,9 @@
   },
   {
    "after": 43,
+   "bold": [
+    "startle defense"
+   ],
    "title": "Three defenses make different predictions",
    "paragraphs": [
     "A startle defense should weaken as a predator becomes accustomed to the sound. A learned warning should change as the predator associates the signal with an unpleasant prey item, and sonar jamming should keep working because it interferes with the echoes that the bat uses to find the prey.",
