@@ -5,6 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import body_L34 as _body  # noqa: E402
+import L34_text as _txt  # noqa: E402
 
 
 def ins(after, title, paragraphs, citation, notes, refs):
@@ -177,11 +178,15 @@ EXTRA_NOTES = [
     ["Context.", "The parent figure shows the measurement that the paragraphs describe.", "Each claim is tied to the recordings of the original study."],
     ["Method.", "The measurements follow the methods described in the original paper.", "Each value is kept with the condition under which it was measured."],
 ]
-EXTRA_PARAS = {"3": [" The record therefore links each sound to its exact moment in the courtship.", " Each bout is then compared with the movement recorded just before it.", " Each partner's trajectory is kept separate in the analysis."], "6": [" The distance bands are defined on the same scale for every pair.", " Each lighting condition used the same range of distances.", " The distance and light results are reported together."], "9": [" Each allele is compared with the wild-type control under the same conditions.", " Both alleles were checked in the same adult brain tissue.", " Each phenotype can be tied back to its allele in this way."], "12": [" Both receptivity and egg laying are scored for each female.", " The same females are measured for both outcomes across the assay.", " The three readouts together describe one reproductive phenotype."], "15": [" Each mutant is tested with the same pairing protocol and the same measures.", " The loss of sine song is one of the clearest differences among the mutants.", " Each isoform's profile is compared with the others in the same set of measures."], "18": [" Each class receives its own knockdown and its own behavioral test.", " Both light conditions use the same pairing and the same measures.", " The combined results are read across all of the tested classes."], "21": [" Each male is then scored for the wing it uses across all bouts.", " The wing record is kept separate from the activation record.", " Both records are compared in the same set of males."], "24": [" The interval is measured in each pulse train under the same conditions.", " Each temperature step is compared with the same baseline.", " The timing result is read against the wild-type pattern."], "27": [" Both genotypes are scored under the same conditions.", " Each knockdown male is counted in the same posture category.", " The bilateral and unilateral comparison is made within each genotype."], "30": [" Each expression pattern is checked before its behavior is measured.", " The regional results are compared against the same conditioning test.", " Each region's output is reported separately."], "33": [" Each bout is scored for its bearing, distance and duration.", " The distributions are compared across the three bout types.", " Each bout's geometry is recorded alongside its song."], "36": [" Each cell's response is aligned to the same stimulation protocol.", " The two response types are compared across the same trials.", " Each subgroup is then compared with the others in the same recordings."], "39": [" Each neuron is compared with the other recorded classes.", " The transitions are compared in the same recordings.", " Each population is then placed within the nested framework."], "42": [" The two pathways are imaged together in each fly.", " Each transition is compared across both pathways.", " The assignment of each pathway to its song mode is made from the same records."]}
-for _ins in inserts:
-    _ins["paragraphs"] = [q + e for q, e in zip(_ins["paragraphs"], EXTRA_PARAS[str(_ins["after"])])]
 for _ins in inserts:
     _ins["notes"] = [_ins["notes"][0]] + _ins["notes"][1:] + EXTRA_NOTES
+for _k, _ps in _txt.BODY.items():
+    for _p, _t in _ps.items():
+        _body.body[_k][_p - 1] = _t
+for _ins in inserts:
+    for _p, _t in _txt.INSERT.get(_ins["after"], {}).items():
+        _ins["paragraphs"][_p - 1] = _t
+
 spec = {"third_paragraph": {}, "inserts": inserts, "body": _body.body}
 
 if __name__ == "__main__":
