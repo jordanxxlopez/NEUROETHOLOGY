@@ -24,3 +24,5 @@ Expanded PPTX SHA-256: 3a54cbe2736c0e1f30077f82a9da0058fb7f7278729048b57ed97c2d1
 
 Latest PPTX size: 335676221 bytes.
 Latest SHA-256: e0dd2ef75aca38871c91ec022e63dc52ad52977d1fec1826bcea60bc52b015e8
+
+The pinned single-file browser download returned HTTP 200 and its complete 335,676,221-byte response matched the final PPTX SHA-256.
