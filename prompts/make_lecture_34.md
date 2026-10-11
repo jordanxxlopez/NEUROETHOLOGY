@@ -135,3 +135,6 @@ FINISH
 Additional requirements: at least 40 of 44 content slides have images; aim for original color images on half of image slides. Never create, redraw, replot or recolor an image. Keep large figures beside text in two columns. Use the exact scheduled title: Bat echolocation I: CF-FM bats and Doppler-shift compensation (Suga).
 
 One color per lecture: titles and bold terms use a darker shade of the title-slide color; all other text is black (#000000), as enforced by the current repository builder.
+
+
+- **First-slide images must be unique.** Every image on slide 1 must show the animal studied in that lecture. Use an original experimental image or a credited real photograph chosen for appearance, subject to the existing source and license rules. Never reuse an image already used anywhere in an earlier lecture; another crop, resize, or encoding of the same image does not make it new. Before choosing it, compare the candidate with images in previous lecture decks and record its source and the uniqueness check. This no-repeat requirement applies only to slide 1; content-slide figures may recur when scientifically appropriate.

@@ -61,3 +61,6 @@ WORKFLOW
 3. Crop figures from the uploaded PDFs and look at every crop.
 4. Write lectures/L<N>/lecture.json (body, transcript, cite, refs, figure) and run python tools/build_lecture.py lectures/L<N>/lecture.json until it reports 0 failures.
 5. Reread every slide and transcript against the writing rules, then give the .pptx and the updated themes.json.
+
+
+- **First-slide images must be unique.** Every image on slide 1 must show the animal studied in that lecture. Use an original experimental image or a credited real photograph chosen for appearance, subject to the existing source and license rules. Never reuse an image already used anywhere in an earlier lecture; another crop, resize, or encoding of the same image does not make it new. Before choosing it, compare the candidate with images in previous lecture decks and record its source and the uniqueness check. This no-repeat requirement applies only to slide 1; content-slide figures may recur when scientifically appropriate.

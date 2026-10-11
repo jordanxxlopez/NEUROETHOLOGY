@@ -12,3 +12,6 @@ This repo builds the course's lecture PowerPoints.
 - Tools: `tools/theme_colors.py` (re-align a finished deck's colors), `tools/build_lecture.py` (spec → .pptx, then checks), `tools/check_lecture.py` (rule checker for any deck), `tools/crop_figure.py` (cut figure panels from paper PDFs).
 - Python deps: `pip install -r requirements.txt` (python-pptx, Pillow) and poppler (`pdftoppm`).
 - `AGENTS.md` holds the same rules for Codex; keep it in sync with the skill.
+
+
+- **First-slide images must be unique.** Every image on slide 1 must show the animal studied in that lecture. Use an original experimental image or a credited real photograph chosen for appearance, subject to the existing source and license rules. Never reuse an image already used anywhere in an earlier lecture; another crop, resize, or encoding of the same image does not make it new. Before choosing it, compare the candidate with images in previous lecture decks and record its source and the uniqueness check. This no-repeat requirement applies only to slide 1; content-slide figures may recur when scientifically appropriate.

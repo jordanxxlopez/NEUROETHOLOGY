@@ -135,3 +135,6 @@ FINISH
 Lecture 38 exact scheduled title: Primate communication: vervet monkey alarm calls and referential signaling (Seyfarth & Cheney)
 Date: Monday, November 30, 2026.
 Use at least 40 image-bearing content slides, with at least 34 primary-article figures; aim for native color on half. Use large source figures beside text in two columns. Never create, redraw, replot or recolor images. Pause for the source PDFs listed in lectures/L38/PAPERS.md if still unavailable.
+
+
+- **First-slide images must be unique.** Every image on slide 1 must show the animal studied in that lecture. Use an original experimental image or a credited real photograph chosen for appearance, subject to the existing source and license rules. Never reuse an image already used anywhere in an earlier lecture; another crop, resize, or encoding of the same image does not make it new. Before choosing it, compare the candidate with images in previous lecture decks and record its source and the uniqueness check. This no-repeat requirement applies only to slide 1; content-slide figures may recur when scientifically appropriate.

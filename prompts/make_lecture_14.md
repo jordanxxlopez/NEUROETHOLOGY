@@ -134,3 +134,6 @@ FINISH
 
 
 Use the exact scheduled title: Insect hearing I: cricket phonotaxis and song recognition (Hoy). Date: Friday, September 25, 2026. Scientific images must remain unchanged article crops; never create, redraw, recolor or generate a figure. Use the verified sources in lectures/L14/PAPERS.md and two-column text/figure layouts.
+
+
+- **First-slide images must be unique.** Every image on slide 1 must show the animal studied in that lecture. Use an original experimental image or a credited real photograph chosen for appearance, subject to the existing source and license rules. Never reuse an image already used anywhere in an earlier lecture; another crop, resize, or encoding of the same image does not make it new. Before choosing it, compare the candidate with images in previous lecture decks and record its source and the uniqueness check. This no-repeat requirement applies only to slide 1; content-slide figures may recur when scientifically appropriate.

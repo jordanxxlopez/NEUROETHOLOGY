@@ -133,3 +133,6 @@ FINISH
 
 Lecture 40 title override approved by the instructor: Frontiers: optogenetics, wireless-recording tools in emerging neuroethology systems, and casual tests of neural circuits underlying natural behavior
 Date: Friday, December 4, 2026. Do not use the previous genetic-tools title.
+
+
+- **First-slide images must be unique.** Every image on slide 1 must show the animal studied in that lecture. Use an original experimental image or a credited real photograph chosen for appearance, subject to the existing source and license rules. Never reuse an image already used anywhere in an earlier lecture; another crop, resize, or encoding of the same image does not make it new. Before choosing it, compare the candidate with images in previous lecture decks and record its source and the uniqueness check. This no-repeat requirement applies only to slide 1; content-slide figures may recur when scientifically appropriate.
