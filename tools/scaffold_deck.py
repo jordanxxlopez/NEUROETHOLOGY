@@ -82,6 +82,8 @@ def classify(slide):
             out["title"] = sh
         elif re.fullmatch(r"\d{1,2}a?", t) and sh.top > FOOTER_Y:
             out["number"] = sh
+        elif sh.top > FOOTER_Y and re.search(r"\bFig\.", t):      # a figure caption set low on the slide
+            out["caption"].append(sh)
         elif sh.top > FOOTER_Y:
             out["citation"] = sh
         elif sh.name == "Figure caption" or _under_picture(sh, out["figs"]) or \
@@ -431,6 +433,9 @@ def resolve_refs(index, keys):
     for key in keys:
         name, year = key.rsplit(" ", 1)
         hits = [r for r in index if (r.startswith(name + " ") or r.startswith(name + ",")) and f"({year})" in r[:900]]
+        if not hits:                                    # "MS Brainard; EI Knudsen (1993)": first author, initials first
+            hits = [r for r in index
+                    if re.search(r"\b" + re.escape(name) + r"\b", re.split(r"[;(]", r, 1)[0]) and f"({year})" in r[:900]]
         if not hits:
             raise SystemExit(f"no reference in the deck's notes for {key!r}")
         out.append(hits[0])
