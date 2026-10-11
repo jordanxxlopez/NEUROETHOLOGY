@@ -528,7 +528,16 @@ more = {
 for ins in inserts:
     ins["notes"] = ins["notes"] + more.get(ins["after"], [])
 
-spec = {"third_paragraph": {str(k): v for k, v in third.items()}, "inserts": inserts}
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).parent))
+_body = __import__("body_L29") if Path("body_L29.py").exists() or (Path(__file__).parent / "body_L29.py").exists() else None
+if _body is not None:
+    for ins in inserts:
+        if ins["after"] in _body.insert_body:
+            ins["paragraphs"] = _body.insert_body[ins["after"]]
+            ins["bold"] = []
+spec = {"third_paragraph": {str(k): v for k, v in third.items()}, "inserts": inserts,
+        "body": _body.body if _body is not None else {}}
 
 if __name__ == "__main__":
     out = Path(__file__).with_suffix(".json")

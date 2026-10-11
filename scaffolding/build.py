@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 from pptx import Presentation  # noqa: E402
 
 import scaffold_deck as sd  # noqa: E402
-from style_rules import EM_DASH, MAX_LIMITATION_SHARE, ends_with_limitation, framing_problems, stats_problems  # noqa: E402
+from style_rules import body_problems, EM_DASH, MAX_LIMITATION_SHARE, ends_with_limitation, framing_problems, stats_problems  # noqa: E402
 
 A_BODY_WORDS = (110, 200)       # approved scaffolded slides run 115-191 words of body text
 A_NOTE_WORDS = (150, 420)       # and 178-373 words of speaker notes
@@ -68,6 +68,8 @@ def main():
     src = Presentation(str(deck))
     # rewritten third paragraphs: only slides whose third paragraph really changed, no caveat left
     for num, value in m.spec["third_paragraph"].items():
+        if int(num) in m.spec.get("body", {}):             # the full body rewrite replaces this paragraph
+            continue
         old = [p.text for _, p in sd.body_paragraphs(src.slides[int(num) - 1])][2]
         text = sd.resolve_third(old, value)
         if "--show" in sys.argv:
@@ -77,6 +79,18 @@ def main():
         problems += text_problems(f"slide {num} third paragraph", text)
         if ends_with_limitation([text]):
             problems.append(f"slide {num}: replacement still ends on a caveat")
+        if n >= 21:
+            problems += [f"slide {num} third paragraph: {w}" for w in body_problems([text])]
+    # full body rewrites (scaffolding/RULES.md): three developed paragraphs, 60-130 words each
+    for num, paras in m.spec.get("body", {}).items():
+        where = f"body of slide {num}"
+        if len(paras) != 3:
+            problems.append(f"{where}: needs exactly 3 paragraphs, has {len(paras)}")
+        for k, t in enumerate(paras, 1):
+            if not 50 <= words(t) <= 115:
+                problems.append(f"{where} paragraph {k}: {words(t)} words (expected 50-115, about 5-7 lines)")
+            problems += text_problems(where, t)
+        problems += [f"{where}: {w}" for w in body_problems(paras)]
     # new slides
     for ins in m.spec["inserts"]:
         where = f"scaffold after slide {ins['after']}"
@@ -91,6 +105,8 @@ def main():
             problems.append(f"{where}: title wraps onto a second line ({len(ins['title'])} chars): {ins['title']!r}")
         if ends_with_limitation(body):
             problems.append(f"{where}: closes on a caveat")
+        if n >= 21:
+            problems += [f"{where}: {w}" for w in body_problems(body)]
         for t in body + [ins["title"], notes]:
             problems += text_problems(where, t)
     # the built deck

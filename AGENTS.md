@@ -102,3 +102,7 @@ pip install -r requirements.txt      # python-pptx, Pillow
 - `prompts/make_lecture.md` — the request prompt to paste into Claude or Codex.
 - `chatgpt/` — setup guide, Project instructions and per-lecture message for ChatGPT.
 
+
+
+## Body text rules (Lectures 21+)
+See `scaffolding/RULES.md`. Three developed body paragraphs per slide; no limitations or caveats; no metacommentary or first person; simple present for teaching, past only for specific studies; never present continuous or simple future; selective bolding of key terms.

@@ -20,7 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from style_rules import (MADE_IMAGE_WORDS, MIN_ARTICLE_FIGURE_SLIDES, MIN_COLOR_SHARE, MIN_IMAGE_SLIDES,  # noqa: E402
                          framing_problems, is_color_image, stats_problems)
 from theme_colors import alignment_problems  # noqa: E402
-from style_rules import EM_DASH, MAX_LIMITATION_SHARE, ends_with_limitation  # noqa: E402
+from style_rules import EM_DASH, MAX_LIMITATION_SHARE, body_problems, ends_with_limitation  # noqa: E402
 
 STRUCTURE = [
     (r"^\s*(lecture )?(outline|agenda|overview|roadmap)\s*$", "no outline/agenda slide"),
@@ -127,7 +127,7 @@ def main():
         errs.append(f"only {fig_slides} content slides have article figures; need >= {need_art}")
 
     # caveat endings and em dashes (slide text only; captions, footers and notes excluded)
-    caveats, dashes = [], []
+    caveats, dashes, rule_breaks = [], [], []
     for i, sl in enumerate(slides[1:-1], start=2):
         frames = [sh for sh in sl.shapes if sh.has_text_frame
                   and sh.name not in ("Figure caption", "Citation", "Slide number")]
@@ -137,6 +137,12 @@ def main():
             frames, key=lambda sh: len(sh.text_frame.text.split()), reverse=True)[:1]
         if body and ends_with_limitation([p.text for p in body[0].text_frame.paragraphs]):
             caveats.append(i)
+        if args.lecture >= 21 and body:                      # scaffolding/RULES.md, Lectures 21 and later
+            paras = [p.text for sh in body for p in sh.text_frame.paragraphs if p.text.strip()]
+            for why in body_problems(paras):
+                rule_breaks.append(f"slide {i}: {why}")
+    if rule_breaks:
+        errs.append(f"{len(rule_breaks)} body-text rule breaks (scaffolding/RULES.md), e.g. {rule_breaks[:4]}")
     if dashes:
         errs.append(f"em dash in slide text on slides {dashes[:12]}; use a comma, semicolon, colon or new sentence")
     if len(caveats) > MAX_LIMITATION_SHARE * (len(slides) - 2):

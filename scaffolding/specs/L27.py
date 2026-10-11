@@ -518,7 +518,16 @@ for ins in inserts:
     for k, sent in extra.get(ins["after"], {}).items():
         ins["paragraphs"][k] = ins["paragraphs"][k] + " " + sent
 
-spec = {"third_paragraph": {str(k): v for k, v in third.items()}, "inserts": inserts}
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).parent))
+_body = __import__("body_L27") if Path("body_L27.py").exists() or (Path(__file__).parent / "body_L27.py").exists() else None
+if _body is not None:
+    for ins in inserts:
+        if ins["after"] in _body.insert_body:
+            ins["paragraphs"] = _body.insert_body[ins["after"]]
+            ins["bold"] = []
+spec = {"third_paragraph": {str(k): v for k, v in third.items()}, "inserts": inserts,
+        "body": _body.body if _body is not None else {}}
 
 if __name__ == "__main__":
     out = Path(__file__).with_suffix(".json")

@@ -106,3 +106,45 @@ def ends_with_limitation(paragraphs):
     """True when the slide's last paragraph is a caveat ("does not establish...", "remains unknown")."""
     paras = [p for p in paragraphs if p and p.strip()]
     return bool(paras) and bool(LIMITATION.search(paras[-1]))
+
+
+# ------------------------------------------------------------------ body text (scaffolding/RULES.md)
+# Stricter than LIMITATION: no caveat wording anywhere in the three body paragraphs.
+BODY_LIMITATION = re.compile(
+    r"\bdoes not (?:establish|identify|show|prove|demonstrate|determine|reveal|isolate|specify|mean|imply|"
+    r"address|exclude|rule out|explain|indicate|require|resolve|measure|locate|test|support|directly)\b|"
+    r"\bdo not (?:establish|identify|prove|demonstrate|show|determine|imply|mean)\b|"
+    r"\bcannot\b|\bcan not\b|\bnot (?:been )?(?:established|proven|demonstrated|shown|confirmed|tested)\b|\bnot established\b|\bexplanation (?:was|is) not\b|\bnot (?:proof|prove|establish|identify|demonstrate|determine|sufficient|necessarily)\b|"
+    r"\bwithout (?:proving|establishing|identifying|demonstrating)\b|"
+    r"\b(?:remains?|remained) (?:unknown|unresolved|untested|unclear|open|unexplained|undetermined)\b|"
+    r"\bunresolved\b|\bunexplained\b|\bunknown\b|\bunclear\b|"
+    r"\blimitations?\b|\blimited to\b|\bcaveat|\bcaution\b|\bwould go beyond\b|\bbeyond (?:the )?(?:experiment|data|tested)\b|"
+    r"\brequires? (?:separate|additional|further|independent) (?:evidence|test|experiment|measure)|"
+    r"\bfurther (?:evidence|experiments?|work|study)\b|\bneeds? to be (?:tested|established|confirmed)\b|"
+    r"\bneed not\b|\bonly (?:partly|partially|correlational)\b|\bnot (?:directly )?(?:tested|measured|recorded|observed)\b|"
+    r"\bwe cannot\b|\bno evidence\b|\bnot a (?:proof|demonstration)\b|\bproposed rather than\b",
+    re.I,
+)
+# Metacommentary, first person, talk about the slide or the lecture, and future/continuous tense.
+# Roman-numeral "I" (I units, I-type) is excluded: the first-person "I" is matched case-sensitively.
+BODY_FRAMING = re.compile(
+    r"\b(?:we|we're|we've|our|us|let'?s)\b|\bthis slide\b|\bthis figure\b|"
+    r"\bthe (?:lecture|course|class)\b|\bthis (?:lecture|course|class)\b|\bthe panel\b|\bthis panel\b|"
+    r"\bresearchers? (?:need|should|must)\b|\bthis matters\b|\bmatters when interpreting\b|"
+    r"\binterpret(?:ing)? (?:the )?(?:data|study|result)s?\b|"
+    r"\bwill (?:be|need|show|discuss|cover|look|see)\b|\bis going to\b|\bare going to\b|\bnext,\b|\btoday\b|"
+    r"\b(?:is|are|am|was|were) (?:looking|examining|discussing|considering|exploring|showing)\b",
+    re.I,
+)
+FIRST_PERSON_I = re.compile(r"(?<![\w-])I (?=[a-z])(?!(?:units?|cells?|neurons?|afferents?|responses?|types?|classes?)\b)")
+
+
+def body_problems(paragraphs):
+    """Violations of scaffolding/RULES.md in a slide's three body paragraphs."""
+    bad = []
+    for k, p in enumerate(paragraphs[:3], 1):
+        for m in BODY_LIMITATION.finditer(p):
+            bad.append(f"paragraph {k}: limitation wording ({m.group(0)!r})")
+        for m in list(BODY_FRAMING.finditer(p)) + list(FIRST_PERSON_I.finditer(p)):
+            bad.append(f"paragraph {k}: framing or tense ({m.group(0)!r})")
+    return bad

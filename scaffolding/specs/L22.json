@@ -892,5 +892,27 @@
     "Takizawa 1999"
    ]
   }
- ]
+ ],
+ "body": {
+  "13": [
+   "Amplitude enters the midbrain through **P-type afferents**, which signal electrical amplitude by how often they fire on successive carrier cycles. Their output is split into two channels with opposite sensitivities. **E units** raise their activity as the amplitude rises, whereas **I units** raise their activity as the amplitude falls. Because the two channels respond in opposite directions, the torus can tell whether the local signal is growing or shrinking.",
+   "Heiligenberg and Rose recorded from ELL projections entering the torus and labeled them with dye, so each recorded unit could be matched to its anatomy. The I-type example responded during declining amplitude for either sign of the neighbor's frequency difference. Its response therefore followed the direction of amplitude change and not the direction of the frequency shift. Its axon spread across several toral laminae, and individual afferents differed in the detailed pattern of their terminals.",
+   "An amplitude signal therefore supplies the **magnitude of a change** but not its sign. An I unit fires during declining amplitude whether the neighbor lies above or below the fish's own frequency, so the two cases look identical in this channel. The direction of the frequency shift must come from **timing-sensitive signals** that are compared with the amplitude channel, and the fish combines the two streams before it changes its discharge frequency."
+  ],
+  "20": [
+   "The two-compartment preparation let Heiligenberg and Rose present **combined amplitude and phase modulation**, **phase modulation alone**, and **amplitude modulation alone**. Each stimulus was delivered to the same neuron, so the responses to the three conditions can be compared directly. Intracellular recording tracked those responses while a recurring carrier stayed in the reference compartment, which kept the timing reference constant across conditions.",
+   "A small cell in lamina 6 kept its **differential-phase sensitivity** under phase-only stimulation. Isolated amplitude modulation evoked a different response pattern, which shows that the cell does not respond to the amplitude beat itself. Removing the comparison signal also changed the cell's activity, indicating that the timing reference comes from the electric carrier of the other body region rather than from the central pacemaker.",
+   "The cell's preference therefore depends on the **relative timing of signals** between the two regions. Its response reflects the timing differences that accompany every interference cycle, not the amplitude beat that the same cycle also produces. The cell responds to the timing difference without recognizing the absolute frequency of the neighbor, so the comparison operates on relative timing alone."
+  ],
+  "32": [
+   "**GABA** is the inhibitory transmitter that Metzner tested in the **sublemniscal prepacemaker nucleus**, or SPPn. Applying GABA to the SPPn lowered the resting EOD frequency, whereas electrical stimulation of the same region raised the operating frequency. The two results show that the SPPn normally supplies an ongoing excitatory drive to the oscillator, and that changing its activity shifts the baseline of the discharge in either direction.",
+   "**Bicuculline**, which blocks **GABA-sensitive inhibition**, raised the baseline when it was applied locally in the SPPn. It also abolished the frequency decrease that normally followed stimulation of the ventral nucleus electrosensorius. The upstream stimulation therefore acts through inhibition inside the sublemniscal route, which places SPPn inhibition within the pathway that produces frequency decreases. The same ventral stimulation therefore reports the state of the SPPn as well as the state of the electrosensory input.",
+   "The sequence runs from inhibition of SPPn activity to a reduction of tonic excitation at the pacemaker and then to a slower EOD output. The rhythm-generating cells slow because they lose the drive that the SPPn normally supplies, so the frequency decrease results from withdrawing excitation. The local drug effect identifies a **GABA-sensitive mechanism** that controls the tonic excitation reaching the pacemaker."
+  ],
+  "42": [
+   "Takizawa, Rose, and Kawasaki tested whether the **sign-computation account** explains every frequency decrease. In curarized fish they **amplitude-modulated the EOD substitute** and omitted the separate neighbor signal. An unmodulated carrier between presentations supplied the baseline, so each modulated response could be compared with the same carrier without modulation. The design isolates the effect of amplitude change on its own.",
+   "A **30% amplitude modulation at 4 Hz** produced consistent deceleration across the tested fish. One example decreased by 3.5 Hz, and other individuals varied in magnitude. Amplitude-modulated recordings from intact fish, replayed into the tank, produced similar decelerations, which shows that the effect does not depend on the curare treatment. Both preparations therefore display the same amplitude-driven slowing.",
+   "Amplitude change alone is therefore sufficient to lower the discharge frequency, because the response requires no neighbor frequency. The response occurs for any slow amplitude fluctuation, so it does not separate positive from negative frequency differences. The **bidirectional sign-selective JAR** additionally requires the **spatial timing relationship** between the two body regions, which the amplitude-only response lacks. Amplitude-only deceleration therefore contributes part of the measured output during natural interference."
+  ]
+ }
 }

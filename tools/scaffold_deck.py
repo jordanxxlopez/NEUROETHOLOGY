@@ -535,6 +535,12 @@ def main():
     n_orig = len(prs.slides)
     for num, text in spec.get("third_paragraph", {}).items():
         fix_third_paragraph(prs.slides[int(num) - 1], text)
+    for num, paras in spec.get("body", {}).items():    # all three body paragraphs (scaffolding/RULES.md)
+        slide = prs.slides[int(num) - 1]
+        merge_body_boxes(slide)
+        c = classify(slide)
+        normal, bold = run_templates(c)
+        write_body(slide, c, paras, normal, bold)
     index = reference_index(prs)
     for ins in spec.get("inserts", []):
         ins["references"] = resolve_refs(index, ins["refs_from"]) if "refs_from" in ins else ins["references"]
