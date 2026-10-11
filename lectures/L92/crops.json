@@ -1,0 +1,530 @@
+{
+  "papers": {
+    "fish_auditory": "papers/fish_auditory.pdf",
+    "frog_spatial": "papers/frog_spatial.pdf",
+    "cricket_filters": "papers/cricket_filters.pdf",
+    "frog_frequency": "papers/frog_frequency.pdf",
+    "bird_objects": "papers/bird_objects.pdf",
+    "frog_tympanum": "papers/frog_tympanum.pdf",
+    "croc_spatial": "papers/croc_spatial.pdf",
+    "katydid_frequency": "papers/katydid_frequency.pdf",
+    "bird_sparse": "papers/bird_sparse.pdf",
+    "marmoset_engagement": "papers/marmoset_engagement.pdf",
+    "mouse_attention": "papers/mouse_attention.pdf",
+    "bat_identity": "papers/bat_identity.pdf",
+    "frog_gesture": "papers/frog_gesture.pdf",
+    "frog_statistics": "papers/frog_statistics.pdf",
+    "bird_aromatase": "papers/bird_aromatase.pdf",
+    "frog_grouping": "papers/frog_grouping.pdf",
+    "katydid_calcium": "papers/katydid_calcium.pdf",
+    "marmoset_noise": "papers/marmoset_noise.pdf",
+    "insect_detection": "papers/insect_detection.pdf",
+    "frog_lungs": "papers/frog_lungs.pdf",
+    "bat_onboard": "papers/bat_onboard.pdf",
+    "starling_streaming": "papers/starling_streaming.pdf",
+    "cricket_an1": "papers/cricket_an1.pdf"
+  },
+  "dpi": 180,
+  "crops": {
+    "frog_scene": [
+      "frog_frequency",
+      3,
+      [
+        0.08982774011640164,
+        0.12012148285142507,
+        0.9097100226333766,
+        0.7346377003860838
+      ]
+    ],
+    "frog_separation": [
+      "frog_frequency",
+      6,
+      [
+        0.09,
+        0.08,
+        0.91,
+        0.71
+      ]
+    ],
+    "frog_spatial": [
+      "frog_spatial",
+      6,
+      [
+        0.2351850230318829,
+        0.5543648960881108,
+        0.7861899341351514,
+        0.8617854293733358
+      ]
+    ],
+    "tungara_group": [
+      "frog_grouping",
+      3,
+      [
+        0.10919304640765992,
+        0.49465592684911996,
+        0.48044940419370363,
+        0.7260066316545224
+      ]
+    ],
+    "frog_envelope": [
+      "frog_statistics",
+      3,
+      [
+        0.09784638076920858,
+        0.1302705246458982,
+        0.9121272783570291,
+        0.8339867901350149
+      ]
+    ],
+    "frog_lungs": [
+      "frog_lungs",
+      3,
+      [
+        0.18242545567140583,
+        0.12643903862690117,
+        0.8059888314209385,
+        0.899122052457964
+      ]
+    ],
+    "frog_notch": [
+      "frog_lungs",
+      6,
+      [
+        0.09,
+        0.15,
+        0.49,
+        0.86
+      ]
+    ],
+    "frog_direction": [
+      "frog_tympanum",
+      8,
+      [
+        0.08,
+        0.11,
+        0.91,
+        0.54
+      ]
+    ],
+    "cricket_tuning": [
+      "cricket_filters",
+      4,
+      [
+        0.08982774011640164,
+        0.4235862816339726,
+        0.40014175142760733,
+        0.8598169298838847
+      ]
+    ],
+    "cricket_anatomy": [
+      "cricket_an1",
+      3,
+      [
+        0.07008547008547009,
+        0.07279693486590039,
+        0.6478632478632479,
+        0.3371647509578544
+      ]
+    ],
+    "cricket_gain": [
+      "cricket_filters",
+      6,
+      [
+        0.08982774011640164,
+        0.07207288971085504,
+        0.6287941808148115,
+        0.4223218449723786
+      ]
+    ],
+    "katydid_receptors": [
+      "insect_detection",
+      4,
+      [
+        0.07,
+        0.09,
+        0.62,
+        0.39
+      ]
+    ],
+    "katydid_lowfreq": [
+      "insect_detection",
+      5,
+      [
+        0.07,
+        0.09,
+        0.89,
+        0.68
+      ]
+    ],
+    "katydid_novelty": [
+      "insect_detection",
+      7,
+      [
+        0.07,
+        0.09,
+        0.89,
+        0.68
+      ]
+    ],
+    "katydid_band": [
+      "katydid_frequency",
+      4,
+      [
+        0.07026143790849673,
+        0.0845959595959596,
+        0.5261437908496732,
+        0.577020202020202
+      ]
+    ],
+    "tn_chirp": [
+      "katydid_calcium",
+      5,
+      [
+        0.19318769749047524,
+        0.06954401638766715,
+        0.8080285434166834,
+        0.39071092843252997
+      ]
+    ],
+    "on_chirp": [
+      "katydid_calcium",
+      5,
+      [
+        0.08567454410447163,
+        0.5310633978694582,
+        0.9138618037810307,
+        0.8155616467280965
+      ]
+    ],
+    "tn_tuning": [
+      "katydid_calcium",
+      6,
+      [
+        0.08567454410447163,
+        0.3287535320144265,
+        0.9138618037810307,
+        0.7662486169259325
+      ]
+    ],
+    "on_tuning": [
+      "katydid_calcium",
+      7,
+      [
+        0.08567454410447163,
+        0.06954401638766715,
+        0.9138618037810307,
+        0.6208384008426285
+      ]
+    ],
+    "on_inhibition": [
+      "katydid_calcium",
+      9,
+      [
+        0.5140472646268298,
+        0.06954401638766715,
+        0.9138618037810307,
+        0.4842792413904821
+      ]
+    ],
+    "finch_pathway": [
+      "bird_sparse",
+      4,
+      [
+        0.14594036453712467,
+        0.12260755260790417,
+        0.47596459797903157,
+        0.2924700994501047
+      ]
+    ],
+    "finch_sparse": [
+      "bird_sparse",
+      4,
+      [
+        0.14594036453712467,
+        0.30013307148809876,
+        0.8789590136895008,
+        0.8710244883186525
+      ]
+    ],
+    "finch_scene": [
+      "bird_sparse",
+      6,
+      [
+        0.095,
+        0.125,
+        0.9,
+        0.455
+      ]
+    ],
+    "finch_gabazine": [
+      "bird_sparse",
+      9,
+      [
+        0.09784638076920858,
+        0.12516187662056885,
+        0.6335138551497911,
+        0.47893575237462566
+      ]
+    ],
+    "bird_objects": [
+      "bird_objects",
+      2,
+      [
+        0.07180015306865083,
+        0.49298453444428136,
+        0.9402400997085226,
+        0.777791661856392
+      ]
+    ],
+    "starling_stream": [
+      "starling_streaming",
+      2,
+      [
+        0.06496204325258884,
+        0.6692328913181436,
+        0.4855057969404008,
+        0.7995034159640417
+      ]
+    ],
+    "aromatase_histology": [
+      "bird_aromatase",
+      12,
+      [
+        0.16924321794753408,
+        0.08046120639893711,
+        0.3572912378892386,
+        0.23372064715881732
+      ]
+    ],
+    "aromatase_encoding": [
+      "bird_aromatase",
+      15,
+      [
+        0.08,
+        0.13,
+        0.92,
+        0.63
+      ]
+    ],
+    "aromatase_behavior": [
+      "bird_aromatase",
+      16,
+      [
+        0.07,
+        0.13,
+        0.93,
+        0.6
+      ]
+    ],
+    "bat_frequency": [
+      "bat_identity",
+      3,
+      [
+        0.07,
+        0.085,
+        0.93,
+        0.48
+      ]
+    ],
+    "bat_identity": [
+      "bat_identity",
+      4,
+      [
+        0.07,
+        0.085,
+        0.93,
+        0.37
+      ]
+    ],
+    "bat_colony": [
+      "bat_onboard",
+      2,
+      [
+        0.09,
+        0.385,
+        0.92,
+        0.865
+      ]
+    ],
+    "bat_masking": [
+      "bat_onboard",
+      4,
+      [
+        0.10260198697414838,
+        0.0421455938697318,
+        0.8994774191400341,
+        0.7266922094508301
+      ]
+    ],
+    "fish_anatomy": [
+      "fish_auditory",
+      3,
+      [
+        0.15423243070400675,
+        0.40996900403267955,
+        0.9104688651236527,
+        0.8327096281286825
+      ]
+    ],
+    "fish_frequency": [
+      "fish_auditory",
+      5,
+      [
+        0.099504794002585,
+        0.1200532285952395,
+        0.9121272783570291,
+        0.7190422095651047
+      ]
+    ],
+    "fish_complex": [
+      "fish_auditory",
+      6,
+      [
+        0.099504794002585,
+        0.10217296050658681,
+        0.9121272783570291,
+        0.8301553041160178
+      ]
+    ],
+    "mouse_task": [
+      "mouse_attention",
+      3,
+      [
+        0.15196078431372548,
+        0.07702020202020202,
+        0.8921568627450981,
+        0.23484848484848486
+      ]
+    ],
+    "mouse_anatomy": [
+      "mouse_attention",
+      6,
+      [
+        0.058823529411764705,
+        0.06944444444444445,
+        0.9444444444444444,
+        0.45707070707070707
+      ]
+    ],
+    "mouse_responses": [
+      "mouse_attention",
+      7,
+      [
+        0.06,
+        0.1,
+        0.94,
+        0.435
+      ]
+    ],
+    "mouse_prestimulus": [
+      "mouse_attention",
+      9,
+      [
+        0.065,
+        0.1,
+        0.94,
+        0.53
+      ]
+    ],
+    "mouse_encoding": [
+      "mouse_attention",
+      13,
+      [
+        0.065,
+        0.1,
+        0.94,
+        0.835
+      ]
+    ],
+    "marmoset_anatomy": [
+      "marmoset_engagement",
+      3,
+      [
+        0.07,
+        0.105,
+        0.91,
+        0.405
+      ]
+    ],
+    "marmoset_neurons": [
+      "marmoset_engagement",
+      5,
+      [
+        0.06838109816061982,
+        0.06130377630395208,
+        0.9351115173464761,
+        0.34483374170973047
+      ]
+    ],
+    "marmoset_task": [
+      "marmoset_engagement",
+      7,
+      [
+        0.07,
+        0.1,
+        0.89,
+        0.405
+      ]
+    ],
+    "marmoset_calls": [
+      "marmoset_noise",
+      4,
+      [
+        0.09784638076920858,
+        0.12643903862690117,
+        0.9088104518902763,
+        0.4585011602733083
+      ]
+    ],
+    "croc_field_results": [
+      "croc_spatial",
+      5,
+      [
+        0.07,
+        0.085,
+        0.925,
+        0.51
+      ]
+    ],
+    "croc_captivity": [
+      "croc_spatial",
+      6,
+      [
+        0.07,
+        0.11,
+        0.925,
+        0.385
+      ]
+    ],
+    "croc_control": [
+      "croc_spatial",
+      8,
+      [
+        0.07,
+        0.11,
+        0.925,
+        0.385
+      ]
+    ],
+    "torrent_photos": [
+      "frog_gesture",
+      7,
+      [
+        0.06372549019607843,
+        0.07196969696969698,
+        0.7467320261437909,
+        0.29419191919191917
+      ]
+    ],
+    "torrent_choice": [
+      "frog_gesture",
+      8,
+      [
+        0.27941176470588236,
+        0.07196969696969698,
+        0.6748366013071896,
+        0.48863636363636365
+      ]
+    ]
+  }
+}

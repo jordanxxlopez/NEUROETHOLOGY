@@ -1,60 +1,48 @@
-# Comparative Lecture 92 plan
+# Lecture 92: final content sequence
 
-This is a research plan, not a slide deck. The required-PDF pause applies before figures and final teaching prose are created. Titles below are provisional content-slide claims; the lecture title remains exactly as registered in the schedule.
+2. Overlapping calls require source-specific decisions
+3. Spatial separation improves frog mate recognition
+4. Frequency differences separate concurrent frog voices
+5. Group-flying bats increase differences in call identity
+6. Finch neurons preserve song patterns in a chorus
+7. Starlings report timing within interleaved streams
+8. Wild caimans detect distress calls through noise [embedded recording]
+9. Cricket frequency filters exclude competing sound
+10. Young crocodiles use source position without training [embedded recording]
+11. Frog lungs suppress frequencies between call peaks
+12. A distinctive 2 kHz band protects katydid detection
+13. Selective interneurons retain chirps during masking
+14. A chirp recruits calcium signals in TN-1 dendrites [embedded recording]
+15. ON-1 compartments retain different calcium time courses [embedded recording]
+16. Different frequencies activate different TN-1 branches [embedded recording]
+17. Local estrogen synthesis alters finch song coding
+18. Larval fish distribute auditory responses across the brain
+19. Marmoset recordings distinguish midbrain pathways
+20. Mouse task rules change which sensory signal matters
+21. Túngara frogs group components by relative comparisons
+22. Shared noise fluctuations improve frog recognition
+23. Crocodile training isolates sound detection [embedded recording]
+24. Cricket gain control reduces intercall background
+25. A low-frequency component stabilizes katydid synchrony
+26. Local ON-1 signals support frequency-specific adaptation [embedded recording]
+27. Sparse finch responses distribute song identity across cells
+28. GABA blockade releases suppressed song responses
+29. Recurring sound sequences become auditory objects
+30. Systemic estrogen inhibition alters female decisions
+31. Auditory attention reduces mouse cortical firing
+32. Mouse sound information survives reduced spike output
+33. Prestimulus state contributes to mouse response changes
+34. Marmoset engagement enhances target coding in midbrain
+35. Central and noncentral marmoset fields differ
+36. Marmosets interrupt calls when noise begins
+37. Bat terminal frequencies diverge within a group
+38. Onboard microphones sample a bat colony soundscape [embedded recording]
+39. Bats continue flying under rapidly changing interference
+40. Zebrafish neurons distinguish a broad frequency range
+41. Fish populations separate onset, noise and crescendos
+42. Acoustic signals also attract unintended frog listeners [embedded recording]
+43. Selected limb movements increase frog-call attraction [embedded recording]
+44. Peripheral filters and central selection act in stages
+45. Grouping, attention and vocal control differ
 
-The animal groups are treefrogs, tropical crickets, bush-crickets, zebra finches, bats, European starlings, mice, marmosets and zebrafish. No animal is the sole or dominant focus. Anatomy, receptor/interneuron filtering, cortical responses, midbrain engagement, stream grouping, sender adjustments and behavior-in-noise are treated as different measured operations.
-
-| Slide | Provisional claim | Animals | Primary sources |
-| --- | --- | --- | --- |
-| 2 | Concurrent calls require source-specific decisions | treefrogs | frog_frequency |
-| 3 | Spatial separation releases calls from masking | treefrogs | frog_spatial |
-| 4 | Frequency differences separate concurrent frog voices | treefrogs | frog_frequency |
-| 5 | Bats increase differences between call identities | bats | bat_identity |
-| 6 | Songbird neurons retain information in background sound | zebra finches | bird_sparse |
-| 7 | Starlings report changes within interleaved sound streams | European starlings | starling_streaming |
-| 8 | Marmosets avoid overlap with predictable noise | marmosets | marmoset_noise |
-| 9 | Narrow auditory filters protect cricket signals | tropical crickets | cricket_filters |
-| 10 | Internally coupled frog ears supply directional cues | treefrogs | frog_tympanum |
-| 11 | Lungs modify the contrast of frog communication signals | treefrogs | frog_lungs |
-| 12 | Low-frequency receptors detect a distinctive call band | bush-crickets | insect_detection |
-| 13 | Interneuron tuning separates overlapping signals | bush-crickets | insect_detection |
-| 14 | Auditory neurites have spatially organized tuning | bush-crickets | katydid_calcium |
-| 15 | Calcium activity resolves local sound responses | bush-crickets | katydid_calcium |
-| 16 | Concurrent sounds activate distributed insect circuitry | bush-crickets | katydid_calcium |
-| 17 | Auditory forebrain aromatase supports noisy-song analysis | zebra finches | bird_aromatase |
-| 18 | Zebrafish auditory responses occupy several brain areas | zebrafish | fish_auditory |
-| 19 | Midbrain recording sites distinguish auditory pathways | marmosets | marmoset_engagement |
-| 20 | Mouse task rules separate sensory input from relevance | mice | mouse_attention |
-| 21 | Relative call comparisons support auditory grouping | túngara frogs | frog_grouping |
-| 22 | Correlated noise envelopes change frog recognition | treefrogs | frog_statistics |
-| 23 | Directionality changes signal-to-noise relationships | treefrogs | frog_tympanum, frog_spatial |
-| 24 | Cricket gain control suppresses competing backgrounds | tropical crickets | cricket_filters |
-| 25 | Novel frequency content recruits adapted interneurons | bush-crickets | insect_detection, katydid_frequency |
-| 26 | Local calcium signals separate auditory inputs | bush-crickets | katydid_calcium |
-| 27 | Foreground vocalizations recruit selective bird responses | zebra finches | bird_sparse |
-| 28 | Sparse activity preserves vocal identity in mixtures | zebra finches | bird_sparse |
-| 29 | Repeated patterns become neural auditory objects | zebra finches | bird_objects |
-| 30 | Aromatase inhibition changes song-in-noise performance | zebra finches | bird_aromatase |
-| 31 | Task switching changes what a mouse must detect | mice | mouse_attention |
-| 32 | Auditory rule changes reshape stimulus responses | mice | mouse_attention |
-| 33 | Prestimulus activity distinguishes behavioral rules | mice | mouse_attention |
-| 34 | Engagement enhances target coding in marmoset midbrain | marmosets | marmoset_engagement |
-| 35 | Central and noncentral midbrain fields differ | marmosets | marmoset_engagement |
-| 36 | Marmosets adjust vocal timing around noise | marmosets | marmoset_noise |
-| 37 | Call identity adjustments alter a bat acoustic mixture | bats | bat_identity |
-| 38 | Onboard recordings sample the bat colony soundscape | bats | bat_onboard |
-| 39 | Flying bats continue sensing under acoustic interference | bats | bat_onboard |
-| 40 | Zebrafish represent a broad range of frequencies | zebrafish | fish_auditory |
-| 41 | Complex stimuli recruit distinct zebrafish responses | zebrafish | fish_auditory |
-| 42 | Masking and source confusion involve different demands | comparative | frog_frequency, starling_streaming, cricket_filters |
-| 43 | Peripheral filters and neural selection act at different sites | comparative | frog_lungs, insect_detection, bird_sparse |
-| 44 | Senders and receivers change different parts of a scene | comparative | marmoset_noise, bat_identity, frog_spatial |
-| 45 | Attention, grouping and recognition are distinct outcomes | comparative | mouse_attention, starling_streaming, bird_objects |
-
-Slide 1: exact scheduled title and a unique original experimental image or credited real animal photograph, pending uniqueness verification. Slide 46: six exam-level takeaways derived from the verified source findings.
-
-## Media target
-
-Ten original useful academic recordings are preferred; 10–12 are requested. The current audit identifies original supplementary candidates but no clips are yet embedded. Frog sound examples are audio-only and do not count toward the video target. A bat model simulation is excluded. Supplementary calcium-imaging recordings and colony-emergence footage must be checked against original article legends before selection. More suitable recordings are still required, preferably distributed across animal groups.
-
-Every figure will remain an intact published PDF crop. The existing no-generated-images rule is preserved in PROMPT.md. No source images, data curves or recordings will be manufactured.
+Slide 1 retains the exact scheduled title and Date TBD. Slide 46 contains six exam-level takeaways.

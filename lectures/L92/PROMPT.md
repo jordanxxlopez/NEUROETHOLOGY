@@ -2,7 +2,7 @@
 
 Make Lecture 92 as a downloadable editable PPTX using the current default branch of connected jordanxxlopez/NEUROETHOLOGY. Refresh safely. Read AGENTS.md and .claude/skills/neuroethology-lecture/SKILL.md; use the exact course/schedule.json title and Date TBD. Do not use a ZIP or outdated guideline snapshot.
 
-Use a variety of animals: the research plan includes treefrogs, tropical crickets and bush-crickets, zebra finches, bats, European starlings, mice, marmosets and zebrafish. No one species should dominate the lecture. Complete the source-PDF gate documented in PAPERS.md before building; never substitute a paper or create a missing figure.
+Use a variety of animals: the research plan includes treefrogs, tropical crickets and bush-crickets, zebra finches, bats, European starlings, mice, marmosets and zebrafish, yacare caimans, Nile crocodiles and little torrent frogs. No one species should dominate the lecture. Complete the source-PDF gate documented in PAPERS.md before building; never substitute a paper or create a missing figure.
 
 46 slides: title, 44 content, Key takeaways with 5–6 bold-leading exam points. Arial, a new unused permitted theme, no agenda/objectives/next-lecture slides, no metacommentary. Every paragraph teaches mechanisms, circuits or behavior; 3–5 paragraphs per content slide. Caveats only when conclusions change. No em dashes in slide text. Concept-carrying numbers and units only, no p-values, error terms or sample bookkeeping. Full verified references with DOIs in teaching notes, short citations in footers.
 
