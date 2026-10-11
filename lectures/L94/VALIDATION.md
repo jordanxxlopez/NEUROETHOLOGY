@@ -1,13 +1,14 @@
-# Lecture 94 slide-specific EVE excerpt validation
+# Expanded Lecture 94 validation
 
-- 46 slides; 44 image slides, all 44 with primary article figures, 34 with source color. Repository checker: zero failures and warnings.
-- Seventeen embedded MP4s: ten existing complete original recordings plus seven instructor-authorized EVE excerpts on slides 9–15. Every embedded SHA-256 matches the credited input. Original ten MP4 hashes remain identical.
-- All original movie shape XML and positions, original title/body/footer/recording-credit text XML, and original source figure image bytes remain unchanged. Only article-figure geometry/caption sizing on the seven affected slides was adjusted. The lecture spec and theme were not changed.
-- Seven excerpts decoded fully with ffmpeg. Original 854 × 480 scene, 30000/1001 frame rate and normal playback speed retained; original AAC audio packets retained. Source interval, encoding and provenance recorded per excerpt.
-- Full source inspected across 53 timestamped frames at five-second intervals; each selected excerpt inspected at start, midpoint and near end against its author-provided phase label and the primary paper. Six training phases and the separate feeder condition were identified. No generated graphics, recoloring, spatial crop or inserted audio.
-- All 46 slides rendered with LibreOffice and visually reviewed across six contact sheets. Existing figures remain present, new credits/posters have no visible overlap with text or footers, and the existing comparative videos on slides 12 and 14 retain their original positions.
-- Interactive Microsoft PowerPoint playback remains untested in this Linux environment. Embedded movie relationships and timing entries were verified. Static PDF/browser previews cannot play the recordings.
-- Full original EVE remains embedded on slide 2. Excerpts were added for teaching context under explicit instructor authorization, not to pad the distinct-source recording count.
+- 46 slides; 44 image slides, all 44 with original primary article figures, 34 with source color. Repository checker: zero failures and warnings.
+- 25 embedded MP4 files with hashes matching the source manifest: ten complete original recordings, seven earlier EVE excerpts and eight new excerpts. All original embedded media bytes, including all original figure/poster image bytes and all 17 prior MP4 files, match the preserved baseline exactly.
+- Original 17 movie shape XML/positions and all original title/body/footer/video-credit text retained. Lecture JSON and theme unchanged. Only article figure/caption geometry on new-video slides adjusted to fit additions.
+- All eight new excerpts decoded fully with ffmpeg. Source audio remains present; no audio added or intentionally removed. Full scene and display orientation preserved, resized to compatible 854 × 480 H.264/AAC with normal playback speed.
+- All three complete uploads inspected via timestamped source contact sheets. Source strategy transition boundaries additionally inspected at 0.5-second intervals to exclude preceding strategy footage. New clips inspected at beginning, middle and end.
+- Roberts Video S1 title verified directly from the uploaded primary PDF (DOI 10.3390/jzbg4010021). Other two uploaded sources explicitly credited as instructor-supplied context with unverified publication/producer provenance, not falsely labeled academic supplements.
+- All 46 slides rendered with LibreOffice and visually reviewed. No visible text/footer/credit collisions; existing movies retain their original placements. Source figure fallbacks remain available.
+- Embedded video/media relationships and timing entries verified. Interactive Microsoft PowerPoint playback remains untested in Linux. PDF/browser exports are static.
+- Expanded PPTX bytes preserved in two parts because the complete file exceeds GitHub’s 100 MiB limit. Assembly verifies every part hash and the complete output hash; no compression or media edits occur during assembly.
 
-PPTX size: 103,321,774 bytes, below GitHub’s 100 MiB file limit.
-PPTX SHA-256: f5fb040bb99b08fc7d380a326ddba292d82099e205184be3969fb099c290d1c7
+Expanded PPTX size: 119,072,985 bytes.
+Expanded PPTX SHA-256: 3a54cbe2736c0e1f30077f82a9da0058fb7f7278729048b57ed97c2d1cf531de

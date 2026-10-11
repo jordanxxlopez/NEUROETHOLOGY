@@ -38,3 +38,22 @@ The newly uploaded full-size original exceeds the 32 MiB attachment transfer lim
 Original movie positions, captions and all original lecture text remain unchanged. Only article-figure placement/size on slides 9–15 was adjusted to accommodate the new clips. On slides 12 and 14, the new EVE excerpt is above the existing comparative recording, alongside the article figure.
 
 Rebuild: run `tools/build_lecture.py lectures/L94/lecture.json`, then `lectures/L94/embed_media.py`, then `lectures/L94/add_eve_excerpts.py`. The checked-in excerpts can be regenerated with `lectures/L94/extract_eve_excerpts.py`. Use the repository Python environment. Do not apply the embedding scripts twice to an already embedded deck.
+
+## Additional instructor-uploaded excerpts
+
+The expanded deliverable is `deliverables/Neuroethology_Lecture94_FA2026.pptx`, with 25 embedded videos. All 17 earlier videos remain byte-for-byte unchanged. The older PPTX one directory above is the preserved 17-video baseline. The expanded PPTX is also stored as two lossless parts to meet GitHub’s per-file limit; see `deliverables/README.md` for verified assembly.
+
+| Slide | Uploaded source | Exact source interval | Excerpt |
+|---|---|---|---|
+| 4 | Navy_Sea_Lions_HD.mp4 | 6–18 s | Controller contact. |
+| 6 | Meet_EVE_HD (1).mp4 | 84–101 s | Response and trainer reward. |
+| 21 | Meet_EVE_HD (1).mp4 | 53–59 s | Maze gameplay. |
+| 22 | Meet_EVE_HD (1).mp4 | 70–84 s | Sample and choice display. |
+| 23 | Examples_of_Defined_Strategies_HD (1).mp4 | 11–14.5 s | (2023), Video S1, 11–14.5 s. Staircase strategy. |
+| 23 | Examples_of_Defined_Strategies_HD (1).mp4 | 20.5–25.5 s | (2023), Video S1, 20.5–25.5 s. Targeting strategy. |
+| 24 | Examples_of_Defined_Strategies_HD (1).mp4 | 26.5–31.5 s | (2023), Video S1, 26.5–31.5 s. Wall surfing strategy. |
+| 25 | Examples_of_Defined_Strategies_HD (1).mp4 | 6–10.5 s | (2023), Video S1, 6–10.5 s. Diagonal strategy. |
+
+The uploaded Roberts paper explicitly identifies Video S1 as “Examples of Defined Strategies”; its source title is verified. `Meet_EVE_HD (1).mp4` and `Navy_Sea_Lions_HD.mp4` are instructor-authorized contextual recordings, and their publication linkage/producer was not independently verified. They are credited by exact uploaded filenames, not presented as independently verified article supplements. Their clips provide visible apparatus/task/reward context, while the cited primary studies support scientific claims. The beginning of Meet EVE concerning dolphins and general naval work was excluded.
+
+New excerpts preserve original scene orientation, normal speed, source labels and audio. Only temporal selection, resolution reduction to 854 × 480, and H.264/AAC compatibility encoding were applied. No added drawings, subtitles, music or generated frames. All eight new MP4 files decoded fully. Open the expanded PPTX in PowerPoint Slide Show and click the recording poster. Static exports cannot play videos; interactive Microsoft PowerPoint playback remains untested in this Linux environment.
