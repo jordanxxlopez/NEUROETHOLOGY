@@ -5,3 +5,5 @@ Repository builder/checker: 46 slides; 44 image slides, all primary-article figu
 All 46 slides rendered to PDF and visually inspected. Removed partial neighboring-panel and shared-axis fragments from selective crops. Published figures preserve their source colors, axes, units, and labels. Title photograph carries the university’s required Colleen Reichmuth credit and NOAA/NMFS 23554 caption. Title image source and duplicate checks recorded in TITLE_IMAGE_AUDIT.md.
 
 Embedded media count is zero. No playback or Google Slides video behavior was tested; optional-media acquisition is unfinished, documented in MEDIA.md. The static PDF has no playable video.
+
+Official 2025 Ronan study-video links are attached to the article figures on slides 17 and 39. These are linked recordings, not embedded videos. The approved YouTube download attempt was blocked by the network proxy (HTTP 403).

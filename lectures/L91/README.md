@@ -12,3 +12,5 @@ python tools/build_lecture.py lectures/L91/lecture.json
 ```
 
 The user-supplied 2013 PDF and other source PDFs remain in ignored papers/. Original scientific figure crops are reproducible from crops.json with tools/crop_panels.py. New media must preserve aspect ratio, original timing, and audio, with separate figure and video placement. Do not claim the video target satisfied until the files are obtained, embedded, and verified.
+
+Official 2025 Ronan study-video links are attached to the article figures on slides 17 and 39. These are linked recordings, not embedded videos. The approved YouTube download attempt was blocked by the network proxy (HTTP 403).

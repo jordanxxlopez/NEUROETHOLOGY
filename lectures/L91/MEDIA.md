@@ -4,12 +4,12 @@
 
 ## Ronan feature, excluded from study-video count
 
-Slides 2 and 17 explain Ronan’s trained behavior and its experimental basis. User confirmed Ronan at UC Santa Cruz, rather than another San Diego sea lion. No publicity recording has been embedded. The official university page embeds YouTube, excluded by the current source rules:
+Slides 2 and 17 explain Ronan’s trained behavior and its experimental basis. User confirmed Ronan at UC Santa Cruz, rather than another San Diego sea lion. No publicity recording has been embedded. The user explicitly approved official Ronan study videos from YouTube for this lecture. Downloads nevertheless failed because the environment proxy returned HTTP 403. The official university page is:
 https://news.ucsc.edu/2025/05/ronan-sea-lion-beats-humans/
 
-The 2025 paper also identifies two recordings hosted on YouTube; no originals appear in its linked code repositories. Source descriptions, not embedded videos:
-- Cook et al. (2025), Supplementary Video 1: familiar-tempo longitudinal comparison.
-- Cook et al. (2025), Supplementary Video 2: sea-lion and human comparison. This is the requested featured recording, if an original file can be supplied; keep it outside the study-video target.
+The 2025 paper also identifies two recordings hosted on YouTube; no originals appear in its linked code repositories. Original study links, not embedded videos:
+- Cook et al. (2025), Supplementary Video 1: familiar-tempo longitudinal comparison. https://youtu.be/oen67G5w5S0
+- Cook et al. (2025), Supplementary Video 2: sea-lion and human comparison. https://youtu.be/1zZc18B8ZW0 This is the requested featured recording, if an original file can be supplied; keep it outside the study-video target.
 
 ## Required media files for video completion
 
@@ -33,3 +33,7 @@ Rouse et al. (2016), Supplementary Video 1, shows perturbation trials and a doub
 Ito et al. (2022), Movies S1–S3, describe comparative rat/human listening experiments. Publisher movie ZIP returns HTTP 403 and alternative authoritative endpoints were unavailable. DOI https://doi.org/10.1126/sciadv.abo7019.
 
 No repeated clips, unrelated recordings, animations, or generated videos were substituted. No video playback is claimed. Google Slides imports cannot be tested before original recordings are available.
+
+## Approved exception and delivery
+
+YouTube permission applies only to official Ronan study recordings. Both 2025 supplementary clips remain unavailable as local files because the network proxy denies YouTube access (HTTP 403). No access controls were bypassed. On slides 17 and 39, clicking the article figure opens the corresponding official study recording; these are hyperlinks, not embedded movies. Original MP4 uploads are needed to embed them. The featured comparison on slide 17 is excluded from the required count.
