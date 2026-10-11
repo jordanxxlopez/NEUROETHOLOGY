@@ -1,6 +1,6 @@
 """Add verified article recordings to the existing deck without rewriting slides."""
 from pathlib import Path
-import hashlib,json,subprocess
+import hashlib,json,subprocess,argparse
 from pptx import Presentation
 from pptx.enum.shapes import MSO_SHAPE_TYPE
 from pptx.util import Inches,Pt
@@ -27,11 +27,18 @@ entries=[
  (38,'Cook2025_comparison','Cook et al. (2025), ESM 2 excerpt. Matched sea-lion head and human arm movements.','10.1038/s41598-025-95279-1','https://www.youtube.com/watch?v=1zZc18B8ZW0','CC BY 4.0; original article supplementary recording','Cook and colleagues'),
  (42,'science.adx9367_movie_s1','Cook et al. (2026), Supplementary Movie S1. Reconstructed vocal motor cortex–brainstem pathways in a sea lion.','10.1126/science.adx9367','https://www.science.org/doi/10.1126/science.adx9367#supplementary-materials','Copyright 2026 authors; exclusive license AAAS; instructor-supplied original movie','Cook, Rouse, Sawyer, Miller, and Berns')
 ]
+parser=argparse.ArgumentParser()
+parser.add_argument('--only',type=int,help='Add one recording to an existing deck, preserving other slides.')
+args=parser.parse_args()
+entries.append((44,'SuppPub4_native_360p','Sills et al. (2025), Supplementary video 4 (SuppPub4). Ronan performs the 40 Hz underwater detection task.','10.1121/10.0039049','https://pubs.aip.org/jasa/article/158/2/1585/3361108/Low-frequency-hearing-and-masking-parameters-in','No open license stated; instructor-supplied compressed copy','Sills, Ruscher, Packard, Jones, Southall, and Reichmuth'))
+if args.only is not None:
+ entries=[x for x in entries if x[0]==args.only]
+ if not entries: raise SystemExit('No recording configured for this slide.')
 prs=Presentation(PPTX)
-if any(s.shape_type==MSO_SHAPE_TYPE.MEDIA for sl in prs.slides for s in sl.shapes):
+if any(s.shape_type==MSO_SHAPE_TYPE.MEDIA for i,sl in enumerate(prs.slides,1) if args.only is None or i==args.only for s in sl.shapes):
  raise SystemExit('Use the pre-video deck to avoid duplicate recordings.')
 before=[[s.text for s in sl.shapes if s.has_text_frame] for sl in prs.slides]
-original_images=[[hashlib.sha256(s.image.blob).hexdigest() for s in sl.shapes if s.shape_type==MSO_SHAPE_TYPE.PICTURE] for sl in prs.slides]
+original_images=[[hashlib.sha256(s.image.blob).hexdigest() for s in sl.shapes if s.shape_type==MSO_SHAPE_TYPE.PICTURE and s.name!='Static video fallback'] for sl in prs.slides]
 def fit(shape,x,y,w,h):
  ratio=shape.width/shape.height
  sw=min(w,h*ratio);sh=sw/ratio
@@ -44,7 +51,7 @@ def caption(sl,text,x,y,w,h):
   for r in p.runs:r.font.name='Arial';r.font.size=Pt(9);r.font.color.rgb=RGBColor(0,0,0)
  return box
 segments={x['file']:x for x in json.loads((ROOT/'segment_audit.json').read_text())}
-sources=[]
+sources=json.loads((ROOT/'media_sources.json').read_text())['sources'] if args.only is not None else []
 for num,stem,cap,doi,url,license,credit in entries:
  sl=prs.slides[num-1];pic=next(s for s in sl.shapes if s.shape_type==MSO_SHAPE_TYPE.PICTURE)
  figcap=next(s for s in sl.shapes if s.has_text_frame and 'Fig.' in s.text)
@@ -73,10 +80,11 @@ for num,stem,cap,doi,url,license,credit in entries:
 for i,sl in enumerate(prs.slides):
  assert [s.text for s in sl.shapes if s.has_text_frame][:len(before[i])]==before[i],f'Text changed on slide {i+1}'
  assert [hashlib.sha256(s.image.blob).hexdigest() for s in sl.shapes if s.shape_type==MSO_SHAPE_TYPE.PICTURE and s.name!='Static video fallback']==original_images[i]
-for n in (28,29,30):
+for n in (() if args.only is not None else (28,29,30)):
  prs.slides[n-1].notes_slide.notes_text_frame.text+='\nThe chapter supplement records the trained task. It is not identified as a trial from the earlier article; numerical findings refer to that cited article.\n'
-prs.slides[31].notes_slide.notes_text_frame.text+='\nThis recording contains familiar command responses, not the delayed-Go imitation test.\n'
-prs.slides[11].notes_slide.notes_text_frame.text+='\nBimbo is a zoo demonstration, not a participant in the adjacent Milne and Grant measurements.\n'
+if args.only is None: prs.slides[31].notes_slide.notes_text_frame.text+='\nThis recording contains familiar command responses, not the delayed-Go imitation test.\n'
+if args.only is None: prs.slides[11].notes_slide.notes_text_frame.text+='\nBimbo is a zoo demonstration, not a participant in the adjacent Milne and Grant measurements.\n'
+sources.sort(key=lambda x:x['slide'])
 prs.save(PPTX)
 study=[x for x in sources if x['counts_toward_study_target']]
 sea=study

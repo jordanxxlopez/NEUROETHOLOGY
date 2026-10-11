@@ -4,7 +4,7 @@
 
 Standard 46-slide deck: title, 44 content slides, and Key takeaways. This revision replaces only slides 41–45 with the recent brain-pathway study by Cook et al. (2026) and underwater-hearing study by Sills et al. (2025). Slides 1–40 and 46 retain their text, notes, figures, movie bytes and placement.
 
-16 native embedded clips use 11 distinct sea-lion study recordings. Separate excerpts from a single recording count once toward the study-recording requirement. The Ronan UCSC feature and the Bimbo zoo demonstration are additional recordings, excluded from the target. The former comparison movies on slides 41–43 are replaced by the new scientific content.
+17 native embedded clips use 12 distinct sea-lion study recordings. Separate excerpts from a single recording count once toward the study-recording requirement. The Ronan UCSC feature and the Bimbo zoo demonstration are additional recordings, excluded from the target. The former comparison movies on slides 41–43 are replaced by the new scientific content.
 
 | Slide | Recording |
 | --- | --- |
@@ -24,6 +24,7 @@ Standard 46-slide deck: title, 44 content slides, and Key takeaways. This revisi
 | 35 | Cook ESM 2, Ronan at 112 bpm |
 | 38 | Cook ESM 2, human and sea-lion movement comparison |
 | 42 | Cook et al. (2026), Supplementary Movie S1, sea-lion brain-pathway reconstruction |
+| 44 | Sills et al. (2025), SuppPub4, underwater 40 Hz detection trials |
 
 `Neuroethology_Lecture91_FA2026.pptx` contains the actual videos; the preview PDF is static. Native proportions, scientific labels, temporal order, sound and playback speed are retained. Timing-relevant frame rates are unchanged. Earlier delivery copies use H264/AAC compression; their large video frames are proportionally resized to at most 1280 px wide. The new Science Movie S1 is embedded byte-for-byte from the instructor upload, at its original resolution and timing. Posters are source frames, proportionally reduced for delivery. Ronan's solo 2025 excerpt removes only its black side margins. All temporal selections and this spatial crop are recorded in `segment_audit.json`.
 
@@ -42,4 +43,4 @@ python tools/check_lecture.py lectures/L91/Neuroethology_Lecture91_FA2026.pptx -
 
 The builder uses the exact schedule title/date, retained smoked-steel theme, Arial and the current teaching rules. A fresh build is required before embedding to prevent duplicate movies. `verify_delivery.py` optionally compares against the previous delivery saved at its documented scratch path; media decoding and embedding verification are otherwise reproducible from the supplied assets. Earlier figure crop boxes and reference checks are in `revision_crops.json` and `uploaded_reference_verification.json`. The current replacement crops and references are in `recent_crops.json` and `recent_reference_verification.json`.
 
-Sills et al. (2025), SuppPub4.mov records Ronan's 40 Hz detection task and is intended for slide 44. The instructor supplied the original, but it exceeds the executor's 32 MiB file-transfer limit. Its publisher endpoint is also inaccessible here. It is not embedded; a compressed MP4/MOV under 32 MiB is needed. Slide 44 retains the published audiogram. Access status and original sources are recorded in `recent_video_access.json`.
+Sills et al. (2025), SuppPub4 records Ronan's 40 Hz detection task. The instructor-supplied compressed MP4 is now embedded byte-for-byte on slide 44, below the retained audiogram. Its duration is 206.69 s, resolution 640 × 360, and it has no audio stream. This resolves the original MOV transfer limit. Access status and source details are recorded in `recent_video_access.json`.
