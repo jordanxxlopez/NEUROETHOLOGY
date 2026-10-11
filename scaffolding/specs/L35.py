@@ -69,7 +69,7 @@ inserts = [
         ["Meaning.", "Escape is restrained from above.", "The route is selective."],
     ], ["Vu 1993"]),
     ins(18, "Concentration and onset set the sign of serotonin", [
-        "Serotonin concentration, onset rate and exposure duration can each be changed separately. Teshiba and colleagues varied all three in crayfish isolated for at least two weeks, so the contribution of each factor can be compared directly against the others.",
+        "Serotonin concentration, onset rate and exposure duration can each be changed separately. Teshiba and colleagues varied all three in crayfish isolated for at least two weeks, so the contribution of each factor can be measured on its own.",
         "Rapid high-concentration exposure inhibited sensory EPSPs, whereas lower concentrations facilitated them. Juvenile bath concentrations were 5 µM for the low condition and 100 µM for the high condition. Adult arterial concentrations differed because the delivery route differed.",
         "The measured sign depends on the preparation and on the exposure schedule. Concentration, onset and duration interact, so the same drug can inhibit or facilitate the same synapse. Each result is read together with its delivery schedule.",
     ], "Teshiba et al. (2001)", [

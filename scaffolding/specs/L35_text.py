@@ -72,6 +72,6 @@ APPEND_BODY = {
 APPEND_INS = {
     (24, 2): " The promotion results and the naive-animal results are recorded in the same way.",
     (36, 3): " The two exposure lengths therefore predict different outcomes at the next day's test.",
-    (18, 1): " Each drug is applied under the same protocol, so the drugs are compared with each other rather than with separate conditions.",
+    (18, 1): " Each drug is applied under the same protocol, so each effect is measured under identical conditions.",
     (30, 1): " The receptor sequence and the expression system are identified before any signaling is measured.",
 }
