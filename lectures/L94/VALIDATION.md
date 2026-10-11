@@ -36,3 +36,12 @@ The pinned single-file browser download returned HTTP 200 and its complete 335,6
 - Reproducible patch: `python lectures/L94/revise_paragraph3.py` against the preserved pre-edit 32-video deck. Exact old/new paragraphs are saved in `paragraph3_revision_audit.json`.
 
 Revised single-file browser download returned HTTP 200; its full response matched the final PPTX SHA-256.
+
+## Rio recording replacement/addition
+
+- 46 slides and 33 movie placements. Rio appears exactly twice, on slides 32 and 35. The Joly media hash is absent from the saved PPTX; the uploaded Rio hash is present unchanged.
+- Every original title, body paragraph, citation, slide number and takeaway is unchanged, including the corrected paragraph 3 passages. All other movie XML/geometry and media bytes are unchanged. Only slide 32 figure/caption geometry was adjusted to accommodate its video; slide 35 video geometry was changed to the Rio source aspect ratio.
+- The Rio upload fully decoded with ffmpeg, exit 0 and no errors. All 41 one-second source frames were inspected. The original title card and publisher supplementary description verified its identity, credit and task.
+- Correct citation and exact Supplementary Video 17.2 identifier are included in the notes and captions. Slide 35 distinguishes identity matching from its reversal-learning evidence.
+- Native resolution, original audio and original video bytes preserved, without any editing or encoding. Interactive Microsoft PowerPoint playback remains untested.
+- Repository checker and rendered-slide visual review completed for the revised deck. Final size 337375852 bytes; SHA-256 14c54f80b92f4adf2f6e17f1299d86cf691a734ef9da8d7aaf58110739cf8b94.

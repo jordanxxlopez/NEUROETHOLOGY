@@ -95,3 +95,15 @@ Rebuild the existing 25-video deck, then run `python lectures/L94/add_late_recor
 ## Paragraph 3 text revision
 
 The latest PPTX retains all 32 recordings at the same positions with identical media bytes. Only the third paragraph and matching transcript on the 20 flagged slides changed. No video was added, removed, trimmed, cropped, compressed or re-encoded during this text revision.
+
+## Rio identity-matching revision
+
+Latest deck: `deliverables/Neuroethology_Lecture94_FA2026_Rio_Revised.pptx`, with 33 playable video placements. Rio is used exactly twice: once on slide 32 (identity matching), and once on slide 35 in place of the Joly mouse-lemur recording. The Joly recording is no longer embedded in this revision. The original video-source lists above document earlier versions, not the current slide 35.
+
+**Verified source:** Cook P, Reichmuth C, Hanke FD (2021), *The Mind of a Sea Lion*, pp. 323–345, https://doi.org/10.1007/978-3-030-59184-7_17. The publisher identifies **Supplementary Video 17.2**, Rio performing identity matching-to-sample; the uploaded recording opens with the matching **Video Supplement 2** title card. This is a chapter supplement, not a newly identified standalone experiment. The chapter cites Kastak and Schusterman (1994), but the exact filming date and trial history are not stated.
+
+The central sample is presented before side choices become available. Rio contacts the matching shape, first on the right and then on the left. The publisher states that correct responses receive a tone and fish. This is identity matching, not a reversal session. Slide 35 explicitly labels it an identity-matching comparison; its harbor-seal reversal teaching content and Erdsack figure remain unchanged. The publisher separately identifies Supplementary Video 17.3 as containing a reversal procedure; that is a different movie and was not supplied or added.
+
+The entire uploaded `Rio_identity.mp4` is preserved byte-for-byte: 41.006 s, 1280 × 720, 25 frames/s, H.264, stereo AAC. No trimming, spatial cropping, resolution reduction, recompression, altered speed or added graphics. Native-resolution unedited source frames provide the posters. Copyright: © 2021 Springer Nature Switzerland AG; a separate open license for the video is not stated. The instructor supplied the copy used here.
+
+Reproduce from the preserved paragraph-3 revision with `python lectures/L94/add_rio_identity.py`. Source verification and interval observations are saved in `rio_source_verification.json`; delivery and source hashes are in `rio_recording.json`.

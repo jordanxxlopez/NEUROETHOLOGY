@@ -5,3 +5,5 @@ Latest expanded deliverable: `deliverables/Neuroethology_Lecture94_FA2026_32vide
 The new recordings retain the original bytes, resolution, codec, container, timing and audio, without trimming or re-encoding. The prior 25-video master and its lossless split parts remain preserved. The complete latest deck is delivered as a single normal browser download via GitHub LFS. See `VIDEOS.md`, `VALIDATION.md` and `deliverables/README.md`.
 
 Latest text revision: `deliverables/Neuroethology_Lecture94_FA2026_Paragraph3_Revised.pptx`. Only the third paragraph on the 20 flagged slides and its matching transcript were revised; all 32 videos, images, layout and remaining text are unchanged. The GitHub LFS single-file download points to this revision.
+
+Latest Rio revision: `deliverables/Neuroethology_Lecture94_FA2026_Rio_Revised.pptx`, 33 embedded movie placements. Joly on slide 35 is replaced by the supplied Rio identity-matching recording; the same recording is also on slide 32. Exactly two uses. All corrected paragraph text, other lecture content and other media remain unchanged.
