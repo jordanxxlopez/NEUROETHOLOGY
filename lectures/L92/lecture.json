@@ -1,0 +1,1381 @@
+{
+  "lecture": 92,
+  "theme": "slate-cerulean-paper",
+  "content_slides": 44,
+  "title_height": 3.7,
+  "title_min_pt": 20,
+  "title_image": {
+    "path": "figures/torrent_photos.png",
+    "caption": "Zhao et al. (2022), Fig. 3. Little torrent frogs studied in audiovisual communication experiments.",
+    "kind": "article",
+    "source_url": "https://doi.org/10.7554/elife.76083"
+  },
+  "title_refs": [
+    "Zhao L, Wang J, Zhang H, Wang T, Yang Y, Tang Y, Halfwerk W, Cui J. (2022). Parasite defensive limb movements enhance acoustic signal attraction in male little torrent frogs. eLife 11:e76083. https://doi.org/10.7554/elife.76083"
+  ],
+  "slides": [
+    {
+      "title": "Overlapping calls require source-specific decisions",
+      "body": [
+        "**Auditory scene analysis** is the organization of a mixture of sounds into representations of their sources. An **auditory stream** is a sequence of sounds perceived as belonging together over time. In a breeding chorus, recognizing a suitable mate requires a female to recover one male’s call from concurrent calls of other animals.",
+        "Nityananda and Bee tested Cope’s gray treefrogs, _Hyla chrysoscelis_, with an attractive pulsed target and a continuous sequence of distractor pulses. **Phonotaxis**, directed movement toward a sound source, provided a behavioral measure of whether the female recognized the target as attractive.",
+        "Target and distractor could each be audible while their combination disrupted recognition. Changing their frequency separation restored directed approach. Detecting acoustic energy and assigning the correct pulse sequence to a source are therefore different operations in the same listening task."
+      ],
+      "cite": "Nityananda et al. (2011)",
+      "refs": [
+        "Nityananda V, Bee MA. (2011). Finding your mate at a cocktail party: frequency separation promotes auditory stream segregation of concurrent voices in multi-species frog choruses. PloS one 6:e21191. https://doi.org/10.1371/journal.pone.0021191"
+      ],
+      "transcript": [
+        "Auditory scene analysis is the organization of a mixture of sounds into representations of their sources. An auditory stream is a sequence of sounds perceived as belonging together over time. In a breeding chorus, recognizing a suitable mate requires a female to recover one male’s call from concurrent calls of other animals.",
+        "Nityananda and Bee tested Cope’s gray treefrogs, Hyla chrysoscelis, with an attractive pulsed target and a continuous sequence of distractor pulses. Phonotaxis, directed movement toward a sound source, provided a behavioral measure of whether the female recognized the target as attractive.",
+        "Target and distractor could each be audible while their combination disrupted recognition. Changing their frequency separation restored directed approach. Detecting acoustic energy and assigning the correct pulse sequence to a source are therefore different operations in the same listening task.",
+        "The spectrograms retain the frequency and time axes. Pulse timing distinguishes the conspecific target from the distractor; frequency separation changes how those pulses can be grouped."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/frog_scene.png",
+        "caption": "Nityananda et al. (2011), Fig. 1(a–e). Calls of four frog species and their overlapping chorus.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1371/journal.pone.0021191"
+      }
+    },
+    {
+      "title": "Spatial separation improves frog mate recognition",
+      "body": [
+        "**Masking** occurs when one sound reduces detection or recognition of another. **Spatial release from masking** is improved performance when target and masker come from different directions. Bee tested whether this spatial benefit helped female gray treefrogs choose the call of their own species.",
+        "Two sources of chorus-shaped noise surrounded competing conspecific and heterospecific calls. The calls were separated from the maskers by either 15° or 90°. The **signal-to-noise ratio**, or SNR, describes target level relative to background level; a negative value means the target is quieter than the background.",
+        "At −3 dB SNR, females chose the conspecific call with 90° separation but failed to make the corresponding choice with 15° separation. Source direction changed mate recognition even though the target call remained the same. Spatial organization can preserve species-specific information within a noisy chorus."
+      ],
+      "cite": "Bee et al. (2008)",
+      "refs": [
+        "Bee MA. (2008). Finding a mate at a cocktail party: Spatial release from masking improves acoustic mate recognition in grey treefrogs. Animal behaviour 75:1781-1791. https://doi.org/10.1016/j.anbehav.2007.10.032"
+      ],
+      "transcript": [
+        "Masking occurs when one sound reduces detection or recognition of another. Spatial release from masking is improved performance when target and masker come from different directions. Bee tested whether this spatial benefit helped female gray treefrogs choose the call of their own species.",
+        "Two sources of chorus-shaped noise surrounded competing conspecific and heterospecific calls. The calls were separated from the maskers by either 15° or 90°. The signal-to-noise ratio, or SNR, describes target level relative to background level; a negative value means the target is quieter than the background.",
+        "At −3 dB SNR, females chose the conspecific call with 90° separation but failed to make the corresponding choice with 15° separation. Source direction changed mate recognition even though the target call remained the same. Spatial organization can preserve species-specific information within a noisy chorus.",
+        "The study reduced signal level while preserving the chorus-shaped masker. At increasingly unfavorable SNRs, both willingness to approach and correct species choice deteriorated."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/frog_spatial.png",
+        "caption": "Bee et al. (2008), Fig. 3. Conspecific choice across noise levels.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1016/j.anbehav.2007.10.032"
+      }
+    },
+    {
+      "title": "Frequency differences separate concurrent frog voices",
+      "body": [
+        "**Frequency** is the number of cycles of an acoustic oscillation per second, measured in hertz. A **semitone** is a relative frequency interval used here to vary separation between target and distractor. The experiment changed frequency while retaining the contrasting pulse sequences that identified the two sources.",
+        "With separations of 3 semitones or less, females responded weakly to the attractive target embedded in distractor pulses. Separations of 6–12 semitones increased responsiveness and shortened approach latency. The target became easier to recover as the competing pulse train occupied a more distinct frequency range.",
+        "The authors separately tested whether the frequencies were audible and whether females preferred the target pulse rate. Those controls establish that the scene effect involves concurrent-source organization rather than a simple preference for a particular pitch. Timing supplies call identity, while frequency helps keep the timing patterns separate."
+      ],
+      "cite": "Nityananda et al. (2011)",
+      "refs": [
+        "Nityananda V, Bee MA. (2011). Finding your mate at a cocktail party: frequency separation promotes auditory stream segregation of concurrent voices in multi-species frog choruses. PloS one 6:e21191. https://doi.org/10.1371/journal.pone.0021191"
+      ],
+      "transcript": [
+        "Frequency is the number of cycles of an acoustic oscillation per second, measured in hertz. A semitone is a relative frequency interval used here to vary separation between target and distractor. The experiment changed frequency while retaining the contrasting pulse sequences that identified the two sources.",
+        "With separations of 3 semitones or less, females responded weakly to the attractive target embedded in distractor pulses. Separations of 6–12 semitones increased responsiveness and shortened approach latency. The target became easier to recover as the competing pulse train occupied a more distinct frequency range.",
+        "The authors separately tested whether the frequencies were audible and whether females preferred the target pulse rate. Those controls establish that the scene effect involves concurrent-source organization rather than a simple preference for a particular pitch. Timing supplies call identity, while frequency helps keep the timing patterns separate.",
+        "The target used a species-appropriate pulse rate. A continuous distractor altered the composite temporal pattern; frequency separation reduced that disruption without changing the target’s pulse rate."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/frog_separation.png",
+        "caption": "Nityananda et al. (2011), Fig. 5(a–c). Phonotaxis improves as target and distractor frequencies separate.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1371/journal.pone.0021191"
+      }
+    },
+    {
+      "title": "Group-flying bats increase differences in call identity",
+      "body": [
+        "**Echolocation** is active sensing: an animal emits sound and uses returning echoes to investigate its surroundings. In a flying group, another bat’s emissions can overlap the focal animal’s echoes. Hase and colleagues attached microphones to individual eastern bent-winged bats, _Miniopterus fuliginosus_, to assign recorded calls to their emitters.",
+        "The bats produced **frequency-modulated calls**, whose frequency changes within a pulse. Their **terminal frequency**, the frequency at the end of that sweep, became more different between individuals during group flight than during solitary flight. Altering this feature reduced similarity among their emitted signals.",
+        "A familiar individual call structure can provide information for separating self-generated echoes from competing sounds. This sender-side adjustment changes the acoustic mixture before it reaches a receiver. It differs from a listener improving recognition of an unchanged target through spatial separation or neural filtering."
+      ],
+      "cite": "Hase et al. (2018)",
+      "refs": [
+        "Hase K, Kadoya Y, Maitani Y, Miyamoto T, Kobayasi KI, Hiryu S. (2018). Bats enhance their call identities to solve the cocktail party problem. Communications biology 1:39. https://doi.org/10.1038/s42003-018-0045-3"
+      ],
+      "transcript": [
+        "Echolocation is active sensing: an animal emits sound and uses returning echoes to investigate its surroundings. In a flying group, another bat’s emissions can overlap the focal animal’s echoes. Hase and colleagues attached microphones to individual eastern bent-winged bats, Miniopterus fuliginosus, to assign recorded calls to their emitters.",
+        "The bats produced frequency-modulated calls, whose frequency changes within a pulse. Their terminal frequency, the frequency at the end of that sweep, became more different between individuals during group flight than during solitary flight. Altering this feature reduced similarity among their emitted signals.",
+        "A familiar individual call structure can provide information for separating self-generated echoes from competing sounds. This sender-side adjustment changes the acoustic mixture before it reaches a receiver. It differs from a listener improving recognition of an unchanged target through spatial separation or neural filtering.",
+        "The paper’s signal-similarity analyses used artificial calls to isolate individual acoustic features. The flight measurements establish actual call changes; the analytical signals are not recordings of additional animals."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/bat_frequency.png",
+        "caption": "Hase et al. (2018), Fig. 2(a–f). Flight trajectories and terminal-frequency differences across bats.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1038/s42003-018-0045-3"
+      }
+    },
+    {
+      "title": "Finch neurons preserve song patterns in a chorus",
+      "body": [
+        "Zebra finches, _Taeniopygia guttata_, recognize learned songs against a background chorus of other finch songs. **Sound pressure level** measures acoustic pressure relative to a standard reference. Schneider and Woolley kept chorus level at 63 dB sound pressure level while varying the target song from 48 to 78 dB. Recognition declined sharply around equal target and chorus levels.",
+        "The authors recorded from successive stages of the auditory pathway. **Field L**, an early auditory forebrain region, supplied a relatively dense representation of sound. The **caudomedial nidopallium**, or NCM, is a higher auditory forebrain region receiving input from Field L. A subset of its neurons fired brief, selective responses.",
+        "These selective NCM neurons retained song-like response timing at background levels compatible with behavioral recognition. At stronger masking levels, their responses declined rather than becoming a copy of the chorus. Neural selectivity can preserve a vocal pattern instead of representing every component of the incoming mixture equally."
+      ],
+      "cite": "Schneider et al. (2013)",
+      "refs": [
+        "Schneider DM, Woolley SM. (2013). Sparse and background-invariant coding of vocalizations in auditory scenes. Neuron 79:141-152. https://doi.org/10.1016/j.neuron.2013.04.038"
+      ],
+      "transcript": [
+        "Zebra finches, Taeniopygia guttata, recognize learned songs against a background chorus of other finch songs. Sound pressure level measures acoustic pressure relative to a standard reference. Schneider and Woolley kept chorus level at 63 dB sound pressure level while varying the target song from 48 to 78 dB. Recognition declined sharply around equal target and chorus levels.",
+        "The authors recorded from successive stages of the auditory pathway. Field L, an early auditory forebrain region, supplied a relatively dense representation of sound. The caudomedial nidopallium, or NCM, is a higher auditory forebrain region receiving input from Field L. A subset of its neurons fired brief, selective responses.",
+        "These selective NCM neurons retained song-like response timing at background levels compatible with behavioral recognition. At stronger masking levels, their responses declined rather than becoming a copy of the chorus. Neural selectivity can preserve a vocal pattern instead of representing every component of the incoming mixture equally.",
+        "The same song-alone, chorus-alone and mixed-scene conditions allowed responses to be compared with their acoustic components. NCM includes both broad-spiking and narrow-spiking neurons with different response properties."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/finch_pathway.png",
+          "caption": "Schneider et al. (2013), Fig. 2(A). Recorded auditory regions and their ascending connections.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.neuron.2013.04.038"
+        },
+        {
+          "path": "figures/finch_scene.png",
+          "caption": "Schneider et al. (2013), Fig. 4(A–B). Neural song responses across background levels.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.neuron.2013.04.038"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Starlings report timing within interleaved streams",
+      "body": [
+        "European starlings, _Sturnus vulgaris_, were trained to detect a time shift in a repeating tone sequence. The sequence contained A tones and B tones presented at half the A-tone rate. **Stream segregation** assigns alternating tones to different sources rather than treating them as one temporal sequence.",
+        "Itatani and Klump varied the frequency difference between A and B. Detecting a shifted B tone was easier when both had the same frequency than when they differed by 6 or 12 semitones. Grouping all tones together preserved a stronger local timing reference for the detection task.",
+        "Neuronal recordings from the starling auditory forebrain tracked the stimulus timing differences that predicted behavioral sensitivity. Here, separating streams made a particular task harder: recovering the timing relationship between tones in different streams. Successful scene organization depends on what information the animal must use."
+      ],
+      "cite": "Itatani et al. (2014)",
+      "refs": [
+        "Itatani N, Klump GM. (2014). Neural correlates of auditory streaming in an objective behavioral task. Proceedings of the National Academy of Sciences of the United States of America 111:10738-10743. https://doi.org/10.1073/pnas.1321487111"
+      ],
+      "transcript": [
+        "European starlings, Sturnus vulgaris, were trained to detect a time shift in a repeating tone sequence. The sequence contained A tones and B tones presented at half the A-tone rate. Stream segregation assigns alternating tones to different sources rather than treating them as one temporal sequence.",
+        "Itatani and Klump varied the frequency difference between A and B. Detecting a shifted B tone was easier when both had the same frequency than when they differed by 6 or 12 semitones. Grouping all tones together preserved a stronger local timing reference for the detection task.",
+        "Neuronal recordings from the starling auditory forebrain tracked the stimulus timing differences that predicted behavioral sensitivity. Here, separating streams made a particular task harder: recovering the timing relationship between tones in different streams. Successful scene organization depends on what information the animal must use.",
+        "The objective task did not ask the bird to verbally label one or two streams. Spike-pattern sensitivity correlated with stimulus sensitivity, while the recorded responses did not encode the bird’s eventual decision."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/starling_stream.png",
+        "caption": "Itatani et al. (2014), Fig. 1(A–B). Time-shift sensitivity across tone-frequency separations.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1073/pnas.1321487111"
+      }
+    },
+    {
+      "title": "Wild caimans detect distress calls through noise",
+      "body": [
+        "Female yacare caimans, _Caiman yacare_, respond to juvenile distress calls in their natural Pantanal habitat. Thévenet and colleagues played those calls against continuous broadband noise. **Broadband noise** contains acoustic energy across many frequencies and overlaps multiple components of the target call.",
+        "The call and noise speakers were either adjacent or separated. Females oriented and approached at less favorable SNRs when the sources were separated. The estimated detection threshold shifted from −14.6 dB to −18.2 dB, a 3.6 dB spatial benefit under field conditions.",
+        "Responses progressed from movement to orientation and substantial approach. Spatial separation improved access to a biologically meaningful signal without training the females to respond. The field recording connects acoustic source geometry to a natural parent-related behavioral response."
+      ],
+      "cite": "Thévenet et al. (2022)",
+      "refs": [
+        "Thévenet J, Papet L, Campos Z, Greenfield M, Boyer N, Grimault N, Mathevon N. (2022). Spatial release from masking in crocodilians. Communications biology 5:869. https://doi.org/10.1038/s42003-022-03799-7"
+      ],
+      "transcript": [
+        "Female yacare caimans, Caiman yacare, respond to juvenile distress calls in their natural Pantanal habitat. Thévenet and colleagues played those calls against continuous broadband noise. Broadband noise contains acoustic energy across many frequencies and overlaps multiple components of the target call.",
+        "The call and noise speakers were either adjacent or separated. Females oriented and approached at less favorable SNRs when the sources were separated. The estimated detection threshold shifted from −14.6 dB to −18.2 dB, a 3.6 dB spatial benefit under field conditions.",
+        "Responses progressed from movement to orientation and substantial approach. Spatial separation improved access to a biologically meaningful signal without training the females to respond. The field recording connects acoustic source geometry to a natural parent-related behavioral response.",
+        "The target calls came from unfamiliar juveniles. Responses were scored by observable movements toward the target, so the experiment measured detection-linked behavior rather than recognition of a particular offspring."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/croc_field_results.png",
+        "caption": "Thévenet et al. (2022), Fig. 2(a–c). Female caiman responses across SNR and speaker separation.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1038/s42003-022-03799-7"
+      }
+    },
+    {
+      "title": "Cricket frequency filters exclude competing sound",
+      "body": [
+        "Tropical crickets hear calling songs within diverse insect choruses. Schmidt and Römer recorded an **ascending auditory interneuron**, AN1, in _Paroecanthus podagrosus_ and _Diatrypa_ sp. An interneuron integrates information from other neurons; an ascending neuron carries that information toward higher processing centers.",
+        "AN1 responded most sensitively near the species’ calling-song frequency. **Frequency tuning** describes how a neuron’s response depends on sound frequency. Sharp tuning excludes much of a chorus’s energy because sounds outside the effective frequency range produce weaker neural responses.",
+        "With target and masker on the same side, detectable signals averaged about −8 dB SNR in the laboratory. Moving the masker to the opposite side improved detection by a further 6–9 dB. Selective filtering and source direction therefore contribute separate benefits within the same identified auditory pathway."
+      ],
+      "cite": "Schmidt et al. (2011); Kostarakos et al. (2012)",
+      "refs": [
+        "Schmidt AK, Römer H. (2011). Solutions to the cocktail party problem in insects: selective filters, spatial release from masking and gain control in tropical crickets. PloS one 6:e28593. https://doi.org/10.1371/journal.pone.0028593",
+        "Kostarakos K, Hedwig B (2012). Calling song recognition in female crickets: temporal tuning of identified brain neurons matches behavior. Journal of Neuroscience 32(28):9601–9612. https://doi.org/10.1523/JNEUROSCI.1170-12.2012"
+      ],
+      "transcript": [
+        "Tropical crickets hear calling songs within diverse insect choruses. Schmidt and Römer recorded an ascending auditory interneuron, AN1, in Paroecanthus podagrosus and Diatrypa sp. An interneuron integrates information from other neurons; an ascending neuron carries that information toward higher processing centers.",
+        "AN1 responded most sensitively near the species’ calling-song frequency. Frequency tuning describes how a neuron’s response depends on sound frequency. Sharp tuning excludes much of a chorus’s energy because sounds outside the effective frequency range produce weaker neural responses.",
+        "With target and masker on the same side, detectable signals averaged about −8 dB SNR in the laboratory. Moving the masker to the opposite side improved detection by a further 6–9 dB. Selective filtering and source direction therefore contribute separate benefits within the same identified auditory pathway.",
+        "The anatomical reconstruction is from the field cricket Gryllus bimaculatus; the noise recordings are from Paroecanthus and Diatrypa. The calling frequencies differed between the two tropical cricket species. Using natural rainforest backgrounds rather than an arbitrary broadband masker linked the measured receiver properties to their normal acoustic environment."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/cricket_anatomy.png",
+          "caption": "Kostarakos et al. (2012), Fig. 1(A–E). AN1 projection in the field cricket Gryllus bimaculatus.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1170-12.2012"
+        },
+        {
+          "path": "figures/cricket_tuning.png",
+          "caption": "Schmidt et al. (2011), Fig. 2(A–B). Sharp frequency tuning of AN1.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1371/journal.pone.0028593"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Young crocodiles use source position without training",
+      "body": [
+        "Young Nile crocodiles, _Crocodylus niloticus_, produce contact calls that can elicit responses from other juveniles. The Crocoparc experiment broadcast these calls into a large outdoor basin while a separate speaker continuously emitted noise. Animals could move freely rather than being held at a fixed listening position.",
+        "The target speaker was either beside the noise speaker or spatially separated from it. Responses were more likely when the target occupied the separated location. The source-position benefit therefore appeared in a second crocodilian species and a different social context from adult female caimans responding to distress calls.",
+        "Untrained contact-call responses complement trained detection tasks. They connect spatial hearing to ordinary social signals, whereas a trained task isolates stimulus detection from the specific motivation supplied by a call. Both approaches test how sound geometry changes behavior."
+      ],
+      "cite": "Thévenet et al. (2022)",
+      "refs": [
+        "Thévenet J, Papet L, Campos Z, Greenfield M, Boyer N, Grimault N, Mathevon N. (2022). Spatial release from masking in crocodilians. Communications biology 5:869. https://doi.org/10.1038/s42003-022-03799-7"
+      ],
+      "transcript": [
+        "Young Nile crocodiles, Crocodylus niloticus, produce contact calls that can elicit responses from other juveniles. The Crocoparc experiment broadcast these calls into a large outdoor basin while a separate speaker continuously emitted noise. Animals could move freely rather than being held at a fixed listening position.",
+        "The target speaker was either beside the noise speaker or spatially separated from it. Responses were more likely when the target occupied the separated location. The source-position benefit therefore appeared in a second crocodilian species and a different social context from adult female caimans responding to distress calls.",
+        "Untrained contact-call responses complement trained detection tasks. They connect spatial hearing to ordinary social signals, whereas a trained task isolates stimulus detection from the specific motivation supplied by a call. Both approaches test how sound geometry changes behavior.",
+        "The original Crocoparc recording belongs to this freely moving preparation. A camera records the behavioral response, while acoustic measurements characterize the target and masker at the listening site."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/croc_captivity.png",
+        "caption": "Thévenet et al. (2022), Fig. 3(a–c). Contact-call stimuli and source positions in the outdoor basin.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1038/s42003-022-03799-7"
+      }
+    },
+    {
+      "title": "Frog lungs suppress frequencies between call peaks",
+      "body": [
+        "The **tympanum** is the vibrating eardrum that transfers sound toward the inner ear. In frogs, sound also reaches its inner surface through air-filled pathways connecting the ears and lungs. Lee and colleagues measured these vibrations with **laser vibrometry**, which detects movement from changes in reflected laser light.",
+        "Inflated lungs reduced tympanic sensitivity in a frequency band between the two spectral peaks of the green treefrog’s mating call. **Resonance** is an enhanced vibration at particular frequencies; lung resonance produced a notch in the eardrum’s response rather than simply amplifying every received sound.",
+        "Deflating the lungs weakened this notch, and reinflation restored it. Calls of other frog species often contain energy within the attenuated band. Selective mechanical attenuation can therefore increase the contrast between conspecific call components and competing species before neuronal processing begins."
+      ],
+      "cite": "Lee et al. (2021)",
+      "refs": [
+        "Lee N, Christensen-Dalsgaard J, White LA, Schrode KM, Bee MA. (2021). Lung mediated auditory contrast enhancement improves the Signal-to-noise ratio for communication in frogs. Current biology : CB 31:1488-1498.e4. https://doi.org/10.1016/j.cub.2021.01.048"
+      ],
+      "transcript": [
+        "The tympanum is the vibrating eardrum that transfers sound toward the inner ear. In frogs, sound also reaches its inner surface through air-filled pathways connecting the ears and lungs. Lee and colleagues measured these vibrations with laser vibrometry, which detects movement from changes in reflected laser light.",
+        "Inflated lungs reduced tympanic sensitivity in a frequency band between the two spectral peaks of the green treefrog’s mating call. Resonance is an enhanced vibration at particular frequencies; lung resonance produced a notch in the eardrum’s response rather than simply amplifying every received sound.",
+        "Deflating the lungs weakened this notch, and reinflation restored it. Calls of other frog species often contain energy within the attenuated band. Selective mechanical attenuation can therefore increase the contrast between conspecific call components and competing species before neuronal processing begins.",
+        "The experimental species was the green treefrog, Hyla cinerea, distinct from the Cope’s gray treefrog used in the earlier behavioral experiments. The lung manipulation directly tested the mechanical contribution to eardrum vibration."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/frog_lungs.png",
+          "caption": "Lee et al. (2021), Fig. 1(A–D). Lung-to-ear anatomy and vibration responses with altered lung inflation.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.cub.2021.01.048"
+        },
+        {
+          "path": "figures/frog_notch.png",
+          "caption": "Lee et al. (2021), Fig. 2(A–C). Lung resonance and the corresponding tympanic notch.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.cub.2021.01.048"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "A distinctive 2 kHz band protects katydid detection",
+      "body": [
+        "Calling _Mecopoda elongata_ katydids overlap a loud, continuously trilling relative. Their signals share much of their frequency spectrum, but the chirping species has a distinctive component near 2 kHz. An **auditory receptor neuron** converts sound-related mechanical stimulation into electrical activity carried toward the nervous system.",
+        "Kostarakos and Römer recorded receptors tuned to different frequencies. Sharply tuned 2 kHz receptors continued responding to chirps during the competing trill, whereas receptors tuned to higher frequencies were strongly masked. The competing signal contained little energy in the frequency channel carrying the distinctive component.",
+        "The receptor terminals also occupy different positions within the auditory processing region. Frequency-selective peripheral activity can reach different interneuron branches instead of being merged immediately. A narrow spectral difference between two otherwise similar signals can consequently supply a reliable channel for detecting conspecific sound."
+      ],
+      "cite": "Kostarakos et al. (2015)",
+      "refs": [
+        "Kostarakos K, Römer H. (2015). Neural Mechanisms for Acoustic Signal Detection under Strong Masking in an Insect. The Journal of neuroscience : the official journal of the Society for Neuroscience 35:10562-10571. https://doi.org/10.1523/JNEUROSCI.0913-15.2015"
+      ],
+      "transcript": [
+        "Calling Mecopoda elongata katydids overlap a loud, continuously trilling relative. Their signals share much of their frequency spectrum, but the chirping species has a distinctive component near 2 kHz. An auditory receptor neuron converts sound-related mechanical stimulation into electrical activity carried toward the nervous system.",
+        "Kostarakos and Römer recorded receptors tuned to different frequencies. Sharply tuned 2 kHz receptors continued responding to chirps during the competing trill, whereas receptors tuned to higher frequencies were strongly masked. The competing signal contained little energy in the frequency channel carrying the distinctive component.",
+        "The receptor terminals also occupy different positions within the auditory processing region. Frequency-selective peripheral activity can reach different interneuron branches instead of being merged immediately. A narrow spectral difference between two otherwise similar signals can consequently supply a reliable channel for detecting conspecific sound.",
+        "The preparation allowed intracellular recording from identified receptors. The intact axonal branching and tuning curves link the spatial input organization to actual responses to chirps in the competing trill."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/katydid_receptors.png",
+        "caption": "Kostarakos et al. (2015), Fig. 2(A–D). Receptor branching, frequency tuning and responses during masking.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1523/JNEUROSCI.0913-15.2015"
+      }
+    },
+    {
+      "title": "Selective interneurons retain chirps during masking",
+      "body": [
+        "The **prothoracic ganglion** is the neural center in the first thoracic segment that receives auditory inputs from the front legs. A **dendritic arbor** is the branching region through which a neuron receives synaptic input. A **synapse** is a junction at which one neuron transmits information to another cell. Several katydid interneurons extend dendrites into low-frequency input regions of this ganglion.",
+        "These cells were sharply tuned near 2 kHz and retained responses to conspecific chirps during a much louder competing trill. Selected interneurons remained responsive at SNRs as unfavorable as −21 dB. Their tuning and dendritic positions match the spectral channel that the masker largely leaves available.",
+        "Other recorded interneurons were broadly tuned and depended on adaptation to the repeating masker. The circuit thus contains two routes to selective responses: restricting the admitted frequencies and changing responsiveness according to recent stimulation. Both routes can preserve chirp-related activity within strong interference."
+      ],
+      "cite": "Kostarakos et al. (2015)",
+      "refs": [
+        "Kostarakos K, Römer H. (2015). Neural Mechanisms for Acoustic Signal Detection under Strong Masking in an Insect. The Journal of neuroscience : the official journal of the Society for Neuroscience 35:10562-10571. https://doi.org/10.1523/JNEUROSCI.0913-15.2015"
+      ],
+      "transcript": [
+        "The prothoracic ganglion is the neural center in the first thoracic segment that receives auditory inputs from the front legs. A dendritic arbor is the branching region through which a neuron receives synaptic input. A synapse is a junction at which one neuron transmits information to another cell. Several katydid interneurons extend dendrites into low-frequency input regions of this ganglion.",
+        "These cells were sharply tuned near 2 kHz and retained responses to conspecific chirps during a much louder competing trill. Selected interneurons remained responsive at SNRs as unfavorable as −21 dB. Their tuning and dendritic positions match the spectral channel that the masker largely leaves available.",
+        "Other recorded interneurons were broadly tuned and depended on adaptation to the repeating masker. The circuit thus contains two routes to selective responses: restricting the admitted frequencies and changing responsiveness according to recent stimulation. Both routes can preserve chirp-related activity within strong interference.",
+        "The anatomical reconstructions came from intracellular dye staining. Selective dendritic connectivity is inferred from overlap with the low-frequency receptor projection, while the physiological selectivity was measured directly."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/katydid_lowfreq.png",
+        "caption": "Kostarakos et al. (2015), Fig. 3(A–D). Low-frequency interneuron anatomy, tuning and masked chirp responses.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1523/JNEUROSCI.0913-15.2015"
+      }
+    },
+    {
+      "title": "A chirp recruits calcium signals in TN-1 dendrites",
+      "body": [
+        "**TN-1** is an identified auditory interneuron in the bush-cricket _Mecopoda elongata_. Its dendrites receive input from auditory afferents, neurons carrying information into the ganglion. Bayley and Hedwig combined intracellular electrical recording with **calcium imaging**, fluorescence measurements that track changes in intracellular calcium concentration.",
+        "The researchers introduced the calcium-sensitive dye Oregon Green BAPTA-1 into the cell. A 280 ms conspecific chirp increased fluorescence in its dendritic field. The response reached its peak shortly after the chirp and then decayed over about a second, outlasting the acoustic stimulus.",
+        "Calcium therefore supplies a local cellular signal with a different time course from the sound’s individual pulses. The original recording follows this rise and decay in measured neural tissue. The extended calcium response provides a candidate link between recent acoustic stimulation and subsequent changes in neuronal excitability."
+      ],
+      "cite": "Bayley et al. (2024)",
+      "refs": [
+        "Bayley T, Hedwig B. (2024). Tonotopic Ca2+ dynamics and sound processing in auditory interneurons of the bush-cricket Mecopoda elongata. Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology 210:353-369. https://doi.org/10.1007/s00359-023-01638-6"
+      ],
+      "transcript": [
+        "TN-1 is an identified auditory interneuron in the bush-cricket Mecopoda elongata. Its dendrites receive input from auditory afferents, neurons carrying information into the ganglion. Bayley and Hedwig combined intracellular electrical recording with calcium imaging, fluorescence measurements that track changes in intracellular calcium concentration.",
+        "The researchers introduced the calcium-sensitive dye Oregon Green BAPTA-1 into the cell. A 280 ms conspecific chirp increased fluorescence in its dendritic field. The response reached its peak shortly after the chirp and then decayed over about a second, outlasting the acoustic stimulus.",
+        "Calcium therefore supplies a local cellular signal with a different time course from the sound’s individual pulses. The original recording follows this rise and decay in measured neural tissue. The extended calcium response provides a candidate link between recent acoustic stimulation and subsequent changes in neuronal excitability.",
+        "The authors measured electrical spikes and fluorescence in the same preparation. Calcium fluorescence is not a one-to-one count of action potentials; it resolves a slower intracellular consequence of stimulation."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/tn_chirp.png",
+        "caption": "Bayley et al. (2024), Fig. 2(a–f). TN-1 structure and calcium responses to a conspecific chirp.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1007/s00359-023-01638-6"
+      }
+    },
+    {
+      "title": "ON-1 compartments retain different calcium time courses",
+      "body": [
+        "**ON-1**, the omega neuron, is a local auditory interneuron that participates in processing the two sides’ auditory inputs. Its dendrites, **axonal branches**, extensions of the output-carrying projection, and putative **spike-generating zone**, the region where action potentials begin, can be measured separately within the same cell.",
+        "A 280 ms chirp raised calcium-sensitive fluorescence throughout these regions. In the reported preparation, the spike-generating zone produced the strongest response and the slowest decay. Approximate decay time constants were 0.7 s in axonal regions, 1.2 s in dendrites and 1.9 s near the spike-generating zone.",
+        "An **action potential** is a brief regenerative electrical signal transmitted along a neuron. Local calcium signals need not have identical amplitudes or durations wherever that electrical activity travels. Compartment-specific calcium dynamics allow recent stimulation to influence different parts of an auditory cell for different lengths of time."
+      ],
+      "cite": "Bayley et al. (2024)",
+      "refs": [
+        "Bayley T, Hedwig B. (2024). Tonotopic Ca2+ dynamics and sound processing in auditory interneurons of the bush-cricket Mecopoda elongata. Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology 210:353-369. https://doi.org/10.1007/s00359-023-01638-6"
+      ],
+      "transcript": [
+        "ON-1, the omega neuron, is a local auditory interneuron that participates in processing the two sides’ auditory inputs. Its dendrites, axonal branches, extensions of the output-carrying projection, and putative spike-generating zone, the region where action potentials begin, can be measured separately within the same cell.",
+        "A 280 ms chirp raised calcium-sensitive fluorescence throughout these regions. In the reported preparation, the spike-generating zone produced the strongest response and the slowest decay. Approximate decay time constants were 0.7 s in axonal regions, 1.2 s in dendrites and 1.9 s near the spike-generating zone.",
+        "An action potential is a brief regenerative electrical signal transmitted along a neuron. Local calcium signals need not have identical amplitudes or durations wherever that electrical activity travels. Compartment-specific calcium dynamics allow recent stimulation to influence different parts of an auditory cell for different lengths of time.",
+        "The original Movie 2 records the fluorescence response to a chirp. The labeled regions identify cellular compartments; the reported time constants describe decay rather than the duration of the emitted call."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/on_chirp.png",
+        "caption": "Bayley et al. (2024), Fig. 3(a–f). Calcium responses in ON-1 dendritic, axonal and spike-generating regions.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1007/s00359-023-01638-6"
+      }
+    },
+    {
+      "title": "Different frequencies activate different TN-1 branches",
+      "body": [
+        "**Tonotopy** is a spatial ordering of neural responses according to sound frequency. Auditory afferents in the bush-cricket ganglion project low-frequency information toward anterior regions and higher-frequency information toward posterior regions. TN-1 dendrites span these ordered input terminals.",
+        "Bayley and Hedwig presented 20 ms tones at 10, 20, 30 and 40 kHz. Calcium increases were strongest anteriorly for 10 kHz and posteriorly for 40 kHz, with intermediate tones activating central regions. These local signals reached their maxima within approximately 40–60 ms after the brief stimulation.",
+        "The authors propose that locally elevated calcium could activate **calcium-sensitive potassium channels**, membrane proteins that permit potassium-ion movement when calcium rises. Their hypothesis links a frequency-specific input region to reduced local excitability and adaptation. The measured tonotopic calcium signals supply the cellular organization needed for that frequency-specific feedback."
+      ],
+      "cite": "Bayley et al. (2024)",
+      "refs": [
+        "Bayley T, Hedwig B. (2024). Tonotopic Ca2+ dynamics and sound processing in auditory interneurons of the bush-cricket Mecopoda elongata. Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology 210:353-369. https://doi.org/10.1007/s00359-023-01638-6"
+      ],
+      "transcript": [
+        "Tonotopy is a spatial ordering of neural responses according to sound frequency. Auditory afferents in the bush-cricket ganglion project low-frequency information toward anterior regions and higher-frequency information toward posterior regions. TN-1 dendrites span these ordered input terminals.",
+        "Bayley and Hedwig presented 20 ms tones at 10, 20, 30 and 40 kHz. Calcium increases were strongest anteriorly for 10 kHz and posteriorly for 40 kHz, with intermediate tones activating central regions. These local signals reached their maxima within approximately 40–60 ms after the brief stimulation.",
+        "The authors propose that locally elevated calcium could activate calcium-sensitive potassium channels, membrane proteins that permit potassium-ion movement when calcium rises. Their hypothesis links a frequency-specific input region to reduced local excitability and adaptation. The measured tonotopic calcium signals supply the cellular organization needed for that frequency-specific feedback.",
+        "The channel mechanism is a hypothesis in this study. Potassium conductance can reduce excitability; the experiments directly measured local calcium and electrical responses rather than isolating a channel subtype pharmacologically."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/tn_tuning.png",
+        "caption": "Bayley et al. (2024), Fig. 4(a–f). Spatially ordered TN-1 calcium responses to 10–40 kHz tones.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1007/s00359-023-01638-6"
+      }
+    },
+    {
+      "title": "Local estrogen synthesis alters finch song coding",
+      "body": [
+        "**Aromatase** is an enzyme that converts androgen precursors into estrogens. **Neuroestrogens** are estrogens synthesized within neural tissue. In zebra finch NCM, this local synthesis can change during auditory experience, providing a biochemical route for modulating responses to vocal communication.",
+        "Fernández-Vargas and colleagues delivered **fadrozole**, an aromatase inhibitor, near recording sites while awake birds heard songs and song-plus-chorus scenes. **Narrow-spiking** and **broad-spiking** categorize neurons by recorded action-potential duration. Narrow-spiking neurons became less responsive and their response timing became less reliable. Broad-spiking cells lacked the same reduction in responsiveness to isolated songs.",
+        "Both cell classes nevertheless showed poorer song-like encoding within acoustic scenes during local inhibition. A biochemical change can therefore affect the organization of responses to mixtures even when isolated-song responsiveness is preserved in one population. Local modulation changes the neural representation available for distinguishing foreground song."
+      ],
+      "cite": "Fernández-Vargas et al. (2024)",
+      "refs": [
+        "Fernández-Vargas M, Macedo-Lima M, Remage-Healey L. (2024). Acute Aromatase Inhibition Impairs Neural and Behavioral Auditory Scene Analysis in Zebra Finches. eNeuro 11:ENEURO.0423-23.2024. https://doi.org/10.1523/ENEURO.0423-23.2024"
+      ],
+      "transcript": [
+        "Aromatase is an enzyme that converts androgen precursors into estrogens. Neuroestrogens are estrogens synthesized within neural tissue. In zebra finch NCM, this local synthesis can change during auditory experience, providing a biochemical route for modulating responses to vocal communication.",
+        "Fernández-Vargas and colleagues delivered fadrozole, an aromatase inhibitor, near recording sites while awake birds heard songs and song-plus-chorus scenes. Narrow-spiking and broad-spiking categorize neurons by recorded action-potential duration. Narrow-spiking neurons became less responsive and their response timing became less reliable. Broad-spiking cells lacked the same reduction in responsiveness to isolated songs.",
+        "Both cell classes nevertheless showed poorer song-like encoding within acoustic scenes during local inhibition. A biochemical change can therefore affect the organization of responses to mixtures even when isolated-song responsiveness is preserved in one population. Local modulation changes the neural representation available for distinguishing foreground song.",
+        "Extracellular spike width supplied the broad-spiking and narrow-spiking categories. Those physiological labels should not be treated as genetically verified excitatory and inhibitory cell identities."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/aromatase_histology.png",
+          "caption": "Fernández-Vargas et al. (2024), Fig. 2(a). Histological localization of the NCM recording sites.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/ENEURO.0423-23.2024"
+        },
+        {
+          "path": "figures/aromatase_encoding.png",
+          "caption": "Fernández-Vargas et al. (2024), Fig. 5(a–d). Song-like scene encoding before, during and after inhibition.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/ENEURO.0423-23.2024"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Larval fish distribute auditory responses across the brain",
+      "body": [
+        "Larval zebrafish, _Danio rerio_, provide optical access to activity across much of the brain. Poulsen and colleagues used **light-sheet microscopy**, optical sectioning that illuminates a thin plane of tissue, to record calcium-sensitive fluorescence while delivering controlled water-borne sounds.",
+        "A small speaker coupled to the chamber wall transmitted vibrations into the water. A hydrophone measured sound pressure and an accelerometer assessed particle motion. The stimulus set included pure tones, broadband noise and gradually changing sounds, allowing different response preferences to be identified.",
+        "Auditory-responsive neurons occurred in the hindbrain, torus semicircularis, thalamus and other regions. The **torus semicircularis** is a fish midbrain auditory processing region. Distributed frequency and temporal responses provide multiple representations of the same incoming acoustic stimulation, rather than a single undifferentiated startle signal."
+      ],
+      "cite": "Poulsen et al. (2021)",
+      "refs": [
+        "Poulsen RE, Scholz LA, Constantin L, Favre-Bulle I, Vanwalleghem GC, Scott EK. (2021). Broad frequency sensitivity and complex neural coding in the larval zebrafish auditory system. Current biology : CB 31:1977-1987.e4. https://doi.org/10.1016/j.cub.2021.01.103"
+      ],
+      "transcript": [
+        "Larval zebrafish, Danio rerio, provide optical access to activity across much of the brain. Poulsen and colleagues used light-sheet microscopy, optical sectioning that illuminates a thin plane of tissue, to record calcium-sensitive fluorescence while delivering controlled water-borne sounds.",
+        "A small speaker coupled to the chamber wall transmitted vibrations into the water. A hydrophone measured sound pressure and an accelerometer assessed particle motion. The stimulus set included pure tones, broadband noise and gradually changing sounds, allowing different response preferences to be identified.",
+        "Auditory-responsive neurons occurred in the hindbrain, torus semicircularis, thalamus and other regions. The torus semicircularis is a fish midbrain auditory processing region. Distributed frequency and temporal responses provide multiple representations of the same incoming acoustic stimulation, rather than a single undifferentiated startle signal.",
+        "The chamber stimulus intensity was selected to evoke robust neural activity without triggering startle movements. This preparation measured sensory response organization rather than a freely swimming animal selecting one source in a mixture."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/fish_anatomy.png",
+        "caption": "Poulsen et al. (2021), Fig. 1(D–E). Stimulus responses and anatomical distribution of auditory-responsive neurons.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1016/j.cub.2021.01.103"
+      }
+    },
+    {
+      "title": "Marmoset recordings distinguish midbrain pathways",
+      "body": [
+        "The **inferior colliculus**, or IC, is a midbrain auditory center receiving ascending information before it reaches the thalamus and cortex. Shaheen and colleagues recorded common marmosets, _Callithrix jacchus_, while they detected a target tone embedded in a sequence of noise sounds.",
+        "The researchers separated the IC’s central nucleus from noncentral fields using anatomical locations and physiological response properties. The central nucleus belongs to the **lemniscal pathway**, a principal ascending auditory route. Noncentral regions have different patterns of connectivity and sound responses.",
+        "The same tone and noise sequences were also presented during passive listening. Matching acoustic input across active and passive conditions separated changes due to task engagement from changes in the physical sound. Midbrain anatomy determined where behavioral state most strongly altered target-related activity."
+      ],
+      "cite": "Shaheen et al. (2021)",
+      "refs": [
+        "Shaheen LA, Slee SJ, David SV. (2021). Task Engagement Improves Neural Discriminability in the Auditory Midbrain of the Marmoset Monkey. The Journal of neuroscience : the official journal of the Society for Neuroscience 41:284-297. https://doi.org/10.1523/JNEUROSCI.1112-20.2020"
+      ],
+      "transcript": [
+        "The inferior colliculus, or IC, is a midbrain auditory center receiving ascending information before it reaches the thalamus and cortex. Shaheen and colleagues recorded common marmosets, Callithrix jacchus, while they detected a target tone embedded in a sequence of noise sounds.",
+        "The researchers separated the IC’s central nucleus from noncentral fields using anatomical locations and physiological response properties. The central nucleus belongs to the lemniscal pathway, a principal ascending auditory route. Noncentral regions have different patterns of connectivity and sound responses.",
+        "The same tone and noise sequences were also presented during passive listening. Matching acoustic input across active and passive conditions separated changes due to task engagement from changes in the physical sound. Midbrain anatomy determined where behavioral state most strongly altered target-related activity.",
+        "The green fluorescence panels locate recording tracks in the IC. The reference noise preceded a target tone mixed with noise; comparing matched passive presentations controlled the acoustics of the task."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/marmoset_anatomy.png",
+        "caption": "Shaheen et al. (2021), Fig. 1(A–H). Tone-in-noise task, responses and anatomical recording locations.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1523/JNEUROSCI.1112-20.2020"
+      }
+    },
+    {
+      "title": "Mouse task rules change which sensory signal matters",
+      "body": [
+        "**Selective attention** prioritizes information relevant to the current task. Morrill and colleagues trained mice to switch between auditory and visual rules while the same kinds of audiovisual stimuli remained available. Licking produced a reward only when the target defined by the current rule was present.",
+        "The sound stimuli were 1 s **tone clouds**, mixtures of brief tones centered near 8 or 17 kHz. Visual stimuli were moving stripe patterns of two orientations. Conflicting audiovisual combinations required the mouse to use the relevant modality instead of following whichever component had previously been rewarded.",
+        "The animals performed the task while running on a spherical treadmill in a virtual foraging environment. Changing the rule altered the behavioral meaning of physically identical sounds. This design isolates task-dependent sound encoding from a simple increase in acoustic level or a change in sound identity."
+      ],
+      "cite": "Morrill et al. (2022)",
+      "refs": [
+        "Morrill RJ, Bigelow J, DeKloe J, Hasenstaub AR. (2022). Audiovisual task switching rapidly modulates sound encoding in mouse auditory cortex. eLife 11:e75839. https://doi.org/10.7554/eLife.75839"
+      ],
+      "transcript": [
+        "Selective attention prioritizes information relevant to the current task. Morrill and colleagues trained mice to switch between auditory and visual rules while the same kinds of audiovisual stimuli remained available. Licking produced a reward only when the target defined by the current rule was present.",
+        "The sound stimuli were 1 s tone clouds, mixtures of brief tones centered near 8 or 17 kHz. Visual stimuli were moving stripe patterns of two orientations. Conflicting audiovisual combinations required the mouse to use the relevant modality instead of following whichever component had previously been rewarded.",
+        "The animals performed the task while running on a spherical treadmill in a virtual foraging environment. Changing the rule altered the behavioral meaning of physically identical sounds. This design isolates task-dependent sound encoding from a simple increase in acoustic level or a change in sound identity.",
+        "Attention is operationalized by which stimulus predicts reward. The behavioral control includes conflicting audiovisual combinations, where following the irrelevant sensory cue would produce an incorrect response."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/mouse_task.png",
+        "caption": "Morrill et al. (2022), Fig. 1(A–C). Training preparation, auditory stimuli and audiovisual task timing.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.7554/eLife.75839"
+      }
+    },
+    {
+      "title": "Túngara frogs group components by relative comparisons",
+      "body": [
+        "Túngara frog calls contain a **whine**, a frequency-sweeping component, and optional **chucks**, brief additional components that increase attractiveness. Female listeners must assign each chuck to the correct whine when several males call. A nearby component can belong to a different emitter from the loudest component.",
+        "Farris and Ryan presented multiple call components from different directions. Females favored grouping the components with the smallest relative spatial separation. When more than two components were available, their grouping depended on the relationships among the whole set, rather than an absolute distance rule applied independently to each pair.",
+        "The species-typical whine-then-chuck sequence also affected grouping. **Schema-based grouping** uses a familiar signal pattern as a template for assigning components together. Relative source positions and familiar call order jointly guide mate choices within scenes containing several plausible component combinations."
+      ],
+      "cite": "Farris et al. (2011)",
+      "refs": [
+        "Farris HE, Ryan MJ. (2011). Relative comparisons of call parameters enable auditory grouping in frogs. Nature communications 2:410. https://doi.org/10.1038/ncomms1417"
+      ],
+      "transcript": [
+        "Túngara frog calls contain a whine, a frequency-sweeping component, and optional chucks, brief additional components that increase attractiveness. Female listeners must assign each chuck to the correct whine when several males call. A nearby component can belong to a different emitter from the loudest component.",
+        "Farris and Ryan presented multiple call components from different directions. Females favored grouping the components with the smallest relative spatial separation. When more than two components were available, their grouping depended on the relationships among the whole set, rather than an absolute distance rule applied independently to each pair.",
+        "The species-typical whine-then-chuck sequence also affected grouping. Schema-based grouping uses a familiar signal pattern as a template for assigning components together. Relative source positions and familiar call order jointly guide mate choices within scenes containing several plausible component combinations.",
+        "The frogs in this study were túngara frogs, Physalaemus pustulosus, rather than the gray treefrogs used in the frequency-separation experiments. Relative comparisons explain which components form a call, not simply which isolated call is most attractive."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/tungara_group.png",
+        "caption": "Farris et al. (2011), Fig. 2(a–d). Choices among spatial arrangements of whines and chucks.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1038/ncomms1417"
+      }
+    },
+    {
+      "title": "Shared noise fluctuations improve frog recognition",
+      "body": [
+        "**Comodulation** occurs when amplitude fluctuations in different frequency bands rise and fall together. Natural gray treefrog choruses contain this temporal relationship across parts of their spectrum. Lee and colleagues compared backgrounds with shared fluctuations, independent fluctuations and steady amplitude.",
+        "The synthetic backgrounds contained bands centered on 1.3 and 2.6 kHz. In the comodulated condition, both bands used the same fluctuating envelope; in the independent condition, each used a different envelope. The spectral bands remained comparable while their temporal relationship changed.",
+        "Female Cope’s gray treefrogs made fewer errors recognizing conspecific calls and choosing higher-quality calls in comodulated backgrounds. The auditory system can exploit relationships within noise itself. A predictable background structure can help recover a target even though the background continues to contain substantial acoustic energy."
+      ],
+      "cite": "Lee et al. (2017)",
+      "refs": [
+        "Lee N, Ward JL, Vélez A, Micheyl C, Bee MA. (2017). Frogs Exploit Statistical Regularities in Noisy Acoustic Scenes to Solve Cocktail-Party-like Problems. Current biology : CB 27:743-750. https://doi.org/10.1016/j.cub.2017.01.031"
+      ],
+      "transcript": [
+        "Comodulation occurs when amplitude fluctuations in different frequency bands rise and fall together. Natural gray treefrog choruses contain this temporal relationship across parts of their spectrum. Lee and colleagues compared backgrounds with shared fluctuations, independent fluctuations and steady amplitude.",
+        "The synthetic backgrounds contained bands centered on 1.3 and 2.6 kHz. In the comodulated condition, both bands used the same fluctuating envelope; in the independent condition, each used a different envelope. The spectral bands remained comparable while their temporal relationship changed.",
+        "Female Cope’s gray treefrogs made fewer errors recognizing conspecific calls and choosing higher-quality calls in comodulated backgrounds. The auditory system can exploit relationships within noise itself. A predictable background structure can help recover a target even though the background continues to contain substantial acoustic energy.",
+        "The original article includes audio-only examples of these conditions. They are not counted among the ten videos. Shared amplitude dips and cross-frequency relationships are properties of the background, not changes to the target mating call."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/frog_envelope.png",
+        "caption": "Lee et al. (2017), Fig. 1(A–E). Natural chorus and matched comodulated, independent and steady noise.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1016/j.cub.2017.01.031"
+      }
+    },
+    {
+      "title": "Crocodile training isolates sound detection",
+      "body": [
+        "A **Go/No-Go task** rewards responding to a target while requiring the animal to withhold a response on other trials. Juvenile Nile crocodiles learned to approach a speaker after a synthetic buzzing sound. Using an artificial trained target removes the specific social motivation associated with a juvenile distress or contact call.",
+        "Continuous noise was broadcast from another speaker, and target location was varied relative to it. Separating the sources improved detection at unfavorable SNRs. The training experiment therefore recovered the spatial benefit observed with natural calls, using a different stimulus and a controlled response rule.",
+        "Across the field, freely moving and trained preparations, source position changed behavior consistently. The caiman field benefit increased with separation angle and became maximal beyond about 15°. Ecologically meaningful approach and trained detection provide complementary evidence that spatial geometry improves access to target sound."
+      ],
+      "cite": "Thévenet et al. (2022)",
+      "refs": [
+        "Thévenet J, Papet L, Campos Z, Greenfield M, Boyer N, Grimault N, Mathevon N. (2022). Spatial release from masking in crocodilians. Communications biology 5:869. https://doi.org/10.1038/s42003-022-03799-7"
+      ],
+      "transcript": [
+        "A Go/No-Go task rewards responding to a target while requiring the animal to withhold a response on other trials. Juvenile Nile crocodiles learned to approach a speaker after a synthetic buzzing sound. Using an artificial trained target removes the specific social motivation associated with a juvenile distress or contact call.",
+        "Continuous noise was broadcast from another speaker, and target location was varied relative to it. Separating the sources improved detection at unfavorable SNRs. The training experiment therefore recovered the spatial benefit observed with natural calls, using a different stimulus and a controlled response rule.",
+        "Across the field, freely moving and trained preparations, source position changed behavior consistently. The caiman field benefit increased with separation angle and became maximal beyond about 15°. Ecologically meaningful approach and trained detection provide complementary evidence that spatial geometry improves access to target sound.",
+        "The original Supplementary Movie 3 records the trained playback experiment. The roughly 15° saturation result belongs to the field analysis of caiman responses; it is not an angle threshold measured independently in every crocodile preparation."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/croc_control.png",
+        "caption": "Thévenet et al. (2022), Fig. 5(a–c). Trained target, source positions and noise-presentation sequence.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1038/s42003-022-03799-7"
+      }
+    },
+    {
+      "title": "Cricket gain control reduces intercall background",
+      "body": [
+        "**Neuronal gain** describes how strongly neural output changes with input. In the cricket experiments, activity evoked by the background was suppressed between conspecific chirps. The target pulses consequently stood out more clearly against the ongoing neural representation of the rainforest chorus.",
+        "AN1 recordings made directly in the nocturnal rainforest supported detection near −23 dB SNR, more favorable than laboratory playback of the same background. Multiple natural noise sources were distributed across space instead of being compressed into a single loudspeaker direction.",
+        "Sharp frequency tuning reduces admitted masking energy, directional hearing separates sources, and gain control improves contrast over time. These mechanisms operate together in one receiver. The natural spatial arrangement of the background changes the interference experienced by the neuron even when the recorded noise contains the same kinds of sound."
+      ],
+      "cite": "Schmidt et al. (2011); Kostarakos et al. (2012)",
+      "refs": [
+        "Schmidt AK, Römer H. (2011). Solutions to the cocktail party problem in insects: selective filters, spatial release from masking and gain control in tropical crickets. PloS one 6:e28593. https://doi.org/10.1371/journal.pone.0028593",
+        "Kostarakos K, Hedwig B (2012). Calling song recognition in female crickets: temporal tuning of identified brain neurons matches behavior. Journal of Neuroscience 32(28):9601–9612. https://doi.org/10.1523/JNEUROSCI.1170-12.2012"
+      ],
+      "transcript": [
+        "Neuronal gain describes how strongly neural output changes with input. In the cricket experiments, activity evoked by the background was suppressed between conspecific chirps. The target pulses consequently stood out more clearly against the ongoing neural representation of the rainforest chorus.",
+        "AN1 recordings made directly in the nocturnal rainforest supported detection near −23 dB SNR, more favorable than laboratory playback of the same background. Multiple natural noise sources were distributed across space instead of being compressed into a single loudspeaker direction.",
+        "Sharp frequency tuning reduces admitted masking energy, directional hearing separates sources, and gain control improves contrast over time. These mechanisms operate together in one receiver. The natural spatial arrangement of the background changes the interference experienced by the neuron even when the recorded noise contains the same kinds of sound.",
+        "The AN1 reconstruction is from Gryllus bimaculatus and supplies comparative anatomy rather than a dye stain from the tropical crickets. The article’s field and laboratory comparison establishes why a loudspeaker can reproduce a sound waveform without reproducing its complete spatial distribution. The gain-control account concerns recorded neuronal contrast during repeated chirps."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/cricket_anatomy.png",
+          "caption": "Kostarakos et al. (2012), Fig. 1(A–E). AN1 anatomy in the field cricket Gryllus bimaculatus.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1170-12.2012"
+        },
+        {
+          "path": "figures/cricket_gain.png",
+          "caption": "Schmidt et al. (2011), Fig. 5. Natural soundscape and neuronal suppression between target chirps.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1371/journal.pone.0028593"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "A low-frequency component stabilizes katydid synchrony",
+      "body": [
+        "**Phase locking** is a consistent timing relationship between a response and a repeating stimulus. Chirping _Mecopoda_ males synchronized their calls with conspecific playback even when a related species’ trill was louder. Siegert and colleagues tested the role of the chirp’s distinctive 2 kHz band in this behavioral coordination.",
+        "Males maintained synchrony down to −8 dB SNR with the natural chirp. When the 2 kHz component was reduced to match its level in the masker, synchrony broke down at +7 dB SNR. Removing a narrow spectral distinction greatly weakened timing coordination between males.",
+        "The first-order auditory interneuron TN1 also depended on this component for selective masked responses. Adding a 65 dB masker increased sensitivity to near-threshold 2 kHz tones by about 10 dB. Background sound can alter neuronal selectivity, rather than always producing a uniform reduction in target sensitivity."
+      ],
+      "cite": "Siegert et al. (2013); Kostarakos et al. (2015)",
+      "refs": [
+        "Siegert ME, Römer H, Hartbauer M. (2013). Maintaining acoustic communication at a cocktail party: heterospecific masking noise improves signal detection through frequency separation. The Journal of experimental biology 216:4655-4665. https://doi.org/10.1242/jeb.089888",
+        "Kostarakos K, Römer H. (2015). Neural Mechanisms for Acoustic Signal Detection under Strong Masking in an Insect. The Journal of neuroscience : the official journal of the Society for Neuroscience 35:10562-10571. https://doi.org/10.1523/JNEUROSCI.0913-15.2015"
+      ],
+      "transcript": [
+        "Phase locking is a consistent timing relationship between a response and a repeating stimulus. Chirping Mecopoda males synchronized their calls with conspecific playback even when a related species’ trill was louder. Siegert and colleagues tested the role of the chirp’s distinctive 2 kHz band in this behavioral coordination.",
+        "Males maintained synchrony down to −8 dB SNR with the natural chirp. When the 2 kHz component was reduced to match its level in the masker, synchrony broke down at +7 dB SNR. Removing a narrow spectral distinction greatly weakened timing coordination between males.",
+        "The first-order auditory interneuron TN1 also depended on this component for selective masked responses. Adding a 65 dB masker increased sensitivity to near-threshold 2 kHz tones by about 10 dB. Background sound can alter neuronal selectivity, rather than always producing a uniform reduction in target sensitivity.",
+        "The interneuron image is from the subsequent identified-cell study, cited separately. The behavioral manipulation directly altered the distinctive frequency component while preserving the remaining chirp structure."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/katydid_band.png",
+          "caption": "Siegert et al. (2013), Fig. 2(A–B). Synchrony with natural and modified low-frequency chirp components.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1242/jeb.089888"
+        },
+        {
+          "path": "figures/katydid_novelty.png",
+          "caption": "Kostarakos et al. (2015), Fig. 5(A–D). Broadly tuned interneuron anatomy and selective chirp responses.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.0913-15.2015"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Local ON-1 signals support frequency-specific adaptation",
+      "body": [
+        "ON-1 dendrites also express a spatial frequency map: lower-frequency tones recruit anterior regions and higher-frequency tones recruit posterior regions. Its axonal calcium response lacks this clear tonotopic ordering. Frequency information is therefore organized differently across compartments of the same auditory interneuron.",
+        "**Adaptation** is reduced responsiveness following repeated stimulation. The authors compared repeated 10 and 40 kHz tones with test pulses in the same or another frequency range. TN-1 and ON-1 showed frequency-specific response reductions, linking recent acoustic history to the channel that was repeatedly activated.",
+        "The authors hypothesize that local calcium activates potassium conductance in the corresponding dendritic region. Removing input from the opposite ear increased ON-1 spiking and calcium responses and disrupted frequency-specific adaptation. Local cellular history and inhibition from the other side interact in determining which frequencies retain effective neural representation."
+      ],
+      "cite": "Bayley et al. (2024)",
+      "refs": [
+        "Bayley T, Hedwig B. (2024). Tonotopic Ca2+ dynamics and sound processing in auditory interneurons of the bush-cricket Mecopoda elongata. Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology 210:353-369. https://doi.org/10.1007/s00359-023-01638-6"
+      ],
+      "transcript": [
+        "ON-1 dendrites also express a spatial frequency map: lower-frequency tones recruit anterior regions and higher-frequency tones recruit posterior regions. Its axonal calcium response lacks this clear tonotopic ordering. Frequency information is therefore organized differently across compartments of the same auditory interneuron.",
+        "Adaptation is reduced responsiveness following repeated stimulation. The authors compared repeated 10 and 40 kHz tones with test pulses in the same or another frequency range. TN-1 and ON-1 showed frequency-specific response reductions, linking recent acoustic history to the channel that was repeatedly activated.",
+        "The authors hypothesize that local calcium activates potassium conductance in the corresponding dendritic region. Removing input from the opposite ear increased ON-1 spiking and calcium responses and disrupted frequency-specific adaptation. Local cellular history and inhibition from the other side interact in determining which frequencies retain effective neural representation.",
+        "Opposite-side input was reversibly deactivated at the ear. This manipulation separates bilateral circuit effects from the local calcium responses, while leaving the molecular channel explanation as a hypothesis."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/on_tuning.png",
+          "caption": "Bayley et al. (2024), Fig. 5(a–f). ON-1 dendritic frequency maps and axonal comparison.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1007/s00359-023-01638-6"
+        },
+        {
+          "path": "figures/on_inhibition.png",
+          "caption": "Bayley et al. (2024), Fig. 7(a–e). Changes in ON-1 responses after removing opposite-side inhibition.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1007/s00359-023-01638-6"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Sparse finch responses distribute song identity across cells",
+      "body": [
+        "**Sparse coding** represents a stimulus through activity in relatively few neurons at any one moment. In zebra finch NCM, broad-spiking cells emitted brief events at selected moments within particular songs. Different cells responded to different moments, distributing the song representation across the population.",
+        "During a 63 ms window, approximately the duration of a finch song note, fewer than 5% of the broad-spiking NCM cells were active. More than 70% of neurons in upstream populations were active over comparable windows. A selective population can therefore encode the temporal pattern while producing much less overlapping activity.",
+        "Background-invariant cells retained their preferred song events when the chorus was sufficiently weak for recognition. Stronger chorus levels reduced those events. This organization preserves a distinct vocal pattern within tolerable interference and reduces output when that pattern can no longer be recovered reliably."
+      ],
+      "cite": "Schneider et al. (2013)",
+      "refs": [
+        "Schneider DM, Woolley SM. (2013). Sparse and background-invariant coding of vocalizations in auditory scenes. Neuron 79:141-152. https://doi.org/10.1016/j.neuron.2013.04.038"
+      ],
+      "transcript": [
+        "Sparse coding represents a stimulus through activity in relatively few neurons at any one moment. In zebra finch NCM, broad-spiking cells emitted brief events at selected moments within particular songs. Different cells responded to different moments, distributing the song representation across the population.",
+        "During a 63 ms window, approximately the duration of a finch song note, fewer than 5% of the broad-spiking NCM cells were active. More than 70% of neurons in upstream populations were active over comparable windows. A selective population can therefore encode the temporal pattern while producing much less overlapping activity.",
+        "Background-invariant cells retained their preferred song events when the chorus was sufficiently weak for recognition. Stronger chorus levels reduced those events. This organization preserves a distinct vocal pattern within tolerable interference and reduces output when that pattern can no longer be recovered reliably.",
+        "Broad-spiking is an extracellular waveform category, not a direct genetic identity. Distributed sparse activity preserves coverage across the song because different cells contribute at different times."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/finch_pathway.png",
+          "caption": "Schneider et al. (2013), Fig. 2(A). Ascending pathway and NCM location.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.neuron.2013.04.038"
+        },
+        {
+          "path": "figures/finch_sparse.png",
+          "caption": "Schneider et al. (2013), Fig. 2(C–F). Response patterns, firing rates and selectivity across recorded populations.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.neuron.2013.04.038"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "GABA blockade releases suppressed song responses",
+      "body": [
+        "**GABA**, gamma-aminobutyric acid, is an inhibitory neurotransmitter. A **GABA-A receptor** is a transmitter-gated membrane receptor involved in rapid inhibitory signaling. Schneider and Woolley applied **gabazine**, an antagonist that blocks these receptors, locally near broad-spiking NCM neurons.",
+        "During blockade, cells responded more strongly and more song notes elicited spikes. Responses returned toward their earlier selective pattern after drug application ended. Inhibition normally limits how many acoustically relevant events produce output in these cells.",
+        "Presenting isolated notes also elicited responses to notes that produced little activity in the complete song. Earlier notes supplied a suppressive context for later notes. The pharmacological and context manipulations connect sparse coding to inhibition and recent acoustic history, rather than to an absence of excitatory sensitivity to the suppressed notes."
+      ],
+      "cite": "Schneider et al. (2013)",
+      "refs": [
+        "Schneider DM, Woolley SM. (2013). Sparse and background-invariant coding of vocalizations in auditory scenes. Neuron 79:141-152. https://doi.org/10.1016/j.neuron.2013.04.038"
+      ],
+      "transcript": [
+        "GABA, gamma-aminobutyric acid, is an inhibitory neurotransmitter. A GABA-A receptor is a transmitter-gated membrane receptor involved in rapid inhibitory signaling. Schneider and Woolley applied gabazine, an antagonist that blocks these receptors, locally near broad-spiking NCM neurons.",
+        "During blockade, cells responded more strongly and more song notes elicited spikes. Responses returned toward their earlier selective pattern after drug application ended. Inhibition normally limits how many acoustically relevant events produce output in these cells.",
+        "Presenting isolated notes also elicited responses to notes that produced little activity in the complete song. Earlier notes supplied a suppressive context for later notes. The pharmacological and context manipulations connect sparse coding to inhibition and recent acoustic history, rather than to an absence of excitatory sensitivity to the suppressed notes.",
+        "The drug experiment identifies a role for GABA-A-mediated inhibition in sparseness. The paper’s feedforward circuit simulation is an explanatory model; no new simulation, curve or recording has been generated for this deck."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/finch_pathway.png",
+          "caption": "Schneider et al. (2013), Fig. 2(A). Location of the recorded NCM population.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.neuron.2013.04.038"
+        },
+        {
+          "path": "figures/finch_gabazine.png",
+          "caption": "Schneider et al. (2013), Fig. 7(A–C). Song responses before, during and after local gabazine.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.neuron.2013.04.038"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Recurring sound sequences become auditory objects",
+      "body": [
+        "An **auditory object** is a coherent representation of a sound source or recurring pattern rather than an isolated acoustic feature. Lu and Vicario exposed awake zebra finches to long streams of sound elements arranged with recurring sequential relationships, without training a reward-based response.",
+        "After exposure, auditory forebrain neurons distinguished familiar sequences from novel rearrangements. **Stimulus-specific adaptation** is reduced response to a repeated stimulus while responses to other stimuli remain relatively preserved. Familiar patterns recruited sparser activity, reflecting learning of their recurring structure.",
+        "Neurons also distinguished patterns whose relevant elements were separated by an intervening element. This nonadjacent discrimination was stronger in the right hemisphere. Statistical regularities over time can bind separated sounds into a learned representation, complementing the immediate frequency and spatial cues that separate concurrent sources."
+      ],
+      "cite": "Lu et al. (2014)",
+      "refs": [
+        "Lu K, Vicario DS. (2014). Statistical learning of recurring sound patterns encodes auditory objects in songbird forebrain. Proceedings of the National Academy of Sciences of the United States of America 111:14553-14558. https://doi.org/10.1073/pnas.1412109111"
+      ],
+      "transcript": [
+        "An auditory object is a coherent representation of a sound source or recurring pattern rather than an isolated acoustic feature. Lu and Vicario exposed awake zebra finches to long streams of sound elements arranged with recurring sequential relationships, without training a reward-based response.",
+        "After exposure, auditory forebrain neurons distinguished familiar sequences from novel rearrangements. Stimulus-specific adaptation is reduced response to a repeated stimulus while responses to other stimuli remain relatively preserved. Familiar patterns recruited sparser activity, reflecting learning of their recurring structure.",
+        "Neurons also distinguished patterns whose relevant elements were separated by an intervening element. This nonadjacent discrimination was stronger in the right hemisphere. Statistical regularities over time can bind separated sounds into a learned representation, complementing the immediate frequency and spatial cues that separate concurrent sources.",
+        "Recordings sampled NCM and the caudomedial mesopallium, another auditory forebrain region. Passive exposure supplied sequence familiarity, so the neural difference did not require an explicitly rewarded grouping decision."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/bird_objects.png",
+        "caption": "Lu et al. (2014), Fig. 1(A–I). Auditory forebrain anatomy, repeated sequences and exposure-dependent responses.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1073/pnas.1412109111"
+      }
+    },
+    {
+      "title": "Systemic estrogen inhibition alters female decisions",
+      "body": [
+        "The zebra finch study paired neural recordings with an operant song-detection task. **Response bias** is a tendency to respond or withhold a response independently of how well the stimuli can be distinguished. A **correct rejection** occurs when the bird appropriately withholds its response on a nontarget trial.",
+        "Oral fadrozole increased response bias and reduced correct rejections in females, while males lacked the same behavioral effect. Local bilateral NCM injections did not reproduce that disruption. The location and route of the biochemical manipulation therefore changed the behavioral outcome.",
+        "Local aromatase inhibition weakened neural scene encoding without necessarily disrupting the learned choice. Systemic inhibition affected a broader set of aromatase-containing circuits. These results distinguish local coding changes from the distributed circuitry that supports an overt decision in noise."
+      ],
+      "cite": "Fernández-Vargas et al. (2024)",
+      "refs": [
+        "Fernández-Vargas M, Macedo-Lima M, Remage-Healey L. (2024). Acute Aromatase Inhibition Impairs Neural and Behavioral Auditory Scene Analysis in Zebra Finches. eNeuro 11:ENEURO.0423-23.2024. https://doi.org/10.1523/ENEURO.0423-23.2024"
+      ],
+      "transcript": [
+        "The zebra finch study paired neural recordings with an operant song-detection task. Response bias is a tendency to respond or withhold a response independently of how well the stimuli can be distinguished. A correct rejection occurs when the bird appropriately withholds its response on a nontarget trial.",
+        "Oral fadrozole increased response bias and reduced correct rejections in females, while males lacked the same behavioral effect. Local bilateral NCM injections did not reproduce that disruption. The location and route of the biochemical manipulation therefore changed the behavioral outcome.",
+        "Local aromatase inhibition weakened neural scene encoding without necessarily disrupting the learned choice. Systemic inhibition affected a broader set of aromatase-containing circuits. These results distinguish local coding changes from the distributed circuitry that supports an overt decision in noise.",
+        "The mismatch between local neural and behavioral effects changes the conclusion: the sampled NCM response alone is insufficient to account for the systemic behavioral effect. Other aromatase-rich networks or compensatory processes remain the authors’ explanatory hypotheses."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/aromatase_histology.png",
+          "caption": "Fernández-Vargas et al. (2024), Fig. 2(a). NCM histological recording localization.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/ENEURO.0423-23.2024"
+        },
+        {
+          "path": "figures/aromatase_behavior.png",
+          "caption": "Fernández-Vargas et al. (2024), Fig. 6(a–d). Behavior before, during and after systemic aromatase inhibition.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/ENEURO.0423-23.2024"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Auditory attention reduces mouse cortical firing",
+      "body": [
+        "The **auditory cortex** is a forebrain region that processes sound through interconnected layers of neurons. Morrill and colleagues recorded across these layers while mice used either the auditory or visual rule. Physically identical audiovisual stimuli could therefore be compared across different task demands.",
+        "Attending to the sounds reduced both ongoing activity and sound-evoked spiking. The effect was strongest in deeper cortical layers and in neurons without clear frequency-time tuning. Prioritizing auditory information did not produce a uniform increase in firing across the recorded population.",
+        "Sound classification from the neuronal activity remained accurate despite the reduced spike output. Selective attention can suppress activity that adds little useful acoustic information while preserving the representation needed to distinguish sounds. Fewer spikes can accompany more efficient encoding when their information is retained."
+      ],
+      "cite": "Morrill et al. (2022)",
+      "refs": [
+        "Morrill RJ, Bigelow J, DeKloe J, Hasenstaub AR. (2022). Audiovisual task switching rapidly modulates sound encoding in mouse auditory cortex. eLife 11:e75839. https://doi.org/10.7554/eLife.75839"
+      ],
+      "transcript": [
+        "The auditory cortex is a forebrain region that processes sound through interconnected layers of neurons. Morrill and colleagues recorded across these layers while mice used either the auditory or visual rule. Physically identical audiovisual stimuli could therefore be compared across different task demands.",
+        "Attending to the sounds reduced both ongoing activity and sound-evoked spiking. The effect was strongest in deeper cortical layers and in neurons without clear frequency-time tuning. Prioritizing auditory information did not produce a uniform increase in firing across the recorded population.",
+        "Sound classification from the neuronal activity remained accurate despite the reduced spike output. Selective attention can suppress activity that adds little useful acoustic information while preserving the representation needed to distinguish sounds. Fewer spikes can accompany more efficient encoding when their information is retained.",
+        "The recording probe sampled cortical depth. Reduced activity was not simply reduced sound sensitivity: decoders retained sound identity information, and suppression covaried with auditory-task performance."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/mouse_anatomy.png",
+          "caption": "Morrill et al. (2022), Fig. 3(A–D). Auditory-cortex location, laminar probe and histological confirmation.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/eLife.75839"
+        },
+        {
+          "path": "figures/mouse_responses.png",
+          "caption": "Morrill et al. (2022), Fig. 4(A–E). Responses to identical sounds across auditory and visual rules.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/eLife.75839"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Mouse sound information survives reduced spike output",
+      "body": [
+        "A **neural decoder** is an analysis that estimates stimulus identity from recorded activity. In the mouse task, the researchers compared decoding from responses collected during auditory and visual attention. This tests whether a lower firing rate actually removes information about the acoustic input.",
+        "Accuracy was preserved when auditory attention reduced spiking. The pattern was particularly evident in deep-layer broad-spiking units. **Encoding efficiency** refers here to maintaining stimulus information with fewer spikes, rather than to a change in the physical energy of the sound.",
+        "The researchers also played task-irrelevant frequency sweeps between trials to measure tuning. Attention reduced their responses without a matching loss of stimulus encoding. Rule-dependent modulation extended beyond the trained tone clouds, changing the background state in which different sounds were represented."
+      ],
+      "cite": "Morrill et al. (2022)",
+      "refs": [
+        "Morrill RJ, Bigelow J, DeKloe J, Hasenstaub AR. (2022). Audiovisual task switching rapidly modulates sound encoding in mouse auditory cortex. eLife 11:e75839. https://doi.org/10.7554/eLife.75839"
+      ],
+      "transcript": [
+        "A neural decoder is an analysis that estimates stimulus identity from recorded activity. In the mouse task, the researchers compared decoding from responses collected during auditory and visual attention. This tests whether a lower firing rate actually removes information about the acoustic input.",
+        "Accuracy was preserved when auditory attention reduced spiking. The pattern was particularly evident in deep-layer broad-spiking units. Encoding efficiency refers here to maintaining stimulus information with fewer spikes, rather than to a change in the physical energy of the sound.",
+        "The researchers also played task-irrelevant frequency sweeps between trials to measure tuning. Attention reduced their responses without a matching loss of stimulus encoding. Rule-dependent modulation extended beyond the trained tone clouds, changing the background state in which different sounds were represented.",
+        "The decoder measures information available in recorded spikes. It is an analysis of the biological recordings, not a replacement claim about a particular downstream neuron implementing the same classifier."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/mouse_anatomy.png",
+          "caption": "Morrill et al. (2022), Fig. 3(A–D). Auditory cortex and depth-resolved recording sites.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/eLife.75839"
+        },
+        {
+          "path": "figures/mouse_encoding.png",
+          "caption": "Morrill et al. (2022), Fig. 7(A–E). Stimulus decoding and spike output across attention conditions.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/eLife.75839"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Prestimulus state contributes to mouse response changes",
+      "body": [
+        "**Prestimulus activity** is neuronal firing before the sound of interest begins. Mouse auditory attention reduced this ongoing activity as well as the total firing measured during sound presentation. A response measured from zero includes both baseline activity and activity added by the stimulus.",
+        "When the authors subtracted each condition’s prestimulus firing, many apparent changes in sound-evoked rate became smaller. Reduced background activity contributed substantially to the difference between auditory and visual rules. The cortex entered the stimulus period from different neural states.",
+        "Attention-related suppression predicted correct performance during the auditory rule but not during the visual rule. The relevance of the suppression depended on which sensory decision the mouse was making. Neural state and task rule jointly determined how recorded activity related to the animal’s behavior."
+      ],
+      "cite": "Morrill et al. (2022)",
+      "refs": [
+        "Morrill RJ, Bigelow J, DeKloe J, Hasenstaub AR. (2022). Audiovisual task switching rapidly modulates sound encoding in mouse auditory cortex. eLife 11:e75839. https://doi.org/10.7554/eLife.75839"
+      ],
+      "transcript": [
+        "Prestimulus activity is neuronal firing before the sound of interest begins. Mouse auditory attention reduced this ongoing activity as well as the total firing measured during sound presentation. A response measured from zero includes both baseline activity and activity added by the stimulus.",
+        "When the authors subtracted each condition’s prestimulus firing, many apparent changes in sound-evoked rate became smaller. Reduced background activity contributed substantially to the difference between auditory and visual rules. The cortex entered the stimulus period from different neural states.",
+        "Attention-related suppression predicted correct performance during the auditory rule but not during the visual rule. The relevance of the suppression depended on which sensory decision the mouse was making. Neural state and task rule jointly determined how recorded activity related to the animal’s behavior.",
+        "Total stimulus-period firing and baseline-subtracted evoked firing answer different physiological questions. The comparison attributes much of the observed suppression to changed background activity rather than simply weaker responses to the target."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/mouse_anatomy.png",
+          "caption": "Morrill et al. (2022), Fig. 3(A–D). Auditory cortex, recording depth and histological localization.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/eLife.75839"
+        },
+        {
+          "path": "figures/mouse_prestimulus.png",
+          "caption": "Morrill et al. (2022), Fig. 5(A–C). Prestimulus measurements and baseline-normalized responses.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.7554/eLife.75839"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Marmoset engagement enhances target coding in midbrain",
+      "body": [
+        "An animal’s **task engagement** is its active participation in the instructed behavior rather than passive exposure to the same stimuli. Marmosets detected a tone added to a reference noise. Single-neuron recordings measured whether the tone-plus-noise target evoked activity distinct from the reference noise alone.",
+        "In noncentral inferior colliculus, engagement preferentially enhanced the target response. This increased **neural discriminability**, the separability of activity evoked by different stimulus conditions. Noise responses were not amplified to the same degree, so the target acquired greater neural contrast.",
+        "Identical passive presentations controlled the sound waveform and level. State-dependent enhancement therefore occurred in a midbrain processing region before the auditory cortex. Auditory selection can alter subcortical representations as an animal performs a learned detection task."
+      ],
+      "cite": "Shaheen et al. (2021)",
+      "refs": [
+        "Shaheen LA, Slee SJ, David SV. (2021). Task Engagement Improves Neural Discriminability in the Auditory Midbrain of the Marmoset Monkey. The Journal of neuroscience : the official journal of the Society for Neuroscience 41:284-297. https://doi.org/10.1523/JNEUROSCI.1112-20.2020"
+      ],
+      "transcript": [
+        "An animal’s task engagement is its active participation in the instructed behavior rather than passive exposure to the same stimuli. Marmosets detected a tone added to a reference noise. Single-neuron recordings measured whether the tone-plus-noise target evoked activity distinct from the reference noise alone.",
+        "In noncentral inferior colliculus, engagement preferentially enhanced the target response. This increased neural discriminability, the separability of activity evoked by different stimulus conditions. Noise responses were not amplified to the same degree, so the target acquired greater neural contrast.",
+        "Identical passive presentations controlled the sound waveform and level. State-dependent enhancement therefore occurred in a midbrain processing region before the auditory cortex. Auditory selection can alter subcortical representations as an animal performs a learned detection task.",
+        "The target tone was matched to each recorded neuron’s responsive frequency range. The active-versus-passive design distinguishes an engagement effect from a physical difference in the target-plus-noise stimulus."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/marmoset_anatomy.png",
+          "caption": "Shaheen et al. (2021), Fig. 1(A–H). Task and inferior-colliculus recording sites.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1112-20.2020"
+        },
+        {
+          "path": "figures/marmoset_neurons.png",
+          "caption": "Shaheen et al. (2021), Fig. 2. Example target and reference responses during engagement and passive listening.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1112-20.2020"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Central and noncentral marmoset fields differ",
+      "body": [
+        "The central inferior colliculus is a major relay in the ascending auditory pathway. Noncentral fields include regions outside that central nucleus with different response properties and connections. The study distinguished these populations before comparing task-dependent changes in their firing.",
+        "Engagement had little effect on sound-evoked activity in the central nucleus, whereas noncentral fields showed stronger target-selective modulation. Applying a single state-dependent gain change to the whole midbrain would miss this anatomical difference. Behavioral relevance altered some pathways more strongly than others.",
+        "The result also differs from the broad firing suppression observed during mouse cortical attention. Both experiments used matched stimuli across states, but they measured different species, brain regions and tasks. Enhanced target contrast and reduced uninformative background activity are distinct neural operations that can support selective behavior."
+      ],
+      "cite": "Shaheen et al. (2021); Morrill et al. (2022)",
+      "refs": [
+        "Shaheen LA, Slee SJ, David SV. (2021). Task Engagement Improves Neural Discriminability in the Auditory Midbrain of the Marmoset Monkey. The Journal of neuroscience : the official journal of the Society for Neuroscience 41:284-297. https://doi.org/10.1523/JNEUROSCI.1112-20.2020",
+        "Morrill RJ, Bigelow J, DeKloe J, Hasenstaub AR. (2022). Audiovisual task switching rapidly modulates sound encoding in mouse auditory cortex. eLife 11:e75839. https://doi.org/10.7554/eLife.75839"
+      ],
+      "transcript": [
+        "The central inferior colliculus is a major relay in the ascending auditory pathway. Noncentral fields include regions outside that central nucleus with different response properties and connections. The study distinguished these populations before comparing task-dependent changes in their firing.",
+        "Engagement had little effect on sound-evoked activity in the central nucleus, whereas noncentral fields showed stronger target-selective modulation. Applying a single state-dependent gain change to the whole midbrain would miss this anatomical difference. Behavioral relevance altered some pathways more strongly than others.",
+        "The result also differs from the broad firing suppression observed during mouse cortical attention. Both experiments used matched stimuli across states, but they measured different species, brain regions and tasks. Enhanced target contrast and reduced uninformative background activity are distinct neural operations that can support selective behavior.",
+        "An anatomical field difference is essential to the conclusion. The paper compares its marmoset result with earlier ferret work; the present deck does not relabel these marmoset recordings as a ferret experiment."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/marmoset_anatomy.png",
+          "caption": "Shaheen et al. (2021), Fig. 1(E–H). Central and noncentral IC recording localization.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1112-20.2020"
+        },
+        {
+          "path": "figures/marmoset_task.png",
+          "caption": "Shaheen et al. (2021), Fig. 4(A–D). Engagement-related target and reference changes across IC fields.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1523/JNEUROSCI.1112-20.2020"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Marmosets interrupt calls when noise begins",
+      "body": [
+        "Common marmosets use long-distance **phee calls**, tonal vocalizations that may contain one or several syllables. Löschner and colleagues triggered noise during ongoing calls to test whether monkeys could adjust vocal production after a perturbation had already begun.",
+        "Marmosets shortened or canceled calls after noise onset and produced longer calls after noise ended. The number of emitted syllables also declined during noise perturbation. Vocal behavior changed within an ongoing sequence instead of being limited to choosing a quiet time before starting.",
+        "The analysis indicated that some single-syllable calls had begun as planned double phees but were interrupted before the second syllable. Noise avoidance therefore affects both current sound production and the continuation of a planned sequence. A sender can reduce overlap by controlling timing and sequence structure."
+      ],
+      "cite": "Löschner et al. (2023)",
+      "refs": [
+        "Löschner J, Pomberger T, Hage SR. (2023). Marmoset monkeys use different avoidance strategies to cope with ambient noise during vocal behavior. iScience 26:106219. https://doi.org/10.1016/j.isci.2023.106219"
+      ],
+      "transcript": [
+        "Common marmosets use long-distance phee calls, tonal vocalizations that may contain one or several syllables. Löschner and colleagues triggered noise during ongoing calls to test whether monkeys could adjust vocal production after a perturbation had already begun.",
+        "Marmosets shortened or canceled calls after noise onset and produced longer calls after noise ended. The number of emitted syllables also declined during noise perturbation. Vocal behavior changed within an ongoing sequence instead of being limited to choosing a quiet time before starting.",
+        "The analysis indicated that some single-syllable calls had begun as planned double phees but were interrupted before the second syllable. Noise avoidance therefore affects both current sound production and the continuation of a planned sequence. A sender can reduce overlap by controlling timing and sequence structure.",
+        "The study distinguishes altered syllable production from simply reclassifying every short call as a naturally planned single phee. Call timing and acoustic properties supplied evidence about interrupted sequences."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/marmoset_calls.png",
+        "caption": "Löschner et al. (2023), Fig. 1(A–E). Natural phee structure and calls perturbed by noise.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1016/j.isci.2023.106219"
+      }
+    },
+    {
+      "title": "Bat terminal frequencies diverge within a group",
+      "body": [
+        "Individual eastern bent-winged bats, _Miniopterus fuliginosus_, were recorded in solitary flight, group flight and another solitary flight. Returning to solitary flight supplied a comparison for changes specifically associated with the group acoustic environment rather than an irreversible drift across the session.",
+        "Terminal-frequency differences between group members increased during group flight. Other call properties, including duration and bandwidth, did not supply the same pattern of between-individual divergence. **Bandwidth** is the span of frequencies contained within a sound, distinct from the terminal value of its sweep.",
+        "The change emphasizes individual signal identity within overlapping emissions. A bat can alter its own output while preserving the basic form of its echolocation call. Such source-specific adjustment is complementary to a receiver suppressing background activity: one changes the mixture, while the other changes the neural response to that mixture."
+      ],
+      "cite": "Hase et al. (2018)",
+      "refs": [
+        "Hase K, Kadoya Y, Maitani Y, Miyamoto T, Kobayasi KI, Hiryu S. (2018). Bats enhance their call identities to solve the cocktail party problem. Communications biology 1:39. https://doi.org/10.1038/s42003-018-0045-3"
+      ],
+      "transcript": [
+        "Individual eastern bent-winged bats, Miniopterus fuliginosus, were recorded in solitary flight, group flight and another solitary flight. Returning to solitary flight supplied a comparison for changes specifically associated with the group acoustic environment rather than an irreversible drift across the session.",
+        "Terminal-frequency differences between group members increased during group flight. Other call properties, including duration and bandwidth, did not supply the same pattern of between-individual divergence. Bandwidth is the span of frequencies contained within a sound, distinct from the terminal value of its sweep.",
+        "The change emphasizes individual signal identity within overlapping emissions. A bat can alter its own output while preserving the basic form of its echolocation call. Such source-specific adjustment is complementary to a receiver suppressing background activity: one changes the mixture, while the other changes the neural response to that mixture.",
+        "The microphones were mounted on the bats, so the emitted calls could be attributed to individuals even during group flight. The comparison concerns real flight measurements, not the paper’s artificial signal-similarity tests."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/bat_identity.png",
+        "caption": "Hase et al. (2018), Fig. 3(a–d). Call features across solitary, group and subsequent solitary flight.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1038/s42003-018-0045-3"
+      }
+    },
+    {
+      "title": "Onboard microphones sample a bat colony soundscape",
+      "body": [
+        "Greater mouse-tailed bats, _Rhinopoma microphyllum_, leave caves within dense groups. Goldshtein and colleagues combined movement tracking with miniature microphones carried by individual bats. An **onboard recording** samples the sounds near the focal animal rather than only the sounds reaching a distant observer.",
+        "Conspecific interference was greatest during emergence and declined within seconds as bats spread through space. Movement data linked that decline to distance from the cave and increasing separation among animals. The noise encountered by a listener changed continuously during the same flight.",
+        "The original colony video records the dense emergence context, while the onboard waveforms measure each focal bat’s acoustic exposure. Together, these observations connect group geometry, changing interference and continued flight. A fixed external microphone alone would provide a different mixture from the one reaching the bat."
+      ],
+      "cite": "Goldshtein et al. (2025)",
+      "refs": [
+        "Goldshtein A, Mazar O, Harten L, Amichai E, Assa R, Levi A, Orchan Y, Toledo S, Nathan R, Yovel Y. (2025). Onboard recordings reveal how bats maneuver under severe acoustic interference. Proceedings of the National Academy of Sciences of the United States of America 122:e2407810122. https://doi.org/10.1073/pnas.2407810122"
+      ],
+      "transcript": [
+        "Greater mouse-tailed bats, Rhinopoma microphyllum, leave caves within dense groups. Goldshtein and colleagues combined movement tracking with miniature microphones carried by individual bats. An onboard recording samples the sounds near the focal animal rather than only the sounds reaching a distant observer.",
+        "Conspecific interference was greatest during emergence and declined within seconds as bats spread through space. Movement data linked that decline to distance from the cave and increasing separation among animals. The noise encountered by a listener changed continuously during the same flight.",
+        "The original colony video records the dense emergence context, while the onboard waveforms measure each focal bat’s acoustic exposure. Together, these observations connect group geometry, changing interference and continued flight. A fixed external microphone alone would provide a different mixture from the one reaching the bat.",
+        "The original Movie S1 is a field recording of evening emergence. It does not itself label which animal hears a particular call; that assignment depends on the onboard microphone and tracking measurements."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/bat_colony.png",
+        "caption": "Goldshtein et al. (2025), Fig. 1(A–C). Tracked emergence trajectories and increasing distances among bats.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1073/pnas.2407810122"
+      }
+    },
+    {
+      "title": "Bats continue flying under rapidly changing interference",
+      "body": [
+        "The onboard recordings contained intense calls from nearby bats during cave emergence. Pulse timing and acoustic measurements quantified the target animal’s own calls alongside these competing emissions. Tracking simultaneously measured movement through the crowded emergence area.",
+        "The bats continued maneuvering as acoustic interference changed sharply over the first part of flight. Their call parameters also varied with distance from the cave. The measured behavior provides a field comparison with terminal-frequency divergence recorded in smaller laboratory groups of another bat species.",
+        "The authors used a sensorimotor model to propose how spatially selective sensing and the timing of usable echoes could support collision avoidance. That explanation is a model-based hypothesis grounded in the recorded scenes. The original field video and measurements establish the crowded flight behavior; the model supplies a proposed mechanism for its persistence."
+      ],
+      "cite": "Goldshtein et al. (2025); Hase et al. (2018)",
+      "refs": [
+        "Goldshtein A, Mazar O, Harten L, Amichai E, Assa R, Levi A, Orchan Y, Toledo S, Nathan R, Yovel Y. (2025). Onboard recordings reveal how bats maneuver under severe acoustic interference. Proceedings of the National Academy of Sciences of the United States of America 122:e2407810122. https://doi.org/10.1073/pnas.2407810122",
+        "Hase K, Kadoya Y, Maitani Y, Miyamoto T, Kobayasi KI, Hiryu S. (2018). Bats enhance their call identities to solve the cocktail party problem. Communications biology 1:39. https://doi.org/10.1038/s42003-018-0045-3"
+      ],
+      "transcript": [
+        "The onboard recordings contained intense calls from nearby bats during cave emergence. Pulse timing and acoustic measurements quantified the target animal’s own calls alongside these competing emissions. Tracking simultaneously measured movement through the crowded emergence area.",
+        "The bats continued maneuvering as acoustic interference changed sharply over the first part of flight. Their call parameters also varied with distance from the cave. The measured behavior provides a field comparison with terminal-frequency divergence recorded in smaller laboratory groups of another bat species.",
+        "The authors used a sensorimotor model to propose how spatially selective sensing and the timing of usable echoes could support collision avoidance. That explanation is a model-based hypothesis grounded in the recorded scenes. The original field video and measurements establish the crowded flight behavior; the model supplies a proposed mechanism for its persistence.",
+        "The article’s Movie S2 is a slowed model simulation, so it is excluded from the embedded recordings. The modeled fraction of usable echoes is not presented as a directly observed neural response."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/bat_masking.png",
+        "caption": "Goldshtein et al. (2025), Fig. 2(A–F). Onboard acoustic examples and interference changes during emergence.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1073/pnas.2407810122"
+      }
+    },
+    {
+      "title": "Zebrafish neurons distinguish a broad frequency range",
+      "body": [
+        "The larval zebrafish recordings detected auditory responses from 100 Hz to 4 kHz. Evidence of frequency discrimination extended from 100 Hz to 2.5 kHz. A neuron responding to sound at a frequency is different from a population carrying enough distinct activity to distinguish that frequency from another.",
+        "Frequency-selective cells occurred in several brain regions. Some regions grouped neurons responsive to similar frequencies in nearby locations. **Frequency selectivity** means that responses favor part of the tested frequency range instead of increasing equally for every sound.",
+        "This organization provides spectral information that could support more complex auditory behavior as the animal develops. The study’s direct outcome was differentiated neural activity, not a learned choice between overlapping callers. Fish auditory networks can represent multiple acoustic features before those representations are tested in a source-selection task."
+      ],
+      "cite": "Poulsen et al. (2021)",
+      "refs": [
+        "Poulsen RE, Scholz LA, Constantin L, Favre-Bulle I, Vanwalleghem GC, Scott EK. (2021). Broad frequency sensitivity and complex neural coding in the larval zebrafish auditory system. Current biology : CB 31:1977-1987.e4. https://doi.org/10.1016/j.cub.2021.01.103"
+      ],
+      "transcript": [
+        "The larval zebrafish recordings detected auditory responses from 100 Hz to 4 kHz. Evidence of frequency discrimination extended from 100 Hz to 2.5 kHz. A neuron responding to sound at a frequency is different from a population carrying enough distinct activity to distinguish that frequency from another.",
+        "Frequency-selective cells occurred in several brain regions. Some regions grouped neurons responsive to similar frequencies in nearby locations. Frequency selectivity means that responses favor part of the tested frequency range instead of increasing equally for every sound.",
+        "This organization provides spectral information that could support more complex auditory behavior as the animal develops. The study’s direct outcome was differentiated neural activity, not a learned choice between overlapping callers. Fish auditory networks can represent multiple acoustic features before those representations are tested in a source-selection task.",
+        "The chamber’s sound delivery and calibration are part of interpreting the broad sensitivity range. A response near the high end of the range should not be equated with precise discrimination of all adjacent high frequencies."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/fish_frequency.png",
+        "caption": "Poulsen et al. (2021), Fig. 2(A–F). Neural responses and spatial groups for different frequencies.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1016/j.cub.2021.01.103"
+      }
+    },
+    {
+      "title": "Fish populations separate onset, noise and crescendos",
+      "body": [
+        "**White noise** is a broadband stimulus with energy distributed across frequencies. A **crescendo** is a gradual increase in sound amplitude. The zebrafish stimulus set compared these sounds with pure tones, brief onsets and frequency sweeps, rather than testing only whether an acoustic event elicited activity.",
+        "Functional clustering identified populations preferring a single tone frequency, broadband noise, sharp sound onset or a gradual crescendo. **Functional clustering** groups neurons by similarities in their measured response patterns. Cells could therefore differ in which temporal or spectral feature most strongly drove them.",
+        "The brain contains parallel descriptions of sound identity, change and temporal growth. These feature-selective representations provide the neural components from which a more complex scene representation may be constructed. The measured categories already exceed a binary distinction between silence and an undifferentiated acoustic stimulus."
+      ],
+      "cite": "Poulsen et al. (2021)",
+      "refs": [
+        "Poulsen RE, Scholz LA, Constantin L, Favre-Bulle I, Vanwalleghem GC, Scott EK. (2021). Broad frequency sensitivity and complex neural coding in the larval zebrafish auditory system. Current biology : CB 31:1977-1987.e4. https://doi.org/10.1016/j.cub.2021.01.103"
+      ],
+      "transcript": [
+        "White noise is a broadband stimulus with energy distributed across frequencies. A crescendo is a gradual increase in sound amplitude. The zebrafish stimulus set compared these sounds with pure tones, brief onsets and frequency sweeps, rather than testing only whether an acoustic event elicited activity.",
+        "Functional clustering identified populations preferring a single tone frequency, broadband noise, sharp sound onset or a gradual crescendo. Functional clustering groups neurons by similarities in their measured response patterns. Cells could therefore differ in which temporal or spectral feature most strongly drove them.",
+        "The brain contains parallel descriptions of sound identity, change and temporal growth. These feature-selective representations provide the neural components from which a more complex scene representation may be constructed. The measured categories already exceed a binary distinction between silence and an undifferentiated acoustic stimulus.",
+        "The fluorescence maps preserve the paper’s original response categories and color coding. These are measured calcium responses, while a proposed role in subsequent auditory grouping is an interpretation rather than a directly tested behavior."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/fish_complex.png",
+        "caption": "Poulsen et al. (2021), Fig. 3(A–D). Response classes and their anatomical distribution in the larval brain.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.1016/j.cub.2021.01.103"
+      }
+    },
+    {
+      "title": "Acoustic signals also attract unintended frog listeners",
+      "body": [
+        "**Multimodal communication** combines information across sensory modalities, such as hearing and vision. Male little torrent frogs, _Amolops torrentis_, call in noisy stream environments and perform limb movements. Their calls also attract potential blood-feeding parasites, creating interactions beyond communication with females.",
+        "Zhao and colleagues recorded midges approaching calling males and documented defensive movements used to repel them. Males performed arm waving, hind-foot lifting, wiping and limb shaking. Calling males received more parasite-related interactions and produced more defensive movements than silent males.",
+        "Some of these movements can become visual components accompanying the call. A signal’s recipients therefore include intended mates and unintended eavesdroppers, whose actions can change the sender’s behavior. The original video records the defensive interaction that supplies a possible origin for a multimodal display."
+      ],
+      "cite": "Zhao et al. (2022)",
+      "refs": [
+        "Zhao L, Wang J, Zhang H, Wang T, Yang Y, Tang Y, Halfwerk W, Cui J. (2022). Parasite defensive limb movements enhance acoustic signal attraction in male little torrent frogs. eLife 11:e76083. https://doi.org/10.7554/elife.76083"
+      ],
+      "transcript": [
+        "Multimodal communication combines information across sensory modalities, such as hearing and vision. Male little torrent frogs, Amolops torrentis, call in noisy stream environments and perform limb movements. Their calls also attract potential blood-feeding parasites, creating interactions beyond communication with females.",
+        "Zhao and colleagues recorded midges approaching calling males and documented defensive movements used to repel them. Males performed arm waving, hind-foot lifting, wiping and limb shaking. Calling males received more parasite-related interactions and produced more defensive movements than silent males.",
+        "Some of these movements can become visual components accompanying the call. A signal’s recipients therefore include intended mates and unintended eavesdroppers, whose actions can change the sender’s behavior. The original video records the defensive interaction that supplies a possible origin for a multimodal display.",
+        "The article-provided Video 1 records defensive movements toward midges. Its relevance is the link between acoustic eavesdropping and the production of visible behavior, not a claim that the movement itself separates competing sound sources."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/torrent_photos.png",
+        "caption": "Zhao et al. (2022), Fig. 3. Little torrent frogs being approached or bitten by potential parasites.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.7554/elife.76083"
+      }
+    },
+    {
+      "title": "Selected limb movements increase frog-call attraction",
+      "body": [
+        "The torrent frog study compared audiovisual playbacks containing the same advertisement call and male appearance. Experimental versions added a particular limb movement; controls retained the call and male but omitted that movement. This isolates the effect of the visual component on female preference.",
+        "Females preferred combinations containing arm waving or hind-foot lifting, whereas wiping and limb shaking produced no corresponding preference. A movement that accompanies sound is not automatically an effective communication component. Its form determines whether it changes the receiver’s choice.",
+        "The authors hypothesize that conspicuous movements can alert a receiver to an accompanying call. The experiment measured increased audiovisual attractiveness rather than improved auditory masking thresholds. Multimodal enhancement and auditory segregation are complementary communication processes with different experimentally measured outcomes."
+      ],
+      "cite": "Zhao et al. (2022)",
+      "refs": [
+        "Zhao L, Wang J, Zhang H, Wang T, Yang Y, Tang Y, Halfwerk W, Cui J. (2022). Parasite defensive limb movements enhance acoustic signal attraction in male little torrent frogs. eLife 11:e76083. https://doi.org/10.7554/elife.76083"
+      ],
+      "transcript": [
+        "The torrent frog study compared audiovisual playbacks containing the same advertisement call and male appearance. Experimental versions added a particular limb movement; controls retained the call and male but omitted that movement. This isolates the effect of the visual component on female preference.",
+        "Females preferred combinations containing arm waving or hind-foot lifting, whereas wiping and limb shaking produced no corresponding preference. A movement that accompanies sound is not automatically an effective communication component. Its form determines whether it changes the receiver’s choice.",
+        "The authors hypothesize that conspicuous movements can alert a receiver to an accompanying call. The experiment measured increased audiovisual attractiveness rather than improved auditory masking thresholds. Multimodal enhancement and auditory segregation are complementary communication processes with different experimentally measured outcomes.",
+        "The article-provided Video 2 records a male moving toward a flying parasite. Female playback tests supply the separate evidence that selected movement types change mate preference; the defensive video itself is not a mate-choice trial."
+      ],
+      "layout": "figure-right",
+      "figure_width": 5.7,
+      "figure": {
+        "path": "figures/torrent_choice.png",
+        "caption": "Zhao et al. (2022), Fig. 5(A–D). Female choices for call-plus-movement and matched control playbacks.",
+        "kind": "article",
+        "source_url": "https://doi.org/10.7554/elife.76083"
+      }
+    },
+    {
+      "title": "Peripheral filters and central selection act in stages",
+      "body": [
+        "A frog’s internally coupled ears behave as directional pressure-gradient receivers: external and internal sound pathways jointly determine eardrum vibration. Caldwell and colleagues measured an average spatial masking release of about 4 dB at the tympanum, with up to 9 dB advantage for the better-positioned ear.",
+        "Katydid receptor tuning restricts the spectral input reaching interneurons, and local adaptation changes the effectiveness of repeated frequencies. These mechanisms operate before or within early auditory circuits. They can preserve a target component without requiring the animal to switch an instructed behavioral rule.",
+        "Mouse attention changes recorded neural responses when the same sound acquires a different task meaning. Peripheral filtering, recent-stimulus adaptation and task-dependent selection therefore alter different stages of sound processing. Their behavioral benefits can coexist, but their experimental controls identify distinct mechanisms."
+      ],
+      "cite": "Caldwell et al. (2016); Kostarakos et al. (2015); Morrill et al. (2022); Lee et al. (2021)",
+      "refs": [
+        "Caldwell MS, Lee N, Bee MA. (2016). Inherent Directionality Determines Spatial Release from Masking at the Tympanum in a Vertebrate with Internally Coupled Ears. Journal of the Association for Research in Otolaryngology : JARO 17:259-270. https://doi.org/10.1007/s10162-016-0568-6",
+        "Kostarakos K, Römer H. (2015). Neural Mechanisms for Acoustic Signal Detection under Strong Masking in an Insect. The Journal of neuroscience : the official journal of the Society for Neuroscience 35:10562-10571. https://doi.org/10.1523/JNEUROSCI.0913-15.2015",
+        "Morrill RJ, Bigelow J, DeKloe J, Hasenstaub AR. (2022). Audiovisual task switching rapidly modulates sound encoding in mouse auditory cortex. eLife 11:e75839. https://doi.org/10.7554/eLife.75839",
+        "Lee N, Christensen-Dalsgaard J, White LA, Schrode KM, Bee MA. (2021). Lung mediated auditory contrast enhancement improves the Signal-to-noise ratio for communication in frogs. Current biology : CB 31:1488-1498.e4. https://doi.org/10.1016/j.cub.2021.01.048"
+      ],
+      "transcript": [
+        "A frog’s internally coupled ears behave as directional pressure-gradient receivers: external and internal sound pathways jointly determine eardrum vibration. Caldwell and colleagues measured an average spatial masking release of about 4 dB at the tympanum, with up to 9 dB advantage for the better-positioned ear.",
+        "Katydid receptor tuning restricts the spectral input reaching interneurons, and local adaptation changes the effectiveness of repeated frequencies. These mechanisms operate before or within early auditory circuits. They can preserve a target component without requiring the animal to switch an instructed behavioral rule.",
+        "Mouse attention changes recorded neural responses when the same sound acquires a different task meaning. Peripheral filtering, recent-stimulus adaptation and task-dependent selection therefore alter different stages of sound processing. Their behavioral benefits can coexist, but their experimental controls identify distinct mechanisms.",
+        "The tympanic result measures sound representation before the auditory nerve; the mouse result measures state-dependent cortical activity. A similar improvement in detection need not imply that both species use the same anatomical mechanism."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/frog_direction.png",
+          "caption": "Caldwell et al. (2016), Fig. 3(A–D). Directional tympanic responses and spatial masking thresholds.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1007/s10162-016-0568-6"
+        },
+        {
+          "path": "figures/frog_lungs.png",
+          "caption": "Lee et al. (2021), Fig. 1(A–D). Lung-to-ear anatomy and mechanical filtering in a green treefrog.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.cub.2021.01.048"
+        }
+      ],
+      "primary_figure_height": 2.7
+    },
+    {
+      "title": "Grouping, attention and vocal control differ",
+      "body": [
+        "Gray treefrogs use frequency differences to recover an attractive pulse sequence from a competing source. Starlings separate interleaved tones, but that separation makes cross-stream timing comparisons harder. **Grouping** organizes sound components; its benefit depends on the information required for the particular behavioral choice.",
+        "Attention changes the relevance of an unchanged sensory input, while a marmoset can interrupt its own call when noise begins. Sender adjustment changes which sound enters the scene. Receiver selection changes how the existing scene is represented and used for a decision.",
+        "Torrent frog movements add a visual contribution to a call’s attractiveness without measuring an auditory masking benefit. Comparative analysis separates detection, recognition, timing judgments, source grouping and multimodal preference. Matching the claimed mechanism to the measured outcome preserves the biological differences among these animals’ solutions."
+      ],
+      "cite": "Nityananda et al. (2011); Itatani et al. (2014); Löschner et al. (2023); Zhao et al. (2022); Morrill et al. (2022)",
+      "refs": [
+        "Nityananda V, Bee MA. (2011). Finding your mate at a cocktail party: frequency separation promotes auditory stream segregation of concurrent voices in multi-species frog choruses. PloS one 6:e21191. https://doi.org/10.1371/journal.pone.0021191",
+        "Itatani N, Klump GM. (2014). Neural correlates of auditory streaming in an objective behavioral task. Proceedings of the National Academy of Sciences of the United States of America 111:10738-10743. https://doi.org/10.1073/pnas.1321487111",
+        "Löschner J, Pomberger T, Hage SR. (2023). Marmoset monkeys use different avoidance strategies to cope with ambient noise during vocal behavior. iScience 26:106219. https://doi.org/10.1016/j.isci.2023.106219",
+        "Zhao L, Wang J, Zhang H, Wang T, Yang Y, Tang Y, Halfwerk W, Cui J. (2022). Parasite defensive limb movements enhance acoustic signal attraction in male little torrent frogs. eLife 11:e76083. https://doi.org/10.7554/elife.76083",
+        "Morrill RJ, Bigelow J, DeKloe J, Hasenstaub AR. (2022). Audiovisual task switching rapidly modulates sound encoding in mouse auditory cortex. eLife 11:e75839. https://doi.org/10.7554/eLife.75839"
+      ],
+      "transcript": [
+        "Gray treefrogs use frequency differences to recover an attractive pulse sequence from a competing source. Starlings separate interleaved tones, but that separation makes cross-stream timing comparisons harder. Grouping organizes sound components; its benefit depends on the information required for the particular behavioral choice.",
+        "Attention changes the relevance of an unchanged sensory input, while a marmoset can interrupt its own call when noise begins. Sender adjustment changes which sound enters the scene. Receiver selection changes how the existing scene is represented and used for a decision.",
+        "Torrent frog movements add a visual contribution to a call’s attractiveness without measuring an auditory masking benefit. Comparative analysis separates detection, recognition, timing judgments, source grouping and multimodal preference. Matching the claimed mechanism to the measured outcome preserves the biological differences among these animals’ solutions.",
+        "The comparisons preserve the task used in each species. A movement, a neural response and an improved choice provide different kinds of evidence; cross-species similarity is strongest when the tested operation and controls also match."
+      ],
+      "layout": "figures-right",
+      "figure_width": 5.7,
+      "figures": [
+        {
+          "path": "figures/frog_scene.png",
+          "caption": "Nityananda et al. (2011), Fig. 1(a–e). Concurrent species-specific frog call patterns.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1371/journal.pone.0021191"
+        },
+        {
+          "path": "figures/marmoset_calls.png",
+          "caption": "Löschner et al. (2023), Fig. 1(A–E). Phee-call structure and noise-triggered vocal adjustments.",
+          "kind": "article",
+          "source_url": "https://doi.org/10.1016/j.isci.2023.106219"
+        }
+      ],
+      "primary_figure_height": 2.7
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Separate sources",
+        "text": "Frequency and spatial differences help animals recover target signals, but their benefit depends on the recognition or timing task."
+      },
+      {
+        "lead": "Early filtering",
+        "text": "Directional ears, lung resonance and sharply tuned receptors alter target-to-background relationships before higher auditory processing."
+      },
+      {
+        "lead": "Cellular history",
+        "text": "Local calcium dynamics, frequency-specific adaptation and GABA-mediated inhibition shape which acoustic events produce neuronal output."
+      },
+      {
+        "lead": "Behavioral state",
+        "text": "Attention and engagement alter target representation in specific cortical and midbrain populations, even with matched physical stimuli."
+      },
+      {
+        "lead": "Sender flexibility",
+        "text": "Bats modify call identity and marmosets interrupt vocal sequences, changing the acoustic mixture that receivers must analyze."
+      },
+      {
+        "lead": "Match mechanism to evidence",
+        "text": "Detection, auditory grouping, selective attention and audiovisual preference are distinct outcomes; comparative claims preserve the task and measured response."
+      }
+    ],
+    "cite": "Primary studies cited throughout",
+    "refs": [
+      "Bee MA. (2008). Finding a mate at a cocktail party: Spatial release from masking improves acoustic mate recognition in grey treefrogs. Animal behaviour 75:1781-1791. https://doi.org/10.1016/j.anbehav.2007.10.032",
+      "Nityananda V, Bee MA. (2011). Finding your mate at a cocktail party: frequency separation promotes auditory stream segregation of concurrent voices in multi-species frog choruses. PloS one 6:e21191. https://doi.org/10.1371/journal.pone.0021191",
+      "Farris HE, Ryan MJ. (2011). Relative comparisons of call parameters enable auditory grouping in frogs. Nature communications 2:410. https://doi.org/10.1038/ncomms1417",
+      "Lee N, Ward JL, Vélez A, Micheyl C, Bee MA. (2017). Frogs Exploit Statistical Regularities in Noisy Acoustic Scenes to Solve Cocktail-Party-like Problems. Current biology : CB 27:743-750. https://doi.org/10.1016/j.cub.2017.01.031",
+      "Lee N, Christensen-Dalsgaard J, White LA, Schrode KM, Bee MA. (2021). Lung mediated auditory contrast enhancement improves the Signal-to-noise ratio for communication in frogs. Current biology : CB 31:1488-1498.e4. https://doi.org/10.1016/j.cub.2021.01.048",
+      "Caldwell MS, Lee N, Bee MA. (2016). Inherent Directionality Determines Spatial Release from Masking at the Tympanum in a Vertebrate with Internally Coupled Ears. Journal of the Association for Research in Otolaryngology : JARO 17:259-270. https://doi.org/10.1007/s10162-016-0568-6",
+      "Schmidt AK, Römer H. (2011). Solutions to the cocktail party problem in insects: selective filters, spatial release from masking and gain control in tropical crickets. PloS one 6:e28593. https://doi.org/10.1371/journal.pone.0028593",
+      "Kostarakos K, Römer H. (2015). Neural Mechanisms for Acoustic Signal Detection under Strong Masking in an Insect. The Journal of neuroscience : the official journal of the Society for Neuroscience 35:10562-10571. https://doi.org/10.1523/JNEUROSCI.0913-15.2015",
+      "Siegert ME, Römer H, Hartbauer M. (2013). Maintaining acoustic communication at a cocktail party: heterospecific masking noise improves signal detection through frequency separation. The Journal of experimental biology 216:4655-4665. https://doi.org/10.1242/jeb.089888",
+      "Schneider DM, Woolley SM. (2013). Sparse and background-invariant coding of vocalizations in auditory scenes. Neuron 79:141-152. https://doi.org/10.1016/j.neuron.2013.04.038",
+      "Fernández-Vargas M, Macedo-Lima M, Remage-Healey L. (2024). Acute Aromatase Inhibition Impairs Neural and Behavioral Auditory Scene Analysis in Zebra Finches. eNeuro 11:ENEURO.0423-23.2024. https://doi.org/10.1523/ENEURO.0423-23.2024",
+      "Lu K, Vicario DS. (2014). Statistical learning of recurring sound patterns encodes auditory objects in songbird forebrain. Proceedings of the National Academy of Sciences of the United States of America 111:14553-14558. https://doi.org/10.1073/pnas.1412109111",
+      "Hase K, Kadoya Y, Maitani Y, Miyamoto T, Kobayasi KI, Hiryu S. (2018). Bats enhance their call identities to solve the cocktail party problem. Communications biology 1:39. https://doi.org/10.1038/s42003-018-0045-3",
+      "Goldshtein A, Mazar O, Harten L, Amichai E, Assa R, Levi A, Orchan Y, Toledo S, Nathan R, Yovel Y. (2025). Onboard recordings reveal how bats maneuver under severe acoustic interference. Proceedings of the National Academy of Sciences of the United States of America 122:e2407810122. https://doi.org/10.1073/pnas.2407810122",
+      "Itatani N, Klump GM. (2014). Neural correlates of auditory streaming in an objective behavioral task. Proceedings of the National Academy of Sciences of the United States of America 111:10738-10743. https://doi.org/10.1073/pnas.1321487111",
+      "Morrill RJ, Bigelow J, DeKloe J, Hasenstaub AR. (2022). Audiovisual task switching rapidly modulates sound encoding in mouse auditory cortex. eLife 11:e75839. https://doi.org/10.7554/eLife.75839",
+      "Löschner J, Pomberger T, Hage SR. (2023). Marmoset monkeys use different avoidance strategies to cope with ambient noise during vocal behavior. iScience 26:106219. https://doi.org/10.1016/j.isci.2023.106219",
+      "Shaheen LA, Slee SJ, David SV. (2021). Task Engagement Improves Neural Discriminability in the Auditory Midbrain of the Marmoset Monkey. The Journal of neuroscience : the official journal of the Society for Neuroscience 41:284-297. https://doi.org/10.1523/JNEUROSCI.1112-20.2020",
+      "Poulsen RE, Scholz LA, Constantin L, Favre-Bulle I, Vanwalleghem GC, Scott EK. (2021). Broad frequency sensitivity and complex neural coding in the larval zebrafish auditory system. Current biology : CB 31:1977-1987.e4. https://doi.org/10.1016/j.cub.2021.01.103",
+      "Bayley T, Hedwig B. (2024). Tonotopic Ca2+ dynamics and sound processing in auditory interneurons of the bush-cricket Mecopoda elongata. Journal of comparative physiology. A, Neuroethology, sensory, neural, and behavioral physiology 210:353-369. https://doi.org/10.1007/s00359-023-01638-6",
+      "Thévenet J, Papet L, Campos Z, Greenfield M, Boyer N, Grimault N, Mathevon N. (2022). Spatial release from masking in crocodilians. Communications biology 5:869. https://doi.org/10.1038/s42003-022-03799-7",
+      "Zhao L, Wang J, Zhang H, Wang T, Yang Y, Tang Y, Halfwerk W, Cui J. (2022). Parasite defensive limb movements enhance acoustic signal attraction in male little torrent frogs. eLife 11:e76083. https://doi.org/10.7554/elife.76083",
+      "Kostarakos K, Hedwig B (2012). Calling song recognition in female crickets: temporal tuning of identified brain neurons matches behavior. Journal of Neuroscience 32(28):9601–9612. https://doi.org/10.1523/JNEUROSCI.1170-12.2012"
+    ]
+  }
+}
