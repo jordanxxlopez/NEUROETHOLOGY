@@ -1,0 +1,1 @@
+All requested article PDFs and original PNAS Movie S1 are received. Additional published primary papers were obtained through public PMC OA storage. No source-file requests remain open. Full slide references and source DOI URLs are in lecture.json; ten original recordings are documented in media_sources.json.

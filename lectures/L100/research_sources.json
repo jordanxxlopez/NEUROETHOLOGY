@@ -1,0 +1,23 @@
+{
+  "authoritative_repository": "jordanxxlopez/NEUROETHOLOGY",
+  "default_branch": "claude/neuroethology-fa2026-schedule-2lgmmr",
+  "source_strategy": "Primary papers from publisher, uploaded PDFs, PMC OA originals. Original article-linked supplementary recordings from Figshare, Zenodo and PMC supplement archives. No Shorts, TikTok or news recordings selected.",
+  "video_collections": [
+    {
+      "doi": "10.1098/rstb.2016.0069",
+      "collection_url": "https://api.figshare.com/v2/collections/3660710/articles"
+    },
+    {
+      "doi": "10.1098/rspb.2023.0640",
+      "record_url": "https://zenodo.org/api/records/7728042"
+    },
+    {
+      "doi": "10.3390/biology12060774",
+      "archive_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10295343.1/biology-12-00774-s001.zip"
+    },
+    {
+      "doi": "10.1073/pnas.1920875117",
+      "source": "User-uploaded original Movie S1, retained byte for byte."
+    }
+  ]
+}
