@@ -1,0 +1,43 @@
+[
+  {
+    "key": "magpie",
+    "url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.0060202&type=printable",
+    "status": 200,
+    "bytes": 343253,
+    "pdf": true,
+    "path": "/workspace/NEUROETHOLOGY/lectures/L90/papers/magpie.pdf"
+  },
+  {
+    "key": "elephant",
+    "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.0608062103",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "dolphin",
+    "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.101086398",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "monkeytrain",
+    "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.1620764114",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "mouse",
+    "url": "https://www.cell.com/neuron/pdf/S0896-6273(23)00803-6.pdf",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "key": "mouse_api",
+    "url": "https://api.elsevier.com/content/article/pii/S0896627323008036?httpAccept=application/pdf",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "key": "chimpthickness",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6697634.1/PMC6697634.1.xml",
+    "status": 200,
+    "bytes": 105656,
+    "pdf": false,
+    "path": "/workspace/lecture90-research/chimpthickness_response.dat"
+  }
+]
