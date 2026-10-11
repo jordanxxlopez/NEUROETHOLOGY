@@ -1,3 +1,3 @@
 # Lecture 91
 
-50 slides: the existing lecture plus four additional Ronan/UCSC study slides (46–49), followed by the original takeaways. One original sea-lion recording is embedded on slide 20. The requested 10–12 distinct sea-lion recordings remain unavailable. The supplied YouTube feature is not embedded because downloading is blocked; an uploaded MP4 is needed.
+50 slides. Four embedded article recordings: sea lion on slide20; the instructor-requested rat/human comparisons restored on slides41–43. No additional non-Ronan sea-lion beat-synchronization recording was found. Requested 10–12 sea-lion originals remain unmet. Four UCSC study slides and all existing lecture text/figures retained.

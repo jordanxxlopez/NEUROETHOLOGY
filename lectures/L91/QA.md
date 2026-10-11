@@ -5,3 +5,5 @@
 One original native MP4 is internally embedded, with bytes matching the original article recording. No repeated clips, other-animal videos, trimming, speed changes, or audio edits. PDF is static. Desktop PowerPoint playback and Google Slides import are untested.
 
 The 10–12 sea-lion video request remains unmet; the supplied YouTube feature remains unavailable pending upload. Additional primary-study searches checked imitation, whisker control, foraging, auditory and locomotor studies; retrieved supplements were data/tables, or publisher access was denied. No unavailable source was substituted.
+
+Latest instructor revision: slides41–43 retain Ito et al. (2022), Movies S1–S3. Four native media objects and four embedded MP4 files verified by SHA-256; these comparisons do not count as additional sea-lion recordings. Original display proportions retained; PowerPoint GUI playback remains untested.

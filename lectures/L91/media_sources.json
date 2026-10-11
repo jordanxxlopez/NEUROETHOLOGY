@@ -1,5 +1,5 @@
 {
-  "embedded_video_count": 1,
+  "embedded_video_count": 4,
   "qualifying_sea_lion_study_video_count": 1,
   "required_count": 10,
   "ronan_study_recording_count": 1,
@@ -18,14 +18,64 @@
       "duration_seconds": 114.781333,
       "sha256": "09585ab0a756d9d282ab2f71bb2e4beee200a122042b8a7555ce04a9f2ff78ae",
       "display_aspect_ratio": "427:240",
-      "counts_toward_study_target": true
+      "counts_toward_study_target": true,
+      "animal_scope": "sea lion"
+    },
+    {
+      "slide": 41,
+      "file": "media/Ito2022_MovieS1.mp4",
+      "caption": "Ito et al. (2022), Movie S1. Rat head movements and simultaneous jerk traces.",
+      "doi": "10.1126/sciadv.abo7019",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip",
+      "credit": "Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi",
+      "license": "CC BY-NC 4.0",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 27.561,
+      "sha256": "90f64c9804c9626b02b9b936ffb04a0dfe9f8abeb6e0372f4d2c6b547338d419",
+      "display_aspect_ratio": "16:9",
+      "counts_toward_study_target": true,
+      "animal_scope": "comparative rat/human recording expressly retained by instructor"
+    },
+    {
+      "slide": 42,
+      "file": "media/Ito2022_MovieS2.mp4",
+      "caption": "Ito et al. (2022), Movie S2. Beat-related movements in a standing rat.",
+      "doi": "10.1126/sciadv.abo7019",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip",
+      "credit": "Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi",
+      "license": "CC BY-NC 4.0",
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 84.251,
+      "sha256": "9bb819a44c0e5747bbe3516463ec763a4a2ec9d9626de6c071659ded76206ef9",
+      "display_aspect_ratio": "16:9",
+      "counts_toward_study_target": true,
+      "animal_scope": "comparative rat/human recording expressly retained by instructor"
+    },
+    {
+      "slide": 43,
+      "file": "media/Ito2022_MovieS3.mp4",
+      "caption": "Ito et al. (2022), Movie S3. Human head movements and marker tracking.",
+      "doi": "10.1126/sciadv.abo7019",
+      "original_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip",
+      "credit": "Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi",
+      "license": "CC BY-NC 4.0",
+      "width": 406,
+      "height": 540,
+      "duration_seconds": 189.3,
+      "sha256": "79fbd19a91f47f0fc581e6b3808a3b317145cf968e6368e70564a4ad36c4a72b",
+      "display_aspect_ratio": "203:270",
+      "counts_toward_study_target": true,
+      "animal_scope": "comparative rat/human recording expressly retained by instructor"
     }
   ],
+  "total_slides": 50,
+  "content_slides": 48,
+  "comparative_recording_count": 3,
   "pending_feature_video": {
     "url": "https://youtu.be/s4nBevZJMvk",
-    "status": "Not embedded: platform HTTP proxy denies YouTube download; uploaded original MP4 needed",
+    "status": "Not embedded: download blocked",
     "counts_toward_study_target": false
-  },
-  "content_slides": 48,
-  "total_slides": 50
+  }
 }

@@ -2,7 +2,7 @@
 
 Sea lions: rhythmic entrainment, auditory–motor coordination, and experimental tests of beat synchronization
 
-50-slide sea-lion-only revision, including four extra slides on Cook et al. (2025), the actual UCSC Ronan study. One original sea-lion experiment recording is embedded on slide 20. All other-animal video additions were removed; original lecture teaching text and scientific figures remain unchanged. The separate MP4 is in media/. The PDF is a static preview. See MEDIA.md for credits, viewer limitations, and the original sea-lion recordings needed to meet the 10–12-video target.
+50-slide sea-lion-only revision, including four extra slides on Cook et al. (2025), the actual UCSC Ronan study. One original sea-lion experiment recording is embedded on slide 20. The instructor-requested comparative videos on slides 41–43 are restored; original lecture teaching text and scientific figures remain unchanged. The separate MP4 is in media/. The PDF is a static preview. See MEDIA.md for credits, viewer limitations, and the original sea-lion recordings needed to meet the 10–12-video target.
 
 Rebuild:
 

@@ -10,7 +10,10 @@ ROOT=Path(__file__).resolve().parent
 PPTX=ROOT/'Neuroethology_Lecture91_FA2026.pptx'
 base='https://pmc-oa-opendata.s3.amazonaws.com/'
 entries=[
- (20,'Rouse2016_Video1','Rouse et al. (2016), Supplementary Video 1. Ronan adjusts to phase and tempo changes.','10.3389/fnins.2016.00257',base+'PMC4891632.1/Video1.MP4','CC BY 4.0','Rouse, Cook, Large, and Reichmuth')]
+ (20,'Rouse2016_Video1','Rouse et al. (2016), Supplementary Video 1. Ronan adjusts to phase and tempo changes.','10.3389/fnins.2016.00257',base+'PMC4891632.1/Video1.MP4','CC BY 4.0','Rouse, Cook, Large, and Reichmuth'),
+ (41,'Ito2022_MovieS1','Ito et al. (2022), Movie S1. Rat head movements and simultaneous jerk traces.','10.1126/sciadv.abo7019',base+'PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip','CC BY-NC 4.0','Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi'),
+ (42,'Ito2022_MovieS2','Ito et al. (2022), Movie S2. Beat-related movements in a standing rat.','10.1126/sciadv.abo7019',base+'PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip','CC BY-NC 4.0','Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi'),
+ (43,'Ito2022_MovieS3','Ito et al. (2022), Movie S3. Human head movements and marker tracking.','10.1126/sciadv.abo7019',base+'PMC9651867.1/sciadv.abo7019_movies_s1_to_s3.zip','CC BY-NC 4.0','Ito, Shiramatsu, Ishida, Oshima, Magami, and Takahashi')]
 prs=Presentation(PPTX)
 if any(s.shape_type==MSO_SHAPE_TYPE.MEDIA for sl in prs.slides for s in sl.shapes):
  raise SystemExit('Use the pre-video deck to avoid duplicate recordings.')
@@ -54,5 +57,5 @@ for i,sl in enumerate(prs.slides):
  assert [s.text for s in sl.shapes if s.has_text_frame][:len(before[i])]==before[i],f'Text changed on slide {i+1}'
  assert [hashlib.sha256(s.image.blob).hexdigest() for s in sl.shapes if s.shape_type==MSO_SHAPE_TYPE.PICTURE and s.name!='Static video fallback']==original_images[i]
 prs.save(PPTX)
-(ROOT/'media_sources.json').write_text(json.dumps(dict(embedded_video_count=len(sources),qualifying_sea_lion_study_video_count=len(sources),required_count=10,ronan_study_recording_count=1,featured_2025_ronan_embedded=False,sources=sources),indent=2)+'\n')
-print('Embedded one original sea-lion study recording. No other-animal videos are present. All existing visible text and original figure bytes preserved.')
+(ROOT/'media_sources.json').write_text(json.dumps(dict(embedded_video_count=len(sources),qualifying_sea_lion_study_video_count=1,required_count=10,ronan_study_recording_count=1,featured_2025_ronan_embedded=False,sources=sources),indent=2)+'\n')
+print('Embedded one original sea-lion study recording and restored three requested comparative recordings on slides 41–43. All existing visible text and original figure bytes preserved.')

@@ -50,3 +50,13 @@ Search/access evidence: sea_lion_media_search.json. Some broad scholarly results
 Slides 46–49 discuss Cook et al. (2025), DOI 10.1038/s41598-025-95279-1. Total deck length is 50 slides. Requested feature https://youtu.be/s4nBevZJMvk is still not embedded: the environment proxy denies YouTube downloads. Upload the original MP4 to complete the feature insertion. The user authorized official Ronan recordings as a specific source exception. It remains outside the 10–12-study-video count.
 
 Expanded source search: Milne et al. (2020), DOI 10.1007/s00359-020-01408-8, supplies a PDF supplement, not movies. Sasaki et al. (2025), DOI 10.1007/s10071-025-01971-0, supplies a CSV supplement. The Galapagos foraging study DOI 10.7717/peerj.11206 supplies tables/data rather than movies. DOI 10.1038/s41598-018-28171-w supplies an XLSX supplement. The JEB locomotion publisher for DOI 10.1242/jeb.243020 returns HTTP 403. These did not supply suitable downloadable clips and were not added as lecture sources.
+
+## Other sea lions: targeted rhythm search and restored comparisons
+
+The instructor explicitly requested retaining the videos on slides41–43: Ito et al. (2022), Movies S1–S3. They are restored, with native display proportions, giving four total embedded recordings. They do not count as three additional sea-lion recordings.
+
+Crossref and EuropePMC searches for sea-lion rhythm, beat synchronization and auditory–motor entrainment retrieved the 2013, 2016 and 2025 Ronan experiments, rather than a verified experiment with another sea lion. This search does not prove that no other animal can synchronize. Google returned a JavaScript redirect, Bing returned irrelevant results, and DuckDuckGo requested a CAPTCHA; these were not treated as usable evidence. Search details are preserved in other_sea_lion_search.json.
+
+A relevant other animal is Hama, a Steller sea lion in Sasaki, Kinoshita and Konno (2025), Do as I do imitation, https://doi.org/10.1007/s10071-025-01971-0. The primary paper describes video-recorded demonstrations and imitation responses, but its downloadable supplement is CSV data, not a movie. Imitation is not an experimental test of beat synchronization. No clip was obtained or misrepresented as rhythm evidence.
+
+Friedman and Leftwich (2014), The kinematics of the California sea lion foreflipper during forward swimming, https://doi.org/10.1088/1748-3182/9/4/046010, is a movement-control lead; the publisher returns a bot challenge. The paper/media were not retrieved or added. Crossref also returned the bio-robotic swimmer DOI10.1088/1748-3190/ae7788, whose linked media likewise hits a challenge and whose robotic content would require separate verification as footage of an actual animal. No challenge bypass was attempted.
