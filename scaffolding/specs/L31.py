@@ -5,6 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import body_L31 as _body  # noqa: E402
+import L31_inserts as _ins_text  # noqa: E402
 
 
 def ins(after, title, paragraphs, citation, notes, refs):
@@ -222,6 +223,8 @@ for _ins in inserts:
         _ins["paragraphs"][0] = _ins["paragraphs"][0] + APPEND_P1[_ins["after"]]
     if _ins["after"] in APPEND_P3:
         _ins["paragraphs"][2] = _ins["paragraphs"][2] + APPEND_P3[_ins["after"]]
+for _ins in inserts:
+    _ins["paragraphs"] = _ins_text.INSERT_PARAS[_ins["after"]]
 spec = {"third_paragraph": {}, "inserts": inserts, "body": _body.body}
 
 if __name__ == "__main__":
