@@ -121,6 +121,7 @@ def main():
             counts = sd.body_line_counts(sl)
             if counts:
                 problems += [f"built slide {k}: {w}" for w in line_problems(counts)]
+            problems += [f"built slide {k}: {w}" for w in sd.body_format_problems(sl)]
     # the built deck
     built = Presentation(str(out))
     want = len(src.slides) + len(m.spec["inserts"])

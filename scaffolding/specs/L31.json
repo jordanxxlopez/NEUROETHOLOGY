@@ -576,7 +576,7 @@
    "title": "Stains locate iron, not the cell that holds it",
    "bold": [],
    "paragraphs": [
-    "**Prussian blue** is a stain that reveals ferric iron in tissue. A stained spot shows where iron accumulates, and a second line of evidence is needed to name the cell that holds it, since iron also appears in metabolic storage and immune cells.",
+    "**Prussian blue** is a stain that reveals ferric iron in tissue. A stained spot shows where iron accumulates, and a second line of evidence is needed to name the cell that holds it, since iron also appears in metabolic storage and immune cells. A reliable identification therefore needs the stain combined with other evidence about the cell.",
     "Treiber and colleagues stained pigeon upper beaks with Prussian blue and mapped the labeled cells through serial sections. The stained cells lay in respiratory epithelium, subepidermal tissue and feather follicles. The position of each labeled cell is therefore recorded alongside its tissue.",
     "The stained positions give a map of where iron occurs, which is the first step toward identifying a magnetic receptor. Further markers and ultrastructure then decide whether the stained cells are sensory or storage cells. Each stained location is then examined for the cell type that carries it."
    ],
@@ -695,7 +695,7 @@
    "title": "Local field potentials sum population activity",
    "bold": [],
    "paragraphs": [
-    "A **local field potential** is an extracellular voltage that reflects coordinated activity in a population of neurons around the electrode. It differs from the spike of one identified neuron, because it sums the currents of many cells at once.",
+    "A **local field potential** is an extracellular voltage that reflects coordinated activity in a population of neurons around the electrode. It differs from the spike of one identified neuron, because it sums the currents of many cells at once. The electrode records this summed voltage continuously during each flight.",
     "Yang and colleagues recorded hippocampal LFPs and the bird's position at the same time during outdoor homing flights. The electrodes sampled the left hippocampal formation, and the release sites lay more than 0.8 km from the loft. Trials were run in clear weather with low wind.",
     "Recording the population signal during flight allows the neural state to be read against the bird's position and heading. The shared time base is what links a population rhythm to a particular stage of the trip. The population signal therefore reflects the activity of many cells recorded at one electrode."
    ],
@@ -754,7 +754,7 @@
    "paragraphs": [
     "**Spectral power** measures how much of a recorded voltage falls within a chosen frequency range. Yang and colleagues assigned theta to 4–12 Hz, beta to 12–30 Hz, low gamma to 30–60 Hz and high gamma to 60–120 Hz, so each band has a fixed range.",
     "Theta and beta power ratios were higher in the initial decision-making stage than during en route flight. The high-gamma ratio rose en route, while low gamma showed no consistent difference between stages. The comparisons used paired stages from the same homing flights.",
-    "The stages therefore differ in how power is distributed across the bands, rather than in a single overall increase. Each band reflects a separate pattern of population activity, and the stage contrast depends on the band selected."
+    "The stages therefore differ in how power is distributed across the bands, rather than in a single overall increase. Each band reflects a separate pattern of population activity, and the stage contrast depends on the band selected. Each band is read as its own measurement of the same flight."
    ],
    "citation": "Yang et al. (2025)",
    "notes": [
@@ -954,7 +954,7 @@
   "31": [
    "**Neuronal tracing** labels the anatomical pathways that leave an injection site. Lefeldt and colleagues introduced cholera toxin B into V1 to identify its central projections, then compared the labeled afferents with the regions that contained ZENK-positive neurons after magnetic stimulation.",
    "V1 fibers terminated in the principal and spinal trigeminal nuclei. The published overlays keep the spatial relationship between the traced fibers and the activation, with 100 µm and 200 µm scales. Acetylcholinesterase staining supplied anatomical boundaries for locating the subdivisions.",
-   "The overlap shows a plausible route for peripheral signals to reach the responsive tissue. Acetylcholinesterase serves here as an anatomical marker for locating those boundaries, which places the pathway within known regions."
+   "The overlap shows a plausible route for peripheral signals to reach the responsive tissue. Acetylcholinesterase serves here as an anatomical marker for locating those boundaries, which places the pathway within known regions. The tracer and the stain are compared in the same sections, which keeps each measurement tied to the tissue it came from."
   ],
   "32": [
    "A **loss-of-function test** interrupts a candidate pathway and measures the response that remains. Lefeldt and colleagues cut both V1 branches, then exposed the birds to the same changing magnetic stimulus used for intact animals.",
@@ -1007,9 +1007,9 @@
    "The alignment relates neural changes to a defined transition in behavior. The hippocampal signal changes around the point where the bird commits to its heading, so the neural and behavioral records line up in time. The stages are defined by the bird's behavior, so the neural data are aligned to the flight rather than to a fixed clock time."
   ],
   "42": [
-   "**Spectral power** measures the contribution of a frequency range to a recorded voltage signal. Yang and colleagues defined theta as 4–12 Hz, beta as 12–30 Hz, low gamma as 30–60 Hz and high gamma as 60–120 Hz.",
+   "**Spectral power** measures the contribution of a frequency range to a recorded voltage signal. Yang and colleagues defined theta as 4–12 Hz, beta as 12–30 Hz, low gamma as 30–60 Hz and high gamma as 60–120 Hz. The bands are defined before the comparison, so every stage is measured against the same frequency limits.",
    "Theta and beta power ratios were higher during initial decision-making than during en route flight. The high-gamma power ratio was greater en route, whereas low gamma did not show a consistent difference between stages. The comparisons used paired behavioral stages within the same homing flights.",
-   "The pattern shows different population activity across flight stages rather than a uniform rise in every band. Each band reflects a different pattern of population activity, and the stage contrast depends on which band is examined."
+   "The pattern shows different population activity across flight stages rather than a uniform rise in every band. Each band reflects a different pattern of population activity, and the stage contrast depends on which band is examined. The stage contrast therefore depends on the band being examined, as the source reports for each frequency range."
   ],
   "43": [
    "**Phase–amplitude coupling** means that the amplitude of a faster oscillation varies with the phase of a slower oscillation. Phase specifies position within a repeated voltage cycle, while amplitude measures the size of the faster component.",

@@ -210,7 +210,7 @@ def fit_single_box(box, texts):
     gap = int(sp.get("val")) / 100 if sp is not None else 0
     plain = [PLAIN.sub("", t) for t in texts]
     cur = pt
-    while cur > 11:
+    while cur > 14:                                  # scaffolding/RULES.md: body text 14-15 pt
         need = sum(wrap_lines(t, int(box.width * WRAP_FACTOR), cur) * cur * LINE_FACTOR * ls + gap for t in plain) * EMU_PT
         if need <= box.height:
             break
@@ -234,7 +234,7 @@ def write_body(slide, c, texts, normal, bold):
             np_ = copy.deepcopy(proto)
             fill_paragraph(np_, t, normal, bold)
             tx.append(np_)
-        fit_single_box(box, texts)
+        size_body(box, texts)
         return
     for k, t in enumerate(texts):                         # one box per paragraph
         if k >= len(boxes):                               # more paragraphs than boxes: clone the last
@@ -503,28 +503,13 @@ def merge_body_boxes(slide):
         for old in ppr.findall(A + "spcAft") + ppr.findall(A + "spcBef"):
             ppr.remove(old)
         aft = etree.Element(A + "spcAft")
-        etree.SubElement(aft, A + "spcPts").set("val", str(PARA_GAP_PT * 100 if i < len(paras) - 1 else 0))
+        etree.SubElement(aft, A + "spcPts").set("val", str(PARA_GAP_PT * 100))     # Space After on every paragraph
         ln = ppr.find(A + "lnSpc")
         (ln.addnext(aft) if ln is not None else ppr.insert(0, aft))
         texts.append("".join(t.text or "" for t in p.iter(A + "t")))
     limit = max(bottom, BODY_BOTTOM)
     first.height = Emu(limit - first.top)
-    pt = body_pt(first)
-    cur, lh0 = pt, _line_height_pt(tx, pt)
-    while cur > 11:
-        lh = lh0 * cur / pt
-        need = sum(wrap_lines(t, int(first.width * WRAP_FACTOR), cur) * lh + (PARA_GAP_PT if k < len(texts) - 1 else 0)
-                   for k, t in enumerate(texts)) * EMU_PT
-        if need <= first.height:
-            break
-        cur -= 0.5
-    if cur != pt:
-        for r in tx.iter(A + "rPr"):
-            if r.get("sz"):
-                r.set("sz", str(int(cur * 100)))
-        for sp in tx.iter(A + "spcPts"):
-            if sp.getparent().tag == A + "lnSpc":
-                sp.set("val", str(int(int(sp.get("val")) * cur / pt)))
+    size_body(first, texts)
     return True
 
 
@@ -541,6 +526,53 @@ def body_line_counts(slide):
             if p.text.strip():
                 out.append(wrap_lines(PLAIN.sub("", p.text), int(box.width * WRAP_FACTOR), pt))
     return out
+
+
+def size_body(box, texts):
+    """One body size for every paragraph on the slide: 15 pt if the text fits, otherwise 14 pt (scaffolding/RULES.md).
+    Returns False when even 14 pt does not fit, so the build can report the slide."""
+    tx = box.text_frame._txBody
+    pt0 = body_pt(box)
+    lh0 = _line_height_pt(tx, pt0)
+    plain = [PLAIN.sub("", t) for t in texts]
+    chosen, fits = 14.0, False
+    for size in (15.0, 14.0):
+        lh = lh0 * size / pt0
+        need = sum(wrap_lines(t, int(box.width * WRAP_FACTOR), size) * lh + PARA_GAP_PT for t in plain) * EMU_PT
+        if need <= box.height:
+            chosen, fits = size, True
+            break
+    for r in tx.iter(A + "rPr"):
+        if r.get("sz"):
+            r.set("sz", str(int(chosen * 100)))
+    for sp in tx.iter(A + "spcPts"):
+        if sp.getparent().tag == A + "lnSpc":
+            sp.set("val", str(int(int(sp.get("val")) * chosen / pt0)))
+    return fits
+
+
+def body_format_problems(slide):
+    """Font size and Space After in the body text (scaffolding/RULES.md)."""
+    c = classify(slide)
+    if not c["body"]:
+        return []
+    bad, sizes = [], set()
+    for b in c["body"]:
+        for p in b.text_frame.paragraphs:
+            if not p.text.strip():
+                bad.append("empty paragraph (use Space After, not a blank line)")
+                continue
+            pPr = p._p.find(A + "pPr")
+            if pPr is None or pPr.find(A + "spcAft") is None:
+                bad.append("paragraph without Space After")
+            for r in p._p.iter(A + "rPr"):
+                if r.get("sz"):
+                    sizes.add(int(r.get("sz")))
+    if sizes and not sizes <= {1400, 1500}:
+        bad.append(f"body font sizes {sorted(x / 100 for x in sizes)} pt (expected 14-15)")
+    if len(sizes) > 1:
+        bad.append(f"body font sizes differ within the slide {sorted(x / 100 for x in sizes)} pt")
+    return bad
 
 
 def main():

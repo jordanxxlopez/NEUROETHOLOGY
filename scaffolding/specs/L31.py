@@ -200,7 +200,12 @@ EXTRA_NOTES = [
     ["Source values.", "The published tracks and the measured values come from the original paper.", "Each value is reported with the scale used in the source."],
     ["Why the measure matters.", "The result separates the bird's measured behavior from the mechanism that produces it.", "The comparison stays within the same birds or sites."],
 ]
+APPEND_P1 = {
+    34: " A reliable identification therefore needs the stain combined with other evidence about the cell.",
+    39: " The electrode records this summed voltage continuously during each flight.",
+}
 APPEND_P3 = {
+    42: " Each band is read as its own measurement of the same flight.",
     18: " The comparison therefore keeps the nasal block constant while the earlier odor history changes.",
     22: " Each measure is kept separate in the analysis so that the early and late parts of the flight are not confused.",
     28: " The labeling pattern therefore identifies which nuclei the changing field reached.",
@@ -213,6 +218,8 @@ for _ins in inserts:
     _ins["notes"] = [_ins["notes"][0]] + _ins["notes"][1:] + EXTRA_NOTES
     if _ins["after"] == 37:
         _ins["notes"].append(["Context.", "Macrophages are normal residents of many tissues.", "Their iron load comes from the material they clear."])
+    if _ins["after"] in APPEND_P1:
+        _ins["paragraphs"][0] = _ins["paragraphs"][0] + APPEND_P1[_ins["after"]]
     if _ins["after"] in APPEND_P3:
         _ins["paragraphs"][2] = _ins["paragraphs"][2] + APPEND_P3[_ins["after"]]
 spec = {"third_paragraph": {}, "inserts": inserts, "body": _body.body}

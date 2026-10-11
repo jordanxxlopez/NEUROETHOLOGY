@@ -48,3 +48,8 @@ These are review flags, not automatic failures. Necessary scientific terms may b
 - Complicated sentence structure: several embedded clauses, unclear pronouns, or a long delay before the main verb.
 `tools/style_rules.py` `tongue_twister_flags()` returns each suspicious phrase with the reason. A language review decides the revision.
 Reading the revised paragraph aloud is the final check.
+
+## Font size and paragraph spacing (updated)
+- Body text is 14–15 pt. Choose the size from the space available on each slide, and use the same size for all three paragraphs on that slide.
+- Apply Line and Paragraph Spacing → Space After to every paragraph in the body text box, including the last one.
+- Separate paragraphs with paragraph spacing only. Never insert blank lines between paragraphs.

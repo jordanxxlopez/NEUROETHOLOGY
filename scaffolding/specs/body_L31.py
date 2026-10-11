@@ -149,7 +149,7 @@ body = {
     31: [
         "**Neuronal tracing** labels the anatomical pathways that leave an injection site. Lefeldt and colleagues introduced cholera toxin B into V1 to identify its central projections, then compared the labeled afferents with the regions that contained ZENK-positive neurons after magnetic stimulation.",
         "V1 fibers terminated in the principal and spinal trigeminal nuclei. The published overlays keep the spatial relationship between the traced fibers and the activation, with 100 µm and 200 µm scales. Acetylcholinesterase staining supplied anatomical boundaries for locating the subdivisions.",
-        "The overlap shows a plausible route for peripheral signals to reach the responsive tissue. Acetylcholinesterase serves here as an anatomical marker for locating those boundaries, which places the pathway within known regions.",
+        "The overlap shows a plausible route for peripheral signals to reach the responsive tissue. Acetylcholinesterase serves here as an anatomical marker for locating those boundaries, which places the pathway within known regions. The tracer and the stain are compared in the same sections, which keeps each measurement tied to the tissue it came from.",
     ],
     32: [
         "A **loss-of-function test** interrupts a candidate pathway and measures the response that remains. Lefeldt and colleagues cut both V1 branches, then exposed the birds to the same changing magnetic stimulus used for intact animals.",
@@ -202,9 +202,9 @@ body = {
         "The alignment relates neural changes to a defined transition in behavior. The hippocampal signal changes around the point where the bird commits to its heading, so the neural and behavioral records line up in time. The stages are defined by the bird's behavior, so the neural data are aligned to the flight rather than to a fixed clock time.",
     ],
     42: [
-        "**Spectral power** measures the contribution of a frequency range to a recorded voltage signal. Yang and colleagues defined theta as 4–12 Hz, beta as 12–30 Hz, low gamma as 30–60 Hz and high gamma as 60–120 Hz.",
+        "**Spectral power** measures the contribution of a frequency range to a recorded voltage signal. Yang and colleagues defined theta as 4–12 Hz, beta as 12–30 Hz, low gamma as 30–60 Hz and high gamma as 60–120 Hz. The bands are defined before the comparison, so every stage is measured against the same frequency limits.",
         "Theta and beta power ratios were higher during initial decision-making than during en route flight. The high-gamma power ratio was greater en route, whereas low gamma did not show a consistent difference between stages. The comparisons used paired behavioral stages within the same homing flights.",
-        "The pattern shows different population activity across flight stages rather than a uniform rise in every band. Each band reflects a different pattern of population activity, and the stage contrast depends on which band is examined.",
+        "The pattern shows different population activity across flight stages rather than a uniform rise in every band. Each band reflects a different pattern of population activity, and the stage contrast depends on which band is examined. The stage contrast therefore depends on the band being examined, as the source reports for each frequency range.",
     ],
     43: [
         "**Phase–amplitude coupling** means that the amplitude of a faster oscillation varies with the phase of a slower oscillation. Phase specifies position within a repeated voltage cycle, while amplitude measures the size of the faster component.",

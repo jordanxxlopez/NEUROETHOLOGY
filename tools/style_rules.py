@@ -207,3 +207,4 @@ def line_problems(line_counts):
     """Paragraphs that do not fill about five to seven lines (scaffolding/RULES.md)."""
     return [f"paragraph {k}: {n} lines (expected {MIN_PARA_LINES}-{MAX_PARA_LINES})"
             for k, n in enumerate(line_counts, 1) if not MIN_PARA_LINES <= n <= MAX_PARA_LINES]
+
