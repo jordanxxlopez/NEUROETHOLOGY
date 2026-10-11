@@ -63,3 +63,5 @@ The deck contains 38 embedded movie placements. The five supplied recordings are
 - Exact PPTX bytes: 459,026,231. SHA-256: `04f8c93d31a5ad0d4ea2b6ba6ac23cfac0fe06ece3978a1a3182b1993b8bd2a1`.
 
 All 71 slides rendered in LibreOffice, and all 25 appended slides visually reviewed. The final two corrected figure crops were re-rendered and checked separately. There were no visible text, caption or footer collisions. The original 46 slide parts remain byte-identical, including slide notes and media.
+
+Direct browser delivery verified: HTTP 200; full 459,026,231-byte PPTX SHA-256 matches the local expanded master. See `extension/download_validation.json`.

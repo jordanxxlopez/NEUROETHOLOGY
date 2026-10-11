@@ -13,3 +13,5 @@ Latest Rio revision: `deliverables/Neuroethology_Lecture94_FA2026_Rio_Revised.pp
 The current deck is `deliverables/Neuroethology_Lecture94_FA2026_Expanded71.pptx`: 71 slides, with 25 appended slides (24 content slides plus a final Key takeaways). Original slides 1–46 remain in their original positions, including their Key takeaways slide. All original slide XML, notes, relationships, figures, posters and video bytes are identical to the Rio-revised master; only package indexes and the slide-count property change.
 
 The deck contains 38 embedded movie placements. The five supplied recordings are added on slides 47 (Rio), 57 (Luca), 66 (Moe training), and 67 (both LED baseline trials). Rio appears exactly three times in the whole deck: 32, 35 and 47. Native uploaded media bytes, resolution, timing and audio are preserved without re-encoding.
+
+[Download the complete 71-slide PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/94340fa92d40f3b775489b91c37fa3a95c059a06/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). The full browser response has been verified, including byte count and SHA-256.
