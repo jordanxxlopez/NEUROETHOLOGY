@@ -1,9 +1,11 @@
-# Lecture 84: required PDF upload
+# Lecture 84 sources secured
 
-The exact lecture title is Animals in Virtual and Interactive Environments II: Animals at the controls, joysticks, touchscreens, vehicles, and virtual games. Date TBD.
+All seven required primary-article PDFs are downloaded and verified. The uploaded Crawford paper is included. No PDF uploads are outstanding.
 
-1. Crawford LE, Knouse LE, Kent MH, Vavra D, Harding O, LeServe D, Fox N, Hu S, Li P, Glory C, Lambert K (2020). **Enriched environment exposure accelerates rodent driving skills.** *Behavioural Brain Research* 378:112309. https://doi.org/10.1016/j.bbr.2019.112309
-
-This primary study supplies the rat-operated vehicle preparation, behavioral training, housing comparison and endocrine findings. Its original PDF is required for accurate teaching content and published figure crops. The University of Richmond catalogue at https://scholarship.richmond.edu/psychology-faculty-publications/79 provides bibliographic information and an abstract but links its full text to ScienceDirect, rather than hosting a downloadable PDF. ScienceDirect access was rejected by the environment's network proxy (403). Europe PMC reports no open-access full text. No substitute figures or findings have been created.
-
-Upload the article PDF to continue. The DOI contains 2019, but Crossref and the university repository identify the journal publication as 2020. Optional supplementary videos are checked separately and do not block the lecture.
+1. Acquisition of a Joystick-Operated Video Task by Pigs (<i>Sus scrofa</i>). https://doi.org/10.3389/fpsyg.2021.631755
+2. A Touchscreen Device for Behavioral Testing in Pigs. https://doi.org/10.3390/biomedicines10102612
+3. Apex and ApeTouch: Development of a Portable Touchscreen System and Software for Primates at Zoos. https://doi.org/10.3390/ani12131660
+4. A Touchscreen-Based, Multiple-Choice Approach to Cognitive Enrichment of Captive Rhesus Macaques (<i>Macaca mulatta</i>). https://doi.org/10.3390/ani13172702
+5. Enriched environment exposure accelerates rodent driving skills https://doi.org/10.1016/j.bbr.2019.112309
+6. Learning to Control a Brain–Machine Interface for Reaching and Grasping by Primates https://doi.org/10.1371/journal.pbio.0000042
+7. Pigeons, portals, and Pacman: Insightful problem solving and navigation using a touchscreen video game https://doi.org/10.1002/jeab.70083
