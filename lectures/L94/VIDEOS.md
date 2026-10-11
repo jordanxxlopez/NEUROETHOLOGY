@@ -18,3 +18,23 @@ Open the PPTX in PowerPoint Slide Show and click the video poster labeled “Cli
 Ten distinct original recordings are embedded. The instructor authorized relevant comparative experiments while retaining sea lions as the lecture’s focus. All 44 original content-slide titles and body paragraphs are retained; added notes explicitly distinguish the comparative preparations from sea-lion evidence. There are two sea-lion recordings (EVE apparatus/acquisition and trained rhythmic responding), two comparative primate interfaces, three original reward-choice conditions in pigs, and three zebrafish visual-feedback/interface recordings. No recording was duplicated or divided to reach the count.
 
 The original EVE recording supplied by the instructor is 263.68 s and contains AAC audio. It is retained byte-for-byte in the instructor’s compressed compatible form. The mouse-lemur WMV was converted to H.264 MP4 for compatibility, preserving the complete recording and its original silence. Interactive Microsoft PowerPoint playback could not be tested in this Linux environment; each clip decoded fully and the saved PPTX media, relationships and timing entries were verified.
+
+## Instructor-requested EVE excerpts
+
+The complete original ten recordings above remain embedded and unchanged. Seven additional, slide-specific excerpts from only the instructor-supplied EVE recording are embedded. There are 17 playable videos, drawn from ten original recordings; these excerpts are not additional distinct studies. This addition follows the instructor’s explicit request to extract relevant segments and retain all existing recordings.
+
+| Slide | Source interval | Topic | Clip length |
+|---|---|---|---:|
+| 9 | 0:00–0:13 | (2023), EVE excerpt 0:00–0:13. Brief button contact. | 13.01 s |
+| 10 | 0:15–0:30 | (2023), EVE excerpt 0:15–0:30. Restricted directional movement. | 15.02 s |
+| 11 | 0:45–1:05 | (2023), EVE excerpt 0:45–1:05. Sustained directional contact. | 20.02 s |
+| 12 | 1:14–1:35 | (2023), EVE excerpt 1:14–1:35. Stopping at interior targets. | 21.02 s |
+| 13 | 2:00–2:25 | (2023), EVE excerpt 2:00–2:25. Switching directions. | 25.02 s |
+| 14 | 2:40–3:00 | (2023), EVE excerpt 2:40–3:00. Precise target placement. | 20.02 s |
+| 15 | 3:20–3:40 | (2023), EVE excerpt 3:20–3:40. Phase 6 with feeder. | 20.02 s |
+
+The newly uploaded full-size original exceeds the 32 MiB attachment transfer limit. Excerpts therefore use the instructor’s previously supplied complete compressed copy of this same recording (263.68 s, all six phases). Only temporal trimming and compatible H.264 encoding were applied. The full scene is retained so the animal, directional buttons, screen, trainer and feeder context remain visible. Original AAC audio packets are retained; no narration, music or sound effects were added. Audio-stream presence does not guarantee audible sound throughout an excerpt. Source intervals and hashes are recorded in `media_sources.json`.
+
+Original movie positions, captions and all original lecture text remain unchanged. Only article-figure placement/size on slides 9–15 was adjusted to accommodate the new clips. On slides 12 and 14, the new EVE excerpt is above the existing comparative recording, alongside the article figure.
+
+Rebuild: run `tools/build_lecture.py lectures/L94/lecture.json`, then `lectures/L94/embed_media.py`, then `lectures/L94/add_eve_excerpts.py`. The checked-in excerpts can be regenerated with `lectures/L94/extract_eve_excerpts.py`. Use the repository Python environment. Do not apply the embedding scripts twice to an already embedded deck.
