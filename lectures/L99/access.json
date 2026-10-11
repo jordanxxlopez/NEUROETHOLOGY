@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Burkhardt publisher",
+    "url": "https://www.science.org/doi/10.1126/science.ade5645",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Burkhardt PDF",
+    "url": "https://www.science.org/doi/pdf/10.1126/science.ade5645",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Burkhardt supplement",
+    "url": "https://www.science.org/doi/suppl/10.1126/science.ade5645/suppl_file/science.ade5645_sm.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Burkhardt PMC",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7617566/fullTextXML",
+    "status": 200,
+    "bytes": 75138,
+    "path": "/workspace/l99-research/Burkhardt_PMC.txt",
+    "type": "application/xml"
+  },
+  {
+    "name": "Moroz PMC",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4337882/fullTextXML",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "name": "Sachkova publisher",
+    "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(21)01220-3",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "Statocyst PMC",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12912722/fullTextXML",
+    "status": 200,
+    "bytes": 215318,
+    "path": "/workspace/l99-research/Statocyst_PMC.txt",
+    "type": "application/xml"
+  },
+  {
+    "name": "Statocyst eLife",
+    "url": "https://elifesciences.org/articles/108420",
+    "status": 200,
+    "bytes": 3038,
+    "path": "/workspace/l99-research/Statocyst_eLife.txt",
+    "type": "text/html; charset=utf-8"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Burkhardt EuropePMC PDF",
+    "url": "https://europepmc.org/articles/PMC7617566?pdf=render",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Burkhardt EuropePMC movie",
+    "url": "https://europepmc.org/articles/PMC7617566/bin/EMS204032-supplement-Movie_S1.avi",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Statocyst CDN PDF",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-v2.pdf",
+    "bytes": 9212017,
+    "signature": "b'%PDF-1.7\\r%\\xe2\\xe3\\xcf\\xd3\\r\\n897 '",
+    "type": "application/pdf"
+  },
+  {
+    "name": "Statocyst CDN video1",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-video1.mp4",
+    "bytes": 6077900,
+    "signature": "b'\\x00\\x00\\x00\\x1cftypisom\\x00\\x00\\x00\\x01isom'",
+    "type": "video/mp4"
+  },
+  {
+    "name": "Statocyst archive PDF",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12912722/pdf/elife-108420.pdf",
+    "bytes": 1817,
+    "signature": "b'\\n\\n\\n\\n<html>\\n  <head>\\n'",
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "name": "Statocyst archive video1",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12912722/bin/elife-108420-video1.mp4",
+    "bytes": 1817,
+    "signature": "b'\\n\\n\\n\\n<html>\\n  <head>\\n'",
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "name": "Sachkova metadata",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.cub.2021.09.005",
+    "bytes": 29730,
+    "signature": "b'{\"status\":\"ok\",\"mess'",
+    "type": "application/json",
+    "links": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0960982221012458?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0960982221012458?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "reference": {
+      "title": [
+        "Neuropeptide repertoire and 3D anatomy of the ctenophore nervous system"
+      ],
+      "volume": "31",
+      "page": "5274-5285.e6",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "Current Biology"
+      ]
+    }
+  },
+  {
+    "name": "Jokura2022 metadata",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.cub.2022.09.061",
+    "bytes": 16770,
+    "signature": "b'{\"status\":\"ok\",\"mess'",
+    "type": "application/json",
+    "links": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0960982222016037?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0960982222016037?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "reference": {
+      "title": [
+        "Two distinct compartments of a ctenophore comb plate provide structural and functional integrity for the motility of giant multicilia"
+      ],
+      "volume": "32",
+      "page": "5144-5152.e6",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "Current Biology"
+      ]
+    }
+  },
+  {
+    "name": "Moroz article",
+    "url": "https://www.nature.com/articles/nature13400",
+    "bytes": 629736,
+    "signature": "b'\\n\\n<!DOCTYPE html>\\n<h'",
+    "type": "text/html; charset=utf-8"
+  }
+]
