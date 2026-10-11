@@ -1,3 +1,20 @@
+# Current 84-slide revision validation
+
+- 84 slides, including 82 content slides and one final Key takeaways at slide 84.
+- All 246 teaching paragraphs have five complete sentences and at least six rendered lines.
+- No routine limitations, scaffolding narration, statistics clutter or body-text overflow detected.
+- 569 existing non-body shapes preserved exactly; all 127 existing media parts retain their original bytes.
+- All 38 movie placements, original video timing, resolution and audio preserved.
+- All original reference and media-credit notes retained, with rewritten teaching transcripts.
+- All 82 content slides carry published figures; 57 image slides retain source color.
+- Repository checker: zero failures and warnings. Microsoft Open XML SDK 3.3.0, Office 2019 validation: zero errors.
+- All slides rendered and inspected. Interactive desktop PowerPoint playback remains untested in Linux.
+- Complete PPTX: 460,876,542 bytes; SHA-256 `3a571345426df3bfa006c04ffb8a0980a2c5da1f89bf1e45f82511289d084bcc`.
+
+Detailed records are in `revision84/`. The instructor selected retention of every embedded movie over a smaller file size.
+
+## Earlier revision history
+
 # Expanded Lecture 94 validation
 
 - 46 slides; 44 image slides, all 44 with original primary article figures, 34 with source color. Repository checker: zero failures and warnings.

@@ -1,6 +1,10 @@
-**Latest download:** [Download the latest 70-slide PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/308be4fc2dfd05ba034a967b4650ad65dfb1fb47/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). Exactly one final Key takeaways, all 38 embedded video placements unchanged, 456.85 MB as explicitly chosen by the instructor. Microsoft Open XML validation: zero errors; full browser download verified.
+**Current revision: 84 slides.** Fourteen content slides were added before the sole final Key takeaways slide. All 68 existing content slides were rewritten to three paragraphs of five complete sentences each, while preserving their findings, original figures and all 38 embedded movie placements. Every paragraph has at least six rendered lines. Native media bytes and audio are unchanged. The complete file is 460.88 MB, following the instructor’s explicit preference to retain all videos. Repository checks and Microsoft Open XML SDK validation pass with zero errors. Source and validation records: [revision84](revision84/README.md).
 
-**Latest corrected download:** [Download the corrected 71-slide PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/97bdec026ea1330f55ad9188dbf8727e2377ec7b/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). This version supersedes the earlier 71-slide file that prompted PowerPoint repair. Microsoft Open XML validation: zero errors. All 71 slides and 38 video placements preserved.
+## Earlier revision history
+
+**Archived 70-slide download:** [Download the latest 70-slide PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/308be4fc2dfd05ba034a967b4650ad65dfb1fb47/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). Exactly one final Key takeaways, all 38 embedded video placements unchanged, 456.85 MB as explicitly chosen by the instructor. Microsoft Open XML validation: zero errors; full browser download verified.
+
+**Archived corrected 71-slide download:** [Download the corrected 71-slide PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/97bdec026ea1330f55ad9188dbf8727e2377ec7b/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). This version supersedes the earlier 71-slide file that prompted PowerPoint repair. Microsoft Open XML validation: zero errors. All 71 slides and 38 video placements preserved.
 
 # Lecture 94 status
 

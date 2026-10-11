@@ -1,3 +1,9 @@
+# Current 84-slide revision
+
+All 38 embedded movie placements from the 70-slide single-summary baseline are retained at their original content-slide positions. The fourteen added content slides are 70–83; the sole final Key takeaways is slide 84. Existing movie shapes and every original media file are byte-identical to the baseline. No video trimming, cropping, re-encoding, resolution reduction, speed changes or audio removal occurs in this revision. See `revision84/package_validation.json` and `revision84/rendered_validation.json`.
+
+## Earlier recording history
+
 # Lecture 94 embedded video locations
 
 Open the PPTX in PowerPoint Slide Show and click the video poster labeled “Click to play.” The recordings are embedded in the file; internet access is not required to play them. A static PDF or browser preview cannot play these recordings.
