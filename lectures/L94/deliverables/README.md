@@ -23,3 +23,5 @@ Latest output: `Neuroethology_Lecture94_FA2026_Paragraph3_Revised.pptx`. Only pa
 ## Latest Rio revision
 
 Latest output: `Neuroethology_Lecture94_FA2026_Rio_Revised.pptx`, with 33 embedded video placements. Reproduce from the preserved paragraph-3 revision with `python lectures/L94/add_rio_identity.py`. Rio replaces Joly on slide 35 and is also embedded on slide 32. The uploaded file is preserved without trimming, cropping, compression or resolution changes. The root GitHub LFS download points to this latest revision.
+
+[Download the verified Rio-revised PPTX](https://media.githubusercontent.com/media/jordanxxlopez/NEUROETHOLOGY/b5e12a2c61c4246ec691cc713c5dd7f7d55d762d/lectures/L94/Neuroethology_Lecture94_FA2026_Download.pptx). Complete browser response and SHA-256 verified.

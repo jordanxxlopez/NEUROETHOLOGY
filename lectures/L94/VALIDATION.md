@@ -45,3 +45,5 @@ Revised single-file browser download returned HTTP 200; its full response matche
 - Correct citation and exact Supplementary Video 17.2 identifier are included in the notes and captions. Slide 35 distinguishes identity matching from its reversal-learning evidence.
 - Native resolution, original audio and original video bytes preserved, without any editing or encoding. Interactive Microsoft PowerPoint playback remains untested.
 - Repository checker and rendered-slide visual review completed for the revised deck. Final size 337375852 bytes; SHA-256 14c54f80b92f4adf2f6e17f1299d86cf691a734ef9da8d7aaf58110739cf8b94.
+
+Latest Rio-revised direct browser download returned HTTP 200, and its complete 337375852-byte response matched the deck SHA-256.
