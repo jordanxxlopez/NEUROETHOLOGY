@@ -128,15 +128,15 @@ BODY_LIMITATION = re.compile(
 # Metacommentary, first person, talk about the slide or the lecture, and future/continuous tense.
 # Roman-numeral "I" (I units, I-type) is excluded: the first-person "I" is matched case-sensitively.
 BODY_FRAMING = re.compile(
-    r"\b(?:we|we're|we've|our|us|let'?s)\b|\bthis slide\b|\bthis figure\b|"
-    r"\bthe (?:lecture|course|class)\b|\bthis (?:lecture|course|class)\b|\bthe panel\b|\bthis panel\b|"
+    r"\b(?:we|we're|we've|our|us)\b|\blet['’]s\b|\bthis slide\b|\bthis figure\b|"
+    r"\bthe (?:lecture|class)\b|\bthis (?:lecture|class)\b|\bthe panel\b|\bthis panel\b|"
     r"\bresearchers? (?:need|should|must)\b|\bthis matters\b|\bmatters when interpreting\b|"
     r"\binterpret(?:ing)? (?:the )?(?:data|study|result)s?\b|"
     r"\bwill (?:be|need|show|discuss|cover|look|see)\b|\bis going to\b|\bare going to\b|\bnext,\b|\btoday\b|"
     r"\b(?:is|are|am|was|were) (?:looking|examining|discussing|considering|exploring|showing)\b",
     re.I,
 )
-FIRST_PERSON_I = re.compile(r"(?<![\w-])I (?=[a-z])(?!(?:units?|cells?|neurons?|afferents?|responses?|types?|classes?)\b)")
+FIRST_PERSON_I = re.compile(r"(?<![\w-])(?<!Stumps )(?<!stumps )(?<!Group )I (?=[a-z])(?!(?:units?|cells?|neurons?|afferents?|responses?|types?|classes?)\b)")
 
 
 def body_problems(paragraphs):

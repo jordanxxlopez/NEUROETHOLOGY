@@ -476,13 +476,11 @@
   {
    "after": 15,
    "title": "Full width at half maximum measures search spread",
-   "bold": [
-    "full width at half maximum"
-   ],
+   "bold": [],
    "paragraphs": [
-    "The full width at half maximum is the width of a distribution measured at half of its peak height. For a search density distribution it describes how broadly an ant spreads its search around the expected nest location, while the centre of the distribution estimates that location.",
+    "The **full width at half maximum** is the width of a distribution measured at half of its peak height. For a search density distribution it describes how broadly an ant spreads its search around the expected nest location, while the center of the distribution estimates that location.",
     "The test channel was divided into 10 cm bins. In the first test the full width at half maximum was 8.3 m for stilts, 6.0 m for normal legs, 5.2 m for stumps I and 4.1 m for stumps II.",
-    "Stilts produced the broadest search and stumps II the narrowest. Spread and centre both vary with leg length, so the plotted search curves differ in how widely the animal samples positions as well as in where it expects the nest."
+    "Stilts produced the broadest search and stumps II the narrowest. Spread and center both vary with leg length, so the plotted search curves differ in how widely the animal samples positions as well as in where it expects the nest."
    ],
    "citation": "Wittlinger et al. (2007)",
    "notes": [
@@ -895,13 +893,11 @@
   {
    "after": 38,
    "title": "A goal vector stores a destination",
-   "bold": [
-    "goal vector"
-   ],
+   "bold": [],
    "paragraphs": [
-    "A goal vector specifies a remembered direction and distance to a destination relative to the nest. A shortcut connects familiar destinations along a route that was not itself used during training, and this behavior need not uniquely imply a metric cognitive map.",
-    "Voegeli and colleagues trained _Cataglyphis_ ants to feeders A and B in separate channels at nest distances of 4.5 m and 5.7 m. A test channel connected the feeder positions across a 4.1 m separation, and only one nest-channel entrance was open at a time.",
-    "The arrangement separates experience with each nest-to-feeder route from experience with the connecting route. Ants were never trained to follow the proposed shortcut, so a search toward the second feeder must come from stored goal vectors and the ongoing path integrator."
+    "A **goal vector** stores the direction and distance to a destination relative to the nest. Each feeder therefore has its own vector, and the ant can use either one at any time during a search.",
+    "Voegeli and colleagues trained Cataglyphis ants to feeders A and B at nest distances of 4.5 m and 5.7 m. A test channel connected the feeder positions across a 4.1 m separation, and only one nest-channel entrance was open at a time.",
+    "The arrangement separates experience with each nest-to-feeder route from experience with the connecting route. Ants were never trained to follow the proposed shortcut, so a search toward the second feeder must come from the stored goal vectors combined with the ongoing path integrator."
    ],
    "citation": "Voegeli et al. (2025)",
    "notes": [
@@ -952,5 +948,67 @@
     "Voegeli 2025"
    ]
   }
- ]
+ ],
+ "body": {
+  "2": [
+   "**Path integration** is the continual updating of direction and distance from a starting point using information gathered during movement. The **home vector** specifies the direction and distance back to the nest, so it summarizes the whole outward trip in one vector rather than retracing each turn. It is a computation that runs continuously, so the ant always holds an estimate of where the nest lies.",
+   "Müller and Wehner recorded a natural foraging trip of Cataglyphis fortis in Tunisia. The outward path measured 354.5 m, while the maximum distance from the nest was 113.2 m. After finding food, the ant returned along a comparatively direct inbound route, so the homing path was far shorter than the outward path.",
+   "The difference between outward path length and nest displacement separates route retracing from **vector-guided homing**. A direct return after a winding 354.5 m outward path reflects a vector that sums every segment of the trip into one direction and one distance. The vector is recalculated from the full path, so the inbound route can be short even when the outbound route was long."
+  ],
+  "3": [
+   "Passive displacement changes an ant's geographical position without supplying the walking movements that normally update its **home vector**. A displaced ant therefore expresses a direction that matches its earlier position rather than the nest's actual location. The ant's internal estimate therefore stays fixed at the place where the displacement occurred.",
+   "Müller and Wehner captured a food-carrying ant at its feeding location and released it elsewhere in open terrain. The subsequent course was compared with the geographical nest direction and with the course predicted from its recorded outbound trajectory, on a 10 m spatial scale. The released ant was free to walk, so its first heading reveals the vector it held at release.",
+   "The course retained information from the outward journey despite the transfer. The test separates movement-derived navigation from immediate attraction to the true nest, because the course after release points to where the nest would lie had the ant not been moved. The ant's direction after release is therefore a measure of its stored vector."
+  ],
+  "5": [
+   "**Systematic error** means a directional deviation that varies predictably with an experimental manipulation, and it differs from random scatter among journeys. Müller and Wehner measured the angular difference between the true homeward direction and the course expressed after two-leg training. Each outbound turn adds a small error to the estimate, and the errors accumulate along the path.",
+   "With outbound legs of 10 m and 5 m, the error increased as the turning angle approached about 150°, reaching about 20° in the published measurements. The error returned toward zero at the straight and reversed arrangements, so its size depends on the geometry of the outbound turn. The published measurements thus describe a clear relationship between the turn and the homeward error.",
+   "The angle-dependent pattern supports an approximate **updating rule** under these conditions. Because the error is systematic rather than random, the integrator follows a consistent rule that can be described mathematically. The rule therefore predicts the error for any tested turning angle. Its prediction is the quantity that the experiment tests against the measured errors, and the two agree in direction and size."
+  ],
+  "8": [
+   "Route geometry determines how an approximate path integrator accumulates error. A sharp sustained turn produces a large deviation, whereas turns in opposite directions partly cancel their effects on the estimated homeward direction. The sign of each turn determines whether successive errors add or cancel. The effect of each turn therefore depends on the turn that came before it.",
+   "Müller and Wehner compared the proposed updating rule with recorded natural foraging paths. In the displaced example the expressed course departed from the real nest direction by about 20°, in agreement with the direction predicted from that ant's outward trajectory. Both paths were recorded in the field, so the prediction is tested in natural conditions.",
+   "Natural Cataglyphis paths rarely contain the repeated sharp backward turns that generate the largest experimental errors. For the turning patterns an ant meets on a real foraging trip, the approximation keeps homing errors small, and landmarks and searching cover the cases where the vector alone is insufficient. The natural route therefore keeps the error small, consistent with a navigation system adapted to ordinary foraging routes."
+  ],
+  "12": [
+   "Wittlinger and colleagues extended the odometer experiment with two degrees of leg shortening. **Tarsomeres** are the distal segments of an insect leg, and the **tibia** lies proximal to the tarsus. Removing these regions changes the effective length of the walking limb. Each degree of shortening changes the stride length, which is the quantity the experiment varies.",
+   "Stumps I lacked the distal tarsal segments, whereas stumps II had the distal half of the tibia removed. A third group carried bristle stilts, and normal-legged ants provided the comparison. All groups had acquired the same 10 m outbound feeder distance before the first test. Each group is defined by its anatomical change, so the groups can be compared directly.",
+   "The graded manipulation allows comparison of different reductions in stride length rather than treating all shortened legs as one condition. All groups shared the same navigational task, so differences in homing distance can be attributed to the degree of leg shortening. The comparison therefore isolates the effect of leg length on the search."
+  ],
+  "14": [
+   "A shorter stride covers less ground during each locomotor cycle. If outbound distance is stored in relation to movement cycles, shortening the legs after that journey makes the inbound estimate end before the original feeder-to-nest distance. The estimate of distance is built from the number of cycles, so each step of the stride matters.",
+   "In the expanded experiment, normal-legged ants searched at 10.20 m, stumps-I ants at 6.95 m and stumps-II ants at 5.75 m. Stilts produced searches at 15.30 m. These values were measured after a 10 m outbound run through the training channel. These measured distances all come from the same outbound run, so they can be compared directly.",
+   "The graded undershoot is consistent with a stride integrator rather than a fixed physical-distance readout independent of locomotion. Stumps II removed more of the leg than stumps I and produced the shorter search, so greater shortening produced greater undershoot. The graded pattern shows that the search distance scales with the stride, as the integrator predicts."
+  ],
+  "15": [
+   "A **search density distribution** records how often an ant visits positions during its search. Its center estimates the expected nest location, while its width describes how broadly the animal distributes its search around that estimate. The distribution is the record of where the ant searched, so its shape carries the search information.",
+   "The test channel was divided into 10 cm bins. In the first test the full width at half maximum was 8.3 m for stilts, 6.0 m for normal legs, 5.2 m for stumps I and 4.1 m for stumps II. The search curves therefore differed in spread as well as in center.",
+   "Longer strides spread the search over more distance and shorter strides over less, so the width of the distribution scales with stride length as the center does. Center and width are two behavioral readouts of the same stride-based process. Stride length therefore sets both the place where the search is centered and the spread around it."
+  ],
+  "21": [
+   "A **stride integrator** accumulates information associated with rhythmic locomotion. It accumulates movement-linked signals rather than counting discrete footfalls. Possible inputs include proprioception, sensory information about limb position and movement, and activity associated with generating the walking rhythm. Each input is a signal that changes with every stride. The integrator therefore keeps a running total that grows with each stride the ant takes.",
+   "The 2007 experiments combined a 10 m navigational task with 250-frame-per-second video and leg-length manipulations. The preserved tripod pattern and the graded stride changes were both consistent with accumulation of movement-linked information rather than a fixed elapsed-time rule. The graded pattern therefore matches a process that accumulates stride-linked information. Each leg-length treatment changes the size of the stride, which changes the total that the integrator accumulates.",
+   "Proprioceptive signals, limb-position feedback and the motor commands that generate the walking rhythm are the candidate inputs to the integrator. Each carries information proportional to stride, which is why a stride integrator can account for graded distance errors. Together these inputs supply the stride-based estimate that the experiments measured. Each of these signals scales with the distance covered, which links the stride to the integrated estimate."
+  ],
+  "34": [
+   "A magnetic cue does not have to point toward natural magnetic north to serve as a usable short-term directional reference. What matters is whether its direction remains stable during each individual learning walk. The ant needs only a direction that stays stable during the walk to use the cue. The cue functions because it stays stable during each walk, even though its alignment changes over the day.",
+   "In the magnetic-plus-solar condition, the horizontal vector was adjusted every 10 seconds to follow the sun's azimuth over the day. Individual walks lasted seconds to minutes, and the ants retained nest-directed longest stops despite the vector's changing geographical alignment. The solar azimuth moved steadily during the day, and the vector followed it at each 10-second update.",
+   "A magnetic vector that follows the solar azimuth still serves as a usable reference within each short learning walk, so nest-directed look-backs persist. The manipulation makes magnetic and celestial directions covary over the day, which removes their natural changing angular relationship. The ants therefore keep orienting toward the nest throughout each walk."
+  ],
+  "38": [
+   "A **goal vector** specifies a remembered direction and distance to a destination relative to the nest. A shortcut connects familiar destinations along a route that was never used during training, and such behavior can be produced by stored vectors without requiring a metric cognitive map. Each goal vector is tied to a feeder, so the ant can select the vector that matches its goal.",
+   "Voegeli and colleagues trained Cataglyphis ants to feeders A and B in separate channels, at nest distances of 4.5 m and 5.7 m. The test channel connected the two feeder positions across a 4.1 m separation, and only one nest-channel entrance was open at a time. The two feeders were therefore separated by a fixed distance, which the test channel spanned.",
+   "The channel arrangement separates experience with each nest-to-feeder route from experience with the connecting route. The ants were never trained to follow the proposed shortcut, so a search toward the second feeder must come from stored goal vectors and the ongoing path integrator. The test thus isolates the effect of stored goal vectors from any learned route."
+  ],
+  "40": [
+   "A **one-feeder control** establishes the search pattern expected without memory of a second food source. This comparison distinguishes a general tendency to widen a search from a directional bias toward another learned destination. The control establishes what a search looks like before any second destination is learned. The control makes the baseline explicit.",
+   "Control ants visited only feeder A before testing. After food removal their searches concentrated around the former feeder position and spread approximately symmetrically on its two sides. Distance from the starting point was measured in meters along the connecting test channel. The searches after food removal reflect the position of the single feeder the ants had learned.",
+   "The symmetric baseline sets the reference for interpreting the two-feeder experiments. A later directional shift is attributed to the second feeder, because ants with one feeder search equally on both sides of the channel. The symmetric pattern therefore indicates a neutral search, against which any directional bias in the two-feeder tests can be measured."
+  ],
+  "45": [
+   "A **metric cognitive map** represents spatial relationships among familiar places in a common coordinate system. Novel shortcutting is often taken as evidence for such a map, yet the same behavior can follow from simpler stored vectors combined with continuous updating of self-motion. A map of this kind predicts that the ant can take any route between learned places, not only the routes it has traveled.",
+   "Cataglyphis ants trained separately to feeders 4.5 m and 5.7 m from the nest searched along their previously untraveled connecting route. The controlled A-to-B test showed flexible navigation toward a second goal without prior experience of that particular route. The distances of the two feeders from the nest were fixed by the training, and the test used the same feeders.",
+   "Shortcutting is therefore a diagnostic that depends on the model of navigation considered. The observed behavior is compatible with a nest-referenced vector system, which accounts for the shortcut without the stronger assumption of a metric cognitive map. The interpretation therefore depends on which model the shortcut is evaluated against, and the vector model explains the observed route."
+  ]
+ }
 }
