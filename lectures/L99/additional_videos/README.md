@@ -1,3 +1,9 @@
+# Completed 21-video revision
+
+`complete_videos.py` adds the final uploaded MBARI excerpt to slide 45. The three credited aesthetic/general-science clips are on slides 11, 40 and 45. Seven academic additions remain on slides 4, 9, 25, 28, 32, 33 and 34. Original text, figures, titles, theme and eleven movies are preserved. Final source metadata is in `FINAL_VIDEOS.json`; final frame, package, preservation, layout, repository and OpenXML validation reports are beside it. Native desktop PowerPoint playback is not tested in this cloud environment.
+
+# Earlier preparation records
+
 # Lecture 99 additional-video revision
 
 Requested change: add seven academic and three aesthetic video clips, preserving existing text, figures, theme, slide count, and all eleven embedded recordings. The three aesthetic clips are an explicit lecture-specific exception authorized by the instructor; the general research-source rule remains in force.

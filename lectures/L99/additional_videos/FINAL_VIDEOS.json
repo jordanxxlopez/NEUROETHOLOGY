@@ -1,0 +1,979 @@
+[
+  {
+    "path": "/workspace/l99-research/media/compatible/Moroz_video1_clip.mp4",
+    "doi": "10.1038/nature13400",
+    "label": "Moroz (2014), Supplementary Video 1.",
+    "url": "https://www.nature.com/articles/nature13400#MOESM24",
+    "license": "Original supplementary recording, credited to Frazier Nivens / Ocean Imaging and Leonid L. Moroz / University of Florida",
+    "description": "Pleurobrachia bachei swimming, body motion and escape behavior.",
+    "processing": "Source interval 8\u201337 seconds; lossless H.264 conversion and lossless ALAC audio at original dimensions and rate. Intro and credits omitted from clip but credited in notes.",
+    "slide": 2,
+    "key": "p1",
+    "bytes": 52325346,
+    "sha256": "09c8ad7865ff95d804ba840bb55e8e5e8b85912e94101af9d16eacd8fa8d2f91",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "30000/1001"
+        },
+        {
+          "codec_name": "alac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "29.029000"
+      }
+    },
+    "caption": "Moroz (2014), Supplementary Video 1. Sea-gooseberry swimming and escape."
+  },
+  {
+    "slide": 4,
+    "path": "/workspace/l99-extra-videos/finalprobe2",
+    "doi": "10.1016/j.cub.2019.08.059",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960982219311091-mmc2.mp4",
+    "caption": "Jokura (2019), article-provided video: mmc2.mp4. Comb rows of a swimming ctenophore.",
+    "description": "Whole-animal comb-row beating, showing the locomotor plates in action. The 2022 methods explicitly link this earlier study to an author-provided YouTube recording.",
+    "credit": "Jokura et al.; original Current Biology supplementary recording. Publisher terms apply.",
+    "processing": "Original file embedded byte-for-byte; no resizing, recompression, recoloring or speed change.",
+    "embed_path": "/workspace/l99-extra-videos/finalprobe2",
+    "sha256": "01cde27e228e69728bce3a1cdc5e7666f8f61206be896f30dcd6fdbdc5fef9c1",
+    "bytes": 3056759,
+    "width": 1280,
+    "height": 720,
+    "geometry": {
+      "x": 8.19954272382619,
+      "y": 4.391735564304462,
+      "w": 3.6769145523476223,
+      "h": 2.0682644356955375
+    }
+  },
+  {
+    "slide": 9,
+    "path": "/workspace/l99-extra-videos/download0.mp4",
+    "doi": "10.1016/j.cub.2022.09.061",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960982222016037-mmc2.mp4",
+    "caption": "Jokura (2022), Video S1. Control and CTENO189 knockdown under viscous load.",
+    "description": "Control versus CTENO189 morpholino recordings, with original condition labels and scale bars intact.",
+    "credit": "Jokura et al.; original Current Biology supplementary recording. Publisher terms apply.",
+    "processing": "Original file embedded byte-for-byte; no resizing, recompression, recoloring or speed change.",
+    "embed_path": "/workspace/l99-extra-videos/download0.mp4",
+    "sha256": "7dd85cb12d42033a23cfc8b1057411d29b1136e1b5e46ed3cb1e5e13c315058c",
+    "bytes": 17133287,
+    "width": 1920,
+    "height": 1080,
+    "geometry": {
+      "x": 8.350726742490522,
+      "y": 4.561817585301838,
+      "w": 3.374546515018955,
+      "h": 1.8981824146981623
+    }
+  },
+  {
+    "slide": 11,
+    "key": "6luG9mDaGgw",
+    "start": 16.016,
+    "end": 26.693333,
+    "poster": 7.0,
+    "description": "Original MBARI close-up footage of comb rows and changing animal orientation. The original on-screen explanation describes eight ctene rows and broad iridescent plates. The footage illustrates body motion and appearance; the existing article figure teaches statocyst anatomy.",
+    "caption": "Video: comb rows and body motion. Credit: MBARI.",
+    "original_file": "/workspace/attachments/70fe8750-f1de-4fa4-8543-d03d6b9fadcf/Weird and Wonderful\uff1a The bloody-belly comb jelly, a deep-sea fireball [6luG9mDaGgw].mp4",
+    "original_sha256": "bc30d37712cbfa4c7c3693c76c7df7763a2df29364856960b4687ad9edb75a90",
+    "clip": "/workspace/l99-extra-videos/6luG9mDaGgw_lecture_clip.mp4",
+    "sha256": "411e508c1b186b3f509630cddf8981c91ff2436ad34d0539acc1f4f48473562b",
+    "url": "https://www.youtube.com/watch?v=6luG9mDaGgw",
+    "credit": "MBARI (Monterey Bay Aquarium Research Institute). Original video overlays and logo retained. No Creative Commons license asserted.",
+    "processing": "Keyframe-aligned temporal extraction, video and audio stream copy. Full 1920 x 1080 frame, native frame rate, source color and sound preserved. No spatial crop is needed to fit the available space; the whole animal and source credits remain visible.",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 1,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "time_base": "1/30000",
+          "start_pts": 1200,
+          "start_time": "0.040000",
+          "duration_ts": 321321,
+          "duration": "10.710700",
+          "bit_rate": "1937873",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "321",
+          "extradata_size": 44,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 473088,
+          "duration": "10.727619",
+          "bit_rate": "128003",
+          "nb_frames": "462",
+          "extradata_size": 16,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "eng",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/workspace/l99-extra-videos/6luG9mDaGgw_lecture_clip.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "10.750700",
+        "size": "2778087",
+        "bit_rate": "2067278",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf61.7.103"
+        }
+      }
+    },
+    "geometry": {
+      "x": 8.126888888888889,
+      "y": 3.7030063429571305,
+      "w": 3.822222222222222,
+      "h": 2.15
+    }
+  },
+  {
+    "path": "/workspace/l99-research/media/Jokura_video1.mp4",
+    "doi": "10.7554/eLife.108420",
+    "label": "Jokura (2026), Video 1.",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-video1.mp4",
+    "license": "CC BY",
+    "description": "Video 1.Morphological rendering of the aboral organ, featuring four distinct cell types\u2014lithocytes, balancer cells, bridge cells, and components of the aboral nerve net (ANN).",
+    "slide": 12,
+    "key": "j1",
+    "bytes": 6077900,
+    "sha256": "143314488ef98b07cac8074ecc253c45511d4a52f37c206fa64117d08c4db6de",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 720,
+          "r_frame_rate": "30/1"
+        }
+      ],
+      "format": {
+        "duration": "34.400000"
+      }
+    },
+    "caption": "Jokura (2026), Video 1. Cell organization within the statocyst."
+  },
+  {
+    "path": "/workspace/l99-research/media/Jokura_video2.mp4",
+    "doi": "10.7554/eLife.108420",
+    "label": "Jokura (2026), Video 2.",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-video2.mp4",
+    "license": "CC BY",
+    "description": "Video 2.Visualization of balancer cilia extending from basal bodies.Bundles of balancer cells are shown in different colours. Each red dot indicates the position of a basal body, from which the cilium projects distally. Lithocytes are shown in grey as a reference point, and the outline of the aboral organ is indicated in transparent grey.",
+    "slide": 13,
+    "key": "j2",
+    "bytes": 2838238,
+    "sha256": "d2e85ead7b36db293ace203499b0531c71d6b99c0afa5da344287bbb81a9cc80",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 800,
+          "height": 700,
+          "r_frame_rate": "30/1"
+        }
+      ],
+      "format": {
+        "duration": "8.900000"
+      }
+    },
+    "caption": "Jokura (2026), Video 2. Balancer cilia traced from their bases."
+  },
+  {
+    "path": "/workspace/l99-research/media/Jokura_video8.mp4",
+    "doi": "10.7554/eLife.108420",
+    "label": "Jokura (2026), Video 8.",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-video8.mp4",
+    "license": "CC BY",
+    "description": "Video 8.High-speed imaging of balancer ciliary beating in the aboral organ tilted relative to gravity, illustrating gravity-induced asymmetry.The example on the left shows an aboral organ tilted by approximately 135\u00b0 in the sagittal plane, while the example on the right shows one tilted by approximately 60\u00b0 in the tentacular plane. For each case, the left and right balancer ciliary clusters are displayed separately. Ciliary beating is shown alongside kymographs extracted from two representative clusters. Recordings were acquired at 100 frames per second and are played back at 30 frames per second (0.3\u00d7). A white vertical line overlaid on each kymograph indicates the current frame shown in the video. These examples demonstrate asymmetrical balancer activity consistent with geotactic responses reported by Tamm, 1980.",
+    "slide": 14,
+    "key": "j8",
+    "bytes": 576054,
+    "sha256": "4402d34a7e0e4595f4714a3f87d913582192c005459746c98853524d125619e9",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "10.101678"
+      }
+    },
+    "caption": "Jokura (2026), Video 8. Tilt-induced asymmetric ciliary activity."
+  },
+  {
+    "path": "/workspace/l99-research/media/Jokura_video4.mp4",
+    "doi": "10.7554/eLife.108420",
+    "label": "Jokura (2026), Video 4.",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-video4.mp4",
+    "license": "CC BY",
+    "description": "Video 4.High-speed imaging of balancer ciliary beating along with kymographs from two individual balancer ciliary bundles.The recording was acquired at 100 frames per second and played back at 30 frames per second (0.3\u00d7). The white line overlaid on the kymographs indicates the current time point shown in the video. This example captures a ciliary arrest event in the sagittal plane.",
+    "slide": 18,
+    "key": "j4",
+    "bytes": 808009,
+    "sha256": "3c42590cbe5fccaa15e8be83754911978537f043d880bbe638dd54cc4c242203",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "30/1"
+        }
+      ],
+      "format": {
+        "duration": "9.400000"
+      }
+    },
+    "caption": "Jokura (2026), Video 4. Sagittal ciliary arrest."
+  },
+  {
+    "path": "/workspace/l99-research/media/Jokura_video5.mp4",
+    "doi": "10.7554/eLife.108420",
+    "label": "Jokura (2026), Video 5.",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-video5.mp4",
+    "license": "CC BY",
+    "description": "Video 5.High-speed imaging of balancer ciliary beating along with kymographs from two individual balancer ciliary bundles.The recording was acquired at 100 frames per second and played back at 30 frames per second (0.3\u00d7). The white line overlaid on the kymographs indicates the current time point shown in the video. This example captures a ciliary re-beat event in the sagittal plane.",
+    "slide": 19,
+    "key": "j5",
+    "bytes": 1135943,
+    "sha256": "b1020781b202ef247de774e82d3d85c95338a0994e6819abac7983a3f91fdb69",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "30/1"
+        }
+      ],
+      "format": {
+        "duration": "13.400000"
+      }
+    },
+    "caption": "Jokura (2026), Video 5. Sagittal renewed beating."
+  },
+  {
+    "path": "/workspace/l99-research/media/Jokura_video6.mp4",
+    "doi": "10.7554/eLife.108420",
+    "label": "Jokura (2026), Video 6.",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-video6.mp4",
+    "license": "CC BY",
+    "description": "Video 6.High-speed imaging of balancer ciliary beating along with kymographs from two individual balancer ciliary clusters.The recording was acquired at 100 frames per second and played back at 30 frames per second (0.3\u00d7). The white line overlaid on the kymographs indicates the current time point shown in the video. This example captures a ciliary arrest event in the tentacular plane.",
+    "slide": 20,
+    "key": "j6",
+    "bytes": 1815713,
+    "sha256": "8e166a275a316c3d5729d5440fb4d6bed7de71a1a67d53a0fa9e96d60816d1e7",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "30/1"
+        }
+      ],
+      "format": {
+        "duration": "17.400000"
+      }
+    },
+    "caption": "Jokura (2026), Video 6. Tentacular ciliary arrest."
+  },
+  {
+    "path": "/workspace/l99-research/media/Jokura_video7.mp4",
+    "doi": "10.7554/eLife.108420",
+    "label": "Jokura (2026), Video 7.",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-video7.mp4",
+    "license": "CC BY",
+    "description": "Video 7.High-speed imaging of balancer ciliary beating along with kymographs from two individual balancer ciliary clusters.The recording was acquired at 100 frames per second and played back at 30 frames per second (0.3\u00d7). The white line overlaid on the kymographs indicates the current time point shown in the video. This example captures a ciliary re-beat event in the tentacular plane.",
+    "slide": 21,
+    "key": "j7",
+    "bytes": 1272099,
+    "sha256": "77996a39f8cc6045094dab3ac01fca1f9b03e909fcc9704aa16a0cc0b4c60bb5",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "30/1"
+        }
+      ],
+      "format": {
+        "duration": "20.066667"
+      }
+    },
+    "caption": "Jokura (2026), Video 7. Tentacular renewed beating."
+  },
+  {
+    "path": "/workspace/l99-research/media/compatible/Burkhardt_movieS1.mp4",
+    "doi": "10.1126/science.ade5645",
+    "label": "Burkhardt (2023), Movie S1.",
+    "url": "https://www.science.org/doi/10.1126/science.ade5645#supplementary-materials",
+    "license": "Original article supplementary recording; authors credited",
+    "description": "3D reconstruction of the SNN, comb rows, sensory cells, mesogleal neurons and a tentacle from SBFSEM data of a 1-day-old cydippid.",
+    "processing": "Container remux from uploaded AVI to MP4, H.264 stream copied unchanged; no resizing or audio removal (source has no audio).",
+    "slide": 24,
+    "key": "b1",
+    "bytes": 11898973,
+    "sha256": "a87fd2f2684157e3e9192a89f53510597927e3f13fb18a57ef8787c63ab11a9e",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1168,
+          "height": 896,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "20.250000"
+      }
+    },
+    "caption": "Burkhardt (2023), Movie S1. Surface nerve net and surrounding cells."
+  },
+  {
+    "slide": 25,
+    "path": "/workspace/l99-extra-videos/Sachkova_mmc8.mp4",
+    "doi": "10.1016/j.cub.2021.09.005",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960982221012458-mmc8.mp4",
+    "caption": "Sachkova (2021), Video S5. Electron-microscopy reconstruction of the surface nerve net and nearby cells.",
+    "description": "Electron-microscopy reconstruction of the surface nerve net and nearby cells.",
+    "credit": "Sachkova et al.; original Current Biology supplementary recording. Publisher terms apply.",
+    "processing": "First 30 seconds, video and audio stream copied without re-encoding; no resizing or speed change.",
+    "embed_path": "/workspace/l99-extra-videos/Sachkova_S5_first30s.mp4",
+    "sha256": "35a3f1fefa0c224b52cbbf816f4a4701e7c34b84f1986967a4c9ed9c54f58868",
+    "bytes": 28338036,
+    "width": 1920,
+    "height": 1080,
+    "geometry": {
+      "x": 8.126888888888889,
+      "y": 3.857483595800525,
+      "w": 3.8222222222222224,
+      "h": 2.15
+    }
+  },
+  {
+    "slide": 28,
+    "path": "/workspace/l99-extra-videos/Sachkova_mmc6.mp4",
+    "doi": "10.1016/j.cub.2021.09.005",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960982221012458-mmc6.mp4",
+    "caption": "Sachkova (2021), Video S3. Three-dimensional localization of peptide-labeled cells.",
+    "description": "Three-dimensional localization of peptide-labeled cells.",
+    "credit": "Sachkova et al.; original Current Biology supplementary recording. Publisher terms apply.",
+    "processing": "Original file embedded byte-for-byte; no resizing, recompression, recoloring or speed change.",
+    "embed_path": "/workspace/l99-extra-videos/Sachkova_mmc6.mp4",
+    "sha256": "1417bd82be692692405c7ccf88fc94c3ae9b6222e65012943229530c90ef68c2",
+    "bytes": 4249798,
+    "width": 1136,
+    "height": 730,
+    "geometry": {
+      "x": 8.383561895516486,
+      "y": 4.33369750656168,
+      "w": 3.30887620896703,
+      "h": 2.1263024934383203
+    }
+  },
+  {
+    "path": "/workspace/l99-research/media/Jokura_video3.mp4",
+    "doi": "10.7554/eLife.108420",
+    "label": "Jokura (2026), Video 3.",
+    "url": "https://cdn.elifesciences.org/articles/108420/elife-108420-video3.mp4",
+    "license": "CC BY",
+    "description": "Video 3.Volumetric reconstruction of a part of the aboral nerve-net (ANN) Q1\u20134 neuron showing syncytial soma (cyan) and nuclei (magenta).The rotating view highlights the anastomosing morphology.",
+    "slide": 29,
+    "key": "j3",
+    "bytes": 4293381,
+    "sha256": "10d3d8392b6232081234f1eca55c73e87eba14d246bcaaf770d7708631f6495a",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1124,
+          "height": 720,
+          "r_frame_rate": "30/1"
+        }
+      ],
+      "format": {
+        "duration": "12.033333"
+      }
+    },
+    "caption": "Jokura (2026), Video 3. Syncytial soma and nuclei."
+  },
+  {
+    "slide": 32,
+    "path": "/workspace/l99-extra-videos/Sachkova_mmc4.mp4",
+    "doi": "10.1016/j.cub.2021.09.005",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960982221012458-mmc4.mp4",
+    "caption": "Sachkova (2021), Video S1. Peptide-labeled cells in the aboral organ, in three dimensions.",
+    "description": "Peptide-labeled cells in the aboral organ, in three dimensions.",
+    "credit": "Sachkova et al.; original Current Biology supplementary recording. Publisher terms apply.",
+    "processing": "Original file embedded byte-for-byte; no resizing, recompression, recoloring or speed change.",
+    "embed_path": "/workspace/l99-extra-videos/Sachkova_mmc4.mp4",
+    "sha256": "5cf900ac14b988019acf467a9f4da2e1bf92b16d0e8c1ef1341fa601b2d01246",
+    "bytes": 2873965,
+    "width": 1136,
+    "height": 730,
+    "geometry": {
+      "x": 8.365123287671233,
+      "y": 3.476575896762905,
+      "w": 3.3457534246575342,
+      "h": 2.15
+    }
+  },
+  {
+    "slide": 33,
+    "path": "/workspace/l99-extra-videos/Sachkova_mmc7.mp4",
+    "doi": "10.1016/j.cub.2021.09.005",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960982221012458-mmc7.mp4",
+    "caption": "Sachkova (2021), Video S4. Peptide-labeled aboral tissue viewed from multiple angles.",
+    "description": "Peptide-labeled aboral tissue viewed from multiple angles.",
+    "credit": "Sachkova et al.; original Current Biology supplementary recording. Publisher terms apply.",
+    "processing": "Original file embedded byte-for-byte; no resizing, recompression, recoloring or speed change.",
+    "embed_path": "/workspace/l99-extra-videos/Sachkova_mmc7.mp4",
+    "sha256": "38eb993cb9038786445ace6395547e38404d48de56ec68de6b16e93dd0140656",
+    "bytes": 14755768,
+    "width": 1920,
+    "height": 1080,
+    "geometry": {
+      "x": 8.246031496062992,
+      "y": 4.444035433070866,
+      "w": 3.5839370078740163,
+      "h": 2.015964566929134
+    }
+  },
+  {
+    "slide": 34,
+    "path": "/workspace/l99-extra-videos/Sachkova_mmc5.mp4",
+    "doi": "10.1016/j.cub.2021.09.005",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960982221012458-mmc5.mp4",
+    "caption": "Sachkova (2021), Video S2. Peptide-labeled pharyngeal and aboral tissue.",
+    "description": "Peptide-labeled pharyngeal and aboral tissue.",
+    "credit": "Sachkova et al.; original Current Biology supplementary recording. Publisher terms apply.",
+    "processing": "Original file embedded byte-for-byte; no resizing, recompression, recoloring or speed change.",
+    "embed_path": "/workspace/l99-extra-videos/Sachkova_mmc5.mp4",
+    "sha256": "286bf6c559c659af9c574c83900f4657f8b1e6fccdda13a0ceac121b4ea3c5b1",
+    "bytes": 19653730,
+    "width": 1920,
+    "height": 1080,
+    "geometry": {
+      "x": 8.126888888888889,
+      "y": 3.3643667979002627,
+      "w": 3.8222222222222224,
+      "h": 2.15
+    }
+  },
+  {
+    "slide": 40,
+    "key": "CDRXFPIeUrg",
+    "start": 26.693333,
+    "end": 48.048,
+    "poster": 12.0,
+    "description": "Original MBARI footage introduces previously unnamed species and genetic investigation of ctenophore diversity, with several live-animal body forms. This is a credited general science/aesthetic recording, not the Moroz article supplement.",
+    "caption": "Video: comb-jelly diversity. MBARI, Genetic probes.",
+    "original_file": "/workspace/attachments/de27e9c0-1f37-4726-ae75-559d7157040c/Genetic probes give new clues about the stunning diversity of comb jellies [CDRXFPIeUrg].mp4",
+    "original_sha256": "90916b3ece5d854fd9ecd4898c42ffc28913652b4074575e02c93b8254b0b3c8",
+    "clip": "/workspace/l99-extra-videos/CDRXFPIeUrg_lecture_clip.mp4",
+    "sha256": "6e3f075e28d8243ec032ecde4d2838dabb25c8cca2f673b61f7a1f7e53971e9e",
+    "url": "https://www.youtube.com/watch?v=CDRXFPIeUrg",
+    "credit": "MBARI (Monterey Bay Aquarium Research Institute). Original video overlays and logo retained. No Creative Commons license asserted.",
+    "processing": "Keyframe-aligned temporal extraction, video and audio stream copy. Full 1920 x 1080 frame, native frame rate, source color and sound preserved. No spatial crop is needed to fit the available space; the whole animal and source credits remain visible.",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 1,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "time_base": "1/30000",
+          "start_pts": 1080,
+          "start_time": "0.036000",
+          "duration_ts": 641641,
+          "duration": "21.388033",
+          "bit_rate": "2254467",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "641",
+          "extradata_size": 44,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 944128,
+          "duration": "21.408798",
+          "bit_rate": "127984",
+          "nb_frames": "922",
+          "extradata_size": 16,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/workspace/l99-extra-videos/CDRXFPIeUrg_lecture_clip.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "21.424033",
+        "size": "6393090",
+        "bit_rate": "2387259",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf61.7.103"
+        }
+      }
+    },
+    "geometry": {
+      "x": 8.134884417225624,
+      "y": 4.318994969378828,
+      "w": 3.80623116554875,
+      "h": 2.141005030621172
+    }
+  },
+  {
+    "path": "/workspace/l99-research/media/compatible/Moroz_video2_clip.mp4",
+    "doi": "10.1038/nature13400",
+    "label": "Moroz (2014), Supplementary Video 2.",
+    "url": "https://www.nature.com/articles/nature13400#MOESM25",
+    "license": "Original supplementary recording, credited to Frazier Nivens / Ocean Imaging and Leonid L. Moroz / University of Florida",
+    "description": "Comparative ctenophore body forms, swimming and Beroe feeding on Bolinopsis.",
+    "processing": "Source interval 8\u201337 seconds; lossless H.264 conversion and lossless ALAC audio at original dimensions and rate. Intro and credits omitted from clip but credited in notes.",
+    "slide": 41,
+    "key": "p2",
+    "bytes": 64157467,
+    "sha256": "d75f9c63df696ba72764ccb81c46a68b0b960e4a1950c218185406f6fcede047",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "30000/1001"
+        },
+        {
+          "codec_name": "alac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "29.029000"
+      }
+    },
+    "caption": "Moroz (2014), Supplementary Video 2. Comparative swimming and feeding."
+  },
+  {
+    "slide": 45,
+    "key": "-rYNTFOeBVI",
+    "start": 0.0,
+    "end": 16.683333,
+    "poster": 5.0,
+    "original_file": "/workspace/attachments/8163f69e-b0ce-47fd-8ada-a6e956c5b849/Bloody_Belly_Comb_Jelly_29MB.mp4",
+    "description": "MBARI footage of Lampocteis cruentiventer swimming and changing body orientation, with iridescent comb rows visible. The animal remains in the full source frame. This instructor-authorized aesthetic scene illustrates the live animal and ciliary locomotion; it is not labeled as an article supplement.",
+    "caption": "Video: Lampocteis cruentiventer swimming. Credit: MBARI.",
+    "original_sha256": "6f12a3737c8a6edefa8c781f80f8a831682c211b61367f78426fa77fde5c6dce",
+    "clip": "/workspace/l99-extra-videos/-rYNTFOeBVI_lecture_clip.mp4",
+    "sha256": "2190dd32a4f8a083bb5bba198894249a6bbb92841157119dc4121fd7b333aa07",
+    "url": "https://www.youtube.com/watch?v=-rYNTFOeBVI",
+    "credit": "MBARI (Monterey Bay Aquarium Research Institute). Original video overlays and logo retained. No Creative Commons license asserted.",
+    "processing": "Temporal extraction with video/audio stream copy and packet selection after the cut endpoint, preventing a partially decoded terminal frame. Native decoded video frames match the source exactly. Full 1920 x 1080 frame, native frame rate, source color and sound preserved. No spatial crop is needed to fit the available space; the whole animal and source credits remain visible.",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 2,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 50,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "time_base": "1/30000",
+          "start_pts": 1980,
+          "start_time": "0.066000",
+          "duration_ts": 501501,
+          "duration": "16.716700",
+          "bit_rate": "870612",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "501",
+          "extradata_size": 50,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc60.31.102 libx264"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 2911,
+          "start_time": "0.066009",
+          "duration_ts": 736256,
+          "duration": "16.695147",
+          "bit_rate": "128219",
+          "nb_frames": "719",
+          "extradata_size": 16,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "eng",
+            "handler_name": "ISO Media file produced by Google Inc.",
+            "vendor_id": "[0][0][0][0]"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/workspace/l99-extra-videos/-rYNTFOeBVI_lecture_clip.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.066000",
+        "duration": "16.716700",
+        "size": "2106453",
+        "bit_rate": "1008071",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf61.7.103"
+        }
+      }
+    },
+    "geometry": {
+      "x": 8.126888888888889,
+      "y": 4.154768153980752,
+      "w": 3.822222222222222,
+      "h": 2.15
+    }
+  }
+]

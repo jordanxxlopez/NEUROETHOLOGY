@@ -1,8 +1,8 @@
-# Current additional-video revision: one upload needed
+# Lecture 99 source access: all sources resolved
 
-All seven academic additions and two MBARI excerpts are prepared. The third supplied video exceeds the 32 MiB transfer limit. No PDFs are needed. See [the current video upload request](additional_videos/UPLOADS.md). The working lecture has 20 recordings; final 21-video delivery awaits the short native-quality excerpt.
+All original sources, seven additional academic recordings, and three uploaded MBARI recordings have been obtained. No PDFs or videos are outstanding. See [completed video-source documentation](additional_videos/UPLOADS.md). The completed revision contains 21 embedded movies in 46 slides.
 
-# Lecture 99 source access: resolved
+# Historical original-source access: resolved
 
 All requested PDFs, supplementary information and Movie S1 were supplied by the instructor and inspected. There are no outstanding uploads. The original access failures below are retained as historical provenance.
 

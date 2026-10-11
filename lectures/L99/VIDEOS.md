@@ -1,3 +1,11 @@
+# Current Lecture 99: 21 embedded recordings
+
+The original eleven recordings below are preserved. Ten additional recordings have been added without changing existing slide content. Seven academic additions: slides **4, 9, 25, 28, 32, 33, 34**. Three original MBARI aesthetic/general-science excerpts: slides **11, 40, 45**. All three uploaded MBARI clips retain their supplied **1920 × 1080** frames, native rate and AAC audio; extraction uses stream copy without recompression or spatial resizing. Source-derived posters support static viewers.
+
+Use PowerPoint Slide Show mode and click the video poster to play. Detailed sources, intervals, credits and hashes: [FINAL_VIDEOS.json](additional_videos/FINAL_VIDEOS.json). The user explicitly authorized the three aesthetic clips; they are not mislabeled as academic article supplements.
+
+# Original eleven recordings (preserved)
+
 # Embedded recordings in Lecture 99
 
 Eleven distinct original article-linked recordings are embedded locally in the PPTX, not merely linked. Click the video poster in PowerPoint Slide Show mode. The static poster is retained for viewers that omit video.

@@ -1,3 +1,9 @@
+# Current status: all requested source files supplied
+
+The final bloody-belly comb-jelly upload transferred successfully (28,851,994 bytes). It was inspected across its duration and a short native-resolution H.264/AAC excerpt was extracted for slide 45, with video and audio streams copied. No source PDFs or videos remain outstanding. The final lecture contains 21 embedded movies, including seven additional academic recordings and three credited aesthetic/general-science excerpts. The earlier blocked-source requests below are retained as history.
+
+# Historical upload status
+
 # Current upload status: one short excerpt needed
 
 The instructor supplied all three MBARI recordings. The bloody-belly introduction (`6luG9mDaGgw`) and genetic-diversity recording (`CDRXFPIeUrg`) downloaded, were visually inspected, and have been trimmed and embedded on slides 11 and 40. Both preserve the original H.264 video and AAC audio streams at 1920 × 1080, without recompression or rescaling. The prepared lecture now has 20 embedded recordings.

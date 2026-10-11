@@ -1,3 +1,9 @@
+# Completed 21-video Lecture 99 revision
+
+46 slides, a single final Key takeaways slide, 21 embedded recordings. Seven additional academic videos and three uploaded MBARI excerpts have been added without changing existing text, figures, theme, titles, layout or the original eleven videos. All uploads are resolved. Native source frames and audio are preserved; the MBARI excerpts are 1920 × 1080. Final OpenXML validation has zero errors; the repository checker has zero failures and warnings. Movie count, internal relationships, ZIP integrity, source-frame identity and existing-media preservation pass. Final source records and validation reports are in `additional_videos/`. Native desktop PowerPoint playback is untested.
+
+# Original delivered-deck record
+
 # Lecture 99 complete
 
 46 slides: one title, 44 content, one final Key takeaways. All 44 content slides carry original published figures. Eleven distinct article-linked videos are embedded, with credited static fallbacks.
