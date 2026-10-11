@@ -1,6 +1,6 @@
-# Current additional-video revision: three uploads needed
+# Current additional-video revision: one upload needed
 
-The original lecture sources are resolved. For the new seven-academic-plus-three-aesthetic request, all seven academic recordings downloaded successfully. Three MBARI YouTube aesthetic recordings are blocked. No article PDFs are needed. See [the numbered video upload list](additional_videos/UPLOADS.md). The delivered 11-video PPTX remains unchanged while the 18-video working revision is prepared.
+All seven academic additions and two MBARI excerpts are prepared. The third supplied video exceeds the 32 MiB transfer limit. No PDFs are needed. See [the current video upload request](additional_videos/UPLOADS.md). The working lecture has 20 recordings; final 21-video delivery awaits the short native-quality excerpt.
 
 # Lecture 99 source access: resolved
 

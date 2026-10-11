@@ -1,3 +1,13 @@
+# Current upload status: one short excerpt needed
+
+The instructor supplied all three MBARI recordings. The bloody-belly introduction (`6luG9mDaGgw`) and genetic-diversity recording (`CDRXFPIeUrg`) downloaded, were visually inspected, and have been trimmed and embedded on slides 11 and 40. Both preserve the original H.264 video and AAC audio streams at 1920 × 1080, without recompression or rescaling. The prepared lecture now has 20 embedded recordings.
+
+The supplied **Deep relaxation: Release the stress with the bloody-belly comb jelly (`-rYNTFOeBVI`)** could not transfer because it exceeds the executor's **32 MiB per-file transfer limit**. This is a transfer limit, not a PowerPoint compatibility problem. The file has not been inspected or embedded, and its contents are not assumed from the title. Please upload a **10–20-second excerpt under 32 MiB**, retaining native resolution, frame rate and audio with stream copy. A shorter clip is acceptable if needed to meet the limit. A clearly credited live-animal scene will be placed in remaining white space only after inspection, provisionally slide 45. Do not compress or downscale the source.
+
+Original recording: https://www.youtube.com/watch?v=-rYNTFOeBVI . No article PDF or additional academic video is needed. Final delivery of the requested 21-video version is pending this one excerpt. The previously delivered deck remains unchanged.
+
+# Historical request and seven academic additions
+
 # Three aesthetic recordings needed to finish the requested revision
 
 The instructor requested seven additional academic recordings and three aesthetic recordings, preserving every existing slide element and original recording. All seven academic recordings have downloaded. No article PDFs are needed for these additions. The three aesthetic YouTube recordings below are published on MBARI's bloody-belly comb-jelly animal page, but this environment returns a proxy HTTP 403 for YouTube. The MP4 masthead URL in that page returns HTTP 404. They have not been watched, extracted or embedded here; select distinct relevant live-animal scenes after the uploads are inspected.
