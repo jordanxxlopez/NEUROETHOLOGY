@@ -1,202 +1,37 @@
 {
- "third_paragraph": {
-  "3": {
-   "keep": 1,
-   "add": "Each discharge therefore samples a different image, because the fish and the object change position between pulses, and the model estimates the image from measured behavior and a biophysical description of the field."
-  },
-  "4": {
-   "keep": 1,
-   "add": "The fish identified features associated with the positive object, and test trials with unfamiliar alternatives showed that the learned preference was not tied to a single comparison."
-  },
-  "5": {
-   "keep": 1,
-   "add": "The sphere carried most of the preference, so recognition relied selectively on learned features of the object, and the cone and the narrow junction contributed less."
-  },
-  "6": {
-   "keep": 1,
-   "add": "The fish nevertheless chose the smaller cube across distance combinations, which shows compensation for distance-dependent changes in the electric image."
-  },
-  "8": {
-   "keep": 0,
-   "add": "Recognition depends on the usable object-induced perturbation relative to sensory noise and on the task, so the 4 cm range describes the tested discriminations. An electric field is physically present beyond this distance, and the grid held the minimum inspection distance fixed."
-  },
-  "9": "The coordinated changes show that natural electrolocation input is sampled through changing movements and pulse intervals, so the sequence of electric samples depends on how the fish inspects the object.",
-  "10": "The reconstruction describes the information available to the fish: the current electric pattern and its recent history. Using that history to estimate object distance is a proposal that links electrosensory flow to the approach behavior.",
-  "11": "A single spatial measurement is less reliable under natural postures and body curvature, which motivates examining information distributed across successive samples. Static cues remain available within each sample.",
-  "12": "The relative gradient is a candidate cue in the reconstructed sensory input that reduces the dependence of the signal on object size. Using it requires an estimate of the movement of the fish, which links the approach behavior to the electric images.",
-  "13": "Simulations of cubes and spheres of 1, 2 and 3 cm with different electrical properties specify the conditions under which the proposed cue is robust. Distance information in the relative gradient survives changes in size, shape and conductivity that strongly alter the absolute signal.",
-  "14": "Overlapping gradients at different positions mean that receptors along the body can contribute to the same distance estimate in the tested reconstruction. A cue of this kind tolerates changes in posture and body curvature better than a local amplitude.",
-  "15": "The values describe cue analysis. The 6 cm criterion of the dynamic cue and the 3 cm criterion of the static measure are consistent with the roughly 4 cm recognition range of the choice tasks, because identifying shape and extracting a distance-related signal are distinct demands.",
-  "17": {
-   "keep": 0,
-   "add": "Learning speed depended on which senses were available and on whether the fish was emitting discharges. Training with both senses was fastest, and electrically silenced fish learned the visual task in about 6 days."
-  },
-  "18": {
-   "keep": 1,
-   "add": "Two sensory streams about the same near object improved accuracy above that of vision alone."
-  },
-  "19": "Electric dominance is conditional on the near-field task and the training history of the animal. The tests measure which sensory information controls the choice at a 1 cm inspection distance.",
-  "20": {
-   "keep": 1,
-   "add": "Visually trained and electrically silenced fish could learn the task, so the reliability of each stimulus stream determines how much it contributes."
-  },
-  "21": {
-   "keep": 2,
-   "add": "The timing of the first spike therefore carries local amplitude, and the interval between sensing pulses influences that timing."
-  },
-  "22": "Adaptation means that the same immediate amplitude can occur under different sensory histories and evoke different latencies. A central decoder interpreting latency must therefore take into account the mean level that precedes the amplitude change.",
-  "23": {
-   "keep": 1,
-   "add": "A latency shift is therefore interpreted together with how recently the receptor was stimulated, and individual afferents differ in the slope and position of their relationships."
-  },
-  "24": "The replay experiment establishes history dependence at the sensory afferent. Latency followed the natural sequence of pulse intervals, so the afferent code carries the time structure of active sampling together with the electrical contrast being sampled.",
-  "25": "The first spike is therefore the principal timing variable for these responses. Later spikes can still influence synaptic transmission, even though their timing contributes little independent information about stimulus amplitude.",
-  "26": "Sensitivity to amplitude is a state-dependent transformation that changes with the sustained sampling rate and is not a fixed gain of the fiber. Coding models of the afferent therefore include the sampling rate as a variable.",
-  "27": "Published models fitted to afferent data support a description of history-dependent coding in which latency depends on both the current amplitude and the preceding intervals. Models that include interval-dependent sensitivity predict the measured latencies better than models that use amplitude alone.",
-  "28": "The slice preparation establishes local synaptic properties of ELL. Anatomical identification and pharmacology identify which pathways and receptors contribute to the recorded response, and brief stimulation of deep afferents and parallel fibers allows the two inputs to be compared.",
-  "29": "The pharmacological dissociation separates arriving spikes from the local postsynaptic response they evoke. Cadmium and tetrodotoxin identify the two components more securely than the latency or polarity of the waveform alone.",
-  "30": {
-   "keep": 1,
-   "add": "Their contribution links transmitter release to postsynaptic depolarization, and the reduced portions of the evoked response indicate that both receptor classes participate."
-  },
-  "31": "Ligand-gated receptors provide the ionic conductances through which synaptic input changes membrane voltage. GABA-A and glycine receptors both contribute to deep-input inhibition in the slice, so the inhibition is not mediated by one transmitter system.",
-  "32": {
-   "keep": 1,
-   "add": "Parallel-fiber input to the medium ganglion cell therefore produces a brief window of excitation that inhibition through GABA-A receptors then limits."
-  },
-  "33": {
-   "keep": 1,
-   "add": "Facilitation at intervals near 30 ms means that a second parallel-fiber volley evokes a larger response than the first."
-  },
-  "34": "A single identified cell can express a large broad spike and smaller narrow spikes. The waveform differences constrain propagation and integration mechanisms, and in vivo experiments relate these spike types to circuit output and learning.",
-  "35": "The results connect pathway recruitment to membrane excitability. Deep stimulation and parallel-fiber stimulation produce different synaptic potentials, and the firing of the recorded neuron reflects the combined influence of those potentials and the spike threshold.",
-  "37": "Spatially distributed input can reach dendrites across an organized sensory structure, because the parallel fibers conduct the signal along their length. The distance-dependent latency is a physical transmission property of the pathway in the slice.",
-  "38": "The recordings support integration of self-generated context with sensory information. A corollary signal marks the timing of the discharge of the animal itself, and the neuron combines it with input from the electroreceptors.",
-  "39": "The circuit interpretation separates immediate output from an event that regulates subsequent synaptic change. N spikes deliver the output of the cell, and B spikes carry information that guides plasticity at the parallel-fiber synapses.",
-  "40": {
-   "keep": 1,
-   "add": "The recordings establish temporal relationships between the two spike types, and pharmacological manipulation and conductance measurements supplied additional evidence about the inhibitory mechanism."
-  },
-  "41": {
-   "keep": 1,
-   "add": "The compartments participate in one circuit, and output and plasticity are influenced differently by incoming sensory and central signals."
-  },
-  "42": {
-   "keep": 1,
-   "add": "B-spike activity after the stimulus ends reflects the preceding stimulation, with the command signal as the temporal reference."
-  },
-  "43": {
-   "keep": 1,
-   "add": "The conductance analysis separates the excitatory and inhibitory contributions to the command-evoked response."
-  },
-  "44": {
-   "keep": 1,
-   "add": "Disinhibition therefore releases the dendritic event at the ventral molecular layer, where the injection was made."
-  },
-  "45": {
-   "keep": 1,
-   "add": "The results connect command context, dendritic events, synaptic strength and axonal activity, so the timing of a B spike determines whether the response to a command is reduced or enhanced."
-  }
- },
+ "third_paragraph": {},
  "inserts": [
   {
-   "after": 2,
-   "title": "Electric organ discharges are the active probe",
-   "bold": [
-    "electric organ discharges"
-   ],
-   "paragraphs": [
-    "A weakly electric fish generates brief electric organ discharges, or EODs, with a specialized organ and senses the current that returns through the water to receptors in its skin. The fish supplies the signal that it senses, so it does not depend on external fields.",
-    "Von der Emde and colleagues studied the elephantnose fish, _Gnathonemus petersii_, which emits a series of short pulses. Objects that conduct better or worse than the water change the current at the skin during each pulse.",
-    "Because each pulse is a discrete sample, the interval between discharges determines how often the fish updates its picture of the nearby scene. The fish can change this rate while it inspects an object."
-   ],
-   "citation": "von der Emde et al. (2010)",
-   "notes": [
-    "Active electrolocation uses a signal that the animal generates itself.",
-    [
-     "The probe.",
-     "The electric organ produces brief discharges, called EODs.",
-     "The fish senses the current that returns to its skin."
-    ],
-    [
-     "Why objects matter.",
-     "An object with conductivity different from the water changes the local electric field.",
-     "The change appears as a perturbation in current at the skin."
-    ],
-    [
-     "Species.",
-     "The elephantnose fish, Gnathonemus petersii, is a weakly electric fish that emits brief pulses."
-    ],
-    [
-     "Sampling in time.",
-     "Each discharge is a separate sample of the scene.",
-     "The interval between discharges sets how often the sample is updated."
-    ],
-    [
-     "Control by the animal.",
-     "The fish can change its discharge rate as it approaches an object.",
-     "Sensing therefore depends on both the object and the behavior of the fish."
-    ],
-    [
-     "Why a probe helps.",
-     "An animal that emits its own signal can sense in darkness and in murky water.",
-     "The fish controls when and how often it samples the surroundings."
-    ],
-    [
-     "Link to behavior.",
-     "Von der Emde and colleagues showed that recognition persisted in complete darkness, so the electric sense alone supported it."
-    ]
-   ],
-   "refs_from": [
-    "von der Emde 2010"
-   ]
-  },
-  {
    "after": 3,
-   "title": "Conductivity contrast perturbs the electric field",
-   "bold": [
-    "Conductivity"
-   ],
+   "title": "Matched simulations isolate the object's contribution",
+   "bold": [],
    "paragraphs": [
-    "Conductivity is the ability of a material to carry electric current. An object that conducts better than water draws current toward it, and an object that conducts worse deflects current away. A smaller conductivity difference produces a weaker perturbation, so the size of the effect depends on how different the object is from the water.",
-    "Hofmann and colleagues used metal cubes, which conduct far better than water, and compared object-present and object-absent conditions. The difference between the two conditions isolates the perturbation caused by the object along the sensory surface.",
-    "The size and position of the perturbation depend on the object and on the position of the fish. The fish therefore reads the perturbation as a spatial pattern of increased or decreased current across its skin."
+    "Conductivity describes how readily a material carries electric current, and an object's conductivity sets how strongly it distorts the field around it. Simulated scenes with and without the object were otherwise matched, so the difference between them reflects the object itself rather than other scene differences. The reconstruction keeps that difference as the signal of interest for each frame.",
+    "The pattern also depends on where the fish sits relative to the object. Each receptor samples a different part of the perturbation as the fish moves, so the same metal cube can generate different electric images at different positions. Each frame records the object's influence at every receptor location, and position is encoded alongside the object.",
+    "Because the reconstruction was built from real approaches, each image in the series corresponds to one moment in one fish's inspection. The estimates inherit the timing of the fish's own movement. Each reconstructed frame is a model output, not a snapshot taken by a camera. The frames follow the successive discharges emitted during the approach."
    ],
    "citation": "Hofmann et al. (2017)",
    "notes": [
-    "The electric image arises from a difference in conductivity between an object and its surroundings.",
+    "Matched simulations isolate the object's contribution.",
     [
-     "Conductivity.",
-     "Conductivity describes how well a material carries current.",
-     "The tank water had a conductivity near 100 microsiemens per centimeter."
+     "Explanation 1.",
+     "Conductivity describes how readily a material carries electric current, and an object's conductivity sets how strongly it distorts the field around it",
+     "Simulated scenes with and without the object were otherwise matched, so the difference between them reflects the object itself rather than other scene differences. The reconstruction keeps that difference as the signal of interest for each frame."
     ],
     [
-     "Direction of the effect.",
-     "A better conductor draws current toward itself.",
-     "A poorer conductor deflects current."
+     "Explanation 2.",
+     "The pattern also depends on where the fish sits relative to the object",
+     "Each receptor samples a different part of the perturbation as the fish moves, so the same metal cube can generate different electric images at different positions. Each frame records the object's influence at every receptor location, and position is encoded alongside the object."
     ],
     [
-     "Experimental comparison.",
-     "Metal cubes were compared with the object-absent condition.",
-     "The difference isolates the perturbation caused by the object."
+     "Explanation 3.",
+     "Because the reconstruction was built from real approaches, each image in the series corresponds to one moment in one fish's inspection",
+     "The estimates inherit the timing of the fish's own movement. Each reconstructed frame is a model output, not a snapshot taken by a camera. The frames follow the successive discharges emitted during the approach."
     ],
     [
-     "Dependence on position.",
-     "The pattern depends on both the object and the position of the fish."
-    ],
-    [
-     "What the fish receives.",
-     "The perturbation appears as a spatial pattern across the sensory skin."
-    ],
-    [
-     "Reading the field.",
-     "The perturbation is spread across many receptors in the skin.",
-     "Each receptor reports the current at its own position."
-    ],
-    [
-     "Metal cubes.",
-     "Metal is a much better conductor than water, so metal cubes produce a strong perturbation.",
-     "This makes them convenient objects for measuring the electric image."
+     "Source.",
+     "The figure and the measurements come from Hofmann et al. (2017).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -205,50 +40,35 @@
   },
   {
    "after": 6,
-   "title": "Size constancy requires compensating for distance",
-   "bold": [
-    "Size constancy"
-   ],
+   "title": "Image intensity and diameter both shift with distance",
+   "bold": [],
    "paragraphs": [
-    "Size constancy is the identification of physical object size despite changes in the sensory image. A distant object produces a weaker and broader electric image than a near one, so an observer that reads only the image would confuse a small near object with a large distant one.",
-    "Von der Emde and colleagues trained a fish to choose a smaller cube over a larger cube and then varied the distances independently. The fish kept choosing the smaller cube across distance combinations, with useful performance to about 4 cm.",
-    "Measured image diameter increased when a small cube moved farther away, so image width alone did not preserve physical size. The choices therefore show that the fish used distance information together with the image to identify the physical size of the cube."
+    "A rule based on image intensity fails here because intensity falls as an object moves away, while the rewarded physical size stays the same. The distance manipulation separated intensity from the real cube size in each trial, so a fixed intensity criterion could not match the reward across every combination of distances. The rewarded size was the stable reference across trials.",
+    "Image diameter behaved in the same way, and its measured width grew with each increase in distance, so the image changed while the reward did not. Width fails as a stand-in for size, and the fish's choices followed the physical cube instead of the image it produced. Image intensity and image width were the two candidate cues for size.",
+    "Darkness controls showed that the size discrimination survived without visual input, which suggests an electrosensory route for the learned choice. Cubes were moved to new distances in separate tests, while each cube's rewarded size stayed fixed across them. The learned preference still held when each cube's distance changed relative to the gates."
    ],
    "citation": "von der Emde et al. (2010)",
    "notes": [
-    "Size constancy asks whether an animal judges the object and not just the image.",
+    "Image intensity and diameter both shift with distance.",
     [
-     "The problem.",
-     "Distance changes the size and strength of the electric image.",
-     "Image alone does not specify the size of the object."
+     "Explanation 1.",
+     "A rule based on image intensity fails here because intensity falls as an object moves away, while the rewarded physical size stays the same",
+     "The distance manipulation separated intensity from the real cube size in each trial, so a fixed intensity criterion could not match the reward across every combination of distances. The rewarded size was the stable reference across trials."
     ],
     [
-     "Training.",
-     "A fish was trained to choose a smaller cube over a larger cube.",
-     "The cubes were initially placed at 2 and 3 centimeters from the gates."
+     "Explanation 2.",
+     "Image diameter behaved in the same way, and its measured width grew with each increase in distance, so the image changed while the reward did not",
+     "Width fails as a stand-in for size, and the fish's choices followed the physical cube instead of the image it produced. Image intensity and image width were the two candidate cues for size."
     ],
     [
-     "Test.",
-     "The distances of the two cubes were varied independently.",
-     "The fish kept choosing the smaller cube."
+     "Explanation 3.",
+     "Darkness controls showed that the size discrimination survived without visual input, which suggests an electrosensory route for the learned choice",
+     "Cubes were moved to new distances in separate tests, while each cube's rewarded size stayed fixed across them. The learned preference still held when each cube's distance changed relative to the gates."
     ],
     [
-     "Image measurements.",
-     "Image diameter increased when a small cube moved farther away."
-    ],
-    [
-     "Controls.",
-     "Tests in darkness preserved the size discrimination, so the choices did not depend on vision."
-    ],
-    [
-     "Why distance matters.",
-     "A distant object produces a broader and weaker image than a near one.",
-     "The same image could come from a small near object or a large distant one."
-    ],
-    [
-     "Range of performance.",
-     "Useful performance extended to about 4 centimeters.",
-     "Beyond that the discrimination was no longer reliable."
+     "Source.",
+     "The figure and the measurements come from von der Emde et al. (2010).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -256,104 +76,36 @@
    ]
   },
   {
-   "after": 8,
-   "title": "A grid fixes the minimum inspection distance",
-   "bold": [
-    "grid"
-   ],
+   "after": 9,
+   "title": "Discharge timing shapes each approach sample",
+   "bold": [],
    "paragraphs": [
-    "A grid between the fish and the objects prevents the fish from approaching closer than a set distance before it chooses. The grid therefore fixes the distance at which each choice is made. The distances were measured from the grid to the metal objects, which stayed fixed during a trial.",
-    "Von der Emde and colleagues moved metal objects from 1 to 8 cm from the grid. Performance declined with increasing distance, and the tested shape and size discriminations failed beyond approximately 4 cm.",
-    "Fixing the distance prevents the fish from solving a trial by swimming directly beside the object. The measured range describes how far from an object the fish can still extract the features needed for the choice."
-   ],
-   "citation": "von der Emde et al. (2010)",
-   "notes": [
-    "Distance has to be controlled to measure a range.",
-    [
-     "The grid.",
-     "A grid prevented the fish from approaching closer before making a choice."
-    ],
-    [
-     "Distances tested.",
-     "Metal objects were moved from 1 to 8 centimeters from the grid."
-    ],
-    [
-     "Result.",
-     "Performance declined with distance.",
-     "The tested discriminations failed beyond approximately 4 centimeters."
-    ],
-    [
-     "Why the grid matters.",
-     "Without it, the fish could solve every trial by moving directly beside the object."
-    ],
-    [
-     "Meaning of the range.",
-     "The recognition range is the distance over which the animal identifies a tested object reliably."
-    ],
-    [
-     "Why a minimum distance.",
-     "If the fish could approach each object freely, the closest approach would determine the choice.",
-     "The grid prevents that shortcut."
-    ],
-    [
-     "Interpreting the limit.",
-     "The tested shape and size discriminations failed beyond about 4 centimeters.",
-     "An electric field extends farther than this, so the limit describes the usable information."
-    ],
-    [
-     "Summary of the range.",
-     "Within about 4 centimeters the fish identified shapes and sizes of metal objects, and it failed at greater distances in the same tasks."
-    ]
-   ],
-   "refs_from": [
-    "von der Emde 2010"
-   ]
-  },
-  {
-   "after": 12,
-   "title": "A relative gradient divides change by amplitude",
-   "bold": [
-    "relative gradient"
-   ],
-   "paragraphs": [
-    "A gradient is the rate at which a quantity changes. A relative gradient divides the rate of change of the electric image amplitude during movement by the amplitude itself, so it expresses the change in proportion to the signal. The measure is calculated from the movement of the fish through the field.",
-    "Hofmann and colleagues compared absolute amplitude with the relative gradient for approaches to cubes of different sizes. Absolute amplitude depended strongly on size, whereas the relative-gradient curves overlapped much more closely across sizes.",
-    "Dividing by amplitude removes the factor that depends on the size of the object. The remaining value changes systematically with distance, which makes it a candidate cue for how far away an object is."
+    "Spatial sampling density is the number of electric discharges per distance traveled. It depends jointly on emission timing and swimming speed, so a fish that swims faster collects fewer discharges per centimeter unless it also raises its discharge rate. Density reflects two behaviors at once, the emission pattern and the movement. This ratio is the quantity that changes during each approach.",
+    "Each electric sample reaches the skin while the object's image is changing, so each discharge carries a different spatial context. Hofmann and colleagues paired the discharge record with the approach trajectory, which let each sample be matched to the fish's position at that moment. The recorded discharge timing supplied the sampling record for every approach.",
+    "Thrust and discharge activity moved in opposite directions across the approach, and the sampling density rose as the fish closed in. Straighter postures and more direct alignment with the object accompanied that rise in density, so the geometry of inspection and the sample sequence changed together. The approach geometry was measured as well as the electric samples."
    ],
    "citation": "Hofmann et al. (2017)",
    "notes": [
-    "Dividing a change by its own size can cancel something that is not wanted.",
+    "Discharge timing shapes each approach sample.",
     [
-     "Definition.",
-     "A relative gradient expresses how rapidly the amplitude changes during movement relative to the current amplitude."
+     "Explanation 1.",
+     "Spatial sampling density is the number of electric discharges per distance traveled",
+     "It depends jointly on emission timing and swimming speed, so a fish that swims faster collects fewer discharges per centimeter unless it also raises its discharge rate. Density reflects two behaviors at once, the emission pattern and the movement. This ratio is the quantity that changes during each approach."
     ],
     [
-     "Comparison.",
-     "Approaches to metal cubes of different sizes were reconstructed.",
-     "Absolute amplitude and the relative gradient were compared."
+     "Explanation 2.",
+     "Each electric sample reaches the skin while the object's image is changing, so each discharge carries a different spatial context",
+     "Hofmann and colleagues paired the discharge record with the approach trajectory, which let each sample be matched to the fish's position at that moment. The recorded discharge timing supplied the sampling record for every approach."
     ],
     [
-     "Result.",
-     "Absolute amplitude depended strongly on object size.",
-     "Relative-gradient curves overlapped across sizes."
+     "Explanation 3.",
+     "Thrust and discharge activity moved in opposite directions across the approach, and the sampling density rose as the fish closed in",
+     "Straighter postures and more direct alignment with the object accompanied that rise in density, so the geometry of inspection and the sample sequence changed together. The approach geometry was measured as well as the electric samples."
     ],
     [
-     "Why this helps.",
-     "The size of the object scales the amplitude, and division removes that scaling.",
-     "The remaining value keeps a systematic relation to distance."
-    ],
-    [
-     "Sampling.",
-     "Naturally adapted sampling supplied more measurements near the object than unadapted emission and movement patterns."
-    ],
-    [
-     "Candidate cue.",
-     "The relative gradient is an analysis of the reconstructed sensory input.",
-     "It is a candidate distance cue and is not a measured neural signal."
-    ],
-    [
-     "Near the object.",
-     "Near the objects, naturally adapted sampling supplied more measurements than a comparison pattern of unadapted emission and movement."
+     "Source.",
+     "The figure and the measurements come from Hofmann et al. (2017).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -361,111 +113,110 @@
    ]
   },
   {
-   "after": 17,
-   "title": "A learning criterion defines when a task is acquired",
-   "bold": [
-    "learning criterion"
-   ],
+   "after": 12,
+   "title": "Normalization removes the amplitude scale",
+   "bold": [],
    "paragraphs": [
-    "A learning criterion is a fixed level of performance that marks acquisition of a task. Schumacher and colleagues used more than 75% correct choices on three consecutive training days. Training days were counted from the start of the task until the criterion was met.",
-    "Mean training durations in intact fish were about 12.5 days with both senses, 16.2 days with electric input and 31.5 days with visual input. Electrically silenced fish learned the visual task in about 6 days.",
-    "A common criterion makes the durations comparable across conditions. The differences show how the available senses and the emission of discharges affected the speed of learning. A longer duration means that more training was required to reach the same level of accuracy, and a shorter duration means less."
+    "A relative gradient divides the rate of amplitude change by the current amplitude, so its output depends on the shape of the change rather than on absolute size. For that reason the relative-gradient curves overlapped across cube sizes that produced very different absolute amplitudes, which is the central result of this comparison. The ratio thus discounts the overall scale of the signal.",
+    "Adapted emission and movement produced more samples near each cube than unadapted patterns did, so the cue depends on the animal's own sampling pattern in every trial. Adapted emission changes how many measurements feed the gradient at each distance, and that change is built into the reconstruction. Each cube size yielded its own sampling profile.",
+    "The gradient cue was built from reconstructed frames and tested inside the modeled input. The reconstruction supplies the candidate signal, while the neurons that would use that signal were not part of the model. Relative gradients give the same distance information across the cube sizes tested. The absolute amplitude, by contrast, carries size information that tracks object size rather than distance."
    ],
-   "citation": "Schumacher et al. (2017)",
+   "citation": "Hofmann et al. (2017)",
    "notes": [
-    "A criterion allows learning speeds to be compared between groups.",
+    "Normalization removes the amplitude scale.",
     [
-     "Definition.",
-     "Task acquisition is the development of the learned choice during training."
+     "Explanation 1.",
+     "A relative gradient divides the rate of amplitude change by the current amplitude, so its output depends on the shape of the change rather than on absolute size",
+     "For that reason the relative-gradient curves overlapped across cube sizes that produced very different absolute amplitudes, which is the central result of this comparison. The ratio thus discounts the overall scale of the signal."
     ],
     [
-     "Criterion.",
-     "More than 75 percent correct choices on three consecutive training days marked acquisition."
+     "Explanation 2.",
+     "Adapted emission and movement produced more samples near each cube than unadapted patterns did, so the cue depends on the animal's own sampling pattern in every trial",
+     "Adapted emission changes how many measurements feed the gradient at each distance, and that change is built into the reconstruction. Each cube size yielded its own sampling profile."
     ],
     [
-     "Conditions.",
-     "Fish were trained with both senses, with electric information alone or with visual information alone."
+     "Explanation 3.",
+     "The gradient cue was built from reconstructed frames and tested inside the modeled input",
+     "The reconstruction supplies the candidate signal, while the neurons that would use that signal were not part of the model. Relative gradients give the same distance information across the cube sizes tested. The absolute amplitude, by contrast, carries size information that tracks object size rather than distance."
     ],
     [
-     "Durations.",
-     "Both senses took about 12.5 days, electric input about 16.2 days and visual input about 31.5 days in intact fish."
-    ],
-    [
-     "Silenced fish.",
-     "Electrically silenced fish learned the visual task in about 6 days under the tested conditions."
-    ],
-    [
-     "What differs between conditions.",
-     "With both senses the fish could use electric and visual information together.",
-     "With one sense removed it relied on the remaining sense."
-    ],
-    [
-     "Interpretation.",
-     "The fastest learning occurred with both senses, and learning with vision alone was slowest in intact fish."
-    ],
-    [
-     "Why compare groups.",
-     "The same criterion applied to every group means that a longer training duration reflects slower learning.",
-     "Differences in duration are the measure of task acquisition."
+     "Source.",
+     "The figure and the measurements come from Hofmann et al. (2017).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
-    "Schumacher 2017"
+    "Hofmann 2017"
    ]
   },
   {
-   "after": 19,
-   "title": "Cue conflict tests which sense controls a choice",
-   "bold": [
-    "cue conflict"
-   ],
+   "after": 15,
+   "title": "Dynamic cues reach threshold farther away",
+   "bold": [],
    "paragraphs": [
-    "A cue conflict presents two senses with different information about the same object. The choice that the animal makes shows which sense controls the behavior when the two disagree. A conflict can be created by removing the useful information from one sense.",
-    "Schumacher and colleagues trained fish with electrically conspicuous metal objects and then tested choices with only electric or only visual information available. At an inspection distance of 1 cm, electric information strongly supported the trained discrimination. Tests were conducted with electric-only or visual-only information available.",
-    "Removing discriminating electric cues could impair use of visual shape. Electrosensory capture, the dominance of electric over visual information, therefore operates in the near field and depends on the training of the animal."
+    "The detection criterion defines when an object's information first rises above the variability of the reference condition. Under that criterion, the dynamic cue crossed threshold at about 6 cm, while the static image measure crossed it at about 3 cm, so the dynamic cue carried information to a greater distance. The paper defined that criterion for the reconstructed cues.",
+    "The dynamic measure also resolved distance more finely at longer distances in the modeled data. That resolution describes what the reconstructed cue can separate, which is an analysis result rather than a value recorded from the fish, and it is computed from the same reconstructed approaches. Both cues were judged over the same range of simulated distances.",
+    "The roughly 4 cm recognition range in the choice tasks is a separate measure of identification. Shape discrimination and distance estimation require different kinds of information, so the two thresholds can differ in value even when both come from the same object. The two ranges were measured in different experiments, so the two numbers answer different questions."
+   ],
+   "citation": "Hofmann et al. (2017)",
+   "notes": [
+    "Dynamic cues reach threshold farther away.",
+    [
+     "Explanation 1.",
+     "The detection criterion defines when an object's information first rises above the variability of the reference condition",
+     "Under that criterion, the dynamic cue crossed threshold at about 6 cm, while the static image measure crossed it at about 3 cm, so the dynamic cue carried information to a greater distance. The paper defined that criterion for the reconstructed cues."
+    ],
+    [
+     "Explanation 2.",
+     "The dynamic measure also resolved distance more finely at longer distances in the modeled data",
+     "That resolution describes what the reconstructed cue can separate, which is an analysis result rather than a value recorded from the fish, and it is computed from the same reconstructed approaches. Both cues were judged over the same range of simulated distances."
+    ],
+    [
+     "Explanation 3.",
+     "The roughly 4 cm recognition range in the choice tasks is a separate measure of identification",
+     "Shape discrimination and distance estimation require different kinds of information, so the two thresholds can differ in value even when both come from the same object. The two ranges were measured in different experiments, so the two numbers answer different questions."
+    ],
+    [
+     "Source.",
+     "The figure and the measurements come from Hofmann et al. (2017).",
+     "Each statement is tied to the recordings or observations of that study."
+    ]
+   ],
+   "refs_from": [
+    "Hofmann 2017"
+   ]
+  },
+  {
+   "after": 18,
+   "title": "Electrolocation alone reached high accuracy",
+   "bold": [],
+   "paragraphs": [
+    "Each group was defined by the senses it could use during testing, and each group was tested under its own condition. Every group reached at least 84% correct, so electrolocation by itself supported a high level of discrimination in this near-field task. Accuracy stayed at or above 84% in each group despite the different sensory inputs.",
+    "The gain from combining the senses was measured with the objects placed close to the gates, at about 1 cm, where electric information is strongest for these fish. Both sensory channels were available together in the combined condition, so the difference reflects the information each channel supplied. The electric route alone supported accurate choices at close range.",
+    "The rewarded-object choice stayed identical across those conditions, so accuracy differences reflect the sensory information available to each group. Final accuracy and the number of training days are separate outcomes, one describing the stable endpoint and the other the speed of learning. Placement at the gates was identical across the three groups and in every test session."
    ],
    "citation": "Schumacher et al. (2017)",
    "notes": [
-    "Conflict between senses reveals their relative weight.",
+    "Electrolocation alone reached high accuracy.",
     [
-     "Cue conflict.",
-     "Two senses carry different information about one object.",
-     "The choice shows which sense controls the behavior."
+     "Explanation 1.",
+     "Each group was defined by the senses it could use during testing, and each group was tested under its own condition",
+     "Every group reached at least 84% correct, so electrolocation by itself supported a high level of discrimination in this near-field task. Accuracy stayed at or above 84% in each group despite the different sensory inputs."
     ],
     [
-     "Training.",
-     "Fish learned with electrically conspicuous metal objects."
+     "Explanation 2.",
+     "The gain from combining the senses was measured with the objects placed close to the gates, at about 1 cm, where electric information is strongest for these fish",
+     "Both sensory channels were available together in the combined condition, so the difference reflects the information each channel supplied. The electric route alone supported accurate choices at close range."
     ],
     [
-     "Tests.",
-     "Choices were then tested with electric-only or visual-only information."
+     "Explanation 3.",
+     "The rewarded-object choice stayed identical across those conditions, so accuracy differences reflect the sensory information available to each group",
+     "Final accuracy and the number of training days are separate outcomes, one describing the stable endpoint and the other the speed of learning. Placement at the gates was identical across the three groups and in every test session."
     ],
     [
-     "Result at 1 centimeter.",
-     "Electric information strongly supported the trained discrimination.",
-     "Removing the electric contrast could impair the use of visual shape."
-    ],
-    [
-     "Scope.",
-     "The dominance depends on the near-field task and on the training history of the animal."
-    ],
-    [
-     "Training history.",
-     "The fish learned the task with metal objects that gave strong electric contrast.",
-     "That experience made the electric stream a reliable source of information."
-    ],
-    [
-     "Scope.",
-     "The result depends on the 1 centimeter inspection distance and on the learned task."
-    ],
-    [
-     "Electric dominance.",
-     "Electrosensory capture is dominance of electric information over conflicting visual information.",
-     "It was strongest when the objects were close to the fish."
-    ],
-    [
-     "Measured quantity.",
-     "The tests measure which information controls the choice and not the strength of any particular synapse."
+     "Source.",
+     "The figure and the measurements come from Schumacher et al. (2017).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -474,53 +225,35 @@
   },
   {
    "after": 21,
-   "title": "First-spike latency encodes stimulus amplitude",
-   "bold": [
-    "Latency"
-   ],
+   "title": "Latency adds timing to amplitude information",
+   "bold": [],
    "paragraphs": [
-    "Latency is the time from a stimulus to the first spike of a neuron. A neuron can signal a stimulus by when it fires as well as by how often it fires. In mormyrids the mormyromast is the electroreceptor organ used for active electrolocation.",
-    "Sawtell and colleagues varied the amplitude of brief electric pulses that mimicked an EOD while recording mormyromast afferents. A larger amplitude shortened the first-spike latency, so the time of the first spike reported local amplitude.",
-    "A latency code is fast, because it needs only one spike per pulse. The brain can read amplitude from spike time within each discharge cycle, which suits an animal that samples the scene in discrete pulses."
+    "The first spike of a mormyromast afferent appears at a latency measured from the electric stimulus. A larger amplitude shortens that latency, so the spike's timing carries amplitude information that a spike count alone lacks. The latency is measured from stimulus onset, so it reflects the timing of a single neuron's response. Each recording reflects one afferent's timing.",
+    "The brief pulses were chosen to resemble an EOD, which allowed amplitude to vary while the sampling interval was held apart from it. Each recorded response was tied to a controlled pulse, and its latency could be read directly from the recording. The pulses were controlled, so the same stimulus could be repeated for each amplitude and interval.",
+    "Timing information is available within a single spike, before the count of a whole burst is known. The latency code is one way the afferent represents local electric contrast, and it operates at the level of a single fiber rather than a population. Latency adds a second dimension to the afferent response, beyond how many spikes were fired."
    ],
    "citation": "Sawtell et al. (2006)",
    "notes": [
-    "Spike timing carries amplitude in the electroreceptor afferents.",
+    "Latency adds timing to amplitude information.",
     [
-     "Definition.",
-     "Spike latency is the interval between the stimulus and the first action potential of the afferent."
+     "Explanation 1.",
+     "The first spike of a mormyromast afferent appears at a latency measured from the electric stimulus",
+     "A larger amplitude shortens that latency, so the spike's timing carries amplitude information that a spike count alone lacks. The latency is measured from stimulus onset, so it reflects the timing of a single neuron's response. Each recording reflects one afferent's timing."
     ],
     [
-     "Experiment.",
-     "Local electric pulses mimicked an EOD.",
-     "Their amplitude and timing were varied while afferent spikes were recorded."
+     "Explanation 2.",
+     "The brief pulses were chosen to resemble an EOD, which allowed amplitude to vary while the sampling interval was held apart from it",
+     "Each recorded response was tied to a controlled pulse, and its latency could be read directly from the recording. The pulses were controlled, so the same stimulus could be repeated for each amplitude and interval."
     ],
     [
-     "Result.",
-     "An amplitude increase generally shortened first-spike latency."
+     "Explanation 3.",
+     "Timing information is available within a single spike, before the count of a whole burst is known",
+     "The latency code is one way the afferent represents local electric contrast, and it operates at the level of a single fiber rather than a population. Latency adds a second dimension to the afferent response, beyond how many spikes were fired."
     ],
     [
-     "Meaning.",
-     "Receptor input is represented partly by when a spike occurs and not only by how many spikes occur."
-    ],
-    [
-     "Why latency suits discrete sampling.",
-     "One spike per pulse is enough to report amplitude.",
-     "The code operates within each discharge cycle."
-    ],
-    [
-     "Spike counts and spike times.",
-     "A neuron can encode a stimulus in how many spikes it fires and in when it fires them.",
-     "Here the time of the first spike carried the amplitude."
-    ],
-    [
-     "Link to sampling.",
-     "The latency depends on the recent sequence of sensing events, which later slides examine."
-    ],
-    [
-     "Terminology.",
-     "A mormyromast is an electroreceptor organ, and its afferent carries information toward the brain.",
-     "Latency refers to the first recorded afferent spike."
+     "Source.",
+     "The figure and the measurements come from Sawtell et al. (2006).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -528,54 +261,36 @@
    ]
   },
   {
-   "after": 22,
-   "title": "Adaptation sets the reference for amplitude coding",
-   "bold": [
-    "Adaptation"
-   ],
+   "after": 24,
+   "title": "Natural interval sequences change latency",
+   "bold": [],
    "paragraphs": [
-    "Adaptation is a change in the responsiveness of a neuron after recent stimulation. A neuron that adapts reports changes relative to the level that it has recently experienced. The carrier is the background level of the signal, and the modulation is the part that an object changes.",
-    "Sawtell and colleagues compared afferent responses at different mean local EOD amplitudes, separating the steady carrier level from small amplitude changes superimposed on it. The latency relationship shifted with the mean stimulus.",
-    "The same instantaneous amplitude can therefore evoke different latencies under different sensory histories. A decoder in the brain must take the preceding stimulus environment into account when it reads latency as amplitude. The latency therefore reports amplitude relative to a baseline that adaptation adjusts."
+    "The replay used natural EOD interval sequences, so each pulse in the sequence carried its own preceding interval. Latency changed from pulse to pulse as those intervals varied, a pattern that a fixed-rate stimulus lacks entirely. The replay kept the sequence of natural pulses intact across each trial. Fixed-rate pulses lack the variability of that sequence.",
+    "Amplitude modulation was delivered as a controlled comparison input, so the replayed intervals and the amplitude changes were recorded in the same afferents. This arrangement isolated how the interval sequence shifted the response while the amplitude input was held constant. The amplitude input was constant across the replayed intervals, which isolated the interval effect. Latency was read on every replayed pulse.",
+    "The same local amplitude gave a different latency depending on the sequence that preceded it, which places sampling history inside the afferent code. The afferent carries information about the timing of active sampling itself, alongside the electric contrast. Sampling history is a property of the animal's own sensing, since the animal generates the intervals. Every sequence was run through the same afferents."
    ],
    "citation": "Sawtell et al. (2006)",
    "notes": [
-    "The meaning of a spike time depends on the history of the receptor.",
+    "Natural interval sequences change latency.",
     [
-     "Adaptation.",
-     "Adaptation is a change in responsiveness associated with recent stimulation."
+     "Explanation 1.",
+     "The replay used natural EOD interval sequences, so each pulse in the sequence carried its own preceding interval",
+     "Latency changed from pulse to pulse as those intervals varied, a pattern that a fixed-rate stimulus lacks entirely. The replay kept the sequence of natural pulses intact across each trial. Fixed-rate pulses lack the variability of that sequence."
     ],
     [
-     "Carrier and modulation.",
-     "The steady carrier level is the mean EOD amplitude at the receptor.",
-     "Small amplitude changes are superimposed on it."
+     "Explanation 2.",
+     "Amplitude modulation was delivered as a controlled comparison input, so the replayed intervals and the amplitude changes were recorded in the same afferents",
+     "This arrangement isolated how the interval sequence shifted the response while the amplitude input was held constant. The amplitude input was constant across the replayed intervals, which isolated the interval effect. Latency was read on every replayed pulse."
     ],
     [
-     "Result.",
-     "The latency relationship shifted with the mean electric stimulus."
+     "Explanation 3.",
+     "The same local amplitude gave a different latency depending on the sequence that preceded it, which places sampling history inside the afferent code",
+     "The afferent carries information about the timing of active sampling itself, alongside the electric contrast. Sampling history is a property of the animal's own sensing, since the animal generates the intervals. Every sequence was run through the same afferents."
     ],
     [
-     "Consequence.",
-     "Responses were not determined only by the instantaneous voltage at the receptor.",
-     "The preceding stimulus set part of the reference."
-    ],
-    [
-     "Decoding.",
-     "The same immediate amplitude can occur under different histories."
-    ],
-    [
-     "Why adaptation exists.",
-     "Receptors that adapt keep their responses within a useful range when the mean level changes.",
-     "They then report changes around the new level."
-    ],
-    [
-     "Latency relation.",
-     "The latency relationship shifted with the mean stimulus, so the same amplitude could give different latencies."
-    ],
-    [
-     "Carrier level.",
-     "The carrier level is the steady EOD amplitude at the receptor.",
-     "It is distinguished from the smaller modulation that an object introduces."
+     "Source.",
+     "The figure and the measurements come from Sawtell et al. (2006).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -583,109 +298,73 @@
    ]
   },
   {
-   "after": 28,
-   "title": "Brain slices preserve local circuits for recording",
-   "bold": [
-    "brain slice"
-   ],
+   "after": 27,
+   "title": "Interval-dependent gain improves latency fits",
+   "bold": [],
    "paragraphs": [
-    "A brain slice is a thin section of tissue that is kept alive in solution. The slice preserves the local connections of a region while allowing the experimenter to control stimulation and apply drugs directly. Slice recordings were made intracellularly from identified cells.",
-    "Grant and colleagues recorded from cells in slices of the elephantnose ELL, the electrosensory lateral line lobe, a hindbrain structure that receives input from skin electroreceptors. They stimulated deep afferent pathways separately from molecular-layer parallel fibers using 0.1 ms pulses.",
-    "Because the organization of the layers is preserved, the two inputs can be compared in the same preparation. Receptor antagonists identify which neurotransmitter receptors mediate each response."
+    "Interval-dependent sensitivity was added as a term that changes the amplitude gain according to previous intervals. The model with this term predicted measured latencies better than a model that ignored interval history, which is the main result of the fitting exercise. The added term changes gain with the previous intervals, not with the present amplitude alone.",
+    "The fit used the same recorded afferent responses, so the improvement came from representing stimulus history rather than from new data. Prediction failures were most visible when natural intervals were combined with slowly correlated amplitudes, which is the condition the model had to reproduce. Prediction failures were examined separately for each interval pattern. The fits were checked against the recorded latencies.",
+    "The fitted model names the variables that govern the history dependence of the latency code. A model of this kind can make predictions for responses to interval sequences that were not part of the original fit, so it extends beyond the recorded examples. Such models summarize the afferent's input-output relation in a form that can be tested on new sequences."
    ],
-   "citation": "Grant et al. (1998)",
+   "citation": "Sawtell et al. (2006)",
    "notes": [
-    "A slice trades the intact animal for control over the circuit.",
+    "Interval-dependent gain improves latency fits.",
     [
-     "What a slice is.",
-     "A thin section of the brain is kept alive in solution.",
-     "Local connections remain intact."
+     "Explanation 1.",
+     "Interval-dependent sensitivity was added as a term that changes the amplitude gain according to previous intervals",
+     "The model with this term predicted measured latencies better than a model that ignored interval history, which is the main result of the fitting exercise. The added term changes gain with the previous intervals, not with the present amplitude alone."
     ],
     [
-     "The ELL.",
-     "The electrosensory lateral line lobe is a hindbrain structure that receives input from skin electroreceptors."
+     "Explanation 2.",
+     "The fit used the same recorded afferent responses, so the improvement came from representing stimulus history rather than from new data",
+     "Prediction failures were most visible when natural intervals were combined with slowly correlated amplitudes, which is the condition the model had to reproduce. Prediction failures were examined separately for each interval pattern. The fits were checked against the recorded latencies."
     ],
     [
-     "Two inputs.",
-     "Deep afferent pathways and molecular-layer parallel fibers were stimulated separately.",
-     "Parallel fibers carry central information across apical dendrites."
+     "Explanation 3.",
+     "The fitted model names the variables that govern the history dependence of the latency code",
+     "A model of this kind can make predictions for responses to interval sequences that were not part of the original fit, so it extends beyond the recorded examples. Such models summarize the afferent's input-output relation in a form that can be tested on new sequences."
     ],
     [
-     "Stimulation.",
-     "Brief pulses of 0.1 millisecond were used."
-    ],
-    [
-     "Pharmacology.",
-     "Receptor antagonists applied to the slice identify which receptors contribute to each response."
-    ],
-    [
-     "Why use pulses of 0.1 milliseconds.",
-     "A brief pulse activates fibers at a defined time, so responses can be related to the stimulus."
-    ],
-    [
-     "Interpreting results.",
-     "Anatomical identification and pharmacology constrain which pathways and receptors contribute to each recorded response."
-    ],
-    [
-     "Where the recordings were made.",
-     "Cells in the elephantnose ELL were recorded intracellularly.",
-     "The slice preserved the organization needed to compare the two inputs."
+     "Source.",
+     "The figure and the measurements come from Sawtell et al. (2006).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
-    "Grant 1998"
+    "Sawtell 2006"
    ]
   },
   {
    "after": 30,
-   "title": "Magnesium and antagonists separate glutamate receptors",
-   "bold": [
-    "NMDA receptor"
-   ],
+   "title": "Excitation in the ELL uses two glutamate receptors",
+   "bold": [],
    "paragraphs": [
-    "AMPA and NMDA receptors are both activated by glutamate, but the NMDA receptor is blocked by extracellular magnesium at negative voltages. Removing magnesium therefore enhances the component of a response that depends on NMDA receptors. A voltage change that favors firing is called an excitatory postsynaptic potential, or EPSP.",
-    "Grant and colleagues removed extracellular magnesium and applied CNQX, an antagonist of AMPA receptors, and AP-5, an antagonist of NMDA receptors. Each drug reduced a distinct portion of the evoked response. The experiment measured the effect of each treatment on the evoked response in the same preparation.",
-    "Recovery after washout showed that the drug effects were reversible and not caused by tissue failure. The portions removed by the two antagonists identify separate AMPA and NMDA components of excitation."
+    "Glutamate-gated ion channels of the AMPA and NMDA types carry the excitatory current evoked by parallel-fiber input. Their pharmacology was examined separately in the same slice preparation, so each receptor type could be tested on its own. Their contributions were separated by drug application. The NMDA and AMPA receptors are distinguished by their antagonists, which were applied in separate tests.",
+    "Removing magnesium increased the NMDA component of the response, which shows that magnesium blocks the NMDA channel at normal resting voltage. Washing out the antagonists restored the response, so the drug effect was reversible rather than a sign of tissue damage. The reversibility argument rests on recovery after washout in the same tissue. Recovery confirmed the reversibility of that effect.",
+    "The two receptor types respond to the same transmitter, so their relative contributions depend on the state of the postsynaptic membrane at the moment of input. The slice results name the receptor types that contribute in this preparation. The field response combines these contributions and gives no count of receptors per synapse. Their pharmacology identifies the contributing receptors."
    ],
    "citation": "Grant et al. (1998)",
    "notes": [
-    "Two receptor classes can be separated by their voltage dependence and by their antagonists.",
+    "Excitation in the ELL uses two glutamate receptors.",
     [
-     "Two receptors.",
-     "AMPA and NMDA receptors are glutamate-activated ion channels."
+     "Explanation 1.",
+     "Glutamate-gated ion channels of the AMPA and NMDA types carry the excitatory current evoked by parallel-fiber input",
+     "Their pharmacology was examined separately in the same slice preparation, so each receptor type could be tested on its own. Their contributions were separated by drug application. The NMDA and AMPA receptors are distinguished by their antagonists, which were applied in separate tests."
     ],
     [
-     "Magnesium.",
-     "Extracellular magnesium blocks NMDA receptors at negative voltages.",
-     "Removing it enhances the NMDA component."
+     "Explanation 2.",
+     "Removing magnesium increased the NMDA component of the response, which shows that magnesium blocks the NMDA channel at normal resting voltage",
+     "Washing out the antagonists restored the response, so the drug effect was reversible rather than a sign of tissue damage. The reversibility argument rests on recovery after washout in the same tissue. Recovery confirmed the reversibility of that effect."
     ],
     [
-     "Antagonists.",
-     "CNQX blocks AMPA receptors.",
-     "AP-5 blocks NMDA receptors."
+     "Explanation 3.",
+     "The two receptor types respond to the same transmitter, so their relative contributions depend on the state of the postsynaptic membrane at the moment of input",
+     "The slice results name the receptor types that contribute in this preparation. The field response combines these contributions and gives no count of receptors per synapse. Their pharmacology identifies the contributing receptors."
     ],
     [
-     "Result.",
-     "Each antagonist reduced a distinct portion of the evoked response."
-    ],
-    [
-     "Reversibility.",
-     "Recovery after washout supported a reversible pharmacological effect rather than irreversible tissue failure."
-    ],
-    [
-     "Reading the drugs.",
-     "A drug that reduces the response shows that its target receptor contributes to the response.",
-     "Two antagonists acting on different receptors can remove different portions."
-    ],
-    [
-     "Controls.",
-     "After the drug was washed out, the response recovered.",
-     "Recovery shows that the effect is reversible and that the tissue remained healthy."
-    ],
-    [
-     "Excitatory potentials.",
-     "An excitatory postsynaptic potential is a synaptically evoked voltage change that favors neuronal firing.",
-     "It is the response that the antagonists reduced, and its time course shows how long excitation lasts after the stimulus."
+     "Source.",
+     "The figure and the measurements come from Grant et al. (1998).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -694,53 +373,35 @@
   },
   {
    "after": 33,
-   "title": "Short-term facilitation depends on pulse spacing",
-   "bold": [
-    "Short-term facilitation"
-   ],
+   "title": "Facilitation depends on the spacing of two pulses",
+   "bold": [],
    "paragraphs": [
-    "Short-term facilitation is an increase in the response to a second stimulus that follows the first closely. The synapse is temporarily stronger because of its recent activity. The increase is temporary and returns to baseline after a delay.",
-    "Grant and colleagues stimulated parallel fibers twice and recorded larger second EPSPs in medium ganglion cells. Facilitation depended on the interval between the pulses and was strong at short intervals, including about 30 ms. The experiment tested several intervals so the time course of facilitation could be mapped.",
-    "Stimulation at independent sites distinguished repeated recruitment of one fiber population from activation of another. The strength of a parallel-fiber synapse therefore depends on how recently it was active. This form of plasticity lasts for a short time and differs from long-lasting changes."
+    "Paired-pulse facilitation was measured as the ratio of the second EPSP to the first, using pulse pairs spaced across tens to hundreds of milliseconds. Facilitation was strongest at the shortest spacings tested, which means the effect fades as the gap between pulses lengthens. Facilitation was tested across that whole range. Pulse spacing was the variable that changed across the pairs.",
+    "Independent stimulation sites separated repeated stimulation of one fiber population from activation of a different population. Each site produced its own pair of responses, which made the source of facilitation identifiable in the recordings. Facilitation depends on which fibers are recruited as well as on the interval. The two cases differ in which fibers respond to the second pulse.",
+    "Short-term facilitation enlarges the response of a synapse that was used moments earlier, so the next input has a larger effect on the cell. Long-lasting changes need repeated spike pairings, a separate process from the short-term change measured in these recordings. Its time course follows the spacing of the paired stimuli, which is why the interval is the key variable."
    ],
    "citation": "Grant et al. (1998)",
    "notes": [
-    "A synapse can change its strength within milliseconds of its own activity.",
+    "Facilitation depends on the spacing of two pulses.",
     [
-     "Definition.",
-     "Paired-pulse facilitation is an increase in the response to a second closely spaced stimulus."
+     "Explanation 1.",
+     "Paired-pulse facilitation was measured as the ratio of the second EPSP to the first, using pulse pairs spaced across tens to hundreds of milliseconds",
+     "Facilitation was strongest at the shortest spacings tested, which means the effect fades as the gap between pulses lengthens. Facilitation was tested across that whole range. Pulse spacing was the variable that changed across the pairs."
     ],
     [
-     "Experiment.",
-     "Parallel fibers were stimulated twice.",
-     "Second EPSPs in medium ganglion cells were larger."
+     "Explanation 2.",
+     "Independent stimulation sites separated repeated stimulation of one fiber population from activation of a different population",
+     "Each site produced its own pair of responses, which made the source of facilitation identifiable in the recordings. Facilitation depends on which fibers are recruited as well as on the interval. The two cases differ in which fibers respond to the second pulse."
     ],
     [
-     "Interval dependence.",
-     "Intervals ranged across tens to hundreds of milliseconds.",
-     "Facilitation was strong at short intervals, including about 30 milliseconds."
+     "Explanation 3.",
+     "Short-term facilitation enlarges the response of a synapse that was used moments earlier, so the next input has a larger effect on the cell",
+     "Long-lasting changes need repeated spike pairings, a separate process from the short-term change measured in these recordings. Its time course follows the spacing of the paired stimuli, which is why the interval is the key variable."
     ],
     [
-     "Control.",
-     "Independent stimulation sites distinguished repeated recruitment of the same fibers from activation of another population."
-    ],
-    [
-     "Meaning.",
-     "Synaptic efficacy depends on recent activity."
-    ],
-    [
-     "Facilitation.",
-     "A second stimulus evokes a larger response than the first because the synapse was recently active.",
-     "The effect fades as the interval lengthens."
-    ],
-    [
-     "Intervals.",
-     "The experiment varied intervals from tens to hundreds of milliseconds.",
-     "Strong facilitation occurred at short intervals such as 30 milliseconds."
-    ],
-    [
-     "Distinguishing populations.",
-     "Using independent stimulation sites shows whether a larger second response comes from repeated activation of the same fibers or from a different population."
+     "Source.",
+     "The figure and the measurements come from Grant et al. (1998).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -748,52 +409,73 @@
    ]
   },
   {
-   "after": 38,
-   "title": "A corollary discharge marks the animal's own command",
-   "bold": [
-    "corollary discharge"
-   ],
+   "after": 36,
+   "title": "Efferent cells respond to both input layers",
+   "bold": [],
    "paragraphs": [
-    "A corollary discharge is an internal copy of a motor command that is sent to sensory areas. In the mormyrid ELL, a signal associated with the electric-organ command accompanies the input from the electroreceptors. The signal accompanies each motor command, whether or not an object is nearby.",
-    "Sawtell and colleagues recorded medium ganglion cells in vivo and compared command-evoked activity with sensory responses. The preparation separated the motor command signal from an electric stimulus delivered by the experimenter. The recordings were made in the intact animal under controlled conditions.",
-    "The command signal tells the cell when the fish itself discharged. The cell can then interpret incoming electrosensory input relative to the timing of the self-generated pulse. Self-generated context allows the cell to relate sensory input to the sensing action."
+    "Output neurons of two kinds, large ganglion cells and fusiform cells, were recorded in these slices alongside the medium ganglion interneurons. Their firing to current injection was set against that of the interneurons, which provides a second cell type for comparison. Their current-evoked firing was recorded for each cell type. Those recordings sampled cells of different types within one slice.",
+    "Excitatory and inhibitory influences reached these output cells, and the balance between them depended on the stimulated pathway. A fusiform cell has an elongated cell body, which distinguishes its morphology from that of the Purkinje-like interneuron in the same structure. The balance was tested for each pathway and cell in these recordings. The stimulated pathway determined which influence dominated.",
+    "The output cells form a separate route out of the ELL, while the medium ganglion interneuron contributes to the local circuit. Local responses are one stage of the processing that precedes the output neurons in each slice. Circuit position determines whether a local signal reaches the output neurons. Behavior-level interpretation requires intact animal experiments."
+   ],
+   "citation": "Grant et al. (1998)",
+   "notes": [
+    "Efferent cells respond to both input layers.",
+    [
+     "Explanation 1.",
+     "Output neurons of two kinds, large ganglion cells and fusiform cells, were recorded in these slices alongside the medium ganglion interneurons",
+     "Their firing to current injection was set against that of the interneurons, which provides a second cell type for comparison. Their current-evoked firing was recorded for each cell type. Those recordings sampled cells of different types within one slice."
+    ],
+    [
+     "Explanation 2.",
+     "Excitatory and inhibitory influences reached these output cells, and the balance between them depended on the stimulated pathway",
+     "A fusiform cell has an elongated cell body, which distinguishes its morphology from that of the Purkinje-like interneuron in the same structure. The balance was tested for each pathway and cell in these recordings. The stimulated pathway determined which influence dominated."
+    ],
+    [
+     "Explanation 3.",
+     "The output cells form a separate route out of the ELL, while the medium ganglion interneuron contributes to the local circuit",
+     "Local responses are one stage of the processing that precedes the output neurons in each slice. Circuit position determines whether a local signal reaches the output neurons. Behavior-level interpretation requires intact animal experiments."
+    ],
+    [
+     "Source.",
+     "The figure and the measurements come from Grant et al. (1998).",
+     "Each statement is tied to the recordings or observations of that study."
+    ]
+   ],
+   "refs_from": [
+    "Grant 1998"
+   ]
+  },
+  {
+   "after": 39,
+   "title": "B spikes and N spikes are separate events",
+   "bold": [],
+   "paragraphs": [
+    "Broad dendritic events, called B spikes, are tied to plasticity at parallel-fiber synapses. Both event classes arise in one medium ganglion cell, which allows their timing to be compared directly within a single recording. Their timing relative to the command can be compared on a shared reference. Both event classes were examined in each recording.",
+    "B-spike timing shifted across the phases of the electric-organ command cycle, and specific N-spike patterns were found near each B spike. These associations were made within the same cell during the same recording sessions, so the two event types were observed together. Their relative timing was tracked across cycles. Their relation to the command cycle was examined phase by phase.",
+    "Keeping the two event types apart matters because they reach different targets within one cell. A broad spike regulates later synaptic change, while a narrow spike carries the cell's immediate signal outward to the rest of the circuit. The narrow spike carries the immediate output, and the broad spike feeds back on synaptic strength. Both events remain distinguishable in the same recording."
    ],
    "citation": "Sawtell et al. (2007)",
    "notes": [
-    "The brain keeps a record of the animal's own sensing actions.",
+    "B spikes and N spikes are separate events.",
     [
-     "Definition.",
-     "A corollary discharge is an internal signal associated with a motor command."
+     "Explanation 1.",
+     "Broad dendritic events, called B spikes, are tied to plasticity at parallel-fiber synapses",
+     "Both event classes arise in one medium ganglion cell, which allows their timing to be compared directly within a single recording. Their timing relative to the command can be compared on a shared reference. Both event classes were examined in each recording."
     ],
     [
-     "In the ELL.",
-     "Electric-organ command-related input accompanies peripheral electrosensory input."
+     "Explanation 2.",
+     "B-spike timing shifted across the phases of the electric-organ command cycle, and specific N-spike patterns were found near each B spike",
+     "These associations were made within the same cell during the same recording sessions, so the two event types were observed together. Their relative timing was tracked across cycles. Their relation to the command cycle was examined phase by phase."
     ],
     [
-     "Experiment.",
-     "Medium ganglion cells were recorded in vivo.",
-     "Command-evoked activity, sensory responses and spike types were compared."
+     "Explanation 3.",
+     "Keeping the two event types apart matters because they reach different targets within one cell",
+     "A broad spike regulates later synaptic change, while a narrow spike carries the cell's immediate signal outward to the rest of the circuit. The narrow spike carries the immediate output, and the broad spike feeds back on synaptic strength. Both events remain distinguishable in the same recording."
     ],
     [
-     "Separating signals.",
-     "The preparation separated the motor command from a stimulus that the experimenter delivered."
-    ],
-    [
-     "Meaning.",
-     "The command timing provides context about the sensing action and not an image of an object."
-    ],
-    [
-     "The ELL circuit.",
-     "Medium ganglion cells receive electroreceptor input and command-related input.",
-     "They are Purkinje-like interneurons with apical dendrites."
-    ],
-    [
-     "Not an image.",
-     "A corollary signal marks timing and does not carry an electric image of an object."
-    ],
-    [
-     "Why context is useful.",
-     "A cell that knows when the fish discharged can interpret the arriving electric input relative to the pulse that the fish generated, and the same input means something different at different moments of the command cycle."
+     "Source.",
+     "The figure and the measurements come from Sawtell et al. (2007).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -801,54 +483,36 @@
    ]
   },
   {
-   "after": 45,
-   "title": "Spike-timing-dependent plasticity depends on relative timing",
-   "bold": [
-    "spike-timing-dependent plasticity"
-   ],
+   "after": 42,
+   "title": "A transient rise follows stimulus removal",
+   "bold": [],
    "paragraphs": [
-    "In spike-timing-dependent plasticity, the direction of a lasting synaptic change depends on the relative timing of two events. The same pairing can strengthen a synapse at one delay and weaken it at another.",
-    "Sawtell and colleagues repeatedly evoked a B spike at delays between about 8 and 110 ms after the electric-organ command and compared command-evoked responses before and after pairing. Pairing near the peak of the response tended to reduce later excitation, whereas earlier or later pairings could enhance it.",
-    "Changes in N-spike output accompanied the altered synaptic response. The timing of the B spike relative to the command therefore determines whether the cell's response to the command is reduced or enhanced."
+    "The recordings captured the state that the circuit entered during repeated electrosensory stimulation, and they tracked that state into the command cycles that followed. Switching the stimulus off produced a transient increase in early B-spike activity. The recordings examined the cycles that followed each stimulation episode. Command-linked recordings were analyzed in the cycles immediately after stimulation ended.",
+    "That rise appeared although the command signal served as the timing reference throughout. Stimulus history shaped when and how often these events occurred, not merely whether they occurred in a given cycle. Switching off the stimulus changed the timing of B spikes within the early cycles. This change in early timing is what the transient increase consists of.",
+    "The transient response is a candidate learned prediction, and additional inhibition and pairing experiments are needed to identify the mechanism behind it. The observed firing pattern is the measured result, while the mechanism is an interpretation of that result. The circuit state built during stimulation provides one explanation for the rise. Each candidate mechanism predicts a different time course for the transient."
    ],
    "citation": "Sawtell et al. (2007)",
    "notes": [
-    "Plasticity in this circuit depends on when a dendritic event occurs relative to the command.",
+    "A transient rise follows stimulus removal.",
     [
-     "Definition.",
-     "Spike-timing-dependent plasticity is a lasting synaptic change whose direction depends on relative timing."
+     "Explanation 1.",
+     "The recordings captured the state that the circuit entered during repeated electrosensory stimulation, and they tracked that state into the command cycles that followed",
+     "Switching the stimulus off produced a transient increase in early B-spike activity. The recordings examined the cycles that followed each stimulation episode. Command-linked recordings were analyzed in the cycles immediately after stimulation ended."
     ],
     [
-     "Pairing.",
-     "A B spike was repeatedly evoked at delays from about 8 to 110 milliseconds after the command."
+     "Explanation 2.",
+     "That rise appeared although the command signal served as the timing reference throughout",
+     "Stimulus history shaped when and how often these events occurred, not merely whether they occurred in a given cycle. Switching off the stimulus changed the timing of B spikes within the early cycles. This change in early timing is what the transient increase consists of."
     ],
     [
-     "Result.",
-     "Pairing near the peak of the command response reduced later excitation.",
-     "Earlier or later pairings could enhance it."
+     "Explanation 3.",
+     "The transient response is a candidate learned prediction, and additional inhibition and pairing experiments are needed to identify the mechanism behind it",
+     "The observed firing pattern is the measured result, while the mechanism is an interpretation of that result. The circuit state built during stimulation provides one explanation for the rise. Each candidate mechanism predicts a different time course for the transient."
     ],
     [
-     "Link to output.",
-     "N-spike output changed with the altered synaptic response."
-    ],
-    [
-     "Meaning.",
-     "Command context, dendritic events, synaptic strength and axonal activity are connected in one adaptive mechanism."
-    ],
-    [
-     "Pairing protocol.",
-     "A B spike was evoked repeatedly at a defined delay.",
-     "Command-evoked responses were compared before and after pairing."
-    ],
-    [
-     "Direction of change.",
-     "Pairing near the peak of the command response reduced later excitation.",
-     "Earlier or later pairings enhanced it."
-    ],
-    [
-     "Output of the cell.",
-     "N spikes are the principal output of the medium ganglion cell.",
-     "Changes in N-spike output tie the altered synaptic response to the output event."
+     "Source.",
+     "The figure and the measurements come from Sawtell et al. (2007).",
+     "Each statement is tied to the recordings or observations of that study."
     ]
    ],
    "refs_from": [
@@ -856,5 +520,226 @@
    ]
   }
  ],
- "body": {}
+ "body": {
+  "2": [
+   "Active electrolocation is the detection of nearby objects through changes in an electric field that the animal generates itself. The weakly electric elephantnose fish, Gnathonemus petersii, emits brief **electric organ discharges**, or EODs, and senses how surrounding objects alter the current flowing across its skin. Each discharge therefore samples the nearby objects again.",
+   "Von der Emde and colleagues trained fish to choose between three-dimensional objects in a two-alternative task, with each trial offering a pair of objects. Recognition persisted in complete darkness, including tests of object size and rotation, so visible appearance was not needed under those conditions. Accurate choices in the dark therefore point to a nonvisual capacity.",
+   "This behavior concerns near-field sensing rather than a long-range image of the environment. In the tested tasks, object recognition failed beyond about 4 cm, even though the electric field itself extends farther from the fish. Recognition at that range therefore depends on the fish's own electric field, which carries the object's effect to the skin."
+  ],
+  "3": [
+   "An **electric image** is the spatial pattern of object-induced change in current across the fish's skin. An object whose conductivity differs from the water around it changes the local electric field, so the pattern carries information about that object. The sensory skin registers that pattern across many locations at once, and each location contributes a different part of it.",
+   "Hofmann and colleagues recorded spontaneous approaches to metal cubes and reconstructed electric images with a biophysical model. Comparing object-present and object-absent simulations isolated the perturbation that the object produced along the sensory surface. The model used measured behavior as its constraint, so each estimate reflects the movements the fish actually made during each approach.",
+   "The reconstructed images changed over successive discharges as the fish approached the object. These are model-based estimates rather than direct recordings from every receptor, so each frame is a predicted current pattern that approximates the object's geometry closely. The sequence of frames therefore follows the fish's approach from distance to close inspection."
+  ],
+  "4": [
+   "**Generalization** is preservation of a learned response when conditions differ from training. Von der Emde and colleagues trained an elephantnose fish to recognize a compound object, a cone with a sphere above it, while varying the alternative object across trials. The alternative changed from one trial to the next, so no single pair was ever repeated.",
+   "After about three months of training, the fish preferred the rewarded object over both familiar alternatives and two previously unfamiliar objects. Test trials carried no reward or punishment, so the new pairings were never reinforced during testing. Each familiar alternative was an object the fish had already seen during training, and preference was measured across all of the pairs.",
+   "Recognition therefore depended on features shared by the positive object rather than on memorizing one fixed pair. The fish's preference extended to objects it had never been trained against, which makes generalization the defining feature of this task. Electrical and movement-dependent cues could both supply the features that guided the choice in each trial."
+  ],
+  "5": [
+   "A **component cue** is an identifiable part of a larger object that can contribute to recognition. The compound training object had a sphere, a cone, and a narrow junction, so von der Emde and colleagues could test each part as a separate stimulus against novel alternatives. The intact object served as the reference for every component test.",
+   "The sphere kept much of the preference that the intact object produced. The cone gave lower choice frequencies, roughly 70% or 59% depending on the alternative, and a stimulus mimicking the narrow junction also reduced recognition. Each component therefore produced its own level of recognition, measured against the same novel alternatives that the intact object faced.",
+   "The parts were therefore not equally effective, so learned object features are used selectively. Choices reveal this selectivity at the level of behavior, and removing one component changes the electric pattern available to the animal. Recognition of the compound object rests on several learned components rather than on any one of them alone."
+  ],
+  "6": [
+   "**Size constancy** is identification of physical size despite changes in the sensory image caused by distance. Von der Emde and colleagues trained a fish to choose the smaller of two cubes, initially placed 2 cm and 3 cm from the gates, so physical size was the rewarded feature in every single choice.",
+   "The distances of the two cubes were then varied independently. The fish kept preferring the smaller cube across distance combinations, with useful performance reaching about 4 cm. Control tests in darkness preserved the size discrimination, which points to an electrosensory basis for the choice, and the distance pairs covered many different combinations.",
+   "The measured image diameter of a small cube increased when it moved farther away, so image width alone fails to preserve physical size. A fixed rule based on image intensity would pick the larger cube at some distances, so the behavior reflects compensation for distance-dependent changes. Size constancy is therefore a property of the learned choice, not a single measured signal."
+  ],
+  "7": [
+   "**Rotation invariance** is recognition that persists when an object changes orientation in space. Von der Emde and colleagues rotated trained objects through several angles, which changed the electric patterns the fish generated during inspection. Each rotation changed the orientation of the object relative to the fish. The choice itself stayed the same across those angles.",
+   "A fish trained with the compound object kept identifying it across the tested rotations. Another fish, trained to choose a pyramid over a cube, kept at least 80% correct choices across the tested combinations, and dark-condition controls pointed to an electrosensory basis for that performance. The two results came from different trained comparisons.",
+   "Other object pairs produced stronger rotation-dependent effects, so orientation tolerance varies with the fish and the learned comparison. The specific geometry of each object and the cues acquired during training shape how far recognition holds across orientations. Rotation tolerance is therefore a property of the trained object pair as well as the fish."
+  ],
+  "8": [
+   "The **recognition range** is the distance over which an animal reliably identifies a tested object. Von der Emde and colleagues moved metal objects from 1 to 8 cm away, behind a grid that kept each fish at a defined minimum distance before it chose. The grid thus held the inspection distance at a fixed minimum on every trial.",
+   "Choice performance declined as distance increased, and the tested shape and size discriminations failed beyond about 4 cm. The grid prevented the fish from solving each trial by moving directly beside the object, so the inspection geometry stayed constant across distances. Performance fell gradually rather than abruptly, which marks where accuracy drops off in these tasks.",
+   "An electric field remains physically present beyond this behavioral range. Detection of an object's presence and recognition of its identity are different measures, and recognition depends on the usable perturbation, on sensory noise, and on the task. Recognition therefore has a range that is narrower than the physical extent of the electric field."
+  ],
+  "9": [
+   "**Active sensing** includes movements and emission patterns that change the sensory information an animal acquires. Hofmann and colleagues tracked spontaneous approaches of elephantnose fish to objects while recording discharge timing in water with a conductivity near 100 µS/cm. Each approach was therefore recorded as a sequence of movements and discharges across the approach.",
+   "As fish approached, thrust decreased while discharge activity and spatial sampling density increased. The fish also aligned more directly with the object and adopted straighter postures, so each approach produced a sequence of samples rather than a single reading. The increase in sampling occurred as the fish closed in on the object, not at a fixed distance.",
+   "Natural electrolocation input therefore arrives through changing movements and pulse intervals. A stationary stimulus sequence reproduces just part of this sensory situation, because movement and emission patterns shape the samples that the electric system receives during inspection. Active sensing therefore links how the fish moves to what its electric system can measure."
+  ],
+  "10": [
+   "**Electrosensory flow** is the change in electric input across successive samples as the fish moves relative to objects. Hofmann and colleagues combined measured approach trajectories with a model that reconstructed object-induced current along the fish's sensory surface. Each sample in the sequence therefore reflects a real approach by a real fish. These flow data are the basis for every later estimate.",
+   "Successive images changed in amplitude and spatial position as the fish's position relative to the object changed. The reconstructed scene supplied both the current electric pattern and its recent history, while measured posture determined which receptors sat near the strongest perturbation. Each new discharge added one more sample to that recent history.",
+   "The study's main contribution is a behaviorally constrained description of the information available to the fish. Using that information to estimate object distance is a mechanistic proposal, to be tested with direct neural or behavioral manipulation, since the neurons that would use the information lie outside the model. The reconstruction therefore stops at the sensory input."
+  ],
+  "11": [
+   "A **static distance cue** is information available within one sensory sample. Electric-image blur changes with object distance, and the slope-to-amplitude ratio summarizes a spatial property of that image. Hofmann and colleagues evaluated this measure during spontaneous approaches to objects, and the ratio is computed from one image at one moment of the approach.",
+   "The measure varied with distance in these approaches, yet its values scattered as body curvature changed. Natural changes in posture and body curvature added substantial variability, while controlled straight approaches separated distance-related structure from the variation that geometry adds. Body bending also shifts receptor positions relative to the object during each approach.",
+   "A single spatial measurement therefore becomes less reliable under natural postures and body curvature. That reliability limit motivates examining information spread across successive samples, since each new sample measures the same object again. The static cue still remains present within each sample, so single-sample information is not discarded entirely. Each sample therefore adds information."
+  ],
+  "12": [
+   "A **relative gradient** expresses how rapidly electric-image amplitude changes during movement, relative to the current amplitude. Hofmann and colleagues reconstructed approaches to differently sized metal cubes and set absolute image amplitude against this movement-dependent measure. Object size was the variable that had to be controlled. Each cube therefore produced its own absolute amplitude at every distance.",
+   "Absolute amplitude depended strongly on object size. The relative-gradient curves overlapped much more closely across sizes and kept a systematic relationship with distance, while naturally adapted sampling supplied more measurements near the objects. The relative gradient therefore kept its distance relationship where the absolute amplitude did not. That contrast was the main result of the analysis.",
+   "Normalizing a change by the current signal reduces scale differences across objects. The paper evaluates this operation within its reconstruction, so the cue is a candidate in the modeled sensory input rather than an established neural computation. Its value depends on the sampling that the fish performs during approach. The result is therefore a model-based prediction."
+  ],
+  "13": [
+   "**Cue invariance** is reduced sensitivity to an irrelevant property while information about the estimated property is retained. Hofmann and colleagues simulated straight approaches to cubes and spheres with characteristic dimensions of 1, 2, and 3 cm, varying their electrical material properties. Those simulated objects had exact geometry and preset conductivity values in every case.",
+   "Absolute image amplitude changed markedly with size, shape, and conductivity. Relative-gradient curves overlapped across these modeled conditions, suggesting that distance information survives changes that strongly alter the absolute signal. Shape and conductivity therefore affected the absolute amplitude as strongly as size did. The relative-gradient curves stayed together across the same conditions in these simulations.",
+   "These comparisons are simulations that specify when the proposed cue stays robust. Receptor noise, real posture, and additional environmental objects are the conditions that a biological test would add, so the simulated invariance is a starting point for experiments with real fish. Each simulated comparison fixed the approach geometry and varied the object alone."
+  ],
+  "14": [
+   "A **local amplitude** is the object-induced signal measured at one point on the sensory surface. Hofmann and colleagues simulated a straight approach to a metal cube with a volume of 8 cm³ and estimated the signal at several positions along the fish's body. Local amplitude therefore depends on where the receptor sits relative to the object.",
+   "Local amplitudes differed across positions, while relative gradients overlapped more closely when distance was expressed relative to the receptor location. The proposed distance information was therefore less tied to one specially selected point on the skin. Distance measured to each receptor differs from distance measured to the head, because receptors sit at different body locations.",
+   "This result holds for the tested reconstruction. Receptor properties and central readout mechanisms could still weight body regions differently, so the simulation describes a geometric property rather than a uniform neuronal representation of distance. Distinguishing these references prevents a geometric shift from changing the cue's meaning. Receptors along the body are distributed over different distances from the same object."
+  ],
+  "15": [
+   "The study set the discriminability of reconstructed relative-gradient values against that of the static image measure. Both were judged against a distant reference condition, which gave a common basis for deciding when object-related information emerged from variability. The same reconstructed approaches were used for both. The analysis treated both as detection criteria.",
+   "Under the paper's detection criterion, the relative gradient reached threshold at about 6 cm, whereas the static measure reached it at about 3 cm. The dynamic measure also gave finer modeled distance resolution at longer distances. The dynamic cue therefore carried distance information to a greater distance than the static cue did.",
+   "These values describe cue analysis built from reconstructed distributions, and they coexist with the roughly 4 cm object-recognition range from choice tasks. Identifying shape and extracting a distance-related signal place distinct demands on the animal. The 4 cm range measures what the fish can identify in the choice tasks. Detection and identification are separate capacities."
+  ],
+  "16": [
+   "**Electrical transparency** means an object produces little discriminating electrical contrast against the surrounding water. Schumacher and colleagues used colored agarose objects with conductivity close to the tank water, which supplied visible shapes while reducing active electrolocation cues. Agarose is a gel whose conductivity can be adjusted to match water. Its matched conductivity reduced the electric contrast of the object.",
+   "A 3 cm sphere served as the rewarded object, and a cross or cuboid served as the alternative. Metal objects supplied electric contrast, while opaque, electrically transparent covers reduced visible shape differences in electric-only conditions. The objects sat 1 cm behind the gates in every test. Each test kept the same choice format as the training.",
+   "Material and lighting manipulations changed sensory availability while the choice format stayed fixed. Control tests of electrical and lateral-line cues supported each interpretation, rather than an assumption that darkness alone isolates a single channel. Lateral-line cues were the second channel tested in those controls. The control results were needed to attribute the effect to electrical cues."
+  ],
+  "17": [
+   "**Task acquisition** is the development of the learned choice during training. Schumacher and colleagues trained elephantnose fish with both senses, with electric information alone, or with visual information alone, using a criterion above 75% correct choices on three consecutive days. Each group trained until it reached that criterion. The three groups differed in which sensory cues were available.",
+   "Mean training lasted about 12.5 days with both senses, 16.2 days with electric input, and 31.5 days with visual input in intact fish. Electrically silenced fish learned the visual task in about 6 days under the tested conditions. Visual training was the slowest of the three conditions in intact fish. The duration differences are the main measured result here.",
+   "Learning speed therefore tracks emission state and sensory context in this near-field object task. Each sensory condition sets a different rate at which the learned choice develops. Emission and sensory context therefore both bear on how quickly the choice forms. Electrically silenced fish learned the visual task faster than intact fish did."
+  ],
+  "18": [
+   "**Asymptotic performance** is the relatively stable accuracy reached after a task has been learned. Schumacher and colleagues tested trained fish under conditions allowing vision and electrolocation together, electrolocation alone, or vision alone, with the same rewarded-object choice. That endpoint was measured for each group using identical objects and the same choice format.",
+   "Accuracy reached at least 84% in every group. The combined-sense group averaged about 94.5% correct choices, above the visual-only accuracy of intact fish, while the objects stayed about 1 cm behind the inspection gates. Each group reached a stable level of accuracy. The objects stayed in the same place in every group.",
+   "Combined sensory input therefore improved discrimination in this task. Accuracy measured after training reflects the final level of the learned choice rather than its speed. Training duration is a separate measure of how fast the choice was learned, and both measures describe the same training history. The benefit appears in accuracy at the endpoint."
+  ],
+  "19": [
+   "**Electrosensory capture** is dominance of electric information over conflicting visual information in a perceptual task. Schumacher and colleagues trained fish with electrically conspicuous metal objects, then tested choices with electric-only or visual-only information available. The metal objects supplied strong electric contrast during the training trials. Visual shape was available in the visual-only tests.",
+   "At the short inspection distance of 1 cm, electric information strongly supported the trained discrimination. Removing discriminating electric cues could impair the use of visual shape, and the result depends on the specific near-field task and the training history. The gates fixed the inspection distance at 1 cm in every trial. This sets the near-field condition.",
+   "Dominance is therefore conditional on the task and on the animal's training. Choices are the readout available in these experiments, and sensory weighting describes the contribution of each modality to the observable decision. Behavioral weights are inferred from the choices that each condition produced. Each condition isolates one source of sensory information."
+  ],
+  "20": [
+   "A **training conflict** occurs when one sensory stream carries the learned distinguishing features while another offers little useful contrast. Schumacher and colleagues repeatedly tested visual object discrimination after training that emphasized electrically conspicuous objects, so the electric cue carried most of the learned distinction. Visual performance was therefore measured against an imbalance that training had created.",
+   "Visual-only performance changed over several weeks of training, and longitudinal tests recorded the same fish repeatedly across that whole period. Electrically transparent stimuli removed the electric distinction that had previously been useful, while the near-field choice format remained the same in every test session. The sessions therefore tracked changes in visual learning across training.",
+   "Experience-dependent sensory weighting can include interference from electric information under particular training conditions. Visually trained and electrically silenced fish could still learn the task, so the reliability of each stimulus stream sets how much it contributes to the choice. Interference is therefore a training effect that depends on which stream was reliable."
+  ],
+  "21": [
+   "A **mormyromast** is an electroreceptor organ used in mormyrid active electrolocation, and its sensory afferent carries information from the skin toward the brain. **Spike latency** is the interval between the electric stimulus and the first recorded afferent action potential, measured from the onset of the stimulus. Its spikes carry that timing signal toward the brain.",
+   "Sawtell and colleagues varied local electric-pulse amplitude and pulse timing while recording afferent spikes. Their brief stimuli mimicked an EOD, so object-associated amplitude changes could be examined separately from changes in the sampling interval, and each recording isolated the response of one afferent. Each stimulus therefore resembled a single discharge of the fish.",
+   "A larger amplitude generally shortened first-spike latency. Receptor input is therefore represented partly by when a spike occurs, not only by how many spikes occur, and this temporal code still depends on the recent sequence of sensing events. Timing carries information within the first spike, before the spike count of a burst is known."
+  ],
+  "22": [
+   "**Adaptation** is a change in responsiveness associated with recent stimulation. Sawtell and colleagues recorded afferent responses across different mean local EOD amplitudes, distinguishing the steady carrier level from smaller changes superimposed on it, so the baseline was controlled separately. The modulation therefore measured deviations from that carrier level, not absolute amplitude alone.",
+   "The latency relationship shifted with the mean electric stimulus across every mean level that was tested. Responses were therefore set by the stimulus environment that preceded each modulation, which established part of the reference against which amplitude was encoded. This shift was measured across the full range of mean levels that were tested.",
+   "The same immediate amplitude can therefore occur under different sensory histories and produce different latencies. A central decoder must account for the mean level that precedes an amplitude change, since the same carrier shift can mimic an object-induced change if that history is ignored. That history is part of the context for reading each latency."
+  ],
+  "23": [
+   "An **inter-discharge interval** is the time between successive sensing pulses. Sawtell and colleagues ramped pulse amplitude from about -30% to +30% while presenting pulses at fixed intervals of 200, 67, or 20 ms, and first-spike latency was recorded for every ramp at each interval. Each interval therefore set a different timing for the same ramp.",
+   "Increasing amplitude shortened latency, while shorter sensing intervals produced longer latencies at the same amplitude. Individual afferents differed in the slope and position of their latency-amplitude relationships, so the interval effect was not one identical offset for all fibers. Shorter intervals raised latency at every amplitude tested in these ramps. That offset was the interval effect.",
+   "The motor sampling pattern therefore shapes the sensory code before central decoding. A latency shift carries information about both amplitude and the recent interval, so interpreting it as an object-induced change requires knowing how recently the receptor was stimulated. Recent stimulation therefore shapes how a latency change should be interpreted. The receptor's history is part of the decoding problem."
+  ],
+  "24": [
+   "A **sampling history** is the sequence of preceding pulses, not just the latest interval. Sawtell and colleagues replayed natural patterns of EOD intervals while measuring first-spike latency, and set those responses against controlled amplitude modulation as a comparison input. The replayed sequence kept each natural interval in its original order. Fixed-rate stimulation lacks that order.",
+   "Afferent latency changed as the natural pulse sequence changed, even when instantaneous amplitude alone failed to account for the response. The measured code reflected the time structure of active sampling as well as the electrical contrast being sampled, which is the central point of the replay. Latency responses followed the sequence at each pulse.",
+   "Replaying a natural sequence preserves temporal structure that fixed-rate stimulation removes. Response changes can therefore be attributed to sampling history under controlled input conditions, which isolates the effect of the pulse sequence itself. Its code reflects the sampling process of the fish. Replaying the sequence therefore keeps the pulse-by-pulse structure of natural sensing."
+  ],
+  "25": [
+   "A **spike train** is a sequence of action potentials emitted by one neuron. Some recorded mormyromast afferents produced more than one spike after a pulse, which raised the possibility that later spikes add independent information about local electric amplitude, beyond the first spike. Each spike in the train has its own timing relative to the pulse.",
+   "Sawtell and colleagues measured the times of subsequent spikes against first-spike latency. The tight relationships supported the first spike as the principal timing variable in the responses examined, rather than treating every spike as a new estimate of amplitude in these recordings. The first spike therefore served as the reference event for later spikes.",
+   "Independent information is distinct from physiological influence. A later spike can drive a postsynaptic response while staying strongly predictable from the first-spike latency, so the coding description narrows under the tested conditions. Later spikes can still influence the postsynaptic cell even when their timing says little about amplitude. Influence on transmission is a separate question."
+  ],
+  "26": [
+   "**Sensitivity** here means the change in afferent latency associated with a given amplitude modulation. Sawtell and colleagues tested constant pulse rates, including 15, 30, and 50 Hz, while estimating how present and previous amplitudes influenced the timing of each response. Sensitivity is therefore a slope that relates timing change to amplitude change.",
+   "Sensitivity to present amplitude increased with constant sensing rate. This rate dependence differed from what a fixed linear filter predicted under another stimulation regime, especially when amplitude changes were correlated across successive pulses. Fixed linear filters capture one regime of stimulation, so they fail when gain changes under another regime. The difference was largest for correlated amplitude sequences.",
+   "The result identifies a state-dependent sensory transformation rather than a uniform gain fixed to a fiber. Coding models therefore need adjustment for the sampling rate that a fiber experiences during active sensing. A fiber therefore has a sensitivity that depends on its recent sampling rate, not a single gain value. That dependence adds a rate term to coding models."
+  ],
+  "27": [
+   "A **coding model** predicts neuronal responses from specified stimulus variables. Sawtell and colleagues tested models using EOD amplitude and prior intervals, then examined prediction failures when natural interval patterns combined with slowly correlated amplitude changes in the same recordings. The fitted models included the amplitude and interval of every preceding pulse as inputs.",
+   "Adding interval-dependent changes in amplitude sensitivity improved predictions of measured afferent latencies. The recorded responses stayed the same, so the gain came from accounting for sensory context rather than from a different type of neural output. The gain term is the new element, and it changes with the interval history. That change explains the improved fit.",
+   "These published models were fitted to afferent data, and their success supports a description of history-dependent coding. Agreement narrows the set of possible coding mechanisms, and model fits constrain what a neuron could compute without naming the mechanism. They summarize measured responses rather than replace them. They are tested against the recorded data."
+  ],
+  "28": [
+   "The **electrosensory lateral line lobe**, or ELL, is a hindbrain structure that receives input from skin electroreceptors. Grant and colleagues studied elephantnose ELL slices, recording cells intracellularly while stimulating deep afferent pathways separately from molecular-layer parallel fibers in the same preparation. Its input comes from electroreceptors spread across the skin. It lies in the hindbrain.",
+   "**Parallel fibers** are axons carrying central information across the apical dendrites of ELL neurons. The slice kept the organization needed to compare these inputs, and the investigators used brief 0.1 ms stimulation pulses together with receptor antagonists in each slice to test each pathway. The deep pathways and the molecular-layer fibers were stimulated separately.",
+   "Local synaptic properties are established in this controlled preparation. Anatomical identification links each recorded response to tissue layers and cell type, while pharmacology constrains which pathways and receptors contribute to that response. The preparation keeps the ELL connections intact enough to test them. Intracellular recording then shows the membrane response of each identified cell."
+  ],
+  "29": [
+   "A **field potential** is an extracellular voltage generated by nearby neural activity. Grant and colleagues stimulated deep ELL layers and separated an early afferent volley from a later postsynaptic component by recording across tissue layers and applying channel blockers. Recording across layers located the early volley and the later component at different depths.",
+   "Cadmium, which blocks calcium-dependent synaptic transmission in this preparation, removed the postsynaptic component and left the afferent component. Tetrodotoxin removed the remaining component, consistent with action potentials in sodium-channel-dependent afferent fibers that carry the volley. Each blocker therefore isolated a single step in the response. Each blocker removed one step in that sequence.",
+   "The sequence distinguishes arriving spikes from the local response they evoke. Pharmacological dissociation gives stronger evidence than assigning a mechanism from response latency or polarity alone, because each blocker removes one identified component. The pharmacological split adds a second line of evidence. Pharmacological evidence therefore strengthens the assignment of each component to its source."
+  ],
+  "30": [
+   "An **excitatory postsynaptic potential**, or EPSP, is a synaptically evoked voltage change that favors neuronal firing. Grant and colleagues stimulated molecular-layer pathways and applied CNQX, an AMPA-receptor antagonist, and AP-5, an NMDA-receptor antagonist, to isolate the glutamate-mediated part of the response. Both antagonists were applied in the same slice preparation in separate tests.",
+   "Removing extracellular magnesium enhanced components linked to NMDA-receptor activation. CNQX and AP-5 each reduced distinct portions of the evoked response, and recovery after washout indicated a reversible pharmacological effect in the same tissue. The enhancement was tied to NMDA-receptor activation in the recorded tissue. Recovery after washout confirmed that the effect was reversible.",
+   "AMPA and NMDA receptors are glutamate-activated ion channels that link transmitter release to postsynaptic depolarization. Both receptor classes are therefore candidates for shaping excitation in this circuit, and their relative weights were not counted. Each antagonist targeted one class of glutamate receptor. The slice experiments identify which receptor types contribute."
+  ],
+  "31": [
+   "An **inhibitory postsynaptic potential**, or IPSP, is a synaptic response that reduces excitability under the recorded conditions. Grant and colleagues stimulated deep ELL pathways while recording identified output cells in a slice that kept their connections intact. They used bicuculline and strychnine, two carefully chosen antagonists, to test inhibitory receptor contributions in those cells.",
+   "Bicuculline blocks GABA-A receptors, while strychnine blocks glycine receptors. Sequential blockade reduced or abolished the inhibitory responses, which suggests that deep-input inhibition can involve both transmitter systems rather than one uniform mechanism. antagonist was tested for its own receptor on the same cells. The two responses were recorded in the same cells.",
+   "These ligand-gated receptors provide ionic conductances that change membrane voltage when synaptic input arrives. GABA is gamma-aminobutyric acid, an inhibitory transmitter in the studied circuit. Glycine supplies a distinct inhibitory receptor pathway that the second antagonist helps identify. Each receptor type was identified pharmacologically in those cells. Its role was tested within the same slice."
+  ],
+  "32": [
+   "A **medium ganglion cell** is a Purkinje-like ELL interneuron whose apical dendrites receive parallel-fiber input. Grant and colleagues stimulated those fibers, recorded a sequence of excitation followed by inhibition, and used antagonists to separate its components. Parallel fibers carry central information across those dendrites in the ELL. The sequence was measured within a single cell.",
+   "Bicuculline removed the inhibitory portion, while CNQX and AP-5 reduced glutamate-mediated excitation. The parallel-fiber-evoked inhibition was attributed to GABA-A receptors, without the combined glycine contribution seen for deep inputs. Excitation was reduced by CNQX and AP-5, which block the glutamate receptors that carry it. The inhibitory portion was removed by bicuculline alone.",
+   "The ordering of excitation and inhibition shapes the interval in which synaptic drive can produce firing. This measured sequence supports pathway-specific integration within the cell. Interneurons influence local circuit activity rather than forming the principal long-range output of the ELL. Their dendritic organization resembles, but is not identical to, the Purkinje cell."
+  ],
+  "33": [
+   "**Paired-pulse facilitation** is an increase in the response to a second closely spaced stimulus. Grant and colleagues stimulated parallel fibers twice and recorded larger second EPSPs in medium ganglion cells. The second EPSP was measured against the first in each pair of pulses. Each pulse pair was delivered to the same parallel-fiber population.",
+   "Facilitation depended on the spacing of the two pulses. Intervals spanned tens to hundreds of milliseconds, and independent stimulation sites distinguished repeated recruitment of the same fibers from activation of another population. Facilitation therefore depended on which stimulation site was used, not only on the interval. The independent sites gave two separate measurements.",
+   "Strong facilitation occurred at short intervals, including about 30 ms. Synaptic efficacy therefore depends on recent activity over a short timescale, shaping temporal integration before any durable change in synaptic strength. Short-term facilitation changes how a recent input affects the next response. Longer-lasting plasticity is driven by repeated spike-timing pairings, a separate process."
+  ],
+  "34": [
+   "An **intrinsic response** is generated by a cell's membrane properties during controlled current injection. Grant and colleagues injected depolarizing and hyperpolarizing currents into medium ganglion cells and recorded a large broad spike along with smaller, narrower spikes. Current injection allowed the membrane response to be tested under controlled conditions. Hyperpolarizing currents were used alongside depolarizing ones.",
+   "The broad spikes lasted about 8-15 ms and reached 40-60 mV in the intracellular recordings. The narrow spikes were about 1-2 ms wide, so one identified cell expressed distinct electrical events. Broad spikes were the larger of the two event types. Both spike forms arose in one identified medium ganglion cell, so the difference reflects the cell's own properties.",
+   "Waveform differences constrain possible propagation and integration mechanisms. The slice work combined waveform measurements with field and pharmacological evidence, and later in vivo experiments examined how these spike types relate to circuit output. Each event type therefore has a characteristic waveform duration. The slice combined that waveform evidence with field and pharmacological measures."
+  ],
+  "35": [
+   "A **spike threshold** is the level of depolarizing drive needed to initiate a spike under specified conditions. Grant and colleagues stimulated deep pathways and parallel fibers while recording medium ganglion cells, and they sorted the synaptic responses by the spike form that followed. Threshold depends on the membrane state at the time of stimulation.",
+   "Deep stimulation evoked inhibitory or excitatory potentials depending on electrode position. Removing inhibition with bicuculline exposed broad-spike responses. Parallel-fiber stimulation produced excitation before stronger depolarization recruited broad spikes in the same cell. Stronger depolarization was needed before those broad spikes appeared. The relation between inhibition and firing was tested in the same cells.",
+   "Pathway recruitment connects to membrane excitability in this cell. Tract stimulation activates more than one input, so each electrode mixes several pathways. The recorded firing therefore reflects the combined influence of those inputs. Electrode position therefore changes which pathways dominate the response. Pharmacological disinhibition changes the circuit conditions in the same way."
+  ],
+  "36": [
+   "An **efferent cell** is a neuron whose axon carries output away from the local sensory structure. Grant and colleagues recorded large ganglion and large fusiform cells, and set their current-evoked firing against that of medium ganglion interneurons. Large ganglion cells and large fusiform cells were the output cells recorded in the same slices.",
+   "The output cells responded to both deep-layer and molecular-layer stimulation, receiving excitatory and inhibitory influences whose balance depended on pathway and cell. Medium ganglion cells therefore sit within a circuit that also contains distinct sensory output neurons. Excitatory and inhibitory influences differed between the two stimulation layers. Each cell type was tested with both layers.",
+   "A local spike or synaptic potential may be transformed before it reaches downstream structures. The slice recordings establish cellular and pathway diversity across the ELL circuit. The local medium ganglion response is one step in a longer chain of processing. Behavior-specific interpretation requires measurements that link output activity to controlled object stimuli in intact animals."
+  ],
+  "37": [
+   "**Conduction** is spread of an electrical signal along an axon. Grant and colleagues stimulated molecular-layer fibers and moved the recording site along the parallel-fiber beam, measuring response latency at increasing distance from the stimulating electrode. The beam is the aligned bundle that molecular-layer stimulation recruits. The recording site moved along that beam.",
+   "Latency increased with the separation between stimulation and recording positions. This distance-time relationship supports propagation along the stimulated pathway. Arrival time at each site was measured, which tested propagation rather than a single local event. Each recording site was a separate measurement of arrival time. The distance-time relationship was measured across the full beam.",
+   "Spatially distributed input can reach dendrites across an organized sensory structure. The conduction measurements establish a physical transmission property in the slice. Conduction describes how the signal travels, not the information each fiber carries. The measured latencies describe how signals spread through the beam. Such spatially distributed input is a physical property of the pathway."
+  ],
+  "38": [
+   "A **corollary discharge** is an internal signal associated with a motor command. In mormyrid ELL, electric-organ command-related input accompanies peripheral electrosensory input, giving timing information about the animal's own sensing action. The command input is therefore internal, and it marks the timing of the animal's own emission. It is a timing signal.",
+   "Sawtell and colleagues recorded medium ganglion cells in vivo and measured command-evoked activity, sensory responses, and broad and narrow spikes separately. Their preparation kept the motor command apart from an experimentally delivered electric stimulus. Command-evoked activity was examined in vivo, not in slices. Both broad and narrow spikes were recorded in the same preparation.",
+   "Self-generated context is integrated with sensory information in these recordings. The corollary signal follows the command pathway even when the preparation prevents the usual movement or emission. A corollary signal is not sensory evidence about the object, but a record of the animal's own action. It marks when the sensing action took place."
+  ],
+  "39": [
+   "**N spikes** are narrow axonal spikes that form the principal medium ganglion output, whereas **B spikes** are broad dendritic events associated with parallel-fiber plasticity. Sawtell and colleagues recorded both event types to see how one cell's output and learning signals interact. Both event types occur in the same cell, which makes their relation a within-neuron question.",
+   "B also spikes were associated with distinct patterns of nearby N spikes, and their timing varied within the electric-organ command cycle. The two event types can interact while remaining distinguishable in the same recordings. B-spike timing was measured within each command cycle. The distinct N-spike patterns were recorded in the same cell.",
+   "The also circuit view distinguishes immediate output from an event that regulates later synaptic change. Dendritic events occur in the input-receiving compartment, while axonal events travel along the output pathway. A broad spike is associated with changes in later synaptic strength rather than immediate output. Both events remain distinguishable in one recording."
+  ],
+  "40": [
+   "A **command cycle** is the interval following one electric-organ motor command. Sawtell and colleagues aligned medium ganglion recordings to that command, and narrow-spike output and broad-spike probability were tracked against the same command reference. Alignment to the command makes the timing of each event type comparable across trials. The reference was identical for every trial.",
+   "B-spike probability fell in an interval about 10-20 ms after the command, even while N-spike output stayed elevated. The different time courses indicate that increased output did not need a matching rise in the dendritic event, and the dissociation was observed in the same cell during each command cycle. The reference was the same in each cycle.",
+   "This dissociation supports control at distinct compartments or input pathways, rather than one excitability change that affects every spike equally. A pause in one spike class during a burst in another constrains how inhibition acts on the cell. Pharmacological manipulation supplied extra evidence about the inhibitory mechanism. Its time course follows the command timing."
+  ],
+  "41": [
+   "A **compartment-specific response** is a change that differs between a neuron's axonal and dendritic events. Sawtell and colleagues varied electrosensory stimuli while recording N spikes and B spikes in medium ganglion cells, with the command reference available for comparison. The stimuli varied from one condition to the next in each single recording.",
+   "Some stimuli increased N spikes while decreasing B spikes, and other conditions produced the opposite pattern. Sensory excitation and learning-related dendritic firing therefore need separate analysis, since one pooled spike rate hides changes in opposite directions. Each event class was classified separately, so the two responses were not merged. The pooled measure hid the opposite changes.",
+   "Functional separation within the recorded cell is the main result. Each compartment receives its own mix of inputs, so a single response scale misses part of the change. Both compartments take part in one circuit where incoming signals influence output and plasticity in different ways. The recordings captured both compartments in the same cell."
+  ],
+  "42": [
+   "**Recent also context** includes the stimulus sequence experienced before the currently measured command. Sawtell and colleagues examined B-spike responses during and after repeated electrosensory stimulation, distinguishing immediate effects from changes that persisted into later command cycles. The stimulus sequence before the command, rather than the command itself, is the variable of interest.",
+   "The stimulation history changed the probability and timing of B spikes. In some conditions, switching off the electrosensory stimulus produced a transient rise in early B-spike activity, even though the command signal remained the temporal reference. The transient rise appeared in early command cycles and was measured against the same command reference.",
+   "Sensory history therefore connects to the event that controls plasticity. Repeated stimulation changed the state of the circuit, and that state persisted for a time after the stimulus was removed. Stimulus removal therefore reveals a circuit state that was built during stimulation. That state can persist into command cycles recorded after the stimulus ends."
+  ],
+  "43": [
+   "A **synaptic conductance** is a change in membrane ion permeability produced by synaptic input. Sawtell and colleagues examined command-evoked membrane responses at different holding potentials, using their voltage dependence to separate excitatory and inhibitory contributions in ELL cells. The voltage dependence sorted the currents by reversal behavior in each cell.",
+   "Recordings showed inhibition during command-evoked excitation, including in medium ganglion cells. A reduced B-spike probability therefore coexists with excitatory drive in that interval. Inhibition was present during the excitatory phase of the command response. Changes across holding potentials helped separate the two synaptic currents. The response differed between the excitatory and inhibitory phases.",
+   "Concurrent inputs affect dendritic firing and axonal output differently because their timing, location, and reversal properties differ. Conductance analysis constrains those contributions to the intact command response. Holding potential changes the driving force for each synaptic current. Each conductance was read from the voltage dependence of the response. Those readings constrain the input balance."
+  ],
+  "44": [
+   "**Disinhibition** is increased activity following removal of an inhibitory influence. Sawtell and colleagues injected bicuculline locally into the ventral molecular layer, blocking GABA-A receptor-mediated inhibition while recording command-linked medium ganglion spikes. The local antagonist was applied at a defined depth in the molecular layer. The effect was measured against the baseline command response.",
+   "B-spike also probability rose strongly just after the injection, with much less immediate change in N-spike output. Superficial injections had weaker effects on B spikes, which gives a spatial contrast across injection sites. Superficial and deeper injections were tested separately. Injection depth was the variable that set the size of the change.",
+   "This manipulation supports strong inhibitory control over dendritic events. The injection acts on a local network rather than one identified synapse, so the selectivity holds for the tested timing and locations. Local antagonist application provides causal evidence that the blocked receptor contributes to suppression. The deeper and more superficial injections constrain where the inhibitory influence is expressed."
+  ],
+  "45": [
+   "**Spike-timing-dependent plasticity** is a lasting synaptic change whose direction depends on the relative timing of activity. Sawtell and colleagues repeatedly evoked a B spike at defined delays, approximately 8-110 ms after the electric-organ command, then measured command-evoked responses before and after pairing. The pairing delays ranged from about 8 to 110 ms after the command.",
+   "Pairing near the peak of the command response tended to reduce later excitation, whereas earlier or later pairings could enhance it. The changes in N-spike output tied the altered synaptic response to the cell's principal output event. The pairing delays set the timing relative to the command peak, which determined the direction of the change.",
+   "Timing-dependent also adaptation is established in this studied circuit. Command context, dendritic events, synaptic strength, and axonal activity are connected, so the adaptation links learning-related signals to the cell's output. A change in output after pairing supports a functional consequence of synaptic adaptation. The behavioral readout is a separate level of evidence."
+  ]
+ }
 }
