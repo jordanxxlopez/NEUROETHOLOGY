@@ -1,221 +1,37 @@
 {
- "third_paragraph": {
-  "2": {
-   "keep": 2,
-   "add": "FM1 carries the frequencies on which the tested range judgments depend, and FM2 adds a second, higher sweep related to FM1 by a twofold frequency ratio."
-  },
-  "4": {
-   "keep": 2,
-   "add": "Relative range is the quantity a bat needs to choose between two reflectors, so the comparison of a nearer and a farther echo defines the task, and the smallest distance difference that the bat can resolve describes how finely it ranges."
-  },
-  "5": {
-   "keep": 1,
-   "add": "Doubling the distance from 30 to 60 cm left the smallest resolvable difference near 12 to 14 mm, so resolution is described in absolute distance units and not as a fixed fraction of the target distance, and echo audibility and propagation losses would be expected to matter at greater distances."
-  },
-  "6": {
-   "keep": 1,
-   "add": "The prediction is made from the recorded call alone, so the structure of the transmitted signal itself sets how finely echo delays can be told apart."
-  },
-  "7": {
-   "keep": 1,
-   "add": "The shared ability to compare target ranges appeared in FM-only species and in species that combine constant-frequency and FM components, with thresholds near 1 to 2 cm in the first three species and near 3 cm in Rhinolophus ferrumequinum."
-  },
-  "9": {
-   "keep": 1,
-   "add": "Spectrum, level and direction were controlled, so arrival time alone carried the information that the bat used to choose the nearer echo."
-  },
-  "10": {
-   "keep": 1,
-   "add": "A representation distributed across frequency channels and time could produce the same delay information as a waveform comparison, and the behavioral resolution curves resemble predictions from the envelope of the call's autocorrelation function."
-  },
-  "11": {
-   "keep": 1,
-   "add": "Recording from the ventral cochlear nucleus and the inferior colliculus of the same animals allows the timing of the two relays to be compared directly, and the lesion-verified sites near the entry of the eighth nerve and near the trapezoid body specify which part of the cochlear nucleus was sampled."
-  },
-  "12": {
-   "keep": 1,
-   "add": "A sequence of echoes after one broadcast resembles a scene with several objects more closely than an isolated tone does, and each stimulus begins with the broadcast followed by four echoes whose first member arrives earlier as the simulated reflectors come nearer."
-  },
-  "13": {
-   "keep": 1,
-   "add": "The recorded signal combines the activity of neurons within the electrode's recording field, so its negative and positive peaks mark the times at which the population responded to each broadcast and echo."
-  },
-  "15": {
-   "keep": 1,
-   "add": "Stability at this scale makes the early population response a repeatable marker of when the broadcast occurred, and jitter rose as the stimulus weakened."
-  },
-  "16": {
-   "keep": 1,
-   "add": "Moving the echo earlier shifts the response earlier, and a weaker sound evokes a later response, so relative timing is registered accurately while absolute latency depends on level."
-  },
-  "17": {
-   "keep": 1,
-   "add": "The peak shifts with echo delay while its repeatability stays near 54 microseconds, so a precise onset response can register many successive delays and the delay itself is carried by the changing latency of the peak."
-  },
-  "18": {
-   "keep": 2,
-   "add": "The recordings support retention of precise population timing at the midbrain, with early broadcast and echo peaks aligned across repetitions."
-  },
-  "19": "Precise timing is therefore present when the ascending signal reaches the cochlear nucleus and is preserved at the inferior colliculus, where responses arrive later but repeat with similar variability. The comparison concerns the early broadcast and echo peaks, which the cochlear nucleus produced earlier than the inferior colliculus.",
-  "20": {
-   "keep": 1,
-   "add": "Precision depends on which event and which portion of a response are measured, because the earliest negative peaks repeat within tens of microseconds and the later positive peaks within roughly 110 to 125 microseconds."
-  },
-  "21": "Population timing at the cochlear nucleus and the inferior colliculus reaches tens of microseconds, whereas specialized behavioral tasks approach 1 microsecond or less. Combining information across frequencies and many responses could allow a readout to exceed the precision of a single measure, and the 20-kHz digitization rate sets the temporal sampling of the recordings.",
-  "22": {
-   "keep": 1,
-   "add": "Selectivity for the downward direction matches the downward FM sweep of the pallid bat's own call, and the neurons studied were those whose direction preference arises from inhibitory sidebands."
-  },
-  "25": {
-   "keep": 2,
-   "add": "Direction selectivity is evaluated by comparing responses to different sweep directions and rates during and after blockade, because the preference is a difference between responses and not their overall size."
-  },
-  "26": {
-   "keep": 1,
-   "add": "Gabazine and strychnine each reduced the preference for downward sweeps, and combined application removed it in the largest fraction of neurons, so GABA and glycine inputs both contribute to direction preference in many inferior colliculus neurons."
-  },
-  "27": "Receptor dependence therefore varies from neuron to neuron: some neurons required GABA input, some required glycine input, and some were sensitive to either blocker. The spectral position and relative timing of an inhibitory input determine whether it can suppress a sweep, so receptor class is one of several factors in a neuron's selectivity.",
-  "28": {
-   "keep": 1,
-   "add": "The result supports the sideband mechanism, and local pharmacological tests then assess the contribution of the inferior colliculus itself."
-  },
-  "29": {
-   "keep": 1,
-   "add": "The tests link a change in the inferred inhibitory input to a change in FM selectivity within the same neuron, which is more specific than a general increase in firing after a drug."
-  },
-  "30": {
-   "keep": 1,
-   "add": "Excitation then precedes inhibition, so the temporal ordering of the two inputs determines direction selectivity, and a strong inhibitory input no longer necessarily prevents the initial response."
-  },
-  "31": {
-   "keep": 1,
-   "add": "Rate selectivity persisted after gabazine in the tested neurons and after strychnine in most of them, which is consistent with inheritance from lower auditory levels, whereas direction selectivity was more vulnerable to either blocker."
-  },
-  "32": {
-   "keep": 1,
-   "add": "Omitting the high-frequency portion allowed the neuron to respond to slow sweeps, so delayed high-frequency inhibition, and not a lack of excitation, rejected them."
-  },
-  "33": "Removing a local receptor input and removing the stimulus frequencies that engage it produce the same result, a neuron that responds to slow sweeps, which supports the sideband account of fast-pass selectivity. Local glycinergic input supported this form of rate tuning in the affected neurons.",
-  "34": {
-   "keep": 1,
-   "add": "The same response property can be inherited, transformed or reconstructed at successive auditory levels, and ascending inputs can already be selective for sound patterns before local integration."
-  },
-  "35": "The harmonic balance of an echo can therefore separate a forward target from lateral clutter, reflections from objects irrelevant to the current target. Because the 25-kHz beam is wider than the 80-kHz beam, off-axis echoes contain relatively less FM2, and the behavioral experiments tested whether bats use these harmonic differences to reduce interference.",
-  "36": "The electronic target kept harmonic content and delay under experimental control, so one echo property could be changed while the rest of the task stayed fixed. The bat's choice of the two-glint target measures how a second echo interferes with perception of the target's structure and timing.",
-  "37": {
-   "keep": 1,
-   "add": "The blind spot is a delay region of impaired discrimination, and masking was measured through incorrect choices while the bat still received the acoustic input."
-  },
-  "38": {
-   "keep": 1,
-   "add": "The filtered probe retained its sound but lost its ability to interfere, so echo spectral structure contributes to clutter rejection when lateral echoes carry relatively less FM2."
-  },
-  "39": {
-   "keep": 1,
-   "add": "Advancing FM2 compensates the level-dependent timing shift and restores alignment of the responses to the two harmonics, whereas the misalignment produced by weaker FM2 defocuses the delay percept and reduces interference from clutter."
-  },
-  "41": {
-   "keep": 1,
-   "add": "In the filtering experiment, the bottom of FM1 supported discrimination, and removing it disrupted performance even with most of FM1 and FM2 present."
-  },
-  "42": {
-   "keep": 2,
-   "add": "The behavioral categories separate failure to attempt from an attempted approach that missed or was aborted, so the vegetation spacing of 10, 20 and 40 cm could be related to each outcome."
-  },
-  "43": "Flying alongside the vegetation and turning late changes which objects lie in the emitted beam and the relative timing of their echoes, so the trajectory alters the acoustic scene. The geometry ensonifies the prey off axis from the vegetation during part of the approach, which the authors interpreted as a way of reducing interference.",
-  "44": {
-   "keep": 1,
-   "add": "A group is defined by its intervals relative to neighboring calls, so stable timing within groups can coexist with changes in group spacing as the bat approaches the insect."
-  },
-  "45": {
-   "keep": 1,
-   "add": "Successful interception involves coordinated changes in call groups, final approach geometry and buzz duration, and the bat continues vocalizing with a shorter buzz at the closest tested separation."
-  }
- },
+ "third_paragraph": {},
  "inserts": [
   {
    "after": 3,
-   "bold": [
-    "Echo delay"
-   ],
-   "title": "Echo delay increases with target distance",
+   "title": "Recordings isolate target echoes",
+   "bold": [],
    "paragraphs": [
-    "Sound travels from the bat to the target and back, so the round trip lengthens as the target moves away. Echo delay therefore increases with target range, and delay is the cue that Simmons manipulated electronically.",
-    "A target at 30 cm returned an echo after about 1.7 ms in the experimental conditions. The recorded echo followed the emitted call and did not arrive at the same time as it, so the interval between call and echo could be measured.",
-    "Sound from apparatus supports also appeared in the recording, and the investigator distinguished target reflections from other returning sound. Range judgments can therefore be tested by changing delay while the loudspeaker positions stay fixed."
+    "Simmons recorded the outgoing call and the returning echo from a target at 30 cm. The echo arrived after the call, not at the same moment as the sound leaving the bat. Sound from the apparatus also appeared in the recording. The investigator separated target echoes from that other returning sound before measuring the delay.",
+    "In the experimental conditions, the echo from that target returned about 1.7 ms after the call. Electronic delay channels could change this interval directly. The loudspeakers kept fixed physical positions while the timing changed. Direct control over echo timing gave the experimenter a clean test of the ranging cue, with no physical movement required. Simulated range changed without moving anything.",
+    "Simmons recorded outgoing sounds and echoes while bats discriminated target distance. Each echo in the recording can be matched to the call that produced it. The recordings thus show the timing that bats had available during the task. Each recording pairs one outgoing sound with the echo that follows it. That pairing makes the delay readable directly."
    ],
    "citation": "Simmons (1973)",
    "notes": [
-    "Echo delay is a time interval, and a bat can use it to estimate how far away a reflector is.",
+    "Recordings isolate target echoes.",
     [
-     "Round trip.",
-     "Sound travels outward to the target and back, so a more distant target returns a later echo.",
-     "Target range is the distance from the bat to the reflector."
+     "Explanation 1.",
+     "Simmons recorded the outgoing call and the returning echo from a target at 30 cm",
+     "The echo arrived after the call, not at the same moment as the sound leaving the bat. Sound from the apparatus also appeared in the recording. The investigator separated target echoes from that other returning sound before measuring the delay."
     ],
     [
-     "Measured example.",
-     "A target at 30 centimeters returned an echo after about 1.7 milliseconds in the experimental conditions."
+     "Explanation 2.",
+     "In the experimental conditions, the echo from that target returned about 1.7 ms after the call",
+     "Electronic delay channels could change this interval directly. The loudspeakers kept fixed physical positions while the timing changed. Direct control over echo timing gave the experimenter a clean test of the ranging cue, with no physical movement required. Simulated range changed without moving anything."
     ],
     [
-     "Reading the recording.",
-     "The echo followed the emitted call and did not coincide with it.",
-     "Sound from apparatus supports also appeared in the recording, so target reflections had to be distinguished from other returning sound."
+     "Explanation 3.",
+     "Simmons recorded outgoing sounds and echoes while bats discriminated target distance",
+     "Each echo in the recording can be matched to the call that produced it. The recordings thus show the timing that bats had available during the task. Each recording pairs one outgoing sound with the echo that follows it. That pairing makes the delay readable directly."
     ],
     [
-     "Why delay can be tested directly.",
-     "Electronic delay channels can change the interval between call and echo while the loudspeakers remain at fixed positions.",
-     "The bat then receives a change in delay without a change in the actual distance of the loudspeaker."
-    ],
-    [
-     "Relative judgments.",
-     "The bats were asked to choose the nearer of two targets, so the task depends on comparing two delays."
-    ]
-   ],
-   "refs_from": [
-    "Simmons 1973"
-   ]
-  },
-  {
-   "after": 5,
-   "bold": [
-    "criterion"
-   ],
-   "title": "Range acuity is defined by a performance criterion",
-   "paragraphs": [
-    "A criterion fixes the level of correct choices that counts as a threshold, so range acuity is the smallest distance difference that reaches that level. Simmons used 75% correct, which lies between chance at 50% and nearly error-free performance.",
-    "At absolute ranges of 30 and 60 cm the smallest distance difference meeting this criterion was approximately 12 to 14 mm. Choices fell to chance when both targets were equally distant, because no nearer target existed.",
-    "The criterion makes thresholds comparable across ranges and species, since each discrimination curve is read at the same level of performance. A threshold is a property of the curve and not of a single trial."
-   ],
-   "citation": "Simmons (1973)",
-   "notes": [
-    "A threshold needs a definition, and Simmons defined it as the distance difference that supported 75 percent correct choices.",
-    [
-     "Why a criterion.",
-     "Performance changes gradually as the distance difference shrinks, so a fixed level of correct choices is chosen to read the curve.",
-     "Seventy-five percent lies between chance and nearly error-free performance."
-    ],
-    [
-     "Result at two ranges.",
-     "At 30 and 60 centimeters the smallest resolvable difference was approximately 12 to 14 millimeters.",
-     "Larger distance differences were much easier to distinguish."
-    ],
-    [
-     "The chance point.",
-     "When the two targets were equally distant there was no nearer target, so the bat could only guess.",
-     "Choices fell to chance at a difference of zero even if the bat heard both echoes clearly."
-    ],
-    [
-     "Comparing curves.",
-     "Reading every curve at the same performance level makes thresholds comparable across absolute ranges and across species."
-    ],
-    [
-     "Distance and difference.",
-     "Absolute distance is how far a target lies from the bat, and distance difference is the separation between the two targets.",
-     "Acuity is a statement about the difference."
-    ],
-    [
-     "Operational definition.",
-     "The criterion is chosen for comparing curves, so it is a convention that makes thresholds from different ranges comparable."
+     "Source.",
+     "The figure and the measurements come from Simmons (1973).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -224,50 +40,35 @@
   },
   {
    "after": 6,
-   "bold": [
-    "Autocorrelation"
-   ],
-   "title": "Autocorrelation compares a signal with delayed copies",
+   "title": "Choices and prediction are separate curves",
+   "bold": [],
    "paragraphs": [
-    "Autocorrelation is a measure of similarity between a waveform and delayed versions of itself. A signal that matches itself well at only one delay yields a sharply peaked function, whereas a signal that matches itself over many delays yields a broad one.",
-    "Simmons derived a prediction from the autocorrelation envelope of the recorded sonar signal, with rapid carrier fluctuations removed. The envelope describes the overall shape of the similarity function and ignores its fine oscillations.",
-    "The shape of the envelope sets how finely two echo delays can be told apart. A prediction made from the call alone therefore links the structure of the transmitted signal to the resolution measured in the behavior of the bat."
+    "The measured curve shows the bats' actual choices at each difference between two targets. The other curve is a prediction that Simmons published from the recorded signal. The other curve comes from calculation, not from behavior. Each point on the measured curve counts correct choices at one difference. Both curves appear on one set of axes.",
+    "A matched receiver is a proposed interpretation of that agreement. It is not a demonstrated neural mechanism. Its role is to predict the curves, not to name neurons. Neurons that perform the matching were not identified in this study. Simmons described the receiver as a functional hypothesis. Its prediction was derived from the signal, not fitted to the choices.",
+    "Simmons plotted both curves at 30 cm, the same distance used for the measured choices. The prediction used a signal that the bats had produced. The result sets a behavioral measure beside a signal-based prediction, not a single cell's response. Both curves cover differences from millimeters to several centimeters. The match holds across that whole range."
    ],
    "citation": "Simmons (1973)",
    "notes": [
-    "The comparison between a measured curve and a signal-based prediction depends on what autocorrelation measures.",
+    "Choices and prediction are separate curves.",
     [
-     "Definition.",
-     "Autocorrelation compares a waveform with delayed versions of itself.",
-     "The result is a function of delay."
+     "Explanation 1.",
+     "The measured curve shows the bats' actual choices at each difference between two targets",
+     "The other curve is a prediction that Simmons published from the recorded signal. The other curve comes from calculation, not from behavior. Each point on the measured curve counts correct choices at one difference. Both curves appear on one set of axes."
     ],
     [
-     "Sharp and broad peaks.",
-     "A signal that resembles itself at only one delay gives a narrow peak.",
-     "A signal that resembles itself over many delays gives a broad peak."
+     "Explanation 2.",
+     "A matched receiver is a proposed interpretation of that agreement",
+     "It is not a demonstrated neural mechanism. Its role is to predict the curves, not to name neurons. Neurons that perform the matching were not identified in this study. Simmons described the receiver as a functional hypothesis. Its prediction was derived from the signal, not fitted to the choices."
     ],
     [
-     "The envelope.",
-     "Removing the rapid carrier fluctuations leaves the overall shape of the similarity function.",
-     "Simmons used that envelope to predict the discrimination curve."
+     "Explanation 3.",
+     "Simmons plotted both curves at 30 cm, the same distance used for the measured choices",
+     "The prediction used a signal that the bats had produced. The result sets a behavioral measure beside a signal-based prediction, not a single cell's response. Both curves cover differences from millimeters to several centimeters. The match holds across that whole range."
     ],
     [
-     "Link to behavior.",
-     "A narrow envelope should allow two nearby echo delays to be separated, and a broad envelope should blur them.",
-     "The prediction comes from the recorded call and not from the behavioral data."
-    ],
-    [
-     "Agreement.",
-     "The measured and predicted curves agreed, which supported a receiver matched to features of the transmitted signal."
-    ],
-    [
-     "Why remove the carrier.",
-     "The rapid carrier fluctuations oscillate far faster than the delays that the bat discriminates.",
-     "The envelope keeps the slower shape that bears on delay resolution."
-    ],
-    [
-     "Prediction and data.",
-     "The measured discrimination curve and the curve predicted from the call had similar form."
+     "Source.",
+     "The figure and the measurements come from Simmons (1973).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -275,48 +76,36 @@
    ]
   },
   {
-   "after": 8,
-   "bold": [
-    "Directional sampling"
-   ],
-   "title": "Directional sampling shapes the echoes a bat receives",
+   "after": 9,
+   "title": "Arrival-time differences of about 1 cm",
+   "bold": [],
    "paragraphs": [
-    "A bat aims its broadcast toward an object, and the strength of the returning echo depends on where the beam points. Directional sampling is therefore part of the task of inspecting two targets separately.",
-    "With one microphone feeding both loudspeakers, strong echoes returned from both sides regardless of the pointing direction of the bat, and stable discrimination was lost. Two channels, each with its own microphone, restored the ability to change relative echo strength by directing the broadcast to one side.",
-    "Artificial feedback must preserve this active relationship between the animal and the target. A simulator that ties each channel to its own microphone approximates separate acoustic inspection of two targets."
+    "The electronic-delay experiment could discriminate arrival-time differences corresponding to about 1 cm of range. Simmons set the simulated range at 30 cm as the reference distance for that comparison. Both conditions used the same bats and a comparable choice task. The result is reported as a difference in arrival time, not in position. The loudspeaker positions also stayed fixed.",
+    "The plot keeps both the physical distance scale and the electronic delay scale. Spectral, directional and intensity cues were controlled, so timing was the remaining cue under test. Those controlled variables matter in natural scenes, which carry all of the cues together. The experiment isolated one cue on purpose. The two scales can be read against each other.",
+    "Physical-range and electronic-delay discrimination were both measured at a 30 cm reference range. The electronic curve matched the physical one closely. The mode of delivery was the one difference between the two conditions. The reference was the same 30 cm in both conditions. The two curves were compared across the tested differences. Both curves appear on one shared scale."
    ],
    "citation": "Simmons (1973)",
    "notes": [
-    "A bat controls what it hears by pointing its broadcast, so the apparatus has to respect that control.",
+    "Arrival-time differences of about 1 cm.",
     [
-     "Aiming the call.",
-     "A bat directs its call toward an object, which changes the information returned by that object."
+     "Explanation 1.",
+     "The electronic-delay experiment could discriminate arrival-time differences corresponding to about 1 cm of range",
+     "Simmons set the simulated range at 30 cm as the reference distance for that comparison. Both conditions used the same bats and a comparable choice task. The result is reported as a difference in arrival time, not in position. The loudspeaker positions also stayed fixed."
     ],
     [
-     "One microphone.",
-     "When one microphone fed both loudspeakers, strong echoes came from both sides whichever way the bat pointed.",
-     "The animal could not inspect the targets separately, and discrimination was disrupted."
+     "Explanation 2.",
+     "The plot keeps both the physical distance scale and the electronic delay scale",
+     "Spectral, directional and intensity cues were controlled, so timing was the remaining cue under test. Those controlled variables matter in natural scenes, which carry all of the cues together. The experiment isolated one cue on purpose. The two scales can be read against each other."
     ],
     [
-     "Two channels.",
-     "Each target received an echo from its own microphone, delay and loudspeaker channel.",
-     "Directing the broadcast toward one side changed the relative echo strength, and stable discrimination returned."
+     "Explanation 3.",
+     "Physical-range and electronic-delay discrimination were both measured at a 30 cm reference range",
+     "The electronic curve matched the physical one closely. The mode of delivery was the one difference between the two conditions. The reference was the same 30 cm in both conditions. The two curves were compared across the tested differences. Both curves appear on one shared scale."
     ],
     [
-     "Controls that stayed fixed.",
-     "The loudspeakers remained at fixed positions, and overall level and spectrum were controlled."
-    ],
-    [
-     "Active sensing.",
-     "The bat shapes the stimulus that it receives, so a valid simulator preserves the loop between emitted sound and returning echo."
-    ],
-    [
-     "Controlled variables.",
-     "Level and spectrum were controlled, so the echoes differed in arrival time and the experiment could separate timing from other range-related cues."
-    ],
-    [
-     "Two microphones.",
-     "Giving each channel its own microphone preserved the bat's ability to inspect the two simulated targets one after the other."
+     "Source.",
+     "The figure and the measurements come from Simmons (1973).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -324,147 +113,36 @@
    ]
   },
   {
-   "after": 10,
-   "bold": [
-    "Cross-correlation"
-   ],
-   "title": "Cross-correlation compares an echo with the call",
+   "after": 12,
+   "title": "Echo spacing in the cascade",
+   "bold": [],
    "paragraphs": [
-    "Cross-correlation measures the similarity between two signals as their relative timing is varied. For an echo and the transmitted call, the delay at which similarity peaks marks the echo arrival time.",
-    "A matched receiver processes an incoming echo in relation to the structure of the transmitted signal. Simmons proposed a neural equivalent of this operation from the relationship between acoustic structure and behavioral resolution. The proposal concerns the extraction of echo arrival time and treats the transmitted call as the reference against which returning echoes are compared.",
-    "The operation extracts arrival time from a broadband signal and not the value of a single acoustic frequency. The paper allowed neural representations distributed across frequency and time, so the computation describes what the receiver achieves."
-   ],
-   "citation": "Simmons (1973)",
-   "notes": [
-    "Cross-correlation is a computation that finds how much, and at what delay, an echo resembles the call that produced it.",
-    [
-     "Definition.",
-     "Cross-correlation measures similarity between two signals as their relative timing is varied.",
-     "The delay at which similarity peaks marks the arrival time of the echo."
-    ],
-    [
-     "Matched receiver.",
-     "A receiver matched to the transmitted signal processes the echo in relation to the structure of that signal."
-    ],
-    [
-     "The proposal.",
-     "Simmons proposed a neural equivalent of cross-correlation from the relationship between acoustic structure and behavioral resolution."
-    ],
-    [
-     "Broadband signals.",
-     "The computation extracts arrival time from a broadband sweep.",
-     "It does not measure the value of one acoustic frequency."
-    ],
-    [
-     "Distributed representation.",
-     "The paper allowed neural representations spread across frequency and time instead of a literal waveform comparison.",
-     "The computation is a functional description of the receiver."
-    ],
-    [
-     "Template idea.",
-     "In a matched receiver the transmitted call serves as the reference for the echo.",
-     "The match is judged across relative timing, and the best match gives the delay."
-    ],
-    [
-     "Level of description.",
-     "The paper treats cross-correlation as a functional description of what the receiver accomplishes and not as a wiring diagram."
-    ]
-   ],
-   "refs_from": [
-    "Simmons 1973"
-   ]
-  },
-  {
-   "after": 11,
-   "bold": [
-    "cochlear nucleus"
-   ],
-   "title": "Two relays in the ascending auditory pathway",
-   "paragraphs": [
-    "Sound-evoked activity reaches the brain through the auditory nerve, and the cochlear nucleus is the first central relay. The inferior colliculus is a midbrain center that receives ascending input from brainstem nuclei.",
-    "Simmons and colleagues recorded in the ventral cochlear nucleus and the inferior colliculus of big brown bats under anesthesia. Lesions made at recording sites near the entry of the eighth cranial nerve and near the trapezoid body identified the cochlear-nucleus locations.",
-    "Recording location matters because the cochlear nucleus contains subdivisions with different cells and projection patterns. Comparing an early relay with a midbrain relay asks whether precise timing is built at the midbrain or arrives already in the ascending pathway."
+    "After the first echo, the later echo intervals were 2.1, 3.5 and 6.8 ms. The first echo moved in 1-ms steps across a span of about 6 ms. Each waveform in the series keeps this fixed cascade pattern. The stimuli were built by the experimenters, not captured from a flying bat. The later intervals stayed the same across stimuli.",
+    "The broadcast lasted 2.5 ms in every stimulus. Its FM1 part swept from 50 to 20 kHz, and its FM2 part from 100 to 40 kHz. The four echoes shared that spectral content. The echo amplitudes were set separately for each of the four echoes. The same broadcast began every waveform in the series. The echo amplitudes formed the only other difference.",
+    "Each plotted waveform begins with a broadcast and then contains four echoes. The series is a controlled acoustic approximation of approaching a set of targets. The waveforms show the stimulus, not an animal's behavior. Each waveform's first echo arrives at a different delay in the series. The echo series mimics approach, but it is a constructed sound."
    ],
    "citation": "Simmons et al. (2024)",
    "notes": [
-    "Two structures along the auditory pathway were compared, one early and one in the midbrain.",
+    "Echo spacing in the cascade.",
     [
-     "Cochlear nucleus.",
-     "The cochlear nucleus is the first central relay that receives input from the auditory nerve."
+     "Explanation 1.",
+     "After the first echo, the later echo intervals were 2.1, 3.5 and 6.8 ms",
+     "The first echo moved in 1-ms steps across a span of about 6 ms. Each waveform in the series keeps this fixed cascade pattern. The stimuli were built by the experimenters, not captured from a flying bat. The later intervals stayed the same across stimuli."
     ],
     [
-     "Inferior colliculus.",
-     "The inferior colliculus is an auditory midbrain center.",
-     "It receives ascending inputs from several brainstem nuclei."
+     "Explanation 2.",
+     "The broadcast lasted 2.5 ms in every stimulus",
+     "Its FM1 part swept from 50 to 20 kHz, and its FM2 part from 100 to 40 kHz. The four echoes shared that spectral content. The echo amplitudes were set separately for each of the four echoes. The same broadcast began every waveform in the series. The echo amplitudes formed the only other difference."
     ],
     [
-     "Recording sites.",
-     "Electrodes were placed in the ventral cochlear nucleus and in the inferior colliculus of big brown bats under anesthesia.",
-     "Lesions marked the cochlear-nucleus sites near the entry of the eighth cranial nerve and near the trapezoid body."
+     "Explanation 3.",
+     "Each plotted waveform begins with a broadcast and then contains four echoes",
+     "The series is a controlled acoustic approximation of approaching a set of targets. The waveforms show the stimulus, not an animal's behavior. Each waveform's first echo arrives at a different delay in the series. The echo series mimics approach, but it is a constructed sound."
     ],
     [
-     "Why location matters.",
-     "The cochlear nucleus has subdivisions with different cells and projection patterns, so it is not one homogeneous population."
-    ],
-    [
-     "The comparison.",
-     "If precise timing is already present in the early relay, it need not be built in the midbrain.",
-     "Recording both structures in the same animals tests that possibility."
-    ],
-    [
-     "Why two relays.",
-     "A comparison of an early relay with a midbrain relay can show whether timing precision changes along the pathway.",
-     "The same stimuli and measurements were applied at both sites."
-    ]
-   ],
-   "refs_from": [
-    "Simmons 2024"
-   ]
-  },
-  {
-   "after": 13,
-   "bold": [
-    "local field potential"
-   ],
-   "title": "Local field potentials sum population activity",
-   "paragraphs": [
-    "A local field potential is an extracellular voltage that reflects coordinated activity in a population of neurons. Its peaks mark the time at which many cells near the electrode responded together. Because many cells contribute, a field potential suits timing measurements that average over a population.",
-    "Filtering the recordings emphasized low-frequency population waveforms. Each broadcast and the first echo produced a negative peak followed by a positive peak in the cochlear nucleus, and repeated presentations produced closely overlapping early responses.",
-    "A field-potential peak is a population event and not a spike from one identified cell. Its timing can be measured repeatedly across trials, so it provides a signal for tracking when broadcasts and echoes were registered."
-   ],
-   "citation": "Simmons et al. (2024)",
-   "notes": [
-    "A field potential records the combined activity of many neurons, and its peaks provide timing markers.",
-    [
-     "What is recorded.",
-     "A local field potential is an extracellular voltage signal that reflects coordinated population activity.",
-     "It combines the activity of neurons within the recording field of the electrode."
-    ],
-    [
-     "Filtering.",
-     "Low-frequency filtering emphasized population waveforms, and individual action potentials were not treated as the signal."
-    ],
-    [
-     "Waveform.",
-     "Each broadcast and the first echo evoked a negative peak followed by a positive peak in the cochlear nucleus."
-    ],
-    [
-     "Repeatability.",
-     "Repeated presentations of the same stimulus gave closely overlapping early responses, whereas later parts of the cascade were more variable."
-    ],
-    [
-     "Population versus single cell.",
-     "A peak in the field potential is not a spike from one identified cell.",
-     "Population timing and single-cell timing are therefore kept distinct."
-    ],
-    [
-     "Peaks as events.",
-     "The negative peak marks the early population response to a broadcast or echo.",
-     "Its time of occurrence is the quantity that later slides measure."
-    ],
-    [
-     "Later parts of the cascade.",
-     "Responses later in the sequence were more variable than the early peaks."
+     "Source.",
+     "The figure and the measurements come from Simmons et al. (2024).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -473,49 +151,35 @@
   },
   {
    "after": 15,
-   "bold": [
-    "Latency"
-   ],
-   "title": "Latency and jitter measure different timing properties",
+   "title": "Jitter rises as the broadcast weakens",
+   "bold": [],
    "paragraphs": [
-    "Latency is the time from a stimulus to a defined neural response, and jitter is the trial-to-trial spread of that time. A response can arrive late and still repeat very precisely.",
-    "Broadcast latencies in the cochlear nucleus were 3.7, 3.9 and 4.2 ms at three attenuation settings, while the corresponding jitter values were 32, 44 and 67 microseconds. Weaker sounds produced longer latencies and larger jitter. Both quantities are measured from the same defined peak of the field potential.",
-    "Latency describes how long the response takes to arrive, and jitter describes how repeatable it is. A response several milliseconds after a sound can repeat within tens of microseconds, so the two properties are reported separately."
+    "The cochlear-nucleus broadcast peak had mean jitter values of 32, 44 and 67 μs at −30, −40 and −50 dB attenuation. The three settings differ in how loud the stimulus was. Greater attenuation makes the stimulus weaker. Timing was least precise at the quietest setting. The jitter values were reported for the same cochlear-nucleus peak.",
+    "A response can arrive several milliseconds after a sound and still repeat within tens of microseconds. Mean delay and repeatability are separate measures of the same response. Latency and jitter answer different questions about one event. The broadcast peak was late, but its repeats were tight. Each value in these recordings was a repeatability measure, not a delay.",
+    "Across the delays, the jitter changed only slightly. That stability held within each sound level. Sound level, not echo delay, set the size of the jitter. The seven delays covered the full cascade used in the study. Those seven delays were tested at all three sound levels. The first-echo jitter values are reported in the same figure."
    ],
    "citation": "Simmons et al. (2024)",
    "notes": [
-    "Two numbers describe a timed neural response, its delay and its repeatability.",
+    "Jitter rises as the broadcast weakens.",
     [
-     "Latency.",
-     "Latency is the time from a stimulus event to a specified neural response.",
-     "The event used for measurement was kept consistent across conditions."
+     "Explanation 1.",
+     "The cochlear-nucleus broadcast peak had mean jitter values of 32, 44 and 67 μs at −30, −40 and −50 dB attenuation",
+     "The three settings differ in how loud the stimulus was. Greater attenuation makes the stimulus weaker. Timing was least precise at the quietest setting. The jitter values were reported for the same cochlear-nucleus peak."
     ],
     [
-     "Jitter.",
-     "Jitter is the spread of that time from one presentation to the next.",
-     "Small jitter means repeated sounds evoke the event at nearly the same time."
+     "Explanation 2.",
+     "A response can arrive several milliseconds after a sound and still repeat within tens of microseconds",
+     "Mean delay and repeatability are separate measures of the same response. Latency and jitter answer different questions about one event. The broadcast peak was late, but its repeats were tight. Each value in these recordings was a repeatability measure, not a delay."
     ],
     [
-     "Values in the cochlear nucleus.",
-     "Mean broadcast latencies were 3.7, 3.9 and 4.2 milliseconds at attenuation settings of minus 30, minus 40 and minus 50 decibels.",
-     "Mean jitter values were 32, 44 and 67 microseconds at the same settings."
+     "Explanation 3.",
+     "Across the delays, the jitter changed only slightly",
+     "That stability held within each sound level. Sound level, not echo delay, set the size of the jitter. The seven delays covered the full cascade used in the study. Those seven delays were tested at all three sound levels. The first-echo jitter values are reported in the same figure."
     ],
     [
-     "Attenuation.",
-     "Greater attenuation means a weaker presented sound, and the settings are stimulus conditions."
-    ],
-    [
-     "Separate properties.",
-     "A response can arrive several milliseconds after a sound and still repeat within tens of microseconds."
-    ],
-    [
-     "Same peak, two numbers.",
-     "Latency and jitter were both taken from the first negative peak after the broadcast.",
-     "The peak is therefore described by when it occurs and by how repeatable that time is."
-    ],
-    [
-     "Level dependence.",
-     "Both numbers changed with the level of the stimulus, with weaker sounds giving later and less repeatable peaks."
+     "Source.",
+     "The figure and the measurements come from Simmons et al. (2024).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -523,47 +187,36 @@
    ]
   },
   {
-   "after": 16,
-   "bold": [
-    "Amplitude-latency trading"
-   ],
-   "title": "Amplitude-latency trading links level to timing",
+   "after": 18,
+   "title": "Later responses can stay precise",
+   "bold": [],
    "paragraphs": [
-    "Amplitude-latency trading is the shift in response timing that accompanies a change in sound level. A weaker sound evokes a later response, even when its physical arrival time is unchanged. The effect concerns the neural response and not the sound itself, which reaches the ear at the same physical time.",
-    "In the cochlear nucleus the first echo response changed by about 18 microseconds per dB, and the corresponding broadcast measure changed by about 20 microseconds per dB. The broadcast and the echo therefore show similar trading, and the sizes of the two effects are close.",
-    "Moving the echo earlier in the stimulus and weakening the echo both change the measured latency, but they are separate experimental manipulations. Neural timing therefore combines echo arrival time with echo level."
+    "The midbrain broadcast latencies were 6.7, 7.0 and 7.5 ms across the three settings. Those latencies are longer than the cochlear-nucleus latencies at the same settings. The added latency is the time needed before a midbrain response occurs. Midbrain responses arrive later, after more processing has occurred. Those cochlear-nucleus latencies were measured in the same animals.",
+    "The consistency of the waveform across repetitions is a separate property. Extra processing time by itself says little about precision. This property was measured separately from the latency. Early midbrain peaks stayed closely aligned from one repetition to the next. Those responses were recorded from the same stimuli at both sites. Each peak was measured for its own timing.",
+    "The midbrain data came from the same animals as the cochlear-nucleus data. Identical stimuli and timing measures were applied at both sites. This design isolates the midbrain step from differences in animals or stimuli. Each site produced its own latency and its own jitter values. Those jitter values were close to the cochlear-nucleus values. Both sites showed that pattern."
    ],
    "citation": "Simmons et al. (2024)",
    "notes": [
-    "Response timing depends on sound level as well as on when the sound arrives.",
+    "Later responses can stay precise.",
     [
-     "Definition.",
-     "Amplitude-latency trading is the change in response timing associated with a change in sound level.",
-     "A weaker sound evokes a later response."
+     "Explanation 1.",
+     "The midbrain broadcast latencies were 6.7, 7.0 and 7.5 ms across the three settings",
+     "Those latencies are longer than the cochlear-nucleus latencies at the same settings. The added latency is the time needed before a midbrain response occurs. Midbrain responses arrive later, after more processing has occurred. Those cochlear-nucleus latencies were measured in the same animals."
     ],
     [
-     "Size of the effect.",
-     "The first-echo response in the cochlear nucleus changed by about 18 microseconds per decibel.",
-     "The broadcast response changed by about 20 microseconds per decibel."
+     "Explanation 2.",
+     "The consistency of the waveform across repetitions is a separate property",
+     "Extra processing time by itself says little about precision. This property was measured separately from the latency. Early midbrain peaks stayed closely aligned from one repetition to the next. Those responses were recorded from the same stimuli at both sites. Each peak was measured for its own timing."
     ],
     [
-     "Two separate manipulations.",
-     "Moving the first echo earlier in the stimulus shifted the response earlier relative to the broadcast.",
-     "Changing the level of the sound shifted the latency in the opposite direction for weaker sounds."
+     "Explanation 3.",
+     "The midbrain data came from the same animals as the cochlear-nucleus data",
+     "Identical stimuli and timing measures were applied at both sites. This design isolates the midbrain step from differences in animals or stimuli. Each site produced its own latency and its own jitter values. Those jitter values were close to the cochlear-nucleus values. Both sites showed that pattern."
     ],
     [
-     "Consequence.",
-     "Latency is not an uncorrected timestamp of acoustic arrival, because level changes it.",
-     "Relative timing is registered accurately while absolute latency depends on level."
-    ],
-    [
-     "What changes the latency.",
-     "A stimulus can be moved earlier in time, or its level can be changed.",
-     "Each manipulation changes the measured latency in its own way."
-    ],
-    [
-     "Same sound arrival.",
-     "A weaker sound can evoke a later neural response even when the sound reaches the ear at the same moment."
+     "Source.",
+     "The figure and the measurements come from Simmons et al. (2024).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -571,50 +224,73 @@
    ]
   },
   {
-   "after": 23,
-   "bold": [
-    "Low-frequency inhibition"
-   ],
-   "title": "Inhibitory sidebands filter FM sounds by timing",
+   "after": 21,
+   "title": "The decoder remains untested",
+   "bold": [],
    "paragraphs": [
-    "A sweep passes through frequencies in order, so the inhibitory and excitatory inputs of a neuron are activated at different moments. Low-frequency inhibition arrives early and high-frequency inhibition arrives later relative to excitation. The relative timing of the two inputs is the quantity that the sweep controls.",
-    "An upward sweep meets the low-frequency sideband before the excitatory band, whereas a downward sweep reaches the excitatory band first. Changing the sweep rate changes the interval between the two inputs.",
-    "Which sweeps are suppressed depends on when inhibition becomes effective relative to excitation. Frequency tuning and relative input timing together select particular FM sounds. A neuron with early low-frequency inhibition prefers downward sweeps for this reason, and a neuron with delayed high-frequency inhibition prefers fast sweeps."
+    "The recordings were digitized at 20 kHz. That rate places important constraints on very small timing estimates. Sampling at that rate sets how precisely a latency can be measured. Restricted recording sites add a second limit on interpretation. The recordings were made under anesthesia, so they describe no ongoing behavior. The timing values come from averages across trials.",
+    "The behavioral and neural values come from different tasks and preparations. The brainstem data explain only part of one-microsecond perception, because its variability stayed larger. The behavioral value comes from specialized tasks. The neural value comes from anesthetized recordings. Each number answers a different question about timing. The neural values measure population timing, not perception.",
+    "The authors identified precisely timed population signals as candidate inputs to a range readout. The experiment never directly identified such a decoder. Precisely timed population signals are one proposed input to that computation. The authors offered that idea without testing a decoder. The recordings supply the timing data for such a model. The proposal is about population timing, not single neurons."
+   ],
+   "citation": "Simmons et al. (2024)",
+   "notes": [
+    "The decoder remains untested.",
+    [
+     "Explanation 1.",
+     "The recordings were digitized at 20 kHz",
+     "That rate places important constraints on very small timing estimates. Sampling at that rate sets how precisely a latency can be measured. Restricted recording sites add a second limit on interpretation. The recordings were made under anesthesia, so they describe no ongoing behavior. The timing values come from averages across trials."
+    ],
+    [
+     "Explanation 2.",
+     "The behavioral and neural values come from different tasks and preparations",
+     "The brainstem data explain only part of one-microsecond perception, because its variability stayed larger. The behavioral value comes from specialized tasks. The neural value comes from anesthetized recordings. Each number answers a different question about timing. The neural values measure population timing, not perception."
+    ],
+    [
+     "Explanation 3.",
+     "The authors identified precisely timed population signals as candidate inputs to a range readout",
+     "The experiment never directly identified such a decoder. Precisely timed population signals are one proposed input to that computation. The authors offered that idea without testing a decoder. The recordings supply the timing data for such a model. The proposal is about population timing, not single neurons."
+    ],
+    [
+     "Source.",
+     "The figure and the measurements come from Simmons et al. (2024).",
+     "Each statement comes from that study's recordings or observations."
+    ]
+   ],
+   "refs_from": [
+    "Simmons 2024"
+   ]
+  },
+  {
+   "after": 24,
+   "title": "Two-tone timing reveals inhibitory arrival",
+   "bold": [],
+   "paragraphs": [
+    "The two-tone experiment reveals suppression that recordings of isolated tones alone would miss. A sideband can suppress a response without producing a visible response when presented by itself. That is why the paired-tone test is needed. The inhibitory tone outlasted the excitatory one in these pairs. Both tones were presented to the same neuron. Those tones defined the test.",
+    "The method infers when inhibition becomes effective at the recorded neuron. Experiments that vary acoustic timing reveal the functional timing of inhibition. The measured quantity is functional timing, not a direct recording of synaptic current. Each tone interval in the series gave one data point. The timing is an estimate from the tone sequence. The measurement is indirect.",
+    "The 5-ms excitatory tone was shorter than the 20-ms inhibitory tone. Its onset could fall before, during or after the excitatory tone as the interval varied. Each interval produced its own level of suppression. The response was measured as the drop in excitatory firing. The same neuron was used across all intervals. Each pair was one test."
    ],
    "citation": "Williams & Fuzessery (2011)",
    "notes": [
-    "A frequency sweep is also a sequence in time, and inhibitory sidebands act on that sequence.",
+    "Two-tone timing reveals inhibitory arrival.",
     [
-     "Order of stimulation.",
-     "A sweep crosses frequency regions one after another.",
-     "Each region activates a different input to the neuron."
+     "Explanation 1.",
+     "The two-tone experiment reveals suppression that recordings of isolated tones alone would miss",
+     "A sideband can suppress a response without producing a visible response when presented by itself. That is why the paired-tone test is needed. The inhibitory tone outlasted the excitatory one in these pairs. Both tones were presented to the same neuron. Those tones defined the test."
     ],
     [
-     "Early and late inhibition.",
-     "Low-frequency inhibition generally arrived early relative to excitation.",
-     "High-frequency inhibition generally arrived later."
+     "Explanation 2.",
+     "The method infers when inhibition becomes effective at the recorded neuron",
+     "Experiments that vary acoustic timing reveal the functional timing of inhibition. The measured quantity is functional timing, not a direct recording of synaptic current. Each tone interval in the series gave one data point. The timing is an estimate from the tone sequence. The measurement is indirect."
     ],
     [
-     "Direction.",
-     "An upward sweep meets low frequencies before the excitatory band, so early inhibition can block it.",
-     "A downward sweep reaches excitation before it crosses the low-frequency sideband."
+     "Explanation 3.",
+     "The 5-ms excitatory tone was shorter than the 20-ms inhibitory tone",
+     "Its onset could fall before, during or after the excitatory tone as the interval varied. Each interval produced its own level of suppression. The response was measured as the drop in excitatory firing. The same neuron was used across all intervals. Each pair was one test."
     ],
     [
-     "Rate.",
-     "Changing sweep rate alters the time between the inhibitory and excitatory inputs."
-    ],
-    [
-     "Selection.",
-     "Frequency tuning and relative input timing together select which FM sounds drive a neuron."
-    ],
-    [
-     "Neurons in the pallid bat midbrain.",
-     "The sidebands were mapped in inferior colliculus neurons using pairs of tones.",
-     "An inhibitory sideband suppresses a response even if its tone evokes none on its own."
-    ],
-    [
-     "Two sidebands, two preferences.",
-     "Early low-frequency inhibition accounts for direction preference, and delayed high-frequency inhibition accounts for fast-pass rate preference."
+     "Source.",
+     "The figure and the measurements come from Williams & Fuzessery (2011).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -622,50 +298,36 @@
    ]
   },
   {
-   "after": 25,
-   "bold": [
-    "Gabazine"
-   ],
-   "title": "Receptor blockers remove one inhibitory input",
+   "after": 27,
+   "title": "Two blockers, one neuron",
+   "bold": [],
    "paragraphs": [
-    "Gabazine blocks GABA-A receptors, and strychnine blocks glycine receptors. Applying each drug near a recorded neuron removes the local contribution of one inhibitory input while the neuron is still recorded. Each receptor class can therefore be tested separately within one preparation.",
-    "The drug moves from a small pipette by electrical current, a method called microiontophoresis. Comparing baseline, drug application and recovery shows whether a change reverses, and a balance-electrode current control tests whether current alone matters.",
-    "Responses returned toward baseline over 10 to 30 minutes after application stopped. Separate gabazine and strychnine tests on the same neuron identify which inhibitory receptor class supports its selectivity. Comparing the two drugs shows whether one receptor class, both or neither explains a preference."
+    "The three conditions were obtained from the same neuron. Differences between the two blockers could not be explained by sampling different neurons. Baseline, gabazine and strychnine conditions were all measured in that one cell. The design kept neuron identity constant across conditions, which makes the drug effects directly comparable. The three measurements were made on that single cell.",
+    "A direction preference that remains after one drug shows that the blocked pathway is not essential by itself. Other inputs or inherited tuning can keep the preference in place. Gabazine and strychnine were applied separately to the same neuron. The result describes one pathway at a time. A single neuron can depend on one inhibitory input and not the other.",
+    "A receptor class by itself is not enough to fix that outcome. Each neuron's arrangement of inputs sets its own outcome. Two neurons with the same receptor class can respond differently to the same sweep. Each drug condition used the same sweeps, and the outcome was read from those responses. This covers each neuron's inputs."
    ],
    "citation": "Williams & Fuzessery (2011)",
    "notes": [
-    "Each blocker removes one source of inhibition so that its contribution can be measured.",
+    "Two blockers, one neuron.",
     [
-     "The receptors.",
-     "GABA and glycine are inhibitory neurotransmitters in the auditory pathways studied.",
-     "Their receptors open ion channels that change the membrane conductance."
+     "Explanation 1.",
+     "The three conditions were obtained from the same neuron",
+     "Differences between the two blockers could not be explained by sampling different neurons. Baseline, gabazine and strychnine conditions were all measured in that one cell. The design kept neuron identity constant across conditions, which makes the drug effects directly comparable. The three measurements were made on that single cell."
     ],
     [
-     "The drugs.",
-     "Gabazine blocks GABA-A receptors.",
-     "Strychnine blocks glycine receptors."
+     "Explanation 2.",
+     "A direction preference that remains after one drug shows that the blocked pathway is not essential by itself",
+     "Other inputs or inherited tuning can keep the preference in place. Gabazine and strychnine were applied separately to the same neuron. The result describes one pathway at a time. A single neuron can depend on one inhibitory input and not the other."
     ],
     [
-     "Delivery.",
-     "Microiontophoresis moves a drug out of a small pipette using electrical current, which keeps the effect local to the recorded neuron."
+     "Explanation 3.",
+     "A receptor class by itself is not enough to fix that outcome",
+     "Each neuron's arrangement of inputs sets its own outcome. Two neurons with the same receptor class can respond differently to the same sweep. Each drug condition used the same sweeps, and the outcome was read from those responses. This covers each neuron's inputs."
     ],
     [
-     "Controls.",
-     "Baseline, drug application and recovery were compared.",
-     "A balance-electrode current control tested whether current alone changed the response."
-    ],
-    [
-     "Recovery.",
-     "Responses returned toward baseline over 10 to 30 minutes after application stopped, which indicates a receptor-dependent local effect."
-    ],
-    [
-     "Why two drugs.",
-     "GABA and glycine inputs can support the same neuron differently.",
-     "Testing each drug alone shows which input a given preference depends on."
-    ],
-    [
-     "Interpreting increased firing.",
-     "Blockade commonly increased responses, and the preference itself is judged by comparing sweep directions and rates."
+     "Source.",
+     "The figure and the measurements come from Williams & Fuzessery (2011).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -673,49 +335,73 @@
    ]
   },
   {
-   "after": 32,
-   "bold": [
-    "Sweep rate"
-   ],
-   "title": "Sweep rate is the frequency change per unit time",
+   "after": 30,
+   "title": "A 3.5-ms shift flips the preference",
+   "bold": [],
    "paragraphs": [
-    "Sweep rate is the change in frequency per unit time, so a sweep covering the same frequency range in a shorter duration is faster. Neurons can respond better to fast sweeps than to slow ones. The fast-pass filter is a rate preference and not a direction preference.",
-    "Fast-pass selectivity describes a preference for rapid sweeps over sufficiently slow sweeps. In the pallid-bat midbrain, sweeps from 0.5 to 100 ms in duration varied the rate. Rate tuning and direction tuning were compared in the same inferior colliculus neurons.",
-    "A downward sweep reaches the high-frequency inhibitory sideband before the excitatory band. Delayed inhibition arrives after excitation during a fast sweep and before excitation during a slow sweep, which produces the fast-pass filter."
+    "Negative and positive arrival values in the two-tone test give the relative order of two inputs. In the published example, the inhibitory input shifted by 3.5 ms in that order. Before the shift, inhibition arrived first. Those values came from the two-tone measurements of the same neuron. The arrival values were measured in milliseconds. Those values were negative before the shift.",
+    "Measurable suppression still existed after the shift. The timing of that suppression had changed, though its size had not. Late inhibition could not stop an early excitatory response. The neuron responded to upward sweeps that earlier inhibition had blocked. The neuron had responded strongly to downward sweeps before the drug. Its response to upward sweeps was small before blockade.",
+    "Selectivity in this example depended on the order of inputs more than on their size. Changing when the suppression arrives changed the preference. Its strength was measurable at the end of the shift. The shift changed the timing of one input alone. Timing alone changed the preference in that example. The example puts the order of inputs in focus."
    ],
    "citation": "Williams & Fuzessery (2011)",
    "notes": [
-    "Rate selectivity is a separate property from direction selectivity, and it depends on the same timing logic.",
+    "A 3.5-ms shift flips the preference.",
     [
-     "Sweep rate.",
-     "Sweep rate is the change in frequency per unit time.",
-     "A shorter duration over the same frequency range is a faster sweep."
+     "Explanation 1.",
+     "Negative and positive arrival values in the two-tone test give the relative order of two inputs",
+     "In the published example, the inhibitory input shifted by 3.5 ms in that order. Before the shift, inhibition arrived first. Those values came from the two-tone measurements of the same neuron. The arrival values were measured in milliseconds. Those values were negative before the shift."
     ],
     [
-     "Fast-pass selectivity.",
-     "A fast-pass neuron responds better to rapid sweeps than to sufficiently slow sweeps."
+     "Explanation 2.",
+     "Measurable suppression still existed after the shift",
+     "The timing of that suppression had changed, though its size had not. Late inhibition could not stop an early excitatory response. The neuron responded to upward sweeps that earlier inhibition had blocked. The neuron had responded strongly to downward sweeps before the drug. Its response to upward sweeps was small before blockade."
     ],
     [
-     "Stimuli.",
-     "Sweep durations ranged from 0.5 to 100 milliseconds, so rate and direction could both be varied."
+     "Explanation 3.",
+     "Selectivity in this example depended on the order of inputs more than on their size",
+     "Changing when the suppression arrives changed the preference. Its strength was measurable at the end of the shift. The shift changed the timing of one input alone. Timing alone changed the preference in that example. The example puts the order of inputs in focus."
     ],
     [
-     "The mechanism.",
-     "A downward sweep activates the high-frequency inhibitory sideband first.",
-     "In a fast sweep the delayed inhibition arrives after excitation, so spikes occur."
+     "Source.",
+     "The figure and the measurements come from Williams & Fuzessery (2011).",
+     "Each statement comes from that study's recordings or observations."
+    ]
+   ],
+   "refs_from": [
+    "Williams 2011"
+   ]
+  },
+  {
+   "after": 33,
+   "title": "Glycine and sideband suppression agree",
+   "bold": [],
+   "paragraphs": [
+    "The pharmacological result agrees with the earlier spectral-removal test. Two manipulations gave matching results on rate tuning. Removing high frequencies from the stimulus and blocking glycine receptors both produced a similar change. Each manipulation tested the same sideband from a different side. Both manipulations changed rate tuning in the same direction. Both results agree on the sideband.",
+    "The other manipulation removes a local receptor role in the suppression. Together, the two results implicate the same sideband. Each test isolated a different step of the suppression. Agreement between separate methods strengthens the case for a sideband effect. Glycine receptors mediate the inhibitory input at that site. The two methods are separate, so their agreement carries weight.",
+    "The gabazine examples kept their high-frequency suppression and fast-pass preference. Gabazine left this sideband intact. In the strychnine example, the sideband was eliminated, so the rate tuning changed with it. The same pattern held for the rate tuning, which fell with the sideband. Rate tuning stayed intact in those gabazine neurons. The contrast between the two drugs is the central result."
+   ],
+   "citation": "Williams & Fuzessery (2011)",
+   "notes": [
+    "Glycine and sideband suppression agree.",
+    [
+     "Explanation 1.",
+     "The pharmacological result agrees with the earlier spectral-removal test",
+     "Two manipulations gave matching results on rate tuning. Removing high frequencies from the stimulus and blocking glycine receptors both produced a similar change. Each manipulation tested the same sideband from a different side. Both manipulations changed rate tuning in the same direction. Both results agree on the sideband."
     ],
     [
-     "Slow sweeps.",
-     "In a slow sweep the same inhibition arrives before excitation and prevents the response."
+     "Explanation 2.",
+     "The other manipulation removes a local receptor role in the suppression",
+     "Together, the two results implicate the same sideband. Each test isolated a different step of the suppression. Agreement between separate methods strengthens the case for a sideband effect. Glycine receptors mediate the inhibitory input at that site. The two methods are separate, so their agreement carries weight."
     ],
     [
-     "Fast sweeps.",
-     "In a fast downward sweep the neuron is excited before the delayed inhibition becomes effective.",
-     "Spikes therefore occur."
+     "Explanation 3.",
+     "The gabazine examples kept their high-frequency suppression and fast-pass preference",
+     "Gabazine left this sideband intact. In the strychnine example, the sideband was eliminated, so the rate tuning changed with it. The same pattern held for the rate tuning, which fell with the sideband. Rate tuning stayed intact in those gabazine neurons. The contrast between the two drugs is the central result."
     ],
     [
-     "Comparison with direction.",
-     "Direction selectivity depends on early low-frequency inhibition, and rate selectivity depends on delayed high-frequency inhibition."
+     "Source.",
+     "The figure and the measurements come from Williams & Fuzessery (2011).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -724,49 +410,35 @@
   },
   {
    "after": 36,
-   "bold": [
-    "acoustic glint"
-   ],
-   "title": "Glints are reflections from parts of a target",
+   "title": "Two glints and a Y-shaped platform",
+   "bold": [],
    "paragraphs": [
-    "An acoustic glint is a reflection from one part of a target, so an object with several parts returns an echo with several glints. Their separation in time reflects the structure of the object. Each glint adds a separate reflection to the returning sound.",
-    "Bates and colleagues used a virtual target with glints at delays of 3160 and 3460 microseconds, a separation of 300 microseconds. A bat on a Y-shaped platform was rewarded for choosing this two-glint target.",
-    "A probe with a single glint could be moved in delay around the two target glints. Electronic delay channels controlled the harmonic content and delay of the probe, so one echo property could be varied while the task stayed the same."
+    "The bat sat on the Y platform and chose between two targets. Microphones captured its calls, which electronic delay channels then returned from loudspeakers. The bat was rewarded for choosing the two-glint target. Its probe timing spanned the region around both rewarded delays. The apparatus offered two choices on each trial. The choice tested target structure, not the probe.",
+    "The probe contained one glint, so it carried less structure than the target. Electronic filters allowed the two harmonics to be manipulated independently. Each manipulation left the rest of the procedure the same. The probe was unrewarded, so choosing it counted as an error. Harmonic balance was the factor under test. Its delay set the timing of that interference.",
+    "Electronic construction allowed the experimenters to set glint delays exactly. No natural insect echo was used in the study. Choices were counted for each probe delay. The rewarded target kept the same two glints throughout, with a 300-μs spacing. Harmonic content was adjusted with filters, not with the target's structure. Each probe delay was tested around both glint delays."
    ],
    "citation": "Bates et al. (2011)",
    "notes": [
-    "A glint is the echo from one part of a target, and a structured target returns several glints.",
+    "Two glints and a Y-shaped platform.",
     [
-     "Definition.",
-     "An acoustic glint is a reflection from one part of a target.",
-     "Several glints close together in time form a structured echo."
+     "Explanation 1.",
+     "The bat sat on the Y platform and chose between two targets",
+     "Microphones captured its calls, which electronic delay channels then returned from loudspeakers. The bat was rewarded for choosing the two-glint target. Its probe timing spanned the region around both rewarded delays. The apparatus offered two choices on each trial. The choice tested target structure, not the probe."
     ],
     [
-     "The rewarded target.",
-     "The virtual target had glints at delays of 3160 and 3460 microseconds.",
-     "The 300-microsecond separation made the echo more than one isolated reflection."
+     "Explanation 2.",
+     "The probe contained one glint, so it carried less structure than the target",
+     "Electronic filters allowed the two harmonics to be manipulated independently. Each manipulation left the rest of the procedure the same. The probe was unrewarded, so choosing it counted as an error. Harmonic balance was the factor under test. Its delay set the timing of that interference."
     ],
     [
-     "The task.",
-     "A bat on a Y-shaped platform emitted calls that microphones captured and returned through electronic delay channels.",
-     "The bat was rewarded for choosing the two-glint target."
+     "Explanation 3.",
+     "Electronic construction allowed the experimenters to set glint delays exactly",
+     "No natural insect echo was used in the study. Choices were counted for each probe delay. The rewarded target kept the same two glints throughout, with a 300-μs spacing. Harmonic content was adjusted with filters, not with the target's structure. Each probe delay was tested around both glint delays."
     ],
     [
-     "The probe.",
-     "An unrewarded probe with one glint came from the opposite loudspeaker.",
-     "Its delay was varied around the two rewarded glint delays."
-    ],
-    [
-     "Control.",
-     "Electronic channels allowed the harmonic content and delay to be changed independently."
-    ],
-    [
-     "Probe delay.",
-     "Moving the single-glint probe closer in delay to either target glint tests when a separate echo interferes with the choice."
-    ],
-    [
-     "Same target.",
-     "The masking and filtering experiments use this same virtual target."
+     "Source.",
+     "The figure and the measurements come from Bates et al. (2011).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
@@ -774,55 +446,300 @@
    ]
   },
   {
-   "after": 40,
-   "bold": [
-    "echo epoch"
-   ],
-   "title": "Echo epochs can outlast the interval between calls",
+   "after": 39,
+   "title": "Advance and recovery differ by glint",
+   "bold": [],
    "paragraphs": [
-    "Each broadcast is followed by an echo epoch, the period in which reflections from objects across a scene return. A distant reflector returns sound after a nearer one, so the epoch lengthens as the scene extends in depth. The ambiguity arises when later echoes from one call overlap the echo stream of the next call.",
-    "The interpulse interval is the time between successive broadcasts. Ming and colleagues compared a 32-ms interval with shorter echo epochs and a 22-ms interval with overlapping epochs.",
-    "When the interval is shorter than the epoch, echoes from one broadcast arrive after the next broadcast. Delay measured from the wrong call assigns an incorrect range, so call assignment is part of ranging."
+    "The advance was applied to FM2, the harmonic that had been weakened. Its size was checked against the timing shift predicted for a 1.5-dB reduction. The predicted shift came from the proposed amplitude-latency trading. The advance is a timing manipulation, not a level change. It moved FM2 earlier while FM1 stayed where it was. Its size was set by the proposed shift.",
+    "The timing measurements used to infer these responses were recorded earlier. The behavioral test changed the harmonic balance of one probe. Masking returned when the advance was applied. Masking was measured as incorrect choices. Masking was judged on each target glint separately. Recovery was uneven across the two glints. The proposed mechanism concerns FM2 timing only.",
+    "This experiment recorded choices, not the neural responses that the timing shift describes. Neural timing was inferred from earlier data, while this study measured choices. The result shows how harmonic timing bears on the trade-off between delay precision and clutter resistance. Each prediction in this series came from timing data, not from neural recordings. The advance tested that prediction on the choices of the bats."
    ],
-   "citation": "Ming et al. (2020)",
+   "citation": "Bates et al. (2011)",
    "notes": [
-    "Ranging requires knowing which call produced each echo, and rapid calling can make that uncertain.",
+    "Advance and recovery differ by glint.",
     [
-     "Echo epoch.",
-     "The echo epoch is the period during which reflections from one broadcast return from objects across a scene.",
-     "A long-range reflector returns sound after a nearer one."
+     "Explanation 1.",
+     "The advance was applied to FM2, the harmonic that had been weakened",
+     "Its size was checked against the timing shift predicted for a 1.5-dB reduction. The predicted shift came from the proposed amplitude-latency trading. The advance is a timing manipulation, not a level change. It moved FM2 earlier while FM1 stayed where it was. Its size was set by the proposed shift."
     ],
     [
-     "Interpulse interval.",
-     "The interpulse interval is the time between successive broadcasts."
+     "Explanation 2.",
+     "The timing measurements used to infer these responses were recorded earlier",
+     "The behavioral test changed the harmonic balance of one probe. Masking returned when the advance was applied. Masking was measured as incorrect choices. Masking was judged on each target glint separately. Recovery was uneven across the two glints. The proposed mechanism concerns FM2 timing only."
     ],
     [
-     "Published examples.",
-     "A 32-millisecond interval was compared with shorter echo epochs.",
-     "A 22-millisecond interval was compared with overlapping epochs."
+     "Explanation 3.",
+     "This experiment recorded choices, not the neural responses that the timing shift describes",
+     "Neural timing was inferred from earlier data, while this study measured choices. The result shows how harmonic timing bears on the trade-off between delay precision and clutter resistance. Each prediction in this series came from timing data, not from neural recordings. The advance tested that prediction on the choices of the bats."
     ],
     [
-     "Overlap.",
-     "When the interval is shorter than the epoch, echoes from one broadcast arrive after the next broadcast has been made."
-    ],
-    [
-     "Consequence.",
-     "Measuring delay from the wrong broadcast assigns an incorrect range.",
-     "Updating quickly for nearby obstacles then conflicts with waiting for distant echoes to return."
-    ],
-    [
-     "Why overlap matters.",
-     "Rapid calling updates information about nearby obstacles quickly.",
-     "Waiting for all distant echoes to return would slow those updates."
-    ],
-    [
-     "Frequency hopping.",
-     "Ming and colleagues proposed that shifts of several kilohertz between broadcasts help assign echoes to their calls."
+     "Source.",
+     "The figure and the measurements come from Bates et al. (2011).",
+     "Each statement comes from that study's recordings or observations."
     ]
    ],
    "refs_from": [
-    "Ming 2020"
+    "Bates 2011"
+   ]
+  },
+  {
+   "after": 42,
+   "title": "Hits, captures and attempts differ",
+   "bold": [],
+   "paragraphs": [
+    "The behavioral categories separate a failure to attempt from an attempted approach that missed or was aborted. Each category marks a different step of the interception. Counting them apart shows where clutter had its effect. Hits and captures are one outcome, while attempts are another. Those categories were scored for each trial. Each category counts a separate outcome.",
+    "A decline in the combined measure may not come from failed detection alone. An attempt can fail after detection has occurred. Some approaches end in a miss or an abort instead of a capture. Each of those outcomes is counted in a separate category. Attempts and captures respond to clutter in different ways. Clutter affects each step in the sequence.",
+    "The open-room condition gave the baseline for these categories. Near the vegetation, echoes from the plant arrived alongside the echo from the insect. The categories show whether the bat failed to try or failed after trying. The bat's approach path was part of the measured behavior. The plant's echoes entered the approach as competing sound."
+   ],
+   "citation": "Moss et al. (2006)",
+   "notes": [
+    "Hits, captures and attempts differ.",
+    [
+     "Explanation 1.",
+     "The behavioral categories separate a failure to attempt from an attempted approach that missed or was aborted",
+     "Each category marks a different step of the interception. Counting them apart shows where clutter had its effect. Hits and captures are one outcome, while attempts are another. Those categories were scored for each trial. Each category counts a separate outcome."
+    ],
+    [
+     "Explanation 2.",
+     "A decline in the combined measure may not come from failed detection alone",
+     "An attempt can fail after detection has occurred. Some approaches end in a miss or an abort instead of a capture. Each of those outcomes is counted in a separate category. Attempts and captures respond to clutter in different ways. Clutter affects each step in the sequence."
+    ],
+    [
+     "Explanation 3.",
+     "The open-room condition gave the baseline for these categories",
+     "Near the vegetation, echoes from the plant arrived alongside the echo from the insect. The categories show whether the bat failed to try or failed after trying. The bat's approach path was part of the measured behavior. The plant's echoes entered the approach as competing sound."
+    ],
+    [
+     "Source.",
+     "The figure and the measurements come from Moss et al. (2006).",
+     "Each statement comes from that study's recordings or observations."
+    ]
+   ],
+   "refs_from": [
+    "Moss 2006"
    ]
   }
- ]
+ ],
+ "body": {
+  "2": [
+   "Big brown bats emit **FM sweeps**, calls whose frequency falls during each call. Each call has two strong harmonics. The first harmonic, FM1, sweeps from about 55 to 25 kHz. The second harmonic, FM2, sweeps from about 110 to 50 kHz. The two harmonics are related by a twofold frequency ratio. Both fall within one broadcast.",
+   "These wide sweeps differ from a constant-frequency call, which holds one frequency. Each part of the sweep is sent at a different moment. Changes in frequency over time carry timing information. An echo preserves the timing of each frequency, so the bat receives the order in which the sound was sent and returned.",
+   "Behavioral filtering experiments test the two harmonics separately. Bats can judge echo delay with FM1 alone. When FM1 frequencies are missing, FM2 offers no substitute. Filtering removes one harmonic while the rest of the call stays in place. The result shows that FM1 carries information that FM2 lacks. The test isolates what each harmonic provides."
+  ],
+  "3": [
+   "**Echo delay** is the time between an outgoing call and its returning echo. Sound travels from the bat to the target and back again. A more distant target sends back a later echo, because its sound covers more distance. **Target range** is the distance from the bat to the target. Longer delays mean farther targets.",
+   "Simmons trained bats to discriminate target distance. Electronic delay channels could change the arrival time of each echo. The loudspeakers stayed at fixed physical positions throughout. The timing changed, while the location of each loudspeaker stayed put. This arrangement left the physical setup unchanged across all conditions. The timing alone then carried the cue.",
+   "This separation allowed a direct test of the ranging cue. The bat judged relative simulated distance from echo arrival time alone. The loudspeaker's real distance never changed. Arrival time carried the whole judgment. The result isolates the timing cue from every physical location cue. The judgment depended on timing, not on where the loudspeaker sat."
+  ],
+  "4": [
+   "Simmons trained bats to choose the nearer of two targets. Each correct choice led to food at the landing platform beside the nearer target. The bat had to compare the two echoes before it moved. Each decision had a clear answer, so the reward tracked accuracy. The task asked which target lay closer to the bat.",
+   "One target stayed at a fixed range, such as 30 or 60 cm. The other was brought progressively closer to it. The bat was tested on whether it could still pick the nearer target as the gap narrowed. Each step of the gap produced a new choice. The series ran until the two targets were equally far away.",
+   "Accuracy fell as the distance difference approached zero. When both targets sat at equal distances, the bats reached chance. The procedure measured how finely bats resolve differences in range between two targets. The bats never judged one target alone, so absolute distance was outside the task. Each comparison involved two targets presented together."
+  ],
+  "5": [
+   "**Range acuity** is the smallest distance difference a bat can discriminate at a set level of accuracy. Simmons used 75 percent correct choices as that level. Each point on the curve shows how often the bats chose correctly at one distance difference. Larger differences produced higher accuracy. The curve rises as the difference grows.",
+   "Big brown bats discriminated differences of about 12 to 14 mm at both 30 cm and 60 cm. Doubling the target distance changed the discrimination curve very little. Larger distance differences were much easier to tell apart than small ones. The two curves looked alike across the tested range. Each curve reached its criterion at a similar difference.",
+   "Resolution in absolute distance units stayed roughly constant across these two distances. Echo loudness and propagation losses may matter for targets farther away. The data described here cover near-range targets. Resolution at longer distances needs a separate measurement. The pattern is clearest at these two distances. The same procedure applied at both distances."
+  ],
+  "6": [
+   "At 30 cm, big brown bats chose almost without errors when two targets differed by several centimeters. Their accuracy fell as the difference shrank toward millimeters. Absolute distance and the smallest resolvable difference are different quantities. The threshold describes a difference between targets, not one target's distance. Resolution is a property of the gap between targets.",
+   "The analysis used the **autocorrelation envelope** of the recorded sonar signal. This measure shows how well a waveform matches delayed copies of itself. Rapid carrier fluctuations were removed first, leaving the slower shape of the signal. The result is a smooth curve of match against delay. The curve was computed from the call, not from the bats.",
+   "At 30 cm, the bats' accuracy declined in the same smooth way as the signal-based curve. The two curves agreed closely across the tested differences. Their shared decline marks the millimeter scale at which choices become unreliable. Accuracy stayed high for differences of several centimeters. The agreement is a match between two curves."
+  ],
+  "7": [
+   "Simmons tested range discrimination in several bat species. Two species, Eptesicus fuscus and Phyllostomus hastatus, used FM sounds. The other species combined constant-frequency and FM components in their sonar calls. Every species received the same general nearer-target task. Each species chose between two targets at different distances. Their signals differed in how they combined frequencies.",
+   "The first three species resolved differences of about 1 to 2 cm. Rhinolophus ferrumequinum had a threshold near 3 cm. Phyllostomus also resolved relative range well at 60 cm. Its resolution at 120 cm was similar, which shows that the ability held across these distances. Resolution stayed comparable as the target moved farther away.",
+   "Simmons inferred that the species use their signal components in different ways. The shared ability to compare target ranges held under the tested conditions. Differences in auditory processing among species form a separate question. Signal form alone never split the species into ranging and nonranging groups. Simmons drew these points from one experimental design."
+  ],
+  "8": [
+   "Simmons used electronic target simulators to present echoes with controlled arrival times. A simulator captured the bat's call, delayed it, and returned it through a loudspeaker. Each channel had its own microphone, delay unit and speaker. Two channels could present two echoes with different arrival times. The apparatus kept each target's echo separate from the other.",
+   "The loudspeakers stayed in fixed positions, and overall level and spectrum were controlled. Early versions used one microphone for both speakers. That arrangement disrupted the bat's ability to inspect the two targets separately. Stable discrimination returned only after each channel had its own microphone. Aiming the call could not change the relative strength of the two echoes.",
+   "Using one microphone for each channel restored stable discrimination. A bat aims its call at an object, and the aim changes what that object returns. Artificial feedback must keep this aim-dependent return to imitate real inspection of two targets. Experimenters had to reproduce the natural coupling between aim and echo. The simulator was built around that requirement."
+  ],
+  "9": [
+   "Simmons compared discrimination of physical targets with discrimination of electronically delayed echoes. In the simulator, the two alternatives differed in arrival time. The loudspeakers stayed still, and the bat still chose the echo for the nearer target. Both conditions used the same general choice task. The change altered how range reached the bat.",
+   "At a simulated range of 30 cm, the electronic-delay curve and the physical-distance curve were closely similar. The bat's judgments followed arrival time in the same way that they followed real distance in the physical task. Two separate methods gave the same answer. Accuracy in both conditions rose as the difference grew.",
+   "Echo timing can carry this relative-range judgment in big brown bats. This test keeps the same species and task while changing the way range is conveyed. Similar performance after that change is the evidence for timing as the cue. Timing alone is enough for the judgment. The delivery of range was the variable that changed."
+  ],
+  "10": [
+   "A matched receiver processes an incoming echo against the structure of the transmitted signal. Cross-correlation measures how similar two signals are as their timing is shifted. Simmons proposed a neural version of this operation as a model for the bat's ranging. The model compares each echo with the call itself. That model treats the call as the template.",
+   "The measured range-discrimination curves resembled predictions based on the envelopes of the recorded calls' autocorrelation functions. The idea concerns extracting echo arrival time from a broadband signal, not from a single frequency. This explains why the frequency range of the call matters. The broadband structure carries the timing information. The envelope removes fast carrier detail.",
+   "Behavioral agreement with the prediction suggests a computation that the bat performs. The agreement fits several neural circuits, and it names none of them. Simmons also allowed representations spread across frequency and time, instead of a copy of the waveform. The proposal describes a function, so the biology behind it still needs study."
+  ],
+  "11": [
+   "The **cochlear nucleus** is the first central relay that receives input from the auditory nerve. The **inferior colliculus** is an auditory midbrain center that gets ascending input from brainstem nuclei. Simmons and colleagues compared timing in both structures in big brown bats. Both sites lie along the same ascending route. Both sites were examined in the same animals.",
+   "The team recorded in the ventral cochlear nucleus and the inferior colliculus under anesthesia. Each recording site was later marked, and the stained tissue showed where each electrode had been placed. The placement of every electrode was checked afterward. The recordings reached the sites that the marks identified. Recording sites were confirmed after the experiment.",
+   "The test asked whether precise timing appears only in the midbrain or already exists in an early relay. The recordings sampled particular regions of the cochlear nucleus. Other regions of the nucleus were not sampled in this study. The result applies to the sampled regions. The sampled regions set the limits of the claim."
+  ],
+  "12": [
+   "An **echo cascade** is a series of echoes that arrive after one broadcast. Simmons and colleagues built stimuli from a short downward FM broadcast followed by four echoes. The echoes shared a spectrum but differed in amplitude. Each stimulus imitated several objects near a flying bat. The series was designed as a controlled sequence.",
+   "Changing the delay of the first echo altered the simulated scene while keeping the cascade's general structure. The first echo was the only element whose timing changed across the series. The later echoes kept their order and their spacing. The design tested timing across a sequence of echoes, not a single tone.",
+   "The anesthetized preparation could not show ongoing vocal choices or obstacle avoidance. Each waveform still imitates a bat approaching several objects. The stimuli were controlled sound sequences, not recordings of a bat flying past real targets. The experiment asked about the neural response, not about flight. The series approximates a scene, not a live flight."
+  ],
+  "13": [
+   "A **local field potential**, or LFP, is an extracellular voltage signal that carries the coordinated activity of a neuronal population. Simmons and colleagues filtered their recordings to study low-frequency population waveforms in the cochlear nucleus. The waveform sums many neurons into one trace. Low-pass filtering removes the fast spikes from the trace.",
+   "Each broadcast and the first echo produced a prominent negative peak followed by a positive peak. Repeated presentations of the same stimulus produced closely overlapping early responses. Later parts of the cascade varied more from trial to trial. The early peaks were the most repeatable part of the signal. The early peaks were the most reproducible part.",
+   "The timing of a population response can serve as a signal for registering sound events. The LFP names no single cell as its source. The recorded voltage adds up activity from neurons inside the electrode's recording field. Population timing and single-cell timing are different measures. A spike from one identified cell is a different event."
+  ],
+  "14": [
+   "**Response latency** is the time from a stimulus event to a specified neural response. In the cochlear nucleus, Simmons and colleagues measured the first negative LFP peak after the broadcast. The measured event stayed the same across stimulus conditions. The broadcast was the reference event for every comparison. Every comparison was made against that broadcast peak.",
+   "Mean broadcast latencies were 3.7, 3.9 and 4.2 ms at three attenuation settings. Greater attenuation makes the sound weaker, and the latency grew as the sound got weaker. The broadcast latency stayed similar when just the later echo delay changed. The latency shift came from the sound level. Those three settings were stimulus conditions, not measurement errors.",
+   "Sound level can shift the timing of an early population response, even when the broadcast starts at the same moment. A timing-based range code must allow for level-dependent delays. A sound onset yields no single fixed neural latency. The response time depends on how loud the sound is. Level, not delay, moved the broadcast response."
+  ],
+  "15": [
+   "**Latency jitter** is the trial-to-trial spread in the timing of a defined neural response. A small jitter means that repeated presentations evoke that response at nearly the same time. Jitter is a different measure from mean latency, which is how long the response takes to arrive. The two measures describe different features of the same response.",
+   "Timing became more variable as the stimulus weakened. The jitter of the broadcast peak grew across the three attenuation settings. Across the seven later echo delays, the broadcast peak stayed comparatively steady. The stability across delays shows that the timing held as the echo moved. The spread is measured across repeated presentations of the same stimulus.",
+   "Precision on this scale makes population timing a candidate component of echo processing. It is not the same as a behavioral threshold. The recordings indicate that the population responds precisely, not that each neuron in it does. Population precision and single-neuron precision are distinct claims. A tight response can still be a late one."
+  ],
+  "16": [
+   "The first returning echo in the cascade moved earlier as the simulated target came closer. Cochlear-nucleus response peaks occurred earlier relative to the broadcast onset. The neural signal kept the order of the seven imposed echo delays. Each delay produced a peak at its own time. The peaks followed the timing of the simulated scene.",
+   "Simmons and colleagues also measured amplitude-latency trading, a shift in response timing that comes with a change in sound level. Both the echo response and the broadcast response showed this trade. Each sound level moved the peak by a measurable amount. The shift affected both the echo and the broadcast. The measured shifts were reported per decibel of level.",
+   "Echo timing and echo strength both change the measured latency. Accurate timing survives this effect, but response latency is not a clean timestamp that ignores level. The timing signal must be read with the sound level in mind. Level and delay together set the measured peak time. Measured peak times depend on both inputs at once."
+  ],
+  "17": [
+   "Simmons and colleagues compared the trial-to-trial timing precision of the first-echo response across delays from 20.4 to 14.4 ms. The cochlear-nucleus peak moved with acoustic delay. Its repeatability stayed fairly stable across that range. The peak moved in time while its spread stayed small. The series covered seven first-echo delays in 1-ms steps.",
+   "Weaker stimuli made the response more variable. The stability across delays was measured at each sound level. Stable precision across delays holds at every level the study tested, though each level has its own spread. Sound level changes the spread more than the delay does. Each level had its own spread of timing values.",
+   "The result sets apart where a moving event is represented from how precisely it is timed. The measurements apply to a prominent population peak in the ventral cochlear nucleus under anesthesia. The peak says nothing about one neuron tuned to a single target distance. Population timing and neuron selectivity are different properties."
+  ],
+  "18": [
+   "The **inferior colliculus** integrates ascending auditory information from several brainstem pathways. Simmons and colleagues reanalyzed midbrain LFPs from the same animals used for the cochlear-nucleus comparison. The stimuli and timing measurements were identical. The midbrain data match the earlier relay in design. These recordings reused the earlier stimulus set. That reuse kept the test fair.",
+   "Broadcast responses in the inferior colliculus had longer mean latencies than those in the cochlear nucleus. Early broadcast and echo peaks still lined up closely across repetitions. The responses stayed reliable from one trial to the next. The longer delay left the peaks sharp. Mean latency was longer, but the peaks kept their order.",
+   "A later response can still be precise. The study measured delay and repeatability as separate properties. The midbrain recordings keep precise population timing, while the cells responsible for it remain unidentified. Repeatability and latency are separate features of one response. Repeatability was judged separately from mean delay. Each site gave its own repeatability values."
+  ],
+  "19": [
+   "Simmons and colleagues compared the timing precision of two early auditory relays. The cochlear nucleus and the inferior colliculus both produced early population peaks for the broadcast and for the first echo. The two sites were recorded in the same animals. Both sites received identical stimuli. The test covered both broadcast and first-echo peaks.",
+   "Timing precision changed little between the two relays. The result matches precise timing that enters the ascending pathway and gets carried upward. Identical response latencies at the two relays are not required for this result. Precision carried forward from the first relay to the midbrain. That pattern holds for both the broadcast and the first echo.",
+   "This conclusion applies to the recorded LFP events and not to every feature of the pathway. Other regions or response measures could be transformed further. Similar population variability at two sites leaves the carrying projection open. Projection routes were not traced in this study. This study traced no projection routes directly. Other pathways may carry similar timing."
+  ],
+  "20": [
+   "A broadcast followed by several echoes drives an evolving auditory response. Simmons and colleagues measured prominent positive LFP peaks throughout the four-echo cascade, along with the early negative peak. Each echo added a new peak to the response. The response grew more complex with each echo. The response takes on more structure as echoes accumulate.",
+   "The later positive peaks varied more than the earliest negative peak. The variability of these later peaks grew across the cascade, and the midbrain showed a similar pattern. Those values were still below one millisecond. The later peaks were less precise but still tightly timed. The earliest negative peak stayed the most precise measure.",
+   "The authors attributed the extra variability to the recruitment of more neurons during the longer sequence. That account interprets population waveforms. It names no specific recruited cell, and the precision depends on which peak is measured. Precision depends on the peak chosen for analysis. The precision values are reported separately for each peak."
+  ],
+  "21": [
+   "A 2024 study reports behavioral echo-delay acuity of about 1 μs or less in specialized psychophysical tasks. The population-response jitter in these recordings was usually tens of microseconds. Neural repeatability came close to that behavioral scale without reaching it. The gap between the two is about one order of magnitude. Each value comes from a different kind of experiment.",
+   "The authors proposed that precisely timed population signals feed the eventual range computation. Combining information across frequencies and responses could sharpen a readout. The experiment never identified such a decoder or measured its precision. The decoder remains a proposal. A decoder would need to combine many responses across frequencies. No such readout was measured in the experiment.",
+   "The temporal sampling and the restricted recording sites also limit interpretation. The recordings indicate precise early and midbrain population activity, but the full mechanism of perceptual hyperacuity is still open. Both the sampling rate and the recording sites set the scope of the result. Both limits belong to the recordings, not to the bats."
+  ],
+  "22": [
+   "**Sweep direction selectivity** is a neuron's difference in response to upward and downward frequency changes. Williams and Fuzessery studied this property in the inferior colliculus of the pallid bat, Antrozous pallidus. Its echolocation call sweeps down from about 60 to 30 kHz. The call's downward sweep is the stimulus that the neurons prefer.",
+   "The researchers recorded single neurons in the high-frequency midbrain region with extracellular electrodes. Broad sweeps lasted from 0.5 to 100 ms, so both sweep direction and sweep rate could vary. Responses were measured near each neuron's auditory threshold. The neurons were tested with sweeps of many durations. Each neuron was tested across a range of durations.",
+   "Many neurons responded strongly to downward sweeps and weakly to upward sweeps. The experiment focused on neurons whose selectivity came from inhibitory sidebands. Neurons driven by duration tuning or asymmetric facilitation were excluded from the analysis. The group studied was defined by its mechanism. Their responses were compared across sweep rates. Those responses were measured at threshold."
+  ],
+  "23": [
+   "An **excitatory band** contains the sounds that evoke a neuron's spikes. An **inhibitory sideband** contains frequencies that suppress an otherwise effective response. Williams and Fuzessery mapped these sidebands on both sides of a neuron's preferred frequencies. The sidebands lay in the frequency regions beside the excitatory band. Those sidebands are the frequency regions that suppress.",
+   "They used pairs of tones to find the sidebands. **Low-frequency inhibition**, or LFI, usually arrived early relative to excitation. **High-frequency inhibition**, or HFI, usually arrived later and could suppress slow downward sweeps. The two forms of inhibition differ in when they act. The tones were presented in pairs, one excitatory and one inhibitory.",
+   "A sweep crosses these frequency regions in a fixed order. Reversing the sweep direction changes when inhibition and excitation begin. Changing the sweep rate changes the time between them. Frequency tuning and input timing together select particular FM sounds. Each sweep reaches the neuron in a particular order. Sweep rate and direction both change the input order."
+  ],
+  "24": [
+   "Williams and Fuzessery paired a 5-ms excitatory tone with a 20-ms tone placed in an inhibitory sideband. They varied the interval between the two tones. They then measured how much the neuron's response to the excitatory tone dropped. The experiment tested the timing of suppression. Each interval between the tones produced a separate measurement.",
+   "Suppression still occurred when the inhibitory tone started later. That result shows the inhibitory pathway can act sooner than the excitatory one. If the inhibitory tone starts earlier, its effect reaches the neuron relatively late. Inhibition can act before excitation in the same neuron. The effect depends on which tone starts first.",
+   "The two-tone method predicted which frequency sequences would be suppressed. A low-frequency tone with early inhibition can block an upward sweep before excitation begins. A high-frequency tone with delayed action can block a slow downward sweep. The prediction matched the sweeps that were suppressed. Each prediction can be checked against the measured suppression."
+  ],
+  "25": [
+   "GABA and glycine are the inhibitory transmitters studied here. Gabazine blocks GABA-A receptors, and strychnine blocks glycine receptors. Each drug tests the role of one inhibitory input in the neuron's responses. Two drugs allow the two inputs to be tested separately. Blocking one receptor leaves the other input unchanged. Each drug answers a separate question about inhibition.",
+   "Williams and Fuzessery delivered the drugs near recorded neurons by microiontophoresis, which moves a drug out of a pipette with electrical current. They compared a baseline, drug application and recovery. A balance-electrode current control checked whether the current alone changed responses. The control tested the current, not the drug. The steps ran in that order.",
+   "Responses often rose during receptor blockade and returned toward baseline after about 10 to 30 minutes. These controls indicate a receptor-dependent local effect. A rise in firing alone says little about selectivity, so responses to each sweep direction and rate were compared. The sweeps defined the selectivity measure. These effects were measured at each sweep rate."
+  ],
+  "26": [
+   "Downward-selective neurons normally responded weakly to upward sweeps, even when those sweeps crossed the excitatory band. After local GABA-A or glycine receptor blockade, many neurons responded strongly to upward sweeps. Many of them lost much of their direction preference. The loss was visible in the sweep responses. Direction preference was strong in these neurons before blockade.",
+   "Williams and Fuzessery compared both directions across sweep rates. Gabazine and strychnine each reduced the preference for downward sweeps. Applying both drugs together removed the preference in a larger fraction of neurons. The two blockers acted through different receptor classes. The results showed what each drug removed. Each drug acted on its own receptor class.",
+   "Responses to upward sweeps that had been ineffective suggest that local inhibition helps create or sharpen direction preference. Inhibition acts as a filter on which sweeps can drive the neuron. Removing that filter makes upward sweeps pass. The upward sweep becomes effective once the filter is gone. The upward response appeared after blockade."
+  ],
+  "27": [
+   "Williams and Fuzessery applied gabazine and strychnine separately to individual neurons. This within-neuron test asked whether a population-level similarity hid differences among the neurons' receptor pathways. The test used the same neuron under each drug. Each neuron served as its own control. Each drug was tested alone in that cell. The design avoids comparing different cells.",
+   "In one published example, gabazine removed direction selectivity while strychnine left it intact. Other examples showed the reverse pattern or sensitivity to either blocker. Baseline direction preference was compatible with several inhibitory arrangements, so no single pathway explained every neuron. Each neuron had its own profile. Each example came from one neuron.",
+   "These measurements identify which receptor classes a neuron depends on at the recording site. They show a local dependence on one receptor class. The spectral position and relative timing of an inhibitory input also decide whether it can suppress a sweep. The site and the timing both set the outcome. Each neuron had its own result."
+  ],
+  "28": [
+   "An upward sweep reaches low frequencies before it reaches a neuron's excitatory band. If low-frequency inhibition acts early, it can prevent spikes when excitation arrives. A downward sweep meets excitation before it crosses that low-frequency region. The order of frequencies decides which inhibition is active first. The neuron's excitatory band lies above those frequencies.",
+   "Williams and Fuzessery removed the low frequencies from upward sweeps to test this idea. In one published neuron, upward and downward sweeps then evoked similar responses. The removed frequencies had overlapped the neuron's low-frequency inhibitory sideband. The manipulation removed the early inhibition. The removal left the excitatory band intact. The sweeps then passed through excitation first.",
+   "Changing the stimulus spectrum removed a timing-dependent source of suppression without using a drug. The result backs the sideband mechanism. The site where inhibitory selectivity forms still needs a local drug test to confirm it. The drug test would confirm the site of action. Local drug tests would show where the effect occurs."
+  ],
+  "29": [
+   "Williams and Fuzessery measured low-frequency two-tone suppression before and during receptor blockade. They then tested the same neuron's responses to upward and downward sweeps. The two measures showed how the inhibitory mechanism and direction selectivity changed together. Both measures came from the same neuron. The paired design tested both measures in one neuron.",
+   "When gabazine removed low-frequency inhibition in the published example, an inhibitory tone stopped suppressing excitation. The neuron gained upward-sweep responses and lost its strong direction preference. Similar changes appeared in other neurons tested with either blocker. The same pattern held across the neurons tested. The neuron's upward-sweep responses rose during blockade. Those changes happened together.",
+   "The paired measurements indicate that LFI helps cause direction selectivity in these neurons. They are more specific than a general rise in firing after a drug. Other cellular sources of inhibition in the sampled neurons were not identified. The sampled neurons are the group the result describes. The sampled neurons were a subset of the population."
+  ],
+  "30": [
+   "Inhibition can keep substantial strength and still arrive too late to block excitation. A neuron's stimulus preference can change even when the inhibition has not vanished. Selectivity depends on timing as well as on the size of suppression. Timing and strength both shape the response. Strength alone is not the deciding factor.",
+   "In one Williams and Fuzessery example, strychnine moved the inferred LFI arrival from −2.5 to +1.0 ms relative to excitation. That delay of 3.5 ms left measurable suppression in place. The neuron's strong downward preference was largely lost. The shift in arrival time was the change that mattered. The inferred arrival time came from the two-tone test.",
+   "With inhibition late, an upward sweep could evoke excitation before the inhibition took effect. The order of inhibitory and excitatory inputs thus helps set direction selectivity. Residual inhibition still matters in other neurons. Each neuron responds to the order of its inputs. Excitation then reached the neuron before the inhibition did. The shift is a timing effect."
+  ],
+  "31": [
+   "**Fast-pass rate selectivity** means a neuron responds better to rapid FM sweeps than to slow ones. Williams and Fuzessery compared this property with direction selectivity during local receptor blockade in the pallid-bat inferior colliculus. Both properties depend on the sweep. The two were tested under the same drugs. Rate and direction are both sweep properties.",
+   "Gabazine left fast-pass selectivity intact in the rate-selective neurons tested, even when firing changed. Strychnine eliminated it in a minority of neurons, which then responded to slow downward sweeps. Direction selectivity was generally more fragile than rate selectivity. Each drug affected each property differently. Fast-pass preference survived gabazine in the neurons tested.",
+   "The different outcomes show that direction and rate are separate forms of tuning. Retained rate selectivity fits inheritance from lower auditory levels in many neurons. Local inhibition may still influence the responses and the exact rate threshold. The exact threshold depends on the neuron and the sweep. Sweep rate and direction were tested as separate features."
+  ],
+  "32": [
+   "A downward sweep activates high frequencies before it reaches the lower excitatory frequencies. If HFI arrives after excitation, a fast sweep can still evoke spikes. If HFI arrives before excitation, a slow sweep is blocked. This ordering creates a fast-pass filter for sweep rate. The filter selects the faster sweeps. The filter responds to the sweep's path.",
+   "Williams and Fuzessery removed the high-frequency part of a downward sweep. A neuron selective for fast sweeps began responding to slow sweeps once that part was gone. The removed frequencies had driven its inhibitory sideband. The removal released the neuron from suppression. Removing those frequencies left the slow sweep's excitation unopposed. Its response changed when that part was removed.",
+   "The response depends on both the spectral path of the sweep and its duration. The result favors a role for HFI in rate selectivity. The origin of the inhibitory sideband was not the focus of the experiment. The source of the sideband stays open. Duration and spectrum both matter here. Other methods would be needed to locate that source."
+  ],
+  "33": [
+   "Williams and Fuzessery paired high-frequency two-tone suppression measures with downward-sweep rate tuning. They tested whether the neurons that lost fast-pass selectivity also lost the sideband that was proposed to create it. The two measures came from the same neurons. This test set the sideband beside the rate preference. Two-tone suppression was measured for the neurons.",
+   "In a published strychnine example, HFI disappeared and the neuron gained responses to slow sweeps. Gabazine examples kept both HFI and fast-pass selectivity. Local glycinergic input helped set this form of rate tuning in the affected neurons. The receptor affected the sideband directly. The neuron then responded to slow sweeps it had ignored.",
+   "The finding concerns one receptor pathway and explains only part of FM tuning. Many rate-selective neurons kept their preference after blockade. Other rate mechanisms and upstream inputs were not removed by this experiment. The glycine effect covers only part of the rate tuning. The rate-selective neurons showed mixed outcomes across drugs. Two drugs gave different results."
+  ],
+  "34": [
+   "The inferior colliculus receives inhibitory and excitatory inputs from several ascending pathways, along with local and commissural pathways. The paper identifies GABAergic sources, including the dorsal nucleus of the lateral lemniscus. Lower brainstem regions can supply both GABAergic and glycinergic inputs. The sources are many, and they arrive from several levels. Those inputs come from several levels.",
+   "Blocking receptors near a recorded neuron tests inhibition acting at that site. A direction preference that disappears was created or sharpened locally. A rate preference that persists may already be present in incoming activity. Local and incoming inputs can each carry a preference. Receptor blockade isolates the local part of that inhibition.",
+   "Williams and Fuzessery inferred substantial local construction of direction selectivity. They inferred greater inheritance of sideband-based rate selectivity. The same response property can be inherited, changed or rebuilt at successive auditory levels. Each level can modify what it receives. Direction preference, by contrast, depended on local receptor action in many cells. The sources are many."
+  ],
+  "35": [
+   "The **sonar beam** is the directional spread of a bat's emitted sound, and its width depends on frequency. Bates and colleagues describe a horizontal beam spanning about 70 degrees to each side at 25 kHz. At 80 kHz, the beam is about 30 degrees wide. The lower frequency spreads much farther to the side.",
+   "A target near the beam axis receives both FM1 and FM2 strongly. Objects off to the side receive proportionally less FM2 because its beam is narrower. The harmonic balance of the returning echo carries information about where the object sat in the beam. The balance depends on the object's position. The balance changes with the object's angle.",
+   "This difference can help a bat tell a forward target from lateral clutter. Clutter means echoes from objects irrelevant to the current target. Harmonic differences alone leave open whether bats use them to reduce interference, which the behavioral tests examined. The tests examined the behavior directly. Bats use echo structure in this task."
+  ],
+  "36": [
+   "An acoustic **glint** is a return from one part of a target. Bates and colleagues used a rewarded virtual target with two glints, at delays of 3,160 and 3,460 μs. The 300-μs gap produced a structured echo with two separate returns. The target had two parts with a set spacing. Each glint returns sound from one part.",
+   "A bat perched on a Y platform and emitted calls. Microphones captured those calls and returned them through electronic delay channels. An unrewarded probe with one glint came from the opposite loudspeaker, and its delay was varied around the two rewarded glint delays. The probe's delay was the variable under test. Each trial ended with one choice.",
+   "The design measured how another echo interfered with perception of the target's structure and timing. Its value was the ability to change one echo property while keeping the rest of the task fixed. The target was electronic, not a natural insect recording. Each part of the setup could be changed on its own."
+  ],
+  "37": [
+   "**Masking** is interference by one sound with the perception of another. In the Bates experiment, a flat-spectrum probe echo caused a sharp rise in errors when its delay came close to either glint of the rewarded target. Flat spectrum means FM1 and FM2 are roughly balanced. The probe was the source of the interference.",
+   "The masking regions extended roughly 50 μs to either side of each target glint. A separate error peak appeared near 3,160 μs and another near 3,460 μs. Errors stayed low when the probe's delay lay outside these regions. The errors clustered around the two glint delays. Masking peaks were sharp near each glint.",
+   "A probe can disrupt a target judgment even when it comes from a different direction. The blind spot is a delay region with impaired discrimination. It is not anatomical damage or a loss of hearing. The bats still heard the sounds clearly. Those regions are delays, not places in space. Errors came from wrong choices, not from silence."
+  ],
+  "38": [
+   "**Low-pass filtering** weakens higher frequencies more than lower ones. Bates and colleagues applied mild low-pass filtering to the probe echo. This reduced FM2 relative to FM1 by an average of about 1.5 dB, approximating the harmonic imbalance of nearby lateral clutter. The filter imitated a nearby object off to the side. The filter reduces FM2 most.",
+   "The filtered probe no longer produced the masking peaks that the balanced probe made at similar delays. The rewarded target kept its structure. The probe changed, so the improvement came from the probe, not from an easier target. The target stayed the same in every condition. The probe still existed acoustically after filtering.",
+   "A small harmonic imbalance can change interference strongly in this task. The result suggests that bats use echo spectral structure to reject clutter. Not every natural clutter echo has this spectrum, and filtering can damage target information. The effect depends on the spectrum of each echo. The imbalance was modest but effective."
+  ],
+  "39": [
+   "Bates and colleagues proposed that weaker FM2 evokes a later neural response through amplitude-latency trading. Responses to the two harmonics then fall out of alignment. The authors read this misalignment as defocusing, a loss of a sharply specified echo-delay percept. The proposal ties level to timing. This idea predicts a shift in response timing for weaker sounds.",
+   "For the roughly 1.5-dB reduction in FM2, the proposed relative latency shift was about 24 μs. Advancing FM2 electronically by about 25 to 45 μs restored masking of the first target glint. The advance matched the level-dependent timing shift. The electronic advance undid the proposed delay. The predicted shift was checked electronically.",
+   "This manipulation ties harmonic timing to the trade-off between precise delay perception and resistance to clutter. Neural responses were inferred from earlier timing measurements, and this behavioral experiment recorded none. Recovery differed between the two glints. The two glints responded differently to the same advance. The result depends on the timing of both harmonics."
+  ],
+  "40": [
+   "The **interpulse interval**, or IPI, is the time between successive broadcasts. The **echo epoch** is the period in which echoes from one broadcast return from objects spread through a scene. A distant target may return its echo after a nearer one. Long echo epochs can overlap the next broadcast. Each broadcast has its own echo epoch.",
+   "Ming and colleagues discuss cases in which the IPI becomes shorter than the echo epoch. Their examples compare a 32-ms IPI with shorter echo epochs and a 22-ms IPI with overlapping epochs. Echoes from one broadcast can arrive after the next broadcast has already been emitted. The overlap changes which broadcast each echo belongs to.",
+   "This produces **pulse-echo ambiguity**, which is uncertainty about which broadcast made an echo. Measuring delay from the wrong broadcast assigns the wrong range. Rapid updates for nearby obstacles can conflict with waiting for distant echoes to return. Each broadcast must be matched to its echo. A longer interval reduces the overlap between broadcasts."
+  ],
+  "41": [
+   "Ming and colleagues used a two-choice virtual-echo task to find which frequencies carry target discrimination. They removed either the high or the low frequencies from the rewarded two-glint echo. The unrewarded comparison echo stayed broadband. The task compared two echoes at once. The task tested which frequency bands carried the delay percept.",
+   "Low-pass filtering kept discrimination effective when only about 25 to 30 kHz remained. High-pass filtering, which removed that low-frequency end, disrupted performance. Most higher FM1 frequencies and all of FM2 were still present in that condition. The lowest FM1 frequencies carried the information. That end anchors the delay percept in this task.",
+   "The authors proposed that **frequency hopping**, shifts of several kilohertz between broadcasts, could use this low-frequency anchor to separate overlapping echo streams. The filtering result is a measured behavior. The full pulse-assignment mechanism remains a model, not a recording from identified neurons. The anchor is the low end of FM1. The mechanism is still a proposal."
+  ],
+  "42": [
+   "Moss and colleagues studied freely flying big brown bats catching tethered insects near a plant. Synchronized ultrasound recordings and high-speed video were combined into reconstructed three-dimensional flight paths. An open-room condition served as the control without the plant's echoes. Each trial recorded the sounds and the flight together. The bats were free to fly during the trials.",
+   "With the insect 10 cm from vegetation, bats hit or captured it in about 40 percent of trials. They made no attempt in nearly half. Hits or captures rose to almost 80 percent at 20 cm and about 90 percent at 40 cm. Open-room performance was nearly complete. Each condition varied the spacing between insect and plant.",
+   "Clutter reduced both the willingness to attempt an interception and the success once the bat approached. The combined hit-or-capture measure is broader than successful consumption. The difficulty appears at these particular vegetation spacings. The spacing sets how hard each capture is. The vegetation made successful capture less likely at close spacing. The categories show the stage of failure."
+  ],
+  "43": [
+   "Bats in the Moss experiment often flew alongside the vegetation and the insect before turning toward the target. The approach was not a straight line through the plant's strongest echo direction. The flight geometry changed the angle between prey and background. The route itself carried the bat around the clutter. The bats adjusted their path before turning.",
+   "As the insect moved closer to the vegetation, the final direct approach grew shorter and the late turn grew sharper. Three-dimensional trajectories and emitted pulse intervals were measured together. The strongest changes in turning happened in the final 50 to 100 ms before contact. Those late changes were the largest. Each change followed the insect's distance.",
+   "The authors read these trajectories as reducing interference. By flying this way, the bat ensonified the prey off axis from the vegetation for part of the approach. This interpretation rests on the geometry, not on a recording of the bat's internal spatial map. The map was never measured. The bats' behavior was the measured quantity."
+  ],
+  "44": [
+   "**Sonar strobe groups** are clusters of calls separated from neighboring calls or groups by longer intervals. Moss and colleagues identified groups with stable internal intervals when they contained three or more sounds. Grouping occurred during the approach, before the terminal capture phase. The groups appeared as the bat neared its prey. Stable internal intervals defined each group.",
+   "Within each group, pulse intervals shortened as the bat closed in on its target. Calls in the clutter conditions tended to fall into groups with shorter intervals than calls in the open room. The grouping added structure beyond a general rise in call rate. The groups had a pattern of their own.",
+   "The authors proposed that repeated sampling at stable intervals could sharpen the spatial representation of the scene. The study measured vocal timing and behavior. It recorded vocal timing and behavior, and the perceptual benefit remains a hypothesis. The benefit is a proposal, not a measurement. The perceptual part of the claim is still open."
+  ],
+  "45": [
+   "The **terminal buzz** is the rapid-call sequence right before prey interception. Moss and colleagues defined buzz-II calls by pulse intervals of 10 ms or less. They compared buzz duration across plant-target separations and the open-room condition. The buzz was measured at every separation. Shorter buzz durations were the main outcome of that comparison.",
+   "Mean buzz-II duration fell from more than 300 ms in the open room to about 200 ms at 40 cm from vegetation and about 100 ms at 10 cm. Prey capture still succeeded sometimes with the shorter buzz, including at the closest separation. The shorter buzz still led to captures. The buzz shortened at every separation tested.",
+   "The authors proposed that extended clutter echoes make prolonged rapid calling less useful. The observed shortening ties vocal timing to scene structure. Successful interception combined changes in call groups, final approach geometry and buzz duration. The buzz was one of several changes. The shortened buzz changes the timing of the final approach. Each measure is part of one interception."
+  ]
+ }
 }
