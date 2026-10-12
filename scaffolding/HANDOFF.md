@@ -31,6 +31,19 @@ For lecture N, use `drive_updated/Neuroethology_Lecture{N}_FA2026.pptx`, unless 
 - Then: 1–14 (V2/V3), 15–17 (after the user decides), 18–28.
 - Lectures 1–30 are the older backfill. They must be brought to the same rules as 31–40.
 
+## Plain writing (set by the user, applies to every paragraph and insert)
+
+The user rejected dense, abstract prose. Write plain, concrete sentences that a student can say aloud.
+
+- Do not use the vague verbs "connected", "linked", "supported", "relationship", "associated", "reflects", "underlies", "shapes", "contributes to", "points to", "establishes", or nouns built from them. Say the actual action or the actual thing: what moves what, what changes what, what each measurement showed.
+- Prefer short sentences with one subject and one action. Name the actor (the neurons, the bee, the lobster, the electrode).
+- Example to generalize from (do not copy the wording):
+  - Current: "The loop therefore creates a causal interaction between cultured tissue and the virtual environment."
+  - Plain: "The neurons move the paddle. Whether the ball is hit decides what electrical signal they get back, so their activity changes what happens next."
+  The plain version names who acts, what they do, and what changes as a result.
+- Density: no sentence should stack more than two clauses or carry two abstract nouns. If a sentence has three or more abstract nouns, split it into two plain sentences.
+- Check before committing: scan each body and insert paragraph for the banned verbs above and for "relationship". Rewrite every hit.
+
 ## Insert paragraphs must teach, not repeat (set by the user)
 
 - An insert paragraph teaches a fact that the body text of the same lecture does not already state. Do not restate or paraphrase the adjacent body paragraphs. If the source has little material for a figure, find a different fact from the source text (a method, a control, a measurement, a mechanism, a result) rather than repeating one.
