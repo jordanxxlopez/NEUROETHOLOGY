@@ -1,4 +1,4 @@
-# Required original video uploads for Lecture 104A
+# Resolved original video uploads for Lecture 104A
 
 Lecture: Pain across species: nociception, neural pathways, behavioral responses, evolution of pain processing, social transmission of pain sensitivity, social buffering of pain, and experimental evidence for empathy-like behavior.
 
@@ -9,6 +9,6 @@ Article: Ben-Ami Bartal I, Decety J, Mason P (2011). Empathy and pro-social beha
 1. **Movie S1**, archived filename `NIHMS504750-supplement-Movie_s1.mp4`. Restrainer-directed exploration and contact with a trapped cagemate, referenced with Figure 1A. Original PMC download: https://pmc.ncbi.nlm.nih.gov/articles/instance/3760221/bin/NIHMS504750-supplement-Movie_s1.mp4 . Publisher supplementary page: https://www.science.org/doi/suppl/10.1126/science.1210789 . The publisher returns HTTP 403 here; the PMC download returns a verification HTML page, not MP4 bytes. The public archive has no copy of this video (HTTP 404).
 2. **Movie S2**, archived filename `NIHMS504750-supplement-Movie_s2.mov`. Opening the restrainer and releasing the cagemate, referenced with Figure 2B. Original PMC download: https://pmc.ncbi.nlm.nih.gov/articles/instance/3760221/bin/NIHMS504750-supplement-Movie_s2.mov . Publisher supplementary page: https://www.science.org/doi/suppl/10.1126/science.1210789 . The publisher returns HTTP 403 here; the PMC download returns verification HTML instead of MOV bytes. The public archive has no copy of this video (HTTP 404).
 
-Please upload these two original recordings, or compatible compressed copies under 32 MiB each. Keep their timing, scene order, sound (if present), and source labels intact. This is distress-related helping evidence, not a recording of experimentally induced pain. The lecture must distinguish that behavioral evidence from pain-specific social transmission experiments.
+Resolved: the instructor uploaded both original recordings. Movie S1 was supplied as MP4 and Movie S2 as MOV. Compatible H264/AAC delivery copies are now embedded, preserving timing, audio presence, scene order, and source labels. This is distress-related helping evidence, not a recording of experimentally induced pain. The lecture must distinguish that behavioral evidence from pain-specific social transmission experiments.
 
-Current status: guidelines saved on the default branch; 11 other original recordings downloaded and checked; no final PPTX delivered. The required 20–30 embedded-video deck remains pending source review, these uploads, final media selection, slide writing, and construction. No below-target deck is being represented as complete.
+Current status: the 46-slide deck contains 20 embedded recordings, including these two uploads. Full media hashes, native ratios, decoding, and duration checks are recorded in delivery_verification.json. No source upload remains outstanding.

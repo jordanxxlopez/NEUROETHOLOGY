@@ -1,0 +1,1510 @@
+{
+  "lecture": "104A",
+  "theme": "palladium-blue-mist",
+  "wide_title": true,
+  "title_refs": [
+    "Crook RJ. (2021). Behavioral and neurophysiological evidence suggests affective pain experience in octopus. iScience 24(3):102229. https://doi.org/10.1016/j.isci.2021.102229"
+  ],
+  "content_slides": 44,
+  "title_image": {
+    "path": "figures/Octopus_photo.png",
+    "kind": "article",
+    "caption": "Crook (2021), Fig. 1A. Octopus bocki in the study apparatus.",
+    "source_url": "https://doi.org/10.1016/j.isci.2021.102229"
+  },
+  "slides": [
+    {
+      "layout": "figures-right",
+      "title": "Nociception begins with detection of potential damage",
+      "body": [
+        "**Nociception** is neural detection of potentially tissue-damaging stimulation. The stimulus may be thermal, chemical, or mechanical. **Pain** includes an unpleasant affective experience, rather than only sensory detection. A **nociceptor** is a sensory neuron responding to such stimulation. Sensory transduction converts a physical or chemical event into electrical activity. In planarians, TRPA1-dependent signaling contributes to protective avoidance.",
+        "**TRPA1** is a conserved ion channel, a membrane protein permitting ion movement. Its opening changes the electrical current crossing the membrane. Arenas and colleagues studied this channel in flatworms and flies. They compared intact channels with genetic reductions in channel function. Channel disruption changed avoidance of noxious heat and irritant chemicals.",
+        "Protective responses must be interpreted at the level actually measured. An avoidance assay measures where an animal moves after stimulation. A current recording measures electrical changes in channel-expressing cells. The study linked these molecular and behavioral measurements across species. Related channels can support conserved defense despite differences in nervous-system organization."
+      ],
+      "cite": "Arenas et al. (2017)",
+      "refs": [
+        "Arenas OM, Zaharieva EE, Para A, Vásquez-Doorman C, Petersen CP, Gallio M. (2017). Activation of planarian TRPA1 by reactive oxygen species reveals a conserved mechanism for animal nociception. Nature neuroscience 20(12):1686-1693. https://doi.org/10.1038/s41593-017-0005-0",
+        "Crook RJ. (2021). Behavioral and neurophysiological evidence suggests affective pain experience in octopus. iScience 24(3):102229. https://doi.org/10.1016/j.isci.2021.102229"
+      ],
+      "transcript": [
+        "**Nociception** is neural detection of potentially tissue-damaging stimulation. The stimulus may be thermal, chemical, or mechanical. **Pain** includes an unpleasant affective experience, rather than only sensory detection. A **nociceptor** is a sensory neuron responding to such stimulation. Sensory transduction converts a physical or chemical event into electrical activity. In planarians, TRPA1-dependent signaling contributes to protective avoidance.",
+        "**TRPA1** is a conserved ion channel, a membrane protein permitting ion movement. Its opening changes the electrical current crossing the membrane. Arenas and colleagues studied this channel in flatworms and flies. They compared intact channels with genetic reductions in channel function. Channel disruption changed avoidance of noxious heat and irritant chemicals.",
+        "Protective responses must be interpreted at the level actually measured. An avoidance assay measures where an animal moves after stimulation. A current recording measures electrical changes in channel-expressing cells. The study linked these molecular and behavioral measurements across species. Related channels can support conserved defense despite differences in nervous-system organization."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Arenas2017_f1.png",
+          "caption": "Arenas et al. (2017), Fig. 1a–k. Planarian TRPA1 expression and heat avoidance.",
+          "source_url": "https://doi.org/10.1038/s41593-017-0005-0",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Planaria_tissue.png",
+          "kind": "article",
+          "caption": "Arenas et al. (2017), Fig. 1f–i. Planarian tissue and TRPA1 localization.",
+          "source_url": "https://doi.org/10.1038/s41593-017-0005-0",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figure-right",
+      "title": "Planarian TRPA1 supports avoidance of hot regions",
+      "body": [
+        "Freshwater planarians chose between floor regions at 24 °C and 32 °C. A thin water layer allowed the animals to move across them. Researchers tracked the time spent in each thermal region. Control animals strongly avoided the hotter regions. The test measured sustained spatial choice rather than a single movement.",
+        "**RNA interference**, or RNAi, reduces expression of a targeted gene. TRPA1 RNAi markedly reduced avoidance of the 32 °C regions. The animals consequently spent more similar amounts of time across hot and cool regions. Researchers compared this effect with a different sensory-channel manipulation. Responses to other environmental cues helped distinguish heat avoidance from general movement failure.",
+        "TRPA1-expressing cells occur in differentiated planarian tissue. Channel function therefore connects a molecular target with whole-animal behavior. The experiment gives a causal result because expression was experimentally reduced. It also gives a thermal scale appropriate to this aquatic species. A noxious temperature must be defined relative to the animal being tested."
+      ],
+      "figure": {
+        "path": "figures/Arenas2017_f1.png",
+        "caption": "Arenas et al. (2017), Fig. 1c–k. Thermal trajectories, TRPA1 expression, and avoidance scores.",
+        "source_url": "https://doi.org/10.1038/s41593-017-0005-0",
+        "kind": "article"
+      },
+      "cite": "Arenas et al. (2017)",
+      "refs": [
+        "Arenas OM, Zaharieva EE, Para A, Vásquez-Doorman C, Petersen CP, Gallio M. (2017). Activation of planarian TRPA1 by reactive oxygen species reveals a conserved mechanism for animal nociception. Nature neuroscience 20(12):1686-1693. https://doi.org/10.1038/s41593-017-0005-0"
+      ],
+      "transcript": [
+        "Freshwater planarians chose between floor regions at 24 °C and 32 °C. A thin water layer allowed the animals to move across them. Researchers tracked the time spent in each thermal region. Control animals strongly avoided the hotter regions. The test measured sustained spatial choice rather than a single movement.",
+        "**RNA interference**, or RNAi, reduces expression of a targeted gene. TRPA1 RNAi markedly reduced avoidance of the 32 °C regions. The animals consequently spent more similar amounts of time across hot and cool regions. Researchers compared this effect with a different sensory-channel manipulation. Responses to other environmental cues helped distinguish heat avoidance from general movement failure.",
+        "TRPA1-expressing cells occur in differentiated planarian tissue. Channel function therefore connects a molecular target with whole-animal behavior. The experiment gives a causal result because expression was experimentally reduced. It also gives a thermal scale appropriate to this aquatic species. A noxious temperature must be defined relative to the animal being tested."
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "TRPA1 mediates escape from chemical irritants",
+      "body": [
+        "**Allyl isothiocyanate**, or AITC, is an irritant found in mustard and wasabi. It is an **agonist**, a chemical that activates TRPA1. Researchers placed an AITC-containing agar pellet in a planarian arena. Small circular chambers were connected by narrow corridors. Behavior was observed for 5 min after exposure.",
+        "Control animals withdrew, turned abruptly, and escaped from the irritant chamber. Video 2 records their movement through the connecting corridors. A mock pellet produced exploration without the same avoidance. TRPA1 RNAi reduced the aversive response to the AITC pellet. The channel therefore contributed to chemically evoked protective behavior.",
+        "Cultured cells expressing planarian TRPA1 also responded to AITC. Electrical recordings measured activation without requiring whole-animal movement. The cell and behavior experiments thus tested connected transduction levels. Introducing planarian or human TRPA1 into mutant flies also restored thermal avoidance. Conserved channel function can support defense across different stimuli and species."
+      ],
+      "cite": "Arenas et al. (2017)",
+      "refs": [
+        "Arenas OM, Zaharieva EE, Para A, Vásquez-Doorman C, Petersen CP, Gallio M. (2017). Activation of planarian TRPA1 by reactive oxygen species reveals a conserved mechanism for animal nociception. Nature neuroscience 20(12):1686-1693. https://doi.org/10.1038/s41593-017-0005-0"
+      ],
+      "transcript": [
+        "**Allyl isothiocyanate**, or AITC, is an irritant found in mustard and wasabi. It is an **agonist**, a chemical that activates TRPA1. Researchers placed an AITC-containing agar pellet in a planarian arena. Small circular chambers were connected by narrow corridors. Behavior was observed for 5 min after exposure.",
+        "Control animals withdrew, turned abruptly, and escaped from the irritant chamber. Video 2 records their movement through the connecting corridors. A mock pellet produced exploration without the same avoidance. TRPA1 RNAi reduced the aversive response to the AITC pellet. The channel therefore contributed to chemically evoked protective behavior.",
+        "Cultured cells expressing planarian TRPA1 also responded to AITC. Electrical recordings measured activation without requiring whole-animal movement. The cell and behavior experiments thus tested connected transduction levels. Introducing planarian or human TRPA1 into mutant flies also restored thermal avoidance. Conserved channel function can support defense across different stimuli and species."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Arenas2017_f2.png",
+          "caption": "Arenas et al. (2017), Fig. 2a–b. Irritant-associated escape through narrow connecting corridors.",
+          "source_url": "https://doi.org/10.1038/s41593-017-0005-0",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Planaria_tissue.png",
+          "kind": "article",
+          "caption": "Arenas et al. (2017), Fig. 1f–i. Planarian tissue and TRPA1 localization.",
+          "source_url": "https://doi.org/10.1038/s41593-017-0005-0",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Reactive oxygen signals link heat to channel opening",
+      "body": [
+        "Hydrogen peroxide activated planarian TRPA1 expressed in cultured cells. Electrophysiology measured the resulting membrane currents directly. This isolated the channel response from an entire nervous system. Heat itself failed to produce equivalent direct channel activation. The chemical and thermal manipulations therefore tested different transduction steps.",
+        "Researchers monitored oxidative signals during warming of living tissue. Planarian fluorescence increased strongly around 30–35 °C. Fly tissue showed strong increases around 40–45 °C. These ranges differed with the species-specific noxious thermal conditions. Rapid fluorescence changes were compatible with the timing of avoidance.",
+        "A genetically encoded indicator also detected hydrogen peroxide after brief heating. Feeding flies pro-oxidants increased avoidance of moderately warm regions. That sensitization depended on functional TRPA1. Molecular activation, tissue chemistry, and behavior thus converged on the same channel. The authors hypothesize that heat-generated oxidative signals recruit this conserved detector indirectly."
+      ],
+      "cite": "Arenas et al. (2017)",
+      "refs": [
+        "Arenas OM, Zaharieva EE, Para A, Vásquez-Doorman C, Petersen CP, Gallio M. (2017). Activation of planarian TRPA1 by reactive oxygen species reveals a conserved mechanism for animal nociception. Nature neuroscience 20(12):1686-1693. https://doi.org/10.1038/s41593-017-0005-0"
+      ],
+      "transcript": [
+        "Hydrogen peroxide activated planarian TRPA1 expressed in cultured cells. Electrophysiology measured the resulting membrane currents directly. This isolated the channel response from an entire nervous system. Heat itself failed to produce equivalent direct channel activation. The chemical and thermal manipulations therefore tested different transduction steps.",
+        "Researchers monitored oxidative signals during warming of living tissue. Planarian fluorescence increased strongly around 30–35 °C. Fly tissue showed strong increases around 40–45 °C. These ranges differed with the species-specific noxious thermal conditions. Rapid fluorescence changes were compatible with the timing of avoidance.",
+        "A genetically encoded indicator also detected hydrogen peroxide after brief heating. Feeding flies pro-oxidants increased avoidance of moderately warm regions. That sensitization depended on functional TRPA1. Molecular activation, tissue chemistry, and behavior thus converged on the same channel. The authors hypothesize that heat-generated oxidative signals recruit this conserved detector indirectly."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Arenas2017_f6.png",
+          "caption": "Arenas et al. (2017), Fig. 6a–i. Channel currents, oxidative signals, and sensitized avoidance.",
+          "source_url": "https://doi.org/10.1038/s41593-017-0005-0",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Planaria_tissue.png",
+          "kind": "article",
+          "caption": "Arenas et al. (2017), Fig. 1f–i. Planarian tissue and TRPA1 localization.",
+          "source_url": "https://doi.org/10.1038/s41593-017-0005-0",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Adult flies escape when heat becomes noxious",
+      "body": [
+        "Adult fruit flies were tested on a temperature-controlled surface. At 25–38 °C, intact flies showed little jumping escape behavior. At 42 °C, they escaped at approximately three responses per minute. This temperature-dependent response provides a behavioral readout of nociception. The article movie records the difference directly.",
+        "TRPA1 and **Painless**, another TRP-family channel, were required for acute escape. Mutants lacking either channel had reduced responses at 42 °C. These channels participate in converting thermal stimulation into neural signaling. The mutation comparison connects sensory molecules with the protective action. It differs from simply measuring how fast an animal walks.",
+        "The assay also allowed testing at a normally subnoxious temperature. A new response at 38 °C could indicate changed sensitivity after injury. Normal movement was assessed separately from jumping escape. This distinction separates altered sensory processing from general activity changes. Defined temperatures establish the baseline against which injury-induced sensitization is measured."
+      ],
+      "cite": "Khuong et al. (2019)",
+      "refs": [
+        "Khuong TM, Wang QP, Manion J, Oyston LJ, Lau MT, Towler H, Lin YQ, Neely GG. (2019). Nerve injury drives a heightened state of vigilance and neuropathic sensitization in Drosophila. Science advances 5(7):eaaw4099. https://doi.org/10.1126/sciadv.aaw4099"
+      ],
+      "transcript": [
+        "Adult fruit flies were tested on a temperature-controlled surface. At 25–38 °C, intact flies showed little jumping escape behavior. At 42 °C, they escaped at approximately three responses per minute. This temperature-dependent response provides a behavioral readout of nociception. The article movie records the difference directly.",
+        "TRPA1 and **Painless**, another TRP-family channel, were required for acute escape. Mutants lacking either channel had reduced responses at 42 °C. These channels participate in converting thermal stimulation into neural signaling. The mutation comparison connects sensory molecules with the protective action. It differs from simply measuring how fast an animal walks.",
+        "The assay also allowed testing at a normally subnoxious temperature. A new response at 38 °C could indicate changed sensitivity after injury. Normal movement was assessed separately from jumping escape. This distinction separates altered sensory processing from general activity changes. Defined temperatures establish the baseline against which injury-induced sensitization is measured."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Khuong2019_f1.png",
+          "caption": "Khuong et al. (2019), Fig. 1A–B. Thermal assay and temperature-dependent escape behavior.",
+          "source_url": "https://doi.org/10.1126/sciadv.aaw4099",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Fly_neurons.png",
+          "kind": "article",
+          "caption": "Khuong et al. (2019), Fig. 2C. Adult fly sensory projections toward the central nervous system.",
+          "source_url": "https://doi.org/10.1126/sciadv.aaw4099",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Peripheral injury produces lasting thermal allodynia",
+      "body": [
+        "**Allodynia** is a pain-like response to normally innocuous stimulation. Researchers amputated the right middle leg of adult flies. Injured animals subsequently escaped from a surface at 38 °C. Intact animals showed little escape at that temperature. The injury therefore changed the temperature-response relationship.",
+        "The sensitized response was absent during the first two days. It appeared around day 5 and reached its maximum around day 7. It persisted beyond 21 days after injury. This delay indicates a developing adaptation rather than an immediate wound reflex. The article movie compares injured and control behavior.",
+        "Injury did not simply increase every thermal response. The change was concentrated at the normally subnoxious temperature. Overall movement speed was not increased after amputation. TRPA1-dependent sensory signaling was required for the changed escape response. Persistent altered sensitivity can arise after damage to a peripheral nerve in an invertebrate."
+      ],
+      "cite": "Khuong et al. (2019)",
+      "refs": [
+        "Khuong TM, Wang QP, Manion J, Oyston LJ, Lau MT, Towler H, Lin YQ, Neely GG. (2019). Nerve injury drives a heightened state of vigilance and neuropathic sensitization in Drosophila. Science advances 5(7):eaaw4099. https://doi.org/10.1126/sciadv.aaw4099"
+      ],
+      "transcript": [
+        "**Allodynia** is a pain-like response to normally innocuous stimulation. Researchers amputated the right middle leg of adult flies. Injured animals subsequently escaped from a surface at 38 °C. Intact animals showed little escape at that temperature. The injury therefore changed the temperature-response relationship.",
+        "The sensitized response was absent during the first two days. It appeared around day 5 and reached its maximum around day 7. It persisted beyond 21 days after injury. This delay indicates a developing adaptation rather than an immediate wound reflex. The article movie compares injured and control behavior.",
+        "Injury did not simply increase every thermal response. The change was concentrated at the normally subnoxious temperature. Overall movement speed was not increased after amputation. TRPA1-dependent sensory signaling was required for the changed escape response. Persistent altered sensitivity can arise after damage to a peripheral nerve in an invertebrate."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Khuong2019_f1.png",
+          "caption": "Khuong et al. (2019), Fig. 1C–G. Injury, sensitized trajectories, and the time course of escape.",
+          "source_url": "https://doi.org/10.1126/sciadv.aaw4099",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Fly_neurons.png",
+          "kind": "article",
+          "caption": "Khuong et al. (2019), Fig. 2C. Adult fly sensory projections toward the central nervous system.",
+          "source_url": "https://doi.org/10.1126/sciadv.aaw4099",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Loss of inhibitory signaling sensitizes escape circuits",
+      "body": [
+        "**GABA**, gamma-aminobutyric acid, is an inhibitory neurotransmitter in this circuit. Inhibition restrains activity that would otherwise drive escape. The study recorded escape-related muscle responses after sensory stimulation. Stimulation of the intact opposite leg gave faster, longer responses after injury. A peripheral lesion had therefore changed processing beyond the damaged leg.",
+        "Injured flies lost GABAergic function within the ventral nerve cord. This central structure contains sensory and motor circuitry controlling the body. Reduced inhibitory signaling increased transmission through the escape pathway. The authors also manipulated GABA-related genes to test this relationship. The resulting sensitivity changes connected inhibition with behavior.",
+        "Preventing GABAergic cell death suppressed neuropathic sensitization. TRPA1-expressing sensory neurons supplied necessary excitatory input. Their **cholinergic** output uses acetylcholine as a transmitter. Injury thus combines altered sensory drive with weakened central inhibition. Protective escape can become excessive when a circuit loses its inhibitory gate."
+      ],
+      "cite": "Khuong et al. (2019)",
+      "refs": [
+        "Khuong TM, Wang QP, Manion J, Oyston LJ, Lau MT, Towler H, Lin YQ, Neely GG. (2019). Nerve injury drives a heightened state of vigilance and neuropathic sensitization in Drosophila. Science advances 5(7):eaaw4099. https://doi.org/10.1126/sciadv.aaw4099"
+      ],
+      "transcript": [
+        "**GABA**, gamma-aminobutyric acid, is an inhibitory neurotransmitter in this circuit. Inhibition restrains activity that would otherwise drive escape. The study recorded escape-related muscle responses after sensory stimulation. Stimulation of the intact opposite leg gave faster, longer responses after injury. A peripheral lesion had therefore changed processing beyond the damaged leg.",
+        "Injured flies lost GABAergic function within the ventral nerve cord. This central structure contains sensory and motor circuitry controlling the body. Reduced inhibitory signaling increased transmission through the escape pathway. The authors also manipulated GABA-related genes to test this relationship. The resulting sensitivity changes connected inhibition with behavior.",
+        "Preventing GABAergic cell death suppressed neuropathic sensitization. TRPA1-expressing sensory neurons supplied necessary excitatory input. Their **cholinergic** output uses acetylcholine as a transmitter. Injury thus combines altered sensory drive with weakened central inhibition. Protective escape can become excessive when a circuit loses its inhibitory gate."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Khuong2019_f4.png",
+          "caption": "Khuong et al. (2019), Fig. 4A–H. GABAergic signaling and altered escape-circuit responses.",
+          "source_url": "https://doi.org/10.1126/sciadv.aaw4099",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Fly_neurons.png",
+          "kind": "article",
+          "caption": "Khuong et al. (2019), Fig. 2C. Adult fly sensory projections toward the central nervous system.",
+          "source_url": "https://doi.org/10.1126/sciadv.aaw4099",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Descending peptides restrain larval nociception",
+      "body": [
+        "**Descending modulation** changes lower-level sensory circuits through brain-derived signals. In larvae, **drosulfakinin**, or DSK, is an inhibitory nociceptive modulator. DSK is a neuropeptide, a peptide released for intercellular signaling. It belongs to the conserved cholecystokinin-related signaling system. Oikawa and colleagues identified DSK-expressing brain neurons anatomically.",
+        "DSK-deficient larvae rolled sooner after contact with a 42 °C probe. Rolling is the stereotyped protective escape response in this preparation. Reintroducing the normal gene restored the response toward control timing. The manipulation therefore linked peptide production with behavioral sensitivity. The relevant effect concerned response latency to noxious stimulation.",
+        "The brain groups included MP1 and Sv neurons. Their expression patterns were mapped with genetic reporters and staining. **Goro neurons** in the ventral nerve cord form a downstream nociceptive target. Calcium imaging measured how that target responded during heating. This connects brain peptide signaling with activity in a lower nociceptive circuit."
+      ],
+      "cite": "Oikawa et al. (2023)",
+      "refs": [
+        "Oikawa I, Kondo S, Hashimoto K, Yoshida A, Hamajima M, Tanimoto H, Furukubo-Tokunaga K, Honjo K. (2023). A descending inhibitory mechanism of nociception mediated by an evolutionarily conserved neuropeptide system in Drosophila. eLife 12:RP85760. https://doi.org/10.7554/elife.85760"
+      ],
+      "transcript": [
+        "**Descending modulation** changes lower-level sensory circuits through brain-derived signals. In larvae, **drosulfakinin**, or DSK, is an inhibitory nociceptive modulator. DSK is a neuropeptide, a peptide released for intercellular signaling. It belongs to the conserved cholecystokinin-related signaling system. Oikawa and colleagues identified DSK-expressing brain neurons anatomically.",
+        "DSK-deficient larvae rolled sooner after contact with a 42 °C probe. Rolling is the stereotyped protective escape response in this preparation. Reintroducing the normal gene restored the response toward control timing. The manipulation therefore linked peptide production with behavioral sensitivity. The relevant effect concerned response latency to noxious stimulation.",
+        "The brain groups included MP1 and Sv neurons. Their expression patterns were mapped with genetic reporters and staining. **Goro neurons** in the ventral nerve cord form a downstream nociceptive target. Calcium imaging measured how that target responded during heating. This connects brain peptide signaling with activity in a lower nociceptive circuit."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Oikawa2023_f2.png",
+          "caption": "Oikawa et al. (2023), Fig. 2A–F. Drosulfakinin expression in larval brain neurons.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Goro_neurons.png",
+          "kind": "article",
+          "caption": "Oikawa et al. (2023), Fig. 3E–F. DSK-receptor expression in the larval nervous system.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "A peptide receptor limits Goro responses to heat",
+      "body": [
+        "**CCKLR-17D1** is a receptor for DSK-related peptide signaling. It is a **G-protein-coupled receptor**, or GPCR. GPCR activation recruits intracellular signaling through G proteins, which relay receptor signals within the cell. The study localized receptor expression to Goro neurons. These neurons participate in generating nociceptive rolling behavior.",
+        "Researchers expressed GCaMP6m to monitor calcium-dependent fluorescence. **GCaMP** is a genetically encoded fluorescent calcium indicator. Increased fluorescence reports a rise in intracellular calcium during neuronal activation. Control animals were tested with a localized thermal ramp. Video 1 records the response with time and temperature labels.",
+        "Animals lacking CCKLR-17D1 showed stronger sensitized Goro responses. The receptor normally reduces the response to the same thermal challenge. Calcium dynamics provide a circuit-level counterpart to shortened rolling latency. The result connects receptor expression with neuronal sensitivity. Peptide modulation can change response gain without replacing the primary thermal stimulus."
+      ],
+      "cite": "Oikawa et al. (2023)",
+      "refs": [
+        "Oikawa I, Kondo S, Hashimoto K, Yoshida A, Hamajima M, Tanimoto H, Furukubo-Tokunaga K, Honjo K. (2023). A descending inhibitory mechanism of nociception mediated by an evolutionarily conserved neuropeptide system in Drosophila. eLife 12:RP85760. https://doi.org/10.7554/elife.85760"
+      ],
+      "transcript": [
+        "**CCKLR-17D1** is a receptor for DSK-related peptide signaling. It is a **G-protein-coupled receptor**, or GPCR. GPCR activation recruits intracellular signaling through G proteins, which relay receptor signals within the cell. The study localized receptor expression to Goro neurons. These neurons participate in generating nociceptive rolling behavior.",
+        "Researchers expressed GCaMP6m to monitor calcium-dependent fluorescence. **GCaMP** is a genetically encoded fluorescent calcium indicator. Increased fluorescence reports a rise in intracellular calcium during neuronal activation. Control animals were tested with a localized thermal ramp. Video 1 records the response with time and temperature labels.",
+        "Animals lacking CCKLR-17D1 showed stronger sensitized Goro responses. The receptor normally reduces the response to the same thermal challenge. Calcium dynamics provide a circuit-level counterpart to shortened rolling latency. The result connects receptor expression with neuronal sensitivity. Peptide modulation can change response gain without replacing the primary thermal stimulus."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Oikawa2023_f5.png",
+          "caption": "Oikawa et al. (2023), Fig. 5A–B. Control and receptor-mutant calcium responses during heating.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Goro_neurons.png",
+          "kind": "article",
+          "caption": "Oikawa et al. (2023), Fig. 3E–F. DSK-receptor expression in the larval nervous system.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Receptor loss increases neuronal thermal responsiveness",
+      "body": [
+        "A **deletion mutant** lacks a functional portion of a targeted gene. CCKLR-17D1 deletion disrupted the DSK receptor signaling pathway. Researchers applied the same localized thermal ramp to control and mutant larvae. The recording tracked Goro calcium fluorescence over time. Video 2 presents the receptor-mutant condition.",
+        "The response became sensitized after receptor loss. This physiological change parallels faster rolling after noxious heating. A receptor in the downstream circuit therefore regulates behaviorally relevant activity. The comparison holds the sensory manipulation constant while changing signaling capacity. It isolates a modulatory component of thermal nociception.",
+        "At 38 °C, receptor mutants retained broadly normal behavioral thresholds. Their increased response at 42 °C was therefore classified as **hyperalgesia-like** sensitization. Hyperalgesia means an exaggerated response to an already noxious stimulus. This differs from the adult fly injury-induced allodynia at 38 °C. Both forms increase protective behavior through different changes in the stimulus-response relationship."
+      ],
+      "cite": "Oikawa et al. (2023)",
+      "refs": [
+        "Oikawa I, Kondo S, Hashimoto K, Yoshida A, Hamajima M, Tanimoto H, Furukubo-Tokunaga K, Honjo K. (2023). A descending inhibitory mechanism of nociception mediated by an evolutionarily conserved neuropeptide system in Drosophila. eLife 12:RP85760. https://doi.org/10.7554/elife.85760"
+      ],
+      "transcript": [
+        "A **deletion mutant** lacks a functional portion of a targeted gene. CCKLR-17D1 deletion disrupted the DSK receptor signaling pathway. Researchers applied the same localized thermal ramp to control and mutant larvae. The recording tracked Goro calcium fluorescence over time. Video 2 presents the receptor-mutant condition.",
+        "The response became sensitized after receptor loss. This physiological change parallels faster rolling after noxious heating. A receptor in the downstream circuit therefore regulates behaviorally relevant activity. The comparison holds the sensory manipulation constant while changing signaling capacity. It isolates a modulatory component of thermal nociception.",
+        "At 38 °C, receptor mutants retained broadly normal behavioral thresholds. Their increased response at 42 °C was therefore classified as **hyperalgesia-like** sensitization. Hyperalgesia means an exaggerated response to an already noxious stimulus. This differs from the adult fly injury-induced allodynia at 38 °C. Both forms increase protective behavior through different changes in the stimulus-response relationship."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Oikawa2023_f5.png",
+          "caption": "Oikawa et al. (2023), Fig. 5A–B. Deletion of CCKLR-17D1 enhances Goro calcium responses.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Goro_neurons.png",
+          "kind": "article",
+          "caption": "Oikawa et al. (2023), Fig. 3E–F. DSK-receptor expression in the larval nervous system.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Cell-targeted RNAi identifies the modulatory receptor",
+      "body": [
+        "Researchers reduced CCKLR-17D1 expression specifically in Goro neurons. RNAi supplied this targeted reduction in receptor production. The manipulation shortened rolling latency after a 42 °C stimulus. Restricting the manipulation to identified cells tested their causal contribution. The phenotype linked receptor signaling in Goro neurons with nociceptive behavior.",
+        "Videos 3 and 4 compare calcium responses in control and RNAi animals. Their temperature and time labels identify the experimental challenge. Receptor reduction sensitized the physiological response to heating. The neural effect agrees with the behavioral response change. Targeted physiology therefore complements the whole-animal assay.",
+        "Restoring CCKLR-17D1 in Goro neurons rescued abnormal thermal sensitivity. **Rescue** means replacing missing function in a defined population. It strengthens the association between the receptor, the cells, and the phenotype. The experiment localizes an inhibitory action within a nociceptive pathway. Modulation depends on which neurons receive the peptide signal."
+      ],
+      "cite": "Oikawa et al. (2023)",
+      "refs": [
+        "Oikawa I, Kondo S, Hashimoto K, Yoshida A, Hamajima M, Tanimoto H, Furukubo-Tokunaga K, Honjo K. (2023). A descending inhibitory mechanism of nociception mediated by an evolutionarily conserved neuropeptide system in Drosophila. eLife 12:RP85760. https://doi.org/10.7554/elife.85760"
+      ],
+      "transcript": [
+        "Researchers reduced CCKLR-17D1 expression specifically in Goro neurons. RNAi supplied this targeted reduction in receptor production. The manipulation shortened rolling latency after a 42 °C stimulus. Restricting the manipulation to identified cells tested their causal contribution. The phenotype linked receptor signaling in Goro neurons with nociceptive behavior.",
+        "Videos 3 and 4 compare calcium responses in control and RNAi animals. Their temperature and time labels identify the experimental challenge. Receptor reduction sensitized the physiological response to heating. The neural effect agrees with the behavioral response change. Targeted physiology therefore complements the whole-animal assay.",
+        "Restoring CCKLR-17D1 in Goro neurons rescued abnormal thermal sensitivity. **Rescue** means replacing missing function in a defined population. It strengthens the association between the receptor, the cells, and the phenotype. The experiment localizes an inhibitory action within a nociceptive pathway. Modulation depends on which neurons receive the peptide signal."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Oikawa2023_f4.png",
+          "caption": "Oikawa et al. (2023), Fig. 4A–C. Receptor knockdown and rescue in Goro neurons.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Goro_neurons.png",
+          "kind": "article",
+          "caption": "Oikawa et al. (2023), Fig. 3E–F. DSK-receptor expression in the larval nervous system.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Related receptors have different cellular functions",
+      "body": [
+        "DSK also signals through the related receptor **CCKLR-17D3**. Deleting either receptor increased behavioral sensitivity to a 42 °C probe. Thus both receptor genes contribute to normal thermal nociception. Their similar whole-animal phenotypes do not imply identical cellular actions. Expression and targeted manipulations distinguish where their functions operate.",
+        "Videos 5 and 6 compare control and CCKLR-17D3-mutant Goro responses. The study assessed this receptor alongside CCKLR-17D1. Reducing CCKLR-17D3 specifically in Goro neurons did not reproduce the clear behavioral effect of CCKLR-17D1 RNAi. The targeted experiments therefore separate a systemic requirement from a cell-specific one. A receptor may influence behavior through additional circuit locations.",
+        "The two receptors belong to the same conserved signaling family. Conservation preserves a molecular toolkit while allowing different circuit deployment. Thermal behavior reflects the combined actions of that toolkit. Genetic deletion, cell-targeted RNAi, and physiological imaging test different levels of organization. Their combination explains why related receptors can share a behavioral phenotype yet differ in identified neurons."
+      ],
+      "cite": "Oikawa et al. (2023)",
+      "refs": [
+        "Oikawa I, Kondo S, Hashimoto K, Yoshida A, Hamajima M, Tanimoto H, Furukubo-Tokunaga K, Honjo K. (2023). A descending inhibitory mechanism of nociception mediated by an evolutionarily conserved neuropeptide system in Drosophila. eLife 12:RP85760. https://doi.org/10.7554/elife.85760"
+      ],
+      "transcript": [
+        "DSK also signals through the related receptor **CCKLR-17D3**. Deleting either receptor increased behavioral sensitivity to a 42 °C probe. Thus both receptor genes contribute to normal thermal nociception. Their similar whole-animal phenotypes do not imply identical cellular actions. Expression and targeted manipulations distinguish where their functions operate.",
+        "Videos 5 and 6 compare control and CCKLR-17D3-mutant Goro responses. The study assessed this receptor alongside CCKLR-17D1. Reducing CCKLR-17D3 specifically in Goro neurons did not reproduce the clear behavioral effect of CCKLR-17D1 RNAi. The targeted experiments therefore separate a systemic requirement from a cell-specific one. A receptor may influence behavior through additional circuit locations.",
+        "The two receptors belong to the same conserved signaling family. Conservation preserves a molecular toolkit while allowing different circuit deployment. Thermal behavior reflects the combined actions of that toolkit. Genetic deletion, cell-targeted RNAi, and physiological imaging test different levels of organization. Their combination explains why related receptors can share a behavioral phenotype yet differ in identified neurons."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Oikawa2023_f1.png",
+          "caption": "Oikawa et al. (2023), Fig. 1C–F. Receptor mutations and thermal-response latencies.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Goro_neurons.png",
+          "kind": "article",
+          "caption": "Oikawa et al. (2023), Fig. 3E–F. DSK-receptor expression in the larval nervous system.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Brain peptide output inhibits a downstream circuit",
+      "body": [
+        "Activating DSK-expressing brain neurons inhibited larval thermal nociception. The study used a heat-activated channel to manipulate those neurons. This **thermogenetic** approach makes neuronal activation experimentally controllable. The resulting change in rolling tests a descending influence on behavior. Goro calcium responses were suppressed under the same manipulation.",
+        "MP1 axons, the signal-carrying neuronal projections, extend into the ventral nerve cord. Their processes lie close to Goro neurites, the extensions from those neurons’ cell bodies. Anatomical proximity supports a route for brain-derived peptide influence. Synapse-specific tests did not establish a conventional direct synaptic connection. The authors hypothesize **volume transmission**, in which released peptide diffuses beyond a restricted synaptic junction.",
+        "Peptide signaling can consequently regulate a broader local circuit. Receptor expression determines which cells respond to the released signal. The descending pathway changes neuronal responses to an unchanged thermal input. Its effect links brain activity with a lower nociceptive network. A conserved peptide family supports centralized control of protective behavior in an insect."
+      ],
+      "cite": "Oikawa et al. (2023)",
+      "refs": [
+        "Oikawa I, Kondo S, Hashimoto K, Yoshida A, Hamajima M, Tanimoto H, Furukubo-Tokunaga K, Honjo K. (2023). A descending inhibitory mechanism of nociception mediated by an evolutionarily conserved neuropeptide system in Drosophila. eLife 12:RP85760. https://doi.org/10.7554/elife.85760"
+      ],
+      "transcript": [
+        "Activating DSK-expressing brain neurons inhibited larval thermal nociception. The study used a heat-activated channel to manipulate those neurons. This **thermogenetic** approach makes neuronal activation experimentally controllable. The resulting change in rolling tests a descending influence on behavior. Goro calcium responses were suppressed under the same manipulation.",
+        "MP1 axons, the signal-carrying neuronal projections, extend into the ventral nerve cord. Their processes lie close to Goro neurites, the extensions from those neurons’ cell bodies. Anatomical proximity supports a route for brain-derived peptide influence. Synapse-specific tests did not establish a conventional direct synaptic connection. The authors hypothesize **volume transmission**, in which released peptide diffuses beyond a restricted synaptic junction.",
+        "Peptide signaling can consequently regulate a broader local circuit. Receptor expression determines which cells respond to the released signal. The descending pathway changes neuronal responses to an unchanged thermal input. Its effect links brain activity with a lower nociceptive network. A conserved peptide family supports centralized control of protective behavior in an insect."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Oikawa2023_f9.png",
+          "caption": "Oikawa et al. (2023), Fig. 9A–D. Activating DSK neurons suppresses rolling and Goro activity.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Goro_neurons.png",
+          "kind": "article",
+          "caption": "Oikawa et al. (2023), Fig. 3E–F. DSK-receptor expression in the larval nervous system.",
+          "source_url": "https://doi.org/10.7554/elife.85760",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Escape motor programs can be separated experimentally",
+      "body": [
+        "Gentle anterior touch evokes an escape sequence in _Caenorhabditis elegans_. An eyelash applied behind the head supplied the mechanical stimulus. The worm first reverses while suppressing exploratory head movements. A deep ventral bend then produces an **omega turn**. Forward movement resumes in the opposite direction.",
+        "S3 Video records this coordinated response in a wild-type animal. The experiment measures protective motor organization rather than pain experience. A common escape action can be recruited by different sensory inputs. Distinguishing the triggering stimulus from the resulting action is therefore necessary. The sequence can be analyzed into reversal, head control, turning, and acceleration.",
+        "The study tested **FLP-18**, a family of neuropeptides encoded by one gene. Mutants showed altered body and head bending during escape. Changes in different phases identified distinct modulatory functions. The approach links molecular signaling with a measurable motor program. Protective behavior depends on coordinated transitions between actions, not just overall movement speed."
+      ],
+      "cite": "Florman & Alkema (2022)",
+      "refs": [
+        "Florman JT, Alkema MJ. (2022). Co-transmission of neuropeptides and monoamines choreograph the C. elegans escape response. PLoS genetics 18(3):e1010091. https://doi.org/10.1371/journal.pgen.1010091"
+      ],
+      "transcript": [
+        "Gentle anterior touch evokes an escape sequence in _Caenorhabditis elegans_. An eyelash applied behind the head supplied the mechanical stimulus. The worm first reverses while suppressing exploratory head movements. A deep ventral bend then produces an **omega turn**. Forward movement resumes in the opposite direction.",
+        "S3 Video records this coordinated response in a wild-type animal. The experiment measures protective motor organization rather than pain experience. A common escape action can be recruited by different sensory inputs. Distinguishing the triggering stimulus from the resulting action is therefore necessary. The sequence can be analyzed into reversal, head control, turning, and acceleration.",
+        "The study tested **FLP-18**, a family of neuropeptides encoded by one gene. Mutants showed altered body and head bending during escape. Changes in different phases identified distinct modulatory functions. The approach links molecular signaling with a measurable motor program. Protective behavior depends on coordinated transitions between actions, not just overall movement speed."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Worm2022_f3.png",
+          "caption": "Florman & Alkema (2022), Fig. 3A–G. Head bending and the sequence of the escape response.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1010091",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Worm_release.png",
+          "kind": "article",
+          "caption": "Florman & Alkema (2022), Fig. 4B. Fluorescent peptide localization and release assay.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1010091",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Neuropeptide levels alter the geometry of escape",
+      "body": [
+        "**Overexpression** increases production of a gene product above its normal level. FLP-18 overexpression produced deeper body bends and more reversals. It also caused uncoordinated locomotion under some expression conditions. These effects were measured through behavioral tracking and filmed directly. They establish that peptide abundance changes the organization of movement.",
+        "S4 Video records the anterior-touch response in an overexpressing animal. Exploratory head movements were not properly suppressed during reversal. Body bends were deeper than in the wild-type response. The motor sequence therefore changed rather than merely becoming faster. Comparing this recording with S3 separates distinct components of escape.",
+        "FLP-18 acts through **NPR-5**, a neuropeptide GPCR. Receptor signaling increases intracellular calcium in relevant muscles. Greater muscle activation promotes bending during the turn. Loss of NPR-5 suppresses several overexpression effects. Peptide concentration, receptor availability, and muscle response jointly determine the geometry of protective movement."
+      ],
+      "cite": "Florman & Alkema (2022)",
+      "refs": [
+        "Florman JT, Alkema MJ. (2022). Co-transmission of neuropeptides and monoamines choreograph the C. elegans escape response. PLoS genetics 18(3):e1010091. https://doi.org/10.1371/journal.pgen.1010091"
+      ],
+      "transcript": [
+        "**Overexpression** increases production of a gene product above its normal level. FLP-18 overexpression produced deeper body bends and more reversals. It also caused uncoordinated locomotion under some expression conditions. These effects were measured through behavioral tracking and filmed directly. They establish that peptide abundance changes the organization of movement.",
+        "S4 Video records the anterior-touch response in an overexpressing animal. Exploratory head movements were not properly suppressed during reversal. Body bends were deeper than in the wild-type response. The motor sequence therefore changed rather than merely becoming faster. Comparing this recording with S3 separates distinct components of escape.",
+        "FLP-18 acts through **NPR-5**, a neuropeptide GPCR. Receptor signaling increases intracellular calcium in relevant muscles. Greater muscle activation promotes bending during the turn. Loss of NPR-5 suppresses several overexpression effects. Peptide concentration, receptor availability, and muscle response jointly determine the geometry of protective movement."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Worm2022_f2.png",
+          "caption": "Florman & Alkema (2022), Fig. 2A–E. FLP-18 overexpression changes body bends and reversals.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1010091",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Worm_release.png",
+          "kind": "article",
+          "caption": "Florman & Alkema (2022), Fig. 4B. Fluorescent peptide localization and release assay.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1010091",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Co-transmitters coordinate successive defensive actions",
+      "body": [
+        "**Co-transmission** occurs when neurons release more than one signaling molecule. The RIM neurons co-express FLP-18 and **tyramine**, a monoamine transmitter. Tyramine suppresses head oscillations during reversal. It activates LGC-55, a tyramine-gated chloride channel. This inhibitory action helps coordinate an early phase of escape.",
+        "FLP-18 acts through a complementary set of targets. Its NPR-5-mediated effects increase calcium in neck and body-wall muscles. Those changes favor bending and subsequent escape movement. Fluorescent peptide reporters detected increased release after stimulation. RIM and the AVA interneurons contributed to the measured peptide output.",
+        "S1 and S2 Videos compare different FLP-18 overexpression patterns. Both produced abnormal locomotion and increased reversals. Their expression strategies change where excess peptide is supplied. The results link neuronal source with motor consequences. One circuit can combine fast inhibitory transmission with peptide modulation to organize successive defensive actions."
+      ],
+      "cite": "Florman & Alkema (2022)",
+      "refs": [
+        "Florman JT, Alkema MJ. (2022). Co-transmission of neuropeptides and monoamines choreograph the C. elegans escape response. PLoS genetics 18(3):e1010091. https://doi.org/10.1371/journal.pgen.1010091"
+      ],
+      "transcript": [
+        "**Co-transmission** occurs when neurons release more than one signaling molecule. The RIM neurons co-express FLP-18 and **tyramine**, a monoamine transmitter. Tyramine suppresses head oscillations during reversal. It activates LGC-55, a tyramine-gated chloride channel. This inhibitory action helps coordinate an early phase of escape.",
+        "FLP-18 acts through a complementary set of targets. Its NPR-5-mediated effects increase calcium in neck and body-wall muscles. Those changes favor bending and subsequent escape movement. Fluorescent peptide reporters detected increased release after stimulation. RIM and the AVA interneurons contributed to the measured peptide output.",
+        "S1 and S2 Videos compare different FLP-18 overexpression patterns. Both produced abnormal locomotion and increased reversals. Their expression strategies change where excess peptide is supplied. The results link neuronal source with motor consequences. One circuit can combine fast inhibitory transmission with peptide modulation to organize successive defensive actions."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Worm2022_f4.png",
+          "caption": "Florman & Alkema (2022), Fig. 4A–G. Neuropeptide release and its neuronal sources during escape.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1010091",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Worm_release.png",
+          "kind": "article",
+          "caption": "Florman & Alkema (2022), Fig. 4B. Fluorescent peptide localization and release assay.",
+          "source_url": "https://doi.org/10.1371/journal.pgen.1010091",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Octopuses learn to avoid a noxious-treatment context",
+      "body": [
+        "Octopuses received a 0.5% acetic-acid injection into one arm. They then spent 20 min confined in an initially preferred chamber. Later free exploration tested the chamber’s acquired value. Acid-treated animals avoided that previously preferred location. Saline controls did not show the same preference change.",
+        "This is **associative learning**, a change based on paired experiences. The wall patterns provided cues identifying each chamber. The aversive association persisted beyond the immediate injection event. The assay consequently measures a remembered treatment-context relationship. It differs from a rapid movement away from direct stimulation.",
+        "Octopuses integrate extensive peripheral sensing with central behavioral control. Learned location choice requires using contextual information during exploration. The study paired this behavior with measures of ongoing arm-directed responses. That combination connects an aversive event with both immediate and later behavior. A noxious experience can change the value of an environment."
+      ],
+      "cite": "Crook (2021)",
+      "refs": [
+        "Crook RJ. (2021). Behavioral and neurophysiological evidence suggests affective pain experience in octopus. iScience 24(3):102229. https://doi.org/10.1016/j.isci.2021.102229"
+      ],
+      "transcript": [
+        "Octopuses received a 0.5% acetic-acid injection into one arm. They then spent 20 min confined in an initially preferred chamber. Later free exploration tested the chamber’s acquired value. Acid-treated animals avoided that previously preferred location. Saline controls did not show the same preference change.",
+        "This is **associative learning**, a change based on paired experiences. The wall patterns provided cues identifying each chamber. The aversive association persisted beyond the immediate injection event. The assay consequently measures a remembered treatment-context relationship. It differs from a rapid movement away from direct stimulation.",
+        "Octopuses integrate extensive peripheral sensing with central behavioral control. Learned location choice requires using contextual information during exploration. The study paired this behavior with measures of ongoing arm-directed responses. That combination connects an aversive event with both immediate and later behavior. A noxious experience can change the value of an environment."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Crook2021_f2.png",
+          "caption": "Crook (2021), Fig. 2A. Changes in chamber preference after treatment and relief.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.102229",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Octopus_photo.png",
+          "kind": "article",
+          "caption": "Crook (2021), Fig. 1A. The study octopus in the conditioning apparatus.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.102229",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Pain relief becomes rewarding after noxious treatment",
+      "body": [
+        "**Lidocaine** is a local anesthetic that suppresses nerve signaling. Crook injected it near the previously treated arm region. Its administration was paired with an initially nonpreferred chamber. Acid-treated octopuses later preferred this relief-associated location. The treatment changed the value of a previously less attractive context.",
+        "Animals previously receiving saline did not acquire the same preference. Lidocaine therefore was not inherently rewarding in the tested conditions. The positive value depended on the preceding noxious treatment. This control distinguishes relief from a general attraction to drug administration. The interaction between treatment and relief is the central experimental result.",
+        "The aversive and rewarding associations are complementary measures. One tests avoidance of a noxious-treatment context. The other tests attraction to a relief-associated context. Both involve a choice made after conditioning rather than during injection. Their combination supports an affective interpretation of the treatment’s continuing consequences."
+      ],
+      "cite": "Crook (2021)",
+      "refs": [
+        "Crook RJ. (2021). Behavioral and neurophysiological evidence suggests affective pain experience in octopus. iScience 24(3):102229. https://doi.org/10.1016/j.isci.2021.102229"
+      ],
+      "transcript": [
+        "**Lidocaine** is a local anesthetic that suppresses nerve signaling. Crook injected it near the previously treated arm region. Its administration was paired with an initially nonpreferred chamber. Acid-treated octopuses later preferred this relief-associated location. The treatment changed the value of a previously less attractive context.",
+        "Animals previously receiving saline did not acquire the same preference. Lidocaine therefore was not inherently rewarding in the tested conditions. The positive value depended on the preceding noxious treatment. This control distinguishes relief from a general attraction to drug administration. The interaction between treatment and relief is the central experimental result.",
+        "The aversive and rewarding associations are complementary measures. One tests avoidance of a noxious-treatment context. The other tests attraction to a relief-associated context. Both involve a choice made after conditioning rather than during injection. Their combination supports an affective interpretation of the treatment’s continuing consequences."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Crook2021_f2.png",
+          "caption": "Crook (2021), Fig. 2A. Lidocaine-associated place preference depends on prior acid treatment.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.102229",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Octopus_photo.png",
+          "kind": "article",
+          "caption": "Crook (2021), Fig. 1A. The study octopus in the conditioning apparatus.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.102229",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Localized grooming tracks the treated arm region",
+      "body": [
+        "After acid injection, octopuses groomed the treated site with their beak. The behavior continued throughout the 20 min conditioning trial. Point observations were made at 5 min intervals. Saline-treated animals showed little comparable site-directed grooming. The response therefore identified the location of the noxious treatment.",
+        "Lidocaine reduced or abolished the continuing grooming response. This connects local neural signaling with localized protective behavior. The manipulation also changed learned preference for the associated location. The same treatment consequently affected spontaneous behavior and contextual learning. Different assays converge on the continuing consequences of arm stimulation.",
+        "**Discriminative processing** concerns the location and properties of a stimulus. Site-directed grooming provides a behavioral measure of spatially specific processing. Octopus arms contain substantial peripheral sensory and motor circuitry. Those circuits can support local actions while communicating with the central brain. The response combines precise localization with a broader aversive behavioral state."
+      ],
+      "cite": "Crook (2021)",
+      "refs": [
+        "Crook RJ. (2021). Behavioral and neurophysiological evidence suggests affective pain experience in octopus. iScience 24(3):102229. https://doi.org/10.1016/j.isci.2021.102229"
+      ],
+      "transcript": [
+        "After acid injection, octopuses groomed the treated site with their beak. The behavior continued throughout the 20 min conditioning trial. Point observations were made at 5 min intervals. Saline-treated animals showed little comparable site-directed grooming. The response therefore identified the location of the noxious treatment.",
+        "Lidocaine reduced or abolished the continuing grooming response. This connects local neural signaling with localized protective behavior. The manipulation also changed learned preference for the associated location. The same treatment consequently affected spontaneous behavior and contextual learning. Different assays converge on the continuing consequences of arm stimulation.",
+        "**Discriminative processing** concerns the location and properties of a stimulus. Site-directed grooming provides a behavioral measure of spatially specific processing. Octopus arms contain substantial peripheral sensory and motor circuitry. Those circuits can support local actions while communicating with the central brain. The response combines precise localization with a broader aversive behavioral state."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Crook2021_f3.png",
+          "caption": "Crook (2021), Fig. 3A–B. Beak grooming at the acid-injection site.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.102229",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Octopus_photo.png",
+          "kind": "article",
+          "caption": "Crook (2021), Fig. 1A. The study octopus in the conditioning apparatus.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.102229",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Injured-arm signals reach pathways serving the brain",
+      "body": [
+        "**Brachial connectives** link the arm nerve cords with the central brain. Researchers recorded electrical activity in these communication pathways. The preparation retained the arm and its relevant neural connections. Acid injection produced prolonged ongoing activity. It also increased responses to subsequent mechanical stimulation.",
+        "**Sensitization** is increased responsiveness following a preceding event. The recordings detected this change in centrally directed sensory traffic. Local lidocaine rapidly suppressed continuing activity and mechanical responses. The treatment therefore interrupted signals traveling beyond the arm’s local circuitry. Its physiological action agrees with the reduction in site-directed grooming.",
+        "Electrophysiology measures activity independently of visible movement. Behavioral conditioning measures the consequences of treatment for later choice. Local grooming measures continuing site-directed responses. Combining these levels connects peripheral treatment with neural signaling and learned behavior. The evidence supports an ongoing noxious state rather than only an isolated injection reflex."
+      ],
+      "cite": "Crook (2021)",
+      "refs": [
+        "Crook RJ. (2021). Behavioral and neurophysiological evidence suggests affective pain experience in octopus. iScience 24(3):102229. https://doi.org/10.1016/j.isci.2021.102229"
+      ],
+      "transcript": [
+        "**Brachial connectives** link the arm nerve cords with the central brain. Researchers recorded electrical activity in these communication pathways. The preparation retained the arm and its relevant neural connections. Acid injection produced prolonged ongoing activity. It also increased responses to subsequent mechanical stimulation.",
+        "**Sensitization** is increased responsiveness following a preceding event. The recordings detected this change in centrally directed sensory traffic. Local lidocaine rapidly suppressed continuing activity and mechanical responses. The treatment therefore interrupted signals traveling beyond the arm’s local circuitry. Its physiological action agrees with the reduction in site-directed grooming.",
+        "Electrophysiology measures activity independently of visible movement. Behavioral conditioning measures the consequences of treatment for later choice. Local grooming measures continuing site-directed responses. Combining these levels connects peripheral treatment with neural signaling and learned behavior. The evidence supports an ongoing noxious state rather than only an isolated injection reflex."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Crook2021_f4.png",
+          "caption": "Crook (2021), Fig. 4A–G. Ongoing connective activity and its suppression by lidocaine.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.102229",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Octopus_photo.png",
+          "kind": "article",
+          "caption": "Crook (2021), Fig. 1A. The study octopus in the conditioning apparatus.",
+          "source_url": "https://doi.org/10.1016/j.isci.2021.102229",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figure-right",
+      "title": "Bumblebees balance heat avoidance against food value",
+      "body": [
+        "Bumblebees chose between feeders differing in temperature and sucrose concentration. Higher-quality feeders supplied 40% sucrose. Their alternatives supplied less concentrated solutions under different test conditions. Some high-quality feeders were heated to a noxious 55 °C. Color and position identified the available options.",
+        "Bees reduced use of the heated feeders when alternatives improved. However, they accepted more heat when the unheated alternative was poorer. This **motivational trade-off** balances conflicting behavioral incentives. The response depended on both thermal conditions and food value. Heat avoidance was therefore not a fixed response independent of context.",
+        "The study compared the same reward structure with heated and unheated feeders. That comparison identifies the contribution of heat to the choice. The 2025 correction replaces an incorrectly reported statistical model and graph. The corrected finding retains the heat–reward trade-off. Choices reflect interaction between an aversive condition and remembered access to nutrition."
+      ],
+      "figure": {
+        "path": "figures/GibbonsCorrection2025_f1.png",
+        "caption": "Correction (2025), Fig. 1A–B. Corrected feeder-choice protocol and heat–reward trade-off.",
+        "source_url": "https://doi.org/10.1073/pnas.2522767122",
+        "kind": "article"
+      },
+      "cite": "Gibbons et al. (2022); Correction (2025)",
+      "refs": [
+        "Gibbons M, Versace E, Crump A, Baran B, Chittka L. (2022). Motivational trade-offs and modulation of nociception in bumblebees. Proceedings of the National Academy of Sciences of the United States of America 119(31):e2205821119. https://doi.org/10.1073/pnas.2205821119",
+        "Correction (2025). Correction for Gibbons et al., Motivational trade-offs and modulation of nociception in bumblebees. Proceedings of the National Academy of Sciences of the United States of America 122(37):e2522767122. https://doi.org/10.1073/pnas.2522767122"
+      ],
+      "transcript": [
+        "Bumblebees chose between feeders differing in temperature and sucrose concentration. Higher-quality feeders supplied 40% sucrose. Their alternatives supplied less concentrated solutions under different test conditions. Some high-quality feeders were heated to a noxious 55 °C. Color and position identified the available options.",
+        "Bees reduced use of the heated feeders when alternatives improved. However, they accepted more heat when the unheated alternative was poorer. This **motivational trade-off** balances conflicting behavioral incentives. The response depended on both thermal conditions and food value. Heat avoidance was therefore not a fixed response independent of context.",
+        "The study compared the same reward structure with heated and unheated feeders. That comparison identifies the contribution of heat to the choice. The 2025 correction replaces an incorrectly reported statistical model and graph. The corrected finding retains the heat–reward trade-off. Choices reflect interaction between an aversive condition and remembered access to nutrition."
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Learned cues guide choices before direct sampling",
+      "body": [
+        "Unscented sucrose concentration could not be detected before tasting. Bees therefore learned color and spatial cues associated with food quality. Researchers recorded landings that were not followed by feeding. Such exploratory landings decreased across foraging bouts. The animals increasingly used learned information to select a feeder.",
+        "This separates remembered incentive value from immediate tasting. Bees did not need to sample every feeder on every visit. Their choices incorporated prior experience with the options. Heat avoidance interacted with those learned food associations. The experiment consequently tests flexible behavior under competing demands.",
+        "Motivational trade-offs are one line of evidence relevant to affective processing. Their interpretation depends on the actual choices and controls. They complement associative avoidance and relief experiments in other species. The measured result here is context-sensitive selection of heated food sources. A fixed thermal reflex alone cannot account for the change with alternative reward quality."
+      ],
+      "figure": {
+        "path": "figures/GibbonsCorrection2025_f1.png",
+        "caption": "Correction (2025), Fig. 1A–B. Food quality changes selection of heated and unheated feeders.",
+        "source_url": "https://doi.org/10.1073/pnas.2522767122",
+        "kind": "article"
+      },
+      "cite": "Gibbons et al. (2022); Correction (2025)",
+      "refs": [
+        "Gibbons M, Versace E, Crump A, Baran B, Chittka L. (2022). Motivational trade-offs and modulation of nociception in bumblebees. Proceedings of the National Academy of Sciences of the United States of America 119(31):e2205821119. https://doi.org/10.1073/pnas.2205821119",
+        "Correction (2025). Correction for Gibbons et al., Motivational trade-offs and modulation of nociception in bumblebees. Proceedings of the National Academy of Sciences of the United States of America 122(37):e2522767122. https://doi.org/10.1073/pnas.2522767122"
+      ],
+      "transcript": [
+        "Unscented sucrose concentration could not be detected before tasting. Bees therefore learned color and spatial cues associated with food quality. Researchers recorded landings that were not followed by feeding. Such exploratory landings decreased across foraging bouts. The animals increasingly used learned information to select a feeder.",
+        "This separates remembered incentive value from immediate tasting. Bees did not need to sample every feeder on every visit. Their choices incorporated prior experience with the options. Heat avoidance interacted with those learned food associations. The experiment consequently tests flexible behavior under competing demands.",
+        "Motivational trade-offs are one line of evidence relevant to affective processing. Their interpretation depends on the actual choices and controls. They complement associative avoidance and relief experiments in other species. The measured result here is context-sensitive selection of heated food sources. A fixed thermal reflex alone cannot account for the change with alternative reward quality."
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Facial action units score spontaneous pain responses",
+      "body": [
+        "The **Rat Grimace Scale** scores facial changes during pain-related conditions. Its four **action units** are observable components of facial expression. They include orbital tightening and nose–cheek flattening. Ear position and whisker changes supply the other components. Each component is scored from 0 to 2.",
+        "Researchers extracted face-containing frames from ordinary video recordings. Blinded scorers then evaluated the individual action units. This approach measures spontaneous expression rather than an evoked withdrawal. It was tested after inflammation and abdominal surgery. The photographs preserve the visible features being scored.",
+        "Rat facial changes differ from the earlier mouse scoring scheme. In particular, rat nose–cheek flattening replaces the mouse bulging pattern. Species-specific morphology therefore matters when defining an action unit. A scoring system must be validated for the animal being assessed. Facial expression supplies a complementary behavioral measure alongside reflex and choice assays."
+      ],
+      "figure": {
+        "path": "figures/RatGrimace2011_f2.png",
+        "caption": "Sotocinal et al. (2011), Fig. 2. The four facial action units of the Rat Grimace Scale.",
+        "source_url": "https://doi.org/10.1186/1744-8069-7-55",
+        "kind": "article"
+      },
+      "cite": "Sotocinal et al. (2011)",
+      "refs": [
+        "Sotocinal SG, Sorge RE, Zaloum A, Tuttle AH, Martin LJ, Wieskopf JS, Mapplebeck JC, Wei P, Zhan S, Zhang S, McDougall JJ, King OD, Mogil JS. (2011). The Rat Grimace Scale: a partially automated method for quantifying pain in the laboratory rat via facial expressions. Molecular pain 7:55. https://doi.org/10.1186/1744-8069-7-55"
+      ],
+      "transcript": [
+        "The **Rat Grimace Scale** scores facial changes during pain-related conditions. Its four **action units** are observable components of facial expression. They include orbital tightening and nose–cheek flattening. Ear position and whisker changes supply the other components. Each component is scored from 0 to 2.",
+        "Researchers extracted face-containing frames from ordinary video recordings. Blinded scorers then evaluated the individual action units. This approach measures spontaneous expression rather than an evoked withdrawal. It was tested after inflammation and abdominal surgery. The photographs preserve the visible features being scored.",
+        "Rat facial changes differ from the earlier mouse scoring scheme. In particular, rat nose–cheek flattening replaces the mouse bulging pattern. Species-specific morphology therefore matters when defining an action unit. A scoring system must be validated for the animal being assessed. Facial expression supplies a complementary behavioral measure alongside reflex and choice assays."
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Morphine reduces grimacing in a dose-dependent manner",
+      "body": [
+        "The study followed grimacing after several distinct tissue procedures. Paw inflammation, joint inflammation, and laparotomy had different time courses. **Laparotomy** is an incision through the abdominal wall. Grimacing increased after the procedure and then declined with recovery. The assay therefore tracks spontaneous behavior over time.",
+        "Morphine reduced grimacing in a dose-dependent manner. **Dose dependence** means the effect changes systematically with administered amount. The analgesic manipulation tested whether the scored expression responds to pain relief. It complements comparisons with each animal’s pre-procedure baseline. The pharmacological result supports the assay’s sensitivity to analgesia.",
+        "The authors distinguished spontaneous pain-related expression from evoked sensitivity. Facial grimacing and withdrawal measures need not persist for identical durations. One measure captures expression during observation without a new test stimulus. Another measures responsiveness to an applied stimulus. Their different time courses reveal different aspects of an injury-related state."
+      ],
+      "figure": {
+        "path": "figures/RatGrimace2011_f6.png",
+        "caption": "Sotocinal et al. (2011), Fig. 6. Morphine dose-dependent reduction in grimacing.",
+        "source_url": "https://doi.org/10.1186/1744-8069-7-55",
+        "kind": "article"
+      },
+      "cite": "Sotocinal et al. (2011)",
+      "refs": [
+        "Sotocinal SG, Sorge RE, Zaloum A, Tuttle AH, Martin LJ, Wieskopf JS, Mapplebeck JC, Wei P, Zhan S, Zhang S, McDougall JJ, King OD, Mogil JS. (2011). The Rat Grimace Scale: a partially automated method for quantifying pain in the laboratory rat via facial expressions. Molecular pain 7:55. https://doi.org/10.1186/1744-8069-7-55"
+      ],
+      "transcript": [
+        "The study followed grimacing after several distinct tissue procedures. Paw inflammation, joint inflammation, and laparotomy had different time courses. **Laparotomy** is an incision through the abdominal wall. Grimacing increased after the procedure and then declined with recovery. The assay therefore tracks spontaneous behavior over time.",
+        "Morphine reduced grimacing in a dose-dependent manner. **Dose dependence** means the effect changes systematically with administered amount. The analgesic manipulation tested whether the scored expression responds to pain relief. It complements comparisons with each animal’s pre-procedure baseline. The pharmacological result supports the assay’s sensitivity to analgesia.",
+        "The authors distinguished spontaneous pain-related expression from evoked sensitivity. Facial grimacing and withdrawal measures need not persist for identical durations. One measure captures expression during observation without a new test stimulus. Another measures responsiveness to an applied stimulus. Their different time courses reveal different aspects of an injury-related state."
+      ]
+    },
+    {
+      "layout": "figures-right",
+      "title": "Amygdala ensembles respond to several noxious modalities",
+      "body": [
+        "The **basolateral amygdala**, or BLA, is involved in affective processing. Corder and colleagues imaged its neurons in freely moving mice. A miniature microscope measured GCaMP6m calcium fluorescence through an implanted lens. The same animals encountered mechanical, hot, and cold stimulation. Recordings linked neuronal responses with ongoing behavior.",
+        "A **neural ensemble** is a population acting together in a response. An overlapping BLA population responded to several noxious stimulus types. The study included 55 °C and 5 °C water stimulation. Pin prick supplied a mechanical comparison. Light touch and sucrose tested other sensory and motivational conditions.",
+        "The nociceptive ensemble occupied a distributed population within the BLA. Cells responding to different valences were spatially intermingled. Their activity patterns nevertheless distinguished the tested conditions. The experiment therefore examined population responses rather than a single anatomical pain point. Coordinated neuronal activity linked stimulus properties with affective-motivational behavior."
+      ],
+      "cite": "Corder et al. (2019)",
+      "refs": [
+        "Corder G, Ahanonu B, Grewe BF, Wang D, Schnitzer MJ, Scherrer G. (2019). An amygdalar neural ensemble that encodes the unpleasantness of pain. Science (New York, N.Y.) 363(6424):276-281. https://doi.org/10.1126/science.aap8586"
+      ],
+      "transcript": [
+        "The **basolateral amygdala**, or BLA, is involved in affective processing. Corder and colleagues imaged its neurons in freely moving mice. A miniature microscope measured GCaMP6m calcium fluorescence through an implanted lens. The same animals encountered mechanical, hot, and cold stimulation. Recordings linked neuronal responses with ongoing behavior.",
+        "A **neural ensemble** is a population acting together in a response. An overlapping BLA population responded to several noxious stimulus types. The study included 55 °C and 5 °C water stimulation. Pin prick supplied a mechanical comparison. Light touch and sucrose tested other sensory and motivational conditions.",
+        "The nociceptive ensemble occupied a distributed population within the BLA. Cells responding to different valences were spatially intermingled. Their activity patterns nevertheless distinguished the tested conditions. The experiment therefore examined population responses rather than a single anatomical pain point. Coordinated neuronal activity linked stimulus properties with affective-motivational behavior."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Corder2019_f1.png",
+          "caption": "Corder et al. (2019), Fig. 1A–M. Basolateral amygdala imaging and responses to sensory stimuli.",
+          "source_url": "https://doi.org/10.1126/science.aap8586",
+          "kind": "article"
+        },
+        {
+          "path": "figures/BLA_cells.png",
+          "kind": "article",
+          "caption": "Corder et al. (2019), Fig. 1C. BLA calcium-indicator neurons.",
+          "source_url": "https://doi.org/10.1126/science.aap8586",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Ensemble codes distinguish different aversive events",
+      "body": [
+        "**Aversive** means provoking avoidance or negative motivational value. Noxious stimuli are aversive, but not every aversive event damages tissue. The study included repulsive odor, bitter taste, loud sound, and air puff. These comparisons tested the breadth of the BLA response. Some neurons responded preferentially to the naturalistic nociceptive conditions.",
+        "Researchers compared ensemble activity across repeated stimulus presentations. They maintained neuronal identity when comparing response patterns. **Population coding** uses the combined activity of multiple cells to represent information. Noxious modalities generated distinct but partly overlapping patterns. These patterns differed from those evoked by other aversive inputs.",
+        "Sucrose consumption recruited an appetitive population within the same region. Anatomical overlap did not make the responses functionally identical. The timing and distribution of activity separated different experiences. Stronger nociceptive ensemble activation was associated with greater pain-related behavior. Affective circuitry contains differentiated representations within a shared anatomical structure."
+      ],
+      "cite": "Corder et al. (2019)",
+      "refs": [
+        "Corder G, Ahanonu B, Grewe BF, Wang D, Schnitzer MJ, Scherrer G. (2019). An amygdalar neural ensemble that encodes the unpleasantness of pain. Science (New York, N.Y.) 363(6424):276-281. https://doi.org/10.1126/science.aap8586"
+      ],
+      "transcript": [
+        "**Aversive** means provoking avoidance or negative motivational value. Noxious stimuli are aversive, but not every aversive event damages tissue. The study included repulsive odor, bitter taste, loud sound, and air puff. These comparisons tested the breadth of the BLA response. Some neurons responded preferentially to the naturalistic nociceptive conditions.",
+        "Researchers compared ensemble activity across repeated stimulus presentations. They maintained neuronal identity when comparing response patterns. **Population coding** uses the combined activity of multiple cells to represent information. Noxious modalities generated distinct but partly overlapping patterns. These patterns differed from those evoked by other aversive inputs.",
+        "Sucrose consumption recruited an appetitive population within the same region. Anatomical overlap did not make the responses functionally identical. The timing and distribution of activity separated different experiences. Stronger nociceptive ensemble activation was associated with greater pain-related behavior. Affective circuitry contains differentiated representations within a shared anatomical structure."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Corder2019_f1.png",
+          "caption": "Corder et al. (2019), Fig. 1F–M. Ensemble selectivity across noxious, appetitive, and aversive conditions.",
+          "source_url": "https://doi.org/10.1126/science.aap8586",
+          "kind": "article"
+        },
+        {
+          "path": "figures/BLA_cells.png",
+          "kind": "article",
+          "caption": "Corder et al. (2019), Fig. 1C. BLA calcium-indicator neurons.",
+          "source_url": "https://doi.org/10.1126/science.aap8586",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Ensemble inhibition reduces aversion",
+      "body": [
+        "Researchers tagged BLA neurons activated during noxious stimulation. They expressed an inhibitory **DREADD**, an engineered drug-sensitive receptor, in those cells. The receptor allowed experimental suppression of the tagged population. Drug-treated animals were compared with control treatment conditions. This tests whether the ensemble contributes causally to behavior.",
+        "Inhibition reduced tissue-directed attendance and protective escape behavior. It also reduced avoidance of noxious temperature zones. Withdrawal reflexes and detection of noxious stimulation remained intact. That separation identifies an affective-motivational contribution beyond basic sensory detection. Changing one neural population altered how the stimulus influenced behavioral priorities.",
+        "The experiment also measured anxiety-related and reward-related behavior. Those comparisons tested whether the manipulation caused a general motivational failure. The resulting phenotype was more specific than global behavioral suppression. The BLA ensemble therefore links nociceptive inputs with their negative behavioral value. Sensory detection and aversive motivation can be experimentally dissociated."
+      ],
+      "cite": "Corder et al. (2019)",
+      "refs": [
+        "Corder G, Ahanonu B, Grewe BF, Wang D, Schnitzer MJ, Scherrer G. (2019). An amygdalar neural ensemble that encodes the unpleasantness of pain. Science (New York, N.Y.) 363(6424):276-281. https://doi.org/10.1126/science.aap8586"
+      ],
+      "transcript": [
+        "Researchers tagged BLA neurons activated during noxious stimulation. They expressed an inhibitory **DREADD**, an engineered drug-sensitive receptor, in those cells. The receptor allowed experimental suppression of the tagged population. Drug-treated animals were compared with control treatment conditions. This tests whether the ensemble contributes causally to behavior.",
+        "Inhibition reduced tissue-directed attendance and protective escape behavior. It also reduced avoidance of noxious temperature zones. Withdrawal reflexes and detection of noxious stimulation remained intact. That separation identifies an affective-motivational contribution beyond basic sensory detection. Changing one neural population altered how the stimulus influenced behavioral priorities.",
+        "The experiment also measured anxiety-related and reward-related behavior. Those comparisons tested whether the manipulation caused a general motivational failure. The resulting phenotype was more specific than global behavioral suppression. The BLA ensemble therefore links nociceptive inputs with their negative behavioral value. Sensory detection and aversive motivation can be experimentally dissociated."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Corder2019_f2.png",
+          "caption": "Corder et al. (2019), Fig. 2A–N. Targeted ensemble inhibition changes affective-motivational behavior.",
+          "source_url": "https://doi.org/10.1126/science.aap8586",
+          "kind": "article"
+        },
+        {
+          "path": "figures/BLA_cells.png",
+          "kind": "article",
+          "caption": "Corder et al. (2019), Fig. 1C. BLA calcium-indicator neurons.",
+          "source_url": "https://doi.org/10.1126/science.aap8586",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Nerve injury recruits the ensemble during light touch",
+      "body": [
+        "Peripheral nerve injury produced neuropathic sensitivity in the mice. **Neuropathic** refers to consequences of injury or dysfunction in neural tissue. The researchers tracked BLA activity across the injury period. Previously innocuous stimulation increasingly recruited the nociceptive ensemble. This connects changed sensitivity with altered central representation.",
+        "Light touch could consequently acquire aversive motivational effects. Inhibiting the ensemble reduced the resulting allodynia-related behavior. The manipulation addressed central processing rather than repairing the peripheral nerve. It separated the injury from one consequence of its neural representation. Plasticity changed which inputs activated an aversive population.",
+        "**Neural plasticity** means lasting change in neural function or organization. Here it altered the relationship between sensory input and ensemble activity. A normally weak tactile event gained access to a nociceptive representation. That change parallels the altered thermal threshold after fly nerve injury. Different nervous systems can develop excessive defensive responses after peripheral damage."
+      ],
+      "cite": "Corder et al. (2019)",
+      "refs": [
+        "Corder G, Ahanonu B, Grewe BF, Wang D, Schnitzer MJ, Scherrer G. (2019). An amygdalar neural ensemble that encodes the unpleasantness of pain. Science (New York, N.Y.) 363(6424):276-281. https://doi.org/10.1126/science.aap8586",
+        "Khuong TM, Wang QP, Manion J, Oyston LJ, Lau MT, Towler H, Lin YQ, Neely GG. (2019). Nerve injury drives a heightened state of vigilance and neuropathic sensitization in Drosophila. Science advances 5(7):eaaw4099. https://doi.org/10.1126/sciadv.aaw4099"
+      ],
+      "transcript": [
+        "Peripheral nerve injury produced neuropathic sensitivity in the mice. **Neuropathic** refers to consequences of injury or dysfunction in neural tissue. The researchers tracked BLA activity across the injury period. Previously innocuous stimulation increasingly recruited the nociceptive ensemble. This connects changed sensitivity with altered central representation.",
+        "Light touch could consequently acquire aversive motivational effects. Inhibiting the ensemble reduced the resulting allodynia-related behavior. The manipulation addressed central processing rather than repairing the peripheral nerve. It separated the injury from one consequence of its neural representation. Plasticity changed which inputs activated an aversive population.",
+        "**Neural plasticity** means lasting change in neural function or organization. Here it altered the relationship between sensory input and ensemble activity. A normally weak tactile event gained access to a nociceptive representation. That change parallels the altered thermal threshold after fly nerve injury. Different nervous systems can develop excessive defensive responses after peripheral damage."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Corder2019_f3.png",
+          "caption": "Corder et al. (2019), Fig. 3A–L. Injury changes BLA representation of previously innocuous stimulation.",
+          "source_url": "https://doi.org/10.1126/science.aap8586",
+          "kind": "article"
+        },
+        {
+          "path": "figures/BLA_cells.png",
+          "kind": "article",
+          "caption": "Corder et al. (2019), Fig. 1C. BLA calcium-indicator neurons.",
+          "source_url": "https://doi.org/10.1126/science.aap8586",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Observers freeze when another rat receives shocks",
+      "body": [
+        "Carrillo and colleagues recorded the anterior cingulate cortex in rats. The **anterior cingulate cortex**, or ACC, participates in affective processing. An observer watched a demonstrator receive electrical shocks. A separate session applied a calibrated heat laser to the observer. This compared responses to another animal’s treatment with direct noxious stimulation.",
+        "A conditioned tone supplied a fear comparison without current tissue stimulation. **Fear conditioning** associates a cue with a previously aversive event. Observers had experienced shock before the observation experiment. That history allowed sensory reactions of the demonstrator to acquire meaning. Video S1 records the experimental conditions and visible responses.",
+        "Observers increased freezing during demonstrator shock reactions. **Freezing** is a sustained reduction in movement during a defensive state. The study measured this behavior alongside electrical activity in the ACC. Self-pain, observed pain, and conditioned fear were therefore distinguished experimentally. Their neural comparisons test overlap between specific conditions rather than assuming every defensive response is identical."
+      ],
+      "cite": "Carrillo et al. (2019)",
+      "refs": [
+        "Carrillo M, Han Y, Migliorati F, Liu M, Gazzola V, Keysers C. (2019). Emotional Mirror Neurons in the Rat's Anterior Cingulate Cortex. Current biology : CB 29(8):1301-1312.e6. https://doi.org/10.1016/j.cub.2019.03.024"
+      ],
+      "transcript": [
+        "Carrillo and colleagues recorded the anterior cingulate cortex in rats. The **anterior cingulate cortex**, or ACC, participates in affective processing. An observer watched a demonstrator receive electrical shocks. A separate session applied a calibrated heat laser to the observer. This compared responses to another animal’s treatment with direct noxious stimulation.",
+        "A conditioned tone supplied a fear comparison without current tissue stimulation. **Fear conditioning** associates a cue with a previously aversive event. Observers had experienced shock before the observation experiment. That history allowed sensory reactions of the demonstrator to acquire meaning. Video S1 records the experimental conditions and visible responses.",
+        "Observers increased freezing during demonstrator shock reactions. **Freezing** is a sustained reduction in movement during a defensive state. The study measured this behavior alongside electrical activity in the ACC. Self-pain, observed pain, and conditioned fear were therefore distinguished experimentally. Their neural comparisons test overlap between specific conditions rather than assuming every defensive response is identical."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Carrillo2019_f1.png",
+          "caption": "Carrillo et al. (2019), Fig. 1A–C. Observed shock, self-directed laser stimulation, and the recording setup.",
+          "source_url": "https://doi.org/10.1016/j.cub.2019.03.024",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Rat_ACC.png",
+          "kind": "article",
+          "caption": "Carrillo et al. (2019), Fig. 5A. ACC recording and inactivation locations.",
+          "source_url": "https://doi.org/10.1016/j.cub.2019.03.024",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "ACC populations respond to self and observed pain",
+      "body": [
+        "**Multiunit activity** pools electrical spikes from neurons near an electrode. The investigators recorded this signal through chronically implanted probes. They compared responses during observed shocks, direct laser stimulation, and conditioned tones. Some recording locations responded to both observed and directly experienced noxious events. This identified overlapping activity at a local population scale.",
+        "The laser-control condition directed the beam near the animal without contact. It separated the experimental context from direct thermal stimulation. Shock-control trials lacked the corresponding shocked demonstrator reaction. These comparisons tested what drove the observer’s activity. The authors’ Figure360 recording explains the original population results.",
+        "An overlapping population signal can include different constituent neurons. The study therefore followed it with isolated single-neuron analysis. **Spike sorting** distinguishes neurons using their electrical waveform patterns. Maintaining neuronal identity across conditions permits a more precise comparison. Population overlap and shared single-cell selectivity are different levels of evidence."
+      ],
+      "cite": "Carrillo et al. (2019)",
+      "refs": [
+        "Carrillo M, Han Y, Migliorati F, Liu M, Gazzola V, Keysers C. (2019). Emotional Mirror Neurons in the Rat's Anterior Cingulate Cortex. Current biology : CB 29(8):1301-1312.e6. https://doi.org/10.1016/j.cub.2019.03.024"
+      ],
+      "transcript": [
+        "**Multiunit activity** pools electrical spikes from neurons near an electrode. The investigators recorded this signal through chronically implanted probes. They compared responses during observed shocks, direct laser stimulation, and conditioned tones. Some recording locations responded to both observed and directly experienced noxious events. This identified overlapping activity at a local population scale.",
+        "The laser-control condition directed the beam near the animal without contact. It separated the experimental context from direct thermal stimulation. Shock-control trials lacked the corresponding shocked demonstrator reaction. These comparisons tested what drove the observer’s activity. The authors’ Figure360 recording explains the original population results.",
+        "An overlapping population signal can include different constituent neurons. The study therefore followed it with isolated single-neuron analysis. **Spike sorting** distinguishes neurons using their electrical waveform patterns. Maintaining neuronal identity across conditions permits a more precise comparison. Population overlap and shared single-cell selectivity are different levels of evidence."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Carrillo2019_f2.png",
+          "caption": "Carrillo et al. (2019), Fig. 2A–H. Multiunit responses to observed shock, direct laser, and conditioned tone.",
+          "source_url": "https://doi.org/10.1016/j.cub.2019.03.024",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Rat_ACC.png",
+          "kind": "article",
+          "caption": "Carrillo et al. (2019), Fig. 5A. ACC recording and inactivation locations.",
+          "source_url": "https://doi.org/10.1016/j.cub.2019.03.024",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Some neurons share selectivity across self and other",
+      "body": [
+        "Researchers isolated neurons that could be tracked across separate sessions. They compared their responses to observed shocks and direct laser stimulation. Some cells responded in both conditions. Others responded preferentially to one experimental condition. The study used this selectivity to define emotional mirror-like responses.",
+        "A **mirror-like response** involves activity during both experience and observation. Here the relevant experience was a noxious event rather than an action. Conditioned-tone trials tested whether the same cells also responded to fear. Some shared responses were more selective for the tested pain-related conditions. The Figure360 recording describes the original single-cell comparisons.",
+        "The investigators also compared response strength across stimulus intensities. Some neuronal patterns carried related information in self and observation conditions. This **common coding** concerns measurable response relationships across those conditions. It provides a neural mechanism relevant to social affective processing. Distinct neuronal subgroups can connect another animal’s reactions with the observer’s own response system."
+      ],
+      "cite": "Carrillo et al. (2019)",
+      "refs": [
+        "Carrillo M, Han Y, Migliorati F, Liu M, Gazzola V, Keysers C. (2019). Emotional Mirror Neurons in the Rat's Anterior Cingulate Cortex. Current biology : CB 29(8):1301-1312.e6. https://doi.org/10.1016/j.cub.2019.03.024"
+      ],
+      "transcript": [
+        "Researchers isolated neurons that could be tracked across separate sessions. They compared their responses to observed shocks and direct laser stimulation. Some cells responded in both conditions. Others responded preferentially to one experimental condition. The study used this selectivity to define emotional mirror-like responses.",
+        "A **mirror-like response** involves activity during both experience and observation. Here the relevant experience was a noxious event rather than an action. Conditioned-tone trials tested whether the same cells also responded to fear. Some shared responses were more selective for the tested pain-related conditions. The Figure360 recording describes the original single-cell comparisons.",
+        "The investigators also compared response strength across stimulus intensities. Some neuronal patterns carried related information in self and observation conditions. This **common coding** concerns measurable response relationships across those conditions. It provides a neural mechanism relevant to social affective processing. Distinct neuronal subgroups can connect another animal’s reactions with the observer’s own response system."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Carrillo2019_f3.png",
+          "caption": "Carrillo et al. (2019), Fig. 3A–E. Single-neuron responses and overlap among experimental conditions.",
+          "source_url": "https://doi.org/10.1016/j.cub.2019.03.024",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Rat_ACC.png",
+          "kind": "article",
+          "caption": "Carrillo et al. (2019), Fig. 5A. ACC recording and inactivation locations.",
+          "source_url": "https://doi.org/10.1016/j.cub.2019.03.024",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Sensory reactions recruit an observer’s defensive state",
+      "body": [
+        "Demonstrator shocks produced jumps, freezing, and audible squeaks. Those reactions supplied sensory cues to the observer. Researchers aligned neural responses with the timing of the recorded behavior. The observer often oriented toward the demonstrator’s location. Figure360 presents the original behavioral scoring and temporal relationships.",
+        "**Sensory access** determines which aspects of another animal’s state are available. In this paradigm, visible movement and sound were relevant cues. The observer’s own shock history affected its defensive response. The experiment therefore combines current social input with previously learned associations. Observed distress acquires behavioral significance through that combination.",
+        "A separate manipulation suppressed ACC activity with muscimol. **Muscimol** activates inhibitory GABA-A receptors and reduces local neuronal activity. ACC deactivation reduced shock-observation freezing more clearly than conditioned-tone freezing. This provides a causal result alongside the recording evidence. ACC activity contributes to the measured socially elicited defensive behavior."
+      ],
+      "cite": "Carrillo et al. (2019)",
+      "refs": [
+        "Carrillo M, Han Y, Migliorati F, Liu M, Gazzola V, Keysers C. (2019). Emotional Mirror Neurons in the Rat's Anterior Cingulate Cortex. Current biology : CB 29(8):1301-1312.e6. https://doi.org/10.1016/j.cub.2019.03.024"
+      ],
+      "transcript": [
+        "Demonstrator shocks produced jumps, freezing, and audible squeaks. Those reactions supplied sensory cues to the observer. Researchers aligned neural responses with the timing of the recorded behavior. The observer often oriented toward the demonstrator’s location. Figure360 presents the original behavioral scoring and temporal relationships.",
+        "**Sensory access** determines which aspects of another animal’s state are available. In this paradigm, visible movement and sound were relevant cues. The observer’s own shock history affected its defensive response. The experiment therefore combines current social input with previously learned associations. Observed distress acquires behavioral significance through that combination.",
+        "A separate manipulation suppressed ACC activity with muscimol. **Muscimol** activates inhibitory GABA-A receptors and reduces local neuronal activity. ACC deactivation reduced shock-observation freezing more clearly than conditioned-tone freezing. This provides a causal result alongside the recording evidence. ACC activity contributes to the measured socially elicited defensive behavior."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Carrillo2019_f4.png",
+          "caption": "Carrillo et al. (2019), Fig. 4A–F. Demonstrator reactions and the observer’s orientation and freezing.",
+          "source_url": "https://doi.org/10.1016/j.cub.2019.03.024",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Rat_ACC.png",
+          "kind": "article",
+          "caption": "Carrillo et al. (2019), Fig. 5A. ACC recording and inactivation locations.",
+          "source_url": "https://doi.org/10.1016/j.cub.2019.03.024",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "A brief social interaction transfers pain sensitivity",
+      "body": [
+        "Smith and colleagues paired a bystander mouse with an inflamed cagemate. **Complete Freund’s adjuvant**, or CFA, produced inflammation in the demonstrator’s hindpaw. The bystander received no pain-inducing treatment. After 1 h of direct interaction, it showed mechanical hypersensitivity. Control social pairs showed no comparable change.",
+        "Mechanical sensitivity was measured with calibrated **von Frey filaments**. These flexible fibers apply defined forces to the paw. Lower withdrawal thresholds indicate increased responsiveness to stimulation. Bystander hypersensitivity persisted at 4 h but was absent at 24 h. The social interaction therefore induced a temporary change in the untreated animal.",
+        "The demonstrator’s mechanical change was strongest in its treated paw. Bystanders instead showed sensitivity changes in both hindpaws. They also showed thermal hypersensitivity and altered thermal-place choice. These findings extend the effect beyond copying a visible movement. Social information changes how an observer responds to subsequently applied stimulation."
+      ],
+      "cite": "Smith et al. (2021)",
+      "refs": [
+        "Smith ML, Asada N, Malenka RC. (2021). Anterior cingulate inputs to nucleus accumbens control the social transfer of pain and analgesia. Science (New York, N.Y.) 371(6525):153-159. https://doi.org/10.1126/science.abe3040"
+      ],
+      "transcript": [
+        "Smith and colleagues paired a bystander mouse with an inflamed cagemate. **Complete Freund’s adjuvant**, or CFA, produced inflammation in the demonstrator’s hindpaw. The bystander received no pain-inducing treatment. After 1 h of direct interaction, it showed mechanical hypersensitivity. Control social pairs showed no comparable change.",
+        "Mechanical sensitivity was measured with calibrated **von Frey filaments**. These flexible fibers apply defined forces to the paw. Lower withdrawal thresholds indicate increased responsiveness to stimulation. Bystander hypersensitivity persisted at 4 h but was absent at 24 h. The social interaction therefore induced a temporary change in the untreated animal.",
+        "The demonstrator’s mechanical change was strongest in its treated paw. Bystanders instead showed sensitivity changes in both hindpaws. They also showed thermal hypersensitivity and altered thermal-place choice. These findings extend the effect beyond copying a visible movement. Social information changes how an observer responds to subsequently applied stimulation."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Smith2021_f1.jpg",
+          "caption": "Smith et al. (2021), Fig. 1A–G. Mechanical and thermal hypersensitivity after social interaction.",
+          "source_url": "https://doi.org/10.1126/science.abe3040",
+          "kind": "article"
+        },
+        {
+          "path": "figures/ACC_NAc_anatomy.jpg",
+          "kind": "article",
+          "caption": "Smith et al. (2021), Fig. 2D. Forebrain activation and ACC–accumbens anatomy.",
+          "source_url": "https://doi.org/10.1126/science.abe3040",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "ACC projections to accumbens mediate social transfer",
+      "body": [
+        "Researchers mapped neurons activated during the social interaction. A genetic reporter labeled cells recruited during the selected period. Increased activation occurred in the ACC and **nucleus accumbens**, or NAc. The NAc participates in affective and motivated behavior. Anatomical tracing identified ACC projections to its core region.",
+        "They then expressed **halorhodopsin**, a light-driven pump that moves chloride into cells to inhibit them, in ACC neurons. Illuminating their terminals in the NAc suppressed this pathway. Inhibition during social interaction impaired transfer of hypersensitivity to the bystander. The same manipulation during later sensory testing had no consistent threshold effect. Its role concerned acquisition of the socially induced state.",
+        "Activating the pathway during interaction produced the opposite adaptation. **Channelrhodopsin** is a light-gated excitatory channel used for this manipulation. Stimulation prolonged bystander hypersensitivity beyond 72 h. The control socially transferred effect normally resolved much sooner. Bidirectional manipulation links a defined cortical projection with the persistence of socially acquired sensitivity."
+      ],
+      "cite": "Smith et al. (2021)",
+      "refs": [
+        "Smith ML, Asada N, Malenka RC. (2021). Anterior cingulate inputs to nucleus accumbens control the social transfer of pain and analgesia. Science (New York, N.Y.) 371(6525):153-159. https://doi.org/10.1126/science.abe3040"
+      ],
+      "transcript": [
+        "Researchers mapped neurons activated during the social interaction. A genetic reporter labeled cells recruited during the selected period. Increased activation occurred in the ACC and **nucleus accumbens**, or NAc. The NAc participates in affective and motivated behavior. Anatomical tracing identified ACC projections to its core region.",
+        "They then expressed **halorhodopsin**, a light-driven pump that moves chloride into cells to inhibit them, in ACC neurons. Illuminating their terminals in the NAc suppressed this pathway. Inhibition during social interaction impaired transfer of hypersensitivity to the bystander. The same manipulation during later sensory testing had no consistent threshold effect. Its role concerned acquisition of the socially induced state.",
+        "Activating the pathway during interaction produced the opposite adaptation. **Channelrhodopsin** is a light-gated excitatory channel used for this manipulation. Stimulation prolonged bystander hypersensitivity beyond 72 h. The control socially transferred effect normally resolved much sooner. Bidirectional manipulation links a defined cortical projection with the persistence of socially acquired sensitivity."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Smith2021_f2.jpg",
+          "caption": "Smith et al. (2021), Fig. 2A–F. Activity mapping and the ACC–accumbens projection.",
+          "source_url": "https://doi.org/10.1126/science.abe3040",
+          "kind": "article"
+        },
+        {
+          "path": "figures/ACC_NAc_anatomy.jpg",
+          "kind": "article",
+          "caption": "Smith et al. (2021), Fig. 2D. Forebrain activation and ACC–accumbens anatomy.",
+          "source_url": "https://doi.org/10.1126/science.abe3040",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Pain relief can also transfer through social interaction",
+      "body": [
+        "All animals in this experiment first received the inflammatory treatment. Some demonstrators then received morphine to reduce pain-related responses. Their untreated social partners interacted with them for 1 h. Those partners subsequently showed reduced hypersensitivity compared with inflammatory control pairs. **Socially transferred analgesia** describes this improvement without direct drug administration to the bystander.",
+        "The morphine dose given to demonstrators was 10 mg/kg. Relief in bystanders remained detectable at 4 h but not 24 h. A thermal-place assay supplied an additional behavioral measure. After established inflammation, both morphine treatment and the social interaction reduced thermal aversion. The effect extended beyond one mechanical withdrawal assay.",
+        "Inhibiting ACC activity during interaction prevented the socially transferred relief. Inhibiting ACC terminals in the NAc produced a similar effect. These manipulations did not abolish morphine’s direct action in treated demonstrators. The pathway therefore contributes to social acquisition of the changed state. One cortical projection supports transfer of both increased and decreased sensitivity."
+      ],
+      "cite": "Smith et al. (2021)",
+      "refs": [
+        "Smith ML, Asada N, Malenka RC. (2021). Anterior cingulate inputs to nucleus accumbens control the social transfer of pain and analgesia. Science (New York, N.Y.) 371(6525):153-159. https://doi.org/10.1126/science.abe3040"
+      ],
+      "transcript": [
+        "All animals in this experiment first received the inflammatory treatment. Some demonstrators then received morphine to reduce pain-related responses. Their untreated social partners interacted with them for 1 h. Those partners subsequently showed reduced hypersensitivity compared with inflammatory control pairs. **Socially transferred analgesia** describes this improvement without direct drug administration to the bystander.",
+        "The morphine dose given to demonstrators was 10 mg/kg. Relief in bystanders remained detectable at 4 h but not 24 h. A thermal-place assay supplied an additional behavioral measure. After established inflammation, both morphine treatment and the social interaction reduced thermal aversion. The effect extended beyond one mechanical withdrawal assay.",
+        "Inhibiting ACC activity during interaction prevented the socially transferred relief. Inhibiting ACC terminals in the NAc produced a similar effect. These manipulations did not abolish morphine’s direct action in treated demonstrators. The pathway therefore contributes to social acquisition of the changed state. One cortical projection supports transfer of both increased and decreased sensitivity."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Smith2021_f5.jpg",
+          "caption": "Smith et al. (2021), Fig. 5A–I. Socially transferred analgesia and its cortical pathway.",
+          "source_url": "https://doi.org/10.1126/science.abe3040",
+          "kind": "article"
+        },
+        {
+          "path": "figures/ACC_NAc_anatomy.jpg",
+          "kind": "article",
+          "caption": "Smith et al. (2021), Fig. 2D. Forebrain activation and ACC–accumbens anatomy.",
+          "source_url": "https://doi.org/10.1126/science.abe3040",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Different ACC targets support different social responses",
+      "body": [
+        "The study also tested socially transferred fear. A bystander observed shocks to a demonstrator and later re-entered that context. Its freezing during re-exposure measured retrieval of the acquired defensive response. This task differed from interacting with an inflamed cagemate. The researchers tested the same projection manipulations in both paradigms.",
+        "Suppressing ACC terminals in the NAc impaired social pain transfer. It did not impair the tested observational-fear responses. Conversely, inhibiting ACC projections to the BLA reduced retrieval of socially acquired fear. That manipulation did not block the social transfer of mechanical hypersensitivity. Different downstream targets therefore supported different behavioral consequences.",
+        "The ACC is consequently not a unitary pathway for every social state. Its output can access distinct affective and motivational systems. Target-specific inhibition identifies where those functions diverge. The comparison links a brain region with its actual projection partners. Socially acquired pain sensitivity and defensive memory can depend on separable circuit routes."
+      ],
+      "cite": "Smith et al. (2021)",
+      "refs": [
+        "Smith ML, Asada N, Malenka RC. (2021). Anterior cingulate inputs to nucleus accumbens control the social transfer of pain and analgesia. Science (New York, N.Y.) 371(6525):153-159. https://doi.org/10.1126/science.abe3040"
+      ],
+      "transcript": [
+        "The study also tested socially transferred fear. A bystander observed shocks to a demonstrator and later re-entered that context. Its freezing during re-exposure measured retrieval of the acquired defensive response. This task differed from interacting with an inflamed cagemate. The researchers tested the same projection manipulations in both paradigms.",
+        "Suppressing ACC terminals in the NAc impaired social pain transfer. It did not impair the tested observational-fear responses. Conversely, inhibiting ACC projections to the BLA reduced retrieval of socially acquired fear. That manipulation did not block the social transfer of mechanical hypersensitivity. Different downstream targets therefore supported different behavioral consequences.",
+        "The ACC is consequently not a unitary pathway for every social state. Its output can access distinct affective and motivational systems. Target-specific inhibition identifies where those functions diverge. The comparison links a brain region with its actual projection partners. Socially acquired pain sensitivity and defensive memory can depend on separable circuit routes."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Smith2021_f4.jpg",
+          "caption": "Smith et al. (2021), Fig. 4A–J. Projection-specific tests distinguish social pain from observational fear.",
+          "source_url": "https://doi.org/10.1126/science.abe3040",
+          "kind": "article"
+        },
+        {
+          "path": "figures/ACC_NAc_anatomy.jpg",
+          "kind": "article",
+          "caption": "Smith et al. (2021), Fig. 2D. Forebrain activation and ACC–accumbens anatomy.",
+          "source_url": "https://doi.org/10.1126/science.abe3040",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Prairie voles groom a distressed familiar partner",
+      "body": [
+        "**Allogrooming** is grooming directed toward another individual. Burkett and colleagues separated paired prairie voles before reunion. A demonstrator experienced either a control separation or a stressor. The observer remained uninvolved in the treatment. Reunion tested its spontaneous response to the returning partner.",
+        "The stressor paired tones with brief electrical footshocks. Observers groomed stressed demonstrators sooner and for longer. Control separations did not elicit the same increase. Grooming began within the first minute of reunion and continued during the following minutes. The response was directed toward the individual that had experienced the stressor.",
+        "**Consolation-like behavior** combines directed affiliation with a calming effect. Demonstrators allowed social contact showed reduced subsequent anxiety-like behavior. Those recovering alone retained the elevated response. The measured buffering concerned stress-related behavior, not an analgesic threshold test. A partner’s affiliative action can change the consequences of an aversive experience."
+      ],
+      "cite": "Burkett et al. (2016)",
+      "refs": [
+        "Burkett JP, Andari E, Johnson ZV, Curry DC, de Waal FB, Young LJ. (2016). Oxytocin-dependent consolation behavior in rodents. Science (New York, N.Y.) 351(6271):375-378. https://doi.org/10.1126/science.aac4785"
+      ],
+      "transcript": [
+        "**Allogrooming** is grooming directed toward another individual. Burkett and colleagues separated paired prairie voles before reunion. A demonstrator experienced either a control separation or a stressor. The observer remained uninvolved in the treatment. Reunion tested its spontaneous response to the returning partner.",
+        "The stressor paired tones with brief electrical footshocks. Observers groomed stressed demonstrators sooner and for longer. Control separations did not elicit the same increase. Grooming began within the first minute of reunion and continued during the following minutes. The response was directed toward the individual that had experienced the stressor.",
+        "**Consolation-like behavior** combines directed affiliation with a calming effect. Demonstrators allowed social contact showed reduced subsequent anxiety-like behavior. Those recovering alone retained the elevated response. The measured buffering concerned stress-related behavior, not an analgesic threshold test. A partner’s affiliative action can change the consequences of an aversive experience."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Burkett2016_f1.jpg",
+          "caption": "Burkett et al. (2016), Fig. 1A–D. Allogrooming after separation and demonstrator stress.",
+          "source_url": "https://doi.org/10.1126/science.aac4785",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Vole_OXTR.jpg",
+          "kind": "article",
+          "caption": "Burkett et al. (2016), Fig. 4B. Forebrain receptor localization and activity markers.",
+          "source_url": "https://doi.org/10.1126/science.aac4785",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Familiarity shapes affiliation and social buffering",
+      "body": [
+        "The increase in allogrooming depended on the social relationship. Observers responded to distressed mates, siblings, and familiar cagemates. They did not show the same increase toward distressed strangers. Baseline grooming alone did not explain that difference. Familiarity affected the response to the partner’s changed state.",
+        "**Corticosterone** is a principal glucocorticoid stress hormone in these rodents. Researchers measured it after different reunion conditions. Observers behind a clear perforated barrier showed elevated hormone concentrations. Those values tracked the demonstrator’s state. Full contact with the partner prevented the same observer increase.",
+        "**Social buffering** means reduced stress-related responses through social interaction. The barrier comparison separates perceiving a partner from contacting it. State matching occurred when the observer could detect distress without providing normal contact. Active affiliation was associated with lower physiological stress. Social access changes both the recipient’s recovery and the observer’s response."
+      ],
+      "cite": "Burkett et al. (2016)",
+      "refs": [
+        "Burkett JP, Andari E, Johnson ZV, Curry DC, de Waal FB, Young LJ. (2016). Oxytocin-dependent consolation behavior in rodents. Science (New York, N.Y.) 351(6271):375-378. https://doi.org/10.1126/science.aac4785"
+      ],
+      "transcript": [
+        "The increase in allogrooming depended on the social relationship. Observers responded to distressed mates, siblings, and familiar cagemates. They did not show the same increase toward distressed strangers. Baseline grooming alone did not explain that difference. Familiarity affected the response to the partner’s changed state.",
+        "**Corticosterone** is a principal glucocorticoid stress hormone in these rodents. Researchers measured it after different reunion conditions. Observers behind a clear perforated barrier showed elevated hormone concentrations. Those values tracked the demonstrator’s state. Full contact with the partner prevented the same observer increase.",
+        "**Social buffering** means reduced stress-related responses through social interaction. The barrier comparison separates perceiving a partner from contacting it. State matching occurred when the observer could detect distress without providing normal contact. Active affiliation was associated with lower physiological stress. Social access changes both the recipient’s recovery and the observer’s response."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Burkett2016_f3.jpg",
+          "caption": "Burkett et al. (2016), Fig. 3A–D. Familiarity, corticosterone matching, and directed grooming.",
+          "source_url": "https://doi.org/10.1126/science.aac4785",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Vole_OXTR.jpg",
+          "kind": "article",
+          "caption": "Burkett et al. (2016), Fig. 4B. Forebrain receptor localization and activity markers.",
+          "source_url": "https://doi.org/10.1126/science.aac4785",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "Behavioral state matching differs from directed helping",
+      "body": [
+        "**Emotional contagion** describes adoption of another individual’s affect-related state. Prairie vole observers increased self-grooming after contact with stressed partners. They also froze when a conditioned demonstrator froze during tones. These responses matched aspects of the demonstrator’s behavior. The experiment measured matching separately from affiliative contact.",
+        "Observers and demonstrators were not behaviorally interchangeable. Observers increased grooming directed toward the demonstrator. The stressed demonstrators did not increase partner-directed grooming in the same way. The role of each animal therefore shaped the response. State matching can coexist with an asymmetric action toward another individual.",
+        "Consolation-like evidence combines several independently measured features. The study measured matching, familiarity bias, and directed affiliation. It also measured reduced stress-related behavior following social contact. These features connect social perception with an outcome for the partner. They provide a behavioral framework for studying empathy-like processes without assuming human-style perspective taking."
+      ],
+      "cite": "Burkett et al. (2016)",
+      "refs": [
+        "Burkett JP, Andari E, Johnson ZV, Curry DC, de Waal FB, Young LJ. (2016). Oxytocin-dependent consolation behavior in rodents. Science (New York, N.Y.) 351(6271):375-378. https://doi.org/10.1126/science.aac4785"
+      ],
+      "transcript": [
+        "**Emotional contagion** describes adoption of another individual’s affect-related state. Prairie vole observers increased self-grooming after contact with stressed partners. They also froze when a conditioned demonstrator froze during tones. These responses matched aspects of the demonstrator’s behavior. The experiment measured matching separately from affiliative contact.",
+        "Observers and demonstrators were not behaviorally interchangeable. Observers increased grooming directed toward the demonstrator. The stressed demonstrators did not increase partner-directed grooming in the same way. The role of each animal therefore shaped the response. State matching can coexist with an asymmetric action toward another individual.",
+        "Consolation-like evidence combines several independently measured features. The study measured matching, familiarity bias, and directed affiliation. It also measured reduced stress-related behavior following social contact. These features connect social perception with an outcome for the partner. They provide a behavioral framework for studying empathy-like processes without assuming human-style perspective taking."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Burkett2016_f2.jpg",
+          "caption": "Burkett et al. (2016), Fig. 2A–C. Observer grooming and freezing match demonstrator state.",
+          "source_url": "https://doi.org/10.1126/science.aac4785",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Vole_OXTR.jpg",
+          "kind": "article",
+          "caption": "Burkett et al. (2016), Fig. 4B. Forebrain receptor localization and activity markers.",
+          "source_url": "https://doi.org/10.1126/science.aac4785",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figures-right",
+      "title": "ACC oxytocin receptors support consolation-like behavior",
+      "body": [
+        "**Oxytocin** is a peptide involved in mammalian social signaling. Its receptor was abundant in several prairie vole forebrain regions. Researchers used an **antagonist**, a drug blocking receptor activation, to test function. Central antagonist administration prevented the increased grooming response to a stressed partner. Baseline grooming remained present.",
+        "The ACC showed increased FOS expression after interaction with a stressed demonstrator. **FOS** is an activity-associated protein used to identify recruited cells. Nearby comparison regions did not show the same differential activation. The observation therefore nominated a specific region for causal testing. Receptor localization and activity mapping addressed complementary questions.",
+        "Local oxytocin-receptor blockade in the ACC abolished the consolation-like response. Injection into adjacent prelimbic cortex did not produce the same effect. The site comparison links receptor signaling with a regional behavioral function. It does not imply that every oxytocin-sensitive region has identical effects. Social affiliation depends on signaling in particular circuit locations."
+      ],
+      "cite": "Burkett et al. (2016)",
+      "refs": [
+        "Burkett JP, Andari E, Johnson ZV, Curry DC, de Waal FB, Young LJ. (2016). Oxytocin-dependent consolation behavior in rodents. Science (New York, N.Y.) 351(6271):375-378. https://doi.org/10.1126/science.aac4785"
+      ],
+      "transcript": [
+        "**Oxytocin** is a peptide involved in mammalian social signaling. Its receptor was abundant in several prairie vole forebrain regions. Researchers used an **antagonist**, a drug blocking receptor activation, to test function. Central antagonist administration prevented the increased grooming response to a stressed partner. Baseline grooming remained present.",
+        "The ACC showed increased FOS expression after interaction with a stressed demonstrator. **FOS** is an activity-associated protein used to identify recruited cells. Nearby comparison regions did not show the same differential activation. The observation therefore nominated a specific region for causal testing. Receptor localization and activity mapping addressed complementary questions.",
+        "Local oxytocin-receptor blockade in the ACC abolished the consolation-like response. Injection into adjacent prelimbic cortex did not produce the same effect. The site comparison links receptor signaling with a regional behavioral function. It does not imply that every oxytocin-sensitive region has identical effects. Social affiliation depends on signaling in particular circuit locations."
+      ],
+      "figure_width": 5.6,
+      "figures": [
+        {
+          "path": "figures/Burkett2016_f4.jpg",
+          "caption": "Burkett et al. (2016), Fig. 4A–F. Oxytocin receptor distribution and local antagonist effects.",
+          "source_url": "https://doi.org/10.1126/science.aac4785",
+          "kind": "article"
+        },
+        {
+          "path": "figures/Vole_OXTR.jpg",
+          "kind": "article",
+          "caption": "Burkett et al. (2016), Fig. 4B. Forebrain receptor localization and activity markers.",
+          "source_url": "https://doi.org/10.1126/science.aac4785",
+          "role": "additional animal or anatomical image"
+        }
+      ],
+      "primary_figure_height": 2.8
+    },
+    {
+      "layout": "figure-right",
+      "title": "Rats direct exploration toward a trapped cagemate",
+      "body": [
+        "Ben-Ami Bartal and colleagues tested rats with a trapped familiar cagemate. The free rat could explore an arena containing a central restrainer. Perforations allowed sensory contact with the trapped individual. The free rat circled, bit, and investigated the restrainer. Movie S1 records this directed exploratory behavior.",
+        "The study measured movement near the restrainer and overall activity. Empty restrainers and toy-rat conditions provided comparisons. An additional arrangement tested an inaccessible but unrestrained cagemate. These controls separated restraint-related responses from mere social presence. Activity was especially directed toward the trapped-cagemate condition.",
+        "The authors studied non-painful psychological restraint stress. Their helping assay therefore complements, rather than duplicates, pain-transfer experiments. A partner’s distress can motivate an action affecting its situation. The outcome was release from confinement rather than an analgesic response. Distinguishing those outcomes identifies the actual form of empathy-like evidence."
+      ],
+      "figure": {
+        "path": "figures/Bartal2011_MovieS1_8.jpg",
+        "kind": "web",
+        "caption": "Photo: Rat investigating a cagemate in the experimental restrainer.",
+        "source_url": "https://doi.org/10.1126/science.1210789",
+        "credit": "Ben-Ami Bartal, Decety, and Mason; original article-provided Movie S1, frame at 8 s",
+        "license": "No open license stated; original research recording supplied by the instructor"
+      },
+      "cite": "Ben-Ami Bartal et al. (2011)",
+      "refs": [
+        "Ben-Ami Bartal I, Decety J, Mason P. (2011). Empathy and pro-social behavior in rats. Science (New York, N.Y.) 334(6061):1427-1430. https://doi.org/10.1126/science.1210789"
+      ],
+      "transcript": [
+        "Ben-Ami Bartal and colleagues tested rats with a trapped familiar cagemate. The free rat could explore an arena containing a central restrainer. Perforations allowed sensory contact with the trapped individual. The free rat circled, bit, and investigated the restrainer. Movie S1 records this directed exploratory behavior.",
+        "The study measured movement near the restrainer and overall activity. Empty restrainers and toy-rat conditions provided comparisons. An additional arrangement tested an inaccessible but unrestrained cagemate. These controls separated restraint-related responses from mere social presence. Activity was especially directed toward the trapped-cagemate condition.",
+        "The authors studied non-painful psychological restraint stress. Their helping assay therefore complements, rather than duplicates, pain-transfer experiments. A partner’s distress can motivate an action affecting its situation. The outcome was release from confinement rather than an analgesic response. Distinguishing those outcomes identifies the actual form of empathy-like evidence."
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Experience makes door opening more efficient",
+      "body": [
+        "The restrainer door opened when sufficient force tipped it aside. Rats learned this action over repeated daily sessions. The probability of independent opening increased across the 12-day experiment. Opening latency decreased as the animals acquired the behavior. Movie S2 records the release sequence.",
+        "Early openings used several approaches to the door. Later, animals more consistently opened it with their heads. They also became less likely to freeze after the door fell. The sound and movement of opening had become an expected consequence. This pattern links repeated experience with a more organized release action.",
+        "Only openings before the experimenter’s partial assistance counted as independent release. The measure therefore distinguished rat-initiated action from assisted escape. Opening affected the trapped partner’s confinement directly. The experiment connects social context with learned instrumental behavior. A protective outcome can be produced by an observer’s action rather than by state matching alone."
+      ],
+      "figure": {
+        "path": "figures/Bartal2011_MovieS2_20.jpg",
+        "kind": "web",
+        "caption": "Photo: Rat performing the release action in the helping study.",
+        "source_url": "https://doi.org/10.1126/science.1210789",
+        "credit": "Ben-Ami Bartal, Decety, and Mason; original article-provided Movie S2, frame at 20 s",
+        "license": "No open license stated; original research recording supplied by the instructor"
+      },
+      "cite": "Ben-Ami Bartal et al. (2011)",
+      "refs": [
+        "Ben-Ami Bartal I, Decety J, Mason P. (2011). Empathy and pro-social behavior in rats. Science (New York, N.Y.) 334(6061):1427-1430. https://doi.org/10.1126/science.1210789"
+      ],
+      "transcript": [
+        "The restrainer door opened when sufficient force tipped it aside. Rats learned this action over repeated daily sessions. The probability of independent opening increased across the 12-day experiment. Opening latency decreased as the animals acquired the behavior. Movie S2 records the release sequence.",
+        "Early openings used several approaches to the door. Later, animals more consistently opened it with their heads. They also became less likely to freeze after the door fell. The sound and movement of opening had become an expected consequence. This pattern links repeated experience with a more organized release action.",
+        "Only openings before the experimenter’s partial assistance counted as independent release. The measure therefore distinguished rat-initiated action from assisted escape. Opening affected the trapped partner’s confinement directly. The experiment connects social context with learned instrumental behavior. A protective outcome can be produced by an observer’s action rather than by state matching alone."
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Release persists without immediate social contact",
+      "body": [
+        "A modified apparatus directed the released rat into a separate arena. The free rat therefore could not immediately interact with it after opening. This arrangement tested whether immediate social contact was required. Rats continued opening restrainers containing cagemates. They eventually stopped opening empty restrainers under the comparison condition.",
+        "The same animals encountered both arrangements in counterbalanced order. **Counterbalancing** varies condition order to separate it from the tested effect. Opening remained sensitive to whether another rat was trapped. The result goes beyond a response to an empty familiar object. The social circumstance influenced the persistence of the learned action.",
+        "Immediate contact is one possible incentive in a helping task. The separated-release comparison removed that particular outcome. Other consequences, including reduced social distress, could still influence behavior. The authors hypothesize that empathic concern motivates the release pattern. The measured finding is partner-sensitive instrumental action maintained without immediate physical reunion."
+      ],
+      "figure": {
+        "path": "figures/Bartal2011_MovieS1_20.jpg",
+        "kind": "web",
+        "caption": "Photo: The restrainer and social arrangement in the original helping experiment.",
+        "source_url": "https://doi.org/10.1126/science.1210789",
+        "credit": "Ben-Ami Bartal, Decety, and Mason; original article-provided Movie S1, frame at 20 s",
+        "license": "No open license stated; original research recording supplied by the instructor"
+      },
+      "cite": "Ben-Ami Bartal et al. (2011)",
+      "refs": [
+        "Ben-Ami Bartal I, Decety J, Mason P. (2011). Empathy and pro-social behavior in rats. Science (New York, N.Y.) 334(6061):1427-1430. https://doi.org/10.1126/science.1210789"
+      ],
+      "transcript": [
+        "A modified apparatus directed the released rat into a separate arena. The free rat therefore could not immediately interact with it after opening. This arrangement tested whether immediate social contact was required. Rats continued opening restrainers containing cagemates. They eventually stopped opening empty restrainers under the comparison condition.",
+        "The same animals encountered both arrangements in counterbalanced order. **Counterbalancing** varies condition order to separate it from the tested effect. Opening remained sensitive to whether another rat was trapped. The result goes beyond a response to an empty familiar object. The social circumstance influenced the persistence of the learned action.",
+        "Immediate contact is one possible incentive in a helping task. The separated-release comparison removed that particular outcome. Other consequences, including reduced social distress, could still influence behavior. The authors hypothesize that empathic concern motivates the release pattern. The measured finding is partner-sensitive instrumental action maintained without immediate physical reunion."
+      ]
+    },
+    {
+      "layout": "figure-right",
+      "title": "Food choice reveals the motivational value of release",
+      "body": [
+        "Researchers offered two restrainers in a separate choice experiment. One held a trapped cagemate and the other held five chocolate chips. A control condition paired chocolate with an empty restrainer. Rats opened both occupied restrainers rather than consistently prioritizing food alone. The comparison tested release against a competing appetitive outcome.",
+        "Learning to open the food restrainer also took several days. The action was therefore not an effortless response to either incentive. After both options became familiar, opening latencies were similar in the cagemate-versus-chocolate condition. Empty restrainers remained less attractive than the chocolate-containing option. The content of the restrainer determined its motivational value.",
+        "Free rats sometimes left chocolate for the released cagemate. They could have consumed all five pieces themselves. Sharing occurred in roughly half the trials across testing. This extends the evidence from release to allocation of a food outcome. Partner-sensitive choices link learned instrumental behavior with a socially relevant benefit."
+      ],
+      "figure": {
+        "path": "figures/Bartal2011_MovieS2_80.jpg",
+        "kind": "web",
+        "caption": "Photo: Rats and the restrainer in the original release recording.",
+        "source_url": "https://doi.org/10.1126/science.1210789",
+        "credit": "Ben-Ami Bartal, Decety, and Mason; original article-provided Movie S2, frame at 80 s",
+        "license": "No open license stated; original research recording supplied by the instructor"
+      },
+      "cite": "Ben-Ami Bartal et al. (2011)",
+      "refs": [
+        "Ben-Ami Bartal I, Decety J, Mason P. (2011). Empathy and pro-social behavior in rats. Science (New York, N.Y.) 334(6061):1427-1430. https://doi.org/10.1126/science.1210789"
+      ],
+      "transcript": [
+        "Researchers offered two restrainers in a separate choice experiment. One held a trapped cagemate and the other held five chocolate chips. A control condition paired chocolate with an empty restrainer. Rats opened both occupied restrainers rather than consistently prioritizing food alone. The comparison tested release against a competing appetitive outcome.",
+        "Learning to open the food restrainer also took several days. The action was therefore not an effortless response to either incentive. After both options became familiar, opening latencies were similar in the cagemate-versus-chocolate condition. Empty restrainers remained less attractive than the chocolate-containing option. The content of the restrainer determined its motivational value.",
+        "Free rats sometimes left chocolate for the released cagemate. They could have consumed all five pieces themselves. Sharing occurred in roughly half the trials across testing. This extends the evidence from release to allocation of a food outcome. Partner-sensitive choices link learned instrumental behavior with a socially relevant benefit."
+      ]
+    }
+  ],
+  "takeaways": {
+    "items": [
+      {
+        "lead": "Nociception",
+        "text": "Detects potentially damaging stimulation; protective movement and affective valuation are measured through different experiments."
+      },
+      {
+        "lead": "Sensitization",
+        "text": "Peripheral injury can increase defensive responses through altered sensory drive and weakened central inhibition."
+      },
+      {
+        "lead": "Descending control",
+        "text": "Brain peptide signaling regulates downstream nociceptive activity through receptors expressed in specific target neurons."
+      },
+      {
+        "lead": "Affective valuation",
+        "text": "Avoidance of a noxious context and preference for relief link an ongoing state with learned choices."
+      },
+      {
+        "lead": "Social pain modulation",
+        "text": "ACC–accumbens activity supports social acquisition of both hypersensitivity and analgesia in mice."
+      },
+      {
+        "lead": "Empathy-like evidence",
+        "text": "State matching, stress buffering, and partner-directed helping are distinct measured outcomes with different neural and motivational tests."
+      }
+    ],
+    "cite": "Arenas et al. (2017); Crook (2021); Corder et al. (2019); Smith et al. (2021); Burkett et al. (2016); Ben-Ami Bartal et al. (2011)",
+    "refs": [
+      "Arenas OM, Zaharieva EE, Para A, Vásquez-Doorman C, Petersen CP, Gallio M. (2017). Activation of planarian TRPA1 by reactive oxygen species reveals a conserved mechanism for animal nociception. Nature neuroscience 20(12):1686-1693. https://doi.org/10.1038/s41593-017-0005-0",
+      "Crook RJ. (2021). Behavioral and neurophysiological evidence suggests affective pain experience in octopus. iScience 24(3):102229. https://doi.org/10.1016/j.isci.2021.102229",
+      "Khuong TM, Wang QP, Manion J, Oyston LJ, Lau MT, Towler H, Lin YQ, Neely GG. (2019). Nerve injury drives a heightened state of vigilance and neuropathic sensitization in Drosophila. Science advances 5(7):eaaw4099. https://doi.org/10.1126/sciadv.aaw4099",
+      "Oikawa I, Kondo S, Hashimoto K, Yoshida A, Hamajima M, Tanimoto H, Furukubo-Tokunaga K, Honjo K. (2023). A descending inhibitory mechanism of nociception mediated by an evolutionarily conserved neuropeptide system in Drosophila. eLife 12:RP85760. https://doi.org/10.7554/elife.85760",
+      "Florman JT, Alkema MJ. (2022). Co-transmission of neuropeptides and monoamines choreograph the C. elegans escape response. PLoS genetics 18(3):e1010091. https://doi.org/10.1371/journal.pgen.1010091",
+      "Corder G, Ahanonu B, Grewe BF, Wang D, Schnitzer MJ, Scherrer G. (2019). An amygdalar neural ensemble that encodes the unpleasantness of pain. Science (New York, N.Y.) 363(6424):276-281. https://doi.org/10.1126/science.aap8586",
+      "Smith ML, Asada N, Malenka RC. (2021). Anterior cingulate inputs to nucleus accumbens control the social transfer of pain and analgesia. Science (New York, N.Y.) 371(6525):153-159. https://doi.org/10.1126/science.abe3040",
+      "Burkett JP, Andari E, Johnson ZV, Curry DC, de Waal FB, Young LJ. (2016). Oxytocin-dependent consolation behavior in rodents. Science (New York, N.Y.) 351(6271):375-378. https://doi.org/10.1126/science.aac4785",
+      "Ben-Ami Bartal I, Decety J, Mason P. (2011). Empathy and pro-social behavior in rats. Science (New York, N.Y.) 334(6061):1427-1430. https://doi.org/10.1126/science.1210789"
+    ]
+  }
+}

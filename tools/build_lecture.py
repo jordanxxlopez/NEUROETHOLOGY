@@ -322,7 +322,39 @@ class Deck:
         return need
 
     # ---------------------------------------------------------- layouts
+    def wide_title_slide(self):
+        """Optional full-width title for long instructor-approved topic names."""
+        s = self.new_slide()
+        img = self.spec["title_image"]
+        check_image(img, "title slide")
+        if img.get("kind", "article") == "web":
+            self.web_images += 1
+        rect(s, 0, 0, W, 4.35, self.t["title_bg"])
+        for text, y, size in ((self.course["course"], .65, 12),
+                              (f"Lecture {self.meta['n']}", 1.22, 18)):
+            _, tf = textbox(s, .75, y, W-1.5, .4)
+            write_paras(tf, [text], size, self.t["title_muted"], space_after=0)
+        title = self.meta["title"]
+        _, tf = textbox(s, .75, 1.95, W-1.5, 2.1, "Lecture title")
+        pt, _ = fit_size([title], W-1.5, 2.1, max_pt=30, min_pt=22, where="title slide")
+        write_paras(tf, [title], pt, self.t["title_text"], space_after=0)
+        for p in tf.paragraphs:
+            for r in p.runs:
+                r.font.bold = True
+        _, tf = textbox(s, .75, 4.9, 5.5, .45)
+        write_paras(tf, [self.meta["date"]], 16, self.t["text"], space_after=0)
+        _, tf = textbox(s, .75, 5.65, 5.5, .85)
+        write_paras(tf, [self.course["instructor"], self.course["instructor_title"]], 12,
+                    self.t["text"], space_after=2)
+        picture_contain(s, self.path(img["path"]), 7.1, 4.6, 5.5, 2.25)
+        self.caption(s, 7.1, 6.95, 5.5, img["caption"])
+        s.notes_slide.notes_text_frame.text = (title + f"\nLecture {self.meta['n']}. {self.meta['date']}."
+            + "\n\nFigure: " + img["caption"] + "\nFigure source: " + img["source_url"]
+            + "\n\nReferences:\n" + "\n".join(self.spec.get("title_refs", [])))
+
     def title_slide(self):
+        if self.spec.get("wide_title"):
+            return self.wide_title_slide()
         s = self.new_slide()
         t = self.t
         img = self.spec.get("title_image")
