@@ -138,3 +138,7 @@ FINISH
 
 
 - **First-slide images must be unique.** Every image on slide 1 must show the animal studied in that lecture. Use an original experimental image or a credited real photograph chosen for appearance, subject to the existing source and license rules. Never reuse an image already used anywhere in an earlier lecture; another crop, resize, or encoding of the same image does not make it new. Before choosing it, compare the candidate with images in previous lecture decks and record its source and the uniqueness check. This no-repeat requirement applies only to slide 1; content-slide figures may recur when scientifically appropriate.
+
+## Scoped demonstration exception: Lectures 104A–C
+
+For 104A, 104B, and 104C only, follow `course/demonstration_104_rules.md` in addition to these rules. It takes precedence for access failures, 20–30 embedded research-linked videos, no news/Shorts/TikTok, and approximately 25–35 additional credited subject-related images (animals, neurons, brain regions, or other slide-related structures). Continue with accessible alternatives except when a discussed article has a blocked relevant recording: request that original recording before final delivery. Retain 46 slides, primary research figures, teaching content, scientific provenance, and native video proportions. Other lectures are unaffected.

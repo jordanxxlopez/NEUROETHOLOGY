@@ -102,3 +102,7 @@ pip install -r requirements.txt      # python-pptx, Pillow
 - `prompts/make_lecture.md` — the request prompt to paste into Claude or Codex.
 - `chatgpt/` — setup guide, Project instructions and per-lecture message for ChatGPT.
 
+
+## Scoped demonstration exception: Lectures 104A–C
+
+For 104A, 104B, and 104C only, follow `course/demonstration_104_rules.md` in addition to these rules. It takes precedence for access failures, 20–30 embedded research-linked videos, no news/Shorts/TikTok, and approximately 25–35 additional credited subject-related images (animals, neurons, brain regions, or other slide-related structures). Continue with accessible alternatives except when a discussed article has a blocked relevant recording: request that original recording before final delivery. Retain 46 slides, primary research figures, teaching content, scientific provenance, and native video proportions. Other lectures are unaffected.

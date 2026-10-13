@@ -79,3 +79,7 @@ The builder and checker reject the banned phrasings and statistics automatically
 ## Checks you can run on any deck
 
 `python tools/check_lecture.py deck.pptx --lecture <N>` — slide count, exact title and date, banned slide types and framing, statistics clutter, words per slide, teaching transcript in the notes, article figures, references. Add `--no-transcript` for decks made before the transcript rule.
+
+## Scoped demonstration exception: Lectures 104A–C
+
+For 104A, 104B, and 104C only, follow `course/demonstration_104_rules.md` in addition to these rules. It takes precedence for access failures, 20–30 embedded research-linked videos, no news/Shorts/TikTok, and approximately 25–35 additional credited subject-related images (animals, neurons, brain regions, or other slide-related structures). Continue with accessible alternatives except when a discussed article has a blocked relevant recording: request that original recording before final delivery. Retain 46 slides, primary research figures, teaching content, scientific provenance, and native video proportions. Other lectures are unaffected.
