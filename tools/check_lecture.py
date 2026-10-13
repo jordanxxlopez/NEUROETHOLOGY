@@ -49,11 +49,12 @@ def slide_text(slide, teaching_only=False):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("deck")
-    ap.add_argument("--lecture", type=int, required=True)
+    ap.add_argument("--lecture", required=True)
     ap.add_argument("--content-slides", type=int, default=44)
     ap.add_argument("--no-transcript", action="store_true",
                     help="skip the speaker-note transcript requirement (decks made before the rule)")
     a = ap.parse_args()
+    a.lecture = int(a.lecture) if a.lecture.isdigit() else a.lecture
 
     sched = json.loads((ROOT / "course/schedule.json").read_text())
     meta = next(l for l in sched["lectures"] + sched.get("special_topics", []) if l["n"] == a.lecture)
