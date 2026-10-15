@@ -1,9 +1,11 @@
 # Lecture 104C status
 
-Source preparation is saved. This is not a completed PowerPoint.
+**Not a completed PowerPoint.** The instructor requested five additional ΔFosB slides, so the final spec must set `content_slides` to **49**, producing **51 total slides**. Keep the existing title and Date TBD unchanged.
 
-The instructor-approved title is recorded verbatim in the schedule. The comparative slide map contains 44 content slides across 12 species. No existing lecture was modified.
+Five complete ΔFosB teaching drafts are in `deltafosb_slides.json`; append them as slides 46–50 before Key takeaways. They emphasize animal research, with one limited human postmortem comparison. Original paper crops and source references are saved.
 
-Thirteen distinct original recordings are downloaded, prepared in compatible MP4 format, and passed full decoding checks. Final delivery is blocked by the seven selected recordings listed in PAPERS.md. Independent remaining work includes final source reading, teaching paragraphs and transcripts, additional credited images, final figure selection, native movie embedding, and full slide/layout/media verification. The unavailable Wikimedia media should be replaced with other credited sources under the scoped access rule, without asking the instructor to solve ordinary access failures.
+Eighteen distinct recordings are transferred, converted, decoded and documented in `media_preparation.json`. Remaining source uploads: mouse Movies S1 and S2, each requiring compression below 32 MiB before transfer. See PAPERS.md. The supplied five other recordings were visually inspected against their study preparations.
 
-See SLIDE_PLAN.md, SOURCE_READING.md, reference_verification.json, figure_sources.json and media_preparation.json. Raw PDFs are in papers/ and remain git-ignored. Research scratch work is in /workspace/scratch/L104C. The repository default branch was verified at commit 670c9607edfc5f9c82888ee51717c329f4d7a860 before preparation.
+Independent remaining work: write the original 44 teaching slides and transcripts, acquire approximately 30 additional credited images, complete figures and slide layouts, embed all 20 recordings at their native proportions, and run complete scientific, text-fit, media, rendering and delivery QA. Image-download failures should be addressed with accessible credited alternatives under the scoped access exception.
+
+Source PDFs are in git-ignored `papers/`. All raw supplied videos are in ignored `media/originals/`; their prepared copies are in `media/delivery/`. Research scratch work is in `/workspace/scratch/L104C`, with ΔFosB research under `fosb/`.

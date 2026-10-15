@@ -1,6 +1,6 @@
 {
   "lecture": "104C",
-  "total_slides": 46,
+  "total_slides": 51,
   "title": "Animals on drugs: psychoactive substances, altered perception, drug-seeking and self-administration, and how social environments influence reward and addiction.",
   "date": "Date TBD",
   "animals": [
@@ -15,6 +15,7 @@
     "Microtus ochrogaster",
     "Mus musculus",
     "Octopus bimaculoides",
+    "Rattus norvegicus",
     "Vespa orientalis"
   ],
   "content_slides": [
@@ -369,9 +370,46 @@
       "doi": "10.1073/pnas.2122477119",
       "provisional_figure": 4,
       "status": "Source reading and exact panel selection required before final slide text"
+    },
+    {
+      "slide": 46,
+      "title": "Repeated drug exposure recruits ΔFosB in defined neurons",
+      "animal": "Rodent models with a limited human postmortem comparison",
+      "doi": "10.1523/jneurosci.1875-13.2013",
+      "status": "Teaching draft in deltafosb_slides.json"
+    },
+    {
+      "slide": 47,
+      "title": "Phosphorylation helps ΔFosB resist degradation",
+      "animal": "Rodent models with a limited human postmortem comparison",
+      "doi": "10.1523/jneurosci.4970-05.2006",
+      "status": "Teaching draft in deltafosb_slides.json"
+    },
+    {
+      "slide": 48,
+      "title": "ΔFosB and CaMKII couple gene regulation to plasticity",
+      "animal": "Rodent models with a limited human postmortem comparison",
+      "doi": "10.1523/jneurosci.5192-12.2013",
+      "status": "Teaching draft in deltafosb_slides.json"
+    },
+    {
+      "slide": 49,
+      "title": "Social stress recruits different ΔFosB cell populations",
+      "animal": "Rodent models with a limited human postmortem comparison",
+      "doi": "10.1523/jneurosci.1875-13.2013",
+      "status": "Teaching draft in deltafosb_slides.json"
+    },
+    {
+      "slide": 50,
+      "title": "Human ΔFosB findings depend on the sampled brain region",
+      "animal": "Rodent models with a limited human postmortem comparison",
+      "doi": "10.1371/journal.pone.0160355",
+      "status": "Teaching draft in deltafosb_slides.json"
     }
   ],
   "video_target": 20,
   "additional_credited_image_target": 30,
-  "status": "Preparation only. Not a completed lecture or validated PPTX."
+  "status": "Preparation only. Not a completed lecture or validated PPTX.",
+  "content_slide_count": 49,
+  "instructor_authorized_expansion": "Five additional ΔFosB slides, primarily animal research; retain the exact lecture title and date. Set content_slides to 49 in the final lecture spec."
 }
