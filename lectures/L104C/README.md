@@ -1,18 +1,21 @@
 # Lecture 104C: Animals on drugs
 
-**Status: source preparation, awaiting two compressed source recordings. No completed PPTX exists yet.**
+The instructor-authorized expansion contains **51 slides**: title, 49 content slides, and Key takeaways. Slides 46–50 add ΔFosB, emphasizing rodent experiments and a limited human postmortem comparison. The exact schedule title and Date TBD are retained.
 
-The instructor-approved title and Date TBD are registered in the course schedule. The expanded 51-slide lecture contains 49 content slides, with an original comparative plan across 12 species: octopus, honeybee, bumblebee, Argentine ant, Oriental hornet, green tree frog, C. elegans, fruit fly, zebrafish, prairie vole, cynomolgus macaque and mouse.
+The comparative material spans 13 nonhuman species: California two-spot octopus, honeybee, bumblebee, Argentine ant, Oriental hornet, green tree frog, C. elegans, fruit fly, zebrafish, prairie vole, cynomolgus macaque, mouse and rat. Primary-source figures appear on all 49 content slides. Thirty additional credited animal photographs accompany the evidence; the title has a separately credited unique octopus photograph.
 
-- `SLIDE_PLAN.md` / `slide_plan.json`: comparative content map, not finished teaching prose.
-- `PAPERS.md`: the exact two-recording compressed-upload request. All selected paper PDFs are already available.
-- `SOURCE_READING.md` / `reference_verification.json`: indexed abstracts and complete source metadata for 20 selected primary studies.
-- `crops.json` / `figure_sources.json`: 30 original PDF figure crops, with final slide legibility still pending.
-- `media_preparation.json`: 18 distinct source recordings, original URLs, codec preparation, dimensions, hashes and full-decoding results. No clip has yet been embedded in a lecture PPTX.
-- `additional_image_candidates.json`: credited candidate images, not downloaded assets. Alternate sources remain necessary because Wikimedia image-media downloads failed.
+**20 original research videos are embedded natively**, on slides 12–15, 21–26, 28–29, 34–37 and 43–45. Slide 24 has two recordings. Fullscreen playback is enabled where supported. Every movie retains its proportions. Figures, photographs and native movies remain separate objects. Full source metadata and credits are in speaker notes, `media_sources.json` and `additional_image_placements.json`.
 
-The final targets remain 20–30 embedded research-linked videos and approximately 25–35 additional credited subject-related images. The current plan uses 20 distinct recordings and aims for 30 additional images. The scoped 104A–C access rules apply. Unavailable selected research recordings require the instructor’s upload; ordinary prospective-source failures should continue to be resolved with suitable alternatives.
+Build with the repository Python environment:
 
-Primary PDFs and original archives remain local. Git-tracked media contains compatible prepared excerpts. Source timestamps, conditions and scientific context require final review during slide placement. Desktop PowerPoint playback and Google Slides import have not been tested.
+```bash
+python lectures/L104C/write_spec.py
+python tools/build_lecture.py lectures/L104C/lecture.json
+python lectures/L104C/embed_videos.py
+python tools/check_lecture.py lectures/L104C/Neuroethology_Lecture104C_FA2026.pptx --lecture 104C --content-slides 49
+python lectures/L104C/verify_delivery.py
+```
 
-The five added ΔFosB drafts are in `deltafosb_slides.json`, emphasizing animal studies and a limited human comparison. All final slide and image layout checks remain pending.
+`teaching.md` contains the original comparative teaching text; `deltafosb_slides.json` contains the five additional slides. `crops.json` and `figure_sources.json` record original PDF crops. The additional honeybee anatomy panel is a previously verified content-slide crop from Geng et al. (2022), DOI 10.1038/s42003-022-03075-8. Source PDFs and original archives remain local. Presentation photo copies preserve the complete image and proportions, downsampled for their small slide placements; original files and source hashes remain available.
+
+`delivery_verification.json` checks native media bytes and proportions, complete video decoding, slide count, font, teaching text and credits. `visual_qa.json` records PDF layout checks. The PDF is a **static preview**; videos play from the PPTX. Desktop PowerPoint GUI playback has not been tested. Google Slides import has not been tested and may require separate Drive video insertion.

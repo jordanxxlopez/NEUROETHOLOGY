@@ -1,23 +1,14 @@
-# Lecture 104C: two compressed recordings still needed
+# Lecture 104C: source access resolved
 
-Five of the seven supplied source recordings transferred successfully: zebrafish Movies S1–S4 and mouse Movie S3. They were visually checked, converted to compatible MP4 without changing scene order or speed, and fully decoded. Any odd-sized frame received at most one border pixel for H.264 compatibility; scientific frame content was retained.
+No source upload remains outstanding. All selected primary PDFs are available locally. The instructor supplied the four Petzold et al. (2009) zebrafish movies and three Knabbe et al. (2022) mouse movies, including the two replacement AVI uploads that resolved the earlier transfer limit.
 
-The two remaining uploaded AVIs exceed the executor transfer limit of 32 MiB. The download tool rejects them before transferring their bytes, so they cannot be compressed inside this workspace. Please upload compressed MP4 copies under 32 MiB each:
+The final deck embeds 20 distinct original research recordings. See `media_sources.json` for exact identifiers, conditions, original URLs, DOI, hashes, licenses and slide placement. Four ant dataset excerpts retain seconds 10–100 of four distinct original recordings; the other clips retain their complete supplied sequences. Codec conversion preserves frame content, scene order, timing and available audio. One odd-sized original received at most one border pixel for H.264 compatibility.
 
-1. **pnas.2122477119.sm01.avi / Movie S1**: baseline mitochondrial transport in mouse motor-cortex axons.
-2. **pnas.2122477119.sm02.avi / Movie S2**: mitochondrial transport after ethanol intoxication.
+Petzold et al. DOI: https://doi.org/10.1073/pnas.0908247106
+Knabbe et al. DOI: https://doi.org/10.1073/pnas.2122477119
 
-Article: Knabbe et al. (2022), *Single-dose ethanol intoxication causes acute and lasting neuronal changes in the brain*. https://doi.org/10.1073/pnas.2122477119
+Publisher supplement pages:
+- https://www.pnas.org/doi/suppl/10.1073/pnas.0908247106
+- https://www.pnas.org/doi/suppl/10.1073/pnas.2122477119
 
-Publisher supplements: https://www.pnas.org/doi/suppl/10.1073/pnas.2122477119
-
-The supplied originals have not been silently replaced. The instructor’s 104A–C exception requires the original selected recording before final delivery. All selected source PDFs for the original plan and the five additional ΔFosB drafts are available. No additional paper upload is requested.
-
-## Saved preparation
-
-- Instructor-authorized total: **51 slides**, with 49 content slides and a final Key takeaways slide.
-- Original comparative plan: 12 animal species; ΔFosB work adds rat experiments and a limited human comparison.
-- Five source-supported ΔFosB teaching drafts in deltafosb_slides.json, with references and eight original PDF figure crops.
-- **18 distinct recordings** have transferred and have prepared MP4 files; the final plan retains 20 recordings once the two compressed files arrive.
-- Additional credited-image target remains approximately 25–35, aiming for 30. Candidate metadata exists, but additional-image acquisition and placement are unfinished.
-- The complete lecture, final teaching text outside the ΔFosB addition, final images, movie embedding, PPTX validation, and slide rendering remain unfinished. No compliant final deck has been claimed.
+Zebrafish Movies S2 and S3 are captioned conservatively as the source article’s larval locomotion recordings; no unverified genotype or precise treatment condition is assigned to either sequence.

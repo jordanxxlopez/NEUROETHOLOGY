@@ -1,0 +1,9 @@
+from pathlib import Path
+import json,pymupdf as f
+R=Path(__file__).resolve().parent;c=json.load(open(R/'crops.json'));sources=json.load(open(R/'figure_sources.json'))
+items=[('mouse_transport','FlyNeuroplasticity',6,[113,139,467,374],4,'C–E'),('mouse_histology','FlyNeuroplasticity',4,[112,32,469,296],2,'A–L'),('worm_rescue','WormAlcohol',6,[33,76,577,306],2,'A–B'),('worm_ablation','WormAlcohol',6,[33,305,577,667],2,'C–E'),('worm_peptide','WormAlcohol',11,[147,276,579,539],5,'C–F'),('fly_anatomy','FlyDopamine',4,[56,52,422,294],2,'A–E'),('nicotine_dose','FishNicotine',2,[287,47,530,174],1,'B–C'),('nicotine_history','FishNicotine',2,[68,46,288,175],1,'A')]
+for name,key,page,b,fig,panels in items:
+ p=f.open(R/'papers'/(key+'.pdf'))[page-1];box=[b[0]/p.rect.width,b[1]/p.rect.height,b[2]/p.rect.width,b[3]/p.rect.height];c['crops'][name]=[key,page,box];so=next(x for x in sources if x['path']==f'figures/{key}_Fig{fig}.png');sources.append(dict(path='figures/'+name+'.png',article_doi=so['article_doi'],figure=fig,panels=panels,page=page,crop_box=box,status='Original intact panel group, selected for slide legibility'))
+# The source's own proposed diagram is retained only as an anatomical locator.
+p=f.open(R/'papers/WormAlcohol.pdf')[17];ims=[x for x in p.get_image_info() if x['width']>200];im=max(ims,key=lambda x:(x['bbox'][2]-x['bbox'][0])*(x['bbox'][3]-x['bbox'][1]));b=im['bbox'];box=[b[0]/p.rect.width,b[1]/p.rect.height,b[2]/p.rect.width,b[3]/p.rect.height];c['crops']['worm_DVA_map']=['WormAlcohol',18,box];sources.append(dict(path='figures/worm_DVA_map.png',article_doi='10.1371/journal.pgen.1009346',figure=7,page=18,crop_box=box,status='Original published proposed circuit, anatomical locator'))
+(R/'crops.json').write_text(json.dumps(c,indent=2)+'\n');(R/'figure_sources.json').write_text(json.dumps(sources,indent=2)+'\n')
