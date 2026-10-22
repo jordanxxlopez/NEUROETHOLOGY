@@ -19,3 +19,8 @@ This repo builds the course's lecture PowerPoints.
 ## Scoped demonstration exception: Lectures 104A–C
 
 For 104A, 104B, and 104C only, follow `course/demonstration_104_rules.md` in addition to these rules. It takes precedence for access failures, 20–30 embedded research-linked videos, no news/Shorts/TikTok, and approximately 25–35 additional credited subject-related images (animals, neurons, brain regions, or other slide-related structures). Continue with accessible alternatives except when a discussed article has a blocked relevant recording: request that original recording before final delivery. Retain 46 slides, primary research figures, teaching content, scientific provenance, and native video proportions. Other lectures are unaffected.
+
+
+## Scoped demonstration exception: Lectures 105A–B
+
+For 105A and 105B only, follow `course/demonstration_105_rules.md`. Each is a separate 50-slide PPTX (title + 48 content + Key takeaways), with 35–40 native embedded research-linked videos and approximately 25–35 additional credited subject-related images. Every content slide has a relevant image; retain at least 38 primary-figure content slides. Research-linked web/YouTube footage is allowed; news, Shorts and TikTok-style clips are excluded. Continue with accessible alternatives for ordinary source failures, but request the original recording when a selected article has a relevant blocked video before final delivery. Preserve the exact titles, scientific provenance, teaching requirements and native media proportions. Other lectures are unaffected.

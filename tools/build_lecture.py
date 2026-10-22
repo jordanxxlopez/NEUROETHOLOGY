@@ -556,7 +556,7 @@ class Deck:
         if self.article_slides < need_art:
             raise SpecError(f"only {self.article_slides} content slides have an article figure; need >= {need_art}. "
                             "Primary-article figures come first; request the PDFs you need.")
-        web_image_limit = 35 if str(self.spec["lecture"]) in {"104A", "104B", "104C"} else MAX_WEB_IMAGES
+        web_image_limit = 35 if str(self.spec["lecture"]) in {"104A", "104B", "104C", "105A", "105B"} else MAX_WEB_IMAGES
         if self.web_images > web_image_limit:
             raise SpecError(f"{self.web_images} web photos; at most {web_image_limit}. Decorative/general images only where needed — "
                             "give priority to primary-article figures.")
