@@ -1,354 +1,392 @@
-{
-  "lecture": "105A",
-  "title": "Animal Cloning I: nuclear transfer, epigenetic reprogramming, embryonic development, and nervous system formation across species.",
-  "date": "Date TBD",
-  "total_slides": 50,
-  "content_slides": 48,
-  "embedded_video_target": [
-    35,
-    40
-  ],
-  "additional_credited_image_target": [
-    25,
-    35
-  ],
-  "status": "Source preparation only; no completed PPTX",
-  "slides": [
-    {
-      "slide": 2,
-      "title": "Nuclear transfer tests the developmental role of the nucleus",
-      "source_key": "Frog1952",
-      "doi": "10.1073/pnas.38.5.455",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 3,
-      "title": "Egg cytoplasm supports development after nuclear replacement",
-      "source_key": "Frog1952",
-      "doi": "10.1073/pnas.38.5.455",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 4,
-      "title": "Donor stage changes the outcome of frog nuclear transfer",
-      "source_key": "Frog1962",
-      "doi": "10.1242/dev.10.4.622",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 5,
-      "title": "Differentiated intestinal nuclei retain developmental genes",
-      "source_key": "Frog1962",
-      "doi": "10.1242/dev.10.4.622",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 6,
-      "title": "Serial transfer separates donor potential from early failure",
-      "source_key": "Frog1962",
-      "doi": "10.1242/dev.10.4.622",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 7,
-      "title": "Tadpole development includes neural and motor organization",
-      "source_key": "Frog1962",
-      "doi": "10.1242/dev.10.4.622",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 8,
-      "title": "Oocytes and activated eggs provide different environments",
-      "source_key": "FrogChromatin",
-      "doi": "10.1016/j.celrep.2018.06.030",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 9,
-      "title": "Chromatin accessibility changes transcriptional resetting",
-      "source_key": "FrogChromatin",
-      "doi": "10.1016/j.celrep.2018.06.030",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 10,
-      "title": "Cultured sheep cells can support development to term",
-      "source_key": "Sheep1996",
-      "doi": "10.1038/380064a0",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 11,
-      "title": "Donor and recipient cell cycles must be coordinated",
-      "source_key": "Sheep1996",
-      "doi": "10.1038/380064a0",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 12,
-      "title": "An adult mammary-cell nucleus supported Dolly’s development",
-      "source_key": "Sheep1997",
-      "doi": "10.1038/385810a0",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 13,
-      "title": "Genetic markers establish the origin of a cloned sheep",
-      "source_key": "Sheep1997",
-      "doi": "10.1038/385810a0",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 14,
-      "title": "Embryo development and live birth are separate outcomes",
-      "source_key": "Sheep1997",
-      "doi": "10.1038/385810a0",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 15,
-      "title": "Adult cattle cells can generate multiple nuclear clones",
-      "source_key": "Cattle1998",
-      "doi": "10.1126/science.282.5396.2095",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 16,
-      "title": "Donor-cell type contributes to cloning outcomes in cattle",
-      "source_key": "Cattle1998",
-      "doi": "10.1126/science.282.5396.2095",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 17,
-      "title": "Bovine nuclei undergo extensive structural remodeling",
-      "source_key": "BovineRemodeling",
-      "doi": "10.4161/19491034.2014.979712",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 18,
-      "title": "Cloned and fertilized nuclei reach different chromatin states",
-      "source_key": "BovineRemodeling",
-      "doi": "10.4161/19491034.2014.979712",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 19,
-      "title": "Direct nuclear injection produced cloned mice",
-      "source_key": "Mouse1998",
-      "doi": "10.1038/28615",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 20,
-      "title": "The reconstructed mouse egg resumes an embryonic cell cycle",
-      "source_key": "Mouse1998",
-      "doi": "10.1038/28615",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 21,
-      "title": "H3K9me3 can preserve a barrier to embryonic gene activation",
-      "source_key": "Barrier2014",
-      "doi": "10.1016/j.cell.2014.09.055",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 22,
-      "title": "Removing a chromatin barrier improves mouse development",
-      "source_key": "Barrier2014",
-      "doi": "10.1016/j.cell.2014.09.055",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 23,
-      "title": "Reprogramming is tested through embryonic transcription",
-      "source_key": "Barrier2014",
-      "doi": "10.1016/j.cell.2014.09.055",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 24,
-      "title": "Somatic nuclei lack an oocyte-specific imprinting pattern",
-      "source_key": "Imprint2018",
-      "doi": "10.1016/j.stem.2018.06.008",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 25,
-      "title": "Imprinting defects affect development after implantation",
-      "source_key": "Imprint2018",
-      "doi": "10.1016/j.stem.2018.06.008",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 26,
-      "title": "Embryonic neural-cell nuclei can support whole development",
-      "source_key": "Neuron2001",
-      "doi": "10.1073/pnas.231489398",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 27,
-      "title": "Adult neuronal nuclei can be reprogrammed by nuclear transfer",
-      "source_key": "Neuron2015",
-      "doi": "10.1095/biolreprod.114.123455",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 28,
-      "title": "A specialized neuron and its nuclear genome are distinct",
-      "source_key": "Neuron2004",
-      "doi": "10.1038/nature02375",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 29,
-      "title": "Nuclear-transfer stem cells can enter neural lineages",
-      "source_key": "NeuralSpec2003",
-      "doi": "10.1038/nbt870",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 30,
-      "title": "Neural precursors differ from mature functional neurons",
-      "source_key": "NeuralSpec2003",
-      "doi": "10.1038/nbt870",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 31,
-      "title": "Patterning signals specify neuronal subtypes in culture",
-      "source_key": "NeuralSpec2003",
-      "doi": "10.1038/nbt870",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 32,
-      "title": "Dopaminergic differentiation creates a functional cell test",
-      "source_key": "NeuralSpec2003",
-      "doi": "10.1038/nbt870",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 33,
-      "title": "Neural graft recipients are distinct from whole-animal clones",
-      "source_key": "NeuralSpec2003",
-      "doi": "10.1038/nbt870",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 34,
-      "title": "Fetal pig fibroblasts can supply a nucleus for development",
-      "source_key": "Pig2000",
-      "doi": "10.1126/science.289.5482.1188",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 35,
-      "title": "Pig cloning separates donor, oocyte and gestational roles",
-      "source_key": "Pig2000",
-      "doi": "10.1126/science.289.5482.1188",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 36,
-      "title": "Cat time-lapse imaging follows reconstructed embryos",
-      "source_key": "CatMorphokinetic",
-      "doi": "10.3390/ani15020148",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 37,
-      "title": "Normal and direct cleavage create different trajectories",
-      "source_key": "CatMorphokinetic",
-      "doi": "10.3390/ani15020148",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 38,
-      "title": "Uneven cleavage changes the assessment of embryo quality",
-      "source_key": "CatMorphokinetic",
-      "doi": "10.3390/ani15020148",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 39,
-      "title": "Cynomolgus macaques were cloned from fetal fibroblasts",
-      "source_key": "Monkey2018",
-      "doi": "10.1016/j.cell.2018.01.020",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 40,
-      "title": "Epigenetic interventions improved macaque embryo outcomes",
-      "source_key": "Monkey2018",
-      "doi": "10.1016/j.cell.2018.01.020",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 41,
-      "title": "Rhesus cloning exposed a postimplantation barrier",
-      "source_key": "Monkey2024",
-      "doi": "10.1038/s41467-023-43985-7",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 42,
-      "title": "Trophoblast replacement changes the placental contribution",
-      "source_key": "Monkey2024",
-      "doi": "10.1038/s41467-023-43985-7",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 43,
-      "title": "Inner cell mass origin determines the embryonic lineage",
-      "source_key": "Monkey2024",
-      "doi": "10.1038/s41467-023-43985-7",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 44,
-      "title": "Marmoset protocols extend the comparative method",
-      "source_key": "MarmosetProtocol",
-      "doi": "10.1016/j.xpro.2026.104671",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 45,
-      "title": "Cell injection alone does not establish donor-derived cloning",
-      "source_key": "Sturgeon2018",
-      "doi": "10.1038/s41598-018-24376-1",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 46,
-      "title": "Transferred sturgeon eggs can form neural folds and somites",
-      "source_key": "Sturgeon2018",
-      "doi": "10.1038/s41598-018-24376-1",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 47,
-      "title": "Genotyping distinguished a maternal-genome larval outcome",
-      "source_key": "Sturgeon2018",
-      "doi": "10.1038/s41598-018-24376-1",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 48,
-      "title": "Ancient nuclei can show activity without viable development",
-      "source_key": "MammothNuclei",
-      "doi": "10.1038/s41598-019-40546-1",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    },
-    {
-      "slide": 49,
-      "title": "A horse clone can develop in its genetic twin’s uterus",
-      "source_key": "Horse2003",
-      "doi": "10.1038/424635a",
-      "status": "Provisional teaching plan; verify full source, exact figures and relevant recording before final prose"
-    }
-  ]
-}
+[
+  {
+    "slide": 2,
+    "title": "Nuclear transfer tests what a nucleus retains",
+    "source_key": "Frog1952",
+    "refs": [
+      "Briggs R, King TJ (1952). Transplantation of Living Nuclei From Blastula Cells into Enucleated Frogs' Eggs. Proceedings of the National Academy of Sciences of the United States of America 38(5):455-463. https://doi.org/10.1073/pnas.38.5.455"
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "Genetic controls identify a nuclear contribution",
+    "source_key": "Frog1952",
+    "refs": [
+      "Briggs R, King TJ (1952). Transplantation of Living Nuclei From Blastula Cells into Enucleated Frogs' Eggs. Proceedings of the National Academy of Sciences of the United States of America 38(5):455-463. https://doi.org/10.1073/pnas.38.5.455"
+    ]
+  },
+  {
+    "slide": 4,
+    "title": "Survival extends beyond initial cleavage",
+    "source_key": "Frog1952",
+    "refs": [
+      "Briggs R, King TJ (1952). Transplantation of Living Nuclei From Blastula Cells into Enucleated Frogs' Eggs. Proceedings of the National Academy of Sciences of the United States of America 38(5):455-463. https://doi.org/10.1073/pnas.38.5.455"
+    ]
+  },
+  {
+    "slide": 5,
+    "title": "Chromatin accessibility shapes reprogramming",
+    "source_key": "FrogChromatin",
+    "refs": [
+      "Miyamoto K, Nguyen KT, Allen GE, Jullien J, Kumar D, Otani T, Bradshaw CR, Livesey FJ, Kellis M, Gurdon JB (2018). Chromatin Accessibility Impacts Transcriptional Reprogramming in Oocytes. Cell reports 24(2):304-311. https://doi.org/10.1016/j.celrep.2018.06.030"
+    ]
+  },
+  {
+    "slide": 6,
+    "title": "Oocyte cytoplasm changes gene activity",
+    "source_key": "FrogChromatin",
+    "refs": [
+      "Miyamoto K, Nguyen KT, Allen GE, Jullien J, Kumar D, Otani T, Bradshaw CR, Livesey FJ, Kellis M, Gurdon JB (2018). Chromatin Accessibility Impacts Transcriptional Reprogramming in Oocytes. Cell reports 24(2):304-311. https://doi.org/10.1016/j.celrep.2018.06.030"
+    ]
+  },
+  {
+    "slide": 7,
+    "title": "An adult nucleus can support a new sheep",
+    "source_key": "SheepAging",
+    "refs": [
+      "Sinclair KD, Corr SA, Gutierrez CG, Fisher PA, Lee JH, Rathbone AJ, Choi I, Campbell KH, Gardner DS (2016). Healthy ageing of cloned sheep. Nature communications 7:12359. https://doi.org/10.1038/ncomms12359",
+      "Wilmut I, Schnieke AE, McWhir J, Kind AJ, Campbell KH (1997). Viable offspring derived from fetal and adult mammalian cells. Nature 385(6619):810-813. https://doi.org/10.1038/385810a0"
+    ]
+  },
+  {
+    "slide": 8,
+    "title": "Cloned sheep retain adult metabolic function",
+    "source_key": "SheepAging",
+    "refs": [
+      "Sinclair KD, Corr SA, Gutierrez CG, Fisher PA, Lee JH, Rathbone AJ, Choi I, Campbell KH, Gardner DS (2016). Healthy ageing of cloned sheep. Nature communications 7:12359. https://doi.org/10.1038/ncomms12359",
+      "Wilmut I, Schnieke AE, McWhir J, Kind AJ, Campbell KH (1997). Viable offspring derived from fetal and adult mammalian cells. Nature 385(6619):810-813. https://doi.org/10.1038/385810a0"
+    ]
+  },
+  {
+    "slide": 9,
+    "title": "Joint health is a developmental outcome",
+    "source_key": "SheepAging",
+    "refs": [
+      "Sinclair KD, Corr SA, Gutierrez CG, Fisher PA, Lee JH, Rathbone AJ, Choi I, Campbell KH, Gardner DS (2016). Healthy ageing of cloned sheep. Nature communications 7:12359. https://doi.org/10.1038/ncomms12359",
+      "Wilmut I, Schnieke AE, McWhir J, Kind AJ, Campbell KH (1997). Viable offspring derived from fetal and adult mammalian cells. Nature 385(6619):810-813. https://doi.org/10.1038/385810a0"
+    ]
+  },
+  {
+    "slide": 10,
+    "title": "Nuclear origin differs from developmental age",
+    "source_key": "SheepAging",
+    "refs": [
+      "Sinclair KD, Corr SA, Gutierrez CG, Fisher PA, Lee JH, Rathbone AJ, Choi I, Campbell KH, Gardner DS (2016). Healthy ageing of cloned sheep. Nature communications 7:12359. https://doi.org/10.1038/ncomms12359",
+      "Wilmut I, Schnieke AE, McWhir J, Kind AJ, Campbell KH (1997). Viable offspring derived from fetal and adult mammalian cells. Nature 385(6619):810-813. https://doi.org/10.1038/385810a0"
+    ]
+  },
+  {
+    "slide": 11,
+    "title": "Bovine nuclei reorganize after transfer",
+    "source_key": "BovineRemodeling",
+    "refs": [
+      "Popken J, Brero A, Koehler D, Schmid VJ, Strauss A, Wuensch A, Guengoer T, Graf A, Krebs S, Blum H, Zakhartchenko V, Wolf E, Cremer T (2014). Reprogramming of fibroblast nuclei in cloned bovine embryos involves major structural remodeling with both striking similarities and differences to nuclear phenotypes of in vitro fertilized embryos. Nucleus (Austin, Tex.) 5(6):555-589. https://doi.org/10.4161/19491034.2014.979712"
+    ]
+  },
+  {
+    "slide": 12,
+    "title": "Fertilized nuclei provide a reference",
+    "source_key": "BovineRemodeling",
+    "refs": [
+      "Popken J, Brero A, Koehler D, Schmid VJ, Strauss A, Wuensch A, Guengoer T, Graf A, Krebs S, Blum H, Zakhartchenko V, Wolf E, Cremer T (2014). Reprogramming of fibroblast nuclei in cloned bovine embryos involves major structural remodeling with both striking similarities and differences to nuclear phenotypes of in vitro fertilized embryos. Nucleus (Austin, Tex.) 5(6):555-589. https://doi.org/10.4161/19491034.2014.979712"
+    ]
+  },
+  {
+    "slide": 13,
+    "title": "Chromatin domains organize nuclear space",
+    "source_key": "BovineRemodeling",
+    "refs": [
+      "Popken J, Brero A, Koehler D, Schmid VJ, Strauss A, Wuensch A, Guengoer T, Graf A, Krebs S, Blum H, Zakhartchenko V, Wolf E, Cremer T (2014). Reprogramming of fibroblast nuclei in cloned bovine embryos involves major structural remodeling with both striking similarities and differences to nuclear phenotypes of in vitro fertilized embryos. Nucleus (Austin, Tex.) 5(6):555-589. https://doi.org/10.4161/19491034.2014.979712"
+    ]
+  },
+  {
+    "slide": 14,
+    "title": "Nucleolar structures change during cleavage",
+    "source_key": "BovineRemodeling",
+    "refs": [
+      "Popken J, Brero A, Koehler D, Schmid VJ, Strauss A, Wuensch A, Guengoer T, Graf A, Krebs S, Blum H, Zakhartchenko V, Wolf E, Cremer T (2014). Reprogramming of fibroblast nuclei in cloned bovine embryos involves major structural remodeling with both striking similarities and differences to nuclear phenotypes of in vitro fertilized embryos. Nucleus (Austin, Tex.) 5(6):555-589. https://doi.org/10.4161/19491034.2014.979712"
+    ]
+  },
+  {
+    "slide": 15,
+    "title": "Molecular labels identify nuclear components",
+    "source_key": "BovineRemodeling",
+    "refs": [
+      "Popken J, Brero A, Koehler D, Schmid VJ, Strauss A, Wuensch A, Guengoer T, Graf A, Krebs S, Blum H, Zakhartchenko V, Wolf E, Cremer T (2014). Reprogramming of fibroblast nuclei in cloned bovine embryos involves major structural remodeling with both striking similarities and differences to nuclear phenotypes of in vitro fertilized embryos. Nucleus (Austin, Tex.) 5(6):555-589. https://doi.org/10.4161/19491034.2014.979712"
+    ]
+  },
+  {
+    "slide": 16,
+    "title": "Cleavage stage changes nuclear structure",
+    "source_key": "BovineRemodeling",
+    "refs": [
+      "Popken J, Brero A, Koehler D, Schmid VJ, Strauss A, Wuensch A, Guengoer T, Graf A, Krebs S, Blum H, Zakhartchenko V, Wolf E, Cremer T (2014). Reprogramming of fibroblast nuclei in cloned bovine embryos involves major structural remodeling with both striking similarities and differences to nuclear phenotypes of in vitro fertilized embryos. Nucleus (Austin, Tex.) 5(6):555-589. https://doi.org/10.4161/19491034.2014.979712"
+    ]
+  },
+  {
+    "slide": 17,
+    "title": "Precursor bodies fuse within a pronucleus",
+    "source_key": "NucleolusSCNT",
+    "refs": [
+      "Kyogoku H, Wakayama T, Kitajima TS, Miyano T (2018). Single nucleolus precursor body formation in the pronucleus of mouse zygotes and SCNT embryos. PloS one 13(8):e0202663. https://doi.org/10.1371/journal.pone.0202663"
+    ]
+  },
+  {
+    "slide": 18,
+    "title": "Extra precursor material changes SCNT nuclei",
+    "source_key": "NucleolusSCNT",
+    "refs": [
+      "Kyogoku H, Wakayama T, Kitajima TS, Miyano T (2018). Single nucleolus precursor body formation in the pronucleus of mouse zygotes and SCNT embryos. PloS one 13(8):e0202663. https://doi.org/10.1371/journal.pone.0202663"
+    ]
+  },
+  {
+    "slide": 19,
+    "title": "Early chromosome segregation is observable",
+    "source_key": "ChromosomeSegregation",
+    "refs": [
+      "Mashiko D, Ikeda Z, Yao T, Tokoro M, Fukunaga N, Asada Y, Yamagata K (2020). Chromosome segregation error during early cleavage in mouse pre-implantation embryo does not necessarily cause developmental failure after blastocyst stage. Scientific reports 10(1):854. https://doi.org/10.1038/s41598-020-57817-x"
+    ]
+  },
+  {
+    "slide": 20,
+    "title": "Micronuclei permit different later outcomes",
+    "source_key": "ChromosomeSegregation",
+    "refs": [
+      "Mashiko D, Ikeda Z, Yao T, Tokoro M, Fukunaga N, Asada Y, Yamagata K (2020). Chromosome segregation error during early cleavage in mouse pre-implantation embryo does not necessarily cause developmental failure after blastocyst stage. Scientific reports 10(1):854. https://doi.org/10.1038/s41598-020-57817-x"
+    ]
+  },
+  {
+    "slide": 21,
+    "title": "Cortical donor state affects development",
+    "source_key": "Neuron2001",
+    "refs": [
+      "Yamazaki Y, Makino H, Hamaguchi-Hamada K, Hamada S, Sugino H, Kawase E, Miyata T, Ogawa M, Yanagimachi R, Yagi T (2001). Assessment of the developmental totipotency of neural cells in the cerebral cortex of mouse embryo by nuclear transfer. Proceedings of the National Academy of Sciences of the United States of America 98(24):14022-14026. https://doi.org/10.1073/pnas.231489398"
+    ]
+  },
+  {
+    "slide": 22,
+    "title": "Adult neuronal nuclei retain genomic potential",
+    "source_key": "Neuron2015",
+    "refs": [
+      "Mizutani E, Oikawa M, Kassai H, Inoue K, Shiura H, Hirasawa R, Kamimura S, Matoba S, Ogonuki N, Nagatomo H, Abe K, Wakayama T, Aiba A, Ogura A (2015). Generation of cloned mice from adult neurons by direct nuclear transfer. Biology of reproduction 92(3):81. https://doi.org/10.1095/biolreprod.114.123455",
+      "Yamazaki Y, Makino H, Hamaguchi-Hamada K, Hamada S, Sugino H, Kawase E, Miyata T, Ogawa M, Yanagimachi R, Yagi T (2001). Assessment of the developmental totipotency of neural cells in the cerebral cortex of mouse embryo by nuclear transfer. Proceedings of the National Academy of Sciences of the United States of America 98(24):14022-14026. https://doi.org/10.1073/pnas.231489398"
+    ]
+  },
+  {
+    "slide": 23,
+    "title": "New embryos build their own nervous systems",
+    "source_key": "Neuron2001",
+    "refs": [
+      "Yamazaki Y, Makino H, Hamaguchi-Hamada K, Hamada S, Sugino H, Kawase E, Miyata T, Ogawa M, Yanagimachi R, Yagi T (2001). Assessment of the developmental totipotency of neural cells in the cerebral cortex of mouse embryo by nuclear transfer. Proceedings of the National Academy of Sciences of the United States of America 98(24):14022-14026. https://doi.org/10.1073/pnas.231489398"
+    ]
+  },
+  {
+    "slide": 24,
+    "title": "Neural differentiation follows gene activation",
+    "source_key": "NeuralSpec2003",
+    "refs": [
+      "Barberi T, Klivenyi P, Calingasan NY, Lee H, Kawamata H, Loonam K, Perrier AL, Bruses J, Rubio ME, Topf N, Tabar V, Harrison NL, Beal MF, Moore MA, Studer L (2003). Neural subtype specification of fertilization and nuclear transfer embryonic stem cells and application in parkinsonian mice. Nature biotechnology 21(10):1200-1207. https://doi.org/10.1038/nbt870"
+    ]
+  },
+  {
+    "slide": 25,
+    "title": "Feline imaging follows embryo development",
+    "source_key": "CatMorphokinetic",
+    "refs": [
+      "Liu HJ, Oh SJWY, Tay NL, Lim CY, Hsu CD, Chua DHH, Teo WKL, Loh YH, Ng SC (2025). Morphokinetic Analyses of Fishing Cat-Domestic Cat Interspecies Somatic Cell Nuclear Transfer Embryos Through A Time-Lapse System. Animals : an open access journal from MDPI 15(2):148. https://doi.org/10.3390/ani15020148"
+    ]
+  },
+  {
+    "slide": 26,
+    "title": "Normal first cleavage produces two cells",
+    "source_key": "CatMorphokinetic",
+    "refs": [
+      "Liu HJ, Oh SJWY, Tay NL, Lim CY, Hsu CD, Chua DHH, Teo WKL, Loh YH, Ng SC (2025). Morphokinetic Analyses of Fishing Cat-Domestic Cat Interspecies Somatic Cell Nuclear Transfer Embryos Through A Time-Lapse System. Animals : an open access journal from MDPI 15(2):148. https://doi.org/10.3390/ani15020148"
+    ]
+  },
+  {
+    "slide": 27,
+    "title": "Direct cleavage changes developmental paths",
+    "source_key": "CatMorphokinetic",
+    "refs": [
+      "Liu HJ, Oh SJWY, Tay NL, Lim CY, Hsu CD, Chua DHH, Teo WKL, Loh YH, Ng SC (2025). Morphokinetic Analyses of Fishing Cat-Domestic Cat Interspecies Somatic Cell Nuclear Transfer Embryos Through A Time-Lapse System. Animals : an open access journal from MDPI 15(2):148. https://doi.org/10.3390/ani15020148"
+    ]
+  },
+  {
+    "slide": 28,
+    "title": "Uneven cleavage differs from compaction",
+    "source_key": "CatMorphokinetic",
+    "refs": [
+      "Liu HJ, Oh SJWY, Tay NL, Lim CY, Hsu CD, Chua DHH, Teo WKL, Loh YH, Ng SC (2025). Morphokinetic Analyses of Fishing Cat-Domestic Cat Interspecies Somatic Cell Nuclear Transfer Embryos Through A Time-Lapse System. Animals : an open access journal from MDPI 15(2):148. https://doi.org/10.3390/ani15020148"
+    ]
+  },
+  {
+    "slide": 29,
+    "title": "Rhesus cloning exposes a placental barrier",
+    "source_key": "Monkey2024",
+    "refs": [
+      "Liao Z, Zhang J, Sun S, Li Y, Xu Y, Li C, Cao J, Nie Y, Niu Z, Liu J, Lu F, Liu Z, Sun Q (2024). Reprogramming mechanism dissection and trophoblast replacement application in monkey somatic cell nuclear transfer. Nature communications 15(1):5. https://doi.org/10.1038/s41467-023-43985-7"
+    ]
+  },
+  {
+    "slide": 30,
+    "title": "Imprinting depends on developmental history",
+    "source_key": "Monkey2024",
+    "refs": [
+      "Liao Z, Zhang J, Sun S, Li Y, Xu Y, Li C, Cao J, Nie Y, Niu Z, Liu J, Lu F, Liu Z, Sun Q (2024). Reprogramming mechanism dissection and trophoblast replacement application in monkey somatic cell nuclear transfer. Nature communications 15(1):5. https://doi.org/10.1038/s41467-023-43985-7"
+    ]
+  },
+  {
+    "slide": 31,
+    "title": "Trophoblast replacement changes support",
+    "source_key": "Monkey2024",
+    "refs": [
+      "Liao Z, Zhang J, Sun S, Li Y, Xu Y, Li C, Cao J, Nie Y, Niu Z, Liu J, Lu F, Liu Z, Sun Q (2024). Reprogramming mechanism dissection and trophoblast replacement application in monkey somatic cell nuclear transfer. Nature communications 15(1):5. https://doi.org/10.1038/s41467-023-43985-7"
+    ]
+  },
+  {
+    "slide": 32,
+    "title": "Markers identify reconstructed tissue origins",
+    "source_key": "Monkey2024",
+    "refs": [
+      "Liao Z, Zhang J, Sun S, Li Y, Xu Y, Li C, Cao J, Nie Y, Niu Z, Liu J, Lu F, Liu Z, Sun Q (2024). Reprogramming mechanism dissection and trophoblast replacement application in monkey somatic cell nuclear transfer. Nature communications 15(1):5. https://doi.org/10.1038/s41467-023-43985-7"
+    ]
+  },
+  {
+    "slide": 33,
+    "title": "Marmoset SCNT needs a prepared oocyte",
+    "source_key": "MarmosetProtocol",
+    "refs": [
+      "Kurotaki Y, Yamada Y, Ogonuki N, Ogura A, Sasaki E, Matoba S (2026). Protocol for somatic cell nuclear transfer in the common marmoset. STAR protocols 7(3):104671. https://doi.org/10.1016/j.xpro.2026.104671"
+    ]
+  },
+  {
+    "slide": 34,
+    "title": "Monkey blastoids model early organization",
+    "source_key": "MonkeyBlastoid",
+    "refs": [
+      "Wu J, Shao T, Tang Z, Liu G, Li Z, Shi Y, Kang Y, Zuo J, Zhao B, Hu G, Liu J, Ji W, Zhang L, Niu Y (2025). Highly efficient construction of monkey blastoid capsules from aged somatic cells. Nature communications 16(1):1130. https://doi.org/10.1038/s41467-025-56447-z"
+    ]
+  },
+  {
+    "slide": 35,
+    "title": "Sturgeon injection does not establish identity",
+    "source_key": "Sturgeon2018",
+    "refs": [
+      "Fatira E, Havelka M, Labbé C, Depincé A, Iegorova V, Pšenička M, Saito T (2018). Application of interspecific Somatic Cell Nuclear Transfer (iSCNT) in sturgeons and an unexpectedly produced gynogenetic sterlet with homozygous quadruple haploid. Scientific reports 8(1):5997. https://doi.org/10.1038/s41598-018-24376-1"
+    ]
+  },
+  {
+    "slide": 36,
+    "title": "Sturgeon histology assesses tissue formation",
+    "source_key": "Sturgeon2019",
+    "refs": [
+      "Fatira E, Havelka M, Labbé C, Depincé A, Pšenička M, Saito T (2019). A newly developed cloning technique in sturgeons; an important step towards recovering endangered species. Scientific reports 9(1):10453. https://doi.org/10.1038/s41598-019-46892-4"
+    ]
+  },
+  {
+    "slide": 37,
+    "title": "Genotyping identifies a maternal outcome",
+    "source_key": "Sturgeon2018",
+    "refs": [
+      "Fatira E, Havelka M, Labbé C, Depincé A, Iegorova V, Pšenička M, Saito T (2018). Application of interspecific Somatic Cell Nuclear Transfer (iSCNT) in sturgeons and an unexpectedly produced gynogenetic sterlet with homozygous quadruple haploid. Scientific reports 8(1):5997. https://doi.org/10.1038/s41598-018-24376-1"
+    ]
+  },
+  {
+    "slide": 38,
+    "title": "Ancient nuclei retain some components",
+    "source_key": "MammothNuclei",
+    "refs": [
+      "Yamagata K, Nagai K, Miyamoto H, Anzai M, Kato H, Miyamoto K, Kurosaka S, Azuma R, Kolodeznikov II, Protopopov AV, Plotnikov VV, Kobayashi H, Kawahara-Miki R, Kono T, Uchida M, Shibata Y, Handa T, Kimura H, Hosoi Y, Mitani T, Matsumoto K, Iritani A (2019). Signs of biological activities of 28,000-year-old mammoth nuclei in mouse oocytes visualized by live-cell imaging. Scientific reports 9(1):4050. https://doi.org/10.1038/s41598-019-40546-1"
+    ]
+  },
+  {
+    "slide": 39,
+    "title": "Histone recruitment tests chromatin responses",
+    "source_key": "MammothNuclei",
+    "refs": [
+      "Yamagata K, Nagai K, Miyamoto H, Anzai M, Kato H, Miyamoto K, Kurosaka S, Azuma R, Kolodeznikov II, Protopopov AV, Plotnikov VV, Kobayashi H, Kawahara-Miki R, Kono T, Uchida M, Shibata Y, Handa T, Kimura H, Hosoi Y, Mitani T, Matsumoto K, Iritani A (2019). Signs of biological activities of 28,000-year-old mammoth nuclei in mouse oocytes visualized by live-cell imaging. Scientific reports 9(1):4050. https://doi.org/10.1038/s41598-019-40546-1"
+    ]
+  },
+  {
+    "slide": 40,
+    "title": "Spindle responses concern chromosome handling",
+    "source_key": "MammothNuclei",
+    "refs": [
+      "Yamagata K, Nagai K, Miyamoto H, Anzai M, Kato H, Miyamoto K, Kurosaka S, Azuma R, Kolodeznikov II, Protopopov AV, Plotnikov VV, Kobayashi H, Kawahara-Miki R, Kono T, Uchida M, Shibata Y, Handa T, Kimura H, Hosoi Y, Mitani T, Matsumoto K, Iritani A (2019). Signs of biological activities of 28,000-year-old mammoth nuclei in mouse oocytes visualized by live-cell imaging. Scientific reports 9(1):4050. https://doi.org/10.1038/s41598-019-40546-1"
+    ]
+  },
+  {
+    "slide": 41,
+    "title": "DNA damage responses follow nuclear transfer",
+    "source_key": "MammothNuclei",
+    "refs": [
+      "Yamagata K, Nagai K, Miyamoto H, Anzai M, Kato H, Miyamoto K, Kurosaka S, Azuma R, Kolodeznikov II, Protopopov AV, Plotnikov VV, Kobayashi H, Kawahara-Miki R, Kono T, Uchida M, Shibata Y, Handa T, Kimura H, Hosoi Y, Mitani T, Matsumoto K, Iritani A (2019). Signs of biological activities of 28,000-year-old mammoth nuclei in mouse oocytes visualized by live-cell imaging. Scientific reports 9(1):4050. https://doi.org/10.1038/s41598-019-40546-1"
+    ]
+  },
+  {
+    "slide": 42,
+    "title": "Mouse oocytes can reduce somatic ploidy",
+    "source_key": "HaploidyOocyte",
+    "refs": [
+      "Lee Y, Trout A, Marti-Gutierrez N, Kang S, Xie P, Mikhalchenko A, Kim B, Choi J, So S, Han J, Xu J, Koski A, Ma H, Yoon JD, Van Dyken C, Darby H, Liang D, Li Y, Tippner-Hedges R, Xu F, Amato P, Palermo GD, Mitalipov S, Kang E (2022). Haploidy in somatic cells is induced by mature oocytes in mice. Communications biology 5(1):95. https://doi.org/10.1038/s42003-022-03040-5"
+    ]
+  },
+  {
+    "slide": 43,
+    "title": "Chromosome reduction differs from cloning",
+    "source_key": "ExperimentalDivision",
+    "refs": [
+      "Marti Gutierrez N, Mikhalchenko A, Shishimorova M, Frana D, Van Dyken C, Li Y, Ma H, Koski A, Liang D, Lee SG, Eyberg D, Safaei Z, Kang E, Lee Y, O'Leary T, Lee D, Krieg S, Wu D, Rubin E, Amato P, Mitalipov S (2025). Induction of experimental cell division to generate cells with reduced chromosome ploidy. Nature communications 16(1):8340. https://doi.org/10.1038/s41467-025-63454-7"
+    ]
+  },
+  {
+    "slide": 44,
+    "title": "Halving chromosome count differs from meiosis",
+    "source_key": "ExperimentalDivision",
+    "refs": [
+      "Marti Gutierrez N, Mikhalchenko A, Shishimorova M, Frana D, Van Dyken C, Li Y, Ma H, Koski A, Liang D, Lee SG, Eyberg D, Safaei Z, Kang E, Lee Y, O'Leary T, Lee D, Krieg S, Wu D, Rubin E, Amato P, Mitalipov S (2025). Induction of experimental cell division to generate cells with reduced chromosome ploidy. Nature communications 16(1):8340. https://doi.org/10.1038/s41467-025-63454-7"
+    ]
+  },
+  {
+    "slide": 45,
+    "title": "Freeze-dried cells can support reconstruction",
+    "source_key": "Freeze2022",
+    "refs": [
+      "Wakayama S, Ito D, Hayashi E, Ishiuchi T, Wakayama T (2022). Healthy cloned offspring derived from freeze-dried somatic cells. Nature communications 13(1):3666. https://doi.org/10.1038/s41467-022-31216-4"
+    ]
+  },
+  {
+    "slide": 46,
+    "title": "Nuclear compatibility limits interspecies SCNT",
+    "source_key": "RaccoonDog",
+    "refs": [
+      "Jeon Y, Nam YH, Cheong SA, Kwak SS, Lee E, Hyun SH (2016). Absence of nucleolus formation in raccoon dog-porcine interspecies somatic cell nuclear transfer embryos results in embryonic developmental failure. The Journal of reproduction and development 62(4):345-350. https://doi.org/10.1262/jrd.2015-175"
+    ]
+  },
+  {
+    "slide": 47,
+    "title": "A horse clone develops in its donor’s uterus",
+    "source_key": "Horse2003",
+    "refs": [
+      "Galli C, Lagutina I, Crotti G, Colleoni S, Turini P, Ponderato N, Duchi R, Lazzari G (2003). Pregnancy: a cloned horse born to its dam twin. Nature 424(6949):635. https://doi.org/10.1038/424635a"
+    ]
+  },
+  {
+    "slide": 48,
+    "title": "Reprogramming changes gene use",
+    "source_key": "FrogChromatin",
+    "refs": [
+      "Miyamoto K, Nguyen KT, Allen GE, Jullien J, Kumar D, Otani T, Bradshaw CR, Livesey FJ, Kellis M, Gurdon JB (2018). Chromatin Accessibility Impacts Transcriptional Reprogramming in Oocytes. Cell reports 24(2):304-311. https://doi.org/10.1016/j.celrep.2018.06.030"
+    ]
+  },
+  {
+    "slide": 49,
+    "title": "Cloning spans molecular and animal development",
+    "source_key": "Monkey2024",
+    "refs": [
+      "Liao Z, Zhang J, Sun S, Li Y, Xu Y, Li C, Cao J, Nie Y, Niu Z, Liu J, Lu F, Liu Z, Sun Q (2024). Reprogramming mechanism dissection and trophoblast replacement application in monkey somatic cell nuclear transfer. Nature communications 15(1):5. https://doi.org/10.1038/s41467-023-43985-7",
+      "Sinclair KD, Corr SA, Gutierrez CG, Fisher PA, Lee JH, Rathbone AJ, Choi I, Campbell KH, Gardner DS (2016). Healthy ageing of cloned sheep. Nature communications 7:12359. https://doi.org/10.1038/ncomms12359"
+    ]
+  }
+]

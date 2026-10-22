@@ -70,7 +70,9 @@
     "91": "smoked steel blue / paper white",
     "104A": "palladium / blue mist",
     "104B": "arctic-slate",
-    "104C": "raincloud-blue-paper"
+    "104C": "raincloud-blue-paper",
+    "105A": "oxblood red / white paper",
+    "105B": "atlantic blue / white paper"
   },
   "palettes": {
     "midnight-silver": {
@@ -813,6 +815,32 @@
       "tint": "F0F3F6",
       "accent": "708197",
       "rule": "D1D9E2"
+    },
+    "oxblood-paper-105": {
+      "label": "oxblood red / white paper",
+      "title_bg": "6A3237",
+      "title_text": "FFFFFF",
+      "title_muted": "E9E9E9",
+      "bg": "FFFFFF",
+      "heading": "6A3237",
+      "text": "000000",
+      "muted": "000000",
+      "tint": "F1F2F3",
+      "accent": "6A3237",
+      "rule": "D2D5D8"
+    },
+    "atlantic-paper-105": {
+      "label": "atlantic blue / white paper",
+      "title_bg": "365A6B",
+      "title_text": "FFFFFF",
+      "title_muted": "E9E9E9",
+      "bg": "FFFFFF",
+      "heading": "365A6B",
+      "text": "000000",
+      "muted": "000000",
+      "tint": "F1F2F3",
+      "accent": "365A6B",
+      "rule": "D2D5D8"
     }
   }
 }

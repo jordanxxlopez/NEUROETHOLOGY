@@ -1,10 +1,5 @@
-# Lecture 105B: preparation checkpoint
+# Lecture 105B: complete
 
-**No completed PPTX exists.** The requested final lecture has exactly 50 slides (title + 48 content + Key takeaways), 35–40 native embedded clips, 25–35 additional credited images and primary research figures.
+50-slide editable PPTX, with 48 content slides and Key takeaways. Includes 35 native embedded teaching clips from 29 original research-associated recordings, 30 additional credited photo placements, and original primary-paper figures. Every content slide has an image.
 
-- Provisional teaching concepts: 48.
-- Compatible source recordings prepared and fully decoded: 23. These are candidate sources, not a final embedded-clip count; no movie is embedded yet.
-- Curated credited representative-species photographs: 30. Their subjects are not asserted to be clones.
-- Initial original-paper figure crops prepared: 3.
-- Final teaching prose, full figure selection, 35–40 useful clip placements, slide rendering and playback verification remain incomplete.
-- Original Movies S1 and S2 from Buchanan et al. (2015) are requested in PAPERS.md under the instructor’s selected-recording exception.
+The repository checker passes with `--content-slides 48`. All 50 rendered slides were reviewed; all three teaching paragraphs on every content slide occupy at least five rendered lines and fit their text boxes. Embedded movie relationships, hashes, proportions and full decoding passed. Desktop PowerPoint GUI playback and Google Slides import were not tested. See `delivery_verification.json`, `VIDEOS.md`, and source metadata. No selected original-recording upload remains outstanding.

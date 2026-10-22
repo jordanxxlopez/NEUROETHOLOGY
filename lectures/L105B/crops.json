@@ -1,11 +1,62 @@
 {
   "papers": {
+    "CowPhenotype": "papers/CowPhenotype_paper.pdf",
+    "CowNose": "papers/CowPhenotype_paper.pdf",
+    "PigMethylation": "papers/PigMethylation_paper.pdf",
     "DogLearning": "papers/DogLearning_paper.pdf",
-    "PigDetour": "papers/PigDetour_paper.pdf"
+    "DogChoices": "papers/DogLearning_paper.pdf",
+    "DogReward": "papers/DogReward_paper.pdf",
+    "DogOdor": "papers/DogOdor_paper.pdf",
+    "DogLabels": "papers/DogLabels_paper.pdf",
+    "DogCaregiver": "papers/DogCaregiver_paper.pdf",
+    "DogFearTraining": "papers/DogFearTraining_paper.pdf",
+    "PigDetour": "papers/PigDetour_paper.pdf",
+    "PigHTT": "papers/PigHTT_supp.pdf",
+    "PigXlinked": "papers/PigMeCP2_paper.pdf",
+    "PigMuscle": "papers/PigMeCP2_paper.pdf",
+    "MonkeyBmalClone": "papers/MonkeyBmalClone_paper.pdf",
+    "MonkeyBmalBehavior": "papers/MonkeyBmalBehavior_paper.pdf",
+    "MonkeyContext": "papers/MonkeyBmalBehavior_paper.pdf",
+    "ClonalFish2017": "papers/ClonalFish2017_paper.pdf",
+    "ClonalFish2022": "papers/ClonalFish2022_paper.pdf",
+    "ClonalFish2023": "papers/ClonalFish2023_paper.pdf",
+    "Orco2017": "papers/Orco2017_supp.pdf",
+    "FlyHandedness": "papers/FlyHandedness_paper.pdf",
+    "FlyCircuit": "papers/FlyHandedness_paper.pdf"
   },
   "dpi": 220,
   "crops": {
-    "dog2016_fig1a_b": [
+    "CowPhenotype": [
+      "CowPhenotype",
+      2,
+      [
+        0.09,
+        0.157,
+        0.672,
+        0.478
+      ]
+    ],
+    "CowNose": [
+      "CowNose",
+      4,
+      [
+        0.09,
+        0.158,
+        0.487,
+        0.34
+      ]
+    ],
+    "PigMethylation": [
+      "PigMethylation",
+      4,
+      [
+        0.205,
+        0.282,
+        0.795,
+        0.709
+      ]
+    ],
+    "DogLearning": [
       "DogLearning",
       2,
       [
@@ -15,8 +66,8 @@
         0.615
       ]
     ],
-    "dog2016_fig1c_e": [
-      "DogLearning",
+    "DogChoices": [
+      "DogChoices",
       2,
       [
         0.085,
@@ -25,7 +76,57 @@
         0.83
       ]
     ],
-    "pig2023_fig2": [
+    "DogReward": [
+      "DogReward",
+      5,
+      [
+        0.235,
+        0.075,
+        0.765,
+        0.303
+      ]
+    ],
+    "DogOdor": [
+      "DogOdor",
+      3,
+      [
+        0.08,
+        0.055,
+        0.95,
+        0.391
+      ]
+    ],
+    "DogLabels": [
+      "DogLabels",
+      6,
+      [
+        0.113,
+        0.057,
+        0.939,
+        0.6
+      ]
+    ],
+    "DogCaregiver": [
+      "DogCaregiver",
+      4,
+      [
+        0.19,
+        0.075,
+        0.793,
+        0.733
+      ]
+    ],
+    "DogFearTraining": [
+      "DogFearTraining",
+      11,
+      [
+        0.195,
+        0.568,
+        0.8,
+        0.774
+      ]
+    ],
+    "PigDetour": [
       "PigDetour",
       3,
       [
@@ -33,6 +134,136 @@
         0.688,
         0.925,
         0.89
+      ]
+    ],
+    "PigHTT": [
+      "PigHTT",
+      2,
+      [
+        0.12,
+        0.148,
+        0.84,
+        0.335
+      ]
+    ],
+    "PigXlinked": [
+      "PigXlinked",
+      3,
+      [
+        0.06,
+        0.055,
+        0.94,
+        0.43
+      ]
+    ],
+    "PigMuscle": [
+      "PigMuscle",
+      5,
+      [
+        0.22,
+        0.058,
+        0.786,
+        0.32
+      ]
+    ],
+    "MonkeyBmalClone": [
+      "MonkeyBmalClone",
+      6,
+      [
+        0.23,
+        0.085,
+        0.91,
+        0.669
+      ]
+    ],
+    "MonkeyBmalBehavior": [
+      "MonkeyBmalBehavior",
+      5,
+      [
+        0.085,
+        0.085,
+        0.91,
+        0.843
+      ]
+    ],
+    "MonkeyContext": [
+      "MonkeyContext",
+      7,
+      [
+        0.085,
+        0.085,
+        0.91,
+        0.34
+      ]
+    ],
+    "ClonalFish2017": [
+      "ClonalFish2017",
+      4,
+      [
+        0.085,
+        0.057,
+        0.915,
+        0.522
+      ]
+    ],
+    "ClonalFish2022": [
+      "ClonalFish2022",
+      4,
+      [
+        0.06,
+        0.05,
+        0.503,
+        0.565
+      ]
+    ],
+    "ClonalFish2023": [
+      "ClonalFish2023",
+      3,
+      [
+        0.06,
+        0.055,
+        0.915,
+        0.792
+      ]
+    ],
+    "Orco2017": [
+      "Orco2017",
+      2,
+      [
+        0.14,
+        0.085,
+        0.94,
+        0.62
+      ]
+    ],
+    "FlyHandedness": [
+      "FlyHandedness",
+      2,
+      [
+        0.06,
+        0.455,
+        0.49,
+        0.755
+      ]
+    ],
+    "FlyCircuit": [
+      "FlyCircuit",
+      4,
+      [
+        0.5,
+        0.27,
+        0.934,
+        0.8
+      ]
+    ],
+    "DogOpenfield": [
+      "DogLearning",
+      3,
+      [
+        0.51,
+        0.665,
+        0.93,
+        0.9
       ]
     ]
   }
